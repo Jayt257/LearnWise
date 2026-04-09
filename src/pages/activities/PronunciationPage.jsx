@@ -4,7 +4,7 @@
  * conditional audio players (only real paths), speech recording, scoring.
  */
 import React, { useState } from 'react';
-import { Mic, MicOff, Volume2 } from 'lucide-react';
+import { Volume2 } from 'lucide-react';
 import { useActivity } from '../../hooks/useActivity.js';
 import { ActivityHeader, Spinner, ContentMissing, LoadError } from './LessonPage.jsx';
 import TargetTextBlock from '../../components/TargetTextBlock.jsx';
@@ -30,7 +30,8 @@ export default function PronunciationPage({ pairId, activityFile, activitySeqId,
   const phrases = data.targetPhrasesOrWords || [];
   const total = phrases.length;
   const current = phrases[currentIdx];
-  const allRecorded = Object.keys(recordings).length === total && total > 0;
+  const recordedCount = Object.keys(recordings).length;
+  const allRecorded = recordedCount === total && total > 0;
 
   const handleRecordingDone = (transcript, idx) => {
     setRecordings(r => ({ ...r, [idx]: transcript }));
@@ -116,20 +117,20 @@ export default function PronunciationPage({ pairId, activityFile, activitySeqId,
             </div>
           )}
 
-          {/* Speech recorder */}
+          {/* Speech Recorder - includes Whisper transcript + audio playback in review state */}
           <div style={{ marginTop: '1.25rem' }}>
-            {recordings[currentIdx] ? (
-              <div style={{ padding: '0.75rem', background: 'rgba(16,185,129,0.08)', border: '1px solid rgba(16,185,129,0.25)', borderRadius: 'var(--radius-md)' }}>
-                <p style={{ fontSize: '0.8rem', color: 'var(--color-success-light)', marginBottom: '0.25rem' }}>🎤 Your recording:</p>
-                <p style={{ fontSize: '0.9rem' }}>"{recordings[currentIdx]}"</p>
-                <button className="btn btn-ghost btn-sm" style={{ marginTop: '0.5rem' }} onClick={() => setRecordings(r => { const n = {...r}; delete n[currentIdx]; return n; })}>Re-record</button>
-              </div>
-            ) : (
-              <AudioRecorder
-                expectedText={current.targetText}
-                onResult={(t) => handleRecordingDone(t, currentIdx)}
-              />
-            )}
+            <AudioRecorder
+              key={currentIdx} /* remount per phrase so state resets */
+              label={`Record phrase ${currentIdx + 1}: "${current.transliteration || current.targetText}"`}
+              expectedText={current.transliteration || current.targetText}
+              onResult={(t) => {
+                handleRecordingDone(t, currentIdx);
+                // Auto advance to next phrase after a short delay
+                if (currentIdx < total - 1) {
+                  setTimeout(() => setCurrentIdx(i => i + 1), 800);
+                }
+              }}
+            />
           </div>
         </div>
       )}
@@ -145,8 +146,16 @@ export default function PronunciationPage({ pairId, activityFile, activitySeqId,
 
       {!result && (
         <div style={{ textAlign: 'center' }}>
-          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting || (total > 0 && !allRecorded)}>
-            {submitting ? <><span className="spinner" /> Evaluating...</> : total > 0 && !allRecorded ? `Record all ${total} items to submit` : '✅ Submit Pronunciation'}
+          <button className="btn btn-primary btn-lg" onClick={handleSubmit}
+            disabled={submitting || (total > 0 && recordedCount === 0)}>
+            {submitting
+              ? <><span className="spinner" /> Evaluating...</>
+              : recordedCount === 0 && total > 0
+                ? `Record at least 1 of ${total} to submit`
+                : recordedCount < total && total > 0
+                  ? `Submit (${recordedCount}/${total} recorded)`
+                  : '✅ Submit Pronunciation'
+            }
           </button>
         </div>
       )}

@@ -1,6 +1,9 @@
 /**
  * src/pages/activities/SpeakingPage.jsx
  * Dynamic: scenarioContext (3-field), subTasks[], speaking recording, AI scoring.
+ *
+ * Fix Bug #8: subTasks[*].sampleResponse is an object {targetText, transliteration, baseTranslation}
+ *             — NOT a string. Render it as TargetTextBlock, pass transliteration to AudioRecorder.
  */
 import React, { useState } from 'react';
 import { useActivity } from '../../hooks/useActivity.js';
@@ -10,6 +13,19 @@ import AudioPlayer from '../../components/AudioPlayer.jsx';
 import ScoreModal from '../../components/ScoreModal.jsx';
 import ActivityFeedback from '../../components/ActivityFeedback.jsx';
 import AudioRecorder from '../../components/AudioRecorder.jsx';
+
+/**
+ * Extract a plain string from sampleResponse which may be:
+ *   - a string: "Ohayou gozaimasu"
+ *   - an object: { targetText: "おはよう", transliteration: "Ohayou gozaimasu", baseTranslation: "..." }
+ * Returns the romanization (transliteration) or targetText for Groq evaluation.
+ */
+function getSampleText(sampleResponse) {
+  if (!sampleResponse) return '';
+  if (typeof sampleResponse === 'string') return sampleResponse;
+  // Prefer transliteration for Groq (ASCII-safe, model understands it better)
+  return sampleResponse.transliteration || sampleResponse.targetText || '';
+}
 
 export default function SpeakingPage({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, label, monthNumber, blockNumber }) {
   const {
@@ -30,7 +46,6 @@ export default function SpeakingPage({ pairId, activityFile, activitySeqId, acti
   const scoringRules = data.scoringRules;
   const scenario = data.scenarioContext;
   const baselineTranscript = data.baselineTranscriptSentences || [];
-  const allRecorded = subTasks.length === 0 || Object.keys(recordings).length >= Math.min(subTasks.length, 1);
 
   const handleRecording = (transcript, taskIdx) => {
     setRecordings(r => ({ ...r, [taskIdx]: transcript }));
@@ -39,13 +54,13 @@ export default function SpeakingPage({ pairId, activityFile, activitySeqId, acti
 
   const handleSubmit = async () => {
     if (subTasks.length === 0) {
-      // Free-speaking without tasks
       const transcript = recordings[0] || '(no recording)';
       const questions = [{
         question_id: 'speaking_free',
         block_type: 'speaking',
         user_answer: transcript,
-        correct_answer: data.adminCorrectAnswerSet?.sampleAnswer || '',
+        // FIX: use getSampleText to extract string from object
+        correct_answer: getSampleText(data.adminCorrectAnswerSet?.sampleAnswer) || '',
         prompt: data.speakingPrompt || data.scenario || '',
       }];
       await submitAnswers(questions);
@@ -53,10 +68,11 @@ export default function SpeakingPage({ pairId, activityFile, activitySeqId, acti
     }
 
     const questions = subTasks.map((task, i) => ({
-      question_id: task.taskId || `st_${i}`,
+      question_id: task.taskId || task.subTaskId || `st_${i}`,
       block_type: 'speaking',
       user_answer: recordings[i] || '(no recording)',
-      correct_answer: task.sampleResponse || data.adminCorrectAnswerSet?.sampleAnswer || '',
+      // FIX: sampleResponse may be an object — extract transliteration/targetText string
+      correct_answer: getSampleText(task.sampleResponse) || getSampleText(data.adminCorrectAnswerSet?.sampleAnswer) || '',
       prompt: task.taskInstruction || task.prompt || '',
     }));
     await submitAnswers(questions);
@@ -104,51 +120,62 @@ export default function SpeakingPage({ pairId, activityFile, activitySeqId, acti
       {/* Sub tasks */}
       {subTasks.length > 0 ? (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '1.5rem' }}>
-          {subTasks.map((task, i) => (
-            <div key={task.taskId || i} className="card" style={{ border: expandedTask === i ? '1px solid var(--color-primary)' : '1px solid var(--color-border)' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer' }} onClick={() => setExpandedTask(i)}>
-                <div style={{ fontWeight: 600, fontSize: '0.9rem' }}>Task {i + 1}: {task.taskInstruction || task.prompt || `Speaking Task ${i + 1}`}</div>
-                {recordings[i] && <span style={{ color: 'var(--color-success-light)', fontSize: '0.8rem' }}>✓ Recorded</span>}
-              </div>
-
-              {expandedTask === i && (
-                <div style={{ marginTop: '1rem' }}>
-                  {task.expectedSpeakingPoints?.length > 0 && (
-                    <div style={{ marginBottom: '0.75rem', padding: '0.75rem', background: 'var(--color-surface-3)', borderRadius: 'var(--radius-sm)' }}>
-                      <div style={{ fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.375rem', color: 'var(--color-text-muted)' }}>Key Points to Cover:</div>
-                      {task.expectedSpeakingPoints.map((pt, j) => <div key={j} style={{ fontSize: '0.85rem' }}>• {pt}</div>)}
-                    </div>
-                  )}
-                  {task.sampleResponse && (
-                    <div style={{ marginBottom: '0.75rem', fontSize: '0.85rem', color: 'var(--color-text-muted)', fontStyle: 'italic' }}>
-                      Sample: "{task.sampleResponse}"
-                    </div>
-                  )}
-                  {recordings[i] ? (
-                    <div style={{ padding: '0.75rem', background: 'rgba(16,185,129,0.08)', borderRadius: 'var(--radius-md)' }}>
-                      <p style={{ fontSize: '0.8rem', color: 'var(--color-success-light)' }}>🎤 "{recordings[i]}"</p>
-                      <button className="btn btn-ghost btn-sm" style={{ marginTop: '0.5rem' }} onClick={() => setRecordings(r => { const n={...r}; delete n[i]; return n; })}>Re-record</button>
-                    </div>
-                  ) : (
-                    <AudioRecorder expectedText={task.sampleResponse || ''} onResult={t => handleRecording(t, i)} />
-                  )}
+          {subTasks.map((task, i) => {
+            const sampleStr = getSampleText(task.sampleResponse);
+            const sampleIsObj = task.sampleResponse && typeof task.sampleResponse === 'object';
+            return (
+              <div key={task.taskId || task.subTaskId || i} className="card"
+                style={{ border: expandedTask === i ? '1px solid var(--color-primary)' : '1px solid var(--color-border)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer' }} onClick={() => setExpandedTask(i)}>
+                  <div style={{ fontWeight: 600, fontSize: '0.9rem' }}>
+                    Task {i + 1}: {task.taskInstruction || task.prompt || `Speaking Task ${i + 1}`}
+                  </div>
+                  {recordings[i] && <span style={{ color: 'var(--color-success-light)', fontSize: '0.8rem' }}>✓ Recorded</span>}
                 </div>
-              )}
-            </div>
-          ))}
+
+                {expandedTask === i && (
+                  <div style={{ marginTop: '1rem' }}>
+                    {task.expectedSpeakingPoints?.length > 0 && (
+                      <div style={{ marginBottom: '0.75rem', padding: '0.75rem', background: 'var(--color-surface-3)', borderRadius: 'var(--radius-sm)' }}>
+                        <div style={{ fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.375rem', color: 'var(--color-text-muted)' }}>Key Points to Cover:</div>
+                        {task.expectedSpeakingPoints.map((pt, j) => <div key={j} style={{ fontSize: '0.85rem' }}>• {pt}</div>)}
+                      </div>
+                    )}
+
+                    {/* FIX: render sampleResponse as TargetTextBlock if it's an object */}
+                    {task.sampleResponse && (
+                      <div style={{ marginBottom: '0.75rem', padding: '0.75rem', background: 'rgba(99,102,241,0.06)', borderRadius: 'var(--radius-sm)', border: '1px solid rgba(99,102,241,0.2)' }}>
+                        <div style={{ fontSize: '0.7rem', fontWeight: 700, color: 'var(--color-text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Sample Response</div>
+                        {sampleIsObj
+                          ? <TargetTextBlock data={task.sampleResponse} size="sm" />
+                          : <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', fontStyle: 'italic' }}>"{sampleStr}"</p>
+                        }
+                      </div>
+                    )}
+
+                    {/* AudioRecorder handles review/playback/re-record internally */}
+                    <AudioRecorder
+                      key={`task-${i}`}
+                      label={`Record Task ${i + 1}`}
+                      expectedText={sampleStr}
+                      onResult={t => handleRecording(t, i)}
+                    />
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       ) : (
-        // Free-form speaking (no tasks defined by admin)
         <div className="card" style={{ marginBottom: '1.5rem' }}>
           <p style={{ marginBottom: '1rem', fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>{data.speakingPrompt || 'Speak about the scenario above.'}</p>
-          {recordings[0] ? (
-            <div style={{ padding: '0.75rem', background: 'rgba(16,185,129,0.08)', borderRadius: 'var(--radius-md)' }}>
-              <p style={{ fontSize: '0.8rem', color: 'var(--color-success-light)' }}>🎤 "{recordings[0]}"</p>
-              <button className="btn btn-ghost btn-sm" style={{ marginTop: '0.5rem' }} onClick={() => setRecordings({})}>Re-record</button>
-            </div>
-          ) : (
-            <AudioRecorder expectedText={data.adminCorrectAnswerSet?.sampleAnswer || ''} onResult={t => handleRecording(t, 0)} />
-          )}
+          {/* AudioRecorder handles review/playback/re-record internally */}
+          <AudioRecorder
+            key="free-speaking"
+            label="Record your spoken response"
+            expectedText={getSampleText(data.adminCorrectAnswerSet?.sampleAnswer)}
+            onResult={t => handleRecording(t, 0)}
+          />
         </div>
       )}
 
