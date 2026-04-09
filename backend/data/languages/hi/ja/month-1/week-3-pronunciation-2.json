@@ -1,0 +1,66 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 3 | Pronunciation Practice 2",
+  "id": 31,
+  "type": "pronunciation",
+  "title": "उच्चारण अभ्यास 2: लंबे स्वर और दोहरे व्यंजन",
+  "description": "जापानी लंबे स्वर (長音) और दोहरे व्यंजन (促音) का सही उच्चारण सीखें।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "long-vowels", "double-consonants", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "लंबे स्वर और दोहरे व्यंजन — महत्वपूर्ण नियम",
+      "points": [
+        "लंबा स्वर (長音 — Chōon): आवाज़ को एक syllable अधिक खींचें",
+        "おかあさん (okaasan) — माँ में 'aa' दीर्घ है: ओ-का-आ-सान (4 beats)",
+        "दोहरा व्यंजन (促音 — Sokuon): एक beat रुकें फिर बोलें",
+        "きって (kitte = टिकट): की-ट्ट-ते — एक beat की रुकावट",
+        "ये दोनों अंतर अर्थ बदल देते हैं! ध्यान से सीखें।"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "अर्थ बदलने वाले अंतर",
+      "instruction": "इन जोड़ों में लंबाई का अंतर अर्थ बदलता है:",
+      "pairs": [
+        { "word1": "おじさん (ojisan)", "word2": "おじいさん (ojiisan)", "sound1": "चाचा/काका", "sound2": "दादाजी/बाबा", "diff": "लंबा 'ii' = दादाजी; छोटा 'i' = चाचा — एक beat का फ़र्क़!" },
+        { "word1": "おばさん (obasan)", "word2": "おばあさん (obaasan)", "sound1": "मौसी/चाची", "sound2": "दादी/नानी", "diff": "लंबा 'aa' = दादी; छोटा 'a' = चाची" },
+        { "word1": "きて (kite)", "word2": "きって (kitte)", "sound1": "आओ (come)", "sound2": "टिकट (stamp/ticket)", "diff": "दोहरा 'tt' = एक beat रुकाव" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Beat गिनते हुए बोलें",
+      "words": [
+        { "word": "おかあさん", "syllables": ["o", "ka", "a", "san"], "stressed": 0, "note": "माँ — 4 beats: ओ-का-आ-सान (aa = 2 beats)" },
+        { "word": "おとうさん", "syllables": ["o", "to", "u", "san"], "stressed": 0, "note": "पिता — 4 beats: ओ-तो-उ-सान" },
+        { "word": "きって", "syllables": ["ki", "t", "te"], "stressed": 0, "note": "टिकट — 3 beats: की-[रुकाव]-ते" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "दीर्घ स्वर अभ्यास",
+      "text": "おかあさん、おとうさん、おにいさん、おねえさん",
+      "romanization": "Okaasan, otousan, oniisan, oneesan",
+      "translation": "माँ, पिताजी, भाई, दीदी",
+      "tip": "प्रत्येक 'aa/oo/ii/ee' पर एक beat अतिरिक्त लगाएँ। परिवार के सदस्यों के नाम प्रायः लंबे स्वर वाले होते हैं!"
+    },
+    {
+      "id": "b5",
+      "type": "true_false",
+      "title": "नियम सही हैं या गलत?",
+      "items": [
+        { "statement": "'おじさん' और 'おじいさん' का एक ही अर्थ है।", "answer": false, "explanation": "बिल्कुल नहीं! おじさん = चाचा, おじいさん = दादाजी। लंबे 'ii' से अर्थ बदल जाता है!" },
+        { "statement": "दोहरे व्यंजन में एक beat की रुकावट होती है।", "answer": true, "explanation": "हाँ! きって में 'tt' से पहले एक beat रुकते हैं।" }
+      ]
+    }
+  ]
+}

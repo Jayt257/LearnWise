@@ -1,0 +1,52 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Listening",
+  "id": 16,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: दुकान में",
+  "description": "एक जापानी दुकान में बातचीत सुनें और समझें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["listening", "shopping", "daily-life", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "बातचीत: दुकान में खरीदारी",
+      "url": null,
+      "transcript": "दुकानदार: いらっしゃいませ！(Irasshaimase!) — आपका स्वागत है!\n\nग्राहक: すみません、ペンはありますか？(Sumimasen, pen wa arimasu ka?) — माफ़ कीजिए, क्या पेन है?\n\nदुकानदार: はい、あります！こちらにどうぞ。(Hai, arimasu! Kochira ni douzo.) — हाँ, है! इधर आइए।\n\nग्राहक: このペンはいくらですか？(Kono pen wa ikura desu ka?) — यह पेन कितने का है?\n\nदुकानदार: ひゃくえんです。(Hyaku en desu.) — सौ येन है।\n\nग्राहक: じゃあ、これをください。(Jaa, kore wo kudasai.) — तो यह दीजिए।\n\nदुकानदार: ありがとうございます！(Arigatou gozaimasu!) — धन्यवाद!"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "बातचीत से नोट्स लें",
+      "instruction": "बातचीत सुनकर इन सवालों के जवाब नोट करें:",
+      "sections": [
+        { "label": "ग्राहक क्या ढूँढ रहा है?", "placeholder": "वस्तु का नाम लिखें..." },
+        { "label": "पेन की क़ीमत क्या है?", "placeholder": "राशि लिखें..." },
+        { "label": "दुकानदार ने 'हाँ है' कैसे कहा?", "placeholder": "जापानी शब्द लिखें..." },
+        { "label": "ग्राहक ने पेन माँगते समय क्या कहा?", "placeholder": "वाक्यांश लिखें..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "वार्तालाप पूरा करें",
+      "text": "ग्राहक: すみません、___ はありますか？\nदुकानदार: はい、あります！\nग्राहक: このペンは ___ ですか？\nदुकानदार: ___ えんです。",
+      "gaps": ["ペン", "いくら", "ひゃく"],
+      "hints": ["एक लेखनी / पेन", "कितने का — price पूछने का शब्द", "100 — जापानी में सौ"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत समझें",
+      "items": [
+        { "statement": "दुकान में पेन उपलब्ध है।", "answer": true, "explanation": "हाँ: はい、あります (Hai, arimasu) — हाँ, है।" },
+        { "statement": "पेन की क़ीमत 200 येन है।", "answer": false, "explanation": "नहीं, पेन 100 येन (ひゃくえん — Hyaku en) का है।" },
+        { "statement": "'いらっしゃいませ' दुकानदार ग्राहक का स्वागत करने के लिए कहता है।", "answer": true, "explanation": "बिल्कुल! 'いらっしゃいませ (Irasshaimase)' जापानी दुकानों का ट्रेडमार्क स्वागत शब्द है।" }
+      ]
+    }
+  ]
+}

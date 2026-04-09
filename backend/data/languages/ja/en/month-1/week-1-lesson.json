@@ -1,0 +1,101 @@
+{
+  "id": 1,
+  "pairId": "ja-en",
+  "type": "lesson",
+  "title": "Lesson 1: Introduction to English",
+  "xp": 30,
+  "tags": [
+    "grammar",
+    "basics"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Welcome to English",
+      "body": "This is your first step into English. In this highly intensive course, we will heavily practice the core characters and greetings."
+    },
+    {
+      "id": "b2",
+      "type": "grammar_rule",
+      "title": "Key Structure & Greetings",
+      "explanation": "Pay close attention to pronunciation notes. Hello is widely used.",
+      "examples": [
+        {
+          "sentence": "Hello",
+          "translation": "こんにちは"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "dialogue",
+      "title": "First Conversation",
+      "context": "Meeting at the park",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello",
+          "translation": "こんにちは"
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning",
+          "translation": "おはようございます"
+        },
+        {
+          "speaker": "A",
+          "text": "You?",
+          "translation": "あなた?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes",
+          "translation": "はい"
+        }
+      ]
+    },
+    {
+      "id": "bm",
+      "type": "matching",
+      "title": "Match the pairs",
+      "instruction": "Match the English word to its Japanese meaning.",
+      "leftItems": [
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Goodbye",
+        "Thank you"
+      ],
+      "rightItems": [
+        "こんにちは",
+        "おはようございます",
+        "こんばんは",
+        "さようなら",
+        "ありがとう"
+      ],
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    }
+  ]
+}

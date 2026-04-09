@@ -1,0 +1,166 @@
+{
+  "activityId": "ja_hi_M1B1_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "बुनियादी बातचीत: खुद का परिचय देना (Self-Introduction)",
+  "learningGoal": "जापानी में सरल अभिवादन का प्रयोग करते हुए एक संक्षिप्त बातचीत शुरू करना और उत्तर देना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B1_listening_5",
+    "ja_hi_M1B1_vocabulary_6"
+  ],
+  "instructions": "नीचे दिए गए परिदृश्य (Scenario) को पढ़ें। आपको जापानी में ज़ोर से बोलकर उत्तर देना है। प्रत्येक कार्य (SubTask) के लिए संकेत (prompt) दिया गया है। अपने उत्तरों को रिकॉर्ड करें और मॉडल उत्तर से तुलना करें।",
+  "speakingPrompt": "कल्पना करें कि आप जापान में अपने नए स्कूल या कार्यालय में हैं और आप पहली बार किसी से मिल रहे हैं। आपको उचित समय के अनुसार अभिवादन करना है।",
+  "scenario": "सुबह के 9 बजे हैं। आप अपनी कक्षा/कार्यालय में प्रवेश करते हैं और आपके शिक्षक (Sensei) वहां मौजूद हैं। आपको उन्हें ग्रीट करना है और फिर एक सहपाठी से बातचीत करनी है।",
+  "role": "नया छात्र / कर्मचारी",
+  "conversationPartner": "शिक्षक और एक सहपाठी",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "शिक्षक को सुबह का औपचारिक अभिवादन (Good Morning) कहें।",
+      "expectedSpeakingPoints": [
+        "Ohayou gozaimasu",
+        "Sensei"
+      ],
+      "sampleResponse": {
+        "targetText": "おはようございます、先生。",
+        "transliteration": "Ohayou gozaimasu, sensei.",
+        "baseTranslation": "शुभ प्रभात, शिक्षक जी।"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "दोपहर 2 बजे आप अपने सहपाठी (Tanaka) से मिलते हैं। उन्हें नमस्ते (Hello) कहें।",
+      "expectedSpeakingPoints": [
+        "Konnichiwa"
+      ],
+      "sampleResponse": {
+        "targetText": "こんにちは、田中さん。",
+        "transliteration": "Konnichiwa, Tanaka-san.",
+        "baseTranslation": "नमस्ते, तनाका।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "सहपाठी आपकी मदद करता है। उसे धन्यवाद (Thank you) कहें।",
+      "expectedSpeakingPoints": [
+        "Arigatou"
+      ],
+      "sampleResponse": {
+        "targetText": "ありがとうございます。",
+        "transliteration": "Arigatou gozaimasu.",
+        "baseTranslation": "बहुत धन्यवाद।"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "शाम को घर जाते समय अलविदा (Goodbye) कहें।",
+      "expectedSpeakingPoints": [
+        "Sayounara"
+      ],
+      "sampleResponse": {
+        "targetText": "さようなら。",
+        "transliteration": "Sayounara.",
+        "baseTranslation": "अलविदा।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "あさ ９じ です。がっこう に います。",
+    "transliteration": "Asa kuji desu. Gakkou ni imasu.",
+    "baseTranslation": "सुबह 9 बजे हैं। मैं स्कूल में हूँ।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "おはようございます。",
+      "transliteration": "Ohayou gozaimasu.",
+      "baseTranslation": "शुभ प्रभात।"
+    },
+    {
+      "targetText": "こんにちは。",
+      "transliteration": "Konnichiwa.",
+      "baseTranslation": "नमस्ते।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 10,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Appropriate time-of-day greeting",
+      "Thank you",
+      "Goodbye"
+    ],
+    "requiredKeywords": [
+      "gozaimasu",
+      "konnichiwa"
+    ],
+    "acceptableParaphrases": [
+      "Arigatou instead of Arigatou gozaimasu (if context allows)"
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Pronunciation",
+          "weight": 50,
+          "description": "Clear articulation of vowels"
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 50,
+          "description": "Correct word choice"
+        }
+      ]
+    },
+    "sampleAnswer": "Ohayou gozaimasu, sensei. Konnichiwa, Tanaka-san. Arigatou gozaimasu. Sayounara.",
+    "minimumContentCoverage": 75
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "बहुत अच्छा बोला! आप जापान में बुनियादी बातचीत के लिए तैयार हैं।",
+    "onFail": "कृपया यह सुनिश्चित करें कि आप 'gozaimasu' जैसे औपचारिक शब्दों का उच्चारण स्पष्ट रूप से कर रहे हैं।",
+    "onPartial": "आपने अच्छा बोला, लेकिन शिक्षक और दोस्त के बीच औपचारिकता (formality) के अंतर को समझें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "おはようございます。こんにちは。ありがとうございます。さようなら。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "greetings",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "बोलने से पहले एक गहरी सांस लें और जापानी में सोचने की कोशिश करें।",
+  "commonMistakes": [
+    "शिक्षक को केवल 'Ohayou' कहना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B1_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

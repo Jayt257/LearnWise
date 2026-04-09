@@ -1,0 +1,56 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 2 | Pronunciation 2",
+  "id": 20,
+  "type": "pronunciation",
+  "title": "Pronunciation Practice 2: Ma, Ya, Ra, Wa Rows",
+  "description": "Complete your core Hiragana pronunciation practice with the final consonant rows.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["pronunciation", "hiragana", "consonants", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "The Final Rows of Hiragana",
+      "points": [
+        "Ma-row: ま(ma), み(mi), む(mu), め(me), も(mo) - Like 'm' in English.",
+        "Ya-row: や(ya), ゆ(yu), よ(yo) - Note there is no 'yi' or 'ye'.",
+        "Ra-row: ら(ra), り(ri), る(ru), れ(re), ろ(ro) - CRITICAL: The Japanese 'R' is not English 'R' or 'L'. It's a light tap behind the top teeth, kind of like an English 'D' or a Spanish rolled 'r' (but just one tap).",
+        "Wa-row: わ(wa), を(wo), ん(n) - を(wo) is usually pronounced just 'o', and ん is the only consonant that can end a syllable alone."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "The Japanese 'R' Sound",
+      "instruction": "The 'R' row is the hardest for English speakers. Pay close attention.",
+      "pairs": [
+        { "word1": "ら (ra)", "word2": "La (English)", "sound1": "Tongue taps behind teeth", "sound2": "Tongue stays behind teeth", "diff": "Japanese R is sharper, shorter." },
+        { "word1": "り (ri)", "word2": "Lee (English)", "sound1": "A quick tap", "sound2": "Longer, heavier L sound", "diff": "Don't say 'ree', say a very light 'dee' or 'lee'." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Pronouncing Words with These Sounds",
+      "words": [
+        { "word": "くるま", "syllables": ["ku", "ru", "ma"], "stressed": 0, "note": "Car. ku-ru-ma. 'ru' is tapped lightly." },
+        { "word": "みどり", "syllables": ["mi", "do", "ri"], "stressed": 0, "note": "Green. mi-do-ri." },
+        { "word": "ほん", "syllables": ["ho", "n"], "stressed": 0, "note": "Book. ho-n. Hold the 'n' for a full beat." }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "Pronunciation Myths",
+      "items": [
+        { "statement": "The Japanese 'R' is exactly the same as the English 'R'.", "answer": false, "explanation": "It's totally different! It's closer to an 'L' or 'D' in English." },
+        { "statement": "The character 'ん' (n) takes up a whole beat of sound.", "answer": true, "explanation": "Yes. 'HON' is two beats: HO + N." },
+        { "statement": "There is a character for 'yi' in modern Japanese.", "answer": false, "explanation": "No, the Ya-row only has や(ya), ゆ(yu), and よ(yo)." }
+      ]
+    }
+  ]
+}

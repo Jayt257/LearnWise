@@ -1,0 +1,64 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 4 | Pronunciation",
+  "id": 36,
+  "type": "pronunciation",
+  "title": "उच्चारण: विशेषणों और परिवार शब्दों के सुर",
+  "description": "जापानी विशेषणों और परिवार के शब्दों का सही उच्चारण और पिच एक्सेंट।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "adjectives", "family", "pitch-accent", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "जापानी पिच एक्सेंट (Pitch Accent) — परिचय",
+      "points": [
+        "जापानी में तनाव नहीं, पर 'पिच' (स्वर का उतार-चढ़ाव) होता है",
+        "यह हिंदी के स्वर-भार जैसा है — ऊँचा (H) और नीचा (L)",
+        "हाशी (箸) = chopsticks = H-L पिच",
+        "हाशी (橋) = bridge = L-H पिच",
+        "शुरुआत में परवाह न करें — सही उच्चारण पहले, पिच बाद में!"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "विशेषणों के उच्चारण अंतर",
+      "instruction": "इन विशेषणों के उच्चारण में ध्यान दें:",
+      "pairs": [
+        { "word1": "おおきい (ookii)", "word2": "ちいさい (chiisai)", "sound1": "बड़ा — 3 beats: oo-ki-i", "sound2": "छोटा — 4 beats: chi-i-sa-i", "diff": "लंबे स्वर oo और ii याद रखें — 2 beats" },
+        { "word1": "たかい (takai)", "word2": "やすい (yasui)", "sound1": "महंगा — 3 beats: ta-ka-i", "sound2": "सस्ता — 3 beats: ya-su-i", "diff": "अंतिम 'i' — दोनों में समान" },
+        { "word1": "かわいい (kawaii)", "word2": "こわい (kowai)", "sound1": "प्यारा — 4 beats: ka-wa-i-i", "sound2": "डरावना — 3 beats: ko-wa-i", "diff": "kawaii में दो 'i' हैं! एक beat अधिक।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "परिवार के शब्दों का उच्चारण",
+      "words": [
+        { "word": "おかあさん", "syllables": ["o", "ka", "a", "san"], "stressed": 0, "note": "माँ — 4 beats। लंबा 'aa': o-ka-AA-san" },
+        { "word": "おとうさん", "syllables": ["o", "to", "u", "san"], "stressed": 0, "note": "पिताजी — 4 beats। o-to-U-san" },
+        { "word": "かぞく", "syllables": ["ka", "zo", "ku"], "stressed": 0, "note": "परिवार — 3 beats: ka-zo-ku" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "परिवार के नाम — तेज़ बोलें",
+      "text": "おかあさん、おとうさん、おにいさん、おねえさん、おじいさん、おばあさん",
+      "romanization": "Okaasan, otousan, oniisan, oneesan, ojiisan, obaasan",
+      "translation": "माँ, पिताजी, बड़े भाई, बड़ी बहन, दादाजी, दादीजी",
+      "tip": "सभी में 'お' से शुरू होते हैं और 'さん' से समाप्त — अंत में 'san' नहीं भूलें! यह सम्मानजनक रूप है।"
+    },
+    {
+      "id": "b5",
+      "type": "audio",
+      "label": "विशेषण उच्चारण",
+      "url": null,
+      "transcript": "おおきい(ookii-बड़ा) ちいさい(chiisai-छोटा) おいしい(oishii-स्वादिष्ट) かわいい(kawaii-प्यारा) やさしい(yasashii-दयालु)"
+    }
+  ]
+}

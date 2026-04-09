@@ -1,0 +1,212 @@
+{
+  "activityId": "ja_hi_M2B1_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "लेखन: आपकी इच्छाएँ (Your Desires)",
+  "learningGoal": "चीज़ों की विशेषताएँ (Adjectives) बताना और अपनी इच्छाएँ (Tai form) व्यक्त करने वाले वाक्य लिखना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B1_lesson_1"
+  ],
+  "instructions": "नीचे दिए गए वाक्यों का जापानी में अनुवाद करें। आपको विशेषणों (ठंडा, स्वादिष्ट) और 'चाहता हूँ' (tai form) का उपयोग करना है। कणों (Particles) का ध्यान रखें!",
+  "writingPrompt": "भाग 1: 'यह पानी ठंडा (tsumetai) है।'\nभाग 2: 'मैं स्वादिष्ट (oishii) सुशी खाना चाहता हूँ।'\nभाग 3: 'क्या आप क्योटो जाना चाहते हैं?'",
+  "promptGoal": "i-adjectives का सही उपयोग करना और masu फॉर्म को tai फॉर्म में बदलना।",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "この",
+      "transliteration": "kono",
+      "baseTranslation": "यह (This + Noun)",
+      "partOfSpeech": "demonstrative"
+    },
+    {
+      "targetText": "みず",
+      "transliteration": "mizu",
+      "baseTranslation": "पानी",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "は",
+      "transliteration": "wa",
+      "baseTranslation": "तो (Topic)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "つめたい",
+      "transliteration": "tsumetai",
+      "baseTranslation": "ठंडा (Cold to touch)",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "です",
+      "transliteration": "desu",
+      "baseTranslation": "है",
+      "partOfSpeech": "copula"
+    },
+    {
+      "targetText": "わたし は",
+      "transliteration": "watashi wa",
+      "baseTranslation": "मैं",
+      "partOfSpeech": "pronoun + particle"
+    },
+    {
+      "targetText": "おいしい",
+      "transliteration": "oishii",
+      "baseTranslation": "स्वादिष्ट",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "すし",
+      "transliteration": "sushi",
+      "baseTranslation": "सुशी",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "を",
+      "transliteration": "o",
+      "baseTranslation": "को (Object)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "が",
+      "transliteration": "ga",
+      "baseTranslation": "का (Object with Tai form)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "たべたい",
+      "transliteration": "tabetai",
+      "baseTranslation": "खाना चाहता हूँ",
+      "partOfSpeech": "verb (tai form)"
+    },
+    {
+      "targetText": "きょうと",
+      "transliteration": "Kyouto",
+      "baseTranslation": "क्योटो",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "へ",
+      "transliteration": "e",
+      "baseTranslation": "की ओर (Direction)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "いきたい",
+      "transliteration": "ikitai",
+      "baseTranslation": "जाना चाहता हूँ",
+      "partOfSpeech": "verb (tai form)"
+    },
+    {
+      "targetText": "ですか",
+      "transliteration": "desu ka",
+      "baseTranslation": "क्या?",
+      "partOfSpeech": "question marker"
+    }
+  ],
+  "referenceHints": [
+    "i-adjective को सीधे Noun के आगे लगा सकते हैं (जैसे: Oishii sushi).",
+    "'~tai desu' के साथ आप 'o' या 'ga' दोनों कणों का उपयोग कर सकते हैं (Sushi o tabetai / Sushi ga tabetai)।",
+    "तीसरे वाक्य में सामने वाले से पूछा जा रहा है, इसलिए 'Watashi wa' न लगाएँ और अंत में 'ka' लगाएँ।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "この みず は つめたい です。わたし は おいしい すし を たべたい です。きょうと へ いきたい ですか。",
+      "transliteration": "Kono mizu wa tsumetai desu. Watashi wa oishii sushi o tabetai desu. Kyouto e ikitai desu ka.",
+      "baseTranslation": "यह पानी ठंडा है। मैं स्वादिष्ट सुशी खाना चाहता हूँ। क्या आप क्योटो जाना चाहते हैं?",
+      "qualityLevel": "excellent",
+      "annotation": "सभी i-adjectives और tai फॉर्म का बिल्कुल सटीक और प्राकृतिक उपयोग।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Adjective Usage",
+      "weight": 30,
+      "description": "क्या tsumetai और oishii का सही जगह पर उपयोग किया गया है?"
+    },
+    {
+      "criterion": "Tai Form Construction",
+      "weight": 40,
+      "description": "क्या tabemasu और ikimasu को सही ढंग से tabetai और ikitai में बदला गया है?"
+    },
+    {
+      "criterion": "Question Formation",
+      "weight": 30,
+      "description": "क्या अंतिम वाक्य के अंत में 'desu ka' का सही उपयोग हुआ है?"
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "この みず は つめたい です。わたし は おいしい すし を たべたい です。きょうと へ いきたい ですか。",
+    "acceptableAlternates": [
+      "この みず は つめたい です。わたし は おいしい すし が たべたい です。あなたは きょうと へ いきたい ですか。"
+    ],
+    "requiredKeywords": [
+      "この みず は",
+      "つめたい です",
+      "おいしい すし",
+      "たべたい です",
+      "きょうと へ",
+      "いきたい ですか"
+    ],
+    "grammarBaseline": "Strict check on ~tai desu conjugation.",
+    "lengthExpectation": "3 distinct sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Tai form accuracy",
+          "weight": 100,
+          "description": "Must use tabetai and ikitai, not tabemasu/ikimasu."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "परफेक्ट! आपने विशेषणों और 'tai' रूप का बहुत सही और स्वाभाविक उपयोग किया है।",
+    "onFail": "कृपया 'चाहता हूँ' वाले वाक्यों को दोबारा चेक करें। 'masu' को हटाकर 'tai desu' लगाना होता है (जैसे tabetai desu)।",
+    "onPartial": "आपने अच्छा किया। याद रखें कि 'Kono mizu' (यह पानी) एक साथ आता है, इसके बीच में कोई कण नहीं लगता।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "adjectives",
+    "tai form",
+    "desire"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "जापानी में मौसम के 'ठंडे' (Samui) और चीज़ों के 'ठंडे' (Tsumetai) होने के लिए अलग-अलग शब्द हैं। पानी के लिए Tsumetai का इस्तेमाल करें।",
+  "commonMistakes": [
+    "Oishii sushi की जगह Sushi oishii बोलना (विशेषण संज्ञा से पहले आता है)।",
+    "Ikitai ka? बोलना (यह बहुत कैजुअल है, Ikitai desu ka बोलना चाहिए)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

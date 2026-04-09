@@ -1,0 +1,65 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Pronunciation — English Sounds",
+  "id": 4,
+  "type": "pronunciation",
+  "title": "उच्चारण: अंग्रेज़ी स्वर और व्यंजन ध्वनियाँ",
+  "description": "अंग्रेज़ी की पाँच बुनियादी स्वर ध्वनियाँ और उनका सही उच्चारण सीखें।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["pronunciation", "vowels", "sounds", "alphabet", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "अंग्रेज़ी उच्चारण के नियम",
+      "points": [
+        "अंग्रेज़ी में 5 स्वर हैं: A, E, I, O, U — प्रत्येक की एकाधिक ध्वनियाँ हो सकती हैं!",
+        "अंग्रेज़ी में कुछ अक्षर चुप (Silent) रहते हैं — जैसे 'know' में 'k' नहीं बोलते",
+        "बल (Stress) बहुत महत्वपूर्ण है — 'PREsent' (उपहार) बनाम 'preSENT' (प्रस्तुत करना)",
+        "'Th' ध्वनि हिंदी में नहीं होती — जीभ को दांतों के बीच रखकर बोलें",
+        "अंग्रेज़ी में शब्दों के बीच 'linking' होती है — शब्द जुड़कर बोले जाते हैं"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "ध्वनि अंतर — ध्यान से सुनें",
+      "instruction": "इन जोड़ों में क्या अंतर है?",
+      "pairs": [
+        { "word1": "Ship (शिप)", "word2": "Sheep (शीप)", "sound1": "छोटी 'i' ध्वनि", "sound2": "लंबी 'ee' ध्वनि", "diff": "i बनाम ee — जीभ की ऊँचाई और लंबाई का अंतर" },
+        { "word1": "Bad (बैड)", "word2": "Bed (बेड)", "sound1": "'ae' ध्वनि — मुँह ज़्यादा खुलता है", "sound2": "'e' ध्वनि — मुँह कम खुलता है", "diff": "a बनाम e — मुँह खुलने का अंतर" },
+        { "word1": "Think (थिंक)", "word2": "Thing (थिंग)", "sound1": "'k' अंत में", "sound2": "'ng' अंत में — नाक से आवाज़", "diff": "अंत की ध्वनि का अंतर" },
+        { "word1": "Fan (फैन)", "word2": "Van (वैन)", "sound1": "'f' — हवा से, दांत नहीं लगते", "sound2": "'v' — होंठ-दाँत से voiced", "diff": "f (unvoiced) बनाम v (voiced)" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "अंग्रेज़ी में शब्दों का बल",
+      "words": [
+        { "word": "HELL-o", "syllables": ["Hell", "o"], "stressed": 0, "note": "पहले syllable पर बल — HELLo" },
+        { "word": "thank-YOU", "syllables": ["thank", "you"], "stressed": 1, "note": "दूसरे syllable पर बल — thankYOU" },
+        { "word": "to-GE-ther", "syllables": ["to", "ge", "ther"], "stressed": 1, "note": "बीच में बल — toGEther" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "अंग्रेज़ी जीभ-फिसलन",
+      "text": "She sells seashells by the seashore.",
+      "romanization": "शी सेल्ज़ सीशेल्ज़ बाय द सीशोर।",
+      "translation": "वह समुद्र के किनारे सीपियाँ बेचती है।",
+      "tip": "'S' और 'Sh' ध्वनि पर ध्यान दें — S = स, Sh = श। धीरे-धीरे शुरू करें!"
+    },
+    {
+      "id": "b5",
+      "type": "audio",
+      "label": "अंग्रेज़ी वर्णमाला उच्चारण",
+      "url": null,
+      "transcript": "A (ए) — B (बी) — C (सी) — D (डी) — E (ई) — F (एफ) — G (जी) — H (एच) — I (आई) — J (जे) — K (के) — L (एल) — M (एम) — N (एन) — O (ओ) — P (पी) — Q (क्यू) — R (आर) — S (एस) — T (टी) — U (यू) — V (वी) — W (डबल्यू) — X (एक्स) — Y (वाय) — Z (ज़ेड/ज़ी)"
+    }
+  ]
+}

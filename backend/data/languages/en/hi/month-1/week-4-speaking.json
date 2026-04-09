@@ -1,0 +1,47 @@
+{
+  "id": 40,
+  "type": "speaking",
+  "title": "Talk About Family and Friends",
+  "description": "Talk about family and friends in Hindi.",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 4,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-4",
+    "family-and-basic-sentences"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "Talk About Family",
+      "scenario": "Family introduction",
+      "yourRole": "Student",
+      "partnerRole": "New friend",
+      "context": "You talk about your family using respectful forms.",
+      "goal": "Mention at least two family members and one feeling word.",
+      "usefulPhrases": [
+        "यह मेरी माँ हैं। (This is my mother.)",
+        "यह मेरे पिता हैं। (This is my father.)",
+        "मेरा भाई खुश है। (My brother is happy.)"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "speaking",
+      "prompt": "Speak for 45 seconds about your family. Use polite forms when you mention elders.",
+      "hints": [
+        "माँ",
+        "पिता",
+        "भाई",
+        "बहन",
+        "परिवार"
+      ]
+    }
+  ]
+}

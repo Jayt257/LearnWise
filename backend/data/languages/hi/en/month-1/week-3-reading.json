@@ -1,0 +1,54 @@
+{
+  "id": 24,
+  "type": "reading",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "रेस्टॉरेंट में खाना — At the Restaurant",
+  "description": "Numbers और questions use करते हुए restaurant में order करना।",
+  "duration": "12 मिनट",
+  "xp": 25,
+  "tags": [
+    "numbers",
+    "restaurant",
+    "dialogue"
+  ],
+  "blocks": [
+    {
+      "id": "r1",
+      "type": "reading",
+      "passage": "📖 AT A RESTAURANT — एक रेस्टॉरेंट में\n\nServer: Good evening! How many people are in your party?\n(सर्वर: शुभ संध्या! आपके साथ कितने लोग हैं?)\n\nCustomer: We are three people — two adults and one child.\n(ग्राहक: हम तीन लोग हैं — दो बड़े और एक बच्चा।)\n\nServer: What would you like to order?\n(सर्वर: आप क्या order करना चाहते हैं?)\n\nCustomer: What is the soup of the day?\n(ग्राहक: आज का soup क्या है?)\n\nServer: Today it is tomato soup — four pounds.\n(सर्वर: आज tomato soup है — चार पाउंड।)\n\nCustomer: How much is the main course?\n(ग्राहक: Main course कितने का है?)\n\nServer: Fifteen pounds. Fish and chips is very popular!\n(सर्वर: पंद्रह पाउंड। Fish and chips बहुत popular है!)\n\nCustomer: Three fish and chips, please!\n(ग्राहक: तीन fish and chips, कृपया!)\n\nServer: Thank you! Ready in twenty minutes!\n(सर्वर: धन्यवाद! बीस मिनट में तैयार!)",
+      "questions": [
+        {
+          "q": "Group में कितने लोग हैं?",
+          "a": "तीन (3) — दो बड़े और एक बच्चा।"
+        },
+        {
+          "q": "Soup की कीमत क्या है?",
+          "a": "चार पाउंड (four pounds)।"
+        },
+        {
+          "q": "Main course कितने का है?",
+          "a": "पंद्रह पाउंड (fifteen pounds)।"
+        },
+        {
+          "q": "खाना कितने मिनट में आएगा?",
+          "a": "बीस मिनट (twenty minutes)।"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "type": "cultural_note",
+      "title": "British Food Culture",
+      "icon": "🍟",
+      "content": "'Fish and chips' ब्रिटेन का national dish है! Newspaper में wrapped करके बेचा जाता था (अब food-grade paper में)। एक typical British meal का price £10-20 होता है। Restaurants में 'VAT' (tax) already included होती है। Tip (gratuity) 10-15% normal है, लेकिन mandatory नहीं।",
+      "tags": [
+        "british",
+        "food",
+        "culture",
+        "fish-chips"
+      ]
+    }
+  ]
+}

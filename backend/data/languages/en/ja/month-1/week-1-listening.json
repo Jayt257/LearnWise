@@ -1,0 +1,52 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 1 | Listening",
+  "id": 6,
+  "type": "listening",
+  "title": "Listening Practice: Japanese Greetings",
+  "description": "Listen to a Japanese conversation and take notes on key information.",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["listening", "greetings", "comprehension", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "Listen to: A New Meeting",
+      "url": null,
+      "transcript": "A: こんにちは！はじめまして。わたしはけんじです。\n(Konnichiwa! Hajimemashite. Watashi wa Kenji desu.)\nHello! Nice to meet you. My name is Kenji.\n\nB: こんにちは！わたしはエミリーです。イギリスからきました。\n(Konnichiwa! Watashi wa Emily desu. Igirisu kara kimashita.)\nHello! My name is Emily. I am from England.\n\nA: そうですか！にほんごがじょうずですね。\n(Sou desu ka! Nihongo ga jouzu desu ne.)\nIs that so! Your Japanese is very good.\n\nB: いいえ、まだまだです。よろしくおねがいします。\n(Iie, mada mada desu. Yoroshiku onegai shimasu.)\nNo, I still have a lot to learn. Please treat me kindly.\n\nA: こちらこそ！またね！\n(Kochira koso! Mata ne!)\nLikewise! See you!"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "Take Notes from the Conversation",
+      "instruction": "Listen and fill in the notes:",
+      "sections": [
+        { "label": "First person's name:", "placeholder": "Japanese name..." },
+        { "label": "Second person's name:", "placeholder": "English name..." },
+        { "label": "Where is the second person from?", "placeholder": "Country in English..." },
+        { "label": "Which greetings were used?", "placeholder": "List at least 3 phrases..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "Fill in the Conversation Gaps",
+      "text": "A: ___！はじめまして。わたしはけんじです。\nB: こんにちは！わたしはエミリーです。___ からきました。\nA: にほんごが ___ ですね。\nB: いいえ、まだまだです。よろしくおねがいします。",
+      "gaps": ["こんにちは", "イギリス", "じょうずです"],
+      "hints": ["Afternoon greeting", "A country name", "A compliment word"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "Comprehension Check",
+      "items": [
+        { "statement": "The two people are meeting for the first time.", "answer": true, "explanation": "Yes! 'はじめまして (Hajimemashite)' — used when meeting someone for the first time." },
+        { "statement": "Emily is from America.", "answer": false, "explanation": "No! Emily is from England (イギリス — Igirisu)." },
+        { "statement": "Kenji compliments Emily's Japanese.", "answer": true, "explanation": "Yes! 'にほんごがじょうずですね' — Your Japanese is very good." }
+      ]
+    }
+  ]
+}

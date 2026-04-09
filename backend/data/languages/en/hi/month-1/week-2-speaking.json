@@ -1,0 +1,57 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 2 | Speaking",
+  "id": 18,
+  "type": "speaking",
+  "title": "Speaking: Shopping and Asking Prices",
+  "description": "Practice asking for prices and stating what item you want in a store.",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["speaking", "shopping", "prices", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "Scene 1: Buying at the Market",
+      "scenario": "A street market in Jaipur",
+      "yourRole": "Tourist",
+      "partnerRole": "Shopkeeper",
+      "context": "You see a beautiful red bag (jhola), but you don't know the price. You want to ask the clerk and buy it.",
+      "goal": "Ask how much the bag is using 'yah', and decide to buy it.",
+      "usefulPhrases": [
+        "नमस्ते! (Namaste!) - Hello!",
+        "यह कितना है? (Yah kitna hai?) - How much is this?",
+        "यह पचास रुपये है। (Yah pachaas rupaye hai.) - It is 50 rupees. (Shopkeeper)",
+        "ठीक है, मुझे यह चाहिए। (Theek hai, mujhe yah chahiye.) - Okay, I want this."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roleplay_card",
+      "title": "Scene 2: Specifying an Item",
+      "scenario": "Bookstore",
+      "yourRole": "Shopper",
+      "partnerRole": "Clerk",
+      "context": "The books are behind the counter. You want to point out the blue one.",
+      "goal": "Use 'vah' (that) and colors to point it out.",
+      "usefulPhrases": [
+        "वह क्या है? (Vah kya hai?) - What is that?",
+        "वह नीली किताब है। (Vah neeli kitaab hai.) - That is a blue book.",
+        "मुझे वह नीली किताब चाहिए। (Mujhe vah neeli kitaab chahiye.) - I want that blue book."
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "speaking",
+      "prompt": "Practice saying numbers out loud! Count from 1 to 10 in Hindi. Record yourself or practice with a mirror.",
+      "hints": [
+        "Ek, Do, Teen",
+        "Chaar, Paanch, Chhah",
+        "Saat, Aath, Nau, Das",
+        "Make sure your vowels are clear. Keep 'a' long in 'Paanch' and 'Aath'."
+      ]
+    }
+  ]
+}

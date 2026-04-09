@@ -1,0 +1,95 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 2 | Test",
+  "id": 17,
+  "type": "test",
+  "title": "Week 2 Test: Numbers, Colors, and Objects",
+  "description": "Test your knowledge of Japanese numbers (1-100), basic colors, and vocabulary from this week.",
+  "duration": "15 min",
+  "xp": 50,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["test", "numbers", "colors", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "quiz",
+      "question": "How do you say 'three' in Japanese?",
+      "options": ["いち (ichi)", "さん (san)", "ご (go)", "はち (hachi)"],
+      "correct": 1,
+      "explanation": "'さん (san)' is 3. 'いち' is 1, 'ご' is 5, 'はち' is 8."
+    },
+    {
+      "id": "b2",
+      "type": "quiz",
+      "question": "What is 'red' in Japanese?",
+      "options": ["あお (ao)", "しろ (shiro)", "あか (aka)", "くろ (kuro)"],
+      "correct": 2,
+      "explanation": "'あか (aka)' is red. 'あお' is blue, 'しろ' is white, 'くろ' is black."
+    },
+    {
+      "id": "b3",
+      "type": "quiz",
+      "question": "If you point to a car far away from both you and your friend, you use:",
+      "options": ["これ (Kore)", "それ (Sore)", "あれ (Are)", "どれ (Dore)"],
+      "correct": 2,
+      "explanation": "'あれ (Are)' is used for objects far from both the speaker and the listener."
+    },
+    {
+      "id": "b4",
+      "type": "quiz",
+      "question": "How do you form the number '20' (twenty) in Japanese?",
+      "options": ["に-じゅう (ni-juu)", "じゅう-に (juu-ni)", "に-いち (ni-ichi)", "に-に (ni-ni)"],
+      "correct": 0,
+      "explanation": "20 is 'に-じゅう' (2 tens). 'じゅう-に' would be 12 (ten and two)."
+    },
+    {
+      "id": "b5",
+      "type": "quiz",
+      "question": "What does 'いくらですか (ikura desu ka)' mean?",
+      "options": ["Where is it?", "How much is it?", "What is it?", "Who is it?"],
+      "correct": 1,
+      "explanation": "'いくらですか' is specifically used to ask about the price of an item."
+    },
+    {
+      "id": "b6",
+      "type": "quiz",
+      "question": "Translate: 'Watashi no hon desu.'",
+      "options": ["This is a book.", "It's my book.", "I want a book.", "Where is the book?"],
+      "correct": 1,
+      "explanation": "watashi (I/me) + no (possessive particle 's) + hon (book) + desu (is) = It's my book."
+    },
+    {
+      "id": "b7",
+      "type": "quiz",
+      "question": "Which of these is the correct pronunciation of the number 100?",
+      "options": ["ひゃく (hyaku)", "じゅうじゅう (juu juu)", "せん (sen)", "はち (hachi)"],
+      "correct": 0,
+      "explanation": "100 is pronounced 'hyaku'."
+    },
+    {
+      "id": "b8",
+      "type": "quiz",
+      "question": "What does 'みどり (midori)' mean?",
+      "options": ["Green", "Yellow", "Pen", "Car"],
+      "correct": 0,
+      "explanation": "みどり is green! yellow is きいろ (kiiro)."
+    },
+    {
+      "id": "b9",
+      "type": "quiz",
+      "question": "The pronunciation of つ is like...",
+      "options": ["The 'su' in 'suit'", "The 'su' in 'super'", "The 'ts' in 'cats' + u", "The 'tu' in 'tube'"],
+      "correct": 2,
+      "explanation": "つ (tsu) has a strong 'ts' sound, exactly like the end of 'cats', followed by a short 'u'."
+    },
+    {
+      "id": "b10",
+      "type": "quiz",
+      "question": "What does 'くるま (kuruma)' mean?",
+      "options": ["Book", "Bag", "Car", "Water"],
+      "correct": 2,
+      "explanation": "くるま (kuruma) is car! Book is ほん (hon), Bag is かばん (kaban), Water is みず (mizu)."
+    }
+  ]
+}

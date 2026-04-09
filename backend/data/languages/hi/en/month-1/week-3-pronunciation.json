@@ -1,0 +1,64 @@
+{
+  "id": 25,
+  "type": "pronunciation",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "Numbers और Questions का उच्चारण",
+  "description": "Numbers 13-90 का सही stress, question intonation, और -tion/-sion endings।",
+  "duration": "10 मिनट",
+  "xp": 30,
+  "tags": [
+    "pronunciation",
+    "numbers",
+    "questions"
+  ],
+  "blocks": [
+    {
+      "id": "p1",
+      "type": "keypoints",
+      "title": "Question Intonation — Questions में आवाज़ की ऊँचाई",
+      "points": [
+        "Yes/No questions: आवाज़ ऊपर जाती है ↗ — 'Are you tired?' ↗",
+        "Wh-questions: आवाज़ नीचे आती है ↘ — 'Where are you FROM?' ↘",
+        "Listing: बीच में ऊपर, अंत में नीचे — 'one, TWO, three, four, FIVE' ↘",
+        "Surprise: पूरी sentence ऊपर — 'REALLY?!' ↗",
+        "Confirmation: अंत में थोड़ा ऊपर — 'It's 3 o'clock, ISN'T it?' ↗"
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "minimal_pairs",
+      "title": "Number Stress — teen vs ty",
+      "instruction": "Stress सुनें:",
+      "pairs": [
+        {
+          "word1": "thirteen",
+          "word2": "thirty",
+          "sound1": "thir-TEEN",
+          "sound2": "THIR-ty",
+          "diff": "stress on TEEN vs THIR"
+        },
+        {
+          "word1": "fifteen",
+          "word2": "fifty",
+          "sound1": "fif-TEEN",
+          "sound2": "FIF-ty",
+          "diff": "stress difference"
+        },
+        {
+          "word1": "sixteen",
+          "word2": "sixty",
+          "sound1": "six-TEEN",
+          "sound2": "SIX-ty",
+          "diff": "stress difference"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "tip",
+      "body": "💡 -tion और -sion endings:\n• -tion = /ʃən/ (शन): information (in-for-MAY-shun), station (STAY-shun)\n• -sion = /ʒən/ (झन): television (tel-uh-VI-zhun)\nहमेशा -tion के पहले syllable पर stress: QUES-tion, IN-for-MAY-tion"
+    }
+  ]
+}

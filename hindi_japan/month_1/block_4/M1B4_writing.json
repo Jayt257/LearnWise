@@ -1,0 +1,167 @@
+{
+  "activityId": "ja_hi_M1B4_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "लेखन अभ्यास: अपना कार्यक्रम लिखना (Writing Your Schedule)",
+  "learningGoal": "समय (ji), दिन (youbi) और बुनियादी क्रियाओं (verbs) का उपयोग करके वाक्य लिखना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_hi_M1B4_lesson_1"
+  ],
+  "instructions": "नीचे दिए गए संकेतों के आधार पर जापानी में 4 छोटे वाक्य लिखें। आप हिरागाना का प्रयोग करेंगे। याद रखें, समय के बाद 'ni' (に) कण लगता है।",
+  "writingPrompt": "अपने कार्यक्रम के बारे में जापानी में 4 वाक्य लिखें: \n1. आज सोमवार है। \n2. मैं 7 बजे उठता हूँ। \n3. मैं 9 बजे स्कूल जाता हूँ। \n4. मैं 11:30 बजे सोता हूँ।",
+  "promptGoal": "दिन, समय, और क्रियाओं (okimasu, ikimasu, nemasu) का सही वाक्य-संरचना (Sentence Structure) में उपयोग करना।",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "きょう",
+      "transliteration": "kyou",
+      "baseTranslation": "आज",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "げつようび",
+      "transliteration": "getsu-youbi",
+      "baseTranslation": "सोमवार",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "しちじ",
+      "transliteration": "shichi-ji",
+      "baseTranslation": "7 बजे",
+      "partOfSpeech": "time"
+    },
+    {
+      "targetText": "くじ",
+      "transliteration": "ku-ji",
+      "baseTranslation": "9 बजे",
+      "partOfSpeech": "time"
+    },
+    {
+      "targetText": "じゅういちじ はん",
+      "transliteration": "juu-ichi-ji han",
+      "baseTranslation": "11:30 बजे",
+      "partOfSpeech": "time"
+    },
+    {
+      "targetText": "おきます",
+      "transliteration": "okimasu",
+      "baseTranslation": "उठना",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "いきます",
+      "transliteration": "ikimasu",
+      "baseTranslation": "जाना",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ねます",
+      "transliteration": "nemasu",
+      "baseTranslation": "सोना",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "'आज सोमवार है' -> Kyou wa getsu-youbi desu.",
+    "समय के साथ 'ni' (に) का प्रयोग करें: 'Shichi-ji ni okimasu'.",
+    "दिशा (Direction) बताने के लिए 'e' (へ) कण का प्रयोग करें: 'Gakkou e ikimasu'."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "きょうは げつようび です。しちじ に おきます。くじ に がっこう へ いきます。じゅういちじ はん に ねます。",
+      "transliteration": "Kyou wa getsu-youbi desu. Shichi-ji ni okimasu. Ku-ji ni gakkou e ikimasu. Juu-ichi-ji han ni nemasu.",
+      "baseTranslation": "आज सोमवार है। 7 बजे उठता हूँ। 9 बजे स्कूल जाता हूँ। 11:30 बजे सोता हूँ।",
+      "qualityLevel": "excellent",
+      "annotation": "कणों (wa, ni, e) का बिलकुल सटीक उपयोग।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Time Particle (ni)",
+      "weight": 40,
+      "description": "क्या समय के बाद 'ni' (に) का सही प्रयोग किया गया है?"
+    },
+    {
+      "criterion": "Verb Conjugation",
+      "weight": 30,
+      "description": "क्या क्रियाओं (okimasu, ikimasu, nemasu) का सही प्रयोग हुआ है?"
+    },
+    {
+      "criterion": "Vocabulary Accuracy",
+      "weight": 30,
+      "description": "क्या दिन और समय के शब्द सही हैं?"
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "きょうは げつようび です。しちじ に おきます。くじ に がっこう へ いきます。じゅういちじ はん に ねます。",
+    "acceptableAlternates": [
+      "きょうは げつようび です。わたしは しちじ に おきます。くじ に がっこう に いきます。じゅういちじ はん に ねます。"
+    ],
+    "requiredKeywords": [
+      "げつようび",
+      "しちじ",
+      "くじ",
+      "じゅういちじ はん"
+    ],
+    "grammarBaseline": "Time + に + Verb",
+    "lengthExpectation": "4 short sentences",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy",
+          "weight": 100,
+          "description": "Correct Hiragana spelling and particle usage"
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "अति उत्तम! आप जापानी में अपना पूरा दैनिक कार्यक्रम लिख सकते हैं।",
+    "onFail": "कृपया वाक्यों में कणों (Particles) की जांच करें। समय के तुरंत बाद 'ni' (に) आना चाहिए।",
+    "onPartial": "आपने अच्छा लिखा, लेकिन 9 बजे (ku-ji) और 7 बजे (shichi-ji) की हिरागाना वर्तनी पर ध्यान दें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "time",
+    "schedule",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "याद रखें, जापानी में वाक्य हमेशा क्रिया (Verb) पर समाप्त होता है (जैसे okimasu, ikimasu)।",
+  "commonMistakes": [
+    "'Shichi-ji ni' के बजाय 'Shichi-ji wa' लिखना (समय के लिए 'wa' नहीं, 'ni' का प्रयोग होता है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

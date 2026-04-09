@@ -1,0 +1,52 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 3 | Listening",
+  "id": 27,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: फ़ोन पर समय पूछना",
+  "description": "फ़ोन पर समय और मुलाकात की बातचीत सुनें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["listening", "time", "phone", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "फ़ोन पर बातचीत: मुलाकात तय करना",
+      "url": null,
+      "transcript": "A: もしもし、けんじさんですか？(Moshi moshi, Kenji san desu ka?) — हैलो, क्या केनजी हैं?\n\nB: はい、そうです！(Hai, sou desu!) — हाँ, मैं हूँ!\n\nA: あした、いっしょにひるごはんをたべませんか？(Ashita, issho ni hirugohan wo tabemasen ka?) — कल क्या साथ में दोपहर का खाना खाएँगे?\n\nB: いいですね！なんじがいいですか？(Ii desu ne! Nanji ga ii desu ka?) — बढ़िया! कितने बजे ठीक रहेगा?\n\nA: ごごいちじはどうですか？(Gogo ichiji wa dou desu ka?) — दोपहर 1 बजे कैसा रहेगा?\n\nB: ごごいちじはちょっと…にじはどうですか？(Gogo ichiji wa chotto... Niji wa dou desu ka?) — 1 बजे थोड़ा मुश्किल...2 बजे कैसा?\n\nA: はい、にじにしましょう！どこでたべますか？(Hai, niji ni shimashou! Doko de tabemasuka?) — ठीक है, 2 बजे! कहाँ खाएँगे?\n\nB: えきのちかくのレストランはどうですか？(Eki no chikaku no resutoran wa dou desu ka?) — स्टेशन के पास वाले रेस्तराँ में?\n\nA: いいですね！じゃあ、にじにえきでまちましょう！(Ii desu ne! Jaa, niji ni eki de machimashou!) — बढ़िया! 2 बजे स्टेशन पर मिलते हैं!"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "बातचीत से महत्वपूर्ण जानकारी नोट करें:",
+      "instruction": "बातचीत सुनकर इन सवालों के जवाब लिखें:",
+      "sections": [
+        { "label": "मुलाकात कब है? (दिन)", "placeholder": "किस दिन..." },
+        { "label": "मुलाकात किस समय तय हुई?", "placeholder": "बजे का समय..." },
+        { "label": "वे कहाँ मिलेंगे?", "placeholder": "स्थान..." },
+        { "label": "वे क्या करने जा रहे हैं?", "placeholder": "गतिविधि..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "बातचीत पूरी करें",
+      "text": "A: あした、いっしょに ___ をたべませんか？\nB: いいですね！___ がいいですか？\nA: ごご ___ じはどうですか？\nB: にじにしましょう！___ でまちましょう！",
+      "gaps": ["ひるごはん", "なんじ", "いち", "えき"],
+      "hints": ["दोपहर का खाना", "कितने बजे — प्रश्न शब्द", "एक — संख्या", "स्टेशन"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत समझें",
+      "items": [
+        { "statement": "वे आज मिलने की योजना बना रहे हैं।", "answer": false, "explanation": "नहीं! 'あした (Ashita)' = कल। वे कल मिलने की बात कर रहे हैं।" },
+        { "statement": "मुलाकात का समय 2 बजे तय हुआ।", "answer": true, "explanation": "हाँ: 'にじにしましょう (Niji ni shimashou)' — 2 बजे तय करते हैं।" },
+        { "statement": "वे घर पर खाना खाने की योजना बना रहे हैं।", "answer": false, "explanation": "नहीं! वे स्टेशन के पास के रेस्तराँ में खाने जाएँगे।" }
+      ]
+    }
+  ]
+}

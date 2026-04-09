@@ -1,0 +1,60 @@
+{
+  "id": 26,
+  "type": "writing",
+  "title": "Ask and Answer Simple Questions",
+  "description": "Write short questions and answers.",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "Build the sentence",
+      "translation": "Arrange the words to form a correct Hindi sentence.",
+      "words": [
+        "मैं",
+        "छात्र",
+        "हूँ",
+        "आज"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "translation_task",
+      "title": "Translate",
+      "instruction": "Translate to Hindi.",
+      "items": [
+        {
+          "source": "What time is it?",
+          "answer": "कितने बजे हैं?"
+        },
+        {
+          "source": "Where are you going?",
+          "answer": "आप कहाँ जा रहे हैं?"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "writing",
+      "prompt": "Write 5 short questions in Hindi about time, numbers, or location.",
+      "minWords": 35,
+      "sampleAnswer": "अब कितने बजे हैं? यह क्या है? कहाँ जाना है? आज कौन सा दिन है? क्यों?"
+    }
+  ]
+}

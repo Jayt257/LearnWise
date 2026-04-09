@@ -1,0 +1,52 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 1 | Listening",
+  "id": 6,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: जापानी अभिवादन",
+  "description": "जापानी बातचीत सुनें और महत्वपूर्ण जानकारी नोट करें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["listening", "greetings", "comprehension", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "बातचीत सुनें: एक नई मुलाकात",
+      "url": null,
+      "transcript": "A: こんにちは！はじめまして。わたしはけんじです。\n(Konnichiwa! Hajimemashite. Watashi wa Kenji desu.)\nनमस्ते! पहली बार मिल रहे हैं। मेरा नाम केनजी है।\n\nB: こんにちは！わたしはみきです。インドからきました。\n(Konnichiwa! Watashi wa Miki desu. Indo kara kimashita.)\nनमस्ते! मेरा नाम मिकी है। मैं भारत से आई हूँ।\n\nA: そうですか！にほんごがじょうずですね。\n(Sou desu ka! Nihongo ga jouzu desu ne.)\nअच्छा! आपकी जापानी बहुत अच्छी है।\n\nB: いいえ、まだまだです。よろしくおねがいします。\n(Iie, mada mada desu. Yoroshiku onegai shimasu.)\nनहीं, अभी और सीखना है। कृपया मेरा ध्यान रखें।\n\nA: こちらこそ！またね！\n(Kochira koso! Mata ne!)\nमुझे भी! फिर मिलते हैं!"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "बातचीत से नोट्स लें",
+      "instruction": "बातचीत सुनकर इन नोट्स को पूरा करें:",
+      "sections": [
+        { "label": "पहले व्यक्ति का नाम:", "placeholder": "जापानी नाम लिखें..." },
+        { "label": "दूसरे व्यक्ति का नाम:", "placeholder": "जापानी नाम लिखें..." },
+        { "label": "दूसरा व्यक्ति कहाँ से है?", "placeholder": "देश का नाम लिखें..." },
+        { "label": "बातचीत में कौन से अभिवादन प्रयोग हुए?", "placeholder": "कम से कम 3 अभिवादन लिखें..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "वार्तालाप में रिक्त स्थान भरें",
+      "text": "A: ___ ！はじめまして。わたしはけんじです。\nB: こんにちは！わたしはみきです。___ からきました。\nA: にほんごが ___ ですね。\nB: いいえ、まだまだです。よろしくおねがいします。",
+      "gaps": ["こんにちは", "インド", "じょうずです"],
+      "hints": ["दोपहर का अभिवादन", "एक देश का नाम", "प्रशंसा का शब्द"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत को समझें",
+      "items": [
+        { "statement": "बातचीत में दो लोग पहली बार मिल रहे हैं।", "answer": true, "explanation": "हाँ, 'はじめまして (Hajimemashite)' — पहली बार मिलने पर यही कहते हैं।" },
+        { "statement": "मिकी जापान से है।", "answer": false, "explanation": "नहीं, मिकी भारत से है: 'インドからきました (Indo kara kimashita)'।" },
+        { "statement": "केनजी ने मिकी की जापानी की तारीफ की।", "answer": true, "explanation": "हाँ, उसने कहा: 'にほんごがじょうずですね' — आपकी जापानी अच्छी है।" }
+      ]
+    }
+  ]
+}

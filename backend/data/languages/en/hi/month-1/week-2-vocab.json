@@ -1,0 +1,71 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 2 | Vocabulary — Numbers & Colors",
+  "id": 12,
+  "type": "vocab",
+  "title": "Essential Words: Numbers, Colors & Objects",
+  "description": "Learn numbers 1-10, basic colors, and common everyday objects.",
+  "duration": "15 min",
+  "xp": 20,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["vocabulary", "numbers", "colors", "objects", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "image_word",
+      "title": "Visual Vocabulary",
+      "items": [
+        { "emoji": "1️⃣", "word": "एक", "meaning": "One (Ek)", "example": "एक किताब (One book)" },
+        { "emoji": "2️⃣", "word": "दो", "meaning": "Two (Do)", "example": "दो कुर्सियाँ (Two chairs)" },
+        { "emoji": "3️⃣", "word": "तीन", "meaning": "Three (Teen)", "example": "तीन सेब (Three apples)" },
+        { "emoji": "🔴", "word": "लाल", "meaning": "Red (Laal)", "example": "लाल फूल (Red flower)" },
+        { "emoji": "🔵", "word": "नीला", "meaning": "Blue (Neela)", "example": "नीला आसमान (Blue sky)" },
+        { "emoji": "📚", "word": "किताब", "meaning": "Book (Kitaab)", "example": "यह मेरी किताब है।" },
+        { "emoji": "🖊️", "word": "कलम", "meaning": "Pen (Kalam)", "example": "मुझे कलम चाहिए।" },
+        { "emoji": "🚗", "word": "गाड़ी", "meaning": "Car (Gaadi)", "example": "लाल गाड़ी (Red car)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "vocab_table",
+      "title": "Numbers 1-10",
+      "words": [
+        { "word": "एक (Ek)", "meaning": "1", "example": "एक" },
+        { "word": "दो (Do)", "meaning": "2", "example": "दो" },
+        { "word": "तीन (Teen)", "meaning": "3", "example": "तीन" },
+        { "word": "चार (Chaar)", "meaning": "4", "example": "चार" },
+        { "word": "पाँच (Paanch)", "meaning": "5", "example": "पाँच" },
+        { "word": "छह (Chhah)", "meaning": "6", "example": "छह" },
+        { "word": "सात (Saat)", "meaning": "7", "example": "सात" },
+        { "word": "आठ (Aath)", "meaning": "8", "example": "आठ" },
+        { "word": "नौ (Nau)", "meaning": "9", "example": "नौ" },
+        { "word": "दस (Das)", "meaning": "10", "example": "दस" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "vocab_table",
+      "title": "Pronouns & Objects",
+      "words": [
+        { "word": "यह (Yah)", "meaning": "This", "example": "यह क्या है? - What is this?" },
+        { "word": "वह (Vah)", "meaning": "That", "example": "वह कलम है। - That is a pen." },
+        { "word": "कितना (Kitna)", "meaning": "How much?", "example": "यह कितना है? - How much is this?" },
+        { "word": "कौन सा (Kaun sa)", "meaning": "Which one?", "example": "कौन सा लाल है? - Which one is red?" },
+        { "word": "किताब (Kitaab)", "meaning": "Book", "example": "मेरी किताब। - My book." },
+        { "word": "कलम (Kalam)", "meaning": "Pen", "example": "नीला कलम। - Blue pen." },
+        { "word": "कुर्सी (Kursi)", "meaning": "Chair", "example": "यह कुर्सी है। - This is a chair." },
+        { "word": "रुपये (Rupaye)", "meaning": "Rupees", "example": "दस रुपये। - Ten rupees." }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "matching",
+      "title": "Match the Words",
+      "instruction": "Connect the Romaji word to its English meaning.",
+      "leftItems": ["Yah", "Laal", "Gaadi", "Teen", "Kitaab"],
+      "rightItems": ["Car", "Three", "This", "Book", "Red"],
+      "pairs": [[0,2],[1,4],[2,0],[3,1],[4,3]]
+    }
+  ]
+}

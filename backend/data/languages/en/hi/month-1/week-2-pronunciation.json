@@ -1,0 +1,55 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 2 | Pronunciation",
+  "id": 14,
+  "type": "pronunciation",
+  "title": "Pronunciation: Numerals and Consonants",
+  "description": "Learn the pronunciation rules for numbers and specific Hindi consonant combinations.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["pronunciation", "numbers", "consonants", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Pronouncing Numbers Correctly",
+      "points": [
+        "एक (Ek) – The 'e' is like the 'e' in 'pet'. Do not say 'ache'.",
+        "दो (Do) – Like the English word 'dough', not 'doo'.",
+        "तीन (Teen) – Like the 'teen' in 'teenager'.",
+        "छह (Chhah) – The double 'h' implies a breathy ending. Some pronounce it 'chhe'.",
+        "Aspiration check: 'Chaar' starts with an unaspirated ch. 'Chhah' starts with an aspirated chh."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "Identify the Sound Difference",
+      "instruction": "Notice the subtle differences in these pairs.",
+      "pairs": [
+        { "word1": "एक (Ek - One)", "word2": "ऐनक (Ainak - Spectacles)", "sound1": "Short 'e'", "sound2": "Long 'ai' (like flat 'a' in 'apple')", "diff": "Vowel change." },
+        { "word1": "सात (Saat - Seven)", "word2": "साठ (Saath - Sixty)", "sound1": "Soft 't'", "sound2": "Hard, aspirated 'th'", "diff": "Notice how aspirating the 't' changes 7 into 60!" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Pronouncing Two-Syllable Words",
+      "words": [
+        { "word": "लाल", "syllables": ["Laal"], "stressed": 0, "note": "One syllable. Laal (Red)." },
+        { "word": "नीला", "syllables": ["Nee", "la"], "stressed": 0, "note": "Two syllables. Nee-la (Blue). Stress is fairly even." }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "True or False — Check Your Understanding",
+      "items": [
+        { "statement": "The number two 'दो' sounds exactly like the English word 'do'.", "answer": false, "explanation": "No, it sounds like the English word 'dough'." },
+        { "statement": "The Hindi word for seven (सात) ends with a soft dental 't'.", "answer": true, "explanation": "Yes! The tongue touches the back of the upper teeth." }
+      ]
+    }
+  ]
+}

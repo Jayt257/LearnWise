@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Pronunciation Practice 2",
+  "id": 120,
+  "type": "pronunciation",
+  "title": "उच्चारण अभ्यास 2: स्वर परिवर्तन और Particles",
+  "description": "Particle का वाक्यों में प्राकृतिक प्रवाह।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "particles", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Particles को मिलाना (Blending Particles)",
+      "points": [
+        "जापानी में Particles (जैसे を, が, で) कभी अलग नहीं बोले जाते",
+        "वे हमेशा उनके पहले आने वाले शब्द से जुड़े होते हैं",
+        "जैसे: ほん + を = ほんを (Hon-o) — एक साँस में",
+        "みせ + で = みせで (Mise-de) — बिना रुके"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "stress_pattern",
+      "title": "वाक्य का प्रवाह (Sentence Rhythm)",
+      "words": [
+        { "word": "テレビをみました", "syllables": ["te", "re", "bi", "o", "mi", "ma", "shi", "ta"], "stressed": 0, "note": "Terebi-o | mi-ma-shi-ta. 'o' को 'Terebi' के साथ जोड़ें।" },
+        { "word": "パンとぎゅうにゅう", "syllables": ["pa", "n", "to", "gyuu", "nyuu"], "stressed": 0, "note": "Pan-to | gyuu-nyuu. 'to' को 'pan' के साथ जोड़ें।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "tongue_twister",
+      "title": "Particles का अभ्यास",
+      "text": "スーパーで、りんごとおにくをかいました。",
+      "romanization": "Suupaa de, ringo to oniku wo kaimashita.",
+      "translation": "सुपरमार्केट में, सेब और मीट खरीदा।",
+      "tip": "Suupaa-de | ringo-to oniku-o | kaimashita. इस तरह 3 हिस्सों में बोलें।"
+    }
+  ]
+}

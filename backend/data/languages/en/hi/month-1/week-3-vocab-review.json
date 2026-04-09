@@ -1,0 +1,179 @@
+{
+  "id": 30,
+  "type": "vocab_review",
+  "title": "Week 3 Review",
+  "description": "Review the first 15 week-3 words.",
+  "duration": "20 min",
+  "xp": 20,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "vocab_table",
+      "title": "Review Words",
+      "words": [
+        {
+          "word": "एक",
+          "meaning": "One",
+          "example": "एक — one"
+        },
+        {
+          "word": "दो",
+          "meaning": "Two",
+          "example": "दो — two"
+        },
+        {
+          "word": "तीन",
+          "meaning": "Three",
+          "example": "तीन — three"
+        },
+        {
+          "word": "चार",
+          "meaning": "Four",
+          "example": "चार — four"
+        },
+        {
+          "word": "पाँच",
+          "meaning": "Five",
+          "example": "पाँच — five"
+        },
+        {
+          "word": "छह",
+          "meaning": "Six",
+          "example": "छह — six"
+        },
+        {
+          "word": "सात",
+          "meaning": "Seven",
+          "example": "सात — seven"
+        },
+        {
+          "word": "आठ",
+          "meaning": "Eight",
+          "example": "आठ — eight"
+        },
+        {
+          "word": "नौ",
+          "meaning": "Nine",
+          "example": "नौ — nine"
+        },
+        {
+          "word": "दस",
+          "meaning": "Ten",
+          "example": "दस — ten"
+        },
+        {
+          "word": "कब",
+          "meaning": "When",
+          "example": "कब — when"
+        },
+        {
+          "word": "कहाँ",
+          "meaning": "Where",
+          "example": "कहाँ — where"
+        },
+        {
+          "word": "क्यों",
+          "meaning": "Why",
+          "example": "क्यों — why"
+        },
+        {
+          "word": "कैसे",
+          "meaning": "How",
+          "example": "कैसे — how"
+        },
+        {
+          "word": "कौन",
+          "meaning": "Who",
+          "example": "कौन — who"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "matching",
+      "title": "Match again",
+      "instruction": "Match the Hindi words to the English meanings.",
+      "leftItems": [
+        "एक",
+        "दो",
+        "तीन",
+        "चार",
+        "पाँच",
+        "छह",
+        "सात",
+        "आठ"
+      ],
+      "rightItems": [
+        "Eight",
+        "Seven",
+        "Six",
+        "Five",
+        "Four",
+        "Three",
+        "Two",
+        "One"
+      ],
+      "pairs": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "true_false",
+      "title": "Quick review",
+      "items": [
+        {
+          "statement": "'एक' means one.",
+          "answer": true,
+          "explanation": "This is a direct review item."
+        },
+        {
+          "statement": "Hindi has no polite form.",
+          "answer": false,
+          "explanation": "Hindi uses polite forms like आप."
+        }
+      ]
+    }
+  ]
+}

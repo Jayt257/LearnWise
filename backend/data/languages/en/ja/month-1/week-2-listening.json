@@ -1,0 +1,51 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 2 | Listening",
+  "id": 16,
+  "type": "listening",
+  "title": "Listening: At the Candy Store",
+  "description": "Listen to a simple shopping dialogue in a Japanese candy store and practice numbers.",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["listening", "shopping", "numbers", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "Listen to: Candy Store",
+      "url": null,
+      "transcript": "Store clerk: いらっしゃいませ！ (Irasshaimase! - Welcome!)\nChild: すみません、このあめは いくらですか？ (Sumimasen, kono ame wa ikura desu ka? - Excuse me, how much is this candy?)\nStore clerk: それは じゅうえんです。 (Sore wa juu en desu. - That is 10 yen.)\nChild: じゃあ、みっつ ください。 (Jaa, mittsu kudasai. - Then, three please.)\nStore clerk: はい、さんじゅうえん です。 (Hai, sanjuu en desu. - Yes, that is 30 yen.)\nChild: はい、どうぞ。 (Hai, douzo. - Here you go.)\nStore clerk: ありがとうございます！ (Arigatou gozaimasu! - Thank you!)"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "Store Notes",
+      "instruction": "Listen and take notes:",
+      "sections": [
+        { "label": "How much is one candy?", "placeholder": "Price..." },
+        { "label": "How many did the child ask for?", "placeholder": "Number..." },
+        { "label": "What was the total price?", "placeholder": "Total..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "Fill the Blanks",
+      "text": "Clerk: いらっしゃいませ！\nChild: すみません、このあめは ___ ですか？\nClerk: それは じゅうえんです。\nChild: じゃあ、みっつ ___。\nClerk: はい、___ です。",
+      "gaps": ["いくら", "ください", "さんじゅうえん"],
+      "hints": ["How much", "Please (give me)", "Thirty yen"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "Did you understand?",
+      "items": [
+        { "statement": "The clerk says 'Sayounara' to welcome the child.", "answer": false, "explanation": "No! They say 'Irasshaimase' (Welcome!)." },
+        { "statement": "The total price was 30 yen.", "answer": true, "explanation": "Yes, 3 candies at 10 yen each = sanjuu en (30 yen)." },
+        { "statement": "The child uses 'kono' to mean 'this (near me)'.", "answer": true, "explanation": "Yes! 'Kono ame' = 'this candy'." }
+      ]
+    }
+  ]
+}

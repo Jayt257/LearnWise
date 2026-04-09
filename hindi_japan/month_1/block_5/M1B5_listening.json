@@ -1,0 +1,206 @@
+{
+  "activityId": "ja_hi_M1B5_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "श्रवण: डिपार्टमेंट स्टोर में घोषणाएं और खरीदारी",
+  "learningGoal": "डिपार्टमेंट स्टोर की घोषणाओं, कीमतों, और दिशा-निर्देशों को सुनकर समझना।",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 50,
+  "prerequisites": [
+    "ja_hi_M1B5_lesson_1"
+  ],
+  "instructions": "यह एक विस्तृत श्रवण अभ्यास है। आप एक डिपार्टमेंट स्टोर में हैं। आप स्पीकर पर एक घोषणा सुनते हैं और फिर दो लोगों (एक ग्राहक और एक दुकानदार) के बीच की बातचीत सुनते हैं। ध्यान से सुनें कि कौन सी चीज़ कितने की है और दुकान का समय क्या है।",
+  "listeningGoal": "लंबे संवादों में से मुख्य जानकारी (कीमत, समय, वस्तु) को निकालना।",
+  "audioScenario": "एक व्यस्त डिपार्टमेंट स्टोर का माहौल।",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "アナウンス：いらっしゃいませ。スーパー は あさ くじ から よる はちじ まで です。",
+      "transliteration": "Anaunsu: Irasshaimase. Suupaa wa asa ku-ji kara yoru hachi-ji made desu.",
+      "baseTranslation": "घोषणा: स्वागत है। सुपरमार्केट सुबह 9 बजे से रात 8 बजे तक है।"
+    },
+    {
+      "targetText": "きょう は どようび です。テレビ は はちまん えん です。",
+      "transliteration": "Kyou wa do-youbi desu. Terebi wa hachi-man en desu.",
+      "baseTranslation": "आज शनिवार है। टीवी 80,000 येन का है।"
+    },
+    {
+      "targetText": "きゃく：すみません、あの カメラ は いくら ですか。",
+      "transliteration": "Kyaku: Sumimasen, ano kamera wa ikura desu ka.",
+      "baseTranslation": "ग्राहक: माफ़ कीजिए, वह कैमरा कितने का है?"
+    },
+    {
+      "targetText": "てんいん：あの カメラ ですか。あれ は にまん ごせん えん です。",
+      "transliteration": "Tenin: Ano kamera desu ka. Are wa ni-man go-sen en desu.",
+      "baseTranslation": "दुकानदार: वह कैमरा? वह 25,000 येन का है।"
+    },
+    {
+      "targetText": "きゃく：そうですか。じゃあ、この ほん は？",
+      "transliteration": "Kyaku: Sou desu ka. Jaa, kono hon wa?",
+      "baseTranslation": "ग्राहक: अच्छा। तो, यह किताब?"
+    },
+    {
+      "targetText": "てんいん：その ほん は せん ひゃく えん です。",
+      "transliteration": "Tenin: Sono hon wa sen hyaku en desu.",
+      "baseTranslation": "दुकानदार: वह किताब 1,100 येन की है।"
+    },
+    {
+      "targetText": "きゃく：じゃあ、これ と あれ を ください。",
+      "transliteration": "Kyaku: Jaa, kore to are o kudasai.",
+      "baseTranslation": "ग्राहक: ठीक है, यह (किताब) और वह (कैमरा) दे दीजिए।"
+    }
+  ],
+  "audioTranscriptFull": "いらっしゃいませ。スーパー は あさ くじ から よる はちじ まで です。きょう は どようび です。テレビ は はちまん えん です。すみません、あの カメラ は いくら ですか。あの カメラ ですか。あれ は にまん ごせん えん です。そうですか。じゃあ、この ほん は？その ほん は せん ひゃく えん です。じゃあ、これ と あれ を ください。",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "सुपरमार्केट रात को कितने बजे बंद होता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "くじ (9:00)",
+        "はちじ (8:00)",
+        "じゅうじ (10:00)"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "आज सप्ताह का कौन सा दिन है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "にちようび (Nichi-youbi / रविवार)",
+        "きんようび (Kin-youbi / शुक्रवार)",
+        "どようび (Do-youbi / शनिवार)"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "टीवी की कीमत क्या घोषित की गई थी?",
+      "questionType": "multiple_choice",
+      "options": [
+        "8,000 येन (has-sen en)",
+        "80,000 येन (hachi-man en)",
+        "10,000 येन (ichi-man en)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "ग्राहक किस चीज़ के बारे में 'Ano' (वह दूर वाला) शब्द का उपयोग करता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ほん (किताब)",
+        "カメラ (कैमरा)",
+        "テレビ (टीवी)"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "कैमरे की कीमत कितनी है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "25,000 येन (ni-man go-sen en)",
+        "2,500 येन (ni-sen go-hyaku en)",
+        "5,000 येन (go-sen en)"
+      ],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    },
+    {
+      "questionId": "lq_6",
+      "questionText": "किताब की कीमत कितनी है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "100 येन (hyaku en)",
+        "1,000 येन (sen en)",
+        "1,100 येन (sen hyaku en)"
+      ],
+      "audioTimestamp": "00:30",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_6"
+    },
+    {
+      "questionId": "lq_7",
+      "questionText": "फन एक्टिविटी: 'कैलकुलेटर' - अंत में ग्राहक 'यह (किताब) और वह (कैमरा)' खरीदता है। उसका कुल बिल कितना होगा?",
+      "questionType": "multiple_choice",
+      "options": [
+        "26,100 येन",
+        "105,000 येन",
+        "2,600 येन"
+      ],
+      "audioTimestamp": "00:35",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_7"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 14,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "はちじ (8:00)",
+      "lq_2": "どようび (Do-youbi / शनिवार)",
+      "lq_3": "80,000 येन (hachi-man en)",
+      "lq_4": "カメラ (कैमरा)",
+      "lq_5": "25,000 येन (ni-man go-sen en)",
+      "lq_6": "1,100 येन (sen hyaku en)",
+      "lq_7": "26,100 येन"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने एक बहुत ही घने और जटिल जापानी संवाद को सफलतापूर्वक डिकोड कर लिया है।",
+    "onFail": "नंबरों में उलझना स्वाभाविक है। 'Man' (10,000) और 'Sen' (1,000) को अलग-अलग करके सुनने की कोशिश करें।",
+    "onPartial": "आपने अच्छा किया, लेकिन कीमतों (विशेषकर 25,000 और 1,100) को समझने में थोड़ा और अभ्यास करें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "いらっしゃいませ。スーパー は あさ くじ から よる はちじ まで です。きょう は どようび です。テレビ は はちまん えん です。すみません、あの カメラ は いくら ですか。あの カメラ ですか。あれ は にまん ごせん えん です。そうですか。じゃあ、この ほん は？その ほん は せん ひゃく えん です。じゃあ、これ と あれ を ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "shopping",
+    "prices",
+    "dialogue"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "जब ग्राहक 'Kore to are' (यह और वह) कहता है, तो वह 'This' (जो उसके हाथ में है - किताब) और 'That over there' (जो दूर है - कैमरा) की ओर इशारा कर रहा है।",
+  "commonMistakes": [
+    "'Sen hyaku' (1,100) को 10,100 समझ लेना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B5_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

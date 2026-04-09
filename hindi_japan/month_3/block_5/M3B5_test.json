@@ -1,0 +1,228 @@
+{
+  "activityId": "ja_hi_M3B5_test_8",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "ब्लॉक मूल्यांकन: आपातकाल और स्वास्थ्य",
+  "learningGoal": "महीने 3 के 5वें ब्लॉक में सीखे गए '~n desu' (समझाना), '~te shimaimashita' (पछतावा), और आपातकालीन शब्दावली का मूल्यांकन करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 75,
+  "prerequisites": [
+    "ja_hi_M3B5_lesson_1",
+    "ja_hi_M3B5_pronunciation_2",
+    "ja_hi_M3B5_reading_3",
+    "ja_hi_M3B5_writing_4",
+    "ja_hi_M3B5_listening_5",
+    "ja_hi_M3B5_vocabulary_6",
+    "ja_hi_M3B5_speaking_7"
+  ],
+  "instructions": "यह ब्लॉक 5 का मूल्यांकन है। इस टेस्ट में आपको डॉक्टर और पुलिस को अपनी समस्या बताने के लिए सही ग्रामर (~n desu, ~te shimaimashita) का चुनाव करना है।",
+  "testTitle": "ब्लॉक 5 - आपातकाल (Emergencies) टेस्ट",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_explanation",
+      "sectionTitle": "समस्या समझाना (~n desu)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "डॉक्टर ने पूछा 'Dou shimashita ka?'। आपको बताना है 'मेरे गले में दर्द है (समझाते हुए)'। सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "のど が いたいんです (Nodo ga itai n desu)",
+            "のど が いたい です (Nodo ga itai desu)",
+            "のど が いたいですん (Nodo ga itai desu n)"
+          ],
+          "questionHints": {
+            "targetText": "のど が いたいんです (Nodo ga itai n desu)",
+            "transliteration": "Nodo ga itai n desu",
+            "baseTranslation": "Use plain form (itai) + n desu to explain a symptom."
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "'मुझे बुखार है' - इसका 'Explanation form' (~n desu) क्या होगा?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ねつ が あるんです (Netsu ga aru n desu)",
+            "ねつ が ありますん (Netsu ga arimasu n)",
+            "ねつ が ないんです (Netsu ga nai n desu)"
+          ],
+          "questionHints": {
+            "targetText": "ねつ が あるんです (Netsu ga aru n desu)",
+            "transliteration": "Netsu ga aru n desu",
+            "baseTranslation": "Arimasu becomes aru + n desu."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_regret",
+      "sectionTitle": "पछतावा / गलती (~te shimaimashita)",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "'मुझे सर्दी लग गई' (Kaze o hikimasu)। पछतावा/दुर्घटना दिखाने के लिए सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "かぜ を ひいて しまいました (Kaze o hiite shimaimashita)",
+            "かぜ を ひきました (Kaze o hikimashita)",
+            "かぜ を ひいて います (Kaze o hiite imasu)"
+          ],
+          "questionHints": {
+            "targetText": "かぜ を ひいて しまいました (Kaze o hiite shimaimashita)",
+            "transliteration": "Kaze o hiite shimaimashita",
+            "baseTranslation": "Te form (hiite) + shimaimashita expresses regret."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "'मुझसे मेरा छाता ट्रेन में छूट गया/भूल गया' (Wasuremasu)।",
+          "questionType": "multiple_choice",
+          "options": [
+            "でんしゃ に わすれて しまいました (Densha ni wasurete shimaimashita)",
+            "でんしゃ に わすれました (Densha ni wasuremashita)",
+            "でんしゃ に わすれるんです (Densha ni wasureru n desu)"
+          ],
+          "questionHints": {
+            "targetText": "でんしゃ に わすれて しまいました (Densha ni wasurete shimaimashita)",
+            "transliteration": "Densha ni wasurete shimaimashita",
+            "baseTranslation": "Wasurete shimaimashita is the regret form."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_passive",
+      "sectionTitle": "चोरी और पुलिस रिपोर्ट (Passive Form)",
+      "questions": [
+        {
+          "questionId": "tq_5",
+          "questionText": "आप पुलिस स्टेशन में हैं। आपका लैपटॉप चोरी हो गया है (Nusumimasu = चुराना)। आप क्या कहेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "パソコン を ぬすまれました (Pasokon o nusumaremashita - Passive)",
+            "パソコン を ぬすみました (Pasokon o nusumimashita)",
+            "パソコン を なくしました (Pasokon o nakushimashita)"
+          ],
+          "questionHints": {
+            "targetText": "パソコン を ぬすまれました (Pasokon o nusumaremashita - Passive)",
+            "transliteration": "Pasokon o nusumaremashita",
+            "baseTranslation": "Must use passive form when you are the victim of a crime."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        },
+        {
+          "questionId": "tq_6",
+          "questionText": "'Nakushimasu' (なくします) और 'Otoshimasu' (おとします) में क्या अंतर है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Nakushimasu = खो देना (Lost), Otoshimasu = गिरा देना (Dropped)",
+            "Nakushimasu = गिरा देना, Otoshimasu = खो देना",
+            "दोनों का मतलब 'चुराना' है।"
+          ],
+          "questionHints": {
+            "targetText": "Nakushimasu = खो देना (Lost), Otoshimasu = गिरा देना (Dropped)",
+            "transliteration": "Nakushimasu (Lost), Otoshimasu (Dropped)",
+            "baseTranslation": "Vocab check."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        },
+        {
+          "questionId": "tq_7",
+          "questionText": "ग्रामर चेक: 'Hone ga oreta to omoimasu' (मुझे लगता है हड्डी टूट गई है)। यहाँ 'Hone' (हड्डी) के साथ 'ga' क्यों आया है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "क्योंकि 'टूटना' (Oremasu) एक Intransitive Verb है, जहाँ काम खुद होता है।",
+            "क्योंकि मैंने जानबूझकर हड्डी तोड़ी है।",
+            "गलती से टाइप हो गया है।"
+          ],
+          "questionHints": {
+            "targetText": "क्योंकि 'टूटना' (Oremasu) एक Intransitive Verb है, जहाँ काम खुद होता है।",
+            "transliteration": "Because 'oremasu' is an intransitive verb.",
+            "baseTranslation": "Oremasu is intransitive, taking 'ga'."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 20,
+  "passMarks": 16,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "のど が いたいんです (Nodo ga itai n desu)",
+      "tq_2": "ねつ が あるんです (Netsu ga aru n desu)",
+      "tq_3": "かぜ を ひいて しまいました (Kaze o hiite shimaimashita)",
+      "tq_4": "でんしゃ に わすれて しまいました (Densha ni wasurete shimaimashita)",
+      "tq_5": "パソコン を ぬすまれました (Pasokon o nusumaremashita - Passive)",
+      "tq_6": "Nakushimasu = खो देना (Lost), Otoshimasu = गिरा देना (Dropped)",
+      "tq_7": "क्योंकि 'टूटना' (Oremasu) एक Intransitive Verb है, जहाँ काम खुद होता है。"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "मास्टर! आपने जापानी आपातकालीन स्थितियों को बहुत अच्छी तरह समझ लिया है। अब आप जापान में सुरक्षित हैं।",
+    "onFail": "नियम याद रखें: डॉक्टर को बताने के लिए 'n desu' (んです) और अपनी गलती/नुकसान बताने के लिए '~te shimaimashita' (て しまいました) का उपयोग करें।",
+    "onPartial": "बहुत अच्छा प्रयास! 'Nusumaremashita' (चुराया गया) और 'Nakushimashita' (खो गया) के बीच के अंतर को याद रखें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "のど が いたいんです。あるんです。ひいて しまいました。わすれて しまいました。ぬすまれました。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "emergency",
+    "n desu",
+    "te shimaimashita",
+    "passive"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर वाक्य के अंत में 'n desu' या 'shimaimashita' है, तो वह आम तौर पर 'Dou shimashita ka?' (क्या हुआ?) का सबसे अच्छा जवाब होता है।",
+  "commonMistakes": [
+    "'Itai desu n' लिखना (सही व्याकरण है: Itai n desu)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B6_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

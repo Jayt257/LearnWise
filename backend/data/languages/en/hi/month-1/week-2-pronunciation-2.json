@@ -1,0 +1,55 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 2 | Pronunciation 2",
+  "id": 20,
+  "type": "pronunciation",
+  "title": "Pronunciation Practice 2: The Letter D and Nasals",
+  "description": "Master the difference between the dental and retroflex D sounds, and learn about nasalization.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["pronunciation", "hindi", "consonants", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "The 'D' Sounds and Nasals",
+      "points": [
+        "Soft 'd' (द): Tip of the tongue on the back of the front teeth (like Spanish 'dos'). Example: दो (Do - Two).",
+        "Hard 'D' (ड): Curled tongue on the roof of the mouth (like English 'door').",
+        "Nasal sounds (ं or ँ): Hindi has many nasalized vowels. Air goes through the nose AND mouth simultaneously.",
+        "Example of nasal: हूँ (Hoon - Am/Are) or हाँ (Haan - Yes)."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "The Two D's",
+      "instruction": "The 'D' row is crucial for English speakers. Pay close attention.",
+      "pairs": [
+        { "word1": "दो (Do)", "word2": "डाल (Daal)", "sound1": "Dental (teeth)", "sound2": "Retroflex (roof of mouth)", "diff": "Notice how English naturally uses the retroflex D, but Hindi uses both!" },
+        { "word1": "दस (Das)", "word2": "डर (Dar)", "sound1": "Dental 'd'", "sound2": "Retroflex 'D'", "diff": "Das = 10. Dar = fear." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Nasalized Words",
+      "words": [
+        { "word": "हाँ", "syllables": ["Haan"], "stressed": 0, "note": "Yes. Say 'Haa' and let air escape through your nose." },
+        { "word": "मैं", "syllables": ["Main"], "stressed": 0, "note": "I/Me. 'mai' + nasal n. Similar to French 'un'." },
+        { "word": "हूँ", "syllables": ["Hoon"], "stressed": 0, "note": "Am. 'Hoo' + nasal n." }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "Pronunciation Facts",
+      "items": [
+        { "statement": "The Hindi 'd' in 'das' (ten) is pronounced exactly like the 'd' in English 'dog'.", "answer": false, "explanation": "No, the 'd' in 'das' is dental (on the teeth). The English 'd' is alveolar (behind the teeth), closer to the Hindi hard 'D'." },
+        { "statement": "Words with a nasal ending like 'hãã' (yes) require air flow through the nose.", "answer": true, "explanation": "Yes. This is called Anunasik (nasalization)." }
+      ]
+    }
+  ]
+}

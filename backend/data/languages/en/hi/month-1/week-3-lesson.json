@@ -1,0 +1,151 @@
+{
+  "id": 22,
+  "type": "lesson",
+  "title": "Numbers, Time, and Question Words",
+  "description": "Build confidence with counting, telling time, and asking simple questions in Hindi.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Numbers, Time, and Question Words",
+      "body": "In Hindi, counting and asking simple questions help you handle daily life. Today you will practice numbers, days, and the most common question words. Keep the rhythm steady and speak with confidence."
+    },
+    {
+      "id": "b2",
+      "type": "grammar_rule",
+      "title": "Question words",
+      "pattern": "कौन / क्या / कब / कहाँ / क्यों / कैसे",
+      "examples": [
+        {
+          "hi": "आप कौन हैं?",
+          "romanization": "आप कौन हैं?",
+          "en": "Who are you?"
+        },
+        {
+          "hi": "यह क्या है?",
+          "romanization": "यह क्या है?",
+          "en": "What is this?"
+        },
+        {
+          "hi": "आप कहाँ रहते हैं?",
+          "romanization": "आप कहाँ रहते हैं?",
+          "en": "Where do you live?"
+        }
+      ],
+      "note": "Question words usually stay near the start of the sentence."
+    },
+    {
+      "id": "b3",
+      "type": "dialogue",
+      "title": "Conversation Practice",
+      "speakers": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "lines": [
+        {
+          "speaker": 0,
+          "text": "अब कितने बजे हैं?",
+          "romanization": "Ab kitne baje hain?",
+          "translation": "What time is it now?"
+        },
+        {
+          "speaker": 1,
+          "text": "अब तीन बजे हैं।",
+          "romanization": "Ab teen baje hain.",
+          "translation": "It is 3 o'clock now."
+        },
+        {
+          "speaker": 0,
+          "text": "आज क्या दिन है?",
+          "romanization": "Aaj kyā din hai?",
+          "translation": "What day is it today?"
+        },
+        {
+          "speaker": 1,
+          "text": "आज सोमवार है।",
+          "romanization": "Aaj somvār hai.",
+          "translation": "Today is Monday."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "comparison_table",
+      "title": "English vs Hindi",
+      "headers": [
+        "English",
+        "Hindi",
+        "Pronunciation"
+      ],
+      "rows": [
+        [
+          "one",
+          "एक",
+          "ek"
+        ],
+        [
+          "two",
+          "दो",
+          "do"
+        ],
+        [
+          "three",
+          "तीन",
+          "tīn"
+        ],
+        [
+          "where?",
+          "कहाँ?",
+          "kahā̃?"
+        ]
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "fill_blank",
+      "title": "Complete the sentence",
+      "instructions": "Type the missing Hindi word.",
+      "items": [
+        {
+          "sentence": "The Hindi word for one is ___.",
+          "answer": "एक",
+          "hint": "Starts many counting exercises."
+        },
+        {
+          "sentence": "___ means where?",
+          "answer": "कहाँ",
+          "hint": "Used to ask location."
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "tip",
+      "body": "Numbers are extremely useful in real life. Learn 1–10 first, then build to 20, 50, and 100."
+    },
+    {
+      "id": "b7",
+      "type": "progress_checkpoint",
+      "title": "Checkpoint",
+      "items": [
+        "Count from 1 to 10.",
+        "Ask and answer 'where' and 'when' questions.",
+        "Recognize days of the week."
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "activityId": "ja_hi_M1B3_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "बातचीत: रेस्टोरेंट में ऑर्डर देना (Ordering at a Restaurant)",
+  "learningGoal": "काताकाना शब्दों का उपयोग करके जापानी रेस्टोरेंट में सरल ऑर्डर देना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B3_listening_5",
+    "ja_hi_M1B3_vocabulary_6"
+  ],
+  "instructions": "आप एक कैफे में हैं। आपको वेटर को अपना ऑर्डर देना है। नीचे दिए गए संकेतों को पढ़ें और जापानी में ज़ोर से बोलकर अपना ऑर्डर दें। '[Item] kudasai' (कृपया मुझे [Item] दें) का प्रयोग करें।",
+  "speakingPrompt": "कैफे में मेन्यू देखकर वेटर को अपना ऑर्डर बताएं।",
+  "scenario": "दोपहर का समय है। आप टोक्यो के एक कैफे में बैठे हैं। वेटर आपसे ऑर्डर पूछ रहा है।",
+  "role": "ग्राहक",
+  "conversationPartner": "वेटर",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "वेटर आता है। सबसे पहले दोपहर का नमस्ते (Hello) कहें।",
+      "expectedSpeakingPoints": [
+        "Konnichiwa"
+      ],
+      "sampleResponse": {
+        "targetText": "こんにちは。",
+        "transliteration": "Konnichiwa.",
+        "baseTranslation": "नमस्ते।"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "अब ऑर्डर दें: 'कृपया मुझे कॉफी दें।' (Coffee kudasai)",
+      "expectedSpeakingPoints": [
+        "Koohii",
+        "kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "コーヒー を ください。",
+        "transliteration": "Koohii o kudasai.",
+        "baseTranslation": "कृपया मुझे कॉफी दें।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "वेटर पूछता है 'और कुछ?'। कहें: 'और एक सैंडविच कृपया।' (Sandoitchi kudasai)",
+      "expectedSpeakingPoints": [
+        "Sandoitchi",
+        "kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "サンドイッチ も ください。",
+        "transliteration": "Sandoitchi mo kudasai.",
+        "baseTranslation": "सैंडविच भी दीजिए कृपया।"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "वेटर खाना ले आता है। उसे धन्यवाद (Thank you) कहें।",
+      "expectedSpeakingPoints": [
+        "Arigatou gozaimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ありがとうございます。",
+        "transliteration": "Arigatou gozaimasu.",
+        "baseTranslation": "बहुत धन्यवाद।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "カフェ に います。ちゅうもん を します。",
+    "transliteration": "Kafe ni imasu. Chuumon o shimasu.",
+    "baseTranslation": "आप कैफे में हैं। आप ऑर्डर कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "コーヒー を ください。",
+      "transliteration": "Koohii o kudasai.",
+      "baseTranslation": "कृपया मुझे कॉफी दें।"
+    },
+    {
+      "targetText": "サンドイッチ も ください。",
+      "transliteration": "Sandoitchi mo kudasai.",
+      "baseTranslation": "सैंडविच भी दीजिए कृपया।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 10,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Konnichiwa",
+      "Koohii kudasai",
+      "Sandoitchi kudasai",
+      "Arigatou"
+    ],
+    "requiredKeywords": [
+      "koohii",
+      "kudasai"
+    ],
+    "acceptableParaphrases": [
+      "Using 'kudasai' without the 'o' particle is acceptable in spoken Japanese."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Pronunciation",
+          "weight": 50,
+          "description": "Clear Japanglish pronunciation"
+        },
+        {
+          "name": "Grammar",
+          "weight": 50,
+          "description": "Using 'kudasai' properly"
+        }
+      ]
+    },
+    "sampleAnswer": "Konnichiwa. Koohii kudasai. Sandoitchi mo kudasai. Arigatou gozaimasu.",
+    "minimumContentCoverage": 75
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "बहुत अच्छा! अब आप जापान में बिना भूखे रहे ऑर्डर कर सकते हैं।",
+    "onFail": "कृपया 'kudasai' (कृपया मुझे दें) वाक्यांश का अभ्यास करें। यह किसी भी चीज़ को मांगने के लिए बहुत ज़रूरी है।",
+    "onPartial": "आपने अच्छा बोला, लेकिन 'Sandoitchi' (सैंडविच) के उच्चारण में थोड़ी मुश्किल हुई।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "こんにちは。コーヒー を ください。サンドイッチ も ください。ありがとうございます。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "ordering",
+    "roleplay",
+    "katakana"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "जापान में ऑर्डर देने के लिए किसी भी चीज़ के बाद बस 'kudasai' लगा दें (जैसे Pizza kudasai, Water kudasai)।",
+  "commonMistakes": [
+    "अंग्रेजी लहज़े में 'Coffee kudasai' बोलना। इसे 'Koohii' बोलें।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B3_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

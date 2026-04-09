@@ -1,0 +1,71 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Vocabulary — Shopping & Prices",
+  "id": 112,
+  "type": "vocab",
+  "title": "शब्द संग्रह: खरीदारी और सामान",
+  "description": "दुकान में इस्तेमाल होने वाले शब्द और बड़ी संख्याएँ।",
+  "duration": "15 min",
+  "xp": 20,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["vocabulary", "shopping", "prices", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "image_word",
+      "title": "दुकान और सामान — दृश्य रूप में",
+      "items": [
+        { "emoji": "💴", "word": "えん", "meaning": "येन (जापानी मुद्रा)", "example": "ひゃくえん — 100 येन" },
+        { "emoji": "🛍️", "word": "かいもの", "meaning": "खरीदारी (kaimono)", "example": "かいものにいきます — खरीदारी के लिए जाता हूँ" },
+        { "emoji": "⌚", "word": "とけい", "meaning": "घड़ी (tokei)", "example": "このとけいはたかいです — यह घड़ी महँगी है" },
+        { "emoji": "👟", "word": "くつ", "meaning": "जूते (kutsu)", "example": "くつをかいます — जूते खरीदता हूँ" },
+        { "emoji": "👕", "word": "シャツ", "meaning": "शर्ट (shatsu - katakana)", "example": "あおいシャツ — नीली शर्ट" },
+        { "emoji": "🏪", "word": "みせ", "meaning": "दुकान (mise)", "example": "おおきいみせ — बड़ी दुकान" },
+        { "emoji": "🏬", "word": "デパート", "meaning": "डिपार्टमेंट स्टोर (depaato)", "example": "デパートでかいます" },
+        { "emoji": "💵", "word": "おかね", "meaning": "पैसे / धन (okane)", "example": "おかねがありません — पैसे नहीं हैं" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "vocab_table",
+      "title": "25 खरीदारी शब्द",
+      "words": [
+        { "word": "えん", "meaning": "येन", "example": "せんえん。" },
+        { "word": "ひゃく", "meaning": "100", "example": "さんびゃくえん (300 येन)。" },
+        { "word": "せん", "meaning": "1000", "example": "さんぜんえん (3000 येन)。" },
+        { "word": "まん", "meaning": "10000", "example": "いちまんえん (10000 येन)।" },
+        { "word": "かいもの", "meaning": "खरीदारी", "example": "かいものをします。" },
+        { "word": "おかね", "meaning": "पैसे", "example": "おかねをはらいます。" },
+        { "word": "おつり", "meaning": "छुट्टे पैसे / Change", "example": "おつりです。" },
+        { "word": "とけい", "meaning": "घड़ी", "example": "とけいをかいます。" },
+        { "word": "くつ", "meaning": "जूते", "example": "くつがほしいです。" },
+        { "word": "ふく", "meaning": "कपड़े", "example": "ふくをかいます。" },
+        { "word": "シャツ", "meaning": "शर्ट", "example": "しろいシャツ。" },
+        { "word": "ズボン", "meaning": "पैंट", "example": "くろいズボン。" },
+        { "word": "かさ", "meaning": "छाता", "example": "かさをわすれました。" },
+        { "word": "カメラ", "meaning": "कैमरा", "example": "カメラがありますか？" },
+        { "word": "パソコン", "meaning": "कंप्यूटर", "example": "パソコンをかいます。" },
+        { "word": "みせ", "meaning": "दुकान", "example": "あのみせにいきます。" },
+        { "word": "デパート", "meaning": "डिपार्टमेंट स्टोर", "example": "デパートでかいます。" },
+        { "word": "この", "meaning": "यह (संज्ञा के साथ)", "example": "このほん。" },
+        { "word": "その", "meaning": "वह (संज्ञा के साथ)", "example": "そのかばん。" },
+        { "word": "あの", "meaning": "वह दूर (संज्ञा के साथ)", "example": "あのとけい。" },
+        { "word": "どの", "meaning": "कौन सा (संज्ञा के साथ)", "example": "どのカメラですか？" },
+        { "word": "たかい", "meaning": "महँगा", "example": "とてもたかいです。" },
+        { "word": "やすい", "meaning": "सस्ता", "example": "このみせはやすいです。" },
+        { "word": "ください", "meaning": "दीजिए", "example": "これをください。" },
+        { "word": "いらっしゃいませ", "meaning": "आपका स्वागत है", "example": "दुकान में स्वागत।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "matching",
+      "title": "क्या है इसका मतलब?",
+      "instruction": "सही जोड़े बनाएँ:",
+      "leftItems": ["とけい", "くつ", "おかね", "ふく", "かさ"],
+      "rightItems": ["छाता", "पैसे", "कपड़े", "घड़ी", "जूते"],
+      "pairs": [[0,3],[1,4],[2,1],[3,2],[4,0]]
+    }
+  ]
+}

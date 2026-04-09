@@ -1,0 +1,58 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 1 | Speaking",
+  "id": 8,
+  "type": "speaking",
+  "title": "Speaking: First Hindi Conversations",
+  "description": "Practice your first spoken interactions in Hindi using role-play scenarios.",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["speaking", "introduction", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "Scene 1: The New Neighbor",
+      "scenario": "Meeting a neighbor in India",
+      "yourRole": "New resident",
+      "partnerRole": "Friendly neighbor",
+      "context": "You just moved into a new apartment in Mumbai. Your neighbor introduces themselves.",
+      "goal": "Greet them respectfully with Namaste, say your name, and say 'Nice to meet you'.",
+      "usefulPhrases": [
+        "नमस्ते! (Namaste!) - Hello!",
+        "मेरा नाम ___ है। (Mera naam ___ hai.) - My name is ___.",
+        "आपका नाम क्या है? (Aapka naam kya hai?) - What is your name?",
+        "आपसे मिलकर खुशी हुई। (Aapse milkar khushi hui.) - Nice to meet you."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roleplay_card",
+      "title": "Scene 2: Asking for Help",
+      "scenario": "On the street in Delhi",
+      "yourRole": "Tourist",
+      "partnerRole": "Local shopkeeper",
+      "context": "You need to ask a local shopkeeper a quick question.",
+      "goal": "Get their attention politely, ask if they speak English, and thank them.",
+      "usefulPhrases": [
+        "माफ़ कीजिए! (Maaf kijiye!) - Excuse me!",
+        "क्या आप अंग्रेज़ी बोलते हैं? (Kya aap angrezi bolte hain?) - Do you speak English?",
+        "हाँ / नहीं। (Haan / Nahi.) - Yes / No.",
+        "धन्यवाद! (Dhanyavaad!) - Thank you!"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "speaking",
+      "prompt": "Practice speaking aloud! Introduce yourself to the mirror in Hindi:\n1. Bring your palms together and say 'Namaste!'.\n2. Introduce your name (Mera naam... hai).\n3. State where you're from (Main... se hoon).\n4. Finish with 'Dhanyavaad'.",
+      "hints": [
+        "नमस्ते! (Namaste!)",
+        "मेरा नाम लिसा है। (Mera naam Lisa hai.)",
+        "मैं अमेरिका से हूँ। (Main America se hoon.)",
+        "धन्यवाद! (Dhanyavaad!)"
+      ]
+    }
+  ]
+}

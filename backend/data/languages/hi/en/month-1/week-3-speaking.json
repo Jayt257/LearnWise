@@ -1,0 +1,59 @@
+{
+  "id": 29,
+  "type": "speaking",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "रेस्टॉरेंट और Shopping में English",
+  "description": "Numbers use करते हुए real-world conversations।",
+  "duration": "12 मिनट",
+  "xp": 35,
+  "tags": [
+    "speaking",
+    "numbers",
+    "restaurant"
+  ],
+  "blocks": [
+    {
+      "id": "sp0",
+      "type": "roleplay_card",
+      "title": "Scene: Restaurant Order",
+      "scenario": "British Restaurant",
+      "yourRole": "Indian Tourist (आप)",
+      "partnerRole": "Server / Waiter",
+      "context": "आप London के एक restaurant में हैं और खाना order करना है।",
+      "goal": "Numbers use करके table माँगें, menu पूछें, order करें, bill माँगें।",
+      "usefulPhrases": [
+        "Table for two, please.",
+        "What is today's special?",
+        "How much is the ___?",
+        "I would like the ___, please.",
+        "Can I have the bill, please?"
+      ]
+    },
+    {
+      "id": "sp1",
+      "type": "speaking",
+      "prompt": "आप एक shop में हैं। दुकानदार से पूछें: price क्या है, कितने available हैं, और क्या discount है।",
+      "hints": [
+        "How much does this cost?",
+        "How many do you have?",
+        "Is there a discount?",
+        "I'll take ___ of these.",
+        "Can you give me a receipt?"
+      ]
+    },
+    {
+      "id": "sp2",
+      "type": "speaking",
+      "prompt": "अपने English teacher को अपना daily schedule बताएँ — सुबह से रात तक, exact times के साथ।",
+      "hints": [
+        "I wake up at ___ AM.",
+        "I have breakfast at ___.",
+        "My work starts at ___.",
+        "I study English for ___ hours.",
+        "I go to sleep at ___ PM."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 4 | Reading",
+  "id": 35,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: मेरा परिवार",
+  "description": "जापानी में परिवार का वर्णन करने वाला एक अंश पढ़ें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["reading", "family", "description", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 わたしのかぞく (Watashi no kazoku) — मेरा परिवार\n\nわたしはゆうとです。にほんのおおさかにすんでいます。(Watashi wa Yuuto desu. Nihon no Oosaka ni sundeimasu.) — मेरा नाम युउतो है। मैं जापान के ओसाका में रहता हूँ।\n\nかぞくはごにんです。(Kazoku wa gonin desu.) — मेरे परिवार में 5 लोग हैं।\n\nおとうさんはいしゃです。まじめでやさしいひとです。(Otousan wa isha desu. Majime de yasashii hito desu.) — पिताजी डॉक्टर हैं। वे गंभीर और दयालु व्यक्ति हैं।\n\nおかあさんはせんせいです。りょうりがとてもじょうずです！(Okaasan wa sensei desu. Ryouri ga totemo jouzu desu!) — माँ शिक्षिका हैं। उनका खाना बनाना बहुत अच्छा है!\n\nおにいさんはにぎやかなひとです。おんがくがすきです。(Oniisan wa nigiyaka na hito desu. Ongaku ga suki desu.) — भाई बहुत ज़िंदादिल हैं। उन्हें संगीत पसंद है।\n\nいもうとはかわいくておとなしいです。まんががだいすきです！(Imouto wa kawaikute otonashii desu. Manga ga daisuki desu!) — छोटी बहन प्यारी और शांत है। उसे मंगा बहुत पसंद है!\n\nわたしのかぞくはさいこうです！(Watashi no kazoku wa saikou desu!) — मेरा परिवार सबसे अच्छा है!",
+      "questions": [
+        { "q": "युउतो का परिवार कितने लोगों का है?", "a": "5 लोग (ごにん — gonin)" },
+        { "q": "युउतो के पिताजी का पेशा क्या है?", "a": "डॉक्टर (いしゃ — isha)" },
+        { "q": "माँ किसमें माहिर हैं?", "a": "खाना बनाने में (りょうり — ryouri)" },
+        { "q": "छोटी बहन को क्या पसंद है?", "a": "मंगा (まんが — manga)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "युउतो टोक्यो में रहता है।", "answer": false, "explanation": "नहीं! युउतो ओसाका में रहता है: おおさかにすんでいます।" },
+        { "statement": "पिताजी दयालु हैं।", "answer": true, "explanation": "हाँ: やさしいひとです (yasashii hito desu) — दयालु व्यक्ति हैं।" },
+        { "statement": "भाई को संगीत पसंद नहीं है।", "answer": false, "explanation": "नहीं! 'おんがくがすきです (ongaku ga suki desu)' — संगीत पसंद है।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "मंगा — 漫画 (Manga) की संस्कृति",
+      "icon": "📚",
+      "content": "मंगा (漫画) जापानी कॉमिक बुक्स हैं जो दुनिया भर में बेहद लोकप्रिय हैं। जापान में हर उम्र के लोग मंगा पढ़ते हैं! प्रसिद्ध मंगा: ドラゴンボール (Dragon Ball), ナルト (Naruto), ワンピース (One Piece)। मंगा दाएँ से बाएँ पढ़ते हैं — जापानी लिखावट की तरह! भारत में भी मंगा की लोकप्रियता बढ़ रही है।",
+      "tags": ["मंगा", "संस्कृति", "मनोरंजन", "जापान"]
+    }
+  ]
+}

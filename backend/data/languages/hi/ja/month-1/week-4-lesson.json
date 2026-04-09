@@ -1,0 +1,108 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 4 | Lesson — Basic Sentences & Family",
+  "id": 33,
+  "type": "lesson",
+  "title": "बुनियादी वाक्य और परिवार के शब्द",
+  "description": "जापानी में परिवार के सदस्यों के नाम, विशेषण और सरल वाक्य बनाना सीखें।",
+  "duration": "25 min",
+  "xp": 30,
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["family", "adjectives", "basic-sentences", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "जापानी परिवार — 家族 (Kazoku)",
+      "body": "जापानी में परिवार के सदस्यों के दो रूप होते हैं:\n\n1. अपने परिवार के लिए (शालीन, सरल रूप)\n2. दूसरों के परिवार के लिए (सम्मानजनक रूप)\n\nउदाहरण:\nमेरी माँ = はは (haha) — सरल\nआपकी माँ = おかあさん (okaasan) — सम्मानजनक\n\nआज हम सम्मानजनक रूप सीखेंगे जो रोज़ काम आते हैं।"
+    },
+    {
+      "id": "b2",
+      "type": "comparison_table",
+      "title": "परिवार के सदस्य",
+      "headers": ["हिंदी", "जापानी (सम्मान)", "रोमाजी", "अपने लिए"],
+      "rows": [
+        ["माँ", "おかあさん", "okaasan", "はは (haha)"],
+        ["पिताजी", "おとうさん", "otousan", "ちち (chichi)"],
+        ["बड़ा भाई", "おにいさん", "oniisan", "あに (ani)"],
+        ["बड़ी बहन", "おねえさん", "oneesan", "あね (ane)"],
+        ["छोटा भाई", "おとうとさん", "otoutosan", "おとうと (otouto)"],
+        ["छोटी बहन", "いもうとさん", "imoutosan", "いもうと (imouto)"],
+        ["दादाजी", "おじいさん", "ojiisan", "そふ (sofu)"],
+        ["दादीजी", "おばあさん", "obaasan", "そぼ (sobo)"],
+        ["परिवार", "かぞく", "kazoku", "—"],
+        ["बच्चा", "こども", "kodomo", "—"]
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "title": "जापानी विशेषण — い-adjectives और な-adjectives",
+      "body": "जापानी में दो प्रकार के विशेषण होते हैं:\n\n1. い-adjectives (अपने आप 'い' से समाप्त होते हैं):\nおおきい (ookii) = बड़ा\nちいさい (chiisai) = छोटा\nたかい (takai) = महंगा/ऊँचा\nやすい (yasui) = सस्ता\nおいしい (oishii) = स्वादिष्ट\n\n2. な-adjectives (संज्ञा से पहले 'な' जोड़ते हैं):\nきれいな (kirei na) = सुंदर\nしずかな (shizuka na) = शांत\nゆうめいな (yuumei na) = प्रसिद्ध\n\nनियम: Noun से पहले → い-adj. ऐसे ही आता है, な-adj. में 'な' जोड़ते हैं।"
+    },
+    {
+      "id": "b4",
+      "type": "grammar_rule",
+      "title": "विशेषण का प्रयोग",
+      "pattern": "[विशेषण] + [संज्ञा] + です",
+      "examples": [
+        { "native": "बड़ा घर है।", "target": "おおきいいえです。", "translation": "Ookii ie desu." },
+        { "native": "सुंदर फूल है।", "target": "きれいなはなです。", "translation": "Kirei na hana desu." },
+        { "native": "स्वादिष्ट खाना है।", "target": "おいしいたべものです。", "translation": "Oishii tabemono desu." }
+      ],
+      "note": "い-adjective सीधे लगाते हैं। な-adjective में संज्ञा से पहले 'な' जोड़ते हैं।"
+    },
+    {
+      "id": "b5",
+      "type": "dialogue",
+      "title": "परिवार के बारे में बातचीत",
+      "speakers": ["रज (भारतीय)", "युकी (जापानी)"],
+      "lines": [
+        { "speaker": 0, "text": "ゆきさん、かぞくはなんにんですか？", "romanization": "Yuki-san, kazoku wa nannin desu ka?", "translation": "युकी, आपके परिवार में कितने लोग हैं?" },
+        { "speaker": 1, "text": "よにんです。おとうさん、おかあさん、おにいさんとわたしです。", "romanization": "Yonin desu. Otousan, okaasan, oniisan to watashi desu.", "translation": "4 लोग हैं। पिताजी, माँ, भाई और मैं।" },
+        { "speaker": 0, "text": "おにいさんはなんさいですか？", "romanization": "Oniisan wa nansai desu ka?", "translation": "आपके भाई की उम्र कितनी है?" },
+        { "speaker": 1, "text": "にじゅうさんさいです。だいがくせいです。", "romanization": "Nijuusan sai desu. Daigakusei desu.", "translation": "23 साल के हैं। कॉलेज के छात्र हैं।" },
+        { "speaker": 0, "text": "すてき！わたしにはいもうとがいます。", "romanization": "Suteki! Watashi ni wa imouto ga imasu.", "translation": "बढ़िया! मेरी एक छोटी बहन है।" }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "tip",
+      "body": "💡 उम्र पूछने का तरीका: なんさいですか？ (Nansai desu ka?) = कितने साल के हैं?\nजवाब: [संख्या] + さい (sai) = साल\nमैं 25 साल का हूँ: にじゅうごさいです।\nकभी भी सीधे 'あなた' न कहें — नाम + 'さん' से बुलाना ज़्यादा शालीन है।"
+    },
+    {
+      "id": "b7",
+      "type": "fill_blank",
+      "title": "रिक्त स्थान भरें",
+      "instructions": "सही जापानी शब्द लिखें:",
+      "items": [
+        { "sentence": "'बड़ी बहन' को जापानी में ___ कहते हैं।", "answer": "おねえさん", "hint": "oneesan" },
+        { "sentence": "'स्वादिष्ट खाना' = ___ たべもの", "answer": "おいしい", "hint": "oishii — i-adjective" },
+        { "sentence": "परिवार में कितने लोग? = かぞくはなん___ですか？", "answer": "にん", "hint": "nin = लोगों की संख्या के लिए counter" },
+        { "sentence": "25 साल = にじゅうご___", "answer": "さい", "hint": "sai = साल (उम्र के लिए)" }
+      ]
+    },
+    {
+      "id": "b8",
+      "type": "cultural_note",
+      "title": "जापानी परिवार — 家族 (Kazoku) की परंपराएँ",
+      "icon": "👨‍👩‍👧‍👦",
+      "content": "जापान में परिवार बेहद महत्वपूर्ण है। परंपरागत रूप से 三世代同居 (Sandai doukyou) — तीन पीढ़ियाँ साथ रहती थीं। आधुनिक जापान में परमाणु परिवार (nuclear family) अधिक सामान्य है। 'お盆 (Obon)' त्योहार पर पूरा परिवार मिलता है — भारत के दीवाली जैसे। बुज़ुर्गों का सम्मान जापानी संस्कृति का मूल है।",
+      "tags": ["परिवार", "संस्कृति", "परंपरा", "जापान"]
+    },
+    {
+      "id": "b9",
+      "type": "progress_checkpoint",
+      "title": "सप्ताह 4 का जाँच बिंदु",
+      "items": [
+        "परिवार के 8+ सदस्यों के जापानी नाम जानना",
+        "अपने परिवार को जापानी में describe करना",
+        "い-adjectives और な-adjectives का सही प्रयोग",
+        "उम्र पूछना और बताना जापानी में",
+        "सरल वाक्यों में परिवार का वर्णन करना"
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

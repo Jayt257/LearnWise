@@ -1,0 +1,45 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Reading — First Introduction",
+  "id": 3,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: अंग्रेज़ी में परिचय",
+  "description": "एक सरल अंग्रेज़ी परिचय पढ़ें और समझें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["reading", "introduction", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 Hello, I'm Sarah!\n\nHello! My name is Sarah. (हेलो! मेरा नाम सारा है।)\nI am from England. (मैं इंग्लैंड से हूँ।)\nI live in London. (मैं लंदन में रहती हूँ।)\n\nI am a teacher. (मैं एक शिक्षिका हूँ।)\nI teach English. (मैं अंग्रेज़ी पढ़ाती हूँ।)\n\nI love my work. (मुझे अपना काम बहुत पसंद है।)\nNice to meet you! (आपसे मिलकर खुशी हुई!)\n\nSarah likes:\n• Reading books (किताबें पढ़ना)\n• Drinking tea (चाय पीना)\n• Travelling (यात्रा करना)\n\nEngland is a beautiful country. (इंग्लैंड एक सुंदर देश है।)\nLet's learn English together! (चलो मिलकर अंग्रेज़ी सीखते हैं!)",
+      "questions": [
+        { "q": "सारा का नाम अंग्रेज़ी में कैसे लिखते हैं?", "a": "Sarah" },
+        { "q": "सारा किस शहर में रहती है?", "a": "London (लंदन)" },
+        { "q": "सारा का पेशा क्या है?", "a": "She is a teacher (शिक्षिका)" },
+        { "q": "'Nice to meet you' का हिंदी में क्या अर्थ है?", "a": "आपसे मिलकर खुशी हुई" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "सारा इंग्लैंड से है।", "answer": true, "explanation": "हाँ, पाठ में लिखा है: I am from England." },
+        { "statement": "सारा पेरिस में रहती है।", "answer": false, "explanation": "नहीं, सारा लंदन में रहती है: I live in London." },
+        { "statement": "सारा को चाय पीना पसंद है।", "answer": true, "explanation": "हाँ, पाठ में Drinking tea का उल्लेख है।" },
+        { "statement": "सारा हिंदी पढ़ाती है।", "answer": false, "explanation": "नहीं, सारा अंग्रेज़ी पढ़ाती है: I teach English." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "ब्रिटिश संस्कृति में परिचय — British Introductions",
+      "icon": "🇬🇧",
+      "content": "इंग्लैंड में पहली बार मिलने पर 'Nice to meet you' कहना और हाथ मिलाना (Handshake) आम शिष्टाचार है। ब्रिटिश लोग चाय (Tea) बहुत पसंद करते हैं — यह उनकी संस्कृति का हिस्सा है! 'How are you?' पूछना केवल शिष्टाचार है, इसका लंबा जवाब देने की ज़रूरत नहीं — बस 'Fine, thanks!' कहें।",
+      "tags": ["संस्कृति", "परिचय", "ब्रिटेन", "शिष्टाचार"]
+    }
+  ]
+}

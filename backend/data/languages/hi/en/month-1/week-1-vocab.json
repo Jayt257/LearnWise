@@ -1,0 +1,71 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Vocabulary — Greetings & Essentials",
+  "id": 2,
+  "type": "vocab",
+  "title": "आवश्यक शब्द: अभिवादन और बुनियादी अंग्रेज़ी",
+  "description": "अंग्रेज़ी भाषा के 25 सबसे ज़रूरी शब्द जो रोज़ काम आते हैं।",
+  "duration": "15 min",
+  "xp": 20,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["vocabulary", "greetings", "essentials", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "image_word",
+      "title": "दृश्य शब्द संग्रह — देखें और याद करें",
+      "items": [
+        { "emoji": "🌅", "word": "Good morning", "meaning": "शुभ प्रभात (सुबह का नमस्ते)", "example": "स्कूल या ऑफ़िस जाते समय" },
+        { "emoji": "☀️", "word": "Good afternoon", "meaning": "शुभ दोपहर", "example": "दोपहर 12-6 बजे के बीच" },
+        { "emoji": "🌙", "word": "Good evening", "meaning": "शुभ संध्या", "example": "शाम को मिलने पर" },
+        { "emoji": "😴", "word": "Good night", "meaning": "शुभ रात्रि", "example": "सोने से पहले" },
+        { "emoji": "👋", "word": "Hello / Hi", "meaning": "हेलो / हाय (नमस्ते)", "example": "किसी से भी मिलने पर" },
+        { "emoji": "👐", "word": "Goodbye / Bye", "meaning": "अलविदा", "example": "विदा होते समय" },
+        { "emoji": "🙏", "word": "Thank you", "meaning": "धन्यवाद", "example": "कुछ मिलने पर" },
+        { "emoji": "😊", "word": "You're welcome", "meaning": "कोई बात नहीं", "example": "धन्यवाद के जवाब में" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "vocab_table",
+      "title": "25 आवश्यक शब्द",
+      "words": [
+        { "word": "Hello", "meaning": "नमस्ते / हेलो", "example": "Hello! How are you? — नमस्ते! आप कैसे हैं?" },
+        { "word": "Hi", "meaning": "हाय (अनौपचारिक)", "example": "Hi, friend! — हाय, दोस्त!" },
+        { "word": "Good morning", "meaning": "शुभ प्रभात", "example": "Good morning, sir! — शुभ प्रभात, सर!" },
+        { "word": "Good afternoon", "meaning": "शुभ दोपहर", "example": "Good afternoon, everyone! — शुभ दोपहर, सभी को!" },
+        { "word": "Good evening", "meaning": "शुभ संध्या", "example": "Good evening, ma'am! — शुभ संध्या, मैडम!" },
+        { "word": "Good night", "meaning": "शुभ रात्रि", "example": "Good night, sleep well! — शुभ रात्रि, अच्छे से सोएं!" },
+        { "word": "Goodbye", "meaning": "अलविदा (औपचारिक)", "example": "Goodbye, see you tomorrow! — अलविदा, कल मिलते हैं!" },
+        { "word": "Bye", "meaning": "बाय (अनौपचारिक)", "example": "Bye! — बाय!" },
+        { "word": "Thank you", "meaning": "धन्यवाद", "example": "Thank you very much! — बहुत बहुत धन्यवाद!" },
+        { "word": "You're welcome", "meaning": "कोई बात नहीं", "example": "Thank you! — You're welcome! — धन्यवाद! — कोई बात नहीं!" },
+        { "word": "Sorry", "meaning": "माफ़ कीजिए / माफ़ी", "example": "I'm sorry! — मुझे माफ़ करें!" },
+        { "word": "Excuse me", "meaning": "एक्सक्यूज़ मी / ध्यान खींचना", "example": "Excuse me, where is the station? — माफ़ कीजिए, स्टेशन कहाँ है?" },
+        { "word": "Yes", "meaning": "हाँ", "example": "Yes, I understand. — हाँ, मैं समझता हूँ।" },
+        { "word": "No", "meaning": "नहीं", "example": "No, thank you. — नहीं, धन्यवाद।" },
+        { "word": "Please", "meaning": "कृपया", "example": "Please sit down. — कृपया बैठिए।" },
+        { "word": "My name is", "meaning": "मेरा नाम है", "example": "My name is Priya. — मेरा नाम प्रिया है।" },
+        { "word": "I am", "meaning": "मैं हूँ", "example": "I am a student. — मैं एक छात्र हूँ।" },
+        { "word": "How are you?", "meaning": "आप कैसे हैं?", "example": "Hello! How are you? — नमस्ते! आप कैसे हैं?" },
+        { "word": "I am fine", "meaning": "मैं ठीक हूँ", "example": "I am fine, thank you. — मैं ठीक हूँ, धन्यवाद।" },
+        { "word": "Nice to meet you", "meaning": "आपसे मिलकर खुशी हुई", "example": "My name is Raj. Nice to meet you! — मेरा नाम राज है। आपसे मिलकर खुशी हुई!" },
+        { "word": "What is your name?", "meaning": "आपका नाम क्या है?", "example": "Hello! What is your name? — हेलो! आपका नाम क्या है?" },
+        { "word": "I don't understand", "meaning": "मुझे समझ नहीं आया", "example": "Sorry, I don't understand. — माफ़ कीजिए, मुझे समझ नहीं आया।" },
+        { "word": "Please repeat", "meaning": "कृपया दोहराएँ", "example": "Please repeat slowly. — कृपया धीरे से दोहराएँ।" },
+        { "word": "Slowly", "meaning": "धीरे-धीरे", "example": "Please speak slowly. — कृपया धीरे बोलें।" },
+        { "word": "Help", "meaning": "मदद", "example": "Can you help me? — क्या आप मेरी मदद कर सकते हैं?" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "matching",
+      "title": "जोड़े मिलाएँ",
+      "instruction": "बाईं ओर का अंग्रेज़ी शब्द और दाईं ओर का हिंदी अर्थ मिलाएँ",
+      "leftItems": ["Good morning", "Thank you", "Sorry", "Yes", "Goodbye"],
+      "rightItems": ["अलविदा", "धन्यवाद", "शुभ प्रभात", "माफ़ कीजिए", "हाँ"],
+      "pairs": [[0,2],[1,1],[2,3],[3,4],[4,0]]
+    }
+  ]
+}

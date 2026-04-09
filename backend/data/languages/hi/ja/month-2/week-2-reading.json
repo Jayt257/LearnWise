@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Reading",
+  "id": 113,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: इलेक्ट्रॉनिक्स स्टोर में",
+  "description": "जापानी इलेक्ट्रॉनिक्स स्टोर (秋葉原 - Akihabara) में खरीदारी का अनुभव पढ़ें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["reading", "shopping", "electronics", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 あきはばらでかいもの (Akihabara de kaimono) — अकिहबारा में खरीदारी\n\nきょうはにちようびです。(Kyou wa nichiyoubi desu.) — आज रविवार है।\nわたしはあきはばらへいきます。(Watashi wa Akihabara e ikimasu.) — मैं अकिहबारा जा रहा हूँ।\nあきはばらはでんきのまちです。(Akihabara wa denki no machi desu.) — अकिहबारा इलेक्ट्रॉनिक्स का शहर है।\n\nわたしはあたらしいカメラがほしいです。(Watashi wa atarashii kamera ga hoshii desu.) — मुझे नया कैमरा चाहिए।\nおおきいみせにはいります。(Ookii mise ni hairimasu.) — बड़ी दुकान में प्रवेश करता हूँ।\n\n「いらっしゃいませ！」とみせのひとがいいます。('Irasshaimase!' to mise no hito ga iimasu.) — 'आपका स्वागत है!' दुकान का व्यक्ति कहता है।\n\nわたしはみせのひとにききます。(Watashi wa mise no hito ni kikimasu.) — मैं दुकान वाले से पूछता हूँ:\n「すみません、このカメラはいくらですか？」('Sumimasen, kono kamera wa ikura desu ka?') — 'माफ़ कीजिए, यह कैमरा कितने का है?'\n\n「さんまんごせんえんです。」('Sanman gosen en desu.') — '35,000 येन का है।'\n\nちょっとたかいですが、とてもいいカメラです。(Chotto takai desu ga, totemo ii kamera desu.) — थोड़ा महँगा है, लेकिन बहुत अच्छा कैमरा है。\nわたしはそのカメラをかいます！(Watashi wa sono kamera wo kaimasu!) — मैं वह कैमरा खरीदता हूँ!",
+      "questions": [
+        { "q": "अकिहबारा (あきはばら) किस चीज़ के लिए प्रसिद्ध है?", "a": "इलेक्ट्रॉनिक्स (でんきのまち — denki no machi)" },
+        { "q": "व्यक्ति क्या खरीदना चाहता है?", "a": "नया कैमरा (あたらしいカメラ)" },
+        { "q": "कैमरे की क़ीमत कितनी है?", "a": "35,000 येन (さんまんごせんえん — sanman gosen en)" },
+        { "q": "कैमरा उसे कैसा लगा?", "a": "थोड़ा महँगा लेकिन बहुत अच्छा (たかいですが、とてもいい)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "आज शनिवार है।", "answer": false, "explanation": "नहीं, आज रविवार (にちようび — nichiyoubi) है।" },
+        { "statement": "कैमरा 3,500 येन का है।", "answer": false, "explanation": "नहीं! さんまんごせんえん का मतलब 30,000 + 5,000 = 35,000 येन होता है। さんぜん(3000) नहीं है।" },
+        { "statement": "व्यक्ति ने कैमरा खरीद लिया।", "answer": true, "explanation": "हाँ: そのカメラをかいます (मैं वह कैमरा खरीदता हूँ)।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "अकिहबारा — 秋葉原 (Akihabara)",
+      "icon": "🕹️",
+      "content": "अकिहबारा टोक्यो का एक प्रसिद्ध इलाका है। इसे 'इलेक्ट्रिक टाउन' (電気街 — Denki-gai) कहा जाता है। यहाँ सैकड़ों इलेक्ट्रॉनिक्स दुकानें, एनिमे (Anime) और मंगा की दुकानें, और 'मेड कैफ़े' (Maid Cafés) हैं। यह ओटाकू (Otaku — एनिमे/गेमिंग के दीवाने) संस्कृति का केंद्र है!",
+      "tags": ["अकिहबारा", "संस्कृति", "खरीदारी", "टोक्यो"]
+    }
+  ]
+}

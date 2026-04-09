@@ -1,0 +1,59 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 2 | Pronunciation 2 — Vowel Sounds",
+  "id": 20,
+  "type": "pronunciation",
+  "title": "उच्चारण अभ्यास 2: अंग्रेज़ी स्वर ध्वनियाँ",
+  "description": "अंग्रेज़ी के विभिन्न स्वर उच्चारण और उनके नियम सीखें।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["pronunciation", "vowels", "sounds", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "अंग्रेज़ी स्वरों की विशेषताएँ",
+      "points": [
+        "A की ध्वनियाँ: 'cat' में 'ae', 'cake' में 'ei', 'car' में 'aa'",
+        "E की ध्वनियाँ: 'bed' में 'e', 'be' में 'ii'",
+        "I की ध्वनियाँ: 'sit' में 'i', 'like' में 'ai'",
+        "O की ध्वनियाँ: 'hot' में 'o', 'home' में 'ou'",
+        "Silent 'e' नियम: cake, bike, home — अंत का 'e' मौन है लेकिन स्वर को लंबा बनाता है"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "स्वर ध्वनि — ध्यान से सुनें",
+      "instruction": "इन जोड़ों में स्वर ध्वनि का अंतर देखें:",
+      "pairs": [
+        { "word1": "Cat (बिल्ली)", "word2": "Cake (केक)", "sound1": "छोटी 'ae' ध्वनि", "sound2": "लंबी 'ei' ध्वनि", "diff": "Silent 'e' — cake में अंतिम 'e' मौन है लेकिन 'a' को लंबा बनाता है" },
+        { "word1": "Bit (थोड़ा)", "word2": "Bite (काटना)", "sound1": "छोटी 'i' ध्वनि", "sound2": "लंबी 'ai' ध्वनि", "diff": "Silent 'e' — 'i' को 'ai' बना देता है" },
+        { "word1": "Hot (गर्म)", "word2": "Home (घर)", "sound1": "छोटी 'o' ध्वनि", "sound2": "लंबी 'ou' ध्वनि", "diff": "Silent 'e' — 'o' को 'ou' बना देता है" },
+        { "word1": "Red (लाल)", "word2": "Reed (सरकंडा)", "sound1": "छोटी 'e' ध्वनि", "sound2": "लंबी 'ee' ध्वनि", "diff": "Double 'ee' — लंबी ध्वनि बनाता है" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "रंगों का सही उच्चारण",
+      "words": [
+        { "word": "yel-LOW", "syllables": ["yel", "LOW"], "stressed": 0, "note": "YELlow — पहले पर बल" },
+        { "word": "OR-ange", "syllables": ["OR", "ange"], "stressed": 0, "note": "ORange — पहले पर बल" },
+        { "word": "pur-PLE", "syllables": ["pur", "PLE"], "stressed": 0, "note": "PURple — पहले पर बल" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "उच्चारण नियम — सच या झूठ?",
+      "items": [
+        { "statement": "'Cake' और 'Cat' में 'a' की एक ही ध्वनि होती है।", "answer": false, "explanation": "नहीं! 'Cat' में छोटी 'ae' और 'Cake' में लंबी 'ei' ध्वनि होती है।" },
+        { "statement": "अंत में Silent 'e' स्वर को लंबा बनाता है।", "answer": true, "explanation": "बिल्कुल सही! Bit → Bite, Cat → Cate, Hot → Hope — silent 'e' नियम।" },
+        { "statement": "अंग्रेज़ी में सभी स्वरों की एक ही ध्वनि होती है।", "answer": false, "explanation": "नहीं! प्रत्येक स्वर की कई ध्वनियाँ हो सकती हैं — यही अंग्रेज़ी को रोचक बनाता है!" }
+      ]
+    }
+  ]
+}

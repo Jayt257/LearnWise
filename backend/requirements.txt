@@ -1,0 +1,38 @@
+# LearnWise Backend Requirements
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ─────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# ── Database ──────────────────────────────────────────────────
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# ── Auth ──────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ── AI / ML ───────────────────────────────────────────────────
+groq==0.12.0
+openai-whisper==20240930
+
+# ── Config ────────────────────────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.10.3
+pydantic-settings==2.7.0
+
+# ── Utilities ─────────────────────────────────────────────────
+aiofiles==24.1.0
+python-slugify==8.0.4
+
+# ── Email validation (required by Pydantic EmailStr) ──────────
+email-validator>=2.1.0
+
+# ── Testing ───────────────────────────────────────────────────
+pytest>=8.0.0
+httpx>=0.27.0
+pytest-mock>=3.14.0
+

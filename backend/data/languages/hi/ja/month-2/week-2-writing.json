@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Writing",
+  "id": 115,
+  "type": "writing",
+  "title": "लेखन: खरीदारी की सूची और वाक्य",
+  "description": "Particle का उपयोग करते हुए खरीदारी की सूची और वाक्य बनाएँ।",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["writing", "shopping", "particles", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए (Particle: で और を)",
+      "translation": "मैं दुकान में जूते खरीदता हूँ।",
+      "words": ["くつを", "みせで", "わたしは", "かいます"],
+      "correctOrder": [2, 1, 0, 3]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए (Particle: と)",
+      "translation": "शर्ट और पैंट खरीदूँगा।",
+      "words": ["と", "かいます", "シャツ", "ズボンを"],
+      "correctOrder": [2, 0, 3, 1]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "हिंदी से जापानी में अनुवाद करें",
+      "instruction": "Particle (を, で, と) का सही प्रयोग करें:",
+      "items": [
+        { "source": "मैं सेब खाता हूँ।", "answer": "りんごをたべます。 (Ringo wo tabemasu.)" },
+        { "source": "सुपरमार्केट में छाता खरीदता हूँ।", "answer": "スーパーでかさをかいます。 (Suupaa de kasa wo kaimasu.)" },
+        { "source": "कल मैं कैमरा और घड़ी खरीदूँगा।", "answer": "あしたカメラととけいをかいます。 (Ashita kamera to tokei wo kaimasu.)" },
+        { "source": "यह बैग कितने का है?", "answer": "このかばんはいくらですか？ (Kono kaban wa ikura desu ka?)" },
+        { "source": "2000 येन का है।", "answer": "にせんえんです。 (Nisen en desu.)" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "आप एक बड़े डिपार्टमेंट स्टोर (デパート) में गए हैं। वहाँ क्या करते हैं, जापानी में 5-6 वाक्य लिखें:\n• कहाँ जा रहे हैं (に particle)\n• कहाँ खरीदारी कर रहे हैं (で particle)\n• क्या-क्या खरीद रहे हैं (を और と particle)\n• किसी चीज़ की क़ीमत सुनें (いくらですか)",
+      "minWords": 40,
+      "sampleAnswer": "きょうはデパートにいきました。(आज डिपार्टमेंट स्टोर गया।)\nデパートでかいものをします。(डिपार्टमेंट स्टोर में खरीदारी करूँगा।)\nあたらしいシャツとくつをかいます。(नई शर्ट और जूते खरीदूँगा।)\n「すみません、このくつはいくらですか？」('माफ़ कीजिए, ये जूते कितने के हैं?')\nさんぜんごひゃくえんです。(3500 येन के हैं。)\nこれをください。(यह दीजिए।)"
+    }
+  ]
+}

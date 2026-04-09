@@ -1,0 +1,92 @@
+{
+  "id": 25,
+  "type": "pronunciation",
+  "title": "Question Intonation and Clarity",
+  "description": "Practice question intonation.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Main tips",
+      "points": [
+        "Question words sound natural when spoken with rising intonation.",
+        "Do not flatten the nasal sound in कहाँ.",
+        "Count and speak out loud to build rhythm."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "Sound Contrast Pairs",
+      "instruction": "Can you hear the difference?",
+      "pairs": [
+        {
+          "word1": "कब",
+          "word2": "खब",
+          "sound1": "how/when-like start",
+          "sound2": "not a real Hindi word",
+          "diff": "helps you hear the breath on ख"
+        },
+        {
+          "word1": "क्या",
+          "word2": "किया",
+          "sound1": "question word",
+          "sound2": "did/done form",
+          "diff": "short versus longer shape"
+        },
+        {
+          "word1": "कौन",
+          "word2": "कोन",
+          "sound1": "who",
+          "sound2": "cone-like shape",
+          "diff": "nasal vowel and intonation"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Where is the rhythm?",
+      "words": [
+        {
+          "word": "कब",
+          "syllables": [
+            "kab"
+          ],
+          "stressed": 0,
+          "note": "Short and crisp."
+        },
+        {
+          "word": "कहाँ",
+          "syllables": [
+            "ka",
+            "hā̃"
+          ],
+          "stressed": 1,
+          "note": "Nasalized ending is important."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "Tongue Twister",
+      "text": "काले कुत्ते की कहानी",
+      "romanization": "kāle kutte kī kahānī",
+      "translation": "the story of the black dog",
+      "tip": "Say it slowly three times, then once at natural speed."
+    }
+  ]
+}

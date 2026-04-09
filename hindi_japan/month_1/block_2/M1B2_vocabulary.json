@@ -1,0 +1,253 @@
+{
+  "activityId": "ja_hi_M1B2_vocabulary_6",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "vocabulary",
+  "title": "देश, लोग और दाकुटेन शब्द (Countries, People & Dakuten Vocab)",
+  "learningGoal": "दाकुटेन (g, z, d, b) वाले सामान्य शब्द और आत्म-परिचय के लिए आवश्यक देशों के नाम याद करना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_hi_M1B2_lesson_1"
+  ],
+  "instructions": "यहाँ उन शब्दों की सूची है जिनमें भारी ध्वनियाँ (Dakuten) और आत्म-परिचय (Self-Introduction) से संबंधित शब्दावली शामिल है। इनका अच्छी तरह से अध्ययन करें और अंत में क्विज़ को हल करें।",
+  "vocabTheme": "Identity and Dakuten",
+  "wordList": [
+    {
+      "wordId": "v_1",
+      "targetText": "かぜ",
+      "transliteration": "kaze",
+      "baseTranslation": "हवा / सर्दी-ज़ुकाम",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_2",
+      "targetText": "でんわ",
+      "transliteration": "denwa",
+      "baseTranslation": "फोन",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_3",
+      "targetText": "がくせい",
+      "transliteration": "gakusei",
+      "baseTranslation": "छात्र",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_4",
+      "targetText": "せんせい",
+      "transliteration": "sensei",
+      "baseTranslation": "शिक्षक",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_5",
+      "targetText": "わたし",
+      "transliteration": "watashi",
+      "baseTranslation": "मैं",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_6",
+      "targetText": "にほん",
+      "transliteration": "Nihon",
+      "baseTranslation": "जापान",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_7",
+      "targetText": "インド",
+      "transliteration": "Indo",
+      "baseTranslation": "भारत",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "えんぴつ",
+      "transliteration": "enpitsu",
+      "baseTranslation": "पेंसिल",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_9",
+      "targetText": "はじめまして",
+      "transliteration": "hajimemashite",
+      "baseTranslation": "आपसे मिलकर खुशी हुई",
+      "partOfSpeech": "phrase",
+      "formalityLevel": "formal",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_10",
+      "targetText": "よろしく",
+      "transliteration": "yoroshiku",
+      "baseTranslation": "कृपया मेरा ध्यान रखें",
+      "partOfSpeech": "phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "meaningList": [
+    "हवा / सर्दी-ज़ुकाम",
+    "फोन",
+    "छात्र",
+    "शिक्षक",
+    "मैं",
+    "जापान",
+    "भारत",
+    "पेंसिल",
+    "आपसे मिलकर खुशी हुई",
+    "कृपया मेरा ध्यान रखें"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v_3",
+      "targetText": "わたしは がくせい です。",
+      "transliteration": "Watashi wa gakusei desu.",
+      "baseTranslation": "मैं एक छात्र हूँ।"
+    },
+    {
+      "wordId": "v_6",
+      "targetText": "にほんから きました。",
+      "transliteration": "Nihon kara kimashita.",
+      "baseTranslation": "मैं जापान से आया हूँ।"
+    },
+    {
+      "wordId": "v_2",
+      "targetText": "でんわ が あります。",
+      "transliteration": "Denwa ga arimasu.",
+      "baseTranslation": "एक फोन है।"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "vq_1",
+      "questionText": "जापानी में 'छात्र' को क्या कहते हैं?",
+      "questionType": "multiple_choice",
+      "options": [
+        "せんせい (sensei)",
+        "がくせい (gakusei)",
+        "わたし (watashi)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_1"
+    },
+    {
+      "questionId": "vq_2",
+      "questionText": "'भारत' के लिए कौन सा शब्द सही है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "にほん (Nihon)",
+        "インド (Indo)",
+        "アメリカ (Amerika)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_2"
+    },
+    {
+      "questionId": "vq_3",
+      "questionText": "हिरागाना में 'फोन' कैसे लिखा जाता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "かぜ (kaze)",
+        "えんぴつ (enpitsu)",
+        "でんわ (denwa)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_3"
+    },
+    {
+      "questionId": "vq_4",
+      "questionText": "पहली बार मिलने पर सबसे पहले क्या कहा जाता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "よろしく (yoroshiku)",
+        "はじめまして (hajimemashite)",
+        "ありがとう (arigatou)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_4"
+    },
+    {
+      "questionId": "vq_5",
+      "questionText": "फन एक्टिविटी: 'विपरीत शब्द' - अगर 'gakusei' का अर्थ 'छात्र' है, तो 'शिक्षक' का अर्थ क्या होगा?",
+      "questionType": "multiple_choice",
+      "options": [
+        "わたし (watashi)",
+        "にほん (Nihon)",
+        "せんせい (sensei)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "vq_1": "がくせい (gakusei)",
+      "vq_2": "インド (Indo)",
+      "vq_3": "でんわ (denwa)",
+      "vq_4": "はじめまして (hajimemashite)",
+      "vq_5": "せんせい (sensei)"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "अद्भुत! आपने दाकुटेन वाले शब्दों और पहचान की शब्दावली को अच्छी तरह याद कर लिया है।",
+    "onFail": "शब्दों को फिर से पढ़ें। विशेषकर 'gakusei' और 'sensei' के बीच के अंतर को याद रखें।",
+    "onPartial": "आप सही दिशा में हैं, लेकिन कुछ शब्दों में कन्फ्यूजन है।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "vocabulary",
+    "identity",
+    "dakuten"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "दाकुटेन (゛) वाले शब्दों का अर्थ पूरी तरह से बदल जाता है, इसलिए इन्हें ध्यान से याद करें।",
+  "commonMistakes": [
+    "Gakusei (छात्र) और Sensei (शिक्षक) में भ्रमित होना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B2_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

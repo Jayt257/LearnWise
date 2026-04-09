@@ -1,0 +1,186 @@
+{
+  "activityId": "ja_hi_M2B3_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "बातचीत: एनीमे कैरेक्टर की तरह बोलें! (Anime Dubbing)",
+  "learningGoal": "कैजुअल जापानी (Short Forms) का उपयोग करके दोस्तों के साथ स्वाभाविक रूप से बात करना और सवालों के लिए सही इंटोनेशन (आवाज़ ऊपर उठाना) का उपयोग करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B3_pronunciation_2",
+    "ja_hi_M2B3_listening_5"
+  ],
+  "instructions": "इस रोलप्ले में आप अपने सबसे अच्छे दोस्त से बात कर रहे हैं। यहाँ कोई 'desu' या 'masu' नहीं है! सवालों के लिए वाक्य के अंत में अपनी आवाज़ ऊपर उठाएँ, और जवाब देते समय 'Un' (हाँ) या 'Uun' (नहीं) का इस्तेमाल करें।",
+  "speakingPrompt": "दोस्त के कैजुअल सवालों का कैजुअल रूप में ही जवाब दें।",
+  "scenario": "वीकेंड की योजनाओं पर दोस्त के साथ कैजुअल बातचीत।",
+  "role": "आप (कैजुअल एनीमे कैरेक्टर)",
+  "conversationPartner": "दोस्त (Tomodachi)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "दोस्त पूछता है: 'कल फ्री हो क्या?' (Ashita hima?)। उसे बताएं: 'हाँ, फ्री हूँ।' (Un, hima da)",
+      "expectedSpeakingPoints": [
+        "Un",
+        "hima da"
+      ],
+      "sampleResponse": {
+        "targetText": "うん、ひま だ。",
+        "transliteration": "Un, hima da.",
+        "baseTranslation": "हाँ, फ्री हूँ। (Hai, hima desu का कैजुअल)"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "अब उससे पूछें: 'कल क्या करोगे?' (Ashita nani o suru?)। ध्यान दें, 'Shimasu ka?' नहीं बोलना है!",
+      "expectedSpeakingPoints": [
+        "Ashita",
+        "nani o suru"
+      ],
+      "sampleResponse": {
+        "targetText": "あした なに を する？",
+        "transliteration": "Ashita nani o suru?",
+        "baseTranslation": "कल क्या करोगे? (आवाज़ ऊपर उठाएँ)"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "दोस्त कहता है: 'शॉपिंग के लिए जाऊँगा। तुम भी जाओगे?' (Kaimono ni iku. Kimi mo iku?)। उसे बताएं: 'नहीं, नहीं जाऊँगा।' (Uun, ikanai)",
+      "expectedSpeakingPoints": [
+        "Uun",
+        "ikanai"
+      ],
+      "sampleResponse": {
+        "targetText": "ううん、いかない。",
+        "transliteration": "Uun, ikanai.",
+        "baseTranslation": "नहीं, नहीं जाऊँगा। (Ikanai = Nai form)"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "दोस्त पूछता है: 'क्यों? पैसे नहीं हैं?' (Doushite? Okane ga nai?)। उसे बताएं: 'पैसे हैं। लेकिन कल काम है।' (Aru. Demo, ashita shigoto ga aru)",
+      "expectedSpeakingPoints": [
+        "Aru",
+        "Demo",
+        "shigoto ga aru"
+      ],
+      "sampleResponse": {
+        "targetText": "ある。でも、あした しごと が ある。",
+        "transliteration": "Aru. Demo, ashita shigoto ga aru.",
+        "baseTranslation": "है। लेकिन, कल काम है। (Aru = Arimasu)"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "ともだち と カジュアル に はなします。",
+    "transliteration": "Tomodachi to kajuaru ni hanashimasu.",
+    "baseTranslation": "दोस्त के साथ कैजुअल बात कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "うん、ひま だ。",
+      "transliteration": "Un, hima da.",
+      "baseTranslation": "हाँ, फ्री हूँ।"
+    },
+    {
+      "targetText": "あした なに を する？",
+      "transliteration": "Ashita nani o suru?",
+      "baseTranslation": "कल क्या करोगे?"
+    },
+    {
+      "targetText": "ううん、いかない。",
+      "transliteration": "Uun, ikanai.",
+      "baseTranslation": "नहीं, नहीं जाऊँगा।"
+    },
+    {
+      "targetText": "ある。でも、あした しごと が ある。",
+      "transliteration": "Aru. Demo, ashita shigoto ga aru.",
+      "baseTranslation": "है। लेकिन, कल काम है।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 20,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "un hima da",
+      "nani o suru",
+      "uun ikanai",
+      "aru"
+    ],
+    "requiredKeywords": [
+      "する",
+      "いかない",
+      "ある"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'un, hima' without 'da' is also highly acceptable in casual speech.",
+      "Omitting 'ashita' or 'o' particle is perfectly fine in casual speech."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Absence of polite forms",
+          "weight": 80,
+          "description": "Student MUST NOT use desu/masu. Using them with friends sounds unnatural."
+        },
+        {
+          "name": "Rising Intonation",
+          "weight": 20,
+          "description": "Voice must go up on 'suru?'."
+        }
+      ]
+    },
+    "sampleAnswer": "Un, hima da. Ashita nani o suru? Uun, ikanai. Aru. Demo, ashita shigoto ga aru.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपकी जापानी बिल्कुल एनीमे कैरेक्टर जैसी लग रही है। आपका इंटोनेशन और शॉर्ट फॉर्म्स परफेक्ट हैं!",
+    "onFail": "कृपया 'desu' या 'masu' का उपयोग न करें! दोस्तों के साथ 'Un' (हाँ) और डिक्शनरी/Nai फॉर्म (suru, ikanai) का ही उपयोग होता है।",
+    "onPartial": "अच्छा प्रयास! 'Uun' (नहीं) बोलते समय उसे थोड़ा लंबा खींचें (ऊ-न), वरना वह 'Un' (हाँ) जैसा लग सकता है।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "うん、ひま だ。あした なに を する？ううん、いかない。ある。でも、あした しごと が ある。",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "short forms",
+    "casual",
+    "anime",
+    "dictionary form",
+    "nai form"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "कैजुअल जापानी में सवालों के लिए अपनी आवाज़ ऊपर उठाना न भूलें। (जैसे 'Ashita nani o suru?' में 'ru' पर आवाज़ ऊपर जानी चाहिए)।",
+  "commonMistakes": [
+    "जवाब देते समय 'Hai' बोलना। दोस्तों के साथ 'Un' (うん) बोलें।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B3_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

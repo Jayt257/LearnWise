@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Extended Reading",
+  "id": 19,
+  "type": "reading",
+  "title": "विस्तारित पठन: जापान का टोक्यो शहर",
+  "description": "टोक्यो शहर के बारे में एक विस्तृत जापानी अंश पढ़ें।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["reading", "tokyo", "culture", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 とうきょう — Tokyo: जापान की राजधानी\n\nとうきょうはにほんのしゅとです。(Toukyou wa Nihon no shuto desu.) — टोक्यो जापान की राजधानी है।\nとうきょうはとてもおおきいまちです。(Toukyou wa totemo ookii machi desu.) — टोक्यो बहुत बड़ा शहर है।\n\nとうきょうにはたくさんえきがあります。(Toukyou ni wa takusan eki ga arimasu.) — टोक्यो में बहुत सारे स्टेशन हैं।\nゆうめいなえきはしぶやとしんじゅくです。(Yuumei na eki wa Shibuya to Shinjuku desu.) — प्रसिद्ध स्टेशन हैं शिबुया और शिनजुकु।\n\nとうきょうにはたくさんのレストランとみせがあります。(Toukyou ni wa takusan no resutoran to mise ga arimasu.) — टोक्यो में अनगिनत रेस्तराँ और दुकानें हैं।\nたべものがとてもおいしいです！(Tabemono ga totemo oishii desu!) — खाना बहुत स्वादिष्ट है!\n\nとうきょうタワーはゆうめいなたてものです。(Toukyou Tawaa wa yuumei na tatemono desu.) — टोक्यो टावर एक प्रसिद्ध इमारत है।\nたかくてきれいです。(Takakute kirei desu.) — यह ऊँचा और सुंदर है।\n\nとうきょうにいきたいですか？(Toukyou ni ikitai desu ka?) — क्या आप टोक्यो जाना चाहते हैं?\nわたしはいきたいです！(Watashi wa ikitai desu!) — मैं जाना चाहता हूँ!",
+      "questions": [
+        { "q": "टोक्यो क्या है?", "a": "जापान की राजधानी (にほんのしゅと — Nihon no shuto)" },
+        { "q": "टोक्यो के दो प्रसिद्ध स्टेशन कौन से हैं?", "a": "शिबुया (しぶや) और शिनजुकु (しんじゅく)" },
+        { "q": "टोक्यो टावर कैसा है?", "a": "ऊँचा और सुंदर (たかくてきれい — takakute kirei)" },
+        { "q": "'おいしい' का क्या अर्थ है?", "a": "स्वादिष्ट (oishii)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "टोक्यो जापान की राजधानी है।", "answer": true, "explanation": "हाँ: とうきょうはにほんのしゅとです (Toukyou wa Nihon no shuto desu)।" },
+        { "statement": "शिबुया एक रेस्तराँ का नाम है।", "answer": false, "explanation": "नहीं! शिबुया (しぶや) टोक्यो का एक प्रसिद्ध रेलवे स्टेशन और इलाक़ा है।" },
+        { "statement": "टोक्यो का खाना स्वादिष्ट है।", "answer": true, "explanation": "हाँ: たべものがとてもおいしいです (Tabemono ga totemo oishii desu)।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "शिबुया क्रॉसिंग — 渋谷スクランブル交差点",
+      "icon": "🚦",
+      "content": "शिबुया क्रॉसिंग (渋谷スクランブル交差点) दुनिया की सबसे व्यस्त पैदल यात्री क्रॉसिंग है! एक साथ 1000-3000 लोग सड़क पार करते हैं। यह जापानी अनुशासन और व्यवस्था का प्रतीक है — इतनी भीड़ में भी सब शांत और सुव्यवस्थित रहते हैं। कई हॉलीवुड फ़िल्मों में यह क्रॉसिंग दिखाई गई है!",
+      "tags": ["टोक्यो", "संस्कृति", "शिबुया", "प्रसिद्ध स्थान"]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "activityId": "ja_hi_M2B2_test_8",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "ब्लॉक मूल्यांकन: Te-form मास्टरी",
+  "learningGoal": "महीने 2 के दूसरे ब्लॉक में सीखे गए Te-form के नियमों और उसके सभी 5 उपयोगों का परीक्षण करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 75,
+  "prerequisites": [
+    "ja_hi_M2B2_lesson_1",
+    "ja_hi_M2B2_pronunciation_2",
+    "ja_hi_M2B2_reading_3",
+    "ja_hi_M2B2_writing_4",
+    "ja_hi_M2B2_listening_5",
+    "ja_hi_M2B2_vocabulary_6",
+    "ja_hi_M2B2_speaking_7"
+  ],
+  "instructions": "यह 'Te-form' का अंतिम मूल्यांकन है। इस टेस्ट में आपको क्रियाओं को सही Te-form में बदलना होगा और अनुरोध, अनुमति, और मनाही के वाक्यों को पहचानना होगा।",
+  "testTitle": "ब्लॉक 2 - Te-form मास्टरी टेस्ट",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_conjugation",
+      "sectionTitle": "Te-form बनाना (Conjugation)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "'Nomimasu' (पीना) का सही Te-form चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "のみて (Nomite)",
+            "のんで (Nonde)",
+            "のって (Notte)"
+          ],
+          "questionHints": {
+            "targetText": "のんで",
+            "transliteration": "Nonde",
+            "baseTranslation": "mi -> nde"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "'Kikimasu' (सुनना) का सही Te-form चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "きって (Kitte)",
+            "きんで (Kinde)",
+            "きいて (Kiite)"
+          ],
+          "questionHints": {
+            "targetText": "きいて",
+            "transliteration": "Kiite",
+            "baseTranslation": "ki -> ite"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "अपवाद (Exception)! 'Ikimasu' (जाना) का सही Te-form चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "いいて (Iite)",
+            "いきて (Ikite)",
+            "いって (Itte)"
+          ],
+          "questionHints": {
+            "targetText": "いって",
+            "transliteration": "Itte",
+            "baseTranslation": "Exception!"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_usage",
+      "sectionTitle": "Te-form के उपयोग (Grammar Usage)",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "'कृपया यहाँ इंतज़ार करें' के लिए सही जापानी वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "ここ で まちて ください。",
+            "ここ で まって ください。",
+            "ここ で まんで ください。"
+          ],
+          "questionHints": {
+            "targetText": "ここ で まって ください。",
+            "transliteration": "Koko de matte kudasai.",
+            "baseTranslation": "Please wait here."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "'क्या मैं अंदर आ सकता हूँ?' के लिए सही वाक्य चुनें (अंदर आना = Hairimasu):",
+          "questionType": "multiple_choice",
+          "options": [
+            "はいって は いけません か。",
+            "はいって も いいですか。",
+            "はいって います か。"
+          ],
+          "questionHints": {
+            "targetText": "はいって も いいですか。",
+            "transliteration": "Haitte mo ii desu ka.",
+            "baseTranslation": "May I enter?"
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        },
+        {
+          "questionId": "tq_6",
+          "questionText": "'आपको संगीत नहीं सुनना चाहिए' (सख्त मनाही):",
+          "questionType": "multiple_choice",
+          "options": [
+            "おんがく を きいて は いけません。",
+            "おんがく を きいて ください。",
+            "おんがく を きいて も いいです。"
+          ],
+          "questionHints": {
+            "targetText": "おんがく を きいて は いけません。",
+            "transliteration": "Ongaku o kiite wa ikemasen.",
+            "baseTranslation": "You must not listen to music."
+          },
+          "marks": 4,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_ongoing",
+      "sectionTitle": "निरंतर काम (Ongoing Actions)",
+      "questions": [
+        {
+          "questionId": "tq_7",
+          "questionText": "मैं अभी 'जापानी पढ़ रहा हूँ' (Benkyou shimasu):",
+          "questionType": "multiple_choice",
+          "options": [
+            "にほんご を べんきょうして ください。",
+            "にほんご を べんきょうして います。",
+            "にほんご を べんきょうして は いけません。"
+          ],
+          "questionHints": {
+            "targetText": "にほんご を べんきょうして います。",
+            "transliteration": "Nihongo o benkyou shite imasu.",
+            "baseTranslation": "I am studying Japanese."
+          },
+          "marks": 4,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 20,
+  "passMarks": 16,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "のんで (Nonde)",
+      "tq_2": "きいて (Kiite)",
+      "tq_3": "いって (Itte)",
+      "tq_4": "ここ で まって ください。",
+      "tq_5": "はいって も いいですか。",
+      "tq_6": "おんがく を きいて は いけません。",
+      "tq_7": "にほんご を べんきょうして います。"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "मास्टरक्लास! आपने Te-form के सभी जटिल नियमों और उपयोगों को पूरी तरह से समझ लिया है। यह एक बड़ी उपलब्धि है!",
+    "onFail": "Te-form बनाना मुश्किल हो सकता है। Group 1 की क्रियाओं (i,chi,ri->tte / mi,bi,ni->nde) के नियमों को फिर से याद करें।",
+    "onPartial": "बहुत अच्छा प्रयास! 'kudasai' (अनुरोध), 'mo ii desu ka' (अनुमति), और 'wa ikemasen' (मनाही) के बीच के अंतर को पक्का करें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "ここ で まって ください。はいって も いいですか。おんがく を きいて は いけません。にほんご を べんきょうして います。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "te-form",
+    "conjugation",
+    "grammar rules"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर आपको Te-form बनाने में परेशानी हो रही है, तो क्रिया के अंत में 'masu' से ठीक पहले वाली ध्वनि पर ध्यान दें। (जैसे no-MI-masu -> 'mi' के कारण यह 'nde' बनेगा)।",
+  "commonMistakes": [
+    "'Wa ikemasen' को अनुमति समझना (यह सख्त मनाही है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B3_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

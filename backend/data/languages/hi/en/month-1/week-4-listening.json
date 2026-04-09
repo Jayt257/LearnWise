@@ -1,0 +1,83 @@
+{
+  "id": 38,
+  "type": "listening",
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "परिवार के बारे में बातचीत सुनना",
+  "description": "Family introduction और adjectives use करते हुए natural conversation।",
+  "duration": "10 मिनट",
+  "xp": 40,
+  "tags": [
+    "listening",
+    "family"
+  ],
+  "blocks": [
+    {
+      "id": "l1",
+      "type": "note_template",
+      "title": "Family Conversation Notes",
+      "instruction": "बातचीत सुनें और भरें:",
+      "sections": [
+        {
+          "label": "Speaker कितने family members का ज़िक्र करता है?",
+          "placeholder": "2 / 3 / 4 / 5..."
+        },
+        {
+          "label": "कौन से adjectives use हुए?",
+          "placeholder": "kind, tall, funny..."
+        },
+        {
+          "label": "किसी की job mention हुई?",
+          "placeholder": "job(s) mentioned..."
+        },
+        {
+          "label": "कौन सी emotion express हुई?",
+          "placeholder": "happy, proud, miss..."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "type": "gap_fill",
+      "title": "Family Description — Gaps Fill करें",
+      "text": "My ___ is very kind. She is a ___. My father is ___ and strong. I have two ___. I love my family ___!",
+      "gaps": [
+        "mother",
+        "teacher",
+        "tall",
+        "sisters",
+        "very much"
+      ],
+      "hints": [
+        "माँ",
+        "profession",
+        "लंबा",
+        "बहनें",
+        "बहुत"
+      ]
+    },
+    {
+      "id": "l3",
+      "type": "true_false",
+      "title": "Quick Check",
+      "items": [
+        {
+          "statement": "अंग्रेज़ी में adjective noun के पहले आता है।",
+          "answer": true,
+          "explanation": "हाँ! 'a KIND mother', 'a BIG family' — adjective NOUN के पहले। हिन्दी में भी: 'दयालु माँ', 'बड़ा परिवार'।"
+        },
+        {
+          "statement": "'Beautiful' को बेऊ-टी-फुल (5 syllables) बोलते हैं।",
+          "answer": false,
+          "explanation": "नहीं! Beautiful = BEW-ti-ful (3 syllables)। 'beau' + 'ti' + 'ful' = BEW-tə-fəl।"
+        },
+        {
+          "statement": "'I miss my family' का मतलब 'मुझे परिवार की याद आती है' है।",
+          "answer": true,
+          "explanation": "हाँ! 'Miss' का एक मतलब है: किसी की याद आना। 'I miss you' = मुझे तुम्हारी याद आती है।"
+        }
+      ]
+    }
+  ]
+}

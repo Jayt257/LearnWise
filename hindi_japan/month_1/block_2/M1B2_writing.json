@@ -1,0 +1,140 @@
+{
+  "activityId": "ja_hi_M1B2_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "वाक्य निर्माण: अपना परिचय लिखना (Writing Your Introduction)",
+  "learningGoal": "'wa' और 'desu' का उपयोग करके जापानी में अपना परिचय लिखना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B2_lesson_1"
+  ],
+  "instructions": "नीचे दिए गए संकेतों के आधार पर जापानी में 3 छोटे वाक्य लिखें। आप हिरागाना का प्रयोग करेंगे। याद रखें, 'मैं [नाम] हूँ' के लिए 'わたしは [Name] です' का प्रयोग होता है।",
+  "writingPrompt": "अपने बारे में जापानी में 3 वाक्य लिखें: \n1. आपसे मिलकर खुशी हुई। \n2. मैं [अपना नाम / राम] हूँ। \n3. मैं एक छात्र हूँ।",
+  "promptGoal": "सही कण (particle) 'は' का उपयोग करना और 'です' के साथ वाक्यों को समाप्त करना।",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "はじめまして",
+      "transliteration": "Hajimemashite",
+      "baseTranslation": "आपसे मिलकर खुशी हुई",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "わたし",
+      "transliteration": "watashi",
+      "baseTranslation": "मैं",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "がくせい",
+      "transliteration": "gakusei",
+      "baseTranslation": "छात्र",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "です",
+      "transliteration": "desu",
+      "baseTranslation": "हूँ / है",
+      "partOfSpeech": "copula"
+    }
+  ],
+  "referenceHints": [
+    "'watashi wa' लिखते समय 'wa' के लिए は (ha) का प्रयोग करें, わ (wa) का नहीं।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "はじめまして。わたしは らむ です。わたしは がくせい です。",
+      "transliteration": "Hajimemashite. Watashi wa Ramu desu. Watashi wa gakusei desu.",
+      "baseTranslation": "आपसे मिलकर खुशी हुई। मैं राम हूँ। मैं एक छात्र हूँ।",
+      "qualityLevel": "excellent",
+      "annotation": "सभी तीन वाक्य पूरी तरह से व्याकरणिक रूप से सही हैं।"
+    },
+    {
+      "targetText": "はじめまして。らむ です。がくせい です。",
+      "transliteration": "Hajimemashite. Ramu desu. Gakusei desu.",
+      "baseTranslation": "आपसे मिलकर खुशी हुई। राम हूँ। छात्र हूँ।",
+      "qualityLevel": "good",
+      "annotation": "जापानी में विषय (Watashi wa) को अक्सर छोड़ दिया जाता है यदि संदर्भ स्पष्ट हो। यह भी बहुत स्वाभाविक है।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Grammar (Particle Use)",
+      "weight": 50,
+      "description": "क्या 'wa' के लिए 'は' का सही प्रयोग किया गया है?"
+    },
+    {
+      "criterion": "Sentence Ending",
+      "weight": 50,
+      "description": "क्या वाक्य 'desu' (です) के साथ समाप्त होते हैं?"
+    }
+  ],
+  "minimumWordCount": 3,
+  "maximumWordCount": 20,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "はじめまして。わたしは [Name] です。わたしは がくせい です。",
+    "acceptableAlternates": [
+      "はじめまして。[Name] です。がくせい です。"
+    ],
+    "requiredKeywords": [
+      "はじめまして",
+      "です"
+    ],
+    "grammarBaseline": "Subject + は + Noun + です",
+    "lengthExpectation": "3 short sentences",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy",
+          "weight": 100,
+          "description": "Correct Hiragana spelling and particle usage"
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "अति उत्तम! आप जापानी में अपना परिचय बहुत अच्छी तरह लिख सकते हैं।",
+    "onFail": "कृपया 'watashi wa' (わたしは) और 'desu' (です) की संरचना की जांच करें।",
+    "onPartial": "आपके वाक्यों का अर्थ स्पष्ट है, लेकिन हिरागाना की कुछ गलतियों पर ध्यान दें (विशेषकर 'wa' कण)।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "grammar",
+    "introductions"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "विदेशी नामों को वास्तव में काताकाना में लिखा जाता है, लेकिन अभी आप अभ्यास के लिए हिरागाना का उपयोग कर सकते हैं।",
+  "commonMistakes": [
+    "Watashi wa के लिए わたしわ लिखना (सही わたしは है)"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,217 @@
+{
+  "activityId": "ja_hi_M2B3_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "लेखन: डायरी एंट्री (Diary Entry)",
+  "learningGoal": "Polite वाक्यों (masu/desu) को कैजुअल शॉर्ट फॉर्म्स (Dictionary, Nai, Ta, Nakatta) में बदलना और लिखना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M2B3_lesson_1"
+  ],
+  "instructions": "नीचे कुछ वाक्य 'Polite Form' (Desu/Masu) में दिए गए हैं, जैसे आप किसी अजनबी से बात कर रहे हों। आपको इन वाक्यों को अपनी निजी डायरी के लिए 'कैजुअल' (Short Form) में बदलना है।",
+  "writingPrompt": "इन वाक्यों को कैजुअल (Short) फॉर्म में बदलें:\nभाग 1: 'मैं कल टोक्यो गया था।' (Ikimashita -> ?)\nभाग 2: 'आज मैं टीवी नहीं देखूँगा।' (Mimasen -> ?)\nभाग 3: 'यह रामेन बहुत स्वादिष्ट है।' (Oishii desu -> ?)\nभाग 4: 'वह छात्र नहीं था।' (Gakusei ja arimasen deshita -> ?)",
+  "promptGoal": "क्रियाओं के Ta और Nai रूप बनाना, और विशेषण/संज्ञाओं से 'desu' हटाना।",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "きのう",
+      "transliteration": "kinou",
+      "baseTranslation": "कल (बीता हुआ)",
+      "partOfSpeech": "noun/adverb"
+    },
+    {
+      "targetText": "とうきょう",
+      "transliteration": "Toukyou",
+      "baseTranslation": "टोक्यो",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "へ",
+      "transliteration": "e",
+      "baseTranslation": "की ओर (Direction)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "いった",
+      "transliteration": "itta",
+      "baseTranslation": "गया था (Ikimasu का Ta-form)",
+      "partOfSpeech": "verb (ta-form)"
+    },
+    {
+      "targetText": "きょう",
+      "transliteration": "kyou",
+      "baseTranslation": "आज",
+      "partOfSpeech": "noun/adverb"
+    },
+    {
+      "targetText": "は",
+      "transliteration": "wa",
+      "baseTranslation": "तो (Topic marker)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "テレビ",
+      "transliteration": "terebi",
+      "baseTranslation": "टीवी",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "を",
+      "transliteration": "o",
+      "baseTranslation": "को (Object marker)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "みない",
+      "transliteration": "minai",
+      "baseTranslation": "नहीं देखूँगा (Mimasu का Nai-form)",
+      "partOfSpeech": "verb (nai-form)"
+    },
+    {
+      "targetText": "この",
+      "transliteration": "kono",
+      "baseTranslation": "यह (+ Noun)",
+      "partOfSpeech": "demonstrative"
+    },
+    {
+      "targetText": "ラーメン",
+      "transliteration": "raamen",
+      "baseTranslation": "रामेन",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "すごく",
+      "transliteration": "sugoku",
+      "baseTranslation": "बहुत (Totemo का कैजुअल)",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "おいしい",
+      "transliteration": "oishii",
+      "baseTranslation": "स्वादिष्ट",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "かれ",
+      "transliteration": "kare",
+      "baseTranslation": "वह (He)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "がくせい",
+      "transliteration": "gakusei",
+      "baseTranslation": "छात्र",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "じゃなかった",
+      "transliteration": "janakatta",
+      "baseTranslation": "नहीं था (ja arimasen deshita का कैजुअल)",
+      "partOfSpeech": "copula (past negative)"
+    }
+  ],
+  "referenceHints": [
+    "Ikimasu (जाना) का भूतकाल 'Ikimashita' होता है, जिसे शॉर्ट में 'Itta' (गया) कहते हैं।",
+    "Mimasu (देखना) का नकारात्मक 'Mimasen' होता है, जिसे शॉर्ट में 'Minai' कहते हैं।",
+    "Oishii desu (स्वादिष्ट है) में से बस 'desu' हटा दें।",
+    "Gakusei ja arimasen deshita (छात्र नहीं था) बहुत लंबा है। इसे 'Gakusei janakatta' में बदल दें।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "きのう とうきょう へ いった。きょう テレビ を みない。この ラーメン は すごく おいしい。かれ は がくせい じゃなかった。",
+      "transliteration": "Kinou Toukyou e itta. Kyou terebi o minai. Kono raamen wa sugoku oishii. Kare wa gakusei janakatta.",
+      "baseTranslation": "कल टोक्यो गया था। आज टीवी नहीं देखूँगा। यह रामेन बहुत स्वादिष्ट है। वह छात्र नहीं था।",
+      "qualityLevel": "excellent",
+      "annotation": "चारों वाक्यों को बिल्कुल सही कैजुअल फॉर्म (Ta, Nai, i-adjective, Noun past negative) में बदला गया है।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Verb Conjugation",
+      "weight": 40,
+      "description": "क्या Ikimasu को Itta और Mimasu को Minai में सही बदला गया है?"
+    },
+    {
+      "criterion": "Adjective/Noun Endings",
+      "weight": 40,
+      "description": "क्या Oishii से desu हटाया गया है और Gakusei के बाद janakatta लगाया गया है?"
+    },
+    {
+      "criterion": "Sentence Structure",
+      "weight": 20,
+      "description": "क्या कणों (wa, o, e) का सही उपयोग हुआ है?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "きのう とうきょう へ いった。きょう テレビ を みない。この ラーメン は すごく おいしい。かれ は がくせい じゃなかった。",
+    "acceptableAlternates": [
+      "きのう わたし は とうきょう へ いった。きょう は テレビ を みない。この ラーメン、すごく おいしい。かれ は がくせい じゃなかった。"
+    ],
+    "requiredKeywords": [
+      "いった",
+      "みない",
+      "おいしい",
+      "じゃなかった"
+    ],
+    "grammarBaseline": "Strict check on short form conjugations. Sentences containing 'desu' or 'masu' must fail.",
+    "lengthExpectation": "4 full sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Absence of polite forms",
+          "weight": 100,
+          "description": "Any use of desu, masu, mashita, or masen will result in a heavy penalty."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "परफेक्ट! आपने एक बहुत ही स्वाभाविक कैजुअल डायरी एंट्री लिखी है। आपकी फॉर्म्स बिल्कुल सही हैं।",
+    "onFail": "कृपया सुनिश्चित करें कि आपने वाक्यों के अंत से 'desu' और 'masu' को पूरी तरह हटा दिया है। Polite शब्दों का उपयोग न करें।",
+    "onPartial": "आपने अच्छा किया। 'janakatta' (नहीं था) की स्पेलिंग पर ध्यान दें, इसमें बीच में 'na' आता है।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "short forms",
+    "casual",
+    "ta form",
+    "nai form"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "डायरी लिखते समय जापानी लोग कभी भी 'Watashi wa' (मैं) का उपयोग नहीं करते, क्योंकि यह स्पष्ट है कि डायरी आपकी ही है। इसे छोड़ दें!",
+  "commonMistakes": [
+    "'Oishii' के बाद 'da' लगा देना (Oishii da)। i-adjective के बाद कभी 'da' नहीं लगता, बस Oishii छोड़ दें।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,120 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Lesson — Greetings & English Basics",
+  "id": 1,
+  "type": "lesson",
+  "title": "अंग्रेज़ी का परिचय: अभिवादन और बुनियादी वाक्य",
+  "description": "अंग्रेज़ी भाषा की शुरुआत करें — बुनियादी अभिवादन, परिचय और सरल वाक्य सीखें।",
+  "duration": "25 min",
+  "xp": 30,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["greetings", "introduction", "basics", "beginner", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "अंग्रेज़ी में आपका स्वागत है! Welcome to English!",
+      "body": "अंग्रेज़ी (English) दुनिया की सबसे अधिक बोली जाने वाली भाषाओं में से एक है। दुनिया भर में 1.5 अरब से अधिक लोग अंग्रेज़ी बोलते या समझते हैं।\n\nअंग्रेज़ी सीखने के फ़ायदे:\n• नौकरी और करियर के बेहतरीन अवसर\n• दुनियाभर के लोगों से बातचीत\n• इंटरनेट और टेक्नोलॉजी की बेहतर समझ\n• उच्च शिक्षा के नए दरवाज़े\n\nयाद रखें: अंग्रेज़ी की लिपि Latin है जिसमें 26 अक्षर होते हैं — A से Z तक!"
+    },
+    {
+      "id": "b2",
+      "type": "keypoints",
+      "title": "इस सप्ताह आप क्या सीखेंगे",
+      "points": [
+        "अंग्रेज़ी के 26 अक्षर (Alphabet) — A से Z",
+        "बुनियादी अभिवादन: Hello, Good morning, Thank you",
+        "अपना परिचय देना: 'My name is ___'",
+        "सरल प्रश्न-उत्तर: How are you? I'm fine.",
+        "दिन के अनुसार अभिवादन: Good morning / afternoon / evening / night"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "title": "अंग्रेज़ी वर्णमाला (The Alphabet)",
+      "body": "अंग्रेज़ी में 26 अक्षर होते हैं:\n\n🔤 Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm\n🔤 Nn, Oo, Pp, Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz\n\nस्वर (Vowels): A, E, I, O, U — ये 5 सबसे महत्वपूर्ण हैं!\nव्यंजन (Consonants): बाकी के 21 अक्षर\n\n💡 अच्छी खबर: हिंदी की तरह अंग्रेज़ी में भी स्वर-व्यंजन का भेद होता है!"
+    },
+    {
+      "id": "b4",
+      "type": "comparison_table",
+      "title": "बुनियादी अभिवादन — एक नज़र में",
+      "headers": ["हिंदी अर्थ", "अंग्रेज़ी", "उच्चारण"],
+      "rows": [
+        ["नमस्ते (सुबह)", "Good morning", "गुड मॉर्निंग"],
+        ["नमस्ते (दोपहर)", "Good afternoon", "गुड आफ़्टरनून"],
+        ["नमस्ते (शाम)", "Good evening", "गुड ईवनिंग"],
+        ["शुभ रात्रि", "Good night", "गुड नाइट"],
+        ["नमस्ते / हेलो", "Hello / Hi", "हेलो / हाय"],
+        ["अलविदा", "Goodbye / Bye", "गुडबाय / बाय"],
+        ["धन्यवाद", "Thank you", "थैंक यू"],
+        ["कोई बात नहीं", "You're welcome", "यू आर वेलकम"],
+        ["माफ़ कीजिए", "Sorry / Excuse me", "सॉरी / एक्सक्यूज़ मी"],
+        ["हाँ / नहीं", "Yes / No", "यस / नो"]
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "dialogue",
+      "title": "पहली अंग्रेज़ी बातचीत",
+      "speakers": ["आप (प्रशिक्षार्थी)", "अंग्रेज़ी मित्र"],
+      "lines": [
+        { "speaker": 0, "text": "Hello! Good morning!", "romanization": "हेलो! गुड मॉर्निंग!", "translation": "नमस्ते! शुभ प्रभात!" },
+        { "speaker": 1, "text": "Good morning! How are you?", "romanization": "गुड मॉर्निंग! हाउ आर यू?", "translation": "शुभ प्रभात! आप कैसे हैं?" },
+        { "speaker": 0, "text": "I am fine, thank you! And you?", "romanization": "आई एम फाइन, थैंक यू! एंड यू?", "translation": "मैं ठीक हूँ, धन्यवाद! और आप?" },
+        { "speaker": 1, "text": "I am fine too. What is your name?", "romanization": "आई एम फाइन टू. व्हाट इज़ योर नेम?", "translation": "मैं भी ठीक हूँ। आपका नाम क्या है?" },
+        { "speaker": 0, "text": "My name is Raj. Nice to meet you!", "romanization": "माय नेम इज़ राज. नाइस टू मीट यू!", "translation": "मेरा नाम राज है। आपसे मिलकर खुशी हुई!" }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "grammar_rule",
+      "title": "अंग्रेज़ी वाक्य रचना: SVO क्रम",
+      "pattern": "Subject + Verb + Object",
+      "examples": [
+        { "native": "मैं अंग्रेज़ी सीखता हूँ।", "target": "I learn English.", "translation": "Subject(I) + Verb(learn) + Object(English)" },
+        { "native": "वह पानी पीती है।", "target": "She drinks water.", "translation": "Subject(She) + Verb(drinks) + Object(water)" },
+        { "native": "यह किताब है।", "target": "This is a book.", "translation": "Subject(This) + Verb(is) + Object(a book)" }
+      ],
+      "note": "हिंदी में क्रिया अंत में आती है (SOV), लेकिन अंग्रेज़ी में क्रिया बीच में आती है (SVO)। यह सबसे बड़ा अंतर है!"
+    },
+    {
+      "id": "b7",
+      "type": "tip",
+      "body": "💡 उच्चारण टिप: अंग्रेज़ी में 'Th' की दो ध्वनियाँ होती हैं — 'Thank you' में 'थ' (आवाज़ रहित) और 'The' में 'द' (आवाज़ सहित)। जीभ को दांतों के बीच रखकर बोलें!"
+    },
+    {
+      "id": "b8",
+      "type": "fill_blank",
+      "title": "रिक्त स्थान भरें",
+      "instructions": "सही अंग्रेज़ी शब्द या वाक्यांश लिखें:",
+      "items": [
+        { "sentence": "सुबह का अभिवादन ___ है।", "answer": "Good morning", "hint": "Good ___" },
+        { "sentence": "अपना नाम बताने के लिए कहते हैं: My ___ is Raj.", "answer": "name", "hint": "नाम = ___" },
+        { "sentence": "धन्यवाद कहने के लिए ___ बोलते हैं।", "answer": "Thank you", "hint": "थैंक ___" },
+        { "sentence": "अंग्रेज़ी में 'हाँ' को ___ कहते हैं।", "answer": "Yes", "hint": "Y-E-S" }
+      ]
+    },
+    {
+      "id": "b9",
+      "type": "cultural_note",
+      "title": "अंग्रेज़ी संस्कृति में अभिवादन",
+      "icon": "🤝",
+      "content": "अंग्रेज़ी बोलने वाले देशों में हाथ मिलाना (Handshake) सबसे आम अभिवादन है। औपचारिक स्थितियों में 'Good morning/afternoon/evening' और अनौपचारिक स्थितियों में 'Hi' या 'Hey' प्रयोग होता है। 'How are you?' पूछने पर आमतौर पर 'Fine, thanks' या 'Good, thanks' जवाब दिया जाता है — यह केवल शिष्टाचार है!",
+      "tags": ["संस्कृति", "शिष्टाचार", "अभिवादन", "अंग्रेज़ी"]
+    },
+    {
+      "id": "b10",
+      "type": "progress_checkpoint",
+      "title": "सप्ताह 1 पाठ — क्या आप यह कर सकते हैं?",
+      "items": [
+        "अंग्रेज़ी में 'नमस्ते' तीन तरीकों से बोलना (सुबह/दोपहर/शाम)",
+        "अपना परिचय देना: 'My name is ___'",
+        "धन्यवाद और माफ़ी अंग्रेज़ी में कहना",
+        "26 अंग्रेज़ी अक्षर (A-Z) पहचानना",
+        "SVO वाक्य रचना समझना"
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

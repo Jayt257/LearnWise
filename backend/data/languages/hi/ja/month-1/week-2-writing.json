@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Writing",
+  "id": 15,
+  "type": "writing",
+  "title": "लेखन: दैनिक वस्तुओं के बारे में लिखें",
+  "description": "जापानी में वाक्य बनाएँ और अपनी दिनचर्या के बारे में लिखें।",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["writing", "daily-objects", "sentences", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए — यह क्या है?",
+      "translation": "यह मेरी किताब है।",
+      "words": ["わたしの", "これは", "ほん", "です", "あれは"],
+      "correctOrder": [1, 0, 2, 3]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए — स्टेशन कहाँ है?",
+      "translation": "रेलवे स्टेशन कहाँ है?",
+      "words": ["えきは", "ですか", "どこ", "です"],
+      "correctOrder": [0, 2, 1]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "हिंदी से जापानी में अनुवाद करें",
+      "instruction": "इन वाक्यों को जापानी में लिखें:",
+      "items": [
+        { "source": "यह मेज़ है।", "answer": "これはつくえです。 (Kore wa tsukue desu.)" },
+        { "source": "वह दुकान कहाँ है?", "answer": "あのみせはどこですか？ (Ano mise wa doko desu ka?)" },
+        { "source": "मेरे बैग में किताब है।", "answer": "わたしのかばんにほんがあります。 (Watashi no kaban ni hon ga arimasu.)" },
+        { "source": "पानी दीजिए।", "answer": "みずをください。 (Mizu wo kudasai.)" },
+        { "source": "स्कूल जा रहा हूँ।", "answer": "がっこうにいきます。 (Gakkou ni ikimasu.)" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "अपने कमरे (部屋 — heya) के बारे में जापानी में लिखें। शामिल करें:\n1. आपके कमरे में कौन-कौन सी वस्तुएँ हैं\n2. आपकी पसंदीदा चीज़ क्या है\n3. आपका कमरा कैसा है (बड़ा/छोटा)\n\nइस सप्ताह सीखे शब्दों का उपयोग करें।",
+      "minWords": 30,
+      "sampleAnswer": "わたしのへやにはつくえとほんがあります。(Watashi no heya ni wa tsukue to hon ga arimasu.) — मेरे कमरे में मेज़ और किताबें हैं।\nわたしのへやにはパソコンもあります。(Watashi no heya ni wa pasokon mo arimasu.) — मेरे कमरे में कंप्यूटर भी है।\nへやはちいさいですが、すきです。(Heya wa chiisai desu ga, suki desu.) — कमरा छोटा है लेकिन मुझे पसंद है।"
+    }
+  ]
+}

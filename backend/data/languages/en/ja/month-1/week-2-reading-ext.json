@@ -1,0 +1,36 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 2 | Extended Reading",
+  "id": 19,
+  "type": "reading",
+  "title": "Extended Reading: A Trip to Akihabara",
+  "description": "Read a longer passage about shopping in Tokyo's electronics district.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["reading", "extended", "shopping", "Tokyo", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 あきはばらへ いきます (Akihabara he ikimasu - Going to Akihabara)\n\nマイクは とうきょうに います。(Mike wa Toukyou ni imasu) - Mike is in Tokyo.\nあきはばらへ いきます。(Akihabara he ikimasu) - He is going to Akihabara.\n\nあきはばらは アニメの まちです。(Akihabara wa anime no machi desu) - Akihabara is the town of anime.\nゲームも たくさん あります。(Geemu mo takusan arimasu) - There are also many games.\n\nマイクは みせに はいります。(Mike wa mise ni hairimasu) - Mike enters a shop.\n「すみません、このゲームは いくらですか？」(\"Sumimasen, kono geemu wa ikura desu ka?\") - \"Excuse me, how much is this game?\"\n\n「それは ごせんえんです。」(\"Sore wa gosen en desu.\") - \"That is 5,000 yen.\"\nごせんえん... (Gosen en...) - 5,000 yen... \nマイクは ゲームを かいます。(Mike wa geemu wo kaimasu) - Mike buys the game.\n\nマイクは とても うれしいです。(Mike wa totemo ureshii desu) - Mike is very happy.",
+      "questions": [
+        { "q": "Where is Mike going?", "a": "Akihabara (あきはばら)" },
+        { "q": "What is Akihabara known for in this story?", "a": "Anime and games" },
+        { "q": "What does Mike buy?", "a": "A game (ゲーム - geemu)" },
+        { "q": "How much does it cost?", "a": "5,000 Yen (ごせんえん - gosen en)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "Comprehension Check",
+      "items": [
+        { "statement": "Mike is in Osaka.", "answer": false, "explanation": "No, he is in Tokyo (とうきょうにいます)." },
+        { "statement": "There are many games in Akihabara.", "answer": true, "explanation": "Yes. ゲームもたくさんあります (There are also many games)." },
+        { "statement": "Mike didn't buy the game because it was 5,000 yen.", "answer": false, "explanation": "He DID buy it. マイクはゲームをかいます (Mike buys the game)." }
+      ]
+    }
+  ]
+}

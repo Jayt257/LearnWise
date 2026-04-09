@@ -1,0 +1,76 @@
+{
+  "id": 35,
+  "type": "reading",
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "Priya का परिवार — Priya's Family",
+  "description": "200-word story: family description with adjectives and emotions।",
+  "duration": "12 मिनट",
+  "xp": 25,
+  "tags": [
+    "reading",
+    "family",
+    "adjectives"
+  ],
+  "blocks": [
+    {
+      "id": "r1",
+      "type": "reading",
+      "passage": "📖 MY WONDERFUL FAMILY — मेरा अद्भुत परिवार\n\nMy name is Priya. I am from Delhi, India. I have a wonderful family.\n(मेरा नाम प्रिया है। मैं दिल्ली, भारत से हूँ। मेरा एक अद्भुत परिवार है।)\n\nMy mother is 55 years old. She is a kind and loving woman. She is a school teacher.\n(मेरी माँ 55 साल की हैं। वह दयालु और प्यार करने वाली महिला हैं। वह स्कूल teacher हैं।)\n\nMy father is 58 years old. He is tall and strong. He is an engineer.\n(मेरे पिताजी 58 साल के हैं। वह लंबे और मज़बूत हैं। वह engineer हैं।)\n\nI have one brother. His name is Rahul. He is 25 years old. He is very funny and smart.\n(मेरा एक भाई है। उसका नाम राहुल है। वह 25 साल का है। वह बहुत मज़ेदार और होशियार है।)\n\nWe are a happy family. We eat dinner together every evening.\n(हम एक खुश परिवार हैं। हम हर शाम साथ खाना खाते हैं।)\n\nI miss my family very much when I am in London!\n(जब मैं लंदन में होती हूँ तो मुझे अपने परिवार की बहुत याद आती है!)",
+      "questions": [
+        {
+          "q": "Priya की माँ क्या करती हैं?",
+          "a": "वह school teacher हैं।"
+        },
+        {
+          "q": "Priya के पिता की physical description क्या है?",
+          "a": "वह लंबे और मज़बूत हैं (tall and strong)।"
+        },
+        {
+          "q": "Rahul कैसा है?",
+          "a": "वह बहुत मज़ेदार और होशियार है (funny and smart)।"
+        },
+        {
+          "q": "Priya को London में क्यों दुख होता है?",
+          "a": "उसे अपने परिवार की याद आती है।"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "type": "cultural_note",
+      "title": "भारतीय परिवार — Indian Family Culture",
+      "icon": "👨‍👩‍👧‍👦",
+      "content": "भारत में joint family system बहुत common है — यानी दादा-दादी, माता-पिता और बच्चे सब साथ रहते हैं। यह Western nuclear family से अलग है। Family dinner साथ खाना बहुत important cultural tradition है। English में जब भारतीय 'My family' कहते हैं तो उनका मतलब often extended family होती है, सिर्फ parents और siblings नहीं।",
+      "tags": [
+        "india",
+        "family",
+        "culture",
+        "joint-family"
+      ]
+    },
+    {
+      "id": "r3",
+      "type": "true_false",
+      "title": "Family Story Comprehension",
+      "items": [
+        {
+          "statement": "Priya के पिता teacher हैं।",
+          "answer": false,
+          "explanation": "नहीं! Priya के पिता engineer हैं। माँ teacher हैं।"
+        },
+        {
+          "statement": "Priya का भाई funny है।",
+          "answer": true,
+          "explanation": "हाँ! 'He is very funny and smart.' — वह बहुत मज़ेदार और होशियार है।"
+        },
+        {
+          "statement": "Priya London में अकेली खुश है।",
+          "answer": false,
+          "explanation": "नहीं! 'I miss my family very much when I am in London' — उसे परिवार की याद आती है।"
+        }
+      ]
+    }
+  ]
+}

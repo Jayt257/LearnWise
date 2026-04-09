@@ -1,0 +1,72 @@
+{
+  "id": 26,
+  "type": "writing",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "अपना Schedule लिखें",
+  "description": "Time expressions और numbers use करते हुए अपनी दिनचर्या लिखें।",
+  "duration": "15 मिनट",
+  "xp": 35,
+  "tags": [
+    "writing",
+    "time",
+    "schedule"
+  ],
+  "blocks": [
+    {
+      "id": "w1",
+      "type": "sentence_builder",
+      "title": "'मेरी 8 बजे meeting है' — Build it",
+      "translation": "My meeting is at eight o'clock",
+      "words": [
+        "at",
+        "is",
+        "My",
+        "o'clock",
+        "eight",
+        "meeting",
+        "morning"
+      ],
+      "correctOrder": [
+        2,
+        5,
+        1,
+        0,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "w2",
+      "type": "translation_task",
+      "title": "हिन्दी → अंग्रेज़ी",
+      "instruction": "समय वाले वाक्य translate करें:",
+      "items": [
+        {
+          "source": "मेरी class सोमवार को है।",
+          "answer": "My class is on Monday."
+        },
+        {
+          "source": "दुकान 9 बजे खुलती है।",
+          "answer": "The shop opens at nine o'clock."
+        },
+        {
+          "source": "कल परीक्षा है।",
+          "answer": "The exam is tomorrow."
+        },
+        {
+          "source": "मैं रोज़ सुबह exercise करता/करती हूँ।",
+          "answer": "I exercise every morning."
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "type": "writing",
+      "prompt": "अपने एक typical weekday का schedule अंग्रेज़ी में लिखें। कम से कम 5-7 activities, times के साथ। जैसे: 'I wake up at 6 AM...'",
+      "minWords": 40,
+      "sampleAnswer": "I wake up at 6 AM every day. I eat breakfast at 7 o'clock. My work starts at 9 AM. I have lunch at 1 PM. I finish work at 6 PM. I eat dinner at 8 PM. I study English for one hour every evening. I go to sleep at 11 PM."
+    }
+  ]
+}

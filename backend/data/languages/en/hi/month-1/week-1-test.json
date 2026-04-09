@@ -1,0 +1,95 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 1 | Test",
+  "id": 7,
+  "type": "test",
+  "title": "Week 1 Test: Hindi Basics & Greetings",
+  "description": "Test your knowledge of the Hindi greetings, sentence structure, and vocabulary you learned this week.",
+  "duration": "15 min",
+  "xp": 50,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["test", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "quiz",
+      "question": "What is the most common greeting in Hindi?",
+      "options": ["Dhanyavaad", "Namaste", "Haan", "Maaf kijiye"],
+      "correct": 1,
+      "explanation": "Namaste (नमस्ते) is the most common greeting, used for hello, good morning/evening, and goodbye."
+    },
+    {
+      "id": "b2",
+      "type": "quiz",
+      "question": "How do you say 'Thank you' in Hindi?",
+      "options": ["Nahi", "Namaste", "Dhanyavaad", "Kripaya"],
+      "correct": 2,
+      "explanation": "Dhanyavaad (धन्यवाद) means Thank you."
+    },
+    {
+      "id": "b3",
+      "type": "quiz",
+      "question": "Hindi sentence structure is:",
+      "options": ["SVO (Subject-Verb-Object)", "VSO (Verb-Subject-Object)", "SOV (Subject-Object-Verb)", "OSV (Object-Subject-Verb)"],
+      "correct": 2,
+      "explanation": "Hindi is an SOV language. For example: I (Subject) Hindi (Object) learn (Verb)."
+    },
+    {
+      "id": "b4",
+      "type": "quiz",
+      "question": "What does 'Haan' (हाँ) mean?",
+      "options": ["No", "Please", "Yes", "Hello"],
+      "correct": 2,
+      "explanation": "Haan means 'Yes'. 'Nahi' means 'No'."
+    },
+    {
+      "id": "b5",
+      "type": "quiz",
+      "question": "How do you say 'I' or 'Me' in Hindi?",
+      "options": ["Aap", "Tum", "Vah", "Main"],
+      "correct": 3,
+      "explanation": "Main (मैं) is the first-person singular pronoun meaning 'I' or 'Me'."
+    },
+    {
+      "id": "b6",
+      "type": "quiz",
+      "question": "Translate: 'Mera naam John hai.'",
+      "options": ["Where is John?", "My name is John.", "John is my friend.", "I am John."],
+      "correct": 1,
+      "explanation": "Mera naam (My name) John (John) hai (is)."
+    },
+    {
+      "id": "b7",
+      "type": "quiz",
+      "question": "What is the formal word for 'You' in Hindi?",
+      "options": ["Main", "Tum", "Tu", "Aap"],
+      "correct": 3,
+      "explanation": "'Aap' (आप) is the formal/polite version of 'You'."
+    },
+    {
+      "id": "b8",
+      "type": "quiz",
+      "question": "Which script is Hindi written in?",
+      "options": ["Latin", "Cyrillic", "Devanagari", "Arabic"],
+      "correct": 2,
+      "explanation": "Hindi is written in the Devanagari script."
+    },
+    {
+      "id": "b9",
+      "type": "quiz",
+      "question": "What does 'Kripaya' (कृपया) mean?",
+      "options": ["Thank you", "Please", "Sorry", "Hello"],
+      "correct": 1,
+      "explanation": "Kripaya means 'Please'."
+    },
+    {
+      "id": "b10",
+      "type": "quiz",
+      "question": "What do people often do when saying 'Namaste'?",
+      "options": ["Shake hands", "Wave", "Bring their palms together and bow slightly", "High five"],
+      "correct": 2,
+      "explanation": "Bringing both palms together in front of the chest is the traditional gesture for Namaste."
+    }
+  ]
+}

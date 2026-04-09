@@ -1,0 +1,80 @@
+{
+  "id": 31,
+  "type": "pronunciation",
+  "title": "Sound Practice 2",
+  "description": "A second pronunciation drill for questions and numbers.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Pronunciation tips",
+      "points": [
+        "Ask questions with a rising tone.",
+        "Hold nasalized endings like कहाँ.",
+        "Keep counting steady and clear."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "stress_pattern",
+      "title": "Rhythm practice",
+      "words": [
+        {
+          "word": "कहाँ",
+          "syllables": [
+            "ka",
+            "hā̃"
+          ],
+          "stressed": 1,
+          "note": "Do not drop the nasal sound."
+        },
+        {
+          "word": "क्यों",
+          "syllables": [
+            "kyō̃"
+          ],
+          "stressed": 0,
+          "note": "Question word with nasal sound."
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "tongue_twister",
+      "title": "Speed practice",
+      "text": "काले केले की कहानी",
+      "romanization": "kāle kele kī kahānī",
+      "translation": "the story of black bananas",
+      "tip": "Say it slowly first, then increase speed."
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "Sound check",
+      "items": [
+        {
+          "statement": "Hindi sounds should be rushed.",
+          "answer": false,
+          "explanation": "Clear and slow practice is better in the beginning."
+        },
+        {
+          "statement": "Breathy consonants matter in Hindi.",
+          "answer": true,
+          "explanation": "Sounds like ख and भ are important contrasts."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 1 | Vocabulary — Greetings & Essentials",
+  "id": 2,
+  "type": "vocab",
+  "title": "Essential Words: Japanese Greetings & Basics",
+  "description": "25 essential Japanese words you'll use every single day.",
+  "duration": "15 min",
+  "xp": 20,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["vocabulary", "greetings", "essentials", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "image_word",
+      "title": "Visual Word Collection — See and Remember",
+      "items": [
+        { "emoji": "🌅", "word": "おはようございます", "meaning": "Good morning (Ohayou gozaimasu)", "example": "Said when going to school or work" },
+        { "emoji": "☀️", "word": "こんにちは", "meaning": "Hello / Good afternoon (Konnichiwa)", "example": "Used from midday to early evening" },
+        { "emoji": "🌙", "word": "こんばんは", "meaning": "Good evening (Konbanwa)", "example": "Used after sunset" },
+        { "emoji": "👋", "word": "さようなら", "meaning": "Goodbye (Sayounara)", "example": "Formal farewell — rarely used with close friends" },
+        { "emoji": "🙏", "word": "ありがとう", "meaning": "Thank you (Arigatou)", "example": "Casual; add ございます for formal" },
+        { "emoji": "😊", "word": "どういたしまして", "meaning": "You're welcome (Dou itashimashite)", "example": "Response to ありがとう" },
+        { "emoji": "🙇", "word": "すみません", "meaning": "Excuse me / Sorry (Sumimasen)", "example": "Also used to get someone's attention" },
+        { "emoji": "💬", "word": "はい", "meaning": "Yes (Hai)", "example": "Shows agreement or understanding" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "vocab_table",
+      "title": "25 Essential Japanese Words",
+      "words": [
+        { "word": "おはようございます", "meaning": "Good morning", "example": "おはようございます、せんせい！— Good morning, teacher!" },
+        { "word": "こんにちは", "meaning": "Hello / Good afternoon", "example": "こんにちは！おげんきですか？— Hello! How are you?" },
+        { "word": "こんばんは", "meaning": "Good evening", "example": "こんばんは！— Good evening!" },
+        { "word": "さようなら", "meaning": "Goodbye (formal)", "example": "さようなら、またね。— Goodbye, see you later." },
+        { "word": "じゃあね", "meaning": "See you / Bye (casual)", "example": "じゃあね！— Later!" },
+        { "word": "ありがとうございます", "meaning": "Thank you (formal)", "example": "たいへんありがとうございます！— Thank you very much!" },
+        { "word": "すみません", "meaning": "Excuse me / Sorry", "example": "すみません、えきはどこですか？— Excuse me, where is the station?" },
+        { "word": "ごめんなさい", "meaning": "I'm sorry (sincere apology)", "example": "ごめんなさい！— I'm so sorry!" },
+        { "word": "はい", "meaning": "Yes", "example": "はい、わかりました。— Yes, I understand." },
+        { "word": "いいえ", "meaning": "No", "example": "いいえ、ちがいます。— No, that's incorrect." },
+        { "word": "おねがいします", "meaning": "Please", "example": "みずをおねがいします。— Water, please." },
+        { "word": "わかりました", "meaning": "I understand / Got it", "example": "はい、わかりました。— Yes, I understand." },
+        { "word": "わかりません", "meaning": "I don't understand", "example": "すみません、わかりません。— Sorry, I don't understand." },
+        { "word": "もういちど", "meaning": "One more time / Again", "example": "もういちどいってください。— Please say it again." },
+        { "word": "ゆっくり", "meaning": "Slowly", "example": "ゆっくりはなしてください。— Please speak slowly." },
+        { "word": "わたし", "meaning": "I / Me", "example": "わたしはアメリカじんです。— I am American." },
+        { "word": "あなた", "meaning": "You", "example": "あなたのなまえは？— What is your name?" },
+        { "word": "なまえ", "meaning": "Name", "example": "わたしのなまえはサラです。— My name is Sara." },
+        { "word": "にほんご", "meaning": "Japanese language", "example": "にほんごをべんきょうします。— I study Japanese." },
+        { "word": "はじめまして", "meaning": "Nice to meet you (first meeting)", "example": "はじめまして、よろしく！— Nice to meet you!" },
+        { "word": "よろしくおねがいします", "meaning": "Please treat me kindly", "example": "はじめまして、よろしくおねがいします。— Nice to meet you!" },
+        { "word": "おげんきですか", "meaning": "How are you?", "example": "こんにちは、おげんきですか？— Hello, how are you?" },
+        { "word": "げんきです", "meaning": "I'm fine / I'm well", "example": "はい、げんきです！— Yes, I'm fine!" },
+        { "word": "ありがとう", "meaning": "Thank you (casual)", "example": "ありがとう、ともだち！— Thanks, friend!" },
+        { "word": "どうぞ", "meaning": "Please / Here you go", "example": "どうぞ、すわってください。— Please sit down." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "matching",
+      "title": "Match the Pairs",
+      "instruction": "Match the Japanese word on the left with its English meaning on the right",
+      "leftItems": ["こんにちは", "ありがとうございます", "すみません", "はい", "さようなら"],
+      "rightItems": ["Goodbye", "Thank you", "Hello", "Excuse me", "Yes"],
+      "pairs": [[0,2],[1,1],[2,3],[3,4],[4,0]]
+    }
+  ]
+}

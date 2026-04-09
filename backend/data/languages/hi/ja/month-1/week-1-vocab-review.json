@@ -1,0 +1,61 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 1 | Vocabulary Review",
+  "id": 9,
+  "type": "vocab",
+  "title": "शब्द समीक्षा: सप्ताह 1 के शब्द",
+  "description": "इस सप्ताह सीखे गए शब्दों की समीक्षा और अभ्यास करें।",
+  "duration": "10 min",
+  "xp": 20,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["vocab_review", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "vocab_table",
+      "title": "सप्ताह 1 — शब्द समीक्षा (20 शब्द)",
+      "words": [
+        { "word": "おはようございます", "meaning": "सुबह का नमस्ते", "example": "Ohayou gozaimasu — स्कूल जाते समय" },
+        { "word": "こんにちは", "meaning": "दोपहर का नमस्ते", "example": "Konnichiwa — दोपहर 12–6 बजे" },
+        { "word": "こんばんは", "meaning": "शाम का नमस्ते", "example": "Konbanwa — शाम 6 बजे के बाद" },
+        { "word": "さようなら", "meaning": "अलविदा", "example": "Sayounara — लंबी विदाई" },
+        { "word": "ありがとう", "meaning": "धन्यवाद", "example": "Arigatou — दोस्तों के साथ" },
+        { "word": "すみません", "meaning": "माफ़ कीजिए", "example": "Sumimasen — ध्यान खींचने के लिए" },
+        { "word": "はい", "meaning": "हाँ", "example": "Hai — सहमति" },
+        { "word": "いいえ", "meaning": "नहीं", "example": "Iie — असहमति" },
+        { "word": "わたし", "meaning": "मैं", "example": "Watashi — औपचारिक" },
+        { "word": "あなた", "meaning": "आप", "example": "Anata — सामान्य उपयोग" },
+        { "word": "なまえ", "meaning": "नाम", "example": "Namae — 'Na-ma-e'" },
+        { "word": "にほんご", "meaning": "जापानी भाषा", "example": "Nihongo — 'Ni-hon-go'" },
+        { "word": "はじめまして", "meaning": "पहली बार मिलने पर", "example": "Hajimemashite" },
+        { "word": "おげんきですか", "meaning": "कैसे हैं आप?", "example": "Ogenki desu ka?" },
+        { "word": "げんきです", "meaning": "मैं ठीक हूँ", "example": "Genki desu" },
+        { "word": "わかりました", "meaning": "समझ गया", "example": "Wakarimashita" },
+        { "word": "おねがいします", "meaning": "कृपया", "example": "Onegai shimasu" },
+        { "word": "ごめんなさい", "meaning": "मुझे माफ़ करें", "example": "Gomen nasai — गहरी माफ़ी" },
+        { "word": "もういちど", "meaning": "एक बार फिर", "example": "Mou ichido — दोबारा" },
+        { "word": "ゆっくり", "meaning": "धीरे-धीरे", "example": "Yukkuri — धीमी गति से" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "matching",
+      "title": "सही जोड़े मिलाएँ",
+      "instruction": "बाईं ओर जापानी और दाईं ओर हिंदी अर्थ मिलाएँ",
+      "leftItems": ["げんきです", "わかりました", "ごめんなさい", "もういちど", "おねがいします"],
+      "rightItems": ["एक बार फिर", "कृपया", "मैं ठीक हूँ", "मुझे माफ़ करें", "समझ गया"],
+      "pairs": [[0,2],[1,4],[2,3],[3,0],[4,1]]
+    },
+    {
+      "id": "b3",
+      "type": "true_false",
+      "title": "सच या झूठ — शब्द समीक्षा",
+      "items": [
+        { "statement": "'こんばんは' सुबह कहते हैं।", "answer": false, "explanation": "नहीं! 'こんばんは' शाम का अभिवादन है। सुबह 'おはようございます' कहते हैं।" },
+        { "statement": "'いいえ' का मतलब 'नहीं' है।", "answer": true, "explanation": "सही! 'いいえ (Iie)' = नहीं।" },
+        { "statement": "'ゆっくり' का मतलब 'जल्दी' है।", "answer": false, "explanation": "नहीं! 'ゆっくり (Yukkuri)' का मतलब 'धीरे-धीरे' है।" }
+      ]
+    }
+  ]
+}

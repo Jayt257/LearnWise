@@ -1,0 +1,65 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 2 | Pronunciation — Consonant Clusters",
+  "id": 14,
+  "type": "pronunciation",
+  "title": "उच्चारण: अंग्रेज़ी संख्याओं और शब्दों का उच्चारण",
+  "description": "संख्याओं, रंगों और दैनिक वस्तुओं के शब्दों का सही उच्चारण अभ्यास।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["pronunciation", "numbers", "words", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "संख्याओं के उच्चारण के नियम",
+      "points": [
+        "Thirteen (13) vs Thirty (30) — '-teen' (तेरह-उन्नीस) बनाम '-ty' (दहाई)",
+        "Fifteen ≠ Fifty — 'fif-TEEN' बनाम 'FIF-ty' — बल का अंतर",
+        "Hundred = 'HUN-dred' — बीच में 'd' को हल्का बोलते हैं",
+        "Twenty-one = 'TWEN-ty-one' — हाइफ़न (dash) वाले नंबर एक साथ बोलें",
+        "Zero = 'ZEE-ro' (अमेरिका) या 'ZEH-ro' (ब्रिटेन) — दोनों सही हैं"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "ध्वनि अंतर — संख्याएँ",
+      "instruction": "इन जोड़ों में सूक्ष्म अंतर ध्यान से देखें:",
+      "pairs": [
+        { "word1": "Thirteen (13)", "word2": "Thirty (30)", "sound1": "thir-TEEN — अंत में बल", "sound2": "THIR-ty — शुरू में बल", "diff": "बल की जगह अलग है!" },
+        { "word1": "Fifteen (15)", "word2": "Fifty (50)", "sound1": "fif-TEEN", "sound2": "FIF-ty", "diff": "'-teen' बनाम '-ty' उच्चारण" },
+        { "word1": "Green (रंग)", "word2": "Cream (रंग)", "sound1": "'gr' — g+r एक साथ", "sound2": "'cr' — c+r एक साथ", "diff": "consonant clusters — gr बनाम cr" },
+        { "word1": "Yellow", "word2": "Below", "sound1": "YEL-ow — y ध्वनि", "sound2": "be-LOW — l ध्वनि", "diff": "Y बनाम L की ध्वनि" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "इन शब्दों का सही उच्चारण",
+      "words": [
+        { "word": "TWENty", "syllables": ["TWEN", "ty"], "stressed": 0, "note": "पहले पर बल — TWENty, नहीं tWENty" },
+        { "word": "thirTEEN", "syllables": ["thir", "TEEN"], "stressed": 1, "note": "दूसरे पर बल — thirTEEN" },
+        { "word": "YELlow", "syllables": ["YEL", "low"], "stressed": 0, "note": "पहले पर बल — YELlow" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "अंग्रेज़ी जीभ-फिसलन — संख्याओं वाली",
+      "text": "Six slippery snails slid slowly seaward.",
+      "romanization": "सिक्स स्लिपरी स्नेल्ज़ स्लिड स्लोली सीवर्ड।",
+      "translation": "छह फिसलन वाले घोंघे धीरे-धीरे समुद्र की ओर खिसके।",
+      "tip": "'Sl' और 'S' ध्वनि पर ध्यान दें। धीरे शुरू करें फिर तेज़ करें!"
+    },
+    {
+      "id": "b5",
+      "type": "audio",
+      "label": "1-20 तक उच्चारण",
+      "url": null,
+      "transcript": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen, Twenty"
+    }
+  ]
+}

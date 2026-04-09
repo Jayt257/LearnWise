@@ -1,0 +1,59 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 1 | Pronunciation Practice 2",
+  "id": 10,
+  "type": "pronunciation",
+  "title": "उच्चारण अभ्यास 2: हिरागाना क-पंक्ति और स-पंक्ति",
+  "description": "हिरागाना की क-पंक्ति (ka, ki, ku, ke, ko) और स-पंक्ति (sa, shi, su, se, so) का अभ्यास करें।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "hiragana", "consonants", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "हिरागाना क-पंक्ति और स-पंक्ति",
+      "points": [
+        "か(ka) き(ki) く(ku) け(ke) こ(ko) — क + स्वर",
+        "さ(sa) し(shi) す(su) せ(se) そ(so) — स + स्वर",
+        "ध्यान दें: し को 'shi' पढ़ते हैं, 'si' नहीं!",
+        "す (su) में 'u' बहुत हल्का और छोटा होता है",
+        "ये अक्षर जापानी के सबसे आम अक्षरों में से हैं"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "ध्वनि अंतर पहचानें",
+      "instruction": "इन जोड़ों में सूक्ष्म अंतर ध्यान से देखें:",
+      "pairs": [
+        { "word1": "か (ka)", "word2": "が (ga)", "sound1": "क + अ (कठोर)", "sound2": "ग + अ (मृदु/voiced)", "diff": "voiced (voiced) बनाम unvoiced — ' (dakuten) चिह्न लगाने से voiced हो जाता है" },
+        { "word1": "さ (sa)", "word2": "ざ (za)", "sound1": "स + अ", "sound2": "ज़ + अ", "diff": "'' (dakuten) — ज़ की ध्वनि बनाती है" },
+        { "word1": "し (shi)", "word2": "じ (ji)", "sound1": "श + इ = शी", "sound2": "ज + इ = जी", "diff": "voiced बनाम unvoiced 'sh/j'" },
+        { "word1": "く (ku)", "word2": "ぐ (gu)", "sound1": "क + उ = कु", "sound2": "ग + उ = गु", "diff": "क बनाम ग — dakuten से अंतर" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "इन शब्दों का उच्चारण",
+      "words": [
+        { "word": "かかあ", "syllables": ["ka", "ka", "a"], "stressed": 0, "note": "माँ का अनौपचारिक शब्द — समान लय में" },
+        { "word": "すき", "syllables": ["su", "ki"], "stressed": 0, "note": "पसंद — 'suki' (पसंद करना)" },
+        { "word": "さくら", "syllables": ["sa", "ku", "ra"], "stressed": 0, "note": "चेरी ब्लॉसम — जापान का राष्ट्रीय फूल!" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "उच्चारण नियम — सच या झूठ?",
+      "items": [
+        { "statement": "'し' को 'si' उच्चारित करते हैं।", "answer": false, "explanation": "नहीं! 'し' को 'shi' उच्चारित करते हैं — जैसे 'शी'।" },
+        { "statement": "Dakuten ( ) जोड़ने से ध्वनि voiced हो जाती है।", "answer": true, "explanation": "बिल्कुल सही! か (ka) → が (ga), さ (sa) → ざ (za)।" },
+        { "statement": "जापानी में सभी syllables पर समान बल दिया जाता है।", "answer": true, "explanation": "हाँ! जापानी भाषा में stress accent होता है लेकिन हर syllable लगभग समान होता है।" }
+      ]
+    }
+  ]
+}

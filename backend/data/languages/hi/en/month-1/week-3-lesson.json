@@ -1,0 +1,123 @@
+{
+  "id": 22,
+  "type": "lesson",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "अंग्रेज़ी में संख्याएँ, समय और प्रश्न",
+  "description": "1 से 1000 तक गिनना, समय बताना, और 5 W questions (Who/What/Where/When/Why)।",
+  "duration": "20 मिनट",
+  "xp": 30,
+  "tags": [
+    "numbers",
+    "time",
+    "questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Numbers 1-20 — एक से बीस तक",
+      "body": "1=one, 2=two, 3=three, 4=four, 5=five\n6=six, 7=seven, 8=eight, 9=nine, 10=ten\n11=eleven, 12=twelve, 13=thirteen, 14=fourteen, 15=fifteen\n16=sixteen, 17=seventeen, 18=eighteen, 19=nineteen, 20=twenty\n\nTens: 30=thirty, 40=forty, 50=fifty, 60=sixty, 70=seventy, 80=eighty, 90=ninety, 100=one hundred"
+    },
+    {
+      "id": "b2",
+      "type": "keypoints",
+      "title": "5 W Questions — 5 मुख्य प्रश्न शब्द",
+      "points": [
+        "WHO = कौन — Who is your teacher? (आपका teacher कौन है?)",
+        "WHAT = क्या — What is your name? (आपका नाम क्या है?)",
+        "WHERE = कहाँ — Where are you from? (आप कहाँ से हैं?)",
+        "WHEN = कब — When is your birthday? (आपका birthday कब है?)",
+        "WHY = क्यों — Why are you learning English? (आप अंग्रेज़ी क्यों सीख रहे हैं?)",
+        "HOW = कैसे — How are you? (आप कैसे हैं?)"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "comparison_table",
+      "title": "Question Words — हिन्दी vs अंग्रेज़ी",
+      "headers": [
+        "हिन्दी",
+        "English",
+        "उदाहरण"
+      ],
+      "rows": [
+        [
+          "क्या",
+          "What",
+          "What time is it?"
+        ],
+        [
+          "कहाँ",
+          "Where",
+          "Where do you live?"
+        ],
+        [
+          "कब",
+          "When",
+          "When is the exam?"
+        ],
+        [
+          "क्यों",
+          "Why",
+          "Why are you late?"
+        ],
+        [
+          "कौन",
+          "Who",
+          "Who is she?"
+        ],
+        [
+          "कैसे",
+          "How",
+          "How much does it cost?"
+        ],
+        [
+          "कितना/कितने",
+          "How much/many",
+          "How many people are there?"
+        ]
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "text",
+      "title": "Time — समय बताना",
+      "body": "What time is it? — समय क्या है?\n\nIt is 3 o'clock. — 3 बजे हैं।\nIt is 3:30. — साढ़े 3 बजे हैं।\nIt is 3:15. — 3 बजकर 15 मिनट हुए हैं।\nIt is 3:45. — 4 बजने में 15 मिनट हैं। (quarter to four)\n\nAM = सुबह / दोपहर से पहले\nPM = दोपहर / शाम"
+    },
+    {
+      "id": "b5",
+      "type": "fill_blank",
+      "title": "Numbers Practice",
+      "instructions": "शब्दों में लिखें:",
+      "items": [
+        {
+          "sentence": "15 को अंग्रेज़ी में ___ कहते हैं।",
+          "answer": "fifteen",
+          "hint": "10+5"
+        },
+        {
+          "sentence": "75 को अंग्रेज़ी में ___ कहते हैं।",
+          "answer": "seventy-five",
+          "hint": "70+5"
+        },
+        {
+          "sentence": "'What ___ is it?' — 'It is 3 o'clock'",
+          "answer": "time",
+          "hint": "समय"
+        },
+        {
+          "sentence": "'___ is your birthday?' — 'In January'",
+          "answer": "When",
+          "hint": "कब"
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "tip",
+      "body": "💡 'How much' vs 'How many':\n• How MUCH = uncountable noun के लिए: How much water? How much money?\n• How MANY = countable noun के लिए: How many books? How many people?\nयाद रखें: गिन सकते हैं → how many | नहीं गिन सकते → how much!"
+    }
+  ]
+}

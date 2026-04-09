@@ -1,0 +1,54 @@
+{
+  "id": 6,
+  "pairId": "ja-en",
+  "type": "listening",
+  "title": "Listening Practice",
+  "xp": 40,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Listening Dialogue",
+      "body": "A native speaker reads the following..."
+    },
+    {
+      "id": "b2",
+      "type": "dialogue",
+      "title": "Audio transcript",
+      "lines": [
+        {
+          "speaker": "Voice",
+          "text": "Water",
+          "translation": "水"
+        },
+        {
+          "speaker": "Voice",
+          "text": "Food",
+          "translation": "食べ物"
+        }
+      ]
+    },
+    {
+      "id": "bmc_0",
+      "type": "quiz",
+      "question": "Translate: 水",
+      "options": [
+        "Food",
+        "Water",
+        "Good"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bmc_1",
+      "type": "quiz",
+      "question": "Translate: 食べ物",
+      "options": [
+        "Good",
+        "Food",
+        "Bad"
+      ],
+      "correct": 1
+    }
+  ]
+}

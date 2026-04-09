@@ -1,0 +1,151 @@
+{
+  "id": 33,
+  "type": "lesson",
+  "title": "Family Words and Simple Sentences",
+  "description": "Learn how to talk about family, relationships, and simple Hindi sentence order.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 4,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-4",
+    "family-and-basic-sentences"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Family Words and Simple Sentences",
+      "body": "Family words are one of the fastest ways to start speaking naturally. Hindi also uses respectful forms, so you will practice polite speech while learning how to describe your family."
+    },
+    {
+      "id": "b2",
+      "type": "grammar_rule",
+      "title": "Simple family sentences",
+      "pattern": "X मेरा/मेरी ... है / हैं",
+      "examples": [
+        {
+          "hi": "यह मेरी माँ हैं।",
+          "romanization": "यह मेरी माँ हैं।",
+          "en": "This is my mother."
+        },
+        {
+          "hi": "वह मेरे पिता हैं।",
+          "romanization": "वह मेरे पिता हैं।",
+          "en": "That is my father."
+        },
+        {
+          "hi": "मेरे दो भाई हैं।",
+          "romanization": "मेरे दो भाई हैं।",
+          "en": "I have two brothers."
+        }
+      ],
+      "note": "Use हैं for plural or respectful speech."
+    },
+    {
+      "id": "b3",
+      "type": "dialogue",
+      "title": "Conversation Practice",
+      "speakers": [
+        "Speaker A",
+        "Speaker B"
+      ],
+      "lines": [
+        {
+          "speaker": 0,
+          "text": "यह मेरी माँ हैं।",
+          "romanization": "Yah merī mā̃ hain.",
+          "translation": "This is my mother."
+        },
+        {
+          "speaker": 1,
+          "text": "और यह मेरे पिता हैं।",
+          "romanization": "Aur yah mere pitā hain.",
+          "translation": "And this is my father."
+        },
+        {
+          "speaker": 0,
+          "text": "आपके कितने भाई-बहन हैं?",
+          "romanization": "Aapke kitne bhāī-bahan hain?",
+          "translation": "How many siblings do you have?"
+        },
+        {
+          "speaker": 1,
+          "text": "मेरे दो भाई हैं।",
+          "romanization": "Mere do bhāī hain.",
+          "translation": "I have two brothers."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "comparison_table",
+      "title": "English vs Hindi",
+      "headers": [
+        "English",
+        "Hindi",
+        "Pronunciation"
+      ],
+      "rows": [
+        [
+          "mother",
+          "माँ",
+          "mā̃"
+        ],
+        [
+          "father",
+          "पिता",
+          "pitā"
+        ],
+        [
+          "brother",
+          "भाई",
+          "bhāī"
+        ],
+        [
+          "sister",
+          "बहन",
+          "bahan"
+        ]
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "fill_blank",
+      "title": "Complete the sentence",
+      "instructions": "Type the missing Hindi word.",
+      "items": [
+        {
+          "sentence": "The Hindi word for mother is ___.",
+          "answer": "माँ",
+          "hint": "A very common family word."
+        },
+        {
+          "sentence": "___ means brother.",
+          "answer": "भाई",
+          "hint": "A male sibling."
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "tip",
+      "body": "Respect words matter in Hindi. Use आप for polite speech, especially with elders or people you do not know well."
+    },
+    {
+      "id": "b7",
+      "type": "progress_checkpoint",
+      "title": "Checkpoint",
+      "items": [
+        "Talk about your family members.",
+        "Use simple sentences with है / हैं.",
+        "Recognize polite vs informal speech."
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

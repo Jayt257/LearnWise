@@ -1,0 +1,60 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 2 | Speaking — Shopping & Describing",
+  "id": 18,
+  "type": "speaking",
+  "title": "बोलने का अभ्यास: खरीदारी और वस्तुओं का वर्णन",
+  "description": "अंग्रेज़ी में खरीदारी करें और रंगों व संख्याओं का उपयोग करके वस्तुओं का वर्णन करें।",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["speaking", "shopping", "numbers", "colors", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "दृश्य 1: किराने की दुकान में",
+      "scenario": "Grocery Store",
+      "yourRole": "ग्राहक (Customer)",
+      "partnerRole": "दुकानदार (Shopkeeper)",
+      "context": "आप एक किराने की दुकान में हैं। आपको फल और सब्ज़ियाँ खरीदनी हैं।",
+      "goal": "दाम पूछें, संख्या बताएँ, और अंग्रेज़ी में खरीदारी करें।",
+      "usefulPhrases": [
+        "How much is this apple? (यह सेब कितने का है?)",
+        "I need five apples, please. (मुझे पाँच सेब चाहिए।)",
+        "That is too expensive. (यह बहुत महंगा है।)",
+        "Do you have green apples? (क्या आपके पास हरे सेब हैं?)",
+        "How many do you want? (आपको कितने चाहिए?)"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roleplay_card",
+      "title": "दृश्य 2: अपने कमरे का वर्णन",
+      "scenario": "Describing your room",
+      "yourRole": "आप खुद",
+      "partnerRole": "नया दोस्त",
+      "context": "आपका नया दोस्त आपके कमरे के बारे में जानना चाहता है।",
+      "goal": "अंग्रेज़ी में अपने कमरे का वर्णन करें — रंग, संख्या और वस्तुएँ बताएँ।",
+      "usefulPhrases": [
+        "My room is big / small. (मेरा कमरा बड़ा/छोटा है।)",
+        "The walls are white. (दीवारें सफ़ेद हैं।)",
+        "I have two chairs. (मेरे पास दो कुर्सियाँ हैं।)",
+        "My table is brown. (मेरी मेज़ भूरी है।)",
+        "I love the color blue. (मुझे नीला रंग पसंद है।)"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "speaking",
+      "prompt": "ज़ोर से बोलते हुए अभ्यास करें — अपने पसंदीदा रंग और अपने घर का वर्णन करें:\n1. अपना पसंदीदा रंग बताएँ (My favorite color is...)\n2. अपने घर का वर्णन करें (My house is...)\n3. अपने कमरे की चीज़ें बताएँ (I have... in my room)\n4. दाम बोलने का अभ्यास करें (One hundred, two hundred...)\n5. समाप्त करें: I love English!",
+      "hints": [
+        "My favorite color is blue. (मेरा पसंदीदा रंग नीला है।)",
+        "My house is big and white. (मेरा घर बड़ा और सफ़ेद है।)",
+        "I have five books and one phone in my room. (मेरे कमरे में पाँच किताबें और एक फ़ोन है।)",
+        "I love English! (मुझे अंग्रेज़ी बहुत पसंद है!)"
+      ]
+    }
+  ]
+}

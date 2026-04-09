@@ -1,0 +1,192 @@
+{
+  "id": 23,
+  "type": "vocab",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "संख्याएँ, समय और प्रश्न शब्द",
+  "description": "25 ज़रूरी शब्द: numbers, time expressions और question words।",
+  "duration": "10 मिनट",
+  "xp": 20,
+  "tags": [
+    "numbers",
+    "time",
+    "questions"
+  ],
+  "blocks": [
+    {
+      "id": "v1",
+      "type": "vocab_table",
+      "title": "25 ज़रूरी Time & Number Words",
+      "words": [
+        {
+          "word": "One / Two / Three",
+          "meaning": "एक / दो / तीन",
+          "example": "I have two brothers."
+        },
+        {
+          "word": "Ten / Twenty / Hundred",
+          "meaning": "दस / बीस / सौ",
+          "example": "It costs twenty rupees."
+        },
+        {
+          "word": "What time is it?",
+          "meaning": "समय क्या है?",
+          "example": "Excuse me, what time is it?"
+        },
+        {
+          "word": "It is 5 o'clock",
+          "meaning": "5 बजे हैं।",
+          "example": "The meeting is at 5 o'clock."
+        },
+        {
+          "word": "Today",
+          "meaning": "आज",
+          "example": "Today is Monday."
+        },
+        {
+          "word": "Tomorrow",
+          "meaning": "कल (आने वाला)",
+          "example": "The exam is tomorrow."
+        },
+        {
+          "word": "Yesterday",
+          "meaning": "कल (बीता हुआ)",
+          "example": "Yesterday was Sunday."
+        },
+        {
+          "word": "Morning / Afternoon / Evening",
+          "meaning": "सुबह / दोपहर / शाम",
+          "example": "Good morning! / See you this evening."
+        },
+        {
+          "word": "Monday to Sunday",
+          "meaning": "सोमवार से रविवार",
+          "example": "Monday = सोमवार"
+        },
+        {
+          "word": "January to December",
+          "meaning": "जनवरी से दिसंबर",
+          "example": "My birthday is in March."
+        },
+        {
+          "word": "How much?",
+          "meaning": "कितना (uncountable)?",
+          "example": "How much does it cost?"
+        },
+        {
+          "word": "How many?",
+          "meaning": "कितने (countable)?",
+          "example": "How many children do you have?"
+        },
+        {
+          "word": "When?",
+          "meaning": "कब?",
+          "example": "When is your birthday?"
+        },
+        {
+          "word": "Why?",
+          "meaning": "क्यों?",
+          "example": "Why are you learning English?"
+        },
+        {
+          "word": "Because",
+          "meaning": "क्योंकि",
+          "example": "Because it is important."
+        },
+        {
+          "word": "Who?",
+          "meaning": "कौन?",
+          "example": "Who is your teacher?"
+        },
+        {
+          "word": "Early / Late",
+          "meaning": "जल्दी / देर से",
+          "example": "I am always early."
+        },
+        {
+          "word": "Often / Sometimes",
+          "meaning": "अक्सर / कभी-कभी",
+          "example": "I often drink chai."
+        },
+        {
+          "word": "Always / Never",
+          "meaning": "हमेशा / कभी नहीं",
+          "example": "I always brush my teeth."
+        },
+        {
+          "word": "First / Last",
+          "meaning": "पहला / आखिरी",
+          "example": "I am the first in my family."
+        },
+        {
+          "word": "Next / Previous",
+          "meaning": "अगला / पिछला",
+          "example": "See you next week!"
+        },
+        {
+          "word": "Week / Month / Year",
+          "meaning": "हफ्ता / महीना / साल",
+          "example": "I have been learning for one month."
+        },
+        {
+          "word": "Hour / Minute",
+          "meaning": "घंटा / मिनट",
+          "example": "I study for one hour every day."
+        },
+        {
+          "word": "Right now",
+          "meaning": "अभी",
+          "example": "I am studying right now."
+        },
+        {
+          "word": "Soon",
+          "meaning": "जल्द ही",
+          "example": "I will speak English soon!"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "matching",
+      "title": "Days of the Week",
+      "instruction": "English से Hindi match करें:",
+      "leftItems": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "rightItems": [
+        "शनिवार",
+        "सोमवार",
+        "रविवार",
+        "बुधवार",
+        "शुक्रवार"
+      ],
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  ]
+}

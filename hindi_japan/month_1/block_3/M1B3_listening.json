@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M1B3_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "जापांग्लिश शब्द सुनना (Listening to Japanglish)",
+  "learningGoal": "जापानी उच्चारण (Japanglish) में बोले गए अंग्रेजी शब्दों को सुनकर उनका अर्थ पहचानना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_hi_M1B3_lesson_1"
+  ],
+  "instructions": "नीचे दिए गए ऑडियो को सुनें। इसमें एक व्यक्ति अपनी शॉपिंग लिस्ट और होटल की बुकिंग के बारे में बात कर रहा है। ध्यान दें कि वह कौन-कौन से अंग्रेजी शब्द जापानी लहज़े में बोल रहा है।",
+  "listeningGoal": "काताकाना शब्दों (Loanwords) को पहचानना।",
+  "audioScenario": "एक व्यक्ति अपनी यात्रा की योजना के बारे में बता रहा है।",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "あした、ホテル に いきます。",
+      "transliteration": "Ashita, hoteru ni ikimasu.",
+      "baseTranslation": "कल, मैं होटल जाऊंगा।"
+    },
+    {
+      "targetText": "タクシー で いきます。",
+      "transliteration": "Takushii de ikimasu.",
+      "baseTranslation": "मैं टैक्सी से जाऊंगा।"
+    },
+    {
+      "targetText": "カメラ が あります。",
+      "transliteration": "Kamera ga arimasu.",
+      "baseTranslation": "मेरे पास एक कैमरा है।"
+    },
+    {
+      "targetText": "ホテル で コーヒー を のみます。",
+      "transliteration": "Hoteru de koohii o nomimasu.",
+      "baseTranslation": "मैं होटल में कॉफी पीऊंगा।"
+    }
+  ],
+  "audioTranscriptFull": "あした、ホテル に いきます。タクシー で いきます。カメラ が あります。ホテル で コーヒー を のみます。",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "व्यक्ति कल कहाँ जाएगा?",
+      "questionType": "multiple_choice",
+      "options": [
+        "カフェ (Cafe)",
+        "ホテル (Hotel)",
+        "がっこう (School)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "वह व्यक्ति कैसे (किस वाहन से) यात्रा करेगा?",
+      "questionType": "multiple_choice",
+      "options": [
+        "バス (Bus)",
+        "タクシー (Taxi)",
+        "でんしゃ (Train)"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "व्यक्ति के पास कौन सी वस्तु है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "カメラ (Camera)",
+        "コンピューター (Computer)",
+        "テレビ (TV)"
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "फन एक्टिविटी: 'ध्वनि जासूस' - ऑडियो में कुल कितने 'विदेशी शब्द' (Katakana words) इस्तेमाल किए गए हैं?",
+      "questionType": "multiple_choice",
+      "options": [
+        "2",
+        "4",
+        "6"
+      ],
+      "audioTimestamp": "00:00",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "ホテル (Hotel)",
+      "lq_2": "タクシー (Taxi)",
+      "lq_3": "カメラ (Camera)",
+      "lq_4": "4"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "शानदार! आपने सभी विदेशी शब्दों को जापानी उच्चारण में सही से पहचाना।",
+    "onFail": "कृपया 'hoteru', 'takushii', 'kamera' शब्दों को पकड़ने का प्रयास करें।",
+    "onPartial": "आपने अच्छा किया, लेकिन कुछ शब्दों में आपको कन्फ्यूजन हुआ। फिर से प्रयास करें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "あした、ホテル に いきます。タクシー で いきます。カメラ が あります。ホテル で コーヒー を のみます。",
+    "audioLanguage": "ja",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "katakana",
+    "loanwords"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "ध्यान दें कि जापानी लोग विदेशी शब्दों को किस प्रकार खींच कर बोलते हैं।",
+  "commonMistakes": [
+    "'Taxi' (takushii) को पहचानने में दिक्कत क्योंकि जापानी इसे बहुत अलग तरीके से बोलते हैं।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

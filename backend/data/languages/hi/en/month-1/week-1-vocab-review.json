@@ -1,0 +1,61 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Vocabulary Review",
+  "id": 9,
+  "type": "vocab",
+  "title": "शब्द समीक्षा: सप्ताह 1 के शब्द",
+  "description": "इस सप्ताह सीखे गए शब्दों की समीक्षा और अभ्यास करें।",
+  "duration": "10 min",
+  "xp": 20,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["vocab_review", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "vocab_table",
+      "title": "सप्ताह 1 — शब्द समीक्षा (20 शब्द)",
+      "words": [
+        { "word": "Hello", "meaning": "नमस्ते", "example": "Hello! — सर्वत्र उपयोगी" },
+        { "word": "Good morning", "meaning": "शुभ प्रभात", "example": "Good morning, sir! — सुबह उपयोग" },
+        { "word": "Good afternoon", "meaning": "शुभ दोपहर", "example": "Good afternoon! — दोपहर 12-6 बजे" },
+        { "word": "Good evening", "meaning": "शुभ संध्या", "example": "Good evening! — शाम 6 बजे के बाद" },
+        { "word": "Good night", "meaning": "शुभ रात्रि", "example": "Good night! — सोने से पहले" },
+        { "word": "Goodbye", "meaning": "अलविदा (औपचारिक)", "example": "Goodbye, see you! — लंबी विदाई" },
+        { "word": "Thank you", "meaning": "धन्यवाद", "example": "Thank you very much! — कृतज्ञता" },
+        { "word": "Sorry", "meaning": "माफ़ कीजिए", "example": "Sorry! — माफ़ी माँगना" },
+        { "word": "Yes", "meaning": "हाँ", "example": "Yes, I agree. — सहमति" },
+        { "word": "No", "meaning": "नहीं", "example": "No, thank you. — असहमति" },
+        { "word": "Please", "meaning": "कृपया", "example": "Please sit down. — विनम्र अनुरोध" },
+        { "word": "My name is", "meaning": "मेरा नाम है", "example": "My name is Raj. — परिचय" },
+        { "word": "I am", "meaning": "मैं हूँ", "example": "I am a student. — स्वयं का परिचय" },
+        { "word": "How are you?", "meaning": "आप कैसे हैं?", "example": "Hello! How are you? — शिष्टाचार" },
+        { "word": "I am fine", "meaning": "मैं ठीक हूँ", "example": "I am fine, thanks! — जवाब" },
+        { "word": "Nice to meet you", "meaning": "आपसे मिलकर खुशी", "example": "पहली मुलाकात पर" },
+        { "word": "You're welcome", "meaning": "कोई बात नहीं", "example": "Thank you! — You're welcome!" },
+        { "word": "Excuse me", "meaning": "एक्सक्यूज़ मी", "example": "Excuse me, where is...? — ध्यान खींचना" },
+        { "word": "I don't understand", "meaning": "समझ नहीं आया", "example": "Sorry, I don't understand. — भ्रम में" },
+        { "word": "Slowly, please", "meaning": "धीरे बोलें, कृपया", "example": "Please speak slowly. — मदद माँगना" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "matching",
+      "title": "सही जोड़े मिलाएँ",
+      "instruction": "बाईं ओर अंग्रेज़ी और दाईं ओर हिंदी अर्थ मिलाएँ",
+      "leftItems": ["I am fine", "You're welcome", "Sorry", "Please", "Excuse me"],
+      "rightItems": ["एक्सक्यूज़ मी", "कृपया", "मैं ठीक हूँ", "माफ़ कीजिए", "कोई बात नहीं"],
+      "pairs": [[0,2],[1,4],[2,3],[3,1],[4,0]]
+    },
+    {
+      "id": "b3",
+      "type": "true_false",
+      "title": "सच या झूठ — शब्द समीक्षा",
+      "items": [
+        { "statement": "'Good night' का उपयोग शाम के अभिवादन के लिए होता है।", "answer": false, "explanation": "नहीं! 'Good night' सोने से पहले कहते हैं। शाम का अभिवादन 'Good evening' है।" },
+        { "statement": "'Nice to meet you' पहली मुलाकात पर कहते हैं।", "answer": true, "explanation": "सही! पहली बार मिलने पर 'Nice to meet you' कहते हैं।" },
+        { "statement": "'No, thank you' असभ्य होता है।", "answer": false, "explanation": "नहीं! 'No, thank you' बहुत विनम्र तरीका है किसी चीज़ को मना करने का।" }
+      ]
+    }
+  ]
+}

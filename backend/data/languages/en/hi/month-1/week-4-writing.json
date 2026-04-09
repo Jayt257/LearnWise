@@ -1,0 +1,60 @@
+{
+  "id": 37,
+  "type": "writing",
+  "title": "Describe Your Family",
+  "description": "Write about your family in Hindi.",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 4,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-4",
+    "family-and-basic-sentences"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "Build the sentence",
+      "translation": "Arrange the words to form a correct Hindi sentence.",
+      "words": [
+        "मैं",
+        "छात्र",
+        "हूँ",
+        "आज"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "translation_task",
+      "title": "Translate",
+      "instruction": "Translate to Hindi.",
+      "items": [
+        {
+          "source": "My brother is happy.",
+          "answer": "मेरा भाई खुश है।"
+        },
+        {
+          "source": "This is my family.",
+          "answer": "यह मेरा परिवार है।"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "writing",
+      "prompt": "Write 4 short sentences about your family. Mention at least two family members and one feeling word.",
+      "minWords": 40,
+      "sampleAnswer": "यह मेरी माँ हैं। यह मेरे पिता हैं। मेरा भाई खुश है। मेरी बहन अच्छी है।"
+    }
+  ]
+}

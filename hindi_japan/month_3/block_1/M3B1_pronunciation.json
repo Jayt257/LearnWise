@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_hi_M3B1_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "उच्चारण: शर्तें (Conditionals ~tara)",
+  "learningGoal": "'~tara' वाले लंबे और जटिल शब्दों (विशेष रूप से नकारात्मक रूप) का स्पष्ट उच्चारण करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B1_lesson_1"
+  ],
+  "instructions": "'~tara' फॉर्म बनाते समय कई बार शब्द बहुत लंबे हो जाते हैं, खासकर जब हम 'अगर ऐसा नहीं हुआ' (Nai-form) बोलते हैं। इन लंबे शब्दों को बिना रुके, एक लय (rhythm) में बोलने का अभ्यास करें। डबल 't' (छोटे 'tsu') पर थोड़ा रुकना न भूलें।",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "いったら",
+      "transliteration": "Ittara",
+      "baseTranslation": "अगर/जब जाऊँगा",
+      "phoneticHint": "इत-ता-रा (डबल 't' पर थोड़ा रुकें)",
+      "syllableSplit": "i-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'Itara' (बिना रुके) बोलना।"
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "のんだら",
+      "transliteration": "Nondara",
+      "baseTranslation": "अगर/जब पीयूँगा",
+      "phoneticHint": "नो-न-दा-रा ('n' नाक से बोलें)",
+      "syllableSplit": "no-n-da-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'Nodara' बोलना।"
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "さむかったら",
+      "transliteration": "Samukattara",
+      "baseTranslation": "अगर ठंड हुई",
+      "phoneticHint": "सा-मु-कात-ता-रा",
+      "syllableSplit": "sa-mu-ka-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'Samuitara' (गलत रूप) बोलना।"
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "ひま だったら",
+      "transliteration": "Hima dattara",
+      "baseTranslation": "अगर खाली/फ्री हुआ",
+      "phoneticHint": "ही-मा दात-ता-रा",
+      "syllableSplit": "hi-ma da-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'Hima tara' बोलना ('da' को भूल जाना)।"
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "いかなかったら",
+      "transliteration": "Ikanakattara",
+      "baseTranslation": "अगर नहीं गया",
+      "phoneticHint": "इ-का-ना-कात-ता-रा (लंबा शब्द है, इसे एक फ्लो में बोलें)",
+      "syllableSplit": "i-ka-na-ka-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "बीच में साँस लेने के लिए रुक जाना।"
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "おいしくなかったら",
+      "transliteration": "Oishikunakattara",
+      "baseTranslation": "अगर स्वादिष्ट नहीं हुआ",
+      "phoneticHint": "ओ-इ-शि-कु-ना-कात-ता-रा",
+      "syllableSplit": "o-i-shi-ku-na-ka-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "अक्षरों को मिला देना।"
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "あめ じゃなかったら",
+      "transliteration": "Ame ja nakattara",
+      "baseTranslation": "अगर बारिश नहीं हुई",
+      "phoneticHint": "आ-मे जा ना-कात-ता-रा",
+      "syllableSplit": "a-me ja na-ka-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'ja' को 'zha' बोलना।"
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "あめ が ふったら",
+      "transliteration": "Ame ga futtara",
+      "baseTranslation": "अगर बारिश हुई",
+      "phoneticHint": "आ-मे गा फुत-ता-रा",
+      "syllableSplit": "a-me ga fu-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'futtara' में डबल 't' पर न रुकना।"
+    },
+    {
+      "itemId": "p_9",
+      "targetText": "ボタン を おすと",
+      "transliteration": "Botan o osu to",
+      "baseTranslation": "बटन दबाने पर (~to)",
+      "phoneticHint": "बो-ता-न ओ ओ-सु तो ('to' को तेज़ी से बोलें)",
+      "syllableSplit": "bo-ta-n o o-su to",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'osu' और 'to' के बीच बहुत ज़्यादा गैप देना।"
+    },
+    {
+      "itemId": "p_10",
+      "targetText": "みぎ へ まがると",
+      "transliteration": "Migi e magaru to",
+      "baseTranslation": "दाएँ मुड़ने पर (~to)",
+      "phoneticHint": "मी-गी ए मा-गा-रु तो",
+      "syllableSplit": "mi-gi e ma-ga-ru to",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "पूरे वाक्य को जोड़कर न बोलना।"
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear articulation of long negative conditionals (~nakattara) and distinct pauses for small 'tsu' in ~ttara forms.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने '~tara' के लंबे और मुश्किल शब्दों का बहुत ही स्पष्ट और सही उच्चारण किया है।",
+    "onFail": "ध्यान दें: 'nakattara' (जैसे Ikanakattara) बहुत लंबा है। इसे धीरे-धीरे 3 भागों में बोलने का अभ्यास करें: Ika - naka - ttara.",
+    "onPartial": "अच्छा प्रयास है। 'Dattara' और 'Futtara' जैसे शब्दों में डबल 't' (छोटे 'tsu') पर थोड़ा सा रुकना याद रखें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 600,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "tara",
+    "to",
+    "conditionals",
+    "long words"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "जापानी में लंबे शब्द एक ही साँस में बोले जाते हैं। 'Oishikunakattara' (अगर स्वादिष्ट नहीं हुआ) को तोड़ने की बजाय एक लय में बोलने की कोशिश करें।",
+  "commonMistakes": [
+    "'Samukattara' को 'Sa-mu-ka-tara' बोलना (डबल 't' को मिस करना)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B1_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

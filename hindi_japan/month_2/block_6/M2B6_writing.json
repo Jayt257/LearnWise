@@ -1,0 +1,221 @@
+{
+  "activityId": "ja_hi_M2B6_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "लेखन: कृतज्ञता और उपकार (Writing Favors & Gratitude)",
+  "learningGoal": "जापानी में उपकार प्राप्त करने (Morau) और किसी के लिए उपकार करने (Ageru) वाले वाक्यों को सही कणों (particles) के साथ लिखना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M2B6_lesson_1"
+  ],
+  "instructions": "जापानी में कृतज्ञता (Gratitude) व्यक्त करने के लिए 'Moraimashita' का उपयोग करना बहुत महत्वपूर्ण है। नीचे दिए गए वाक्यों को जापानी में लिखें। ध्यान दें कि कौन उपकार कर रहा है और कौन प्राप्त कर रहा है!",
+  "writingPrompt": "इन वाक्यों का अनुवाद करें:\nभाग 1: 'मैंने यामादा से किताब उधार प्राप्त की।' (उधार देना = Kashimasu -> Kashite)\nभाग 2: 'कल, मैंने दोस्त की मदद की।' (मदद करना = Tetsudaimasu -> Tetsudatte / मैं उपकार कर रहा हूँ)\nभाग 3: 'माफ़ कीजिए, क्या आप मुझे स्टेशन जाने का तरीका बता देंगे?' (बताना = Oshiemasu -> Oshiete)",
+  "promptGoal": "~te moraimashita, ~te agemashita, और ~te kuremasen ka का सही उपयोग करना।",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "わたし",
+      "transliteration": "watashi",
+      "baseTranslation": "मैं",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "は",
+      "transliteration": "wa",
+      "baseTranslation": "तो (Topic marker)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "やまださん",
+      "transliteration": "Yamada-san",
+      "baseTranslation": "यामादा",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "に",
+      "transliteration": "ni",
+      "baseTranslation": "से / को (कर्ता या प्राप्तकर्ता के अनुसार)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "ほん を",
+      "transliteration": "hon o",
+      "baseTranslation": "किताब को",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "かして",
+      "transliteration": "kashite",
+      "baseTranslation": "उधार देना (Te-form)",
+      "partOfSpeech": "verb (te-form)"
+    },
+    {
+      "targetText": "もらいました",
+      "transliteration": "moraimashita",
+      "baseTranslation": "प्राप्त किया",
+      "partOfSpeech": "grammar phrase"
+    },
+    {
+      "targetText": "きのう",
+      "transliteration": "kinou",
+      "baseTranslation": "कल (बीता हुआ)",
+      "partOfSpeech": "noun/adverb"
+    },
+    {
+      "targetText": "ともだち",
+      "transliteration": "tomodachi",
+      "baseTranslation": "दोस्त",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "を",
+      "transliteration": "o",
+      "baseTranslation": "को (Object marker)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "てつだって",
+      "transliteration": "tetsudatte",
+      "baseTranslation": "मदद करना (Te-form)",
+      "partOfSpeech": "verb (te-form)"
+    },
+    {
+      "targetText": "あげました",
+      "transliteration": "agemashita",
+      "baseTranslation": "दिया (मैंने किसी पर उपकार किया)",
+      "partOfSpeech": "grammar phrase"
+    },
+    {
+      "targetText": "すみません",
+      "transliteration": "sumimasen",
+      "baseTranslation": "माफ़ कीजिए",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "えき への",
+      "transliteration": "eki e no",
+      "baseTranslation": "स्टेशन की ओर का",
+      "partOfSpeech": "noun + particles"
+    },
+    {
+      "targetText": "いきかた",
+      "transliteration": "ikikata",
+      "baseTranslation": "जाने का तरीका",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "おしえて",
+      "transliteration": "oshiete",
+      "baseTranslation": "बताना / सिखाना (Te-form)",
+      "partOfSpeech": "verb (te-form)"
+    },
+    {
+      "targetText": "くれません か",
+      "transliteration": "kuremasen ka",
+      "baseTranslation": "क्या आप (मेरे लिए) कर देंगे?",
+      "partOfSpeech": "grammar phrase"
+    }
+  ],
+  "referenceHints": [
+    "जब आप 'Moraimashita' का उपयोग करते हैं, तो जिसने आप पर उपकार किया है उसके नाम के बाद 'ni' (に) लगता है। (Yamada-san ni...)",
+    "जब आप कहते हैं 'मैंने दोस्त की मदद की', तो इसका मतलब है आपने उपकार दिया। इसके लिए 'Te agemashita' का उपयोग करें।",
+    "किसी अजनबी से मदद माँगने का सबसे विनम्र तरीका है: Te-form + kuremasen ka."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "わたし は やまださん に ほん を かして もらいました。きのう、わたし は ともだち を てつだって あげました。すみません、えき への いきかた を おしえて くれませんか。",
+      "transliteration": "Watashi wa Yamada-san ni hon o kashite moraimashita. Kinou, watashi wa tomodachi o tetsudatte agemashita. Sumimasen, eki e no ikikata o oshiete kuremasen ka.",
+      "baseTranslation": "मैंने यामादा से किताब उधार प्राप्त की। कल, मैंने दोस्त की मदद की। माफ़ कीजिए, क्या आप मुझे स्टेशन जाने का तरीका बता देंगे?",
+      "qualityLevel": "excellent",
+      "annotation": "Moraimashita, agemashita, और kuremasen ka का बिल्कुल सही और प्रासंगिक उपयोग।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Moraimashita usage",
+      "weight": 35,
+      "description": "क्या 'Kashite moraimashita' और 'Yamada-san ni' का सही उपयोग हुआ है?"
+    },
+    {
+      "criterion": "Agemashita usage",
+      "weight": 30,
+      "description": "क्या दोस्त की मदद करने के लिए 'Tetsudatte agemashita' का उपयोग हुआ है?"
+    },
+    {
+      "criterion": "Polite request",
+      "weight": 35,
+      "description": "क्या रास्ता पूछने के लिए 'Oshiete kuremasen ka' का उपयोग हुआ है?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "わたし は やまださん に ほん を かして もらいました。きのう、わたし は ともだち を てつだって あげました。すみません、えき への いきかた を おしえて くれませんか。",
+    "acceptableAlternates": [
+      "やまださん に ほん を かして もらいました。きのう、ともだち を てつだって あげました。すみません、えき への いきかた を おしえて くれませんか。"
+    ],
+    "requiredKeywords": [
+      "かして もらいました",
+      "てつだって あげました",
+      "おしえて くれません か"
+    ],
+    "grammarBaseline": "Strict check on the endings: moraimashita (receive favor), agemashita (give favor), kuremasen ka (polite request). Mixing them up completely changes the meaning and is a failure.",
+    "lengthExpectation": "3 full sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Subject/Giver alignment",
+          "weight": 100,
+          "description": "Must use 'ni' with Yamada-san when using 'moraimashita'."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने जापानी समाज के 'उपकार' (Favors) के नियमों को बिल्कुल सही तरीके से लिखा है। आपकी जापानी बहुत ही प्राकृतिक (Natural) है!",
+    "onFail": "ध्यान दें: जब आप कुछ प्राप्त करते हैं तो 'Moraimashita' का उपयोग करें। जब आप किसी के लिए कुछ करते हैं तो 'Agemashita' का उपयोग करें।",
+    "onPartial": "अच्छा प्रयास! 'Yamada-san NI' का ध्यान रखें। जब आप 'Moraimashita' का उपयोग करते हैं, तो देने वाले के साथ 'ni' (से) लगता है।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "ageru",
+    "morau",
+    "favors",
+    "polite requests"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर आप 'मैं यामादा को किताब उधार देता हूँ' लिखना चाहते हैं, तो 'Yamada-san NI kashite AGEMASHITA' होगा। अगर यामादा ने आपको दी है, तो 'Yamada-san NI kashite MORAIMASHITA' होगा। दोनों में 'Yamada-san NI' लगता है, बस अंत बदलता है!",
+  "commonMistakes": [
+    "'Tomodachi o tetsudatte kuremashita' लिखना (इसका मतलब दोस्त ने मेरी मदद की, जबकि सवाल में आपको दोस्त की मदद करनी है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

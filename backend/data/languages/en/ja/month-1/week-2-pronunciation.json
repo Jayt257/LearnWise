@@ -1,0 +1,58 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 2 | Pronunciation",
+  "id": 14,
+  "type": "pronunciation",
+  "title": "Pronunciation: Na, Ta & Ha Rows",
+  "description": "Learn the pronunciation rules for the Na-row (な行), Ta-row (た行), and Ha-row (は行).",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["pronunciation", "hiragana", "consonants", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Key Sounds This Week",
+      "points": [
+        "Ta-row: た (ta), ち (chi), つ (tsu), て (te), と (to) — Note 'chi' and 'tsu'!",
+        "Na-row: な (na), に (ni), ぬ (nu), ね (ne), の (no) — Very regular, like 'n' in English.",
+        "Ha-row: は (ha), ひ (hi), ふ (fu), へ (he), ほ (ho) — Note 'fu' and the particle 'ha/wa'.",
+        "The sound 'tsu' is like the 'ts' in 'cats', NOT 'soo'.",
+        "The sound 'fu' is blowing air gently, lighter than an English 'f'."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "Identify the Sound Difference",
+      "instruction": "Notice the differences in pronunciation.",
+      "pairs": [
+        { "word1": "た (ta)", "word2": "だ (da)", "sound1": "Unvoiced 't'", "sound2": "Voiced 'd' using Dakuten (゛)", "diff": "Voice box vibration (ta vs da)." },
+        { "word1": "す (su)", "word2": "つ (tsu)", "sound1": "'Su' like in 'suit'", "sound2": "'Tsu' like in 'cats'", "diff": "Tongue position behind the teeth for 'tsu'." },
+        { "word1": "ふ (fu)", "word2": "ほ (ho)", "sound1": "Gentle breath for 'fu'", "sound2": "Round 'ho' sound", "diff": "Don't bite your lip for 'fu' like an English 'f'!" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Pronouncing Numbers Correctly",
+      "words": [
+        { "word": "なな", "syllables": ["na", "na"], "stressed": 0, "note": "Seven. na-na (equal weight)." },
+        { "word": "はち", "syllables": ["ha", "chi"], "stressed": 0, "note": "Eight. ha-chi (chi like in cheese)." },
+        { "word": "ひゃく", "syllables": ["hya", "ku"], "stressed": 0, "note": "Hundred. hya-ku (hya is one sound)." }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "True or False — Check Your Understanding",
+      "items": [
+        { "statement": "The character つ is pronounced 'su'.", "answer": false, "explanation": "It's pronounced 'tsu', like the end of 'cats'." },
+        { "statement": "The Ha-row changes to B and P with marks.", "answer": true, "explanation": "Yes! は(ha) -> ば(ba) with dakuten, and ぱ(pa) with handakuten (゜)." },
+        { "statement": "The word for seven is pronounced 'nay-nay'.", "answer": false, "explanation": "No, it's 'na-na' (rhymes with spa-spa)." }
+      ]
+    }
+  ]
+}

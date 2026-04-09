@@ -1,0 +1,58 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Speaking",
+  "id": 18,
+  "type": "speaking",
+  "title": "बोलने का अभ्यास: दुकान और परिसर में",
+  "description": "जापानी में दुकान में बातचीत और दिशाएँ पूछने का अभ्यास।",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["speaking", "shopping", "locations", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "दृश्य 1: जापानी किताब की दुकान में",
+      "scenario": "किताब की दुकान — ほんや (Honya)",
+      "yourRole": "ग्राहक",
+      "partnerRole": "दुकानदार",
+      "context": "आप जापान में एक किताब की दुकान में हैं। आपको एक जापानी पाठ्यपुस्तक चाहिए।",
+      "goal": "किताब माँगें, क़ीमत पूछें और ख़रीदें।",
+      "usefulPhrases": [
+        "すみません！(Sumimasen!) — माफ़ कीजिए",
+        "にほんごのほんはありますか？(Nihongo no hon wa arimasu ka?) — क्या जापानी की किताब है?",
+        "いくらですか？(Ikura desu ka?) — कितने का है?",
+        "これをください。(Kore wo kudasai.) — यह दीजिए",
+        "ありがとうございます！(Arigatou gozaimasu!) — धन्यवाद!"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roleplay_card",
+      "title": "दृश्य 2: स्टेशन के पास",
+      "scenario": "स्टेशन ढूँढना",
+      "yourRole": "पर्यटक",
+      "partnerRole": "स्थानीय व्यक्ति",
+      "context": "आप टोक्यो में हैं और रेलवे स्टेशन ढूँढ रहे हैं। एक राहगीर से पूछें।",
+      "goal": "विनम्रता से रास्ता पूछें और समझें।",
+      "usefulPhrases": [
+        "すみません、えきはどこですか？(Sumimasen, eki wa doko desu ka?) — माफ़ कीजिए, स्टेशन कहाँ है?",
+        "ちかいですか？(Chikai desu ka?) — क्या पास है?",
+        "ありがとうございます！(Arigatou gozaimasu!) — धन्यवाद!",
+        "わかりました！(Wakarimashita!) — समझ गया!"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "speaking",
+      "prompt": "अपने कमरे के बारे में जापानी में बोलें। इन बिंदुओं को शामिल करें:\n• आपके कमरे में क्या-क्या है\n• आपकी पसंदीदा चीज़\n• कमरा बड़ा है या छोटा",
+      "hints": [
+        "わたしのへやには__があります。(Watashi no heya ni wa __ ga arimasu.) — मेरे कमरे में __ है।",
+        "いちばんすきなものは__です。(Ichiban suki na mono wa __ desu.) — सबसे पसंदीदा चीज़ __ है।",
+        "へやは__です。(Heya wa __ desu.) — कमरा __ है।"
+      ]
+    }
+  ]
+}

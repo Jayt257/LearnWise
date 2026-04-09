@@ -1,0 +1,95 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 2 | Test — 10 Questions",
+  "id": 17,
+  "type": "test",
+  "title": "सप्ताह 2 परीक्षा: संख्याएँ, रंग और वस्तुएँ",
+  "description": "इस सप्ताह सीखे गए संख्याओं, रंगों और दैनिक वस्तुओं की जाँच करें।",
+  "duration": "15 min",
+  "xp": 50,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["test", "numbers", "colors", "objects", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "quiz",
+      "question": "'पाँच' को अंग्रेज़ी में क्या कहते हैं?",
+      "options": ["Four", "Five", "Six", "Fifteen"],
+      "correct": 1,
+      "explanation": "'पाँच' = Five (5)। Four = चार, Six = छह।"
+    },
+    {
+      "id": "b2",
+      "type": "quiz",
+      "question": "आकाश का रंग अंग्रेज़ी में क्या है?",
+      "options": ["Red", "Green", "Yellow", "Blue"],
+      "correct": 3,
+      "explanation": "आकाश का रंग 'Blue' (नीला) है। The sky is blue."
+    },
+    {
+      "id": "b3",
+      "type": "quiz",
+      "question": "'Thirty' का हिंदी अर्थ क्या है?",
+      "options": ["तेरह", "तीस", "तीन", "सत्तर"],
+      "correct": 1,
+      "explanation": "'Thirty' = तीस (30)। Thirteen = तेरह (13), Three = तीन (3)।"
+    },
+    {
+      "id": "b4",
+      "type": "quiz",
+      "question": "'This is a ___' में कौन सा शब्द सही है — पास की किताब बताने के लिए?",
+      "options": ["That", "These", "This", "Those"],
+      "correct": 2,
+      "explanation": "पास की एकवचन वस्तु के लिए 'This' और दूर की के लिए 'That' प्रयोग होता है।"
+    },
+    {
+      "id": "b5",
+      "type": "quiz",
+      "question": "100 को अंग्रेज़ी में क्या कहते हैं?",
+      "options": ["Ten", "Thousand", "Hundred", "Million"],
+      "correct": 2,
+      "explanation": "100 = One Hundred। Thousand = हज़ार (1000)।"
+    },
+    {
+      "id": "b6",
+      "type": "quiz",
+      "question": "Vowel (स्वर) से पहले कौन सा article आता है?",
+      "options": ["A", "An", "The", "कोई नहीं"],
+      "correct": 1,
+      "explanation": "Vowel (A, E, I, O, U) से शुरू होने वाले शब्दों के पहले 'An' आता है। जैसे: An apple, An elephant।"
+    },
+    {
+      "id": "b7",
+      "type": "quiz",
+      "question": "'White' का हिंदी अर्थ क्या है?",
+      "options": ["काला", "पीला", "सफ़ेद", "हरा"],
+      "correct": 2,
+      "explanation": "'White' = सफ़ेद। Black = काला, Yellow = पीला, Green = हरा।"
+    },
+    {
+      "id": "b8",
+      "type": "quiz",
+      "question": "'How many books do you have?' — इसका सही जवाब कौन सा है?",
+      "options": ["My book is blue.", "I have five books.", "Books are good.", "Yes, books."],
+      "correct": 1,
+      "explanation": "'How many?' का जवाब संख्या के साथ देते हैं: 'I have five books.' (मेरे पास पाँच किताबें हैं।)"
+    },
+    {
+      "id": "b9",
+      "type": "quiz",
+      "question": "13 और 30 में क्या अंतर है?",
+      "options": ["कोई अंतर नहीं", "Thirteen और Thirty — बल की जगह अलग", "दोनों 'Thirty' हैं", "दोनों 'Thirteen' हैं"],
+      "correct": 1,
+      "explanation": "Thirteen (13) = thir-TEEN (अंत में बल) | Thirty (30) = THIR-ty (शुरू में बल)। उच्चारण का फ़र्क महत्वपूर्ण है!"
+    },
+    {
+      "id": "b10",
+      "type": "quiz",
+      "question": "'I have two red chairs' का हिंदी अर्थ क्या है?",
+      "options": ["मेरे पास एक लाल कुर्सी है।", "मेरे पास दो लाल कुर्सियाँ हैं।", "मुझे दो कुर्सियाँ चाहिए।", "वह लाल कुर्सी है।"],
+      "correct": 1,
+      "explanation": "I (मैं) + have (पास हैं) + two (दो) + red (लाल) + chairs (कुर्सियाँ) = मेरे पास दो लाल कुर्सियाँ हैं।"
+    }
+  ]
+}

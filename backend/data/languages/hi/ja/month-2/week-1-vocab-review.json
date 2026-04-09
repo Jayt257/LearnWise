@@ -1,0 +1,46 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 5 | Vocab Review",
+  "id": 109,
+  "type": "vocab",
+  "title": "शब्द समीक्षा: क्रियाएँ",
+  "description": "सप्ताह 5 की क्रियाओं की समीक्षा करें।",
+  "duration": "10 min",
+  "xp": 20,
+  "week": 5,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["vocab_review", "verbs", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "vocab_table",
+      "title": "समीक्षा — 15 मुख्य क्रियाएँ",
+      "words": [
+        { "word": "おきます", "meaning": "उठना", "example": "ろくじにおきます" },
+        { "word": "ねます", "meaning": "सोना", "example": "じゅうじにねます" },
+        { "word": "たべます", "meaning": "खाना", "example": "あさごはんをたべます" },
+        { "word": "のみます", "meaning": "पीना", "example": "みずをのみます" },
+        { "word": "いきます", "meaning": "जाना", "example": "がっこうにいきます" },
+        { "word": "きます", "meaning": "आना", "example": "ともだちがきます" },
+        { "word": "かえります", "meaning": "लौटना", "example": "うちにかえります" },
+        { "word": "よみます", "meaning": "पढ़ना", "example": "ほんをよみます" },
+        { "word": "かきます", "meaning": "लिखना", "example": "てがみをかきます" },
+        { "word": "みます", "meaning": "देखना", "example": "テレビをみます" },
+        { "word": "ききます", "meaning": "सुनना", "example": "おんがくをききます" },
+        { "word": "はなします", "meaning": "बात करना", "example": "ともだちとはなします" },
+        { "word": "べんきょうします", "meaning": "पढ़ाई करना", "example": "にほんごをべんきょうします" },
+        { "word": "あそびます", "meaning": "खेलना", "example": "こうえんであそびます" },
+        { "word": "かいます", "meaning": "खरीदना", "example": "みせでかいます" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "matching",
+      "title": "क्रियाएँ मिलाएँ",
+      "instruction": "जापानी क्रिया और हिंदी अर्थ मिलाएँ:",
+      "leftItems": ["かえります", "よみます", "ききます", "はなします", "おきます"],
+      "rightItems": ["पढ़ना", "लौटना", "उठना", "सुनना", "बात करना"],
+      "pairs": [[0,1],[1,0],[2,3],[3,4],[4,2]]
+    }
+  ]
+}

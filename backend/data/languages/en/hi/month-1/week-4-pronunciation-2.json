@@ -1,0 +1,81 @@
+{
+  "id": 42,
+  "type": "pronunciation",
+  "title": "Sound Practice 2",
+  "description": "A second pronunciation drill for polite speech.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 4,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-4",
+    "family-and-basic-sentences"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Pronunciation tips",
+      "points": [
+        "Say family words gently.",
+        "Use respectful forms with elders.",
+        "Keep sentence endings soft and clear."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "stress_pattern",
+      "title": "Rhythm practice",
+      "words": [
+        {
+          "word": "माँ",
+          "syllables": [
+            "mā̃"
+          ],
+          "stressed": 0,
+          "note": "Nasalized vowel is important."
+        },
+        {
+          "word": "परिवार",
+          "syllables": [
+            "pa",
+            "ri",
+            "vaar"
+          ],
+          "stressed": 2,
+          "note": "Long final syllable."
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "tongue_twister",
+      "title": "Speed practice",
+      "text": "नीलू ने नींबू निचोड़ा",
+      "romanization": "nīlū ne nīmboo nichoṛā",
+      "translation": "Nilu squeezed the lemon",
+      "tip": "Say it slowly first, then increase speed."
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "Sound check",
+      "items": [
+        {
+          "statement": "Hindi sounds should be rushed.",
+          "answer": false,
+          "explanation": "Clear and slow practice is better in the beginning."
+        },
+        {
+          "statement": "Breathy consonants matter in Hindi.",
+          "answer": true,
+          "explanation": "Sounds like ख and भ are important contrasts."
+        }
+      ]
+    }
+  ]
+}

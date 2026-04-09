@@ -1,0 +1,176 @@
+{
+  "activityId": "ja_hi_M3B5_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "लेखन: रिपोर्ट दर्ज करना (Filing a Report)",
+  "learningGoal": "डॉक्टर को अपनी समस्या (N desu) और पुलिस को अपना नुकसान (Shimaimashita) लिखकर समझाना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M3B5_lesson_1"
+  ],
+  "instructions": "इस अभ्यास में, आपको 'Explanation Form' (~n desu) और 'Regret Form' (~te shimaimashita) का उपयोग करके वाक्य बनाने हैं। याद रखें: जब आप डॉक्टर को कारण बताते हैं, तो 'N desu' लगाएँ। जब आप पुलिस को अपनी गलती/नुकसान बताते हैं, तो 'Shimaimashita' लगाएँ।",
+  "writingPrompt": "इन वाक्यों का अनुवाद करें:\nभाग 1: 'कल से मुझे बुखार है (समझाते हुए)।' (बुखार है = Netsu ga arimasu -> Aru + n desu)\nभाग 2: 'मेरे पेट में दर्द है (समझाते हुए)।' (दर्द है = Itai + n desu)\nभाग 3: 'मुझसे मेरा बटुआ खो गया (पछतावा)।' (खोना = Nakushimasu -> Nakushite shimaimashita)\nभाग 4: 'मेरा बैग चुरा लिया गया (Passive)।' (चुराना = Nusumimasu -> Nusumaremashita)",
+  "promptGoal": "~n desu, ~te shimaimashita, और Passive form (nusumareru) का सही उपयोग।",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "きのう から",
+      "transliteration": "kinou kara",
+      "baseTranslation": "कल से",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "ねつ が",
+      "transliteration": "netsu ga",
+      "baseTranslation": "बुखार",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "あるんです",
+      "transliteration": "aru n desu",
+      "baseTranslation": "है (Explanation: Arimasu -> Aru n desu)",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "おなか が",
+      "transliteration": "onaka ga",
+      "baseTranslation": "पेट",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "いたいんです",
+      "transliteration": "itai n desu",
+      "baseTranslation": "दर्द है (Explanation: Itai + n desu)",
+      "partOfSpeech": "adjective phrase"
+    },
+    {
+      "targetText": "さいふ を",
+      "transliteration": "saifu o",
+      "baseTranslation": "बटुआ (Wallet)",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "なくして しまいました",
+      "transliteration": "nakushite shimaimashita",
+      "baseTranslation": "खो दिया (Regret: Nakushimasu -> Nakushite shimaimashita)",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "かばん を",
+      "transliteration": "kaban o",
+      "baseTranslation": "बैग",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "ぬすまれました",
+      "transliteration": "nusumaremashita",
+      "baseTranslation": "चुरा लिया गया (Passive: Nusumimasu -> Nusumaremashita)",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "डॉक्टर को अपनी स्थिति समझाते समय हमेशा '~n desu' (んです) का उपयोग करें (जैसे Aru n desu, Itai n desu)।",
+    "गलती से कुछ हो जाने पर '~te shimaimashita' (て しまいました) का उपयोग करें।",
+    "अगर किसी और ने आपका सामान चुराया है, तो आप पीड़ित (Victim) हैं, इसलिए Passive रूप 'Nusumaremashita' का उपयोग करें।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "きのう から ねつ が あるんです。おなか が いたいんです。さいふ を なくして しまいました。かばん を ぬすまれました。",
+      "transliteration": "Kinou kara netsu ga aru n desu. Onaka ga itai n desu. Saifu o nakushite shimaimashita. Kaban o nusumaremashita.",
+      "baseTranslation": "कल से मुझे बुखार है। मेरे पेट में दर्द है। मुझसे मेरा बटुआ खो गया। मेरा बैग चुरा लिया गया।",
+      "qualityLevel": "excellent",
+      "annotation": "Explanation, Regret, और Passive form का बिल्कुल सटीक उपयोग।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Explanation Form (~n desu)",
+      "weight": 40,
+      "description": "क्या बीमारी समझाने के लिए 'aru n desu' और 'itai n desu' का उपयोग हुआ है?"
+    },
+    {
+      "criterion": "Regret Form (~te shimaimashita)",
+      "weight": 30,
+      "description": "क्या खोने पर अफ़सोस जताने के लिए 'nakushite shimaimashita' का उपयोग हुआ है?"
+    },
+    {
+      "criterion": "Passive Form (Victim)",
+      "weight": 30,
+      "description": "क्या चोरी होने के लिए 'nusumaremashita' का उपयोग हुआ है?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "きのう から ねつ が あるんです。おなか が いたいんです。さいふ を なくして しまいました。かばん を ぬすまれました。",
+    "acceptableAlternates": [
+      "きのうからねつがあるんです。おなかがいたいんです。さいふをなくしてしまいました。かばんをぬすまれました。"
+    ],
+    "requiredKeywords": [
+      "あるんです",
+      "いたいんです",
+      "なくして しまいました",
+      "ぬすまれました"
+    ],
+    "grammarBaseline": "Strict requirement for 'n desu' (explanatory) and 'shimaimashita' (regret). 'Nusumimashita' (I stole) is incorrect; must be passive 'nusumaremashita'.",
+    "lengthExpectation": "4 short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Correct Emergency Forms",
+          "weight": 100,
+          "description": "Must use the correct grammatical markers for explaining, regretting, and being a victim."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने आपातकालीन स्थितियों में इस्तेमाल होने वाले तीनों ज़रूरी फॉर्म (~n desu, ~te shimaimashita, passive) का बिल्कुल सही उपयोग किया है।",
+    "onFail": "ध्यान दें: 'Arimasu' की जगह 'Aru n desu' लिखें। 'Nakushimashita' की जगह 'Nakushite shimaimashita' लिखें।",
+    "onPartial": "अच्छा प्रयास! 'Nusumaremashita' (चुराया गया) और 'Nusumimashita' (मैंने चुराया) के बीच के अंतर को हमेशा याद रखें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "emergency",
+    "n desu",
+    "te shimaimashita",
+    "passive",
+    "police",
+    "doctor"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर वाक्य में 'कारण/विवरण' (Explanation) है, तो 'N desu' लगाएँ। अगर 'गलती/पछतावा' (Mistake) है, तो 'Te shimaimashita' लगाएँ।",
+  "commonMistakes": [
+    "'Kaban o nusumimashita' लिखना (इसका मतलब है कि आपने खुद बैग चुराया है!)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

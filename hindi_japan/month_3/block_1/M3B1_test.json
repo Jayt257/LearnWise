@@ -1,0 +1,228 @@
+{
+  "activityId": "ja_hi_M3B1_test_8",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "ब्लॉक मूल्यांकन: शर्तें और परिणाम (~tara & ~to)",
+  "learningGoal": "महीने 3 के पहले ब्लॉक में सीखे गए कंडीशनल फॉर्म्स (~tara और ~to) के सही उपयोग का मूल्यांकन करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 75,
+  "prerequisites": [
+    "ja_hi_M3B1_lesson_1",
+    "ja_hi_M3B1_pronunciation_2",
+    "ja_hi_M3B1_reading_3",
+    "ja_hi_M3B1_writing_4",
+    "ja_hi_M3B1_listening_5",
+    "ja_hi_M3B1_vocabulary_6",
+    "ja_hi_M3B1_speaking_7"
+  ],
+  "instructions": "यह ब्लॉक 1 का मूल्यांकन है। इस टेस्ट में आपको 'अगर/जब' (Tara) और 'निश्चित परिणाम' (To) वाले वाक्यों के लिए सही व्याकरण का चुनाव करना होगा।",
+  "testTitle": "ब्लॉक 1 - कंडीशनल फॉर्म्स मास्टरी टेस्ट",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_tara",
+      "sectionTitle": "शर्तें (~tara)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "'अगर मैं जापान गया...' (जाना = Ikimasu) - सही ~tara form चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "いったら (Ittara)",
+            "いったらば (Ittaraba)",
+            "いきたら (Ikitara)"
+          ],
+          "questionHints": {
+            "targetText": "いったら (Ittara)",
+            "transliteration": "Ittara",
+            "baseTranslation": "Ta-form of Iku is Itta."
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "'अगर ठंड हुई...' (ठंडा = Samui) - सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "さむかったら (Samukattara)",
+            "さむいったら (Samuitara)",
+            "さむだったら (Samudattara)"
+          ],
+          "questionHints": {
+            "targetText": "さむかったら (Samukattara)",
+            "transliteration": "Samukattara",
+            "baseTranslation": "i-adjective: drop i, add kattara."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "'अगर बारिश नहीं हुई...' (Negative If) - सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "あめ じゃなかったら (Ame ja nakattara)",
+            "あめ じゃありませんたら (Ame ja arimasentara)",
+            "あめ だったら (Ame dattara)"
+          ],
+          "questionHints": {
+            "targetText": "あめ じゃなかったら (Ame ja nakattara)",
+            "transliteration": "Ame ja nakattara",
+            "baseTranslation": "Negative noun + tara."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_to",
+      "sectionTitle": "पक्के परिणाम (~to)",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "'दाएँ मुड़ने पर (बैंक है)...' - सही ~to form चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "みぎ へ まがると (Migi e magaru to)",
+            "みぎ へ まがってと (Migi e magatte to)",
+            "みぎ へ まがったと (Migi e magatta to)"
+          ],
+          "questionHints": {
+            "targetText": "みぎ へ まがると (Migi e magaru to)",
+            "transliteration": "Migi e magaru to",
+            "baseTranslation": "Dictionary form + to."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "'अगर यह बटन दबाते हैं, तो टिकट बाहर आता है।' - सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "ボタン を おすと、きっぷ が でます。",
+            "ボタン を おしたら、きっぷ が でます。",
+            "दोनों सही हैं, लेकिन मशीनों के लिए 'おすと' (osu to) ज़्यादा प्राकृतिक है।"
+          ],
+          "questionHints": {
+            "targetText": "दोनों सही हैं, लेकिन मशीनों के लिए 'おすと' (osu to) ज़्यादा प्राकृतिक है。",
+            "transliteration": "Both are okay, ~to is more natural for machines.",
+            "baseTranslation": "~to is preferred for mechanical facts."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_vs",
+      "sectionTitle": "~tara बनाम ~to",
+      "questions": [
+        {
+          "questionId": "tq_6",
+          "questionText": "ग्रामर चेक: क्या आप ~to वाले वाक्य के अंत में 'Ikimashou' (चलते हैं) का उपयोग कर सकते हैं? (उदा: Jikan ga aru to, ikimashou!)",
+          "questionType": "multiple_choice",
+          "options": [
+            "नहीं, ~to के साथ आमंत्रण/इच्छा का उपयोग नहीं हो सकता।",
+            "हाँ, यह सही है।",
+            "हाँ, लेकिन सिर्फ दोस्तों के साथ।"
+          ],
+          "questionHints": {
+            "targetText": "नहीं, ~to के साथ आमंत्रण/इच्छा का उपयोग नहीं हो सकता।",
+            "transliteration": "No, ~to cannot be used with volition.",
+            "baseTranslation": "Cannot use volition with ~to."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        },
+        {
+          "questionId": "tq_7",
+          "questionText": "'अगर मेरे पास पैसे हुए, तो मैं कार खरीदना चाहता हूँ (Kaitai desu)' - यहाँ क्या उपयोग होगा?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あったら (Attara - ~tara form)",
+            "あると (Aru to - ~to form)",
+            "ありますと (Arimasu to)"
+          ],
+          "questionHints": {
+            "targetText": "あったら (Attara - ~tara form)",
+            "transliteration": "Attara",
+            "baseTranslation": "'Tai' (desire) requires ~tara."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 20,
+  "passMarks": 16,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "いったら (Ittara)",
+      "tq_2": "さむかったら (Samukattara)",
+      "tq_3": "あめ じゃなかったら (Ame ja nakattara)",
+      "tq_4": "みぎ へ まがると (Migi e magaru to)",
+      "tq_5": "दोनों सही हैं, लेकिन मशीनों के लिए 'おすと' (osu to) ज़्यादा प्राकृतिक है。",
+      "tq_6": "नहीं, ~to के साथ आमंत्रण/इच्छा का उपयोग नहीं हो सकता。",
+      "tq_7": "あったら (Attara - ~tara form)"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने जापानी कंडीशनल फॉर्म्स (~tara और ~to) के बीच का अंतर पूरी तरह से समझ लिया है। यह एक बहुत ही जटिल विषय है!",
+    "onFail": "नियम याद रखें: 'अगर मैं करूँगा/चाहता हूँ' (आमंत्रण/इच्छा) के लिए हमेशा '~tara' लगाएँ। 'अगर ऐसा करने पर पक्का ऐसा होता है' (मशीनें/नियम) के लिए '~to' लगाएँ।",
+    "onPartial": "अच्छा प्रयास है! 'Samukattara' (i-adjective) और 'Hima dattara' (Na-adjective) के बीच के अंतर को एक बार फिर देख लें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "いったら。さむかったら。あめ じゃなかったら。みぎ へ まがると。ボタン を おすと、きっぷ が でます。あったら。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "tara",
+    "to",
+    "conditionals",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर वाक्य के अंत में 'tai' (चाहता हूँ) या 'mashou' (चलें) है, तो 'to' का उपयोग कभी न करें। वहाँ हमेशा 'tara' आएगा।",
+  "commonMistakes": [
+    "i-adjectives के साथ 'dattara' लगाना (जैसे Samui dattara - यह गलत है, Samukattara सही है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B2_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

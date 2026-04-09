@@ -1,0 +1,190 @@
+{
+  "activityId": "ja_hi_M3B1_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "बातचीत: क्या होगा अगर...? (What if...?)",
+  "learningGoal": "'~tara' का उपयोग करके शर्तें रखना और '~to' का उपयोग करके दिशा-निर्देश देना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B1_vocabulary_6",
+    "ja_hi_M3B1_listening_5"
+  ],
+  "instructions": "इस रोलप्ले में, आपका दोस्त आपसे वीकेंड की योजना के बारे में पूछ रहा है। आपको मौसम के आधार पर शर्तें (If it rains, if it doesn't rain) लगानी हैं। फिर दोस्त आपसे एक बैंक का रास्ता पूछेगा, जिसे आपको 'to-form' (निश्चित परिणाम) का उपयोग करके बताना है।",
+  "speakingPrompt": "दोस्त के सवालों का जवाब देते हुए '~tara' और '~to' का सही उपयोग करें।",
+  "scenario": "दो दोस्तों के बीच वीकेंड प्लान्स और रास्ता पूछने की बातचीत।",
+  "role": "आप (Student)",
+  "conversationPartner": "दोस्त (Tomodachi)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "दोस्त पूछता है: 'क्या हम कल पिकनिक पर चलें?' (Ashita pikunikku ni ikimashou ka?)। उसे शर्त दें: 'अगर बारिश नहीं हुई, तो चलते हैं!' (Ame ja nakattara, ikimashou!)",
+      "expectedSpeakingPoints": [
+        "Ame",
+        "ja nakattara",
+        "ikimashou"
+      ],
+      "sampleResponse": {
+        "targetText": "あめ じゃなかったら、いきましょう！",
+        "transliteration": "Ame ja nakattara, ikimashou!",
+        "baseTranslation": "अगर बारिश नहीं हुई, तो चलते हैं!"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "दोस्त पूछता है: 'अगर बारिश हुई, तो क्या करेंगे?' (Ame ga futtara, dou shimasu ka?)। उसे बताएं: 'अगर बारिश हुई, तो मैं घर पर रहूँगा।' (Ame ga futtara, uchi ni imasu)",
+      "expectedSpeakingPoints": [
+        "Ame ga",
+        "futtara",
+        "uchi ni imasu"
+      ],
+      "sampleResponse": {
+        "targetText": "あめ が ふったら、うち に います。",
+        "transliteration": "Ame ga futtara, uchi ni imasu.",
+        "baseTranslation": "अगर बारिश हुई, तो घर पर रहूँगा।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "दोस्त कहता है: 'समझ गया।' (Wakarimashita)। फिर वह पूछता है: 'बैंक कहाँ है?' (Ginkou wa doko desu ka?)। उसे निर्देश दें: 'अगर सीधे जाओगे, तो वहाँ बैंक है।' (Massugu iku to, ginkou ga arimasu)",
+      "expectedSpeakingPoints": [
+        "Massugu",
+        "iku to",
+        "ginkou ga arimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "まっすぐ いくと、ぎんこう が あります。",
+        "transliteration": "Massugu iku to, ginkou ga arimasu.",
+        "baseTranslation": "अगर सीधे जाओगे, तो वहाँ बैंक है। (यहाँ ~to का उपयोग करें)"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "दोस्त कहता है: 'धन्यवाद! मैं अभी जाऊँगा।' (Arigatou! Ima ikimasu)। उसे बताएं: 'अगर तुम्हारे पास समय हुआ, तो मुझे कॉल करना!' (Jikan ga attara, denwa shite kudasai!)",
+      "expectedSpeakingPoints": [
+        "Jikan ga",
+        "attara",
+        "denwa shite kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "じかん が あったら、でんわ して ください！",
+        "transliteration": "Jikan ga attara, denwa shite kudasai!",
+        "baseTranslation": "अगर समय हुआ, तो मुझे कॉल करना! (~tara + request)"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "ともだち と しゅうまつ の よてい について はなします。",
+    "transliteration": "Tomodachi to shuumatsu no yotei ni tsuite hanashimasu.",
+    "baseTranslation": "दोस्त के साथ वीकेंड की योजनाओं के बारे में बात कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "あめ じゃなかったら、いきましょう！",
+      "transliteration": "Ame ja nakattara, ikimashou!",
+      "baseTranslation": "अगर बारिश नहीं हुई, तो चलते हैं!"
+    },
+    {
+      "targetText": "あめ が ふったら、うち に います。",
+      "transliteration": "Ame ga futtara, uchi ni imasu.",
+      "baseTranslation": "अगर बारिश हुई, तो घर पर रहूँगा।"
+    },
+    {
+      "targetText": "まっすぐ いくと、ぎんこう が あります。",
+      "transliteration": "Massugu iku to, ginkou ga arimasu.",
+      "baseTranslation": "अगर सीधे जाओगे, तो वहाँ बैंक है।"
+    },
+    {
+      "targetText": "じかん が あったら、でんわ して ください！",
+      "transliteration": "Jikan ga attara, denwa shite kudasai!",
+      "baseTranslation": "अगर समय हुआ, तो मुझे कॉल करना!"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 40,
+    "grammarWeight": 25,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "nakattara",
+      "futtara",
+      "iku to",
+      "attara"
+    ],
+    "requiredKeywords": [
+      "じゃなかったら",
+      "ふったら",
+      "いくと",
+      "あったら"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Ame ga furanakattara' instead of 'Ame ja nakattara' is also perfectly acceptable and means the same thing.",
+      "For directions, 'Massugu ittara' is okay in casual speech, but 'iku to' is grammatically better for directions."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Proper use of condition types",
+          "weight": 80,
+          "description": "Must use '~tara' for the plans/invitations/requests, and '~to' for the direction."
+        },
+        {
+          "name": "Negative conditional form",
+          "weight": 20,
+          "description": "Must correctly formulate 'ja nakattara' or 'furanakattara'."
+        }
+      ]
+    },
+    "sampleAnswer": "Ame ja nakattara, ikimashou! Ame ga futtara, uchi ni imasu. Massugu iku to, ginkou ga arimasu. Jikan ga attara, denwa shite kudasai!",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने शर्तें (tara) और दिशा-निर्देश (to) दोनों को बहुत ही प्राकृतिक तरीके से बोला है।",
+    "onFail": "ध्यान दें: 'Ikimashou' (चलें) और 'Kudasai' (कृपा करें) जैसे वाक्यों में हमेशा '~tara' (futtara, attara) का उपयोग करें, '~to' का नहीं।",
+    "onPartial": "अच्छा प्रयास! 'Nakattara' जैसे लंबे शब्दों को बिना अटके एक फ्लो में बोलने का अभ्यास करें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "あめ じゃなかったら、いきましょう！あめ が ふったら、うち に います。まっすぐ いくと、ぎんこう が あります。じかん が あったら、でんわ して ください！",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "tara",
+    "to",
+    "conditionals",
+    "weather",
+    "directions"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर आपको 'Ame ja nakattara' बोलना मुश्किल लग रहा है, तो आप 'Ame ga furanakattara' (बारिश नहीं गिरी तो) भी बोल सकते हैं। दोनों का मतलब एक ही है!",
+  "commonMistakes": [
+    "'Massugu iku to' की जगह 'Massugu itte' बोल देना (यह 'सीधे जाकर' है, शर्त नहीं)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B1_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

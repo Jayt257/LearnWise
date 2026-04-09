@@ -1,0 +1,211 @@
+{
+  "activityId": "ja_hi_M3B1_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "लेखन: शर्तें और योजनाएँ (Writing Conditions)",
+  "learningGoal": "'अगर' (~tara) और 'पक्का परिणाम' (~to) का उपयोग करके शर्तें और दिशा-निर्देश लिखना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M3B1_lesson_1"
+  ],
+  "instructions": "इस अभ्यास में, आप 'अगर ऐसा हुआ' वाली शर्तें (Conditions) और मशीनों/रास्तों के निर्देश लिख रहे हैं। '~tara' (शर्त) और '~to' (निश्चित परिणाम) के सही उपयोग पर ध्यान दें।",
+  "writingPrompt": "इन वाक्यों का अनुवाद करें:\nभाग 1: 'अगर कल बारिश हुई, तो मैं स्कूल नहीं जाऊँगा।' (बारिश होना = Ame ga furimasu -> futtara)\nभाग 2: 'अगर समय हुआ, तो फिल्म देखने चलते हैं!' (समय होना = Jikan ga arimasu -> attara)\nभाग 3: 'अगर यह बटन दबाते हैं, तो टिकट बाहर आता है।' (दबाना = Osu -> osu to / बाहर आना = Demasu)\nभाग 4: 'अगर सीधे जाते हैं, तो बैंक है।' (जाना = Iku -> iku to)",
+  "promptGoal": "~tara (शर्तें और आमंत्रण) और ~to (निर्देश और प्राकृतिक परिणाम) का सही उपयोग करना।",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "あした",
+      "transliteration": "ashita",
+      "baseTranslation": "कल (आने वाला)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "あめ が ふったら",
+      "transliteration": "ame ga futtara",
+      "baseTranslation": "अगर बारिश हुई (Tara-form)",
+      "partOfSpeech": "grammar phrase"
+    },
+    {
+      "targetText": "がっこう へ",
+      "transliteration": "gakkou e",
+      "baseTranslation": "स्कूल की ओर",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "いきません",
+      "transliteration": "ikimasen",
+      "baseTranslation": "नहीं जाऊँगा",
+      "partOfSpeech": "verb (negative)"
+    },
+    {
+      "targetText": "じかん が あったら",
+      "transliteration": "jikan ga attara",
+      "baseTranslation": "अगर समय हुआ (Tara-form)",
+      "partOfSpeech": "grammar phrase"
+    },
+    {
+      "targetText": "えいが を",
+      "transliteration": "eiga o",
+      "baseTranslation": "फिल्म को",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "み に いきましょう",
+      "transliteration": "mi ni ikimashou",
+      "baseTranslation": "देखने चलें (आमंत्रण)",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "この ボタン を",
+      "transliteration": "kono botan o",
+      "baseTranslation": "इस बटन को",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "おすと",
+      "transliteration": "osu to",
+      "baseTranslation": "दबाने पर (To-form)",
+      "partOfSpeech": "grammar phrase"
+    },
+    {
+      "targetText": "きっぷ が",
+      "transliteration": "kippu ga",
+      "baseTranslation": "टिकट",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "でます",
+      "transliteration": "demasu",
+      "baseTranslation": "बाहर आता है",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "まっすぐ",
+      "transliteration": "massugu",
+      "baseTranslation": "सीधे (Straight)",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "いくと",
+      "transliteration": "iku to",
+      "baseTranslation": "जाने पर (To-form)",
+      "partOfSpeech": "grammar phrase"
+    },
+    {
+      "targetText": "ぎんこう が",
+      "transliteration": "ginkou ga",
+      "baseTranslation": "बैंक",
+      "partOfSpeech": "noun + particle"
+    },
+    {
+      "targetText": "あります",
+      "transliteration": "arimasu",
+      "baseTranslation": "है (निर्जीव चीज़ों के लिए)",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "शर्त (अगर ऐसा हुआ) और आमंत्रण (चलें) के लिए हमेशा '~tara' का उपयोग करें। (Futtara, Attara)",
+    "मशीनों (बटन दबाना) और दिशा-निर्देशों (सीधे जाना) के लिए हमेशा 'Dictionary form + to' का उपयोग करें। (Osu to, Iku to)",
+    "Furimasu का Ta-form 'Futta' है। Arimasu का 'Atta' है।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "あした あめ が ふったら、がっこう へ いきません。じかん が あったら、えいが を み に いきましょう！この ボタン を おすと、きっぷ が でます。まっすぐ いくと、ぎんこう が あります。",
+      "transliteration": "Ashita ame ga futtara, gakkou e ikimasen. Jikan ga attara, eiga o mi ni ikimashou! Kono botan o osu to, kippu ga demasu. Massugu iku to, ginkou ga arimasu.",
+      "baseTranslation": "अगर कल बारिश हुई, तो मैं स्कूल नहीं जाऊँगा। अगर समय हुआ, तो फिल्म देखने चलते हैं! अगर यह बटन दबाते हैं, तो टिकट बाहर आता है। अगर सीधे जाते हैं, तो बैंक है।",
+      "qualityLevel": "excellent",
+      "annotation": "~tara और ~to का बिल्कुल सटीक और नियमानुसार उपयोग।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Tara-form for conditions",
+      "weight": 35,
+      "description": "क्या 'futtara' और 'attara' का सही उपयोग हुआ है?"
+    },
+    {
+      "criterion": "To-form for facts",
+      "weight": 35,
+      "description": "क्या मशीनों और रास्तों के लिए 'osu to' और 'iku to' का उपयोग हुआ है?"
+    },
+    {
+      "criterion": "Vocabulary accuracy",
+      "weight": 30,
+      "description": "क्या gakkou, eiga, botan, ginkou जैसे शब्दों का सही उपयोग हुआ है?"
+    }
+  ],
+  "minimumWordCount": 20,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "あした あめ が ふったら、がっこう へ いきません。じかん が あったら、えいが を み に いきましょう！この ボタン を おすと、きっぷ が でます。まっすぐ いくと、ぎんこう が あります。",
+    "acceptableAlternates": [
+      "あした あめ が ふったら がっこう に いきません。じかん が あったら えいが を みに いきましょう。この ボタン を おすと きっぷ が でます。まっすぐ いくと ぎんこう が あります。"
+    ],
+    "requiredKeywords": [
+      "ふったら",
+      "あったら",
+      "おすと",
+      "いくと"
+    ],
+    "grammarBaseline": "Strict distinction between ~tara (for intention/invitation) and ~to (for machines/directions). Using 'furu to' instead of 'futtara' here is incorrect because the second clause contains intention/invitation.",
+    "lengthExpectation": "4 short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Correct Conditionals",
+          "weight": 100,
+          "description": "Must use 'tara' for the first two (intention/invitation) and 'to' for the last two (fact/direction)."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने '~tara' और '~to' के बीच के बहुत ही सूक्ष्म अंतर को सही ढंग से लागू किया है। यह बहुत ही एडवांस जापानी है!",
+    "onFail": "ध्यान दें: 'ikimashou' (चलते हैं) जैसे आमंत्रण वाले वाक्यों में '~to' का इस्तेमाल कभी नहीं होता। वहाँ हमेशा '~tara' (attara) का इस्तेमाल करें।",
+    "onPartial": "अच्छा प्रयास! मशीनों और रास्तों के लिए हमेशा 'Dictionary form + to' (Osu to, Iku to) का उपयोग करें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "tara",
+    "to",
+    "conditionals",
+    "if",
+    "directions"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "'Futtara' (अगर बारिश हुई) बनाने के लिए 'Furimasu' का Ta-form (Futta) लें और 'ra' जोड़ें।",
+  "commonMistakes": [
+    "'Jikan ga aru to, ikimashou' लिखना (यह गलत है, 'aru to' की जगह 'attara' होगा)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

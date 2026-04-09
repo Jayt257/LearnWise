@@ -1,0 +1,48 @@
+{
+  "id": 8,
+  "pairId": "ja-hi",
+  "type": "speaking",
+  "title": "Speaking Scenarios",
+  "xp": 35,
+  "blocks": [
+    {
+      "id": "bs_0",
+      "type": "speaking",
+      "title": "Scenario 1",
+      "scenario": "こんにちは",
+      "hint": "Speak this",
+      "expectedAnswer": "नमस्ते",
+      "prompt": "こんにちは",
+      "hints": [
+        "Speak this",
+        "नमस्ते"
+      ]
+    },
+    {
+      "id": "bs_1",
+      "type": "speaking",
+      "title": "Scenario 2",
+      "scenario": "おはようございます",
+      "hint": "Speak this",
+      "expectedAnswer": "शुभ प्रभात",
+      "prompt": "おはようございます",
+      "hints": [
+        "Speak this",
+        "शुभ प्रभात"
+      ]
+    },
+    {
+      "id": "bs_2",
+      "type": "speaking",
+      "title": "Scenario 3",
+      "scenario": "こんばんは",
+      "hint": "Speak this",
+      "expectedAnswer": "शुभ संध्या",
+      "prompt": "こんばんは",
+      "hints": [
+        "Speak this",
+        "शुभ संध्या"
+      ]
+    }
+  ]
+}

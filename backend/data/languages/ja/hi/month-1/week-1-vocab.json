@@ -1,0 +1,101 @@
+{
+  "id": 1,
+  "pairId": "ja-hi",
+  "type": "lesson",
+  "title": "Lesson 1: Introduction to Hindi",
+  "xp": 30,
+  "tags": [
+    "grammar",
+    "basics"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Welcome to Hindi",
+      "body": "This is your first step into Hindi. In this highly intensive course, we will heavily practice the core characters and greetings."
+    },
+    {
+      "id": "b2",
+      "type": "grammar_rule",
+      "title": "Key Structure & Greetings",
+      "explanation": "Pay close attention to pronunciation notes. नमस्ते is widely used.",
+      "examples": [
+        {
+          "sentence": "नमस्ते",
+          "translation": "こんにちは"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "dialogue",
+      "title": "First Conversation",
+      "context": "Meeting at the park",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "नमस्ते",
+          "translation": "こんにちは"
+        },
+        {
+          "speaker": "B",
+          "text": "शुभ प्रभात",
+          "translation": "おはようございます"
+        },
+        {
+          "speaker": "A",
+          "text": "तुम / आप?",
+          "translation": "あなた?"
+        },
+        {
+          "speaker": "B",
+          "text": "हाँ",
+          "translation": "はい"
+        }
+      ]
+    },
+    {
+      "id": "bm",
+      "type": "matching",
+      "title": "Match the pairs",
+      "instruction": "Match the Hindi word to its Japanese meaning.",
+      "leftItems": [
+        "नमस्ते",
+        "शुभ प्रभात",
+        "शुभ संध्या",
+        "अलविदा",
+        "धन्यवाद"
+      ],
+      "rightItems": [
+        "こんにちは",
+        "おはようございます",
+        "こんばんは",
+        "さようなら",
+        "ありがとう"
+      ],
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    }
+  ]
+}

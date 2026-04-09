@@ -1,0 +1,228 @@
+{
+  "activityId": "ja_hi_M3B4_test_8",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "ब्लॉक मूल्यांकन: Keigo (सम्मानजनक और विनम्र भाषा)",
+  "learningGoal": "महीने 3 के चौथे ब्लॉक में सीखे गए Sonkeigo (दूसरों के लिए सम्मान) और Kenjougo (अपने लिए विनम्रता) का मूल्यांकन करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 75,
+  "prerequisites": [
+    "ja_hi_M3B4_lesson_1",
+    "ja_hi_M3B4_pronunciation_2",
+    "ja_hi_M3B4_reading_3",
+    "ja_hi_M3B4_writing_4",
+    "ja_hi_M3B4_listening_5",
+    "ja_hi_M3B4_vocabulary_6",
+    "ja_hi_M3B4_speaking_7"
+  ],
+  "instructions": "यह ब्लॉक 4 का मूल्यांकन है। इस टेस्ट में आपको यह तय करना है कि वाक्य में 'बॉस' के लिए कौन सा शब्द इस्तेमाल होगा (Sonkeigo) और 'आपके' लिए कौन सा शब्द इस्तेमाल होगा (Kenjougo)। Uchi-Soto (अंदर-बाहर) नियम को न भूलें!",
+  "testTitle": "ब्लॉक 4 - Keigo (बिज़नेस जापानी) टेस्ट",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_sonkeigo",
+      "sectionTitle": "Sonkeigo (आदरणीय भाषा - दूसरों के लिए)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "आप अपने CEO से पूछना चाहते हैं: 'क्या आप कल टोक्यो जाएँगे?' सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "しゃちょう は あした とうきょう へ いらっしゃいます か。",
+            "しゃちょう は あした とうきょう へ まいります か。",
+            "しゃちょう は あした とうきょう へ おります か。"
+          ],
+          "questionHints": {
+            "targetText": "しゃちょう は あした とうきょう へ いらっしゃいます か。",
+            "transliteration": "Shachou wa ashita Toukyou e irasshaimasu ka.",
+            "baseTranslation": "Use Sonkeigo (irassharu) for the boss's actions."
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "ग्राहक (Okyakusan) खाना खा रहे हैं। आप क्या कहेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "おきゃくさま は めしあがっています (Okyakusama wa meshiagatte imasu)",
+            "おきゃくさま は いただいています (Okyakusama wa itadaite imasu)",
+            "おきゃくさま は たべています (Okyakusama wa tabete imasu)"
+          ],
+          "questionHints": {
+            "targetText": "おきゃくさま は めしあがっています (Okyakusama wa meshiagatte imasu)",
+            "transliteration": "Okyakusama wa meshiagatte imasu",
+            "baseTranslation": "Meshiagaru is the Sonkeigo for eating/drinking."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_kenjougo",
+      "sectionTitle": "Kenjougo (विनम्र भाषा - अपने लिए)",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "आप ग्राहक को कह रहे हैं: 'मैं 3 बजे आऊँगा।' सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたし は ３じ に まいります (Watashi wa san-ji ni mairimasu)",
+            "わたし は ３じ に いらっしゃいます (Watashi wa san-ji ni irasshaimasu)",
+            "わたし は ３じ に おっしゃいます (Watashi wa san-ji ni osshaimasu)"
+          ],
+          "questionHints": {
+            "targetText": "わたし は ３じ に まいります (Watashi wa san-ji ni mairimasu)",
+            "transliteration": "Watashi wa san-ji ni mairimasu",
+            "baseTranslation": "Use Kenjougo (mairimasu) for your own actions."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "आप अपना नाम बता रहे हैं: 'मैं केंजी हूँ / मुझे केंजी कहते हैं।' सही वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "ケンジ と もうします (Kenji to moushimasu)",
+            "ケンジ と おっしゃいます (Kenji to osshaimasu)",
+            "ケンジ と めしあがります (Kenji to meshiagarimasu)"
+          ],
+          "questionHints": {
+            "targetText": "ケンジ と もうします (Kenji to moushimasu)",
+            "transliteration": "Kenji to moushimasu",
+            "baseTranslation": "Moushimasu is the humble form of Iu (to say), used for naming oneself."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_uchi_soto",
+      "sectionTitle": "Uchi-Soto नियम (Inside-Outside Rule)",
+      "questions": [
+        {
+          "questionId": "tq_5",
+          "questionText": "एक बाहरी ग्राहक (Soto) का फोन आता है। वह पूछता है: 'क्या तानाका-सान (आपके CEO) हैं?'। आप कैसे जवाब देंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "タナカ は おりません (Tanaka wa orimasen - विनम्र/Kenjougo)",
+            "タナカさん は いらっしゃいません (Tanaka-san wa irasshaimasen - सम्मानजनक/Sonkeigo)",
+            "しゃちょう は いません (Shachou wa imasen)"
+          ],
+          "questionHints": {
+            "targetText": "タナカ は おりません (Tanaka wa orimasen - विनम्र/Kenjougo)",
+            "transliteration": "Tanaka wa orimasen",
+            "baseTranslation": "Use humble language for your own boss when talking to an outsider, and drop '-san'."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        },
+        {
+          "questionId": "tq_6",
+          "questionText": "ग्राहक के सामने अपने बॉस के कार्यों के लिए आप किस रूप का उपयोग करेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Kenjougo (विनम्र भाषा - क्योंकि पूरी कंपनी ग्राहक के सामने विनम्र है)",
+            "Sonkeigo (सम्मानजनक भाषा - क्योंकि वह आपका बॉस है)",
+            "Casual (साधारण भाषा)"
+          ],
+          "questionHints": {
+            "targetText": "Kenjougo (विनम्र भाषा - क्योंकि पूरी कंपनी ग्राहक के सामने विनम्र है)",
+            "transliteration": "Kenjougo",
+            "baseTranslation": "The entire in-group is lowered relative to the out-group."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        },
+        {
+          "questionId": "tq_7",
+          "questionText": "ग्रामर चेक: 'O + [Verb Stem] + shimasu' (जैसे O-mochi shimasu) क्या है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Kenjougo (विनम्र - मैं करूँगा)",
+            "Sonkeigo (आदरणीय - आप करेंगे)",
+            "गलत व्याकरण"
+          ],
+          "questionHints": {
+            "targetText": "Kenjougo (विनम्र - मैं करूँगा)",
+            "transliteration": "Kenjougo",
+            "baseTranslation": "O...shimasu is the regular pattern for humble actions."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 20,
+  "passMarks": 16,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "しゃちょう は あした とうきょう へ いらっしゃいます か。",
+      "tq_2": "おきゃくさま は めしあがっています (Okyakusama wa meshiagatte imasu)",
+      "tq_3": "わたし は ３じ に まいります (Watashi wa san-ji ni mairimasu)",
+      "tq_4": "ケンジ と もうします (Kenji to moushimasu)",
+      "tq_5": "タナカ は おりません (Tanaka wa orimasen - विनम्र/Kenjougo)",
+      "tq_6": "Kenjougo (विनम्र भाषा - क्योंकि पूरी कंपनी ग्राहक के सामने विनम्र है)",
+      "tq_7": "Kenjougo (विनम्र - मैं करूँगा)"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "मास्टर! आपने जापानी बिज़नेस के सबसे कठिन नियम (Keigo और Uchi-Soto) को पास कर लिया है। अब आप जापान में काम करने के लिए पूरी तरह तैयार हैं!",
+    "onFail": "नियम याद रखें: 'Irasshaimasu' केवल बॉस या ग्राहक के लिए इस्तेमाल होता है। अपने लिए 'Mairimasu' या 'Orimasu' का इस्तेमाल करें।",
+    "onPartial": "बहुत अच्छा प्रयास! ग्राहक से बात करते समय अपने बॉस के नाम से 'सान' (San) हटाना न भूलें (Tanaka-san नहीं, सिर्फ Tanaka)।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "いらっしゃいます か。めしあがっています。まいります。もうします。おりません。いたします。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "keigo",
+    "sonkeigo",
+    "kenjougo",
+    "business"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर वाक्य में 'Watashi' (मैं) है, तो जवाब हमेशा 'Kenjougo' (Mairimasu, Moushimasu, Shimasu) होगा!",
+  "commonMistakes": [
+    "Uchi-Soto नियम को भूल जाना और ग्राहक के सामने अपने बॉस को 'Irasshaimasu' कहना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B5_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_hi_M3B6_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "उच्चारण: लंबे और जटिल शब्द (Long & Complex Verbs)",
+  "learningGoal": "जापानी भाषा के सबसे लंबे क्रिया-रूपों (जैसे Hatarakaseraretara) का बिना अटके सही उच्चारण करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B6_lesson_1"
+  ],
+  "instructions": "जब आप N4 स्तर के व्याकरण को जोड़ते हैं, तो शब्द बहुत लंबे हो जाते हैं (जैसे Causative + Passive + Conditional)। इन्हें तेज़ी से बोलने की कोशिश न करें। प्रत्येक हिस्से (Syllable) को स्पष्ट रूप से बोलें और लय (Rhythm) बनाए रखें।",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "はたらかせられたら",
+      "transliteration": "Hatarakaseraretara",
+      "baseTranslation": "अगर मुझसे काम करवाया गया (Causative-Passive + Conditional)",
+      "phoneticHint": "हा-ता-रा-का-से-रा-रे-ता-रा",
+      "syllableSplit": "ha-ta-ra-ka-se-ra-re-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "बीच में अटक जाना या सिलेबल खा जाना (Hatarakaretara)।"
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "ぬすまれたら",
+      "transliteration": "Nusumaretara",
+      "baseTranslation": "अगर चुरा लिया गया (Passive + Conditional)",
+      "phoneticHint": "नु-सु-मा-रे-ता-रा",
+      "syllableSplit": "nu-su-ma-re-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Nusumitara (अगर मैंने चुराया) बोलना।"
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "いらっしゃる んです",
+      "transliteration": "Irassharu n desu",
+      "baseTranslation": "वे आ रहे हैं (Sonkeigo + Explanation)",
+      "phoneticHint": "इ-रा-श्शा-रु-न-दे-सु ('n' पर ज़ोर)",
+      "syllableSplit": "i-ra-sh-sha-ru-n-de-su",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Irasshaimasu n desu (डबल 'desu/masu') बोलना।"
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "およみ に なる んです",
+      "transliteration": "O-yomi ni naru n desu",
+      "baseTranslation": "वे पढ़ेंगे (Sonkeigo + Explanation)",
+      "phoneticHint": "ओ-यो-मी-नी-ना-रु-न-दे-सु",
+      "syllableSplit": "o-yo-mi-ni-na-ru-n-de-su",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "O-yomi ni narimasu n desu बोलना।"
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "こわれて しまったんです",
+      "transliteration": "Kowarete shimatta n desu",
+      "baseTranslation": "टूट गया है (Intransitive + Regret + Explanation)",
+      "phoneticHint": "को-वा-रे-ते-शि-मा-त्ता-न-दे-सु (डबल 't')",
+      "syllableSplit": "ko-wa-re-te-shi-ma-t-ta-n-de-su",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Kowashite (मैंने तोड़ा) बोलना।"
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "なくして しまったんです",
+      "transliteration": "Nakushite shimatta n desu",
+      "baseTranslation": "मुझसे खो गया है (Transitive + Regret + Explanation)",
+      "phoneticHint": "ना-कु-शि-ते-शि-मा-त्ता-न-दे-सु",
+      "syllableSplit": "na-ku-shi-te-shi-ma-t-ta-n-de-su",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "'shimatta' में 'tt' (छोटा tsu) को न बोलना।"
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "おみせ します",
+      "transliteration": "O-mise shimasu",
+      "baseTranslation": "मैं दिखाऊँगा (Kenjougo)",
+      "phoneticHint": "ओ-मी-से-शि-मा-सु",
+      "syllableSplit": "o-mi-se-shi-ma-su",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "O-misemasu बोलना।"
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "もうしわけ ございません",
+      "transliteration": "Moushiwake gozaimasen",
+      "baseTranslation": "मैं बहुत माफ़ी चाहता हूँ",
+      "phoneticHint": "मो-उ-शि-वा-के-गो-ज़ा-इ-मा-से-न",
+      "syllableSplit": "mo-u-shi-wa-ke-go-za-i-ma-se-n",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Moshiwake बोलना (बिना 'u' के)।"
+    },
+    {
+      "itemId": "p_9",
+      "targetText": "いらっしゃらなかったら",
+      "transliteration": "Irassharanakattara",
+      "baseTranslation": "अगर वे नहीं आए (Sonkeigo + Negative + Conditional)",
+      "phoneticHint": "इ-रा-श्शा-रा-ना-का-त्ता-रा",
+      "syllableSplit": "i-ra-sh-sha-ra-na-ka-t-ta-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Irasshaimasenattara (गलत ग्रामर) बोलना।"
+    },
+    {
+      "itemId": "p_10",
+      "targetText": "たべさせられない",
+      "transliteration": "Tabesaserarenai",
+      "baseTranslation": "मुझसे ज़बरदस्ती नहीं खिलवाया जा सकता (Causative-Passive + Negative)",
+      "phoneticHint": "ता-बे-सा-से-रा-रे-ना-इ",
+      "syllableSplit": "ta-be-sa-se-ra-re-na-i",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "बीच में अटकना।"
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear enunciation of highly complex, multi-layered verb conjugations.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "मास्टर! आप जापानी भाषा के सबसे मुश्किल और लंबे शब्दों को भी बिना अटके बोल रहे हैं।",
+    "onFail": "ध्यान दें: शब्द बहुत लंबे हैं, इसलिए इन्हें हिस्सों में तोड़ें। जैसे 'Hataraka - serare - tara' (काम करवाया - गया - अगर)।",
+    "onPartial": "बहुत अच्छा प्रयास! 'Irassharanakattara' (अगर वे नहीं आए) जैसे शब्द जापानी लोगों के लिए भी जीभ घुमाने वाले (Tongue twisters) होते हैं!"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 600,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "complex verbs",
+    "causative-passive",
+    "keigo",
+    "conditional"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "जब 'n desu' (んです) का उपयोग करते हैं, तो उससे पहले वाला Verb हमेशा 'Plain Form' में होना चाहिए (जैसे Irasshaimasu -> Irassharu n desu)।",
+  "commonMistakes": [
+    "लंबे शब्दों में सांस फूल जाना और बीच का हिस्सा खा जाना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B6_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

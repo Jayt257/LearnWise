@@ -1,0 +1,321 @@
+{
+  "id": 32,
+  "type": "test",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "Mid-Month Test — Part 2 (Weeks 3-4)",
+  "description": "20 सवाल: numbers, time, questions, daily vocabulary का comprehensive review।",
+  "duration": "15 मिनट",
+  "xp": 75,
+  "tags": [
+    "midtest",
+    "comprehensive"
+  ],
+  "passingScore": 70,
+  "isMidTest": true,
+  "blocks": [
+    {
+      "id": "m1",
+      "type": "quiz",
+      "question": "40 को अंग्रेज़ी में?",
+      "options": [
+        "fourteen",
+        "forty",
+        "four",
+        "forty-four"
+      ],
+      "correct": 1,
+      "explanation": "40 = forty। 14 = fourteen। -ty = दहाई, -teen = दस के बाद।"
+    },
+    {
+      "id": "m2",
+      "type": "quiz",
+      "question": "'Yesterday' का सही opposite?",
+      "options": [
+        "Today",
+        "Last week",
+        "Tomorrow",
+        "Next year"
+      ],
+      "correct": 2,
+      "explanation": "Yesterday (बीता कल) का opposite Tomorrow (आने वाला कल)। Today = आज।"
+    },
+    {
+      "id": "m3",
+      "type": "quiz",
+      "question": "'How many children do you have?' में 'how many' क्यों?",
+      "options": [
+        "Children = uncountable",
+        "Random choice",
+        "Children = countable",
+        "Both are correct"
+      ],
+      "correct": 2,
+      "explanation": "Children गिने जा सकते हैं (1, 2, 3 children) → countable → how many। Water, money → uncountable → how much।"
+    },
+    {
+      "id": "m4",
+      "type": "quiz",
+      "question": "'It is quarter to four' = ?",
+      "options": [
+        "4:15",
+        "3:45",
+        "4:45",
+        "3:15"
+      ],
+      "correct": 1,
+      "explanation": "Quarter to four = 4 बजने में 15 मिनट = 3:45। Quarter past four = 4:15।"
+    },
+    {
+      "id": "m5",
+      "type": "quiz",
+      "question": "'Always' का use किसके लिए?",
+      "options": [
+        "कभी-कभी (sometimes)",
+        "100% cases में",
+        "50% cases में",
+        "कभी नहीं"
+      ],
+      "correct": 1,
+      "explanation": "Always = 100% / हमेशा। Never = 0% / कभी नहीं। Sometimes = कभी-कभी। Often = अक्सर (70-80%)।"
+    },
+    {
+      "id": "m6",
+      "type": "quiz",
+      "question": "'Who are you?' का हिन्दी अर्थ?",
+      "options": [
+        "आप कहाँ हैं?",
+        "आप कौन हैं?",
+        "आप कैसे हैं?",
+        "आप क्यों हैं?"
+      ],
+      "correct": 1,
+      "explanation": "Who = कौन। Where = कहाँ। How = कैसे। Why = क्यों।"
+    },
+    {
+      "id": "m7",
+      "type": "quiz",
+      "question": "'PM' का मतलब क्या है?",
+      "options": [
+        "सुबह",
+        "रात",
+        "दोपहर के बाद",
+        "कभी भी"
+      ],
+      "correct": 2,
+      "explanation": "PM = Post Meridiem = दोपहर 12 के बाद (12 PM to 11:59 PM)। AM = सुबह (12 AM to 11:59 AM)।"
+    },
+    {
+      "id": "m8",
+      "type": "quiz",
+      "question": "'Because' और 'So' में क्या अंतर है?",
+      "options": [
+        "Same meaning",
+        "Because=कारण देता है, So=result देता है",
+        "So=कारण, Because=result",
+        "दोनों interchangeable"
+      ],
+      "correct": 1,
+      "explanation": "Because = कारण: 'I am tired BECAUSE I worked hard.' So = result: 'I worked hard, SO I am tired.'"
+    },
+    {
+      "id": "m9",
+      "type": "quiz",
+      "question": "'Dozen' का मतलब?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "20"
+      ],
+      "correct": 2,
+      "explanation": "A dozen = 12। A baker's dozen = 13। Common expression: 'A dozen eggs' = 12 eggs।"
+    },
+    {
+      "id": "m10",
+      "type": "quiz",
+      "question": "'Fish and chips' किस देश का national dish है?",
+      "options": [
+        "America",
+        "Australia",
+        "Ireland",
+        "England/UK"
+      ],
+      "correct": 3,
+      "explanation": "Fish and chips England/UK का iconic national dish है। Deep-fried fish + fried potatoes। पहले newspaper में serve होता था!"
+    },
+    {
+      "id": "m11",
+      "type": "quiz",
+      "question": "'I wake up at 6 AM' में 'AM' = ?",
+      "options": [
+        "शाम",
+        "सुबह",
+        "दोपहर",
+        "रात"
+      ],
+      "correct": 1,
+      "explanation": "AM = सुबह (रात 12 से दोपहर 12 तक)। 6 AM = सुबह 6 बजे।"
+    },
+    {
+      "id": "m12",
+      "type": "quiz",
+      "question": "'How much does it cost?' का उत्तर?",
+      "options": [
+        "It costs three.",
+        "It costs three pounds.",
+        "It is three.",
+        "Three is cost."
+      ],
+      "correct": 1,
+      "explanation": "Cost के साथ: 'It costs £3.' या 'It is £3.' — currency clearly बताएँ।"
+    },
+    {
+      "id": "m13",
+      "type": "quiz",
+      "question": "Indian English में 'I am doing the needful' = ?",
+      "options": [
+        "यह wrong है",
+        "यह Indian English है — valid",
+        "यह Hindi है",
+        "यह formal नहीं है"
+      ],
+      "correct": 1,
+      "explanation": "'Indian English' English का valid form है। 'Doing the needful' = 'doing what is required' का Indian expression।"
+    },
+    {
+      "id": "m14",
+      "type": "quiz",
+      "question": "'See you next week!' में 'next' का मतलब?",
+      "options": [
+        "पिछला",
+        "अगला",
+        "आज",
+        "कल"
+      ],
+      "correct": 1,
+      "explanation": "Next = अगला। 'Next week' = अगले हफ्ते। Previous/Last = पिछला।"
+    },
+    {
+      "id": "m15",
+      "type": "quiz",
+      "question": "Restaurant में bill माँगने के लिए?",
+      "options": [
+        "I want money!",
+        "Can I have the bill, please?",
+        "Give bill!",
+        "The bill is ready?"
+      ],
+      "correct": 1,
+      "explanation": "Polite way: 'Can I have the bill, please?' या 'Could I get the check?' (American English में check कहते हैं।)"
+    },
+    {
+      "id": "m16",
+      "type": "quiz",
+      "question": "'Often' का frequency?",
+      "options": [
+        "0%",
+        "25-30%",
+        "70-80%",
+        "100%"
+      ],
+      "correct": 2,
+      "explanation": "Frequency adverbs: Always=100%, Usually=80-90%, Often=70-80%, Sometimes=40-60%, Rarely=10-20%, Never=0%."
+    },
+    {
+      "id": "m17",
+      "type": "quiz",
+      "question": "'Thirteen' vs 'Thirty' में stress कहाँ?",
+      "options": [
+        "दोनों पहले syllable पर",
+        "Thirteen=पहले, Thirty=दूसरे",
+        "Thirteen=दूसरे (TEEN), Thirty=पहले (THIR)",
+        "दोनों same stress"
+      ],
+      "correct": 2,
+      "explanation": "thir-TEEN (stress on TEEN) vs THIR-ty (stress on THIR)। यही -teen vs -ty का मुख्य अंतर है।"
+    },
+    {
+      "id": "m18",
+      "type": "quiz",
+      "question": "'I wake up at 6 AM every morning' — यह कौन सा tense है?",
+      "options": [
+        "Past tense",
+        "Future tense",
+        "Present Simple (routine)",
+        "Present Continuous"
+      ],
+      "correct": 2,
+      "explanation": "'I wake up every morning' = Present Simple tense — regular habits और routines के लिए।"
+    },
+    {
+      "id": "m19",
+      "type": "quiz",
+      "question": "1000 को अंग्रेज़ी में?",
+      "options": [
+        "one hundred",
+        "ten hundred",
+        "one thousand",
+        "hundred thousand"
+      ],
+      "correct": 2,
+      "explanation": "1000 = one thousand। 100 = one hundred। 10,000 = ten thousand। 100,000 = one hundred thousand।"
+    },
+    {
+      "id": "m20",
+      "type": "quiz",
+      "question": "'Good evening' कब कहते हैं?",
+      "options": [
+        "सुबह",
+        "दोपहर",
+        "शाम (6 PM के बाद)",
+        "रात को सोते समय"
+      ],
+      "correct": 2,
+      "explanation": "Good morning = सुबह। Good afternoon = दोपहर (12-6)। Good evening = शाम (6 PM के बाद)। Good night = सोते समय।"
+    },
+    {
+      "id": "m21",
+      "type": "matching",
+      "title": "Question Words Match",
+      "instruction": "Question word और हिन्दी अर्थ मिलाएँ:",
+      "leftItems": [
+        "Who",
+        "When",
+        "Where",
+        "Why",
+        "How much"
+      ],
+      "rightItems": [
+        "कहाँ",
+        "कौन",
+        "कितना (पैसा)",
+        "क्यों",
+        "कब"
+      ],
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "activityId": "ja_hi_M1B3_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "काताकाना लेखन: अपने पसंदीदा शब्द लिखना",
+  "learningGoal": "काताकाना में विदेशी शब्दों को लिखना और लंबी ध्वनियों (ー) का सही प्रयोग करना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B3_lesson_1"
+  ],
+  "instructions": "नीचे कुछ विदेशी (अंग्रेजी) शब्द दिए गए हैं। आपको इन्हें काताकाना में लिखना है। लंबी ध्वनि के लिए (ー) का उपयोग करना न भूलें।",
+  "writingPrompt": "नीचे दिए गए अंग्रेजी शब्दों को जापानी काताकाना में लिखें।",
+  "promptGoal": "काताकाना अक्षरों और लंबे स्वर चिह्न (ー) का सही उपयोग।",
+  "expectedWritingType": "word",
+  "wordBank": [
+    {
+      "targetText": "カメラ",
+      "transliteration": "kamera",
+      "baseTranslation": "Camera",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "タクシー",
+      "transliteration": "takushii",
+      "baseTranslation": "Taxi",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ケーキ",
+      "transliteration": "keeki",
+      "baseTranslation": "Cake",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "バス",
+      "transliteration": "basu",
+      "baseTranslation": "Bus",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "'Taxi' में लंबी ई ध्वनि होती है, इसलिए 'shi' के बाद (ー) लगाएं।",
+    "'Cake' में लंबी ए ध्वनि होती है, इसलिए 'ke' के बाद (ー) लगाएं।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "コーヒー",
+      "transliteration": "Koohii",
+      "baseTranslation": "Coffee",
+      "qualityLevel": "excellent",
+      "annotation": "लंबी ध्वनियों (ー) का दो बार सही उपयोग किया गया है।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Katakana Accuracy",
+      "weight": 70,
+      "description": "क्या सही काताकाना अक्षरों का प्रयोग किया गया है?"
+    },
+    {
+      "criterion": "Long Vowel Usage",
+      "weight": 30,
+      "description": "क्या लंबी ध्वनि (ー) का प्रयोग सही स्थान पर किया गया है?"
+    }
+  ],
+  "minimumWordCount": 1,
+  "maximumWordCount": 10,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "タクシー",
+    "acceptableAlternates": [],
+    "requiredKeywords": [],
+    "grammarBaseline": "Just accurate Katakana spelling.",
+    "lengthExpectation": "1 word per prompt",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy",
+          "weight": 100,
+          "description": "Exact Katakana match"
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "बहुत अच्छा! आपका काताकाना लेखन काफी स्पष्ट हो रहा है।",
+    "onFail": "कृपया अक्षरों को ध्यान से देखें। हिरागाना के अक्षरों का प्रयोग न करें।",
+    "onPartial": "आपने कुछ शब्द सही लिखे हैं, लेकिन लंबी ध्वनि (ー) के उपयोग में थोड़ी गलती हुई है।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "katakana"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "काताकाना चार्ट का उपयोग करें यदि आप अक्षरों को भूल गए हैं।",
+  "commonMistakes": [
+    "'shi' (シ) और 'tsu' (ツ) को उल्टा लिखना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

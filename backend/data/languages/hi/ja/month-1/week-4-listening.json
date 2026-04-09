@@ -1,0 +1,52 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 4 | Listening",
+  "id": 38,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: परिवार का परिचय",
+  "description": "एक जापानी परिवार के परिचय की बातचीत सुनें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["listening", "family", "introduction", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "बातचीत: परिवार का परिचय",
+      "url": null,
+      "transcript": "A: はなさん、ごかぞくはなんにんですか？(Hana san, gokazoku wa nannin desu ka?) — हाना, आपके परिवार में कितने लोग हैं?\n\nB: ろくにんです。おとうさん、おかあさん、おにいさん、おねえさん、いもうとと わたしです。(Rokunin desu. Otousan, okaasan, oniisan, oneesan, imouto to watashi desu.) — 6 लोग हैं। पिताजी, माँ, बड़े भाई, बड़ी बहन, छोटी बहन और मैं।\n\nA: おおきいかぞくですね！おとうさんはおしごとはなんですか？(Ookii kazoku desu ne! Otousan no oshigoto wa nan desu ka?) — बड़ा परिवार है! पिताजी का काम क्या है?\n\nB: おとうさんはいしゃです。おかあさんはせんせいです。(Otousan wa isha desu. Okaasan wa sensei desu.) — पिताजी डॉक्टर हैं। माँ शिक्षिका हैं।\n\nA: すごいですね！おにいさんはなんさいですか？(Sugoi desu ne! Oniisan wa nansai desu ka?) — बहुत अच्छे! बड़े भाई कितने साल के हैं?\n\nB: にじゅうごさいです。だいがくでこうがくをべんきょうしています。(Nijuugo sai desu. Daigaku de kougaku wo benkyou shite imasu.) — 25 साल के हैं। यूनिवर्सिटी में इंजीनियरिंग पढ़ रहे हैं।\n\nA: わあ、すてき！(Waa, suteki!) — वाह, बढ़िया!"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "हाना के परिवार के बारे में नोट्स लें:",
+      "instruction": "बातचीत सुनकर इन सवालों के जवाब नोट करें:",
+      "sections": [
+        { "label": "परिवार में कितने लोग हैं?", "placeholder": "संख्या..." },
+        { "label": "पिताजी का पेशा?", "placeholder": "पेशा..." },
+        { "label": "माँ का पेशा?", "placeholder": "पेशा..." },
+        { "label": "बड़े भाई की उम्र और पढ़ाई?", "placeholder": "उम्र और विषय..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "बातचीत पूरी करें",
+      "text": "B: ___ にんです。おとうさん、おかあさん... \nA: おとうさんはおしごとはなんですか？\nB: おとうさんは ___ です。\nA: おにいさんはなんさいですか？\nB: ___ さいです。",
+      "gaps": ["ろく", "いしゃ", "にじゅうご"],
+      "hints": ["6 — संख्या", "डॉक्टर — पेशा", "25 — उम्र"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत समझें",
+      "items": [
+        { "statement": "हाना के परिवार में 4 लोग हैं।", "answer": false, "explanation": "नहीं! हाना के परिवार में 6 लोग हैं: ろくにんです।" },
+        { "statement": "पिताजी डॉक्टर हैं।", "answer": true, "explanation": "हाँ: おとうさんはいしゃです (Otousan wa isha desu)।" },
+        { "statement": "बड़े भाई कानून पढ़ रहे हैं।", "answer": false, "explanation": "नहीं! भाई इंजीनियरिंग (こうがく — kougaku) पढ़ रहे हैं।" }
+      ]
+    }
+  ]
+}

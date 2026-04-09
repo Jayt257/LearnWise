@@ -1,0 +1,188 @@
+{
+  "activityId": "ja_hi_M2B4_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "बातचीत: गॉसिप और राय (Gossip & Opinions)",
+  "learningGoal": "दूसरों के बारे में गॉसिप (~to itte imashita) साझा करना और अपनी राय (~to omoimasu) देना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B4_vocabulary_6",
+    "ja_hi_M2B4_listening_5"
+  ],
+  "instructions": "इस रोलप्ले में आप अपने एक जापानी सहकर्मी से 'केंजी' के बारे में बातें कर रहे हैं। सहकर्मी आपसे सवाल पूछेगा और आपको बताना है कि केंजी ने क्या कहा था और आपको क्या लगता है।",
+  "speakingPrompt": "सहकर्मी के सवालों का जवाब देते हुए 'to itte imashita' और 'to omoimasu' का उपयोग करें।",
+  "scenario": "ऑफिस में लंच के दौरान सहकर्मी के साथ गॉसिप।",
+  "role": "आप (Employee)",
+  "conversationPartner": "सहकर्मी (Douryou)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "सहकर्मी पूछता है: 'क्या आपको लगता है कि केंजी आज आएगा?' (Kenji-san wa kyou kuru to omoimasu ka?)। उसे बताएं: 'नहीं, मुझे लगता है कि वह नहीं आएगा।' (Iie, konai to omoimasu)",
+      "expectedSpeakingPoints": [
+        "Iie",
+        "konai",
+        "to omoimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "いいえ、こない と おもいます。",
+        "transliteration": "Iie, konai to omoimasu.",
+        "baseTranslation": "नहीं, मुझे लगता है कि वह नहीं आएगा। (Kuru का Nai-form: Konai)"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "सहकर्मी पूछता है: 'क्या हुआ?' (Doushitandesuka?)। उसे बताएं: 'केंजी ने कहा था कि वह बीमार है।' (Kenji-san wa byouki da to itte imashita)",
+      "expectedSpeakingPoints": [
+        "Kenji-san wa",
+        "byouki da",
+        "to itte imashita"
+      ],
+      "sampleResponse": {
+        "targetText": "ケンジさん は びょうき だ と いっていました。",
+        "transliteration": "Kenji-san wa byouki da to itte imashita.",
+        "baseTranslation": "केंजी ने कहा था कि वह बीमार है। (Byouki एक Noun है, इसलिए 'da' लगाया)"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "सहकर्मी कहता है: 'अरे, यह तो बहुत बुरा हुआ।' (Aa, zannen desu ne)। उसे कहें: 'हाँ। मुझे लगता है कि उसे अस्पताल जाना चाहिए।' (Ee. Byouin ni itta hou ga ii to omoimasu)",
+      "expectedSpeakingPoints": [
+        "Ee",
+        "byouin ni itta hou ga ii",
+        "to omoimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ええ。びょういん に いった ほう が いい と おもいます。",
+        "transliteration": "Ee. Byouin ni itta hou ga ii to omoimasu.",
+        "baseTranslation": "हाँ। मुझे लगता है कि उसे अस्पताल जाना चाहिए। (Itta hou ga ii = जाना चाहिए)"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "सहकर्मी पूछता है: 'क्या कल बारिश होगी?' (Ashita ame ga furu to omoimasu ka?)। उसे बताएं: 'हाँ, मुझे लगता है कि बारिश होगी।' (Hai, furu to omoimasu)",
+      "expectedSpeakingPoints": [
+        "Hai",
+        "furu to omoimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "はい、ふる と おもいます。",
+        "transliteration": "Hai, furu to omoimasu.",
+        "baseTranslation": "हाँ, मुझे लगता है कि बारिश होगी।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "かいしゃ で どうりょう と はなします。",
+    "transliteration": "Kaisha de douryou to hanashimasu.",
+    "baseTranslation": "कंपनी में सहकर्मी के साथ बात कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "いいえ、こない と おもいます。",
+      "transliteration": "Iie, konai to omoimasu.",
+      "baseTranslation": "नहीं, मुझे लगता है कि वह नहीं आएगा।"
+    },
+    {
+      "targetText": "ケンジさん は びょうき だ と いっていました。",
+      "transliteration": "Kenji-san wa byouki da to itte imashita.",
+      "baseTranslation": "केंजी ने कहा था कि वह बीमार है।"
+    },
+    {
+      "targetText": "ええ。びょういん に いった ほう が いい と おもいます。",
+      "transliteration": "Ee. Byouin ni itta hou ga ii to omoimasu.",
+      "baseTranslation": "हाँ। मुझे लगता है कि उसे अस्पताल जाना चाहिए।"
+    },
+    {
+      "targetText": "はい、ふる と おもいます。",
+      "transliteration": "Hai, furu to omoimasu.",
+      "baseTranslation": "हाँ, मुझे लगता है कि बारिश होगी।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 40,
+    "grammarWeight": 25,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "konai to omoimasu",
+      "byouki da to itte imashita",
+      "itta hou ga ii to omoimasu",
+      "furu to omoimasu"
+    ],
+    "requiredKeywords": [
+      "おもいます",
+      "いっていました",
+      "だ"
+    ],
+    "acceptableParaphrases": [
+      "Using 'iku hou ga ii' is technically incorrect, must use 'itta hou ga ii'.",
+      "Omitting 'Kenji-san wa' is perfectly fine."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Short forms before 'to'",
+          "weight": 80,
+          "description": "Must use short forms (konai, byouki da, furu) before 'to omoimasu' or 'to itte imashita'."
+        },
+        {
+          "name": "Noun + Da",
+          "weight": 20,
+          "description": "Must say 'byouki da', not just 'byouki'."
+        }
+      ]
+    },
+    "sampleAnswer": "Iie, konai to omoimasu. Kenji-san wa byouki da to itte imashita. Ee. Byouin ni itta hou ga ii to omoimasu. Hai, furu to omoimasu.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने जापानी में राय और उद्धरण का बहुत ही स्वाभाविक तरीके से उपयोग किया है। 'to omoimasu' के साथ 'hou ga ii' का संयोजन बहुत एडवांस था!",
+    "onFail": "याद रखें: 'to' से पहले हमेशा शॉर्ट फॉर्म आता है। Nouns (जैसे Byouki) के बाद 'da' लगाना अनिवार्य है (Byouki da to itte imashita)।",
+    "onPartial": "आपने अच्छा किया है। 'itta hou ga ii' (जाना चाहिए) में Ta-form का सही उच्चारण करें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "いいえ、こない と おもいます。ケンジさん は びょうき だ と いっていました。ええ。びょういん に いった ほう が いい と おもいます。はい、ふる と おもいます。",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "omoimasu",
+    "itte imashita",
+    "hou ga ii",
+    "quotes",
+    "opinions"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर आप सलाह को थोड़ा नरम (Soft) करना चाहते हैं, तो 'hou ga ii desu' के बाद 'to omoimasu' लगा सकते हैं (hou ga ii to omoimasu = मुझे लगता है कि यह करना बेहतर रहेगा)।",
+  "commonMistakes": [
+    "Byouki to itte imashita बोलना (da भूल जाना)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B4_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

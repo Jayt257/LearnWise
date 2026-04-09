@@ -1,0 +1,73 @@
+{
+  "id": 27,
+  "type": "listening",
+  "title": "Listening for Numbers and Time",
+  "description": "Listen for numbers, days, and time words.",
+  "duration": "20 min",
+  "xp": 40,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "note_template",
+      "title": "Listening Notes",
+      "instruction": "Write the words you hear:",
+      "sections": [
+        {
+          "label": "Number heard",
+          "placeholder": "Type the number word..."
+        },
+        {
+          "label": "Day word",
+          "placeholder": "Type the word for today..."
+        },
+        {
+          "label": "Question word",
+          "placeholder": "Type the word for where..."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "gap_fill",
+      "title": "Complete the Transcript",
+      "text": "First fill in the missing words: ___, ___, ___. Listen for numbers and time expressions.",
+      "gaps": [
+        "तीन",
+        "आज",
+        "कहाँ"
+      ],
+      "hints": [
+        "three",
+        "today",
+        "where"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "true_false",
+      "title": "Check your listening",
+      "items": [
+        {
+          "statement": "The speaker talks about time and days.",
+          "answer": true,
+          "explanation": "That is the main focus of the week."
+        },
+        {
+          "statement": "The speaker only uses family words.",
+          "answer": false,
+          "explanation": "Family vocabulary is for week 4."
+        }
+      ]
+    }
+  ]
+}

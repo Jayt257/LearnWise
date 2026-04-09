@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Listening",
+  "id": 116,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: स्टोर क्लर्क के साथ",
+  "description": "कपड़ों की दुकान में बातचीत सुनें और क़ीमतें समझें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["listening", "shopping", "prices", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "बातचीत: कपड़ों की दुकान में",
+      "url": null,
+      "transcript": "店員(Ten'in): いらっしゃいませ！(Irasshaimase!) — आपका स्वागत है!\n\n客(Kyaku): すみません、このシャツはいくらですか？(Sumimasen, kono shatsu wa ikura desu ka?) — माफ़ कीजिए, यह शर्ट कितने की है?\n\n店員: そのシャツはにせんごひゃくえんです。(Sono shatsu wa nisen gohyaku en desu.) — वह शर्ट 2,500 येन की है。\n\n客: そうですか。じゃあ、あのズボンはいくらですか？(Sou desu ka. Jaa, ano zubon wa ikura desu ka?) — ऐसा क्या? तो, वह पैंट (वहाँ) कितने की है?\n\n店員: あちらのズボンはよんせんろっぴゃくえんです。(Achira no zubon wa yonsen roppyaku en desu.) — उधर की पैंट 4,600 येन की है。\n\n客: うーん、ちょっとたかいですね。じゃあ、シャツだけください。(Uun, chotto takai desu ne. Jaa, shatsu dake kudasai.) — ह्म्म्म, थोड़ी महँगी है। तो, सिर्फ शर्ट दे दीजिए。\n\n店員: はい、かしこまりました。にせんごひゃくえんになります。(Hai, kashikomarimashita. Nisen gohyaku en ni narimasu.) — जी, समझा। 2,500 येन हुए।"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "सामान और क़ीमत नोट करें:",
+      "instruction": "सुनकर इन सवालों के जवाब लिखें:",
+      "sections": [
+        { "label": "शर्ट (シャツ) की क़ीमत?", "placeholder": "___ येन" },
+        { "label": "पैंट (ズボン) की क़ीमत?", "placeholder": "___ येन" },
+        { "label": "ग्राहक ने क्या खरीदा?", "placeholder": "क्या खरीदा?" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "बातचीत पूरी करें",
+      "text": "客: すみません、このシャツは ___ ですか？\n店員: そのシャツは ___ えんです。\n客: あのズボンはいくらですか？\n店員: あちらのズボンは ___ えんです。\n客: じゃあ、シャツだけ ___。",
+      "gaps": ["いくら", "にせんごひゃく", "よんせんろっぴゃく", "ください"],
+      "hints": ["कितने की", "2500", "4600", "दीजिए"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत समझें",
+      "items": [
+        { "statement": "शर्ट 3,500 येन की थी।", "answer": false, "explanation": "नहीं! शर्ट 2,500 येन (にせんごひゃくえん) की थी।" },
+        { "statement": "पैंट 4,600 येन की थी।", "answer": true, "explanation": "हाँ, よんせん(4000) ろっぴゃく(600) えん (= 4600 येन)।" },
+        { "statement": "ग्राहक ने पैंट खरीद ली।", "answer": false, "explanation": "नहीं, पैंट महँगी थी (たかいです), इसलिए उसने सिर्फ शर्ट खरीदी (シャツだけください)।" }
+      ]
+    }
+  ]
+}

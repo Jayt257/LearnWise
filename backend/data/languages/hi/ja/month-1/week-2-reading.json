@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Reading",
+  "id": 13,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: केनजी का दिन",
+  "description": "केनजी के दिनचर्या के बारे में एक सरल जापानी अंश पढ़ें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["reading", "daily-life", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 けんじのいちにち (Kenji no ichinichi) — केनजी का एक दिन\n\nわたしはけんじです。とうきょうにすんでいます。(Watashi wa Kenji desu. Toukyou ni sundeimasu.) — मेरा नाम केनजी है। मैं टोक्यो में रहता हूँ।\n\nまいにち、がっこうにいきます。(Mainichi, gakkou ni ikimasu.) — मैं हर रोज़ स्कूल जाता हूँ।\nがっこうのちかくにコンビニがあります。(Gakkou no chikaku ni konbini ga arimasu.) — स्कूल के पास एक कन्वीनियंस स्टोर है।\n\nわたしのかばんにはほんとペンがあります。(Watashi no kaban ni wa hon to pen ga arimasu.) — मेरे बैग में किताब और पेन हैं।\n\nいえにかえって、みずをのみます。(Ie ni kaette, mizu wo nomimasu.) — घर लौटकर पानी पीता हूँ।\nそれからたべものをたべます。(Sorekara tabemono wo tabemasu.) — फिर खाना खाता हूँ।\n\nにほんのがっこうはたのしいです！(Nihon no gakkou wa tanoshii desu!) — जापानी स्कूल बहुत मज़ेदार है!",
+      "questions": [
+        { "q": "केनजी कहाँ रहता है?", "a": "टोक्यो में (とうきょう — Toukyou)" },
+        { "q": "केनजी के बैग में क्या-क्या है?", "a": "किताब और पेन (ほんとペン — hon to pen)" },
+        { "q": "स्कूल के पास क्या है?", "a": "कन्वीनियंस स्टोर (コンビニ — konbini)" },
+        { "q": "केनजी घर लौटकर पहले क्या करता है?", "a": "पानी पीता है (मिज़ु को नोमिमासु)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "केनजी ओसाका में रहता है।", "answer": false, "explanation": "नहीं, केनजी टोक्यो में रहता है: とうきょうにすんでいます।" },
+        { "statement": "केनजी रोज़ स्कूल जाता है।", "answer": true, "explanation": "हाँ: まいにち、がっこうにいきます (Mainichi, gakkou ni ikimasu)।" },
+        { "statement": "केनजी को जापानी स्कूल पसंद नहीं है।", "answer": false, "explanation": "नहीं, उसे स्कूल बहुत मज़ेदार लगता है: にほんのがっこうはたのしいです！" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "जापानी कन्वीनियंस स्टोर — コンビニ (Konbini)",
+      "icon": "🏪",
+      "content": "जापान के कन्वीनियंस स्टोर (コンビニ — Konbini) दुनिया में सबसे बेहतरीन हैं! ये 24 घंटे खुले रहते हैं और यहाँ ताज़ा खाना, ATM, फ़ोटोकॉपी, टिकट बुकिंग सब मिलती है। प्रमुख ब्रांड हैं: セブンイレブン (7-Eleven), ファミリーマート (FamilyMart), ローソン (Lawson)। भारत में यह सुविधा नहीं है — यह जापान की एक अनोखी विशेषता है!",
+      "tags": ["संस्कृति", "कन्वीनियंस स्टोर", "दैनिक जीवन", "जापान"]
+    }
+  ]
+}

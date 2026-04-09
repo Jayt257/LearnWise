@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 3 | Reading",
+  "id": 24,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: समय सारणी और दैनिक कार्यक्रम",
+  "description": "एक जापानी छात्र की दिनचर्या पढ़ें और समझें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["reading", "schedule", "time", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 みきのスケジュール (Miki no sukejuuru) — मिकी की समय-सारणी\n\nわたしはみきです。まいにちいそがしいです！(Watashi wa Miki desu. Mainichi isogashii desu!) — मैं मिकी हूँ। रोज़ बहुत व्यस्त रहती हूँ!\n\nごぜんしちじにおきます。(Gozen shichiji ni okimasu.) — सुबह 7 बजे उठती हूँ।\nしちじはんにあさごはんをたべます。(Shichiji han ni asagohan wo tabemasu.) — 7:30 बजे नाश्ता करती हूँ।\n\nはちじにがっこうにいきます。(Hachiji ni gakkou ni ikimasu.) — 8 बजे स्कूल जाती हूँ।\nじゅうじからじゅういちじまでにほんごのじゅぎょうです。(Juuji kara juuichiji made Nihongo no jugyou desu.) — 10 से 11 बजे तक जापानी की कक्षा है।\n\nひるはじゅうにじです。(Hiru wa juuniji desu.) — दोपहर 12 बजे का है।\nひるごはんをともだちとたべます。(Hirugohan wo tomodachi to tabemasu.) — दोपहर का खाना दोस्तों के साथ खाती हूँ।\n\nごごさんじにうちにかえります。(Gogo sanji ni uchi ni kaerimasu.) — दोपहर 3 बजे घर लौटती हूँ।\nそしてにほんごをべんきょうします！(Soshite Nihongo wo benkyou shimasu!) — और फिर जापानी पढ़ती हूँ!",
+      "questions": [
+        { "q": "मिकी सुबह किस समय उठती है?", "a": "सुबह 7 बजे (ごぜんしちじ — gozenshichiji)" },
+        { "q": "जापानी की कक्षा किस समय से किस समय तक है?", "a": "10 से 11 बजे तक (じゅうじからじゅういちじまで)" },
+        { "q": "मिकी दोपहर का खाना किसके साथ खाती है?", "a": "दोस्तों के साथ (ともだちと — tomodachi to)" },
+        { "q": "मिकी घर किस समय लौटती है?", "a": "दोपहर 3 बजे (ごごさんじ — gogo sanji)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "मिकी सुबह 8 बजे उठती है।", "answer": false, "explanation": "नहीं! मिकी 7 बजे उठती है: ごぜんしちじにおきます।" },
+        { "statement": "जापानी की कक्षा एक घंटे की है।", "answer": true, "explanation": "हाँ, 10 से 11 बजे तक — ठीक 1 घंटा।" },
+        { "statement": "मिकी शाम को घर लौटती है।", "answer": false, "explanation": "नहीं, मिकी दोपहर 3 बजे (ごごさんじ) घर लौटती है।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "जापानी स्कूल का समय — 学校の時間割",
+      "icon": "🏫",
+      "content": "जापानी स्कूल आमतौर पर सुबह 8-8:30 से शुरू होते हैं। जापान में 6-3-3 शिक्षा प्रणाली है: 6 साल प्राथमिक, 3 साल माध्यमिक, 3 साल उच्च माध्यमिक। स्कूल में सफ़ाई (Souji — 掃除) खुद छात्र करते हैं — यह जापानी अनुशासन की मिसाल है। इसके अलावा, स्कूल में 'ぶかつ (Bukatsu)' यानी क्लब एक्टिविटी बहुत महत्वपूर्ण होती है!",
+      "tags": ["शिक्षा", "जापान", "संस्कृति", "स्कूल"]
+    }
+  ]
+}

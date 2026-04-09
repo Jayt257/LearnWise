@@ -1,0 +1,67 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Pronunciation Practice 2",
+  "id": 20,
+  "type": "pronunciation",
+  "title": "उच्चारण अभ्यास 2: य, र, व और विशेष संयुक्त ध्वनियाँ",
+  "description": "हिरागाना की य/र/व पंक्तियाँ और संयुक्त अक्षर (Yōon) सीखें।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "hiragana", "ya-ra-wa", "yoon", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "य/र/व और संयुक्त अक्षर",
+      "points": [
+        "य-पंक्ति: や(ya) ゆ(yu) よ(yo) — केवल 3 अक्षर",
+        "र-पंक्ति: ら(ra) り(ri) る(ru) れ(re) ろ(ro) — जापानी 'र' हिंदी से अलग है",
+        "व: わ(wa) を(wo) — को 'wo' लिखते हैं पर 'o' पढ़ते हैं",
+        "ん(n) — स्वतंत्र नासिक ध्वनि, कभी अकेला syllable",
+        "संयुक्त अक्षर (拗音 Yōon): きゃ(kya) きゅ(kyu) きよ(kyo) — छोटा や,ゆ,よ"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "जापानी र बनाम अन्य ध्वनियाँ",
+      "instruction": "जापानी 'र' अनोखा है — न पूरा 'r' न पूरा 'l':",
+      "pairs": [
+        { "word1": "ら (ra)", "word2": "な (na)", "sound1": "जापानी 'र' — जीभ की नोक ऊपर जाती है", "sound2": "न + अ", "diff": "जापानी र में जीभ एक बार छूकर वापस आती है — flap sound" },
+        { "word1": "りんご (ringo)", "word2": "にんご (ningo)", "sound1": "सेब", "sound2": "अर्थहीन", "diff": "र बनाम न — उच्चारण का अंतर सुनें" },
+        { "word1": "きゃ (kya)", "word2": "か (ka)", "sound1": "'क्या' — संयुक्त ध्वनि", "sound2": "'का' — सरल ध्वनि", "diff": "छोटा や मिलाने से संयुक्त ध्वनि बनती है" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "संयुक्त अक्षरों का अभ्यास",
+      "words": [
+        { "word": "きゃく", "syllables": ["kya", "ku"], "stressed": 0, "note": "ग्राहक — 'kyaku' — 2 syllable, न कि 3" },
+        { "word": "にゅうがく", "syllables": ["nyuu", "ga", "ku"], "stressed": 0, "note": "दाखिला — 'nyuugaku'" },
+        { "word": "りゅう", "syllables": ["ryuu"], "stressed": 0, "note": "ड्रैगन — 'ryuu' — एक लंबा syllable" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "र-ध्वनि अभ्यास",
+      "text": "らりるれろ、らりるれろ、らりるれろ",
+      "romanization": "Ra ri ru re ro, ra ri ru re ro, ra ri ru re ro",
+      "translation": "र-पंक्ति के पाँच अक्षर — तीन बार",
+      "tip": "जीभ की नोक को एक बार हल्के से ऊपरी तालु से छुएँ और तुरंत वापस लाएँ — यही जापानी 'र' है।"
+    },
+    {
+      "id": "b5",
+      "type": "true_false",
+      "title": "उच्चारण नियम — सही या गलत?",
+      "items": [
+        { "statement": "को (を) को 'wo' उच्चारित करते हैं।", "answer": false, "explanation": "आधुनिक जापानी में को (を) object marker के रूप में 'o' उच्चारित होता है।" },
+        { "statement": "संयुक्त अक्षर (Yōon) दो syllables होते हैं।", "answer": false, "explanation": "नहीं! きゃ (kya) एक ही syllable है — छोटा や मिलकर एक ध्वनि बनाता है।" },
+        { "statement": "जापानी 'र' हिंदी 'र' से अलग है।", "answer": true, "explanation": "बिल्कुल! जापानी র एक flap sound है — जीभ एक बार हल्के से छूती है।" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 1 | Lesson — Script & Greetings",
+  "id": 1,
+  "type": "lesson",
+  "title": "Introduction to Japanese: Hiragana & Greetings",
+  "description": "Begin your Japanese journey by learning Hiragana vowels and essential daily greetings.",
+  "duration": "25 min",
+  "xp": 30,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["hiragana", "greetings", "script", "beginner", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Welcome to Japanese! 日本語へようこそ！",
+      "body": "Japanese (日本語 — Nihongo) is one of the world's most unique and fascinating languages, spoken by over 128 million people in Japan.\n\nJapanese uses THREE writing systems:\n• ひらがな (Hiragana) — for native Japanese words\n• カタカナ (Katakana) — for foreign/borrowed words\n• 漢字 (Kanji) — characters borrowed from Chinese\n\nWe'll start with Hiragana — the foundation of Japanese writing!\n\n🎯 Good news: Japanese pronunciation is very regular and phonetic — what you see is what you say!"
+    },
+    {
+      "id": "b2",
+      "type": "keypoints",
+      "title": "What You'll Learn This Week",
+      "points": [
+        "The 5 Hiragana vowels: あ, い, う, え, お (a, i, u, e, o)",
+        "Essential greetings: Hello, Thank you, Sorry, Goodbye",
+        "Japanese sentence structure: SOV (Subject-Object-Verb)",
+        "Polite form (丁寧語 — Teineigo) — always use this with strangers",
+        "Self-introduction: 'My name is ___' in Japanese"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "title": "The 5 Hiragana Vowels (母音 — Boin)",
+      "body": "Japanese has 5 pure vowels — and they NEVER change:\n\nあ (A) — like 'a' in 'father' — Example: あお (ao) = blue\nい (I) — like 'ee' in 'see' — Example: いぬ (inu) = dog\nう (U) — like 'oo' but lips not rounded — Example: うみ (umi) = sea\nえ (E) — like 'e' in 'bed' — Example: えき (eki) = train station\nお (O) — like 'o' in 'go' — Example: おかあさん (okaasan) = mother\n\n💡 Key insight: Japanese vowels sound similar to Spanish vowels! Each syllable is pronounced clearly and evenly."
+    },
+    {
+      "id": "b4",
+      "type": "comparison_table",
+      "title": "Essential Greetings — At a Glance",
+      "headers": ["English Meaning", "Japanese (Hiragana/Kanji)", "Romanization (Romaji)"],
+      "rows": [
+        ["Good morning", "おはようございます", "Ohayou gozaimasu"],
+        ["Hello (afternoon)", "こんにちは", "Konnichiwa"],
+        ["Good evening", "こんばんは", "Konbanwa"],
+        ["Goodbye", "さようなら", "Sayounara"],
+        ["Thank you", "ありがとうございます", "Arigatou gozaimasu"],
+        ["Excuse me / Sorry", "すみません", "Sumimasen"],
+        ["Yes", "はい", "Hai"],
+        ["No", "いいえ", "Iie"],
+        ["Please", "おねがいします", "Onegai shimasu"],
+        ["Nice to meet you", "はじめまして", "Hajimemashite"]
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "dialogue",
+      "title": "First Japanese Conversation",
+      "speakers": ["You (Learner)", "Japanese Friend"],
+      "lines": [
+        { "speaker": 0, "text": "こんにちは！", "romanization": "Konnichiwa!", "translation": "Hello!" },
+        { "speaker": 1, "text": "こんにちは！おなまえは？", "romanization": "Konnichiwa! Onamae wa?", "translation": "Hello! What is your name?" },
+        { "speaker": 0, "text": "わたしの なまえは ___です。", "romanization": "Watashi no namae wa ___ desu.", "translation": "My name is ___." },
+        { "speaker": 1, "text": "はじめまして！よろしくおねがいします。", "romanization": "Hajimemashite! Yoroshiku onegai shimasu.", "translation": "Nice to meet you! Please treat me kindly." },
+        { "speaker": 0, "text": "こちらこそ、よろしくおねがいします！", "romanization": "Kochira koso, yoroshiku onegai shimasu!", "translation": "Likewise, nice to meet you!" }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "grammar_rule",
+      "title": "Japanese Sentence Structure: SOV Order",
+      "pattern": "Subject + Object + Verb + です (desu)",
+      "examples": [
+        { "native": "I study Japanese.", "target": "わたしは にほんごを べんきょうします。", "translation": "Watashi wa Nihongo wo benkyou shimasu." },
+        { "native": "She drinks water.", "target": "かれは みずを のみます。", "translation": "Kare wa mizu wo nomimasu." },
+        { "native": "This is a book.", "target": "これは ほんです。", "translation": "Kore wa hon desu." }
+      ],
+      "note": "Unlike English (SVO), Japanese puts the verb at the END of the sentence! Think: 'I Japanese study' instead of 'I study Japanese.' です (desu) means 'is/am/are'."
+    },
+    {
+      "id": "b7",
+      "type": "tip",
+      "body": "💡 Important tip: The particle は (ha) is read as 'WA' when used as a topic marker! So わたし**は** = watashi **wa** (I/me). This is one of Japanese's most common 'tricky' rules."
+    },
+    {
+      "id": "b8",
+      "type": "fill_blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Write the correct Japanese word or phrase:",
+      "items": [
+        { "sentence": "Morning greeting in Japanese: ___", "answer": "おはようございます", "hint": "Ohayou gozaimasu" },
+        { "sentence": "To say thank you: ___", "answer": "ありがとうございます", "hint": "Arigatou gozaimasu" },
+        { "sentence": "'Yes' in Japanese: ___", "answer": "はい", "hint": "Hai" },
+        { "sentence": "In Japanese sentences, the verb comes ___.", "answer": "at the end", "hint": "SOV order" }
+      ]
+    },
+    {
+      "id": "b9",
+      "type": "cultural_note",
+      "title": "Bowing in Japan — お辞儀 (Ojigi)",
+      "icon": "🙇",
+      "content": "In Japan, people bow (お辞儀 — Ojigi) instead of shaking hands for greetings. The degree of bow shows the level of respect: 15° = casual greeting, 30° = respectful greeting, 45° = deep apology. Just like a handshake in English-speaking cultures, the bow is a crucial part of Japanese social etiquette!",
+      "tags": ["culture", "etiquette", "greetings", "Japan"]
+    },
+    {
+      "id": "b10",
+      "type": "progress_checkpoint",
+      "title": "Week 1 Lesson — Can you do this?",
+      "items": [
+        "Say 'hello' in three different ways in Japanese (morning/afternoon/evening)",
+        "Introduce yourself: 'My name is ___' in Japanese",
+        "Say thank you and sorry in Japanese",
+        "Recognize the 5 Hiragana vowels (あ,い,う,え,お)",
+        "Understand Japanese SOV sentence structure"
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 27,
+  "type": "listening",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "समय और संख्या सुनना",
+  "description": "Train announcements, phone numbers, और prices — numbers in context।",
+  "duration": "10 मिनट",
+  "xp": 40,
+  "tags": [
+    "listening",
+    "numbers",
+    "time"
+  ],
+  "blocks": [
+    {
+      "id": "l1",
+      "type": "note_template",
+      "title": "Listening Notes — Train Announcements",
+      "instruction": "Train station announcement सुनें और नोट करें:",
+      "sections": [
+        {
+          "label": "Train किस platform से है?",
+          "placeholder": "Platform number..."
+        },
+        {
+          "label": "Train कितने बजे आएगी?",
+          "placeholder": "Time..."
+        },
+        {
+          "label": "Train कहाँ जा रही है?",
+          "placeholder": "Destination..."
+        },
+        {
+          "label": "कोई delay है?",
+          "placeholder": "Yes/No — कितने मिनट..."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "type": "gap_fill",
+      "title": "Phone Number और Time Practice",
+      "text": "The train leaves at ___ o'clock. It arrives in ___ minutes. The price is ___ pounds. Call ___ for information.",
+      "gaps": [
+        "three",
+        "forty-five",
+        "twenty",
+        "0800 123 4567"
+      ],
+      "hints": [
+        "3",
+        "45 minutes",
+        "£20",
+        "phone number"
+      ]
+    },
+    {
+      "id": "l3",
+      "type": "true_false",
+      "title": "Numbers Culture",
+      "items": [
+        {
+          "statement": "Britain में prices £ (Pound) में होती हैं।",
+          "answer": true,
+          "explanation": "हाँ! UK में currency Pound Sterling (£) है। 1 Pound = 100 pence।"
+        },
+        {
+          "statement": "अंग्रेज़ी में 'billion' = 100 करोड़ होता है।",
+          "answer": true,
+          "explanation": "हाँ! 1 billion = 1,000,000,000 = 100 करोड़। यह American English है। British English में पहले यह 'thousand million' था।"
+        },
+        {
+          "statement": "'Dozen' का मतलब 10 होता है।",
+          "answer": false,
+          "explanation": "नहीं! A dozen = 12। 'A baker's dozen' = 13। यह एक common English expression है।"
+        }
+      ]
+    }
+  ]
+}

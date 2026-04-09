@@ -1,0 +1,50 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 1 | Writing",
+  "id": 5,
+  "type": "writing",
+  "title": "Writing: Devanagari Setup & Sentences",
+  "description": "Practice building basic Hindi sentences in Romaji or Devanagari.",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["writing", "introduction", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "Build the Sentence (Romaji)",
+      "translation": "My name is Raj.",
+      "words": ["Raj", "hai", "Mera", "naam"],
+      "correctOrder": [2, 3, 0, 1]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "Build the Sentence (Devanagari)",
+      "translation": "I am a student.",
+      "words": ["छात्र", "हूँ।", "मैं", "एक"],
+      "correctOrder": [2, 3, 0, 1]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "Translate to Hindi (Romaji or Devanagari)",
+      "instruction": "Translate these greetings:",
+      "items": [
+        { "source": "Hello!", "answer": "Namaste! (नमस्ते!)" },
+        { "source": "Thank you.", "answer": "Dhanyavaad. (धन्यवाद।)" },
+        { "source": "Where are you?", "answer": "Aap kahan hain? (आप कहाँ हैं?)" },
+        { "source": "Yes, I know.", "answer": "Haan, mujhe pata hai. (हाँ, मुझे पता है।)" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "Write a 3 sentence introduction in Hindi (Romaji is completely fine!).\n1. Say Hello.\n2. State your name (Mera naam... hai)\n3. End with 'Nice to meet you' or 'Thank you'.",
+      "minWords": 10,
+      "sampleAnswer": "Namaste! Mera naam Alex hai. Aapse milkar khushi hui. Dhanyavaad!\n\n(Hello! My name is Alex. Nice to meet you. Thank you!)"
+    }
+  ]
+}

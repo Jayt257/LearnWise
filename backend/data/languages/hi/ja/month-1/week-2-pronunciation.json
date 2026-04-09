@@ -1,0 +1,65 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Pronunciation",
+  "id": 14,
+  "type": "pronunciation",
+  "title": "उच्चारण: त, न, ह, म पंक्तियाँ",
+  "description": "हिरागाना की त/न/ह/म पंक्तियों का सही उच्चारण सीखें।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "hiragana", "ta-na-ha-ma", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "त/न/ह/म पंक्तियों के विशेष नियम",
+      "points": [
+        "ち (chi) — 'ची' — 'ta-row' में एकमात्र विशेष उच्चारण",
+        "つ (tsu) — 'त्सु' — जैसे 'tsunami' में",
+        "ふ (fu) — हल्का 'फ़ु' — दाँत-होंठ नहीं, केवल होंठों से हवा",
+        "ん (n) — नासिक ध्वनि — अगले अक्षर के अनुसार बदलती है",
+        "は (ha) — विषय चिह्न के रूप में 'wa' उच्चारित होता है"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "ध्वनि अंतर — त/द और न/म",
+      "instruction": "इन जोड़ों में सूक्ष्म अंतर पहचानें:",
+      "pairs": [
+        { "word1": "た (ta)", "word2": "だ (da)", "sound1": "त + अ = 'ता'", "sound2": "द + अ = 'दा'", "diff": "t बनाम d — voiced/unvoiced" },
+        { "word1": "な (na)", "word2": "ま (ma)", "sound1": "न + अ = 'ना'", "sound2": "म + अ = 'मा'", "diff": "नाक से निकलने वाली ध्वनि का अंतर" },
+        { "word1": "は (ha)", "word2": "ば (ba)", "sound1": "ह + अ = 'हा'", "sound2": "ब + अ = 'बा'", "diff": "voiced b बनाम unvoiced h" },
+        { "word1": "つ (tsu)", "word2": "す (su)", "sound1": "त्स + उ = 'त्सु'", "sound2": "स + उ = 'सु'", "diff": "双子音 (double consonant) बनाम एकल" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "शब्दों का उच्चारण अभ्यास",
+      "words": [
+        { "word": "たべもの", "syllables": ["ta", "be", "mo", "no"], "stressed": 0, "note": "खाना — 4 syllable, समान लय" },
+        { "word": "なまえ", "syllables": ["na", "ma", "e"], "stressed": 0, "note": "नाम — 'ना-मा-ए'" },
+        { "word": "みんな", "syllables": ["mi", "n", "na"], "stressed": 0, "note": "सभी/सब — double 'n'" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "舌回し — ज़ुबान का खेल",
+      "text": "となりのたぬきがたくさんたまごをたべた",
+      "romanization": "Tonari no tanuki ga takusan tamago wo tabeta",
+      "translation": "पड़ोसी बिज्जू ने बहुत सारे अंडे खाए",
+      "tip": "'ta' ध्वनि पर ध्यान दें — तेज़ी से बोलें: त-ना-री-नो-ता-नू-की-गा-ता-कू-सान"
+    },
+    {
+      "id": "b5",
+      "type": "audio",
+      "label": "त/न/ह/म पंक्ति उच्चारण",
+      "url": null,
+      "transcript": "た(ta) ち(chi) つ(tsu) て(te) と(to) | な(na) に(ni) ぬ(nu) ね(ne) の(no) | は(ha) ひ(hi) ふ(fu) へ(he) ほ(ho) | ま(ma) み(mi) む(mu) め(me) も(mo)"
+    }
+  ]
+}

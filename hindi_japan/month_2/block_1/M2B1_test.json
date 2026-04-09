@@ -1,0 +1,233 @@
+{
+  "activityId": "ja_hi_M2B1_test_8",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "ब्लॉक मूल्यांकन: विशेषण और इच्छाएँ",
+  "learningGoal": "महीने 2 के पहले ब्लॉक में सीखे गए i/na-adjectives, Arimasu/Imasu, और ~tai रूप का परीक्षण करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 50,
+  "prerequisites": [
+    "ja_hi_M2B1_lesson_1",
+    "ja_hi_M2B1_pronunciation_2",
+    "ja_hi_M2B1_reading_3",
+    "ja_hi_M2B1_writing_4",
+    "ja_hi_M2B1_listening_5",
+    "ja_hi_M2B1_vocabulary_6",
+    "ja_hi_M2B1_speaking_7"
+  ],
+  "instructions": "यह ब्लॉक 1 का मूल्यांकन है। इसमें विशेष रूप से यह जाँचा जाएगा कि आप 'Arimasu' और 'Imasu' के बीच अंतर कर सकते हैं, और 'masu' को सही ढंग से 'tai desu' में बदल सकते हैं।",
+  "testTitle": "ब्लॉक 1 - विशेषण और अस्तित्व परीक्षण",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "reading",
+    "vocabulary",
+    "writing"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_adjectives",
+      "sectionTitle": "विशेषण (Adjectives)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "'Kirei' (きれい) किस प्रकार का विशेषण है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "i-adjective",
+            "na-adjective",
+            "verb"
+          ],
+          "questionHints": {
+            "targetText": "na-adjective",
+            "transliteration": "na-adjective",
+            "baseTranslation": "Exception word"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "'ठंडा पानी' के लिए सही जापानी शब्द चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "さむい みず (Samui mizu)",
+            "つめたい みず (Tsumetai mizu)",
+            "あつい みず (Atsui mizu)"
+          ],
+          "questionHints": {
+            "targetText": "つめたい みず",
+            "transliteration": "Tsumetai mizu",
+            "baseTranslation": "Cold water"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_existence",
+      "sectionTitle": "अस्तित्व: Arimasu vs Imasu",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "कमरे में 'बिल्ली' है। आप कौन सी क्रिया का उपयोग करेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あります (Arimasu)",
+            "います (Imasu)",
+            "です (Desu)"
+          ],
+          "questionHints": {
+            "targetText": "います",
+            "transliteration": "Imasu",
+            "baseTranslation": "For living things"
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "कमरे में 'किताब' है। आप कौन सी क्रिया का उपयोग करेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あります (Arimasu)",
+            "います (Imasu)",
+            "します (Shimasu)"
+          ],
+          "questionHints": {
+            "targetText": "あります",
+            "transliteration": "Arimasu",
+            "baseTranslation": "For inanimate things"
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_desire",
+      "sectionTitle": "इच्छा (~tai form)",
+      "questions": [
+        {
+          "questionId": "tq_5",
+          "questionText": "'मैं सुशी खाना चाहता हूँ' का सही अनुवाद चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたし は すし を たべます。 (Watashi wa sushi o tabemasu.)",
+            "わたし は すし を たべたい です。 (Watashi wa sushi o tabetai desu.)",
+            "わたし は すし が あります。 (Watashi wa sushi ga arimasu.)"
+          ],
+          "questionHints": {
+            "targetText": "わたし は すし を たべたい です。",
+            "transliteration": "Watashi wa sushi o tabetai desu.",
+            "baseTranslation": "I want to eat sushi."
+          },
+          "marks": 4,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        },
+        {
+          "questionId": "tq_6",
+          "questionText": "'Ikimasu' (जाता हूँ) का 'tai' रूप क्या होगा?",
+          "questionType": "multiple_choice",
+          "options": [
+            "いきたい (Ikitai)",
+            "いくたい (Ikutai)",
+            "いかたい (Ikatai)"
+          ],
+          "questionHints": {
+            "targetText": "いきたい",
+            "transliteration": "Ikitai",
+            "baseTranslation": "Want to go"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_translation",
+      "sectionTitle": "वाक्य निर्माण",
+      "questions": [
+        {
+          "questionId": "tq_7",
+          "questionText": "चुनें: 'यह एक शांत कमरा है।' (Shizuka = Quiet)",
+          "questionType": "multiple_choice",
+          "options": [
+            "これ は しずかい へや です。 (Kore wa shizukai heya desu.)",
+            "これ は しずかな へや です。 (Kore wa shizuka na heya desu.)",
+            "これ は しずか へや です。 (Kore wa shizuka heya desu.)"
+          ],
+          "questionHints": {
+            "targetText": "これ は しずかな へや です。",
+            "transliteration": "Kore wa shizuka na heya desu.",
+            "baseTranslation": "This is a quiet room."
+          },
+          "marks": 4,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 20,
+  "passMarks": 16,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "na-adjective",
+      "tq_2": "つめたい みず (Tsumetai mizu)",
+      "tq_3": "います (Imasu)",
+      "tq_4": "あります (Arimasu)",
+      "tq_5": "わたし は すし を たべたい です。 (Watashi wa sushi o tabetai desu.)",
+      "tq_6": "いきたい (Ikitai)",
+      "tq_7": "これ は しずかな へや です。 (Kore wa shizuka na heya desu.)"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने विशेषणों, Arimasu/Imasu, और 'tai' रूप को पूरी तरह से समझ लिया है। यह एक शानदार शुरुआत है!",
+    "onFail": "कृपया Arimasu और Imasu के नियमों को दोबारा पढ़ें (निर्जीव बनाम जीवित)। 'tai' रूप बनाने के लिए बस 'masu' को हटाकर 'tai desu' लगाना है।",
+    "onPartial": "आपने अच्छा किया है। 'na-adjectives' (जैसे Kirei, Shizuka) के साथ Noun से पहले 'na' लगाना न भूलें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "これ は しずかな へや です。",
+    "audioLanguage": "ja",
+    "audioDuration": 15,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "adjectives",
+    "arimasu",
+    "imasu",
+    "tai form"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "प्रश्न 7 में ध्यान दें कि 'Shizuka' एक na-adjective है। जब यह Noun (Heya) से ठीक पहले आता है, तो 'na' लगाना अनिवार्य है।",
+  "commonMistakes": [
+    "'Kirei' को i-adjective मान लेना (यह na-adjective है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B2_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

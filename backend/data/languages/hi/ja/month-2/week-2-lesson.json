@@ -1,0 +1,94 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 2 (Week 6) | Lesson — Shopping, Prices & Particles",
+  "id": 111,
+  "type": "lesson",
+  "title": "खरीदारी और जापानी मुद्रा",
+  "description": "जापानी येन में गिनना, खरीदारी करना और आवश्यक 'कण' (particles) सीखें।",
+  "duration": "25 min",
+  "xp": 30,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["shopping", "prices", "particles", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "बड़ी संख्याएँ और जापानी मुद्रा (円 — Yen)",
+      "body": "जापानी मुद्रा '円' (येन / en) है। खरीदारी के लिए हमें बड़ी संख्याएँ सीखनी होंगी:\n\n100 = ひゃく (hyaku)\n1,000 = せん (sen)\n10,000 = まん (man) — जापानी में 10,000 एक नई इकाई है!\n\nसैकड़े (100-900):\n200 = にひゃく\n300 = さんびゃく (*ध्वनि परिवर्तन)\n600 = ろっぴゃく (*ध्वनि परिवर्तन)\n800 = はっぴゃく (*ध्वनि परिवर्तन)\n\nहज़ार (1,000-9,000):\n3000 = さんぜん (*ध्वनि परिवर्तन)\n8000 = はっせん (*ध्वनि परिवर्तन)"
+    },
+    {
+      "id": "b2",
+      "type": "grammar_rule",
+      "title": "महत्वपूर्ण कण (Particles): と और や",
+      "pattern": "[A] と [B] / [A] や [B]",
+      "examples": [
+        { "native": "पेन और किताब।", "target": "ペンとほん。", "translation": "Pen to hon." },
+        { "native": "पेन, किताब आदि।", "target": "ペンやほん。", "translation": "Pen ya hon." }
+      ],
+      "note": "と (to) का अर्थ है 'और' (पूरी सूची)। や (ya) का अर्थ है 'जैसे कि / आदि' (अधूरी सूची)।"
+    },
+    {
+      "id": "b3",
+      "type": "grammar_rule",
+      "title": "कण (Particle): を (wo)",
+      "pattern": "[Object] を [Verb]",
+      "examples": [
+        { "native": "पानी पीता हूँ।", "target": "みずをのみます。", "translation": "Mizu wo nomimasu." },
+        { "native": "किताब खरीदता हूँ।", "target": "ほんをかいます。", "translation": "Hon wo kaimasu." }
+      ],
+      "note": "を (wo) हमेशा उस संज्ञा के बाद आता है जिस पर क्रिया हो रही हो (Object marker)।"
+    },
+    {
+      "id": "b4",
+      "type": "dialogue",
+      "title": "दुकान में खरीदारी",
+      "speakers": ["दुकानदार", "छात्र"],
+      "lines": [
+        { "speaker": 0, "text": "いらっしゃいませ！", "romanization": "Irasshaimase!", "translation": "आपका स्वागत है!" },
+        { "speaker": 1, "text": "すみません、このかばんはいくらですか？", "romanization": "Sumimasen, kono kaban wa ikura desu ka?", "translation": "माफ़ कीजिए, यह बैग कितने का है?" },
+        { "speaker": 0, "text": "さんぜんごひゃくえんです。", "romanization": "Sanzen gohyaku en desu.", "translation": "3,500 येन का है।" },
+        { "speaker": 1, "text": "ちょっとたかいですね。あのとけいはいくらですか？", "romanization": "Chotto takai desu ne. Ano tokei wa ikura desu ka?", "translation": "थोड़ा महँगा है। वह घड़ी कितने की है?" },
+        { "speaker": 0, "text": "にせんえんです。", "romanization": "Nisen en desu.", "translation": "2,000 येन की है。" },
+        { "speaker": 1, "text": "じゃあ、それをください。", "romanization": "Jaa, sore wo kudasai.", "translation": "तो, वह दीजिए。" }
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "tip",
+      "body": "💡 これ (यह), それ (वह), あれ (वह दूर) के साथ संज्ञा नहीं आती।\nलेकिन この (यह), その (वह), あの (वह दूर) के बाद संज्ञा आना अनिवार्य है!\nउदाहरण: これをください। (यह दीजिए) बनाम このかばんをください। (यह बैग दीजिए)।"
+    },
+    {
+      "id": "b6",
+      "type": "fill_blank",
+      "title": "सही कण (Particle) चुनें",
+      "instructions": "रिक्त स्थानों में सही particle (と, を, で, に) भरें:",
+      "items": [
+        { "sentence": "मैं सेब ___ खाता हूँ। (りんご___たべます)", "answer": "を", "hint": "Object marker" },
+        { "sentence": "सुपरमार्केट ___ मीट खरीदता हूँ। (スーパー___にくをかいます)", "answer": "で", "hint": "जहाँ क्रिया होती है" },
+        { "sentence": "कल टोक्यो ___ जाऊँगा। (とうきょう___いきます)", "answer": "に", "hint": "दिशा/गंतव्य" },
+        { "sentence": "पेन ___ नोटबुक खरीदता हूँ। (ペン___ノートをかいます)", "answer": "と", "hint": "और (and)" }
+      ]
+    },
+    {
+      "id": "b7",
+      "type": "cultural_note",
+      "title": "जापान में खरीदारी — 100-Yen Shops",
+      "icon": "🛍️",
+      "content": "जापान में '百円ショップ' (Hyaku-en shoppu / 100-Yen shops) बहुत लोकप्रिय हैं। यहाँ डायसो (Daiso), सेरिया (Seria) जैसी दुकानों में सब कुछ 100 येन (+टैक्स) में मिलता है! इसके अलावा, जापान में टिप देने का कोई रिवाज़ नहीं है — रेस्तराँ या कैब में टिप देने पर वे आपको पैसे लौटाने दौड़ेंगे!",
+      "tags": ["खरीदारी", "दुकानें", "संस्कृति", "जापान"]
+    },
+    {
+      "id": "b8",
+      "type": "progress_checkpoint",
+      "title": "सप्ताह 6 जाँच बिंदु",
+      "items": [
+        "100 से 10,000 तक जापानी में गिनना",
+        "दुकान में क़ीमत पूछना और समझना",
+        "कोनो/सोनो/अनो का सही प्रयोग करना",
+        "を (Object), で (Place of action), と (And) का सही प्रयोग"
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

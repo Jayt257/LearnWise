@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 1 | Writing",
+  "id": 5,
+  "type": "writing",
+  "title": "लेखन अभ्यास: हिरागाना और परिचय",
+  "description": "हिरागाना अक्षर लिखें और जापानी में अपना परिचय दें।",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["writing", "hiragana", "introduction", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए",
+      "translation": "मेरा नाम राज है।",
+      "words": ["です", "わたしの", "は", "なまえ", "らじ", "でした"],
+      "correctOrder": [1, 3, 2, 4, 0]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए — 2",
+      "translation": "मैं जापानी सीख रहा हूँ।",
+      "words": ["べんきょうします", "わたしは", "を", "にほんご", "です"],
+      "correctOrder": [1, 3, 2, 0]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "हिंदी से जापानी में अनुवाद करें",
+      "instruction": "इन वाक्यों को जापानी में लिखें (रोमाजी या हिरागाना में)",
+      "items": [
+        { "source": "नमस्ते! (दोपहर में)", "answer": "こんにちは！ (Konnichiwa!)" },
+        { "source": "मेरा नाम ___ है।", "answer": "わたしのなまえは___です。 (Watashi no namae wa ___ desu.)" },
+        { "source": "धन्यवाद।", "answer": "ありがとうございます。 (Arigatou gozaimasu.)" },
+        { "source": "आपसे मिलकर खुशी हुई।", "answer": "はじめまして。 (Hajimemashite.)" },
+        { "source": "हाँ, मैं समझ गया।", "answer": "はい、わかりました。 (Hai, wakarimashita.)" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "जापानी में अपना परिचय लिखें। निम्नलिखित जानकारी शामिल करें:\n1. आपका नाम\n2. आप कहाँ से हैं\n3. आप जापानी क्यों सीख रहे हैं\n4. आपको क्या पसंद है\n\nउदाहरण वाक्यों का प्रयोग करें जो इस सप्ताह सीखे।",
+      "minWords": 30,
+      "sampleAnswer": "はじめまして！わたしのなまえはराज(राज)です。インドからきました。にほんごをべんきょうしています。アニメがすきです。よろしくおねがいします！\n\n(Hajimemashite! Watashi no namae wa Raj desu. Indo kara kimashita. Nihongo wo benkyou shite imasu. Anime ga suki desu. Yoroshiku onegai shimasu!)\n\nहिंदी अनुवाद: आपसे मिलकर खुशी हुई! मेरा नाम राज है। मैं भारत से हूँ। मैं जापानी पढ़ रहा हूँ। मुझे एनिमे पसंद है। कृपया मुझे याद रखें!"
+    }
+  ]
+}

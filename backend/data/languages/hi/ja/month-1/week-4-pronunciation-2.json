@@ -1,0 +1,67 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 4 | Pronunciation Practice 2",
+  "id": 42,
+  "type": "pronunciation",
+  "title": "उच्चारण अभ्यास 2: पूर्ण हिरागाना समीक्षा",
+  "description": "सभी 46 हिरागाना अक्षरों और उनके संयुक्त रूपों की अंतिम समीक्षा।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "hiragana", "review", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "हिरागाना की पाँच पंक्तियों की समीक्षा",
+      "points": [
+        "स्वर: あいうえお (a-i-u-e-o) — सभी शब्दों की नींव",
+        "क-पंक्ति: かきくけこ, स-पंक्ति: さしすせそ (shi याद!)",
+        "त-पंक्ति: たちつてと (chi, tsu याद!), न-पंक्ति: なにぬねの",
+        "ह-पंक्ति: はひふへほ (fu याद!), म-पंक्ति: まみむめも",
+        "य: やゆよ, र-पंक्ति: らりるれろ, व: わをん"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "अंतिम ध्वनि चुनौती",
+      "instruction": "इन कठिन जोड़ों में अंतर पहचानें:",
+      "pairs": [
+        { "word1": "あめ (ame)", "word2": "あめ (ame)", "sound1": "बारिश", "sound2": "कैंडी", "diff": "एक ही उच्चारण, पर pitch accent से अर्थ बदलता है! यही जापानी की चुनौती है।" },
+        { "word1": "はし (hashi)", "word2": "はし (hashi)", "sound1": "चॉपस्टिक्स", "sound2": "पुल", "diff": "फिर pitch accent! H-L vs L-H" },
+        { "word1": "し (shi)", "word2": "ち (chi)", "sound1": "sh + i = शी", "sound2": "ch + i = ची", "diff": "मुँह का आकार अलग है — 'sh' बनाम 'ch'" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "महीना 1 के मुख्य शब्द",
+      "words": [
+        { "word": "にほんご", "syllables": ["ni", "ho", "n", "go"], "stressed": 0, "note": "जापानी भाषा — 4 beats" },
+        { "word": "ありがとう", "syllables": ["a", "ri", "ga", "to", "u"], "stressed": 0, "note": "धन्यवाद — 5 beats समान" },
+        { "word": "よろしくおねがいします", "syllables": ["yo", "ro", "shi", "ku", "o", "ne", "ga", "i", "shi", "ma", "su"], "stressed": 0, "note": "लंबा वाक्यांश — 11 syllable! टुकड़ों में याद करें।" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "हिरागाना गीत — いろはにほへと",
+      "text": "いろはにほへとちりぬるを",
+      "romanization": "Iro ha ni ho he to chi ri nu ru wo",
+      "translation": "रंग और फूल झड़ जाते हैं (एक प्राचीन जापानी कविता का अंश)",
+      "tip": "यह प्राचीन जापानी कविता (いろは歌 — Iroha uta) है जिसमें सभी हिरागाना अक्षर एक बार आते हैं। इसे सुनें और याद करें!"
+    },
+    {
+      "id": "b5",
+      "type": "true_false",
+      "title": "हिरागाना की अंतिम जाँच",
+      "items": [
+        { "statement": "हिरागाना में कुल 46 मूल अक्षर होते हैं।", "answer": true, "explanation": "हाँ! 46 मूल अक्षर + dakuten और संयुक्त अक्षर मिलाकर कुल ~104 संयोजन।" },
+        { "statement": "'ふ' का उच्चारण 'hu' है।", "answer": false, "explanation": "'ふ' = 'fu' — हल्की f-ध्वनि जो हवा से बनती है।" },
+        { "statement": "सभी हिरागाना अक्षरों में एक स्वर होता है, सिवाय 'ん' के।", "answer": true, "explanation": "बिल्कुल! 'ん' अकेला ऐसा अक्षर है जो बिना स्वर के syllable है।" }
+      ]
+    }
+  ]
+}

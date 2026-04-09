@@ -1,0 +1,46 @@
+{
+  "id": 40,
+  "type": "speaking",
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "परिवार के बारे में बात करें",
+  "description": "Family introduce करना, emotions express करना।",
+  "duration": "12 मिनट",
+  "xp": 35,
+  "tags": [
+    "speaking",
+    "family"
+  ],
+  "blocks": [
+    {
+      "id": "sp0",
+      "type": "roleplay_card",
+      "title": "Scene: Photo Sharing",
+      "scenario": "Showing Family Photos",
+      "yourRole": "आप (Indian learner)",
+      "partnerRole": "English-speaking colleague",
+      "context": "आपके phone में family photos हैं और colleague देखना चाहता है।",
+      "goal": "हर family member introduce करें, adjectives use करें।",
+      "usefulPhrases": [
+        "This is my mother. She is kind and loving.",
+        "That is my brother. He is funny and smart.",
+        "My family is big and wonderful.",
+        "I miss them very much.",
+        "We are very close."
+      ]
+    },
+    {
+      "id": "sp1",
+      "type": "speaking",
+      "prompt": "अपने परिवार के 3 members के बारे में बताएँ। हर एक के लिए name, relationship, age, job, और 2 adjectives बोलें।",
+      "hints": [
+        "My ___ is ___ years old.",
+        "She/He is a ___ (job).",
+        "She/He is ___ and ___ (adjectives).",
+        "I love my ___!",
+        "I am proud of my ___."
+      ]
+    }
+  ]
+}

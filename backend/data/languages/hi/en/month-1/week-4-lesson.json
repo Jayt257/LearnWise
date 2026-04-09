@@ -1,0 +1,204 @@
+{
+  "id": 33,
+  "type": "lesson",
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "परिवार, भावनाएँ और विशेषण",
+  "description": "Family vocabulary, emotions express करना, और adjectives + nouns का use।",
+  "duration": "20 मिनट",
+  "xp": 30,
+  "tags": [
+    "family",
+    "emotions",
+    "adjectives"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "Family Members — परिवार के सदस्य",
+      "points": [
+        "Mother = माँ | Father = पिताजी | Parents = माता-पिता",
+        "Brother = भाई | Sister = बहन | Sibling = भाई या बहन",
+        "Son = बेटा | Daughter = बेटी | Children = बच्चे",
+        "Husband = पति | Wife = पत्नी | Spouse = पति/पत्नी",
+        "Grandmother = दादी/नानी | Grandfather = दादा/नाना | Grandparents = दादा-दादी/नाना-नानी",
+        "Uncle = चाचा/मामा/ताऊ | Aunt = चाची/मामी/ताई | Cousin = चचेरा/ममेरा भाई-बहन"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "grammar_rule",
+      "title": "Adjectives — विशेषण का use",
+      "pattern": "Adjective + Noun (OR) Subject + is/are + Adjective",
+      "examples": [
+        {
+          "native": "मेरी माँ सुंदर है।",
+          "target": "My mother is beautiful.",
+          "translation": "My mother is beautiful."
+        },
+        {
+          "native": "मेरा एक बड़ा परिवार है।",
+          "target": "I have a big family.",
+          "translation": "मेरा एक बड़ा परिवार है।"
+        },
+        {
+          "native": "वह बहुत चालाक है।",
+          "target": "She is very clever.",
+          "translation": "वह बहुत चालाक है।"
+        }
+      ],
+      "note": "हिन्दी में adjective gender के अनुसार बदलता है (बड़ा/बड़ी) — अंग्रेज़ी में नहीं! 'Big' सबके लिए same।"
+    },
+    {
+      "id": "b3",
+      "type": "comparison_table",
+      "title": "Emotions — भावनाएँ",
+      "headers": [
+        "हिन्दी",
+        "English",
+        "Example Sentence"
+      ],
+      "rows": [
+        [
+          "खुश",
+          "Happy",
+          "I am happy today!"
+        ],
+        [
+          "उदास",
+          "Sad",
+          "She is sad."
+        ],
+        [
+          "गुस्सा",
+          "Angry",
+          "He is angry."
+        ],
+        [
+          "डरा हुआ",
+          "Scared/Afraid",
+          "The child is scared."
+        ],
+        [
+          "प्यार",
+          "Love",
+          "I love my family."
+        ],
+        [
+          "थका हुआ",
+          "Tired",
+          "We are tired."
+        ],
+        [
+          "उत्साहित",
+          "Excited",
+          "I am excited!"
+        ],
+        [
+          "बोर",
+          "Bored",
+          "I am bored."
+        ],
+        [
+          "तनावग्रस्त",
+          "Stressed",
+          "She is stressed."
+        ],
+        [
+          "शांत",
+          "Calm",
+          "Be calm!"
+        ]
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "dialogue",
+      "title": "Family Introduction",
+      "speakers": [
+        "Priya",
+        "David"
+      ],
+      "lines": [
+        {
+          "speaker": 0,
+          "text": "David, this is my family!",
+          "romanization": "David, यह मेरा परिवार है!",
+          "translation": "David, यह मेरा परिवार है!"
+        },
+        {
+          "speaker": 1,
+          "text": "Oh, how wonderful! Is this your mother?",
+          "romanization": "ओह, कितना अच्छा! क्या यह आपकी माँ हैं?",
+          "translation": "ओह, कितना अच्छा! क्या यह आपकी माँ हैं?"
+        },
+        {
+          "speaker": 0,
+          "text": "Yes! She is very kind and funny.",
+          "romanization": "हाँ! वह बहुत kind और funny है।",
+          "translation": "हाँ! वह बहुत दयालु और मज़ेदार है।"
+        },
+        {
+          "speaker": 1,
+          "text": "And who is this tall young man?",
+          "romanization": "और यह लंबा युवक कौन है?",
+          "translation": "और यह लंबा युवक कौन है?"
+        },
+        {
+          "speaker": 0,
+          "text": "That is my brother. He is a doctor. We are a big happy family!",
+          "romanization": "वह मेरा भाई है। वह doctor है। हम एक बड़ा खुश परिवार हैं!",
+          "translation": "वह मेरा भाई है। वह doctor है। हम एक बड़ा खुश परिवार हैं!"
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "fill_blank",
+      "title": "Adjectives Practice",
+      "instructions": "सही adjective भरें:",
+      "items": [
+        {
+          "sentence": "My mother is very ___. She always helps everyone. (दयालु)",
+          "answer": "kind",
+          "hint": "kind/cruel"
+        },
+        {
+          "sentence": "I have a ___ family — we are six people. (बड़ा)",
+          "answer": "big",
+          "hint": "big/small"
+        },
+        {
+          "sentence": "She is ___. She got 100 marks! (खुश)",
+          "answer": "happy",
+          "hint": "happy/sad"
+        },
+        {
+          "sentence": "My grandfather is ___. He is 80 years old. (बूढ़ा)",
+          "answer": "old",
+          "hint": "old/young"
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "tip",
+      "body": "💡 अंग्रेज़ी में adjectives NOUN से पहले आते हैं:\n✓ 'a BIG family' (विशेषण + संज्ञा)\n✗ 'a family BIG' ← WRONG\n\nलेकिन 'to be' के बाद adjective बाद में आता है:\n✓ 'The family IS big.' (S + is + adjective)"
+    },
+    {
+      "id": "b7",
+      "type": "progress_checkpoint",
+      "title": "सप्ताह 4 — क्या आप कर सकते हैं?",
+      "items": [
+        "मैं अंग्रेज़ी में परिवार के सदस्यों का परिचय दे सकता/सकती हूँ",
+        "मैं adjectives use करके लोगों को describe कर सकता/सकती हूँ",
+        "मैं भावनाएँ (happy, sad, tired, excited) express कर सकता/सकती हूँ",
+        "मैं 'I have a big family' जैसे sentences बना सकता/सकती हूँ",
+        "महीने भर की पूरी अंग्रेज़ी सीखी — मुझे मेरी progress पर गर्व है!"
+      ],
+      "xpBonus": 20
+    }
+  ]
+}

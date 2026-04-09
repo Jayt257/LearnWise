@@ -1,0 +1,167 @@
+{
+  "activityId": "ja_hi_M1B2_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "बातचीत: एक नए छात्र का स्वागत (Welcoming a New Student)",
+  "learningGoal": "जापानी में धाराप्रवाह अपना परिचय देना और दूसरे के परिचय का उत्तर देना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B2_listening_5",
+    "ja_hi_M1B2_vocabulary_6"
+  ],
+  "instructions": "आप एक जापानी कक्षा में हैं। आपको अपना परिचय देना है और फिर अपने जापानी शिक्षक से बातचीत करनी है। नीचे दिए गए संकेतों को पढ़ें और जापानी में ज़ोर से बोलकर उत्तर दें।",
+  "speakingPrompt": "अपना नाम, देश और यह बताएं कि आप एक छात्र हैं।",
+  "scenario": "कक्षा का पहला दिन। शिक्षक ने आपको सामने बुलाया है अपना परिचय देने के लिए।",
+  "role": "नया विदेशी छात्र",
+  "conversationPartner": "शिक्षक (Sensei)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "कक्षा को संबोधित करें: 'आपसे मिलकर खुशी हुई। मैं [अपना नाम / राम] हूँ।' (हिरागाना का प्रयोग करते हुए सोचें)",
+      "expectedSpeakingPoints": [
+        "Hajimemashite",
+        "Watashi wa [Name] desu"
+      ],
+      "sampleResponse": {
+        "targetText": "はじめまして。わたしは らむ です。",
+        "transliteration": "Hajimemashite. Watashi wa Ramu desu.",
+        "baseTranslation": "आपसे मिलकर खुशी हुई। मैं राम हूँ।"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "अब अपना देश बताएं: 'मैं भारत से आया हूँ।'",
+      "expectedSpeakingPoints": [
+        "Indo kara kimashita"
+      ],
+      "sampleResponse": {
+        "targetText": "インドから きました。",
+        "transliteration": "Indo kara kimashita.",
+        "baseTranslation": "मैं भारत से आया हूँ।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "अपना पेशा बताएं: 'मैं एक छात्र हूँ।'",
+      "expectedSpeakingPoints": [
+        "Watashi wa gakusei desu"
+      ],
+      "sampleResponse": {
+        "targetText": "わたしは がくせい です。",
+        "transliteration": "Watashi wa gakusei desu.",
+        "baseTranslation": "मैं एक छात्र हूँ।"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "परिचय का अंत करें: 'कृपया मेरा ध्यान रखें।' (Yoroshiku onegaishimasu)",
+      "expectedSpeakingPoints": [
+        "Yoroshiku onegaishimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "よろしく おねがいします。",
+        "transliteration": "Yoroshiku onegaishimasu.",
+        "baseTranslation": "कृपया मेरा ध्यान रखें।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "あなたは あたらしい がくせい です。じこしょうかい を します。",
+    "transliteration": "Anata wa atarashii gakusei desu. Jikoshoukai o shimasu.",
+    "baseTranslation": "आप एक नए छात्र हैं। आप अपना परिचय दे रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "はじめまして。わたしは らむ です。",
+      "transliteration": "Hajimemashite. Watashi wa Ramu desu.",
+      "baseTranslation": "आपसे मिलकर खुशी हुई। मैं राम हूँ।"
+    },
+    {
+      "targetText": "インドから きました。よろしく おねがいします。",
+      "transliteration": "Indo kara kimashita. Yoroshiku onegaishimasu.",
+      "baseTranslation": "मैं भारत से आया हूँ। कृपया मेरा ध्यान रखें।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 15,
+    "vocabularyWeight": 15
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Hajimemashite",
+      "Name introduction",
+      "Country of origin",
+      "Yoroshiku onegaishimasu"
+    ],
+    "requiredKeywords": [
+      "desu",
+      "kimashita"
+    ],
+    "acceptableParaphrases": [
+      "Dropping 'Watashi wa' is perfectly fine"
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Pronunciation",
+          "weight": 50,
+          "description": "Clear articulation of 'r' and dakuten sounds"
+        },
+        {
+          "name": "Flow",
+          "weight": 50,
+          "description": "Natural pauses between sentences"
+        }
+      ]
+    },
+    "sampleAnswer": "Hajimemashite. Watashi wa Ramu desu. Indo kara kimashita. Watashi wa gakusei desu. Yoroshiku onegaishimasu.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "बहुत बढ़िया! अब आप जापान में किसी से भी विश्वास के साथ मिल सकते हैं।",
+    "onFail": "कृपया 'Yoroshiku onegaishimasu' का उच्चारण स्पष्ट रूप से करने का प्रयास करें। यह थोड़ा लंबा वाक्यांश है।",
+    "onPartial": "आपने अच्छा बोला, लेकिन वाक्यों के बीच थोड़ा और स्वाभाविक ठहराव (pause) लाएं।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "はじめまして。わたしは らむ です。インドから きました。わたしは がくせい です。よろしく おねがいします。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "introductions",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर 'Yoroshiku onegaishimasu' बोलने में परेशानी हो रही है, तो इसे धीरे-धीरे 5 बार बोलकर अभ्यास करें: यो-रो-शि-कु ओ-ने-गा-इ-शि-मा-सु।",
+  "commonMistakes": [
+    "'kara kimashita' के स्थान पर केवल 'desu' का प्रयोग करना (जैसे, Indo desu - जो तकनीकी रूप से समझा जा सकता है, लेकिन व्याकरणिक रूप से 'मैं भारत हूँ' हो जाता है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B2_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

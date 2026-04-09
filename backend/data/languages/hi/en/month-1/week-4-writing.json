@@ -1,0 +1,70 @@
+{
+  "id": 37,
+  "type": "writing",
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "अपने परिवार के बारे में लिखें",
+  "description": "Family members, adjectives और emotions use करके 50+ words में लिखें।",
+  "duration": "15 मिनट",
+  "xp": 35,
+  "tags": [
+    "writing",
+    "family",
+    "adjectives"
+  ],
+  "blocks": [
+    {
+      "id": "w1",
+      "type": "sentence_builder",
+      "title": "Build: 'मेरी बहन बहुत स्मार्ट है'",
+      "translation": "My sister is very smart",
+      "words": [
+        "very",
+        "My",
+        "is",
+        "smart",
+        "sister",
+        "brother"
+      ],
+      "correctOrder": [
+        1,
+        4,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "w2",
+      "type": "translation_task",
+      "title": "परिवार के sentences translate करें",
+      "instruction": "हिन्दी → अंग्रेज़ी",
+      "items": [
+        {
+          "source": "मेरे पिताजी बहुत लंबे हैं।",
+          "answer": "My father is very tall."
+        },
+        {
+          "source": "मेरी माँ एक teacher हैं।",
+          "answer": "My mother is a teacher."
+        },
+        {
+          "source": "मुझे अपने परिवार की बहुत याद आती है।",
+          "answer": "I miss my family very much."
+        },
+        {
+          "source": "हम एक बड़ा और खुश परिवार हैं।",
+          "answer": "We are a big and happy family."
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "type": "writing",
+      "prompt": "अंग्रेज़ी में अपने परिवार के बारे में लिखें। कम से कम 4-5 family members के बारे में बताएँ — उनकी age, job, और 2-3 adjectives use करें।",
+      "minWords": 50,
+      "sampleAnswer": "I have a wonderful family. My mother is 52 years old. She is kind, funny, and hardworking. She is a teacher. My father is 55. He is tall, serious, and very smart. He is a businessman. I have one sister. She is 22. She is young, beautiful, and clever. She is a student. I also have a grandmother. She is 75 and very loving. I love my family very much!"
+    }
+  ]
+}

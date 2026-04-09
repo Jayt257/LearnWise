@@ -1,0 +1,195 @@
+{
+  "activityId": "ja_hi_M1B6_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "लेखन: आपकी दैनिक दिनचर्या (Your Daily Routine)",
+  "learningGoal": "समय (ni), वस्तु (o) और क्रियाओं (masu/masen) का उपयोग करके अपनी दिनचर्या के बारे में वाक्य लिखना।",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M1B6_lesson_1"
+  ],
+  "instructions": "अब आपको अपनी दिनचर्या के बारे में लिखना है। नीचे दिए गए तीन हिंदी वाक्यों का जापानी (हिरागाना/काताकाना) में अनुवाद करें। कणों (Particles) - 'ni' (समय के लिए) और 'o' (कर्म के लिए) - का सही उपयोग सुनिश्चित करें।",
+  "writingPrompt": "भाग 1: 'मैं 7 बजे उठता हूँ।'\nभाग 2: 'मैं 8 बजे नाश्ता खाता हूँ।'\nभाग 3: 'मैं आज टीवी नहीं देखूँगा।'",
+  "promptGoal": "क्रियाओं (masu और masen) और कणों का उपयोग करके दैनिक दिनचर्या का वर्णन करना।",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "わたし は",
+      "transliteration": "watashi wa",
+      "baseTranslation": "मैं",
+      "partOfSpeech": "pronoun + particle"
+    },
+    {
+      "targetText": "しちじ",
+      "transliteration": "shichi-ji",
+      "baseTranslation": "7 बजे",
+      "partOfSpeech": "time"
+    },
+    {
+      "targetText": "おきます",
+      "transliteration": "okimasu",
+      "baseTranslation": "उठता हूँ",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "はちじ",
+      "transliteration": "hachi-ji",
+      "baseTranslation": "8 बजे",
+      "partOfSpeech": "time"
+    },
+    {
+      "targetText": "あさごはん",
+      "transliteration": "asagohan",
+      "baseTranslation": "नाश्ता",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "たべます",
+      "transliteration": "tabemasu",
+      "baseTranslation": "खाता हूँ",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "きょう",
+      "transliteration": "kyou",
+      "baseTranslation": "आज",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "テレビ",
+      "transliteration": "terebi",
+      "baseTranslation": "टीवी",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "みません",
+      "transliteration": "mimasen",
+      "baseTranslation": "नहीं देखूँगा",
+      "partOfSpeech": "verb (negative)"
+    },
+    {
+      "targetText": "に",
+      "transliteration": "ni",
+      "baseTranslation": "को/पर (At - time particle)",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "を",
+      "transliteration": "o",
+      "baseTranslation": "को (Object particle)",
+      "partOfSpeech": "particle"
+    }
+  ],
+  "referenceHints": [
+    "समय (shichi-ji, hachi-ji) के ठीक बाद 'ni' (に) लगाएँ।",
+    "कर्म (asagohan, terebi) के ठीक बाद 'o' (を) लगाएँ। 'お' का प्रयोग न करें।",
+    "विदेशी शब्द (terebi) काताकाना में लिखें।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "わたし は しちじ に おきます。はちじ に あさごはん を たべます。きょう は テレビ を みません。",
+      "transliteration": "Watashi wa shichi-ji ni okimasu. Hachi-ji ni asagohan o tabemasu. Kyou wa terebi o mimasen.",
+      "baseTranslation": "मैं 7 बजे उठता हूँ। 8 बजे नाश्ता खाता हूँ। आज टीवी नहीं देखूँगा।",
+      "qualityLevel": "excellent",
+      "annotation": "SOV संरचना, कणों और सकारात्मक/नकारात्मक क्रियाओं का उत्तम संयोजन।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Verb Forms",
+      "weight": 30,
+      "description": "क्या okimasu, tabemasu, और mimasen का सही प्रयोग हुआ है?"
+    },
+    {
+      "criterion": "Particle 'o' (を)",
+      "weight": 30,
+      "description": "क्या कर्म (Object) के बाद सही 'o' (を) का प्रयोग किया गया है (お नहीं)?"
+    },
+    {
+      "criterion": "Particle 'ni' (に)",
+      "weight": 20,
+      "description": "क्या समय के बाद 'ni' लगाया गया है?"
+    },
+    {
+      "criterion": "Katakana",
+      "weight": 20,
+      "description": "क्या 'terebi' को सही काताकाना में लिखा गया है?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "わたし は しちじ に おきます。はちじ に あさごはん を たべます。きょう は テレビ を みません。",
+    "acceptableAlternates": [
+      "わたし は しちじ に おきます。わたし は はちじ に あさごはん を たべます。きょう わたし は テレビ を みません。"
+    ],
+    "requiredKeywords": [
+      "しちじ に",
+      "おきます",
+      "あさごはん を",
+      "たべます",
+      "きょう",
+      "テレビ を",
+      "みません"
+    ],
+    "grammarBaseline": "Proper use of time particle (ni) and object particle (o).",
+    "lengthExpectation": "3 distinct sentences",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy",
+          "weight": 100,
+          "description": "Correct mapping of verbs to their objects and times."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "परफेक्ट! आपने जापानी व्याकरण के सबसे महत्वपूर्ण नियम (SOV और कण) को सफलतापूर्वक लागू किया है।",
+    "onFail": "कृपया कणों की जाँच करें। याद रखें: [Time] ni [Object] o [Verb]masu.",
+    "onPartial": "आपने अच्छा किया है। सुनिश्चित करें कि आप 'o' के लिए を का उपयोग कर रहे हैं और 'terebi' को काताकाना में लिख रहे हैं।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "routine",
+    "verbs",
+    "particles"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "जापानी में सब्जेक्ट (Watashi wa) को हर वाक्य में दोहराने की ज़रूरत नहीं होती है। आप इसे पहले वाक्य में लिखकर छोड़ सकते हैं।",
+  "commonMistakes": [
+    "'o' कण के लिए 'お' का प्रयोग करना। हमेशा 'を' टाइप करें ('wo' टाइप करने से यह आता है)।",
+    "'mimasen' की जगह 'mimasu' लिख देना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}
+

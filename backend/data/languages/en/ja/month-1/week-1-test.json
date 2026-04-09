@@ -1,0 +1,95 @@
+{
+  "_comment": "English → Japanese | Month 1 Week 1 | Test — 10 Questions",
+  "id": 7,
+  "type": "test",
+  "title": "Week 1 Test: Greetings & Hiragana",
+  "description": "Test your knowledge of Week 1 — Japanese greetings and Hiragana basics.",
+  "duration": "15 min",
+  "xp": 50,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-ja",
+  "tags": ["test", "greetings", "hiragana", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "quiz",
+      "question": "What is the Japanese greeting for 'Good morning'?",
+      "options": ["こんにちは", "こんばんは", "おはようございます", "さようなら"],
+      "correct": 2,
+      "explanation": "'おはようございます (Ohayou gozaimasu)' is the morning greeting. 'こんにちは' is for afternoon, 'こんばんは' for evening."
+    },
+    {
+      "id": "b2",
+      "type": "quiz",
+      "question": "What does 'ありがとうございます' mean?",
+      "options": ["Excuse me", "Thank you", "Hello", "Goodbye"],
+      "correct": 1,
+      "explanation": "'ありがとうございます (Arigatou gozaimasu)' means 'Thank you' — the formal version. The casual form is just 'ありがとう'."
+    },
+    {
+      "id": "b3",
+      "type": "quiz",
+      "question": "Which Hiragana character represents the 'u' vowel sound?",
+      "options": ["あ", "い", "う", "え"],
+      "correct": 2,
+      "explanation": "'う' = 'u' sound. あ=a, い=i, え=e."
+    },
+    {
+      "id": "b4",
+      "type": "quiz",
+      "question": "Where does the verb go in a Japanese sentence?",
+      "options": ["At the beginning", "In the middle", "Before the subject", "At the end"],
+      "correct": 3,
+      "explanation": "Japanese is SOV — the Verb always comes at the END. Unlike English (SVO), Japanese puts the action word last."
+    },
+    {
+      "id": "b5",
+      "type": "quiz",
+      "question": "What do you say when meeting someone for the first time?",
+      "options": ["さようなら", "はじめまして", "おやすみなさい", "ただいま"],
+      "correct": 1,
+      "explanation": "'はじめまして (Hajimemashite)' is used when meeting someone for the first time. 'さようなら' means goodbye."
+    },
+    {
+      "id": "b6",
+      "type": "quiz",
+      "question": "What is the usage of 'すみません'?",
+      "options": ["To say thank you", "Excuse me and to get attention", "For morning greeting", "To say welcome"],
+      "correct": 1,
+      "explanation": "'すみません (Sumimasen)' is used both to apologize slightly AND to get someone's attention — very versatile!"
+    },
+    {
+      "id": "b7",
+      "type": "quiz",
+      "question": "What does 'わたし' mean?",
+      "options": ["You", "He/She", "I/Me", "We"],
+      "correct": 2,
+      "explanation": "'わたし (watashi)' = 'I' or 'me' — the first person singular pronoun in Japanese."
+    },
+    {
+      "id": "b8",
+      "type": "quiz",
+      "question": "How many writing systems does Japanese use?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "Japanese uses THREE writing systems: ひらがな (Hiragana), カタカナ (Katakana), and 漢字 (Kanji)."
+    },
+    {
+      "id": "b9",
+      "type": "quiz",
+      "question": "What does 'はい' mean?",
+      "options": ["No", "Maybe", "Yes", "Okay"],
+      "correct": 2,
+      "explanation": "'はい (Hai)' = 'Yes'. 'いいえ (Iie)' = 'No'."
+    },
+    {
+      "id": "b10",
+      "type": "quiz",
+      "question": "Which Hiragana represents the 'O' vowel?",
+      "options": ["あ", "う", "え", "お"],
+      "correct": 3,
+      "explanation": "'お' = 'o' sound. This is one of the 5 core Hiragana vowels: あいうえお."
+    }
+  ]
+}

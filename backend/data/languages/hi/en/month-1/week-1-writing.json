@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Writing — Introductions",
+  "id": 5,
+  "type": "writing",
+  "title": "लेखन अभ्यास: अंग्रेज़ी में परिचय",
+  "description": "अंग्रेज़ी में अपना परिचय लिखें और बुनियादी वाक्य बनाएँ।",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["writing", "introduction", "sentences", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए",
+      "translation": "मेरा नाम राज है।",
+      "words": ["is", "My", "name", "Raj", "am"],
+      "correctOrder": [1, 2, 0, 3]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए — 2",
+      "translation": "मैं अंग्रेज़ी सीख रहा हूँ।",
+      "words": ["English", "learning", "I", "am", "Hindi"],
+      "correctOrder": [2, 3, 1, 0]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "हिंदी से अंग्रेज़ी में अनुवाद करें",
+      "instruction": "इन वाक्यों को अंग्रेज़ी में लिखें:",
+      "items": [
+        { "source": "नमस्ते! (दोपहर में)", "answer": "Good afternoon!" },
+        { "source": "मेरा नाम ___ है।", "answer": "My name is ___." },
+        { "source": "धन्यवाद।", "answer": "Thank you." },
+        { "source": "आपसे मिलकर खुशी हुई।", "answer": "Nice to meet you." },
+        { "source": "हाँ, मैं समझ गया।", "answer": "Yes, I understand." }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "अंग्रेज़ी में अपना परिचय लिखें। निम्नलिखित जानकारी शामिल करें:\n1. आपका नाम (My name is...)\n2. आप कहाँ से हैं (I am from...)\n3. आप अंग्रेज़ी क्यों सीख रहे हैं\n4. आपको क्या पसंद है (I like...)\n\nइस सप्ताह सीखे वाक्यों का प्रयोग करें।",
+      "minWords": 30,
+      "sampleAnswer": "Hello! My name is Raj. I am from India. I live in Delhi.\nI am learning English for my career and to travel the world.\nI like cricket and Bollywood movies.\nNice to meet you! Thank you.\n\nहिंदी अनुवाद: हेलो! मेरा नाम राज है। मैं भारत से हूँ। मैं दिल्ली में रहता हूँ। मैं अपने करियर और दुनिया घूमने के लिए अंग्रेज़ी सीख रहा हूँ। मुझे क्रिकेट और बॉलीवुड फ़िल्में पसंद हैं।"
+    }
+  ]
+}

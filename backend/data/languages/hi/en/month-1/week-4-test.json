@@ -1,0 +1,190 @@
+{
+  "id": 39,
+  "type": "test",
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "सप्ताह 4 परीक्षा — परिवार, भावनाएँ और विशेषण",
+  "description": "10 सवाल: family vocabulary, adjectives, और emotions।",
+  "duration": "8 मिनट",
+  "xp": 50,
+  "tags": [
+    "test",
+    "week4"
+  ],
+  "passingScore": 70,
+  "blocks": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "question": "'माँ' के लिए अंग्रेज़ी में?",
+      "options": [
+        "Father",
+        "Sister",
+        "Mother",
+        "Grandmother"
+      ],
+      "correct": 2,
+      "explanation": "Mother = माँ। Father = पिताजी। Sister = बहन। Grandmother = दादी/नानी।"
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "question": "'She is a ___ woman.' — दयालु के लिए?",
+      "options": [
+        "kind",
+        "unkind",
+        "angry",
+        "sad"
+      ],
+      "correct": 0,
+      "explanation": "Kind = दयालु। Unkind = निर्दयी। Angry = गुस्सा। Sad = उदास।"
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "question": "Adjective sentence में कहाँ आता है?",
+      "options": [
+        "Verb के बाद",
+        "Noun के बाद",
+        "Noun के पहले",
+        "Sentence के अंत में"
+      ],
+      "correct": 2,
+      "explanation": "'a BIG family', 'a KIND mother' — adjective noun के पहले। But: 'The family IS big.' — to be के बाद।"
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "question": "'I miss my family' का मतलब?",
+      "options": [
+        "मैं परिवार के साथ नहीं हूँ",
+        "मुझे परिवार की याद आती है",
+        "मैं परिवार को पसंद नहीं करता",
+        "मेरा परिवार नहीं है"
+      ],
+      "correct": 1,
+      "explanation": "'Miss' = याद आना। 'I miss you' = मुझे तुम्हारी याद आती है।"
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "question": "'Excited' का हिन्दी अर्थ?",
+      "options": [
+        "थका हुआ",
+        "उदास",
+        "गुस्सा",
+        "उत्साहित"
+      ],
+      "correct": 3,
+      "explanation": "Excited = उत्साहित (positive emotion)। Tired = थका हुआ। Sad = उदास। Angry = गुस्सा।"
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "question": "'Beautiful' = कितने syllables?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct": 2,
+      "explanation": "Beautiful = BEW-ti-ful = 3 syllables। Common mistake: 'beau-ti-ful' = 4 syllables सोचना।"
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "question": "'My father is ___ and strong.' — लंबे के लिए?",
+      "options": [
+        "short",
+        "tall",
+        "small",
+        "old"
+      ],
+      "correct": 1,
+      "explanation": "Tall = लंबा। Short = छोटा (कद में)। Small = छोटा (size में)। Old = बूढ़ा।"
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "question": "Sentence: 'I have a ___ family.' — बड़े के लिए?",
+      "options": [
+        "small",
+        "old",
+        "big",
+        "happy"
+      ],
+      "correct": 2,
+      "explanation": "Big = बड़ा। Small = छोटा। Old = बूढ़ा। Happy = खुश।"
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "question": "'Proud' का हिन्दी अर्थ?",
+      "options": [
+        "उदास",
+        "शर्मिंदा",
+        "गर्व",
+        "चिंतित"
+      ],
+      "correct": 2,
+      "explanation": "Proud = गर्व। Sad = उदास। Ashamed = शर्मिंदा। Worried/Anxious = चिंतित।"
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "question": "'My sister is younger.' में 'younger' क्या है?",
+      "options": [
+        "Noun",
+        "Verb",
+        "Adjective",
+        "Adverb"
+      ],
+      "correct": 2,
+      "explanation": "Younger (युवा की तुलनात्मक form) = Adjective। यह sister को describe करता है।"
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "title": "Family Members Match",
+      "instruction": "अंग्रेज़ी और हिन्दी मिलाएँ:",
+      "leftItems": [
+        "Mother",
+        "Father",
+        "Brother",
+        "Sister",
+        "Grandmother"
+      ],
+      "rightItems": [
+        "भाई",
+        "दादी/नानी",
+        "माँ",
+        "बहन",
+        "पिताजी"
+      ],
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Speaking — English Introduction",
+  "id": 8,
+  "type": "speaking",
+  "title": "बोलने का अभ्यास: अंग्रेज़ी में परिचय",
+  "description": "अंग्रेज़ी में अपना परिचय दें और अभिवादन का अभ्यास करें।",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["speaking", "introduction", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "दृश्य 1: ऑफ़िस में पहला दिन",
+      "scenario": "कार्यालय में नई मुलाकात",
+      "yourRole": "नया कर्मचारी",
+      "partnerRole": "सहकर्मी (Colleague)",
+      "context": "आप एक नई नौकरी में पहले दिन हैं। आपके सहकर्मी आपसे मिलने आते हैं। आपको अंग्रेज़ी में परिचय देना है।",
+      "goal": "अंग्रेज़ी में परिचय दें, नाम पूछें, और बताएँ आप कहाँ से हैं।",
+      "usefulPhrases": [
+        "Good morning! My name is ___. (शुभ प्रभात! मेरा नाम ___ है।)",
+        "I am from India. (मैं भारत से हूँ।)",
+        "What is your name? (आपका नाम क्या है?)",
+        "Nice to meet you! (आपसे मिलकर खुशी हुई!)",
+        "I am learning English. (मैं अंग्रेज़ी सीख रहा/रही हूँ।)"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roleplay_card",
+      "title": "दृश्य 2: हवाई अड्डे पर",
+      "scenario": "Airport पर विदेशी पर्यटक से मुलाकात",
+      "yourRole": "भारतीय पर्यटक",
+      "partnerRole": "विदेशी पर्यटक",
+      "context": "आप हवाई अड्डे पर हैं। एक विदेशी व्यक्ति आपसे बात करना चाहता है।",
+      "goal": "अंग्रेज़ी में बातचीत करें, अभिवादन करें और बुनियादी सवालों का जवाब दें।",
+      "usefulPhrases": [
+        "Hello! How are you? (नमस्ते! आप कैसे हैं?)",
+        "I am fine, thank you! (मैं ठीक हूँ, धन्यवाद!)",
+        "I am from India. (मैं भारत से हूँ।)",
+        "Do you speak Hindi? (क्या आप हिंदी बोलते हैं?)",
+        "Goodbye! Have a nice trip! (अलविदा! यात्रा अच्छी रहे!)"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "speaking",
+      "prompt": "ज़ोर से बोलते हुए अभ्यास करें — अंग्रेज़ी में अपना 1 मिनट का परिचय दें:\n1. अपना नाम बताएँ (My name is...)\n2. बताएँ आप कहाँ से हैं (I am from...)\n3. बताएँ आप अंग्रेज़ी क्यों सीख रहे हैं (I am learning English because...)\n4. अपनी पसंद बताएँ (I like...)\n5. समाप्त करें: Nice to meet you!",
+      "hints": [
+        "Hello! My name is ___. (नमस्ते! मेरा नाम ___ है।)",
+        "I am from Delhi, India. (मैं दिल्ली, भारत से हूँ।)",
+        "I like Bollywood and cricket! (मुझे बॉलीवुड और क्रिकेट पसंद है!)",
+        "Nice to meet you! (आपसे मिलकर खुशी हुई!)"
+      ]
+    }
+  ]
+}

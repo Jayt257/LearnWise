@@ -1,0 +1,90 @@
+{
+  "id": 30,
+  "type": "vocab",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "सप्ताह 3 — Numbers & Time Review",
+  "description": "Numbers 1-100 और time expressions का review।",
+  "duration": "8 मिनट",
+  "xp": 20,
+  "tags": [
+    "vocab",
+    "numbers",
+    "review"
+  ],
+  "blocks": [
+    {
+      "id": "vr1",
+      "type": "vocab_table",
+      "title": "Key Numbers & Time Words",
+      "words": [
+        {
+          "word": "One to Ten",
+          "meaning": "एक से दस",
+          "example": "I have one brother."
+        },
+        {
+          "word": "Twenty / Thirty / Forty",
+          "meaning": "बीस / तीस / चालीस",
+          "example": "She is forty years old."
+        },
+        {
+          "word": "Hundred / Thousand",
+          "meaning": "सौ / हज़ार",
+          "example": "One hundred rupees."
+        },
+        {
+          "word": "What time is it?",
+          "meaning": "समय क्या है?",
+          "example": "What time is it, please?"
+        },
+        {
+          "word": "Morning / Afternoon",
+          "meaning": "सुबह / दोपहर",
+          "example": "See you this afternoon!"
+        },
+        {
+          "word": "Today / Tomorrow / Yesterday",
+          "meaning": "आज / कल / कल (बीता)",
+          "example": "The exam is tomorrow."
+        },
+        {
+          "word": "Week / Month / Year",
+          "meaning": "हफ्ता / महीना / साल",
+          "example": "Three months of English!"
+        },
+        {
+          "word": "Always / Never / Sometimes",
+          "meaning": "हमेशा / कभी नहीं / कभी-कभी",
+          "example": "I always drink chai."
+        }
+      ]
+    },
+    {
+      "id": "vr2",
+      "type": "ordering",
+      "title": "Schedule Sentence Arrange करें",
+      "instruction": "सही order में arrange करें: 'I wake up at 6 AM every morning'",
+      "words": [
+        "AM",
+        "morning",
+        "up",
+        "every",
+        "at",
+        "I",
+        "6",
+        "wake"
+      ],
+      "correctOrder": [
+        5,
+        6,
+        2,
+        4,
+        0,
+        3,
+        4
+      ]
+    }
+  ]
+}

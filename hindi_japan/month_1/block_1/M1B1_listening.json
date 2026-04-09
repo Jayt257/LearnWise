@@ -1,0 +1,155 @@
+{
+  "activityId": "ja_hi_M1B1_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "जापानी अभिवादन सुनना (Listening to Japanese Greetings)",
+  "learningGoal": "तेज़ और स्वाभाविक गति से बोले गए जापानी शब्दों और अभिवादनों को समझना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_hi_M1B1_lesson_1"
+  ],
+  "instructions": "नीचे दिए गए ऑडियो को ध्यान से सुनें। ऑडियो में दिन के अलग-अलग समय पर लोग एक-दूसरे का अभिवादन कर रहे हैं। ऑडियो सुनने के बाद, प्रश्नों के उत्तर दें।",
+  "listeningGoal": "दिन के समय के आधार पर सही अभिवादन को पहचानना।",
+  "audioScenario": "एक जापानी स्कूल में छात्र और शिक्षक दिन के अलग-अलग समय पर मिलते हैं।",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "おはようございます、先生。",
+      "transliteration": "Ohayou gozaimasu, sensei.",
+      "baseTranslation": "शुभ प्रभात, शिक्षक जी।"
+    },
+    {
+      "targetText": "おはよう、田中くん。",
+      "transliteration": "Ohayou, Tanaka-kun.",
+      "baseTranslation": "शुभ प्रभात, तनाका।"
+    },
+    {
+      "targetText": "こんにちは。",
+      "transliteration": "Konnichiwa.",
+      "baseTranslation": "नमस्ते (दोपहर)।"
+    },
+    {
+      "targetText": "こんにちは。いい天気ですね。",
+      "transliteration": "Konnichiwa. Ii tenki desu ne.",
+      "baseTranslation": "नमस्ते। मौसम अच्छा है न?"
+    },
+    {
+      "targetText": "さようなら。",
+      "transliteration": "Sayounara.",
+      "baseTranslation": "अलविदा।"
+    }
+  ],
+  "audioTranscriptFull": "おはようございます、先生。おはよう、田中くん。こんにちは。こんにちは。いい天気ですね。さようなら。",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "छात्र शिक्षक को सुबह क्या कहकर संबोधित करता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Konnichiwa",
+        "Ohayou gozaimasu",
+        "Sayounara"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "शिक्षक छात्र (तनाका) को क्या उत्तर देते हैं?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ohayou, Tanaka-kun.",
+        "Konnichiwa.",
+        "Konbanwa."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "दोपहर के समय मिलने पर कौन सा अभिवादन बोला गया?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Konnichiwa",
+        "Ohayou",
+        "Arigatou"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "फन एक्टिविटी: 'ध्वनि पहचान' - ऑडियो में कुल कितनी बार 'Konnichiwa' शब्द बोला गया है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "1 बार",
+        "2 बार",
+        "3 बार"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Ohayou gozaimasu",
+      "lq_2": "Ohayou, Tanaka-kun.",
+      "lq_3": "Konnichiwa",
+      "lq_4": "2 बार"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "शानदार सुनने का कौशल! आपने सभी अभिवादनों को सही पहचाना।",
+    "onFail": "ऑडियो को धीमी गति (slow playback) में दोबारा सुनें। जापानी बहुत तेज़ी से बोली जा सकती है।",
+    "onPartial": "आपने अच्छा किया, लेकिन कुछ अभिवादनों को पहचानने में चूक गए। अभ्यास जारी रखें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "おはようございます、先生。おはよう、田中くん。こんにちは。こんにちは。いい天気ですね。さようなら。",
+    "audioLanguage": "ja",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "greetings"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "शिक्षक से बात करते समय हमेशा 'gozaimasu' का प्रयोग किया जाता है।",
+  "commonMistakes": [
+    "तेज़ गति के कारण Ohayou और Ohayou gozaimasu के बीच अंतर न कर पाना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

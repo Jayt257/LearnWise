@@ -1,0 +1,56 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Speaking",
+  "id": 118,
+  "type": "speaking",
+  "title": "बोलने का अभ्यास: दुकान में खरीदारी",
+  "description": "दुकानदार से बात करना और क़ीमत पूछना।",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["speaking", "shopping", "prices", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "दृश्य 1: कपड़ों की दुकान में",
+      "scenario": "कपड़े खरीदना",
+      "yourRole": "ग्राहक",
+      "partnerRole": "दुकानदार",
+      "context": "आप एक जैकेट (ジャケット) खरीदना चाहते हैं।",
+      "goal": "दुकानदार को बुलाएँ, क़ीमत पूछें और फिर उसे खरीदें।",
+      "usefulPhrases": [
+        "すみません。(Sumimasen.) — माफ़ कीजिए।",
+        "このジャケットはいくらですか？(Kono jaketto wa ikura desu ka?) — यह जैकेट कितने की है?",
+        "それをみせてください。(Sore wo misete kudasai.) — वह(जैकेट) दिखाइए।",
+        "これをください。(Kore wo kudasai.) — यह (जैकेट) दे दीजिए।"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roleplay_card",
+      "title": "दृश्य 2: इलेक्ट्रॉनिक्स दुकान में तुलना",
+      "scenario": "दो चीज़ों की तुलना",
+      "yourRole": "ग्राहक",
+      "partnerRole": "दुकानदार",
+      "context": "दो घड़ियाँ हैं: एक पास (この) और एक दूर (あの)।",
+      "goal": "पास वाली और দূর वाली चीज़ की क़ीमत पूछकर बताएँ कौन सी चाहिए (सस्ती वाली)।",
+      "usefulPhrases": [
+        "このとけいはいくらですか？(Kono tokei wa ikura desu ka?)",
+        "あのとけいはいくらですか？(Ano tokei wa ikura desu ka?)",
+        "あっちのほうがやすいですね。(Acchi no hou ga yasui desu ne!) — वह वाली ज़्यादा सस्ती है!",
+        "じゃあ、あのとけいをください。(Jaa, ano tokei wo kudasai.) — तो, वह घड़ी दे दीजिए。"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "speaking",
+      "prompt": "दुकानदार के रूप में बोलें: (Irasshaimase! San-zen gohyaku-en desu. Arigatou gozaimashita!)\nऔर ग्राहक के रूप में बोलें: (Sumimasen. Sore wa ikura desu ka? Kore wo kudasai.)",
+      "hints": [
+        "दुकानदार हमेशा विनम्र होते हैं: いらっしゃいませ！(Irasshaimase!)",
+        "ग्राहक 'Kore wo kudasai' कहकर सामान खरीदता है।"
+      ]
+    }
+  ]
+}

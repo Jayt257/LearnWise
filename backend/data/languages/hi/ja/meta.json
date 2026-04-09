@@ -1,0 +1,151 @@
+{
+  "_comment": "Hindi → Japanese language pair metadata",
+  "_version": "3.0",
+  "pairId": "hi-ja",
+  "source": {
+    "id": "hi",
+    "name": "Hindi",
+    "flag": "🇮🇳"
+  },
+  "target": {
+    "id": "ja",
+    "name": "Japanese",
+    "native": "日本語",
+    "flag": "🇯🇵"
+  },
+  "totalMonths": 6,
+  "status": "active",
+  "lastUpdated": "2026-04",
+  "months": [
+    {
+      "month": 1,
+      "title": "Foundation (Hiragana & Basics)",
+      "description": "Learn Japanese basics from Hindi.",
+      "targetLevel": "A1",
+      "idRange": [1, 43],
+      "weeks": [
+        {
+          "week": 1,
+          "globalWeek": 1,
+          "title": "Hiragana Vowels & Greetings",
+          "activities": [
+            { "id": 1, "type": "lesson", "file": "month-1/week-1-lesson.json", "xp": 30 },
+            { "id": 2, "type": "vocab", "file": "month-1/week-1-vocab.json", "xp": 20 },
+            { "id": 3, "type": "reading", "file": "month-1/week-1-reading.json", "xp": 25 },
+            { "id": 4, "type": "pronunciation", "file": "month-1/week-1-pronunciation.json", "xp": 30 },
+            { "id": 5, "type": "writing", "file": "month-1/week-1-writing.json", "xp": 35 },
+            { "id": 6, "type": "listening", "file": "month-1/week-1-listening.json", "xp": 40 },
+            { "id": 7, "type": "test", "file": "month-1/week-1-test.json", "xp": 50 },
+            { "id": 8, "type": "speaking", "file": "month-1/week-1-speaking.json", "xp": 35 },
+            { "id": 9, "type": "vocab", "label": "Vocabulary Review", "file": "month-1/week-1-vocab-review.json", "xp": 20 },
+            { "id": 10, "type": "pronunciation", "label": "Pronunciation Practice 2", "file": "month-1/week-1-pronunciation-2.json", "xp": 30 }
+          ]
+        },
+        {
+          "week": 2,
+          "globalWeek": 2,
+          "title": "Consonants & Daily Objects",
+          "activities": [
+            { "id": 11, "type": "lesson", "file": "month-1/week-2-lesson.json", "xp": 30 },
+            { "id": 12, "type": "vocab", "file": "month-1/week-2-vocab.json", "xp": 20 },
+            { "id": 13, "type": "reading", "file": "month-1/week-2-reading.json", "xp": 25 },
+            { "id": 14, "type": "pronunciation", "file": "month-1/week-2-pronunciation.json", "xp": 30 },
+            { "id": 15, "type": "writing", "file": "month-1/week-2-writing.json", "xp": 35 },
+            { "id": 16, "type": "listening", "file": "month-1/week-2-listening.json", "xp": 40 },
+            { "id": 17, "type": "test", "file": "month-1/week-2-test.json", "xp": 50 },
+            { "id": 18, "type": "speaking", "file": "month-1/week-2-speaking.json", "xp": 35 },
+            { "id": 19, "type": "reading", "label": "Extended Reading", "file": "month-1/week-2-reading-ext.json", "xp": 30 },
+            { "id": 20, "type": "pronunciation", "label": "Pronunciation Practice 2", "file": "month-1/week-2-pronunciation-2.json", "xp": 30 },
+            { "id": 21, "type": "test", "label": "Month 1 Mid-Check (Part 1)", "file": "month-1/week-2-midtest.json", "xp": 75, "isMidTest": true, "questions": 20 }
+          ]
+        },
+        {
+          "week": 3,
+          "globalWeek": 3,
+          "title": "Numbers, Time & Questions",
+          "activities": [
+            { "id": 22, "type": "lesson", "file": "month-1/week-3-lesson.json", "xp": 30 },
+            { "id": 23, "type": "vocab", "file": "month-1/week-3-vocab.json", "xp": 20 },
+            { "id": 24, "type": "reading", "file": "month-1/week-3-reading.json", "xp": 25 },
+            { "id": 25, "type": "pronunciation", "file": "month-1/week-3-pronunciation.json", "xp": 30 },
+            { "id": 26, "type": "writing", "file": "month-1/week-3-writing.json", "xp": 35 },
+            { "id": 27, "type": "listening", "file": "month-1/week-3-listening.json", "xp": 40 },
+            { "id": 28, "type": "test", "file": "month-1/week-3-test.json", "xp": 50 },
+            { "id": 29, "type": "speaking", "file": "month-1/week-3-speaking.json", "xp": 35 },
+            { "id": 30, "type": "vocab", "label": "Vocabulary Review", "file": "month-1/week-3-vocab-review.json", "xp": 20 },
+            { "id": 31, "type": "pronunciation", "label": "Pronunciation Practice 2", "file": "month-1/week-3-pronunciation-2.json", "xp": 30 },
+            { "id": 32, "type": "test", "label": "Month 1 Mid-Check (Part 2)", "file": "month-1/week-3-midtest.json", "xp": 75, "isMidTest": true, "questions": 20 }
+          ]
+        },
+        {
+          "week": 4,
+          "globalWeek": 4,
+          "title": "Basic Sentences & Family",
+          "activities": [
+            { "id": 33, "type": "lesson", "file": "month-1/week-4-lesson.json", "xp": 30 },
+            { "id": 34, "type": "vocab", "file": "month-1/week-4-vocab.json", "xp": 20 },
+            { "id": 35, "type": "reading", "file": "month-1/week-4-reading.json", "xp": 25 },
+            { "id": 36, "type": "pronunciation", "file": "month-1/week-4-pronunciation.json", "xp": 30 },
+            { "id": 37, "type": "writing", "file": "month-1/week-4-writing.json", "xp": 35 },
+            { "id": 38, "type": "listening", "file": "month-1/week-4-listening.json", "xp": 40 },
+            { "id": 39, "type": "test", "file": "month-1/week-4-test.json", "xp": 50 },
+            { "id": 40, "type": "speaking", "file": "month-1/week-4-speaking.json", "xp": 35 },
+            { "id": 41, "type": "reading", "label": "Extended Reading", "file": "month-1/week-4-reading-ext.json", "xp": 30 },
+            { "id": 42, "type": "pronunciation", "label": "Pronunciation Practice 2", "file": "month-1/week-4-pronunciation-2.json", "xp": 30 }
+          ]
+        }
+      ],
+      "milestone": {
+        "id": 43,
+        "type": "milestone",
+        "file": "month-1/milestone.json",
+        "xp": 100,
+        "label": "Month 1 Complete! 🏅"
+      }
+    },
+    {
+      "month": 2,
+      "title": "Sentence Building & Core Grammar",
+      "description": "Build sentences and learn about daily routines.",
+      "targetLevel": "A1+",
+      "idRange": [101, 143],
+      "weeks": [
+        {
+          "week": 1,
+          "globalWeek": 5,
+          "title": "Daily Routines & Present Tense",
+          "activities": [
+            { "id": 101, "type": "lesson", "file": "month-2/week-1-lesson.json", "xp": 30 },
+            { "id": 102, "type": "vocab", "file": "month-2/week-1-vocab.json", "xp": 20 },
+            { "id": 103, "type": "reading", "file": "month-2/week-1-reading.json", "xp": 25 },
+            { "id": 104, "type": "pronunciation", "file": "month-2/week-1-pronunciation.json", "xp": 30 },
+            { "id": 105, "type": "writing", "file": "month-2/week-1-writing.json", "xp": 35 },
+            { "id": 106, "type": "listening", "file": "month-2/week-1-listening.json", "xp": 40 },
+            { "id": 107, "type": "test", "file": "month-2/week-1-test.json", "xp": 50 },
+            { "id": 108, "type": "speaking", "file": "month-2/week-1-speaking.json", "xp": 35 },
+            { "id": 109, "type": "vocab", "label": "Vocabulary Review", "file": "month-2/week-1-vocab-review.json", "xp": 20 },
+            { "id": 110, "type": "pronunciation", "label": "Pronunciation Practice 2", "file": "month-2/week-1-pronunciation-2.json", "xp": 30 }
+          ]
+        },
+        {
+          "week": 2,
+          "globalWeek": 6,
+          "title": "Shopping, Prices & Grammar",
+          "activities": [
+            { "id": 111, "type": "lesson", "file": "month-2/week-2-lesson.json", "xp": 30 },
+            { "id": 112, "type": "vocab", "file": "month-2/week-2-vocab.json", "xp": 20 },
+            { "id": 113, "type": "reading", "file": "month-2/week-2-reading.json", "xp": 25 },
+            { "id": 114, "type": "pronunciation", "file": "month-2/week-2-pronunciation.json", "xp": 30 },
+            { "id": 115, "type": "writing", "file": "month-2/week-2-writing.json", "xp": 35 },
+            { "id": 116, "type": "listening", "file": "month-2/week-2-listening.json", "xp": 40 },
+            { "id": 117, "type": "test", "file": "month-2/week-2-test.json", "xp": 50 },
+            { "id": 118, "type": "speaking", "file": "month-2/week-2-speaking.json", "xp": 35 },
+            { "id": 119, "type": "reading", "label": "Extended Reading", "file": "month-2/week-2-reading-ext.json", "xp": 30 },
+            { "id": 120, "type": "pronunciation", "label": "Pronunciation Practice 2", "file": "month-2/week-2-pronunciation-2.json", "xp": 30 },
+            { "id": 121, "type": "test", "label": "Month 2 Mid-Check (Part 1)", "file": "month-2/week-2-midtest.json", "xp": 75, "isMidTest": true, "questions": 20 }
+          ]
+        }
+      ]
+    }
+  ]
+}

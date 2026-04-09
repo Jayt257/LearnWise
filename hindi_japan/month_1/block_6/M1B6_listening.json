@@ -1,0 +1,211 @@
+{
+  "activityId": "ja_hi_M1B6_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "श्रवण: आहार और दिनचर्या (Diet & Routine Listening)",
+  "learningGoal": "क्रियाओं (masu/masen) और समय के साथ बोले गए वाक्यों को सुनकर समझना।",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 50,
+  "prerequisites": [
+    "ja_hi_M1B6_lesson_1"
+  ],
+  "instructions": "ऑडियो में दो लोग (एक पुरुष और एक महिला) अपनी दिनचर्या के बारे में बात कर रहे हैं। ध्यान से सुनें कि कौन क्या खाता/पीता है, और कौन क्या नहीं खाता/पीता है। नकारात्मक (masen) शब्दों पर विशेष ध्यान दें।",
+  "listeningGoal": "सकारात्मक (masu) और नकारात्मक (masen) क्रियाओं के बीच अंतर सुनना और समझना।",
+  "audioScenario": "दो दोस्तों के बीच उनकी सुबह की दिनचर्या के बारे में बातचीत।",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "おとこ：おはようございます。わたし は ろくじ に おきます。",
+      "transliteration": "Otoko: Ohayou gozaimasu. Watashi wa roku-ji ni okimasu.",
+      "baseTranslation": "पुरुष: सुप्रभात। मैं 6 बजे उठता हूँ।"
+    },
+    {
+      "targetText": "おんな：はやい ですね！わたし は はちじ に おきます。",
+      "transliteration": "Onna: Hayai desu ne! Watashi wa hachi-ji ni okimasu.",
+      "baseTranslation": "महिला: जल्दी है ना! मैं 8 बजे उठती हूँ।"
+    },
+    {
+      "targetText": "おとこ：あさごはん を たべますか。",
+      "transliteration": "Otoko: Asagohan o tabemasu ka.",
+      "baseTranslation": "पुरुष: क्या तुम नाश्ता खाती हो?"
+    },
+    {
+      "targetText": "おんな：はい、たべます。パン を たべます。それから、コーヒー を のみます。",
+      "transliteration": "Onna: Hai, tabemasu. Pan o tabemasu. Sorekara, koohii o nomimasu.",
+      "baseTranslation": "महिला: हाँ, खाती हूँ। ब्रेड खाती हूँ। और फिर, कॉफी पीती हूँ。"
+    },
+    {
+      "targetText": "おんな：あなた は なに を たべますか。",
+      "transliteration": "Onna: Anata wa nani o tabemasu ka.",
+      "baseTranslation": "महिला: तुम क्या खाते हो?"
+    },
+    {
+      "targetText": "おとこ：わたし は あさごはん を たべません。",
+      "transliteration": "Otoko: Watashi wa asagohan o tabemasen.",
+      "baseTranslation": "पुरुष: मैं नाश्ता नहीं खाता हूँ।"
+    },
+    {
+      "targetText": "おとこ：みず を のみます。コーヒー は のみません。",
+      "transliteration": "Otoko: Mizu o nomimasu. Koohii wa nomimasen.",
+      "baseTranslation": "पुरुष: पानी पीता हूँ। कॉफी नहीं पीता हूँ।"
+    },
+    {
+      "targetText": "おんな：そうですか。",
+      "transliteration": "Onna: Sou desu ka.",
+      "baseTranslation": "महिला: अच्छा (मैं समझ गई)।"
+    }
+  ],
+  "audioTranscriptFull": "おはようございます。わたし は ろくじ に おきます。はやい ですね！わたし は はちじ に おきます。あさごはん を たべますか。はい、たべます。パン を たべます。それから、コーヒー を のみます。あなた は なに を たべますか。わたし は あさごはん を たべません。みず を のみます。コーヒー は のみません。そうですか。",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "पुरुष कितने बजे उठता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ろくじ (6:00)",
+        "しちじ (7:00)",
+        "はちじ (8:00)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "महिला कितने बजे उठती है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ろくじ (6:00)",
+        "はちじ はん (8:30)",
+        "はちじ (8:00)"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "महिला नाश्ते में क्या खाती है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ごはん (चावल)",
+        "パン (ब्रेड)",
+        "カレー (करी)"
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "क्या महिला कॉफी पीती है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "हाँ (Hai, nomimasu)",
+        "नहीं (Iie, nomimasen)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "पुरुष नाश्ते में क्या खाता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "パン (ब्रेड)",
+        "वह नाश्ता नहीं खाता (Tabemasen)",
+        "りんご (सेब)"
+      ],
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    },
+    {
+      "questionId": "lq_6",
+      "questionText": "पुरुष क्या पीता है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "みず (पानी)",
+        "コーヒー (कॉफी)",
+        "おちゃ (चाय)"
+      ],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_6"
+    },
+    {
+      "questionId": "lq_7",
+      "questionText": "फन एक्टिविटी: 'लिसनिंग जासूस' - पुरुष 'Koohii' के बाद कौन सा कण इस्तेमाल करता है? (Koohii __ nomimasen)",
+      "questionType": "multiple_choice",
+      "options": [
+        "を (o)",
+        "は (wa) - जोर देने के लिए",
+        "に (ni)"
+      ],
+      "audioTimestamp": "00:27",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_7"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 14,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "ろくじ (6:00)",
+      "lq_2": "はちじ (8:00)",
+      "lq_3": "パン (ब्रेड)",
+      "lq_4": "हाँ (Hai, nomimasu)",
+      "lq_5": "वह नाश्ता नहीं खाता (Tabemasen)",
+      "lq_6": "みず (पानी)",
+      "lq_7": "は (wa) - जोर देने के लिए"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने सकारात्मक और नकारात्मक वाक्यों को बहुत ही अच्छे तरीके से सुना और समझा।",
+    "onFail": "संवाद में 'masu' और 'masen' की ध्वनियां बहुत करीब होती हैं। नकारात्मक (नहीं) वाक्यों को पकड़ने के लिए कान को प्रशिक्षित करें।",
+    "onPartial": "आपने अच्छा किया है। इस बात पर ध्यान दें कि कौन सा व्यक्ति (पुरुष या महिला) क्या कह रहा है।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "おはようございます。わたし は ろくじ に おきます。はやい ですね！わたし は はちじ に おきます。あさごはん を たべますか。はい、たべます。パン を たべます。それから、コーヒー を のみます。あなた は なに を たべますか。わたし は あさごはん を たべません。みず を のみます。コーヒー は のみません。そうですか。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "verbs",
+    "negative",
+    "routine"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अक्सर नकारात्मक (Negative) वाक्य बोलते समय, जापानी लोग 'o' (を) की जगह 'wa' (は) का प्रयोग करते हैं ताकि उस चीज़ पर ज़ोर दिया जा सके (जैसे Koohii wa nomimasen - कॉफी (तो) मैं नहीं पीता)।",
+  "commonMistakes": [
+    "'Tabemasen' (नहीं खाता) को 'Tabemasu' (खाता हूँ) सुन लेना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B6_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}
+

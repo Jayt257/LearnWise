@@ -1,0 +1,45 @@
+{
+  "id": 29,
+  "type": "speaking",
+  "title": "Ask Questions in Daily Conversation",
+  "description": "Practice asking and answering questions.",
+  "duration": "15 min",
+  "xp": 35,
+  "week": 3,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-3",
+    "numbers-time-and-questions"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "roleplay_card",
+      "title": "Ask About Time",
+      "scenario": "Planning a day",
+      "yourRole": "Friend",
+      "partnerRole": "Friend",
+      "context": "You want to know the time, the day, and when to meet.",
+      "goal": "Ask and answer simple time questions.",
+      "usefulPhrases": [
+        "अब कितने बजे हैं? (What time is it now?)",
+        "आज कौन सा दिन है? (What day is it today?)",
+        "कहाँ? (Where?)"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "speaking",
+      "prompt": "Ask 3 questions in Hindi about time, day, and location. Then answer them in short sentences.",
+      "hints": [
+        "कब",
+        "कहाँ",
+        "कौन सा दिन"
+      ]
+    }
+  ]
+}

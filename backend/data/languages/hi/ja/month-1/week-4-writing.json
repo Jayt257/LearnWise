@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 4 | Writing",
+  "id": 37,
+  "type": "writing",
+  "title": "लेखन: मेरे परिवार के बारे में",
+  "description": "जापानी में अपने परिवार का वर्णन लिखें।",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 4,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["writing", "family", "description", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए",
+      "translation": "मेरे परिवार में 4 लोग हैं।",
+      "words": ["はよにんです", "わたしのかぞく", "います", "よにん"],
+      "correctOrder": [1, 0]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "विशेषण वाला वाक्य",
+      "translation": "माँ दयालु और सुंदर हैं।",
+      "words": ["おかあさんは", "やさしくて", "です", "きれいな", "ひと"],
+      "correctOrder": [0, 1, 3, 4, 2]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "हिंदी से जापानी में अनुवाद करें",
+      "instruction": "इन वाक्यों को जापानी में लिखें:",
+      "items": [
+        { "source": "मेरे परिवार में 5 लोग हैं।", "answer": "わたしのかぞくはごにんです。 (Watashi no kazoku wa gonin desu.)" },
+        { "source": "पिताजी डॉक्टर हैं।", "answer": "おとうさんはいしゃです。 (Otousan wa isha desu.)" },
+        { "source": "छोटी बहन प्यारी है।", "answer": "いもうとはかわいいです。 (Imouto wa kawaii desu.)" },
+        { "source": "यह किताब मुश्किल है।", "answer": "このほんはむずかしいです。 (Kono hon wa muzukashii desu.)" },
+        { "source": "जापानी बहुत मज़ेदार है।", "answer": "にほんごはとてもたのしいです。 (Nihongo wa totemo tanoshii desu.)" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "अपने परिवार (家族 — Kazoku) के बारे में जापानी में लिखें। शामिल करें:\n• परिवार में कितने लोग हैं\n• माँ/पिताजी का पेशा\n• किसी एक सदस्य का विशेषण से वर्णन\n• परिवार को क्या पसंद है\n\nकम से कम 5 वाक्य लिखें।",
+      "minWords": 40,
+      "sampleAnswer": "わたしのかぞくはよにんです。(Watashi no kazoku wa yonin desu.) — मेरे परिवार में 4 लोग हैं।\nおとうさんはえんじにあです。(Otousan wa enjinia desu.) — पिताजी इंजीनियर हैं।\nおかあさんはおいしいりょうりをつくります。(Okaasan wa oishii ryouri wo tsukurimasu.) — माँ स्वादिष्ट खाना बनाती हैं।\nおとうとはちいさくてかわいいです。(Otouto wa chiisakute kawaii desu.) — छोटा भाई छोटा और प्यारा है।\nかぞくがだいすきです！(Kazoku ga daisuki desu!) — परिवार से बहुत प्यार है!"
+    }
+  ]
+}

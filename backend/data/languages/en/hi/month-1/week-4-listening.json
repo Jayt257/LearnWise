@@ -1,0 +1,73 @@
+{
+  "id": 38,
+  "type": "listening",
+  "title": "Listening for Family Words",
+  "description": "Listen for family vocabulary and respectful forms.",
+  "duration": "20 min",
+  "xp": 40,
+  "week": 4,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": [
+    "english",
+    "hindi",
+    "devanagari",
+    "week-4",
+    "family-and-basic-sentences"
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "note_template",
+      "title": "Listening Notes",
+      "instruction": "Write the words you hear:",
+      "sections": [
+        {
+          "label": "Mother word",
+          "placeholder": "Type the word for mother..."
+        },
+        {
+          "label": "Father word",
+          "placeholder": "Type the word for father..."
+        },
+        {
+          "label": "Brother word",
+          "placeholder": "Type the word for brother..."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "gap_fill",
+      "title": "Complete the Transcript",
+      "text": "First fill in the missing words: ___, ___, ___. Listen for family words and respectful forms.",
+      "gaps": [
+        "माँ",
+        "पिता",
+        "भाई"
+      ],
+      "hints": [
+        "mother",
+        "father",
+        "brother"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "true_false",
+      "title": "Check your listening",
+      "items": [
+        {
+          "statement": "The speaker talks about family members.",
+          "answer": true,
+          "explanation": "That is exactly the focus."
+        },
+        {
+          "statement": "The speaker gives directions in a city.",
+          "answer": false,
+          "explanation": "Directions are not the topic here."
+        }
+      ]
+    }
+  ]
+}

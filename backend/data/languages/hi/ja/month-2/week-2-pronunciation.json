@@ -1,0 +1,64 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Pronunciation",
+  "id": 114,
+  "type": "pronunciation",
+  "title": "उच्चारण: संख्याओं में ध्वनि परिवर्तन और Particle",
+  "description": "बड़ी संख्याओं में 3, 6, और 8 के उच्चारण परिवर्तन और Particles का प्रवाह सीखें।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "numbers", "particles", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "बड़ी संख्याओं में ध्वनि परिवर्तन (Sound Changes)",
+      "points": [
+        "100 (ひゃく): 300=さんびゃく, 600=ろっぴゃく, 800=はっぴゃく",
+        "1,000 (せん): 3000=さんぜん, 8000=はっせん",
+        "10,000 (まん): कोई ध्वनि परिवर्तन नहीं! いちまん, にまん, さんまん",
+        "इन बदलावों का कारण जापानी भाषा में बोलने की सरलता है।"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "उच्चारण का अंतर सुनें",
+      "instruction": "नियमित बनाम अनियमित उच्चारण में अंतर पहचानें:",
+      "pairs": [
+        { "word1": "にひゃく (ni-hyaku)", "word2": "さんびゃく (san-byaku)", "sound1": "200: 'hya' ध्वनि", "sound2": "300: 'bya' ध्वनि", "diff": "さん (3) के बाद 'h' → 'b' बन जाता है" },
+        { "word1": "よんひゃく (yon-hyaku)", "word2": "ろっぴゃく (roppyaku)", "sound1": "400: 'hya'", "sound2": "600: दोहरा 'p' + 'ya'", "diff": "ろく (6) के बाद 'h' → दोहरा 'pp' बन जाता है" },
+        { "word1": "にせん (ni-sen)", "word2": "さんぜん (san-zen)", "sound1": "2000: 'se'", "sound2": "3000: 'ze'", "diff": "さん के बाद 's' → 'z' बन जाता है" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "Particles का प्रवाह (Flow of Particles)",
+      "words": [
+        { "word": "ほんを かいます", "syllables": ["ho", "n", "wo", "ka", "i", "ma", "su"], "stressed": 0, "note": "किताब खरीदता हूँ। 'を (wo)' को संज्ञा के साथ मिलाकर बोलें।" },
+        { "word": "みせで かいます", "syllables": ["mi", "se", "de", "ka", "i", "ma", "su"], "stressed": 0, "note": "दुकान में खरीदता हूँ। 'で (de)' को 'みせ' के साथ मिलाकर बोलें।" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "तेज़ी से गिनना (Hundreds & Thousands)",
+      "text": "ひゃく、にひゃく、さんびゃく、よんひゃく、せん、にせん、さんぜん、よんせん",
+      "romanization": "Hyaku, ni-hyaku, san-byaku, yon-hyaku. Sen, ni-sen, san-zen, yon-sen.",
+      "translation": "100, 200, 300, 400. 1000, 2000, 3000, 4000.",
+      "tip": "さんびゃく और さんぜん पर विशेष ध्यान दें!"
+    },
+    {
+      "id": "b5",
+      "type": "true_false",
+      "title": "क्या यह सही उच्चारण है?",
+      "items": [
+        { "statement": "600 को 'ろくひゃく (rokuhyaku)' कहा जाता है।", "answer": false, "explanation": "गलत! 600 को 'ろっぴゃく (roppyaku)' कहा जाता है।" },
+        { "statement": "3000 को 'さんぜん (sanzen)' कहा जाता है।", "answer": true, "explanation": "हाँ, 'sen' 3 के बाद 'zen' में बदल जाता है।" }
+      ]
+    }
+  ]
+}

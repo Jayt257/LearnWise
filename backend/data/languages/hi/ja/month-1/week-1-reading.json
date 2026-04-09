@@ -1,0 +1,45 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 1 | Reading",
+  "id": 3,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: जापानी अभिवादन",
+  "description": "एक सरल जापानी परिचय पढ़ें और समझें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["reading", "greetings", "beginner", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 はじめまして！(Hajimemashite!) — पहला परिचय\n\nわたしは さくら です。(Watashi wa Sakura desu.) — मेरा नाम साकुरा है।\nにほんから きました。(Nihon kara kimashita.) — मैं जापान से आई हूँ।\nとうきょうに すんでいます。(Toukyou ni sundeimasu.) — मैं टोक्यो में रहती हूँ।\n\nわたしは がくせい です。(Watashi wa gakusei desu.) — मैं छात्रा हूँ।\nにほんごを おしえます。(Nihongo wo oshiemasu.) — मैं जापानी सिखाती हूँ।\n\nよろしくおねがいします！(Yoroshiku onegai shimasu!) — कृपया मेरा ध्यान रखें!\n\nさくらのすきなもの: (Sakura no sukina mono:) — साकुरा को पसंद है:\nすし (sushi) — सुशी\nあにめ (anime) — एनिमे\nおちゃ (ocha) — चाय\n\nにほんは とても きれいな くに です。(Nihon wa totemo kirei na kuni desu.) — जापान बहुत सुंदर देश है।\nいっしょに にほんごを べんきょうしましょう！(Issho ni Nihongo wo benkyou shimashou!) — मिलकर जापानी सीखते हैं!",
+      "questions": [
+        { "q": "साकुरा का नाम जापानी में कैसे लिखते हैं?", "a": "さくら (Sakura)" },
+        { "q": "साकुरा किस शहर में रहती है?", "a": "तोक्यो में (とうきょう — Toukyou)" },
+        { "q": "साकुरा क्या करती है? (पेशा क्या है?)", "a": "वह छात्रा है और जापानी सिखाती है (गकुसेई — がくせい)" },
+        { "q": "'よろしくおねがいします' का हिंदी में क्या अर्थ है?", "a": "कृपया मेरा ध्यान रखें / आपसे मिलकर खुशी हुई" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "साकुरा जापान से है।", "answer": true, "explanation": "हाँ, पाठ में लिखा है: にほんからきました (Nihon kara kimashita) — जापान से आई हूँ।" },
+        { "statement": "साकुरा ओसाका में रहती है।", "answer": false, "explanation": "नहीं, साकुरा टोक्यो में रहती है। (とうきょうにすんでいます — Toukyou ni sundeimasu)" },
+        { "statement": "साकुरा को सुशी पसंद है।", "answer": true, "explanation": "हाँ, पाठ में 'すし (sushi)' का उल्लेख है।" },
+        { "statement": "साकुरा अंग्रेजी सिखाती है।", "answer": false, "explanation": "नहीं, साकुरा जापानी सिखाती है: にほんごをおしえます (Nihongo wo oshiemasu)।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "जापान में आत्म-परिचय — 自己紹介 (Jikoshoukai)",
+      "icon": "🗾",
+      "content": "जापान में पहली बार मिलने पर 'はじめまして (Hajimemashite)' कहना और 'よろしくおねがいします (Yoroshiku onegai shimasu)' के साथ झुककर नमस्कार करना अनिवार्य शिष्टाचार है। यह वाक्यांश का शाब्दिक अर्थ है 'कृपया मुझे ठीक से देखें' लेकिन इसका भावार्थ है 'मेरे साथ रिश्ता बनाए रखें'। भारत के 'नमस्ते' जैसे, यह जापानी संस्कृति का हृदय है।",
+      "tags": ["संस्कृति", "परिचय", "शिष्टाचार", "जापान"]
+    }
+  ]
+}

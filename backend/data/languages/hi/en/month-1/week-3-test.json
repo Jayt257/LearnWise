@@ -1,0 +1,190 @@
+{
+  "id": 28,
+  "type": "test",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "सप्ताह 3 परीक्षा — Numbers, Time & Questions",
+  "description": "10 सवाल: numbers, time, question words, days और months।",
+  "duration": "8 मिनट",
+  "xp": 50,
+  "tags": [
+    "test",
+    "week3"
+  ],
+  "passingScore": 70,
+  "blocks": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "question": "'15' को अंग्रेज़ी में क्या कहते हैं?",
+      "options": [
+        "fifty",
+        "fifteen",
+        "five",
+        "sixty"
+      ],
+      "correct": 1,
+      "explanation": "15 = fifteen। 50 = fifty (ध्यान रखें: 15 vs 50!)"
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "question": "'कहाँ से' के लिए अंग्रेज़ी question word?",
+      "options": [
+        "When",
+        "Why",
+        "Where",
+        "Who"
+      ],
+      "correct": 2,
+      "explanation": "Where = कहाँ। When = कब। Why = क्यों। Who = कौन।"
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "question": "'What time is it?' का जवाब?",
+      "options": [
+        "It is Monday.",
+        "I am fine.",
+        "It is 3 o'clock.",
+        "Yes, I know."
+      ],
+      "correct": 2,
+      "explanation": "'What time is it?' → 'It is ___ o'clock.' या 'It is 3:30.' — time के साथ।"
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "question": "'How many' vs 'How much' — किसके लिए?",
+      "options": [
+        "दोनों same हैं",
+        "how many = countable, how much = uncountable",
+        "how much = countable, how many = uncountable",
+        "context पर depends"
+      ],
+      "correct": 1,
+      "explanation": "How many = countable nouns (chairs, people, books)। How much = uncountable nouns (water, money, time)।"
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "question": "'Saturday' को हिन्दी में क्या कहते हैं?",
+      "options": [
+        "सोमवार",
+        "शुक्रवार",
+        "शनिवार",
+        "रविवार"
+      ],
+      "correct": 2,
+      "explanation": "Saturday = शनिवार। Monday = सोमवार। Friday = शुक्रवार। Sunday = रविवार।"
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "question": "'Because' का हिन्दी अर्थ?",
+      "options": [
+        "इसलिए",
+        "क्योंकि",
+        "लेकिन",
+        "और"
+      ],
+      "correct": 1,
+      "explanation": "Because = क्योंकि। Therefore/So = इसलिए। But = लेकिन। And = और।"
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "question": "'Always' और 'Never' में क्या अंतर है?",
+      "options": [
+        "कोई अंतर नहीं",
+        "Always=हमेशा, Never=कभी नहीं",
+        "Never=हमेशा, Always=कभी नहीं",
+        "दोनों का मतलब sometimes"
+      ],
+      "correct": 1,
+      "explanation": "Always = हमेशा (100% बार)। Never = कभी नहीं (0% बार)। Sometimes = कभी-कभी (50%)। Often = अक्सर (70-80%)।"
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "question": "'AM' और 'PM' में क्या अंतर है?",
+      "options": [
+        "AM=दोपहर, PM=सुबह",
+        "AM=सुबह, PM=शाम/दोपहर",
+        "दोनों same हैं",
+        "AM=weekday, PM=weekend"
+      ],
+      "correct": 1,
+      "explanation": "AM (Ante Meridiem) = 12 बजे रात से दोपहर 12 बजे तक (सुबह)। PM (Post Meridiem) = दोपहर 12 बजे से रात 12 बजे तक।"
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "question": "'Yesterday' का हिन्दी अर्थ?",
+      "options": [
+        "आज",
+        "कल (आने वाला)",
+        "कल (बीता हुआ)",
+        "परसों"
+      ],
+      "correct": 2,
+      "explanation": "Yesterday = बीता हुआ कल (past)। Tomorrow = आने वाला कल (future)। Today = आज। Day after tomorrow = परसों।"
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "question": "'I study English for one ___ every day.'",
+      "options": [
+        "minute",
+        "hour",
+        "day",
+        "week"
+      ],
+      "correct": 1,
+      "explanation": "'One hour' = एक घंटा — most natural sentence। 'One minute' बहुत कम होगा। Context: study के लिए 'hour' सही है।"
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "title": "Numbers Match",
+      "instruction": "Number और उसका English name मिलाएँ:",
+      "leftItems": [
+        "12",
+        "40",
+        "75",
+        "100",
+        "1000"
+      ],
+      "rightItems": [
+        "forty",
+        "one thousand",
+        "twelve",
+        "one hundred",
+        "seventy-five"
+      ],
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    }
+  ]
+}

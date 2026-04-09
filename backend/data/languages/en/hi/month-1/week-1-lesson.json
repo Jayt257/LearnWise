@@ -1,0 +1,101 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 1 | Lesson — Greetings & Basics",
+  "id": 1,
+  "type": "lesson",
+  "title": "Welcome to Hindi: Greetings & Basics",
+  "description": "Start your Hindi journey by learning essential greetings, the SOV sentence structure, and basic vocabulary.",
+  "duration": "25 min",
+  "xp": 30,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["greetings", "hindi", "basics", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Namaste! (नमस्ते!)",
+      "body": "Welcome to Hindi! Hindi is spoken by over 600 million people worldwide. It is written in the Devanagari script, which is phonetic—words are pronounced exactly as they are written.\n\nToday, we will focus on the most important word in Hindi: Namaste (नमस्ते). It means 'Hello', 'Good morning', 'Good afternoon', and 'Goodbye'. It is used in almost every situation to show respect."
+    },
+    {
+      "id": "b2",
+      "type": "keypoints",
+      "title": "What You'll Learn This Week",
+      "points": [
+        "Essential greetings: Namaste, Dhanyavaad (Thank you)",
+        "Hindi sentence structure: Subject-Object-Verb (SOV)",
+        "Pronouns: I (Main), You (Aap)",
+        "Self-introduction in Hindi",
+        "Polite vs. Casual language"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "comparison_table",
+      "title": "Essential Words",
+      "headers": ["English", "Hindi (Devanagari)", "Pronunciation"],
+      "rows": [
+        ["Hello / Goodbye", "नमस्ते", "Namaste"],
+        ["Thank you", "धन्यवाद", "Dhanyavaad"],
+        ["Yes", "हाँ", "Haan"],
+        ["No", "नहीं", "Nahi"],
+        ["Please", "कृपया", "Kripaya"],
+        ["Excuse me / Sorry", "माफ़ कीजिए", "Maaf kijiye"]
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "grammar_rule",
+      "title": "Hindi Sentence Structure (SOV)",
+      "pattern": "Subject + Object + Verb",
+      "examples": [
+        { "native": "I learn Hindi.", "target": "मैं हिंदी सीखता हूँ।", "translation": "Main (I) hindi (Hindi) seekhta hoon (learn)." },
+        { "native": "I drink water.", "target": "मैं पानी पीता हूँ।", "translation": "Main paani (water) peeta hoon (drink)." }
+      ],
+      "note": "English uses Subject-Verb-Object (SVO), but Hindi uses Subject-Object-Verb (SOV). The verb always comes at the end!"
+    },
+    {
+      "id": "b5",
+      "type": "dialogue",
+      "title": "First Meeting",
+      "speakers": ["You", "Hindi Speaker"],
+      "lines": [
+        { "speaker": 0, "text": "नमस्ते! आपका नाम क्या है?", "romanization": "Namaste! Aapka naam kya hai?", "translation": "Hello! What is your name?" },
+        { "speaker": 1, "text": "नमस्ते! मेरा नाम राज है।", "romanization": "Namaste! Mera naam Raj hai.", "translation": "Hello! My name is Raj." },
+        { "speaker": 0, "text": "आपसे मिलकर खुशी हुई।", "romanization": "Aapse milkar khushi hui.", "translation": "Nice to meet you." },
+        { "speaker": 1, "text": "मुझे भी। धन्यवाद!", "romanization": "Mujhe bhi. Dhanyavaad!", "translation": "Me too. Thank you!" }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "fill_blank",
+      "title": "Quick Check",
+      "instructions": "Type the correct Romaji spelling:",
+      "items": [
+        { "sentence": "Hello in Hindi is ___.", "answer": "Namaste", "hint": "N-A-M-A-S-T-E" },
+        { "sentence": "Thank you is ___.", "answer": "Dhanyavaad", "hint": "D-H-A-N-Y-A-V-A-A-D" },
+        { "sentence": "Yes is ___.", "answer": "Haan", "hint": "H-A-A-N" }
+      ]
+    },
+    {
+      "id": "b7",
+      "type": "cultural_note",
+      "title": "The Meaning of Namaste",
+      "icon": "🙏",
+      "content": "When saying 'Namaste', it is common to bring both palms together in front of the chest and bow slightly. It literally means 'I bow to you' and represents deep respect. It's the safest and most polite greeting for people of all ages!",
+      "tags": ["culture", "greetings", "respect"]
+    },
+    {
+      "id": "b8",
+      "type": "progress_checkpoint",
+      "title": "Week 1 Goal Checklist",
+      "items": [
+        "Say hello and goodbye (Namaste)",
+        "Say thank you (Dhanyavaad)",
+        "Say Yes and No",
+        "Understand SOV structure"
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

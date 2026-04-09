@@ -1,0 +1,36 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Extended Reading",
+  "id": 119,
+  "type": "reading",
+  "title": "विस्तारित पठन: टोक्यो का 100 येन शॉप",
+  "description": "जापान की प्रसिद्ध '100 येन शॉप' के बारे में जानकारी।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["reading", "shopping", "culture", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 ひゃくえんショップ (Hyakuen Shoppu) — 100 येन शॉप\n\nにほんには「ひゃくえんショップ」がいっぱいあります。(Nihon ni wa 'Hyakuen shoppu' ga ippai arimasu.) — जापान में '100 येन शॉप' बहुत सारी हैं।\nいちばんゆうめいなみせは「ダイソー」です。(Ichiban yuumei na mise wa 'Daisoo' desu.) — सबसे प्रसिद्ध दुकान 'डायसो (Daiso)' है।\n\nみせのなかには、いろいろなものがあります。(Mise no naka ni wa, iroiro na mono ga arimasu.) — दुकान के अंदर कई तरह की चीज़ें हैं।\nペンやノート、かばんやコップなどです。(Pen ya nooto, kaban ya koppu nado desu.) — पेन, नोटबुक, बैग, कप आदि (या particle का प्रयोग)।\nぜんぶひゃくえんです！とても安いです。(Zenbu hyakuen desu! Totemo yasui desu.) — सब कुछ 100 येन है! बहुत सस्ता है।\n（※ぜいきんはいりません... ほんとうはひゃくじゅうえんです！）(*Zeikin hairimasen... Hontou wa hyakujuuen desu!) — (*टैक्स शामिल नहीं है... असल में 110 येन है!)\n\nがいこくじんのりょこうしゃもひゃくえんショップがだいすきです。(Gaikokujin no ryokousha mo hyakuen shoppu ga daisuki desu.) — विदेशी पर्यटकों को भी 100 येन शॉप बहुत पसंद हैं。\nおみやげをたくさんかいます。(Omiyage wo takusan kaimasu.) — वे बहुत सारे स्मृति चिह्न (सौगात) खरीदते हैं।",
+      "questions": [
+        { "q": "जापान की सबसे प्रसिद्ध 100 येन शॉप कौन सी है?", "a": "डायसो (ダイソー — Daisoo)" },
+        { "q": "दुकान में क्या-क्या मिलता है?", "a": "पेन, नोटबुक, बैग, कप आदि (ペンやノート...)" },
+        { "q": "क्या चीज़ें वास्तव में ठीक 100 येन की होती हैं?", "a": "नहीं, टैक्स (消費税 - shouhizei) जुड़कर 110 येन हो जाती हैं।" },
+        { "q": "विदेशी पर्यटक 100 शॉप से क्या खरीदते हैं?", "a": "स्मृति चिह्न / सौगात (おみやげ — Omiyage)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "कथन समझें",
+      "items": [
+        { "statement": "100 येन शॉप में केवल खाना मिलता है।", "answer": false, "explanation": "नहीं, वहाँ पेन, नोटबुक, बैग जैसी कई चीज़ें मिलती हैं (いろいろなもの)。" },
+        { "statement": "100 येन शॉप का सामान बहुत महँगा (たかい) होता है।", "answer": false, "explanation": "नहीं! यह बहुत सस्ता (やすい - yasui) होता है।" },
+        { "statement": "टैक्स के साथ सामान 110 येन (ひゃくじゅうえん) का होता है।", "answer": true, "explanation": "हाँ, जापान में वर्तमान उपभोग कर (Consumption Tax) 10% है।" }
+      ]
+    }
+  ]
+}

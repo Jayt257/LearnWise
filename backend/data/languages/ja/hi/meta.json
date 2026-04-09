@@ -1,0 +1,95 @@
+{
+  "pairId": "ja-hi",
+  "_status": "active",
+  "source": {
+    "id": "ja"
+  },
+  "target": {
+    "id": "hi"
+  },
+  "months": [
+    {
+      "month": 1,
+      "title": "Month 1: Foundation",
+      "theme": "Script/sounds, vowels, basic greetings, numbers 1-100, family",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "Week 1",
+          "activities": [
+            {
+              "id": 1,
+              "type": "lesson",
+              "file": "month-1/week-1-lesson.json",
+              "xp": 30,
+              "title": "Week 1 Lesson"
+            },
+            {
+              "id": 2,
+              "type": "vocab",
+              "file": "month-1/week-1-vocab.json",
+              "xp": 20,
+              "title": "Week 1 Vocab"
+            },
+            {
+              "id": 3,
+              "type": "reading",
+              "file": "month-1/week-1-reading.json",
+              "xp": 25,
+              "title": "Week 1 Reading"
+            },
+            {
+              "id": 4,
+              "type": "pronunciation",
+              "file": "month-1/week-1-pronunciation.json",
+              "xp": 30,
+              "title": "Week 1 Pronunciation"
+            },
+            {
+              "id": 5,
+              "type": "writing",
+              "file": "month-1/week-1-writing.json",
+              "xp": 35,
+              "title": "Week 1 Writing"
+            },
+            {
+              "id": 6,
+              "type": "listening",
+              "file": "month-1/week-1-listening.json",
+              "xp": 40,
+              "title": "Week 1 Listening"
+            },
+            {
+              "id": 7,
+              "type": "test",
+              "file": "month-1/week-1-test.json",
+              "xp": 50,
+              "title": "Week 1 Weekly Test"
+            },
+            {
+              "id": 8,
+              "type": "speaking",
+              "file": "month-1/week-1-speaking.json",
+              "xp": 35,
+              "title": "Week 1 Speaking Practice"
+            },
+            {
+              "id": 9,
+              "type": "vocab",
+              "file": "month-1/week-1-vocab-review.json",
+              "xp": 20,
+              "title": "Vocab Review"
+            },
+            {
+              "id": 10,
+              "type": "pronunciation",
+              "file": "month-1/week-1-pronunciation-2.json",
+              "xp": 30,
+              "title": "Pronunciation Challenge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

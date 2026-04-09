@@ -1,0 +1,44 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 5 | Reading",
+  "id": 103,
+  "type": "reading",
+  "title": "पढ़ने का अभ्यास: एक जापानी कॉलेज छात्र का दिन",
+  "description": "एक जापानी यूनिवर्सिटी छात्र की व्यस्त दिनचर्या पढ़ें।",
+  "duration": "15 min",
+  "xp": 25,
+  "week": 5,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["reading", "daily-routine", "verbs", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 だいがくせいのいちにち (Daigakusei no ichinichi) — एक कॉलेज छात्र का दिन\n\nわたしはたろうです。とうきょうだいがくのがくせいです。(Watashi wa Tarou desu. Toukyou daigaku no gakusei desu.) — मैं तारो हूँ। टोक्यो यूनिवर्सिटी का छात्र हूँ।\n\nまいあさ、ごぜんしちじにおきます。(Maiasa, gozen shichiji ni okimasu.) — हर सुबह 7 बजे उठता हूँ।\nかおをあらって、あさごはんをたべます。(Kao wo aratte, asagohan wo tabemasu.) — मुँह धोकर नाश्ता करता हूँ।\n\nはちじはんにでんしゃにのります。(Hachiji han ni densha ni norimasu.) — 8:30 बजे ट्रेन पकड़ता हूँ।\nだいがくまでさんじゅっぷんかかります。(Daigaku made sanjuppun kakarimasu.) — यूनिवर्सिटी तक 30 मिनट लगते हैं।\n\nひるはともだちといっしょにランチをたべます。(Hiru wa tomodachi to issho ni ranchi wo tabemasu.) — दोपहर को दोस्तों के साथ लंच खाता हूँ।\n\nごごはとしょかんでべんきょうします。(Gogo wa toshokan de benkyou shimasu.) — दोपहर बाद लाइब्रेरी में पढ़ाई करता हूँ।\nよるはうちでにほんごのアニメをみます！(Yoru wa uchi de Nihongo no anime wo mimasu!) — रात को घर में जापानी एनिमे देखता हूँ!\n\nじゅうにじごろねます。(Juuniji goro nemasu.) — लगभग 12 बजे सोता हूँ।\nいそがしいけど、たのしいまいにちです！(Isogashii kedo, tanoshii mainichi desu!) — व्यस्त लेकिन मज़ेदार रोज़ का जीवन है!",
+      "questions": [
+        { "q": "तारो कहाँ का छात्र है?", "a": "टोक्यो यूनिवर्सिटी (とうきょうだいがく — Toukyou daigaku)" },
+        { "q": "यूनिवर्सिटी पहुँचने में कितना समय लगता है?", "a": "30 मिनट (さんじゅっぷん — sanjuppun)" },
+        { "q": "तारो शाम को क्या करता है?", "a": "जापानी एनिमे देखता है (アニメをみます)" },
+        { "q": "तारो किस समय सोता है?", "a": "लगभग 12 बजे (じゅうにじごろ — juuniji goro)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "तारो सुबह 8 बजे उठता है।", "answer": false, "explanation": "नहीं! तारो 7 बजे उठता है: まいあさごぜんしちじにおきます।" },
+        { "statement": "तारो लाइब्रेरी में दोपहर बाद पढ़ाई करता है।", "answer": true, "explanation": "हाँ: ごごはとしょかんでべんきょうします।" },
+        { "statement": "तारो बस से यूनिवर्सिटी जाता है।", "answer": false, "explanation": "नहीं! तारो ट्रेन से जाता है: でんしゃにのります (densha ni norimasu)।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "cultural_note",
+      "title": "जापानी ट्रेन — 電車 (Densha) की संस्कृति",
+      "icon": "🚃",
+      "content": "जापान की ट्रेन व्यवस्था दुनिया में सबसे बेहतरीन है। टोक्यो में हर 2-3 मिनट में ट्रेन आती है और 99.9% समय पर होती है! ट्रेन में शांत रहना, फ़ोन पर कान में लगाकर बात करना, बुज़ुर्गों को सीट देना — ये सब जापानी ट्रेन शिष्टाचार के हिस्से हैं। ट्रेन में खाना खाना अशिष्टता मानी जाती है।",
+      "tags": ["ट्रेन", "परिवहन", "शिष्टाचार", "जापान"]
+    }
+  ]
+}

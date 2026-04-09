@@ -1,0 +1,52 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 1 | Listening — English Greetings",
+  "id": 6,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: अंग्रेज़ी में अभिवादन",
+  "description": "अंग्रेज़ी बातचीत सुनें और महत्वपूर्ण जानकारी नोट करें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 1,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["listening", "greetings", "comprehension", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "बातचीत सुनें: एक नई मुलाकात",
+      "url": null,
+      "transcript": "A: Good morning! My name is Tom. Nice to meet you!\n(गुड मॉर्निंग! मेरा नाम टॉम है। आपसे मिलकर खुशी हुई!)\n\nB: Good morning, Tom! My name is Priya. I am from India.\n(गुड मॉर्निंग, टॉम! मेरा नाम प्रिया है। मैं भारत से हूँ।)\n\nA: Oh, wonderful! How are you, Priya?\n(ओह, शानदार! आप कैसी हैं, प्रिया?)\n\nB: I am fine, thank you! And you?\n(मैं ठीक हूँ, धन्यवाद! और आप?)\n\nA: I am very well, thanks. Do you speak English?\n(मैं बहुत अच्छा हूँ, शुक्रिया। क्या आप अंग्रेज़ी बोलती हैं?)\n\nB: Yes, I am learning English. I speak a little.\n(हाँ, मैं अंग्रेज़ी सीख रही हूँ। मैं थोड़ी बोलती हूँ।)\n\nA: That's great! Goodbye, see you later!\n(यह बढ़िया है! अलविदा, बाद में मिलते हैं!)\n\nB: Goodbye, Tom! Have a nice day!\n(अलविदा, टॉम! आपका दिन अच्छा रहे!)"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "बातचीत से नोट्स लें",
+      "instruction": "बातचीत सुनकर इन नोट्स को पूरा करें:",
+      "sections": [
+        { "label": "पहले व्यक्ति का नाम:", "placeholder": "First name..." },
+        { "label": "दूसरे व्यक्ति का नाम:", "placeholder": "Second name..." },
+        { "label": "दूसरा व्यक्ति कहाँ से है?", "placeholder": "Country name..." },
+        { "label": "बातचीत में कौन से अभिवादन प्रयोग हुए?", "placeholder": "List at least 3 greetings..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "वार्तालाप में रिक्त स्थान भरें",
+      "text": "A: Good ___! My name is Tom.\nB: Good morning! My name is Priya. I am from ___.\nA: How are you?\nB: I am ___, thank you!",
+      "gaps": ["morning", "India", "fine"],
+      "hints": ["सुबह का अभिवादन", "एक देश का नाम", "ठीक हूँ"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत को समझें",
+      "items": [
+        { "statement": "बातचीत में दो लोग पहली बार मिल रहे हैं।", "answer": true, "explanation": "हाँ, 'Nice to meet you!' — पहली बार मिलने पर यही कहते हैं।" },
+        { "statement": "प्रिया जापान से है।", "answer": false, "explanation": "नहीं, प्रिया भारत से है: I am from India." },
+        { "statement": "प्रिया अंग्रेज़ी सीख रही है।", "answer": true, "explanation": "हाँ: I am learning English. I speak a little." }
+      ]
+    }
+  ]
+}

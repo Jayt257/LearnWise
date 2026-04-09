@@ -1,0 +1,116 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 2 | Lesson — Consonants & Daily Objects",
+  "id": 11,
+  "type": "lesson",
+  "title": "हिरागाना व्यंजन और दैनिक वस्तुएँ",
+  "description": "हिरागाना के बाकी व्यंजन पंक्तियाँ सीखें और रोज़मर्रा की वस्तुओं के नाम जापानी में जानें।",
+  "duration": "25 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["hiragana", "consonants", "daily-objects", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "हिरागाना — बाकी व्यंजन पंक्तियाँ",
+      "body": "पिछले सप्ताह हमने 5 स्वर और क/स पंक्तियाँ सीखीं। अब आगे सीखते हैं:\n\nत-पंक्ति: た(ta) ち(chi) つ(tsu) て(te) と(to)\nन-पंक्ति: な(na) に(ni) ぬ(nu) ね(ne) の(no)\nह-पंक्ति: は(ha) ひ(hi) ふ(fu) へ(he) ほ(ho)\nम-पंक्ति: ま(ma) み(mi) む(mu) め(me) も(mo)\nय-पंक्ति: や(ya) ゆ(yu) よ(yo)\nर-पंक्ति: ら(ra) り(ri) る(ru) れ(re) ろ(ro)\nव: わ(wa) を(wo)\nन: ん(n)\n\nध्यान दें: ち = 'chi', つ = 'tsu', ふ = 'fu' — हिंदी से थोड़े अलग!"
+    },
+    {
+      "id": "b2",
+      "type": "keypoints",
+      "title": "विशेष ध्वनियाँ — ध्यान से सीखें",
+      "points": [
+        "ち (chi) — 'ch' + 'i' = 'ची' (जैसे 'cheese' में 'ch')",
+        "つ (tsu) — 'ts' + 'u' = 'त्सु' (जैसे 'tsunami')",
+        "ふ (fu) — हल्का 'f' + 'u' = 'फ़ु' (होंठ नहीं छूते)",
+        "ん (n) — स्वतंत्र नासिक ध्वनि — कभी अकेले syllable",
+        "を (wo) — केवल object marker के रूप में प्रयोग, उच्चारण 'o'"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "comparison_table",
+      "title": "दैनिक वस्तुएँ — जापानी में",
+      "headers": ["हिंदी", "जापानी", "रोमाजी"],
+      "rows": [
+        ["किताब", "ほん", "hon"],
+        ["पानी", "みず", "mizu"],
+        ["खाना", "たべもの", "tabemono"],
+        ["घर", "いえ / うち", "ie / uchi"],
+        ["स्कूल", "がっこう", "gakkou"],
+        ["कार", "くるま", "kuruma"],
+        ["फ़ोन", "でんわ", "denwa"],
+        ["बैग", "かばん", "kaban"],
+        ["पेन", "ペン", "pen"],
+        ["मेज़", "つくえ", "tsukue"],
+        ["कुर्सी", "いす", "isu"],
+        ["दरवाज़ा", "ドア", "doa"]
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "grammar_rule",
+      "title": "यह/वह क्या है? — これは〜です",
+      "pattern": "これ/それ/あれ + は + [वस्तु] + です",
+      "examples": [
+        { "native": "यह किताब है।", "target": "これはほんです。", "translation": "Kore wa hon desu." },
+        { "native": "वह कार है।", "target": "あれはくるまです。", "translation": "Are wa kuruma desu." },
+        { "native": "यह मेरा बैग है।", "target": "これはわたしのかばんです。", "translation": "Kore wa watashi no kaban desu." }
+      ],
+      "note": "これ (kore) = यह (पास में), それ (sore) = वह (थोड़ा दूर), あれ (are) = वह (बहुत दूर)"
+    },
+    {
+      "id": "b5",
+      "type": "dialogue",
+      "title": "कक्षा में बातचीत",
+      "speakers": ["छात्र A", "छात्र B"],
+      "lines": [
+        { "speaker": 0, "text": "これはなんですか？", "romanization": "Kore wa nan desu ka?", "translation": "यह क्या है?" },
+        { "speaker": 1, "text": "それはほんです。", "romanization": "Sore wa hon desu.", "translation": "वह किताब है।" },
+        { "speaker": 0, "text": "あれはなんですか？", "romanization": "Are wa nan desu ka?", "translation": "वह (दूर वाला) क्या है?" },
+        { "speaker": 1, "text": "あれはつくえです。", "romanization": "Are wa tsukue desu.", "translation": "वह मेज़ है।" },
+        { "speaker": 0, "text": "そうですか、ありがとう！", "romanization": "Sou desu ka, arigatou!", "translation": "अच्छा, धन्यवाद!" }
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "tip",
+      "body": "💡 टिप: 'の' (no) जापानी में 'का/की/के' की जगह काम करता है। जैसे: わたしのほん = मेरी किताब। यह सबसे उपयोगी particle है!"
+    },
+    {
+      "id": "b7",
+      "type": "fill_blank",
+      "title": "रिक्त स्थान भरें",
+      "instructions": "सही जापानी शब्द लिखें:",
+      "items": [
+        { "sentence": "'किताब' को जापानी में ___ कहते हैं।", "answer": "ほん", "hint": "hon" },
+        { "sentence": "'यह क्या है?' जापानी में: ___ はなんですか？", "answer": "これ", "hint": "kore — पास वाली चीज़" },
+        { "sentence": "'मेरी किताब' = わたし___ ほん", "answer": "の", "hint": "possessive particle" },
+        { "sentence": "'पानी' जापानी में ___ है।", "answer": "みず", "hint": "mizu" }
+      ]
+    },
+    {
+      "id": "b8",
+      "type": "cultural_note",
+      "title": "जापानी घर — 家 (Ie/Uchi)",
+      "icon": "🏠",
+      "content": "जापानी घरों में जूते उतारना अनिवार्य है। घर में घुसते समय 'ただいま (Tadaima — मैं आ गया)' और घर छोड़ते समय 'いってきます (Ittekimasu — मैं जा रहा हूँ)' कहना जापानी परंपरा का महत्वपूर्ण हिस्सा है। घर में प्रवेश का स्थान 'げんかん (Genkan)' कहलाता है जहाँ जूते रखे जाते हैं।",
+      "tags": ["संस्कृति", "घर", "शिष्टाचार", "जापान"]
+    },
+    {
+      "id": "b9",
+      "type": "progress_checkpoint",
+      "title": "सप्ताह 2 का जाँच बिंदु",
+      "items": [
+        "हिरागाना की सभी मूल पंक्तियाँ (46 अक्षर) पहचानना",
+        "12+ दैनिक वस्तुओं के जापानी नाम जानना",
+        "これ/それ/あれ का उपयोग करके वाक्य बनाना",
+        "の (no) का 'का/की/के' की तरह उपयोग करना",
+        "'यह क्या है?' जापानी में पूछना"
+      ],
+      "xpBonus": 15
+    }
+  ]
+}

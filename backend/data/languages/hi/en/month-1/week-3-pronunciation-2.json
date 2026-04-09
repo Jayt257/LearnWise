@@ -1,0 +1,102 @@
+{
+  "id": 31,
+  "type": "pronunciation",
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-en",
+  "title": "अंग्रेज़ी में Numbers का उच्चारण",
+  "description": "13 vs 30, 14 vs 40 — confusing number pairs और stress patterns।",
+  "duration": "10 मिनट",
+  "xp": 30,
+  "tags": [
+    "pronunciation",
+    "numbers"
+  ],
+  "blocks": [
+    {
+      "id": "p1",
+      "type": "minimal_pairs",
+      "title": "Tricky Number Pairs",
+      "instruction": "सुनें — 'teen' और 'ty' में क्या फ़र्क है?",
+      "pairs": [
+        {
+          "word1": "thirteen",
+          "word2": "thirty",
+          "sound1": "thir-TEEN",
+          "sound2": "THIR-ty",
+          "diff": "stress पर — teen vs ty"
+        },
+        {
+          "word1": "fourteen",
+          "word2": "forty",
+          "sound1": "four-TEEN",
+          "sound2": "FOR-ty",
+          "diff": "stress पर"
+        },
+        {
+          "word1": "fifteen",
+          "word2": "fifty",
+          "sound1": "fif-TEEN",
+          "sound2": "FIF-ty",
+          "diff": "stress पर"
+        },
+        {
+          "word1": "sixteen",
+          "word2": "sixty",
+          "sound1": "six-TEEN",
+          "sound2": "SIX-ty",
+          "diff": "stress पर"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "stress_pattern",
+      "title": "Number Stress Pattern",
+      "words": [
+        {
+          "word": "thir-TEEN",
+          "syllables": [
+            "thir",
+            "teen"
+          ],
+          "stressed": 1,
+          "note": "TEEN पर stress (13)"
+        },
+        {
+          "word": "THIR-ty",
+          "syllables": [
+            "thir",
+            "ty"
+          ],
+          "stressed": 0,
+          "note": "THIR पर stress (30)"
+        },
+        {
+          "word": "e-LEV-en",
+          "syllables": [
+            "e",
+            "lev",
+            "en"
+          ],
+          "stressed": 1,
+          "note": "LEV पर stress (11)"
+        },
+        {
+          "word": "TWEN-ty",
+          "syllables": [
+            "twen",
+            "ty"
+          ],
+          "stressed": 0,
+          "note": "TWEN पर stress (20)"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "tip",
+      "body": "💡 Trick: -TEEN numbers (13-19): stress अंत में, जैसे thir-TEEN, four-TEEN। -TY numbers (30-90): stress शुरू में, जैसे THIR-ty, FOR-ty। इससे confusion कम होगी!"
+    }
+  ]
+}

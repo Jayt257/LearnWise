@@ -1,0 +1,51 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 3 | Writing",
+  "id": 26,
+  "type": "writing",
+  "title": "लेखन: समय और दिनचर्या",
+  "description": "जापानी में समय लिखें और अपनी दैनिक दिनचर्या वर्णन करें।",
+  "duration": "20 min",
+  "xp": 35,
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["writing", "time", "daily-routine", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए — समय बताएँ",
+      "translation": "अभी 5 बजकर 30 मिनट हैं।",
+      "words": ["ごじ", "いま", "はん", "です"],
+      "correctOrder": [1, 0, 2, 3]
+    },
+    {
+      "id": "b2",
+      "type": "sentence_builder",
+      "title": "वाक्य बनाइए — प्रश्न पूछें",
+      "translation": "आप कहाँ जा रहे हैं?",
+      "words": ["は", "どこ", "いきますか？", "あなた"],
+      "correctOrder": [3, 0, 1, 2]
+    },
+    {
+      "id": "b3",
+      "type": "translation_task",
+      "title": "हिंदी से जापानी में अनुवाद करें",
+      "instruction": "इन वाक्यों को जापानी में लिखें:",
+      "items": [
+        { "source": "अभी क्या बजे हैं?", "answer": "いまなんじですか？ (Ima nanji desu ka?)" },
+        { "source": "सुबह 9 बजे!", "answer": "ごぜんくじです！ (Gozen kuji desu!)" },
+        { "source": "यह कितने का है?", "answer": "いくらですか？ (Ikura desu ka?)" },
+        { "source": "वह कौन है?", "answer": "あれはだれですか？ (Are wa dare desu ka?)" },
+        { "source": "स्टेशन कहाँ है?", "answer": "えきはどこですか？ (Eki wa doko desu ka?)" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "writing",
+      "prompt": "जापानी में अपनी एक दिन की दिनचर्या (日課 — Nikka) लिखें। शामिल करें:\n• सुबह किस समय उठते हैं\n• स्कूल/काम किस समय जाते हैं\n• दोपहर का समय\n• रात किस समय सोते हैं\n\nकम से कम 5 वाक्य लिखें।",
+      "minWords": 35,
+      "sampleAnswer": "ごぜんろくじにおきます。(Gozen rokujini okimasu.) — सुबह 6 बजे उठता हूँ।\nしちじにあさごはんをたべます。(Shichiji ni asagohan wo tabemasu.) — 7 बजे नाश्ता करता हूँ।\nはちじにがっこうにいきます。(Hachiji ni gakkou ni ikimasu.) — 8 बजे स्कूल जाता हूँ।\nごごよじにうちにかえります。(Gogo yoji ni uchi ni kaerimasu.) — शाम 4 बजे घर आता हूँ।\nじゅうじにねます。(Juuji ni nemasu.) — 10 बजे सोता हूँ।"
+    }
+  ]
+}

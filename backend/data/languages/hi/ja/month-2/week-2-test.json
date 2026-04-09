@@ -1,0 +1,25 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 6 | Test — 10 Questions",
+  "id": 117,
+  "type": "test",
+  "title": "सप्ताह 6 परीक्षा: खरीदारी और Particles",
+  "description": "बड़ी संख्याओं, खरीदारी की शब्दावली और कोनो/सोनो की परीक्षा।",
+  "duration": "15 min",
+  "xp": 50,
+  "week": 6,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["test", "shopping", "particles", "A1+"],
+  "blocks": [
+    { "id": "b1", "type": "quiz", "question": "जापानी में 10,000 को क्या कहते हैं?", "options": ["じゅうせん", "ひゃくせん", "いちまん", "まん"], "correct": 2, "explanation": "10,000 के लिए जापानी में 'いちまん (ichi-man)' कहते हैं। 'じゅうせん' नहीं होता।" },
+    { "id": "b2", "type": "quiz", "question": "इनमें से 300 का सही उच्चारण कौन सा है?", "options": ["さんひゃく", "さんびゃく", "さんぷゃく", "みつひゃく"], "correct": 1, "explanation": "3 (san) के बाद 100 (hyaku) 'byaku' बन जाता है: さんびゃく (sanbyaku)।" },
+    { "id": "b3", "type": "quiz", "question": "'यह बैग' (अपने पास) को जापानी में कैसे कहेंगे?", "options": ["これかばん", "そのかばん", "このかばん", "あのかばん"], "correct": 2, "explanation": "संज्ञा के साथ 'この (kono)' लगता है: このかばん (यह बैग)।" },
+    { "id": "b4", "type": "quiz", "question": "सुपरमार्केट 'में' खरीदारी करता हूँ — के लिए कौन सा Particle लगेगा?", "options": ["スーパーにかいものをします", "スーパーをかいものをします", "スーパーでかいものをします", "スーパーとかいものをします"], "correct": 2, "explanation": "जहाँ कोई action होता है, वहाँ 'で (de)' particle लगता है।" },
+    { "id": "b5", "type": "quiz", "question": "'को' (Object marker) के लिए कौन सा Particle है?", "options": ["と", "を", "や", "で"], "correct": 1, "explanation": "'を (wo/o)' object marker है: ほんをかいます (किताब खरीदता हूँ)।" },
+    { "id": "b6", "type": "quiz", "question": "دुकानदार ग्राहक से क्या कहता है?", "options": ["おはよう！", "よろしく！", "いらっしゃいませ！", "さようなら！"], "correct": 2, "explanation": "दुकान में प्रवेश करते ही 'いらっしゃいませ！ (Irasshaimase!)' कहा जाता है।" },
+    { "id": "b7", "type": "quiz", "question": "8000 का सही उच्चारण क्या है?", "options": ["はちせん", "はっせん", "はちぜん", "はっぜん"], "correct": 1, "explanation": "8 (hachi) + 1000 (sen) = はっせん (hassen)। ध्वनि परिवर्तन होता है।" },
+    { "id": "b8", "type": "quiz", "question": "'と' (to) और 'や' (ya) में क्या अंतर है?", "options": ["कोई अंतर नहीं", "'と' पूरी सूची के लिए, 'や' अधूरी सूची (और आदि) के लिए", "'と' स्थान के लिए, 'や' समय के लिए", "'と' इंसानों के लिए, 'や' चीज़ों के लिए"], "correct": 1, "explanation": "ペンとほん (केवल पेन और किताब)। ペンやほん (पेन, किताब, और अन्य चीज़ें)।" },
+    { "id": "b9", "type": "quiz", "question": "600 को जापानी में क्या कहेंगे?", "options": ["ろくひゃく", "ろくびゃく", "ろっぴゃく", "ろっひゃく"], "correct": 2, "explanation": "600 = ろっぴゃく (roppyaku)।" },
+    { "id": "b10", "type": "quiz", "question": "'पैंट' (Trousers/Pants) को जापानी में क्या कहते हैं?", "options": ["シャツ", "くつ", "ずぼん (ズボン)", "ふく"], "correct": 2, "explanation": "'ズボン (zubon)' = पैंट। फ्रेंच शब्द 'jupon' से आया है!" }
+  ]
+}

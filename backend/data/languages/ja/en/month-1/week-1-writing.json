@@ -1,0 +1,37 @@
+{
+  "id": 5,
+  "pairId": "ja-en",
+  "type": "writing",
+  "title": "Writing Structure",
+  "xp": 35,
+  "blocks": [
+    {
+      "id": "bw1",
+      "type": "text",
+      "title": "Instruction",
+      "body": "Fill in the missing words based on the context."
+    },
+    {
+      "id": "bw2",
+      "type": "fill_blank",
+      "sentence": "___, how are you?",
+      "answers": [
+        "Hello"
+      ],
+      "blanks": [
+        "word"
+      ]
+    },
+    {
+      "id": "bw3",
+      "type": "fill_blank",
+      "sentence": "I have ___ (one) apple.",
+      "answers": [
+        "One"
+      ],
+      "blanks": [
+        "word"
+      ]
+    }
+  ]
+}

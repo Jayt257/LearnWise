@@ -1,0 +1,36 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 2 | Extended Reading",
+  "id": 19,
+  "type": "reading",
+  "title": "Extended Reading: Colaba Causeway",
+  "description": "Read a longer passage about shopping in Mumbai's famous market.",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["reading", "extended", "shopping", "Mumbai", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 कोलाबा में खरीदारी (Colaba mein kharidaari - Shopping in Colaba)\n\nसारा मुंबई में है। (Sarah Mumbai mein hai.) - Sarah is in Mumbai.\nवह कोलाबा बाज़ार जाती है। (Vah Colaba bazaar jaati hai.) - She goes to Colaba market.\n\nकोलाबा बाज़ार बहुत बड़ा है। (Colaba bazaar bohot bada hai.) - Colaba market is very big.\nवहाँ बहुत कपड़े हैं। (Vahan bohot kapde hain.) - There are many clothes there.\n\nसारा एक दुकान में जाती है। (Sarah ek dukaan mein jaati hai.) - Sarah goes into a shop.\n'नमस्ते, यह नीला बैग कितना है?' ('Namaste, yah neela bag kitna hai?') - 'Hello, how much is this blue bag?'\n\n'यह बैग सौ रुपये है।' ('Yah bag sau rupaye hai.') - 'This bag is 100 rupees.'\nसौ रुपये... (Sau rupaye...) - 100 rupees... \nसारा बैग खरीदती है। (Sarah bag khareedti hai.) - Sarah buys the bag.\n\nवह खुश है। (Vah khush hai.) - She is happy.",
+      "questions": [
+        { "q": "Where does Sarah go?", "a": "Colaba market (कोलाबा बाज़ार)" },
+        { "q": "What is the market like?", "a": "Very big (बहुत बड़ा - bohot bada)" },
+        { "q": "What does Sarah buy?", "a": "A bag (बैग)" },
+        { "q": "How much does the bag cost?", "a": "100 Rupees (सौ रुपये - sau rupaye)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "Comprehension Check",
+      "items": [
+        { "statement": "Sarah is in Delhi.", "answer": false, "explanation": "No, she is in Mumbai (मुंबई में है)." },
+        { "statement": "There are many clothes in the market.", "answer": true, "explanation": "Yes. वहाँ बहुत कपड़े हैं (There are many clothes there)." },
+        { "statement": "Sarah bought a red bag.", "answer": false, "explanation": "No, she asked for a blue bag (नीला बैग - neela bag)." }
+      ]
+    }
+  ]
+}

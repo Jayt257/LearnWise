@@ -1,0 +1,54 @@
+{
+  "id": 3,
+  "pairId": "ja-hi",
+  "type": "reading",
+  "title": "Reading Comprehension",
+  "xp": 25,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Daily Life",
+      "body": "नमस्ते. मैं मित्र / दोस्त. धन्यवाद!"
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "title": "Translation",
+      "body": "こんにちは. わたし 友達. ありがとう!"
+    },
+    {
+      "id": "bmc_0",
+      "type": "quiz",
+      "question": "Translate: こんにちは",
+      "options": [
+        "शुभ प्रभात",
+        "नमस्ते",
+        "शुभ संध्या"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bmc_1",
+      "type": "quiz",
+      "question": "Translate: おはようございます",
+      "options": [
+        "शुभ संध्या",
+        "शुभ प्रभात",
+        "अलविदा"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bmc_2",
+      "type": "quiz",
+      "question": "Translate: こんばんは",
+      "options": [
+        "अलविदा",
+        "शुभ संध्या",
+        "धन्यवाद"
+      ],
+      "correct": 1
+    }
+  ]
+}

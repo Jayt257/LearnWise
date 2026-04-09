@@ -1,0 +1,64 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 3 | Pronunciation",
+  "id": 25,
+  "type": "pronunciation",
+  "title": "उच्चारण: संख्याओं और समय का सही उच्चारण",
+  "description": "जापानी संख्याओं की विशेष ध्वनि परिवर्तन और समय उच्चारण सीखें।",
+  "duration": "20 min",
+  "xp": 30,
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["pronunciation", "numbers", "time", "sound-changes", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "keypoints",
+      "title": "संख्याओं में ध्वनि परिवर्तन",
+      "points": [
+        "1 मिनट = いっぷん (ippun) — न कि いちふん",
+        "6 मिनट = ろっぷん (roppun) — न कि ろくふん",
+        "10 मिनट = じゅっぷん (juppun) — न कि じゅうふん",
+        "8 बजे = はちじ (hachiji) लेकिन 8 मिनट = はっぷん (happun)",
+        "ये बदलाव याद करना ज़रूरी है — जापानी में ये आम ध्वनि नियम हैं"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "minimal_pairs",
+      "title": "संख्याओं में ध्वनि अंतर",
+      "instruction": "इन जोड़ों में सूक्ष्म अंतर पहचानें:",
+      "pairs": [
+        { "word1": "いち (ichi)", "word2": "いっぽん (ippon)", "sound1": "1 — इची", "sound2": "1 छड़ी/बोतल — इप्पोन", "diff": "संयोजन में 'i' → 'i+double consonant'" },
+        { "word1": "ろく (roku)", "word2": "ろっぷん (roppun)", "sound1": "6 — रोकु", "sound2": "6 मिनट — रोप्पुन", "diff": "ろく + ふん → ろっぷん — ध्वनि मिलाव" },
+        { "word1": "さん (san)", "word2": "さんぷん (sanpun)", "sound1": "3 — सान", "sound2": "3 मिनट — सानपुन", "diff": "さん नहीं बदलता — लेकिन ふん → ぷん हो जाता है" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "stress_pattern",
+      "title": "समय का उच्चारण",
+      "words": [
+        { "word": "にじはん", "syllables": ["ni", "ji", "ha", "n"], "stressed": 0, "note": "2:30 — 'ni-ji-han' समान लय" },
+        { "word": "ごぜんくじ", "syllables": ["go", "ze", "n", "ku", "ji"], "stressed": 0, "note": "सुबह 9 बजे — 'go-ze-n-ku-ji'" },
+        { "word": "じゅっぷん", "syllables": ["ju", "p", "pun"], "stressed": 0, "note": "10 मिनट — double 'p' ध्यान दें" }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "tongue_twister",
+      "title": "संख्या अभ्यास",
+      "text": "いちにさんしごろくしちはちきゅうじゅう",
+      "romanization": "Ichi ni san shi go roku shichi hachi kyuu juu",
+      "translation": "1 से 10 तक तेज़ी से बोलें",
+      "tip": "पहले धीरे बोलें फिर तेज़ी से। 4 और 7 के दोनों उच्चारण याद करें: し/よん, しち/なな।"
+    },
+    {
+      "id": "b5",
+      "type": "audio",
+      "label": "संख्याएँ सुनें: 1-10",
+      "url": null,
+      "transcript": "いち(1) に(2) さん(3) し/よん(4) ご(5) ろく(6) なな/しち(7) はち(8) きゅう/く(9) じゅう(10)"
+    }
+  ]
+}

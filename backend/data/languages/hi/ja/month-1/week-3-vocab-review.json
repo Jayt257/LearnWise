@@ -1,0 +1,61 @@
+{
+  "_comment": "Hindi → Japanese | Month 1 Week 3 | Vocab Review",
+  "id": 30,
+  "type": "vocab",
+  "title": "शब्द समीक्षा: सप्ताह 3 — संख्याएँ और समय",
+  "description": "संख्याओं और समय के शब्दों की समीक्षा।",
+  "duration": "10 min",
+  "xp": 20,
+  "week": 3,
+  "month": 1,
+  "langPair": "hi-ja",
+  "tags": ["vocab_review", "numbers", "time", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "vocab_table",
+      "title": "समीक्षा — संख्याएँ और समय (20 शब्द)",
+      "words": [
+        { "word": "いち", "meaning": "1 एक", "example": "いちじ — 1 बजे" },
+        { "word": "に", "meaning": "2 दो", "example": "にじ — 2 बजे" },
+        { "word": "さん", "meaning": "3 तीन", "example": "さんびゃく — 300" },
+        { "word": "よん", "meaning": "4 चार", "example": "よんじゅう — 40" },
+        { "word": "ご", "meaning": "5 पाँच", "example": "ごじゅう — 50" },
+        { "word": "ろく", "meaning": "6 छः", "example": "ろくじゅう — 60" },
+        { "word": "なな", "meaning": "7 सात", "example": "ななじゅう — 70" },
+        { "word": "はち", "meaning": "8 आठ", "example": "はちじゅう — 80" },
+        { "word": "きゅう", "meaning": "9 नौ", "example": "きゅうじゅう — 90" },
+        { "word": "じゅう", "meaning": "10 दस", "example": "じゅういち — 11" },
+        { "word": "ひゃく", "meaning": "100 सौ", "example": "ひゃくえん — 100 येन" },
+        { "word": "はん", "meaning": "आधा (half)", "example": "さんじはん — 3:30" },
+        { "word": "ふん", "meaning": "मिनट", "example": "ごふん — 5 मिनट" },
+        { "word": "ごぜん", "meaning": "सुबह / AM", "example": "ごぜんはちじ — सुबह 8 बजे" },
+        { "word": "ごご", "meaning": "दोपहर / PM", "example": "ごごよじ — शाम 4 बजे" },
+        { "word": "なんじ", "meaning": "कितने बजे?", "example": "いまなんじですか？" },
+        { "word": "どこ", "meaning": "कहाँ", "example": "どこにいきますか？" },
+        { "word": "だれ", "meaning": "कौन", "example": "だれですか？" },
+        { "word": "いつ", "meaning": "कब", "example": "いつきますか？" },
+        { "word": "いくら", "meaning": "कितने का", "example": "いくらですか？" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "matching",
+      "title": "संख्याएँ मिलाएँ",
+      "instruction": "जापानी संख्या और हिंदी अंक मिलाएँ:",
+      "leftItems": ["さん", "ろく", "はち", "きゅう", "じゅう"],
+      "rightItems": ["10", "8", "6", "3", "9"],
+      "pairs": [[0,3],[1,2],[2,1],[3,4],[4,0]]
+    },
+    {
+      "id": "b3",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "'ごご' का अर्थ 'सुबह' है।", "answer": false, "explanation": "नहीं! 'ごご (gogo)' = PM (दोपहर)। 'ごぜん (gozen)' = AM (सुबह)।" },
+        { "statement": "'はん' का अर्थ 'आधा घंटा' है।", "answer": true, "explanation": "हाँ! 'はん (han)' = आधा। さんじはん = 3:30।" },
+        { "statement": "जापानी में 4 के लिए हमेशा 'し' कहते हैं।", "answer": false, "explanation": "नहीं! 4 के लिए 'よん (yon)' को प्राथमिकता दें क्योंकि 'し' मृत्यु (死) जैसा लगता है।" }
+      ]
+    }
+  ]
+}

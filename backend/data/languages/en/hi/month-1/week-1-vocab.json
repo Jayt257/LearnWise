@@ -1,0 +1,65 @@
+{
+  "_comment": "English → Hindi | Month 1 Week 1 | Vocabulary",
+  "id": 2,
+  "type": "vocab",
+  "title": "Essential Words: Greetings & Basics",
+  "description": "Learn 25 fundamental Hindi words used in daily life.",
+  "duration": "15 min",
+  "xp": 20,
+  "week": 1,
+  "month": 1,
+  "langPair": "en-hi",
+  "tags": ["vocabulary", "greetings", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "image_word",
+      "title": "Visual Vocabulary",
+      "items": [
+        { "emoji": "🙏", "word": "नमस्ते", "meaning": "Hello / Namaste", "example": "नमस्ते, आप कैसे हैं?" },
+        { "emoji": "👏", "word": "धन्यवाद", "meaning": "Thank you (Dhanyavaad)", "example": "आपको बहुत धन्यवाद।" },
+        { "emoji": "✅", "word": "हाँ", "meaning": "Yes (Haan)", "example": "हाँ, मुझे पता है।" },
+        { "emoji": "❌", "word": "नहीं", "meaning": "No (Nahi)", "example": "नहीं, धन्यवाद।" },
+        { "emoji": "🙇", "word": "माफ़ कीजिए", "meaning": "Excuse me / Sorry", "example": "माफ़ कीजिए।" },
+        { "emoji": "👤", "word": "मैं", "meaning": "I / Me (Main)", "example": "मैं राज हूँ।" },
+        { "emoji": "🤝", "word": "आप", "meaning": "You (Aap) - Formal", "example": "आप कैसे हैं?" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "vocab_table",
+      "title": "25 Essential Words",
+      "words": [
+        { "word": "नमस्ते (Namaste)", "meaning": "Hello / Goodbye", "example": "नमस्ते!" },
+        { "word": "धन्यवाद (Dhanyavaad)", "meaning": "Thank you", "example": "धन्यवाद।" },
+        { "word": "हाँ (Haan)", "meaning": "Yes", "example": "हाँ।" },
+        { "word": "नहीं (Nahi)", "meaning": "No", "example": "नहीं।" },
+        { "word": "कृपया (Kripaya)", "meaning": "Please", "example": "कृपया यहाँ आएं।" },
+        { "word": "माफ़ कीजिए (Maaf kijiye)", "meaning": "Excuse me / Sorry", "example": "माफ़ कीजिए।" },
+        { "word": "मैं (Main)", "meaning": "I", "example": "मैं खाता हूँ।" },
+        { "word": "आप (Aap)", "meaning": "You (Formal)", "example": "आप क्या कर रहे हैं?" },
+        { "word": "तुम (Tum)", "meaning": "You (Informal)", "example": "तुम कहाँ हो?" },
+        { "word": "वह (Vah)", "meaning": "He / She / It / That", "example": "वह किताब है।" },
+        { "word": "यह (Yah)", "meaning": "This", "example": "यह कुर्सी है।" },
+        { "word": "नाम (Naam)", "meaning": "Name", "example": "मेरा नाम राज है।" },
+        { "word": "क्या (Kya)", "meaning": "What", "example": "क्या हुआ?" },
+        { "word": "कहाँ (Kahan)", "meaning": "Where", "example": "आप कहाँ हैं?" },
+        { "word": "कैसे (Kaise)", "meaning": "How", "example": "आप कैसे हैं?" },
+        { "word": "अच्छा (Achha)", "meaning": "Good / Okay", "example": "बहुत अच्छा।" },
+        { "word": "पानी (Paani)", "meaning": "Water", "example": "मुझे पानी चाहिए।" },
+        { "word": "खाना (Khaana)", "meaning": "Food / To eat", "example": "खाना स्वादिष्ट है।" },
+        { "word": "घर (Ghar)", "meaning": "House / Home", "example": "मैं घर जा रहा हूँ।" },
+        { "word": "दोस्त (Dost)", "meaning": "Friend", "example": "वह मेरा दोस्त है।" }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "matching",
+      "title": "Match the Hindi to English",
+      "instruction": "Connect the words.",
+      "leftItems": ["धन्यवाद", "हाँ", "पानी", "क्या", "मैं"],
+      "rightItems": ["Water", "I", "Yes", "Thank you", "What"],
+      "pairs": [[0,3],[1,2],[2,0],[3,4],[4,1]]
+    }
+  ]
+}

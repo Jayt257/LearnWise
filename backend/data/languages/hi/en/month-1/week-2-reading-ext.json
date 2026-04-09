@@ -1,0 +1,36 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 2 | Extended Reading — Oxford Street",
+  "id": 19,
+  "type": "reading",
+  "title": "विस्तारित पठन: लंदन में एक दिन",
+  "description": "लंदन में एक भारतीय परिवार की खरीदारी की यात्रा पढ़ें।",
+  "duration": "15 min",
+  "xp": 30,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-en",
+  "tags": ["reading", "extended", "London", "shopping", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "reading",
+      "passage": "📖 A Day on Oxford Street (ऑक्सफ़र्ड स्ट्रीट पर एक दिन)\n\nThe Singh family is in London. (सिंह परिवार लंदन में है।)\nThere are four people in the family. (परिवार में चार लोग हैं।)\n\nThey go to Oxford Street for shopping. (वे खरीदारी के लिए ऑक्सफ़र्ड स्ट्रीट जाते हैं।)\nOxford Street is very long. There are two hundred shops! (ऑक्सफ़र्ड स्ट्रीट बहुत लंबी है। वहाँ दो सौ दुकानें हैं!)\n\nMrs. Singh buys a red jacket. It costs fifty pounds. (मिसेज़ सिंह एक लाल जैकेट खरीदती हैं। इसकी क़ीमत पचास पाउंड है।)\n\nMr. Singh wants a blue umbrella. He finds one for twenty pounds. (मिस्टर सिंह एक नीली छतरी चाहते हैं। उन्हें बीस पाउंड में एक मिल जाती है।)\n\nThe children buy ten postcards — five red and five yellow. (बच्चे दस पोस्टकार्ड खरीदते हैं — पाँच लाल और पाँच पीले।)\n\nThey spend one hundred pounds total. (वे कुल मिलाकर एक सौ पाउंड खर्च करते हैं।)\n\nIt is a wonderful day! (यह एक शानदार दिन है!)",
+      "questions": [
+        { "q": "सिंह परिवार में कितने लोग हैं?", "a": "Four (चार)" },
+        { "q": "मिसेज़ सिंह ने क्या खरीदा और कितने में?", "a": "A red jacket for fifty pounds" },
+        { "q": "बच्चों ने कितने पोस्टकार्ड खरीदे?", "a": "Ten postcards (दस)" },
+        { "q": "कुल कितना खर्च हुआ?", "a": "One hundred pounds (एक सौ पाउंड)" }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "true_false",
+      "title": "सच या झूठ?",
+      "items": [
+        { "statement": "ऑक्सफ़र्ड स्ट्रीट पर पाँच सौ दुकानें हैं।", "answer": false, "explanation": "नहीं! There are two hundred shops — दो सौ दुकानें हैं।" },
+        { "statement": "मिस्टर सिंह ने नीली छतरी खरीदी।", "answer": true, "explanation": "हाँ! Mr. Singh wants a blue umbrella." },
+        { "statement": "परिवार ने पाँच पोस्टकार्ड खरीदे।", "answer": false, "explanation": "नहीं! The children buy ten postcards — दस पोस्टकार्ड।" }
+      ]
+    }
+  ]
+}

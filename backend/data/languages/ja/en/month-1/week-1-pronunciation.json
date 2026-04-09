@@ -1,0 +1,64 @@
+{
+  "id": 4,
+  "pairId": "ja-en",
+  "type": "pronunciation",
+  "title": "Pronunciation Accuracy",
+  "xp": 30,
+  "blocks": [
+    {
+      "id": "bp_0",
+      "type": "speaking",
+      "word": "Hello",
+      "meaning": "こんにちは",
+      "prompt": "Pronounce this word clearly: Hello",
+      "hints": [
+        "Meaning: こんにちは",
+        "Target: Hello"
+      ]
+    },
+    {
+      "id": "bp_1",
+      "type": "speaking",
+      "word": "Good morning",
+      "meaning": "おはようございます",
+      "prompt": "Pronounce this word clearly: Good morning",
+      "hints": [
+        "Meaning: おはようございます",
+        "Target: Good morning"
+      ]
+    },
+    {
+      "id": "bp_2",
+      "type": "speaking",
+      "word": "Good evening",
+      "meaning": "こんばんは",
+      "prompt": "Pronounce this word clearly: Good evening",
+      "hints": [
+        "Meaning: こんばんは",
+        "Target: Good evening"
+      ]
+    },
+    {
+      "id": "bp_3",
+      "type": "speaking",
+      "word": "Goodbye",
+      "meaning": "さようなら",
+      "prompt": "Pronounce this word clearly: Goodbye",
+      "hints": [
+        "Meaning: さようなら",
+        "Target: Goodbye"
+      ]
+    },
+    {
+      "id": "bp_4",
+      "type": "speaking",
+      "word": "Thank you",
+      "meaning": "ありがとう",
+      "prompt": "Pronounce this word clearly: Thank you",
+      "hints": [
+        "Meaning: ありがとう",
+        "Target: Thank you"
+      ]
+    }
+  ]
+}

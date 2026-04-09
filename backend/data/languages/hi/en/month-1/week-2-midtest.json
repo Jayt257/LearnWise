@@ -1,0 +1,176 @@
+{
+  "_comment": "Hindi → English | Month 1 Week 2 | Mid-Test — 20 Questions",
+  "id": 21,
+  "type": "test",
+  "title": "माह 1 मिड-टेस्ट: सप्ताह 1 और 2 की समीक्षा",
+  "description": "पहले दो सप्ताह में सीखी गई सभी बातों की जाँच — अभिवादन, संख्याएँ, रंग और बुनियादी वाक्य।",
+  "duration": "25 min",
+  "xp": 75,
+  "week": 2,
+  "month": 1,
+  "langPair": "hi-en",
+  "isMidTest": true,
+  "tags": ["midtest", "review", "greetings", "numbers", "colors", "A1"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "quiz",
+      "question": "'Good evening' का सही उपयोग कब होता है?",
+      "options": ["सुबह में", "दोपहर में", "शाम को", "रात को"],
+      "correct": 2,
+      "explanation": "'Good evening' शाम 6 बजे के बाद उपयोग होता है। Good morning = सुबह, Good afternoon = दोपहर।"
+    },
+    {
+      "id": "b2",
+      "type": "quiz",
+      "question": "'Nice to meet you' का जवाब क्या होता है?",
+      "options": ["Goodbye", "Nice to meet you too!", "Yes", "Thank you"],
+      "correct": 1,
+      "explanation": "'Nice to meet you' के जवाब में 'Nice to meet you too!' या 'Pleased to meet you!' कहते हैं।"
+    },
+    {
+      "id": "b3",
+      "type": "quiz",
+      "question": "25 को अंग्रेज़ी में कैसे लिखते हैं?",
+      "options": ["Twenty-four", "Twenty-five", "Thirty-five", "Fifteen"],
+      "correct": 1,
+      "explanation": "25 = Twenty-five। दहाई (Twenty) + इकाई (five) = Twenty-five।"
+    },
+    {
+      "id": "b4",
+      "type": "quiz",
+      "question": "अंग्रेज़ी वाक्य रचना (SVO) में 'V' क्या है?",
+      "options": ["Vowel", "Subject", "Verb", "Object"],
+      "correct": 2,
+      "explanation": "SVO = Subject + Verb + Object। 'I eat food' में 'I' Subject, 'eat' Verb,  'food' Object है।"
+    },
+    {
+      "id": "b5",
+      "type": "quiz",
+      "question": "Indian Flag में कौन से तीन रंग हैं?",
+      "options": ["Red, White, Blue", "Orange, White, Green", "Yellow, White, Green", "Orange, Blue, White"],
+      "correct": 1,
+      "explanation": "Indian Flag = Saffron (Orange) + White + Green — भारतीय तिरंगा।"
+    },
+    {
+      "id": "b6",
+      "type": "quiz",
+      "question": "'An' का उपयोग कब होता है?",
+      "options": ["सभी संज्ञाओं के पहले", "Vowel से शुरू होने वाली संज्ञाओं के पहले", "Consonant से शुरू होने वाली संज्ञाओं के पहले", "कभी नहीं"],
+      "correct": 1,
+      "explanation": "A, E, I, O, U से शुरू होने वाले शब्दों से पहले 'An' आता है: An apple, An umbrella."
+    },
+    {
+      "id": "b7",
+      "type": "quiz",
+      "question": "'This is a chair' में 'this' किसके लिए है?",
+      "options": ["दूर की कुर्सी", "पास की कुर्सी", "कई कुर्सियाँ", "पुरानी कुर्सी"],
+      "correct": 1,
+      "explanation": "'This' पास की एकवचन वस्तु के लिए और 'That' दूर की के लिए उपयोग होता है।"
+    },
+    {
+      "id": "b8",
+      "type": "quiz",
+      "question": "50 को अंग्रेज़ी में कैसे लिखते हैं?",
+      "options": ["Fifteen", "Five", "Fifty", "Fivety"],
+      "correct": 2,
+      "explanation": "50 = Fifty। Fifteen = 15, Five = 5। 'Fivety' गलत है — 'Fifty' सही है।"
+    },
+    {
+      "id": "b9",
+      "type": "quiz",
+      "question": "'I am fine' का हिंदी अर्थ क्या है?",
+      "options": ["मैं थका हूँ", "मैं ठीक हूँ", "मैं भारत से हूँ", "मेरा नाम है"],
+      "correct": 1,
+      "explanation": "I (मैं) + am (हूँ) + fine (ठीक) = मैं ठीक हूँ।"
+    },
+    {
+      "id": "b10",
+      "type": "quiz",
+      "question": "सूरज का रंग अंग्रेज़ी में क्या है?",
+      "options": ["Blue", "Green", "Yellow", "Red"],
+      "correct": 2,
+      "explanation": "सूरज का रंग 'Yellow' (पीला) है। The sun is yellow."
+    },
+    {
+      "id": "b11",
+      "type": "quiz",
+      "question": "'Please speak slowly' का हिंदी अर्थ क्या है?",
+      "options": ["कृपया जल्दी बोलें", "कृपया धीरे बोलें", "कृपया चुप रहें", "कृपया दोहराएँ"],
+      "correct": 1,
+      "explanation": "Please (कृपया) + speak (बोलें) + slowly (धीरे) = कृपया धीरे बोलें।"
+    },
+    {
+      "id": "b12",
+      "type": "quiz",
+      "question": "अंग्रेज़ी में 'Th' ध्वनि कैसे बनाते हैं?",
+      "options": ["होंठ गोल करके", "जीभ को दाँतों के बीच रखकर", "नाक से", "गले से"],
+      "correct": 1,
+      "explanation": "'Th' बनाने के लिए जीभ को ऊपरी और निचले दाँतों के बीच हल्का रखकर हवा निकालते हैं।"
+    },
+    {
+      "id": "b13",
+      "type": "quiz",
+      "question": "'I have three blue pens' का अर्थ:",
+      "options": ["मेरे पास तीन लाल पेन हैं", "मेरे पास तीन नीले पेन हैं", "मुझे पेन चाहिए", "वह नीला पेन है"],
+      "correct": 1,
+      "explanation": "I have (मेरे पास हैं) + three (तीन) + blue (नीले) + pens (पेन) = मेरे पास तीन नीले पेन हैं।"
+    },
+    {
+      "id": "b14",
+      "type": "quiz",
+      "question": "100 को अंग्रेज़ी में क्या कहते हैं?",
+      "options": ["One Ten", "Hundred", "One Hundred", "One Thousand"],
+      "correct": 2,
+      "explanation": "100 = One Hundred। अकेला 'Hundred' भी कहते हैं लेकिन 'One Hundred' अधिक स्पष्ट है।"
+    },
+    {
+      "id": "b15",
+      "type": "quiz",
+      "question": "'Sorry' और 'Excuse me' में क्या अंतर है?",
+      "options": ["कोई अंतर नहीं", "Sorry माफ़ी के लिए, Excuse me ध्यान खींचने के लिए", "दोनों एक ही हैं", "Excuse me माफ़ी के लिए है"],
+      "correct": 1,
+      "explanation": "Sorry — माफ़ी माँगने के लिए। Excuse me — ध्यान आकर्षित करने या रास्ते से हटने के लिए।"
+    },
+    {
+      "id": "b16",
+      "type": "quiz",
+      "question": "घास का रंग अंग्रेज़ी में क्या है?",
+      "options": ["Yellow", "Blue", "Green", "White"],
+      "correct": 2,
+      "explanation": "घास का रंग 'Green' (हरा) है। Grass is green."
+    },
+    {
+      "id": "b17",
+      "type": "quiz",
+      "question": "'Thirteen' और 'Thirty' में क्या अंतर है?",
+      "options": ["दोनों 30 हैं", "दोनों 13 हैं", "Thirteen = 13, Thirty = 30", "Thirteen = 30, Thirty = 13"],
+      "correct": 2,
+      "explanation": "Thirteen = 13 (तेरह) और Thirty = 30 (तीस)। बल की जगह अलग है: thir-TEEN vs THIR-ty।"
+    },
+    {
+      "id": "b18",
+      "type": "quiz",
+      "question": "'What color is your phone?' का जवाब:",
+      "options": ["My phone is good.", "I have a phone.", "My phone is black.", "Two phones."],
+      "correct": 2,
+      "explanation": "'What color?' का जवाब रंग से देते हैं: My phone is black. (मेरा फ़ोन काला है।)"
+    },
+    {
+      "id": "b19",
+      "type": "quiz",
+      "question": "Silent 'e' का क्या प्रभाव होता है?",
+      "options": ["शब्द छोटा होता है", "स्वर को लंबा बनाता है", "व्यंजन बदल जाता है", "कोई प्रभाव नहीं"],
+      "correct": 1,
+      "explanation": "Silent 'e' पिछले स्वर को लंबा बनाता है: bit → bite, cap → cape, hop → hope।"
+    },
+    {
+      "id": "b20",
+      "type": "quiz",
+      "question": "'You're welcome' कब कहते हैं?",
+      "options": ["जब कोई माफ़ी माँगे", "जब कोई 'Thank you' कहे", "जब कोई आए", "जब कोई विदा हो"],
+      "correct": 1,
+      "explanation": "जब कोई 'Thank you' (धन्यवाद) कहे तो जवाब में 'You're welcome' (कोई बात नहीं) कहते हैं।"
+    }
+  ]
+}

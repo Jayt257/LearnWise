@@ -1,0 +1,52 @@
+{
+  "_comment": "Hindi → Japanese | Month 2 Week 5 | Listening",
+  "id": 106,
+  "type": "listening",
+  "title": "सुनने का अभ्यास: दोस्तों की योजना",
+  "description": "दो जापानी दोस्तों की सप्ताहांत योजना सुनें।",
+  "duration": "15 min",
+  "xp": 40,
+  "week": 5,
+  "month": 2,
+  "langPair": "hi-ja",
+  "tags": ["listening", "weekend-plans", "verbs", "A1+"],
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "audio",
+      "label": "बातचीत: सप्ताहांत क्या करेंगे?",
+      "url": null,
+      "transcript": "A: こんにちは！しゅうまつはひまですか？(Konnichiwa! Shuumatsu wa hima desu ka?) — नमस्ते! क्या सप्ताहांत में फ़ुरसत है?\n\nB: はい、ひまです！なにかします？(Hai, hima desu! Nanika shimasu?) — हाँ, फ़ुरसत है! कुछ करें?\n\nA: こうえんでピクニックはどうですか？(Kouenn de pikunikku wa dou desu ka?) — पार्क में पिकनिक कैसा रहेगा?\n\nB: いいですね！なんじにあいますか？(Ii desu ne! Nanji ni aimasu ka?) — बढ़िया! किस समय मिलें?\n\nA: ごぜんじゅうじはどうですか？(Gozen juuji wa dou desu ka?) — सुबह 10 बजे कैसा रहेगा?\n\nB: いいですよ。どんなものをもっていきますか？(Ii desu yo. Donna mono wo motte ikimasu ka?) — ठीक है। क्या-क्या ले जाएँ?\n\nA: わたしはサンドイッチをつくります！(Watashi wa sandoicchi wo tsukurimasu!) — मैं सैंडविच बनाऊँगा!\n\nB: じゃあわたしはオレンジジュースをかってきます。(Jaa watashi wa orenji juusu wo katte kimasu.) — तो मैं ऑरेंज जूस खरीदकर लाऊँगी।\n\nA: たのしみですね！(Tanoshimi desu ne!) — बड़ा मज़ा आएगा!"
+    },
+    {
+      "id": "b2",
+      "type": "note_template",
+      "title": "बातचीत से ज़रूरी जानकारी नोट करें:",
+      "instruction": "सुनकर इन सवालों के जवाब लिखें:",
+      "sections": [
+        { "label": "वे कहाँ जाने की योजना बना रहे हैं?", "placeholder": "स्थान..." },
+        { "label": "किस समय मिलने की योजना है?", "placeholder": "समय..." },
+        { "label": "A क्या ले जाएगा?", "placeholder": "खाने की चीज़..." },
+        { "label": "B क्या ले जाएगी?", "placeholder": "पीने की चीज़..." }
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "gap_fill",
+      "title": "बातचीत पूरी करें",
+      "text": "A: ___ でピクニックはどうですか？\nB: いいですね！なんじに___ますか？\nA: わたしはサンドイッチを___ます！\nB: じゃあわたしはオレンジジュースを___ます！",
+      "gaps": ["こうえん", "あい", "つくり", "かって き"],
+      "hints": ["पार्क", "मिलना", "बनाना", "खरीदकर लाना"]
+    },
+    {
+      "id": "b4",
+      "type": "true_false",
+      "title": "बातचीत समझें",
+      "items": [
+        { "statement": "वे किसी रेस्तराँ में जाने की योजना बना रहे हैं।", "answer": false, "explanation": "नहीं! वे पार्क में पिकनिक (こうえんでピクニック) की योजना बना रहे हैं।" },
+        { "statement": "वे सुबह 10 बजे मिलेंगे।", "answer": true, "explanation": "हाँ: ごぜんじゅうじはどうですか — सुबह 10 बजे।" },
+        { "statement": "B सैंडविच बनाएगी।", "answer": false, "explanation": "नहीं! A सैंडविच बनाएगा और B ऑरेंज जूस लाएगी।" }
+      ]
+    }
+  ]
+}
