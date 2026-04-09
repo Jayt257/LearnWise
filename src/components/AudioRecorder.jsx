@@ -43,10 +43,15 @@ export default function AudioRecorder({ onResult, expectedText, disabled }) {
           formData.append('file', blob, 'recording.webm');
           if (expectedText) formData.append('expected_text', expectedText);
 
-          const { data } = await client.post('/speech/stt', formData, {
+          const { data } = await client.post('/speech/transcribe', formData, {
             headers: { 'Content-Type': 'multipart/form-data' }
           });
-          onResult(data.transcript || '');
+          if (data.is_mock) {
+            setState('error');
+            setErrorMsg('Whisper fallback (Demo mode). Type your answer below.');
+            return;
+          }
+          onResult(data.text || '');
           setState('idle');
         } catch (err) {
           console.error('STT error:', err);
