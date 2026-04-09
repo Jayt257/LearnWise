@@ -1,0 +1,228 @@
+{
+  "activityId": "ja_hi_M3B3_test_8",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "ब्लॉक मूल्यांकन: सकर्मक और अकर्मक (Tadoushi & Jidoushi)",
+  "learningGoal": "महीने 3 के तीसरे ब्लॉक में सीखे गए Transitive (मैंने किया) और Intransitive (खुद हुआ) क्रियाओं और अवस्था (~te iru/aru) का मूल्यांकन करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 75,
+  "prerequisites": [
+    "ja_hi_M3B3_lesson_1",
+    "ja_hi_M3B3_pronunciation_2",
+    "ja_hi_M3B3_reading_3",
+    "ja_hi_M3B3_writing_4",
+    "ja_hi_M3B3_listening_5",
+    "ja_hi_M3B3_vocabulary_6",
+    "ja_hi_M3B3_speaking_7"
+  ],
+  "instructions": "यह ब्लॉक 3 का मूल्यांकन है। इस टेस्ट में आपको Transitive/Intransitive verbs के जोड़ों (Pairs) को पहचानना है और 'अवस्था' (State) बताने के लिए सही Particles और Te-form का चुनाव करना है।",
+  "testTitle": "ब्लॉक 3 - क्रियाएँ और अवस्था (Verbs & States) टेस्ट",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_verb_pairs",
+      "sectionTitle": "क्रियाओं के जोड़े (Verb Pairs)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "'मैं लाइट बंद करता हूँ' - सही जापानी वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "でんき を けします (Denki o keshimasu)",
+            "でんき が けします (Denki ga keshimasu)",
+            "でんき を きえます (Denki o kiemasu)"
+          ],
+          "questionHints": {
+            "targetText": "でんき を けします (Denki o keshimasu)",
+            "transliteration": "Denki o keshimasu",
+            "baseTranslation": "Transitive verb (Keshimasu) requires 'o'."
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "'हवा से दरवाज़ा बंद हो गया' (खुद) - सही जापानी वाक्य चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "ドア が しまりました (Doa ga shimarimashita)",
+            "ドア を しめました (Doa o shimemashita)",
+            "ドア が しめました (Doa ga shimemashita)"
+          ],
+          "questionHints": {
+            "targetText": "ドア が しまりました (Doa ga shimarimashita)",
+            "transliteration": "Doa ga shimarimashita",
+            "baseTranslation": "Intransitive verb (Shimarimashita) requires 'ga'."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "निम्नलिखित में से कौन सा शब्द Intransitive (अकर्मक - जो खुद होता है) है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "こわれます (Kowaremasu - टूटना)",
+            "こわします (Kowashimasu - तोड़ना)",
+            "あけます (Akemasu - खोलना)"
+          ],
+          "questionHints": {
+            "targetText": "こわれます (Kowaremasu - टूटना)",
+            "transliteration": "Kowaremasu",
+            "baseTranslation": "Kowaremasu happens on its own."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_states",
+      "sectionTitle": "अवस्था (States: ~te iru / ~te aru)",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "'खिड़की खुली हुई है' (बस एक तथ्य है, हवा से खुली हो सकती है)। - सही रूप चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "まど が あいて います (Mado ga aite imasu)",
+            "まど が あけて あります (Mado ga akete arimasu)",
+            "まど を あけて います (Mado o akete imasu)"
+          ],
+          "questionHints": {
+            "targetText": "まど が あいて います (Mado ga aite imasu)",
+            "transliteration": "Mado ga aite imasu",
+            "baseTranslation": "Intransitive (aite) + imasu describes a natural state."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "'कैलेंडर पर योजना लिखी हुई है' (किसी ने जानबूझकर लिखी है ताकि याद रहे)। - सही रूप चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "よてい が かいて あります (Yotei ga kaite arimasu)",
+            "よてい が かいて います (Yotei ga kaite imasu)",
+            "よてい を かいて あります (Yotei o kaite arimasu)"
+          ],
+          "questionHints": {
+            "targetText": "よてい が かいて あります (Yotei ga kaite arimasu)",
+            "transliteration": "Yotei ga kaite arimasu",
+            "baseTranslation": "Transitive (kaite) + arimasu describes intentional state. Takes 'ga'."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_particles",
+      "sectionTitle": "Particles: 'O' बनाम 'Ga'",
+      "questions": [
+        {
+          "questionId": "tq_6",
+          "questionText": "ग्रामर चेक: जब हम किसी चीज़ की 'अवस्था' (State) बताते हैं (जैसे 'टूटा हुआ है', 'खुला हुआ है'), तो हम कौन सा Particle उपयोग करते हैं?",
+          "questionType": "multiple_choice",
+          "options": [
+            "हमेशा 'Ga' (が) या 'Wa' (は), कभी 'O' (を) नहीं।",
+            "हमेशा 'O' (を)।",
+            "कोई Particle नहीं।"
+          ],
+          "questionHints": {
+            "targetText": "हमेशा 'Ga' (が) या 'Wa' (は), कभी 'O' (を) नहीं。",
+            "transliteration": "Always Ga/Wa, never O.",
+            "baseTranslation": "States describe the subject, so they take ga or wa."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        },
+        {
+          "questionId": "tq_7",
+          "questionText": "'केंजी ने कंप्यूटर तोड़ दिया' (Watashi wa pasokon ___ kowashimashita)। सही Particle चुनें:",
+          "questionType": "multiple_choice",
+          "options": [
+            "を (O)",
+            "が (Ga)",
+            "に (Ni)"
+          ],
+          "questionHints": {
+            "targetText": "を (O)",
+            "transliteration": "O",
+            "baseTranslation": "Transitive action by Kenji takes 'o'."
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 20,
+  "passMarks": 16,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "でんき を けします (Denki o keshimasu)",
+      "tq_2": "ドア が しまりました (Doa ga shimarimashita)",
+      "tq_3": "こわれます (Kowaremasu - टूटना)",
+      "tq_4": "まど が あいて います (Mado ga aite imasu)",
+      "tq_5": "よてい が かいて あります (Yotei ga kaite arimasu)",
+      "tq_6": "हमेशा 'Ga' (が) या 'Wa' (は), कभी 'O' (を) नहीं。",
+      "tq_7": "を (O)"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने जापानी भाषा के एक बहुत ही महत्वपूर्ण और जटिल हिस्से (Tadoushi और Jidoushi) को अच्छी तरह से समझ लिया है।",
+    "onFail": "नियम याद रखें: 'मैंने किया' = Transitive Verb + O Particle. 'खुद हुआ/अवस्था' = Intransitive Verb + Ga Particle.",
+    "onPartial": "अच्छा प्रयास है! '~te arimasu' (जानबूझकर की गई अवस्था) वाले वाक्यों में भी 'O' नहीं, बल्कि 'Ga' का उपयोग होता है।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "でんき を けします。ドア が しまりました。こわれます。まど が あいて います。よてい が かいて あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "transitive",
+    "intransitive",
+    "grammar",
+    "state"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर वाक्य में 'Kaze de' (हवा से) या 'Jibun de' (अपने आप) है, तो हमेशा Intransitive (Ga) का उपयोग करें।",
+  "commonMistakes": [
+    "'Akemasu' (खोलना) और 'Akimasu' (खुलना) के बीच भ्रमित होना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B4_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

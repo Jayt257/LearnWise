@@ -1,7 +1,8 @@
 /**
  * src/pages/activities/ActivityRouter.jsx
- * Reads the activity type from route params and renders the correct activity page.
- * All activities receive: activityFile, activityId, maxXP, pairId via location.state or params.
+ * Reads activity type from route params and renders the correct page.
+ * Activity data is loaded from JSON via backend; no hardcoding.
+ * Supports: lesson, vocabulary, pronunciation, reading, writing, listening, speaking, test
  */
 import React from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
@@ -16,7 +17,8 @@ import TestPage from './TestPage.jsx';
 
 const ACTIVITY_COMPONENTS = {
   lesson: LessonPage,
-  vocab: VocabPage,
+  vocabulary: VocabPage,
+  vocab: VocabPage,        // backward compat
   reading: ReadingPage,
   writing: WritingPage,
   listening: ListeningPage,
@@ -31,13 +33,16 @@ export default function ActivityRouter() {
   const navigate = useNavigate();
 
   const state = location.state || {};
-  const { activityFile, activityId, maxXP, label } = state;
+  const { activityFile, activitySeqId, activityJsonId, maxXP, label, monthNumber, blockNumber } = state;
 
   if (!activityFile) {
     return (
       <div style={{ padding: '2rem', textAlign: 'center' }}>
-        <p style={{ color: 'var(--color-text-muted)' }}>Activity not found. Please go back to the roadmap.</p>
-        <button className="btn btn-primary mt-4" onClick={() => navigate('/dashboard')}>← Back to Roadmap</button>
+        <p style={{ fontSize: '2rem', marginBottom: '1rem' }}>🚧</p>
+        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
+          Activity not found. Please go back to the roadmap.
+        </p>
+        <button className="btn btn-primary" onClick={() => navigate('/dashboard')}>← Back to Roadmap</button>
       </div>
     );
   }
@@ -46,8 +51,8 @@ export default function ActivityRouter() {
   if (!Component) {
     return (
       <div style={{ padding: '2rem', textAlign: 'center' }}>
-        <p style={{ color: 'var(--color-danger-light)' }}>Unknown activity type: {type}</p>
-        <button className="btn btn-secondary mt-4" onClick={() => navigate('/dashboard')}>← Back</button>
+        <p style={{ color: 'var(--color-danger-light)' }}>Unknown activity type: <strong>{type}</strong></p>
+        <button className="btn btn-secondary" style={{ marginTop: '1rem' }} onClick={() => navigate('/dashboard')}>← Back</button>
       </div>
     );
   }
@@ -56,9 +61,12 @@ export default function ActivityRouter() {
     <Component
       pairId={pairId}
       activityFile={activityFile}
-      activityId={activityId}
+      activitySeqId={activitySeqId}
+      activityJsonId={activityJsonId}
       maxXP={maxXP}
       label={label || type}
+      monthNumber={monthNumber}
+      blockNumber={blockNumber}
     />
   );
 }

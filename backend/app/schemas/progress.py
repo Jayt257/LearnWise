@@ -1,6 +1,7 @@
 """
 backend/app/schemas/progress.py
 Pydantic schemas for progress tracking and activity completions.
+Schema v2: current_week → current_block, activity_id → int (seq) + string (json)
 """
 
 from pydantic import BaseModel
@@ -15,8 +16,8 @@ class ProgressOut(BaseModel):
     lang_pair_id: str
     total_xp: int
     current_month: int
-    current_week: int
-    current_activity_id: int
+    current_block: int           # was current_week
+    current_activity_id: int    # sequential integer position (1-144)
     started_at: Optional[datetime] = None
     last_activity_at: Optional[datetime] = None
 
@@ -28,9 +29,12 @@ class StartProgressRequest(BaseModel):
 
 
 class CompleteActivityRequest(BaseModel):
-    activity_id: int
+    activity_seq_id: int          # sequential integer (1-144) — used for unlock logic
+    activity_json_id: Optional[str] = None  # string activityId from JSON e.g. "ja_hi_M1B1_lesson_1"
     activity_type: str
     lang_pair_id: str
+    month_number: Optional[int] = None
+    block_number: Optional[int] = None
     score_earned: int
     max_score: int
     passed: bool
@@ -40,8 +44,11 @@ class CompleteActivityRequest(BaseModel):
 
 class CompletionOut(BaseModel):
     id: UUID
-    activity_id: int
+    activity_seq_id: int
+    activity_json_id: Optional[str] = None
     activity_type: str
+    month_number: Optional[int] = None
+    block_number: Optional[int] = None
     score_earned: int
     max_score: int
     passed: bool
@@ -57,7 +64,7 @@ class UserProgressSummary(BaseModel):
     lang_pair_id: str
     total_xp: int
     current_month: int
-    current_week: int
+    current_block: int
     current_activity_id: int
     completed_activities: List[CompletionOut]
 

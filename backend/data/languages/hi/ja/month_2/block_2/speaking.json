@@ -1,0 +1,182 @@
+{
+  "activityId": "ja_hi_M2B2_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "बातचीत: ऑफिस में बॉस के साथ (At the Office with the Boss)",
+  "learningGoal": "Te-form के नियमों (kudasai, mo ii desu ka, imasu) का उपयोग करके स्वाभाविक रूप से बातचीत करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B2_listening_5",
+    "ja_hi_M2B2_vocabulary_6"
+  ],
+  "instructions": "इस रोलप्ले में आप एक जापानी कंपनी में काम कर रहे हैं। आपके बॉस (Shachou) आपको काम बता रहे हैं। आपको उनसे अनुमति माँगनी है (~te mo ii desu ka) और बताना है कि आप क्या कर रहे हैं (~te imasu)।",
+  "speakingPrompt": "बॉस के सवालों का जवाब दें और Te-form का उपयोग करें।",
+  "scenario": "जापानी कंपनी में बॉस के साथ काम को लेकर बातचीत।",
+  "role": "आप (Employee)",
+  "conversationPartner": "बॉस (Shachou)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "बॉस पूछते हैं: 'तुम अभी क्या कर रहे हो?' (Ima nani o shite imasu ka?)। उन्हें बताएं: 'मैं अभी रिपोर्ट लिख रहा हूँ।' (Ima repooto o kaite imasu)",
+      "expectedSpeakingPoints": [
+        "Ima",
+        "repooto o",
+        "kaite imasu"
+      ],
+      "sampleResponse": {
+        "targetText": "いま レポート を かいています。",
+        "transliteration": "Ima repooto o kaite imasu.",
+        "baseTranslation": "अभी रिपोर्ट लिख रहा हूँ। (Kakimasu -> Kaite)"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "बॉस कहते हैं: 'कृपया थोड़ा इंतज़ार करें।' (Chotto matte kudasai)। उन्हें कहें: 'समझ गया।' (Wakarimashita)",
+      "expectedSpeakingPoints": [
+        "Wakarimashita"
+      ],
+      "sampleResponse": {
+        "targetText": "わかりました。",
+        "transliteration": "Wakarimashita.",
+        "baseTranslation": "समझ गया।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "अब आपको घर जाना है। बॉस से पूछें: 'क्या मैं घर लौट सकता हूँ?' (Uchi e kaette mo ii desu ka?)",
+      "expectedSpeakingPoints": [
+        "Uchi e",
+        "kaette mo ii desu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "うち へ かえっても いいですか。",
+        "transliteration": "Uchi e kaette mo ii desu ka.",
+        "baseTranslation": "क्या मैं घर लौट सकता हूँ? (Kaerimasu -> Kaette)"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "बॉस कहते हैं: 'हाँ, ठीक है। कृपया लौटें।' (Hai, ii desu yo. Kaette kudasai)। उन्हें कहें: 'बहुत-बहुत धन्यवाद।' (Arigatou gozaimasu)",
+      "expectedSpeakingPoints": [
+        "Arigatou",
+        "gozaimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ありがとうございます。",
+        "transliteration": "Arigatou gozaimasu.",
+        "baseTranslation": "बहुत-बहुत धन्यवाद।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "かいしゃ で しゃちょう と はなします。",
+    "transliteration": "Kaisha de shachou to hanashimasu.",
+    "baseTranslation": "कंपनी में बॉस के साथ बात कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "いま レポート を かいています。",
+      "transliteration": "Ima repooto o kaite imasu.",
+      "baseTranslation": "अभी रिपोर्ट लिख रहा हूँ।"
+    },
+    {
+      "targetText": "わかりました。",
+      "transliteration": "Wakarimashita.",
+      "baseTranslation": "समझ गया।"
+    },
+    {
+      "targetText": "うち へ かえっても いいですか。",
+      "transliteration": "Uchi e kaette mo ii desu ka.",
+      "baseTranslation": "क्या मैं घर लौट सकता हूँ?"
+    },
+    {
+      "targetText": "ありがとうございます。",
+      "transliteration": "Arigatou gozaimasu.",
+      "baseTranslation": "बहुत-बहुत धन्यवाद।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 15,
+    "vocabularyWeight": 15
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "kaite imasu",
+      "wakarimashita",
+      "kaette mo ii desu ka",
+      "arigatou gozaimasu"
+    ],
+    "requiredKeywords": [
+      "かいています",
+      "かえっても いいですか"
+    ],
+    "acceptableParaphrases": [
+      "Using 'kaisha o deta mo ii desu ka' is too advanced but acceptable if done correctly. 'kaette mo ii desu ka' is preferred."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Te-form accuracy in Speech",
+          "weight": 80,
+          "description": "Must clearly pronounce kaite (not katte) and kaette (not kaete)."
+        },
+        {
+          "name": "Politeness",
+          "weight": 20,
+          "description": "Maintains polite 'desu/masu' endings since talking to the boss."
+        }
+      ]
+    },
+    "sampleAnswer": "Ima repooto o kaite imasu. Wakarimashita. Uchi e kaette mo ii desu ka. Arigatou gozaimasu.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "उत्कृष्ट! आपने Te-form का बहुत स्वाभाविक और विनम्र तरीके से उपयोग किया है। बॉस को यह पसंद आएगा!",
+    "onFail": "कृपया 'Kaite imasu' (लिख रहा हूँ) और 'Kaette mo ii desu ka' (क्या लौट सकता हूँ?) के उच्चारण पर ध्यान दें। Te-form में ज़रा सी गलती अर्थ बदल सकती है।",
+    "onPartial": "आपने अच्छा किया है। जापानी व्यवसाय में 'Wakarimashita' (समझ गया) का उपयोग बहुत बार होता है, इसे याद रखें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "いま レポート を かいています。わかりました。うち へ かえっても いいですか。ありがとうございます。",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "te-form",
+    "imasu",
+    "mo ii desu ka",
+    "business"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "बॉस से बात करते समय हमेशा विनम्र (Polite) भाषा का इस्तेमाल करें। '~te mo ii desu ka' विनम्र अनुमति माँगने का सबसे अच्छा तरीका है।",
+  "commonMistakes": [
+    "'Kaette' की जगह 'Kaerite' बोलना (Kaerimasu 'ri' पर खत्म होता है, इसलिए नियम है: i,chi,ri -> tte)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B2_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

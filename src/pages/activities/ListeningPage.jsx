@@ -1,130 +1,144 @@
 /**
  * src/pages/activities/ListeningPage.jsx
- * Listening activity — plays audio from backend (if available) and asks comprehension questions.
+ * Dynamic: audioAssets (real path only), audioTranscriptSentences[] (with toggle),
+ * questionSet[] (multiple question types), replay controls.
  */
-import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { getActivity } from '../../api/content.js';
-import { validateActivity, completeActivity } from '../../api/progress.js';
-import { useSelector } from 'react-redux';
+import React, { useState, useRef } from 'react';
+import { useActivity } from '../../hooks/useActivity.js';
+import { ActivityHeader, Spinner, ContentMissing, LoadError } from './LessonPage.jsx';
+import TargetTextBlock from '../../components/TargetTextBlock.jsx';
+import AudioPlayer from '../../components/AudioPlayer.jsx';
+import DynamicQuiz from '../../components/DynamicQuiz.jsx';
 import ScoreModal from '../../components/ScoreModal.jsx';
 import ActivityFeedback from '../../components/ActivityFeedback.jsx';
 
-const MAX_INPUT_CHARS = 500; // limit gap-fill answers
+export default function ListeningPage({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, label, monthNumber, blockNumber }) {
+  const {
+    data, loading, error, answers, setAnswers, submitting,
+    result, showFeedback, setShowFeedback, submitAnswers, retryActivity, goToDashboard,
+  } = useActivity({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, monthNumber, blockNumber, activityType: 'listening' });
 
-export default function ListeningPage({ pairId, activityFile, activityId, maxXP, label }) {
-  const navigate = useNavigate();
-  const { user } = useSelector(s => s.auth);
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [answers, setAnswers] = useState({});
-  const [submitting, setSubmitting] = useState(false);
-  const [result, setResult] = useState(null);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const attemptCount = useRef(1);
+  const [showTranscript, setShowTranscript] = useState(false);
 
-  useEffect(() => {
-    getActivity(pairId, activityFile).then(r => { setData(r.data); setLoading(false); }).catch(() => setLoading(false));
-  }, [activityFile, pairId]);
+  if (loading) return <Spinner />;
+  if (error === 'content_missing') return <ContentMissing goBack={goToDashboard} />;
+  if (error) return <LoadError goBack={goToDashboard} />;
+  if (!data) return null;
 
-  const audioSrc = data?.audio_url ? `http://localhost:5000${data.audio_url}` : null;
-  const questions = data?.questions || [];
+  const audio = data.audioAssets || {};
+  const hasRealAudio = audio.nativeAudio && !audio.nativeAudio.includes('dummy');
+  const hasRealSampleAudio = audio.sampleAudio && !audio.sampleAudio.includes('dummy');
+  const transcript = data.audioTranscriptSentences || [];
+  const questions = data.questionSet || [];
+  const replayAllowed = data.replayAllowed !== false;
+  const slowAllowed = data.slowPlaybackAllowed === true;
 
   const handleSubmit = async () => {
-    setSubmitting(true);
-    try {
-      const qData = questions.map((q, i) => ({
-        question_id: `listening_q${i}`,
-        block_type: 'listening',
-        user_answer: answers[`q${i}`] || '',
-        correct_answer: q.correct_answer || q.answer,
-        prompt: q.question,
-      }));
-      
-      const { data: res } = await validateActivity({
-        activity_id: activityId, activity_type: 'listening', lang_pair_id: pairId,
-        max_xp: maxXP, user_lang: user?.native_lang || 'hi', target_lang: pairId.split('-')[1],
-        questions: qData,
-        attempt_count: attemptCount.current,
+    if (questions.length === 0) {
+      await submitAnswers([], {
+        total_score: maxXP, max_score: maxXP, percentage: 100, passed: true,
+        feedback: 'Great listening session! 🎧', suggestion: 'Try to recall key words from the audio.',
+        question_results: [],
       });
-      setResult(res);
-      attemptCount.current += 1;
-      await completeActivity(pairId, { activity_id: activityId, activity_type: 'listening', lang_pair_id: pairId, score_earned: res.total_score, max_score: maxXP, passed: res.passed, ai_feedback: res.feedback, ai_suggestion: res.suggestion });
-    } catch (e) { console.error(e); } finally { setSubmitting(false); }
+      return;
+    }
+    const qs = questions.map((q, i) => {
+      const userAns = answers[i];
+      return {
+        question_id: q.questionId || `lq_${i}`,
+        block_type: q.questionType || 'multiple_choice',
+        user_answer: typeof userAns === 'number' ? (q.options?.[userAns] || '') : (userAns || ''),
+        correct_answer: data.adminCorrectAnswerSet?.correctAnswers?.[q.questionId] || q.correctAnswer || '',
+        prompt: q.questionText || '',
+      };
+    });
+    await submitAnswers(qs);
   };
 
-  if (loading) return <div style={{ textAlign: 'center', padding: '4rem' }}><div className="spinner" style={{ margin: '0 auto' }} /></div>;
-  if (!data) return <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-danger-light)' }}>Failed to load listening content.</div>;
-
   return (
-    <div style={{ maxWidth: 800, margin: '0 auto' }}>
-      <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-        <button className="btn btn-ghost btn-sm" onClick={() => navigate('/dashboard')}>← Back</button>
-        <div style={{ flex: 1 }}>
-          <div className="badge badge-primary" style={{ marginBottom: '0.5rem', background: 'rgba(245, 158, 11, 0.2)', color: '#fcd34d' }}>🎧 Listening • +{maxXP} XP</div>
-          <h1 className="heading-md">{data.title}</h1>
-          <p className="text-muted" style={{ fontSize: '0.875rem', marginTop: '0.25rem' }}>{data.description}</p>
-        </div>
-      </div>
+    <div style={{ maxWidth: 820, margin: '0 auto' }}>
+      <ActivityHeader label={`🎧 ${label || 'Listening'}`} maxXP={maxXP} title={data.title} description={data.learningGoal} goBack={goToDashboard} />
 
-      <div className="card" style={{ marginBottom: '2rem', textAlign: 'center', padding: '2.5rem 1rem' }}>
-        <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔊</div>
-        {audioSrc ? (
-          <audio controls src={audioSrc} style={{ width: '100%', maxWidth: 400, borderRadius: 'var(--radius-md)' }} />
-        ) : (
-          <div style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', fontStyle: 'italic', background: 'var(--color-surface-3)', padding: '1rem', borderRadius: 'var(--radius-md)', display: 'inline-block' }}>
-            {data.transcript || "Audio file unavailable. Please read the transcript if provided."}
+      {/* Scenario context */}
+      {data.audioScenario && (
+        <div style={{ background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', padding: '1rem', marginBottom: '1.25rem' }}>
+          <div style={{ fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', color: 'var(--color-text-dim)', marginBottom: '0.375rem' }}>Scenario</div>
+          <p style={{ fontSize: '0.9rem' }}>{data.audioScenario}</p>
+        </div>
+      )}
+
+      {/* Audio player — only shows if real path */}
+      <div className="card" style={{ marginBottom: '1.5rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem' }}>
+          <div>
+            <div style={{ fontWeight: 600, marginBottom: '0.5rem' }}>🎵 Audio Clip</div>
+            {data.audioDuration && <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>Duration: ~{data.audioDuration}s</div>}
           </div>
+          <div style={{ display: 'flex', gap: '0.625rem', flexWrap: 'wrap' }}>
+            {hasRealAudio ? (
+              <>
+                <AudioPlayer audioUrl={audio.nativeAudio} label={replayAllowed ? 'Play (replay OK)' : 'Play (once)'} />
+                {slowAllowed && audio.slowAudio && !audio.slowAudio.includes('dummy') && (
+                  <AudioPlayer audioUrl={audio.slowAudio} label="Slow Speed" />
+                )}
+              </>
+            ) : hasRealSampleAudio ? (
+              <AudioPlayer audioUrl={audio.sampleAudio} label="Play" />
+            ) : (
+              <div style={{ padding: '0.5rem 0.75rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-md)', fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
+                🔇 Audio not available — use transcript to complete activity
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Transcript toggle */}
+        {transcript.length > 0 && (
+          <button className={`btn btn-sm ${showTranscript ? 'btn-primary' : 'btn-ghost'}`}
+            style={{ marginTop: '0.75rem' }} onClick={() => setShowTranscript(s => !s)}>
+            {showTranscript ? '🙈 Hide Transcript' : '📝 Show Transcript'}
+          </button>
         )}
       </div>
 
-      <h2 className="heading-sm" style={{ marginBottom: '1rem' }}>Questions</h2>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
-        {questions.map((q, i) => (
-          <div key={i} className="card">
-            <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>{i + 1}. {q.question}</p>
-            {q.type === 'mcq' ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                {q.options?.map((opt, j) => (
-                  <button key={j} type="button"
-                    onClick={() => setAnswers(p => ({ ...p, [`q${i}`]: opt }))}
-                    style={{ padding: '0.625rem 1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${answers[`q${i}`] === opt ? 'var(--color-primary)' : 'var(--color-border)'}`, background: answers[`q${i}`] === opt ? 'var(--color-primary-glow)' : 'var(--color-surface-2)', cursor: 'pointer', textAlign: 'left', fontSize: '0.875rem' }}>
-                    {opt}
-                  </button>
-                ))}
+      {/* Transcript */}
+      {showTranscript && transcript.length > 0 && (
+        <div className="card" style={{ marginBottom: '1.5rem' }}>
+          <h3 className="heading-sm" style={{ marginBottom: '1rem' }}>📝 Transcript</h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {transcript.map((line, i) => (
+              <div key={i} style={{ borderLeft: '3px solid var(--color-secondary)', paddingLeft: '0.875rem' }}>
+                <TargetTextBlock data={line} size="sm" />
               </div>
-            ) : (
-              <input className="form-input" placeholder="Type your answer..."
-                maxLength={MAX_INPUT_CHARS}
-                value={answers[`q${i}`] || ''} onChange={e => setAnswers(p => ({ ...p, [`q${i}`]: e.target.value }))} />
-            )}
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
+
+      {/* Questions */}
+      {questions.length > 0 && (
+        <div style={{ marginBottom: '1.5rem' }}>
+          <h3 className="heading-sm" style={{ marginBottom: '1rem', color: 'var(--color-text-muted)' }}>
+            ❓ Comprehension Questions
+          </h3>
+          {questions.map((q, i) => (
+            <DynamicQuiz key={q.questionId || i} question={{ ...q, questionType: q.questionType || 'mcq', options: q.options }} index={i}
+              answer={answers[i]} onChange={v => setAnswers(p => ({ ...p, [i]: v }))}
+              showResult={!!result} />
+          ))}
+        </div>
+      )}
 
       {!result && (
         <div style={{ textAlign: 'center' }}>
-          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting} style={{ background: 'linear-gradient(135deg, var(--color-accent), #d97706)' }}>
-            {submitting ? <><span className="spinner" /> Evaluating...</> : '✅ Submit Answers'}
+          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting}>
+            {submitting ? <><span className="spinner" /> Evaluating...</> : questions.length === 0 ? '✅ Mark Complete' : '✅ Submit Answers'}
           </button>
         </div>
       )}
 
-      {result && (
-        <ScoreModal result={result} maxXP={maxXP}
-          onNext={() => setShowFeedback(true)}
-          onRetry={() => { setResult(null); setAnswers({}); }}
-          activityType="listening"
-        />
-      )}
-
-      {showFeedback && result && (
-        <ActivityFeedback
-          result={result}
-          activityType="listening"
-          onDismiss={() => { setShowFeedback(false); navigate('/dashboard'); }}
-        />
-      )}
+      {result && <ScoreModal result={result} maxXP={maxXP} onNext={() => setShowFeedback(true)} onRetry={retryActivity} activityType="listening" />}
+      {showFeedback && result && <ActivityFeedback result={result} activityType="listening" onDismiss={() => { setShowFeedback(false); goToDashboard(); }} />}
     </div>
   );
 }

@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_hi_M1B4_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "बातचीत: समय पूछना और बताना (Asking & Telling Time)",
+  "learningGoal": "जापानी में किसी से समय पूछना और अपना दैनिक कार्यक्रम (schedule) बताना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_hi_M1B4_listening_5",
+    "ja_hi_M1B4_vocabulary_6"
+  ],
+  "instructions": "आप टोक्यो के एक ट्रेन स्टेशन पर हैं। आपको एक अजनबी से समय पूछना है और फिर अपने जापानी दोस्त को अपनी ट्रेन का समय बताना है। संकेतों को पढ़ें और जापानी में ज़ोर से बोलें।",
+  "speakingPrompt": "अजनबी से समय पूछें और दोस्त को अपना शेड्यूल बताएं।",
+  "scenario": "आप स्टेशन पर हैं। आपकी घड़ी खराब हो गई है। आप किसी से समय पूछते हैं।",
+  "role": "यात्री (Traveler)",
+  "conversationPartner": "अजनबी और एक दोस्त",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "एक अजनबी से पूछें: 'एक्सक्यूज़ मी (Sumimasen), अभी क्या समय हुआ है?'",
+      "expectedSpeakingPoints": [
+        "Sumimasen",
+        "Ima",
+        "nan-ji desu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "すみません、いま なんじ ですか。",
+        "transliteration": "Sumimasen, ima nan-ji desu ka.",
+        "baseTranslation": "माफ़ कीजिए, अभी क्या समय हुआ है?"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "अजनबी कहता है कि 4:30 हुए हैं। आप धन्यवाद देते हैं: 'बहुत धन्यवाद।' (Arigatou gozaimasu)",
+      "expectedSpeakingPoints": [
+        "Arigatou gozaimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ありがとうございます。",
+        "transliteration": "Arigatou gozaimasu.",
+        "baseTranslation": "बहुत-बहुत धन्यवाद।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "आप अपने दोस्त से मिलते हैं। उसे बताएं: 'मैं 5 बजे घर जाऊंगा।' (Go-ji ni uchi e ikimasu)",
+      "expectedSpeakingPoints": [
+        "Go-ji ni",
+        "ikimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ごじ に うち へ いきます。",
+        "transliteration": "Go-ji ni uchi e ikimasu.",
+        "baseTranslation": "मैं 5 बजे घर जाऊंगा।"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "दोस्त पूछता है कि कल कौन सा दिन है। आप उत्तर दें: 'कल बुधवार है।' (Ashita wa sui-youbi desu)",
+      "expectedSpeakingPoints": [
+        "Ashita wa",
+        "sui-youbi desu"
+      ],
+      "sampleResponse": {
+        "targetText": "あした は すいようび です。",
+        "transliteration": "Ashita wa sui-youbi desu.",
+        "baseTranslation": "कल बुधवार है।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "あなたは えき に います。じかん を ききます。",
+    "transliteration": "Anata wa eki ni imasu. Jikan o kikimasu.",
+    "baseTranslation": "आप स्टेशन पर हैं। आप समय पूछ रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "すみません、いま なんじ ですか。",
+      "transliteration": "Sumimasen, ima nan-ji desu ka.",
+      "baseTranslation": "माफ़ कीजिए, अभी क्या समय हुआ है?"
+    },
+    {
+      "targetText": "ごじ に いきます。",
+      "transliteration": "Go-ji ni ikimasu.",
+      "baseTranslation": "मैं 5 बजे जाऊंगा।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 15,
+    "vocabularyWeight": 15
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Sumimasen",
+      "Ima nanji desu ka",
+      "Arigatou gozaimasu",
+      "Go-ji ni",
+      "Ashita wa sui-youbi desu"
+    ],
+    "requiredKeywords": [
+      "nan-ji",
+      "ni"
+    ],
+    "acceptableParaphrases": [
+      "Omitting 'uchi e' (to home) is acceptable as long as time and verb are correct."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Pronunciation",
+          "weight": 50,
+          "description": "Clear articulation of 'ji' and 'youbi'"
+        },
+        {
+          "name": "Particle Use",
+          "weight": 50,
+          "description": "Correct use of 'ni' after time"
+        }
+      ]
+    },
+    "sampleAnswer": "Sumimasen, ima nanji desu ka. Arigatou gozaimasu. Goji ni uchi e ikimasu. Ashita wa suiyoubi desu.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "बहुत बढ़िया! अब आप जापान में कभी भी ट्रेन नहीं चूकेंगे।",
+    "onFail": "कृपया 'Ima nanji desu ka' (अभी क्या समय है) वाक्यांश का अभ्यास करें। यह बहुत महत्वपूर्ण है।",
+    "onPartial": "आपने अच्छा बोला, लेकिन समय के बाद 'ni' (に) लगाना न भूलें (जैसे Go-ji ni)।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "すみません、いま なんじ ですか。ありがとうございます。ごじ に うち へ いきます。あした は すいようび です。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "time",
+    "schedule",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अजनबियों से बात शुरू करने से पहले हमेशा 'Sumimasen' (एक्सक्यूज़ मी) कहें।",
+  "commonMistakes": [
+    "समय पूछने के लिए 'Nan-ji desu ka' के बजाय 'Nan-ji' (बिना desu ka के) बोलना - यह अजनबियों के लिए बहुत अनौपचारिक (rude) है।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B4_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

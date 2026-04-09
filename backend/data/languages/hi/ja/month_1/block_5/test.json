@@ -1,0 +1,325 @@
+{
+  "activityId": "ja_hi_M1B5_test_8",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "महीना 1 अंतिम मूल्यांकन: संपूर्ण ज्ञान परीक्षण",
+  "learningGoal": "महीने 1 के सभी 5 ब्लॉक्स (लिपियां, अभिवादन, संख्या, समय, खरीदारी और सर्वनाम) का एक विस्तृत और चुनौतीपूर्ण मूल्यांकन।",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M1B5_lesson_1",
+    "ja_hi_M1B5_pronunciation_2",
+    "ja_hi_M1B5_reading_3",
+    "ja_hi_M1B5_writing_4",
+    "ja_hi_M1B5_listening_5",
+    "ja_hi_M1B5_vocabulary_6",
+    "ja_hi_M1B5_speaking_7"
+  ],
+  "instructions": "बधाई हो! यह आपके पहले महीने की अंतिम परीक्षा (Mega Assessment) है। इसमें पिछले सभी ब्लॉक्स से 15 चुनौतीपूर्ण प्रश्न पूछे गए हैं। यह आपके हिरागाना, काताकाना, व्याकरण और सुनने के कौशल का गहन परीक्षण करेगा। कृपया अपना समय लें और ध्यान से उत्तर दें।",
+  "testTitle": "महीना 1 फाइनल - जापानी भाषा मास्टर असेसमेंट",
+  "testScope": "month_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "listening",
+    "vocabulary",
+    "speaking"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_scripts",
+      "sectionTitle": "लिपियाँ: हिरागाना और काताकाना",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "हिरागाना में 'wa' कण (particle) को हमेशा कैसे लिखा जाता है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "わ (wa)",
+            "は (ha)",
+            "を (o)"
+          ],
+          "questionHints": {
+            "targetText": "は",
+            "transliteration": "ha",
+            "baseTranslation": "ha (used as wa)"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "दाताकाना शब्द 'コーヒー' (Koohii) का अर्थ क्या है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "कंप्यूटर (Computer)",
+            "कॉफी (Coffee)",
+            "केक (Cake)"
+          ],
+          "questionHints": {
+            "targetText": "コーヒー",
+            "transliteration": "koohii",
+            "baseTranslation": "Coffee"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "हांदाकुटेन (゜) लगाने पर 'he' (へ) क्या बन जाता है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "be (べ)",
+            "pe (ぺ)",
+            "ze (ぜ)"
+          ],
+          "questionHints": {
+            "targetText": "ぺ",
+            "transliteration": "pe",
+            "baseTranslation": "pe"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "व्याकरण और कण (Grammar & Particles)",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "'यह किताब' कहने का सही तरीका क्या है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "これ ほん (Kore hon)",
+            "この ほん (Kono hon)",
+            "それ ほん (Sore hon)"
+          ],
+          "questionHints": {
+            "targetText": "この ほん",
+            "transliteration": "kono hon",
+            "baseTranslation": "This book"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "'Watashi ____ Indo kara kimashita.' (मैं भारत से आया हूँ) - रिक्त स्थान में कौन सा कण आएगा?",
+          "questionType": "multiple_choice",
+          "options": [
+            "は (wa)",
+            "の (no)",
+            "に (ni)"
+          ],
+          "questionHints": {
+            "targetText": "は",
+            "transliteration": "wa",
+            "baseTranslation": "Topic particle"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        },
+        {
+          "questionId": "tq_6",
+          "questionText": "'Hachi-ji ____ gakkou e ikimasu.' (मैं 8 बजे स्कूल जाता हूँ) - समय के बाद कौन सा कण आएगा?",
+          "questionType": "multiple_choice",
+          "options": [
+            "は (wa)",
+            "へ (e)",
+            "に (ni)"
+          ],
+          "questionHints": {
+            "targetText": "に",
+            "transliteration": "ni",
+            "baseTranslation": "Time particle"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_vocab_numbers",
+      "sectionTitle": "शब्दावली, समय और संख्याएँ",
+      "questions": [
+        {
+          "questionId": "tq_7",
+          "questionText": "4 बजे (4:00) को जापानी में कैसे कहेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "よんじ (yon-ji)",
+            "よじ (yo-ji)",
+            "しじ (shi-ji)"
+          ],
+          "questionHints": {
+            "targetText": "よじ",
+            "transliteration": "yo-ji",
+            "baseTranslation": "4 o'clock"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_7"
+        },
+        {
+          "questionId": "tq_8",
+          "questionText": "28,000 येन को जापानी में कैसे कहेंगे?",
+          "questionType": "multiple_choice",
+          "options": [
+            "にじゅう はっせん (ni-juu has-sen)",
+            "にまん はっせん (ni-man has-sen)",
+            "にまん はちせん (ni-man hachi-sen)"
+          ],
+          "questionHints": {
+            "targetText": "にまん はっせん",
+            "transliteration": "ni-man has-sen",
+            "baseTranslation": "28,000"
+          },
+          "marks": 3,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_8"
+        },
+        {
+          "questionId": "tq_9",
+          "questionText": "'मंगलवार' (Tuesday) के लिए जापानी शब्द क्या है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "かようび (Ka-youbi)",
+            "もくようび (Moku-youbi)",
+            "げつようび (Getsu-youbi)"
+          ],
+          "questionHints": {
+            "targetText": "かようび",
+            "transliteration": "Ka-youbi",
+            "baseTranslation": "Tuesday"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_9"
+        },
+        {
+          "questionId": "tq_10",
+          "questionText": "किसी चीज़ की 'कीमत' पूछने के लिए कौन सा शब्द इस्तेमाल होता है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "どれ (Dore)",
+            "いくら (Ikura)",
+            "たかい (Takai)"
+          ],
+          "questionHints": {
+            "targetText": "いくら",
+            "transliteration": "Ikura",
+            "baseTranslation": "How much"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_10"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_comprehensive_listening",
+      "sectionTitle": "मास्टर श्रवण कौशल (Mega Listening Comprehension)",
+      "questions": [
+        {
+          "questionId": "tq_11",
+          "questionText": "(ऑडियो सुनें: 'Kono tokei wa ikura desu ka. Ichi-man go-sen en desu.') - घड़ी की कीमत कितनी है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "1,500 येन (sen go-hyaku en)",
+            "15,000 येन (ichi-man go-sen en)",
+            "50,000 येन (go-man en)"
+          ],
+          "questionHints": {
+            "targetText": "いちまん ごせん えん",
+            "transliteration": "ichi-man go-sen en",
+            "baseTranslation": "15,000 yen"
+          },
+          "marks": 4,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_11"
+        },
+        {
+          "questionId": "tq_12",
+          "questionText": "(ऑडियो सुनें: 'Ashita wa Moku-youbi desu. Ku-ji ni gakkou e ikimasu.') - कल कौन सा दिन है और व्यक्ति कितने बजे स्कूल जाएगा?",
+          "questionType": "multiple_choice",
+          "options": [
+            "बुधवार, 8 बजे",
+            "गुरुवार, 9 बजे",
+            "शुक्रवार, 10 बजे"
+          ],
+          "questionHints": {
+            "targetText": "もくようび、くじ",
+            "transliteration": "Moku-youbi, ku-ji",
+            "baseTranslation": "Thursday, 9 o'clock"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_12"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 30,
+  "passMarks": 21,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "は (ha)",
+      "tq_2": "कॉफी (Coffee)",
+      "tq_3": "pe (ぺ)",
+      "tq_4": "この ほん (Kono hon)",
+      "tq_5": "は (wa)",
+      "tq_6": "に (ni)",
+      "tq_7": "よじ (yo-ji)",
+      "tq_8": "にまん はっせん (ni-man has-sen)",
+      "tq_9": "かようび (Ka-youbi)",
+      "tq_10": "いくら (Ikura)",
+      "tq_11": "15,000 येन (ichi-man go-sen en)",
+      "tq_12": "गुरुवार, 9 बजे"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "असाधारण उपलब्धि! आपने जापानी भाषा के महीने 1 को पूरी तरह से मास्टर कर लिया है। आप अब जापान जाने के लिए तैयार हैं!",
+    "onFail": "यह एक बहुत ही चुनौतीपूर्ण टेस्ट था। महीने 1 का पाठ्यक्रम विशाल है। कृपया उन ब्लॉक्स को फिर से पढ़ें जिनमें आपको सबसे कम अंक मिले हैं (जैसे संख्याएं या कण)।",
+    "onPartial": "आपने बहुत अच्छा प्रदर्शन किया है। 'Man' (10,000) सिस्टम और Kono/Kore के बीच के अंतर पर थोड़ी और मेहनत करें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "この とけい は いくら ですか。いちまん ごせん えん です。あした は もくようび です。くじ に がっこう へ いきます。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "final assessment",
+    "comprehensive",
+    "month_1"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "प्रश्नों को दो बार पढ़ें। 'Man' (10,000) की गिनती में अक्सर गलती होती है, इसलिए नंबरों को ध्यान से तोड़ें।",
+  "commonMistakes": [
+    "'Wa' कण के लिए हिरागाना 'わ' चुनना (यह गलत है, व्याकरणिक कण हमेशा 'は' लिखा जाता है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B1_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

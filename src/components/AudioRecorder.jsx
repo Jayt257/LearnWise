@@ -1,54 +1,113 @@
 /**
  * src/components/AudioRecorder.jsx
- * Shared audio recording UI component used by Speaking, Pronunciation, Vocab activities.
+ * Records user speech via MediaRecorder, sends to /api/speech/stt (Whisper),
+ * returns transcript string via onResult callback.
+ * If path not resolved or browser doesn't support mic, shows graceful fallback.
  */
-import React from 'react';
-import { useAudioRecorder } from '../hooks/useAudioRecorder.js';
+import React, { useState, useRef } from 'react';
+import { Mic, MicOff, Loader } from 'lucide-react';
+import client from '../api/client.js';
 
-export default function AudioRecorder({ onRecordingComplete, label = 'Record your answer' }) {
-  const { isRecording, startRecording, stopRecording, audioBlob, audioUrl, error, reset } = useAudioRecorder();
+export default function AudioRecorder({ onResult, expectedText, disabled }) {
+  const [state, setState] = useState('idle'); // idle | recording | processing | error | unsupported
+  const [errorMsg, setErrorMsg] = useState('');
+  const mediaRecorder = useRef(null);
+  const chunks = useRef([]);
 
-  const handleStop = () => {
-    stopRecording();
+  const isSupported = typeof navigator !== 'undefined' && !!navigator.mediaDevices?.getUserMedia;
+
+  if (!isSupported) {
+    return (
+      <div style={{ padding: '0.75rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-md)', fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+        🎤 Your browser doesn't support microphone access. Type your answer instead.
+        <textarea className="form-input" style={{ marginTop: '0.5rem', width: '100%', minHeight: 80, resize: 'vertical' }}
+          placeholder="Type what you would say..."
+          onChange={e => onResult(e.target.value)} />
+      </div>
+    );
+  }
+
+  const startRecording = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const recorder = new MediaRecorder(stream);
+      mediaRecorder.current = recorder;
+      chunks.current = [];
+
+      recorder.ondataavailable = e => chunks.current.push(e.data);
+      recorder.onstop = async () => {
+        setState('processing');
+        try {
+          const blob = new Blob(chunks.current, { type: 'audio/webm' });
+          const formData = new FormData();
+          formData.append('file', blob, 'recording.webm');
+          if (expectedText) formData.append('expected_text', expectedText);
+
+          const { data } = await client.post('/speech/stt', formData, {
+            headers: { 'Content-Type': 'multipart/form-data' }
+          });
+          onResult(data.transcript || '');
+          setState('idle');
+        } catch (err) {
+          console.error('STT error:', err);
+          // If Whisper backend fails, let user type their answer
+          setState('error');
+          setErrorMsg('Speech recognition unavailable. Type your answer below.');
+        }
+        // Stop all tracks
+        stream.getTracks().forEach(t => t.stop());
+      };
+
+      recorder.start();
+      setState('recording');
+    } catch (err) {
+      setState('error');
+      setErrorMsg(err.name === 'NotAllowedError' ? 'Microphone access denied. Please allow microphone in browser settings.' : `Microphone error: ${err.message}`);
+    }
   };
 
-  const handleUse = () => {
-    if (audioBlob) onRecordingComplete(audioBlob);
+  const stopRecording = () => {
+    if (mediaRecorder.current?.state === 'recording') {
+      mediaRecorder.current.stop();
+    }
   };
+
+  if (state === 'error') {
+    return (
+      <div style={{ padding: '0.75rem', background: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.2)', borderRadius: 'var(--radius-md)' }}>
+        <p style={{ fontSize: '0.85rem', color: 'var(--color-danger-light)', marginBottom: '0.5rem' }}>⚠️ {errorMsg}</p>
+        <textarea className="form-input" rows={2} placeholder="Type your spoken answer..."
+          style={{ width: '100%', resize: 'vertical' }}
+          onChange={e => onResult(e.target.value)} />
+        <button className="btn btn-ghost btn-sm" style={{ marginTop: '0.5rem' }} onClick={() => setState('idle')}>↩ Try recording again</button>
+      </div>
+    );
+  }
 
   return (
-    <div style={{ textAlign: 'center', padding: '1.5rem' }}>
-      <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', fontSize: '0.9rem' }}>{label}</p>
-
-      {error && (
-        <div style={{ background: 'var(--color-danger-glow)', border: '1px solid var(--color-danger)', borderRadius: 'var(--radius-md)', padding: '0.75rem', marginBottom: '1rem', color: 'var(--color-danger-light)', fontSize: '0.85rem' }}>
-          {error}
-        </div>
-      )}
-
-      {/* Record button */}
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
       <button
-        className={`record-btn ${isRecording ? 'recording' : ''}`}
-        onClick={isRecording ? handleStop : startRecording}
-        style={{ border: 'none', cursor: 'pointer' }}
-      >
-        {isRecording ? '⏹' : '🎙'}
+        type="button"
+        disabled={disabled || state === 'processing'}
+        onClick={state === 'recording' ? stopRecording : startRecording}
+        style={{
+          width: 64, height: 64, borderRadius: '50%', border: 'none', cursor: 'pointer',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          background: state === 'recording' ? 'var(--color-danger)' : state === 'processing' ? 'var(--color-border)' : 'var(--color-primary)',
+          boxShadow: state === 'recording' ? '0 0 0 8px rgba(239,68,68,0.25)' : '0 4px 16px rgba(99,102,241,0.4)',
+          transition: 'all 0.2s',
+          animation: state === 'recording' ? 'pulse 1.5s ease-in-out infinite' : 'none',
+        }}>
+        {state === 'processing' ? <Loader size={24} color="#fff" style={{ animation: 'spin 1s linear infinite' }} />
+          : state === 'recording' ? <MicOff size={24} color="#fff" />
+          : <Mic size={24} color="#fff" />}
       </button>
 
-      <p style={{ marginTop: '0.75rem', fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
-        {isRecording ? 'Recording... Click to stop' : 'Click to start recording'}
-      </p>
-
-      {/* Playback + use */}
-      {audioUrl && !isRecording && (
-        <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-          <audio controls src={audioUrl} style={{ width: '100%', maxWidth: 320, borderRadius: 'var(--radius-md)' }} />
-          <div style={{ display: 'flex', gap: '0.75rem' }}>
-            <button className="btn btn-ghost btn-sm" onClick={reset}>🔄 Re-record</button>
-            <button className="btn btn-primary btn-sm" onClick={handleUse}>✅ Use This Recording</button>
-          </div>
-        </div>
-      )}
+      <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', textAlign: 'center' }}>
+        {state === 'idle' && 'Click the mic to start recording'}
+        {state === 'recording' && '🔴 Recording... click again to stop'}
+        {state === 'processing' && '⏳ Processing with Whisper...'}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,136 @@
+{
+  "activityId": "ja_hi_M1B1_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "हिरागाना लेखन अभ्यास (Hiragana Writing Practice)",
+  "learningGoal": "हिरागाना अक्षरों को सही क्रम में (Stroke Order) लिखना और अभिवादन के शब्दों को बिना देखे लिखना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B1_lesson_1"
+  ],
+  "instructions": "नीचे दिए गए लेखन संकेतों (prompts) को पढ़ें और अपने उत्तर हिरागाना में टाइप करें या अपनी नोटबुक में लिखें। ध्यान रहे कि जापानी में शब्दों के बीच स्पेस नहीं छोड़ा जाता है।",
+  "writingPrompt": "नीचे दिए गए हिंदी शब्दों का जापानी अनुवाद हिरागाना में लिखें।",
+  "promptGoal": "स्वरों और K, S, T, N पंक्तियों का उपयोग करते हुए शब्दों को लिखना।",
+  "expectedWritingType": "sentence",
+  "wordBank": [
+    {
+      "targetText": "あおい",
+      "transliteration": "aoi",
+      "baseTranslation": "नीला",
+      "partOfSpeech": "noun/adjective"
+    },
+    {
+      "targetText": "すいか",
+      "transliteration": "suika",
+      "baseTranslation": "तरबूज",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "つくえ",
+      "transliteration": "tsukue",
+      "baseTranslation": "डेस्क",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いぬ",
+      "transliteration": "inu",
+      "baseTranslation": "कुत्ता",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "हिरागाना चार्ट को याद करें। 'chi' को ち और 'tsu' को つ लिखा जाता है।"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "おはようございます",
+      "transliteration": "Ohayou gozaimasu",
+      "baseTranslation": "शुभ प्रभात",
+      "qualityLevel": "excellent",
+      "annotation": "अभिवादन का सही और पूर्ण रूप।"
+    },
+    {
+      "targetText": "こんにちは",
+      "transliteration": "Konnichiwa",
+      "baseTranslation": "नमस्ते",
+      "qualityLevel": "good",
+      "annotation": "अंतिम अक्षर 'वा' के लिए 'ha' (は) का प्रयोग किया गया है (यह एक महत्वपूर्ण नियम है)।"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Character Accuracy",
+      "weight": 80,
+      "description": "क्या सही हिरागाना अक्षरों का प्रयोग किया गया है?"
+    },
+    {
+      "criterion": "Vocabulary Knowledge",
+      "weight": 20,
+      "description": "क्या सही जापानी शब्द का चयन किया गया है?"
+    }
+  ],
+  "minimumWordCount": 1,
+  "maximumWordCount": 10,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "おはようございます",
+    "acceptableAlternates": [
+      "おはよう"
+    ],
+    "requiredKeywords": [],
+    "grammarBaseline": "Just accurate vocabulary words.",
+    "lengthExpectation": "1 word per prompt",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy",
+          "weight": 100,
+          "description": "Exact hiragana match"
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "बहुत अच्छा! आपका हिरागाना लेखन काफी स्पष्ट हो रहा है।",
+    "onFail": "कृपया अक्षरों को ध्यान से देखें। K और S पंक्ति के अक्षरों में अक्सर भ्रम हो जाता है।",
+    "onPartial": "आपने कुछ शब्द सही लिखे हैं, लेकिन कुछ अक्षरों में सुधार की आवश्यकता है।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "hiragana"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "यदि आप भूल गए हैं, तो पहले पाठ में दिए गए हिरागाना चार्ट को देखें।",
+  "commonMistakes": [
+    "Konnichiwa में 'wa' के लिए わ के बजाय は का उपयोग करना भूल जाना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,250 @@
+{
+  "activityId": "ja_hi_M1B4_lesson_1",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "जापानी गणित: संख्याएँ, समय और तिथियाँ",
+  "learningGoal": "जापानी में 1 से 10,000 तक की गिनती, सप्ताह के दिन, महीने और समय बताना सीखें।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M1B3_test_8"
+  ],
+  "instructions": "यह पाठ पिछले पाठों की तुलना में अधिक विस्तृत है। इसमें हम जापानी भाषा के सबसे महत्वपूर्ण और व्यावहारिक हिस्सों में से एक सीखेंगे: संख्याएँ (Numbers)। इसे पूरा करने में लगभग 60 मिनट लगेंगे। संख्याओं के पैटर्न को ध्यान से समझें, क्योंकि जापानी गिनती बहुत तार्किक (logical) होती है।",
+  "conceptTitle": "जापानी संख्याएँ और समय का प्रबंधन (Numbers & Time Management)",
+  "lessonContent": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "आधारभूत संख्याएँ: 1 से 10 (Basic Numbers 1-10)",
+      "bodyText": "जापानी गिनती बहुत सीधी है। पहले 1 से 10 तक याद करें:\n1: いち (ichi)\n2: に (ni)\n3: さん (san)\n4: よん/し (yon/shi)\n5: ご (go)\n6: ろく (roku)\n7: なな/しち (nana/shichi)\n8: はち (hachi)\n9: きゅう/く (kyuu/ku)\n10: じゅう (juu)\nध्यान दें: 4, 7, और 9 के दो अलग-अलग उच्चारण हैं। सामान्य गिनती में ज़्यादातर 'yon', 'nana', और 'kyuu' का इस्तेमाल होता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いち、に、さん、よん",
+          "transliteration": "Ichi, ni, san, yon",
+          "baseTranslation": "एक, दो, तीन, चार",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "11 से 99 तक की गिनती: तर्क का खेल (The Logic of 11-99)",
+      "bodyText": "जापानी गिनती गणित जैसी है। 11 कहने के लिए, आप 10 + 1 कहते हैं -> じゅう いち (Juu ichi)। 12 के लिए 10 + 2 -> じゅう に (Juu ni)। \n20 कहने के लिए, आप 2 * 10 कहते हैं -> に じゅう (Ni juu)। \nतो 25 क्या होगा? 2 * 10 + 5 -> に じゅう ご (Ni juu go)! \nइसी तरह 99 होगा: きゅう じゅう きゅう (Kyuu juu kyuu)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "さんじゅうご",
+          "transliteration": "san juu go",
+          "baseTranslation": "35 (तीस-पाँच)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "はちじゅうはち",
+          "transliteration": "hachi juu hachi",
+          "baseTranslation": "88 (अट्ठासी)",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "बड़े नंबर: 100 से 10,000 (Big Numbers: 100 to 10,000)",
+      "bodyText": "100 को ひゃく (hyaku) कहते हैं। 300 (san-byaku), 600 (rop-pyaku), और 800 (hap-pyaku) में थोड़ा बदलाव होता है।\n1,000 को せん (sen) कहते हैं। 3000 (san-zen) और 8000 (has-sen) में बदलाव होता है।\nभारतीय गिनती में हम लाख (100,000) का उपयोग करते हैं, लेकिन जापानी में सबसे बड़ी इकाई 10,000 है, जिसे まん (man) कहते हैं। यानी 10,000 को 'Ichi man' (いちまん) कहा जाता है। 20,000 'Ni man' होगा।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "さんぜん ごひゃく",
+          "transliteration": "San zen go hyaku",
+          "baseTranslation": "3500 (तीन हज़ार पाँच सौ)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "いちまん にせん",
+          "transliteration": "Ichi man ni sen",
+          "baseTranslation": "12,000 (एक दस-हज़ार दो हज़ार)",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "समय बताना: घंटे और मिनट (Telling Time: Hours and Minutes)",
+      "bodyText": "समय बताने के लिए संख्या के बाद 'ji' (じ - Hour) और 'fun/pun' (ふん/ぷん - Minute) लगाया जाता है।\nउदाहरण:\n1 बजे: いちじ (Ichi-ji)\n3 बजे: さんじ (San-ji)\n4 बजे: よじ (Yo-ji) -> ध्यान दें: 'yon-ji' नहीं!\n9 बजे: くじ (Ku-ji) -> ध्यान दें: 'kyuu-ji' नहीं!\nआधा घंटा (Half past) बताने के लिए 'han' (はん) लगाते हैं: さんじ はん (San-ji han - 3:30)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いま、なんじ ですか。",
+          "transliteration": "Ima, nan-ji desu ka.",
+          "baseTranslation": "अभी क्या समय हुआ है?",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "いま、よじ はん です。",
+          "transliteration": "Ima, yo-ji han desu.",
+          "baseTranslation": "अभी 4:30 बजे हैं।",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_5",
+      "sectionTitle": "सप्ताह के दिन (Days of the Week)",
+      "bodyText": "सप्ताह के हर दिन के अंत में 'youbi' (ようび) आता है। ये प्रकृती के तत्वों पर आधारित हैं:\nसोमवार: げつようび (Getsu-youbi - Moon)\nमंगलवार: かようび (Ka-youbi - Fire)\nबुधवार: すいようび (Sui-youbi - Water)\nगुरुवार: もくようび (Moku-youbi - Wood)\nशुक्रवार: きんようび (Kin-youbi - Gold/Money)\nशनिवार: どようび (Do-youbi - Earth)\nरविवार: にちようび (Nichi-youbi - Sun)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "きょうは にちようび です。",
+          "transliteration": "Kyou wa nichi-youbi desu.",
+          "baseTranslation": "आज रविवार है।",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_6",
+      "sectionTitle": "महीने: सबसे आसान प्रणाली (Months: The Easiest System)",
+      "bodyText": "जापानी में महीनों के नाम याद रखना दुनिया में सबसे आसान है। बस संख्या के बाद 'gatsu' (がつ) लगा दें!\nजनवरी = 1st month = いちがつ (Ichi-gatsu)\nफरवरी = 2nd month = にがつ (Ni-gatsu)\nअप्रैल = 4th month = しがつ (Shi-gatsu)\nजुलाई = 7th month = しちがつ (Shichi-gatsu)\nदिसंबर = 12th month = じゅうにがつ (Juu-ni-gatsu)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "きょうは はちがつ です。",
+          "transliteration": "Kyou wa hachi-gatsu desu.",
+          "baseTranslation": "आज अगस्त (8वां महीना) है।",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_7",
+      "sectionTitle": "उम्र बताना (Telling your Age)",
+      "bodyText": "अपनी उम्र बताने के लिए संख्या के बाद 'sai' (さい) लगाया जाता है।\nमैं 20 साल का हूँ: わたしは はたち です (Watashi wa hatachi desu) -> 20 साल के लिए एक विशेष शब्द 'hatachi' है!\nमैं 25 साल का हूँ: わたしは にじゅうごさい です (Watashi wa ni juu go sai desu)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは にじゅうはっさい です。",
+          "transliteration": "Watashi wa ni-juu has-sai desu.",
+          "baseTranslation": "मैं 28 साल का हूँ।",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_8",
+      "sectionTitle": "फन एक्टिविटी: 'शॉपिंग स्प्री' (Fun Activity: The Shopping Spree)",
+      "bodyText": "आप टोक्यो के अकीहाबारा (Akihabara) में हैं। आपने एक वीडियो गेम देखा जिसकी कीमत 'kyuu sen hap-pyaku' येन है। आपने एक शर्ट देखी जिसकी कीमत 'ni man' येन है। दोनों की कुल कीमत क्या है? \nGame: 9800 येन \nShirt: 20,000 येन \nTotal: 29,800 येन! जापानी 'man' (10,000) सिस्टम से बड़े नंबर बहुत जल्दी जुड़ जाते हैं।",
+      "targetLanguageExamples": []
+    }
+  ],
+  "learningObjective": "जापानी में 1 से 10,000 तक की संख्याएँ बोलना, समय पढ़ना, और सप्ताह/महीनों के नाम बताना।",
+  "examples": [
+    {
+      "targetText": "きょうは すいようび です。いま じゅうじ です。",
+      "transliteration": "Kyou wa sui-youbi desu. Ima juu-ji desu.",
+      "baseTranslation": "आज बुधवार है। अभी 10 बजे हैं।",
+      "explanation": "दिन और समय दोनों को एक साथ बताने का एक प्राकृतिक तरीका।"
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "समय बताते समय 4 बजे को 'Yo-ji' (よじ) और 9 बजे को 'Ku-ji' (くじ) कहते हैं। कभी भी 'Yon-ji' या 'Kyuu-ji' न कहें।",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "जापानी मुद्रा (येन/Yen) में लाख का प्रयोग नहीं होता। 1 लाख को 10 दस-हज़ार (じゅう まん - Juu man) कहा जाता है।",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "20 वर्ष की आयु को 'ni juu sai' के बजाय 'hatachi' (はたち) कहा जाता है।",
+      "exceptionNotes": "जापान में 20 वर्ष को वयस्कता (Adulthood) की उम्र माना जाता है, इसलिए इसका विशेष नाम है।"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "जापान में संख्या 4 (shi) और 9 (ku) को अशुभ माना जाता है। 'shi' का मतलब 'मृत्यु' भी होता है और 'ku' का मतलब 'पीड़ा'। इसलिए अस्पतालों और होटलों में कमरा नंबर 4 और 9 अक्सर छोड़ दिए जाते हैं। इसीलिए गिनती में ज़्यादातर 'yon' और 'kyuu' का इस्तेमाल होता है। इसके अलावा, जापान में ट्रेनें अपने समय की पाबंदी के लिए दुनिया भर में मशहूर हैं। 'Ima, nan-ji desu ka?' (अभी क्या समय है?) एक बहुत ही महत्वपूर्ण वाक्यांश है।",
+    "dosList": [
+      "समय की हमेशा कद्र करें, जापानी संस्कृति में 5 मिनट पहले पहुँचना 'समय पर' पहुँचना माना जाता है।"
+    ],
+    "dontsList": [
+      "उपहार देते समय 4 या 9 आइटम एक साथ न दें।"
+    ]
+  },
+  "summary": "इस विस्तृत पाठ में हमने जापानी गणित और समय प्रणाली सीखी। हमने 10,000 (man) तक की गिनती, समय बताना (ji / han), सप्ताह के 7 दिन (youbi), 12 महीने (gatsu), और उम्र (sai / hatachi) बताना सीखा।",
+  "checkpointQuestions": [
+    {
+      "questionId": "cq_1",
+      "questionText": "जापानी में 4:30 (साढ़े चार बजे) को कैसे बोलेंगे?",
+      "expectedAnswer": "yo-ji han (よじ はん)"
+    },
+    {
+      "questionId": "cq_2",
+      "questionText": "अगर 'ichi man' 10,000 है, तो 30,000 को क्या कहेंगे?",
+      "expectedAnswer": "san man (さんまん)"
+    },
+    {
+      "questionId": "cq_3",
+      "questionText": "अगस्त (8वां महीना) के लिए क्या शब्द है?",
+      "expectedAnswer": "hachi-gatsu (はちがつ)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Number logic: 11 is 10+1, 20 is 2*10.",
+      "Base unit for large numbers is 10,000 (man).",
+      "Time is X-ji, half past is X-ji han.",
+      "Exceptions: 4 is Yo-ji, 9 is Ku-ji."
+    ],
+    "conceptSummary": "Comprehensive guide to numbers up to 10,000, time telling, days of the week, and months.",
+    "importantFacts": [
+      "Age 20 is 'hatachi'.",
+      "4 and 9 are unlucky numbers (shi = death, ku = suffering)."
+    ],
+    "checkpointAnswers": {
+      "cq_1": "yo-ji han (よじ はん)",
+      "cq_2": "san man (さんまん)",
+      "cq_3": "hachi-gatsu (はちがつ)"
+    },
+    "expectedUnderstanding": "Learner can count, tell time, name the days and months, and handle basic shopping prices."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "अविश्वसनीय! आपने जापानी भाषा के सबसे बड़े विषयों में से एक (संख्या और समय) को सफलतापूर्वक पार कर लिया है।",
+    "onFail": "नंबर सिस्टम शुरू में भारी लग सकता है। कृपया 1 से 10 तक और 'ji' (समय) के नियमों को फिर से पढ़ें।",
+    "onPartial": "आपने अच्छा प्रयास किया। 'Man' (10,000) सिस्टम और 4 बजे/9 बजे के अपवादों पर थोड़ा और ध्यान दें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "いち、に、さん、よん、ご、ろく、なな、はち、きゅう、じゅう。いま なんじ ですか。いま よじ はん です。",
+    "audioLanguage": "ja",
+    "audioDuration": 400,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "numbers",
+    "time",
+    "dates",
+    "math"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "अगर आप कोई नंबर भूल जाते हैं, तो उसे गणित के फॉर्मूले की तरह तोड़ लें। (जैसे 45 = 4 * 10 + 5 = yon juu go)।",
+  "commonMistakes": [
+    "4 बजे को 'yon-ji' बोलना (सही 'yo-ji' है)।",
+    "1 लाख को 100 हज़ार (hyaku sen) बोलना (सही 'juu man' है)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B4_pronunciation_2"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

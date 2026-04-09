@@ -1,137 +1,148 @@
 /**
  * src/pages/activities/VocabPage.jsx
- * Vocabulary activity — flashcards + spelling input.
+ * Fully dynamic vocabulary activity — wordList[] + quizQuestions[].
+ * Displays 3-field TargetTextBlock, audio (if real path), part of speech, formality.
  */
-import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { getActivity } from '../../api/content.js';
-import { validateActivity, completeActivity } from '../../api/progress.js';
-import { useSelector } from 'react-redux';
+import React, { useState } from 'react';
+import { useActivity } from '../../hooks/useActivity.js';
+import { ActivityHeader, Spinner, ContentMissing, LoadError } from './LessonPage.jsx';
+import TargetTextBlock from '../../components/TargetTextBlock.jsx';
+import AudioPlayer from '../../components/AudioPlayer.jsx';
+import DynamicQuiz from '../../components/DynamicQuiz.jsx';
 import ScoreModal from '../../components/ScoreModal.jsx';
 import ActivityFeedback from '../../components/ActivityFeedback.jsx';
 
-const MAX_INPUT_CHARS = 200;
+const POS_COLORS = { noun: '#6366f1', verb: '#10b981', adjective: '#f59e0b', adverb: '#ec4899', particle: '#06b6d4', phrase: '#8b5cf6' };
+const FORMALITY_LABELS = { formal: '🎩 Formal', neutral: '😐 Neutral', informal: '😊 Casual', polite: '🙏 Polite' };
 
-export default function VocabPage({ pairId, activityFile, activityId, maxXP, label }) {
-  const navigate = useNavigate();
-  const { user } = useSelector(s => s.auth);
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [answers, setAnswers] = useState({});
-  const [submitting, setSubmitting] = useState(false);
-  const [result, setResult] = useState(null);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const attemptCount = useRef(1);
+export default function VocabPage({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, label, monthNumber, blockNumber }) {
+  const {
+    data, loading, error, answers, setAnswers, submitting,
+    result, showFeedback, setShowFeedback, submitAnswers, retryActivity, goToDashboard,
+  } = useActivity({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, monthNumber, blockNumber, activityType: 'vocabulary' });
 
-  useEffect(() => {
-    getActivity(pairId, activityFile).then(r => { setData(r.data); setLoading(false); }).catch(() => setLoading(false));
-  }, [activityFile, pairId]);
+  const [activeTab, setActiveTab] = useState('words'); // 'words' | 'quiz'
+  const [flipped, setFlipped] = useState({});
 
-  // Extract words from the new blocks schema or fallback to old root words
-  const words = [];
-  if (data?.blocks) {
-    data.blocks.forEach(b => {
-      if (b.type === 'image_word' && b.items) {
-        b.items.forEach(item => words.push({ target: item.word, native: item.meaning, notes: item.example, emoji: item.emoji }));
-      } else if (b.type === 'vocab_table' && b.words) {
-        b.words.forEach(item => words.push({ target: item.word, native: item.meaning, notes: item.example }));
-      }
-    });
-  } else if (data?.words) {
-    words.push(...data.words);
-  }
+  if (loading) return <Spinner />;
+  if (error === 'content_missing') return <ContentMissing goBack={goToDashboard} />;
+  if (error) return <LoadError goBack={goToDashboard} />;
+  if (!data) return null;
+
+  const words = data.wordList || [];
+  const quizQs = data.quizQuestions || [];
+  const hasQuiz = quizQs.length > 0;
 
   const handleSubmit = async () => {
-    setSubmitting(true);
-    try {
-      const questions = words.map((w, i) => ({
-        question_id: `word_${i}`,
-        block_type: 'vocab',
-        user_answer: answers[`word_${i}`] || '',
-        correct_answer: w.target,
-        prompt: `Translate to target language: ${w.native}`,
-      }));
-      
-      const { data: res } = await validateActivity({
-        activity_id: activityId, activity_type: 'vocab', lang_pair_id: pairId,
-        max_xp: maxXP, user_lang: user?.native_lang || 'hi', target_lang: pairId.split('-')[1],
-        questions,
-        attempt_count: attemptCount.current,
+    if (!hasQuiz) {
+      await submitAnswers([], {
+        total_score: maxXP, max_score: maxXP, percentage: 100, passed: true,
+        feedback: 'Great job studying the vocabulary! 🔤', suggestion: 'Try to use these words in sentences.',
+        question_results: [],
       });
-      setResult(res);
-      attemptCount.current += 1;
-      await completeActivity(pairId, { activity_id: activityId, activity_type: 'vocab', lang_pair_id: pairId, score_earned: res.total_score, max_score: maxXP, passed: res.passed, ai_feedback: res.feedback, ai_suggestion: res.suggestion });
-    } catch (e) { console.error(e); } finally { setSubmitting(false); }
+      return;
+    }
+    const questions = quizQs.map((q, i) => ({
+      question_id: q.questionId || `vq_${i}`,
+      block_type: q.questionType || 'vocab',
+      user_answer: typeof answers[i] === 'number' ? (q.options?.[answers[i]] || answers[i]) : (answers[i] || ''),
+      correct_answer: q.correctAnswer || '',
+      prompt: q.questionText || '',
+    }));
+    await submitAnswers(questions);
   };
 
-  if (loading) return <div style={{ textAlign: 'center', padding: '4rem' }}><div className="spinner" style={{ margin: '0 auto' }} /></div>;
-  if (!data) return <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-danger-light)' }}>Failed to load vocabulary.</div>;
-
   return (
-    <div style={{ maxWidth: 800, margin: '0 auto' }}>
-      <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-        <button className="btn btn-ghost btn-sm" onClick={() => navigate('/dashboard')}>← Back</button>
-        <div>
-          <div className="badge badge-primary" style={{ marginBottom: '0.5rem', background: 'rgba(139, 92, 246, 0.2)', color: '#c4b5fd' }}>🔤 Vocabulary • +{maxXP} XP</div>
-          <h1 className="heading-md">{data.title}</h1>
-          <p className="text-muted" style={{ fontSize: '0.875rem', marginTop: '0.25rem' }}>{data.description}</p>
-        </div>
-      </div>
+    <div style={{ maxWidth: 860, margin: '0 auto' }}>
+      <ActivityHeader label={`🔤 ${label || 'Vocabulary'}`} maxXP={maxXP} title={data.title} description={data.learningGoal} goBack={goToDashboard} />
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
-        {words.map((w, i) => (
-          <div key={i} className="card" style={{ display: 'flex', flexDirection: 'column' }}>
-            <div style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.5rem' }}>
-              {w.emoji && <span style={{ marginRight: '0.5rem' }}>{w.emoji}</span>}
-              {w.native}
-            </div>
-            <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', marginBottom: '1rem', flex: 1 }}>{w.notes}</div>
-            
-            <div className="form-group" style={{ marginTop: 'auto' }}>
-              <label className="form-label" style={{ fontSize: '0.75rem' }}>Type the translation:</label>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <input className="form-input" placeholder="Enter word..." 
-                  value={answers[`word_${i}`] || ''} 
-                  onChange={e => {
-                    const val = e.target.value;
-                    if (val.length <= MAX_INPUT_CHARS) {
-                      setAnswers(p => ({ ...p, [`word_${i}`]: val }));
-                    }
-                  }} />
-                <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.25rem' }}>
-                  <span style={{ fontSize: '0.7rem', color: (MAX_INPUT_CHARS - (answers[`word_${i}`]?.length || 0)) < 20 ? 'var(--color-danger-light)' : 'var(--color-text-dim)' }}>
-                    {(answers[`word_${i}`] || '').length}/{MAX_INPUT_CHARS}
-                  </span>
+      {/* Theme badge */}
+      {data.vocabTheme && (
+        <div style={{ marginBottom: '1.25rem' }}>
+          <span style={{ background: 'rgba(139,92,246,0.15)', color: '#c4b5fd', border: '1px solid rgba(139,92,246,0.3)', borderRadius: 'var(--radius-full)', padding: '0.25rem 0.75rem', fontSize: '0.78rem' }}>
+            📚 Theme: {data.vocabTheme}
+          </span>
+        </div>
+      )}
+
+      {/* Tab bar — show quiz tab only if quiz exists */}
+      {hasQuiz && (
+        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
+          {[['words', '📖 Word List'], ['quiz', '📝 Quiz']].map(([tab, lbl]) => (
+            <button key={tab} className={`btn btn-sm ${activeTab === tab ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setActiveTab(tab)}>{lbl}</button>
+          ))}
+        </div>
+      )}
+
+      {/* Word List */}
+      {(activeTab === 'words' || !hasQuiz) && (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
+          {words.map((word, i) => {
+            const isFlipped = flipped[i];
+            const pos = word.partOfSpeech;
+            return (
+              <div key={word.wordId || i}
+                onClick={() => setFlipped(p => ({ ...p, [i]: !p[i] }))}
+                style={{ cursor: 'pointer', minHeight: 160, borderRadius: 'var(--radius-md)', border: `1px solid ${POS_COLORS[pos] || 'var(--color-border)'}`, background: isFlipped ? `${POS_COLORS[pos] || '#6366f1'}18` : 'var(--color-surface-2)', padding: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', transition: 'all 0.25s', position: 'relative' }}>
+                
+                {/* POS + formality badges */}
+                <div style={{ display: 'flex', gap: '0.375rem', flexWrap: 'wrap' }}>
+                  {pos && <span style={{ fontSize: '0.65rem', fontWeight: 700, color: POS_COLORS[pos] || 'var(--color-text-muted)', textTransform: 'uppercase' }}>{pos}</span>}
+                  {word.formalityLevel && <span style={{ fontSize: '0.65rem', color: 'var(--color-text-dim)' }}>{FORMALITY_LABELS[word.formalityLevel] || word.formalityLevel}</span>}
+                </div>
+
+                <TargetTextBlock data={word} size={isFlipped ? 'sm' : 'lg'} />
+
+                {/* Example sentence (shown when flipped) */}
+                {isFlipped && word.exampleSentence && (
+                  <div style={{ marginTop: '0.5rem', padding: '0.5rem', background: 'var(--color-surface-3)', borderRadius: 'var(--radius-sm)' }}>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--color-primary-light)' }}>{word.exampleSentence.targetText}</p>
+                    {word.exampleSentence.baseTranslation && <p style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>{word.exampleSentence.baseTranslation}</p>}
+                  </div>
+                )}
+
+                {/* Audio — only real paths */}
+                {word.audioRef && !word.audioRef.includes('dummy') && (
+                  <div style={{ marginTop: 'auto' }} onClick={e => e.stopPropagation()}>
+                    <AudioPlayer audioUrl={word.audioRef} label="Listen" />
+                  </div>
+                )}
+
+                <div style={{ position: 'absolute', bottom: 8, right: 10, fontSize: '0.65rem', color: 'var(--color-text-dim)' }}>
+                  {isFlipped ? 'click to flip back' : 'tap to flip'}
                 </div>
               </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {!result && (
-        <div style={{ textAlign: 'center' }}>
-          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting}>
-            {submitting ? <><span className="spinner" /> Evaluating...</> : '✅ Submit Vocabulary'}
-          </button>
+            );
+          })}
         </div>
       )}
 
-      {result && (
-        <ScoreModal result={result} maxXP={maxXP}
-          onNext={() => setShowFeedback(true)}
-          onRetry={() => { setResult(null); setAnswers({}); }}
-          activityType="vocab"
-        />
+      {/* Quiz */}
+      {activeTab === 'quiz' && hasQuiz && (
+        <div style={{ marginBottom: '2rem' }}>
+          {quizQs.map((q, i) => (
+            <DynamicQuiz key={q.questionId || i} question={q} index={i}
+              answer={answers[i]} onChange={v => setAnswers(p => ({ ...p, [i]: v }))}
+              showResult={!!result} />
+          ))}
+        </div>
       )}
 
-      {showFeedback && result && (
-        <ActivityFeedback
-          result={result}
-          activityType="vocab"
-          onDismiss={() => { setShowFeedback(false); navigate('/dashboard'); }}
-        />
+      {/* Submit */}
+      {!result && (
+        <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+          {hasQuiz && activeTab === 'words' ? (
+            <button className="btn btn-ghost" onClick={() => setActiveTab('quiz')}>Go to Quiz →</button>
+          ) : (
+            <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting}>
+              {submitting ? <><span className="spinner" /> Evaluating...</> : words.length > 0 && !hasQuiz ? '✅ Mark Complete' : '✅ Submit Quiz'}
+            </button>
+          )}
+        </div>
       )}
+
+      {result && <ScoreModal result={result} maxXP={maxXP} onNext={() => setShowFeedback(true)} onRetry={retryActivity} activityType="vocabulary" />}
+      {showFeedback && result && <ActivityFeedback result={result} activityType="vocabulary" onDismiss={() => { setShowFeedback(false); goToDashboard(); }} />}
     </div>
   );
 }

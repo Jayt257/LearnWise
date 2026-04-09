@@ -1,0 +1,188 @@
+{
+  "activityId": "ja_hi_M3B2_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "बातचीत: ऑफिस की शिकायतें (Complaining about the Boss)",
+  "learningGoal": "Passive (~rareru) और Causative-Passive (~saserareru) का उपयोग करके ऑफिस की थकान और मजबूरी के बारे में बात करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B2_vocabulary_6",
+    "ja_hi_M3B2_listening_5"
+  ],
+  "instructions": "इस रोलप्ले में, आपका दोस्त देख रहा है कि आप थके हुए हैं। आपको उसे बताना है कि आपके बॉस ने आपके साथ क्या-क्या 'किया' (Passive) और आपसे क्या-क्या 'करवाया' (Causative-Passive)। इज़ाकाया (Izakaya) में शिकायत करने का अभ्यास करें!",
+  "speakingPrompt": "दोस्त के सवालों का जवाब देते हुए पैसिव और कॉज़ेटिव-पैसिव फॉर्म्स का सही उपयोग करें।",
+  "scenario": "इज़ाकाया (जापानी पब) में दो दोस्तों के बीच काम की शिकायतें।",
+  "role": "आप (थका हुआ कर्मचारी)",
+  "conversationPartner": "दोस्त (Tomodachi)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "दोस्त पूछता है: 'क्या हुआ? तुम थके हुए लग रहे हो।' (Dou shimashita ka? Tsukarete imasu ne.)। उसे बताएं: 'हाँ। कल मुझे मैनेजर ने बुलाया।' (Hai. Kinou, buchou ni yobaremashita)",
+      "expectedSpeakingPoints": [
+        "Kinou",
+        "buchou ni",
+        "yobaremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "はい。きのう、ぶちょう に よばれました。",
+        "transliteration": "Hai. Kinou, buchou ni yobaremashita.",
+        "baseTranslation": "हाँ। कल मुझे मैनेजर ने बुलाया। (Passive)"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "दोस्त पूछता है: 'मैनेजर ने? फिर क्या हुआ?' (Buchou ni? Soshite, dou narimashita ka?)। उसे बताएं: 'मुझसे नया काम करवाया गया।' (Atarashii shigoto o saseraremashita)",
+      "expectedSpeakingPoints": [
+        "Atarashii shigoto o",
+        "saseraremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "あたらしい しごと を させられました。",
+        "transliteration": "Atarashii shigoto o saseraremashita.",
+        "baseTranslation": "मुझसे नया काम करवाया गया। (Causative-Passive)"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "दोस्त कहता है: 'यह तो मुश्किल है।' (Taihen desu ne.)। उसे बताएं: 'हाँ। हर दिन, मुझसे ओवरटाइम करवाया जाता है।' (Hai. Mainichi, zangyou saseraremasu)",
+      "expectedSpeakingPoints": [
+        "Mainichi",
+        "zangyou",
+        "saseraremasu"
+      ],
+      "sampleResponse": {
+        "targetText": "はい。まいにち、ざんぎょう させられます。",
+        "transliteration": "Hai. Mainichi, zangyou saseraremasu.",
+        "baseTranslation": "हाँ। हर दिन, मुझसे ओवरटाइम करवाया जाता है। (Causative-Passive)"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "दोस्त कहता है: 'हिम्मत रखो!' (Ganbatte kudasai!)। उसे बताएं: 'मुझे भी शराब पीने पर मजबूर किया गया। मैं नौकरी छोड़ना चाहता हूँ।' (Osake mo nomasaremashita. Kaisha o yametai desu)",
+      "expectedSpeakingPoints": [
+        "Osake mo",
+        "nomasaremashita",
+        "kaisha o yametai desu"
+      ],
+      "sampleResponse": {
+        "targetText": "おさけ も のまされました。かいしゃ を やめたい です。",
+        "transliteration": "Osake mo nomasaremashita. Kaisha o yametai desu.",
+        "baseTranslation": "मुझे शराब पीने पर भी मजबूर किया गया। मैं नौकरी छोड़ना चाहता हूँ।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "いざかや で ともだち に しごと の もんく を いいます。",
+    "transliteration": "Izakaya de tomodachi ni shigoto no monku o iimasu.",
+    "baseTranslation": "इज़ाकाया में दोस्त से काम की शिकायत कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "はい。きのう、ぶちょう に よばれました。",
+      "transliteration": "Hai. Kinou, buchou ni yobaremashita.",
+      "baseTranslation": "हाँ। कल मुझे मैनेजर ने बुलाया।"
+    },
+    {
+      "targetText": "あたらしい しごと を させられました。",
+      "transliteration": "Atarashii shigoto o saseraremashita.",
+      "baseTranslation": "मुझसे नया काम करवाया गया।"
+    },
+    {
+      "targetText": "はい。まいにち、ざんぎょう させられます。",
+      "transliteration": "Hai. Mainichi, zangyou saseraremasu.",
+      "baseTranslation": "हाँ। हर दिन, मुझसे ओवरटाइम करवाया जाता है।"
+    },
+    {
+      "targetText": "おさけ も のまされました。かいしゃ を やめたい です。",
+      "transliteration": "Osake mo nomasaremashita. Kaisha o yametai desu.",
+      "baseTranslation": "मुझे शराब पीने पर भी मजबूर किया गया। मैं नौकरी छोड़ना चाहता हूँ।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 40,
+    "grammarWeight": 25,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "yobaremashita",
+      "saseraremashita",
+      "zangyou saseraremasu",
+      "nomasaremashita"
+    ],
+    "requiredKeywords": [
+      "よばれました",
+      "させられました",
+      "ざんぎょう",
+      "のまされました"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'nomasaseraremashita' instead of 'nomasaremashita' is technically grammatically correct, though 'nomasaremashita' is more natural."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Correct verb conjugation",
+          "weight": 80,
+          "description": "Must correctly use the passive (yobare-) and causative-passive (saserare-, nomasare-) forms."
+        },
+        {
+          "name": "Contextual meaning",
+          "weight": 20,
+          "description": "The tone should express complaint/fatigue."
+        }
+      ]
+    },
+    "sampleAnswer": "Hai. Kinou, buchou ni yobaremashita. Atarashii shigoto o saseraremashita. Hai. Mainichi, zangyou saseraremasu. Osake mo nomasaremashita. Kaisha o yametai desu.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने जापानी 'सैलरीमैन' (Salaryman) की तरह शिकायतें बहुत अच्छी तरह से की हैं। Causative-Passive का आपका उच्चारण स्पष्ट था।",
+    "onFail": "कृपया ध्यान दें: 'Saseraremashita' (मजबूर किया गया) और 'Shimasu' (करूँगा) के बीच बड़ा अंतर है। यहाँ आपको मजबूरी दिखानी है।",
+    "onPartial": "आपने अच्छा किया है। 'Nomasaremashita' (पीने पर मजबूर किया गया) जैसे लंबे शब्दों को बिना अटके एक फ्लो में बोलने का अभ्यास करें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "はい。きのう、ぶちょう に よばれました。あたらしい しごと を させられました。はい。まいにち、ざんぎょう させられます。おさけ も のまされました。かいしゃ を やめたい です。",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "passive",
+    "causative-passive",
+    "complaints",
+    "izakaya",
+    "boss"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "इन वाक्यों में 'मैं' (Watashi) छिपा हुआ है। जापानी लोग शिकायत करते समय बार-बार 'Watashi wa' नहीं कहते, वे सीधा 'Saseraremashita' (मुझसे करवाया गया) कहते हैं।",
+  "commonMistakes": [
+    "'Yobaremashita' (बुलाया गया) की जगह 'Yobimashita' (मैंने बुलाया) बोल देना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M3B2_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

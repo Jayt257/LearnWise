@@ -1,0 +1,214 @@
+{
+  "activityId": "ja_hi_M1B3_test_8",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "ब्लॉक 3 मूल्यांकन: काताकाना और रेस्टोरेंट में ऑर्डर",
+  "learningGoal": "काताकाना वर्णमाला, जापांग्लिश शब्दावली और रेस्टोरेंट में ऑर्डर देने की क्षमता का परीक्षण करना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_hi_M1B3_lesson_1",
+    "ja_hi_M1B3_pronunciation_2",
+    "ja_hi_M1B3_reading_3",
+    "ja_hi_M1B3_writing_4",
+    "ja_hi_M1B3_listening_5",
+    "ja_hi_M1B3_vocabulary_6",
+    "ja_hi_M1B3_speaking_7"
+  ],
+  "instructions": "यह ब्लॉक 3 का मूल्यांकन है। इसमें काताकाना वर्णमाला, विदेशी शब्दों और रेस्टोरेंट की स्थितियों से जुड़े प्रश्न शामिल हैं। बिना किसी नोट्स के इसे पूरा करने का प्रयास करें।",
+  "testTitle": "ब्लॉक 3 - काताकाना और जापांग्लिश परीक्षण",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "listening",
+    "vocabulary",
+    "speaking"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_katakana_vocab",
+      "sectionTitle": "काताकाना और शब्दावली (Katakana & Vocabulary)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "काताकाना में लंबी ध्वनि के लिए किस चिह्न का उपयोग किया जाता है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "゛",
+            "゜",
+            "ー",
+            "は"
+          ],
+          "questionHints": {
+            "targetText": "ー",
+            "transliteration": "-",
+            "baseTranslation": "Long vowel mark"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "जापानी में 'Computer' कैसे लिखा जाता है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "コンピューター (konpyuutaa)",
+            "コンピュタ (konpyuta)",
+            "コンピューターー (konpyuutaaaa)",
+            "テレビ (terebi)"
+          ],
+          "questionHints": {
+            "targetText": "コンピューター",
+            "transliteration": "konpyuutaa",
+            "baseTranslation": "Computer"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "इनमें से कौन सा शब्द काताकाना में नहीं लिखा जाना चाहिए?",
+          "questionType": "multiple_choice",
+          "options": [
+            "तकशी (Taxi)",
+            "कुत्ता (Dog - inu)",
+            "अमेरिका (America)",
+            "केक (Cake)"
+          ],
+          "questionHints": {
+            "targetText": "いぬ",
+            "transliteration": "inu",
+            "baseTranslation": "कुत्ता"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_ordering",
+      "sectionTitle": "ऑर्डर देना (Ordering Food)",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "रेस्टोरेंट में 'मुझे जूस दें' कहने का सही तरीका क्या है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ジュース です (Juusu desu)",
+            "ジュース ください (Juusu kudasai)",
+            "ジュース あります (Juusu arimasu)"
+          ],
+          "questionHints": {
+            "targetText": "ジュース ください",
+            "transliteration": "Juusu kudasai",
+            "baseTranslation": "कृपया जूस दें"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "'Kudasai' का अर्थ क्या है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "धन्यवाद",
+            "नमस्ते",
+            "कृपया मुझे दें"
+          ],
+          "questionHints": {
+            "targetText": "ください",
+            "transliteration": "kudasai",
+            "baseTranslation": "Please give me"
+          },
+          "marks": 2,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_listening",
+      "sectionTitle": "श्रवण कौशल (Listening Comprehension)",
+      "questions": [
+        {
+          "questionId": "tq_6",
+          "questionText": "(ऑडियो सुनें) यह व्यक्ति कौन सा पेय (drink) ऑर्डर कर रहा है?",
+          "questionType": "multiple_choice",
+          "options": [
+            "コーヒー (Coffee)",
+            "ジュース (Juice)",
+            "コーラ (Cola)"
+          ],
+          "questionHints": {
+            "targetText": "コーヒー",
+            "transliteration": "koohii",
+            "baseTranslation": "Coffee"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 15,
+  "passMarks": 10,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "ー",
+      "tq_2": "コンピューター (konpyuutaa)",
+      "tq_3": "कुत्ता (Dog - inu)",
+      "tq_4": "ジュース ください (Juusu kudasai)",
+      "tq_5": "कृपया मुझे दें",
+      "tq_6": "コーヒー (Coffee)"
+    },
+    "partialCreditRules": {},
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 66,
+  "feedbackRules": {
+    "onPass": "बधाई हो! आपने ब्लॉक 3 को पास कर लिया है। आपकी काताकाना पढ़ने की गति बढ़ रही है।",
+    "onFail": "आपको काताकाना अक्षरों की पहचान में कुछ परेशानी हो रही है। लंबे स्वरों वाले नियमों को फिर से पढ़ें।",
+    "onPartial": "आपने अच्छा प्रदर्शन किया है। ऑर्डर देने के तरीके ('kudasai') का अभ्यास करें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "コーヒー を ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 10,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "katakana",
+    "ordering",
+    "review"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "प्रश्नों को ध्यान से पढ़ें। किसी भी ऑडियो को दो बार से ज्यादा न सुनें (यदि संभव हो)।",
+  "commonMistakes": [
+    "'Kudasai' (कृपया दें) और 'Desu' (है/हूँ) के बीच भ्रमित होना।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B4_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

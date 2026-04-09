@@ -1,35 +1,32 @@
 /**
  * src/pages/dashboard/DashboardPage.jsx
- * Main roadmap view — shows months, weeks, and activities with lock/unlock states.
- * Loads meta.json from backend and overlays user's completion data.
+ * Roadmap view — months → blocks → 8 activities. 100% dynamic from meta.json.
+ * No hardcoded language info — reads from meta.source/target.
+ * Activities listed in meta but JSON missing show as "coming soon" (not clickable but visible).
  */
 import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllProgress, fetchPairs, setCurrentPair } from '../../store/progressSlice.js';
 import { getMeta } from '../../api/content.js';
-import { getCompletions } from '../../api/progress.js';
+import { getCompletions, startPair } from '../../api/progress.js';
 
 const ACTIVITY_ICONS = {
-  lesson: '📖', vocab: '🔤', reading: '📄', writing: '✍', 
-  listening: '🎧', speaking: '🎙', pronunciation: '🗣', test: '📝',
+  lesson: '📖', vocabulary: '🔤', vocab: '🔤',
+  reading: '📄', writing: '✍', listening: '🎧',
+  speaking: '🎙', pronunciation: '🗣', test: '📋',
 };
 const ACTIVITY_COLORS = {
-  lesson: '#6366f1', vocab: '#8b5cf6', reading: '#06b6d4',
-  writing: '#10b981', listening: '#f59e0b', speaking: '#f97316',
-  pronunciation: '#ec4899', test: '#ef4444',
-};
-
-const LANG_INFO = {
-  hi: { name: 'Hindi', flag: '🇮🇳' },
-  en: { name: 'English', flag: '🇬🇧' },
-  ja: { name: 'Japanese', flag: '🇯🇵' },
+  lesson: '#6366f1', vocabulary: '#8b5cf6', vocab: '#8b5cf6',
+  reading: '#06b6d4', writing: '#10b981', listening: '#f59e0b',
+  speaking: '#f97316', pronunciation: '#ec4899', test: '#ef4444',
 };
 
 export default function DashboardPage() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { allProgress, currentPairId } = useSelector(s => s.progress);
+  const { allProgress, currentPairId, pairs } = useSelector(s => s.progress);
+
   const [meta, setMeta] = useState(null);
   const [completions, setCompletions] = useState([]);
   const [selectedPair, setSelectedPair] = useState(currentPairId);
@@ -43,6 +40,13 @@ export default function DashboardPage() {
     dispatch(fetchPairs());
   }, []);
 
+  // Auto-select first pair if none selected
+  useEffect(() => {
+    if (!selectedPair && allProgress.length > 0) {
+      setSelectedPair(allProgress[0].lang_pair_id);
+    }
+  }, [allProgress, selectedPair]);
+
   useEffect(() => {
     if (!selectedPair) return;
     setLoading(true);
@@ -52,18 +56,29 @@ export default function DashboardPage() {
     ]).catch(console.error).finally(() => setLoading(false));
   }, [selectedPair]);
 
-  const completedIds = new Set(completions.filter(c => c.passed).map(c => c.activity_id));
+  const completedSeqIds = new Set(completions.filter(c => c.passed).map(c => c.activity_seq_id));
   const currentActivityId = currentProgress?.current_activity_id || 1;
+  const isUnlocked = (seqId) => seqId <= currentActivityId;
+  const isCompleted = (seqId) => completedSeqIds.has(seqId);
 
-  const isUnlocked = (activityId) => activityId <= currentActivityId;
-  const isCompleted = (activityId) => completedIds.has(activityId);
-
-  const handleActivityClick = (activity, pairId) => {
+  const handleActivityClick = (activity, pairId, monthNum, blockNum) => {
     if (!isUnlocked(activity.id)) return;
     navigate(`/activity/${pairId}/${activity.type}`, {
-      state: { activityFile: activity.file, activityId: activity.id, maxXP: activity.xp, label: activity.label }
+      state: {
+        activityFile: activity.file,
+        activitySeqId: activity.id,
+        activityJsonId: null,
+        maxXP: activity.xp,
+        label: activity.label || activity.type,
+        monthNumber: monthNum,
+        blockNumber: blockNum,
+      }
     });
   };
+
+  // Dynamic language info from meta
+  const srcInfo = meta?.source || {};
+  const tgtInfo = meta?.target || {};
 
   if (!selectedPair) {
     return (
@@ -75,22 +90,21 @@ export default function DashboardPage() {
     );
   }
 
-  const [src, tgt] = selectedPair.split('-');
-
   return (
     <div>
-      {/* Header */}
+      {/* Header — language names from meta */}
       <div style={{ marginBottom: '2rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
           <div>
             <h1 className="heading-lg">
-              {LANG_INFO[src]?.flag} → {LANG_INFO[tgt]?.flag}{' '}
-              <span className="gradient-text">{LANG_INFO[src]?.name} to {LANG_INFO[tgt]?.name}</span>
+              {srcInfo.flag || '🏳'} → {tgtInfo.flag || '🏳'}{' '}
+              <span className="gradient-text">{srcInfo.name} to {tgtInfo.name || tgtInfo.native}</span>
             </h1>
-            <p className="text-muted" style={{ marginTop: '0.25rem' }}>Your 6-month learning roadmap</p>
+            <p className="text-muted" style={{ marginTop: '0.25rem' }}>
+              {meta?.totalMonths || 3}-month learning roadmap — {(meta?.months || []).reduce((acc, m) => acc + (m.blocks?.length || 0), 0)} blocks
+            </p>
           </div>
           <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-            {/* XP badge */}
             {currentProgress && (
               <div style={{ background: 'var(--color-accent-glow)', border: '1px solid var(--color-accent)', borderRadius: 'var(--radius-full)', padding: '0.375rem 0.875rem', display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
                 <span>⭐</span>
@@ -105,107 +119,116 @@ export default function DashboardPage() {
         {currentProgress && (
           <div style={{ marginTop: '1rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '0.375rem' }}>
-              <span>Month {currentProgress.current_month}, Week {currentProgress.current_week}</span>
-              <span>{completedIds.size} activities completed</span>
+              <span>Month {currentProgress.current_month}, Block {currentProgress.current_block}</span>
+              <span>{completedSeqIds.size} / {currentActivityId - 1} activities completed</span>
             </div>
             <div className="xp-bar-container">
-              <div className="xp-bar-fill" style={{ width: `${Math.min((currentProgress.current_activity_id / 43) * 100, 100)}%` }} />
+              <div className="xp-bar-fill" style={{ width: `${Math.min((currentProgress.current_activity_id / 144) * 100, 100)}%` }} />
             </div>
           </div>
         )}
       </div>
 
-      {/* Pair switcher for users with multiple pairs */}
+      {/* Pair switcher */}
       {allProgress.length > 1 && (
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
-          {allProgress.map(p => {
-            const [s, t] = p.lang_pair_id.split('-');
-            return (
-              <button key={p.lang_pair_id}
-                className={`btn btn-sm ${selectedPair === p.lang_pair_id ? 'btn-primary' : 'btn-ghost'}`}
-                onClick={() => { setSelectedPair(p.lang_pair_id); dispatch(setCurrentPair(p.lang_pair_id)); }}>
-                {LANG_INFO[s]?.flag} → {LANG_INFO[t]?.flag} {LANG_INFO[t]?.name}
-              </button>
-            );
-          })}
+          {allProgress.map(p => (
+            <button key={p.lang_pair_id}
+              className={`btn btn-sm ${selectedPair === p.lang_pair_id ? 'btn-primary' : 'btn-ghost'}`}
+              onClick={() => { setSelectedPair(p.lang_pair_id); dispatch(setCurrentPair(p.lang_pair_id)); }}>
+              {p.lang_pair_id}
+            </button>
+          ))}
         </div>
       )}
 
       {/* Roadmap */}
       {loading ? (
         <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--color-text-muted)' }}>
-          <div className="spinner" style={{ margin: '0 auto 1rem' }} />
-          Loading roadmap...
+          <div className="spinner" style={{ margin: '0 auto 1rem' }} />Loading roadmap...
         </div>
       ) : meta ? (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          {meta.months?.map(month => (
-            <div key={month.month} className="card">
-              {/* Month header */}
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', cursor: 'pointer', marginBottom: expandedMonth === month.month ? '1.5rem' : 0 }}
-                onClick={() => setExpandedMonth(expandedMonth === month.month ? null : month.month)}>
-                <div>
+          {(meta.months || []).map(month => {
+            const monthBlocks = month.blocks || [];
+            const monthActivities = monthBlocks.flatMap(b => b.activities || []);
+            const monthCompleted = monthActivities.filter(a => isCompleted(a.id)).length;
+            const monthTotal = monthActivities.length;
+
+            return (
+              <div key={month.month} className="card">
+                {/* Month header */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', cursor: 'pointer', marginBottom: expandedMonth === month.month ? '1.5rem' : 0 }}
+                  onClick={() => setExpandedMonth(expandedMonth === month.month ? null : month.month)}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                    <div style={{ width: 36, height: 36, borderRadius: '50%', background: 'var(--color-primary-glow)', border: '2px solid var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '0.875rem' }}>
+                    <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--color-primary-glow)', border: '2px solid var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, flexShrink: 0 }}>
                       M{month.month}
                     </div>
                     <div>
                       <div className="heading-sm">{month.title}</div>
-                      <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>{month.targetLevel} • {month.description}</div>
+                      <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
+                        {month.targetLevel} · {monthBlocks.length} blocks · {monthCompleted}/{monthTotal} done
+                      </div>
                     </div>
                   </div>
+                  <span style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem' }}>
+                    {expandedMonth === month.month ? '▲' : '▼'}
+                  </span>
                 </div>
-                <span style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem' }}>{expandedMonth === month.month ? '▲' : '▼'}</span>
+
+                {/* Blocks */}
+                {expandedMonth === month.month && monthBlocks.map(block => {
+                  const blockDone = (block.activities || []).filter(a => isCompleted(a.id)).length;
+                  const blockTotal = (block.activities || []).length;
+                  return (
+                    <div key={block.block} style={{ marginBottom: '1.5rem' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.8rem', fontWeight: 600, color: 'var(--color-text-muted)', marginBottom: '0.75rem', paddingBottom: '0.5rem', borderBottom: '1px solid var(--color-border)' }}>
+                        <span>Block {block.block}: {block.title}</span>
+                        <span style={{ color: blockDone === blockTotal ? 'var(--color-success-light)' : 'var(--color-text-dim)' }}>
+                          {blockDone}/{blockTotal} {blockDone === blockTotal ? '✓' : ''}
+                        </span>
+                      </div>
+
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: '0.625rem' }}>
+                        {(block.activities || []).map(activity => {
+                          const unlocked = isUnlocked(activity.id);
+                          const completed = isCompleted(activity.id);
+                          const isCurrent = activity.id === currentActivityId;
+                          const color = ACTIVITY_COLORS[activity.type] || '#6366f1';
+                          const icon = ACTIVITY_ICONS[activity.type] || '📋';
+                          const lbl = activity.label || (activity.type.charAt(0).toUpperCase() + activity.type.slice(1));
+
+                          return (
+                            <div key={activity.id}
+                              onClick={() => handleActivityClick(activity, selectedPair, month.month, block.block)}
+                              title={unlocked ? lbl : 'Complete previous activities first'}
+                              style={{
+                                padding: '0.75rem', borderRadius: 'var(--radius-md)', textAlign: 'center',
+                                border: `1px solid ${isCurrent ? color : completed ? `${color}55` : 'var(--color-border)'}`,
+                                background: completed ? `${color}18` : isCurrent ? `${color}25` : 'var(--color-surface-2)',
+                                cursor: unlocked ? 'pointer' : 'not-allowed',
+                                opacity: unlocked ? 1 : 0.45,
+                                transition: 'all 0.2s', position: 'relative',
+                              }}
+                              className={unlocked ? 'card-interactive' : ''}>
+
+                              {completed && <div style={{ position: 'absolute', top: 4, right: 6, fontSize: '0.65rem' }}>✅</div>}
+                              {!unlocked && <div style={{ position: 'absolute', top: 4, right: 6, fontSize: '0.65rem' }}>🔒</div>}
+                              {isCurrent && !completed && <div style={{ position: 'absolute', top: 5, right: 7, width: 6, height: 6, borderRadius: '50%', background: color, boxShadow: `0 0 6px ${color}` }} />}
+
+                              <div style={{ fontSize: '1.4rem', marginBottom: '0.375rem' }}>{icon}</div>
+                              <div style={{ fontSize: '0.72rem', fontWeight: 600, color: unlocked ? 'var(--color-text)' : 'var(--color-text-dim)' }}>{lbl}</div>
+                              <div style={{ fontSize: '0.65rem', color, marginTop: '0.25rem', fontWeight: 600 }}>+{activity.xp} XP</div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
-
-              {/* Weeks */}
-              {expandedMonth === month.month && month.weeks?.map(week => (
-                <div key={week.week} style={{ marginBottom: '1.25rem' }}>
-                  <div style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--color-text-muted)', marginBottom: '0.75rem', paddingBottom: '0.375rem', borderBottom: '1px solid var(--color-border)' }}>
-                    Week {week.globalWeek || week.week}: {week.title}
-                  </div>
-
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '0.625rem' }}>
-                    {week.activities?.map(activity => {
-                      const unlocked = isUnlocked(activity.id);
-                      const completed = isCompleted(activity.id);
-                      const isCurrent = activity.id === currentActivityId;
-                      const color = ACTIVITY_COLORS[activity.type] || '#6366f1';
-                      const icon = ACTIVITY_ICONS[activity.type] || '📋';
-                      const label = activity.label || activity.type.charAt(0).toUpperCase() + activity.type.slice(1);
-
-                      return (
-                        <div key={activity.id}
-                          onClick={() => handleActivityClick(activity, selectedPair)}
-                          style={{
-                            padding: '0.75rem',
-                            borderRadius: 'var(--radius-md)',
-                            border: `1px solid ${isCurrent ? color : completed ? `${color}66` : 'var(--color-border)'}`,
-                            background: completed ? `${color}18` : isCurrent ? `${color}28` : 'var(--color-surface-2)',
-                            cursor: unlocked ? 'pointer' : 'not-allowed',
-                            opacity: unlocked ? 1 : 0.45,
-                            transition: 'all 0.2s',
-                            position: 'relative',
-                            textAlign: 'center',
-                          }}
-                          className={unlocked ? 'card-interactive' : ''}
-                        >
-                          {/* Status indicator */}
-                          {completed && <div style={{ position: 'absolute', top: 4, right: 6, fontSize: '0.65rem' }}>✅</div>}
-                          {!unlocked && <div style={{ position: 'absolute', top: 4, right: 6, fontSize: '0.65rem' }}>🔒</div>}
-                          {isCurrent && !completed && <div style={{ position: 'absolute', top: 4, right: 6, width: 6, height: 6, borderRadius: '50%', background: color, boxShadow: `0 0 6px ${color}` }} />}
-
-                          <div style={{ fontSize: '1.5rem', marginBottom: '0.375rem' }}>{icon}</div>
-                          <div style={{ fontSize: '0.75rem', fontWeight: 600, color: unlocked ? 'var(--color-text)' : 'var(--color-text-dim)' }}>{label}</div>
-                          <div style={{ fontSize: '0.65rem', color: color, marginTop: '0.25rem', fontWeight: 600 }}>+{activity.xp} XP</div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
-            </div>
-          ))}
+            );
+          })}
         </div>
       ) : (
         <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--color-text-muted)' }}>

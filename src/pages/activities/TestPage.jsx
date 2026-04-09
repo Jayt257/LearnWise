@@ -1,131 +1,187 @@
 /**
  * src/pages/activities/TestPage.jsx
- * Formal test activity — MCQ quiz with strict 50% pass threshold.
- * Local scoring + Groq feedback. Must pass to unlock next activities.
+ * Block-level test: sections[] → questions[] with MCQ, true_false, fill_blank.
+ * Answers checked against adminCorrectAnswerSet.answerKey.
+ * Hints shown only after submission. All 100% dynamic.
  */
-import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { getActivity } from '../../api/content.js';
-import { validateActivity, completeActivity } from '../../api/progress.js';
-import { useSelector } from 'react-redux';
+import React, { useState } from 'react';
+import { useActivity } from '../../hooks/useActivity.js';
+import { ActivityHeader, Spinner, ContentMissing, LoadError } from './LessonPage.jsx';
+import DynamicQuiz from '../../components/DynamicQuiz.jsx';
+import TargetTextBlock from '../../components/TargetTextBlock.jsx';
+import AudioPlayer from '../../components/AudioPlayer.jsx';
 import ScoreModal from '../../components/ScoreModal.jsx';
 import ActivityFeedback from '../../components/ActivityFeedback.jsx';
 
-export default function TestPage({ pairId, activityFile, activityId, maxXP, label }) {
-  const navigate = useNavigate();
-  const { user } = useSelector(s => s.auth);
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [answers, setAnswers] = useState({});
-  const [submitting, setSubmitting] = useState(false);
-  const [result, setResult] = useState(null);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const attemptCount = useRef(1);
+export default function TestPage({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, label, monthNumber, blockNumber }) {
+  const {
+    data, loading, error, answers, setAnswers, submitting,
+    result, showFeedback, setShowFeedback, submitAnswers, retryActivity, goToDashboard,
+  } = useActivity({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, monthNumber, blockNumber, activityType: 'test' });
 
-  useEffect(() => {
-    getActivity(pairId, activityFile).then(r => { setData(r.data); setLoading(false); }).catch(() => setLoading(false));
-  }, [activityFile, pairId]);
+  const [activeSection, setActiveSection] = useState(0);
+  const [showHints, setShowHints] = useState(false);
 
-  const quizBlocks = data?.blocks?.filter(b => b.type === 'quiz') || [];
-  const allAnswered = quizBlocks.length > 0 && quizBlocks.every(b => answers[b.id] !== undefined);
+  if (loading) return <Spinner />;
+  if (error === 'content_missing') return <ContentMissing goBack={goToDashboard} />;
+  if (error) return <LoadError goBack={goToDashboard} />;
+  if (!data) return null;
+
+  // Support both 'sections' and 'questionSections' field names
+  const sections = data.sections || data.questionSections || [];
+  const answerKey = data.adminCorrectAnswerSet?.answerKey || {};
+  const totalMarks = data.totalMarks || maxXP;
+
+  // Flatten all questions with their section key for submission
+  const allQuestions = sections.flatMap(sec =>
+    (sec.questions || []).map(q => ({ ...q, sectionId: sec.sectionId }))
+  );
 
   const handleSubmit = async () => {
-    setSubmitting(true);
-    try {
-      const questions = quizBlocks.map(block => ({
-        question_id: block.id,
-        block_type: 'quiz',
-        user_answer: answers[block.id] !== undefined ? answers[block.id] : -1,
-        correct_answer: block.correct,
-        prompt: block.question,
-      }));
-      
-      const { data: res } = await validateActivity({
-        activity_id: activityId, activity_type: 'test', lang_pair_id: pairId,
-        max_xp: maxXP, user_lang: user?.native_lang || 'hi', target_lang: pairId.split('-')[1],
-        questions,
-        attempt_count: attemptCount.current,
+    if (allQuestions.length === 0) {
+      await submitAnswers([], {
+        total_score: maxXP, max_score: maxXP, percentage: 100, passed: true,
+        feedback: 'Test completed! 📋', suggestion: '',
+        question_results: [],
       });
-      setResult(res);
-      attemptCount.current += 1;
-      await completeActivity(pairId, { activity_id: activityId, activity_type: 'test', lang_pair_id: pairId, score_earned: res.total_score, max_score: maxXP, passed: res.passed, ai_feedback: res.feedback, ai_suggestion: res.suggestion });
-    } catch (e) { console.error(e); } finally { setSubmitting(false); }
+      return;
+    }
+
+    const questions = allQuestions.map((q, globalIdx) => {
+      const qid = q.questionId || `tq_${globalIdx}`;
+      const userAns = answers[qid];
+      let answerText = '';
+      if (typeof userAns === 'number') {
+        answerText = q.options?.[userAns] || String(userAns);
+      } else {
+        answerText = userAns || '';
+      }
+      // Look up correct answer from answerKey
+      const correctAns = answerKey[qid] || q.correctAnswer || '';
+      return {
+        question_id: qid,
+        block_type: q.questionType || 'mcq',
+        user_answer: answerText,
+        correct_answer: correctAns,
+        prompt: q.questionText || '',
+      };
+    });
+
+    await submitAnswers(questions);
   };
 
-  if (loading) return <div style={{ textAlign: 'center', padding: '4rem' }}><div className="spinner" style={{ margin: '0 auto' }} /></div>;
-  if (!data) return <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-danger-light)' }}>Failed to load test.</div>;
-
-  const answered = Object.keys(answers).length;
+  const answeredCount = Object.keys(answers).length;
+  const totalQ = allQuestions.length;
 
   return (
-    <div style={{ maxWidth: 760, margin: '0 auto' }}>
-      <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-        <button className="btn btn-ghost btn-sm" onClick={() => navigate('/dashboard')}>← Back</button>
-        <div style={{ flex: 1 }}>
-          <div className="badge badge-danger" style={{ marginBottom: '0.5rem' }}>📝 Test • +{maxXP} XP • Pass: 50%</div>
-          <h1 className="heading-md">{data.title}</h1>
-          <p className="text-muted" style={{ fontSize: '0.875rem', marginTop: '0.25rem' }}>{data.description}</p>
+    <div style={{ maxWidth: 820, margin: '0 auto' }}>
+      <ActivityHeader label={`📋 ${label || 'Test'}`} maxXP={maxXP} title={data.title || data.testTitle} description={data.learningGoal} goBack={goToDashboard} />
+
+      {/* Instructions */}
+      {data.instructions && (
+        <div style={{ background: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.2)', borderRadius: 'var(--radius-md)', padding: '0.75rem 1rem', marginBottom: '1.5rem', fontSize: '0.85rem' }}>
+          📋 {data.instructions}
         </div>
-        <div style={{ textAlign: 'right', flexShrink: 0 }}>
-          <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>Progress</div>
-          <div style={{ fontWeight: 700, fontSize: '1.125rem' }}>{answered}/{quizBlocks.length}</div>
+      )}
+
+      {/* Test info bar */}
+      <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+        <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>📝 {totalQ} Questions</div>
+        {data.estimatedTime && <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>⏱ ~{data.estimatedTime} min</div>}
+        <div style={{ fontSize: '0.8rem', color: answeredCount < totalQ ? 'var(--color-accent-light)' : 'var(--color-success-light)' }}>
+          ✓ {answeredCount}/{totalQ} answered
         </div>
       </div>
 
-      <div className="xp-bar-container" style={{ marginBottom: '2rem' }}>
-        <div className="xp-bar-fill" style={{ width: `${quizBlocks.length ? (answered / quizBlocks.length) * 100 : 0}%`, background: 'linear-gradient(90deg, var(--color-danger), var(--color-accent))' }} />
-      </div>
+      {/* Section tabs */}
+      {sections.length > 1 && (
+        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+          {sections.map((sec, i) => (
+            <button key={sec.sectionId || i}
+              className={`btn btn-sm ${activeSection === i ? 'btn-primary' : 'btn-ghost'}`}
+              onClick={() => setActiveSection(i)}>
+              {sec.sectionTitle || `Section ${i + 1}`}
+            </button>
+          ))}
+        </div>
+      )}
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-        {quizBlocks.map((block, qi) => (
-          <div key={block.id} className="card" style={{ borderColor: answers[block.id] !== undefined ? 'var(--color-border-strong)' : 'var(--color-border)' }}>
-            <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', marginBottom: '1rem' }}>
-              <div style={{ width: 28, height: 28, borderRadius: '50%', background: answers[block.id] !== undefined ? 'var(--color-success-glow)' : 'var(--color-surface-3)', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem', fontWeight: 700, border: `2px solid ${answers[block.id] !== undefined ? 'var(--color-success)' : 'var(--color-border)'}` }}>
-                {answers[block.id] !== undefined ? '✓' : qi + 1}
-              </div>
-              <p style={{ fontWeight: 600, fontSize: '0.9375rem', lineHeight: 1.5 }}>{block.question}</p>
+      {/* Questions for active section */}
+      {sections.length > 0 ? (
+        <div>
+          {sections[activeSection] && (
+            <div>
+              {sections[activeSection].sectionTitle && sections.length === 1 && (
+                <h3 className="heading-sm" style={{ marginBottom: '1rem', color: 'var(--color-text-muted)' }}>
+                  {sections[activeSection].sectionTitle}
+                </h3>
+              )}
+              {(sections[activeSection].questions || []).map((q, qi) => {
+                const qid = q.questionId || `tq_${qi}`;
+                return (
+                  <div key={qid}>
+                    <DynamicQuiz
+                      question={{ ...q, questionType: q.questionType || 'mcq' }}
+                      index={qi}
+                      answer={answers[qid]}
+                      onChange={v => setAnswers(p => ({ ...p, [qid]: v }))}
+                      showResult={!!result}
+                    />
+                    {/* Hints — only shown after submit */}
+                    {result && showHints && q.questionHints && (
+                      <div style={{ marginTop: '-0.5rem', marginBottom: '0.75rem', padding: '0.625rem', background: 'rgba(245,158,11,0.08)', border: '1px solid rgba(245,158,11,0.2)', borderRadius: 'var(--radius-sm)' }}>
+                        <div style={{ fontSize: '0.7rem', color: 'var(--color-accent-light)', fontWeight: 700, marginBottom: '0.25rem' }}>💡 Hint</div>
+                        <TargetTextBlock data={q.questionHints} size="sm" />
+                      </div>
+                    )}
+                    {q.audioRef && !q.audioRef.includes('dummy') && (
+                      <div style={{ marginBottom: '0.75rem' }}>
+                        <AudioPlayer audioUrl={q.audioRef} label="Listen to question" />
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', paddingLeft: '2.25rem' }}>
-              {block.options?.map((opt, i) => (
-                <button key={i} type="button"
-                  onClick={() => setAnswers(p => ({ ...p, [block.id]: i }))}
-                  style={{ padding: '0.625rem 1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${answers[block.id] === i ? 'var(--color-primary)' : 'var(--color-border)'}`, background: answers[block.id] === i ? 'var(--color-primary-glow)' : 'var(--color-surface-2)', cursor: 'pointer', textAlign: 'left', fontSize: '0.875rem', transition: 'all 0.15s', color: 'var(--color-text)' }}>
-                  <span style={{ marginRight: '0.625rem', color: 'var(--color-text-muted)', fontWeight: 600 }}>{String.fromCharCode(65 + i)}.</span>{opt}
-                </button>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+          )}
 
+          {/* Section navigation */}
+          {sections.length > 1 && (
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem', marginBottom: '1.5rem' }}>
+              <button className="btn btn-ghost" disabled={activeSection === 0} onClick={() => setActiveSection(s => s - 1)}>← Previous Section</button>
+              <button className="btn btn-ghost" disabled={activeSection === sections.length - 1} onClick={() => setActiveSection(s => s + 1)}>Next Section →</button>
+            </div>
+          )}
+        </div>
+      ) : (
+        <div style={{ textAlign: 'center', padding: '2rem', color: 'var(--color-text-muted)' }}>
+          No questions found in this test.
+        </div>
+      )}
+
+      {/* Submit area */}
       {!result && (
-        <div style={{ marginTop: '2rem', textAlign: 'center' }}>
-          {!allAnswered && (
+        <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+          {answeredCount < totalQ && totalQ > 0 && (
             <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '0.75rem' }}>
-              Answer all {quizBlocks.length} questions to submit
+              ⚠️ You have {totalQ - answeredCount} unanswered question{totalQ - answeredCount !== 1 ? 's' : ''}
             </p>
           )}
-          <button className="btn btn-danger btn-lg" onClick={handleSubmit} disabled={submitting || !allAnswered}>
-            {submitting ? <><span className="spinner" /> Grading...</> : '📊 Submit Test'}
+          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting}>
+            {submitting ? <><span className="spinner" /> Evaluating...</> : '✅ Submit Test'}
           </button>
         </div>
       )}
 
-      {result && (
-        <ScoreModal result={result} maxXP={maxXP}
-          onNext={() => setShowFeedback(true)}
-          onRetry={() => { setResult(null); setAnswers({}); }}
-          activityType="test"
-        />
+      {/* Post-submit hint toggle */}
+      {result && !showHints && allQuestions.some(q => q.questionHints) && (
+        <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+          <button className="btn btn-ghost btn-sm" onClick={() => setShowHints(true)}>💡 Show Hints for All Questions</button>
+        </div>
       )}
 
-      {showFeedback && result && (
-        <ActivityFeedback
-          result={result}
-          activityType="test"
-          onDismiss={() => { setShowFeedback(false); navigate('/dashboard'); }}
-        />
-      )}
+      {result && <ScoreModal result={result} maxXP={maxXP} onNext={() => setShowFeedback(true)} onRetry={retryActivity} activityType="test" />}
+      {showFeedback && result && <ActivityFeedback result={result} activityType="test" onDismiss={() => { setShowFeedback(false); goToDashboard(); }} />}
     </div>
   );
 }

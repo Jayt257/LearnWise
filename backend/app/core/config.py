@@ -38,6 +38,10 @@ class Settings(BaseSettings):
     ADMIN_PASSWORD: str = "Admin@LearnWise2026"
     ADMIN_USERNAME: str = "admin"
 
+    # Testing: override score threshold to 0 to auto-pass all activities
+    # Set to None in production to use activity's own scoreThreshold
+    SCORE_THRESHOLD_OVERRIDE: int = -1  # -1 means disabled (use activity threshold)
+
     # Data path (relative to backend/)
     DATA_DIR: str = "data"
 

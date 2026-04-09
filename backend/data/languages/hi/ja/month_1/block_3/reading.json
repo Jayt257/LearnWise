@@ -1,0 +1,204 @@
+{
+  "activityId": "ja_hi_M1B3_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "काताकाना पठन: कैफे का मेन्यू (Cafe Menu Reading)",
+  "learningGoal": "काताकाना में लिखे गए विदेशी शब्दों और कैफे मेन्यू को पढ़ना और समझना।",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_hi_M1B3_pronunciation_2"
+  ],
+  "instructions": "नीचे एक जापानी कैफे का छोटा सा मेन्यू दिया गया है। सभी आइटम काताकाना में लिखे गए हैं। शब्दों को ज़ोर से पढ़ें और उनका अंग्रेजी/हिंदी अर्थ पहचानने की कोशिश करें।",
+  "readingTitle": "カフェ メニュー (कैफे मेन्यू)",
+  "readingText": "カフェ へ ようこそ。\n１．コーヒー\n２．ジュース\n３．ケーキ\n４．サンドイッチ\n５．アイスクリーム\n\nわたしは コーヒー と ケーキ が すきです。",
+  "textInTargetLanguage": "カフェ へ ようこそ。\n１．コーヒー\n２．ジュース\n３．ケーキ\n４．サンドイッチ\n５．アイスクリーム\n\nわたしは コーヒー と ケーキ が すきです。",
+  "baseLanguageSupportText": "कैफे में आपका स्वागत है।\n1. कॉफी\n2. जूस\n3. केक\n4. सैंडविच\n5. आइसक्रीम\n\nमुझे कॉफी और केक पसंद हैं।",
+  "glossary": [
+    {
+      "targetText": "カフェ",
+      "transliteration": "kafe",
+      "baseTranslation": "कैफे",
+      "exampleSentence": {
+        "targetText": "カフェ に います。",
+        "transliteration": "Kafe ni imasu.",
+        "baseTranslation": "मैं कैफे में हूँ।"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "コーヒー",
+      "transliteration": "koohii",
+      "baseTranslation": "कॉफी",
+      "exampleSentence": {
+        "targetText": "コーヒー を のみます。",
+        "transliteration": "Koohii o nomimasu.",
+        "baseTranslation": "मैं कॉफी पीता हूँ।"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "ジュース",
+      "transliteration": "juusu",
+      "baseTranslation": "जूस",
+      "exampleSentence": {
+        "targetText": "ジュース が あります。",
+        "transliteration": "Juusu ga arimasu.",
+        "baseTranslation": "वहाँ जूस है।"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "サンドイッチ",
+      "transliteration": "sandoitchi",
+      "baseTranslation": "सैंडविच",
+      "exampleSentence": {
+        "targetText": "サンドイッチ は おいしいです。",
+        "transliteration": "Sandoitchi wa oishii desu.",
+        "baseTranslation": "सैंडविच स्वादिष्ट है।"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "アイスクリーム",
+      "transliteration": "aisu kuriimu",
+      "baseTranslation": "आइसक्रीम",
+      "exampleSentence": {
+        "targetText": "アイスクリーム が すきです。",
+        "transliteration": "Aisu kuriimu ga suki desu.",
+        "baseTranslation": "मुझे आइसक्रीम पसंद है।"
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "カフェ へ ようこそ。",
+      "transliteration": "Kafe e youkoso.",
+      "baseTranslation": "कैफे में आपका स्वागत है।"
+    },
+    {
+      "targetText": "わたしは コーヒー と ケーキ が すきです。",
+      "transliteration": "Watashi wa koohii to keeki ga suki desu.",
+      "baseTranslation": "मुझे कॉफी और केक पसंद हैं।"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "मेन्यू में पहला आइटम (１) क्या है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "जूस (Juice)",
+        "कॉफी (Coffee)",
+        "केक (Cake)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "'サンドイッチ' (Sandoitchi) का क्या अर्थ है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "सलाद (Salad)",
+        "सैंडविच (Sandwich)",
+        "सूप (Soup)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "लेखक को क्या पसंद है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "कॉफी और सैंडविच",
+        "जूस और आइसक्रीम",
+        "कॉफी और केक"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "'आइसक्रीम' को काताकाना में कैसे लिखा गया है?",
+      "questionType": "multiple_choice",
+      "options": [
+        "アイスクリーム (Aisu kuriimu)",
+        "ジュース (Juusu)",
+        "ケーキ (Keeki)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "फन एक्टिविटी: 'वर्ड डिकोडर' - अगर 'ミルク' का उच्चारण 'miruku' है, तो इसका अंग्रेजी/हिंदी अर्थ क्या होगा?",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "कॉफी (Coffee)",
+      "rq_2": "सैंडविच (Sandwich)",
+      "rq_3": "कॉफी और केक",
+      "rq_4": "アイスクリーム (Aisu kuriimu)",
+      "rq_5": "Milk / दूध"
+    },
+    "acceptableParaphrases": {
+      "rq_5": [
+        "milk",
+        "dudh"
+      ]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Menu has coffee, juice, cake, sandwich, ice cream",
+      "The speaker likes coffee and cake"
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "शानदार! आपने काताकाना मेन्यू को सफलतापूर्वक डिकोड कर लिया है।",
+    "onFail": "कृपया शब्दों को ज़ोर से पढ़ें। जब आप उन्हें ज़ोर से पढ़ते हैं, तो अंग्रेजी शब्द अपने आप समझ में आ जाएगा।",
+    "onPartial": "आपने अच्छा किया, लेकिन कुछ लंबे काताकाना शब्दों (जैसे सैंडविच) को पढ़ने का अभ्यास करें।"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "カフェ へ ようこそ。１．コーヒー ２．ジュース ３．ケーキ ４．サンドイッチ ５．アイスクリーム。わたしは コーヒー と ケーキ が すきです。",
+    "audioLanguage": "ja",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "katakana",
+    "food"
+  ],
+  "status": "draft",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "लंबे स्वर (ー) का ध्यान रखें। जैसे コーヒー (Koohii) में दो बार लंबी ध्वनि आती है।",
+  "commonMistakes": [
+    "'shi' (シ) और 'tsu' (ツ) के बीच भ्रमित होना (ये काताकाना में बहुत समान दिखते हैं)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M1B3_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

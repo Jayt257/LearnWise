@@ -1,0 +1,192 @@
+{
+  "activityId": "ja_hi_M2B1_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "बातचीत: रेस्तरां में इच्छाएँ (Desires at the Restaurant)",
+  "learningGoal": "विशेषणों (Adjectives) और इच्छा रूप (~tai form) का उपयोग करके स्वाभाविक रूप से बातचीत करना।",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "hi",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_hi_M2B1_listening_5",
+    "ja_hi_M2B1_vocabulary_6"
+  ],
+  "instructions": "इस रोलप्ले में आप अपने दोस्त (सतोशी) के साथ एक नए रेस्तरां में हैं। आप उसे बताएंगे कि रेस्तरां कैसा है (विशेषण), आप क्या खाना चाहते हैं (~tai form), और क्या वहाँ सुशी है (Arimasu)।",
+  "speakingPrompt": "सतोशी के साथ बातचीत करें और अपनी इच्छाएँ बताएं।",
+  "scenario": "एक नए रेस्तरां में दोस्त के साथ बातचीत।",
+  "role": "आप (You)",
+  "conversationPartner": "सतोशी (Satoshi)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "सतोशी पूछता है: 'यह रेस्तरां कैसा है?' (Kono resutoran wa dou desu ka?)। उसे बताएं: 'यह एक नया और साफ रेस्तरां है।' (Atarashii soshite kirei na resutoran desu)",
+      "expectedSpeakingPoints": [
+        "Atarashii",
+        "soshite",
+        "kirei na",
+        "resutoran desu"
+      ],
+      "sampleResponse": {
+        "targetText": "あたらしい そして きれいな レストラン です。",
+        "transliteration": "Atarashii soshite kirei na resutoran desu.",
+        "baseTranslation": "नया और सुंदर/साफ रेस्तरां है।"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "सतोशी पूछता है: 'आप क्या खाना चाहते हैं?' (Nani o tabetai desu ka?)। उसे बताएं: 'मैं स्वादिष्ट सुशी खाना चाहता हूँ।' (Oishii sushi o tabetai desu)",
+      "expectedSpeakingPoints": [
+        "Oishii",
+        "sushi o",
+        "tabetai desu"
+      ],
+      "sampleResponse": {
+        "targetText": "おいしい すし を たべたい です。",
+        "transliteration": "Oishii sushi o tabetai desu.",
+        "baseTranslation": "स्वादिष्ट सुशी खाना चाहता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "सतोशी कहता है: 'सुशी तो नहीं है' (Sushi wa arimasen)। उससे पूछें: 'क्या ठंडा पानी है?' (Tsumetai mizu ga arimasu ka?)",
+      "expectedSpeakingPoints": [
+        "Tsumetai",
+        "mizu ga",
+        "arimasu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "つめたい みず が ありますか。",
+        "transliteration": "Tsumetai mizu ga arimasu ka.",
+        "baseTranslation": "क्या ठंडा पानी है?"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "सतोशी पानी देता है। अब उसे बताएं: 'मैं घर लौटना चाहता हूँ।' (Watashi wa uchi e kaeritai desu)",
+      "expectedSpeakingPoints": [
+        "Watashi wa",
+        "uchi e",
+        "kaeritai desu"
+      ],
+      "sampleResponse": {
+        "targetText": "わたし は うち へ かえりたい です。",
+        "transliteration": "Watashi wa uchi e kaeritai desu.",
+        "baseTranslation": "मैं घर लौटना चाहता हूँ।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "ともだち と レストラン で はなします。",
+    "transliteration": "Tomodachi to resutoran de hanashimasu.",
+    "baseTranslation": "दोस्त के साथ रेस्तरां में बात कर रहे हैं।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "あたらしい そして きれいな レストラン です。",
+      "transliteration": "Atarashii soshite kirei na resutoran desu.",
+      "baseTranslation": "नया और सुंदर/साफ रेस्तरां है।"
+    },
+    {
+      "targetText": "おいしい すし を たべたい です。",
+      "transliteration": "Oishii sushi o tabetai desu.",
+      "baseTranslation": "स्वादिष्ट सुशी खाना चाहता हूँ।"
+    },
+    {
+      "targetText": "つめたい みず が ありますか。",
+      "transliteration": "Tsumetai mizu ga arimasu ka.",
+      "baseTranslation": "क्या ठंडा पानी है?"
+    },
+    {
+      "targetText": "わたし は うち へ かえりたい です。",
+      "transliteration": "Watashi wa uchi e kaeritai desu.",
+      "baseTranslation": "मैं घर लौटना चाहता हूँ।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 15,
+    "vocabularyWeight": 15
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "kirei na resutoran desu",
+      "oishii sushi",
+      "tabetai desu",
+      "tsumetai mizu",
+      "arimasu ka",
+      "kaeritai desu"
+    ],
+    "requiredKeywords": [
+      "きれいな",
+      "おいしい",
+      "たべたい",
+      "つめたい",
+      "あります",
+      "かえりたい"
+    ],
+    "acceptableParaphrases": [
+      "Using 'sushi ga tabetai desu' instead of 'sushi o tabetai desu' is perfectly fine."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Adjective + Noun connection",
+          "weight": 50,
+          "description": "Correctly using kirei na resutoran and tsumetai mizu."
+        },
+        {
+          "name": "Tai form",
+          "weight": 50,
+          "description": "Correctly producing tabetai and kaeritai."
+        }
+      ]
+    },
+    "sampleAnswer": "Atarashii soshite kirei na resutoran desu. Oishii sushi o tabetai desu. Tsumetai mizu ga arimasu ka. Watashi wa uchi e kaeritai desu.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "सुपर! आपने विशेषणों (Adjectives) और 'tai' रूप का बहुत स्वाभाविक रूप से उपयोग किया है।",
+    "onFail": "कृपया i-adjective (tsumetai) और na-adjective (kirei na) के उपयोग पर ध्यान दें। 'na' लगाना न भूलें!",
+    "onPartial": "आपने अच्छा किया है। बोलते समय 'kaeritai desu' (लौटना चाहता हूँ) के प्रवाह (fluency) पर ध्यान दें।"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "あたらしい そして きれいな レストラン です。おいしい すし を たべたい です。つめたい みず が ありますか。わたし は うち へ かえりたい です。",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "adjectives",
+    "tai form",
+    "arimasu"
+  ],
+  "status": "draft",
+  "createdAt": "2026-05-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "'Kirei' एक na-adjective है, इसलिए रेस्तरां (noun) से पहले 'Kirei na' बोलना ज़रूरी है।",
+  "commonMistakes": [
+    "'Tsumetai mizu ga imasu ka' बोलना (पानी निर्जीव है, इसलिए Arimasu का उपयोग होगा)।"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_hi_M2B1_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

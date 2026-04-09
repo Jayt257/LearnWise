@@ -1,22 +1,24 @@
 """
 backend/app/routers/admin.py
 Admin-only endpoints (require role=admin).
-  GET  /api/admin/stats                         - Platform statistics
-  GET  /api/admin/users                         - All users list
-  PUT  /api/admin/users/{user_id}/role          - Change user role
-  PUT  /api/admin/users/{user_id}/activate      - Reactivate a deactivated user [NEW]
-  DELETE /api/admin/users/{user_id}             - Deactivate user
-  GET  /api/admin/languages                     - List language pairs
-  POST /api/admin/languages                     - Create new language pair
-  DELETE /api/admin/languages/{pair_id}         - Delete language pair
-  GET  /api/admin/content/{pair_id}             - List content files
-  GET  /api/admin/content/{pair_id}/file        - Get a specific content file
-  PUT  /api/admin/content/{pair_id}             - Update a content file
-  PUT  /api/admin/content/{pair_id}/meta        - Update meta.json
-  POST /api/admin/content/{pair_id}/activity    - Add new activity file
-  DELETE /api/admin/content/{pair_id}/activity  - Delete an activity file [NEW]
-  GET  /api/admin/analytics                     - Per-activity-type analytics [NEW]
-  GET  /api/admin/activity-types                - List supported activity types [NEW]
+  GET    /api/admin/stats
+  GET    /api/admin/users
+  PUT    /api/admin/users/{user_id}/role
+  PUT    /api/admin/users/{user_id}/activate
+  DELETE /api/admin/users/{user_id}
+  GET    /api/admin/languages
+  POST   /api/admin/languages
+  DELETE /api/admin/languages/{pair_id}
+  GET    /api/admin/content/{pair_id}
+  GET    /api/admin/content/{pair_id}/file
+  PUT    /api/admin/content/{pair_id}
+  PUT    /api/admin/content/{pair_id}/meta
+  POST   /api/admin/content/{pair_id}/activity
+  DELETE /api/admin/content/{pair_id}/activity
+  POST   /api/admin/content/{pair_id}/month       [NEW] Add a new month
+  POST   /api/admin/content/{pair_id}/month/{month}/block  [NEW] Add a new block
+  GET    /api/admin/analytics
+  GET    /api/admin/activity-types
 """
 
 from fastapi import APIRouter, Depends, HTTPException, Query
@@ -39,129 +41,291 @@ from app.services import content_service
 
 router = APIRouter(prefix="/admin", tags=["Admin"])
 
-# Supported activity types with metadata
+# Supported activity types matching data_README section 5
 ACTIVITY_TYPES = {
     "lesson": {
         "label": "Lesson",
         "icon": "📖",
-        "description": "Text, grammar rules, dialogues, and fill-in-the-blank exercises",
-        "file_suffix": "lesson",
-    },
-    "vocab": {
-        "label": "Vocabulary",
-        "icon": "📝",
-        "description": "Word translations, matching, and usage exercises",
-        "file_suffix": "vocab",
-    },
-    "reading": {
-        "label": "Reading",
-        "icon": "📄",
-        "description": "Reading comprehension passages with MCQ and gap-fill",
-        "file_suffix": "reading",
-    },
-    "writing": {
-        "label": "Writing",
-        "icon": "✍",
-        "description": "Translation and free-text composition tasks",
-        "file_suffix": "writing",
-    },
-    "listening": {
-        "label": "Listening",
-        "icon": "🎧",
-        "description": "Audio-based comprehension with gap-fill and true/false",
-        "file_suffix": "listening",
-    },
-    "speaking": {
-        "label": "Speaking",
-        "icon": "🎙",
-        "description": "Scenario roleplay evaluated by Whisper + Groq AI",
-        "file_suffix": "speaking",
+        "description": "Teach the main concept, grammar rule, or cultural point",
+        "file_name": "lesson.json",
     },
     "pronunciation": {
         "label": "Pronunciation",
         "icon": "🗣",
-        "description": "Read-aloud exercises scored by speech-to-text comparison",
-        "file_suffix": "pronunciation",
+        "description": "Correct audio, phonetic guidance, user speech check, score",
+        "file_name": "pronunciation.json",
+    },
+    "reading": {
+        "label": "Reading",
+        "icon": "📄",
+        "description": "Reading passage with native-language support, glossary, comprehension questions",
+        "file_name": "reading.json",
+    },
+    "writing": {
+        "label": "Writing",
+        "icon": "✍",
+        "description": "Writing prompt with hints, rubric, and scoring",
+        "file_name": "writing.json",
+    },
+    "listening": {
+        "label": "Listening",
+        "icon": "🎧",
+        "description": "Audio clip with transcript, questions, and answer evaluation",
+        "file_name": "listening.json",
+    },
+    "vocabulary": {
+        "label": "Vocabulary",
+        "icon": "📝",
+        "description": "Word groups with meanings, usage examples, audio support, and quizzes",
+        "file_name": "vocabulary.json",
+    },
+    "speaking": {
+        "label": "Speaking",
+        "icon": "🎙",
+        "description": "Scenario-based speaking task with time limit and scoring",
+        "file_name": "speaking.json",
     },
     "test": {
         "label": "Test",
         "icon": "📋",
-        "description": "Formal MCQ test scored locally (no AI needed)",
-        "file_suffix": "test",
+        "description": "End-of-block evaluation covering all skill areas",
+        "file_name": "test.json",
     },
 }
 
-# Minimal JSON templates for each activity type
-ACTIVITY_TEMPLATES = {
-    "lesson": {
-        "title": "New Lesson",
-        "description": "Lesson description here",
-        "blocks": [
-            {"id": "b1", "type": "text", "title": "Introduction", "body": "Lesson content here..."},
-            {"id": "b2", "type": "fill_blank", "title": "Practice", "instructions": "Fill in the blanks.",
-             "items": [{"sentence": "__ is a greeting.", "answer": "Hello", "hint": "First word"}]},
-        ]
-    },
-    "vocab": {
-        "title": "New Vocabulary",
-        "description": "Vocabulary description here",
-        "words": [
-            {"word": "hello", "translation": "नमस्ते", "example": "Hello, how are you?",
-             "example_translation": "नमस्ते, आप कैसे हैं?"}
-        ],
-        "exercises": [
-            {"type": "translation", "prompt": "Translate: Hello", "answer": "नमस्ते"}
-        ]
-    },
-    "reading": {
-        "title": "New Reading",
-        "description": "Reading description here",
-        "passage": "Passage text here...",
-        "questions": [
-            {"id": "rq1", "type": "mcq", "question": "Sample question?",
-             "options": ["Option A", "Option B", "Option C", "Option D"], "correct": 0}
-        ]
-    },
-    "writing": {
-        "title": "New Writing",
-        "description": "Writing description here",
-        "tasks": [
-            {"prompt": "Write a sentence about...", "hint": "Use the vocabulary from lesson 1.",
-             "sample_answer": "Sample answer here..."}
-        ]
-    },
-    "listening": {
-        "title": "New Listening",
-        "description": "Listening description here",
-        "transcript": "Audio transcript here...",
-        "audio_url": None,
-        "questions": [
-            {"id": "lq1", "type": "gap_fill", "sentence": "The ___ is red.", "answer": "apple"}
-        ]
-    },
-    "speaking": {
-        "title": "New Speaking",
-        "description": "Speaking description here",
-        "scenarios": [
-            {"prompt": "Introduce yourself in the target language.", "expected_topics": ["name", "greeting"]}
-        ]
-    },
-    "pronunciation": {
-        "title": "New Pronunciation",
-        "description": "Pronunciation description here",
-        "items": [
-            {"target_text": "नमस्ते", "romanization": "Namaste", "audio_url": None}
-        ]
-    },
-    "test": {
-        "title": "New Test",
-        "description": "Test description here",
-        "questions": [
-            {"id": "tq1", "question": "Sample test question?",
-             "options": ["A", "B", "C", "D"], "correct": 0}
-        ]
-    },
-}
+# Minimal JSON templates per data_README schemas
+def _make_template(activity_type: str, pair_id: str = "hi-ja", month: int = 1, block: int = 1) -> dict:
+    """Generate a minimal valid activity template matching data_README schema."""
+    src, tgt = pair_id.split("-") if "-" in pair_id else ("hi", "ja")
+    block_code = f"M{month}B{block}"
+    activity_id = f"{tgt}_{src}_{block_code}_{activity_type}_001"
+
+    base = {
+        "activityId": activity_id,
+        "monthNumber": month,
+        "blockNumber": block,
+        "activityType": activity_type,
+        "title": f"New {activity_type.capitalize()} — {block_code}",
+        "learningGoal": "The learner will be able to [describe goal here].",
+        "difficultyLevel": "beginner",
+        "baseLanguage": src,
+        "targetLanguage": tgt,
+        "estimatedTime": 30,
+        "prerequisites": [],
+        "instructions": "Instructions for this activity go here.",
+        "contentItems": [],
+        "adminCorrectAnswerSet": {},
+        "evaluationMode": "exact_match",
+        "scoreThreshold": 70,
+        "feedbackRules": {
+            "onPass": "Well done!",
+            "onFail": "Please review and try again.",
+            "onPartial": "Good effort! Review missed areas."
+        },
+        "audioAssets": {
+            "promptAudio": None,
+            "nativeAudio": None,
+            "referenceAudio": None,
+            "instructionAudio": None,
+            "sampleAudio": None,
+            "slowAudio": None,
+            "normalAudio": None,
+            "audioTranscript": None,
+            "audioLanguage": tgt,
+            "audioDuration": None,
+            "audioRepeatAllowed": True
+        },
+        "tags": [activity_type, f"month{month}", f"block{block}"],
+        "status": "draft",
+        "createdAt": datetime.utcnow().isoformat() + "Z",
+        "version": "1.0.0",
+        "thumbnail": None,
+        "imageAssets": [],
+        "videoAssets": [],
+        "hintText": None,
+        "commonMistakes": [],
+        "reviewLinks": [],
+        "nextActivityIds": [],
+        "attemptLimit": None,
+        "metadata": {}
+    }
+
+    # Add activity-type specific fields
+    if activity_type == "lesson":
+        base.update({
+            "conceptTitle": "Concept title here",
+            "lessonContent": [
+                {
+                    "sectionId": "sec_1",
+                    "sectionTitle": "Introduction",
+                    "bodyText": "Detailed explanation goes here.",
+                    "targetLanguageExamples": []
+                }
+            ],
+            "learningObjective": "Measurable objective here.",
+            "examples": [],
+            "importantRules": [],
+            "cultureContext": {"isApplicable": False, "contextText": None, "dosList": [], "dontsList": []},
+            "summary": "Summary of key points.",
+            "checkpointQuestions": [],
+            "adminCorrectAnswerSet": {
+                "keyTakeaways": [],
+                "conceptSummary": "",
+                "importantFacts": [],
+                "checkpointAnswers": {},
+                "expectedUnderstanding": ""
+            }
+        })
+    elif activity_type == "pronunciation":
+        base.update({
+            "targetPhrasesOrWords": [],
+            "userInputMode": "speech",
+            "sttTranscript": None,
+            "expectedPronunciationText": "",
+            "adminCorrectAnswerSet": {
+                "exactCorrectTranscript": "",
+                "acceptedVariants": [],
+                "syllableSplitReference": "",
+                "phoneticApproximation": "",
+                "nativeScriptReference": None,
+                "transliteration": None,
+                "strictnessLevel": "moderate"
+            }
+        })
+    elif activity_type == "reading":
+        base.update({
+            "readingTitle": "Reading passage title",
+            "readingText": "",
+            "textInTargetLanguage": "",
+            "baseLanguageSupportText": None,
+            "glossary": [],
+            "sentenceSupportPairs": [],
+            "comprehensionQuestions": [],
+            "readAloudMode": False,
+            "adminCorrectAnswerSet": {
+                "correctAnswers": {},
+                "acceptableParaphrases": {},
+                "keywordScoringRules": {},
+                "expectedSummaryPoints": []
+            }
+        })
+    elif activity_type == "writing":
+        base.update({
+            "writingPrompt": "Writing prompt here.",
+            "promptGoal": "Goal of writing task.",
+            "expectedWritingType": "paragraph",
+            "wordBank": [],
+            "referenceHints": [],
+            "modelExampleOutputs": [],
+            "evaluationCriteria": [
+                {"criterion": "Grammar Accuracy", "weight": 40, "description": "Correct grammar usage"},
+                {"criterion": "Content Coverage", "weight": 40, "description": "Covers required topics"},
+                {"criterion": "Vocabulary", "weight": 20, "description": "Appropriate word choice"}
+            ],
+            "minimumWordCount": 50,
+            "maximumWordCount": 150,
+            "adminCorrectAnswerSet": {
+                "sampleAnswer": "",
+                "acceptableAlternates": [],
+                "requiredKeywords": [],
+                "grammarBaseline": "",
+                "lengthExpectation": "50 to 150 words",
+                "scoringRubric": {}
+            }
+        })
+    elif activity_type == "listening":
+        base.update({
+            "listeningGoal": "Extract information from the audio.",
+            "audioScenario": "Description of audio context.",
+            "audioTranscriptSentences": [],
+            "audioTranscriptFull": "",
+            "questionSet": [],
+            "replayAllowed": True,
+            "slowPlaybackAllowed": True,
+            "scoringRules": {
+                "pointsPerQuestion": 10,
+                "partialCreditAllowed": True,
+                "partialCreditRules": None
+            },
+            "adminCorrectAnswerSet": {
+                "correctAnswers": {},
+                "acceptedShortAnswers": {},
+                "acceptedLongAnswers": {},
+                "scoringKeywords": {},
+                "partialCreditRules": {}
+            }
+        })
+    elif activity_type == "vocabulary":
+        base.update({
+            "vocabTheme": "Vocabulary theme here",
+            "wordList": [],
+            "meaningList": [],
+            "exampleSentences": [],
+            "quizType": "mixed",
+            "quizQuestions": [],
+            "adminCorrectAnswerSet": {
+                "correctMeanings": {},
+                "acceptedTranslations": {},
+                "matchingKey": {},
+                "mcqAnswerKey": {},
+                "pronunciationReference": {}
+            }
+        })
+    elif activity_type == "speaking":
+        base.update({
+            "speakingPrompt": "Speaking task instruction here.",
+            "scenario": "Full scenario description here.",
+            "role": "learner",
+            "conversationPartner": None,
+            "subTasks": [],
+            "scenarioContext": {
+                "targetText": "",
+                "transliteration": "",
+                "baseTranslation": ""
+            },
+            "baselineTranscriptSentences": [],
+            "scoringRules": {
+                "fluencyWeight": 25,
+                "contentWeight": 40,
+                "grammarWeight": 20,
+                "vocabularyWeight": 15
+            },
+            "adminCorrectAnswerSet": {
+                "expectedSpeakingPoints": [],
+                "requiredKeywords": [],
+                "acceptableParaphrases": [],
+                "scoringRubric": {},
+                "sampleAnswer": "",
+                "minimumContentCoverage": 60
+            }
+        })
+    elif activity_type == "test":
+        base.update({
+            "testTitle": "Block Test",
+            "testScope": "block_test",
+            "coveredActivityTypes": ["lesson", "vocabulary", "pronunciation", "listening"],
+            "testInstructions": "Answer all questions carefully.",
+            "questionSections": [],
+            "scoreWeights": {
+                "lesson": 15, "pronunciation": 10, "reading": 15,
+                "writing": 15, "listening": 15, "vocabulary": 15, "speaking": 15
+            },
+            "totalMarks": 100,
+            "passMarks": 70,
+            "userResponses": {},
+            "finalScore": None,
+            "sectionScores": {},
+            "resultSummary": None,
+            "adminCorrectAnswerSet": {
+                "answerKey": {},
+                "scoringRubric": {},
+                "partialCreditRules": {},
+                "alternateValidAnswers": {},
+                "sectionPassMarks": {}
+            }
+        })
+
+    return base
 
 
 # ── Stats ──────────────────────────────────────────────────────
@@ -190,22 +354,16 @@ def get_stats(admin: User = Depends(require_admin), db: Session = Depends(get_db
     )
 
 
-# ── Analytics [NEW] ────────────────────────────────────────────
+# ── Analytics ────────────────────────────────────────────────
 
 @router.get("/analytics")
 def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(get_db)):
-    """
-    Per-activity-type analytics: completion count, avg score, pass rate.
-    Also returns top 5 users by XP and recent completions.
-    """
-    # Per activity type stats
+    """Per-activity-type analytics: completion count, avg score, pass rate."""
     activity_stats_raw = db.query(
         ActivityCompletion.activity_type,
         func.count(ActivityCompletion.id).label("total"),
         func.avg(ActivityCompletion.score_earned).label("avg_score"),
-        func.sum(
-            func.cast(ActivityCompletion.passed, Integer)
-        ).label("passed_count"),
+        func.sum(func.cast(ActivityCompletion.passed, Integer)).label("passed_count"),
     ).group_by(ActivityCompletion.activity_type).all()
 
     activity_stats = []
@@ -219,7 +377,6 @@ def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(ge
             "pass_rate": round((passed / total * 100) if total > 0 else 0, 1),
         })
 
-    # Top 5 users by total XP across all language pairs
     top_users_raw = db.query(
         User.username,
         User.display_name,
@@ -230,15 +387,10 @@ def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(ge
     ).limit(5).all()
 
     top_users = [
-        {
-            "username": u.username,
-            "display_name": u.display_name,
-            "total_xp": int(u.total_xp or 0),
-        }
+        {"username": u.username, "display_name": u.display_name, "total_xp": int(u.total_xp or 0)}
         for u in top_users_raw
     ]
 
-    # Recent 10 completions
     recent_raw = db.query(ActivityCompletion).order_by(
         ActivityCompletion.completed_at.desc()
     ).limit(10).all()
@@ -246,7 +398,11 @@ def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(ge
     recent_completions = [
         {
             "activity_type": c.activity_type,
+            "activity_seq_id": c.activity_seq_id,
+            "activity_json_id": c.activity_json_id,
             "lang_pair_id": c.lang_pair_id,
+            "month_number": c.month_number,
+            "block_number": c.block_number,
             "score_earned": c.score_earned,
             "max_score": c.max_score,
             "passed": c.passed,
@@ -255,7 +411,6 @@ def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(ge
         for c in recent_raw
     ]
 
-    # Language pair enrollment counts
     pair_enrollments_raw = db.query(
         UserLanguageProgress.lang_pair_id,
         func.count(UserLanguageProgress.id).label("cnt"),
@@ -263,11 +418,7 @@ def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(ge
     ).group_by(UserLanguageProgress.lang_pair_id).all()
 
     pair_enrollments = [
-        {
-            "lang_pair_id": r.lang_pair_id,
-            "enrolled_users": int(r.cnt or 0),
-            "total_xp": int(r.total_xp or 0),
-        }
+        {"lang_pair_id": r.lang_pair_id, "enrolled_users": int(r.cnt or 0), "total_xp": int(r.total_xp or 0)}
         for r in pair_enrollments_raw
     ]
 
@@ -279,7 +430,7 @@ def get_analytics(admin: User = Depends(require_admin), db: Session = Depends(ge
     }
 
 
-# ── Activity Types [NEW] ──────────────────────────────────────
+# ── Activity Types ──────────────────────────────────────────
 
 @router.get("/activity-types")
 def get_activity_types(admin: User = Depends(require_admin)):
@@ -289,7 +440,7 @@ def get_activity_types(admin: User = Depends(require_admin)):
             {**{"id": k}, **v}
             for k, v in ACTIVITY_TYPES.items()
         ],
-        "templates": ACTIVITY_TEMPLATES,
+        "templates": {k: _make_template(k) for k in ACTIVITY_TYPES},
     }
 
 
@@ -297,8 +448,8 @@ def get_activity_types(admin: User = Depends(require_admin)):
 
 @router.get("/users", response_model=List[AdminUserOut])
 def list_users(
-    search: Optional[str] = Query(None, description="Filter by username or email"),
-    role: Optional[str] = Query(None, description="Filter by role"),
+    search: Optional[str] = Query(None),
+    role: Optional[str] = Query(None),
     admin: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
@@ -345,7 +496,6 @@ def deactivate_user(user_id: UUID, admin: User = Depends(require_admin), db: Ses
 
 @router.put("/users/{user_id}/activate")
 def activate_user(user_id: UUID, admin: User = Depends(require_admin), db: Session = Depends(get_db)):
-    """[NEW] Re-activate a previously deactivated user account."""
     user = db.query(User).filter(User.id == user_id).first()
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
@@ -361,7 +511,6 @@ def activate_user(user_id: UUID, admin: User = Depends(require_admin), db: Sessi
 @router.get("/languages")
 def list_languages(admin: User = Depends(require_admin)):
     pairs = content_service.get_all_pairs()
-    # Enrich with meta if available
     enriched = []
     for p in pairs:
         try:
@@ -376,26 +525,27 @@ def list_languages(admin: User = Depends(require_admin)):
 def create_language(req: CreateLanguagePairRequest, admin: User = Depends(require_admin)):
     pair_id = f"{req.source_lang_id}-{req.target_lang_id}"
 
-    # Check for duplicate
     existing_pairs = content_service.get_all_pairs()
     if any(p["pairId"] == pair_id for p in existing_pairs):
-        raise HTTPException(
-            status_code=409,
-            detail=f"Language pair '{pair_id}' already exists."
-        )
+        raise HTTPException(status_code=409, detail=f"Language pair '{pair_id}' already exists.")
 
-    content_service.create_pair_directory(pair_id)
+    content_service.create_pair_directory(
+        pair_id,
+        src_id=req.source_lang_id, tgt_id=req.target_lang_id,
+        src_name=req.source_lang_name, tgt_name=req.target_lang_name,
+        src_flag=req.source_lang_flag, tgt_flag=req.target_lang_flag,
+        total_months=3
+    )
     content_service.register_pair(pair_id, req.source_lang_id, req.target_lang_id)
 
-    meta = {
-        "_comment": f"{req.source_lang_name} → {req.target_lang_name} language pair",
-        "pairId": pair_id,
-        "source": {"id": req.source_lang_id, "name": req.source_lang_name, "flag": req.source_lang_flag},
-        "target": {"id": req.target_lang_id, "name": req.target_lang_name, "flag": req.target_lang_flag},
-        "totalMonths": 6,
-        "status": "active",
-        "months": [],
-    }
+    # Build full meta skeleton with 3 months × 6 blocks
+    meta = content_service._build_meta_skeleton(
+        pair_id,
+        src_id=req.source_lang_id, tgt_id=req.target_lang_id,
+        src_name=req.source_lang_name, tgt_name=req.target_lang_name,
+        src_flag=req.source_lang_flag, tgt_flag=req.target_lang_flag,
+        total_months=3, blocks_per_month=6
+    )
     content_service.write_meta(pair_id, meta)
     return {"message": f"Language pair '{pair_id}' created successfully", "pair_id": pair_id}
 
@@ -450,13 +600,16 @@ def update_meta(pair_id: str, req: UpdateContentRequest, admin: User = Depends(r
 @router.post("/content/{pair_id}/activity", status_code=201)
 def add_activity(pair_id: str, req: UpdateContentRequest, admin: User = Depends(require_admin)):
     """
-    Add a new activity JSON file to an existing language pair.
-    Raises 409 if the file already exists to prevent accidental overwrites.
+    Add a new activity JSON file.
+    Raises 409 if the file already exists.
     """
-    from app.services.content_service import _base_path
     try:
-        file_path = _base_path(pair_id) / req.file_path
+        base = content_service._base_path(pair_id)
+        file_path = base / req.file_path
+        file_path.resolve().relative_to(base.resolve())
     except ValueError:
+        raise HTTPException(status_code=403, detail="Path traversal attempt blocked")
+    except Exception:
         raise HTTPException(status_code=400, detail=f"Invalid pair_id: {pair_id}")
 
     if file_path.exists():
@@ -474,15 +627,13 @@ def add_activity(pair_id: str, req: UpdateContentRequest, admin: User = Depends(
 @router.delete("/content/{pair_id}/activity")
 def delete_activity(
     pair_id: str,
-    file: str = Query(..., description="Relative file path to delete, e.g. month-1/week-1-lesson.json"),
+    file: str = Query(..., description="Relative file path e.g. month_1/block_1/lesson.json"),
     admin: User = Depends(require_admin),
 ):
-    """[NEW] Delete a specific activity file from a language pair."""
-    from app.services.content_service import _base_path
+    """Delete a specific activity file from a language pair."""
     try:
-        base = _base_path(pair_id)
+        base = content_service._base_path(pair_id)
         file_path = base / file
-        # Security: prevent path traversal
         file_path.resolve().relative_to(base.resolve())
     except ValueError:
         raise HTTPException(status_code=403, detail="Path traversal attempt blocked")
@@ -496,3 +647,47 @@ def delete_activity(
 
     file_path.unlink()
     return {"message": f"Activity file '{file}' deleted successfully"}
+
+
+@router.post("/content/{pair_id}/month", status_code=201)
+def add_month(pair_id: str, admin: User = Depends(require_admin)):
+    """Add a new month (with 6 blocks) to an existing language pair. Updates meta.json."""
+    try:
+        meta = content_service.add_month(pair_id)
+        return {"message": "New month added successfully", "total_months": meta["totalMonths"]}
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/content/{pair_id}/month/{month}/block", status_code=201)
+def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
+    """Add a new block to an existing month. Updates meta.json."""
+    try:
+        meta = content_service.add_block(pair_id, month)
+        month_data = next((m for m in meta["months"] if m["month"] == month), None)
+        return {
+            "message": f"New block added to month {month}",
+            "total_blocks": len(month_data["blocks"]) if month_data else 0
+        }
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found")
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/activity-template/{activity_type}")
+def get_activity_template(
+    activity_type: str,
+    pair_id: str = Query("hi-ja"),
+    month: int = Query(1),
+    block: int = Query(1),
+    admin: User = Depends(require_admin)
+):
+    """Get a filled JSON template for a specific activity type."""
+    if activity_type not in ACTIVITY_TYPES:
+        raise HTTPException(status_code=400, detail=f"Unknown activity type: {activity_type}")
+    return _make_template(activity_type, pair_id, month, block)

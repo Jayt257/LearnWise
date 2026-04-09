@@ -1,149 +1,141 @@
 /**
  * src/pages/activities/ReadingPage.jsx
- * Reading activity — text passage + comprehension questions.
+ * Fully dynamic: readingText, sentenceSupportPairs[], glossary[], comprehensionQuestions[].
+ * Toggle between reading-only view and sentence-by-sentence support.
  */
-import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { getActivity } from '../../api/content.js';
-import { validateActivity, completeActivity } from '../../api/progress.js';
-import { useSelector } from 'react-redux';
+import React, { useState } from 'react';
+import { useActivity } from '../../hooks/useActivity.js';
+import { ActivityHeader, Spinner, ContentMissing, LoadError } from './LessonPage.jsx';
+import TargetTextBlock from '../../components/TargetTextBlock.jsx';
+import AudioPlayer from '../../components/AudioPlayer.jsx';
+import DynamicQuiz from '../../components/DynamicQuiz.jsx';
 import ScoreModal from '../../components/ScoreModal.jsx';
 import ActivityFeedback from '../../components/ActivityFeedback.jsx';
 
-const MAX_INPUT_CHARS = 1000;
+export default function ReadingPage({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, label, monthNumber, blockNumber }) {
+  const {
+    data, loading, error, answers, setAnswers, submitting,
+    result, showFeedback, setShowFeedback, submitAnswers, retryActivity, goToDashboard,
+  } = useActivity({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, monthNumber, blockNumber, activityType: 'reading' });
 
-export default function ReadingPage({ pairId, activityFile, activityId, maxXP, label }) {
-  const navigate = useNavigate();
-  const { user } = useSelector(s => s.auth);
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [answers, setAnswers] = useState({});
-  const [submitting, setSubmitting] = useState(false);
-  const [result, setResult] = useState(null);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const attemptCount = useRef(1);
+  const [showSupport, setShowSupport] = useState(false);
+  const [showGlossary, setShowGlossary] = useState(false);
 
-  useEffect(() => {
-    getActivity(pairId, activityFile).then(r => { setData(r.data); setLoading(false); }).catch(() => setLoading(false));
-  }, [activityFile, pairId]);
+  if (loading) return <Spinner />;
+  if (error === 'content_missing') return <ContentMissing goBack={goToDashboard} />;
+  if (error) return <LoadError goBack={goToDashboard} />;
+  if (!data) return null;
 
-  // Extract passage and questions from the new blocks schema or fallback to old root structure
-  let passage = data?.passage || '';
-  let questions = data?.questions || [];
-  
-  if (data?.blocks) {
-    const readingBlock = data.blocks.find(b => b.type === 'reading');
-    if (readingBlock) {
-      passage = readingBlock.passage || passage;
-      questions = readingBlock.questions?.map(q => ({
-        question: q.q || q.question,
-        answer: q.a || q.answer,
-        type: q.type || 'text',
-        options: q.options
-      })) || questions;
-    }
-  }
+  const readingText = data.textInTargetLanguage || data.readingText || '';
+  const supportText = data.baseLanguageSupportText;
+  const sentencePairs = data.sentenceSupportPairs || [];
+  const glossary = data.glossary || [];
+  const questions = data.comprehensionQuestions || [];
 
   const handleSubmit = async () => {
-    setSubmitting(true);
-    try {
-      const qData = questions.map((q, i) => ({
-        question_id: `reading_q${i}`,
-        block_type: 'reading',
-        user_answer: answers[`q${i}`] || '',
-        correct_answer: q.correct_answer || q.answer,
-        prompt: q.question,
-      }));
-      
-      const { data: res } = await validateActivity({
-        activity_id: activityId, activity_type: 'reading', lang_pair_id: pairId,
-        max_xp: maxXP, user_lang: user?.native_lang || 'hi', target_lang: pairId.split('-')[1],
-        questions: qData,
-        attempt_count: attemptCount.current,
+    if (questions.length === 0) {
+      await submitAnswers([], {
+        total_score: maxXP, max_score: maxXP, percentage: 100, passed: true,
+        feedback: 'Excellent reading! 📄', suggestion: 'Try to recall the main points from memory.',
+        question_results: [],
       });
-      setResult(res);
-      attemptCount.current += 1;
-      await completeActivity(pairId, { activity_id: activityId, activity_type: 'reading', lang_pair_id: pairId, score_earned: res.total_score, max_score: maxXP, passed: res.passed, ai_feedback: res.feedback, ai_suggestion: res.suggestion });
-    } catch (e) { console.error(e); } finally { setSubmitting(false); }
+      return;
+    }
+    const qs = questions.map((q, i) => ({
+      question_id: q.questionId || `rq_${i}`,
+      block_type: q.questionType || 'short_answer',
+      user_answer: typeof answers[i] === 'number' ? (q.options?.[answers[i]] || answers[i]) : (answers[i] || ''),
+      correct_answer: q.correctAnswer || q.options?.[q.correct] || '',
+      prompt: q.questionText || '',
+    }));
+    await submitAnswers(qs);
   };
 
-  if (loading) return <div style={{ textAlign: 'center', padding: '4rem' }}><div className="spinner" style={{ margin: '0 auto' }} /></div>;
-  if (!data) return <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-danger-light)' }}>Failed to load reading content.</div>;
-
   return (
-    <div style={{ maxWidth: 800, margin: '0 auto' }}>
-      <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-        <button className="btn btn-ghost btn-sm" onClick={() => navigate('/dashboard')}>← Back</button>
-        <div>
-          <div className="badge badge-primary" style={{ marginBottom: '0.5rem', background: 'rgba(6, 182, 212, 0.2)', color: '#67e8f9' }}>📄 Reading • +{maxXP} XP</div>
-          <h1 className="heading-md">{data.title}</h1>
-          <p className="text-muted" style={{ fontSize: '0.875rem', marginTop: '0.25rem' }}>{data.description}</p>
-        </div>
+    <div style={{ maxWidth: 820, margin: '0 auto' }}>
+      <ActivityHeader label={`📄 ${label || 'Reading'}`} maxXP={maxXP} title={data.title} description={data.learningGoal} goBack={goToDashboard} />
+
+      {/* Toolbar */}
+      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.25rem', flexWrap: 'wrap' }}>
+        {sentencePairs.length > 0 && (
+          <button className={`btn btn-sm ${showSupport ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setShowSupport(s => !s)}>
+            {showSupport ? '🙈 Hide Support' : '👁 Show Support'}
+          </button>
+        )}
+        {glossary.length > 0 && (
+          <button className={`btn btn-sm ${showGlossary ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setShowGlossary(s => !s)}>
+            📖 Glossary ({glossary.length})
+          </button>
+        )}
+        {data.audioAssets?.nativeAudio && !data.audioAssets.nativeAudio.includes('dummy') && (
+          <AudioPlayer audioUrl={data.audioAssets.nativeAudio} label="Listen to passage" />
+        )}
       </div>
 
-      <div className="card" style={{ marginBottom: '2rem', background: 'var(--color-surface-2)' }}>
-        <p style={{ whiteSpace: 'pre-wrap', lineHeight: 1.8, fontSize: '1.05rem' }}>{passage}</p>
-      </div>
+      {/* Main reading passage */}
+      <div className="card" style={{ marginBottom: '1.5rem' }}>
+        {data.readingTitle && <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--color-primary-light)' }}>{data.readingTitle}</h2>}
 
-      <h2 className="heading-sm" style={{ marginBottom: '1rem' }}>Comprehension Questions</h2>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
-        {questions.map((q, i) => (
-          <div key={i} className="card">
-            <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>{i + 1}. {q.question}</p>
-            {q.type === 'mcq' ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                {q.options?.map((opt, j) => (
-                  <button key={j} type="button"
-                    onClick={() => setAnswers(p => ({ ...p, [`q${i}`]: opt }))}
-                    style={{ padding: '0.625rem 1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${answers[`q${i}`] === opt ? 'var(--color-secondary)' : 'var(--color-border)'}`, background: answers[`q${i}`] === opt ? 'var(--color-secondary-glow)' : 'var(--color-surface-2)', cursor: 'pointer', textAlign: 'left', fontSize: '0.875rem' }}>
-                    {opt}
-                  </button>
-                ))}
+        {sentencePairs.length > 0 && showSupport ? (
+          // Sentence-by-sentence support mode
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {sentencePairs.map((pair, i) => (
+              <div key={i} style={{ borderLeft: '3px solid var(--color-primary)', paddingLeft: '1rem' }}>
+                {pair.targetText && <p style={{ fontWeight: 600, fontSize: '1rem', marginBottom: '0.25rem' }}>{pair.targetText}</p>}
+                {pair.transliteration && <p style={{ fontSize: '0.8rem', color: 'var(--color-secondary-light)', fontStyle: 'italic' }}>{pair.transliteration}</p>}
+                {pair.baseTranslation && <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>{pair.baseTranslation}</p>}
               </div>
-            ) : (
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <textarea className="form-input" rows="3" placeholder="Type your answer based on the passage..."
-                  value={answers[`q${i}`] || ''} 
-                  onChange={e => {
-                    const val = e.target.value;
-                    if (val.length <= MAX_INPUT_CHARS) {
-                      setAnswers(p => ({ ...p, [`q${i}`]: val }));
-                    }
-                  }} />
-                <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.375rem' }}>
-                  <span style={{ fontSize: '0.75rem', color: (MAX_INPUT_CHARS - (answers[`q${i}`]?.length || 0)) < 100 ? 'var(--color-danger-light)' : 'var(--color-text-dim)' }}>
-                    {(answers[`q${i}`] || '').length}/{MAX_INPUT_CHARS} chars
-                  </span>
-                </div>
-              </div>
-            )}
+            ))}
           </div>
-        ))}
+        ) : (
+          // Full passage
+          <p style={{ whiteSpace: 'pre-line', lineHeight: 2, fontSize: '1rem' }}>{readingText}</p>
+        )}
+
+        {supportText && !showSupport && (
+          <p style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--color-text-muted)', borderTop: '1px solid var(--color-border)', paddingTop: '0.75rem' }}>{supportText}</p>
+        )}
       </div>
+
+      {/* Glossary */}
+      {showGlossary && glossary.length > 0 && (
+        <div className="card" style={{ marginBottom: '1.5rem' }}>
+          <h3 className="heading-sm" style={{ marginBottom: '1rem' }}>📖 Glossary</h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
+            {glossary.map((item, i) => (
+              <div key={item.wordId || i} style={{ padding: '0.75rem', background: 'var(--color-surface-3)', borderRadius: 'var(--radius-sm)' }}>
+                <TargetTextBlock data={item} size="sm" />
+                {item.audioRef && !item.audioRef.includes('dummy') && (
+                  <div style={{ marginTop: '0.5rem' }}><AudioPlayer audioUrl={item.audioRef} label="Listen" /></div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Comprehension Questions */}
+      {questions.length > 0 && (
+        <div style={{ marginBottom: '1.5rem' }}>
+          <h3 className="heading-sm" style={{ marginBottom: '1rem', color: 'var(--color-text-muted)' }}>💬 Comprehension Questions</h3>
+          {questions.map((q, i) => (
+            <DynamicQuiz key={q.questionId || i} question={q} index={i}
+              answer={answers[i]} onChange={v => setAnswers(p => ({ ...p, [i]: v }))}
+              showResult={!!result} />
+          ))}
+        </div>
+      )}
 
       {!result && (
         <div style={{ textAlign: 'center' }}>
-          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting} style={{ background: 'linear-gradient(135deg, var(--color-secondary), #0369a1)' }}>
-            {submitting ? <><span className="spinner" /> Evaluating...</> : '✅ Submit Answers'}
+          <button className="btn btn-primary btn-lg" onClick={handleSubmit} disabled={submitting}>
+            {submitting ? <><span className="spinner" /> Evaluating...</> : questions.length === 0 ? '✅ Mark as Complete' : '✅ Submit Answers'}
           </button>
         </div>
       )}
 
-      {result && (
-        <ScoreModal result={result} maxXP={maxXP}
-          onNext={() => setShowFeedback(true)}
-          onRetry={() => { setResult(null); setAnswers({}); }}
-          activityType="reading"
-        />
-      )}
-
-      {showFeedback && result && (
-        <ActivityFeedback
-          result={result}
-          activityType="reading"
-          onDismiss={() => { setShowFeedback(false); navigate('/dashboard'); }}
-        />
-      )}
+      {result && <ScoreModal result={result} maxXP={maxXP} onNext={() => setShowFeedback(true)} onRetry={retryActivity} activityType="reading" />}
+      {showFeedback && result && <ActivityFeedback result={result} activityType="reading" onDismiss={() => { setShowFeedback(false); goToDashboard(); }} />}
     </div>
   );
 }
