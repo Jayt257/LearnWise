@@ -59,7 +59,7 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
 
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+      const recorder = new MediaRecorder(stream);
       mediaRecorder.current = recorder;
       chunks.current = [];
 
@@ -69,12 +69,13 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
         stream.getTracks().forEach(t => t.stop());
         setState('processing');
 
-        const blob = new Blob(chunks.current, { type: 'audio/webm' });
+        const blob = new Blob(chunks.current, { type: recorder.mimeType || 'audio/webm' });
         audioBlob.current = blob;
         audioUrl.current = URL.createObjectURL(blob);
 
         try {
           const formData = new FormData();
+          // Use generic audio.webm but the backend will convert to wav regardless
           formData.append('audio', blob, 'recording.webm');
           if (expectedText) formData.append('expected_text', expectedText);
 
