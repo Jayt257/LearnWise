@@ -222,6 +222,7 @@ def validate_activity(
             ],
             temperature=0.3,
             max_tokens=max_tokens,
+            response_format={"type": "json_object"},
         )
 
         raw = response.choices[0].message.content.strip()
@@ -280,6 +281,7 @@ Respond with ONLY:
             ],
             temperature=0.4,
             max_tokens=300,
+            response_format={"type": "json_object"},
         )
         raw = response.choices[0].message.content.strip()
         return _extract_json(raw)
