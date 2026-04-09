@@ -8,7 +8,9 @@
  */
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+// Default to empty string so requests hit the current Vite server origin (e.g. 192.168.x.x)
+// and get safely proxied via vite.config.js to the FastAPI backend.
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 export const API_URL = API_BASE;
 
 const client = axios.create({

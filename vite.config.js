@@ -25,11 +25,20 @@ export default defineConfig({
     },
   },
   server: {
+    host: true, // Listen on all local IPs (0.0.0.0) so network devices can access
     port: 5173,
     proxy: {
-      // All /api/* requests forwarded to Flask/FastAPI backend
+      // All /api/* and /uploads/* requests forwarded to FastAPI backend
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+      '/uploads': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+      '/static': {
+        target: 'http://127.0.0.1:8000',
         changeOrigin: true,
       },
     },
