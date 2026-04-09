@@ -19,7 +19,7 @@ export default function VocabPage({ pairId, activityFile, activitySeqId, activit
   const {
     data, loading, error, answers, setAnswers, submitting,
     result, showFeedback, setShowFeedback, submitAnswers, retryActivity, goToDashboard,
-  } = useActivity({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, monthNumber, blockNumber, activityType: 'vocabulary' });
+  } = useActivity({ pairId, activityFile, activitySeqId, activityJsonId, maxXP, monthNumber, blockNumber, activityType: 'vocab' });
 
   const [activeTab, setActiveTab] = useState('words'); // 'words' | 'quiz'
   const [flipped, setFlipped] = useState({});
@@ -82,7 +82,12 @@ export default function VocabPage({ pairId, activityFile, activitySeqId, activit
             const pos = word.partOfSpeech;
             return (
               <div key={word.wordId || i}
-                onClick={() => setFlipped(p => ({ ...p, [i]: !p[i] }))}
+                onClick={() => {
+                  setFlipped(p => ({ ...p, [i]: !p[i] }));
+                  if (!isFlipped && word.audioRef && !word.audioRef.includes('dummy')) {
+                    new Audio(word.audioRef).play().catch(e => console.log('Audio play failed:', e));
+                  }
+                }}
                 style={{ cursor: 'pointer', minHeight: 160, borderRadius: 'var(--radius-md)', border: `1px solid ${POS_COLORS[pos] || 'var(--color-border)'}`, background: isFlipped ? `${POS_COLORS[pos] || '#6366f1'}18` : 'var(--color-surface-2)', padding: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', transition: 'all 0.25s', position: 'relative' }}>
                 
                 {/* POS + formality badges */}
