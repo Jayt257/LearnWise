@@ -10,8 +10,8 @@ import {
   getAdminStats, getAdminAnalytics, getActivityTypes,
   listAdminUsers, updateUserRole, deactivateUser, activateUser,
   listLanguages, createLanguage, deleteLanguage,
-  listContent, getContentFile, updateContent, createActivity, deleteActivity
 } from '../../api/admin.js';
+import CurriculumBuilder from '../../components/admin/CurriculumBuilder.jsx';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
@@ -52,7 +52,7 @@ export default function AdminDashboard() {
 
       {/* Tabs Navigation */}
       <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '1rem', overflowX: 'auto' }}>
-        {['overview', 'users', 'languages', 'content', 'templates'].map(tab => (
+        {['overview', 'users', 'languages', 'curriculum'].map(tab => (
           <button key={tab}
             className={`btn ${activeTab === tab ? 'btn-primary' : 'btn-secondary'}`}
             onClick={() => setActiveTab(tab)}
@@ -68,8 +68,7 @@ export default function AdminDashboard() {
         {activeTab === 'overview' && <OverviewTab onError={handleError} />}
         {activeTab === 'users' && <UsersTab onError={handleError} onSuccess={showMessage} />}
         {activeTab === 'languages' && <LanguagesTab onError={handleError} onSuccess={showMessage} />}
-        {activeTab === 'content' && <ContentTab onError={handleError} onSuccess={showMessage} />}
-        {activeTab === 'templates' && <TemplatesTab onError={handleError} onSuccess={showMessage} />}
+        {activeTab === 'curriculum' && <CurriculumBuilder onError={handleError} onSuccess={showMessage} />}
       </div>
     </div>
   );
@@ -138,14 +137,6 @@ function UsersTab({ onError, onSuccess }) {
   };
   useEffect(() => { fetchUsers(); }, []);
 
-  const handleToggleRole = async (u) => {
-    try {
-      await updateUserRole(u.id, u.role === 'admin' ? 'user' : 'admin');
-      onSuccess(`Role updated for ${u.username}`);
-      fetchUsers();
-    } catch (e) { onError(e); }
-  };
-
   const handleToggleStatus = async (u) => {
     try {
       if (u.is_active) await deactivateUser(u.id);
@@ -183,7 +174,6 @@ function UsersTab({ onError, onSuccess }) {
                 </span>
               </td>
               <td style={{ padding: '0.75rem', display: 'flex', gap: '0.5rem' }}>
-                <button className="btn btn-secondary btn-sm" onClick={() => handleToggleRole(u)}>Toggle Role</button>
                 <button className={`btn btn-sm ${u.is_active ? 'btn-danger' : 'btn-primary'}`} onClick={() => handleToggleStatus(u)}>
                   {u.is_active ? 'Deactivate' : 'Activate'}
                 </button>
@@ -268,146 +258,7 @@ function LanguagesTab({ onError, onSuccess }) {
   );
 }
 
-function ContentTab({ onError, onSuccess }) {
-  const [pairs, setPairs] = useState([]);
-  const [selectedPair, setSelectedPair] = useState('');
-  const [files, setFiles] = useState([]);
-  const [selectedFile, setSelectedFile] = useState(null);
-  const [contentStr, setContentStr] = useState('');
-  const [saving, setSaving] = useState(false);
 
-  useEffect(() => {
-    listLanguages().then(r => { setPairs(r.data); if (r.data.length) setSelectedPair(r.data[0].pairId); }).catch(onError);
-  }, []);
-
-  useEffect(() => {
-    if (!selectedPair) return;
-    setSelectedFile(null);
-    listContent(selectedPair).then(r => setFiles(r.data.files)).catch(onError);
-  }, [selectedPair]);
-
-  const loadFile = async (path) => {
-    try {
-      const res = await getContentFile(selectedPair, path);
-      setSelectedFile(path);
-      setContentStr(JSON.stringify(res.data, null, 2));
-    } catch (e) { onError(e); }
-  };
-
-  const handleSave = async () => {
-    setSaving(true);
-    try {
-      const parsed = JSON.parse(contentStr); // validate JSON
-      await updateContent(selectedPair, selectedFile, parsed);
-      onSuccess(`Saved ${selectedFile}`);
-    } catch (e) {
-      if (e instanceof SyntaxError) onError({ message: 'Invalid JSON syntax' });
-      else onError(e);
-    } finally { setSaving(false); }
-  };
-
-  const handleDelete = async () => {
-    if (!window.confirm(`Delete ${selectedFile}?`)) return;
-    try {
-      await deleteActivity(selectedPair, selectedFile);
-      onSuccess(`Deleted ${selectedFile}`);
-      setSelectedFile(null);
-      const r = await listContent(selectedPair);
-      setFiles(r.data.files);
-    } catch (e) { onError(e); }
-  };
-
-  return (
-    <div style={{ display: 'grid', gridTemplateColumns: '250px 1fr', gap: '2rem' }}>
-      <div className="card" style={{ maxHeight: '70vh', overflowY: 'auto' }}>
-        <select className="form-input" value={selectedPair} onChange={e => setSelectedPair(e.target.value)} style={{ marginBottom: '1rem' }}>
-          {pairs.map(p => <option key={p.pairId} value={p.pairId}>{p.pairId}</option>)}
-        </select>
-        <h3 className="heading-sm" style={{ marginBottom: '0.5rem' }}>Files</h3>
-        <ul style={{ listStyle: 'none', padding: 0, fontSize: '0.85rem' }}>
-          {files.map(f => (
-            <li key={f.path}>
-              <button
-                style={{ width: '100%', textAlign: 'left', padding: '0.5rem', background: selectedFile === f.path ? 'var(--color-primary-glow)' : 'transparent', border: 'none', cursor: 'pointer', color: 'var(--color-text)' }}
-                onClick={() => loadFile(f.path)}
-              >
-                {f.path}
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
-        {selectedFile ? (
-          <>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
-              <h3 className="heading-sm">{selectedFile}</h3>
-              <div style={{ display: 'flex', gap: '0.5rem' }}>
-                {selectedFile !== 'meta.json' && <button className="btn btn-danger btn-sm" onClick={handleDelete}>Delete File</button>}
-                <button className="btn btn-primary btn-sm" onClick={handleSave} disabled={saving}>{saving ? 'Saving...' : 'Save Changes'}</button>
-              </div>
-            </div>
-            <textarea
-              value={contentStr}
-              onChange={e => setContentStr(e.target.value)}
-              style={{ flex: 1, minHeight: 400, width: '100%', padding: '1rem', fontFamily: 'monospace', fontSize: '0.9rem', background: '#1e1e1e', color: '#d4d4d4', border: 'none', borderRadius: '4px' }}
-            />
-          </>
-        ) : (
-          <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--color-text-muted)' }}>Select a file to edit</div>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function TemplatesTab({ onError, onSuccess }) {
-  const [types, setTypes] = useState(null);
-  const [pairs, setPairs] = useState([]);
-  const [form, setForm] = useState({ pairId: '', type: 'lesson', path: 'month-1/week-1-new.json' });
-
-  useEffect(() => {
-    getActivityTypes().then(r => setTypes(r.data)).catch(onError);
-    listLanguages().then(r => { setPairs(r.data); if (r.data.length) setForm(f => ({ ...f, pairId: r.data[0].pairId })); }).catch(onError);
-  }, []);
-
-  const handleCreate = async (e) => {
-    e.preventDefault();
-    try {
-      const template = types.templates[form.type];
-      await createActivity(form.pairId, form.path, template);
-      onSuccess(`Created new ${form.type} activity at ${form.path}`);
-    } catch (err) { onError(err); }
-  };
-
-  if (!types) return <div className="spinner" />;
-
-  return (
-    <div className="card" style={{ maxWidth: 600 }}>
-      <h2 className="heading-md" style={{ marginBottom: '1.5rem' }}>Create from Template</h2>
-      <form onSubmit={handleCreate} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-        <div className="form-group">
-          <label className="form-label">Language Pair</label>
-          <select className="form-input" value={form.pairId} onChange={e => setForm({ ...form, pairId: e.target.value })} required>
-            {pairs.map(p => <option key={p.pairId} value={p.pairId}>{p.pairId}</option>)}
-          </select>
-        </div>
-        <div className="form-group">
-          <label className="form-label">Activity Type Template</label>
-          <select className="form-input" value={form.type} onChange={e => setForm({ ...form, type: e.target.value })} required>
-            {Object.keys(types.templates).map(t => <option key={t} value={t}>{t}</option>)}
-          </select>
-        </div>
-        <div className="form-group">
-          <label className="form-label">File Path (e.g. month-1/week-2-speaking.json)</label>
-          <input className="form-input" value={form.path} onChange={e => setForm({ ...form, path: e.target.value })} required />
-        </div>
-        <button type="submit" className="btn btn-primary" style={{ marginTop: '1rem' }}>Create Activity File</button>
-      </form>
-    </div>
-  );
-}
 
 function StatCard({ title, value }) {
   return (
