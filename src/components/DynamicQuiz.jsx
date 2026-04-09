@@ -12,7 +12,7 @@ const OPTION_LABELS = ['A', 'B', 'C', 'D', 'E'];
 export default function DynamicQuiz({ question, index, answer, onChange, showResult = false }) {
   if (!question) return null;
 
-  const qType = question.questionType || question.type;
+  const qType = question.questionType || question.type || 'short_answer';
   const qid = question.questionId || question.id || `q_${index}`;
 
   return (
