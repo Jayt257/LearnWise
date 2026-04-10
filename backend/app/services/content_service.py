@@ -19,6 +19,49 @@ from app.core.config import settings
 # Activity types per data_README (8 per block)
 ACTIVITY_TYPES = ["lesson", "pronunciation", "reading", "writing", "listening", "vocabulary", "speaking", "test"]
 
+
+def _make_default_activity_content(pair_id: str, month: int, block: int, activity_type: str) -> Dict[str, Any]:
+    """Build a minimal valid default activity JSON for any type."""
+    src, tgt = pair_id.split("-") if "-" in pair_id else ("xx", "yy")
+    block_code = f"M{month}B{block}"
+    activity_id = f"{tgt}_{src}_{block_code}_{activity_type}_001"
+    return {
+        "activityId": activity_id,
+        "monthNumber": month,
+        "blockNumber": block,
+        "activityType": activity_type,
+        "title": f"New {activity_type.capitalize()} — {block_code}",
+        "learningGoal": "Fill in the learning goal for this activity.",
+        "difficultyLevel": "beginner",
+        "baseLanguage": src,
+        "targetLanguage": tgt,
+        "estimatedTime": 30,
+        "instructions": "Instructions for this activity go here.",
+        "contentItems": [],
+        "adminCorrectAnswerSet": {},
+        "evaluationMode": "exact_match",
+        "scoreThreshold": 70,
+        "feedbackRules": {"onPass": "Well done!", "onFail": "Please review and try again.", "onPartial": "Good effort!"},
+        "audioAssets": {},
+        "tags": [activity_type, f"month{month}", f"block{block}"],
+        "status": "draft",
+        "version": "1.0.0",
+        "metadata": {}
+    }
+
+
+def _write_default_activities(pair_id: str, month: int, block: int) -> None:
+    """Write all 8 default activity JSON files for a given block (only if they don't already exist)."""
+    base = _base_path(pair_id)
+    for activity_type in ACTIVITY_TYPES:
+        file_name = f"M{month}B{block}_{activity_type}.json"
+        file_path = base / f"month_{month}" / f"block_{block}" / file_name
+        if not file_path.exists():
+            content = _make_default_activity_content(pair_id, month, block, activity_type)
+            file_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(content, f, ensure_ascii=False, indent=2)
+
 # Month themes per data_README section 4
 MONTH_THEMES = {
     1: {
@@ -219,9 +262,8 @@ def create_pair_directory(pair_id: str, src_id: str = None, tgt_id: str = None,
                           src_flag: str = "🏳", tgt_flag: str = "🏳",
                           total_months: int = 3) -> Path:
     """
-    Create directory structure for a new language pair.
-    Scaffolds: month_1/block_1/ through month_{N}/block_6/ directories.
-    Does NOT create activity JSON files — admin creates them later.
+    Create directory structure for a new language pair and write all default activity JSON files.
+    Scaffolds: month_1/block_1/ through month_{N}/block_6/ directories + all 8 activity files each.
     """
     base = _base_path(pair_id)
     base.mkdir(parents=True, exist_ok=True)
@@ -230,6 +272,7 @@ def create_pair_directory(pair_id: str, src_id: str = None, tgt_id: str = None,
         for b in range(1, 7):  # 6 blocks per month
             block_dir = base / f"month_{m}" / f"block_{b}"
             block_dir.mkdir(parents=True, exist_ok=True)
+            _write_default_activities(pair_id, m, b)
 
     return base
 
@@ -265,6 +308,7 @@ def add_month(pair_id: str) -> Dict[str, Any]:
     for b in range(1, 7):
         block_dir = base / f"month_{new_month_num}" / f"block_{b}"
         block_dir.mkdir(parents=True, exist_ok=True)
+        _write_default_activities(pair_id, new_month_num, b)
         block_title = theme["blocks"].get(b, f"Block {b}")
         block_code = f"M{new_month_num}B{b}"
         activities = []
@@ -322,6 +366,7 @@ def add_block(pair_id: str, month_number: int) -> Dict[str, Any]:
     base = _base_path(pair_id)
     block_dir = base / f"month_{month_number}" / f"block_{new_block_num}"
     block_dir.mkdir(parents=True, exist_ok=True)
+    _write_default_activities(pair_id, month_number, new_block_num)
 
     block_code = f"M{month_number}B{new_block_num}"
     activities = []
@@ -362,15 +407,14 @@ def register_pair(pair_id: str, src_id: str, tgt_id: str) -> None:
 
 
 def delete_pair(pair_id: str) -> None:
-    """Remove a language pair directory + registry entry."""
+    """Remove a language pair directory + registry entry. Cleans up empty parent dir."""
     base = _base_path(pair_id)
+    parent = base.parent  # e.g. languages/en/ when deleting en/hi
     if base.exists():
         shutil.rmtree(base)
-        # Check if the parent language directory (e.g. `en`) is now completely empty
-        parent = base.parent
-        if parent.exists() and parent.name != "languages" and not any(parent.iterdir()):
-            shutil.rmtree(parent)
-            
+    # Remove parent source dir if now empty
+    if parent.exists() and not any(parent.iterdir()):
+        parent.rmdir()
     pairs = get_all_pairs()
     pairs = [p for p in pairs if p["pairId"] != pair_id]
     path = Path(settings.data_path) / "language_pairs.json"

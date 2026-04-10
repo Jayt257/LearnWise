@@ -16,11 +16,11 @@ import CurriculumBuilder from '../../components/admin/CurriculumBuilder.jsx';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const { user } = useSelector(s => s.auth);
   const [activeTab, setActiveTab] = useState('overview');
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
-  const dispatch = useDispatch();
 
   // Protect route
   useEffect(() => {
@@ -29,19 +29,18 @@ export default function AdminDashboard() {
     }
   }, [user, navigate]);
 
-  const showMessage = React.useCallback((msg) => {
+  const showMessage = (msg) => {
     setMessage(msg);
     setTimeout(() => setMessage(''), 4000);
-  }, []);
-
-  const handleError = React.useCallback((err) => {
+  };
+  const handleError = (err) => {
     setError(err.response?.data?.detail || err.message || 'An error occurred');
     setTimeout(() => setError(''), 5000);
-  }, []);
+  };
 
   const handleLogout = () => {
     dispatch(logout());
-    navigate('/login');
+    navigate('/login', { replace: true });
   };
 
   return (
@@ -51,9 +50,9 @@ export default function AdminDashboard() {
           <h1 className="heading-lg" style={{ color: 'var(--color-danger-light)' }}>🛡 Admin Portal</h1>
           <p className="text-muted">Manage users, content, and system configuration</p>
         </div>
-        <div style={{ display: 'flex', gap: '1rem' }}>
-          <button className="btn btn-ghost" onClick={() => navigate('/dashboard')}>Exit Admin</button>
-          <button className="btn btn-primary" onClick={handleLogout}>Logout</button>
+        <div style={{ display: 'flex', gap: '0.75rem' }}>
+          <button className="btn btn-ghost" onClick={() => navigate('/dashboard')}>← Exit Admin</button>
+          <button className="btn btn-sm" style={{ background: 'rgba(239,68,68,0.15)', color: '#ef4444', border: '1px solid rgba(239,68,68,0.4)' }} onClick={handleLogout}>🚪 Logout</button>
         </div>
       </div>
 
