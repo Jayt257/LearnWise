@@ -62,15 +62,20 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
       mediaRecorder.current = recorder;
       chunks.current = [];
 
-      recorder.ondataavailable = e => { if (e.data.size > 0) chunks.current.push(e.data); };
+      recorder.ondataavailable = e => {
+        chunks.current.push(e.data); // Follow friend's exact logic
+      };
 
       recorder.onstop = async () => {
-        stream.getTracks().forEach(t => t.stop());
         setState('processing');
 
-        const blob = new Blob(chunks.current, { type: recorder.mimeType || 'audio/webm' });
+        // Create Blob exactly like the friend's README (no mimetype fallback logic that defaults to weird opus containers)
+        const blob = new Blob(chunks.current, { type: 'audio/webm' });
         audioBlob.current = blob;
         audioUrl.current = URL.createObjectURL(blob);
+
+        // Stop streams AFTER creating the blob to prevent abrupt audio truncations
+        stream.getTracks().forEach(t => t.stop());
 
         try {
           const formData = new FormData();
