@@ -18,7 +18,15 @@ router = APIRouter(prefix="/content", tags=["Content"])
 def list_pairs() -> List[Dict[str, Any]]:
     """List all registered language pairs."""
     try:
-        return content_service.get_all_pairs()
+        pairs = content_service.get_all_pairs()
+        enriched = []
+        for p in pairs:
+            try:
+                meta = content_service.get_meta(p["pairId"])
+                enriched.append({**p, "meta": {"source": meta.get("source"), "target": meta.get("target")}})
+            except Exception:
+                enriched.append({**p, "meta": None})
+        return enriched
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

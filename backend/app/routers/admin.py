@@ -547,6 +547,7 @@ def create_language(req: CreateLanguagePairRequest, admin: User = Depends(requir
         total_months=3, blocks_per_month=6
     )
     content_service.write_meta(pair_id, meta)
+    _populate_missing_files(pair_id, meta)
     return {"message": f"Language pair '{pair_id}' created successfully", "pair_id": pair_id}
 
 
@@ -654,6 +655,7 @@ def add_month(pair_id: str, admin: User = Depends(require_admin)):
     """Add a new month (with 6 blocks) to an existing language pair. Updates meta.json."""
     try:
         meta = content_service.add_month(pair_id)
+        _populate_missing_files(pair_id, meta)
         return {"message": "New month added successfully", "total_months": meta["totalMonths"]}
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found")
@@ -667,6 +669,7 @@ def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
     try:
         meta = content_service.add_block(pair_id, month)
         month_data = next((m for m in meta["months"] if m["month"] == month), None)
+        _populate_missing_files(pair_id, meta)
         return {
             "message": f"New block added to month {month}",
             "total_blocks": len(month_data["blocks"]) if month_data else 0
@@ -698,6 +701,22 @@ def get_activity_template(
     if activity_type not in ACTIVITY_TYPES:
         raise HTTPException(status_code=400, detail=f"Unknown activity type: {activity_type}")
     return _make_template(activity_type, pair_id, month, block)
+
+
+def _populate_missing_files(pair_id: str, meta: dict):
+    base = content_service._base_path(pair_id)
+    for month in meta.get("months", []):
+        m = month["month"]
+        for block in month.get("blocks", []):
+            b = block["block"]
+            for act in block.get("activities", []):
+                file_path = base / act["file"]
+                if not file_path.exists():
+                    template = _make_template(act["type"], pair_id, m, b)
+                    file_path.parent.mkdir(parents=True, exist_ok=True)
+                    import json
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        json.dump(template, f, ensure_ascii=False, indent=2)
 
 
 @router.delete("/content/{pair_id}/month/{month}/block/{block}")
@@ -751,63 +770,6 @@ def delete_month(pair_id: str, month: int, admin: User = Depends(require_admin))
         content_service.write_meta(pair_id, meta)
         return {"message": f"Month {month} deleted successfully"}
     except (HTTPException):
-        raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-
-# ── Inline Meta Editing ────────────────────────────────────────────────────────
-
-from pydantic import BaseModel as _PatchBase
-from typing import Optional as _Opt
-
-class PatchMonthRequest(_PatchBase):
-    title: _Opt[str] = None
-    description: _Opt[str] = None
-    target_level: _Opt[str] = None
-
-class PatchBlockRequest(_PatchBase):
-    title: _Opt[str] = None
-
-
-@router.patch("/content/{pair_id}/month/{month}")
-def patch_month(pair_id: str, month: int, req: PatchMonthRequest, admin: User = Depends(require_admin)):
-    """Update a month's title/description/targetLevel in meta.json."""
-    try:
-        meta = content_service.get_meta(pair_id)
-        month_data = next((m for m in meta["months"] if m["month"] == month), None)
-        if not month_data:
-            raise HTTPException(status_code=404, detail=f"Month {month} not found")
-        if req.title is not None:
-            month_data["title"] = req.title
-        if req.description is not None:
-            month_data["description"] = req.description
-        if req.target_level is not None:
-            month_data["targetLevel"] = req.target_level
-        content_service.write_meta(pair_id, meta)
-        return {"message": f"Month {month} updated", "month": month_data}
-    except HTTPException:
-        raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-
-@router.patch("/content/{pair_id}/month/{month}/block/{block}")
-def patch_block(pair_id: str, month: int, block: int, req: PatchBlockRequest, admin: User = Depends(require_admin)):
-    """Update a block's title in meta.json."""
-    try:
-        meta = content_service.get_meta(pair_id)
-        month_data = next((m for m in meta["months"] if m["month"] == month), None)
-        if not month_data:
-            raise HTTPException(status_code=404, detail=f"Month {month} not found")
-        block_data = next((b for b in month_data["blocks"] if b["block"] == block), None)
-        if not block_data:
-            raise HTTPException(status_code=404, detail=f"Block {block} not found in month {month}")
-        if req.title is not None:
-            block_data["title"] = req.title
-        content_service.write_meta(pair_id, meta)
-        return {"message": f"Block {block} updated", "block": block_data}
-    except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

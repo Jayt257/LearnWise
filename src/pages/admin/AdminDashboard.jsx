@@ -11,14 +11,22 @@ import {
   listAdminUsers, updateUserRole, deactivateUser, activateUser,
   listLanguages, createLanguage, deleteLanguage,
 } from '../../api/admin.js';
+import { logout } from '../../store/authSlice.js';
+import { fetchPairs as syncGlobalPairs } from '../../store/progressSlice.js';
 import CurriculumBuilder from '../../components/admin/CurriculumBuilder.jsx';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const { user } = useSelector(s => s.auth);
   const [activeTab, setActiveTab] = useState('overview');
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
+
+  const handleLogout = () => {
+    dispatch(logout());
+    navigate('/login');
+  };
 
   // Protect route
   useEffect(() => {
@@ -43,7 +51,10 @@ export default function AdminDashboard() {
           <h1 className="heading-lg" style={{ color: 'var(--color-danger-light)' }}>🛡 Admin Portal</h1>
           <p className="text-muted">Manage users, content, and system configuration</p>
         </div>
-        <button className="btn btn-ghost" onClick={() => navigate('/dashboard')}>Exit Admin</button>
+        <div style={{ display: 'flex', gap: '1rem' }}>
+          <button className="btn btn-ghost" onClick={() => navigate('/dashboard')}>Exit Admin</button>
+          <button className="btn btn-danger" onClick={handleLogout}>🚪 Logout</button>
+        </div>
       </div>
 
       {/* Toasts */}
@@ -191,6 +202,8 @@ function LanguagesTab({ onError, onSuccess }) {
   const [loading, setLoading] = useState(true);
   const [form, setForm] = useState({ source_lang_id: 'hi', source_lang_name: 'Hindi', source_lang_flag: '🇮🇳', target_lang_id: 'en', target_lang_name: 'English', target_lang_flag: '🇺🇸' });
 
+  const dispatch = useDispatch();
+
   const fetchPairs = () => {
     setLoading(true);
     listLanguages().then(r => setPairs(r.data)).catch(onError).finally(() => setLoading(false));
@@ -202,6 +215,7 @@ function LanguagesTab({ onError, onSuccess }) {
     try {
       await createLanguage(form);
       onSuccess('Language pair created!');
+      dispatch(syncGlobalPairs());
       fetchPairs();
     } catch (err) { onError(err); }
   };
@@ -211,6 +225,7 @@ function LanguagesTab({ onError, onSuccess }) {
     try {
       await deleteLanguage(pairId);
       onSuccess('Language pair deleted');
+      dispatch(syncGlobalPairs());
       fetchPairs();
     } catch (err) { onError(err); }
   };

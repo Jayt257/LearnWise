@@ -42,7 +42,7 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
         setPairs(langsRes.data);
         setActivityTypes(typesRes.data);
         if (langsRes.data.length > 0) {
-          setSelectedPair(langsRes.data[0].pairId);
+          setSelectedPair(prev => prev || langsRes.data[0].pairId);
         } else {
           setLoading(false);
         }
@@ -50,7 +50,7 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
         // Even if activity-types fails, still load languages
         listLanguages().then(res => {
           setPairs(res.data);
-          if (res.data.length > 0) setSelectedPair(res.data[0].pairId);
+          if (res.data.length > 0) setSelectedPair(prev => prev || res.data[0].pairId);
           else setLoading(false);
         }).catch(onError);
       });
@@ -281,7 +281,6 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                         <button className="btn btn-ghost" style={{ padding: '0 0.4rem', fontSize: '0.9rem', marginLeft: '0.5rem' }} onClick={() => handleEditBlock(month.month, block.block, block.title || `Block ${block.block}`)} title="Edit Block Title">✏️</button>
                       </span>
                       <div style={{ display: 'flex', gap: '0.4rem' }}>
-                        <button className="btn btn-ghost btn-sm" style={{ padding: '0.2rem 0.5rem' }} onClick={() => openAddActivity(month.month, block.block)}>+ Activity</button>
                         <button
                           className="btn btn-sm"
                           style={{ padding: '0.2rem 0.5rem', background: 'rgba(239,68,68,0.1)', color: '#ef4444', border: '1px solid rgba(239,68,68,0.3)' }}
@@ -306,7 +305,6 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                             <span>{ACTIVITY_ICONS[act.type]}</span>
                             <span style={{ textTransform: 'capitalize' }}>{act.type}</span>
                             <span className="truncate" style={{ maxWidth: 100, color: 'var(--color-text-muted)', fontWeight: 400 }}>{act.file.split('/').pop()}</span>
-                            <span style={{ cursor: 'pointer', marginLeft: '0.25rem', color: 'var(--color-danger)' }} onClick={(e) => handleDeleteActivity(month.month, block.block, act, e)}>✕</span>
                           </div>
                         )
                       })}

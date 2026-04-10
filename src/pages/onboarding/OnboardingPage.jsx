@@ -9,11 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { startLanguagePair, fetchPairs } from '../../store/progressSlice.js';
 import { setCurrentPair } from '../../store/progressSlice.js';
 
-const LANG_INFO = {
-  hi: { name: 'Hindi', flag: '🇮🇳', desc: 'Spoken by 600M+ people' },
-  en: { name: 'English', flag: '🇬🇧', desc: 'Global language of business' },
-  ja: { name: 'Japanese', flag: '🇯🇵', desc: 'Rich culture, anime & tech' },
-};
+// LANG_INFO is now computed dynamically from backend pairs
 
 export default function OnboardingPage() {
   const navigate = useNavigate();
@@ -27,8 +23,17 @@ export default function OnboardingPage() {
 
   useEffect(() => { dispatch(fetchPairs()); }, []);
 
-  // Get available targets given source
-  const availableTargets = Object.keys(LANG_INFO).filter(l => l !== source);
+  // Build dynamic LANG_INFO from pairs
+  const LANG_INFO = {};
+  pairs.forEach(p => {
+    if (p.meta) {
+      if (!LANG_INFO[p.from]) LANG_INFO[p.from] = { name: p.meta.source?.name, flag: p.meta.source?.flag, desc: 'Language option' };
+      if (!LANG_INFO[p.to]) LANG_INFO[p.to] = { name: p.meta.target?.name, flag: p.meta.target?.flag, desc: 'Language option' };
+    }
+  });
+
+  // Get available targets given source ONLY from actual pairs
+  const availableTargets = pairs.filter(p => p.from === source).map(p => p.to);
 
   const handleStart = async () => {
     if (!source || !target || source === target) return;
