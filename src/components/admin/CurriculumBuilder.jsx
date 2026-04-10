@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import {
   listLanguages, getContentFile, updateMeta, addMonth, addBlock,
+  deleteBlock, deleteMonth,
   getActivityTypes, createActivity, deleteActivity, updateContent,
-  listContent, deleteMonth, deleteBlock
+  listContent
 } from '../../api/admin.js';
 
 const ACTIVITY_ICONS = {
@@ -23,12 +24,12 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
   const [loading, setLoading] = useState(true);
   const [builderView, setBuilderView] = useState('tree'); // 'tree' | 'files'
   const [allFiles, setAllFiles] = useState([]);
+  const [activityTypes, setActivityTypes] = useState(null);
 
   // For Add Activity Modal
   const [showActivityModal, setShowActivityModal] = useState(false);
   const [targetBlock, setTargetBlock] = useState(null); // { month, block }
   const [activityForm, setActivityForm] = useState({ type: 'lesson', path: '' });
-  const [activityTypes, setActivityTypes] = useState(null);
 
   // For JSON Editor Modal
   const [editingFile, setEditingFile] = useState(null);
@@ -45,7 +46,14 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
         } else {
           setLoading(false);
         }
-      }).catch(onError);
+      }).catch(err => {
+        // Even if activity-types fails, still load languages
+        listLanguages().then(res => {
+          setPairs(res.data);
+          if (res.data.length > 0) setSelectedPair(res.data[0].pairId);
+          else setLoading(false);
+        }).catch(onError);
+      });
   }, [onError]);
 
   const loadMeta = async (pairId) => {
@@ -84,43 +92,46 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
     } catch (e) { onError(e); }
   };
 
-  const handleDeleteMonth = async (monthNum) => {
-    if (!window.confirm(`ARE YOU SURE you want to delete Month ${monthNum} and ALL its content? This CANNOT be undone!`)) return;
-    try {
-      await deleteMonth(selectedPair, monthNum);
-      onSuccess(`Deleted Month ${monthNum}`);
-      loadMeta(selectedPair);
-    } catch (e) { onError(e); }
-  };
-
-  const handleDeleteBlock = async (monthNum, blockNum) => {
-    if (!window.confirm(`ARE YOU SURE you want to delete Block ${blockNum} from Month ${monthNum} and ALL its content?`)) return;
+  const handleDeleteBlock = async (monthNum, blockNum, e) => {
+    e.stopPropagation();
+    if (!window.confirm(`Delete entire Block ${blockNum} in Month ${monthNum}? This deletes ALL activity files inside. Cannot undo!`)) return;
     try {
       await deleteBlock(selectedPair, monthNum, blockNum);
-      onSuccess(`Deleted Block ${blockNum}`);
+      onSuccess(`Block ${blockNum} in Month ${monthNum} deleted`);
       loadMeta(selectedPair);
-    } catch (e) { onError(e); }
+    } catch (err) { onError(err); }
+  };
+
+  const handleDeleteMonth = async (monthNum, e) => {
+    e.stopPropagation();
+    if (!window.confirm(`Delete entire Month ${monthNum}? This deletes ALL blocks and files inside. Cannot undo!`)) return;
+    try {
+      await deleteMonth(selectedPair, monthNum);
+      onSuccess(`Month ${monthNum} deleted`);
+      loadMeta(selectedPair);
+    } catch (err) { onError(err); }
   };
 
   const openAddActivity = (monthNum, blockNum) => {
     setTargetBlock({ month: monthNum, block: blockNum });
-    setActivityForm({ type: 'lesson', path: `month_${monthNum}/block_${blockNum}/lesson_new.json` });
+    const blockCode = `M${monthNum}B${blockNum}`;
+    setActivityForm({ type: 'lesson', path: `month_${monthNum}/block_${blockNum}/${blockCode}_lesson.json` });
     setShowActivityModal(true);
   };
 
   const submitAddActivity = async (e) => {
     e.preventDefault();
     try {
-      const template = activityTypes.templates[activityForm.type];
-      // 1. Create file
+      const template = activityTypes?.templates?.[activityForm.type] || {};
       await createActivity(selectedPair, activityForm.path, template);
-      // 2. Add to meta.json
       const newMeta = JSON.parse(JSON.stringify(meta));
       const m = newMeta.months.find(x => x.month === targetBlock.month);
       const b = m.blocks.find(x => x.block === targetBlock.block);
       b.activities.push({
+        id: (b.activities.length + 1),
         type: activityForm.type,
-        file: activityForm.path
+        file: activityForm.path,
+        xp: 50,
       });
       await updateMeta(selectedPair, newMeta);
       onSuccess(`Created activity ${activityForm.path}`);
@@ -156,14 +167,11 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
     setSavingFile(true);
     try {
       const parsed = JSON.parse(fileContentStr);
-      // update file content, wait there's no updateContent in imports! Let's import it.
-      // We will actually import updateContent. But for simplicity, we can do it via fetch or admin.js
-// top level import handles this now.
       await updateContent(selectedPair, editingFile, parsed);
       onSuccess(`Saved ${editingFile}`);
       setEditingFile(null);
     } catch (e) {
-      if (e instanceof SyntaxError) onError({ message: 'Invalid JSON syntax' });
+      if (e instanceof SyntaxError) onError({ message: 'Invalid JSON syntax — check the editor for errors' });
       else onError(e);
     } finally { setSavingFile(false); }
   };
@@ -210,7 +218,14 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                 </h3>
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
                   <button className="btn btn-secondary btn-sm" onClick={() => handleAddBlock(month.month)}>+ Add Block</button>
-                  <button className="btn btn-danger btn-sm" onClick={() => handleDeleteMonth(month.month)}>Delete Month</button>
+                  <button
+                    className="btn btn-sm"
+                    style={{ background: 'rgba(239,68,68,0.15)', color: '#ef4444', border: '1px solid rgba(239,68,68,0.4)' }}
+                    onClick={(e) => handleDeleteMonth(month.month, e)}
+                    title={`Delete Month ${month.month}`}
+                  >
+                    🗑 Delete Month
+                  </button>
                 </div>
               </div>
 
@@ -218,10 +233,17 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                 {(month.blocks || []).map(block => (
                   <div key={block.block} style={{ background: 'var(--color-surface-2)', padding: '1rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.75rem', fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>
-                      <span>Block {block.block}: {block.title || `Block ${block.block}`}</span>
-                      <div style={{ display: 'flex', gap: '0.5rem' }}>
+                      <span style={{ fontWeight: 600 }}>Block {block.block}: {block.title || `Block ${block.block}`}</span>
+                      <div style={{ display: 'flex', gap: '0.4rem' }}>
                         <button className="btn btn-ghost btn-sm" style={{ padding: '0.2rem 0.5rem' }} onClick={() => openAddActivity(month.month, block.block)}>+ Activity</button>
-                        <button className="btn btn-ghost btn-sm" style={{ padding: '0.2rem 0.5rem', color: 'var(--color-danger)' }} onClick={() => handleDeleteBlock(month.month, block.block)}>✕ Block</button>
+                        <button
+                          className="btn btn-sm"
+                          style={{ padding: '0.2rem 0.5rem', background: 'rgba(239,68,68,0.1)', color: '#ef4444', border: '1px solid rgba(239,68,68,0.3)' }}
+                          onClick={(e) => handleDeleteBlock(month.month, block.block, e)}
+                          title="Delete this block"
+                        >
+                          🗑
+                        </button>
                       </div>
                     </div>
 
@@ -233,7 +255,7 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                             style={{
                               display: 'flex', alignItems: 'center', gap: '0.5rem', background: `${color}15`,
                               border: `1px solid ${color}40`, padding: '0.4rem 0.8rem', borderRadius: 'var(--radius-full)',
-                              fontSize: '0.75rem', fontWeight: 600, color: 'var(--color-text)'
+                              fontSize: '0.75rem', fontWeight: 600, color: 'var(--color-text)', cursor: 'pointer'
                             }}>
                             <span>{ACTIVITY_ICONS[act.type]}</span>
                             <span style={{ textTransform: 'capitalize' }}>{act.type}</span>
@@ -277,13 +299,17 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
             <form onSubmit={submitAddActivity} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div className="form-group">
                 <label className="form-label">Activity Type</label>
-                <select className="form-input" value={activityForm.type} onChange={e => setActivityForm({...activityForm, type: e.target.value, path: `month_${targetBlock.month}/block_${targetBlock.block}/${e.target.value}_new.json`})}>
-                  {Object.keys(activityTypes?.templates || {}).map(t => <option key={t} value={t}>{t}</option>)}
+                <select className="form-input" value={activityForm.type} onChange={e => {
+                  const type = e.target.value;
+                  const blockCode = `M${targetBlock.month}B${targetBlock.block}`;
+                  setActivityForm({ ...activityForm, type, path: `month_${targetBlock.month}/block_${targetBlock.block}/${blockCode}_${type}.json` });
+                }}>
+                  {(activityTypes?.types || ['lesson','pronunciation','reading','writing','listening','vocabulary','speaking','test']).map(t => <option key={t} value={t}>{t}</option>)}
                 </select>
               </div>
               <div className="form-group">
                 <label className="form-label">File Path</label>
-                <input className="form-input" value={activityForm.path} onChange={e => setActivityForm({...activityForm, path: e.target.value})} required />
+                <input className="form-input" value={activityForm.path} onChange={e => setActivityForm({ ...activityForm, path: e.target.value })} required />
               </div>
               <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem', marginTop: '1rem' }}>
                 <button type="button" className="btn btn-ghost" onClick={() => setShowActivityModal(false)}>Cancel</button>
@@ -297,20 +323,29 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
       {/* JSON Editor Modal */}
       {editingFile && (
         <div className="modal-overlay">
-          <div className="modal-box glass-strong" style={{ maxWidth: 800, height: '90vh', display: 'flex', flexDirection: 'column' }}>
+          <div className="modal-box glass-strong" style={{ maxWidth: 900, height: '90vh', display: 'flex', flexDirection: 'column' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-              <h3 className="heading-sm">Edit {editingFile.split('/').pop()}</h3>
+              <div>
+                <h3 className="heading-sm">Edit: {editingFile.split('/').pop()}</h3>
+                <span style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>{editingFile}</span>
+              </div>
               <button className="btn btn-ghost btn-icon" onClick={() => setEditingFile(null)}>✕</button>
             </div>
             <textarea
               className="form-input"
-              style={{ flex: 1, fontFamily: 'monospace', fontSize: '0.85rem', color: '#68d391', background: '#1a202c', border: '1px solid #2d3748', resize: 'none' }}
+              style={{ flex: 1, fontFamily: 'monospace', fontSize: '0.82rem', color: '#68d391', background: '#0d1117', border: '1px solid #30363d', resize: 'none', lineHeight: 1.6 }}
               value={fileContentStr}
               onChange={e => setFileContentStr(e.target.value)}
+              spellCheck={false}
             />
-            <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem', marginTop: '1rem' }}>
-              <button className="btn btn-ghost" onClick={() => setEditingFile(null)}>Cancel</button>
-              <button className="btn btn-primary" onClick={saveJsonEditor} disabled={savingFile}>{savingFile ? 'Saving...' : 'Save Content'}</button>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1rem' }}>
+              <span style={{ fontSize: '0.78rem', color: 'var(--color-text-muted)' }}>
+                {(() => { try { JSON.parse(fileContentStr); return '✅ Valid JSON'; } catch { return '❌ Invalid JSON'; } })()}
+              </span>
+              <div style={{ display: 'flex', gap: '1rem' }}>
+                <button className="btn btn-ghost" onClick={() => setEditingFile(null)}>Cancel</button>
+                <button className="btn btn-primary" onClick={saveJsonEditor} disabled={savingFile}>{savingFile ? 'Saving...' : 'Save Content'}</button>
+              </div>
             </div>
           </div>
         </div>

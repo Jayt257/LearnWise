@@ -678,25 +678,12 @@ def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@router.delete("/content/{pair_id}/month/{month}")
-def delete_month(pair_id: str, month: int, admin: User = Depends(require_admin)):
-    try:
-        content_service.delete_month(pair_id, month)
-        return {"message": "Month deleted"}
-    except ValueError as e:
-        raise HTTPException(status_code=400, detail=str(e))
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
-@router.delete("/content/{pair_id}/month/{month}/block/{block}")
-def delete_block(pair_id: str, month: int, block: int, admin: User = Depends(require_admin)):
-    try:
-        content_service.delete_block(pair_id, month, block)
-        return {"message": "Block deleted"}
-    except ValueError as e:
-        raise HTTPException(status_code=400, detail=str(e))
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+@router.get("/activity-types")
+def get_activity_types(admin: User = Depends(require_admin)):
+    """Return the list of valid activity types and empty templates for the admin UI."""
+    templates = {t: _make_template(t, "hi-ja", 1, 1) for t in ACTIVITY_TYPES}
+    return {"types": ACTIVITY_TYPES, "templates": templates}
 
 
 @router.get("/activity-template/{activity_type}")
@@ -711,3 +698,59 @@ def get_activity_template(
     if activity_type not in ACTIVITY_TYPES:
         raise HTTPException(status_code=400, detail=f"Unknown activity type: {activity_type}")
     return _make_template(activity_type, pair_id, month, block)
+
+
+@router.delete("/content/{pair_id}/month/{month}/block/{block}")
+def delete_block(pair_id: str, month: int, block: int, admin: User = Depends(require_admin)):
+    """Delete an entire block (all its files) and remove it from meta.json."""
+    try:
+        meta = content_service.get_meta(pair_id)
+        month_data = next((m for m in meta["months"] if m["month"] == month), None)
+        if not month_data:
+            raise HTTPException(status_code=404, detail=f"Month {month} not found")
+        block_data = next((b for b in month_data["blocks"] if b["block"] == block), None)
+        if not block_data:
+            raise HTTPException(status_code=404, detail=f"Block {block} not found in month {month}")
+
+        # Delete all activity files for this block
+        base = content_service._base_path(pair_id)
+        block_dir = base / f"month_{month}" / f"block_{block}"
+        if block_dir.exists():
+            import shutil
+            shutil.rmtree(block_dir)
+
+        # Remove block from meta
+        month_data["blocks"] = [b for b in month_data["blocks"] if b["block"] != block]
+        content_service.write_meta(pair_id, meta)
+        return {"message": f"Block {block} in month {month} deleted successfully"}
+    except (HTTPException):
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.delete("/content/{pair_id}/month/{month}")
+def delete_month(pair_id: str, month: int, admin: User = Depends(require_admin)):
+    """Delete an entire month (all its blocks and files) and remove it from meta.json."""
+    try:
+        meta = content_service.get_meta(pair_id)
+        month_data = next((m for m in meta["months"] if m["month"] == month), None)
+        if not month_data:
+            raise HTTPException(status_code=404, detail=f"Month {month} not found")
+
+        # Delete all block directories for this month
+        base = content_service._base_path(pair_id)
+        month_dir = base / f"month_{month}"
+        if month_dir.exists():
+            import shutil
+            shutil.rmtree(month_dir)
+
+        # Remove month from meta
+        meta["months"] = [m for m in meta["months"] if m["month"] != month]
+        meta["totalMonths"] = len(meta["months"])
+        content_service.write_meta(pair_id, meta)
+        return {"message": f"Month {month} deleted successfully"}
+    except (HTTPException):
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

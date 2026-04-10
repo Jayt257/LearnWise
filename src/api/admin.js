@@ -31,5 +31,5 @@ export const updateMeta = (pairId, content) =>
   client.put(`/admin/content/${pairId}/meta`, { file_path: 'meta.json', content });
 export const addMonth = (pairId) => client.post(`/admin/content/${pairId}/month`);
 export const addBlock = (pairId, month) => client.post(`/admin/content/${pairId}/month/${month}/block`);
-export const deleteMonth = (pairId, month) => client.delete(`/admin/content/${pairId}/month/${month}`);
 export const deleteBlock = (pairId, month, block) => client.delete(`/admin/content/${pairId}/month/${month}/block/${block}`);
+export const deleteMonth = (pairId, month) => client.delete(`/admin/content/${pairId}/month/${month}`);
