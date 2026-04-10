@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {
   listLanguages, getContentFile, updateMeta, addMonth, addBlock,
   getActivityTypes, createActivity, deleteActivity, updateContent,
-  listContent
+  listContent, deleteMonth, deleteBlock
 } from '../../api/admin.js';
 
 const ACTIVITY_ICONS = {
@@ -80,6 +80,24 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
     try {
       await addBlock(selectedPair, monthNum);
       onSuccess(`Block added to Month ${monthNum}`);
+      loadMeta(selectedPair);
+    } catch (e) { onError(e); }
+  };
+
+  const handleDeleteMonth = async (monthNum) => {
+    if (!window.confirm(`ARE YOU SURE you want to delete Month ${monthNum} and ALL its content? This CANNOT be undone!`)) return;
+    try {
+      await deleteMonth(selectedPair, monthNum);
+      onSuccess(`Deleted Month ${monthNum}`);
+      loadMeta(selectedPair);
+    } catch (e) { onError(e); }
+  };
+
+  const handleDeleteBlock = async (monthNum, blockNum) => {
+    if (!window.confirm(`ARE YOU SURE you want to delete Block ${blockNum} from Month ${monthNum} and ALL its content?`)) return;
+    try {
+      await deleteBlock(selectedPair, monthNum, blockNum);
+      onSuccess(`Deleted Block ${blockNum}`);
       loadMeta(selectedPair);
     } catch (e) { onError(e); }
   };
@@ -190,7 +208,10 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                   </div>
                   {month.title || `Month ${month.month}`}
                 </h3>
-                <button className="btn btn-secondary btn-sm" onClick={() => handleAddBlock(month.month)}>+ Add Block</button>
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  <button className="btn btn-secondary btn-sm" onClick={() => handleAddBlock(month.month)}>+ Add Block</button>
+                  <button className="btn btn-danger btn-sm" onClick={() => handleDeleteMonth(month.month)}>Delete Month</button>
+                </div>
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -198,7 +219,10 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                   <div key={block.block} style={{ background: 'var(--color-surface-2)', padding: '1rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.75rem', fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>
                       <span>Block {block.block}: {block.title || `Block ${block.block}`}</span>
-                      <button className="btn btn-ghost btn-sm" style={{ padding: '0.2rem 0.5rem' }} onClick={() => openAddActivity(month.month, block.block)}>+ Activity</button>
+                      <div style={{ display: 'flex', gap: '0.5rem' }}>
+                        <button className="btn btn-ghost btn-sm" style={{ padding: '0.2rem 0.5rem' }} onClick={() => openAddActivity(month.month, block.block)}>+ Activity</button>
+                        <button className="btn btn-ghost btn-sm" style={{ padding: '0.2rem 0.5rem', color: 'var(--color-danger)' }} onClick={() => handleDeleteBlock(month.month, block.block)}>✕ Block</button>
+                      </div>
                     </div>
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>

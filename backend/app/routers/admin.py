@@ -678,6 +678,26 @@ def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.delete("/content/{pair_id}/month/{month}")
+def delete_month(pair_id: str, month: int, admin: User = Depends(require_admin)):
+    try:
+        content_service.delete_month(pair_id, month)
+        return {"message": "Month deleted"}
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.delete("/content/{pair_id}/month/{month}/block/{block}")
+def delete_block(pair_id: str, month: int, block: int, admin: User = Depends(require_admin)):
+    try:
+        content_service.delete_block(pair_id, month, block)
+        return {"message": "Block deleted"}
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @router.get("/activity-template/{activity_type}")
 def get_activity_template(
