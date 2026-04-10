@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import {
   listLanguages, getContentFile, updateMeta, addMonth, addBlock,
-  getActivityTypes, createActivity, deleteActivity, updateContent
+  getActivityTypes, createActivity, deleteActivity, updateContent,
+  listContent
 } from '../../api/admin.js';
 
 const ACTIVITY_ICONS = {
@@ -20,6 +21,8 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
   const [selectedPair, setSelectedPair] = useState('');
   const [meta, setMeta] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [builderView, setBuilderView] = useState('tree'); // 'tree' | 'files'
+  const [allFiles, setAllFiles] = useState([]);
 
   // For Add Activity Modal
   const [showActivityModal, setShowActivityModal] = useState(false);
@@ -50,6 +53,8 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
     try {
       const res = await getContentFile(pairId, 'meta.json');
       setMeta(res.data);
+      const filesRes = await listContent(pairId);
+      setAllFiles(filesRes.data.files || []);
     } catch (e) {
       onError(e);
     } finally {
@@ -166,11 +171,17 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
           
-          <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <button className="btn btn-primary" onClick={handleAddMonth}>+ Add Month</button>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ display: 'flex', gap: '0.5rem' }}>
+              <button className={`btn btn-sm ${builderView === 'tree' ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setBuilderView('tree')}>🌳 Visual Tree</button>
+              <button className={`btn btn-sm ${builderView === 'files' ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setBuilderView('files')}>📂 All Files</button>
+            </div>
+            {builderView === 'tree' && (
+              <button className="btn btn-primary" onClick={handleAddMonth}>+ Add Month</button>
+            )}
           </div>
 
-          {(meta.months || []).map(month => (
+          {builderView === 'tree' && (meta.months || []).map(month => (
             <div key={month.month} className="glass" style={{ padding: '1.5rem', borderRadius: 'var(--radius-xl)' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                 <h3 className="heading-sm" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -203,8 +214,7 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
                             <span>{ACTIVITY_ICONS[act.type]}</span>
                             <span style={{ textTransform: 'capitalize' }}>{act.type}</span>
                             <span className="truncate" style={{ maxWidth: 100, color: 'var(--color-text-muted)', fontWeight: 400 }}>{act.file.split('/').pop()}</span>
-                            <span style={{ marginLeft: 'auto', background: 'rgba(0,0,0,0.2)', padding: '0.2rem 0.4rem', borderRadius: '4px', fontSize: '0.65rem', border: '1px solid rgba(255,255,255,0.1)' }}>📝 Edit JSON</span>
-                            <span style={{ cursor: 'pointer', marginLeft: '0.25rem', padding: '0.2rem', color: 'var(--color-danger)' }} onClick={(e) => handleDeleteActivity(month.month, block.block, act, e)} title="Delete Activity">✕</span>
+                            <span style={{ cursor: 'pointer', marginLeft: '0.25rem', color: 'var(--color-danger)' }} onClick={(e) => handleDeleteActivity(month.month, block.block, act, e)}>✕</span>
                           </div>
                         )
                       })}
@@ -217,6 +227,21 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
               </div>
             </div>
           ))}
+
+          {builderView === 'files' && (
+            <div className="card" style={{ padding: '1.5rem', maxHeight: 600, overflowY: 'auto' }}>
+              <h3 className="heading-sm" style={{ marginBottom: '1rem' }}>Raw JSON Files</h3>
+              <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                {allFiles.map(f => (
+                  <li key={f} style={{ display: 'flex', justifyContent: 'space-between', padding: '0.75rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--color-border)' }}>
+                    <span style={{ fontFamily: 'monospace', fontSize: '0.85rem' }}>{f}</span>
+                    <button className="btn btn-ghost btn-sm" onClick={() => openJsonEditor(f)}>Edit</button>
+                  </li>
+                ))}
+                {allFiles.length === 0 && <span className="text-muted">No files found.</span>}
+              </ul>
+            </div>
+          )}
         </div>
       )}
 
