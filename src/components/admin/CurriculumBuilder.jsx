@@ -233,9 +233,9 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
               <h3 className="heading-sm" style={{ marginBottom: '1rem' }}>Raw JSON Files</h3>
               <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 {allFiles.map(f => (
-                  <li key={f} style={{ display: 'flex', justifyContent: 'space-between', padding: '0.75rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--color-border)' }}>
-                    <span style={{ fontFamily: 'monospace', fontSize: '0.85rem' }}>{f}</span>
-                    <button className="btn btn-ghost btn-sm" onClick={() => openJsonEditor(f)}>Edit</button>
+                  <li key={f.path} style={{ display: 'flex', justifyContent: 'space-between', padding: '0.75rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--color-border)' }}>
+                    <span style={{ fontFamily: 'monospace', fontSize: '0.85rem' }}>{f.path}</span>
+                    <button className="btn btn-ghost btn-sm" onClick={() => openJsonEditor(f.path)}>Edit</button>
                   </li>
                 ))}
                 {allFiles.length === 0 && <span className="text-muted">No files found.</span>}
