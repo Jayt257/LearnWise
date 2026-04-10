@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     GROQ_MODEL: str = "llama3-8b-8192"
 
     # Whisper
-    WHISPER_MODEL: str = "base"
+    WHISPER_MODEL: str = "turbo" # Recommended: 'turbo' (large-v3-turbo), 'large', 'medium', 'small'
 
     # CORS
     ALLOWED_ORIGINS: str = "http://localhost:5173"
