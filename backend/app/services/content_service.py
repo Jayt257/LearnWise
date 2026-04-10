@@ -184,7 +184,7 @@ def _build_meta_skeleton(pair_id: str, src_id: str, tgt_id: str,
                 activities.append({
                     "id": global_id,
                     "type": activity_type,
-                    "file": f"month_{m}/block_{b}/{activity_type}.json",
+                    "file": f"month_{m}/block_{b}/M{m}B{b}_{activity_type}.json",
                     "xp": xp
                 })
                 global_id += 1
@@ -273,7 +273,7 @@ def add_month(pair_id: str) -> Dict[str, Any]:
             activities.append({
                 "id": next_id,
                 "type": activity_type,
-                "file": f"month_{new_month_num}/block_{b}/{activity_type}.json",
+                "file": f"month_{new_month_num}/block_{b}/M{new_month_num}B{b}_{activity_type}.json",
                 "xp": xp
             })
             next_id += 1
@@ -330,13 +330,10 @@ def add_block(pair_id: str, month_number: int) -> Dict[str, Any]:
         activities.append({
             "id": next_id,
             "type": activity_type,
-            "file": f"month_{month_number}/block_{new_block_num}/{activity_type}.json",
+            "file": f"month_{month_number}/block_{new_block_num}/M{month_number}B{new_block_num}_{activity_type}.json",
             "xp": xp
         })
         next_id += 1
-
-    if "blocks" not in month_data:
-        month_data["blocks"] = []
 
     month_data["blocks"].append({
         "block": new_block_num,
@@ -344,52 +341,6 @@ def add_block(pair_id: str, month_number: int) -> Dict[str, Any]:
         "title": f"Block {new_block_num}",
         "activities": activities
     })
-    write_meta(pair_id, meta)
-    return meta
-
-def delete_block(pair_id: str, month_number: int, block_number: int) -> Dict[str, Any]:
-    meta = get_meta(pair_id)
-    month_data = next((m for m in meta.get("months", []) if m["month"] == month_number), None)
-    if not month_data:
-        raise ValueError(f"Month {month_number} not found in pair {pair_id}")
-    
-    block_data = next((b for b in month_data.get("blocks", []) if b["block"] == block_number), None)
-    if not block_data:
-        raise ValueError(f"Block {block_number} not found in month {month_number}")
-    
-    month_data["blocks"] = [b for b in month_data.get("blocks", []) if b["block"] != block_number]
-    
-    # Recursively delete block directory
-    try:
-        base = _base_path(pair_id)
-        block_dir = base / f"month_{month_number}" / f"block_{block_number}"
-        if block_dir.exists():
-            shutil.rmtree(block_dir)
-    except Exception as e:
-        print(f"Warning: Failed to delete physical block directory {e}")
-
-    write_meta(pair_id, meta)
-    return meta
-
-def delete_month(pair_id: str, month_number: int) -> Dict[str, Any]:
-    meta = get_meta(pair_id)
-    month_data = next((m for m in meta.get("months", []) if m["month"] == month_number), None)
-    if not month_data:
-        raise ValueError(f"Month {month_number} not found in pair {pair_id}")
-    
-    meta["months"] = [m for m in meta.get("months", []) if m["month"] != month_number]
-    
-    # Update totalMonths
-    meta["totalMonths"] = len(meta["months"])
-    
-    try:
-        base = _base_path(pair_id)
-        month_dir = base / f"month_{month_number}"
-        if month_dir.exists():
-            shutil.rmtree(month_dir)
-    except Exception as e:
-        print(f"Warning: Failed to delete physical month directory {e}")
-
     write_meta(pair_id, meta)
     return meta
 

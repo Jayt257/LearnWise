@@ -754,3 +754,60 @@ def delete_month(pair_id: str, month: int, admin: User = Depends(require_admin))
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ── Inline Meta Editing ────────────────────────────────────────────────────────
+
+from pydantic import BaseModel as _PatchBase
+from typing import Optional as _Opt
+
+class PatchMonthRequest(_PatchBase):
+    title: _Opt[str] = None
+    description: _Opt[str] = None
+    target_level: _Opt[str] = None
+
+class PatchBlockRequest(_PatchBase):
+    title: _Opt[str] = None
+
+
+@router.patch("/content/{pair_id}/month/{month}")
+def patch_month(pair_id: str, month: int, req: PatchMonthRequest, admin: User = Depends(require_admin)):
+    """Update a month's title/description/targetLevel in meta.json."""
+    try:
+        meta = content_service.get_meta(pair_id)
+        month_data = next((m for m in meta["months"] if m["month"] == month), None)
+        if not month_data:
+            raise HTTPException(status_code=404, detail=f"Month {month} not found")
+        if req.title is not None:
+            month_data["title"] = req.title
+        if req.description is not None:
+            month_data["description"] = req.description
+        if req.target_level is not None:
+            month_data["targetLevel"] = req.target_level
+        content_service.write_meta(pair_id, meta)
+        return {"message": f"Month {month} updated", "month": month_data}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.patch("/content/{pair_id}/month/{month}/block/{block}")
+def patch_block(pair_id: str, month: int, block: int, req: PatchBlockRequest, admin: User = Depends(require_admin)):
+    """Update a block's title in meta.json."""
+    try:
+        meta = content_service.get_meta(pair_id)
+        month_data = next((m for m in meta["months"] if m["month"] == month), None)
+        if not month_data:
+            raise HTTPException(status_code=404, detail=f"Month {month} not found")
+        block_data = next((b for b in month_data["blocks"] if b["block"] == block), None)
+        if not block_data:
+            raise HTTPException(status_code=404, detail=f"Block {block} not found in month {month}")
+        if req.title is not None:
+            block_data["title"] = req.title
+        content_service.write_meta(pair_id, meta)
+        return {"message": f"Block {block} updated", "block": block_data}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

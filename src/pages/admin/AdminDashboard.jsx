@@ -17,6 +17,7 @@ export default function AdminDashboard() {
   const navigate = useNavigate();
   const { user } = useSelector(s => s.auth);
   const [activeTab, setActiveTab] = useState('overview');
+  const [curriculumPair, setCurriculumPair] = useState('');
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
 
@@ -67,8 +68,8 @@ export default function AdminDashboard() {
       <div className="animate-fade-in">
         {activeTab === 'overview' && <OverviewTab onError={handleError} />}
         {activeTab === 'users' && <UsersTab onError={handleError} onSuccess={showMessage} />}
-        {activeTab === 'languages' && <LanguagesTab onError={handleError} onSuccess={showMessage} />}
-        {activeTab === 'curriculum' && <CurriculumBuilder onError={handleError} onSuccess={showMessage} />}
+        {activeTab === 'languages' && <LanguagesTab onError={handleError} onSuccess={showMessage} onOpenCurriculum={(pairId) => { setCurriculumPair(pairId); setActiveTab('curriculum'); }} />}
+        {activeTab === 'curriculum' && <CurriculumBuilder onError={handleError} onSuccess={showMessage} initialPair={curriculumPair} />}
       </div>
     </div>
   );
@@ -186,10 +187,17 @@ function UsersTab({ onError, onSuccess }) {
   );
 }
 
-function LanguagesTab({ onError, onSuccess }) {
+function LanguagesTab({ onError, onSuccess, onOpenCurriculum }) {
   const [pairs, setPairs] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [form, setForm] = useState({ source_lang_id: 'hi', source_lang_name: 'Hindi', source_lang_flag: '🇮🇳', target_lang_id: 'en', target_lang_name: 'English', target_lang_flag: '🇺🇸' });
+  const [form, setForm] = useState({
+    source_lang_id: '',
+    source_lang_name: '',
+    source_lang_flag: '🏳',
+    target_lang_id: '',
+    target_lang_name: '',
+    target_lang_flag: '🏳',
+  });
 
   const fetchPairs = () => {
     setLoading(true);
@@ -199,64 +207,107 @@ function LanguagesTab({ onError, onSuccess }) {
 
   const handleCreate = async (e) => {
     e.preventDefault();
+    if (!form.source_lang_id || !form.target_lang_id) return;
+    if (form.source_lang_id === form.target_lang_id) {
+      onError({ message: 'Source and target languages must be different' });
+      return;
+    }
     try {
       await createLanguage(form);
-      onSuccess('Language pair created!');
+      onSuccess(`Language pair ${form.source_lang_id}-${form.target_lang_id} created!`);
+      setForm({ source_lang_id: '', source_lang_name: '', source_lang_flag: '🏳', target_lang_id: '', target_lang_name: '', target_lang_flag: '🏳' });
       fetchPairs();
     } catch (err) { onError(err); }
   };
 
   const handleDelete = async (pairId) => {
-    if (!window.confirm(`Delete ${pairId}? This cannot be undone.`)) return;
+    if (!window.confirm(`Delete ${pairId}? This deletes ALL content files permanently. Cannot be undone.`)) return;
     try {
       await deleteLanguage(pairId);
-      onSuccess('Language pair deleted');
+      onSuccess(`Language pair ${pairId} deleted`);
       fetchPairs();
     } catch (err) { onError(err); }
   };
 
+  const Field = ({ label, field, placeholder }) => (
+    <div className="form-group">
+      <label className="form-label" style={{ fontSize: '0.78rem' }}>{label}</label>
+      <input className="form-input" style={{ padding: '0.4rem 0.6rem', fontSize: '0.9rem' }}
+        value={form[field]} onChange={e => setForm(f => ({ ...f, [field]: e.target.value }))}
+        placeholder={placeholder} required />
+    </div>
+  );
+
   if (loading) return <div className="spinner" />;
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', alignItems: 'start' }}>
+      {/* Left — List */}
       <div className="card">
         <h2 className="heading-md" style={{ marginBottom: '1rem' }}>Active Language Pairs</h2>
-        {pairs.length === 0 ? <p>No language pairs found.</p> : (
-          <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        {pairs.length === 0 ? <p className="text-muted">No language pairs found.</p> : (
+          <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             {pairs.map(p => (
-              <li key={p.pairId} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--color-surface-2)', padding: '1rem', borderRadius: '8px' }}>
+              <li key={p.pairId} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--color-surface-2)', padding: '0.875rem 1rem', borderRadius: '8px', border: '1px solid var(--color-border)' }}>
                 <div>
-                  <strong>{p.pairId}</strong> <br/>
-                  <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
-                    {p.meta?.source?.name} → {p.meta?.target?.name}
-                  </span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700 }}>
+                    <span>{p.meta?.source?.flag || '🏳'}</span>
+                    <span>{p.meta?.source?.name || p.pairId.split('-')[0]}</span>
+                    <span style={{ color: 'var(--color-text-muted)' }}>→</span>
+                    <span>{p.meta?.target?.flag || '🏳'}</span>
+                    <span>{p.meta?.target?.name || p.pairId.split('-')[1]}</span>
+                  </div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', marginTop: '0.2rem' }}>
+                    ID: <code>{p.pairId}</code> · {p.meta?.totalMonths || 0} months
+                  </div>
                 </div>
-                <button className="btn btn-danger btn-sm" onClick={() => handleDelete(p.pairId)}>Delete</button>
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  {onOpenCurriculum && (
+                    <button className="btn btn-secondary btn-sm" onClick={() => onOpenCurriculum(p.pairId)}>
+                      ✏ Manage
+                    </button>
+                  )}
+                  <button className="btn btn-sm" style={{ background: 'rgba(239,68,68,0.15)', color: '#ef4444', border: '1px solid rgba(239,68,68,0.4)' }}
+                    onClick={() => handleDelete(p.pairId)}>
+                    🗑
+                  </button>
+                </div>
               </li>
             ))}
           </ul>
         )}
       </div>
+
+      {/* Right — Create form */}
       <div className="card">
-        <h2 className="heading-md" style={{ marginBottom: '1rem' }}>Create New Pair</h2>
+        <h2 className="heading-md" style={{ marginBottom: '1.25rem' }}>Create New Pair</h2>
         <form onSubmit={handleCreate} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          <div style={{ display: 'flex', gap: '1rem' }}>
-            <div className="form-group" style={{ flex: 1 }}>
-              <label className="form-label">Source ID (e.g. hi)</label>
-              <input className="form-input" value={form.source_lang_id} onChange={e => setForm(f => ({ ...f, source_lang_id: e.target.value }))} required />
-            </div>
-            <div className="form-group" style={{ flex: 1 }}>
-              <label className="form-label">Target ID (e.g. en)</label>
-              <input className="form-input" value={form.target_lang_id} onChange={e => setForm(f => ({ ...f, target_lang_id: e.target.value }))} required />
+          <div style={{ padding: '0.875rem', background: 'var(--color-surface-2)', borderRadius: '8px', border: '1px solid var(--color-border)' }}>
+            <div style={{ fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-text-muted)', marginBottom: '0.75rem' }}>Source Language (learner speaks)</div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr 60px', gap: '0.5rem' }}>
+              <Field label="Code (e.g. hi)" field="source_lang_id" placeholder="hi" />
+              <Field label="Full Name" field="source_lang_name" placeholder="Hindi" />
+              <Field label="Flag" field="source_lang_flag" placeholder="🇮🇳" />
             </div>
           </div>
-          {/* Omitted name/flag inputs for brevity, use defaults or add later */}
+          <div style={{ padding: '0.875rem', background: 'var(--color-surface-2)', borderRadius: '8px', border: '1px solid var(--color-border)' }}>
+            <div style={{ fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-text-muted)', marginBottom: '0.75rem' }}>Target Language (learner is learning)</div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr 60px', gap: '0.5rem' }}>
+              <Field label="Code (e.g. ja)" field="target_lang_id" placeholder="ja" />
+              <Field label="Full Name" field="target_lang_name" placeholder="Japanese" />
+              <Field label="Flag" field="target_lang_flag" placeholder="🇯🇵" />
+            </div>
+          </div>
+          <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', background: 'rgba(99,102,241,0.07)', padding: '0.6rem 0.875rem', borderRadius: '6px' }}>
+            ℹ This will create a <code>{form.source_lang_id || 'src'}-{form.target_lang_id || 'tgt'}</code> directory with a 3-month curriculum skeleton and register it in the system.
+          </div>
           <button type="submit" className="btn btn-primary">Create Language Pair</button>
         </form>
       </div>
     </div>
   );
 }
+
 
 
 
