@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { startLanguagePair, fetchPairs } from '../../store/progressSlice.js';
 import { setCurrentPair } from '../../store/progressSlice.js';
 
-// LANG_INFO is now computed dynamically from backend pairs
+
 
 export default function OnboardingPage() {
   const navigate = useNavigate();
@@ -23,16 +23,21 @@ export default function OnboardingPage() {
 
   useEffect(() => { dispatch(fetchPairs()); }, []);
 
-  // Build dynamic LANG_INFO from pairs
-  const LANG_INFO = {};
-  pairs.forEach(p => {
-    if (p.meta) {
-      if (!LANG_INFO[p.from]) LANG_INFO[p.from] = { name: p.meta.source?.name, flag: p.meta.source?.flag, desc: 'Language option' };
-      if (!LANG_INFO[p.to]) LANG_INFO[p.to] = { name: p.meta.target?.name, flag: p.meta.target?.flag, desc: 'Language option' };
-    }
-  });
+  // Dynamically build language dictionaries from available pairs
+  const dynamicLangInfo = React.useMemo(() => {
+    const info = {};
+    pairs.forEach(p => {
+      if (p.meta?.source) {
+        info[p.from] = { name: p.meta.source.name || p.from, flag: p.meta.source.flag || '🏳', desc: 'Available language' };
+      }
+      if (p.meta?.target) {
+        info[p.to] = { name: p.meta.target.name || p.to, flag: p.meta.target.flag || '🏳', desc: 'Available language' };
+      }
+    });
+    return info;
+  }, [pairs]);
 
-  // Get available targets given source ONLY from actual pairs
+  // Get available targets given source
   const availableTargets = pairs.filter(p => p.from === source).map(p => p.to);
 
   const handleStart = async () => {
@@ -75,8 +80,8 @@ export default function OnboardingPage() {
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
               {existingPairs.map(p => {
                 const [src, tgt] = p.lang_pair_id.split('-');
-                const srcInfo = LANG_INFO[src] || {};
-                const tgtInfo = LANG_INFO[tgt] || {};
+                const srcInfo = dynamicLangInfo[src] || { flag: '🏳', name: src };
+                const tgtInfo = dynamicLangInfo[tgt] || { flag: '🏳', name: tgt };
                 return (
                   <button key={p.lang_pair_id} className="btn btn-secondary"
                     onClick={() => { dispatch(setCurrentPair(p.lang_pair_id)); navigate('/dashboard'); }}>
@@ -96,7 +101,7 @@ export default function OnboardingPage() {
           <div style={{ marginBottom: '1.5rem' }}>
             <label className="form-label" style={{ marginBottom: '0.75rem', display: 'block' }}>I speak (My language)</label>
             <div style={{ display: 'flex', gap: '0.75rem' }}>
-              {Object.entries(LANG_INFO).map(([id, info]) => (
+              {Object.entries(dynamicLangInfo).map(([id, info]) => (
                 <button key={id} type="button"
                   onClick={() => { setSource(id); if (target === id) setTarget(''); }}
                   style={{ flex: 1, padding: '1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${source === id ? 'var(--color-primary)' : 'var(--color-border)'}`, background: source === id ? 'var(--color-primary-glow)' : 'var(--color-surface-2)', cursor: 'pointer', transition: 'all 0.2s', textAlign: 'center' }}>
@@ -113,7 +118,7 @@ export default function OnboardingPage() {
             <label className="form-label" style={{ marginBottom: '0.75rem', display: 'block' }}>I want to learn</label>
             <div style={{ display: 'flex', gap: '0.75rem' }}>
               {availableTargets.map(id => {
-                const info = LANG_INFO[id];
+                const info = dynamicLangInfo[id] || { flag: '🏳', name: id, desc: '' };
                 return (
                   <button key={id} type="button"
                     onClick={() => setTarget(id)}
@@ -130,11 +135,11 @@ export default function OnboardingPage() {
           {/* Summary + start */}
           {source && target && (
             <div style={{ textAlign: 'center', padding: '1rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-md)', marginBottom: '1.5rem' }}>
-              <span style={{ fontSize: '1.5rem' }}>{LANG_INFO[source]?.flag}</span>
+              <span style={{ fontSize: '1.5rem' }}>{dynamicLangInfo[source]?.flag || '🏳'}</span>
               <span style={{ margin: '0 0.75rem', color: 'var(--color-text-muted)' }}>→</span>
-              <span style={{ fontSize: '1.5rem' }}>{LANG_INFO[target]?.flag}</span>
+              <span style={{ fontSize: '1.5rem' }}>{dynamicLangInfo[target]?.flag || '🏳'}</span>
               <p style={{ marginTop: '0.5rem', fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>
-                {LANG_INFO[source]?.name} → {LANG_INFO[target]?.name} • 6-month roadmap • 8 activity types
+                {dynamicLangInfo[source]?.name || source} → {dynamicLangInfo[target]?.name || target} • 6-month roadmap • 8 activity types
               </p>
             </div>
           )}

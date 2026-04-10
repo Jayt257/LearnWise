@@ -42,7 +42,7 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
         setPairs(langsRes.data);
         setActivityTypes(typesRes.data);
         if (langsRes.data.length > 0) {
-          setSelectedPair(prev => prev || langsRes.data[0].pairId);
+          setSelectedPair(langsRes.data[0].pairId);
         } else {
           setLoading(false);
         }
@@ -50,7 +50,7 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
         // Even if activity-types fails, still load languages
         listLanguages().then(res => {
           setPairs(res.data);
-          if (res.data.length > 0) setSelectedPair(prev => prev || res.data[0].pairId);
+          if (res.data.length > 0) setSelectedPair(res.data[0].pairId);
           else setLoading(false);
         }).catch(onError);
       });

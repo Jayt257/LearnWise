@@ -362,15 +362,15 @@ def register_pair(pair_id: str, src_id: str, tgt_id: str) -> None:
 
 
 def delete_pair(pair_id: str) -> None:
-    """Remove a language pair directory + registry entry. Clean up parent if empty."""
+    """Remove a language pair directory + registry entry."""
     base = _base_path(pair_id)
     if base.exists():
-        import shutil
         shutil.rmtree(base)
-        # Check if parent is empty
+        # Check if the parent language directory (e.g. `en`) is now completely empty
         parent = base.parent
-        if parent.exists() and not any(parent.iterdir()):
-            parent.rmdir()
+        if parent.exists() and parent.name != "languages" and not any(parent.iterdir()):
+            shutil.rmtree(parent)
+            
     pairs = get_all_pairs()
     pairs = [p for p in pairs if p["pairId"] != pair_id]
     path = Path(settings.data_path) / "language_pairs.json"

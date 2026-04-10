@@ -547,7 +547,14 @@ def create_language(req: CreateLanguagePairRequest, admin: User = Depends(requir
         total_months=3, blocks_per_month=6
     )
     content_service.write_meta(pair_id, meta)
-    _populate_missing_files(pair_id, meta)
+    
+    # Immediately scaffold the physical JSON files
+    for m in meta.get("months", []):
+        for b in m.get("blocks", []):
+            for a in b.get("activities", []):
+                template = _make_template(a["type"], pair_id, m["month"], b["block"])
+                content_service.write_activity(pair_id, a["file"], template)
+                
     return {"message": f"Language pair '{pair_id}' created successfully", "pair_id": pair_id}
 
 
@@ -655,7 +662,13 @@ def add_month(pair_id: str, admin: User = Depends(require_admin)):
     """Add a new month (with 6 blocks) to an existing language pair. Updates meta.json."""
     try:
         meta = content_service.add_month(pair_id)
-        _populate_missing_files(pair_id, meta)
+        # Scaffold the physical JSON files for the new month
+        new_month = meta["months"][-1]
+        for b in new_month.get("blocks", []):
+            for a in b.get("activities", []):
+                template = _make_template(a["type"], pair_id, new_month["month"], b["block"])
+                content_service.write_activity(pair_id, a["file"], template)
+                
         return {"message": "New month added successfully", "total_months": meta["totalMonths"]}
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found")
@@ -669,7 +682,14 @@ def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
     try:
         meta = content_service.add_block(pair_id, month)
         month_data = next((m for m in meta["months"] if m["month"] == month), None)
-        _populate_missing_files(pair_id, meta)
+        
+        # Scaffold the physical JSON files for the new block
+        if month_data and month_data["blocks"]:
+            new_block = month_data["blocks"][-1]
+            for a in new_block.get("activities", []):
+                template = _make_template(a["type"], pair_id, month, new_block["block"])
+                content_service.write_activity(pair_id, a["file"], template)
+                
         return {
             "message": f"New block added to month {month}",
             "total_blocks": len(month_data["blocks"]) if month_data else 0
@@ -701,22 +721,6 @@ def get_activity_template(
     if activity_type not in ACTIVITY_TYPES:
         raise HTTPException(status_code=400, detail=f"Unknown activity type: {activity_type}")
     return _make_template(activity_type, pair_id, month, block)
-
-
-def _populate_missing_files(pair_id: str, meta: dict):
-    base = content_service._base_path(pair_id)
-    for month in meta.get("months", []):
-        m = month["month"]
-        for block in month.get("blocks", []):
-            b = block["block"]
-            for act in block.get("activities", []):
-                file_path = base / act["file"]
-                if not file_path.exists():
-                    template = _make_template(act["type"], pair_id, m, b)
-                    file_path.parent.mkdir(parents=True, exist_ok=True)
-                    import json
-                    with open(file_path, "w", encoding="utf-8") as f:
-                        json.dump(template, f, ensure_ascii=False, indent=2)
 
 
 @router.delete("/content/{pair_id}/month/{month}/block/{block}")
