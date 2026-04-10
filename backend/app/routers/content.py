@@ -16,17 +16,9 @@ router = APIRouter(prefix="/content", tags=["Content"])
 
 @router.get("/pairs")
 def list_pairs() -> List[Dict[str, Any]]:
-    """List all registered language pairs enriched with metadata (names, flags)."""
+    """List all registered language pairs."""
     try:
-        pairs = content_service.get_all_pairs()
-        enriched = []
-        for p in pairs:
-            try:
-                meta = content_service.get_meta(p["pairId"])
-                enriched.append({**p, "meta": meta})
-            except Exception:
-                pass # Skip pairs without valid meta
-        return enriched
+        return content_service.get_all_pairs()
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

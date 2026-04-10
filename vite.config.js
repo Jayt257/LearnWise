@@ -42,5 +42,13 @@ export default defineConfig({
         changeOrigin: true,
       },
     },
+    // Exclude backend/ (Python venv/PyTorch has ~100k files that blow out the inode watcher limit)
+    watch: {
+      ignored: [
+        '**/backend/**',
+        '**/node_modules/**',
+        '**/.git/**',
+      ],
+    },
   },
 });

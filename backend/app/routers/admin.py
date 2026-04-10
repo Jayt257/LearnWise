@@ -551,42 +551,12 @@ def create_language(req: CreateLanguagePairRequest, admin: User = Depends(requir
 
 
 @router.delete("/languages/{pair_id}")
-def delete_language(pair_id: str, admin: User = Depends(require_admin), db: Session = Depends(get_db)):
+def delete_language(pair_id: str, admin: User = Depends(require_admin)):
     pairs = content_service.get_all_pairs()
     if not any(p["pairId"] == pair_id for p in pairs):
         raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found.")
-
-    # 1. Count what we're about to remove (for the response message)
-    completions_count = db.query(ActivityCompletion).filter(
-        ActivityCompletion.lang_pair_id == pair_id
-    ).count()
-    progress_count = db.query(UserLanguageProgress).filter(
-        UserLanguageProgress.lang_pair_id == pair_id
-    ).count()
-
-    # 2. Delete all activity completion records for this pair
-    db.query(ActivityCompletion).filter(
-        ActivityCompletion.lang_pair_id == pair_id
-    ).delete(synchronize_session=False)
-
-    # 3. Delete all user language progress rows for this pair
-    db.query(UserLanguageProgress).filter(
-        UserLanguageProgress.lang_pair_id == pair_id
-    ).delete(synchronize_session=False)
-
-    db.commit()
-
-    # 4. Delete the filesystem content + remove from language_pairs.json
     content_service.delete_pair(pair_id)
-
-    return {
-        "message": f"Language pair '{pair_id}' deleted successfully",
-        "purged": {
-            "activity_completions": completions_count,
-            "user_progress_records": progress_count,
-        }
-    }
-
+    return {"message": f"Language pair '{pair_id}' deleted successfully"}
 
 
 # ── Content ────────────────────────────────────────────────────

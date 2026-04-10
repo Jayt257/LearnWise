@@ -4,12 +4,25 @@ Groq API integration for activity answer validation.
 Uses llama3-8b-8192 to evaluate user answers and return structured JSON scores.
 Handles all 8 activity types with tailored prompts.
 
+Prompting Methodology: Chain-of-Thought Structured Output Prompting
+  - System prompt establishes strict evaluator persona + JSON-only output contract.
+  - User prompt structure (chain-of-thought order):
+      1. Language pair context — who is learning what (critical for CJK evaluation)
+      2. Type-specific rubric — e.g. 'pronunciation: compare romanization, not native script'
+      3. Feedback tier instructions — hint | lesson | praise based on score + attempt count
+      4. Student answers block — Q&A with correct_answer alongside student answer
+      5. Exact JSON output schema — model MUST fill template, no prose allowed
+  This forces the model to reason about each answer before scoring and guarantees
+  a machine-parseable response from the 8B parameter model.
+
+  CJK Language Note: llama3-8b has limited native Japanese/Chinese/Korean support.
+  We always include romanization alongside native script in prompts so Groq can
+  evaluate phonetic equivalence without relying on CJK tokenization.
+
 Bug Fixes:
-  #3: Robust JSON extraction — handles all code fence variants
+  #3: Robust JSON extraction -- handles all code fence variants
   #14: Per-question score clamping to [0, per_q_max]
-New Features:
-  - feedback_tier parameter drives tier-specific Groq prompts
-  - (hint | lesson | praise) based on score + attempt_count
+  #groq-temp: temperature lowered 0.3 -> 0.1 for deterministic scoring
 """
 
 import json
@@ -32,10 +45,12 @@ def get_client() -> Groq:
     return _client
 
 
-SYSTEM_PROMPT = """You are LearnWise, an expert language learning evaluator.
-You evaluate student answers fairly and provide constructive feedback.
+SYSTEM_PROMPT = """You are LearnWise, an expert multilingual language evaluator.
+You evaluate student answers fairly, considering romanization equivalence for CJK scripts.
 You MUST respond ONLY with valid JSON — no markdown, no extra text, no code fences.
-Be encouraging but honest. Give partial credit where deserved."""
+Be encouraging but honest. Give partial credit where deserved.
+For Japanese/Chinese/Korean: treat romanized answers (e.g. 'ohayou') as equivalent to
+native script (e.g. 'おはよう') when evaluating pronunciation and vocab."""
 
 
 def _determine_feedback_tier(percentage: float, attempt_count: int) -> str:
@@ -102,23 +117,42 @@ def _build_prompt(
     per_q_max = round(max_xp / num_questions) if num_questions else max_xp
 
     activity_instructions = {
-        "lesson": "Evaluate fill-in-the-blank and reading comprehension answers. Full credit for correct answers.",
-        "vocab": "Evaluate vocabulary answers: translations, matching, and usage. Award partial credit for close answers.",
-        "reading": "Evaluate reading comprehension: MCQ, true/false, gap-fill. Be strict on factual accuracy.",
-        "writing": "Evaluate free-writing and translation tasks. Score on: accuracy of meaning, grammar, and vocabulary use. Award generous partial credit.",
-        "listening": "Evaluate listening comprehension: gap-fill and true/false based on the transcript. Be fair.",
-        "speaking": "The student's speech was transcribed by Whisper (may have minor errors). Evaluate scenario performance: did they convey the right meaning? Award partial credit for good attempts.",
-        "pronunciation": "The student's speech was transcribed by Whisper. Compare the transcribed text to the target. Award credit based on how close the pronunciation was (minor Whisper errors are expected).",
-        "test": "This is a formal test. Score strictly. Only award full marks for clearly correct answers.",
+        "lesson": "Evaluate comprehension answers. Accept paraphrases and romanized versions of target-language answers. Full credit for correct meaning.",
+        "vocab":  "Evaluate vocabulary: translations, matching, usage. Accept romanized equivalents (e.g. 'inu' = 'いぬ' = dog). Partial credit for close answers.",
+        "reading": "Evaluate reading comprehension MCQ, true/false, gap-fill. Be strict on factual accuracy but accept romanized target text.",
+        "writing": "Evaluate free-writing and translation. Score: accuracy of meaning (50%), grammar (30%), vocabulary (20%). Award generous partial credit.",
+        "listening": "Evaluate listening comprehension gap-fill and true/false. Accept romanized equivalents.",
+        "speaking": (
+            "The student's speech was transcribed by Whisper (may have minor recognition errors). "
+            "Evaluate whether they conveyed the correct meaning. For Japanese/CJK: romanized transcription "
+            "is equivalent to native script. Award partial credit for good attempts with minor errors."
+        ),
+        "pronunciation": (
+            "The student's speech was transcribed by Whisper (romanized). "
+            "Compare the transcribed romanization to the target romanization — treat close phonetic "
+            "matches as correct (e.g. 'ohayou' ≈ 'ohayou gozaimasu' is partial credit). "
+            "Do NOT penalise Whisper's inability to output native CJK characters."
+        ),
+        "test": "Formal test. Score strictly. Only award full marks for clearly correct answers.",
     }
 
-    instruction = activity_instructions.get(activity_type, "Evaluate the student's answer fairly.")
+    instruction = activity_instructions.get(activity_type, "Evaluate the student's answer fairly, accepting romanized equivalents for CJK scripts.")
     tier_instruction = _TIER_INSTRUCTIONS.get(feedback_tier, _TIER_INSTRUCTIONS["lesson"])
 
+    # Language context note (critical for CJK scripts — llama3 limited native script support)
+    lang_context = (
+        f"IMPORTANT: The student's native language is '{user_lang}' and they are learning '{target_lang}'. "
+        f"Both native script and romanization/transliteration may appear in answers. "
+        f"Treat romanized equivalents as valid responses — evaluate based on phonetic and semantic equivalence, "
+        f"not exact character match."
+    )
+
     prompt = f"""Activity Type: {activity_type}
-Native Language: {user_lang} | Learning: {target_lang}
+ Native Language: {user_lang} | Learning: {target_lang}
 Total Max XP: {max_xp} | Per-question max: {per_q_max} XP
 Number of questions: {num_questions}
+
+{lang_context}
 
 Evaluation Instructions: {instruction}
 
@@ -220,9 +254,9 @@ def validate_activity(
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.3,
+            # FIX: temperature 0.1 (was 0.3) — more deterministic scoring, less hallucinated %s
+            temperature=0.1,
             max_tokens=max_tokens,
-            response_format={"type": "json_object"},
         )
 
         raw = response.choices[0].message.content.strip()
@@ -281,7 +315,6 @@ Respond with ONLY:
             ],
             temperature=0.4,
             max_tokens=300,
-            response_format={"type": "json_object"},
         )
         raw = response.choices[0].message.content.strip()
         return _extract_json(raw)

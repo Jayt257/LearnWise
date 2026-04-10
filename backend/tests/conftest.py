@@ -1,47 +1,88 @@
 """
 backend/tests/conftest.py
-Pytest configuration and shared fixtures for LearnWise backend tests.
-Uses SQLite in-memory database — database.py handles SQLite-safe engine creation.
+Shared fixtures — SQLite test DB with proper session management.
+Key fix: patch app.main.SessionLocal so the startup seed_admin()
+uses our SQLite test DB instead of PostgreSQL.
 """
-
-import os
 import pytest
+from unittest.mock import patch
+from fastapi.testclient import TestClient
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from passlib.context import CryptContext
 
-# ── Set ALL env vars BEFORE any app module is imported ────────
-# Must use os.environ directly (not setdefault) because pydantic-settings
-# reads these at import time from the environment.
-os.environ["DATABASE_URL"] = "sqlite:///:memory:"
-os.environ["SECRET_KEY"] = "test-secret-key-for-pytest-only"
-os.environ["GROQ_API_KEY"] = "test-groq-key"
-os.environ["ALGORITHM"] = "HS256"
-os.environ["ACCESS_TOKEN_EXPIRE_MINUTES"] = "60"
-os.environ["ALLOWED_ORIGINS"] = "http://localhost:5173"
-os.environ["ADMIN_EMAIL"] = "admin@learnwise.app"
-os.environ["ADMIN_PASSWORD"] = "Admin@LearnWise2026"
-os.environ["ADMIN_USERNAME"] = "admin"
-os.environ["DATA_DIR"] = "data"
-os.environ["WHISPER_MODEL"] = "base"
-os.environ["GROQ_MODEL"] = "llama3-8b-8192"
+# ── Test DB setup ─────────────────────────────────────────────────
+TEST_DB_URL = "sqlite:///./test_learnwise.db"
+test_engine = create_engine(TEST_DB_URL, connect_args={"check_same_thread": False})
+TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=test_engine)
 
-# ── Import app after env vars are set ─────────────────────────
-from app.core.database import Base, get_db, engine, SessionLocal  # noqa
-from app.main import app  # noqa
-from fastapi.testclient import TestClient  # noqa
+pwd_ctx = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
+
+def _hash(pw: str) -> str:
+    return pwd_ctx.hash(pw[:72])
+
+
+# ── Session-scoped: tables + users created once ───────────────────
 
 @pytest.fixture(scope="session", autouse=True)
-def create_test_tables():
-    """Create all tables once for the entire test session."""
-    from app.models import user, progress, friends  # noqa — register models
-    Base.metadata.create_all(bind=engine)
-    yield
-    Base.metadata.drop_all(bind=engine)
+def setup_test_db():
+    """
+    Patch app.core.database.SessionLocal and app.main.SessionLocal to point
+    to SQLite, drop+create all tables, and seed admin + test users once.
+    """
+    from app.core import database
+    import app.main as main_module
+    from app.core.database import Base
 
+    # Create tables in test SQLite DB
+    Base.metadata.drop_all(bind=test_engine)
+    Base.metadata.create_all(bind=test_engine)
+
+    # Patch both references so seed_admin() runs against SQLite
+    with patch.object(database, "SessionLocal", TestingSessionLocal), \
+         patch.object(main_module, "SessionLocal", TestingSessionLocal):
+
+        # Run the same seed_admin() logic with our patched session
+        from app.models.user import User, UserRole
+        db = TestingSessionLocal()
+        try:
+            # Admin user
+            if not db.query(User).filter(User.email == "admin@test.com").first():
+                db.add(User(
+                    username="testadmin", email="admin@test.com",
+                    password_hash=_hash("Admin@1234"),
+                    display_name="Test Admin",
+                    role=UserRole.admin, is_active=True, native_lang="hi",
+                ))
+            # Regular learner
+            if not db.query(User).filter(User.email == "user@test.com").first():
+                db.add(User(
+                    username="testlearner", email="user@test.com",
+                    password_hash=_hash("Test@1234"),
+                    display_name="Test Learner",
+                    role=UserRole.user, is_active=True, native_lang="hi",
+                ))
+            db.commit()
+        finally:
+            db.close()
+
+    yield
+
+    # Cleanup
+    import os
+    if os.path.exists("./test_learnwise.db"):
+        try:
+            os.remove("./test_learnwise.db")
+        except Exception:
+            pass
+
+
+# ── Function-scoped: fresh session per test ───────────────────────
 
 @pytest.fixture()
 def db():
-    """Provide a DB session. Each test gets a fresh session."""
-    session = SessionLocal()
+    session = TestingSessionLocal()
     try:
         yield session
     finally:
@@ -50,80 +91,63 @@ def db():
 
 @pytest.fixture()
 def client(db):
-    """FastAPI TestClient with DB dependency overridden to the test session."""
+    """
+    TestClient with get_db AND app.core.database.SessionLocal both overridden
+    to use SQLite. This ensures startup seeding AND request handlers all use
+    the same test DB.
+    """
+    from app.core import database
+    import app.main as main_module
+    from app.core.database import get_db
+
     def override_get_db():
-        try:
-            yield db
-        finally:
-            pass
+        yield db
 
-    app.dependency_overrides[get_db] = override_get_db
-    with TestClient(app, raise_server_exceptions=True) as c:
-        yield c
-    app.dependency_overrides.clear()
-
-
-# ── Helper factories ───────────────────────────────────────────
-
-def register_user(client, username="testuser", email="test@example.com",
-                  password="TestPass123!", display_name="Test User"):
-    """Register a test user and return the full response object."""
-    return client.post("/api/auth/register", json={
-        "username": username,
-        "email": email,
-        "password": password,
-        "display_name": display_name,
-        "native_lang": "en",
-    })
+    with patch.object(database, "SessionLocal", lambda: db), \
+         patch.object(main_module, "SessionLocal", lambda: db):
+        from app.main import app
+        app.dependency_overrides[get_db] = override_get_db
+        with TestClient(app, raise_server_exceptions=False) as c:
+            yield c
+        app.dependency_overrides.clear()
 
 
-def get_auth_headers(client, username="testuser", email="test@example.com",
-                     password="TestPass123!"):
-    """Register (if needed) + login, return Bearer auth headers dict."""
-    register_user(client, username, email, password)
-    res = client.post("/api/auth/login", json={"email": email, "password": password})
-    token = res.json().get("access_token", "")
-    return {"Authorization": f"Bearer {token}"}
+# ── User query fixtures ───────────────────────────────────────────
 
-
-def _seed_admin(db):
-    """Insert admin user into test DB if not already present."""
-    from app.core.security import hash_password
-    from app.models.user import User, UserRole
-    existing = db.query(User).filter(User.email == "admin@learnwise.app").first()
-    if not existing:
-        admin = User(
-            username="admin",
-            email="admin@learnwise.app",
-            password_hash=hash_password("Admin@LearnWise2026"),
-            display_name="Admin",
-            native_lang="en",
-            role=UserRole.admin,
-        )
-        db.add(admin)
-        db.commit()
-
-
-def get_admin_headers(client, db):
-    """Seed admin and return Bearer admin auth headers."""
-    _seed_admin(db)
-    res = client.post("/api/auth/admin/login", json={
-        "email": "admin@learnwise.app",
-        "password": "Admin@LearnWise2026",
-    })
-    token = res.json().get("access_token", "")
-    return {"Authorization": f"Bearer {token}"}
+@pytest.fixture()
+def regular_user(db):
+    from app.models.user import User
+    return db.query(User).filter(User.email == "user@test.com").first()
 
 
 @pytest.fixture()
-def auth_headers(client):
-    import uuid as _uuid
-    uid = _uuid.uuid4().hex[:8]
-    return get_auth_headers(client, f"u{uid}", f"u{uid}@example.com", "TestPass123!")
+def admin_user(db):
+    from app.models.user import User
+    return db.query(User).filter(User.email == "admin@test.com").first()
+
+
+# ── Token fixtures ────────────────────────────────────────────────
+
+@pytest.fixture()
+def user_token(client):
+    resp = client.post("/api/auth/login", json={"email": "user@test.com", "password": "Test@1234"})
+    assert resp.status_code == 200, f"User login failed: {resp.text}"
+    return resp.json()["access_token"]
 
 
 @pytest.fixture()
-def admin_headers(client, db):
-    return get_admin_headers(client, db)
+def admin_token(client):
+    # Admin users must use the dedicated admin login endpoint
+    resp = client.post("/api/auth/admin/login", json={"email": "admin@test.com", "password": "Admin@1234"})
+    assert resp.status_code == 200, f"Admin login failed: {resp.text}"
+    return resp.json()["access_token"]
 
 
+@pytest.fixture()
+def auth_headers(user_token):
+    return {"Authorization": f"Bearer {user_token}"}
+
+
+@pytest.fixture()
+def admin_headers(admin_token):
+    return {"Authorization": f"Bearer {admin_token}"}

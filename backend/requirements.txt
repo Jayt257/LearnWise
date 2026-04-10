@@ -14,6 +14,7 @@ alembic>=1.13.0
 # ── Auth ──────────────────────────────────────────────────────
 python-jose[cryptography]>=3.3.0
 passlib[bcrypt]>=1.7.4
+bcrypt==4.0.1   # passlib is incompatible with bcrypt>=4.1 on Python 3.10
 
 # ── AI / ML ───────────────────────────────────────────────────
 groq>=0.11.0

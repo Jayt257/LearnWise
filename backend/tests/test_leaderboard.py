@@ -10,6 +10,19 @@ BUG EXPOSED: get_friends_leaderboard uses `or_` before it is imported
 
 import pytest
 
+def register_user(client, username, email, password):
+    return client.post("/api/auth/register", json={
+        "username": username, "email": email,
+        "password": password, "native_lang": "hi",
+    })
+
+def get_auth_headers(client, username, email, password):
+    resp = register_user(client, username, email, password)
+    if resp.status_code not in (200, 201):
+        resp = client.post("/api/auth/login", json={"email": email, "password": password})
+    token = resp.json().get("access_token", "")
+    return {"Authorization": f"Bearer {token}"}
+
 PAIR_ID = "hi-en"
 
 
@@ -25,9 +38,11 @@ class TestGlobalLeaderboard:
         # Start a pair and complete an activity to generate XP
         client.post(f"/api/progress/{PAIR_ID}/start", headers=auth_headers)
         client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
-            "activity_id": 1,
+            "activity_seq_id": 1,
             "activity_type": "lesson",
             "lang_pair_id": PAIR_ID,
+            "month_number": 1,
+            "block_number": 1,
             "score_earned": 75,
             "max_score": 100,
             "passed": True,
@@ -43,9 +58,11 @@ class TestGlobalLeaderboard:
         """Leaderboard entries have required fields."""
         client.post(f"/api/progress/{PAIR_ID}/start", headers=auth_headers)
         client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
-            "activity_id": 2,
+            "activity_seq_id": 2,
             "activity_type": "vocab",
             "lang_pair_id": PAIR_ID,
+            "month_number": 1,
+            "block_number": 1,
             "score_earned": 50,
             "max_score": 100,
             "passed": True,
@@ -60,24 +77,27 @@ class TestGlobalLeaderboard:
     def test_leaderboard_sorted_by_xp(self, client):
         """Leaderboard is sorted by XP descending."""
         # Create two users with different XP
-        from tests.conftest import get_auth_headers
         headers1 = get_auth_headers(client, "lb_user1", "lb1@test.com", "SecurePass123")
         headers2 = get_auth_headers(client, "lb_user2", "lb2@test.com", "SecurePass123")
 
         client.post(f"/api/progress/{PAIR_ID}/start", headers=headers1)
         client.post(f"/api/progress/{PAIR_ID}/complete", headers=headers1, json={
-            "activity_id": 10,
+            "activity_seq_id": 10,
             "activity_type": "lesson",
             "lang_pair_id": PAIR_ID,
+            "month_number": 1,
+            "block_number": 2,
             "score_earned": 100,
             "max_score": 100,
             "passed": True,
         })
         client.post(f"/api/progress/{PAIR_ID}/start", headers=headers2)
         client.post(f"/api/progress/{PAIR_ID}/complete", headers=headers2, json={
-            "activity_id": 10,
+            "activity_seq_id": 10,
             "activity_type": "lesson",
             "lang_pair_id": PAIR_ID,
+            "month_number": 1,
+            "block_number": 2,
             "score_earned": 50,
             "max_score": 100,
             "passed": True,
@@ -115,9 +135,11 @@ class TestFriendsLeaderboard:
         """User appears in their own friends leaderboard."""
         client.post(f"/api/progress/{PAIR_ID}/start", headers=auth_headers)
         client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
-            "activity_id": 1,
+            "activity_seq_id": 1,
             "activity_type": "lesson",
             "lang_pair_id": PAIR_ID,
+            "month_number": 1,
+            "block_number": 1,
             "score_earned": 60,
             "max_score": 100,
             "passed": True,

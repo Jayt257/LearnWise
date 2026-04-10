@@ -12,7 +12,7 @@ const OPTION_LABELS = ['A', 'B', 'C', 'D', 'E'];
 export default function DynamicQuiz({ question, index, answer, onChange, showResult = false }) {
   if (!question) return null;
 
-  const qType = question.questionType || question.type || 'short_answer';
+  const qType = question.questionType || question.type;
   const qid = question.questionId || question.id || `q_${index}`;
 
   return (
@@ -55,6 +55,10 @@ export default function DynamicQuiz({ question, index, answer, onChange, showRes
       {qType === 'matching' && (
         <MatchingRenderer qid={qid} pairs={question.matchingPairs} answer={answer} onChange={onChange} />
       )}
+      {/* Fallback: if questionType is missing or unrecognized → short answer textarea */}
+      {!qType || !['mcq','multiple_choice','true_false','fill_blank','fill_in_blank','short_answer','open','matching'].includes(qType) ? (
+        <ShortAnswerRenderer qid={qid} answer={answer} onChange={onChange} placeholder={question.placeholder || 'Type your answer...'} />
+      ) : null}
     </div>
   );
 }

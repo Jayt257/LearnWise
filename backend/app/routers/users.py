@@ -101,7 +101,8 @@ def get_user_progress_public(
                 "lang_pair_id": p.lang_pair_id,
                 "total_xp": p.total_xp,
                 "current_month": p.current_month,
-                "current_week": p.current_week,
+                "current_block": p.current_block,
+                "current_activity_id": p.current_activity_id,
             }
             for p in progress_records
         ]
