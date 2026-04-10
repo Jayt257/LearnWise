@@ -547,24 +547,46 @@ def create_language(req: CreateLanguagePairRequest, admin: User = Depends(requir
         total_months=3, blocks_per_month=6
     )
     content_service.write_meta(pair_id, meta)
-    
-    # Immediately scaffold the physical JSON files
-    for m in meta.get("months", []):
-        for b in m.get("blocks", []):
-            for a in b.get("activities", []):
-                template = _make_template(a["type"], pair_id, m["month"], b["block"])
-                content_service.write_activity(pair_id, a["file"], template)
-                
     return {"message": f"Language pair '{pair_id}' created successfully", "pair_id": pair_id}
 
 
 @router.delete("/languages/{pair_id}")
-def delete_language(pair_id: str, admin: User = Depends(require_admin)):
+def delete_language(pair_id: str, admin: User = Depends(require_admin), db: Session = Depends(get_db)):
     pairs = content_service.get_all_pairs()
     if not any(p["pairId"] == pair_id for p in pairs):
         raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found.")
+
+    # 1. Count what we're about to remove (for the response message)
+    completions_count = db.query(ActivityCompletion).filter(
+        ActivityCompletion.lang_pair_id == pair_id
+    ).count()
+    progress_count = db.query(UserLanguageProgress).filter(
+        UserLanguageProgress.lang_pair_id == pair_id
+    ).count()
+
+    # 2. Delete all activity completion records for this pair
+    db.query(ActivityCompletion).filter(
+        ActivityCompletion.lang_pair_id == pair_id
+    ).delete(synchronize_session=False)
+
+    # 3. Delete all user language progress rows for this pair
+    db.query(UserLanguageProgress).filter(
+        UserLanguageProgress.lang_pair_id == pair_id
+    ).delete(synchronize_session=False)
+
+    db.commit()
+
+    # 4. Delete the filesystem content + remove from language_pairs.json
     content_service.delete_pair(pair_id)
-    return {"message": f"Language pair '{pair_id}' deleted successfully"}
+
+    return {
+        "message": f"Language pair '{pair_id}' deleted successfully",
+        "purged": {
+            "activity_completions": completions_count,
+            "user_progress_records": progress_count,
+        }
+    }
+
 
 
 # ── Content ────────────────────────────────────────────────────
@@ -662,13 +684,6 @@ def add_month(pair_id: str, admin: User = Depends(require_admin)):
     """Add a new month (with 6 blocks) to an existing language pair. Updates meta.json."""
     try:
         meta = content_service.add_month(pair_id)
-        # Scaffold the physical JSON files for the new month
-        new_month = meta["months"][-1]
-        for b in new_month.get("blocks", []):
-            for a in b.get("activities", []):
-                template = _make_template(a["type"], pair_id, new_month["month"], b["block"])
-                content_service.write_activity(pair_id, a["file"], template)
-                
         return {"message": "New month added successfully", "total_months": meta["totalMonths"]}
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail=f"Language pair '{pair_id}' not found")
@@ -682,14 +697,6 @@ def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
     try:
         meta = content_service.add_block(pair_id, month)
         month_data = next((m for m in meta["months"] if m["month"] == month), None)
-        
-        # Scaffold the physical JSON files for the new block
-        if month_data and month_data["blocks"]:
-            new_block = month_data["blocks"][-1]
-            for a in new_block.get("activities", []):
-                template = _make_template(a["type"], pair_id, month, new_block["block"])
-                content_service.write_activity(pair_id, a["file"], template)
-                
         return {
             "message": f"New block added to month {month}",
             "total_blocks": len(month_data["blocks"]) if month_data else 0
