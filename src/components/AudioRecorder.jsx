@@ -20,7 +20,7 @@
  *   label?: string               — e.g. "Record pronunciation"
  */
 import React, { useState, useRef } from 'react';
-import { Mic, MicOff, Loader, Play, Pause, RotateCcw, CheckCircle } from 'lucide-react';
+import { Mic, MicOff, Loader, RotateCcw, CheckCircle } from 'lucide-react';
 import client from '../api/client.js';
 
 export default function AudioRecorder({ onResult, expectedText, disabled, label }) {
@@ -29,7 +29,6 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
   const [transcript, setTranscript] = useState('');
   const [confidence, setConfidence] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
-  const [isPlaying, setIsPlaying] = useState(false);
   const [typedAnswer, setTypedAnswer] = useState('');
 
   const mediaRecorder = useRef(null);
@@ -118,22 +117,6 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
     }
   };
 
-  const togglePlayback = () => {
-    if (!audioUrl.current) return;
-    if (!audioEl.current) {
-      audioEl.current = new Audio(audioUrl.current);
-      audioEl.current.onended = () => setIsPlaying(false);
-    }
-    if (isPlaying) {
-      audioEl.current.pause();
-      setIsPlaying(false);
-    } else {
-      audioEl.current.currentTime = 0;
-      audioEl.current.play();
-      setIsPlaying(true);
-    }
-  };
-
   const confirmTranscript = () => {
     onResult(transcript);
   };
@@ -143,7 +126,6 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
     if (audioUrl.current) { URL.revokeObjectURL(audioUrl.current); audioUrl.current = null; }
     setTranscript('');
     setConfidence(null);
-    setIsPlaying(false);
     setState('idle');
   };
 
@@ -151,32 +133,18 @@ export default function AudioRecorder({ onResult, expectedText, disabled, label 
   if (state === 'review') {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-        {/* Playback bar */}
+        {/* Native Audio Player */}
         <div style={{
-          display: 'flex', alignItems: 'center', gap: '0.75rem',
           padding: '0.75rem 1rem',
           background: 'rgba(16,185,129,0.08)',
           border: '1px solid rgba(16,185,129,0.25)',
           borderRadius: 'var(--radius-md)',
         }}>
-          <button type="button" onClick={togglePlayback}
-            style={{ width: 36, height: 36, borderRadius: '50%', border: 'none', cursor: 'pointer',
-              background: 'var(--color-success)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            {isPlaying ? <Pause size={16} color="#fff" /> : <Play size={16} color="#fff" />}
-          </button>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', marginBottom: '0.25rem' }}>
-              Your Recording {confidence !== null && `· Confidence: ${Math.round(confidence * 100)}%`}
-            </div>
-            {/* Audio waveform bar (visual only) */}
-            <div style={{ height: 4, background: 'var(--color-border)', borderRadius: 2, overflow: 'hidden' }}>
-              <div style={{ height: '100%', width: isPlaying ? '100%' : '0%', background: 'var(--color-success)', transition: 'width 0.1s linear' }} />
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+            <span style={{ fontSize: '0.8rem', color: 'var(--color-success)', fontWeight: 600 }}>🎤 Your Recording</span>
+            {confidence !== null && <span style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>Confidence: {Math.round(confidence * 100)}%</span>}
           </div>
-          <button type="button" onClick={reRecord} title="Re-record"
-            style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-text-muted)' }}>
-            <RotateCcw size={16} />
-          </button>
+          <audio controls src={audioUrl.current} style={{ width: '100%', height: '40px', outline: 'none' }} />
         </div>
 
         {/* Whisper transcript block */}
