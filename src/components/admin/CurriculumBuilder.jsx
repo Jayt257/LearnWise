@@ -123,16 +123,31 @@ export default function CurriculumBuilder({ onError, onSuccess }) {
     e.preventDefault();
     try {
       const template = activityTypes?.templates?.[activityForm.type] || {};
-      await createActivity(selectedPair, activityForm.path, template);
+      try {
+        await createActivity(selectedPair, activityForm.path, template);
+      } catch (fileErr) {
+        const status = fileErr?.response?.status;
+        if (status === 409) {
+          // File already exists on disk — that's fine, just re-register it in meta.json
+          console.warn('File already exists on disk, re-linking in meta.json:', activityForm.path);
+        } else {
+          throw fileErr; // real error, re-throw
+        }
+      }
       const newMeta = JSON.parse(JSON.stringify(meta));
       const m = newMeta.months.find(x => x.month === targetBlock.month);
       const b = m.blocks.find(x => x.block === targetBlock.block);
-      b.activities.push({
-        id: (b.activities.length + 1),
-        type: activityForm.type,
-        file: activityForm.path,
-        xp: 50,
-      });
+      // Only add if not already present to avoid duplicates
+      const alreadyInMeta = b.activities.some(a => a.file === activityForm.path);
+      if (!alreadyInMeta) {
+        b.activities.push({
+          id: (b.activities.reduce((max, a) => Math.max(max, a.id || 0), 0) + 1),
+          type: activityForm.type,
+          file: activityForm.path,
+          xp: activityForm.type === 'test' ? 150 : 50,
+        });
+      }
+
       await updateMeta(selectedPair, newMeta);
       onSuccess(`Created activity ${activityForm.path}`);
       setShowActivityModal(false);
