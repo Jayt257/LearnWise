@@ -1,0 +1,177 @@
+{
+  "activityId": "ja_en_M1B2_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Write Your Self-Introduction",
+  "learningGoal": "The learner will write a 3-4 sentence self-introduction in Japanese, stating their name, nationality, and occupation using the 'A wa B desu' pattern.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B2_lesson_001",
+    "ja_en_M1B2_reading_001"
+  ],
+  "instructions": "It is your turn to introduce yourself! Write a short introduction in Japanese. You must include the opening greeting ('Hajimemashite'), your name, your nationality (make one up if you want, e.g. 'Amerika-jin' or 'Igirisu-jin'), your occupation, and the closing greeting ('Yoroshiku onegaishimasu').",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember to use the particle 'wa' (は) and end your statements with 'desu' (です)."
+    }
+  ],
+  "writingPrompt": "Write a complete self-introduction containing at least 4 sentences.",
+  "promptGoal": "To demonstrate the ability to construct 'A wa B desu' sentences independently to convey personal identity.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "はじめまして",
+      "transliteration": "Hajimemashite",
+      "baseTranslation": "Nice to meet you",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "わたし",
+      "transliteration": "Watashi",
+      "baseTranslation": "I / me",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "は",
+      "transliteration": "wa (written as ha)",
+      "baseTranslation": "topic particle",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "です",
+      "transliteration": "desu",
+      "baseTranslation": "is / am / are",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "じん",
+      "transliteration": "jin",
+      "baseTranslation": "person (nationality)",
+      "partOfSpeech": "suffix"
+    },
+    {
+      "targetText": "がくせい",
+      "transliteration": "Gakusei",
+      "baseTranslation": "Student",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "よろしく おねがいします",
+      "transliteration": "Yoroshiku onegaishimasu",
+      "baseTranslation": "Please treat me well",
+      "partOfSpeech": "greeting"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Nice to meet you.",
+    "Sentence 2: As for me, [Name] it is.",
+    "Sentence 3: As for me, [Country]-person it is. (You can drop 'Watashi wa' if it's obvious).",
+    "Sentence 4: Please treat me well."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "はじめまして。わたしは ジョンです。イギリスじんです。がくせいです。よろしく おねがいします。",
+      "transliteration": "Hajimemashite. Watashi wa Jon desu. Igirisu-jin desu. Gakusei desu. Yoroshiku onegaishimasu.",
+      "baseTranslation": "Nice to meet you. I am John. I am British. I am a student. Please treat me well.",
+      "qualityLevel": "excellent",
+      "annotation": "Uses all required elements perfectly with correct particles and formal verbs."
+    },
+    {
+      "targetText": "はじめまして。わたしは サラです。カナダじんです。せんせいです。よろしく おねがいします。",
+      "transliteration": "Hajimemashite. Watashi wa Sara desu. Kanada-jin desu. Sensei desu. Yoroshiku onegaishimasu.",
+      "baseTranslation": "Nice to meet you. I am Sarah. I am Canadian. I am a teacher. Please treat me well.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly structured self-introduction replacing student with teacher."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Greeting Usage",
+      "weight": 25,
+      "description": "Did the learner start with Hajimemashite and end with Yoroshiku onegaishimasu?"
+    },
+    {
+      "criterion": "Grammar Accuracy",
+      "weight": 50,
+      "description": "Are the sentences formed correctly using 'wa' and 'desu'?"
+    },
+    {
+      "criterion": "Content Inclusion",
+      "weight": 25,
+      "description": "Did the learner include name, nationality, and occupation?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "はじめまして。わたしは アレックスです。アメリカじんです。がくせいです。よろしく おねがいします。",
+    "acceptableAlternates": [
+      "Any correctly formed paragraph that uses 'watashi wa [name] desu', '[country] jin desu', and '[occupation] desu'."
+    ],
+    "requiredKeywords": [
+      "はじめまして",
+      "わたしは",
+      "です",
+      "じん",
+      "よろしく おねがいします"
+    ],
+    "grammarBaseline": "A wa B desu",
+    "lengthExpectation": "4 to 5 short sentences.",
+    "scoringRubric": {
+      "greeting": 25,
+      "grammar": 50,
+      "content": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! Your self-introduction is clear, polite, and grammatically correct.",
+    "onFail": "Please review the examples. Make sure you are ending your sentences with 'desu'.",
+    "onPartial": "Good try! Make sure you didn't forget the opening or closing greetings, which are crucial in Japanese."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "introductions",
+    "identity",
+    "grammar",
+    "beginner",
+    "month1",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Once you state 'Watashi wa' in the first sentence, you can drop it in the next sentences because the topic (you) is already understood.",
+  "commonMistakes": [
+    "Forgetting to add 'jin' to the country name.",
+    "Using 'ha' instead of 'wa' for the topic particle when writing in romaji (if typing)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M1B5_test_8",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Test: Adjectives and Pronoun Conjugation",
+  "learningGoal": "Evaluate mastery of the verb 'Hona' across pronouns, plural demonstratives, and noun-adjective gender agreement.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B5_lesson_1",
+    "hi_en_M1B5_pronunciation_2",
+    "hi_en_M1B5_reading_3",
+    "hi_en_M1B5_writing_4",
+    "hi_en_M1B5_listening_5",
+    "hi_en_M1B5_vocabulary_6",
+    "hi_en_M1B5_speaking_7"
+  ],
+  "instructions": "This block test will check the most critical grammar in the Hindi language: verb agreement and adjective endings. Think carefully about gender and formality before answering.",
+  "testTitle": "A is B Grammar Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_verbs",
+      "sectionTitle": "Verb Conjugation",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "Fill in the blank: मैं एक लड़का _____ । (Main ek ladka ____.) - I am a boy.",
+          "questionType": "multiple_choice",
+          "options": [
+            "hoon (हूँ)",
+            "hai (है)",
+            "ho (हो)"
+          ],
+          "questionHints": {
+            "targetText": "hoon (हूँ)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "Fill in the blank: तुम कैसे _____ ? (Tum kaise ____?) - How are you (informal)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ho (हो)",
+            "hain (हैं)",
+            "hai (है)"
+          ],
+          "questionHints": {
+            "targetText": "ho (हो)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_adjectives",
+      "sectionTitle": "Adjective Agreement & Plurals",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "If 'Kitaab' (Book) is feminine, how do you say 'The book is big'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Kitaab badi hai. (किताब बड़ी है।)",
+            "Kitaab bada hai. (किताब बड़ा है।)",
+            "Kitaab bade hai. (किताब बड़े है।)"
+          ],
+          "questionHints": {
+            "targetText": "Kitaab badi hai. (किताब बड़ी है।)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "How do you say 'These are cars'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Ye gaadiyaan hain.",
+            "Yeh gaadiyaan hai.",
+            "Ve gaadiyaan hain."
+          ],
+          "questionHints": {
+            "targetText": "Ye gaadiyaan hain.",
+            "transliteration": "Ye gaadiyaan hain.",
+            "baseTranslation": "These are cars."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: आप बहुत अच्छे हैं। (Aap bahut achchhe hain.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "You are very good.",
+            "transliteration": "Aap bahut achchhe hain.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "hoon (हूँ)",
+      "tq_2": "ho (हो)",
+      "tq_3": "Kitaab badi hai. (किताब बड़ी है।)",
+      "tq_4": "Ye gaadiyaan hain.",
+      "tq_5": "You are very good."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'You are very nice' or 'You are good'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Outstanding! You have mastered the absolute core grammar of Hindi.",
+    "onFail": "Review Section 1 of the lesson very carefully. The pronoun MUST match the verb.",
+    "onPartial": "Good effort. Remember that feminine nouns always take adjectives ending in 'i'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block5",
+    "grammar",
+    "verb_to_be",
+    "adjectives"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Plural demonstratives (Ye, Ve) and Formal Pronouns (Aap) ALWAYS take the plural verb 'hain'.",
+  "commonMistakes": [
+    "Picking 'Yeh gaadiyaan hain' instead of 'Ye' (mixing singular demonstrative with plural verb)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B6_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

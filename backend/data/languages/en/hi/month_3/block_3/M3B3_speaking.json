@@ -1,0 +1,188 @@
+{
+  "activityId": "hi_en_M3B3_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Speaking: Confessions and Accusations",
+  "learningGoal": "Verbally deploy compound verbs to express completion and suddenness, while correctly dropping the compound in negative replies.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B3_vocabulary_6",
+    "hi_en_M3B3_listening_5"
+  ],
+  "instructions": "Roleplay an argument with your sibling. Accuse them of doing things using compound verbs (ate up, broke). When defending yourself, use negative sentences (remember the negative rule!).",
+  "speakingPrompt": "Respond to your sibling's accusations.",
+  "scenario": "An argument over a broken laptop and a missing pizza.",
+  "role": "Sibling 1",
+  "conversationPartner": "Sibling 2",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Sibling 2: 'Who ate the pizza?' Accuse them: 'You ate up the pizza!' (You = Tumne, Ate up = Kha liya)",
+      "expectedSpeakingPoints": [
+        "Tumne",
+        "pizza",
+        "kha liya"
+      ],
+      "sampleResponse": {
+        "targetText": "तुमने पिज़्ज़ा खा लिया!",
+        "transliteration": "Tumne pizza kha liya!",
+        "baseTranslation": "You ate up the pizza!"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Sibling 2: 'No I didn't! Did you break my laptop?' Defend yourself using a negative: 'I did not break your laptop.' (I = Maine, Your laptop = Tumhara laptop, Did not break = Nahi toda - DO NOT USE DAALA)",
+      "expectedSpeakingPoints": [
+        "Maine",
+        "tumhara laptop",
+        "nahi toda"
+      ],
+      "sampleResponse": {
+        "targetText": "मैंने तुम्हारा लैपटॉप नहीं तोड़ा।",
+        "transliteration": "Maine tumhara laptop nahi toda.",
+        "baseTranslation": "I did not break your laptop."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Sibling 2: 'Then how is it broken?' Tell them what happened: 'It suddenly fell down.' (It = Yeh, Suddenly = Achanak, Fell down = Gir pada)",
+      "expectedSpeakingPoints": [
+        "Yeh",
+        "achanak",
+        "gir pada"
+      ],
+      "sampleResponse": {
+        "targetText": "यह अचानक गिर पड़ा।",
+        "transliteration": "Yeh achanak gir pada.",
+        "baseTranslation": "It suddenly fell down."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Sibling 2 starts crying. Tell them: 'Don't cry. I will bring a new one.' (Don't cry = Mat ro, I = Main, New = Naya, Will bring = Le aaunga)",
+      "expectedSpeakingPoints": [
+        "Mat ro",
+        "main naya",
+        "le aaunga"
+      ],
+      "sampleResponse": {
+        "targetText": "मत रो। मैं नया ले आऊँगा।",
+        "transliteration": "Mat ro. Main naya le aaunga.",
+        "baseTranslation": "Don't cry. I will bring a new one."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप अपने भाई/बहन से बहस कर रहे हैं।",
+    "transliteration": "Aap apne bhai/behan se bahas kar rahe hain.",
+    "baseTranslation": "You are arguing with your brother/sister."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "तुमने पिज़्ज़ा खा लिया!",
+      "transliteration": "Tumne pizza kha liya!",
+      "baseTranslation": "You ate up the pizza!"
+    },
+    {
+      "targetText": "मैंने तुम्हारा लैपटॉप नहीं तोड़ा।",
+      "transliteration": "Maine tumhara laptop nahi toda.",
+      "baseTranslation": "I did not break your laptop."
+    },
+    {
+      "targetText": "यह अचानक गिर पड़ा।",
+      "transliteration": "Yeh achanak gir pada.",
+      "baseTranslation": "It suddenly fell down."
+    },
+    {
+      "targetText": "मत रो। मैं नया ले आऊँगा।",
+      "transliteration": "Mat ro. Main naya le aaunga.",
+      "baseTranslation": "Don't cry. I will bring a new one."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "kha liya",
+      "nahi toda",
+      "gir pada",
+      "le aaunga"
+    ],
+    "requiredKeywords": [
+      "खा लिया",
+      "नहीं तोड़ा",
+      "गिर पड़ा",
+      "ले आऊँगा"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Gir gaya' instead of 'Gir pada' is acceptable, though 'pada' is better for suddenness."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Negative Compound Error",
+          "weight": 100,
+          "description": "If user says 'Maine nahi tod daala', deduct heavily. They must drop the 'daala' because it's a negative sentence."
+        },
+        {
+          "name": "Vector Matching",
+          "weight": 50,
+          "description": "If user says 'Kha diya', deduct points. Eating is for self-benefit, so it must be 'Kha liya'."
+        }
+      ]
+    },
+    "sampleAnswer": "Tumne pizza kha liya! Maine tumhara laptop nahi toda. Yeh achanak gir pada. Mat ro. Main naya le aaunga.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Incredible! You handled the nuances of inward action (liya), sudden action (pada), and the negative rule flawlessly.",
+    "onFail": "Review Section 6 of the lesson. You cannot use 'Daala' or 'Liya' when saying 'Nahi'. It must be 'Nahi toda'.",
+    "onPartial": "Good try. Watch out for 'Kha liya'. Because you eat food into your own body, the vector verb must be 'Lena' (took), never 'Dena' (gave)."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "तुमने पिज़्ज़ा खा लिया! मैंने तुम्हारा लैपटॉप नहीं तोड़ा। यह अचानक गिर पड़ा। मत रो। मैं नया ले आऊँगा।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "compound_verbs",
+    "vector_verbs",
+    "negative_rule",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak Sentence 2 with confidence. Just use the simple verb: 'Nahi toda'. Do not complicate it.",
+  "commonMistakes": [
+    "Saying 'Nahi tod daala'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B3_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

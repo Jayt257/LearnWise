@@ -1,0 +1,213 @@
+{
+  "activityId": "en_hi_M1B5_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "Hearing the 'S': Morning Habits",
+  "learningGoal": "The learner will accurately extract routine-based verbs from native-speed audio, specifically detecting the presence or absence of the third-person '-s' / '-es' suffix.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B5_writing_001"],
+  "instructions": "Listen to a young woman, Priya, talking about her daily routine and her dog's daily routine. Listen very carefully to the Verbs (action words). When she talks about herself, hear how clean the verb ends. When she talks about her dog ('It'), listen for the buzzing 'Z' or sharp 'S'. Answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "The audio is at native speed. Use the Slow track if you have trouble hearing the trailing 's' sounds."
+    }
+  ],
+  "listeningGoal": "Accurately parse auditory cues to recognize structural grammatical changes (bare root vs 's' suffix) mapped to the subject of the sentence.",
+  "audioScenario": "Priya is recording a video for her English class talking about what she and her dog do every morning.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hi everyone. My name is Priya.",
+      "transliteration": "हाय एवरीवन। माई नेम इज़ प्रिया।",
+      "baseTranslation": "सभी को नमस्ते। मेरा नाम प्रिया है।"
+    },
+    {
+      "targetText": "I wake up at six in the morning.",
+      "transliteration": "आई वेक अप ऐट सिक्स इन द मॉर्निंग।",
+      "baseTranslation": "मैं सुबह छह बजे उठती हूँ।"
+    },
+    {
+      "targetText": "I walk to the kitchen. I drink water.",
+      "transliteration": "आई वॉक टू द किचन। आई ड्रिंक वाटर।",
+      "baseTranslation": "मैं रसोई में जाती हूँ। मैं पानी पीती हूँ।"
+    },
+    {
+      "targetText": "Then, my dog wakes up.",
+      "transliteration": "देन, माई डॉग वेक्स अप।",
+      "baseTranslation": "फिर, मेरा कुत्ता उठता है।"
+    },
+    {
+      "targetText": "His name is Max. Max runs to the door.",
+      "transliteration": "हिज़ नेम इज़ मैक्स। मैक्स रन्स टू द डोर।",
+      "baseTranslation": "उसका नाम मैक्स है। मैक्स दरवाजे की ओर दौड़ता है।"
+    },
+    {
+      "targetText": "I open the door. Max goes outside.",
+      "transliteration": "आई ओपन द डोर। मैक्स गोज़ आउटसाइड।",
+      "baseTranslation": "मैं दरवाजा खोलती हूँ। मैक्स बाहर जाता है।"
+    },
+    {
+      "targetText": "He plays in the garden.",
+      "transliteration": "ही प्लेज़ इन द गार्डन।",
+      "baseTranslation": "वह बगीचे में खेलता है।"
+    },
+    {
+      "targetText": "I eat an egg for breakfast.",
+      "transliteration": "आई ईट ऐन एग फॉर ब्रेकफ़ास्ट।",
+      "baseTranslation": "मैं नाश्ते में एक अंडा खाती हूँ।"
+    },
+    {
+      "targetText": "Max eats dog food.",
+      "transliteration": "मैक्स ईट्स डॉग फूड।",
+      "baseTranslation": "मैक्स कुत्ते का खाना खाता है।"
+    },
+    {
+      "targetText": "I wash my face. Then, I go to school.",
+      "transliteration": "आई वॉश माई फेस। देन, आई गो टू स्कूल।",
+      "baseTranslation": "मैं अपना मुँह धोती हूँ। फिर, मैं स्कूल जाती हूँ।"
+    },
+    {
+      "targetText": "Max sleeps on the bed. He sleeps all day.",
+      "transliteration": "मैक्स स्लीप्स ऑन द बेड। ही स्लीप्स ऑल डे।",
+      "baseTranslation": "मैक्स बिस्तर पर सोता है। वह सारा दिन सोता है।"
+    }
+  ],
+  "audioTranscriptFull": "Priya: Hi everyone. My name is Priya.\nPriya: I wake up at six in the morning.\nPriya: I walk to the kitchen. I drink water.\nPriya: Then, my dog wakes up.\nPriya: His name is Max. Max runs to the door.\nPriya: I open the door. Max goes outside.\nPriya: He plays in the garden.\nPriya: I eat an egg for breakfast.\nPriya: Max eats dog food.\nPriya: I wash my face. Then, I go to school.\nPriya: Max sleeps on the bed. He sleeps all day.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What exact phrase does Priya use when she talks about waking up?",
+      "questionType": "multiple_choice",
+      "options": ["I wakes up", "I wake up", "I am wake up", "I waking up"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What exact phrase does Priya use for her dog waking up?",
+      "questionType": "multiple_choice",
+      "options": ["My dog wake up", "My dog wakes up", "My dog is wake up", "My dog waking up"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Did Priya say 'I drink water' or 'I drinks water'?",
+      "questionType": "multiple_choice",
+      "options": ["I drink water", "I drinks water"],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Where does Max run to?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "How does she say Max goes output? Does she say 'Max go' or 'Max goes'?",
+      "questionType": "multiple_choice",
+      "options": ["Max go", "Max goes", "Max going"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "What does Priya eat for breakfast?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Does she say 'I wash my face' (1 syllable for wash) or 'I washes my face' (2 syllables)?",
+      "questionType": "multiple_choice",
+      "options": ["I wash my face", "I washes my face"],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "What does Max do all day?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for Q1, Q2, Q3, Q5, Q7. Grammar detection is binary."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "I wake up",
+      "q2": "My dog wakes up",
+      "q3": "I drink water",
+      "q4": "The door",
+      "q5": "Max goes",
+      "q6": "An egg",
+      "q7": "I wash my face",
+      "q8": "He sleeps"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["Door", "door", "To the door", "the door"],
+      "q6": ["Egg", "egg", "an egg"],
+      "q8": ["Sleep", "sleeps", "Sleeps on the bed", "sleep"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["door"],
+      "q6": ["egg"],
+      "q8": ["sleep", "sleeps"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You were able to hear when the audio appended an 'S' suffix versus when it used the bare root verb.",
+    "onFail": "Keep trying! Slow the audio down. Listen to how Priya never uses an 's' for herself ('I wake up'), but always uses an 's' for her dog ('He sleeps').",
+    "onPartial": "Good ear! You caught most of it. But remember, the dog ('Max') counts as a 'He' or 'It', so the verbs for the dog ALWAYS take an 'S'. 'Max goes'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b5/listening/habits_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b5/listening/habits_slow.mp3",
+    "normalAudio": "audio/en_hi/m1/b5/listening/habits_native.mp3",
+    "audioTranscript": "Priya: Hi everyone. My name is Priya... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "verbs", "s-suffix", "routines", "beginner", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b5/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the subject is 'I', the verb will never have an 's'. You will only hear that buzzing 'z' sound when she talks about 'Max' (the dog).",
+  "commonMistakes": [
+    "Thinking Priya says 'I washes my face'.",
+    "Missing the 'z' sound at the end of 'plays'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B5_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

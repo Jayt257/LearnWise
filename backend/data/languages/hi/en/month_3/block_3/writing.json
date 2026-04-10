@@ -1,0 +1,139 @@
+{
+  "activityId": "en_hi_M3B3_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Fixing the English",
+  "learningGoal": "The learner will replace L1 loan-translations (transitive mechanical actions like 'open the light') with the correct splittable phrasal verbs, asserting sociolinguistic correctness.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B3_reading_001"],
+  "instructions": "Oh no! A robot has translated 3 Hindi sentences directly into English word-for-word. It sounds terrible! 1. I open the TV. 2. I close the light. 3. I wear my shoes (to get dressed). Rewrite these sentences replacing the bad verbs with natural Phrasal Verbs!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Never use Open/Close for electronics. Use Turn on / Turn off. Never use 'Wear' as the action of taking a shoe and putting it on your foot. Use 'Put on'!"
+    }
+  ],
+  "writingPrompt": "Rewrite these 3 sentences: 1. I open the TV. 2. I close the light. 3. I wear my shoes.",
+  "promptGoal": "Test independent substitution of L1 direct-translation errors with the appropriately matched phrasal verbs.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Turn on",
+      "transliteration": "टर्न ऑन",
+      "baseTranslation": "चालू करना",
+      "partOfSpeech": "Phrasal Verb"
+    },
+    {
+      "targetText": "Turn off",
+      "transliteration": "टर्न ऑफ",
+      "baseTranslation": "बंद करना",
+      "partOfSpeech": "Phrasal Verb"
+    },
+    {
+      "targetText": "Put on",
+      "transliteration": "पुट ऑन",
+      "baseTranslation": "पहनना",
+      "partOfSpeech": "Phrasal Verb"
+    },
+    {
+      "targetText": "Take off",
+      "transliteration": "टेक ऑफ",
+      "baseTranslation": "उतारना",
+      "partOfSpeech": "Phrasal Verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (चालू करना): I [verb] [preposition] the TV.",
+    "Sentence 2 (बंद करना): I [verb] [preposition] the light.",
+    "Sentence 3 (पहनना): I [verb] [preposition] my shoes."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I turn on the TV. I turn off the light. I put on my shoes.",
+      "transliteration": "आई टर्न ऑन द टीवी। आई टर्न ऑफ द लाइट। आई पुट ऑन माई शूज़।",
+      "baseTranslation": "मैं टीवी चालू करता हूँ। मैं लाइट बंद करता हूँ। मैं अपने जूते पहनता हूँ।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner completely purged the direct L1 transitive translations ('open', 'close', 'wear') and substituted them with the correct phrasal units."
+    },
+    {
+      "targetText": "I open the TV. I turn the light. I put my shoes.",
+      "transliteration": "आई ओपन द टीवी। आई टर्न द लाइट। आई पुट माई शूज़।",
+      "baseTranslation": "व्याकरण की गंभीर गलतियाँ।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. They did not attach the prepositions/adverbs (off, on), fundamentally altering the semantic meaning ('turn the light', 'put my shoes'), and failed to correct the first sentence entirely."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Removal of Open/Close",
+      "weight": 40,
+      "description": "Did the user definitively replace 'open' with 'turn on' and 'close' with 'turn off'?"
+    },
+    {
+      "criterion": "Removal of Wear",
+      "weight": 40,
+      "description": "Did the user replace the state-of-being verb 'wear' with the active phrasal verb 'put on'?"
+    },
+    {
+      "criterion": "Target Completion",
+      "weight": 20,
+      "description": "Were all 3 sentences modified correctly?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I turn on the TV. I turn off the light. I put on my shoes.",
+    "acceptableAlternates": [
+      "I turn the TV on. I turn the light off. I put my shoes on."
+    ],
+    "requiredKeywords": ["turn on", "turn off", "put on"],
+    "grammarBaseline": "Absolute zero tolerance for 'open/close' applied to machinery or electronics.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "Fixed Open/Close": "40%",
+      "Fixed Wear": "40%",
+      "Finished all 3 sentences": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully destroyed the robot's bad English. You replaced the direct translations with native-sounding Phrasal Verbs!",
+    "onFail": "Please review your writing. Did you leave the words 'Open' or 'Close' in the sentence? English speakers NEVER 'Open' a TV. You MUST say 'Turn on'.",
+    "onPartial": "Good start! Double check Sentence 3. 'Wear' means the shoe is already on your foot. The action of taking the shoe and putting it on your foot is 'Put on'!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b3/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b3/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b3/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m3/b3/writing/prompt.mp3",
+    "audioTranscript": "Fix the sentences: I open the TV. I close the light. I wear my shoes.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "phrasal_verbs", "turn_on", "put_on", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b3/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Replace Open with Turn on. Replace Close with Turn off. Replace Wear with Put on.",
+  "commonMistakes": [
+    "Leaving out the prepositions (e.g., 'I turn the TV', which makes no sense).",
+    "Leaving the word 'wear' in place due to stubborn L1 mapping."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B3_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

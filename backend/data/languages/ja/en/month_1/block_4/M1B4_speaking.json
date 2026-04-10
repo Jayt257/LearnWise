@@ -1,0 +1,175 @@
+{
+  "activityId": "en_ja_M1B4_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Inviting a Friend",
+  "learningGoal": "Speak fluently about your age, birthday, and suggest a meeting time and date.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B4_vocabulary_6"
+  ],
+  "instructions": "友達を誕生日に誘うと想像してください。マイクに向かって、「私は30歳になります。私の誕生日は5月1日です。水曜日の7時半に会いましょう」と英語で伝えてください。(Imagine inviting a friend to your birthday. Speak into the microphone and say: 'I am 30 years old. My birthday is on May 1st. See you on Wednesday at 7:30.')",
+  "speakingPrompt": "Say to your friend: 'I am 30 years old. My birthday is on May 1st. See you on Wednesday at 7:30.'",
+  "scenario": "You are leaving a voice message for a friend inviting them to your birthday dinner.",
+  "role": "Birthday Host",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "State your age. (I am 30 years old.)",
+      "expectedSpeakingPoints": [
+        "I am 30",
+        "years old"
+      ],
+      "sampleResponse": {
+        "targetText": "I am thirty years old.",
+        "transliteration": "アイ アム サーティ イヤーズ オールド。",
+        "baseTranslation": "私は30歳です。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Say when your birthday is. (My birthday is on May 1st.)",
+      "expectedSpeakingPoints": [
+        "My birthday is",
+        "on May 1st"
+      ],
+      "sampleResponse": {
+        "targetText": "My birthday is on May 1st.",
+        "transliteration": "マイ バースデイ イズ オン メイ ファースト。",
+        "baseTranslation": "私の誕生日は5月1日です。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Say when you will meet. (See you on Wednesday at 7:30.)",
+      "expectedSpeakingPoints": [
+        "See you",
+        "on Wednesday",
+        "at 7:30"
+      ],
+      "sampleResponse": {
+        "targetText": "See you on Wednesday at 7:30.",
+        "transliteration": "シー ユー オン ウェンズデイ アット セヴン サーティ。",
+        "baseTranslation": "水曜日の7時30分に会いましょう。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hey, it's me. I got your message. What's the plan?",
+    "transliteration": "ヘイ、イッツ ミー。アイ ガット ユア メッセージ。ホワッツ ザ プラン？",
+    "baseTranslation": "やあ、私だよ。メッセージ見たよ。予定はどうなってる？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I am thirty years old.",
+      "transliteration": "アイ アム サーティ イヤーズ オールド。",
+      "baseTranslation": "私は30歳です。"
+    },
+    {
+      "targetText": "My birthday is on May 1st.",
+      "transliteration": "マイ バースデイ イズ オン メイ ファースト。",
+      "baseTranslation": "私の誕生日は5月1日です。"
+    },
+    {
+      "targetText": "See you on Wednesday at 7:30.",
+      "transliteration": "シー ユー オン ウェンズデイ アット セヴン サーティ。",
+      "baseTranslation": "水曜日の7時30分に会いましょう。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 20,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Stating age (thirty)",
+      "Using 'on' for date and day (on May 1st, on Wednesday)",
+      "Using 'at' for time (at 7:30)",
+      "Pronouncing 'first' correctly"
+    ],
+    "requiredKeywords": [
+      "thirty",
+      "birthday",
+      "May",
+      "first",
+      "Wednesday",
+      "seven",
+      "thirty"
+    ],
+    "acceptableParaphrases": [
+      "I'm thirty. My birthday is May first. See you Wednesday at seven thirty."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Prepositions",
+          "weight": 30,
+          "description": "Correct use of on/at."
+        },
+        {
+          "name": "Pronunciation of Numbers",
+          "weight": 30,
+          "description": "Clear distinction of 'thirty' and 'first'."
+        },
+        {
+          "name": "Content",
+          "weight": 40,
+          "description": "All three sentences conveyed."
+        }
+      ]
+    },
+    "sampleAnswer": "I am thirty years old. My birthday is on May first. See you on Wednesday at seven thirty.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent speaking! Your numbers and prepositions were clear and correct.",
+    "onFail": "Please try again. Remember: 'on May first' (not May one), and 'at seven thirty'.",
+    "onPartial": "Good effort! Pay close attention to your pronunciation of 'thirty'. Don't make it sound like 'thirteen'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B4_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M1B4_speaking_sample.mp3",
+    "slowAudio": "path/to/M1B4_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I am 30 years old. My birthday is on May 1st. See you on Wednesday at 7:30.",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "time",
+    "dates",
+    "numbers",
+    "prepositions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure to say 'first' (ファースト), not 'one' (ワン) for the date.",
+  "commonMistakes": [
+    "Saying 'May one' instead of 'May first'.",
+    "Saying 'at Wednesday' instead of 'on Wednesday'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B4_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

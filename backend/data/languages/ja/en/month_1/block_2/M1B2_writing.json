@@ -1,0 +1,183 @@
+{
+  "activityId": "en_ja_M1B2_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Introducing Yourself and a Friend",
+  "learningGoal": "Write descriptive sentences using 'I am' and 'He is / She is' correctly to state nationality and occupation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B2_reading_3"
+  ],
+  "instructions": "あなた自身と、あなたの友達（または有名人でも構いません）を紹介する文章を英語で書いてください。(Write sentences introducing yourself and a friend in English.)\n以下の情報を含めてください：\n1. あなたの名前、出身地、職業 (I am...)\n2. 友達の名前、出身地、職業 (He is... / She is...)",
+  "writingPrompt": "Write 4 to 6 sentences introducing yourself and one friend. Use 'I am' for yourself and 'He is' or 'She is' for your friend. Include names, where you are from, and your jobs.",
+  "promptGoal": "To construct basic SVO sentences correctly matching pronouns with 'be' verbs.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "I am from",
+      "transliteration": "アイ アム フロム",
+      "baseTranslation": "私は〜出身です",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "He is from",
+      "transliteration": "ヒー イズ フロム",
+      "baseTranslation": "彼は〜出身です",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "She is from",
+      "transliteration": "シー イズ フロム",
+      "baseTranslation": "彼女は〜出身です",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "a student",
+      "transliteration": "ア スチューデント",
+      "baseTranslation": "学生",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "a teacher",
+      "transliteration": "ア ティーチャー",
+      "baseTranslation": "先生",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "Japan",
+      "transliteration": "ジャパン",
+      "baseTranslation": "日本",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "America",
+      "transliteration": "アメリカ",
+      "baseTranslation": "アメリカ",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "「I」には「am」、「He / She」には「is」を使います。",
+    "職業の前には「a」をつけるのを忘れないでください（例：I am a student）。",
+    "国や人の名前の最初の文字は必ず大文字にします（例：Japan, Ken）。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I am Yuki. I am from Japan. I am a student. This is my friend. He is Tom. He is from America. He is a teacher.",
+      "transliteration": "アイ アム ユキ。アイ アム フロム ジャパン。アイ アム ア スチューデント。ディス イズ マイ フレンド。ヒー イズ トム。ヒー イズ フロム アメリカ。ヒー イズ ア ティーチャー。",
+      "baseTranslation": "私はユキです。私は日本出身です。私は学生です。こちらは私の友達です。彼はトムです。彼はアメリカ出身です。彼は先生です。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect matching of pronouns and 'be' verbs. Correct capitalization for names and countries."
+    },
+    {
+      "targetText": "I'm Ken. I'm from Japan. I'm a doctor. She is Sarah. She is from Canada. She's a student.",
+      "transliteration": "アイム ケン。アイム フロム ジャパン。アイム ア ドクター。シー イズ サラ。シー イズ フロム カナダ。シーズ ア スチューデント。",
+      "baseTranslation": "僕はケン。日本出身です。医者です。彼女はサラ。カナダ出身です。彼女は学生です。",
+      "qualityLevel": "good",
+      "annotation": "Uses contractions (I'm, She's) correctly, which is very natural."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Pronoun and Be-Verb Agreement",
+      "weight": 40,
+      "description": "Did the student correctly pair 'I' with 'am', and 'He/She' with 'is'?"
+    },
+    {
+      "criterion": "Task Completion",
+      "weight": 30,
+      "description": "Are both the student and a friend introduced with nationality and job?"
+    },
+    {
+      "criterion": "Capitalization and Punctuation",
+      "weight": 20,
+      "description": "Are names and countries capitalized? Do sentences end with a period?"
+    },
+    {
+      "criterion": "Article Usage",
+      "weight": 10,
+      "description": "Is the article 'a' or 'an' used before singular jobs?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I am [Name]. I am from Japan. I am a student. He is [Friend's Name]. He is from America. He is a teacher.",
+    "acceptableAlternates": [
+      "I'm [Name]. I'm from Japan. I am a doctor. She is [Friend's Name]. She's from Canada. She is a student."
+    ],
+    "requiredKeywords": [
+      "am",
+      "from",
+      "is"
+    ],
+    "grammarBaseline": "Must include correct pairing of Subject + Be Verb. Must have clear, separate sentences.",
+    "lengthExpectation": "4 to 8 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Be Verb Accuracy",
+          "weight": 40,
+          "description": "I am, He is, She is."
+        },
+        {
+          "name": "Information Included",
+          "weight": 30,
+          "description": "Name, country, job for two people."
+        },
+        {
+          "name": "Mechanics",
+          "weight": 30,
+          "description": "Capital letters and periods."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! You correctly used the 'be' verbs and introduced yourself clearly.",
+    "onFail": "Review your sentences. Did you use 'am' for 'I' and 'is' for 'He/She'? Make sure every sentence ends with a period.",
+    "onPartial": "Good effort. Don't forget to use 'a' before jobs (like 'a student')."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "pronouns",
+    "be_verb",
+    "introductions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use short, simple sentences. Don't try to make one long sentence.",
+  "commonMistakes": [
+    "Saying 'I am Japan' instead of 'I am from Japan'.",
+    "Saying 'He am' or 'He are'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

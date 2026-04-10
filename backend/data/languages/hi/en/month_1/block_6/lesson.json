@@ -1,0 +1,215 @@
+{
+  "activityId": "en_hi_M1B6_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "Placement Magic: Prepositions",
+  "learningGoal": "The learner will understand the structural inversion of English 'Pre-positions' compared to Hindi 'Post-positions' (e.g., 'House IN' vs 'IN the house') and correctly deploy 'In', 'On', and 'Under' within spatial contexts.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B5_test_001"],
+  "instructions": "In Hindi, you put the location word at the end: 'कार में' (Car IN). But in English, these are called PRE-positions. 'Pre' means 'Before'. You MUST put the location word BEFORE the noun. Read the rules to learn how to place things!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब आप यह बताना चाहते हैं कि कोई वस्तु कहाँ है, तो अंग्रेजी हिंदी से बिल्कुल उलट काम करती है। हिंदी में हम 'मेज़ पर' (Table On) कहते हैं। अंग्रेजी में, दिशा बताने वाला शब्द वस्तु के आगे बैठता है: 'On the table'। इसलिए इन्हें Pre-position (पहले आने वाली स्थिति) कहा जाता है!"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Hindi utilizes post-positions (Noun + Locator), while English uses pre-positions (Locator + Noun).",
+      "IN is used for enclosed spaces or containers (In the box, In the room).",
+      "ON is used for open surfaces (On the table, On the wall).",
+      "UNDER is used when something is directly beneath something else (Under the bed)."
+    ],
+    "conceptSummary": "Introduction to spatial prepositions (In/On/Under) focusing heavily on the syntactical flipping required for native Hindi speakers.",
+    "importantFacts": [
+      "Never map 'पर' to 'On' and 'में' to 'In' automatically in every scenario; context matters heavily (e.g., 'On time' vs 'समय पर'). But for physical objects, the mapping usually holds.",
+      "Articles (A / The) almost always sit between the preposition and the noun: IN + THE + BOX."
+    ],
+    "checkpointAnswers": {
+      "q1": "in",
+      "q2": "on the table",
+      "q3": "Under the bed.",
+      "q4": "False"
+    },
+    "expectedUnderstanding": "Learners will establish a new structural reflex, saying 'In the bag' instead of 'Bag in', and distinguish between enclosed spaces and surface areas."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand that English places the location word BEFORE the object. In the room, On the roof, Under the chair.",
+    "onFail": "Please review the section on 'Pre-positions'. Remember, never say 'The object is table on'. You must flip it: 'The object is ON the table.'",
+    "onPartial": "Good effort! Check your answers between 'In' and 'On'. 'In' means inside something like a box. 'On' means sitting on top of a surface like a desk."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b6/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m1/b6/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m1/b6/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m1/b6/lesson/native_lesson.mp3",
+    "audioTranscript": "In the box. On the table. Under the bed.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "prepositions", "locations", "in_on_under", "beginner", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b6/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Think 'PRE' = Before. Position = Place. The place word goes BEFORE the object! In + the + box.",
+  "commonMistakes": [
+    "Translating exactly from Hindi: 'The cat is the bed on'.",
+    "Confusing 'In' and 'On' for vehicles (We will learn vehicle exceptions later, stick to boxes and tables for now!)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B6_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "In, On, and Under",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Pre-positions vs Post-positions (पहले vs बाद में)",
+      "bodyText": "हिंदी में, आप 'पार्क में' कहते हैं। 'में' (In) अंत में आता है। लेकिन अंग्रेजी में, इन्हें PRE-positions कहा जाता है। 'Pre' का अर्थ है 'पहले'। इसलिए, आपको स्थान बताने वाले शब्द को वस्तु के ठीक पहले रखना होगा। 'पार्क में' अंग्रेजी में 'In the park' बन जाता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "In the park.",
+          "transliteration": "इन द पार्क।",
+          "baseTranslation": "पार्क में। (न कि 'The park in')"
+        },
+        {
+          "targetText": "On the table.",
+          "transliteration": "ऑन द टेबल।",
+          "baseTranslation": "मेज़ पर। (न कि 'The table on')"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Using 'In' (अंदर / में)",
+      "bodyText": "'In' का उपयोग तब करें जब कोई चीज़ किसी अन्य चीज़ के अंदर या किसी बंद जगह में हो। जैसे एक डिब्बे के अंदर, या एक कमरे के अंदर।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The ball is in the box.",
+          "transliteration": "द बॉल इज़ इन द बॉक्स।",
+          "baseTranslation": "गेंद डिब्बे में है।"
+        },
+        {
+          "targetText": "Rahul is in the room.",
+          "transliteration": "राहुल इज़ इन द रूम।",
+          "baseTranslation": "राहुल कमरे में है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Using 'On' (ऊपर / पर)",
+      "bodyText": "'On' का उपयोग तब करें जब कोई चीज़ किसी सतह (Surface) को छू रही हो। जैसे किसी मेज़ के ऊपर रखी किताब, या दीवार पर लटकी तस्वीर।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The book is on the table.",
+          "transliteration": "द बुक इज़ ऑन द टेबल।",
+          "baseTranslation": "किताब मेज़ पर है।"
+        },
+        {
+          "targetText": "The clock is on the wall.",
+          "transliteration": "द क्लॉक इज़ ऑन द वॉल।",
+          "baseTranslation": "घड़ी दीवार पर है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Using 'Under' (नीचे)",
+      "bodyText": "'Under' का उपयोग तब करें जब कोई चीज़ सीधे किसी अन्य चीज़ के नीचे हो। ठीक 'On' के विपरीत।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The cat is under the bed.",
+          "transliteration": "द कैट इज़ अंडर द बेड।",
+          "baseTranslation": "बिल्ली बिस्तर के नीचे है।"
+        },
+        {
+          "targetText": "My shoes are under the chair.",
+          "transliteration": "माई शूज आर अंडर द चेयर।",
+          "baseTranslation": "मेरे जूते कुर्सी के नीचे हैं।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec5",
+      "sectionTitle": "The Article Sandwich (बीच में 'The' या 'A')",
+      "bodyText": "लगभग हमेशा, आपको Preposition (In/On/Under) और Object (Box/Table) के बीच एक आर्टिकल (The या A) रखना होगा। उन्हें एक साथ मत जोड़ो!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am in the car.",
+          "transliteration": "आई एम इन द कार।",
+          "baseTranslation": "मैं कार में हूँ। (न कि 'In car')"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map Hindi post-positions to English pre-positions and execute accurate placement of spatial locators in SVO sentence structures.",
+  "examples": [
+    {
+      "targetText": "The pen is in the bag.",
+      "transliteration": "द पेन इज़ इन द बैग।",
+      "baseTranslation": "पेन थैले में है।",
+      "explanation": "Because the pen is enclosed inside the bag, we use 'In'. We place 'In' BEFORE 'the bag'."
+    },
+    {
+      "targetText": "The pen is on the book.",
+      "transliteration": "द पेन इज़ ऑन द बुक।",
+      "baseTranslation": "पेन किताब पर है।",
+      "explanation": "The pen is resting on the surface. We use 'On'. We place 'On' BEFORE 'the book'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never put the location word at the end of the phrase. It is 'On the desk', NEVER 'The desk on'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Remember the 'The' sandwich. Say 'In the box', not 'In box'.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "English uses PRE-positions. Place them BEFORE the object, not after it. 'In' is for inside spaces. 'On' is for touching surfaces. 'Under' is for things beneath other things. Always try to link them with an article: In + the + object.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Fill in the blank: The water is _____ the glass. (in / on)",
+      "expectedAnswer": "in"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Translate 'मेज़ पर' into English.",
+      "expectedAnswer": "on the table"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "A dog is hiding below a bed. What do you say?",
+      "expectedAnswer": "Under the bed."
+    },
+    {
+      "questionId": "q4",
+      "questionText": "True or False: In English, it is correct to say 'The house in'.",
+      "expectedAnswer": "False"
+    }
+  ]
+}

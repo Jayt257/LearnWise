@@ -1,0 +1,225 @@
+{
+  "activityId": "ja_en_M3B1_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "Conditional Forms: If and When",
+  "learningGoal": "The learner will master the '~tara' conditional form for general 'If/When' statements, and the '~to' conditional form for natural consequences.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M2B6_test_001"
+  ],
+  "instructions": "Welcome to Month 3! We are moving into advanced fluency. This block introduces conditional statements (If X happens, then Y will happen).",
+  "conceptTitle": "What if? The '~tara' Form",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "The '~tara' Form (Verbs)",
+      "bodyText": "The '~tara' form is the most common way to say 'If' or 'When' in Japanese. To make it, take the Plain Past Tense of a verb (the 'Ta-form') and add 'ra'. (Think of the Ta-form as identical to the Te-form, just with an 'a' instead of an 'e').",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべる -> たべた -> たべたら",
+          "transliteration": "Taberu -> Tabeta -> Tabetara",
+          "baseTranslation": "Eat -> Ate -> If/When I eat",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いく -> いった -> いったら",
+          "transliteration": "Iku -> Itta -> Ittara",
+          "baseTranslation": "Go -> Went -> If/When I go",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "あめが ふったら、いきません。",
+          "transliteration": "Ame ga futtara, ikimasen.",
+          "baseTranslation": "If it rains, I will not go. (Furu -> Futta -> Futtara)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "The '~tara' Form (Adjectives & Nouns)",
+      "bodyText": "You can also use '~tara' with adjectives and nouns. Take the plain past tense and add 'ra'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たかい -> たかかった -> たかかったら",
+          "transliteration": "Takai -> Takakatta -> Takakattara",
+          "baseTranslation": "If it is expensive (i-adjective)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ひま -> ひまだ -> ひまだったら",
+          "transliteration": "Hima -> Hima da -> Hima dattara",
+          "baseTranslation": "If you are free (na-adjective)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "やすかったら、かいます。",
+          "transliteration": "Yasukattara, kaimasu.",
+          "baseTranslation": "If it is cheap, I will buy it. (Yasui -> Yasukattara)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Negative '~tara' (If it doesn't...)",
+      "bodyText": "To say 'If it doesn't happen', take the Nai-form, change 'nai' to 'nakatta', and add 'ra'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いかない -> いかなかったら",
+          "transliteration": "Ikanai -> Ikanakattara",
+          "baseTranslation": "If you don't go",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "おいしくなかったら、たべません。",
+          "transliteration": "Oishikunakattara, tabemasen.",
+          "baseTranslation": "If it is not delicious, I will not eat it.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Natural Consequences: The '~to' Form",
+      "bodyText": "When an action naturally or mechanically causes a result, use the Dictionary Form + 'to' (instead of ~tara). This is used heavily for giving directions or explaining how machines work.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "この ボタンを おすと、ドアが あきます。",
+          "transliteration": "Kono botan wo osu to, doa ga akimasu.",
+          "baseTranslation": "If/When you push this button, the door opens. (Natural consequence)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "まっすぐ いくと、えきが あります。",
+          "transliteration": "Massugu iku to, eki ga arimasu.",
+          "baseTranslation": "If you go straight, the station is there. (Directional consequence)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will be able to form complex conditional sentences using '~tara' for hypothetical 'if' statements and '~to' for inevitable consequences.",
+  "examples": [
+    {
+      "targetText": "じかんが あったら、えいがを みます。",
+      "transliteration": "Jikan ga attara, eiga wo mimasu.",
+      "baseTranslation": "If I have time, I will watch a movie.",
+      "explanation": "Here, 'attara' comes from 'aru' (to exist/to have). It is a hypothetical condition."
+    },
+    {
+      "targetText": "はるに なると、さくらが さきます。",
+      "transliteration": "Haru ni naru to, sakura ga sakimasu.",
+      "baseTranslation": "When it becomes spring, cherry blossoms bloom.",
+      "explanation": "Here, 'to' is used because spring naturally and inevitably causes cherry blossoms to bloom."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Do NOT use '~to' for requests, permissions, or invitations.",
+      "exceptionNotes": "'Jikan ga aru to, kite kudasai' is WRONG. You must use tara: 'Jikan ga attara, kite kudasai' (If you have time, please come)."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The Ta-form conjugates exactly like the Te-form.",
+      "exceptionNotes": "Tabete -> Tabeta. Nonde -> Nonda. Itte -> Itta."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese automated machines (vending machines, train ticket gates) usually have instructions written using the '~to' conditional. For example, 'Suica wo tatchi suru to, doa ga akimasu' (If you touch your Suica card, the door opens).",
+    "dosList": [
+      "Use '~to' when giving driving or walking directions.",
+      "Use '~tara' when asking for hypothetical advice (e.g., Doshitara ii desu ka - What should I do?)."
+    ],
+    "dontsList": [
+      "Do not use '~to' with 'kudasai'."
+    ]
+  },
+  "summary": "Use '~tara' (Past form + ra) for general 'If/When' statements. Use Dictionary form + 'to' for natural, automatic consequences like machines or geographic directions.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the '~tara' form of Nomimasu (to drink)?",
+      "expectedAnswer": "のんだら (Nondara)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "How do you say 'If you push the button' (Button = botan, Push = osu)?",
+      "expectedAnswer": "ボタンを おすと (Botan wo osu to)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What is the '~tara' form of Takai (expensive)?",
+      "expectedAnswer": "たかかったら (Takakattara)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "~tara form: Ta-form + ra (If/When).",
+      "Nouns/Na-adj require 'dattara'.",
+      "~to form: Dictionary form + to (Natural consequence)."
+    ],
+    "conceptSummary": "Introduction to conditional logic in Japanese.",
+    "importantFacts": [
+      "~to cannot be followed by an expression of human volition (e.g. let's go, please go)."
+    ],
+    "checkpointAnswers": {
+      "q1": "のんだら",
+      "q2": "ボタンを おすと",
+      "q3": "たかかったら"
+    },
+    "expectedUnderstanding": "Learner must memorize the past tense conjugations to form the '~tara' conditional effectively."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You have unlocked a major milestone in Japanese fluency.",
+    "onFail": "Review the Te-form rules from Month 2. The Ta-form is identical to the Te-form, just replacing the 'e' sound with an 'a' sound.",
+    "onPartial": "Good start. Remember the difference between '~tara' (hypothetical) and '~to' (automatic result)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b1/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b1/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "たべたら。いったら。あめが ふったら、いきません。たかかったら。ひまだったら。やすかったら、かいます。いかなかったら。おいしくなかったら、たべません。この ボタンを おすと、ドアが あきます。まっすぐ いくと、えきが あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "conditionals",
+    "tara-form",
+    "to-form",
+    "advanced",
+    "month3",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Using '~to' with a request: 'Ame ga furu to, kasa wo motte kudasai' (Incorrect). Must be 'Ame ga futtara, kasa wo motte kudasai'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

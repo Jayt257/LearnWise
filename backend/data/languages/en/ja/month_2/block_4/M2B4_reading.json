@@ -1,0 +1,214 @@
+{
+  "activityId": "ja_en_M2B4_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "Rules at the Museum",
+  "learningGoal": "The learner will read a set of public guidelines to distinguish between actions that are permitted (~te mo ii desu) and actions that are strictly prohibited (~te wa ikemasen).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B4_lesson_001",
+    "ja_en_M2B4_vocabulary_001"
+  ],
+  "instructions": "Read the following informational sign posted inside a Japanese art museum. Identify which activities are allowed and which are banned.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Pay attention to the ending of each sentence. 'ikemasen' means absolutely not. 'ii desu' means it is fine."
+    }
+  ],
+  "readingTitle": "Museum Guidelines",
+  "readingText": "ここは びじゅつかんです。あぶないですから、はしってはいけません。そして、ここで しゃしんを とってはいけません。たばこを すってはいけません。でも、けいたいでんわを つかっても いいです。ここに すわっても いいです。",
+  "textInTargetLanguage": "ここは びじゅつかんです。あぶないですから、はしってはいけません。そして、ここで しゃしんを とってはいけません。たばこを すってはいけません。でも、けいたいでんわを つかっても いいです。ここに すわっても いいです。",
+  "baseLanguageSupportText": "This is an art museum. Because it is dangerous, you must not run. And, you must not take photos here. You must not smoke tobacco. But, you may use a mobile phone. You may sit here.",
+  "glossary": [
+    {
+      "targetText": "びじゅつかん",
+      "transliteration": "Bijutsukan",
+      "baseTranslation": "Museum",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あぶないですから",
+      "transliteration": "Abunai desu kara",
+      "baseTranslation": "Because it is dangerous (kara = because)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "はしってはいけません",
+      "transliteration": "Hashitte wa ikemasen",
+      "baseTranslation": "Must not run",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "とってはいけません",
+      "transliteration": "Totte wa ikemasen",
+      "baseTranslation": "Must not take (photos)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "すってはいけません",
+      "transliteration": "Sutte wa ikemasen",
+      "baseTranslation": "Must not smoke",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "つかっても いいです",
+      "transliteration": "Tsukatte mo ii desu",
+      "baseTranslation": "May use",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "すわっても いいです",
+      "transliteration": "Suwatte mo ii desu",
+      "baseTranslation": "May sit",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "あぶないですから、はしってはいけません。",
+      "transliteration": "Abunai desu kara, hashitte wa ikemasen.",
+      "baseTranslation": "Because it is dangerous, you must not run."
+    },
+    {
+      "targetText": "ここで しゃしんを とってはいけません。",
+      "transliteration": "Koko de shashin wo totte wa ikemasen.",
+      "baseTranslation": "You must not take photos here."
+    },
+    {
+      "targetText": "けいたいでんわを つかっても いいです。",
+      "transliteration": "Keitai denwa wo tsukatte mo ii desu.",
+      "baseTranslation": "You may use a mobile phone."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "Where are these rules posted?",
+      "questionType": "multiple_choice",
+      "options": [
+        "In a hospital",
+        "In a park",
+        "In an art museum",
+        "In a library"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Why is running prohibited?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because it is dangerous (abunai)",
+        "Because it is loud",
+        "Because it is a museum",
+        "Because it is not fun"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Is taking photos allowed?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, it is allowed.",
+        "No, it is strictly prohibited."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Which of the following actions IS permitted?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Smoking tobacco",
+        "Taking photos",
+        "Running",
+        "Using a mobile phone"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the verb 'to sit' in its dictionary (masu) form.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "In an art museum",
+      "q002": "Because it is dangerous (abunai)",
+      "q003": "No, it is strictly prohibited.",
+      "q004": "Using a mobile phone",
+      "q005": "suwarimasu"
+    },
+    "acceptableParaphrases": {
+      "q005": ["suwarimasu", "Suwarimasu"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The rules are for an art museum.",
+      "Running, smoking, and taking photos are banned.",
+      "Using a phone and sitting are allowed."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You clearly understand the difference between permission and prohibition.",
+    "onFail": "Look at the end of the verb. If it ends in 'ikemasen', you cannot do it. If it ends in 'ii desu', you can do it.",
+    "onPartial": "Good effort. Review the first sentence to recognize the word for Museum (Bijutsukan)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b4/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b4/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m2/b4/reading/normal_reading.mp3",
+    "audioTranscript": "ここは びじゅつかんです。あぶないですから、はしってはいけません。そして、ここで しゃしんを とってはいけません。たばこを すってはいけません。でも、けいたいでんわを つかっても いいです。ここに すわっても いいです。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "permission",
+    "prohibition",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to 'kara' in 'abunai desu kara'. It means 'because'.",
+  "commonMistakes": [
+    "Thinking 'Keitai denwa' is prohibited because it is grouped with other things, but its sentence ends in 'ii desu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

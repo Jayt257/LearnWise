@@ -1,0 +1,155 @@
+{
+  "activityId": "hi_en_M1B3_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Listening: At the Market",
+  "learningGoal": "Understand spoken questions regarding objects and differentiate between 'this' and 'that'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_lesson_1"
+  ],
+  "instructions": "Listen to a short conversation between a customer and a shopkeeper. The customer is pointing at different items. Note what the items are.",
+  "listeningGoal": "Identify objects being referred to using demonstrative pronouns.",
+  "audioScenario": "Shopping at a local market stall.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "ग्राहक: नमस्ते।",
+      "transliteration": "Grahak (Customer): Namaste.",
+      "baseTranslation": "Customer: Hello."
+    },
+    {
+      "targetText": "दुकानदार: नमस्ते।",
+      "transliteration": "Dukandar (Shopkeeper): Namaste.",
+      "baseTranslation": "Shopkeeper: Hello."
+    },
+    {
+      "targetText": "ग्राहक: यह क्या है?",
+      "transliteration": "Grahak: Yeh kya hai?",
+      "baseTranslation": "Customer: What is this?"
+    },
+    {
+      "targetText": "दुकानदार: यह किताब है।",
+      "transliteration": "Dukandar: Yeh kitaab hai.",
+      "baseTranslation": "Shopkeeper: This is a book."
+    },
+    {
+      "targetText": "ग्राहक: और वह क्या है?",
+      "transliteration": "Grahak: Aur woh kya hai?",
+      "baseTranslation": "Customer: And what is that?"
+    },
+    {
+      "targetText": "दुकानदार: वह कंप्यूटर है।",
+      "transliteration": "Dukandar: Woh kampyutar hai.",
+      "baseTranslation": "Shopkeeper: That is a computer."
+    },
+    {
+      "targetText": "ग्राहक: ठीक है। धन्यवाद।",
+      "transliteration": "Grahak: Theek hai. Dhanyawad.",
+      "baseTranslation": "Customer: Okay. Thank you."
+    }
+  ],
+  "audioTranscriptFull": "नमस्ते। नमस्ते। यह क्या है? यह किताब है। और वह क्या है? वह कंप्यूटर है। ठीक है। धन्यवाद।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What object is near the customer (referred to as 'Yeh')?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A book (Kitaab)",
+        "A car (Gaadi)",
+        "A computer (Kampyutar)"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "What object is far from the customer (referred to as 'Woh')?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A computer (Kampyutar)",
+        "A book (Kitaab)",
+        "A shop (Dukan)"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "What does the customer say at the end to mean 'Okay'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Theek hai (ठीक है)",
+        "Haan (हाँ)",
+        "Namaste (नमस्ते)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 33,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "A book (Kitaab)",
+      "lq_2": "A computer (Kampyutar)",
+      "lq_3": "Theek hai (ठीक है)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You can differentiate between 'this' and 'that' effortlessly.",
+    "onFail": "Listen again carefully. 'Yeh' means this (close). 'Woh' means that (far).",
+    "onPartial": "Good effort! Note that 'Theek' from Block 1 means 'fine', but 'Theek hai' is also used to say 'Okay'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। नमस्ते। यह क्या है? यह किताब है। और वह क्या है? वह कंप्यूटर है। ठीक है। धन्यवाद।",
+    "audioLanguage": "hi",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "objects",
+    "yeh_woh",
+    "shopping",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to whether the customer says 'Yeh' or 'Woh'.",
+  "commonMistakes": [
+    "Mixing up the items because they both end in 'hai'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,272 @@
+{
+  "activityId": "en_ja_M1B6_vocabulary_6",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "vocabulary",
+  "title": "Where and When Words",
+  "learningGoal": "Memorize common prepositions of place and time, and associate them with their spatial or temporal concepts.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B6_listening_5"
+  ],
+  "instructions": "場所や時間を表す前置詞と、よく一緒に使われる名詞を覚えましょう。(Memorize prepositions of place and time, and the nouns they are often used with.)",
+  "vocabTheme": "Prepositions and Places",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "in",
+      "transliteration": "イン",
+      "baseTranslation": "〜の中に、〜（の月・年・空間）に",
+      "partOfSpeech": "preposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "on",
+      "transliteration": "オン",
+      "baseTranslation": "〜の上に（くっついて）、〜（の曜日・特定の日）に",
+      "partOfSpeech": "preposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "at",
+      "transliteration": "アット",
+      "baseTranslation": "〜（の地点・特定の時間）に",
+      "partOfSpeech": "preposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "under",
+      "transliteration": "アンダー",
+      "baseTranslation": "〜の下に",
+      "partOfSpeech": "preposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "next to",
+      "transliteration": "ネクスト トゥ",
+      "baseTranslation": "〜の隣に",
+      "partOfSpeech": "preposition (phrase)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "behind",
+      "transliteration": "ビハインド",
+      "baseTranslation": "〜の後ろに",
+      "partOfSpeech": "preposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "in front of",
+      "transliteration": "イン フロント オヴ",
+      "baseTranslation": "〜の前に",
+      "partOfSpeech": "preposition (phrase)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "room",
+      "transliteration": "ルーム",
+      "baseTranslation": "部屋",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "desk",
+      "transliteration": "デスク",
+      "baseTranslation": "机",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "station",
+      "transliteration": "ステーション",
+      "baseTranslation": "駅",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    }
+  ],
+  "meaningList": [
+    "〜の中に",
+    "〜の上に",
+    "〜の地点に",
+    "〜の下に",
+    "〜の隣に",
+    "〜の後ろに",
+    "〜の前に",
+    "部屋",
+    "机",
+    "駅"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v1",
+      "targetText": "I am in my room.",
+      "transliteration": "アイ アム イン マイ ルーム",
+      "baseTranslation": "私は私の部屋の中にいます。"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "The book is on the desk.",
+      "transliteration": "ザ ブック イズ オン ザ デスク",
+      "baseTranslation": "本は机の上にあります。"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "I will meet you at the station.",
+      "transliteration": "アイ ウィル ミート ユー アット ザ ステーション",
+      "baseTranslation": "駅で会いましょう。"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "The desk is next to the bed.",
+      "transliteration": "ザ デスク イズ ネクスト トゥ ザ ベッド",
+      "baseTranslation": "机はベッドの隣にあります。"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "She is standing in front of the station.",
+      "transliteration": "シー イズ スタンディング イン フロント オヴ ザ ステーション",
+      "baseTranslation": "彼女は駅の前に立っています。"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does 'next to' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "〜の中に",
+        "〜の隣に",
+        "〜の後ろに",
+        "〜の前に"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What does 'behind' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "〜の下に",
+        "〜の隣に",
+        "〜の前に",
+        "〜の後ろに"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If a cat is sleeping on the floor covered by the bed, where is the cat?",
+      "questionType": "multiple_choice",
+      "options": [
+        "on the bed",
+        "in the bed",
+        "under the bed",
+        "next to the bed"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Which preposition do you use for 'Friday'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "under"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Which preposition do you use for '7:00'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "next to"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "〜の隣に",
+      "q2": "〜の後ろに",
+      "q3": "under the bed",
+      "q4": "on",
+      "q5": "at"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great! You know your prepositions perfectly.",
+    "onFail": "Review the list. Make sure you don't confuse 'behind' (後ろ) and 'in front of' (前).",
+    "onPartial": "Good effort. Remember that days take 'on' and times take 'at'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "prepositions",
+    "place",
+    "in_on_at",
+    "under_next_to"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Next to is always two words. In front of is always three words.",
+  "commonMistakes": [
+    "Confusing behind and in front of."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B6_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,151 @@
+{
+  "activityId": "en_ja_M2B4_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "What did you do?",
+  "learningGoal": "Speak fluently to answer past tense questions using negative statements and regular past verbs.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B4_vocabulary_6"
+  ],
+  "instructions": "友達から「昨日公園に行った？」と聞かれます。マイクに向かって、「いいえ、行きませんでした。私は家にいてテレビを見ました。」と英語で答えてください。(A friend asks if you went to the park yesterday. Speak into the microphone and answer: 'No, I didn't. I stayed home and watched TV.')",
+  "speakingPrompt": "Answer the question: 'Did you go to the park yesterday?' Say: 'No, I didn't. I stayed home and watched TV.'",
+  "scenario": "A friend is asking about your weekend.",
+  "role": "You",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Answer 'no' to the question. (No, I didn't.)",
+      "expectedSpeakingPoints": [
+        "No",
+        "I didn't"
+      ],
+      "sampleResponse": {
+        "targetText": "No, I didn't.",
+        "transliteration": "ノー、アイ ディドント。",
+        "baseTranslation": "いいえ、行きませんでした。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Explain what you actually did using regular past verbs. (I stayed home and watched TV.)",
+      "expectedSpeakingPoints": [
+        "I stayed home",
+        "and watched TV"
+      ],
+      "sampleResponse": {
+        "targetText": "I stayed home and watched TV.",
+        "transliteration": "アイ ステイド ホーム アンド ウォッチト ティーヴィー。",
+        "baseTranslation": "私は家にいてテレビを見ました。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hey! Did you go to the park yesterday?",
+    "transliteration": "ヘイ！ ディジュー ゴー トゥ ザ パーク イエスタデイ？",
+    "baseTranslation": "やあ！昨日、公園に行った？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "No, I didn't.",
+      "transliteration": "ノー、アイ ディドント。",
+      "baseTranslation": "いいえ、行きませんでした。"
+    },
+    {
+      "targetText": "I stayed home and watched TV.",
+      "transliteration": "アイ ステイド ホーム アンド ウォッチト ティーヴィー。",
+      "baseTranslation": "私は家にいてテレビを見ました。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'didn't'",
+      "Using 'stayed'",
+      "Using 'watched'"
+    ],
+    "requiredKeywords": [
+      "no",
+      "didn't",
+      "stayed",
+      "home",
+      "watched"
+    ],
+    "acceptableParaphrases": [
+      "No, I did not. I stayed home and watched TV."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Past Tense Verbs",
+          "weight": 50,
+          "description": "Must use the -ed forms for stay and watch."
+        },
+        {
+          "name": "Pronunciation of -ed",
+          "weight": 20,
+          "description": "Clear pronunciation of 'stayed' (d sound) and 'watched' (t sound)."
+        },
+        {
+          "name": "Negative Form",
+          "weight": 30,
+          "description": "Correctly states 'I didn't'."
+        }
+      ]
+    },
+    "sampleAnswer": "No, I didn't. I stayed home and watched TV.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great speaking! You perfectly pronounced the past tense verbs and used the negative form correctly.",
+    "onFail": "Please try again. Make sure you use the past tense verbs 'stayed' and 'watched', not 'stay' and 'watch'.",
+    "onPartial": "Good effort! Remember that 'watched' sounds like it ends with a 't' (watch-t)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B4_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M2B4_speaking_sample.mp3",
+    "slowAudio": "path/to/M2B4_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "No, I didn't. I stayed home and watched TV.",
+    "audioLanguage": "en",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "simple_past",
+    "negatives",
+    "ed_ending"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you clearly pronounce the 'd' at the end of stayed, and the 't' sound at the end of watched.",
+  "commonMistakes": [
+    "Saying 'I stay home and watch TV' (forgetting the past tense)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

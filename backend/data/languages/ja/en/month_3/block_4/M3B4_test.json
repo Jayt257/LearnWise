@@ -1,0 +1,280 @@
+{
+  "activityId": "en_ja_M3B4_test_8",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Test: Business English",
+  "learningGoal": "Evaluate your understanding of formal business vocabulary, polite requests, and email structures.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B4_speaking_7"
+  ],
+  "instructions": "Month 3 Block 4 のテストです。ビジネスメールの書き方、丁寧な依頼の表現、そしてフォーマルな単語の使い分けについての問題に答えてください。(This is the Block 4 test. Answer questions about business emails, polite requests, and formal vocabulary.)",
+  "testTitle": "Business Communication Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Polite Requests (丁寧な依頼)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「この書類を送っていただけますか？」と丁寧に頼む時、最も適切なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Send this document to me.",
+            "I want you to send this document.",
+            "Could you please send this document?",
+            "Can you sending this document?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「会議を延期していただけませんか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Would you mind postpone the meeting?",
+            "Would you mind postponing the meeting?",
+            "Would you mind to postpone the meeting?",
+            "Do you mind postponed the meeting?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "「Would you mind helping me?」と言われて、「はい（手伝います）」と答える時の正しい返事はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Yes, I would.",
+            "No, not at all.",
+            "Yes, I do.",
+            "I mind."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Vocabulary: Formal Alternatives (フォーマルな単語)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「tell（伝える）」の代わりにビジネスでよく使われる単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "receive",
+            "assist",
+            "inform",
+            "provide"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「get（受け取る）」の代わりにビジネスでよく使われる単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "receive",
+            "postpone",
+            "schedule",
+            "apologize"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「help（手伝う）」の代わりにビジネスでよく使われる単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "assist",
+            "discuss",
+            "inform",
+            "confirm"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Business Emails (ビジネスメール)",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "ビジネスメールの最初の挨拶として適切なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Dear Mr. Smith,",
+            "Hi Smith,",
+            "To Smith,",
+            "Hey Mr. Smith,"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「お返事を楽しみにしています」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I look forward to hear from you.",
+            "I look forward to hearing from you.",
+            "I looking forward to hear from you.",
+            "I look forward hear from you."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "フォーマルなメールの結びの言葉として適切なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "See you,",
+            "Bye,",
+            "Sincerely,",
+            "Talk soon,"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "Comprehensive Understanding",
+      "questions": [
+        {
+          "questionId": "q10",
+          "questionText": "「返信が遅れましたこと、お詫び申し上げます」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am sorry for my late.",
+            "I apologize for the delay in my response.",
+            "I apologize my late reply.",
+            "Sorry I delayed response."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        },
+        {
+          "questionId": "q11",
+          "questionText": "「午後2時に会議を設定することは可能でしょうか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Is it possible schedule meeting at 2 p.m.?",
+            "Would it be possible to schedule a meeting at 2:00 p.m.?",
+            "Can we make a meeting at 2:00 p.m.?",
+            "Do you want to schedule a meeting at 2 p.m.?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q11"
+        },
+        {
+          "questionId": "q12",
+          "questionText": "「ご不便をおかけして申し訳ありません」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "We apologize for the inconvenience.",
+            "We are sorry for the trouble.",
+            "We apologize the bad thing.",
+            "We regret your inconvenience."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q12"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "Could you please send this document?",
+      "q2": "Would you mind postponing the meeting?",
+      "q3": "No, not at all.",
+      "q4": "inform",
+      "q5": "receive",
+      "q6": "assist",
+      "q7": "Dear Mr. Smith,",
+      "q8": "I look forward to hearing from you.",
+      "q9": "Sincerely,",
+      "q10": "I apologize for the delay in my response.",
+      "q11": "Would it be possible to schedule a meeting at 2:00 p.m.?",
+      "q12": "We apologize for the inconvenience."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 20,
+      "sec_4": 20
+    },
+    "overallPassMark": 90
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ビジネス英語の基本を完全にマスターしています。プロフェッショナルなコミュニケーションができますね！",
+    "onFail": "もう一度復習しましょう。「look forward to ~ing」や「Would you mind ~ing」などの文法ルールを確認してください。",
+    "onPartial": "よくできました。フォーマルな単語（inform, assist）や謝罪の表現（apologize）は、実際のメールでそのまま使えるので暗記しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_4",
+    "month_3",
+    "business_english",
+    "formal_communication"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember the grammar rules for 'mind' and 'look forward to'. Both need an -ing form!",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [],
+  "attemptLimit": null,
+  "metadata": {}
+}

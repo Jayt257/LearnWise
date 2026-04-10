@@ -1,0 +1,169 @@
+{
+  "activityId": "en_hi_M1B6_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Where Is the Cat?",
+  "learningGoal": "The learner will accurately synthesize 3 independent English sentences detailing the location of an object, successfully deploying the Preposition + Article + Noun syntax (In the box) while avoiding Hindi-native Postposition syntax (Box in).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B6_reading_001"],
+  "instructions": "Write three sentences about where a mischievous cat is hiding in a room. You must use 'In' for one sentence, 'On' for one sentence, and 'Under' for one sentence. Do NOT forget the word 'The' after your preposition!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Remember the golden rule of English locations: First rule = Preposition (In/On/Under). Second rule = The. Third rule = Object."
+    }
+  ],
+  "writingPrompt": "Write three sentences describing where the cat is hiding: Once inside a box, once on top of a table, and once beneath a bed.",
+  "promptGoal": "Demonstrate the ability to completely invert Hindi post-position logic and successfully write English PRE-positions.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Cat",
+      "transliteration": "कैट",
+      "baseTranslation": "बिल्ली",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "In",
+      "transliteration": "इन",
+      "baseTranslation": "अंदर / में",
+      "partOfSpeech": "Preposition"
+    },
+    {
+      "targetText": "On",
+      "transliteration": "ऑन",
+      "baseTranslation": "पर / ऊपर",
+      "partOfSpeech": "Preposition"
+    },
+    {
+      "targetText": "Under",
+      "transliteration": "अंडर",
+      "baseTranslation": "नीचे",
+      "partOfSpeech": "Preposition"
+    },
+    {
+      "targetText": "Box",
+      "transliteration": "बॉक्स",
+      "baseTranslation": "डिब्बा",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Table",
+      "transliteration": "टेबल",
+      "baseTranslation": "मेज़",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Bed",
+      "transliteration": "बेड",
+      "baseTranslation": "बिस्तर",
+      "partOfSpeech": "Noun"
+    }
+  ],
+  "referenceHints": [
+    "Hindi: बिल्ली डिब्बे में है। => English: The cat is IN the box.",
+    "Do NOT write: 'The cat is box in'.",
+    "Sentence 1: The cat is...",
+    "Sentence 2: The cat is...",
+    "Sentence 3: The cat is..."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "The cat is in the box. The cat is on the table. The cat is under the bed.",
+      "transliteration": "द कैट इज़ इन द बॉक्स। द कैट इज़ ऑन द टेबल। द कैट इज़ अंडर द बेड।",
+      "baseTranslation": "बिल्ली डिब्बे में है। बिल्ली मेज़ पर है। बिल्ली बिस्तर के नीचे है।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully decoupled from Hindi post-positions and correctly sandwiched the article 'the' between the preposition and the noun."
+    },
+    {
+      "targetText": "Cat is in box. Cat is on table. Cat is under bed.",
+      "transliteration": "कैट इज़ इन बॉक्स। कैट इज़ ऑन टेबल। कैट इज़ अंडर बेड।",
+      "baseTranslation": "बिल्ली डिब्बे में है। बिल्ली मेज़ पर है। बिल्ली बिस्तर के नीचे है।",
+      "qualityLevel": "acceptable",
+      "annotation": "Acceptable, but missing the critical 'The' sandwich. However, the preposition order is correct."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Preposition Syntax (Before Object)",
+      "weight": 50,
+      "description": "Did the user place 'In/On/Under' BEFORE the noun? Or did they write 'Table on'?"
+    },
+    {
+      "criterion": "Preposition Variety",
+      "weight": 30,
+      "description": "Did the user successfully deploy all three required prepositions?"
+    },
+    {
+      "criterion": "Article Placement (The Sandwich)",
+      "weight": 20,
+      "description": "Did the user remember to say 'In THE box' instead of just 'In box'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "The cat is in the box. The cat is on the table. The cat is under the bed.",
+    "acceptableAlternates": [
+      "A cat is in a box. A cat is on a table. A cat is under a bed.",
+      "My cat is in the box. The cat is on top of the table. He is under the bed."
+    ],
+    "requiredKeywords": [
+      "cat",
+      "is",
+      "in",
+      "on",
+      "under",
+      "box",
+      "table",
+      "bed"
+    ],
+    "grammarBaseline": "Must include preposition preceding the location noun.",
+    "lengthExpectation": "3 sentences, roughly 15-20 words total.",
+    "scoringRubric": {
+      "Preposition Placement": "50%",
+      "All 3 Words Used": "30%",
+      "Article Usage": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You completely stopped translating directly from Hindi and mastered the English pre-position placement rule.",
+    "onFail": "Keep practicing! If you wrote 'The cat is the bed under', it is wrong. You MUST bring 'Under' to the front. 'The cat is UNDER the bed.'",
+    "onPartial": "Good start! You placed the words in the right order. However, don't forget to use the word 'The'. Try saying 'In the box' rather than 'In box'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b6/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b6/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b6/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Write where the cat is hiding: in a box, on a table, and under a bed.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "prepositions", "locations", "in_on_under", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b6/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'बिस्तर के नीचे' (Bed Under), you must flip it completely to say 'Under the Bed'. Always flip it!",
+  "commonMistakes": [
+    "Writing 'The cat is in the table' (You can't be inside a table... yet).",
+    "Writing 'The cat is table on'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B6_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

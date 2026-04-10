@@ -1,0 +1,149 @@
+{
+  "activityId": "en_ja_M1B1_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Your First Japanese Messages",
+  "learningGoal": "Write basic Japanese greetings correctly for the morning and to express gratitude.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "en_ja_M1B1_reading_3"
+  ],
+  "instructions": "Imagine you are chatting with your new Japanese teacher. Write two short messages. First, say 'Good morning (polite)'. Second, say 'Thank you very much'. You may write using Romaji (English letters) or Hiragana.",
+  "writingPrompt": "Write two sentences to your teacher: 1. Good morning (polite). 2. Thank you very much.",
+  "promptGoal": "To actively produce the two most fundamental and polite Japanese phrases.",
+  "expectedWritingType": "sentence",
+  "wordBank": [
+    {
+      "targetText": "おはよう",
+      "transliteration": "Ohayou",
+      "baseTranslation": "Good morning (casual)",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "ございます",
+      "transliteration": "gozaimasu",
+      "baseTranslation": "makes a phrase polite",
+      "partOfSpeech": "suffix"
+    },
+    {
+      "targetText": "ありがとう",
+      "transliteration": "Arigatou",
+      "baseTranslation": "Thank you (casual)",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "すみません",
+      "transliteration": "Sumimasen",
+      "baseTranslation": "Excuse me / I'm sorry",
+      "partOfSpeech": "greeting"
+    }
+  ],
+  "referenceHints": [
+    "Remember that talking to a teacher requires polite Japanese.",
+    "Do not just write 'Ohayou' or 'Arigatou' by themselves. Add the polite ending."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "おはようございます。ありがとうございます。",
+      "transliteration": "Ohayou gozaimasu. Arigatou gozaimasu.",
+      "baseTranslation": "Good morning. Thank you very much.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly polite and uses both required phrases correctly."
+    },
+    {
+      "targetText": "Ohayou gozaimasu. Arigatou gozaimasu.",
+      "transliteration": "Ohayou gozaimasu. Arigatou gozaimasu.",
+      "baseTranslation": "Good morning. Thank you very much.",
+      "qualityLevel": "good",
+      "annotation": "Acceptable to use Romaji for beginners."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Good Morning Phrase",
+      "weight": 50,
+      "description": "Did the user write 'Ohayou gozaimasu'?"
+    },
+    {
+      "criterion": "Thank You Phrase",
+      "weight": 50,
+      "description": "Did the user write 'Arigatou gozaimasu'?"
+    }
+  ],
+  "minimumWordCount": 4,
+  "maximumWordCount": 10,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Ohayou gozaimasu. Arigatou gozaimasu.",
+    "acceptableAlternates": [
+      "おはようございます。ありがとうございます。",
+      "ohayou gozaimasu arigatou gozaimasu"
+    ],
+    "requiredKeywords": [
+      "ohayou",
+      "arigatou",
+      "gozaimasu"
+    ],
+    "grammarBaseline": "Must include the polite suffix 'gozaimasu' for both phrases.",
+    "lengthExpectation": "2 sentences or phrases.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy",
+          "weight": 50,
+          "description": "Correct spelling in Romaji or Hiragana."
+        },
+        {
+          "name": "Politeness",
+          "weight": 50,
+          "description": "Inclusion of 'gozaimasu'."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! Your teacher will be very impressed with your polite Japanese.",
+    "onFail": "Please check your spelling. Remember to write 'Ohayou gozaimasu' and 'Arigatou gozaimasu'.",
+    "onPartial": "Good try! Remember, because you are writing to a teacher, you must add 'gozaimasu' to the end of both phrases to be polite."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "greetings",
+    "politeness",
+    "beginner"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you spell 'Ohayou' with a 'u' at the end.",
+  "commonMistakes": [
+    "Forgetting to add 'gozaimasu', making the message too casual for a teacher."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

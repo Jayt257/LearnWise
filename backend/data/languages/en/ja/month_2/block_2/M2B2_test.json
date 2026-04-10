@@ -1,0 +1,427 @@
+{
+  "activityId": "ja_en_M2B2_test_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Final Test — The Te-Form Mastery",
+  "learningGoal": "The learner will demonstrate mastery over the Te-form conjugations for all three verb groups, accurately forming requests (~te kudasai) and progressive states (~te imasu).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M2B2_lesson_001",
+    "ja_en_M2B2_pronunciation_001",
+    "ja_en_M2B2_reading_001",
+    "ja_en_M2B2_writing_001",
+    "ja_en_M2B2_listening_001",
+    "ja_en_M2B2_vocabulary_001",
+    "ja_en_M2B2_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to rapidly convert verbs into the Te-form. Remember the Group 1 song (i/chi/ri -> tte, mi/bi/ni -> nde, ki -> ite). Pay attention to the one exception verb!",
+  "testTitle": "Block 2 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Double check your conjugations before submitting.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Verb Meanings",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does まちます (Machimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To listen", "To wait", "To return", "To speak"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does かえります (Kaerimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To return", "To buy", "To write", "To read"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does はなします (Hanashimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To play", "To swim", "To speak", "To sleep"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does あそびます (Asobimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To play / hang out", "To swim", "To listen", "To go"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_conjugation",
+      "sectionTitle": "Te-Form Conjugation",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "What is the Te-form of かきます (Kakimasu / write)?",
+          "questionType": "multiple_choice",
+          "options": ["かって (Katte)", "かんで (Kande)", "かいて (Kaite)", "かしって (Kashitte)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "What is the Te-form of のみます (Nomimasu / drink)?",
+          "questionType": "multiple_choice",
+          "options": ["のんで (Nonde)", "のって (Notte)", "のいて (Noite)", "のんでて (Nondete)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the Te-form of the exception verb いきます (Ikimasu / go)?",
+          "questionType": "multiple_choice",
+          "options": ["いいて (Iite)", "いって (Itte)", "いんで (Inde)", "いして (Ishite)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "What is the Te-form of Group 2 verb たべます (Tabemasu / eat)?",
+          "questionType": "multiple_choice",
+          "options": ["たべって (Tabette)", "たべんで (Tabende)", "たべいて (Tabeite)", "たべて (Tabete)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Requests and Progressive Actions",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "How do you say 'Please wait a little'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ちょっと まって います (Chotto matte imasu)",
+            "ちょっと まちて ください (Chotto machite kudasai)",
+            "ちょっと まって ください (Chotto matte kudasai)",
+            "ちょっと まんで ください (Chotto mande kudasai)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "How do you say 'I am reading a book now'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "いま ほんを よんで います (Ima hon wo yonde imasu)",
+            "いま ほんを よんで ください (Ima hon wo yonde kudasai)",
+            "いま ほんを よって います (Ima hon wo yotte imasu)",
+            "いま ほんを よみます (Ima hon wo yomimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'Please do it quickly'.",
+          "questionType": "multiple_choice",
+          "options": [
+            "はやく して ください (Hayaku shite kudasai)",
+            "ちょっと して ください (Chotto shite kudasai)",
+            "いま して います (Ima shite imasu)",
+            "はやく きて ください (Hayaku kite kudasai)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "How do you say 'I am studying'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "べんきょうして ください (Benkyou shite kudasai)",
+            "べんきょうして います (Benkyou shite imasu)",
+            "べんきょうして あります (Benkyou shite arimasu)",
+            "べんきょうします (Benkyou shimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What is the speaker requesting?",
+          "questionType": "multiple_choice",
+          "options": ["Please drink coffee", "Please write a letter", "Please wait a little", "Please go"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "てがみを かいて ください。",
+            "transliteration": "Tegami wo kaite kudasai.",
+            "baseTranslation": "Please write a letter."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What is the speaker currently doing?",
+          "questionType": "multiple_choice",
+          "options": ["Reading a book", "Drinking coffee", "Swimming", "Studying English"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "えいごを べんきょうして います。",
+            "transliteration": "Eigo wo benkyou shite imasu.",
+            "baseTranslation": "I am studying English."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What is the speaker requesting?",
+          "questionType": "multiple_choice",
+          "options": ["Please return quickly", "Please sleep", "Please listen", "Please speak Japanese"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "にほんごを はなして ください。",
+            "transliteration": "Nihongo wo hanashite kudasai.",
+            "baseTranslation": "Please speak Japanese."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'Please wait' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "まって ください",
+            "transliteration": "Matte kudasai",
+            "baseTranslation": "Please wait"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'Please go' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "いって ください",
+            "transliteration": "Itte kudasai",
+            "baseTranslation": "Please go"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'I am drinking' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "のんで います",
+            "transliteration": "Nonde imasu",
+            "baseTranslation": "I am drinking"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'I am eating' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たべて います",
+            "transliteration": "Tabete imasu",
+            "baseTranslation": "I am eating"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'Please read' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "よんで ください",
+            "transliteration": "Yonde kudasai",
+            "baseTranslation": "Please read"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "To wait",
+      "q002": "To return",
+      "q003": "To speak",
+      "q004": "To play / hang out",
+      "q005": "かいて (Kaite)",
+      "q006": "のんで (Nonde)",
+      "q007": "いって (Itte)",
+      "q008": "たべて (Tabete)",
+      "q009": "ちょっと まって ください (Chotto matte kudasai)",
+      "q010": "いま ほんを よんで います (Ima hon wo yonde imasu)",
+      "q011": "はやく して ください (Hayaku shite kudasai)",
+      "q012": "べんきょうして います (Benkyou shite imasu)",
+      "q013": "Please write a letter",
+      "q014": "Studying English",
+      "q015": "Please speak Japanese",
+      "q016": "Matte kudasai",
+      "q017": "Itte kudasai",
+      "q018": "Nonde imasu",
+      "q019": "Tabete imasu",
+      "q020": "Yonde kudasai"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {
+      "q018": "Half points for 'Nonde'."
+    },
+    "alternateValidAnswers": {
+      "q016": ["matte kudasai"],
+      "q017": ["itte kudasai"],
+      "q018": ["nonde imasu"],
+      "q019": ["tabete imasu"],
+      "q020": ["yonde kudasai"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_conjugation": 10,
+      "sec_grammar": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the most difficult grammar point in beginner Japanese.",
+    "onFail": "Review the Group 1 conjugation song. If you memorize the sound changes, this test becomes much easier.",
+    "onPartial": "Almost there. Be very careful with verbs like Ikimasu (which becomes Itte) and Machimasu (which becomes Matte)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block2",
+    "te-form",
+    "requests",
+    "progressive",
+    "intermediate",
+    "month2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

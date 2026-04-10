@@ -1,0 +1,183 @@
+{
+  "activityId": "hi_en_M3B5_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Emergency Vocabulary",
+  "learningGoal": "Accurately pronounce critical words needed during medical and legal emergencies.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "hi_en_M3B5_lesson_1"
+  ],
+  "instructions": "Listen to the pronunciation of these emergency words. Pay attention to the aspiration and stress. Record your voice and try to match the native speaker.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "अस्पताल",
+      "transliteration": "Aspataal",
+      "baseTranslation": "Hospital",
+      "phoneticHint": "uss-puh-taal",
+      "syllableSplit": "as-pa-taal",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hospital' with an English accent instead of the Hindi 'aspataal'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "दर्द",
+      "transliteration": "Dard",
+      "baseTranslation": "Pain",
+      "phoneticHint": "thur-d (soft d)",
+      "syllableSplit": "dard",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Using a hard English 'D' instead of the soft dental 'D' in Hindi."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "बुखार",
+      "transliteration": "Bukhar",
+      "baseTranslation": "Fever",
+      "phoneticHint": "boo-khaar",
+      "syllableSplit": "bu-khaar",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Not aspirating the 'kh' sound."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "चक्कर",
+      "transliteration": "Chakkar",
+      "baseTranslation": "Dizziness / Spin",
+      "phoneticHint": "chukk-kur",
+      "syllableSplit": "chak-kar",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Not doubling the 'k' sound in the middle."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "दुर्घटना",
+      "transliteration": "Durghatna",
+      "baseTranslation": "Accident",
+      "phoneticHint": "door-ghut-naa",
+      "syllableSplit": "dur-ghat-na",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mispronouncing the 'gh' sound."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "चोरी",
+      "transliteration": "Chori",
+      "baseTranslation": "Theft",
+      "phoneticHint": "cho-ree",
+      "syllableSplit": "cho-ri",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Making the 'o' sound like the English 'o' in 'go'. Keep it a pure 'o'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "पुलिस",
+      "transliteration": "Police",
+      "baseTranslation": "Police",
+      "phoneticHint": "poo-liss",
+      "syllableSplit": "pu-lis",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'puh-lees' instead of the shorter Hindi 'pu-lis'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "मदद",
+      "transliteration": "Madad",
+      "baseTranslation": "Help",
+      "phoneticHint": "muh-dud (soft d)",
+      "syllableSplit": "ma-dad",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Using hard English 'D's."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "एम्बुलेंस",
+      "transliteration": "Ambulance",
+      "baseTranslation": "Ambulance",
+      "phoneticHint": "em-boo-lens",
+      "syllableSplit": "am-bu-lence",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Using a strong English accent."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "शिकायत",
+      "transliteration": "Shikayat",
+      "baseTranslation": "Complaint",
+      "phoneticHint": "shi-kaa-yut",
+      "syllableSplit": "shi-ka-yat",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mispronouncing the 'sh' as 's'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "अस्पताल दर्द बुखार चक्कर दुर्घटना चोरी पुलिस मदद एम्बुलेंस शिकायत",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! Your pronunciation is clear enough to be understood in an emergency.",
+    "onFail": "Keep practicing! In an emergency, clear pronunciation is crucial. Focus on the soft dental 'D' and aspirated sounds.",
+    "onPartial": "Good try. Review the phonetic hints for the words you missed."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "अस्पताल दर्द बुखार चक्कर दुर्घटना चोरी पुलिस मदद एम्बुलेंस शिकायत",
+    "acceptedVariants": [
+      "हॉस्पिटल दर्द बुखार चक्कर एक्सीडेंट चोरी पुलिस मदद एम्बुलेंस शिकायत"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "अस्पताल दर्द बुखार चक्कर दुर्घटना चोरी पुलिस मदद एम्बुलेंस शिकायत",
+    "transliteration": "Aspataal dard bukhar chakkar durghatna chori police madad ambulance shikayat",
+    "strictnessLevel": "moderate"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B5_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B5_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "अस्पताल, दर्द, बुखार, चक्कर, दुर्घटना, चोरी, पुलिस, मदद, एम्बुलेंस, शिकायत",
+    "audioLanguage": "hi",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "emergencies",
+    "pronunciation",
+    "medical",
+    "police",
+    "speaking"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on clarity and speaking slowly.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B5_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

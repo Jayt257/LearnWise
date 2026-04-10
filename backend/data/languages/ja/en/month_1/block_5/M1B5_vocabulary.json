@@ -1,0 +1,272 @@
+{
+  "activityId": "en_ja_M1B5_vocabulary_6",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "vocabulary",
+  "title": "Daily Action Verbs",
+  "learningGoal": "Learn the most common action verbs used to describe daily routines, and memorize their third-person singular forms.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B5_listening_5"
+  ],
+  "instructions": "毎日の生活で使う基本的な「動詞」を学びます。単語の意味だけでなく、「He」や「She」が主語になった時、どう形が変わるか（s, es, または不規則変化）も一緒に覚えましょう。(Learn basic action verbs. Memorize not only their meanings but also how their forms change when the subject is He or She.)",
+  "vocabTheme": "Daily Routine Verbs",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "wake up",
+      "transliteration": "ウェイク アップ",
+      "baseTranslation": "起きる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "eat",
+      "transliteration": "イート",
+      "baseTranslation": "食べる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "sleep",
+      "transliteration": "スリープ",
+      "baseTranslation": "寝る、眠る",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "go",
+      "transliteration": "ゴー",
+      "baseTranslation": "行く",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "work",
+      "transliteration": "ワーク",
+      "baseTranslation": "働く、仕事をする",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "study",
+      "transliteration": "スタディ",
+      "baseTranslation": "勉強する",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "watch",
+      "transliteration": "ウォッチ",
+      "baseTranslation": "見る（テレビや映画など動くもの）",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "wash",
+      "transliteration": "ウォッシュ",
+      "baseTranslation": "洗う",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "have",
+      "transliteration": "ハヴ",
+      "baseTranslation": "持っている、食べる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "do",
+      "transliteration": "ドゥー",
+      "baseTranslation": "する、行う",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    }
+  ],
+  "meaningList": [
+    "起きる",
+    "食べる",
+    "寝る",
+    "行く",
+    "働く",
+    "勉強する",
+    "見る",
+    "洗う",
+    "持つ",
+    "する"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v1",
+      "targetText": "He wakes up early.",
+      "transliteration": "ヒー ウェイクス アップ アーリー",
+      "baseTranslation": "彼は早く起きます。"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "She goes to school.",
+      "transliteration": "シー ゴーズ トゥ スクール",
+      "baseTranslation": "彼女は学校に行きます。"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "My friend studies English.",
+      "transliteration": "マイ フレンド スタディーズ イングリッシュ",
+      "baseTranslation": "私の友達は英語を勉強します。（studyのyがiesに変わる）"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "Ken watches TV.",
+      "transliteration": "ケン ウォッチズ ティーヴィー",
+      "baseTranslation": "ケンはテレビを見ます。"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "He has a car.",
+      "transliteration": "ヒー ハズ ア カー",
+      "baseTranslation": "彼は車を持っています。（haveはhasに変わる）"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the third-person singular (He/She) form of 'go'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "gos",
+        "goes",
+        "go's",
+        "go"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What is the third-person singular form of 'have'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "haves",
+        "has",
+        "had",
+        "have"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What is the third-person singular form of 'watch'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "watchs",
+        "watches",
+        "watch",
+        "watche"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What is the third-person singular form of 'study'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "studys",
+        "studies",
+        "studyes",
+        "study"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What is the third-person singular form of 'wake up'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "wake ups",
+        "wakes up",
+        "wakes ups",
+        "wake up"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "goes",
+      "q2": "has",
+      "q3": "watches",
+      "q4": "studies",
+      "q5": "wakes up"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! You successfully memorized the verbs and their tricky third-person forms.",
+    "onFail": "Review the spelling rules. Remember that 'have' becomes 'has', and words ending in 'ch' or 'o' often take 'es'.",
+    "onPartial": "Good effort. Pay special attention to 'study' becoming 'studies' and 'go' becoming 'goes'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "verbs",
+    "daily_routine",
+    "third_person_singular"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "When a word ends in 'y' like study, the 'y' changes to 'i' and you add 'es' -> studies.",
+  "commonMistakes": [
+    "Writing 'haves' instead of 'has'.",
+    "Writing 'gos' instead of 'goes'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B5_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

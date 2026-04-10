@@ -1,0 +1,167 @@
+{
+  "activityId": "en_ja_M1B3_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Ordering at the Store",
+  "learningGoal": "Speak naturally using 'an', plural 's', and uncountable nouns without articles.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B3_vocabulary_6"
+  ],
+  "instructions": "あなたは店にいます。店員に向かって、「りんごを１個欲しいです」「オレンジを２個欲しいです」「水が欲しいです」と英語で注文してください。名詞の形（冠詞、複数形、不可算）に気をつけて発音しましょう。(You are at a store. Order an apple, two oranges, and water in English. Pay attention to the form of the nouns (articles, plurals, uncountable) as you speak.)",
+  "speakingPrompt": "Say to the clerk: 'I want an apple.', 'I want two oranges.', and 'I want water.'",
+  "scenario": "You are buying snacks and drinks at a small shop.",
+  "role": "Customer",
+  "conversationPartner": "Shop Clerk",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Say you want one apple. (I want an apple.)",
+      "expectedSpeakingPoints": [
+        "an apple"
+      ],
+      "sampleResponse": {
+        "targetText": "I want an apple.",
+        "transliteration": "アイ ウォント アナップル。",
+        "baseTranslation": "りんごを１つ欲しいです。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Say you want two oranges. (I want two oranges.)",
+      "expectedSpeakingPoints": [
+        "two oranges"
+      ],
+      "sampleResponse": {
+        "targetText": "I want two oranges.",
+        "transliteration": "アイ ウォント トゥー オレンヂィズ。",
+        "baseTranslation": "オレンジを２つ欲しいです。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Say you want water. (I want water.)",
+      "expectedSpeakingPoints": [
+        "water"
+      ],
+      "sampleResponse": {
+        "targetText": "I want water.",
+        "transliteration": "アイ ウォント ウォーター。",
+        "baseTranslation": "水が欲しいです。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Welcome! What do you want today?",
+    "transliteration": "ウェルカム！ホワット ドゥー ユー ウォント トゥデイ？",
+    "baseTranslation": "いらっしゃいませ！今日は何が欲しいですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I want an apple.",
+      "transliteration": "アイ ウォント アナップル。",
+      "baseTranslation": "りんごを１つ欲しいです。"
+    },
+    {
+      "targetText": "I want two oranges.",
+      "transliteration": "アイ ウォント トゥー オレンヂィズ。",
+      "baseTranslation": "オレンジを２つ欲しいです。"
+    },
+    {
+      "targetText": "I want water.",
+      "transliteration": "アイ ウォント ウォーター。",
+      "baseTranslation": "水が欲しいです。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'an' before apple",
+      "Using 'two' and adding 's' to orange",
+      "Using NO article before water"
+    ],
+    "requiredKeywords": [
+      "an",
+      "apple",
+      "two",
+      "oranges",
+      "water"
+    ],
+    "acceptableParaphrases": [
+      "I would like an apple, two oranges, and water."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Noun Forms",
+          "weight": 40,
+          "description": "Correct use of singular/plural and countable/uncountable."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 30,
+          "description": "Linking 'an apple' and pronouncing the 'iz' in 'oranges'."
+        },
+        {
+          "name": "Content",
+          "weight": 30,
+          "description": "Requested all three items."
+        }
+      ]
+    },
+    "sampleAnswer": "I want an apple. I want two oranges. I want water.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great speaking! You perfectly handled the tricky English noun rules.",
+    "onFail": "Please try again. Be careful: 'an apple' (not a apple), 'oranges' (don't forget the 's'), and just 'water' (not a water).",
+    "onPartial": "Good effort! Remember to connect the sound 'an' with 'apple' so it sounds like 'anapple'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B3_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M1B3_speaking_sample.mp3",
+    "slowAudio": "path/to/M1B3_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I want an apple. I want two oranges. I want water.",
+    "audioLanguage": "en",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "articles",
+    "plurals",
+    "shopping"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't pause between 'an' and 'apple'. Make it smooth.",
+  "commonMistakes": [
+    "Saying 'I want a water'.",
+    "Saying 'I want two orange'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B3_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

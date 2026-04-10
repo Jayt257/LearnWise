@@ -1,0 +1,217 @@
+{
+  "activityId": "ja_en_M1B6_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "reading",
+  "title": "A Student's Daily Routine",
+  "learningGoal": "The learner will read a paragraph describing a daily routine, correctly identifying times (ni), locations of actions (de), and direct objects (wo).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B6_lesson_001",
+    "ja_en_M1B6_vocabulary_001"
+  ],
+  "instructions": "Read the following diary entry describing a student's daily routine. Pay close attention to the particles attached to times, places, and objects. Use the glossary if you forget a word.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Notice how the subject 'Watashi wa' is dropped after the first sentence. It is understood from context."
+    }
+  ],
+  "readingTitle": "My Daily Schedule",
+  "readingText": "わたしは ろくじに おきます。はちじに がっこうに いきます。がっこうで ほんを よみます。よじに うちに かえります。うちで えいがを みます。じゅうじに ねます。",
+  "textInTargetLanguage": "わたしは ろくじに おきます。はちじに がっこうに いきます。がっこうで ほんを よみます。よじに うちに かえります。うちで えいがを みます。じゅうじに ねます。",
+  "baseLanguageSupportText": "I wake up at 6 o'clock. At 8 o'clock, I go to school. I read a book at school. At 4 o'clock, I return home. I watch a movie at home. I sleep at 10 o'clock.",
+  "glossary": [
+    {
+      "targetText": "ろくじに おきます",
+      "transliteration": "Roku-ji ni okimasu",
+      "baseTranslation": "Wake up at 6 o'clock",
+      "exampleSentence": {
+        "targetText": "わたしは ろくじに おきます。",
+        "transliteration": "Watashi wa roku-ji ni okimasu.",
+        "baseTranslation": "I wake up at 6 o'clock."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "がっこうに いきます",
+      "transliteration": "Gakkou ni ikimasu",
+      "baseTranslation": "Go to school (destination)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "がっこうで",
+      "transliteration": "Gakkou de",
+      "baseTranslation": "At school (location of action)",
+      "exampleSentence": {
+        "targetText": "がっこうで ほんを よみます。",
+        "transliteration": "Gakkou de hon wo yomimasu.",
+        "baseTranslation": "I read a book at school."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "うちに かえります",
+      "transliteration": "Uchi ni kaerimasu",
+      "baseTranslation": "Return to home",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "えいがを みます",
+      "transliteration": "Eiga wo mimasu",
+      "baseTranslation": "Watch a movie",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ねます",
+      "transliteration": "Nemasu",
+      "baseTranslation": "Sleep",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "はちじに がっこうに いきます。",
+      "transliteration": "Hachi-ji ni gakkou ni ikimasu.",
+      "baseTranslation": "I go to school at 8 o'clock."
+    },
+    {
+      "targetText": "がっこうで ほんを よみます。",
+      "transliteration": "Gakkou de hon wo yomimasu.",
+      "baseTranslation": "I read a book at school."
+    },
+    {
+      "targetText": "うちで えいがを みます。",
+      "transliteration": "Uchi de eiga wo mimasu.",
+      "baseTranslation": "I watch a movie at home."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What time does the author go to school?",
+      "questionType": "multiple_choice",
+      "options": [
+        "6 o'clock",
+        "8 o'clock",
+        "4 o'clock",
+        "10 o'clock"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What action happens AT school?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Sleeping",
+        "Watching a movie",
+        "Reading a book",
+        "Eating rice"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Which particle is used to mark the time '10 o'clock'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "を (wo)",
+        "に (ni)",
+        "で (de)",
+        "は (wa)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What does the author do AT home (Uchi de)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Reads a book",
+        "Watches a movie",
+        "Eats a meal",
+        "Listens to music"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Which particle is used after 'Uchi' to indicate the location where the movie is watched?",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "8 o'clock",
+      "q002": "Reading a book",
+      "q003": "に (ni)",
+      "q004": "Watches a movie",
+      "q005": "で"
+    },
+    "acceptableParaphrases": {
+      "q005": ["de", "で"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Wakes up at 6, goes to school at 8.",
+      "Reads at school.",
+      "Returns home at 4, watches a movie, sleeps at 10."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You successfully interpreted the particles and verbs.",
+    "onFail": "Review the particles. Remember: 'de' is where an action happens. 'ni' is time or destination.",
+    "onPartial": "Almost there! Keep practicing the vocabulary to speed up your reading comprehension."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b6/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b6/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m1/b6/reading/normal_reading.mp3",
+    "audioTranscript": "わたしは ろくじに おきます。はちじに がっこうに いきます。がっこうで ほんを よみます。よじに うちに かえります。うちで えいがを みます。じゅうじに ねます。",
+    "audioLanguage": "ja",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "verbs",
+    "particles",
+    "routine",
+    "beginner",
+    "month1",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how 'Gakkou' is used twice. Once with 'ni' (going TO school) and once with 'de' (reading AT school).",
+  "commonMistakes": [
+    "Confusing the location of action (de) with destination (ni)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

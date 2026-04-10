@@ -1,0 +1,445 @@
+{
+  "activityId": "ja_en_M2B4_test_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Final Test — Rules & Permissions",
+  "learningGoal": "The learner will demonstrate mastery over the grammatical structures for asking permission (~te mo ii desu ka) and stating prohibitions (~te wa ikemasen).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M2B4_lesson_001",
+    "ja_en_M2B4_pronunciation_001",
+    "ja_en_M2B4_reading_001",
+    "ja_en_M2B4_writing_001",
+    "ja_en_M2B4_listening_001",
+    "ja_en_M2B4_vocabulary_001",
+    "ja_en_M2B4_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to understand and construct sentences regarding public rules in Japanese.",
+  "testTitle": "Block 4 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Pay close attention to whether a question asks about permission (mo ii desu ka) or prohibition (wa ikemasen).",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Public Spaces and Verbs",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does びょういん (Byouin) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Hospital", "Museum", "Park", "Library"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does びじゅつかん (Bijutsukan) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Hospital", "Library", "Museum", "Park"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does はしります (Hashirimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To walk", "To run", "To sit", "To stand"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does すわります (Suwarimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To smoke", "To run", "To sit", "To use"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Asking for Permission",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "How do you ask 'May I use a mobile phone?' (Use = Tsukaimasu)",
+          "questionType": "multiple_choice",
+          "options": [
+            "けいたいでんわを つかっては いけません",
+            "けいたいでんわを つかっても いいですか",
+            "けいたいでんわを つかいっても いいですか",
+            "けいたいでんわを つかって ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "How do you ask 'May I take a photo?' (Take = Torimasu)",
+          "questionType": "multiple_choice",
+          "options": [
+            "しゃしんを とっても いいですか",
+            "しゃしんを とっては いけません",
+            "しゃしんを とりても いいですか",
+            "しゃしんを とって います"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "How do you say 'Yes, it is fine.'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "はい、だめです",
+            "はい、いいですよ",
+            "いいえ、いいですよ",
+            "はい、いけません"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "How do you politely deny permission? (Sorry, no good)",
+          "questionType": "multiple_choice",
+          "options": [
+            "すみません、だめです",
+            "すみません、いいですよ",
+            "すみません、いけません",
+            "すみません、あぶないですよ"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Stating Prohibitions",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "How do you say 'You must not run' (Run = Hashirimasu)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "はしっても いいです",
+            "はしっては いけません",
+            "はしりては いけません",
+            "はしっては だめです"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "How do you say 'You must not smoke tobacco' (Smoke = Suimasu)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たばこを すいっては いけません",
+            "たばこを すっては いけません",
+            "たばこを すっても いいですか",
+            "たばこを すって ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'You must not enter' (Enter = Hairimasu).",
+          "questionType": "multiple_choice",
+          "options": [
+            "はいっても いいですか",
+            "はいって ください",
+            "はいっては いけません",
+            "はいりては いけません"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "What does あぶないですから (Abunai desu kara) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Because it is fine",
+            "Because it is prohibited",
+            "Because it is dangerous",
+            "Because it is cold"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What is the speaker asking permission to do?",
+          "questionType": "multiple_choice",
+          "options": ["To smoke tobacco", "To take a photo", "To sit here", "To enter"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "しゃしんを とっても いいですか。",
+            "transliteration": "Shashin wo totte mo ii desu ka.",
+            "baseTranslation": "May I take a photo?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What is the strict rule stated?",
+          "questionType": "multiple_choice",
+          "options": ["You must not use a phone", "You must not run", "You must not smoke", "You must not enter"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "たばこを すっては いけません。",
+            "transliteration": "Tabako wo sutte wa ikemasen.",
+            "baseTranslation": "You must not smoke tobacco."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. Is the speaker allowed to sit?",
+          "questionType": "multiple_choice",
+          "options": ["Yes", "No", "They didn't ask"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "はい、すわっても いいですよ。",
+            "transliteration": "Hai, suwatte mo ii desu yo.",
+            "baseTranslation": "Yes, you may sit."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'Must not take' in Romaji. (Verb = Torimasu)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "とっては いけません",
+            "transliteration": "totte wa ikemasen",
+            "baseTranslation": "Must not take"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'May I use' in Romaji. (Verb = Tsukaimasu)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "つかっても いいですか",
+            "transliteration": "tsukatte mo ii desu ka",
+            "baseTranslation": "May I use"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'Hospital' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "びょういん",
+            "transliteration": "byouin",
+            "baseTranslation": "Hospital"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'Must not run' in Romaji. (Verb = Hashirimasu)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "はしっては いけません",
+            "transliteration": "hashitte wa ikemasen",
+            "baseTranslation": "Must not run"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'May I enter' in Romaji. (Verb = Hairimasu)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "はいっても いいですか",
+            "transliteration": "haitte mo ii desu ka",
+            "baseTranslation": "May I enter"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Hospital",
+      "q002": "Museum",
+      "q003": "To run",
+      "q004": "To sit",
+      "q005": "けいたいでんわを つかっても いいですか",
+      "q006": "しゃしんを とっても いいですか",
+      "q007": "はい、いいですよ",
+      "q008": "すみません、だめです",
+      "q009": "はしっては いけません",
+      "q010": "たばこを すっては いけません",
+      "q011": "はいっては いけません",
+      "q012": "Because it is dangerous",
+      "q013": "To take a photo",
+      "q014": "You must not smoke",
+      "q015": "Yes",
+      "q016": "totte wa ikemasen",
+      "q017": "tsukatte mo ii desu ka",
+      "q018": "byouin",
+      "q019": "hashitte wa ikemasen",
+      "q020": "haitte mo ii desu ka"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Totte wa ikemasen"],
+      "q017": ["Tsukatte mo ii desu ka"],
+      "q018": ["Byouin", "byouin"],
+      "q019": ["Hashitte wa ikemasen"],
+      "q020": ["Haitte mo ii desu ka"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered asking for permission and understanding strict Japanese rules.",
+    "onFail": "Review the suffixes carefully. '~mo ii desu ka' is for permission. '~wa ikemasen' is for prohibition.",
+    "onPartial": "Almost there. Be very careful with verbs like Torimasu (Totte) and Tsukaimasu (Tsukatte)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block4",
+    "permission",
+    "prohibition",
+    "te-form",
+    "intermediate",
+    "month2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

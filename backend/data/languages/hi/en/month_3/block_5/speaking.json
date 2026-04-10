@@ -1,0 +1,178 @@
+{
+  "activityId": "en_hi_M3B5_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "The Pharmacy Run",
+  "learningGoal": "The learner will verbally interact within a simulated clinical environment, successfully communicating physical symptoms ('I have a', 'hurts') while suppressing L1 literal translations.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B5_vocabulary_001"],
+  "instructions": "You are very sick, and you have to go to an English pharmacy! Speak ALOUD to the Pharmacist. You must explain exactly what is wrong with your body so they can give you the right medicine.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Remember the golden rule! You will instantly fail if you use the word 'Paining'!"
+    }
+  ],
+  "speakingPrompt": "Explain your symptoms to the pharmacist loud and clear.",
+  "scenario": "A sick customer asking a pharmacist for medicine.",
+  "role": "The Sick Customer",
+  "conversationPartner": "Pharmacist",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "फार्मासिस्ट: 'Hello, how can I help you today?' जवाब दें: 'मुझे मदद की ज़रूरत है। मैं बीमार हूँ।' (I...)",
+      "expectedSpeakingPoints": ["I need help", "I am sick"],
+      "sampleResponse": {
+        "targetText": "I need help. I am sick.",
+        "transliteration": "आई नीड हेल्प। आई एम सिक।",
+        "baseTranslation": "मुझे मदद की ज़रूरत है। मैं बीमार हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "फार्मासिस्ट: 'Oh no. What are your symptoms?' जवाब दें: 'मुझे बुखार है और बहुत खाँसी है।' (I have...)",
+      "expectedSpeakingPoints": ["I have a fever", "and a bad cough"],
+      "sampleResponse": {
+        "targetText": "I have a fever and a bad cough.",
+        "transliteration": "आई हैव अ फीवर एंड अ बैड कॉफ।",
+        "baseTranslation": "मुझे बुखार है और बहुत खाँसी है।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "फार्मासिस्ट: 'Do you have any pain?' जवाब दें: 'हाँ। मेरे सिर में दर्द है।' (Yes. I have...)",
+      "expectedSpeakingPoints": ["Yes", "I have a headache"],
+      "sampleResponse": {
+        "targetText": "Yes. I have a headache.",
+        "transliteration": "येस। आई हैव अ हेडेक।",
+        "baseTranslation": "हाँ। मेरे सिर में दर्द है।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "फार्मासिस्ट: 'Did you get hurt?' जवाब दें: 'हाँ, मैं गिर गया था। मेरे पैर में दर्द है (चोट लगी है)!' (Yes, I fell down. My leg...)",
+      "expectedSpeakingPoints": ["My leg hurts"],
+      "sampleResponse": {
+        "targetText": "Yes, I fell down. My leg hurts!",
+        "transliteration": "येस, आई फेल डाउन। माई लेग हर्ट्स!",
+        "baseTranslation": "हाँ, मैं गिर गया था। मेरे पैर में दर्द है!"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "फार्मासिस्ट: 'Here are some pills. You look very bad.' जवाब दें: 'धन्यवाद। मुझे डॉक्टर को दिखाने की ज़रूरत है।' (Thank you. I need...)",
+      "expectedSpeakingPoints": ["Thank you", "I need to see a doctor"],
+      "sampleResponse": {
+        "targetText": "Thank you. I need to see a doctor.",
+        "transliteration": "थैंक यू। आई नीड टू सी अ डॉक्टर।",
+        "baseTranslation": "धन्यवाद। मुझे डॉक्टर को दिखाने की ज़रूरत है।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hello, how can I help you today?",
+    "transliteration": "हेलो, हाउ कैन आई हेल्प यू टुडे?",
+    "baseTranslation": "नमस्ते, मैं आज आपकी कैसे मदद कर सकता हूँ?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I need help. I am sick.",
+      "transliteration": "आई नीड हेल्प। आई एम सिक।",
+      "baseTranslation": "मुझे मदद की ज़रूरत है। मैं बीमार हूँ।"
+    },
+    {
+      "targetText": "I have a fever and a bad cough.",
+      "transliteration": "आई हैव अ फीवर एंड अ बैड कॉफ।",
+      "baseTranslation": "मुझे बुखार है और बहुत खाँसी है।"
+    },
+    {
+      "targetText": "Yes. I have a headache.",
+      "transliteration": "येस। आई हैव अ हेडेक।",
+      "baseTranslation": "हाँ। मेरे सिर में दर्द है।"
+    },
+    {
+      "targetText": "Yes, I fell down. My leg hurts!",
+      "transliteration": "येस, आई फेल डाउन। माई लेग हर्ट्स!",
+      "baseTranslation": "हाँ, मैं गिर गया था। मेरे पैर में दर्द है!"
+    },
+    {
+      "targetText": "Thank you. I need to see a doctor.",
+      "transliteration": "थैंक यू। आई नीड टू सी अ डॉक्टर।",
+      "baseTranslation": "धन्यवाद। मुझे डॉक्टर को दिखाने की ज़रूरत है।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "I am sick",
+      "have a fever",
+      "have a headache",
+      "leg hurts",
+      "see a doctor"
+    ],
+    "requiredKeywords": [
+      "sick",
+      "fever",
+      "headache",
+      "leg",
+      "hurts",
+      "see",
+      "doctor"
+    ],
+    "acceptableParaphrases": [
+      "I am feeling sick",
+      "I need to go to a doctor"
+    ],
+    "scoringRubric": {
+      "Zero Tolerance for 'Paining'": "Did the user say 'My head is paining' or 'My leg is paining'? Instant failure for that sub-task.",
+      "Article Usage": "Did the user include 'a' before symptoms (a fever, a headache)?"
+    },
+    "sampleAnswer": "I need help, I am sick. I have a fever and a bad cough. Yes, I have a headache. Yes, I fell down, my leg hurts! Thank you, I need to see a doctor.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully communicated your symptoms to the pharmacist using perfect English! Getting medical help is totally safe now.",
+    "onFail": "Keep practicing! You MUST replace the Hindi habits. Do not use 'Paining'. Use 'I have a' for illnesses, and 'Hurts' for injuries to arms and legs.",
+    "onPartial": "Good try! Watch out for Task 5. Because 'Doctor' is a noun, you cannot say 'I need doctor'. You must use the verb phrase 'I need TO SEE a doctor'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b5/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m3/b5/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b5/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m3/b5/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m3/b5/speaking/full_dialogue.mp3",
+    "audioTranscript": "Pharmacist: Hello... (full dialogue)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "health", "pharmacy", "medical", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b5/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the differences: I HAVE A headache. My leg HURTS.",
+  "commonMistakes": [
+    "Saying 'My head is paining.'",
+    "Saying 'I want a doctor' instead of 'I need to see a doctor.'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B5_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

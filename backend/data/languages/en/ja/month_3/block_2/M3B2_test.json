@@ -1,0 +1,445 @@
+{
+  "activityId": "ja_en_M3B2_test_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Final Test — Giving, Receiving, & Favors",
+  "learningGoal": "The learner will demonstrate mastery over social directionality in Japanese by correctly selecting between Ageru, Morau, and Kureru, and linking them with Te-forms to describe favors.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M3B2_lesson_001",
+    "ja_en_M3B2_pronunciation_001",
+    "ja_en_M3B2_reading_001",
+    "ja_en_M3B2_writing_001",
+    "ja_en_M3B2_listening_001",
+    "ja_en_M3B2_vocabulary_001",
+    "ja_en_M3B2_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to talk about giving and receiving. Remember the strict rule: You can NEVER use 'agemasu' if someone gives something to you.",
+  "testTitle": "Block 2 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Pay close attention to who the subject of the sentence is.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary of Exchange",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does かす (Kasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To borrow", "To lend", "To pay", "To teach"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does かりる (Kariru) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To lend", "To pay", "To borrow", "To help"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does おしえる (Oshieru) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To teach", "To learn", "To write", "To read"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does はらう (Harau) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To buy", "To sell", "To pay", "To cost"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Giving and Receiving Verbs",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "If a friend gives YOU a present, which verb must you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あげました (Agemashita)",
+            "くれました (Kuremashita)",
+            "かしました (Kashimashita)",
+            "かいました (Kaimashita)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "If YOU give a present to a friend, which verb must you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あげました (Agemashita)",
+            "くれました (Kuremashita)",
+            "もらいました (Moraimashita)",
+            "かしました (Kashimashita)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If you are the SUBJECT, and you received an item from someone, which verb do you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あげました (Agemashita)",
+            "くれました (Kuremashita)",
+            "もらいました (Moraimashita)",
+            "かしました (Kashimashita)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which particle is used with Moraimasu to indicate the person you received from?",
+          "questionType": "multiple_choice",
+          "options": [
+            "を (wo)",
+            "が (ga)",
+            "に (ni) or から (kara)",
+            "で (de)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Te-form Favors",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Translate: 'Tanaka-san helped me.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "たなかさんは てつだって くれました",
+            "たなかさんは てつだって あげました",
+            "たなかさんは てつだって もらいました",
+            "たなかさんは てつだいました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Translate: 'I had the teacher teach me English.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたしは せんせいに えいごを おしえて もらいました",
+            "わたしは せんせいに えいごを おしえて くれました",
+            "わたしは せんせいに えいごを おしえて あげました",
+            "わたしは せんせいに えいごを おしえさせました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'I lent my friend a bicycle.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたしは ともだちに じてんしゃを かして くれました",
+            "わたしは ともだちに じてんしゃを かして あげました",
+            "わたしは ともだちに じてんしゃを かして もらいました",
+            "わたしは ともだちに じてんしゃを かりました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'My friend lent me an umbrella.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ともだちが かさを かして くれました",
+            "ともだちが かさを かして あげました",
+            "ともだちが かさを かして もらいました",
+            "ともだちが かさを かりました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. Who gave the umbrella?",
+          "questionType": "multiple_choice",
+          "options": ["A friend", "A teacher", "The speaker", "A stranger"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "ともだちが くれました。",
+            "transliteration": "Tomodachi ga kuremashita.",
+            "baseTranslation": "A friend gave it to me."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What verb describes what the friend actually did?",
+          "questionType": "multiple_choice",
+          "options": ["Lent (Kashite)", "Sold (Utte)", "Gave permanently (Agete)", "Found (Mitsukete)"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "ともだちが かして くれました。",
+            "transliteration": "Tomodachi ga kashite kuremashita.",
+            "baseTranslation": "My friend lent it to me."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. Why did the friend lend it?",
+          "questionType": "multiple_choice",
+          "options": ["Because it rained", "Because it broke", "Because it was cold", "Because it was sunny"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "あめが ふったら、",
+            "transliteration": "Ame ga futtara,",
+            "baseTranslation": "When it rained,"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'gave to me' (polite past of kureru) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "くれました",
+            "transliteration": "kuremashita",
+            "baseTranslation": "gave to me"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'received' (polite past of morau) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "もらいました",
+            "transliteration": "moraimashita",
+            "baseTranslation": "received"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'lent' (Te-form of kasu) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "かして",
+            "transliteration": "kashite",
+            "baseTranslation": "lent"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'taught' (Te-form of oshieru) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "おしえて",
+            "transliteration": "oshiete",
+            "baseTranslation": "taught"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'helped' (Te-form of tetsudau) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "てつだって",
+            "transliteration": "tetsudatte",
+            "baseTranslation": "helped"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "To lend",
+      "q002": "To borrow",
+      "q003": "To teach",
+      "q004": "To pay",
+      "q005": "くれました (Kuremashita)",
+      "q006": "あげました (Agemashita)",
+      "q007": "もらいました (Moraimashita)",
+      "q008": "に (ni) or から (kara)",
+      "q009": "たなかさんは てつだって くれました",
+      "q010": "わたしは せんせいに えいごを おしえて もらいました",
+      "q011": "わたしは ともだちに じてんしゃを かして あげました",
+      "q012": "ともだちが かさを かして くれました",
+      "q013": "A friend",
+      "q014": "Lent (Kashite)",
+      "q015": "Because it rained",
+      "q016": "kuremashita",
+      "q017": "moraimashita",
+      "q018": "kashite",
+      "q019": "oshiete",
+      "q020": "tetsudatte"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Kuremashita"],
+      "q017": ["Moraimashita"],
+      "q018": ["Kashite"],
+      "q019": ["Oshiete"],
+      "q020": ["Tetsudatte"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the complex rules of Japanese giving and receiving.",
+    "onFail": "Review the core rule: You CANNOT use Agemasu when someone gives something to you.",
+    "onPartial": "Almost there. Pay close attention to the difference between Kasu (lend) and Kariru (borrow)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block2",
+    "giving",
+    "receiving",
+    "favors",
+    "advanced",
+    "month3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B3_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

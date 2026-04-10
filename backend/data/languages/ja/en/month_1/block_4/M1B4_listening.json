@@ -1,0 +1,190 @@
+{
+  "activityId": "en_ja_M1B4_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Making a Reservation",
+  "learningGoal": "Accurately hear dates, times, and distinguish between tricky teen/ty numbers (e.g., 14 vs 40) in a phone conversation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B4_writing_4"
+  ],
+  "instructions": "レストランでの予約の電話を聞いてください。曜日、日付、時間、そして人数を正確に聞き取って、質問に答えてください。特に「14」と「40」の聞き間違いに注意しましょう。(Listen to the restaurant reservation phone call. Accurately hear the day, date, time, and number of people, and answer the questions. Pay special attention to the difference between 14 and 40.)",
+  "listeningGoal": "To extract specific numerical data (dates, times, counts) from spoken English.",
+  "audioScenario": "A man is calling a restaurant to make a large dinner reservation.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hello, Luigi's Restaurant.",
+      "transliteration": "ヘロー、ルイージズ レストラン",
+      "baseTranslation": "はい、ルイージ・レストランです。"
+    },
+    {
+      "targetText": "Hi. I want to make a reservation.",
+      "transliteration": "ハイ。アイ ウォント トゥ メイク ア レザヴェイション",
+      "baseTranslation": "こんにちは。予約をしたいのですが。"
+    },
+    {
+      "targetText": "Okay. For what day?",
+      "transliteration": "オーケー。フォー ホワット デイ？",
+      "baseTranslation": "かしこまりました。何曜日ですか？"
+    },
+    {
+      "targetText": "For Thursday, October 14th.",
+      "transliteration": "フォー サーズデイ、オクトーバー フォーティーンス",
+      "baseTranslation": "10月14日の木曜日です。"
+    },
+    {
+      "targetText": "Thursday, October 14th. At what time?",
+      "transliteration": "サーズデイ、オクトーバー フォーティーンス。アット ホワット タイム？",
+      "baseTranslation": "10月14日の木曜日ですね。何時ですか？"
+    },
+    {
+      "targetText": "At 6:30, please.",
+      "transliteration": "アット シックス サーティ、プリーズ",
+      "baseTranslation": "6時30分でお願いします。"
+    },
+    {
+      "targetText": "Okay. For how many people?",
+      "transliteration": "オーケー。フォー ハウ メニー ピープル？",
+      "baseTranslation": "かしこまりました。何名様ですか？"
+    },
+    {
+      "targetText": "For 14 people.",
+      "transliteration": "フォー フォーティーン ピープル",
+      "baseTranslation": "14名です。"
+    },
+    {
+      "targetText": "14 or 40?",
+      "transliteration": "フォーティーン オア フォーティ？",
+      "baseTranslation": "14名ですか、それとも40名ですか？"
+    },
+    {
+      "targetText": "14. One, four.",
+      "transliteration": "フォーティーン。ワン、フォー",
+      "baseTranslation": "14です。1と4です。"
+    },
+    {
+      "targetText": "Got it. See you on Thursday!",
+      "transliteration": "ガティット。シー ユー オン サーズデイ！",
+      "baseTranslation": "わかりました。木曜日にお待ちしております！"
+    }
+  ],
+  "audioTranscriptFull": "Staff: Hello, Luigi's Restaurant.\nMan: Hi. I want to make a reservation.\nStaff: Okay. For what day?\nMan: For Thursday, October 14th.\nStaff: Thursday, October 14th. At what time?\nMan: At 6:30, please.\nStaff: Okay. For how many people?\nMan: For 14 people.\nStaff: 14 or 40?\nMan: 14. One, four.\nStaff: Got it. See you on Thursday!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "予約は何曜日ですか？ (What day is the reservation for?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Saturday",
+        "Sunday"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "予約は何月ですか？ (What month is the reservation in?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "August",
+        "September",
+        "October",
+        "November"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "予約の時間は何時ですか？ (What time is the reservation?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "5:30",
+        "6:00",
+        "6:30",
+        "7:30"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "予約は何名ですか？ (For how many people is the reservation?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "4",
+        "14",
+        "40",
+        "44"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Thursday",
+      "q2": "October",
+      "q3": "6:30",
+      "q4": "14"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You caught all the numerical details correctly.",
+    "onFail": "Listen again carefully. The difference between fourteen and forty can be tricky even for native speakers!",
+    "onPartial": "Good effort. Try listening to the slow audio to hear the exact date and time."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B4_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B4_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Staff: Hello, Luigi's Restaurant. Man: Hi. I want to make a reservation...",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "numbers",
+    "time",
+    "dates",
+    "reservation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "When the man confirms the number, he says 'One, four' to make it absolutely clear.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B4_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

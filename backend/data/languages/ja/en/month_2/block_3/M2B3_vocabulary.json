@@ -1,0 +1,272 @@
+{
+  "activityId": "en_ja_M2B3_vocabulary_6",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "vocabulary",
+  "title": "Service and Requests",
+  "learningGoal": "Learn common vocabulary used in service situations (hotels, restaurants) and words used when making or responding to requests.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B3_listening_5"
+  ],
+  "instructions": "ホテルやレストランなどの接客シーンでよく使われる単語や、お願いに答える時の表現（Certainly, Of course など）を覚えましょう。(Learn vocabulary commonly used in service situations and expressions for responding to requests.)",
+  "vocabTheme": "Polite Interactions",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "order",
+      "transliteration": "オーダー",
+      "baseTranslation": "注文、注文する",
+      "partOfSpeech": "noun / verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "menu",
+      "transliteration": "メニュー",
+      "baseTranslation": "メニュー",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "check in",
+      "transliteration": "チェック イン",
+      "baseTranslation": "チェックインする",
+      "partOfSpeech": "verb (phrase)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "passport",
+      "transliteration": "パスポート",
+      "baseTranslation": "パスポート",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "certainly",
+      "transliteration": "サーテンリー",
+      "baseTranslation": "かしこまりました、もちろんです",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "of course",
+      "transliteration": "オヴ コース",
+      "baseTranslation": "もちろん",
+      "partOfSpeech": "phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "sure",
+      "transliteration": "シュア",
+      "baseTranslation": "いいですよ、もちろん",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "casual",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "bring",
+      "transliteration": "ブリング",
+      "baseTranslation": "持ってくる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "show",
+      "transliteration": "ショウ",
+      "baseTranslation": "見せる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "help",
+      "transliteration": "ヘルプ",
+      "baseTranslation": "手伝う、助ける",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    }
+  ],
+  "meaningList": [
+    "注文 / 注文する",
+    "メニュー",
+    "チェックインする",
+    "パスポート",
+    "かしこまりました",
+    "もちろん",
+    "いいですよ",
+    "持ってくる",
+    "見せる",
+    "手伝う"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v1",
+      "targetText": "May I take your order?",
+      "transliteration": "メイ アイ テイク ユア オーダー",
+      "baseTranslation": "ご注文をお伺いしてもよろしいでしょうか。"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "I would like to check in, please.",
+      "transliteration": "アイ ウッド ライク トゥ チェック イン プリーズ",
+      "baseTranslation": "チェックインをお願いします。"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "Certainly, sir.",
+      "transliteration": "サーテンリー、サー",
+      "baseTranslation": "かしこまりました、お客様。（最も丁寧な返事）"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "Could you bring me some water?",
+      "transliteration": "クジュー ブリング ミー サム ウォーター",
+      "baseTranslation": "水を持ってきていただけますか？"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "Could you show me your passport?",
+      "transliteration": "クジュー ショウ ミー ユア パスポート",
+      "baseTranslation": "パスポートを見せていただけますか？"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does 'certainly' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "多分",
+        "ダメです",
+        "かしこまりました",
+        "後で"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "If a friend asks 'Can you help me?', what is a casual way to say 'yes'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Certainly.",
+        "Sure.",
+        "May I?",
+        "Please."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Fill in the blank: 'Could you ________ me your passport?' (見せる)",
+      "questionType": "multiple_choice",
+      "options": [
+        "bring",
+        "show",
+        "help",
+        "order"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Which word means '持ってくる'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "take",
+        "show",
+        "bring",
+        "check"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What does a waiter say to ask what you want to eat?",
+      "questionType": "multiple_choice",
+      "options": [
+        "May I take your menu?",
+        "Could you help me?",
+        "May I take your order?",
+        "Would you like to check in?"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "かしこまりました",
+      "q2": "Sure.",
+      "q3": "show",
+      "q4": "bring",
+      "q5": "May I take your order?"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! You know the right words for a hotel or restaurant.",
+    "onFail": "Review the list. Make sure you know the difference between 'bring' (持ってくる) and 'show' (見せる).",
+    "onPartial": "Good effort. Remember that 'Certainly' is formal, and 'Sure' is casual."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "service",
+    "requests",
+    "hotel",
+    "restaurant"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you are talking to a hotel clerk, 'certainly' and 'of course' sound much better than 'sure'.",
+  "commonMistakes": [
+    "Saying 'I am certainly' instead of just 'Certainly'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

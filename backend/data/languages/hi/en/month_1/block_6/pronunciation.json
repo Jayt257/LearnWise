@@ -1,0 +1,237 @@
+{
+  "activityId": "en_hi_M1B6_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Linking Words: Smooth Speech",
+  "learningGoal": "The learner will master 'connected speech' by pronouncing consonant-to-vowel linkages between spatial prepositions (In, On) and indefinite articles (A, An), eliminating robotic word separation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B6_lesson_001"],
+  "instructions": "Native English speakers do not speak like robots. Instead of saying 'In ... A ... Box', they link the words together so it sounds like 'I-nuh box'. The consonant at the end of 'In' jumps over to the vowel 'A'. Listen to how smooth it sounds and repeat after the audio.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Try to say the first two words as ONE word. 'On a' sounds like 'Aw-nuh'. Let your breath flow continuously."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "In a box",
+      "transliteration": "इन अ बॉक्स (इ-न बॉक्स)",
+      "baseTranslation": "एक डिब्बे में",
+      "phoneticHint": "LINKING: 'In a' becomes 'Ih-nuh'.",
+      "syllableSplit": "Ih-nuh box",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'In. A. Box.' with hard stops between each word."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "In a bag",
+      "transliteration": "इन अ बैग (इ-न बैग)",
+      "baseTranslation": "एक थैले में",
+      "phoneticHint": "LINKING: 'In a' becomes 'Ih-nuh'.",
+      "syllableSplit": "Ih-nuh bag",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p03",
+      "targetText": "In a room",
+      "transliteration": "इन अ रूम (इ-न रूम)",
+      "baseTranslation": "एक कमरे में",
+      "phoneticHint": "LINKING: 'Ih-nuh room'. Keep it smooth.",
+      "syllableSplit": "Ih-nuh room",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p04",
+      "targetText": "On a desk",
+      "transliteration": "ऑन अ डेस्क (ऑ-न डेस्क)",
+      "baseTranslation": "एक मेज़ पर",
+      "phoneticHint": "LINKING: 'On a' becomes 'Aw-nuh'. The N jumps to the A.",
+      "syllableSplit": "Aw-nuh desk",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Ohn. A. Desk.'"
+    },
+    {
+      "itemId": "p05",
+      "targetText": "On a chair",
+      "transliteration": "ऑन अ चेयर (ऑ-न चेयर)",
+      "baseTranslation": "एक कुर्सी पर",
+      "phoneticHint": "LINKING: 'Aw-nuh chair'.",
+      "syllableSplit": "Aw-nuh chair",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p06",
+      "targetText": "On a plate",
+      "transliteration": "ऑन अ प्लेट (ऑ-न प्लेट)",
+      "baseTranslation": "एक प्लेट पर",
+      "phoneticHint": "LINKING: 'Aw-nuh plate'.",
+      "syllableSplit": "Aw-nuh plate",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p07",
+      "targetText": "Under a bed",
+      "transliteration": "अंडर अ बेड (अंड-र बेड)",
+      "baseTranslation": "एक बिस्तर के नीचे",
+      "phoneticHint": "LINKING: The 'R' at the end of Under jumps to the 'A'. Un-du-ruh bed.",
+      "syllableSplit": "Un-du-ruh bed",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Under. A. Bed.'"
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Under a car",
+      "transliteration": "अंडर अ कार (अंड-र कार)",
+      "baseTranslation": "एक कार के नीचे",
+      "phoneticHint": "LINKING: Un-du-ruh car.",
+      "syllableSplit": "Un-du-ruh car",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p09",
+      "targetText": "In an office",
+      "transliteration": "इन ऐन ऑफिस (इ-न-ना-फिस)",
+      "baseTranslation": "एक कार्यालय में",
+      "phoneticHint": "DOUBLE LINK! In an office = 'Ih-nuh-nah-fis'.",
+      "syllableSplit": "Ih-nuh nah-fis",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying three completely broken words: In. An. Office."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "On an apple",
+      "transliteration": "ऑन ऐन ऐपल (ऑ-न-नैपल)",
+      "baseTranslation": "एक सेब पर",
+      "phoneticHint": "DOUBLE LINK! On an apple = 'Aw-nuh-na-pul'.",
+      "syllableSplit": "Aw-nuh na-pul",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p11",
+      "targetText": "In the bag",
+      "transliteration": "इन द बैग",
+      "baseTranslation": "थैले में",
+      "phoneticHint": "NO LINKING: Ends in a consonant, starts with a consonant. Just flow normally.",
+      "syllableSplit": "In the bag",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p12",
+      "targetText": "On the wall",
+      "transliteration": "ऑन द वॉल",
+      "baseTranslation": "दीवार पर",
+      "phoneticHint": "NO LINKING.",
+      "syllableSplit": "On the wall",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p13",
+      "targetText": "In a house",
+      "transliteration": "इन अ हाउस (इ-न हाउस)",
+      "baseTranslation": "एक घर में",
+      "phoneticHint": "LINKING: Ih-nuh house.",
+      "syllableSplit": "Ih-nuh house",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p14",
+      "targetText": "On a boat",
+      "transliteration": "ऑन अ बोट (ऑ-न बोट)",
+      "baseTranslation": "एक नाव पर",
+      "phoneticHint": "LINKING: Aw-nuh boat.",
+      "syllableSplit": "Aw-nuh boat",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p15",
+      "targetText": "Under an umbrella",
+      "transliteration": "अंडर ऐन अम्ब्रेला",
+      "baseTranslation": "एक छतरी के नीचे",
+      "phoneticHint": "TRIPLE SYLLABLE LINK! Un-du-ruh num-brel-la.",
+      "syllableSplit": "Un-du-ruh num-brel-la",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Robotic halting."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "In a box On a desk In an office",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Awesome! You are sounding less robotic and more fluent. By linking the consonant of the first word to the vowel of the second, you sound like a native.",
+    "onFail": "Keep practicing! Don't stop your breath between 'In' and 'a'. It should sound like one word: 'Inna'.",
+    "onPartial": "Good effort! Remember when the next word is 'the' (a consonant), you don't link them as strongly. But if the next word is 'A' or 'An' (vowel), you MUST link them!"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "in a box in a bag in a room on a desk on a chair on a plate under a bed under a car in an office on an apple in the bag on the wall in a house on a boat under an umbrella",
+    "acceptedVariants": [
+      "in a box in a bag in a room on a desk on a chair on a plate under a bed under a car in an office on an apple in the bag on the wall in a house on a boat under an umbrella"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Continuous phonation across word boundaries ending in sonorants (n) and rhotics (r) into vowel initial indefinite articles.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b6/pronunciation/native_linking.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b6/pronunciation/slow_linking.mp3",
+    "normalAudio": "audio/en_hi/m1/b6/pronunciation/native_linking.mp3",
+    "audioTranscript": "In a box... In a bag... In a room...",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "connected_speech", "prepositions", "articles", "fluency", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b6/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To train connected speech, pretend the phrase is just one big word! 'On a desk' -> 'Onwadesk'. Just let it flow out in one breath.",
+  "commonMistakes": [
+    "Inserting a glottal stop before vowel-initial words.",
+    "Stress-timing the article instead of the noun."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B6_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

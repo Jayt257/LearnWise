@@ -1,0 +1,187 @@
+{
+  "activityId": "hi_en_M2B5_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Writing: Modals Matrix",
+  "learningGoal": "Construct sentences using Can, Should, and Have To, shifting between normal subjects and dative subjects as required.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B5_lesson_1"
+  ],
+  "instructions": "Translate these sentences. If the sentence uses 'can', use 'Main'. If the sentence uses 'should' or 'have to', use 'Mujhe/Tumhein'. Pay attention to gender!",
+  "writingPrompt": "Translate the following sentences into Hindi (Assume MALE speaker):\n1. I can do work. (Work = Kaam [Masc], Do = Kar)\n2. I should do work. \n3. You (casual) will have to go. (Go = Jaana)\n4. I have to go now. (Now = Ab)\n5. I cannot drink tea. (Tea = Chai [Fem])",
+  "promptGoal": "Accurately deploy sakna, chahiye, padega, and immediate compulsion.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "main",
+      "baseTranslation": "I (normal subject)"
+    },
+    {
+      "targetText": "मुझे",
+      "transliteration": "mujhe",
+      "baseTranslation": "To me / I (dative subject)"
+    },
+    {
+      "targetText": "तुम्हें",
+      "transliteration": "tumhein",
+      "baseTranslation": "To you / You (dative casual)"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "kaam",
+      "baseTranslation": "work"
+    },
+    {
+      "targetText": "कर सकता हूँ",
+      "transliteration": "kar sakta hoon",
+      "baseTranslation": "can do"
+    },
+    {
+      "targetText": "करना चाहिए",
+      "transliteration": "karna chahiye",
+      "baseTranslation": "should do"
+    },
+    {
+      "targetText": "जाना पड़ेगा",
+      "transliteration": "jaana padega",
+      "baseTranslation": "will have to go"
+    },
+    {
+      "targetText": "अब",
+      "transliteration": "ab",
+      "baseTranslation": "now"
+    },
+    {
+      "targetText": "जाना है",
+      "transliteration": "jaana hai",
+      "baseTranslation": "have to go"
+    },
+    {
+      "targetText": "चाय",
+      "transliteration": "chai",
+      "baseTranslation": "tea"
+    },
+    {
+      "targetText": "नहीं",
+      "transliteration": "nahi",
+      "baseTranslation": "not"
+    },
+    {
+      "targetText": "पी सकता",
+      "transliteration": "pee sakta",
+      "baseTranslation": "can drink"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'I work do can am.'",
+    "Sentence 2: 'To-me work to-do should.'",
+    "Sentence 3: 'To-you to-go will-fall.'",
+    "Sentence 4: 'To-me now to-go is.'",
+    "Sentence 5: 'I tea not drink can.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं काम कर सकता हूँ। मुझे काम करना चाहिए। तुम्हें जाना पड़ेगा। मुझे अब जाना है। मैं चाय नहीं पी सकता।",
+      "transliteration": "Main kaam kar sakta hoon. Mujhe kaam karna chahiye. Tumhein jaana padega. Mujhe ab jaana hai. Main chai nahi pee sakta.",
+      "baseTranslation": "I can do work. I should do work. You will have to go. I have to go now. I cannot drink tea.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect shifting. 'Main' is used for 'sakta'. 'Mujhe' and 'Tumhein' are used for 'chahiye', 'padega', and 'hai'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Subject Shift Accuracy",
+      "weight": 40,
+      "description": "Must use 'Main' for sentences 1 and 5. Must use 'Mujhe' for 2 and 4. Must use 'Tumhein' for 3."
+    },
+    {
+      "criterion": "Modal Verb Accuracy",
+      "weight": 40,
+      "description": "Must use 'sakta' for can, 'chahiye' for should, 'padega' for will have to, and 'hai' for immediate compulsion."
+    },
+    {
+      "criterion": "Verb Form",
+      "weight": 20,
+      "description": "Must use root verb 'kar' before 'sakta', but full verb 'karna/jaana' before 'chahiye/padega/hai'."
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं काम कर सकता हूँ। मुझे काम करना चाहिए। तुम्हें जाना पड़ेगा। मुझे अब जाना है। मैं चाय नहीं पी सकता।",
+    "acceptableAlternates": [
+      "Main kaam kar sakta hoon. Mujhe kaam karna chahiye. Tumhein jaana padega. Mujhe ab jaana hai. Main chai nahi pee sakta.",
+      "main kaam kar sakta hoon. mujhe kaam karna chahiye. tumhein jaana padega. mujhe ab jaana hai. main chai nahi pee sakta."
+    ],
+    "requiredKeywords": [
+      "main",
+      "sakta",
+      "mujhe",
+      "chahiye",
+      "tumhein",
+      "padega",
+      "jaana hai",
+      "chai"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check on Main vs Mujhe.",
+    "lengthExpectation": "Five precise sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Dative Failure",
+          "weight": 100,
+          "description": "If user writes 'Main kaam karna chahiye' or 'Main jaana hai', score drops massively."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Flawless execution! You shifted between the Absolutive (Main) and Dative (Mujhe) cases perfectly.",
+    "onFail": "Review Section 6. 'Sakna' (can) is the only one that uses 'Main'. All the others (Should, Have to) MUST use 'Mujhe'.",
+    "onPartial": "Good try. Look at Sentence 4. To say 'I have to go', you don't use 'chahiye', you just say 'Mujhe jaana hai'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "modals",
+    "dative",
+    "grammar_drill",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Sentence 5 uses 'Sakna', so it reverts back to the normal subject 'Main'.",
+  "commonMistakes": [
+    "Writing 'Main jaana padega' (You must use Mujhe)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

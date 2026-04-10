@@ -1,0 +1,220 @@
+{
+  "activityId": "en_hi_M1B4_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Numbers, Dates, and Asking Questions",
+  "learningGoal": "The learner will master English numbers 1-100, the days of the week and months, core WH-question words (Who, What, Where, When), and the verb inversion rule required to ask English questions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B3_test_001"],
+  "instructions": "In this lesson, you will learn essential survival words: numbers and time. You will also learn how to ask questions. In English, asking a question usually means flipping the subject and the verb. Read through the examples and complete the check questions.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब हम कुछ बताते हैं, तो हम कहते हैं 'You are a student' (Subject -> Verb). लेकिन जब हम कोई प्रश्न पूछते हैं, तो हमें उन्हें पलटना पड़ता है: 'Are you a student?' (Verb -> Subject)."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Numbers in English follow a strict, predictable additive pattern after 20 (Twenty-one, twenty-two), unlike Hindi numbers which are unique up to 100.",
+      "The 'W' in WH words creates distinct sounds (Who = Hoo, What = Wot).",
+      "To form a question with 'To Be' verbs, simply swap the positions of the Subject and the Verb (I am -> Am I? / He is -> Is he?)."
+    ],
+    "conceptSummary": "Introduction to numbers (1-100), temporal vocabulary (Days/Months), WH- words, and question inversion syntax.",
+    "importantFacts": [
+      "English months and days of the week are Proper Nouns and MUST always be capitalized (Monday, not monday).",
+      "The difference between 'Thirteen' and 'Thirty' is stress. Stress the 'TEEN' for 13, stress the 'THIR' for 30."
+    ],
+    "checkpointAnswers": {
+      "q1": "Fifty",
+      "q2": "Are you",
+      "q3": "Who",
+      "q4": "False"
+    },
+    "expectedUnderstanding": "Learners can count to 100 predictably and accurately form 'Where are you?' instead of the incorrect 'Where you are?'."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand the foundational English counting logic and the crucial Verb-Subject question inversion rule.",
+    "onFail": "Please review the section on 'Asking Questions'. Remember, statements are SVO, but questions flip the first two: V-S-O ('Are you a student?').",
+    "onPartial": "Good effort! Check your numbers. 'Fifty' is 50, but 'Fifteen' is 15."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b4/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m1/b4/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m1/b4/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m1/b4/lesson/native_lesson.mp3",
+    "audioTranscript": "One, Two, Three. Monday. Tuesday. Who, What, Where.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "numbers", "questions", "dates", "beginner", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b4/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "'Teen' words (13, 14) are for young people (Teenagers). 'Ty' words (30, 40) are for older ages.",
+  "commonMistakes": [
+    "Asking 'You are happy?' instead of 'Are you happy?'",
+    "Mispronouncing Thirty as Thirteen."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B4_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Numbers, Dates, and Questions",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Numbers 1 to 20 (गिनती 1 से 20)",
+      "bodyText": "1 से 20 तक की गिनती आपको याद करनी होगी: One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten. ग्यारह से बीस: Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen, Twenty.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I have twelve apples.",
+          "transliteration": "आई हैव ट्वेल्व ऐपल्स।",
+          "baseTranslation": "मेरे पास बारह सेब हैं।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Numbers 21 to 100",
+      "bodyText": "हिंदी में हर संख्या का अलग नाम होता है (जैसे छब्बीस, सत्ताईस)। अंग्रेजी में, यह बहुत आसान है! आप बस दहाई (Ten) शब्द लेते हैं और एक (One) शब्द जोड़ देते हैं। Twenty-one (21), Twenty-two (22), Thirty (30), Forty (40), Fifty (50), Sixty (60), Seventy (70), Eighty (80), Ninety (90), One Hundred (100).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Thirty-five. Forty-two. Ninety-nine.",
+          "transliteration": "थर्टी-फाइव। फोर्टी-टू। नाइंटी-नाइन।",
+          "baseTranslation": "पैंतीस (35)। बयालीस (42)। निन्यानवे (99)। (पैटर्न देखें? 30+5, 40+2, 90+9)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Days and Months (दिन और महीने)",
+      "bodyText": "सप्ताह के दिन: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. महीने: January, February, March, April, May, June, July, August, September, October, November, December. याद रखें: ये हमेशा बड़े अक्षर (Capital Letter) से शुरू होते हैं!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Today is Monday. My birthday is in July.",
+          "transliteration": "टुडे इज़ मंडे। माई बर्थडे इज़ इन जुलाई।",
+          "baseTranslation": "आज सोमवार है। मेरा जन्मदिन जुलाई में है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "WH Question Words (प्रश्नवाचक शब्द)",
+      "bodyText": "अंग्रेजी में अधिकांश प्रश्न 'W' या 'H' से शुरू होते हैं। 1) Who (कौन - व्यक्ति के लिए), 2) What (क्या - वस्तु के लिए), 3) Where (कहाँ - स्थान के लिए), 4) When (कब - समय के लिए)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Who, What, Where, When.",
+          "transliteration": "हू, वॉट, वेयर, वेन।",
+          "baseTranslation": "कौन, क्या, कहाँ, कब।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec5",
+      "sectionTitle": "How to Ask a Question (प्रश्न कैसे पूछें)",
+      "bodyText": "यह बहुत महत्वपूर्ण है! एक सामान्य वाक्य 'Subject + Verb' (You are) होता है। एक प्रश्न बनाने के लिए, उन्हें पलट दें: 'Verb + Subject' (Are you?)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Statement: You are happy. Question: Are you happy?",
+          "transliteration": "स्टेटमेंट: यू आर हैप्पी। क्वेश्चन: आर यू हैप्पी?",
+          "baseTranslation": "कथन: तुम खुश हो। प्रश्न: क्या तुम खुश हो? (You are -> Are you?)"
+        },
+        {
+          "targetText": "Statement: She is a doctor. Question: Is she a doctor?",
+          "transliteration": "स्टेटमेंट: शी इज़ अ डॉक्टर। क्वेश्चन: इज़ शी अ डॉक्टर?",
+          "baseTranslation": "कथन: वह एक डॉक्टर है। प्रश्न: क्या वह एक डॉक्टर है? (She is -> Is she?)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec6",
+      "sectionTitle": "Using WH- Words with Questions",
+      "bodyText": "जब आप Who, What, Where का उपयोग करते हैं, तो बस प्रश्नवाचक शब्द को सबसे आगे रख दें। उसके बाद पलटा हुआ (inverted) Verb+Subject लगाएँ।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Where are you? Who is he? What is it?",
+          "transliteration": "वेयर आर यू? हू इज़ ही? वॉट इज़ इट?",
+          "baseTranslation": "तुम कहाँ हो? वह कौन है? यह क्या है?"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will establish structural instincts for basic English counting and automatically invert Subject-Verb pairs when formulating questions.",
+  "examples": [
+    {
+      "targetText": "Where are they?",
+      "transliteration": "वेयर आर दे?",
+      "baseTranslation": "वे कहाँ हैं?",
+      "explanation": "Correct order: WH Word (Where) + Verb (are) + Subject (they). Never say 'Where they are?' automatically as a question."
+    },
+    {
+      "targetText": "Today is Friday.",
+      "transliteration": "टुडे इज़ फ्राइडे।",
+      "baseTranslation": "आज शुक्रवार है।",
+      "explanation": "Friday is capitalized because it is a proper noun."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "To make a question using 'to be' verbs, ALWAYS swap the subject and the verb. 'He is' becomes 'Is he?'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "-TEEN numbers (13-19) are teens. -TY numbers (20-90) are multiples of ten. Do not confuse Fifteen (15) with Fifty (50).",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "Days and Months are Proper Nouns. They always get a capital letter.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Unlike Hindi counting which has 100 unique names, English counting after 20 is just 'Tens + Ones'. Once you know twenty and one, you automatically know twenty-one. It is very logical.",
+    "dosList": [
+      "Use capital letters for days and months."
+    ],
+    "dontsList": [
+      "Do not ask questions by just changing your tone of voice ('You are a student?'). You must flip the verb: 'Are you a student?'"
+    ]
+  },
+  "summary": "English numbers are simple and additive after twenty (Forty-four, Fifty-six). WH words (Who, What, Where, When) start our questions. To ask a question with 'to be', you must invert the sentence structure: Subject-Verb becomes Verb-Subject ('You are' -> 'Are you?').",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the English word for 50?",
+      "expectedAnswer": "Fifty"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blanks to make a question: '______ ______ happy?' (You are -> ?)",
+      "expectedAnswer": "Are you"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Which word do we use to ask about a person? (कौन)",
+      "expectedAnswer": "Who"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "True or False: We write 'monday' with a small 'm'.",
+      "expectedAnswer": "False"
+    }
+  ]
+}

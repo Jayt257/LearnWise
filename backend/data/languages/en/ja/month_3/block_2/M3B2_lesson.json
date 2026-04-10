@@ -1,0 +1,208 @@
+{
+  "activityId": "ja_en_M3B2_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "Giving, Receiving, and Favors",
+  "learningGoal": "The learner will master the verbs 'Ageru', 'Morau', and 'Kureru' to express giving and receiving items, and combine them with the Te-form to express giving and receiving favors.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M3B1_test_001"
+  ],
+  "instructions": "In Japanese, the words for 'giving' change depending on whether someone is giving to YOU, or you are giving to THEM. Furthermore, these same verbs are used to talk about doing favors for people.",
+  "conceptTitle": "The Direction of Giving",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Giving to Others (Ageru / Agemasu)",
+      "bodyText": "When you give something to someone else, use 'Agemasu'. The person receiving the item is marked with the particle 'ni'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは たなかさんに プレゼントを あげます。",
+          "transliteration": "Watashi wa Tanaka-san ni purezento wo agemasu.",
+          "baseTranslation": "I give a present to Tanaka-san.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたしは ほんを あげました。",
+          "transliteration": "Watashi wa hon wo agemashita.",
+          "baseTranslation": "I gave a book. (Past tense)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Receiving from Others (Morau / Moraimasu)",
+      "bodyText": "When you receive something from someone, use 'Moraimasu'. The person you received it from is marked with 'ni' or 'kara'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは たなかさんに プレゼントを もらいました。",
+          "transliteration": "Watashi wa Tanaka-san ni purezento wo moraimashita.",
+          "baseTranslation": "I received a present from Tanaka-san.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ともだちから かさを もらいました。",
+          "transliteration": "Tomodachi kara kasa wo moraimashita.",
+          "baseTranslation": "I received an umbrella from a friend.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Giving to ME (Kureru / Kuremasu)",
+      "bodyText": "If someone gives something to YOU, you cannot use Agemasu. You MUST use 'Kuremasu'. The giver is marked with 'wa' or 'ga', and the receiver (me) is marked with 'ni'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たなかさんは わたしに プレゼントを くれました。",
+          "transliteration": "Tanaka-san wa watashi ni purezento wo kuremashita.",
+          "baseTranslation": "Tanaka-san gave a present to me.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ともだちが おかねを くれました。",
+          "transliteration": "Tomodachi ga okane wo kuremashita.",
+          "baseTranslation": "My friend gave me money. (Watashi ni is often implied and dropped)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Doing Favors (Te-form + Ageru/Morau/Kureru)",
+      "bodyText": "Instead of physical objects, you can give or receive ACTIONS. Combine the Te-form of an action verb with Agemasu, Moraimasu, or Kuremasu.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは たなかさんを てつだって あげます。",
+          "transliteration": "Watashi wa Tanaka-san wo tetsudatte agemasu.",
+          "baseTranslation": "I will help Tanaka-san. (Literally: I give the favor of helping to Tanaka-san).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たなかさんは わたしに えいごを おしえて くれました。",
+          "transliteration": "Tanaka-san wa watashi ni Eigo wo oshiete kuremashita.",
+          "baseTranslation": "Tanaka-san taught me English. (Literally: Tanaka-san gave me the favor of teaching).",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will master the directional flow of giving and receiving, accurately differentiating between 'agemasu' and 'kuremasu', and will apply this logic to the exchange of favors using the Te-form.",
+  "examples": [
+    {
+      "targetText": "わたしは ジョンさんに じてんしゃを かして もらいました。",
+      "transliteration": "Watashi wa Jon-san ni jitensha wo kashite moraimashita.",
+      "baseTranslation": "I had John lend me a bicycle. (Literally: I received the favor of lending from John).",
+      "explanation": "This is a very common and polite way to say someone did something for you."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use 'Agemasu' when someone gives something to you.",
+      "exceptionNotes": "'Tanaka-san wa watashi ni agemashita' is completely incorrect. It must be 'kuremashita'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "'Moraimasu' is from the perspective of the receiver (I received). 'Kuremasu' is from the perspective of the giver (He gave to me).",
+      "exceptionNotes": "They describe the exact same event, just with different subjects."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese culture places a huge emphasis on acknowledging favors and maintaining social harmony. Using 'Te-form + Kuremasu' or 'Moraimasu' shows deep gratitude for someone's help, rather than just stating 'They did X' as a flat fact.",
+    "dosList": [
+      "Use 'oshiete kuremashita' instead of just 'oshiemashita' when someone teaches you something. It shows appreciation."
+    ],
+    "dontsList": [
+      "Do not over-use 'Te-form + Agemasu' with superiors (like a boss), as it can sound arrogant ('I bestow the favor of my help upon you')."
+    ]
+  },
+  "summary": "Agemasu = I give. Moraimasu = I receive. Kuremasu = You give to me. Combine these with the Te-form of verbs to talk about doing and receiving favors.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "If your friend gives YOU a present, which verb must you use for their action?",
+      "expectedAnswer": "くれました (Kuremashita)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What particle marks the person you received an item from (when using Moraimasu)?",
+      "expectedAnswer": "に (ni) or から (kara)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Translate: 'I give the favor of helping' (Help = Tetsudau).",
+      "expectedAnswer": "てつだって あげます (Tetsudatte agemasu)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Agemasu: Subject -> Someone else.",
+      "Moraimasu: Subject <- Someone else.",
+      "Kuremasu: Someone else -> Me.",
+      "Favors are expressed using Te-form + Giver/Receiver verbs."
+    ],
+    "conceptSummary": "Understanding social directionality in Japanese actions.",
+    "importantFacts": [
+      "Kuremasu can also be used if someone gives something to your family member (my ingroup)."
+    ],
+    "checkpointAnswers": {
+      "q1": "くれました",
+      "q2": "に / から",
+      "q3": "てつだって あげます"
+    },
+    "expectedUnderstanding": "Learner must memorize the strict directionality of Kuremasu vs Agemasu."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! The giving/receiving rules are notoriously tricky, but you've mastered them.",
+    "onFail": "Review the difference between Agemasu and Kuremasu. You can NEVER 'agemasu' to yourself.",
+    "onPartial": "Good start. Make sure you remember to use the Te-form when talking about favors (Te-form + Kuremasu)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b2/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "わたしは たなかさんに プレゼントを あげます。わたしは たなかさんに プレゼントを もらいました。ともだちから かさを もらいました。たなかさんは わたしに プレゼントを くれました。わたしは たなかさんを てつだって あげます。たなかさんは わたしに えいごを おしえて くれました。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "giving",
+    "receiving",
+    "favors",
+    "te-form",
+    "advanced",
+    "month3",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Tanaka-san wa watashi ni agemashita'. It MUST be 'kuremashita'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B2_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

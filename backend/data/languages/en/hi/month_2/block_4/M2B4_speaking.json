@@ -1,0 +1,191 @@
+{
+  "activityId": "hi_en_M2B4_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Speaking: Alibi and Actions",
+  "learningGoal": "Verbally construct past tense sentences, flawlessly deciding in real-time whether to use the 'ne' rule and how to match gender.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B4_vocabulary_6",
+    "hi_en_M2B4_listening_5"
+  ],
+  "instructions": "You are giving an alibi to the police. You must state what you did, and what your friend did. THINK before you speak: Does this verb take an object? If so, use 'Maine' and match the object! ASSUME YOU ARE A FEMALE SPEAKER.",
+  "speakingPrompt": "Respond to the police inspector's questions. Remember, even if you are speaking as a female, if you eat an apple (masculine), the verb must be masculine!",
+  "scenario": "Providing an alibi at the police station.",
+  "role": "Female Suspect",
+  "conversationPartner": "Inspector",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Inspector: 'What did you do yesterday?' Reply: 'Yesterday I went to Delhi.' (Delhi = Delhi. Go = Jaa. Intransitive.)",
+      "expectedSpeakingPoints": [
+        "Kal main",
+        "Delhi",
+        "gayi"
+      ],
+      "sampleResponse": {
+        "targetText": "कल मैं दिल्ली गई।",
+        "transliteration": "Kal main Delhi gayi.",
+        "baseTranslation": "Yesterday I went to Delhi."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Inspector: 'Did you drink tea?' Reply: 'No, I drank water.' (Water = Paani [Masc]. Drink = Pee. Transitive.)",
+      "expectedSpeakingPoints": [
+        "Nahi",
+        "maine",
+        "paani piya"
+      ],
+      "sampleResponse": {
+        "targetText": "नहीं, मैंने पानी पिया।",
+        "transliteration": "Nahi, maine paani piya.",
+        "baseTranslation": "No, I drank water."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Inspector: 'And what did your friend do?' Reply: 'He read a book.' (He = Woh/Usne. Book = Kitaab [Fem]. Read = Padh. Transitive.)",
+      "expectedSpeakingPoints": [
+        "Usne",
+        "kitaab",
+        "padhi"
+      ],
+      "sampleResponse": {
+        "targetText": "उसने किताब पढ़ी।",
+        "transliteration": "Usne kitaab padhi.",
+        "baseTranslation": "He read a book."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Inspector: 'Who saw him?' Reply: 'I saw him.' (I = Maine. Saw = Dekha. Transitive, defaulting to masc.)",
+      "expectedSpeakingPoints": [
+        "Maine",
+        "use",
+        "dekha"
+      ],
+      "sampleResponse": {
+        "targetText": "मैंने उसे देखा।",
+        "transliteration": "Maine use dekha.",
+        "baseTranslation": "I saw him."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप पुलिस स्टेशन में हैं।",
+    "transliteration": "Aap police station mein hain.",
+    "baseTranslation": "You are in the police station."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "कल मैं दिल्ली गई।",
+      "transliteration": "Kal main Delhi gayi.",
+      "baseTranslation": "Yesterday I went to Delhi."
+    },
+    {
+      "targetText": "नहीं, मैंने पानी पिया।",
+      "transliteration": "Nahi, maine paani piya.",
+      "baseTranslation": "No, I drank water."
+    },
+    {
+      "targetText": "उसने किताब पढ़ी।",
+      "transliteration": "Usne kitaab padhi.",
+      "baseTranslation": "He read a book."
+    },
+    {
+      "targetText": "मैंने उसे देखा।",
+      "transliteration": "Maine use dekha.",
+      "baseTranslation": "I saw him."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 10,
+    "contentWeight": 30,
+    "grammarWeight": 50,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "main gayi",
+      "maine paani piya",
+      "usne kitaab padhi",
+      "maine dekha"
+    ],
+    "requiredKeywords": [
+      "मैं",
+      "गई",
+      "मैंने",
+      "पिया",
+      "उसने",
+      "पढ़ी",
+      "देखा"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Maine usko dekha' instead of 'Maine use dekha' is totally fine."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Maine Gaya Error",
+          "weight": 100,
+          "description": "If user says 'Maine gayi', auto-fail that sentence. It must be 'Main gayi'."
+        },
+        {
+          "name": "Object Gender Override",
+          "weight": 100,
+          "description": "If user says 'Maine paani pee' or 'Usne kitaab padha', auto-fail. Must be 'piya' (masc water) and 'padhi' (fem book)."
+        }
+      ]
+    },
+    "sampleAnswer": "Kal main Delhi gayi. Nahi, maine paani piya. Usne kitaab padhi. Maine use dekha.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Magnificent! Speaking the 'ne' rule fluently in real-time is the true mark of an advanced speaker.",
+    "onFail": "Stop and think before every sentence. Does the verb take an object? If YES -> use Maine. If NO -> use Main.",
+    "onPartial": "Good effort. Watch out for 'Usne kitaab padhi'. Even though he is a man, the book is feminine, so the verb MUST be feminine."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "कल मैं दिल्ली गई। नहीं, मैंने पानी पिया। उसने किताब पढ़ी। मैंने उसे देखा।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "past_tense",
+    "ne_particle",
+    "roleplay",
+    "grammar_drill"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Say 'Main gayi' confidently. Say 'Maine paani piya' confidently. Don't mix them up!",
+  "commonMistakes": [
+    "Saying 'Main paani piya' (Forgetting 'ne')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

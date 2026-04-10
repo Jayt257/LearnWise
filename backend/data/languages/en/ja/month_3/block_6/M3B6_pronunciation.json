@@ -1,0 +1,138 @@
+{
+  "activityId": "ja_en_M3B6_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Mastering Complex Sentences",
+  "learningGoal": "The learner will fluidly pronounce complex, multi-clause Japanese sentences incorporating advanced conjugations like causative-passive and conditionals.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B6_lesson_001",
+    "ja_en_M3B6_vocabulary_001"
+  ],
+  "instructions": "Pronounce these long, complex sentences. Focus on maintaining a natural rhythm and appropriate intonation across the clauses.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For example: 'Ame ga futtara, ikitakunai desu'. Pause slightly at the comma."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "あめが ふったら、いきたくないです",
+      "transliteration": "Ame ga futtara, ikitakunai desu",
+      "baseTranslation": "If it rains, I do not want to go.",
+      "phoneticHint": "ah-meh gah foot-tah-rah, ee-kee-tah-koo-nigh dess",
+      "syllableSplit": "a-me ga fu-t-ta-ra, i-ki-ta-ku-na-i de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Dropping the double consonant in 'futtara'."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "ぶちょうに ざんぎょうを させられました",
+      "transliteration": "Buchou ni zangyou wo saseraremashita",
+      "baseTranslation": "I was forced to do overtime by the boss.",
+      "phoneticHint": "boo-choe nee zahn-gyoh oh sah-seh-rah-reh-mah-shee-tah",
+      "syllableSplit": "bu-cho-o ni za-n-gyo-o o sa-se-ra-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Stumbling over the 7-syllable 'saseraremashita'."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "くすりを のんでから、ねて ください",
+      "transliteration": "Kusuri wo nonde kara, nete kudasai",
+      "baseTranslation": "After drinking the medicine, please sleep.",
+      "phoneticHint": "koo-soo-ree oh non-deh kah-rah, neh-teh koo-dah-sigh",
+      "syllableSplit": "ku-su-ri o no-n-de ka-ra, ne-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Rushing the pause after 'kara'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "パスポートを ぬすまれて しまいました",
+      "transliteration": "Pasupooto wo nusumarete shimaimashita",
+      "baseTranslation": "My passport was unfortunately stolen.",
+      "phoneticHint": "pah-soo-poh-toh oh noo-soo-mah-reh-teh shee-my-mah-shee-tah",
+      "syllableSplit": "pa-su-po-o-to o nu-su-ma-re-te shi-ma-i-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Losing breath on the long verb ending."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "あした、わたくしが そちらに まいります",
+      "transliteration": "Ashita, watakushi ga sochira ni mairimasu",
+      "baseTranslation": "Tomorrow, I will go to your company.",
+      "phoneticHint": "ah-shee-tah, wah-tah-koo-shee gah soh-chee-rah nee my-ree-mahs",
+      "syllableSplit": "a-shi-ta, wa-ta-ku-shi ga so-chi-ra ni ma-i-ri-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Using flat intonation for Keigo."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "あめがふったらいきたくないです ぶちょうにざんぎょうをさせられました くすりをのんでからねてください パスポートをぬすまれてしまいました あしたわたくしがそちらにまいります",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Phenomenal! Your pronunciation handles complex Japanese sentences beautifully.",
+    "onFail": "Keep practicing! Break the long sentences down. Practice 'saseraremashita' slowly.",
+    "onPartial": "Good effort. Make sure you observe the natural pauses (marked by commas) in spoken Japanese."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "あめがふったらいきたくないです ぶちょうにざんぎょうをさせられました くすりをのんでからねてください パスポートをぬすまれてしまいました あしたわたくしがそちらにまいります",
+    "acceptedVariants": [
+      "あめが ふったら いきたくないです ぶちょうに ざんぎょうを させられました くすりを のんでから ねて ください パスポートを ぬすまれて しまいました あした わたくしが そちらに まいります"
+    ],
+    "syllableSplitReference": "a-me-ga-fu-t-ta-ra-i-ki-ta-ku-na-i-de-su bu-cho-o-ni-za-n-gyo-o-o-sa-se-ra-re-ma-shi-ta ku-su-ri-o-no-n-de-ka-ra-ne-te-ku-da-sa-i pa-su-po-o-to-o-nu-su-ma-re-te-shi-ma-i-ma-shi-ta a-shi-ta-wa-ta-ku-shi-ga-so-chi-ra-ni-ma-i-ri-ma-su",
+    "phoneticApproximation": "amegafuttaraikitakunaidesu buchounizangyouwosaseraremashita kusuriwonondekaranetekudasai pasupootowonusumareteshimaimashita ashitawatakushigasochiranimairimasu",
+    "nativeScriptReference": "あめがふったらいきたくないです ぶちょうにざんぎょうをさせられました くすりをのんでからねてください パスポートをぬすまれてしまいました あしたわたくしがそちらにまいります",
+    "transliteration": "Ame ga futtara ikitakunai desu Buchou ni zangyou wo saseraremashita Kusuri wo nonde kara nete kudasai Pasupooto wo nusumarete shimaimashita Ashita watakushi ga sochira ni mairimasu",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b6/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m3/b6/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b6/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "あめが ふったら、いきたくないです。ぶちょうに ざんぎょうを させられました。くすりを のんでから、ねて ください。パスポートを ぬすまれて しまいました。あした、わたくしが そちらに まいります。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "review",
+    "complex",
+    "advanced",
+    "month3",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Breathe at the commas. It will help you manage the long verb endings.",
+  "commonMistakes": [
+    "Slurring 'saseraremashita'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

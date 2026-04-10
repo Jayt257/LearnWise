@@ -1,0 +1,203 @@
+{
+  "activityId": "hi_en_M2B4_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Writing: The Past Tense Challenge",
+  "learningGoal": "Construct grammatically accurate sentences in the past tense, correctly choosing between intransitive subject-matching and transitive object-matching ('ne' rule).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B4_lesson_1"
+  ],
+  "instructions": "This is the ultimate test of your Hindi grammar skills. You must translate sentences into the past tense. FIRST, ask yourself: 'Does this action have an object?'. If YES, you must use 'ne' and match the verb to the object. If NO, do not use 'ne'. ASSUME YOU ARE A MALE SPEAKER.",
+  "writingPrompt": "Translate the following sentences into Hindi (Assume you are a MALE speaker):\n1. I went home. (Go = Jaa. Intransitive.)\n2. I drank water. (Drink = Pee. Water = Paani [Masc]. Transitive.)\n3. I read a book. (Read = Padh. Book = Kitaab [Fem]. Transitive.)\n4. He slept. (Sleep = So. Intransitive.)\n5. What did you do? (Casual 'You'. Do = Kar. Transitive.)",
+  "promptGoal": "Applying ergative vs absolutive past tense rules.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "main",
+      "baseTranslation": "I (intransitive)"
+    },
+    {
+      "targetText": "घर",
+      "transliteration": "ghar",
+      "baseTranslation": "home"
+    },
+    {
+      "targetText": "गया",
+      "transliteration": "gaya",
+      "baseTranslation": "went (male)"
+    },
+    {
+      "targetText": "मैंने",
+      "transliteration": "maine",
+      "baseTranslation": "I (transitive 'ne')"
+    },
+    {
+      "targetText": "पानी",
+      "transliteration": "paani",
+      "baseTranslation": "water (masc)"
+    },
+    {
+      "targetText": "पिया",
+      "transliteration": "piya",
+      "baseTranslation": "drank (masc object)"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "book (fem)"
+    },
+    {
+      "targetText": "पढ़ी",
+      "transliteration": "padhi",
+      "baseTranslation": "read (fem object)"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "woh",
+      "baseTranslation": "he/she (intransitive)"
+    },
+    {
+      "targetText": "सो गया",
+      "transliteration": "so gaya",
+      "baseTranslation": "slept (male)"
+    },
+    {
+      "targetText": "तुमने",
+      "transliteration": "tumne",
+      "baseTranslation": "you (casual, transitive 'ne')"
+    },
+    {
+      "targetText": "क्या",
+      "transliteration": "kya",
+      "baseTranslation": "what"
+    },
+    {
+      "targetText": "किया",
+      "transliteration": "kiya",
+      "baseTranslation": "did (masc object)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'I home went.' (No 'ne' because go is intransitive)",
+    "Sentence 2: 'I-ne water drank.' (Water is masc, so verb is piya)",
+    "Sentence 3: 'I-ne book read.' (Book is fem, so verb is padhi)",
+    "Sentence 4: 'He slept.' (No 'ne' because sleep is intransitive)",
+    "Sentence 5: 'You-ne what did?'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं घर गया। मैंने पानी पिया। मैंने किताब पढ़ी। वह सो गया। तुमने क्या किया?",
+      "transliteration": "Main ghar gaya. Maine paani piya. Maine kitaab padhi. Woh so gaya. Tumne kya kiya?",
+      "baseTranslation": "I went home. I drank water. I read a book. He slept. What did you do?",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect execution. The student correctly avoided 'ne' for 'gaya' and 'so gaya'. The student used 'Maine' and matched 'piya' to masculine water, and 'padhi' to feminine book."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Intransitive Accuracy",
+      "weight": 20,
+      "description": "Must use 'Main' (not Maine) for 'gaya'. Must use 'Woh' for 'so gaya'."
+    },
+    {
+      "criterion": "Transitive 'Ne' Usage",
+      "weight": 30,
+      "description": "Must use 'Maine' for drinking and reading, and 'Tumne' for doing."
+    },
+    {
+      "criterion": "Ergative Gender Matching",
+      "weight": 50,
+      "description": "Must use 'piya' (masc) for water and 'padhi' (fem) for book. If 'padha' is used for book, score drops significantly."
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं घर गया। मैंने पानी पिया। मैंने किताब पढ़ी। वह सो गया। तुमने क्या किया?",
+    "acceptableAlternates": [
+      "Main ghar gaya. Maine paani piya. Maine kitaab padhi. Woh so gaya. Tumne kya kiya?",
+      "main ghar gaya. maine paani piya. maine kitaab padhi. woh so gaya. tumne kya kiya?"
+    ],
+    "requiredKeywords": [
+      "main",
+      "gaya",
+      "maine",
+      "paani",
+      "piya",
+      "kitaab",
+      "padhi",
+      "woh",
+      "so gaya",
+      "tumne",
+      "kya",
+      "kiya"
+    ],
+    "grammarBaseline": "Accepts transliteration. Extremely strict check on 'ne' and gender.",
+    "lengthExpectation": "Five precise sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Maine Gaya Error",
+          "weight": 100,
+          "description": "If user writes 'Maine gaya' or 'Maine ghar gaya', the score for that sentence is 0."
+        },
+        {
+          "name": "Object Gender Error",
+          "weight": 100,
+          "description": "If user writes 'Maine kitaab padha', they fail the sentence because book is feminine."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Incredible! You have passed the hardest grammar test in the Hindi language.",
+    "onFail": "Review Section 2 and 4. Remember: Intransitive (go, sleep) = NO NE. Transitive (eat, drink, read) = NE + MATCH OBJECT.",
+    "onPartial": "Good effort. Make sure you don't use 'ne' on verbs that don't take an object (like 'to go'). And remember, 'Kitaab' is feminine, so it is 'padhi'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "past_tense",
+    "ne_particle",
+    "ergativity",
+    "grammar",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Sentence 3 is the trickiest. Even though you are a male speaker, you MUST write 'padhi' because the book you read is feminine.",
+  "commonMistakes": [
+    "Writing 'Maine gaya' (Translating 'I' as 'Maine' everywhere).",
+    "Writing 'Maine kitaab padha' (Making the verb match the male speaker instead of the feminine book)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

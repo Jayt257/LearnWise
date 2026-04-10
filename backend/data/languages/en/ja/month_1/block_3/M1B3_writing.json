@@ -1,0 +1,145 @@
+{
+  "activityId": "ja_en_M1B3_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Ordering at a Cafe",
+  "learningGoal": "The learner will write a polite request for a cafe item, combining Katakana nouns with Hiragana expressions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B3_lesson_001",
+    "ja_en_M1B3_reading_001"
+  ],
+  "instructions": "Imagine you are at a Japanese cafe. You want to order a 'Juice' and an 'Ice Cream'. Write a single polite sentence asking for these. Since we haven't learned the word for 'and' yet, just pick ONE item to order for this exercise (e.g. 'Ice Cream, please').",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "When ordering, you don't need a complex sentence. Just state the item in Katakana, followed by a comma (、), and then the polite request phrase in Hiragana."
+    }
+  ],
+  "writingPrompt": "Write a polite order for 'Ice Cream'. Use the exact spelling for Ice Cream in Katakana, followed by the polite request phrase.",
+  "promptGoal": "To construct a natural, common service interaction using a loan word.",
+  "expectedWritingType": "sentence",
+  "wordBank": [
+    {
+      "targetText": "アイスクリーム",
+      "transliteration": "Aisukuriimu",
+      "baseTranslation": "Ice Cream",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "おねがいします",
+      "transliteration": "onegaishimasu",
+      "baseTranslation": "please",
+      "partOfSpeech": "expression"
+    },
+    {
+      "targetText": "すみません",
+      "transliteration": "Sumimasen",
+      "baseTranslation": "Excuse me",
+      "partOfSpeech": "expression"
+    }
+  ],
+  "referenceHints": [
+    "Start with 'Excuse me' to get the waiter's attention (optional but good).",
+    "Write 'Ice Cream' exactly as it appears in the word bank.",
+    "Add a comma (、), then write 'please'."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "すみません。アイスクリーム、おねがいします。",
+      "transliteration": "Sumimasen. Aisukuriimu, onegaishimasu.",
+      "baseTranslation": "Excuse me. Ice cream, please.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly polite and uses all correct scripts (Hiragana and Katakana mixed properly)."
+    },
+    {
+      "targetText": "アイスクリーム、おねがいします。",
+      "transliteration": "Aisukuriimu, onegaishimasu.",
+      "baseTranslation": "Ice cream, please.",
+      "qualityLevel": "good",
+      "annotation": "Correct and totally acceptable, though omitting 'sumimasen' makes it slightly more abrupt."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Accuracy of Katakana",
+      "weight": 50,
+      "description": "Did the learner write 'Aisukuriimu' correctly with the elongation mark?"
+    },
+    {
+      "criterion": "Polite Request Formula",
+      "weight": 50,
+      "description": "Did the learner use 'onegaishimasu' at the end?"
+    }
+  ],
+  "minimumWordCount": 2,
+  "maximumWordCount": 10,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "アイスクリーム、おねがいします。",
+    "acceptableAlternates": [
+      "すみません。アイスクリーム、おねがいします。",
+      "Aisukuriimu, onegaishimasu.",
+      "Sumimasen. Aisukuriimu, onegaishimasu."
+    ],
+    "requiredKeywords": [
+      "アイスクリーム",
+      "おねがいします"
+    ],
+    "grammarBaseline": "Noun + onegaishimasu",
+    "lengthExpectation": "One sentence",
+    "scoringRubric": {
+      "katakana": 50,
+      "politeness": 50
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You can now successfully order an item at a Japanese cafe.",
+    "onFail": "Make sure you include the item name and 'onegaishimasu'. Look closely at how 'Aisukuriimu' is spelled.",
+    "onPartial": "Good attempt! Pay close attention to the elongation mark (ー) in Katakana words."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b3/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "katakana",
+    "ordering",
+    "cafe",
+    "beginner",
+    "month1",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget the dash (ー) in Aisukuriimu. It is located right after 'ri'.",
+  "commonMistakes": [
+    "Writing 'aisukurimu' without the elongation mark.",
+    "Using 'desu' instead of 'onegaishimasu' when ordering."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B3_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

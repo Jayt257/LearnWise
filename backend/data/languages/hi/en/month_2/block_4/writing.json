@@ -1,0 +1,145 @@
+{
+  "activityId": "en_hi_M2B4_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Promises for Tomorrow",
+  "learningGoal": "The learner will compose sentences predicting future events using 'Will', strictly demonstrating the omission of morphological suffixes (no '-ing', '-ed', or third-person '-s') on the trailing verb.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B4_reading_001"],
+  "instructions": "Think about what you will do tomorrow. Write 3 short sentences promising what you will do, what a friend will do, and what you both are 'going to' do together. REMEMBER THE CLEAN VERB RULE: Do not put 'ing', 'ed', or 's' after 'Will'!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: DO NOT WRITE 'I will going'. That is totally broken English! Write 'I will go'."
+    }
+  ],
+  "writingPrompt": "Write 3 sentences about future plans. Sentence 1 must use 'I will...'. Sentence 2 must use 'He/She will...'. Sentence 3 must use 'We are going to...'.",
+  "promptGoal": "Test strict adherence to the bare infinitive requirement following modal 'will' and periphrastic 'going to'.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Will",
+      "transliteration": "विल",
+      "baseTranslation": "करूँगा / करेगा (भविष्य)",
+      "partOfSpeech": "Help Verb"
+    },
+    {
+      "targetText": "Going to",
+      "transliteration": "गोइंग टू",
+      "baseTranslation": "करने वाले (योजना)",
+      "partOfSpeech": "Phrase"
+    },
+    {
+      "targetText": "Work",
+      "transliteration": "वर्क",
+      "baseTranslation": "काम",
+      "partOfSpeech": "Action"
+    },
+    {
+      "targetText": "Eat",
+      "transliteration": "ईट",
+      "baseTranslation": "खाना",
+      "partOfSpeech": "Action"
+    },
+    {
+      "targetText": "Play",
+      "transliteration": "प्ले",
+      "baseTranslation": "खेलना",
+      "partOfSpeech": "Action"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Me): I will [clean verb]...",
+    "Sentence 2 (Friend): She will [clean verb]...",
+    "Sentence 3 (Together): We are going to [clean verb]..."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I will wake up early. She will work hard. We are going to eat pizza.",
+      "transliteration": "आई विल वेक अप अर्ली। शी विल वर्क हार्ड। वी आर गोइंग टू ईट पिज़्ज़ा।",
+      "baseTranslation": "मैं जल्दी उठूंगा। वह कड़ी मेहनत करेगी। हम पिज़्ज़ा खाने वाले हैं।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner used 'will' correctly without suffixing the verbs (no 'wakes', no 'works'). Used 'going to eat' flawlessly."
+    },
+    {
+      "targetText": "I will going to shop. He will plays football. We are going eat.",
+      "transliteration": "आई विल गोइंग टू शॉप। ही विल प्लेज़ फुटबॉल। वी आर गोइंग ईट।",
+      "baseTranslation": "खराब व्याकरण के साथ भविष्य।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Overstacked 'will' with 'going'. Violated the clean verb rule by writing 'plays'. Missed the 'to' in the last sentence. Needs heavy review."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Bare Infinitive Post-Will",
+      "weight": 50,
+      "description": "PENALIZE HEAVILY if the user attaches ANY suffix to the verb following 'will' (e.g., will going, will played, will eats)."
+    },
+    {
+      "criterion": "Proper 'Going To' Structure",
+      "weight": 30,
+      "description": "Did the user correctly form 'We are going to [verb]' without duplicating 'will'?"
+    },
+    {
+      "criterion": "Target Completion",
+      "weight": 20,
+      "description": "Were there 3 sentences fulfilling the prompt parameters?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I will work tomorrow. He will watch a movie. We are going to walk in the park.",
+    "acceptableAlternates": [
+      "I will eat breakfast. She will sleep. We are going to play football."
+    ],
+    "requiredKeywords": ["will", "going to"],
+    "grammarBaseline": "Absolute zero tolerance for suffixation on verbs following modal 'will'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "Clean Verbs Post-Will": "50%",
+      "Correct 'Going to' Format": "30%",
+      "Followed Prompt": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You wrote perfect future sentences! You proved you understand the Clean Verb rule because you didn't add any extra letters after 'will'.",
+    "onFail": "Please review what you wrote. If you wrote 'I will playing', it is completely broken! WILL acts as a soap that washes the verb. It must be 'I WILL PLAY'!",
+    "onPartial": "Good start! Don't let the word 'He' trick you. Yes, usually we say 'He plays'. But if 'Will' is there, the 's' is destroyed! It must be 'He will play'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b4/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b4/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b4/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m2/b4/writing/prompt.mp3",
+    "audioTranscript": "Write three promises for tomorrow. I will. He will. We are going to.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "future_tense", "will", "going_to", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b4/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Keep it fast and simple. [Person] + [Will] + [Clean Action]. 'We will run'.",
+  "commonMistakes": [
+    "Writing 'She will cleans'.",
+    "Writing 'I will going'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B4_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

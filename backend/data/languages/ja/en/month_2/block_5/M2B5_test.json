@@ -1,0 +1,244 @@
+{
+  "activityId": "en_ja_M2B5_test_8",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Test: Modals",
+  "learningGoal": "Evaluate your understanding of modals, specifically the difference between 'must not' and 'don't have to'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B5_speaking_7"
+  ],
+  "instructions": "Month 2 Block 5 のテストです。助動詞（can, must, have to, should）の意味と使い方についての問題に答えてください。特に否定形の違いに注意してください。(This is the Block 5 test. Answer questions about modals.)",
+  "testTitle": "Modals Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Must not vs Don't have to",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「ここで写真を撮ってはいけません（禁止）」と言う時、正しいのはどちらですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "You don't have to take pictures here.",
+            "You must not take pictures here.",
+            "You shouldn't to take pictures here.",
+            "You cannot to take pictures here."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「今日は日曜日だから、早く起きる必要はないよ」と言う時、正しいのはどちらですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "You don't have to wake up early.",
+            "You must not wake up early.",
+            "You can't wake up early.",
+            "You didn't have to wake up early."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "「絶対に遅れてはいけない」と言う時、空欄に入るのはどれですか？ 'You ________ be late.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "must not",
+            "don't have to",
+            "doesn't have to",
+            "must"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Other Modals",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「制服を着なければならない（ルール）」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I can wear a uniform.",
+            "I should wear a uniform.",
+            "I have to wear a uniform.",
+            "I don't wear a uniform."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「病院に行くべきだよ（アドバイス）」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "You can go to the hospital.",
+            "You should go to the hospital.",
+            "You are going to the hospital.",
+            "You have go to the hospital."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「彼らは速く走ることができる」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "They can runs fast.",
+            "They can running fast.",
+            "They can run fast.",
+            "They can to run fast."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary and Reading Comprehension",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「駐車する」という意味の動詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "play",
+            "park",
+            "wear",
+            "bring"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「タバコを吸う」という意味の動詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "smoke",
+            "swim",
+            "use",
+            "drive"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "助動詞の後ろの動詞は、どのような形になりますか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "過去形",
+            "ing形",
+            "原形（元の形）",
+            "sがつく形"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "You must to study.",
+            "You must not to study.",
+            "You have to study.",
+            "You don't have study."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "You must not take pictures here.",
+      "q2": "You don't have to wake up early.",
+      "q3": "must not",
+      "q4": "I have to wear a uniform.",
+      "q5": "You should go to the hospital.",
+      "q6": "They can run fast.",
+      "q7": "park",
+      "q8": "smoke",
+      "q9": "原形（元の形）",
+      "q10": "You have to study."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！must notとdon't have toの違いなど、助動詞を完璧にマスターしています！",
+    "onFail": "もう一度復習しましょう。「〜してはいけない」はmust not、「〜しなくていい」はdon't have toです。",
+    "onPartial": "よくできました。助動詞（can, must, should）の後ろには「to」をつけず、動詞の原形を使うというルールをもう一度確認しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_5",
+    "modals",
+    "rules"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "must not = Prohibition. don't have to = Optional.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B6_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

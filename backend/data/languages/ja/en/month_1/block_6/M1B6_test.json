@@ -1,0 +1,245 @@
+{
+  "activityId": "en_ja_M1B6_test_8",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Test: Master Prepositions",
+  "learningGoal": "Evaluate your understanding of prepositions of place and time (in, on, at, under, next to, behind).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B6_speaking_7"
+  ],
+  "instructions": "Block 6 のテストです。場所や時間を表す前置詞（in, on, at など）に関する問題に答えてください。(This is the Block 6 test. Answer questions about prepositions of place and time.)",
+  "testTitle": "Prepositions Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Prepositions of Place (場所の前置詞)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Fill in the blank: 'The picture is _____ the wall.' (壁にかかっている)",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "under"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'I am _____ the station.' (駅という地点にいる)",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "to"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "「箱の中に」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "on the box",
+            "in the box",
+            "at the box",
+            "behind the box"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Prepositions of Time (時間の前置詞)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "Fill in the blank: 'I have a meeting _____ Monday.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "Fill in the blank: 'I go to bed _____ night.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "of"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "Fill in the blank: 'My birthday is _____ May.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "to"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary and Comprehension",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「ベッドの下に」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "under the bed",
+            "next to the bed",
+            "behind the bed",
+            "in the bed"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「〜の隣に」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "in front of",
+            "behind",
+            "next to",
+            "under"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「木の後ろに」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "in front of the tree",
+            "behind the tree",
+            "on the tree",
+            "next to the tree"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "The book is on the desk.",
+            "The book is in desk.",
+            "The book on the desk.",
+            "The book is at the desk."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "on",
+      "q2": "at",
+      "q3": "in the box",
+      "q4": "on",
+      "q5": "at",
+      "q6": "in",
+      "q7": "under the bed",
+      "q8": "next to",
+      "q9": "behind the tree",
+      "q10": "The book is on the desk."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！場所と時間を表す前置詞を完全に理解しましたね！",
+    "onFail": "もう一度ルールを確認しましょう。「点」は at、「面・日」は on、「空間・月」は in です。",
+    "onPartial": "よくできました。「in May」と「on Monday」の違いや、「at night」という例外をもう一度復習してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_6",
+    "prepositions",
+    "place",
+    "time"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the image of the word. Is it inside something? Is it touching a surface? Is it a specific point?",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B1_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

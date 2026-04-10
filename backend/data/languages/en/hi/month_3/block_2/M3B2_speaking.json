@@ -1,0 +1,190 @@
+{
+  "activityId": "hi_en_M3B2_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Speaking: The Demanding Boss",
+  "learningGoal": "Verbally command actions using causative verbs and answer questions using the passive voice.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B2_vocabulary_6",
+    "hi_en_M3B2_listening_5"
+  ],
+  "instructions": "You are a manager checking on the status of an event. You must answer questions using the passive voice (It has been done) and give orders using causative verbs (Get it done).",
+  "speakingPrompt": "Respond to the assistant's questions.",
+  "scenario": "A status check meeting.",
+  "role": "Manager",
+  "conversationPartner": "Assistant",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Assistant: 'Sir, has the letter been written?' Reply: 'Yes, the letter has been written.' (Letter = Patra, Written = Likha gaya hai)",
+      "expectedSpeakingPoints": [
+        "Haan",
+        "patra",
+        "likha gaya hai"
+      ],
+      "sampleResponse": {
+        "targetText": "हाँ, पत्र लिखा गया है।",
+        "transliteration": "Haan, patra likha gaya hai.",
+        "baseTranslation": "Yes, the letter has been written."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Assistant: 'What about the guests?' Reply: 'Food is being fed to the guests.' (Guests = Mehmanon ko, Food = Khana, Being fed = Khilaya jaa raha hai)",
+      "expectedSpeakingPoints": [
+        "Mehmanon ko",
+        "khana",
+        "khilaya jaa raha hai"
+      ],
+      "sampleResponse": {
+        "targetText": "मेहमानों को खाना खिलाया जा रहा है।",
+        "transliteration": "Mehmanon ko khana khilaya jaa raha hai.",
+        "baseTranslation": "Food is being fed to the guests."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Assistant: 'The AC is broken.' Reply: 'Get the AC fixed today.' (AC = AC, Fixed = Theek, Get done = Karwao / Karwa deejiye)",
+      "expectedSpeakingPoints": [
+        "Aaj hi",
+        "AC theek",
+        "karwao"
+      ],
+      "sampleResponse": {
+        "targetText": "आज ही एसी ठीक करवाओ।",
+        "transliteration": "Aaj hi AC theek karwao.",
+        "baseTranslation": "Get the AC fixed today."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Assistant: 'I can't do it.' Reply: 'Then get it done by someone else.' (Then = Toh, Someone else = Kisi aur se, Get done = Karwao)",
+      "expectedSpeakingPoints": [
+        "Toh",
+        "kisi aur se",
+        "karwao"
+      ],
+      "sampleResponse": {
+        "targetText": "तो किसी और से करवाओ।",
+        "transliteration": "Toh kisi aur se karwao.",
+        "baseTranslation": "Then get it done by someone else."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप मैनेजर हैं।",
+    "transliteration": "Aap manager hain.",
+    "baseTranslation": "You are the manager."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "हाँ, पत्र लिखा गया है।",
+      "transliteration": "Haan, patra likha gaya hai.",
+      "baseTranslation": "Yes, the letter has been written."
+    },
+    {
+      "targetText": "मेहमानों को खाना खिलाया जा रहा है।",
+      "transliteration": "Mehmanon ko khana khilaya jaa raha hai.",
+      "baseTranslation": "Food is being fed to the guests."
+    },
+    {
+      "targetText": "आज ही एसी ठीक करवाओ।",
+      "transliteration": "Aaj hi AC theek karwao.",
+      "baseTranslation": "Get the AC fixed today."
+    },
+    {
+      "targetText": "तो किसी और से करवाओ।",
+      "transliteration": "Toh kisi aur se karwao.",
+      "baseTranslation": "Then get it done by someone else."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "likha gaya hai",
+      "khilaya jaa raha hai",
+      "theek karwao",
+      "kisi aur se"
+    ],
+    "requiredKeywords": [
+      "लिखा",
+      "गया",
+      "खिलाया",
+      "जा रहा",
+      "करवाओ",
+      "किसी और से"
+    ],
+    "acceptableParaphrases": [
+      "Using formal 'Karwa deejiye' instead of casual 'Karwao' is completely acceptable and encouraged."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Passive Failure",
+          "weight": 50,
+          "description": "If user says 'Patra likha hai' instead of 'Likha gaya hai', deduct points. Must use the Jaana/Gaya passive."
+        },
+        {
+          "name": "Causative Failure",
+          "weight": 50,
+          "description": "If user says 'Khanda khao' instead of 'Khilaya'. Or 'AC theek karo' instead of 'karwao'. Must use causatives."
+        }
+      ]
+    },
+    "sampleAnswer": "Haan, patra likha gaya hai. Mehmanon ko khana khilaya jaa raha hai. Aaj hi AC theek karwao. Toh kisi aur se karwao.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Fantastic! You are delegating like a true boss using causatives and passives.",
+    "onFail": "Review the 'waa' infix. 'Karo' means you do it. 'Karwao' means you get someone else to do it. As a manager, you want 'Karwao'.",
+    "onPartial": "Good effort. For sentence 2, notice how it combines First Causative (Khila - to feed) and Passive (jaa raha hai - is being gone/done)."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "हाँ, पत्र लिखा गया है। मेहमानों को खाना खिलाया जा रहा है। आज ही एसी ठीक करवाओ। तो किसी और से करवाओ।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "passive_voice",
+    "causatives",
+    "roleplay",
+    "delegation"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure your lips round for the 'waa' sound in 'karwao'.",
+  "commonMistakes": [
+    "Saying 'Theek karo' (Fix it yourself) instead of 'Theek karwao' (Get it fixed)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B2_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

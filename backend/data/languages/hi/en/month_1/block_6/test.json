@@ -1,0 +1,407 @@
+{
+  "activityId": "en_hi_M1B6_test_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Mega Assessment: Locations & Rules",
+  "learningGoal": "The learner will demonstrate absolute mastery of English spatial preposition syntax (In/On/Under + Article + Noun), proving they have broken the native SOV post-position habit.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M1B6_lesson_001",
+    "en_hi_M1B6_pronunciation_001",
+    "en_hi_M1B6_reading_001",
+    "en_hi_M1B6_writing_001",
+    "en_hi_M1B6_listening_001",
+    "en_hi_M1B6_vocabulary_001",
+    "en_hi_M1B6_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 6. It contains 20 questions evaluating your ability to locate items using English Prepositions. Remember the Golden Rule: the location word (In/On/Under) must ALWAYS come BEFORE the noun.",
+  "testTitle": "Block 6 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: 'On the table' is correct. 'The table on' is completely wrong.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Preposition Syntax",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "If a ball is inside a closed box, which is correct?",
+          "questionType": "multiple_choice",
+          "options": ["On the box", "Under the box", "In the box", "The box in"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "If a cat is resting on the flat surface of a bed, which is correct?",
+          "questionType": "multiple_choice",
+          "options": ["On the bed", "The bed on", "In the bed", "Under the bed"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Which is the structurally correct English sentence?",
+          "questionType": "multiple_choice",
+          "options": ["The pen is bag in.", "The pen is in the bag.", "The pen in bag is."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The pen is in the bag.",
+            "transliteration": "द पेन इज़ इन द बैग।",
+            "baseTranslation": "पेन थैले में है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Fill in the exact preposition missing: To say 'बिस्तर के नीचे', you say '____ the bed'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Under",
+            "transliteration": "अंडर",
+            "baseTranslation": "नीचे"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: English uses POST-positions. You put 'In' at the end of the sentence.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for 'फर्श'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Floor",
+            "transliteration": "फ्लोर",
+            "baseTranslation": "फर्श"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What does 'Kitchen' mean in Hindi?",
+          "questionType": "multiple_choice",
+          "options": ["कमरा", "रसोई", "डिब्बा", "छत"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Kitchen",
+            "transliteration": "किचन",
+            "baseTranslation": "रसोई"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the English word for 'खिड़की'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Window",
+            "transliteration": "विंडो",
+            "baseTranslation": "खिड़की"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Which noun means 'कुर्सी'?",
+          "questionType": "multiple_choice",
+          "options": ["Table", "Bed", "Chair", "Box"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "True or False: 'Near' means directly underneath.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the mistake: 'The dog is table under.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'The dog is under the table.'", "It should be 'Under dog is table.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The dog is under the table.",
+            "transliteration": "द डॉग इज़ अंडर द टेबल।",
+            "baseTranslation": "कुत्ता मेज़ के नीचे है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Find the mistake: 'I put the keys the fridge on.'",
+          "questionType": "multiple_choice",
+          "options": ["'on' must move before 'the fridge'", "'put' is misspelled", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I put the keys on the fridge.",
+            "transliteration": "आई पुट द कीज़ ऑन द फ्रिज।",
+            "baseTranslation": "मैंने फ्रिज पर चाबियां रख दीं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the mistake: 'The book is in roof.'",
+          "questionType": "multiple_choice",
+          "options": ["Books stay on surfaces, it should be 'on the roof'", "It should be 'roof in'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What word is missing in this sentence: 'The cat is under bed.'",
+          "questionType": "multiple_choice",
+          "options": ["is", "the", "on"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which is the missing word: A picture is ___ the wall.",
+          "questionType": "multiple_choice",
+          "options": ["in", "under", "on"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'किताब मेज़ पर है।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The book is on the table.",
+            "transliteration": "द बुक इज़ ऑन द टेबल।",
+            "baseTranslation": "किताब मेज़ पर है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'सेब डिब्बे में है।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The apple is in the box.",
+            "transliteration": "द ऐपल इज़ इन द बॉक्स।",
+            "baseTranslation": "सेब डिब्बे में है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'कुत्ता बिस्तर के नीचे है।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The dog is under the bed.",
+            "transliteration": "द डॉग इज़ अंडर द बेड।",
+            "baseTranslation": "कुत्ता बिस्तर के नीचे है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'कुर्सी खिड़की के पास है।' (पास = near)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The chair is near the window.",
+            "transliteration": "द चेयर इज़ नियर द विंडो।",
+            "baseTranslation": "कुर्सी खिड़की के पास है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'राहुल कमरे में है।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Rahul is in the room.",
+            "transliteration": "राहुल इज़ इन द रूम।",
+            "baseTranslation": "राहुल कमरे में है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "In the box",
+      "q002": "On the bed",
+      "q003": "The pen is in the bag.",
+      "q004": "Under",
+      "q005": "False",
+      "q006": "Floor",
+      "q007": "रसोई",
+      "q008": "Window",
+      "q009": "Chair",
+      "q010": "False",
+      "q011": "It should be 'The dog is under the table.'",
+      "q012": "'on' must move before 'the fridge'",
+      "q013": "Books stay on surfaces, it should be 'on the roof'",
+      "q014": "the",
+      "q015": "on",
+      "q016": "The book is on the table.",
+      "q017": "The apple is in the box.",
+      "q018": "The dog is under the bed.",
+      "q019": "The chair is near the window.",
+      "q020": "Rahul is in the room."
+    },
+    "scoringRubric": {
+      "q016": "Minus 1 point if 'the' is missing before 'table'.",
+      "q017": "Minus 1 point if 'the' is missing before 'box'."
+    },
+    "partialCreditRules": {
+      "q016": "Give 3 marks if written 'Book is on table'."
+    },
+    "alternateValidAnswers": {
+      "q004": ["under", "UNDER"],
+      "q006": ["floor", "FLOOR"],
+      "q008": ["window", "WINDOW"],
+      "q016": ["the book is on the table", "The book is on the table"],
+      "q017": ["the apple is in the box", "The apple is in the box", "An apple is in the box.", "An apple is in a box."],
+      "q018": ["the dog is under the bed", "The dog is under the bed"],
+      "q019": ["the chair is near the window", "The chair is near the window"],
+      "q020": ["rahul is in the room", "Rahul is in the room"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You have mastered English spatial placement. You correctly placed 'In', 'On', and 'Under' BEFORE the objects exactly as required.",
+    "onFail": "Please don't give up! Remember the Golden Rule: 'Pre' means before. 'In the box', NOT 'The box in'. You must flip the order from Hindi.",
+    "onPartial": "Good effort! Check your answers. Did you forget to include the word 'the' before the objects? (In the box, not in box)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers prepositions and locations.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block6", "prepositions", "locations", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

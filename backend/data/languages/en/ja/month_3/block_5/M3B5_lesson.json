@@ -1,0 +1,218 @@
+{
+  "activityId": "ja_en_M3B5_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "Handling Medical & Legal Emergencies",
+  "learningGoal": "The learner will master the vocabulary and grammatical structures necessary to report symptoms to a doctor, report accidents/crimes to the police, and ask for emergency help.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M3B4_test_001"
+  ],
+  "instructions": "In an emergency, you need to communicate clearly and quickly. This lesson focuses on medical vocabulary, reporting lost or stolen items, and explaining unfortunate events using the '~te shimaimashita' (unfortunately happened) structure.",
+  "conceptTitle": "Explaining Emergencies",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "At the Hospital: Explaining Symptoms",
+      "bodyText": "To explain pain, use '[Body Part] ga itai desu'. For other symptoms, use specific verbs like 'deru' (to come out) or 'hiku' (to catch).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "あたまが いたいです。",
+          "transliteration": "Atama ga itai desu.",
+          "baseTranslation": "My head hurts. (I have a headache).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ねつが あります。そして、せきが でます。",
+          "transliteration": "Netsu ga arimasu. Soshite, seki ga demasu.",
+          "baseTranslation": "I have a fever. And, I have a cough (a cough comes out).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "かぜを ひきました。",
+          "transliteration": "Kaze wo hikimashita.",
+          "baseTranslation": "I caught a cold.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Explaining Accidents (~te shimaimashita)",
+      "bodyText": "When you want to emphasize that something happened accidentally or unfortunately, add 'shimaimashita' to the Te-form of the verb.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "さいふを なくして しまいました。",
+          "transliteration": "Saifu wo nakushite shimaimashita.",
+          "baseTranslation": "I (unfortunately) lost my wallet.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "かいだんで ころんで しまいました。",
+          "transliteration": "Kaidan de koronde shimaimashita.",
+          "baseTranslation": "I (unfortunately) fell down on the stairs.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "At the Police Box (Kouban): Reporting Crimes",
+      "bodyText": "When reporting a crime, you will often use the Passive Voice, as you are the victim of an action.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "パスポートを ぬすまれました。",
+          "transliteration": "Pasupooto wo nusumaremashita.",
+          "baseTranslation": "My passport was stolen. (I had my passport stolen).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "どろぼうに はいられました。",
+          "transliteration": "Dorobou ni hairaremashita.",
+          "baseTranslation": "My house was broken into by a thief. (Literally: I was entered by a thief).",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Calling for Help",
+      "bodyText": "In a severe emergency, use 'Te-form + kudasai' with strong verbs to demand immediate assistance.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "きゅうきゅうしゃを よんで ください！",
+          "transliteration": "Kyuukyuusha wo yonde kudasai!",
+          "baseTranslation": "Please call an ambulance!",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "けいさつを よんで ください！",
+          "transliteration": "Keisatsu wo yonde kudasai!",
+          "baseTranslation": "Please call the police!",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will be able to describe medical symptoms accurately, report lost or stolen items using the passive voice, and request emergency services using command structures.",
+  "examples": [
+    {
+      "targetText": "おなかが いたいです。くすりを ください。",
+      "transliteration": "Onaka ga itai desu. Kusuri wo kudasai.",
+      "baseTranslation": "My stomach hurts. Please give me medicine.",
+      "explanation": "Simple and direct communication is best at the pharmacy or hospital."
+    },
+    {
+      "targetText": "きのう、でんしゃで かばんを ぬすまれて しまいました。",
+      "transliteration": "Kinou, densha de kaban wo nusumarete shimaimashita.",
+      "baseTranslation": "Yesterday, my bag was unfortunately stolen on the train.",
+      "explanation": "Combines the passive voice (nusumareru) with the regret form (shimaimashita) for a complete police report."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Use 'ga' to mark the body part that hurts (Atama GA itai).",
+      "exceptionNotes": "Do not use 'wa', as you are pinpointing the specific source of pain."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "To say 'I lost it', use 'nakushimashita'. To say 'It was stolen', use 'nusumaremashita'.",
+      "exceptionNotes": "Be careful not to mix these up at the police station!"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "If you lose something in Japan, always go to the nearest Kouban (police box). The recovery rate for lost wallets and phones in Japan is incredibly high.",
+    "dosList": [
+      "Say 'Tasukete!' (Help!) if you are in immediate physical danger."
+    ],
+    "dontsList": [
+      "Do not panic if the police ask you to fill out a long form (Ishitubutsu-todoke) for a lost item. It is standard procedure."
+    ]
+  },
+  "summary": "Use 'ga itai' for pain, '~te shimaimashita' for unfortunate accidents, and the passive voice ('nusumaremashita') for crimes.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Translate: 'My stomach hurts.'",
+      "expectedAnswer": "おなかが いたいです (Onaka ga itai desu)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What does '~te shimaimashita' add to a sentence?",
+      "expectedAnswer": "The feeling that something happened unfortunately or accidentally."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Translate: 'My wallet was stolen.'",
+      "expectedAnswer": "さいふを ぬすまれました (Saifu wo nusumaremashita)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Symptoms: Body Part + ga + itai desu.",
+      "Regret/Accidents: Te-form + shimaimashita.",
+      "Victim of crime: Object + wo + nusumaremashita (Passive)."
+    ],
+    "conceptSummary": "Communicating clearly during stressful emergency situations.",
+    "importantFacts": [
+      "Kyuukyuusha = Ambulance, Keisatsu = Police."
+    ],
+    "checkpointAnswers": {
+      "q1": "おなかが いたいです",
+      "q2": "Unfortunately / Accidentally",
+      "q3": "さいふを ぬすまれました"
+    },
+    "expectedUnderstanding": "Learner must memorize the emergency vocabulary for their own safety."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You are now prepared to handle emergencies in Japan.",
+    "onFail": "Review the medical vocabulary. 'Itai' means painful.",
+    "onPartial": "Good start. Make sure you practice the difference between losing something (nakusu) and having it stolen (nusumareru)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "あたまが いたいです。ねつが あります。せきが でます。かぜを ひきました。さいふを なくして しまいました。パスポートを ぬすまれました。きゅうきゅうしゃを よんで ください！",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "medical",
+    "police",
+    "emergencies",
+    "advanced",
+    "month3",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Atama wa itai' instead of 'Atama ga itai'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,203 @@
+{
+  "activityId": "en_hi_M3B2_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "The Present Perfect Tense",
+  "learningGoal": "The learner will successfully map the Hindi perfective aspect (चुका है / लिया है) to the English Present Perfect structure (Have/Has + Past Participle V3), distinguishing it from the Simple Past.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B1_test_001"],
+  "instructions": "Welcome to Month 3, Block 2! We are now learning one of the most important tenses in English: The Present Perfect tense. Read this lesson to learn how to talk about actions that happened in the past, but are still important right now!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब आप हिंदी में कहते हैं, 'मैंने खाना खा लिया है' या 'वह जा चुकी है', तो यह Present Perfect है। क्रिया पूरी हो चुकी है, लेकिन उसका प्रभाव अभी भी वर्तमान में है।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The Present Perfect connects the past to the present.",
+      "The structure is Subject + Have/Has + Verb 3 (Past Participle).",
+      "Use 'Has' for He/She/It. Use 'Have' for I/You/We/They.",
+      "In Hindi, this maps directly to ...चुका है / ...चूकी है / ...लिया है."
+    ],
+    "conceptSummary": "Mastery of the Present Perfect (Have/Has + V3) to articulate recently completed actions with present relevance, addressing L1 fallback to Simple Past.",
+    "importantFacts": [
+      "You MUST use the 3rd form of the verb (V3). For example: go -> went -> GONE.",
+      "Do not say 'I have go'. You must say 'I have gone'."
+    ],
+    "checkpointAnswers": {
+      "q1": "I have finished my work.",
+      "q2": "Has",
+      "q3": "False",
+      "q4": "Eaten"
+    },
+    "expectedUnderstanding": "Learners will construct affirmative and declarative Present Perfect sentences utilizing the correct auxiliary (have/has) and the irregular/regular V3 participle."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand that Present Perfect requires 'Have/Has' attached to a V3 action. This tense makes you sound incredibly fluent!",
+    "onFail": "Please review carefully! You cannot use the basic action verb. 'I have eat' is wrong. You must use the 3rd form: 'I have eaten'. And remember: He/She gets 'HAS'!",
+    "onPartial": "Good effort! Watch out for the 'Has/Have' split. 'I' and 'You' are special—they always take 'Have'. Only He, She, and It take 'Has'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b2/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m3/b2/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m3/b2/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m3/b2/lesson/native_lesson.mp3",
+    "audioTranscript": "I have finished. She has eaten. They have gone.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "present_perfect", "have", "has", "past_participle", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b2/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Have/Has + Verb 3. That is the magic formula!",
+  "commonMistakes": [
+    "Saying 'I have eat' instead of 'I have eaten'.",
+    "Using 'Have' with 'He' (e.g. He have gone)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B2_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Connecting Past and Present",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "The Time Bridge (समय का पुल)",
+      "bodyText": "प्रेजेंट परफेक्ट (Present Perfect) का उपयोग उन कार्यों के लिए किया जाता है जो अतीत में हुए थे, लेकिन अभी भी महत्वपूर्ण हैं। हिंदी में, यह उन वाक्यों के समान है जो 'चुका है' या 'लिया है' के साथ समाप्त होते हैं। (मैंने खा लिया है = I have eaten).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I have washed the car.",
+          "transliteration": "आई हैव वॉशड द कार।",
+          "baseTranslation": "मैंने कार धो ली है। (और कार अभी साफ है!)"
+        },
+        {
+          "targetText": "He has lost his keys.",
+          "transliteration": "ही हैज़ लॉस्ट हिज़ कीज़।",
+          "baseTranslation": "उसने अपनी चाबियाँ खो दी हैं। (और अभी भी उसे चाबियाँ नहीं मिली हैं!)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The Formula: Have / Has + Verb 3",
+      "bodyText": "इस काल को बनाने के लिए, आपको 'Have' या 'Has' का उपयोग करना होगा, और उसके बाद क्रिया का तीसरा रूप (Verb 3 या Past Participle) लगाना होगा।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Go -> Went -> GONE",
+          "transliteration": "",
+          "baseTranslation": "Gone क्रिया का तीसरा रूप है।"
+        },
+        {
+          "targetText": "She has gone home.",
+          "transliteration": "शी हैज़ गॉन होम।",
+          "baseTranslation": "वह घर जा चुकी है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Who gets Have? Who gets Has?",
+      "bodyText": "यह बहुत ही सख्त नियम है। I, You, We, They के साथ हमेशा 'HAVE' का प्रयोग करें। He, She, It के साथ हमेशा 'HAS' का प्रयोग करें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I have eaten.",
+          "transliteration": "आई हैव ईटन।",
+          "baseTranslation": "मैंने खा लिया है।"
+        },
+        {
+          "targetText": "He has eaten.",
+          "transliteration": "ही हैज़ ईटन।",
+          "baseTranslation": "उसने खा लिया है / वह खा चुका है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Regular vs Irregular Verbs",
+      "bodyText": "कई क्रियाओं के लिए, तीसरा रूप (V3) केवल अंत में '-ed' जोड़ना है (Play -> Played -> Played)। लेकिन कुछ क्रियाएं अनियमित होती हैं और आपको उन्हें याद रखना होगा (Eat -> Ate -> Eaten)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "We have played cricket.",
+          "transliteration": "वी हैव प्लेड क्रिकेट।",
+          "baseTranslation": "हम क्रिकेट खेल चुके हैं। (Regular: Played)"
+        },
+        {
+          "targetText": "They have drunk water.",
+          "transliteration": "दे हैव ड्रंक वाटर।",
+          "baseTranslation": "वे पानी पी चुके हैं। (Irregular: Drink -> Drank -> Drunk)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will construct affirmative Present Perfect sentences by matching subjects with the correct auxiliary (have/has) and generating the V3 participle form of the target verb.",
+  "examples": [
+    {
+      "targetText": "I have finished my homework.",
+      "transliteration": "आई हैव फिनिश्ड माई होमवर्क।",
+      "baseTranslation": "मैंने अपना होमवर्क पूरा कर लिया है।",
+      "explanation": "Subject (I) + Auxiliary (Have) + V3 (Finished)."
+    },
+    {
+      "targetText": "The train has arrived.",
+      "transliteration": "द ट्रेन हैज़ अराइव्ड।",
+      "baseTranslation": "ट्रेन आ चुकी है।",
+      "explanation": "Subject (The train/It) + Auxiliary (Has) + V3 (Arrived)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use the base verb. 'I have eat' is entirely grammatically incorrect.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "'Has' is only for singular third persons: He, She, It. Never use 'Has' with I or You.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Native speakers use the Present Perfect constantly in business settings to give updates. For example: 'I have sent the email.' It is much more professional than simply saying 'I sent it'.",
+    "dosList": ["Use Present Perfect to update someone on a task you just finished."],
+    "dontsList": []
+  },
+  "summary": "To talk about things you have 'already done', use Have or Has with the heavy third form of the verb (V3). He/She/It get HAS. Everything else gets HAVE!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Translate: 'मैंने अपना काम पूरा कर लिया है।' ('Finish' in English)",
+      "expectedAnswer": "I have finished my work."
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank: Anjali _____ gone to the store.",
+      "expectedAnswer": "Has"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "True or False: 'I have play' is a correct English sentence.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What is the V3 (third form) of the verb 'Eat'?",
+      "expectedAnswer": "Eaten"
+    }
+  ]
+}

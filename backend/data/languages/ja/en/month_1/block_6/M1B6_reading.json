@@ -1,0 +1,225 @@
+{
+  "activityId": "en_ja_M1B6_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "reading",
+  "title": "The Messy Room",
+  "learningGoal": "Read a story to understand the spatial relationships described by prepositions of place (in, on, under, next to, behind).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B6_pronunciation_2"
+  ],
+  "instructions": "なくした鍵を探している人の話を読んで、質問に答えてください。鍵がどこにあるのか、前置詞（in, on, underなど）を手掛かりにして想像しながら読みましょう。(Read the story about someone looking for their lost keys and answer the questions. Use prepositions as clues to imagine where the keys are.)",
+  "readingTitle": "Where are my keys?",
+  "readingText": "Oh no, I am late for work! Where are my keys? I look on the table. They are not on the table. I look under the bed. They are not under the bed. Are they in my bag? No, the bag is empty. My cat is sleeping on the sofa. I look behind the sofa. Nothing. Then, I see my jacket. It is next to the door. I look in the pocket. Yes! My keys are in the pocket. Now I can go to work.",
+  "textInTargetLanguage": "Oh no, I am late for work! Where are my keys? I look on the table. They are not on the table. I look under the bed. They are not under the bed. Are they in my bag? No, the bag is empty. My cat is sleeping on the sofa. I look behind the sofa. Nothing. Then, I see my jacket. It is next to the door. I look in the pocket. Yes! My keys are in the pocket. Now I can go to work.",
+  "baseLanguageSupportText": "大変、仕事に遅れてしまう！私の鍵はどこですか？私はテーブルの上を見ます。テーブルの上にはありません。私はベッドの下を見ます。ベッドの下にはありません。私のカバンの中でしょうか？いいえ、カバンは空っぽです。私の猫がソファの上で寝ています。私はソファの後ろを見ます。何もありません。その時、私のジャケットが見えます。それはドアの隣にあります。私はポケットの中を見ます。やった！私の鍵はポケットの中にあります。これで仕事に行けます。",
+  "glossary": [
+    {
+      "targetText": "late",
+      "transliteration": "レイト",
+      "baseTranslation": "遅れている",
+      "exampleSentence": {
+        "targetText": "I am late for work.",
+        "transliteration": "アイ アム レイト フォー ワーク",
+        "baseTranslation": "私は仕事に遅れています。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "keys",
+      "transliteration": "キーズ",
+      "baseTranslation": "鍵（複数形）",
+      "exampleSentence": {
+        "targetText": "Where are my keys?",
+        "transliteration": "ホウェア アー マイ キーズ",
+        "baseTranslation": "私の鍵はどこですか？"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "look",
+      "transliteration": "ルック",
+      "baseTranslation": "見る、探す",
+      "exampleSentence": {
+        "targetText": "I look under the bed.",
+        "transliteration": "アイ ルック アンダー ザ ベッド",
+        "baseTranslation": "私はベッドの下を見ます（探します）。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "empty",
+      "transliteration": "エンプティ",
+      "baseTranslation": "空の",
+      "exampleSentence": {
+        "targetText": "The bag is empty.",
+        "transliteration": "ザ バッグ イズ エンプティ",
+        "baseTranslation": "カバンは空です。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "sleeping",
+      "transliteration": "スリーピング",
+      "baseTranslation": "寝ている",
+      "exampleSentence": {
+        "targetText": "My cat is sleeping.",
+        "transliteration": "マイ キャット イズ スリーピング",
+        "baseTranslation": "私の猫は寝ています。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "pocket",
+      "transliteration": "ポケット",
+      "baseTranslation": "ポケット",
+      "exampleSentence": {
+        "targetText": "My keys are in the pocket.",
+        "transliteration": "マイ キーズ アー イン ザ ポケット",
+        "baseTranslation": "私の鍵はポケットの中にあります。"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "I look under the bed.",
+      "transliteration": "アイ ルック アンダー ザ ベッド",
+      "baseTranslation": "私はベッドの下を探します。"
+    },
+    {
+      "targetText": "I look behind the sofa.",
+      "transliteration": "アイ ルック ビハインド ザ ソファ",
+      "baseTranslation": "私はソファの後ろを探します。"
+    },
+    {
+      "targetText": "It is next to the door.",
+      "transliteration": "イット イズ ネクスト トゥ ザ ドア",
+      "baseTranslation": "それはドアの隣にあります。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "この人は何をしていますか？ (What is this person doing?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "He is looking for his cat.",
+        "He is looking for his keys.",
+        "He is sleeping on the bed.",
+        "He is buying a jacket."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "猫はどこにいますか？ (Where is the cat?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Under the bed",
+        "On the table",
+        "On the sofa",
+        "Behind the sofa"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ジャケットはどこにありますか？ (Where is the jacket?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "On the table",
+        "In the bag",
+        "Next to the door",
+        "Under the bed"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "結局、鍵はどこで見つかりましたか？ (Where were the keys finally found?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "In the bag",
+        "Behind the sofa",
+        "In the pocket of the jacket",
+        "Under the cat"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "文章で、カバンについて何と言っていますか？ (What does the text say about the bag?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "The bag is on the table.",
+        "The bag is empty.",
+        "The bag is next to the door.",
+        "The keys are in the bag."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "He is looking for his keys.",
+      "q2": "On the sofa",
+      "q3": "Next to the door",
+      "q4": "In the pocket of the jacket",
+      "q5": "The bag is empty."
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The person is late and looking for their keys.",
+      "They check on the table, under the bed, in the bag, and behind the sofa.",
+      "The cat is on the sofa.",
+      "The keys are finally found in the jacket pocket, which is next to the door."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You successfully visualized where everything was using the prepositions.",
+    "onFail": "Please read carefully. Pay attention to the prepositions: on (上), under (下), behind (後ろ), next to (隣), in (中).",
+    "onPartial": "Good effort. Review where the jacket is (next to the door) and where the cat is (on the sofa)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B6_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B6_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Oh no, I am late for work! Where are my keys? I look on the table...",
+    "audioLanguage": "en",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "prepositions",
+    "place",
+    "in_on_under"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Try to draw a mental picture of the room as you read. Where is the cat? Where is the jacket?",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B6_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

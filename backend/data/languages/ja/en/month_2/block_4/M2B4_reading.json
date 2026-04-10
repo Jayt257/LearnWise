@@ -1,0 +1,230 @@
+{
+  "activityId": "en_ja_M2B4_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "A Terrible Weekend",
+  "learningGoal": "Read a short story about a past event to identify regular past verbs, irregular past verbs, and negative past statements (didn't).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B4_pronunciation_2"
+  ],
+  "instructions": "ジョンの最悪だった週末についての日記を読んで、質問に答えてください。過去形の動詞（edがつくもの、形が変わるもの）と、「〜しなかった（didn't）」の使い方に注目して読みましょう。(Read John's diary about his terrible weekend. Pay attention to past tense verbs and negative statements using 'didn't'.)",
+  "readingTitle": "My Terrible Weekend",
+  "readingText": "My weekend was terrible. On Saturday, I wanted to go to the park, but I didn't go because it rained all day. I stayed home and watched TV. The movie was very boring. On Sunday, I didn't eat breakfast because I was sick. I had a bad headache. I didn't see my friends. I just went to bed early and slept all day. I hope next weekend is better!",
+  "textInTargetLanguage": "My weekend was terrible. On Saturday, I wanted to go to the park, but I didn't go because it rained all day. I stayed home and watched TV. The movie was very boring. On Sunday, I didn't eat breakfast because I was sick. I had a bad headache. I didn't see my friends. I just went to bed early and slept all day. I hope next weekend is better!",
+  "baseLanguageSupportText": "私の週末は最悪でした。土曜日、私は公園に行きたかったのですが、一日中雨が降ったので行きませんでした。私は家にいてテレビを見ました。映画はとても退屈でした。日曜日、私は具合が悪かったので朝食を食べませんでした。ひどい頭痛がありました。友達にも会いませんでした。私はただ早くベッドに行き、一日中寝ていました。来週末はもっと良いことを願っています！",
+  "glossary": [
+    {
+      "targetText": "was",
+      "transliteration": "ワズ",
+      "baseTranslation": "だった（is / am の過去形）",
+      "exampleSentence": {
+        "targetText": "My weekend was terrible.",
+        "transliteration": "マイ ウィークエンド ワズ テリブル",
+        "baseTranslation": "私の週末は最悪でした。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "wanted",
+      "transliteration": "ウォンティド",
+      "baseTranslation": "〜したかった（wantの過去形）",
+      "exampleSentence": {
+        "targetText": "I wanted to go to the park.",
+        "transliteration": "アイ ウォンティド トゥ ゴー トゥ ザ パーク",
+        "baseTranslation": "私は公園に行きたかったです。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "didn't go",
+      "transliteration": "ディドント ゴー",
+      "baseTranslation": "行かなかった（過去の否定）",
+      "exampleSentence": {
+        "targetText": "I didn't go to the park.",
+        "transliteration": "アイ ディドント ゴー トゥ ザ パーク",
+        "baseTranslation": "私は公園に行きませんでした。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "stayed",
+      "transliteration": "ステイド",
+      "baseTranslation": "とどまった、家にいた（stayの過去形）",
+      "exampleSentence": {
+        "targetText": "I stayed home.",
+        "transliteration": "アイ ステイド ホーム",
+        "baseTranslation": "私は家にいました。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "had",
+      "transliteration": "ハッド",
+      "baseTranslation": "持っていた、あった（haveの過去形）",
+      "exampleSentence": {
+        "targetText": "I had a headache.",
+        "transliteration": "アイ ハッド ア ヘッドエイク",
+        "baseTranslation": "頭痛がありました。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "went",
+      "transliteration": "ウェント",
+      "baseTranslation": "行った（goの過去形）",
+      "exampleSentence": {
+        "targetText": "I went to bed early.",
+        "transliteration": "アイ ウェント トゥ ベッド アーリー",
+        "baseTranslation": "私は早くベッドに行きました（寝ました）。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "slept",
+      "transliteration": "スレプト",
+      "baseTranslation": "寝た（sleepの過去形）",
+      "exampleSentence": {
+        "targetText": "I slept all day.",
+        "transliteration": "アイ スレプト オール デイ",
+        "baseTranslation": "私は一日中寝ました。"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "I didn't go because it rained.",
+      "transliteration": "アイ ディドント ゴー ビコーズ イット レインド",
+      "baseTranslation": "雨が降ったので、私は行きませんでした。（didn'tの後ろは原形のgoに戻る）"
+    },
+    {
+      "targetText": "I didn't eat breakfast because I was sick.",
+      "transliteration": "アイ ディドント イート ブレックファースト ビコーズ アイ ワズ シック",
+      "baseTranslation": "具合が悪かったので、私は朝食を食べませんでした。（didn't eat = 原形、was = 過去の状態）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "土曜日、ジョンが公園に行かなかったのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because he was sick.",
+        "Because he watched TV.",
+        "Because it rained all day.",
+        "Because he didn't want to go."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "文章の中で「行かなかった」を英語でどのように表現していますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "I wasn't go",
+        "I didn't went",
+        "I didn't go",
+        "I not went"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "日曜日、ジョンはどうして朝食を食べませんでしたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because he was sleeping.",
+        "Because the food was bad.",
+        "Because he was sick.",
+        "Because he wasn't hungry."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ジョンは日曜日に友達に会いましたか？ (Did John see his friends on Sunday?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, he saw his friends.",
+        "No, he didn't see his friends.",
+        "Yes, he watched TV with them.",
+        "He went to the park with them."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「私は早く寝ました（ベッドに行きました）」を表す文で、go の過去形として使われている単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "goed",
+        "went",
+        "slept",
+        "gone"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Because it rained all day.",
+      "q2": "I didn't go",
+      "q3": "Because he was sick.",
+      "q4": "No, he didn't see his friends.",
+      "q5": "went"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The text uses regular past verbs (-ed) like wanted, rained, stayed, watched.",
+      "It uses irregular past verbs like was, had, went, slept.",
+      "It demonstrates negative past tense (didn't go, didn't eat, didn't see)."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You understood how to use regular verbs, irregular verbs, and negatives in the past tense.",
+    "onFail": "Please read carefully. Look for 'didn't' to understand what he did NOT do.",
+    "onPartial": "Good effort. Pay attention to irregular verbs like 'went' (past of go) and 'had' (past of have)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B4_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B4_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "My weekend was terrible. On Saturday, I wanted to go to the park...",
+    "audioLanguage": "en",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "simple_past",
+    "irregular_verbs",
+    "negatives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice that after 'didn't', the verb is always in its normal form (didn't go, didn't eat).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

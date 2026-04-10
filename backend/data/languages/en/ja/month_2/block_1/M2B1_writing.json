@@ -1,0 +1,189 @@
+{
+  "activityId": "ja_en_M2B1_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Describing Your Environment",
+  "learningGoal": "The learner will write 4 complex sentences describing the state of a room, applying negative adjectives and positional nouns with correct existence verbs.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B1_lesson_001",
+    "ja_en_M2B1_reading_001"
+  ],
+  "instructions": "Write four sentences in Japanese based on the prompts to describe a room. Make sure to choose 'Arimasu' for inanimate objects and 'Imasu' for living things. Pay attention to how you make a na-adjective negative.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "The particle 'ga' is used to mark WHAT exists. Example: Neko ga imasu."
+    }
+  ],
+  "writingPrompt": "Translate: 1) This room is big. 2) It is not quiet. 3) Inside the room, there is a desk. 4) On top of the desk, there is a cat.",
+  "promptGoal": "To construct descriptive sentences combining i-adjectives, negative na-adjectives, inanimate existence, and animate existence with spatial locations.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "へや",
+      "transliteration": "Heya",
+      "baseTranslation": "Room",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "おおきい",
+      "transliteration": "Ookii",
+      "baseTranslation": "Big",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "しずか",
+      "transliteration": "Shizuka",
+      "baseTranslation": "Quiet",
+      "partOfSpeech": "na-adjective"
+    },
+    {
+      "targetText": "なか",
+      "transliteration": "Naka",
+      "baseTranslation": "Inside",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "つくえ",
+      "transliteration": "Tsukue",
+      "baseTranslation": "Desk",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "うえ",
+      "transliteration": "Ue",
+      "baseTranslation": "Top",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ねこ",
+      "transliteration": "Neko",
+      "baseTranslation": "Cat",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "あります",
+      "transliteration": "Arimasu",
+      "baseTranslation": "There is (inanimate)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "います",
+      "transliteration": "Imasu",
+      "baseTranslation": "There is (animate)",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [This] [Room] wa [Big] desu.",
+    "Sentence 2: [Quiet] ja arimasen.",
+    "Sentence 3: [Room] no [Inside] ni [Desk] ga [Exists-inanimate].",
+    "Sentence 4: [Desk] no [Top] ni [Cat] ga [Exists-animate]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "この へやは おおきいです。しずかじゃありません。へやの なかに つくえが あります。つくえの うえに ねこが います。",
+      "transliteration": "Kono heya wa ookii desu. Shizuka ja arimasen. Heya no naka ni tsukue ga arimasu. Tsukue no ue ni neko ga imasu.",
+      "baseTranslation": "This room is big. It is not quiet. Inside the room, there is a desk. On top of the desk, there is a cat.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect translation. Correctly made the na-adjective negative, and properly switched between arimasu and imasu."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Na-Adjective Negative Conjugation",
+      "weight": 25,
+      "description": "Did the learner write 'Shizuka ja arimasen'?"
+    },
+    {
+      "criterion": "Positional Noun Structure",
+      "weight": 30,
+      "description": "Did the learner use 'no [Position] ni'? (e.g. Heya no naka ni, Tsukue no ue ni)"
+    },
+    {
+      "criterion": "Existence Verb Accuracy",
+      "weight": 30,
+      "description": "Did the learner use 'arimasu' for the desk and 'imasu' for the cat?"
+    },
+    {
+      "criterion": "Particle 'ga'",
+      "weight": 15,
+      "description": "Did the learner use 'ga' before the existence verbs?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "この へやは おおきいです。しずかじゃありません。へやの なかに つくえが あります。つくえの うえに ねこが います。",
+    "acceptableAlternates": [
+      "この へやは おおきいです。この へやは しずかじゃありません。へやの なかに つくえが あります。つくえの うえに ねこが います。"
+    ],
+    "requiredKeywords": [
+      "おおきい",
+      "しずかじゃありません",
+      "なかに",
+      "あります",
+      "うえに",
+      "います"
+    ],
+    "grammarBaseline": "Adjective conjugation and positional existence formulas.",
+    "lengthExpectation": "Four descriptive sentences.",
+    "scoringRubric": {
+      "sentence_1": 20,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 30
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! You easily handled the complex positional phrases and existence rules.",
+    "onFail": "Review the existence verbs. Arimasu is for non-living things (desks). Imasu is for living things (cats).",
+    "onPartial": "Good try! Make sure you didn't say 'Shizukaku arimasen'. 'Shizuka' is a na-adjective, so its negative is 'ja arimasen'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b1/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "adjectives",
+    "existence",
+    "locations",
+    "intermediate",
+    "month2",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'Inside the room', use 'Heya no naka ni'.",
+  "commonMistakes": [
+    "Using 'Arimasu' for the cat.",
+    "Conjugating Shizuka as an i-adjective."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

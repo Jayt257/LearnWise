@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M1B4_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Time and Age Exceptions",
+  "learningGoal": "The learner will correctly pronounce time, age, and numbers, focusing entirely on avoiding common pronunciation mistakes with 4, 9, and 20.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B4_lesson_001",
+    "ja_en_M1B4_vocabulary_001"
+  ],
+  "instructions": "Listen to the native speaker and repeat the words. In this activity, you will be heavily tested on the phonetic exceptions for 4 o'clock, 9 o'clock, and 20 years old.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Saying 'yon-ji' instead of 'yo-ji' immediately marks you as a beginner. Practice these exceptions until they become automatic."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "いちじ",
+      "transliteration": "Ichi-ji",
+      "baseTranslation": "1 o'clock",
+      "phoneticHint": "ee-chee-jee",
+      "syllableSplit": "i-chi-ji",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Swallowing the 'i'. It must be two clear syllables before 'ji'."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "よじ",
+      "transliteration": "Yo-ji",
+      "baseTranslation": "4 o'clock",
+      "phoneticHint": "yoh-jee",
+      "syllableSplit": "yo-ji",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'yon-ji'. NEVER say 'yon' when talking about time."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "くじ",
+      "transliteration": "Ku-ji",
+      "baseTranslation": "9 o'clock",
+      "phoneticHint": "koo-jee",
+      "syllableSplit": "ku-ji",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'kyuu-ji'. Drop the 'yuu' sound completely."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "はたち",
+      "transliteration": "Hatachi",
+      "baseTranslation": "20 years old",
+      "phoneticHint": "hah-tah-chee",
+      "syllableSplit": "ha-ta-chi",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'ni-juu-sai'. 20 years old is always Hatachi."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "いっさい",
+      "transliteration": "Issai",
+      "baseTranslation": "1 year old",
+      "phoneticHint": "ees-sai",
+      "syllableSplit": "i-s-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Saying 'ichi-sai'. The 'chi' turns into a small pause (double consonant)."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "げつようび",
+      "transliteration": "Getsuyoubi",
+      "baseTranslation": "Monday",
+      "phoneticHint": "gets-yoh-bee",
+      "syllableSplit": "ge-tsu-yo-u-bi",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Skipping the 'u' sound. It is a long 'o' (yo-o-bi)."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "すいようび",
+      "transliteration": "Suiyoubi",
+      "baseTranslation": "Wednesday",
+      "phoneticHint": "soo-ee-yoh-bee",
+      "syllableSplit": "su-i-yo-u-bi",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Saying 'soo-youbi' without pronouncing the 'i' in 'sui'."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "なんじ",
+      "transliteration": "Nan-ji",
+      "baseTranslation": "What time",
+      "phoneticHint": "nahn-jee",
+      "syllableSplit": "na-n-ji",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Using a hard 'n' sound. It's a soft nasal 'n'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "いちじ よじ くじ はたち いっさい げつようび すいようび なんじ",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Perfect! You correctly navigated the numerical exceptions.",
+    "onFail": "Try again. Remember: Yo-ji, Ku-ji, Hatachi.",
+    "onPartial": "Good effort. Be careful with double consonants like in 'Issai'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "いちじ よじ くじ はたち いっさい げつようび すいようび なんじ",
+    "acceptedVariants": [
+      "ichiji yoji kuji hatachi issai getsuyoubi suiyoubi nanji"
+    ],
+    "syllableSplitReference": "i-chi-ji yo-ji ku-ji ha-ta-chi i-s-sa-i ge-tsu-yo-u-bi su-i-yo-u-bi na-n-ji",
+    "phoneticApproximation": "ee-chee-jee yoh-jee koo-jee hah-tah-chee ees-sai gets-yoh-bee soo-ee-yoh-bee nahn-jee",
+    "nativeScriptReference": "いちじ よじ くじ はたち いっさい げつようび すいようび なんじ",
+    "transliteration": "Ichi-ji Yo-ji Ku-ji Hatachi Issai Getsuyoubi Suiyoubi Nan-ji",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b4/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m1/b4/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b4/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "いちじ。よじ。くじ。はたち。いっさい。げつようび。すいようび。なんじ。",
+    "audioLanguage": "ja",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "time",
+    "exceptions",
+    "beginner",
+    "month1",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you say 'Yon-ji', the system will mark it as incorrect. It must be 'Yo-ji'.",
+  "commonMistakes": [
+    "Pronouncing 4 o'clock as yonji."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

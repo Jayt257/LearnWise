@@ -1,0 +1,238 @@
+{
+  "activityId": "en_ja_M1B2_test_8",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Test: Identity and Be-Verbs",
+  "learningGoal": "Evaluate your mastery of personal pronouns, 'be' verbs, and basic SVO sentence structure.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B2_speaking_7"
+  ],
+  "instructions": "Block 2 のテストです。代名詞（I, You, Heなど）とbe動詞（am, is, are）の正しい組み合わせを選び、自己紹介や他己紹介の文章を完成させてください。(This is the Block 2 test. Choose the correct combinations of pronouns and 'be' verbs to complete the sentences.)",
+  "testTitle": "Pronouns and Be-Verbs Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Be-Verbs (be動詞)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Fill in the blank: 'I _____ from Japan.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'She _____ a doctor.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "not"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Fill in the blank: 'They _____ students.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "we"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        },
+        {
+          "questionId": "q4",
+          "questionText": "Choose the correct negative sentence for 'He is a teacher.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "He no is a teacher.",
+            "He is a teacher not.",
+            "He not is a teacher.",
+            "He is not a teacher."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "Choose the correct question for 'You are Ken.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Are you Ken?",
+            "You are Ken?",
+            "Ken are you?",
+            "Am you Ken?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Vocabulary and Translations (単語と翻訳)",
+      "questions": [
+        {
+          "questionId": "q6",
+          "questionText": "「私たちはアメリカ出身です」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "They are from America.",
+            "We are from America.",
+            "You are from America.",
+            "I am from America."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "「彼女は学生ですか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "She is a student?",
+            "Is she a student?",
+            "Are she a student?",
+            "She a student is?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "What is the short form (短縮形) of 'They are'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "They's",
+            "They'm",
+            "They're",
+            "There"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "Which word means '医者 (Doctor)'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Teacher",
+            "Doctor",
+            "Student",
+            "Friend"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "If someone asks 'Are you from Japan?', how do you answer 'はい、そうです'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Yes, I am.",
+            "Yes, I do.",
+            "Yes, you are.",
+            "Yes, he is."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "am",
+      "q2": "is",
+      "q3": "are",
+      "q4": "He is not a teacher.",
+      "q5": "Are you Ken?",
+      "q6": "We are from America.",
+      "q7": "Is she a student?",
+      "q8": "They're",
+      "q9": "Doctor",
+      "q10": "Yes, I am."
+    },
+    "sectionPassMarks": {
+      "sec_1": 40,
+      "sec_2": 40
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You have mastered the 'be' verbs and basic pronouns. SVO structure is becoming natural to you.",
+    "onFail": "Please review the lesson on be-verbs. Remember: I am, He/She is, You/We/They are.",
+    "onPartial": "Good effort! Make sure you understand how to make questions by swapping the subject and the verb."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_2",
+    "grammar",
+    "pronouns",
+    "be_verb"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the sentences carefully. The verb must always match the subject (I -> am, She -> is).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B3_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

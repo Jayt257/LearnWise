@@ -1,0 +1,224 @@
+{
+  "activityId": "ja_en_M2B5_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "My Opinion on Japan",
+  "learningGoal": "The learner will read a short essay to identify plain form verbs, adjectives, and nouns used in conjunction with the quotation marker '~to omoimasu'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B5_lesson_001",
+    "ja_en_M2B5_vocabulary_001"
+  ],
+  "instructions": "Read this student's essay expressing their thoughts on living in Japan. Notice how almost every sentence ends in 'to omoimasu', but the words right before 'to' change depending on their grammatical class.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Look closely at the final sentence. It uses the Nai-form: 'ikanai' (will not go)."
+    }
+  ],
+  "readingTitle": "Thinking about Japan",
+  "readingText": "わたしは にほんの ぶんかは おもしろいと おもいます。そして、たべものは おいしいと おもいます。でも、ぶっかは たかいと おもいます。あした、ゆきが ふると おもいます。だから、わたしは どこにも いかないと おもいます。",
+  "textInTargetLanguage": "わたしは にほんの ぶんかは おもしろいと おもいます。そして、たべものは おいしいと おもいます。でも、ぶっかは たかいと おもいます。あした、ゆきが ふると おもいます。だから、わたしは どこにも いかないと おもいます。",
+  "baseLanguageSupportText": "I think Japanese culture is interesting. And, I think the food is delicious. But, I think prices are high. Tomorrow, I think it will snow. Therefore, I think I will not go anywhere.",
+  "glossary": [
+    {
+      "targetText": "ぶんか",
+      "transliteration": "Bunka",
+      "baseTranslation": "Culture",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おもしろいと おもいます",
+      "transliteration": "Omoshiroi to omoimasu",
+      "baseTranslation": "I think it is interesting",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ぶっか",
+      "transliteration": "Bukka",
+      "baseTranslation": "Prices / Cost of living",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "たかいと おもいます",
+      "transliteration": "Takai to omoimasu",
+      "baseTranslation": "I think it is expensive/high",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ゆきが ふる",
+      "transliteration": "Yuki ga furu",
+      "baseTranslation": "Snow falls (furu is dictionary form)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "だから",
+      "transliteration": "Dakara",
+      "baseTranslation": "Therefore / So",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "どこにも",
+      "transliteration": "Dokonimo",
+      "baseTranslation": "Nowhere / Anywhere (with negative)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "いかないと おもいます",
+      "transliteration": "Ikanai to omoimasu",
+      "baseTranslation": "I think I will not go",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "わたしは にほんの ぶんかは おもしろいと おもいます。",
+      "transliteration": "Watashi wa Nihon no bunka wa omoshiroi to omoimasu.",
+      "baseTranslation": "I think Japanese culture is interesting."
+    },
+    {
+      "targetText": "あした、ゆきが ふると おもいます。",
+      "transliteration": "Ashita, yuki ga furu to omoimasu.",
+      "baseTranslation": "Tomorrow, I think it will snow."
+    },
+    {
+      "targetText": "だから、わたしは どこにも いかないと おもいます。",
+      "transliteration": "Dakara, watashi wa dokonimo ikanai to omoimasu.",
+      "baseTranslation": "Therefore, I think I will not go anywhere."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What does the author think about Japanese culture?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It is expensive",
+        "It is interesting",
+        "It is difficult",
+        "It is boring"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What does the author think about 'Bukka' (Prices)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "They are high/expensive",
+        "They are cheap",
+        "They are delicious",
+        "They are interesting"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What does the author think will happen tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It will rain",
+        "It will snow",
+        "It will be hot",
+        "Tanaka will come"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What does the author plan to do tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Go to the museum",
+        "Go to Tokyo",
+        "Eat sushi",
+        "Not go anywhere"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the plain negative verb 'will not go' used in the text.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "It is interesting",
+      "q002": "They are high/expensive",
+      "q003": "It will snow",
+      "q004": "Not go anywhere",
+      "q005": "ikanai"
+    },
+    "acceptableParaphrases": {
+      "q005": ["ikanai", "Ikanai"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Culture is interesting.",
+      "Food is delicious.",
+      "Prices are high.",
+      "It will snow tomorrow so they won't go out."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You navigated a paragraph full of opinions and plain forms.",
+    "onFail": "Review the sentence 'dokonimo ikanai'. Dokonimo = anywhere. Ikanai = will not go.",
+    "onPartial": "Good effort. Pay attention to 'furu'. It is the dictionary form of 'furimasu' (to fall/precipitate)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b5/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b5/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m2/b5/reading/normal_reading.mp3",
+    "audioTranscript": "わたしは にほんの ぶんかは おもしろいと おもいます。そして、たべものは おいしいと おもいます。でも、ぶっかは たかいと おもいます。あした、ゆきが ふると おもいます。だから、わたしは どこにも いかないと おもいます。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "plain-form",
+    "quotation",
+    "thoughts",
+    "intermediate",
+    "month2",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the word 'ikanai'. It comes from 'ikimasu' (to go). The 'nai' makes it negative.",
+  "commonMistakes": [
+    "Thinking 'Yuki ga furu' means 'It is cold'. Furu specifically means 'to fall' (as in rain or snow)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

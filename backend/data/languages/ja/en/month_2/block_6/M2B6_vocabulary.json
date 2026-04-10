@@ -1,0 +1,316 @@
+{
+  "activityId": "en_ja_M2B6_vocabulary_6",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "vocabulary",
+  "title": "Navigating the City",
+  "learningGoal": "Learn essential vocabulary for city landmarks, directions, and locations.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B6_listening_5"
+  ],
+  "instructions": "街の重要な建物（駅、病院など）や、方向・場所を表す単語を覚えましょう。これらは道案内の際に必ず登場します。(Learn essential vocabulary for city landmarks, directions, and locations.)",
+  "vocabTheme": "City and Directions",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "station",
+      "transliteration": "ステーション",
+      "baseTranslation": "駅",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "hospital",
+      "transliteration": "ホスピタル",
+      "baseTranslation": "病院",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "museum",
+      "transliteration": "ミュージアム",
+      "baseTranslation": "博物館、美術館",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "airport",
+      "transliteration": "エアポート",
+      "baseTranslation": "空港",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "bank",
+      "transliteration": "バンク",
+      "baseTranslation": "銀行",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "straight",
+      "transliteration": "ストレイト",
+      "baseTranslation": "まっすぐ",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "right",
+      "transliteration": "ライト",
+      "baseTranslation": "右",
+      "partOfSpeech": "noun/adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "left",
+      "transliteration": "レフト",
+      "baseTranslation": "左",
+      "partOfSpeech": "noun/adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "next to",
+      "transliteration": "ネクスト トゥ",
+      "baseTranslation": "〜の隣に",
+      "partOfSpeech": "prepositional phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "across from",
+      "transliteration": "アクロス フロム",
+      "baseTranslation": "〜の向かいに",
+      "partOfSpeech": "prepositional phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    },
+    {
+      "wordId": "v11",
+      "targetText": "corner",
+      "transliteration": "コーナー",
+      "baseTranslation": "角",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v11"
+    },
+    {
+      "wordId": "v12",
+      "targetText": "traffic light",
+      "transliteration": "トラフィック ライト",
+      "baseTranslation": "信号",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v12"
+    }
+  ],
+  "meaningList": [
+    "駅",
+    "病院",
+    "博物館",
+    "空港",
+    "銀行",
+    "まっすぐ",
+    "右",
+    "左",
+    "〜の隣に",
+    "〜の向かいに",
+    "角",
+    "信号"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v1",
+      "targetText": "Where is the station?",
+      "transliteration": "ウェア イズ ザ ステーション？",
+      "baseTranslation": "駅はどこですか？"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "How do I get to the airport?",
+      "transliteration": "ハウ ドゥー アイ ゲット トゥ ザ エアポート？",
+      "baseTranslation": "空港にはどうやって行けばいいですか？"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "Go straight.",
+      "transliteration": "ゴー ストレイト",
+      "baseTranslation": "まっすぐ進んでください。"
+    },
+    {
+      "wordId": "v11",
+      "targetText": "Turn left at the corner.",
+      "transliteration": "ターン レフト アット ザ コーナー",
+      "baseTranslation": "角を左に曲がってください。"
+    },
+    {
+      "wordId": "v12",
+      "targetText": "Turn right at the traffic light.",
+      "transliteration": "ターン ライト アット ザ トラフィック ライト",
+      "baseTranslation": "信号を右に曲がってください。"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "The bank is next to the museum.",
+      "transliteration": "ザ バンク イズ ネクスト トゥ ザ ミュージアム",
+      "baseTranslation": "銀行は博物館の隣にあります。"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "The hospital is across from the station.",
+      "transliteration": "ザ ホスピタル イズ アクロス フロム ザ ステーション",
+      "baseTranslation": "病院は駅の向かいにあります。"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does 'traffic light' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "車",
+        "道路",
+        "信号",
+        "角"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank: 'Turn ________ at the corner.' (右に)",
+      "questionType": "multiple_choice",
+      "options": [
+        "left",
+        "right",
+        "straight",
+        "across"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Which phrase means '〜の隣に'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "across from",
+        "next to",
+        "straight to",
+        "right to"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What does 'across from' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "〜の隣に",
+        "〜の後ろに",
+        "〜の前に",
+        "〜の向かいに"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What is the English word for '空港'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "station",
+        "museum",
+        "hospital",
+        "airport"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Fill in the blank: 'Go _________.' (まっすぐ)",
+      "questionType": "multiple_choice",
+      "options": [
+        "right",
+        "left",
+        "corner",
+        "straight"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q6"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "信号",
+      "q2": "right",
+      "q3": "next to",
+      "q4": "〜の向かいに",
+      "q5": "airport",
+      "q6": "straight"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! You know all the important direction words and landmarks.",
+    "onFail": "Review the list. Make sure you don't confuse 'next to' (隣) and 'across from' (向かい).",
+    "onPartial": "Good effort. Pay special attention to 'straight' and 'corner'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "directions",
+    "landmarks"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Memorize 'next to' and 'across from' as pairs of words.",
+  "commonMistakes": [
+    "Confusing right and left.",
+    "Forgetting the 'from' in 'across from'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B6_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M3B5_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "At the Doctor's Office",
+  "learningGoal": "The learner will listen to a medical consultation to comprehend symptoms reported by the patient and the diagnosis given by the doctor.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M3B5_lesson_001",
+    "ja_en_M3B5_vocabulary_001"
+  ],
+  "instructions": "Listen to a patient describing their symptoms to a doctor. Identify the specific symptoms and the doctor's conclusion.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen closely for 'netsu' (fever) and 'seki' (cough)."
+    }
+  ],
+  "listeningGoal": "Identify the symptoms and the diagnosis.",
+  "audioScenario": "A medical clinic examination.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "どうしましたか。",
+      "transliteration": "Dou shimashita ka.",
+      "baseTranslation": "What happened? / What's wrong?"
+    },
+    {
+      "targetText": "ねつが あります。そして、せきが でます。",
+      "transliteration": "Netsu ga arimasu. Soshite, seki ga demasu.",
+      "baseTranslation": "I have a fever. And, I have a cough."
+    },
+    {
+      "targetText": "かぜですね。くすりを のんで ください。",
+      "transliteration": "Kaze desu ne. Kusuri wo nonde kudasai.",
+      "baseTranslation": "It's a cold, isn't it. Please drink medicine."
+    }
+  ],
+  "audioTranscriptFull": "（医者）どうしましたか。\n（患者）ねつが あります。そして、せきが でます。\n（医者）かぜですね。くすりを のんで ください。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What does the doctor ask first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Genki desu ka (Are you well?)",
+        "Dou shimashita ka (What's wrong?)",
+        "Itai desu ka (Does it hurt?)",
+        "Kaze desu ka (Is it a cold?)"
+      ],
+      "audioTimestamp": "00:01",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is the patient's first symptom?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Headache (Atama ga itai)",
+        "Stomach ache (Onaka ga itai)",
+        "Fever (Netsu ga aru)",
+        "Injury (Kega)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What is the patient's second symptom?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Sore throat (Nodo ga itai)",
+        "Cough (Seki ga deru)",
+        "Bleeding (Chi ga deru)",
+        "Toothache (Ha ga itai)"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What is the doctor's diagnosis?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Flu (Infuruenza)",
+        "Cold (Kaze)",
+        "Broken bone (Kossetsu)",
+        "Food poisoning (Shokuchuudoku)"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for what the doctor tells the patient to take (drink).",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Dou shimashita ka (What's wrong?)",
+      "q002": "Fever (Netsu ga aru)",
+      "q003": "Cough (Seki ga deru)",
+      "q004": "Cold (Kaze)",
+      "q005": "kusuri"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["kusuri", "Kusuri"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully comprehended a standard Japanese medical consultation.",
+    "onFail": "Listen again carefully. Review the symptoms: 'netsu' (fever) and 'seki' (cough).",
+    "onPartial": "Good effort. Notice how Japanese uses the verb 'nomu' (to drink) for taking medicine, not 'taberu' (to eat)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b5/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b5/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m3/b5/listening/native_dialogue.mp3",
+    "audioTranscript": "どうしましたか。ねつが あります。そして、せきが でます。かぜですね。くすりを のんで ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "medical",
+    "doctor",
+    "advanced",
+    "month3",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "The doctor says 'Kaze desu ne'.",
+  "commonMistakes": [
+    "Confusing 'Kaze' (cold) with 'Kega' (injury)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

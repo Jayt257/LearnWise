@@ -1,0 +1,213 @@
+{
+  "activityId": "ja_en_M2B6_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "Travel Survival & Directions",
+  "learningGoal": "The learner will master asking for directions ('dou yatte ikimasu ka'), giving directions using the Te-form ('~te kudasai'), and using spatial vocabulary.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M2B5_test_001"
+  ],
+  "instructions": "In this final block of Month 2, you will learn how to navigate the streets of Japan. We will combine your knowledge of the Te-form and spatial vocabulary to ask for and give directions.",
+  "conceptTitle": "Navigating Japan",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Asking 'How do I go?'",
+      "bodyText": "You already know 'Eki wa doko desu ka' (Where is the station?). To ask specifically HOW to get somewhere (which bus to take, or which street to walk down), use 'dou yatte' (how / in what way).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "えきへ どうやって いきますか。",
+          "transliteration": "Eki e dou yatte ikimasu ka.",
+          "baseTranslation": "How do I go to the station?",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ホテルに どうやって いきますか。",
+          "transliteration": "Hoteru ni dou yatte ikimasu ka.",
+          "baseTranslation": "How do I go to the hotel?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Giving Directions (Te-form + Kudasai)",
+      "bodyText": "To give someone instructions, use the Te-form plus 'kudasai' (please). For movement verbs, notice how they conjugate: Ikimasu -> Itte. Magarimasu (Turn) -> Magatte. Watarimasu (Cross) -> Watatte.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "まっすぐ いって ください。",
+          "transliteration": "Massugu itte kudasai.",
+          "baseTranslation": "Please go straight. (Massugu = straight)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "みぎに まがって ください。",
+          "transliteration": "Migi ni magatte kudasai.",
+          "baseTranslation": "Please turn right. (Migi = right, Magatte = turn)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "はしを わたって ください。",
+          "transliteration": "Hashi wo watatte kudasai.",
+          "baseTranslation": "Please cross the bridge. (Hashi = bridge, Watatte = cross)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Combining Directions",
+      "bodyText": "You can string multiple Te-forms together to give a sequence of instructions. The word 'soshite' means 'and then'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "まっすぐ いっで、ひだりに まがって ください。",
+          "transliteration": "Massugu itte, hidari ni magatte kudasai.",
+          "baseTranslation": "Go straight, and turn left.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しんごうを みぎに まがって ください。そして、まっすぐ いってください。",
+          "transliteration": "Shingou wo migi ni magatte kudasai. Soshite, massugu itte kudasai.",
+          "baseTranslation": "Turn right at the traffic light. And then, please go straight.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Relative Locations",
+      "bodyText": "To describe where a building is, use 'A no B' (B of A). For example, 'Ginkou no mae' = Front of the bank.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "えきは ぎんこうの まえに あります。",
+          "transliteration": "Eki wa ginkou no mae ni arimasu.",
+          "baseTranslation": "The station is in front of the bank.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ゆうびんきょくは ホテルの うしろに あります。",
+          "transliteration": "Yuubinkyoku wa hoteru no ushiro ni arimasu.",
+          "baseTranslation": "The post office is behind the hotel.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will confidently navigate travel scenarios by formulating questions about transit routes and decoding sequential Japanese instructions involving spatial landmarks.",
+  "examples": [
+    {
+      "targetText": "A: すみません。えきへ どうやって いきますか。 B: しんごうを ひだりに まがって ください。えきは ぎんこうの となりに あります。",
+      "transliteration": "A: Sumimasen. Eki e dou yatte ikimasu ka. B: Shingou wo hidari ni magatte kudasai. Eki wa ginkou no tonari ni arimasu.",
+      "baseTranslation": "A: Excuse me. How do I get to the station? B: Please turn left at the traffic light. The station is next to the bank.",
+      "explanation": "This conversation demonstrates the full cycle of asking for directions, receiving instructions, and confirming the final location relative to a landmark."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Use particle 'wo' with the place you are passing through or turning at.",
+      "exceptionNotes": "'Kado wo magarimasu' = Turn AT the corner. 'Michi wo watarimasu' = Cross THE street."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Use particle 'ni' with the direction you are turning.",
+      "exceptionNotes": "'Migi ni magarimasu' = Turn TO the right."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese streets often do not have names. Instead, addresses are based on city blocks and districts. Because of this, giving directions usually relies heavily on landmarks like convenience stores, traffic lights, and bridges.",
+    "dosList": [
+      "Ask 'Sumimasen' before stopping someone for directions.",
+      "Use landmarks like 'shingou' (traffic light) or 'kado' (corner)."
+    ],
+    "dontsList": [
+      "Do not expect everyone to know street names, as many small streets are unnamed."
+    ]
+  },
+  "summary": "Ask 'dou yatte ikimasu ka' to find out how to get somewhere. Use Te-form verbs (itte, magatte, watatte) + kudasai to give directions. Use 'A no mae' (front of A) or 'A no ushiro' (behind A) to describe locations.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "How do you say 'How do I go?'",
+      "expectedAnswer": "どうやって いきますか (Dou yatte ikimasu ka)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What does 'Migi ni magatte kudasai' mean?",
+      "expectedAnswer": "Please turn right."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you say 'In front of the bank'?",
+      "expectedAnswer": "ぎんこうの まえ (Ginkou no mae)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Dou yatte: How",
+      "Direction verbs: Magatte (turn), Watatte (cross), Itte (go)",
+      "Location words: Mae (front), Ushiro (back), Migi (right), Hidari (left)"
+    ],
+    "conceptSummary": "Practical survival Japanese focusing on navigation and spatial awareness.",
+    "importantFacts": [
+      "Particle 'wo' is used for the location where movement happens (e.g. crossing a bridge)."
+    ],
+    "checkpointAnswers": {
+      "q1": "どうやって いきますか",
+      "q2": "Please turn right.",
+      "q3": "ぎんこうの まえ"
+    },
+    "expectedUnderstanding": "Learner must synthesize their knowledge of Te-forms with new spatial vocabulary to process multi-step instructions."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You are ready to navigate Tokyo without getting lost.",
+    "onFail": "Review the Te-form of verbs. If you don't know that 'Magatte' comes from 'Magarimasu', you will not be able to follow directions.",
+    "onPartial": "Good start. Pay special attention to the difference between 'Migi' (Right) and 'Hidari' (Left)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "えきへ どうやって いきますか。ホテルに どうやって いきますか。まっすぐ いって ください。みぎに まがって ください。はしを わたって ください。まっすぐ いっで、ひだりに まがって ください。しんごうを みぎに まがって ください。そして、まっすぐ いってください。えきは ぎんこうの まえに あります。ゆうびんきょくは ホテルの うしろに あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "directions",
+    "travel",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Using 'Migi wo magatte' instead of 'Migi ni magatte'. 'Ni' marks the direction."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

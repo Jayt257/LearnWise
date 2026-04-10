@@ -1,0 +1,185 @@
+{
+  "activityId": "ja_en_M3B3_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Forcing and Being Forced",
+  "learningGoal": "The learner will construct sentences differentiating between the causative form (making someone do something) and the causative-passive form (being forced to do something).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B3_lesson_001",
+    "ja_en_M3B3_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences based on the English prompts. This exercise will test your ability to flip between the active causative (I made them) and the causative-passive (I was forced by them).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: The person who is FORCED to act is the subject (wa) of a causative-passive sentence. The person DOING the forcing is marked with 'ni'."
+    }
+  ],
+  "writingPrompt": "Translate: 1) The mother made the child eat vegetables. 2) I was forced to eat vegetables by my mother. 3) The boss made me go to the bank. 4) I was forced to go to the bank by the boss.",
+  "promptGoal": "To construct grammatically accurate pairs of sentences showing the active-causative and causative-passive relationship.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "はは",
+      "transliteration": "Haha",
+      "baseTranslation": "Mother",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "こども",
+      "transliteration": "Kodomo",
+      "baseTranslation": "Child",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "やさい",
+      "transliteration": "Yasai",
+      "baseTranslation": "Vegetables",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "たべさせました",
+      "transliteration": "Tabesasemashita",
+      "baseTranslation": "Made eat",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "たべさせられました",
+      "transliteration": "Tabesaseraremashita",
+      "baseTranslation": "Was forced to eat",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ぶちょう",
+      "transliteration": "Buchou",
+      "baseTranslation": "Boss",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ぎんこう",
+      "transliteration": "Ginkou",
+      "baseTranslation": "Bank",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いかせました",
+      "transliteration": "Ikasemashita",
+      "baseTranslation": "Made go",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "いかされました",
+      "transliteration": "Ikasaremashita",
+      "baseTranslation": "Was forced to go",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Mother] wa [Child] ni [Vegetables] wo [Made eat].",
+    "Sentence 2: Watashi wa [Mother] ni [Vegetables] wo [Was forced to eat].",
+    "Sentence 3: [Boss] wa watashi wo [Bank] ni [Made go]. (Note: Because 'go' does not take a direct object 'wo', the person being made to go takes 'wo').",
+    "Sentence 4: Watashi wa [Boss] ni [Bank] ni [Was forced to go]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "ははは こどもに やさいを たべさせました。わたしは ははに やさいを たべさせられました。ぶちょうは わたしを ぎんこうに いかせました。わたしは ぶちょうに ぎんこうに いかされました。",
+      "transliteration": "Haha wa kodomo ni yasai wo tabesasemashita. Watashi wa haha ni yasai wo tabesaseraremashita. Buchou wa watashi wo ginkou ni ikasemashita. Watashi wa buchou ni ginkou ni ikasaremashita.",
+      "baseTranslation": "The mother made the child eat vegetables. I was forced to eat vegetables by my mother. The boss made me go to the bank. I was forced to go to the bank by the boss.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect conjugation of both causative and causative-passive forms, with correct particle adjustments (especially 'watashi wo' in sentence 3)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Causative Form (Ru-verb)",
+      "weight": 25,
+      "description": "Did the learner write 'tabesasemashita'?"
+    },
+    {
+      "criterion": "Causative-Passive Form (Ru-verb)",
+      "weight": 25,
+      "description": "Did the learner write 'tabesaseraremashita'?"
+    },
+    {
+      "criterion": "Causative Form (U-verb)",
+      "weight": 25,
+      "description": "Did the learner write 'ikasemashita'?"
+    },
+    {
+      "criterion": "Causative-Passive Form (U-verb)",
+      "weight": 25,
+      "description": "Did the learner write 'ikasaremashita'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "ははは こどもに やさいを たべさせました。わたしは ははに やさいを たべさせられました。ぶちょうは わたしを ぎんこうに いかせました。わたしは ぶちょうに ぎんこうに いかされました。",
+    "acceptableAlternates": [
+      "ははが こどもに やさいを たべさせました。わたしは ははに やさいを たべさせられました。ぶちょうが わたしを ぎんこうに いかせました。わたしは ぶちょうに ぎんこうに いかされました。"
+    ],
+    "requiredKeywords": [
+      "たべさせました",
+      "たべさせられました",
+      "いかせました",
+      "いかされました"
+    ],
+    "grammarBaseline": "Mastery of the morphological changes required to produce causative and causative-passive forms.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You have successfully tamed the most complex grammar point in Japanese.",
+    "onFail": "Review the rule for U-verbs. 'Iku' becomes 'Ikaseru' (Make go), not 'Ikasaseru'.",
+    "onPartial": "Good try! Make sure you remember to use 'wo' for the person being made to go in Sentence 3. 'Buchou wa watashi wo... ikasemashita'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b3/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "causative",
+    "passive",
+    "advanced",
+    "month3",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For Sentence 3, 'Iku' does not have an object (you can't 'go' an object). Therefore, the person who is made to go takes the 'wo' particle.",
+  "commonMistakes": [
+    "Writing 'Watashi ni' in sentence 3 instead of 'Watashi wo'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B3_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

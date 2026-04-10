@@ -1,0 +1,182 @@
+{
+  "activityId": "hi_en_M3B6_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Pronunciation Masterclass: Hard Sounds",
+  "learningGoal": "Master the most difficult aspirated and conjunct consonants in Hindi.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "hi_en_M3B6_lesson_1"
+  ],
+  "instructions": "This is your final pronunciation test. Listen carefully to the hardest sounds in Hindi: the aspirated letters (gh, chh, th, bh) and the flap consonants (ड़, ढ़). Record your voice and try to achieve a perfect native-like accent.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "House",
+      "phoneticHint": "gh-ur",
+      "syllableSplit": "ghar",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing 'gh' as a hard 'g' like in 'go' instead of aspirated 'gh'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "छात्र",
+      "transliteration": "Chhatra",
+      "baseTranslation": "Student",
+      "phoneticHint": "chh-aa-truh",
+      "syllableSplit": "chha-tra",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Not adding enough breath (aspiration) to the 'ch' sound."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "ठीक",
+      "transliteration": "Theek",
+      "baseTranslation": "Okay / Fine",
+      "phoneticHint": "theek (hard t + breath)",
+      "syllableSplit": "theek",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'teek' without aspiration."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "भारत",
+      "transliteration": "Bharat",
+      "baseTranslation": "India",
+      "phoneticHint": "bhaa-rut",
+      "syllableSplit": "bha-rat",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Barat' instead of 'Bharat'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "सड़क",
+      "transliteration": "Sadak",
+      "baseTranslation": "Road",
+      "phoneticHint": "suh-ruk (flap r)",
+      "syllableSplit": "sa-dak",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing 'ड़' as 'd'. It should be a retroflex flap 'r'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "पढ़ना",
+      "transliteration": "Padhna",
+      "baseTranslation": "To read",
+      "phoneticHint": "purh-naa",
+      "syllableSplit": "padh-na",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing 'ढ़' as 'dh'. It is a heavily aspirated flap 'r'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "ज्ञान",
+      "transliteration": "Gyaan",
+      "baseTranslation": "Knowledge",
+      "phoneticHint": "gyaa-n",
+      "syllableSplit": "gyaan",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mispronouncing the conjunct 'gy'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "क्षमा",
+      "transliteration": "Kshama",
+      "baseTranslation": "Forgiveness",
+      "phoneticHint": "ksha-maa",
+      "syllableSplit": "ksha-ma",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shama' instead of the harder 'kshama'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "श्री",
+      "transliteration": "Shree",
+      "baseTranslation": "Mr. / Respected",
+      "phoneticHint": "shree",
+      "syllableSplit": "shree",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mispronouncing the conjunct 'shr'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "ढक्कन",
+      "transliteration": "Dhakkan",
+      "baseTranslation": "Lid",
+      "phoneticHint": "dhukk-kun",
+      "syllableSplit": "dhak-kan",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'dakkan' without the heavy aspiration."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "घर छात्र ठीक भारत सड़क पढ़ना ज्ञान क्षमा श्री ढक्कन",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Outstanding! You have mastered the most difficult sounds in the Hindi language.",
+    "onFail": "Aspiration and flap consonants are tough! Practice breathing out while saying 'bh', 'gh', and 'chh'.",
+    "onPartial": "Good effort! Pay close attention to the difference between 'd' and the flap 'ड़'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "घर छात्र ठीक भारत सड़क पढ़ना ज्ञान क्षमा श्री ढक्कन",
+    "acceptedVariants": [
+      "घर छतर ठीक भारत सड़क पढ़ना ज्ञान शमा श्री ढक्कन"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "घर छात्र ठीक भारत सड़क पढ़ना ज्ञान क्षमा श्री ढक्कन",
+    "transliteration": "Ghar chhatra theek bharat sadak padhna gyaan kshama shree dhakkan",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B6_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B6_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "घर, छात्र, ठीक, भारत, सड़क, पढ़ना, ज्ञान, क्षमा, श्री, ढक्कन",
+    "audioLanguage": "hi",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "review",
+    "hard_sounds",
+    "speaking"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To pronounce the aspirated sounds, hold your hand in front of your mouth. You should feel a puff of air when saying 'gh', 'chh', 'th', 'bh'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B6_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

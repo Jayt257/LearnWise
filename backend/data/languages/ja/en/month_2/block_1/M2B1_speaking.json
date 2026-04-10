@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M2B1_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Which is better?",
+  "learningGoal": "Speak fluently using short comparatives, long comparatives, and irregular comparatives to express an opinion.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B1_vocabulary_6"
+  ],
+  "instructions": "犬と猫を比較して意見を言います。マイクに向かって、「犬は猫より大きいです。犬は猫よりエネルギッシュです。私は犬の方が良いと思います」と英語で話してください。(Compare dogs and cats. Speak into the microphone and say: 'Dogs are bigger than cats. Dogs are more energetic than cats. I think dogs are better.')",
+  "speakingPrompt": "Say: 'Dogs are bigger than cats. Dogs are more energetic than cats. I think dogs are better.'",
+  "scenario": "You are talking to a friend about your favorite pets.",
+  "role": "You",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Say dogs are bigger than cats. (Dogs are bigger than cats.)",
+      "expectedSpeakingPoints": [
+        "Dogs are bigger",
+        "than cats"
+      ],
+      "sampleResponse": {
+        "targetText": "Dogs are bigger than cats.",
+        "transliteration": "ドッグス アー ビガー ザン キャッツ。",
+        "baseTranslation": "犬は猫より大きいです。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Say dogs are more energetic. (Dogs are more energetic than cats.)",
+      "expectedSpeakingPoints": [
+        "Dogs are more energetic",
+        "than cats"
+      ],
+      "sampleResponse": {
+        "targetText": "Dogs are more energetic than cats.",
+        "transliteration": "ドッグス アー モア エナジェティック ザン キャッツ。",
+        "baseTranslation": "犬は猫よりエネルギッシュです。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Say you think dogs are better. (I think dogs are better.)",
+      "expectedSpeakingPoints": [
+        "I think",
+        "dogs are better"
+      ],
+      "sampleResponse": {
+        "targetText": "I think dogs are better.",
+        "transliteration": "アイ シンク ドッグス アー ベター。",
+        "baseTranslation": "私は犬の方が良いと思います。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Do you like dogs or cats?",
+    "transliteration": "ドゥー ユー ライク ドッグス オア キャッツ？",
+    "baseTranslation": "あなたは犬と猫どちらが好きですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Dogs are bigger than cats.",
+      "transliteration": "ドッグス アー ビガー ザン キャッツ。",
+      "baseTranslation": "犬は猫より大きいです。"
+    },
+    {
+      "targetText": "Dogs are more energetic than cats.",
+      "transliteration": "ドッグス アー モア エナジェティック ザン キャッツ。",
+      "baseTranslation": "犬は猫よりエネルギッシュです。"
+    },
+    {
+      "targetText": "I think dogs are better.",
+      "transliteration": "アイ シンク ドッグス アー ベター。",
+      "baseTranslation": "私は犬の方が良いと思います。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'bigger' and 'than'",
+      "Using 'more energetic' and 'than'",
+      "Using 'better'"
+    ],
+    "requiredKeywords": [
+      "Dogs",
+      "bigger",
+      "than",
+      "cats",
+      "more",
+      "energetic",
+      "think",
+      "better"
+    ],
+    "acceptableParaphrases": [
+      "Dogs are bigger than cats. Dogs are more energetic than cats. I think dogs are better than cats."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Comparatives",
+          "weight": 50,
+          "description": "Critical use of bigger, more energetic, and better."
+        },
+        {
+          "name": "Use of 'than'",
+          "weight": 20,
+          "description": "Clear pronunciation of 'than'."
+        },
+        {
+          "name": "Content",
+          "weight": 30,
+          "description": "All three comparisons stated."
+        }
+      ]
+    },
+    "sampleAnswer": "Dogs are bigger than cats. Dogs are more energetic than cats. I think dogs are better.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent speaking! You successfully used three different types of comparatives.",
+    "onFail": "Please try again. Pay close attention to the grammar: use 'bigger' (not more big) and 'better' (not gooder).",
+    "onPartial": "Good effort! Make sure you clearly pronounce the word 'than' when comparing."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B1_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M2B1_speaking_sample.mp3",
+    "slowAudio": "path/to/M2B1_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Dogs are bigger than cats. Dogs are more energetic than cats. I think dogs are better.",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "comparatives",
+    "adjectives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget the 'are'! 'Dogs bigger than cats' is incorrect. It must be 'Dogs ARE bigger than cats'.",
+  "commonMistakes": [
+    "Forgetting the be-verb ('Dogs bigger').",
+    "Saying 'more bigger'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B1_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

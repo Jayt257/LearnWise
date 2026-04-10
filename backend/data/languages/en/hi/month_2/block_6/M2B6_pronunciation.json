@@ -1,0 +1,150 @@
+{
+  "activityId": "hi_en_M2B6_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Directional Words and Commands",
+  "learningGoal": "Accurately pronounce nasalized directional words (Daayein, Baayein) and the polite 'iye' suffix for formal commands.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B6_lesson_1"
+  ],
+  "instructions": "Practice giving commands and directions. Pay special attention to the nasal 'n' at the end of Right (Daayein) and Left (Baayein).",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "रुकिए",
+      "transliteration": "Rokiye",
+      "baseTranslation": "Please stop",
+      "phoneticHint": "ro-kee-yeh",
+      "syllableSplit": "ro-ki-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'ro-kay'. Ensure the 'i' and 'ye' are distinct syllables."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "दीजिए",
+      "transliteration": "Deejiye",
+      "baseTranslation": "Please give",
+      "phoneticHint": "dee-jee-yeh",
+      "syllableSplit": "dee-ji-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'dij-ee'. It starts with a long 'ee' sound: DEE-ji-ye."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "दाएँ",
+      "transliteration": "Daayein",
+      "baseTranslation": "Right",
+      "phoneticHint": "daa-yay(n)",
+      "syllableSplit": "daa-yein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'die'. It must have two syllables and end with a nasal echo."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "बाएँ",
+      "transliteration": "Baayein",
+      "baseTranslation": "Left",
+      "phoneticHint": "baa-yay(n)",
+      "syllableSplit": "baa-yein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'buy'. Similar to Right, it must have two syllables and a nasal ending."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "सीधा",
+      "transliteration": "Seedha",
+      "baseTranslation": "Straight",
+      "phoneticHint": "see-dhaa (aspirated dh)",
+      "syllableSplit": "see-dha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using a hard English 'd'. The 'dh' must be breathy, pushing air out of your mouth."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "महँगा",
+      "transliteration": "Mehenga",
+      "baseTranslation": "Expensive",
+      "phoneticHint": "meh-heng-gaa",
+      "syllableSplit": "me-hen-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Swallowing the 'h'. It is 'meh-hen-ga', not 'menga'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "यहाँ मत आइए",
+      "transliteration": "Yahaan mat aaiye",
+      "baseTranslation": "Please do not come here",
+      "phoneticHint": "yuh-haan mut aa-ee-yeh",
+      "syllableSplit": "ya-haan mat aa-i-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Failing to drop the tone on 'mat'. Negative commands sound better when spoken firmly."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear nasalization on directional words and distinct three-syllable delivery of formal 'iye' commands.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Perfect! Your commands are clear, polite, and sound very natural.",
+    "onFail": "Focus on the ending '-iye'. It should sound like three steps: aa-i-ye, ro-ki-ye, dee-ji-ye.",
+    "onPartial": "Good effort. Try to soften the 'n' in Daayein and Baayein. Don't touch your tongue to the roof of your mouth; let the air go through your nose."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "directions",
+    "commands",
+    "imperatives",
+    "nasalization"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For 'Baayein' and 'Daayein', pretend you have a slight cold. Direct the final 'n' sound into your nasal passage.",
+  "commonMistakes": [
+    "Pronouncing 'Seedha' with an English 'D'. It must be breathy (dh)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B6_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

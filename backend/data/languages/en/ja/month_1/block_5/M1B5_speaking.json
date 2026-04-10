@@ -1,0 +1,177 @@
+{
+  "activityId": "ja_en_M1B5_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "The Curious Tourist",
+  "learningGoal": "The learner will verbally point out objects using demonstrative pronouns and ask questions about them.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B5_lesson_001",
+    "ja_en_M1B5_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, you are a curious tourist pointing at objects in a shop. Speak your lines out loud in Japanese based on the provided prompts. Make sure to use the correct 'Ko-So-A-Do' word depending on how far the object is from you.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember to end your questions with the particle 'ka'."
+    }
+  ],
+  "speakingPrompt": "Ask what an object is, confirm what a far away object is, and state that a nearby object is the same thing.",
+  "scenario": "You are pointing at various traditional items in a Japanese souvenir shop.",
+  "role": "Curious Tourist",
+  "conversationPartner": "Shopkeeper",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Point at an object right in front of you. Ask: 'What is this?'.",
+      "expectedSpeakingPoints": [
+        "Use Kore",
+        "Ask nan desu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "これは なんですか。",
+        "transliteration": "Kore wa nan desu ka.",
+        "baseTranslation": "What is this?"
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Point at an object far away on the top shelf. Ask: 'Is that over there a clock?'.",
+      "expectedSpeakingPoints": [
+        "Use Are",
+        "Use tokei",
+        "End with ka"
+      ],
+      "sampleResponse": {
+        "targetText": "あれは とけいですか。",
+        "transliteration": "Are wa tokei desu ka.",
+        "baseTranslation": "Is that over there a clock?"
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Pick up another clock right next to you. Say: 'This is ALSO a clock.'",
+      "expectedSpeakingPoints": [
+        "Use Kore",
+        "Use mo particle",
+        "Say tokei desu"
+      ],
+      "sampleResponse": {
+        "targetText": "これも とけいです。",
+        "transliteration": "Kore mo tokei desu.",
+        "baseTranslation": "This is also a clock."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "いらっしゃいませ。",
+    "transliteration": "Irasshaimase.",
+    "baseTranslation": "Welcome (to the store)."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "これは なんですか。",
+      "transliteration": "Kore wa nan desu ka.",
+      "baseTranslation": "What is this?"
+    },
+    {
+      "targetText": "あれは とけいですか。",
+      "transliteration": "Are wa tokei desu ka.",
+      "baseTranslation": "Is that over there a clock?"
+    },
+    {
+      "targetText": "これも とけいです。",
+      "transliteration": "Kore mo tokei desu.",
+      "baseTranslation": "This is also a clock."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 50,
+    "grammarWeight": 10,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Kore wa nan desu ka",
+      "Say Are wa tokei desu ka",
+      "Say Kore mo tokei desu"
+    ],
+    "requiredKeywords": [
+      "これ",
+      "なん",
+      "あれ",
+      "とけい",
+      "これも",
+      "か"
+    ],
+    "acceptableParaphrases": [
+      "Sumimasen can be added to the beginning."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Demonstrative Accuracy",
+          "weight": 50,
+          "description": "Did the learner correctly distinguish between Kore (near) and Are (far)?"
+        },
+        {
+          "name": "Particle Accuracy",
+          "weight": 50,
+          "description": "Did the learner use 'ka' for questions and 'mo' for also?"
+        }
+      ]
+    },
+    "sampleAnswer": "これは なんですか。あれは とけいですか。これも とけいです。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You confidently pointed out objects and asked questions.",
+    "onFail": "Make sure you used 'Kore' for things near you, and 'Are' for things far away.",
+    "onPartial": "Good effort! Remember that 'What is it' is 'Nan desu ka'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b5/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m1/b5/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "いらっしゃいませ。これは なんですか。あれは とけいですか。これも とけいです。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "demonstratives",
+    "particles",
+    "roleplay",
+    "beginner",
+    "month1",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay close attention to the third sentence. You must use 'mo' to mean 'also'.",
+  "commonMistakes": [
+    "Saying 'Are wa tokei desu' without adding 'ka' at the end to make it a question."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

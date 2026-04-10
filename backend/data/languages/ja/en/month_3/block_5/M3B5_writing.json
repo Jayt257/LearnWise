@@ -1,0 +1,163 @@
+{
+  "activityId": "en_ja_M3B5_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Describing Symptoms at the Hospital",
+  "learningGoal": "Write clear sentences to describe medical symptoms, state allergies, and ask for help.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B5_reading_3"
+  ],
+  "instructions": "あなたは海外の病院の受付にいます。自分の状況を伝えるために、英語で3つの文章を書いてください。(You are at the reception of a hospital abroad. Write 3 sentences to explain your situation.)\n以下の内容をすべて含めてください：\n1. 自分の症状（ひどい頭痛がある、または胃が痛い）を伝える\n2. 自分のアレルギー（例：ペニシリンなど）を伝える（I am allergic to...）\n3. 医者に診てほしいとお願いする",
+  "writingPrompt": "Write 3 sentences at a hospital. 1. State your symptom (headache or stomachache). 2. State your allergy. 3. Ask to see a doctor.",
+  "promptGoal": "To actively construct critical medical sentences that could be used in a real emergency situation.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "I have a terrible headache",
+      "transliteration": "アイ ハヴ ア テリブル ヘッドエイク",
+      "baseTranslation": "ひどい頭痛があります",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "My stomach hurts",
+      "transliteration": "マイ ストマック ハーツ",
+      "baseTranslation": "胃が痛いです",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "I am allergic to",
+      "transliteration": "アイ アム アラージック トゥ",
+      "baseTranslation": "私は〜にアレルギーがあります",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "penicillin",
+      "transliteration": "ペニシリン",
+      "baseTranslation": "ペニシリン（抗生物質の一種）",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "see a doctor",
+      "transliteration": "シー ア ドクター",
+      "baseTranslation": "医者に診てもらう",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "I need to",
+      "transliteration": "アイ ニード トゥ",
+      "baseTranslation": "私は〜する必要があります",
+      "partOfSpeech": "phrase"
+    }
+  ],
+  "referenceHints": [
+    "「医者に診てもらう」は 'see a doctor' と表現します。'I want to see a doctor' や 'I need to see a doctor' を使いましょう。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I have a terrible headache today. I am allergic to penicillin. I need to see a doctor as soon as possible.",
+      "transliteration": "アイ ハヴ ア テリブル ヘッドエイク トゥデイ。アイ アム アラージック トゥ ペニシリン。アイ ニード トゥ シー ア ドクター アズ スーン アズ ポッシブル。",
+      "baseTranslation": "今日はひどい頭痛があります。私はペニシリンにアレルギーがあります。できるだけ早く医者に診てもらう必要があります。",
+      "qualityLevel": "excellent",
+      "annotation": "Clear, direct, and includes all requested information. 'As soon as possible' adds appropriate urgency."
+    },
+    {
+      "targetText": "My stomach hurts very much. Please note that I am allergic to cats. Can I see a doctor, please?",
+      "transliteration": "マイ ストマック ハーツ ヴェリー マッチ。プリーズ ノート ザット アイ アム アラージック トゥ キャッツ。キャン アイ シー ア ドクター、プリーズ？",
+      "baseTranslation": "胃がとても痛いです。猫アレルギーがあることに注意してください。医者に診ていただけますか？",
+      "qualityLevel": "excellent",
+      "annotation": "Great use of 'My stomach hurts' and asking a polite question to see the doctor."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Symptom",
+      "weight": 35,
+      "description": "Did the user describe a symptom using 'I have a...' or 'My ... hurts'?"
+    },
+    {
+      "criterion": "Allergy",
+      "weight": 35,
+      "description": "Did the user state an allergy using the phrase 'I am allergic to'?"
+    },
+    {
+      "criterion": "Doctor Request",
+      "weight": 30,
+      "description": "Did the user request to see a doctor?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I have a terrible headache. I am allergic to penicillin. I need to see a doctor.",
+    "acceptableAlternates": [
+      "My stomach hurts. I am allergic to pollen. I want to see a doctor."
+    ],
+    "requiredKeywords": [
+      "allergic",
+      "doctor"
+    ],
+    "grammarBaseline": "Must use 'allergic to'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Medical Accuracy",
+          "weight": 70,
+          "description": "Uses correct grammar for symptoms and allergies."
+        },
+        {
+          "name": "Clarity",
+          "weight": 30,
+          "description": "The message is easy for a receptionist to understand."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! This is very clear and would help you get the right medical care quickly.",
+    "onFail": "Please check your sentences. Did you use 'I am allergic TO...'? Did you ask to 'see a doctor'?",
+    "onPartial": "Good try. Make sure you don't use 'have an allergy for'. Use 'am allergic to'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "medical",
+    "symptoms",
+    "allergies"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'I am allergic TO (something)'.",
+  "commonMistakes": [
+    "Writing 'I am allergy penicillin'. You must use the adjective 'allergic' and the preposition 'to'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,208 @@
+{
+  "activityId": "en_ja_M3B1_reading_3",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "Weekend Plans",
+  "learningGoal": "Read a text describing future plans based on conditions, focusing on the first conditional and the difference between if and when.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B1_pronunciation_2"
+  ],
+  "instructions": "今週末の予定についての文章を読んで、質問に答えてください。「If（もし〜なら）」と「When（〜する時）」の使い分けや、Ifの後の動詞が「現在形」になっていることに注目して読みましょう。(Read the text about weekend plans. Pay attention to the difference between 'if' and 'when', and the use of the present tense after 'if'.)",
+  "readingTitle": "What Will We Do?",
+  "readingText": "Tomorrow is Saturday, and I want to go to the beach with my friends. The weather forecast says it might rain. If it rains, we will not go to the beach. We will stay home and watch a movie instead. If we stay home, I'll order pizza for lunch. However, if it is sunny, we will go to the beach early in the morning. When we arrive at the beach, we will swim in the ocean. If the water is too cold, we'll just play volleyball on the sand. I am excited about the weekend!",
+  "textInTargetLanguage": "Tomorrow is Saturday, and I want to go to the beach with my friends. The weather forecast says it might rain. If it rains, we will not go to the beach. We will stay home and watch a movie instead. If we stay home, I'll order pizza for lunch. However, if it is sunny, we will go to the beach early in the morning. When we arrive at the beach, we will swim in the ocean. If the water is too cold, we'll just play volleyball on the sand. I am excited about the weekend!",
+  "baseLanguageSupportText": "明日は土曜日で、私は友達とビーチに行きたいと思っています。天気予報によると、雨が降るかもしれないそうです。もし雨が降ったら、私たちはビーチには行きません。代わりに家にいて映画を見ます。もし家にいたら、私は昼食にピザを注文します。しかし、もし晴れたら、私たちは朝早くにビーチに行きます。ビーチに着いたら（着いた時）、私たちは海で泳ぎます。もし水が冷たすぎたら、私たちは砂浜でバレーボールをします。私は週末が楽しみです！",
+  "glossary": [
+    {
+      "targetText": "If it rains",
+      "transliteration": "イフ イット レインズ",
+      "baseTranslation": "もし雨が降ったら",
+      "exampleSentence": {
+        "targetText": "If it rains, we will not go.",
+        "transliteration": "イフ イット レインズ、ウィー ウィル ノット ゴー",
+        "baseTranslation": "もし雨が降ったら、私たちは行きません。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "If we stay home",
+      "transliteration": "イフ ウィー ステイ ホーム",
+      "baseTranslation": "もし私たちが家にいたら",
+      "exampleSentence": {
+        "targetText": "If we stay home, I'll order pizza.",
+        "transliteration": "イフ ウィー ステイ ホーム、アイル オーダー ピザ",
+        "baseTranslation": "もし家にいたら、ピザを頼みます。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "if it is sunny",
+      "transliteration": "イフ イット イズ サニー",
+      "baseTranslation": "もし晴れたら",
+      "exampleSentence": {
+        "targetText": "If it is sunny, we will go.",
+        "transliteration": "イフ イット イズ サニー、ウィー ウィル ゴー",
+        "baseTranslation": "もし晴れたら、私たちは行きます。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "When we arrive",
+      "transliteration": "ウェン ウィー アライヴ",
+      "baseTranslation": "私たちが到着した時",
+      "exampleSentence": {
+        "targetText": "When we arrive, we will swim.",
+        "transliteration": "ウェン ウィー アライヴ、ウィー ウィル スイム",
+        "baseTranslation": "到着したら、泳ぎます。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "I'll",
+      "transliteration": "アイル",
+      "baseTranslation": "I will の省略形",
+      "exampleSentence": {
+        "targetText": "I'll order pizza.",
+        "transliteration": "アイル オーダー ピザ",
+        "baseTranslation": "私はピザを注文します。"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "If it rains, we will not go to the beach.",
+      "transliteration": "イフ イット レインズ、ウィー ウィル ノット ゴー トゥ ザ ビーチ",
+      "baseTranslation": "もし雨が降ったら、ビーチには行きません。（rainsは現在形、メインの文はwill）"
+    },
+    {
+      "targetText": "When we arrive at the beach, we will swim.",
+      "transliteration": "ウェン ウィー アライヴ アット ザ ビーチ、ウィー ウィル スイム",
+      "baseTranslation": "ビーチに着いたら、泳ぎます。（IfではなくWhenなので、到着することは確実です）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "もし明日「雨が降ったら」、彼らは何をしますか？ (What will they do if it rains?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Go to the beach",
+        "Swim in the ocean",
+        "Stay home and watch a movie",
+        "Play volleyball"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "もし「家にいる」ことになったら、お昼ご飯はどうしますか？ (What will they do for lunch if they stay home?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Order pizza",
+        "Cook pasta",
+        "Go to a restaurant",
+        "Skip lunch"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「もし晴れたら」、いつビーチに行きますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "In the afternoon",
+        "At night",
+        "Early in the morning",
+        "Next week"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「When we arrive at the beach」とWhenが使われているのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "ビーチに着くかどうかわからないから。",
+        "晴れれば確実にビーチに着く（到着する時間が来る）から。",
+        "Ifと同じ意味だから。",
+        "過去のことだから。"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "もし海の水が「冷たすぎたら」、彼らは何をしますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Swim in the ocean",
+        "Order pizza",
+        "Go back home",
+        "Play volleyball on the sand"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Stay home and watch a movie",
+      "q2": "Order pizza",
+      "q3": "Early in the morning",
+      "q4": "晴れれば確実にビーチに着く（到着する時間が来る）から。",
+      "q5": "Play volleyball on the sand"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The text demonstrates the First Conditional (If + present, will + verb).",
+      "It contrasts 'If' (possibility of rain/sun) with 'When' (certainty of arriving once they go).",
+      "It shows proper use of the present tense 'rains', 'is', and 'arrive' inside conditional clauses."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You perfectly understood how the speaker's plans change based on conditions.",
+    "onFail": "Please read carefully. Pay attention to what happens 'If it rains' vs 'If it is sunny'.",
+    "onPartial": "Good effort. Review the difference between 'If' (maybe it happens) and 'When' (it definitely happens)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B1_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B1_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Tomorrow is Saturday, and I want to go to the beach with my friends...",
+    "audioLanguage": "en",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "conditionals",
+    "if_clauses",
+    "future_plans"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice that the words right after 'If' are in the present tense: 'rains', 'is', 'stay'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B1_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

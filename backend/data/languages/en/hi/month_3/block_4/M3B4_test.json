@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M3B4_test_8",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Test: Formal Hindi",
+  "learningGoal": "Evaluate the learner's mastery of Sanskritized formal vocabulary and the subjunctive mood.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B4_lesson_1",
+    "hi_en_M3B4_pronunciation_2",
+    "hi_en_M3B4_reading_3",
+    "hi_en_M3B4_writing_4",
+    "hi_en_M3B4_listening_5",
+    "hi_en_M3B4_vocabulary_6",
+    "hi_en_M3B4_speaking_7"
+  ],
+  "instructions": "This test evaluates your ability to switch registers. You must demonstrate knowledge of Shuddh Hindi vocabulary and subjunctive verb structures.",
+  "testTitle": "Formal Register Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Formal Vocabulary Substitution",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "What is the formal Sanskritized equivalent of the Urdu word 'Intezaar' (Wait)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Pratiksha (प्रतीक्षा)",
+            "Samasya (समस्या)",
+            "Anumati (अनुमति)"
+          ],
+          "questionHints": {
+            "targetText": "Pratiksha (प्रतीक्षा)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "What does 'Samasya' mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Problem",
+            "Solution",
+            "Question"
+          ],
+          "questionHints": {
+            "targetText": "Problem",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_subjunctive",
+      "sectionTitle": "The Subjunctive Mood",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "How do you formally say: 'May I go?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Kya main jaun?",
+            "Kya main jaunga?",
+            "Kya main jaa raha hoon?"
+          ],
+          "questionHints": {
+            "targetText": "Kya main jaun?",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Translate: 'Run so that you may catch the train.' (Run = Daudo, Catch = Pakad sako)",
+          "questionType": "multiple_choice",
+          "options": [
+            "Daudo taaki tum train pakad sako.",
+            "Daudo taaki tum train pakdoge.",
+            "Daudo kyunki tum train pakad sako."
+          ],
+          "questionHints": {
+            "targetText": "Daudo taaki tum train pakad sako.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate the phrase 'For the purpose of education' using highly formal Hindi.",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "Shiksha hetu.",
+            "transliteration": "Shiksha hetu.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Pratiksha (प्रतीक्षा)",
+      "tq_2": "Problem",
+      "tq_3": "Kya main jaun?",
+      "tq_4": "Daudo taaki tum train pakad sako.",
+      "tq_5": "Shiksha hetu."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'Shiksha ke hetu' or 'Shiksha ke madhyam se'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the most sophisticated register of the Hindi language.",
+    "onFail": "Review the Subjunctive mood. 'Taaki' (so that) always forces the verb at the end of the sentence into the subjunctive (dropping the ga/gi/ge).",
+    "onPartial": "Good effort. Just remember that 'Hetu' is the ultra-formal version of 'Ke liye' (for)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block4_month3",
+    "formal_hindi",
+    "subjunctive",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To ask permission formally, chop the 'ga' off the future tense.",
+  "commonMistakes": [
+    "Choosing 'Daudo taaki tum train pakdoge'. 'Pakdoge' is future tense. 'Taaki' requires the subjunctive 'sako'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B5_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

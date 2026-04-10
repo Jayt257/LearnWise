@@ -1,0 +1,175 @@
+{
+  "activityId": "ja_en_M2B4_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Translating Signs and Questions",
+  "learningGoal": "The learner will write sentences using the Te-form to ask for permission (~te mo ii desu ka) and to state strict rules (~te wa ikemasen).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B4_lesson_001",
+    "ja_en_M2B4_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences based on the English prompts. Focus on whether the prompt is asking a question (permission) or stating a rule (prohibition).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember to use the particle 'wa' (written as は) for prohibitions: 'te wa ikemasen'."
+    }
+  ],
+  "writingPrompt": "Translate: 1) May I sit here? 2) You must not take photos. 3) May I use a mobile phone? 4) You must not run.",
+  "promptGoal": "To construct grammatically accurate sentences differentiating between 'mo ii desu ka' and 'wa ikemasen'.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "ここ",
+      "transliteration": "Koko",
+      "baseTranslation": "Here",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "すわります",
+      "transliteration": "Suwarimasu",
+      "baseTranslation": "To sit",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "しゃしん",
+      "transliteration": "Shashin",
+      "baseTranslation": "Photo",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "とります",
+      "transliteration": "Torimasu",
+      "baseTranslation": "To take",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "けいたいでんわ",
+      "transliteration": "Keitai denwa",
+      "baseTranslation": "Mobile phone",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "つかいます",
+      "transliteration": "Tsukaimasu",
+      "baseTranslation": "To use",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "はしります",
+      "transliteration": "Hashirimasu",
+      "baseTranslation": "To run",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Here] ni [Sit-Te] mo ii desu ka.",
+    "Sentence 2: [Photo] wo [Take-Te] wa ikemasen.",
+    "Sentence 3: [Mobile phone] wo [Use-Te] mo ii desu ka.",
+    "Sentence 4: [Run-Te] wa ikemasen."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "ここに すわっても いいですか。しゃしんを とってはいけません。けいたいでんわを つかっても いいですか。はしってはいけません。",
+      "transliteration": "Koko ni suwatte mo ii desu ka. Shashin wo totte wa ikemasen. Keitai denwa wo tsukatte mo ii desu ka. Hashitte wa ikemasen.",
+      "baseTranslation": "May I sit here? You must not take photos. May I use a mobile phone? You must not run.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect conjugation of four different Group 1 verbs into the Te-form, correctly attaching permission and prohibition suffixes."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Permission to Sit",
+      "weight": 25,
+      "description": "Did the learner write 'suwatte mo ii desu ka'?"
+    },
+    {
+      "criterion": "Prohibition to Take Photos",
+      "weight": 25,
+      "description": "Did the learner write 'totte wa ikemasen'?"
+    },
+    {
+      "criterion": "Permission to Use Phone",
+      "weight": 25,
+      "description": "Did the learner write 'tsukatte mo ii desu ka'?"
+    },
+    {
+      "criterion": "Prohibition to Run",
+      "weight": 25,
+      "description": "Did the learner write 'hashitte wa ikemasen'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "ここに すわっても いいですか。しゃしんを とってはいけません。けいたいでんわを つかっても いいですか。はしってはいけません。",
+    "acceptableAlternates": [
+      "ここに すわっても いいですか。ここで しゃしんを とってはいけません。けいたいでんわを つかっても いいですか。ここで はしってはいけません。"
+    ],
+    "requiredKeywords": [
+      "すわっても",
+      "いいですか",
+      "とってはいけません",
+      "つかっても",
+      "はしってはいけません"
+    ],
+    "grammarBaseline": "Accurate execution of ~te mo ii desu ka and ~te wa ikemasen.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You correctly applied the complex Te-form rules.",
+    "onFail": "Review the conjugation of Group 1 verbs. Torimasu (ri) becomes Totte. Tsukaimasu (i) becomes Tsukatte.",
+    "onPartial": "Good try! Make sure you didn't confuse 'mo ii desu ka' (permission) with 'wa ikemasen' (must not)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "permission",
+    "prohibition",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To ask for permission, end the sentence with a question mark (ka). '...ii desu ka'.",
+  "commonMistakes": [
+    "Writing 'Totte wa ii desu ka' (mixing up the particles). It must be 'Totte MO ii desu ka'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,436 @@
+{
+  "activityId": "ja_en_M1B3_test_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Final Test — Katakana & Ordering",
+  "learningGoal": "The learner will demonstrate comprehension of Katakana loan words, the elongation mark, and cafe ordering scenarios.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B3_lesson_001",
+    "ja_en_M1B3_pronunciation_001",
+    "ja_en_M1B3_reading_001",
+    "ja_en_M1B3_writing_001",
+    "ja_en_M1B3_listening_001",
+    "ja_en_M1B3_vocabulary_001",
+    "ja_en_M1B3_speaking_001"
+  ],
+  "instructions": "This test evaluates your knowledge of the Katakana alphabet, loan words, and how to order at a Japanese cafe. Answer all 20 questions carefully. Remember that Katakana sounds exactly like Hiragana, but the letters look different.",
+  "testTitle": "Block 3 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. For listening questions, press play before answering. Each section contributes to your final score.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Katakana Vocabulary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does コーヒー mean?",
+          "questionType": "multiple_choice",
+          "options": ["Tea", "Coffee", "Juice", "Water"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "コーヒー",
+            "transliteration": "Koohii",
+            "baseTranslation": "Coffee"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "How do you say 'Taxi' in Katakana?",
+          "questionType": "multiple_choice",
+          "options": ["バス", "タクシー", "ホテル", "トイレ"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "タクシー",
+            "transliteration": "Takushii",
+            "baseTranslation": "Taxi"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does アイスクリーム mean?",
+          "questionType": "multiple_choice",
+          "options": ["Ice Cream", "Iced Tea", "Ice Cube", "Cake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "アイスクリーム",
+            "transliteration": "Aisukuriimu",
+            "baseTranslation": "Ice Cream"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Which of these means 'Computer'?",
+          "questionType": "multiple_choice",
+          "options": ["カメラ", "テレビ", "コンピューター", "ジュース"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "コンピューター",
+            "transliteration": "Konpyuutaa",
+            "baseTranslation": "Computer"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "How do you say 'America'?",
+          "questionType": "multiple_choice",
+          "options": ["イギリス", "アメリカ", "カナダ", "にほん"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "アメリカ",
+            "transliteration": "Amerika",
+            "baseTranslation": "America"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Katakana Rules & Grammar",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What is the primary use of the Katakana alphabet?",
+          "questionType": "multiple_choice",
+          "options": [
+            "For native Japanese verbs.",
+            "For foreign loan words and names.",
+            "For writing traditional poetry.",
+            "Only for numbers."
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What does the dash line (ー) do when writing in Katakana?",
+          "questionType": "multiple_choice",
+          "options": [
+            "It adds a 't' sound.",
+            "It turns a 'k' sound into a 'g' sound.",
+            "It elongates the previous vowel sound.",
+            "It means the sentence is finished."
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which phrase is used to politely order an item at a restaurant?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ありがとう (Arigatou)",
+            "おねがいします (Onegaishimasu)",
+            "すみません (Sumimasen)",
+            "どうぞ (Douzo)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "おねがいします",
+            "transliteration": "onegaishimasu",
+            "baseTranslation": "please"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "True or False: Japanese has no 'V' sound, so it is often replaced with a 'B' sound in Katakana loan words.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening",
+      "sectionTitle": "Listening Comprehension",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q010",
+          "questionText": "Listen to the audio. What did the customer order?",
+          "questionType": "multiple_choice",
+          "options": ["Coffee", "Sandwich", "Juice", "Cake"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q010",
+          "questionHints": {
+            "targetText": "ケーキ",
+            "transliteration": "Keeki",
+            "baseTranslation": "Cake"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Listen to the audio. What is the speaker looking for?",
+          "questionType": "multiple_choice",
+          "options": ["A taxi", "A bus", "A hotel", "A toilet"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q011",
+          "questionHints": {
+            "targetText": "トイレ",
+            "transliteration": "Toire",
+            "baseTranslation": "Toilet"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Listen to the audio. Which country did the speaker mention?",
+          "questionType": "multiple_choice",
+          "options": ["America", "Canada", "Britain", "Japan"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q012",
+          "questionHints": {
+            "targetText": "カナダ",
+            "transliteration": "Kanada",
+            "baseTranslation": "Canada"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. How does the staff respond to the customer's order?",
+          "questionType": "multiple_choice",
+          "options": ["Arigatou gozaimasu", "Hai, douzo", "Sumimasen", "Onegaishimasu"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "はい、どうぞ",
+            "transliteration": "Hai, douzo",
+            "baseTranslation": "Yes, here you go."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_reading_writing",
+      "sectionTitle": "Reading and Writing",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q014",
+          "questionText": "Read this word: サンドイッチ. What does it mean in English?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "サンドイッチ",
+            "transliteration": "Sandoitchi",
+            "baseTranslation": "Sandwich"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Read this word: カメラ. What does it mean in English?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "カメラ",
+            "transliteration": "Kamera",
+            "baseTranslation": "Camera"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write the phrase 'Coffee, please.' using Katakana for Coffee and Hiragana for the request.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 10,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "コーヒー、おねがいします",
+            "transliteration": "Koohii, onegaishimasu",
+            "baseTranslation": "Coffee, please"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Which is the correct way to write 'Juice' in Katakana?",
+          "questionType": "multiple_choice",
+          "options": ["ジュース", "ジュス", "ジューース", "ジュイス"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ジュース",
+            "transliteration": "Juusu",
+            "baseTranslation": "Juice"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Which is the correct way to write 'Hotel' in Katakana?",
+          "questionType": "multiple_choice",
+          "options": ["ホテール", "ホテル", "ホッテル", "ホテロ"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ホテル",
+            "transliteration": "Hoteru",
+            "baseTranslation": "Hotel"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "What word is this: イギリス?",
+          "questionType": "multiple_choice",
+          "options": ["America", "Canada", "Japan", "Britain/UK"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "イギリス",
+            "transliteration": "Igirisu",
+            "baseTranslation": "Britain/UK"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        }
+      ],
+      "sectionMarks": 35,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 20,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 70,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Coffee",
+      "q002": "タクシー",
+      "q003": "Ice Cream",
+      "q004": "コンピューター",
+      "q005": "アメリカ",
+      "q006": "For foreign loan words and names.",
+      "q007": "It elongates the previous vowel sound.",
+      "q008": "おねがいします (Onegaishimasu)",
+      "q009": "True",
+      "q010": "Cake",
+      "q011": "A toilet",
+      "q012": "Canada",
+      "q013": "Hai, douzo",
+      "q014": "Sandwich",
+      "q015": "Camera",
+      "q016": "コーヒー、おねがいします",
+      "q017": "ジュース",
+      "q018": "ホテル",
+      "q019": "Britain/UK"
+    },
+    "scoringRubric": {
+      "q016": "Full marks for exact Japanese string. Half marks for correct romaji (Koohii, onegaishimasu)."
+    },
+    "partialCreditRules": {
+      "q016": "Award 5 points for Koohii, onegaishimasu"
+    },
+    "alternateValidAnswers": {
+      "q014": ["sandwich", "a sandwich", "Sandwich"],
+      "q015": ["camera", "a camera", "Camera"],
+      "q016": ["コーヒーおねがいします", "コーヒー、おねがいします。", "Koohii, onegaishimasu"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 15,
+      "sec_grammar": 10,
+      "sec_listening": 10,
+      "sec_reading_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Fantastic job! You passed Block 3 and are now comfortable with Katakana loan words.",
+    "onFail": "Keep trying! Review the Katakana reading passages and vocabulary lists before taking the test again.",
+    "onPartial": "Good effort! Check your mistakes and retry. Pay close attention to the elongation mark (ー)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block3",
+    "katakana",
+    "loan_words",
+    "beginner",
+    "month1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

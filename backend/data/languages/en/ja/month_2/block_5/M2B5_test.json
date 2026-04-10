@@ -1,0 +1,445 @@
+{
+  "activityId": "ja_en_M2B5_test_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Final Test — Plain Form & Thoughts",
+  "learningGoal": "The learner will demonstrate mastery over the Dictionary form, Nai-form, and the grammatical construction '~to omoimasu' across verbs, adjectives, and nouns.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M2B5_lesson_001",
+    "ja_en_M2B5_pronunciation_001",
+    "ja_en_M2B5_reading_001",
+    "ja_en_M2B5_writing_001",
+    "ja_en_M2B5_listening_001",
+    "ja_en_M2B5_vocabulary_001",
+    "ja_en_M2B5_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to convert polite verbs into plain forms, and your ability to construct complex opinion sentences. Pay close attention to the noun/na-adjective rule.",
+  "testTitle": "Block 5 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Remember: i-adjectives DO NOT take 'da'. Nouns and na-adjectives DO take 'da'.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Plain Form Vocabulary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What is the plain dictionary form of きます (Kimasu / to come)?",
+          "questionType": "multiple_choice",
+          "options": ["くる (Kuru)", "きく (Kiku)", "きる (Kiru)", "いる (Iru)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What is the plain dictionary form of します (Shimasu / to do)?",
+          "questionType": "multiple_choice",
+          "options": ["すく (Suku)", "する (Suru)", "して (Shite)", "すむ (Sumu)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What is the plain negative form (Nai-form) of いきます (Ikimasu / to go)?",
+          "questionType": "multiple_choice",
+          "options": ["いかない (Ikanai)", "いわない (Iwanai)", "いけない (Ikenai)", "いない (Inai)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does ほんとう (Hontou) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Town", "Culture", "Truth / Really", "Lie"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Expressing Opinions (Verbs)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "How do you say 'I think he will come' (Come = Kuru)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "きますと おもいます",
+            "くると おもいます",
+            "くるだと おもいます",
+            "きてと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "How do you say 'I think she will not eat' (Eat = Taberu)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たべないと おもいます",
+            "たべませんと おもいます",
+            "たべないだと おもいます",
+            "たべるないと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "How do you say 'I think it will rain' (Rain falls = Ame ga furu)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あめが ふりますと おもいます",
+            "あめが ふると おもいます",
+            "あめが ふらないと おもいます",
+            "あめが ふってと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "What is the irregular plain negative form (Nai-form) of あります (Arimasu / there is)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "あらない (Aranai)",
+            "あらないです (Aranai desu)",
+            "ない (Nai)",
+            "ありません (Arimasen)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Expressing Opinions (Adjectives & Nouns)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "How do you say 'I think it is expensive' (Takai = i-adj)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たかいだと おもいます",
+            "たかいと おもいます",
+            "たかくないと おもいます",
+            "たかいますと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "How do you say 'I think it is the truth' (Hontou = noun)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ほんとうと おもいます",
+            "ほんとうだと おもいます",
+            "ほんとうなと おもいます",
+            "ほんとうですと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "How do you say 'I think they are healthy' (Genki = na-adj)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "げんきと おもいます",
+            "げんきなと おもいます",
+            "げんきだと おもいます",
+            "げんきですと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'I think it is a lie' (Uso = noun).",
+          "questionType": "multiple_choice",
+          "options": [
+            "うそだと おもいます",
+            "うそと おもいます",
+            "うそなと おもいます",
+            "うそですと おもいます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What is the speaker's prediction?",
+          "questionType": "multiple_choice",
+          "options": ["I think I will go", "I think I will not go", "I think they will come", "I think it will rain"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "いかないと おもいます。",
+            "transliteration": "Ikanai to omoimasu.",
+            "baseTranslation": "I think I will not go."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What does the speaker think about the food?",
+          "questionType": "multiple_choice",
+          "options": ["It is expensive", "It is bad", "It is delicious", "It is cheap"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "おいしいと おもいます。",
+            "transliteration": "Oishii to omoimasu.",
+            "baseTranslation": "I think it is delicious."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What is the speaker's opinion?",
+          "questionType": "multiple_choice",
+          "options": ["It is the truth", "It is a lie", "It is dangerous", "It is fun"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "ほんとうだと おもいます。",
+            "transliteration": "Hontou da to omoimasu.",
+            "baseTranslation": "I think it is the truth."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'will not come' (Nai-form of Kimasu) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "こない",
+            "transliteration": "konai",
+            "baseTranslation": "will not come"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'I think it is expensive' in Romaji. (Expensive = Takai)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たかいと おもいます",
+            "transliteration": "takai to omoimasu",
+            "baseTranslation": "I think it is expensive"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'I think it is a lie' in Romaji. (Lie = Uso)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "うそだと おもいます",
+            "transliteration": "uso da to omoimasu",
+            "baseTranslation": "I think it is a lie"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'will not go' (Nai-form of Ikimasu) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "いかない",
+            "transliteration": "ikanai",
+            "baseTranslation": "will not go"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write the dictionary form of 'Tabemasu' (to eat) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たべる",
+            "transliteration": "taberu",
+            "baseTranslation": "to eat"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "くる (Kuru)",
+      "q002": "する (Suru)",
+      "q003": "いかない (Ikanai)",
+      "q004": "Truth / Really",
+      "q005": "くると おもいます",
+      "q006": "たべないと おもいます",
+      "q007": "あめが ふると おもいます",
+      "q008": "ない (Nai)",
+      "q009": "たかいと おもいます",
+      "q010": "ほんとうだと おもいます",
+      "q011": "げんきだと おもいます",
+      "q012": "うそだと おもいます",
+      "q013": "I think I will not go",
+      "q014": "It is delicious",
+      "q015": "It is the truth",
+      "q016": "konai",
+      "q017": "takai to omoimasu",
+      "q018": "uso da to omoimasu",
+      "q019": "ikanai",
+      "q020": "taberu"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Konai"],
+      "q017": ["Takai to omoimasu"],
+      "q018": ["Uso da to omoimasu"],
+      "q019": ["Ikanai"],
+      "q020": ["Taberu"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the plain form and can express complex opinions.",
+    "onFail": "Review the irregular verbs. Kimasu -> Kuru / Konai. Shimasu -> Suru / Shinai.",
+    "onPartial": "Almost there. Remember the noun rule: Noun + DA + to omoimasu."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block5",
+    "plain-form",
+    "nai-form",
+    "quotation",
+    "intermediate",
+    "month2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,409 @@
+{
+  "activityId": "en_hi_M1B3_test_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Mega Assessment: Nouns, Plurals & Articles",
+  "learningGoal": "The learner will demonstrate mastery over English noun singularity (A/An), plural suffix application (s/es), auditory discrimination of plural phonetics, and translation of plural counts.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M1B3_lesson_001",
+    "en_hi_M1B3_pronunciation_001",
+    "en_hi_M1B3_reading_001",
+    "en_hi_M1B3_writing_001",
+    "en_hi_M1B3_listening_001",
+    "en_hi_M1B3_vocabulary_001",
+    "en_hi_M1B3_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 3. It contains 20 questions evaluating your understanding of Articles (A/An) and Plurals. Pay very close attention to whether a word starts with a Vowel Sound, and whether it ends in 's' or 'x'.",
+  "testTitle": "Block 3 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: 'A' and 'An' mean 'One'.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Articles & Plural Spelling",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: I eat _____ apple every day.",
+          "questionType": "multiple_choice",
+          "options": ["a", "an", "the", "two"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the blank: She has _____ dog.",
+          "questionType": "multiple_choice",
+          "options": ["a", "an", "two", "the"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What is the correct English plural for 'Bus'?",
+          "questionType": "multiple_choice",
+          "options": ["Buss", "Buses", "Bus's", "Bussies"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What is the correct English plural for 'Box'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Boxes",
+            "transliteration": "बॉक्सेस",
+            "baseTranslation": "डिब्बे"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: The word 'Mumbai' needs an 'A' before it (e.g., 'I live in a Mumbai').",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the English word for: 'छाता'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Umbrella",
+            "transliteration": "अम्ब्रेला",
+            "baseTranslation": "छाता"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the meaning of 'Watch' in Hindi (Noun)?",
+          "questionType": "multiple_choice",
+          "options": ["डिब्बा", "गाड़ी", "घड़ी", "किताब"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Watch",
+            "transliteration": "वॉच",
+            "baseTranslation": "घड़ी"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which is the plural of 'Boy'?",
+          "questionType": "multiple_choice",
+          "options": ["Boys", "Boyes", "Boi", "Boy's"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Write the English word for: 'संतरा'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Orange",
+            "transliteration": "ऑरेंज",
+            "baseTranslation": "संतरा"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What article goes in front of 'Egg'? A or An?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Reading",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the mistake: 'I have a oranges.'",
+          "questionType": "multiple_choice",
+          "options": ["'oranges' should be 'orange' OR 'a' should be removed.", "It should be 'an oranges'.", "There is no mistake."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have oranges.",
+            "transliteration": "आई हैव ऑरेंजेस।",
+            "baseTranslation": "मेरे पास संतरे हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "True or False: 'He is doctor.' is a perfectly correct English sentence.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "If you are holding one book, you say: 'I have ___ ___.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "a book",
+            "transliteration": "अ बुक",
+            "baseTranslation": "एक किताब"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Find the correct sentence.",
+          "questionType": "multiple_choice",
+          "options": ["They are a students.", "They is students.", "They are students."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They are students.",
+            "transliteration": "दे आर स्टूडेंट्स।",
+            "baseTranslation": "वे छात्र हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which sound does the 's' in 'Dogs' make?",
+          "questionType": "multiple_choice",
+          "options": ["Sharp S (स)", "Buzzing Z (ज़)", "IZ (इज़)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मैं एक छात्र हूँ।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am a student.",
+            "transliteration": "आई एम अ स्टूडेंट।",
+            "baseTranslation": "मैं एक छात्र हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'वे कुत्ते हैं।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They are dogs.",
+            "transliteration": "दे आर डॉग्स।",
+            "baseTranslation": "वे कुत्ते हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'यह एक घड़ी है।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "It is a watch.",
+            "transliteration": "इट इज़ अ वॉच।",
+            "baseTranslation": "यह एक घड़ी है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'वे बसें हैं।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They are buses.",
+            "transliteration": "दे आर बसेस।",
+            "baseTranslation": "वे बसें हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'यह एक सेब है।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "It is an apple.",
+            "transliteration": "इट इज़ ऐन ऐपल।",
+            "baseTranslation": "यह एक सेब है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "an",
+      "q002": "a",
+      "q003": "Buses",
+      "q004": "Boxes",
+      "q005": "False",
+      "q006": "Umbrella",
+      "q007": "घड़ी",
+      "q008": "Boys",
+      "q009": "Orange",
+      "q010": "An",
+      "q011": "'oranges' should be 'orange' OR 'a' should be removed.",
+      "q012": "False",
+      "q013": "a book",
+      "q014": "They are students.",
+      "q015": "Buzzing Z (ज़)",
+      "q016": "I am a student.",
+      "q017": "They are dogs.",
+      "q018": "It is a watch.",
+      "q019": "They are buses.",
+      "q020": "It is an apple."
+    },
+    "scoringRubric": {
+      "q016": "Full marks if 'a' is present before student.",
+      "q020": "Full marks if 'an' is present before apple."
+    },
+    "partialCreditRules": {
+      "q016": "Give 0 marks if translated as 'I am student'."
+    },
+    "alternateValidAnswers": {
+      "q004": ["boxes"],
+      "q006": ["umbrella"],
+      "q009": ["orange"],
+      "q010": ["an", "AN"],
+      "q013": ["A book", "a Book"],
+      "q016": ["i am a student", "I'm a student."],
+      "q017": ["they are dogs", "They're dogs."],
+      "q018": ["it is a watch", "It's a watch."],
+      "q019": ["they are buses", "They're buses."],
+      "q020": ["it is an apple", "It's an apple."]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have completed Block 3. Your English grammar is no longer directly translating from Hindi; you are naturally placing articles where they belong.",
+    "onFail": "Keep pushing forward! Review your answers. If you missed the 'a/an' questions, go back to the lesson. Never forget: 'I am student' is wrong. 'I am A student' is right.",
+    "onPartial": "Good try! You missed just a few points. Review your wrong answers, especially the '-es' plurals."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b3/test/grammar_audio.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers A, An, S, and ES grammar structures.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block3", "nouns", "plurals", "articles", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B4_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,384 @@
+{
+  "activityId": "en_hi_M3B2_test_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Mega Assessment: The Present Perfect",
+  "learningGoal": "The learner will verify categorical mastery of the Present Perfect framework, demonstrating 100% accuracy in Have/Has auxiliary distribution and V3 irregular participle spelling.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M3B2_lesson_001",
+    "en_hi_M3B2_pronunciation_001",
+    "en_hi_M3B2_reading_001",
+    "en_hi_M3B2_writing_001",
+    "en_hi_M3B2_listening_001",
+    "en_hi_M3B2_vocabulary_001",
+    "en_hi_M3B2_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 2! It contains 20 questions evaluating your mastery of the Present Perfect tense. Do you know when to use Have? Do you know when to use Has? Do you have your V3 verbs memorized? Let's find out!",
+  "testTitle": "Block 2 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Have vs Has",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: The cat _____ eaten the fish.",
+          "questionType": "multiple_choice",
+          "options": ["have", "has", "can"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the blank: They _____ finished everything.",
+          "questionType": "multiple_choice",
+          "options": ["have", "has", "is"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Translate 'मैंने... लिया है' (I have).",
+          "questionType": "multiple_choice",
+          "options": ["I has", "He have", "I have"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: We use 'has' for 'You'. (Example: You has gone).",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "Which sentence is grammatically PERFECT?",
+          "questionType": "multiple_choice",
+          "options": ["She have played.", "They has played.", "He has played."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: V3 Irregulars",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What is the English V3 form of 'देख लिया है' (See)?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Seen",
+            "transliteration": "सीन",
+            "baseTranslation": "देख लिया है"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the English V3 form of 'जा चुके हैं' (Go)?",
+          "questionType": "multiple_choice",
+          "options": ["Went", "Gone", "Goed", "Going"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English V3 word for 'लिख लिया है' (Write).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Written",
+            "transliteration": "रिटन",
+            "baseTranslation": "लिख लिया है"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Identify the V3 form of 'Take'.",
+          "questionType": "multiple_choice",
+          "options": ["Took", "Taked", "Taken", "Take"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What does 'Eaten' mean?",
+          "questionType": "multiple_choice",
+          "options": ["दे दिया है", "ले लिया है", "कर लिया है", "खा लिया है"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Contractions & Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "If a person writes 'I've gone', what does 'I've' mean?",
+          "questionType": "multiple_choice",
+          "options": ["I have", "I am", "I will"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Look at this sentence: 'He's forgotten his keys.' What does 'He's' mean here?",
+          "questionType": "multiple_choice",
+          "options": ["He is", "He has", "He was"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the massive V1 mistake:",
+          "questionType": "multiple_choice",
+          "options": ["We have give the money.", "We have given the money.", "We gave the money."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "If an action was completed in the past, but the result is still important right now, we use the _____ tense.",
+          "questionType": "multiple_choice",
+          "options": ["Present Perfect", "Present Continuous", "Simple Future"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which contraction represents 'They have'?",
+          "questionType": "multiple_choice",
+          "options": ["They're", "They'll", "They've"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Perfect Upgrades",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate to English: 'मैंने कार धो ली है।' (Wash -> Washed).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have washed the car.",
+            "transliteration": "आई हैव वॉशड द कार।",
+            "baseTranslation": "मैंने कार धो ली है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Change to Present Perfect: 'She eats the food.' (She has...)",
+          "questionType": "short_answer",
+          "options": null,
+          " marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "She has eaten the food.",
+            "transliteration": "शी हैज़ ईटन द फूड।",
+            "baseTranslation": "उसने खाना खा लिया है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'वह (लड़का) घर जा चुका है।' (Go -> Gone)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He has gone home.",
+            "transliteration": "ही हैज़ गॉन होम।",
+            "baseTranslation": "वह घर जा चुका है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Change to Present Perfect: 'We do the work.' (We have...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We have done the work.",
+            "transliteration": "वी हैव डन द वर्क।",
+            "baseTranslation": "हमने काम कर लिया है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'मैंने एक किताब खरीद ली है।' (Buy -> Bought)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have bought a book.",
+            "transliteration": "आई हैव बॉट अ बुक।",
+            "baseTranslation": "मैंने एक किताब खरीद ली है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "has",
+      "q002": "have",
+      "q003": "I have",
+      "q004": "False",
+      "q005": "He has played.",
+      "q006": "Seen",
+      "q007": "Gone",
+      "q008": "Written",
+      "q009": "Taken",
+      "q010": "खा लिया है",
+      "q011": "I have",
+      "q012": "He has",
+      "q013": "We have give the money.",
+      "q014": "Present Perfect",
+      "q015": "They've",
+      "q016": "I have washed the car.",
+      "q017": "She has eaten the food.",
+      "q018": "He has gone home.",
+      "q019": "We have done the work.",
+      "q020": "I have bought a book."
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'wash' is used instead of 'washed'.",
+      "q017": "Minus 5 points if 'have' is used instead of 'has'."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q006": ["seen", "SEEN"],
+      "q008": ["written", "WRITTEN"],
+      "q016": ["i have washed the car", "I've washed the car"],
+      "q017": ["she has eaten the food", "She's eaten the food"],
+      "q018": ["he has gone home", "He's gone home"],
+      "q019": ["we have done the work", "We've done the work"],
+      "q020": ["i have bought a book", "I've bought a book"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered the Present Perfect tense! You connected the Past to the Present perfectly by matching 'Have' and 'Has' to the correct V3 irregular verbs!",
+    "onFail": "Please review the two main rules: 1. He/She/It gets HAS. Everything else gets HAVE. 2. You MUST use Verb 3 (Eaten, Gone, Done). You cannot say 'He has go' or 'I have eat'!",
+    "onPartial": "Good effort! Watch out for contractions. 'He's' can mean 'He is' (He's hungry). But if an action follows it, it means 'He has' (He's gone)!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This Mega Assessment covers the Present Perfect tense, V3 verbs, and contractions.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block2", "present_perfect", "have", "has", "past_participle", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B3_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

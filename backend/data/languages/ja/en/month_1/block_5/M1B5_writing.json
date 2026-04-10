@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M1B5_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Someone Else's Morning",
+  "learningGoal": "Write sentences about another person using the third-person singular 's' correctly.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B5_reading_3"
+  ],
+  "instructions": "あなたの家族や友達など、誰か一人の「朝のルーティン」について英語で書いてください。(Write about the morning routine of someone else—a family member or friend.)\n以下の３つの条件を含めてください。\n1. 主語を He または She にする\n2. 何時に起きるかを書く（wake up を使う）\n3. 何を食べるか、またはどこに行くかを書く（eat または go を使う）",
+  "writingPrompt": "Write 3 sentences about your friend or family member. Start with 'He' or 'She'. Tell me what time they wake up, and what they eat or where they go. Don't forget the magic 's'!",
+  "promptGoal": "To construct sentences using 'He' or 'She' with correct third-person singular verb forms (wakes, eats, goes).",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "He",
+      "transliteration": "ヒー",
+      "baseTranslation": "彼は",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "She",
+      "transliteration": "シー",
+      "baseTranslation": "彼女は",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "wakes up",
+      "transliteration": "ウェイクス アップ",
+      "baseTranslation": "起きる",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "eats",
+      "transliteration": "イーツ",
+      "baseTranslation": "食べる",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "goes to work",
+      "transliteration": "ゴーズ トゥ ワーク",
+      "baseTranslation": "仕事に行く",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "goes to school",
+      "transliteration": "ゴーズ トゥ スクール",
+      "baseTranslation": "学校に行く",
+      "partOfSpeech": "phrase"
+    }
+  ],
+  "referenceHints": [
+    "「I wake up」ですが、「He」や「She」の時は「wakes up」になります。",
+    "「I go」ですが、「He」や「She」の時は「goes」になります。",
+    "時間の前には「at」をつけます（at 7:00など）。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "My friend is Tom. He wakes up at 7:00. He eats bread. He goes to work at 8:00.",
+      "transliteration": "マイ フレンド イズ トム。ヒー ウェイクス アップ アット セヴン オクロック。ヒー イーツ ブレッド。ヒー ゴーズ トゥ ワーク アット エイト オクロック。",
+      "baseTranslation": "私の友達はトムです。彼は7時に起きます。彼はパンを食べます。彼は8時に仕事に行きます。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly applies the third-person 's' to wakes, eats, and goes."
+    },
+    {
+      "targetText": "My sister is Emily. She wakes up at 6:30. She doesn't eat breakfast. She goes to school.",
+      "transliteration": "マイ シスター イズ エミリー。シー ウェイクス アップ アット シックス サーティ。シー ダズント イート ブレックファースト。シー ゴーズ トゥ スクール。",
+      "baseTranslation": "私の妹はエミリーです。彼女は6時半に起きます。彼女は朝食を食べません。彼女は学校に行きます。",
+      "qualityLevel": "excellent",
+      "annotation": "Excellent use of 'doesn't' followed by the base verb 'eat'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Subject Usage",
+      "weight": 20,
+      "description": "Are the sentences written about a third person (He/She)?"
+    },
+    {
+      "criterion": "Third-Person 'S'",
+      "weight": 50,
+      "description": "Are the verbs 'wakes', 'eats', and 'goes' formed correctly with the 's' or 'es'?"
+    },
+    {
+      "criterion": "Preposition of Time",
+      "weight": 30,
+      "description": "Is 'at' used correctly before the time?"
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "He wakes up at [time]. He eats [food]. He goes to [place].",
+    "acceptableAlternates": [
+      "She wakes up at [time]. She doesn't eat [food]. She goes to [place]."
+    ],
+    "requiredKeywords": [
+      "wakes",
+      "up",
+      "at"
+    ],
+    "grammarBaseline": "Must use the third-person singular 's' (wakes, eats, goes) correctly. No 'He wake up'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Third-Person S",
+          "weight": 60,
+          "description": "Critical! Must have 's' on the action verbs."
+        },
+        {
+          "name": "Prepositions",
+          "weight": 20,
+          "description": "Uses 'at' for time."
+        },
+        {
+          "name": "Sentence Structure",
+          "weight": 20,
+          "description": "SVO structure is maintained."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic! You used the third-person 's' perfectly. This is a huge step in your English journey.",
+    "onFail": "Check your verbs carefully! If the sentence starts with He or She, you MUST add 's' or 'es' to the verb (wakes, goes).",
+    "onPartial": "Good try. You got some right, but remember that 'go' becomes 'goes' for He or She."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "third_person_singular",
+    "daily_routine",
+    "verbs"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To write 'He goes to work', spell it G-O-E-S, not G-O-S.",
+  "commonMistakes": [
+    "Writing 'He wake up' instead of 'He wakes up'.",
+    "Writing 'She go to school' instead of 'She goes to school'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

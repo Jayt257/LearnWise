@@ -1,0 +1,167 @@
+{
+  "activityId": "ja_en_M1B4_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Write Your Daily Schedule",
+  "learningGoal": "The learner will write 3 short sentences stating their age, what day of the week it is, and the current time.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B4_lesson_001",
+    "ja_en_M1B4_reading_001"
+  ],
+  "instructions": "Write a short 3-sentence paragraph in Japanese. First, state your age using 'Watashi wa X-sai desu'. Second, state what day of the week it is today using 'Kyou wa Y-youbi desu'. Finally, state the current hour using 'Ima, Z-ji desu'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "You can make up an age, day, and time if you prefer. Just make sure the grammar structure is correct."
+    }
+  ],
+  "writingPrompt": "Write three sentences: 1) Your age. 2) The day of the week. 3) The current time.",
+  "promptGoal": "To construct accurate 'A wa B desu' sentences incorporating time and numerical vocabulary.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "わたし",
+      "transliteration": "Watashi",
+      "baseTranslation": "I",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "さい",
+      "transliteration": "sai",
+      "baseTranslation": "years old",
+      "partOfSpeech": "suffix"
+    },
+    {
+      "targetText": "きょう",
+      "transliteration": "Kyou",
+      "baseTranslation": "Today",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いま",
+      "transliteration": "Ima",
+      "baseTranslation": "Now",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "じ",
+      "transliteration": "ji",
+      "baseTranslation": "o'clock",
+      "partOfSpeech": "suffix"
+    },
+    {
+      "targetText": "です",
+      "transliteration": "desu",
+      "baseTranslation": "is / am",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Watashi wa [Number] sai desu. (Or hatachi desu).",
+    "Sentence 2: Kyou wa [Day] youbi desu.",
+    "Sentence 3: Ima, [Number] ji desu."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "わたしは にじゅうごさいです。きょうは かようびです。いま、よじです。",
+      "transliteration": "Watashi wa ni-juu-go-sai desu. Kyou wa kayoubi desu. Ima, yo-ji desu.",
+      "baseTranslation": "I am 25 years old. Today is Tuesday. Now it is 4 o'clock.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect grammar. Also correctly uses the exception 'yo-ji' for 4 o'clock."
+    },
+    {
+      "targetText": "わたしは はたちです。きょうは にちようびです。いま、じゅうじです。",
+      "transliteration": "Watashi wa hatachi desu. Kyou wa nichiyoubi desu. Ima, juu-ji desu.",
+      "baseTranslation": "I am 20 years old. Today is Sunday. Now it is 10 o'clock.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly uses the exception 'hatachi' for 20 years old without adding 'sai'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Age Structure",
+      "weight": 30,
+      "description": "Did the learner state their age correctly using 'sai' (or 'hatachi')?"
+    },
+    {
+      "criterion": "Day Structure",
+      "weight": 30,
+      "description": "Did the learner state the day correctly using 'Kyou wa... youbi desu'?"
+    },
+    {
+      "criterion": "Time Structure",
+      "weight": 40,
+      "description": "Did the learner state the time correctly using 'Ima... ji desu' and avoid saying 'yon-ji' or 'kyuu-ji'?"
+    }
+  ],
+  "minimumWordCount": 6,
+  "maximumWordCount": 20,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "わたしは じゅうはっさいです。きょうは げつようびです。いま、さんじです。",
+    "acceptableAlternates": [
+      "Any set of 3 sentences that follow the prescribed grammar formats."
+    ],
+    "requiredKeywords": [
+      "きょうは",
+      "いま",
+      "です"
+    ],
+    "grammarBaseline": "A wa B desu structure applied to Time, Day, and Age.",
+    "lengthExpectation": "Three simple sentences.",
+    "scoringRubric": {
+      "age_sentence": 30,
+      "day_sentence": 30,
+      "time_sentence": 40
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! You can successfully construct sentences about daily schedules.",
+    "onFail": "Please review the lesson on numbers. Make sure every sentence ends with 'desu'.",
+    "onPartial": "Good try! Make sure you didn't accidentally write 'yon-ji' for 4 o'clock, or 'ni-juu-sai' for 20 years old."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "numbers",
+    "time",
+    "age",
+    "beginner",
+    "month1",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure to write 'youbi' carefully. It has a long 'o' sound (yo-u-bi).",
+  "commonMistakes": [
+    "Writing 'watashi wa hatachi sai desu' (you don't need 'sai' with hatachi)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

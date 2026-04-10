@@ -1,0 +1,201 @@
+{
+  "activityId": "en_hi_M3B6_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "3-Month Grammar Masterclass",
+  "learningGoal": "The learner will synthetically review and successfully identify the core structural transformations taught over the 3-month curriculum, including SVO alignment, auxiliary verbs, perfective aspect, and phrasal mechanics.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": ["en_hi_M3B5_test_001"],
+  "instructions": "Welcome to the Final Block! Over the last 90 days, you have restructured how your brain processes language. This masterclass is a giant review of the most important rules you learned. Read the rules carefully to prepare for your final exams!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अंग्रेजी और हिंदी 100% अलग-अलग ढांचे (structures) पर काम करते हैं। पिछले 3 महीनों में, आपने 'हिंदी में सोचकर अंग्रेजी में अनुवाद करने' की आदत छोड़ दी है। आइए सबसे महत्वपूर्ण नियमों को एक बार फिर से देखें।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Target language relies on SVO word order completely.",
+      "Tense is expressed through complex auxiliary combinations, lacking 1:1 postposition translation from L1.",
+      "Native fluency requires phrasal verbs, not heavily formalized dictionary terms."
+    ],
+    "conceptSummary": "A capstone programmatic review isolating the top 4 structural paradigms of English that directly contrast with L1 mechanics (SVO, Modals, Auxiliaries, Phrasals).",
+    "importantFacts": [
+      "In English, the verb goes in the middle. (Subject -> Verb -> Object)",
+      "Continuous tense requires 'To Be' words (am, is, are). Past tense requires 'Did' or irregular forms."
+    ],
+    "checkpointAnswers": {
+      "q1": "I am eating an apple.",
+      "q2": "did",
+      "q3": "must",
+      "q4": "Turn on"
+    },
+    "expectedUnderstanding": "Learners will demonstrate terminal retention of the core syntactical laws governing conversational English."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Astounding! You have proven that you fully understand the architecture of the English language. You are doing amazing!",
+    "onFail": "Please review this masterclass! Every rule in this lesson is incredibly important for passing the Final Exams. Do not rush through this.",
+    "onPartial": "Good effort! Check your grammar rules again. Remember, the simple past tense uses 'Did', but perfect tense uses 'Have'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b6/lesson/native_review.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b6/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m3/b6/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m3/b6/lesson/slow_review.mp3",
+    "normalAudio": "audio/en_hi/m3/b6/lesson/native_review.mp3",
+    "audioTranscript": "Rule 1: Always put the verb in the middle...",
+    "audioLanguage": "en",
+    "audioDuration": 350,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["review", "capstone", "grammar", "tenses", "svo", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b6/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look for the biggest differences between English and your mother tongue.",
+  "commonMistakes": [
+    "Reverting to L1 grammar structures due to stress during a review phase."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B6_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "The Ultimate Grammar Recap",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Rule 1: The SVO Structure (मासिक 1 की समीक्षा)",
+      "bodyText": "पहले महीने में हमने सीखा कि अंग्रेजी में क्रिया (Verb) हमेशा बीच में आती है। हिंदी जैसी (SOV) भाषा में क्रिया अंत में आती है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I eat apples.",
+          "transliteration": "आई ईट एप्पल्स।",
+          "baseTranslation": "मैं (Subject) सेब (Object) खाता हूँ (Verb)।"
+        },
+        {
+          "targetText": "She is drinking water.",
+          "transliteration": "शी इज़ ड्रिंकिंग वाटर।",
+          "baseTranslation": "वह पानी पी रही है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Rule 2: The Magic Helpers (मासिक 2 की समीक्षा)",
+      "bodyText": "दूसरे महीने में हमने काल (Tenses) का अध्ययन किया। हमने सीखा कि 'Do', 'Does', 'Did', और 'Will' जैसे सहायक शब्द प्रश्न बनाने और ना कहने के लिए आवश्यक हैं। अंग्रेजी में आप बिना सहायक के प्रश्न नहीं बना सकते!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Did you go to work?",
+          "transliteration": "डिड यू गो टू वर्क?",
+          "baseTranslation": "क्या आप काम पर गए थे?"
+        },
+        {
+          "targetText": "I will not buy this car.",
+          "transliteration": "आई विल नॉट बाय दिस कार।",
+          "baseTranslation": "मैं यह कार नहीं खरीदूंगा।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Rule 3: Have & Must (मासिक 3 की समीक्षा)",
+      "bodyText": "तीसरे महीने में हमने बहुत उन्नत नियम सीखे, जैसे कि Present Perfect और Modals। 'Must' और 'Should' का प्रयोग कर्तव्य और सलाह के लिए होता है। और अनुभवों को बताने के लिए 'Have + V3' का उपयोग होता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I have seen the Taj Mahal.",
+          "transliteration": "आई हैव सीन द ताज महल।",
+          "baseTranslation": "मैंने ताज महल देखा है (मुझे अनुभव है)।"
+        },
+        {
+          "targetText": "You must wear a seatbelt.",
+          "transliteration": "यू मस्ट वेयर अ सीटबेल्ट।",
+          "baseTranslation": "आपको सीटबेल्ट पहनना ही होगा (यह एक नियम है)।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Rule 4: Glue Words & Survival (मासिक 3 की समीक्षा)",
+      "bodyText": "अंत में, हमने सीखा कि नेटिव स्पीकर बहुत छोटे Phrasal Verbs का उपयोग करते हैं, और वास्तविक दुनिया में जीवित रहने के लिए 'I want' के बजाय 'I would like' कहना चाहिए।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Turn on the TV. Pick it up.",
+          "transliteration": "टर्न ऑन द टीवी। पिक इट अप।",
+          "baseTranslation": "टीवी चालू करो। इसे उठाओ।"
+        },
+        {
+          "targetText": "Excuse me, I would like to order.",
+          "transliteration": "एक्सक्यूज़ मी, आई वुड लाइक टू ऑर्डर।",
+          "baseTranslation": "माफ़ करें, मैं ऑर्डर (खाना) देना पसंद करूँगा।"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will categorically identify and review the primary syntactic differences between L1 and target language mastered over the past 90 days.",
+  "examples": [
+    {
+      "targetText": "I do not know him.",
+      "transliteration": "आई डू नॉट नो हिम।",
+      "baseTranslation": "मैं उसे नहीं जानता।",
+      "explanation": "Remember, negative sentences need an auxiliary verb (Do). You cannot just say 'I not know him'."
+    },
+    {
+      "targetText": "Put on your shoes.",
+      "transliteration": "पुट ऑन योर शूज़।",
+      "baseTranslation": "अपने जूते पहन लो।",
+      "explanation": "Never translate literally. (Never say 'Wear your shoes' as a command)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "English sentences must have a Subject, a Verb, and an Object, in that order.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Politeness changes sentences. Never say 'Give me'. Say 'Could you give me'.",
+      "exceptionNotes": "In emergencies, ignore politeness. (Call the police!)."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "You have built an amazing foundation! You know how to make statements in the SVO order, ask questions using Helpers (Do/Did/Will), and speak nicely to locals using Modals and Survival English. Get ready for your final tests!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Fix the SVO mistakes in this sentence: 'I an apple am eating'.",
+      "expectedAnswer": "I am eating an apple."
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank helper for the past tense: '____ you see the dog yesterday?'",
+      "expectedAnswer": "did"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If something is a 100% strict rule, which Modal do you use? (Can / Should / Must)",
+      "expectedAnswer": "must"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "How does a native speaker say 'Open the TV'?",
+      "expectedAnswer": "Turn on"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M1B4_test_8",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Test: Numbers & Time",
+  "learningGoal": "Evaluate understanding of numbers 1-10, stating age with gender agreement, and telling time.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B4_lesson_1",
+    "hi_en_M1B4_pronunciation_2",
+    "hi_en_M1B4_reading_3",
+    "hi_en_M1B4_writing_4",
+    "hi_en_M1B4_listening_5",
+    "hi_en_M1B4_vocabulary_6",
+    "hi_en_M1B4_speaking_7"
+  ],
+  "instructions": "This block test will check your mastery of numbers, the days of the week, and your understanding of plural verbs used for telling time.",
+  "testTitle": "Numbers & Time Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_numbers",
+      "sectionTitle": "Numbers 1-10",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "Translate to English: आठ (Aath)",
+          "questionType": "multiple_choice",
+          "options": [
+            "8",
+            "7",
+            "9"
+          ],
+          "questionHints": {
+            "targetText": "8",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "Which number is 'Paanch'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "5",
+            "4",
+            "6"
+          ],
+          "questionHints": {
+            "targetText": "5",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_time_grammar",
+      "sectionTitle": "Time & Grammar",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate to English: कितने बजे हैं? (Kitne baje hain?)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "What time is it?",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "If a female speaker wants to say 'I am 10 years old', she says: 'Main das saal ____ hoon'.",
+          "questionType": "multiple_choice",
+          "options": [
+            "ki (की)",
+            "ka (का)",
+            "ke (के)"
+          ],
+          "questionHints": {
+            "targetText": "ki (की)",
+            "transliteration": "ki",
+            "baseTranslation": "of (feminine)"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "What does 'kal' (कल) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Tomorrow or Yesterday",
+            "Today",
+            "Day"
+          ],
+          "questionHints": {
+            "targetText": "Tomorrow or Yesterday",
+            "transliteration": "kal",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "8",
+      "tq_2": "5",
+      "tq_3": "What time is it?",
+      "tq_4": "ki (की)",
+      "tq_5": "Tomorrow or Yesterday"
+    },
+    "partialCreditRules": {
+      "tq_3": "Accept 'What's the time' or 'How much time'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant! You've mastered numbers and time concepts.",
+    "onFail": "Review the numbers. You need to memorize them perfectly.",
+    "onPartial": "Good effort! Pay close attention to gender markers like 'ka' and 'ki'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block4",
+    "numbers",
+    "time",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the questions carefully. Time is always treated as plural (hain).",
+  "commonMistakes": [
+    "Choosing 'ka' instead of 'ki' for a female speaker."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B5_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

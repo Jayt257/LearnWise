@@ -1,0 +1,203 @@
+{
+  "activityId": "en_hi_M3B5_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Medical Sounds",
+  "learningGoal": "The learner will master the English pronunciation of critical medical vocabulary, specifically decoding the non-phonetic 'ache' /eɪk/ suffix in headache, stomachache, and toothache.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B5_lesson_001"],
+  "instructions": "Medical words in English often have very strange spelling! The letters 'C-H' usually make a 'CH' sound, but in medical words, they make a 'K' sound. Practice saying these words perfectly so a doctor can understand you.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "The magic word today is ACHE. It means pain. It is spelled with 'C-H', but it is pronounced like the letter 'A' followed by the letter 'K'. A-K (एक)."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "Ache",
+      "transliteration": "एक",
+      "baseTranslation": "दर्द",
+      "phoneticHint": "Sounds exactly like simply saying the letter A, then the letter K. A-K.",
+      "syllableSplit": "AYK",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing the 'ch' like in 'cheese' (Ay-ch)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "Headache",
+      "transliteration": "हेडेक",
+      "baseTranslation": "सिरदर्द",
+      "phoneticHint": "Head + Ache",
+      "syllableSplit": "HED-ayk",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p03",
+      "targetText": "Stomachache",
+      "transliteration": "स्टमकेक",
+      "baseTranslation": "पेट दर्द",
+      "phoneticHint": "Warning! Stomach also ends with a 'K' sound! Stuh-mik-ayk.",
+      "syllableSplit": "STUM-ik-ayk",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Stoh-mach-ay-chee"
+    },
+    {
+      "itemId": "p04",
+      "targetText": "Toothache",
+      "transliteration": "टूथएक",
+      "baseTranslation": "दांत दर्द",
+      "phoneticHint": "Push your tongue against your teeth for the 'Th' before saying 'Ache'.",
+      "syllableSplit": "TOOTH-ayk",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Toot-ache"
+    },
+    {
+      "itemId": "p05",
+      "targetText": "Medicine",
+      "transliteration": "मेडिसिन",
+      "baseTranslation": "दवा",
+      "phoneticHint": "Only three syllables. Med-i-sin.",
+      "syllableSplit": "MED-ih-sin",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Me-di-cine"
+    },
+    {
+      "itemId": "p06",
+      "targetText": "Pharmacy",
+      "transliteration": "फार्मेसी",
+      "baseTranslation": "दवाखाना",
+      "phoneticHint": "Ph makes an 'F' sound.",
+      "syllableSplit": "FAR-muh-see",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Par-mah-cy"
+    },
+    {
+      "itemId": "p07",
+      "targetText": "Hurts",
+      "transliteration": "हर्ट्स",
+      "baseTranslation": "दर्द करता है / चोट लगी है",
+      "phoneticHint": "A soft 'H' sound like blowing air. Hurts.",
+      "syllableSplit": "HERTS",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Hospital",
+      "transliteration": "हॉस्पिटल",
+      "baseTranslation": "अस्पताल",
+      "phoneticHint": "Hah-spih-tull.",
+      "syllableSplit": "HOS-pih-til",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p09",
+      "targetText": "Prescription",
+      "transliteration": "प्रिस्क्रिप्शन",
+      "baseTranslation": "डॉक्टर का पर्चा",
+      "phoneticHint": "The 'tion' at the end makes a 'shun' sound.",
+      "syllableSplit": "pre-SKRIP-shun",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p10",
+      "targetText": "Symptom",
+      "transliteration": "सिम्प्टम",
+      "baseTranslation": "लक्षण",
+      "phoneticHint": "The 'p' is very soft, almost silent in fast speech. Sim-tum.",
+      "syllableSplit": "SIMP-tum",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Sym-p-tom"
+    },
+    {
+      "itemId": "p11",
+      "targetText": "Fever",
+      "transliteration": "फीवर",
+      "baseTranslation": "बुखार",
+      "phoneticHint": "Make sure your teeth touch your bottom lip for the 'V'. Fee-ver.",
+      "syllableSplit": "FEE-ver",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pee-bar"
+    },
+    {
+      "itemId": "p12",
+      "targetText": "Cough",
+      "transliteration": "कॉफ",
+      "baseTranslation": "खांसी",
+      "phoneticHint": "The 'gh' at the end makes an 'F' sound! Kawf.",
+      "syllableSplit": "KOFF",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Cow-g"
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Ache Headache Stomachache Toothache Medicine Pharmacy Hurts Hospital Prescription Symptom Fever Cough",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You successfully navigated some of the hardest spelling traps in English! You pronounced 'Ache' perfectly, with the correct 'K' sound.",
+    "onFail": "Keep trying! Remember, 'C-H' in medical words sounds like 'K'. 'Ache' is pronounced 'Ayk'. And 'Cough' is pronounced 'Koff' (with an F sound).",
+    "onPartial": "Good effort! Watch out for 'Stomachache'. It is long and tricky. Go slowly: Stum-ik-ayk."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "ache headache stomachache toothache medicine pharmacy hurts hospital prescription symptom fever cough",
+    "acceptedVariants": [
+      "ache headache stomach ache toothache medicine pharmacy hurts hospital prescription symptom fever cough"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates phonological decoding of the irregular Greek-origin 'ch' grapheme (/k/ mapping instead of /tʃ/), specifically monitoring vocal production of /eɪk/.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b5/pronunciation/native_words.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b5/pronunciation/slow_words.mp3",
+    "normalAudio": "audio/en_hi/m3/b5/pronunciation/native_words.mp3",
+    "audioTranscript": "Ache. Headache. Stomachache...",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "health", "irregular_spelling", "ache", "hospital", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b5/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Whenever you see 'Ache', pretend it is spelled A-K.",
+  "commonMistakes": [
+    "Applying standard English phonics to Greek-origin medical roots (e.g. pronouncing stomach as stomatch)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B5_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,189 @@
+{
+  "activityId": "en_ja_M1B3_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "What is on your desk?",
+  "learningGoal": "Write simple sentences using 'a', 'an', plural 's', and uncountable nouns correctly.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B3_reading_3"
+  ],
+  "instructions": "あなたの机の上に何があるか、英語で書いてください。(Write about what is on your desk in English.)\n以下の4つの条件をすべて満たすように文章を作ってください。\n1. 「a」を使う（例：a pen）\n2. 「an」を使う（例：an apple）\n3. 複数形の「s」を使う（例：two books）\n4. 数えられない名詞を使う（例：water, money）",
+  "writingPrompt": "Write 4 sentences starting with 'I have...'. Include one item with 'a', one item with 'an', one plural item with a number, and one uncountable item.",
+  "promptGoal": "To construct sentences correctly distinguishing between singular, plural, and uncountable nouns with proper articles.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "I have",
+      "transliteration": "アイ ハヴ",
+      "baseTranslation": "私は〜を持っています",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "pen",
+      "transliteration": "ペン",
+      "baseTranslation": "ペン",
+      "partOfSpeech": "noun (countable)"
+    },
+    {
+      "targetText": "apple",
+      "transliteration": "アップル",
+      "baseTranslation": "りんご",
+      "partOfSpeech": "noun (countable)"
+    },
+    {
+      "targetText": "book",
+      "transliteration": "ブック",
+      "baseTranslation": "本",
+      "partOfSpeech": "noun (countable)"
+    },
+    {
+      "targetText": "water",
+      "transliteration": "ウォーター",
+      "baseTranslation": "水",
+      "partOfSpeech": "noun (uncountable)"
+    },
+    {
+      "targetText": "money",
+      "transliteration": "マネー",
+      "baseTranslation": "お金",
+      "partOfSpeech": "noun (uncountable)"
+    },
+    {
+      "targetText": "orange",
+      "transliteration": "オレンジ",
+      "baseTranslation": "オレンジ",
+      "partOfSpeech": "noun (countable)"
+    }
+  ],
+  "referenceHints": [
+    "数えられるものが１つの時は「a」か「an」を忘れずに。",
+    "母音（ア・イ・ウ・エ・オの音）で始まる単語の前は「an」になります。",
+    "２つ以上の時は数字（two, three）と名詞の「s」をつけます。",
+    "水やお金には「a」も「s」もつきません！"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I have a pen. I have an apple. I have two books. I have water.",
+      "transliteration": "アイ ハヴ ア ペン。アイ ハヴ アン アップル。アイ ハヴ トゥー ブックス。アイ ハヴ ウォーター。",
+      "baseTranslation": "私はペンを１本持っています。私はりんごを１個持っています。私は本を２冊持っています。私は水を持っています。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly meets all 4 conditions. Uses 'an' before apple, 's' for books, and no article for water."
+    },
+    {
+      "targetText": "I have a computer. I have an orange. I have three pens. I have money.",
+      "transliteration": "アイ ハヴ ア コンピューター。アイ ハヴ アン オレンジ。アイ ハヴ スリー ペンズ。アイ ハヴ マネー。",
+      "baseTranslation": "私はコンピューターを持っています。私はオレンジを持っています。私はペンを３本持っています。私はお金を持っています。",
+      "qualityLevel": "excellent",
+      "annotation": "Great vocabulary choice. Meets all grammatical rules for articles and plurals."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Article 'A'",
+      "weight": 25,
+      "description": "Is 'a' used correctly before a singular consonant-sound noun?"
+    },
+    {
+      "criterion": "Article 'An'",
+      "weight": 25,
+      "description": "Is 'an' used correctly before a singular vowel-sound noun?"
+    },
+    {
+      "criterion": "Plural 'S'",
+      "weight": 25,
+      "description": "Is a number and plural 's' used correctly?"
+    },
+    {
+      "criterion": "Uncountable Noun",
+      "weight": 25,
+      "description": "Is an uncountable noun used without 'a' and without 's'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I have a [noun]. I have an [vowel-noun]. I have [number] [plural-noun]s. I have [uncountable-noun].",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "I",
+      "have",
+      "a",
+      "an"
+    ],
+    "grammarBaseline": "Must demonstrate 4 specific grammar rules: 'a' + consonant noun, 'an' + vowel noun, number + plural noun, bare uncountable noun.",
+    "lengthExpectation": "4 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "A Usage",
+          "weight": 25,
+          "description": "a + singular noun"
+        },
+        {
+          "name": "An Usage",
+          "weight": 25,
+          "description": "an + singular noun starting with vowel"
+        },
+        {
+          "name": "Plural Usage",
+          "weight": 25,
+          "description": "Number + noun + s"
+        },
+        {
+          "name": "Uncountable Usage",
+          "weight": 25,
+          "description": "Noun with no 'a' and no 's'"
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic! You perfectly understand the rules of English nouns and articles.",
+    "onFail": "Please check your sentences. Did you use 'an' before words like apple or orange? Did you add 's' to your plural item?",
+    "onPartial": "Good try. Be careful with uncountable nouns like water and money—they don't take 'a' or 's'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "articles",
+    "plurals",
+    "uncountable_nouns"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you can't think of an 'an' word, use 'an apple' or 'an orange'. For uncountable, use 'water' or 'money'.",
+  "commonMistakes": [
+    "Writing 'I have a water'.",
+    "Writing 'I have two book' (missing the 's').",
+    "Writing 'I have a apple'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

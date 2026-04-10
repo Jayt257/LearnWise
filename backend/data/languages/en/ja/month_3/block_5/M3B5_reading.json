@@ -1,0 +1,225 @@
+{
+  "activityId": "ja_en_M3B5_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "A Terrible Night",
+  "learningGoal": "The learner will read a short narrative detailing a series of unfortunate events, identifying medical symptoms, accidents, and crimes.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B5_lesson_001",
+    "ja_en_M3B5_vocabulary_001"
+  ],
+  "instructions": "Read the following account of a very bad evening. Identify the crime that occurred, the accident that happened, and the resulting medical symptoms.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Notice how the passive voice is used for the crime, and the '~te shimaimashita' form is used for the accident."
+    }
+  ],
+  "readingTitle": "A Police Report",
+  "readingText": "きのうの よる、えきで パスポートを ぬすまれました。\nそして、かいだんで ころんで しまいました。\nあしが いたいです。ちが でます。\nすぐに きゅうきゅうしゃを よんで ください。",
+  "textInTargetLanguage": "きのうの よる、えきで パスポートを ぬすまれました。\nそして、かいだんで ころんで しまいました。\nあしが いたいです。ちが でます。\nすぐに きゅうきゅうしゃを よんで ください。",
+  "baseLanguageSupportText": "Last night at the station, my passport was stolen. And, I unfortunately fell down on the stairs. My leg hurts. Blood is coming out. Please call an ambulance immediately.",
+  "glossary": [
+    {
+      "targetText": "きのうの よる",
+      "transliteration": "Kinou no yoru",
+      "baseTranslation": "Last night",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "えきで",
+      "transliteration": "Eki de",
+      "baseTranslation": "At the station",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ぬすまれました",
+      "transliteration": "Nusumaremashita",
+      "baseTranslation": "Was stolen (Passive of nusumu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "かいだん",
+      "transliteration": "Kaidan",
+      "baseTranslation": "Stairs",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ころんで しまいました",
+      "transliteration": "Koronde shimaimashita",
+      "baseTranslation": "Unfortunately fell down (Te-form of korobu + shimaimashita)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あし",
+      "transliteration": "Ashi",
+      "baseTranslation": "Leg / Foot",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ちが でます",
+      "transliteration": "Chi ga demasu",
+      "baseTranslation": "Blood comes out (I am bleeding)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "すぐに",
+      "transliteration": "Sugu ni",
+      "baseTranslation": "Immediately",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "よんで ください",
+      "transliteration": "Yonde kudasai",
+      "baseTranslation": "Please call (Te-form of yobu + kudasai)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "えきで パスポートを ぬすまれました。",
+      "transliteration": "Eki de pasupooto wo nusumaremashita.",
+      "baseTranslation": "My passport was stolen at the station."
+    },
+    {
+      "targetText": "かいだんで ころんで しまいました。",
+      "transliteration": "Kaidan de koronde shimaimashita.",
+      "baseTranslation": "I unfortunately fell down on the stairs."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What crime happened to the speaker?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Their wallet was stolen.",
+        "Their passport was stolen.",
+        "They were assaulted.",
+        "Their house was broken into."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Where did the crime happen?",
+      "questionType": "multiple_choice",
+      "options": [
+        "At the hospital (Byouin)",
+        "At the hotel (Hoteru)",
+        "At the station (Eki)",
+        "On the train (Densha)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What accident happened to the speaker?",
+      "questionType": "multiple_choice",
+      "options": [
+        "They got hit by a car.",
+        "They fell on the stairs.",
+        "They tripped on the platform.",
+        "They cut their hand."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What are their current symptoms?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Headache and fever",
+        "Stomach ache and cough",
+        "Leg pain and bleeding",
+        "Toothache and bleeding"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the emergency service the speaker wants called.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Their passport was stolen.",
+      "q002": "At the station (Eki)",
+      "q003": "They fell on the stairs.",
+      "q004": "Leg pain and bleeding",
+      "q005": "kyuukyuusha"
+    },
+    "acceptableParaphrases": {
+      "q005": ["kyuukyuusha", "Kyuukyuusha"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Speaker's passport was stolen (passive voice).",
+      "Speaker fell (shimaimashita form).",
+      "Speaker needs an ambulance (kyuukyuusha)."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading comprehension! You accurately tracked the sequence of unfortunate events.",
+    "onFail": "Review the vocabulary list. 'Ashi' means leg. 'Chi' means blood.",
+    "onPartial": "Good effort. Note the difference between 'Kyuukyuusha' (Ambulance) and 'Keisatsu' (Police). The speaker needs medical help right now."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b5/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b5/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m3/b5/reading/normal_reading.mp3",
+    "audioTranscript": "きのうの よる、えきで パスポートを ぬすまれました。そして、かいだんで ころんで しまいました。あしが いたいです。ちが でます。すぐに きゅうきゅうしゃを よんで ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "medical",
+    "police",
+    "emergencies",
+    "advanced",
+    "month3",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the subject markers and verbs. 'Nusumaremashita' means 'was stolen'. 'Koronde' means 'fell down'.",
+  "commonMistakes": [
+    "Assuming the speaker lost their passport. 'Nusumareru' specifically means it was stolen."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

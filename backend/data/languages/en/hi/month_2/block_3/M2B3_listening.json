@@ -1,0 +1,171 @@
+{
+  "activityId": "hi_en_M2B3_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Listening: Whose is this?",
+  "learningGoal": "Identify spoken possessive pronouns and map them to the correct objects and formality levels.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B3_lesson_1"
+  ],
+  "instructions": "Listen to a boss and an employee looking for misplaced items in the office. Note how the boss speaks casually (Tum), but the employee speaks formally (Aap).",
+  "listeningGoal": "Distinguish between 'Aapka', 'Tumhara', 'Mera', and 'Unka' in a fast-paced dialogue.",
+  "audioScenario": "A boss (Ramesh) and an employee (Suresh) are finding items in an office.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "रमेश (बॉस): सुरेश, तुम कहाँ हो? मेरी फाइल कहाँ है?",
+      "transliteration": "Ramesh: Suresh, tum kahan ho? Meri file kahan hai?",
+      "baseTranslation": "Ramesh (Boss): Suresh, where are you? Where is my file?"
+    },
+    {
+      "targetText": "सुरेश: मैं यहाँ हूँ सर। यह आपकी फाइल है।",
+      "transliteration": "Suresh: Main yahaan hoon Sir. Yeh aapki file hai.",
+      "baseTranslation": "Suresh: I am here Sir. This is your file."
+    },
+    {
+      "targetText": "रमेश: धन्यवाद। और यह किसका फोन है? क्या यह तुम्हारा फोन है?",
+      "transliteration": "Ramesh: Dhanyawad. Aur yeh kiska phone hai? Kya yeh tumhara phone hai?",
+      "baseTranslation": "Ramesh: Thank you. And whose phone is this? Is this your phone?"
+    },
+    {
+      "targetText": "सुरेश: नहीं सर, यह मेरा फोन नहीं है। यह उनका फोन है।",
+      "transliteration": "Suresh: Nahi Sir, yeh mera phone nahi hai. Yeh unka phone hai.",
+      "baseTranslation": "Suresh: No Sir, this is not my phone. This is his (respectful/plural) phone."
+    },
+    {
+      "targetText": "रमेश: अच्छा, ठीक है। तुम काम करो।",
+      "transliteration": "Ramesh: Achchha, theek hai. Tum kaam karo.",
+      "baseTranslation": "Ramesh: Okay, fine. You do work."
+    }
+  ],
+  "audioTranscriptFull": "सुरेश, तुम कहाँ हो? मेरी फाइल कहाँ है? मैं यहाँ हूँ सर। यह आपकी फाइल है। धन्यवाद। और यह किसका फोन है? क्या यह तुम्हारा फोन है? नहीं सर, यह मेरा फोन नहीं है। यह उनका फोन है। अच्छा, ठीक है। तुम काम करो।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What does the boss ask for first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "His file (Meri file)",
+        "His phone (Mera phone)",
+        "His car (Meri gaadi)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "How does Suresh address the boss when handing over the file?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aapki file (Your [formal] file)",
+        "Tumhari file (Your [casual] file)",
+        "Teri file (Your [intimate] file)"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "What word means 'whose'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kiska (किसका)",
+        "Kya (क्या)",
+        "Kahan (कहाँ)"
+      ],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "How does the boss ask 'Is this your phone'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kya yeh tumhara phone hai?",
+        "Kya yeh aapka phone hai?",
+        "Kya yeh mera phone hai?"
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "Whose phone does Suresh say it is?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Unka (Someone else, respectfully)",
+        "Mera (His own)",
+        "Aapka (The boss's)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "His file (Meri file)",
+      "lq_2": "Aapki file (Your [formal] file)",
+      "lq_3": "Kiska (किसका)",
+      "lq_4": "Kya yeh tumhara phone hai?",
+      "lq_5": "Unka (Someone else, respectfully)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great listening! You successfully tracked the shifting pronouns.",
+    "onFail": "Listen to how Suresh speaks versus how the Boss speaks. Suresh uses 'Aap' (formal), the Boss uses 'Tum' (casual).",
+    "onPartial": "Good effort. Pay attention to 'Kiska' (whose). It also acts like an adjective, changing to 'Kiski' for feminine objects!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "सुरेश, तुम कहाँ हो? मेरी फाइल कहाँ है? मैं यहाँ हूँ सर। यह आपकी फाइल है। धन्यवाद। और यह किसका फोन है? क्या यह तुम्हारा फोन है? नहीं सर, यह मेरा फोन नहीं है। यह उनका फोन है। अच्छा, ठीक है। तुम काम करो।",
+    "audioLanguage": "hi",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "office",
+    "possessives",
+    "formality",
+    "pronouns"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen to the word 'Unka'. It means 'Their' or 'His (respectful)'.",
+  "commonMistakes": [
+    "Confusing 'Tumhara' (your casual) with 'Humara' (our)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

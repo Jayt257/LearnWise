@@ -1,0 +1,209 @@
+{
+  "activityId": "en_ja_M2B3_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "At a Nice Restaurant",
+  "learningGoal": "Read a dialogue in a formal setting to identify polite expressions used for ordering, offering, and requesting.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B3_pronunciation_2"
+  ],
+  "instructions": "高級レストランでの客とウェイターの会話を読んで、質問に答えてください。「I want」や「Can you」の代わりに、どのような丁寧な表現（Would like, Could you, May I）が使われているかに注目しましょう。(Read the dialogue between a customer and a waiter at a nice restaurant. Notice the polite expressions used instead of 'I want' or 'Can you'.)",
+  "readingTitle": "Ordering Dinner",
+  "readingText": "Waiter: Good evening, sir. May I take your order?\nCustomer: Yes, please. I would like the steak and a salad.\nWaiter: Certainly. How would you like your steak?\nCustomer: Medium, please.\nWaiter: Would you like something to drink with your meal?\nCustomer: Yes. Could you bring me a glass of red wine, please?\nWaiter: Of course. And may I take your menu?\nCustomer: Yes, thank you.",
+  "textInTargetLanguage": "Waiter: Good evening, sir. May I take your order?\nCustomer: Yes, please. I would like the steak and a salad.\nWaiter: Certainly. How would you like your steak?\nCustomer: Medium, please.\nWaiter: Would you like something to drink with your meal?\nCustomer: Yes. Could you bring me a glass of red wine, please?\nWaiter: Of course. And may I take your menu?\nCustomer: Yes, thank you.",
+  "baseLanguageSupportText": "ウェイター：こんばんは、お客様。ご注文をお伺いしてもよろしいでしょうか？\n客：はい、お願いします。ステーキとサラダをいただきたいです。\nウェイター：かしこまりました。ステーキの焼き加減はいかがなさいますか？\n客：ミディアムでお願いします。\nウェイター：お食事と一緒に何かお飲み物はいかがですか？\n客：はい。赤ワインをグラスで一杯持ってきていただけますか？\nウェイター：かしこまりました。それから、メニューをお下げしてもよろしいでしょうか？\n客：はい、ありがとう。",
+  "glossary": [
+    {
+      "targetText": "May I",
+      "transliteration": "メイ アイ",
+      "baseTranslation": "〜してもよろしいでしょうか？",
+      "exampleSentence": {
+        "targetText": "May I take your order?",
+        "transliteration": "メイ アイ テイク ユア オーダー？",
+        "baseTranslation": "ご注文をお伺いしてもよろしいでしょうか？"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "I would like",
+      "transliteration": "アイ ウッド ライク",
+      "baseTranslation": "〜をいただきたいです（I want の丁寧な形）",
+      "exampleSentence": {
+        "targetText": "I would like the steak.",
+        "transliteration": "アイ ウッド ライク ザ ステーキ",
+        "baseTranslation": "ステーキをお願いします。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Would you like",
+      "transliteration": "ウッド ジュー ライク",
+      "baseTranslation": "〜はいかがですか？（Do you want の丁寧な形）",
+      "exampleSentence": {
+        "targetText": "Would you like something to drink?",
+        "transliteration": "ウッド ジュー ライク サムシング トゥ ドリンク？",
+        "baseTranslation": "何かお飲み物はいかがですか？"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Could you",
+      "transliteration": "クジュー",
+      "baseTranslation": "〜していただけますか？（Can you の丁寧な形）",
+      "exampleSentence": {
+        "targetText": "Could you bring me a glass of wine?",
+        "transliteration": "クジュー ブリング ミー ア グラス オヴ ワイン？",
+        "baseTranslation": "ワインを一杯持ってきていただけますか？"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Certainly",
+      "transliteration": "サーテンリー",
+      "baseTranslation": "かしこまりました（丁寧な Yes）",
+      "exampleSentence": {
+        "targetText": "Certainly, sir.",
+        "transliteration": "サーテンリー、サー",
+        "baseTranslation": "かしこまりました、お客様。"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "I would like the steak and a salad.",
+      "transliteration": "アイ ウッド ライク ザ ステーキ アンド ア サラダ",
+      "baseTranslation": "ステーキとサラダをお願いします。（I want the steak より丁寧）"
+    },
+    {
+      "targetText": "Could you bring me a glass of red wine, please?",
+      "transliteration": "クジュー ブリング ミー ア グラス オヴ レッド ワイン、プリーズ？",
+      "baseTranslation": "赤ワインを一杯持ってきていただけますか？（Can you bring me... より丁寧）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ウェイターが注文を取る時、「Can I take your order?」の代わりにより丁寧な表現として何を使っていますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "May I take your order?",
+        "I want to take your order.",
+        "Could you take your order?",
+        "Do you want to order?"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "客は「ステーキが欲しい（I want the steak）」ということを、どのように丁寧にお願いしていますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "I would like the steak.",
+        "Give me the steak.",
+        "May I the steak.",
+        "Could you the steak."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "客は飲み物として何を頼みましたか？ (What did the customer ask to drink?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Water",
+        "Coffee",
+        "Red wine",
+        "White wine"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ウェイターが飲み物を勧める時、「Do you want...」の代わりに何と言っていますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Would you like something to drink?",
+        "May I drink something?",
+        "Could you drink something?",
+        "I would like something to drink."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後に、ウェイターは何の許可をもらっていますか？ (What is the waiter asking permission to do at the end?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "To bring the bill.",
+        "To take the menu.",
+        "To eat the steak.",
+        "To take a picture."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "May I take your order?",
+      "q2": "I would like the steak.",
+      "q3": "Red wine",
+      "q4": "Would you like something to drink?",
+      "q5": "To take the menu."
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The text uses 'May I' for asking permission politely.",
+      "It uses 'I would like' instead of 'I want' for ordering.",
+      "It uses 'Would you like' instead of 'Do you want' for offering.",
+      "It uses 'Could you' for polite requests."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You clearly understand how polite language functions in a restaurant setting.",
+    "onFail": "Please read carefully. Look for the modal verbs 'May', 'Could', and 'Would' as they are the keys to politeness.",
+    "onPartial": "Good effort. Pay close attention to who is speaking: the waiter offers (Would you like) and asks permission (May I), while the customer requests (Could you, I would like)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B3_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B3_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Waiter: Good evening, sir. May I take your order?...",
+    "audioLanguage": "en",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "politeness",
+    "restaurant",
+    "modals"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how the customer says 'I would like...' instead of 'I want...' when ordering food.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

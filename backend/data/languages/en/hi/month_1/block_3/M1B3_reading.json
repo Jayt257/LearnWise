@@ -1,0 +1,234 @@
+{
+  "activityId": "hi_en_M1B3_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "Reading: Decoding Matras and Common Objects",
+  "learningGoal": "Apply the rules of Matras to read real Hindi words and simple sentences describing objects.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_pronunciation_2"
+  ],
+  "instructions": "In this reading exercise, you will practice decoding Matras (vowel signs). The sentences use the 'Yeh ... hai' (This is a ...) structure. Look closely at the vowel signs attached to the consonants to read the vocabulary words.",
+  "readingTitle": "यह क्या है? (What is this?)",
+  "readingText": "अमित: नमस्ते राहुल। यह क्या है? (What is this?)\nराहुल: नमस्ते अमित। यह किताब है।\nअमित: और वह क्या है? (And what is that?)\nराहुल: वह गाड़ी है। गाड़ी अमेरिका से है।\nअमित: क्या यह कंप्यूटर है? (Is this a computer?)\nराहुल: हाँ, यह कंप्यूटर है।\nअमित: धन्यवाद राहुल।\nराहुल: नमस्ते।",
+  "textInTargetLanguage": "अमित: नमस्ते राहुल। यह क्या है?\nराहुल: नमस्ते अमित। यह किताब है।\nअमित: और वह क्या है?\nराहुल: वह गाड़ी है। गाड़ी अमेरिका से है。\nअमित: क्या यह कंप्यूटर है?\nराहुल: हाँ, यह कंप्यूटर है।\nअमित: धन्यवाद राहुल।\nराहुल: नमस्ते।",
+  "baseLanguageSupportText": "Amit: Hello Rahul. What is this?\nRahul: Hello Amit. This is a book.\nAmit: And what is that?\nRahul: That is a car. The car is from America.\nAmit: Is this a computer?\nRahul: Yes, this is a computer.\nAmit: Thank you Rahul.\nRahul: Goodbye.",
+  "glossary": [
+    {
+      "targetText": "क्या",
+      "transliteration": "kya",
+      "baseTranslation": "what",
+      "exampleSentence": {
+        "targetText": "यह क्या है?",
+        "transliteration": "Yeh kya hai?",
+        "baseTranslation": "What is this?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "book",
+      "exampleSentence": {
+        "targetText": "यह किताब है।",
+        "transliteration": "Yeh kitaab hai.",
+        "baseTranslation": "This is a book."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "woh",
+      "baseTranslation": "that / he / she",
+      "exampleSentence": {
+        "targetText": "वह गाड़ी है।",
+        "transliteration": "Woh gaadi hai.",
+        "baseTranslation": "That is a car."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "gaadi",
+      "baseTranslation": "car / vehicle",
+      "exampleSentence": {
+        "targetText": "वह गाड़ी है।",
+        "transliteration": "Woh gaadi hai.",
+        "baseTranslation": "That is a car."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "कंप्यूटर",
+      "transliteration": "kampyutar",
+      "baseTranslation": "computer",
+      "exampleSentence": {
+        "targetText": "यह कंप्यूटर है।",
+        "transliteration": "Yeh kampyutar hai.",
+        "baseTranslation": "This is a computer."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "हाँ",
+      "transliteration": "haan",
+      "baseTranslation": "yes",
+      "exampleSentence": {
+        "targetText": "हाँ, यह किताब है।",
+        "transliteration": "Haan, yeh kitaab hai.",
+        "baseTranslation": "Yes, this is a book."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "यह क्या है?",
+      "transliteration": "Yeh kya hai?",
+      "baseTranslation": "What is this?"
+    },
+    {
+      "targetText": "वह गाड़ी है।",
+      "transliteration": "Woh gaadi hai.",
+      "baseTranslation": "That is a car."
+    },
+    {
+      "targetText": "क्या यह कंप्यूटर है?",
+      "transliteration": "Kya yeh kampyutar hai?",
+      "baseTranslation": "Is this a computer?"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "What does Amit ask first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yeh kya hai? (What is this?)",
+        "Aap kaise hain? (How are you?)",
+        "Woh gaadi hai. (That is a car.)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "What is the Hindi word for 'Book' in the text?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kitaab (किताब)",
+        "Gaadi (गाड़ी)",
+        "Kampyutar (कंप्यूटर)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "If 'yeh' (यह) means 'this', what does 'woh' (वह) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "that",
+        "where",
+        "who"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "Where is the car (gaadi) from?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Amerika (America)",
+        "Bharat (India)",
+        "Spain"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "Look at the word 'क्या' (Kya). What do you notice about the first letter 'k'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It is a half-letter 'k' (क्) joined to 'ya' (या).",
+        "It has an 'aa' matra on it.",
+        "It has a short 'i' matra on it."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    },
+    {
+      "questionId": "rq_6",
+      "questionText": "Grammar Check: When the word 'Kya' (क्या) is placed at the VERY BEGINNING of a sentence ('Kya yeh kampyutar hai?'), what happens to the sentence?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It turns the sentence into a Yes/No question (Is this a computer?).",
+        "It means 'What is this computer?'.",
+        "It means 'This is a computer'."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_6"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Yeh kya hai? (What is this?)",
+      "rq_2": "Kitaab (किताब)",
+      "rq_3": "that",
+      "rq_4": "Amerika (America)",
+      "rq_5": "It is a half-letter 'k' (क्) joined to 'ya' (या).",
+      "rq_6": "It turns the sentence into a Yes/No question (Is this a computer?)."
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Identify words with matras like Kitaab and Gaadi.",
+      "Understand the difference between Yeh (this) and Woh (that).",
+      "Recognize the Yes/No question structure using Kya."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Superb reading! You successfully decoded matras and half-letters in context.",
+    "onFail": "Review the Matras lesson. Remember that 'ki' in kitaab has a short 'i' matra that goes before the letter.",
+    "onPartial": "Good effort! Note that placing 'Kya' at the start of a sentence simply makes it a Yes/No question."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "अमित: नमस्ते राहुल। यह क्या है? राहुल: नमस्ते अमित। यह किताब है। अमित: और वह क्या है? राहुल: वह गाड़ी है। गाड़ी अमेरिका से है。 अमित: क्या यह कंप्यूटर है? राहुल: हाँ, यह कंप्यूटर है। अमित: धन्यवाद राहुल। राहुल: नमस्ते।",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "matras",
+    "objects",
+    "yeh_woh",
+    "questions"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Compare 'Yeh kya hai?' (What is this) with 'Kya yeh kitaab hai?' (Is this a book). The position of 'kya' changes its meaning.",
+  "commonMistakes": [
+    "Reading 'kya' as 'ka-ya' instead of a blended 'kya'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,179 @@
+{
+  "activityId": "en_hi_M1B3_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "What Do You See?",
+  "learningGoal": "The learner will fluidly speak SVO sentences to describe visual objects, demonstrating real-time mastery of when to prepend 'A/An' (for singulars) and when to append '-s/-es' (for plurals).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B3_vocabulary_001"],
+  "instructions": "In this exercise, you are walking in a park with your English teacher. Your teacher will ask you what you see. You must reply verbally using 'I see...'. Remember to use 'A' or 'An' for single things, and NO article for multiple things. Say the plural 'S' sounds clearly.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Make sure your 'Z' plural sound vibrates for words like 'Dogs' and 'Cars'."
+    }
+  ],
+  "speakingPrompt": "Answer the teacher's 'What do you see?' questions aloud.",
+  "scenario": "Walking through the park, pointing at various objects, animals, and people.",
+  "role": "Student observing the park",
+  "conversationPartner": "Your English Teacher",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "शिक्षक कहते हैं, 'Look over there. What do you see?' (वहाँ देखो। तुम क्या देखते हो?)। उन्हें बताएं कि आप एक बिल्ली देखते हैं। (I see... का उपयोग करें)।",
+      "expectedSpeakingPoints": ["Use I see", "Use a cat"],
+      "sampleResponse": {
+        "targetText": "I see a cat.",
+        "transliteration": "आई सी अ कैट।",
+        "baseTranslation": "मैं एक बिल्ली देखता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "शिक्षक कहते हैं, 'Oh yes. And what is next to the tree?' (पेड़ के बगल में क्या है?)। उन्हें बताएं कि आप 'दो कुत्ते' देखते हैं।",
+      "expectedSpeakingPoints": ["Use I see", "Use two dogs", "Do not use 'a'"],
+      "sampleResponse": {
+        "targetText": "I see two dogs.",
+        "transliteration": "आई सी टू डॉग्स।",
+        "baseTranslation": "मैं दो कुत्ते देखता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "शिक्षक कहते हैं, 'Are you hungry? Look at the bench.' (क्या तुम भूखे हो? बेंच पर देखो।)। उन्हें बताएं कि आप 'एक सेब' देखते हैं।",
+      "expectedSpeakingPoints": ["Use I see", "Use an apple", "Do not use 'a apple'"],
+      "sampleResponse": {
+        "targetText": "I see an apple.",
+        "transliteration": "आई सी ऐन ऐपल।",
+        "baseTranslation": "मैं एक सेब देखता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "शिक्षक कहते हैं, 'Look at the road. What do you see?' (सड़क की ओर देखो। तुम क्या देखते हो?)। उन्हें बताएं कि आप 'तीन बसें' देखते हैं। (-es ध्वनि पर ध्यान दें)।",
+      "expectedSpeakingPoints": ["Use I see", "Use three buses", "Pronounce bus-iz"],
+      "sampleResponse": {
+        "targetText": "I see three buses.",
+        "transliteration": "आई सी थ्री बसेस।",
+        "baseTranslation": "मैं तीन बसें देखता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "शिक्षक कहते हैं, 'It is time to go. Let us get your bags.' (जाने का समय हो गया है। चलो तुम्हारे थैले लेते हैं।)। उन्हें बताएं कि आप 'अपना डिब्बा' (one box) भी देखते हैं।",
+      "expectedSpeakingPoints": ["Use I see", "Use a box"],
+      "sampleResponse": {
+        "targetText": "I see a box.",
+        "transliteration": "आई सी अ बॉक्स।",
+        "baseTranslation": "मैं एक डिब्बा देखता हूँ।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "It is a beautiful park.",
+    "transliteration": "इट इज़ अ ब्यूटीफुल पार्क।",
+    "baseTranslation": "यह एक सुंदर पार्क है।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I see a cat.",
+      "transliteration": "आई सी अ कैट।",
+      "baseTranslation": "मैं एक बिल्ली देखता हूँ।"
+    },
+    {
+      "targetText": "I see two dogs.",
+      "transliteration": "आई सी टू डॉग्स।",
+      "baseTranslation": "मैं दो कुत्ते देखता हूँ।"
+    },
+    {
+      "targetText": "I see an apple.",
+      "transliteration": "आई सी ऐन ऐपल।",
+      "baseTranslation": "मैं एक सेब देखता हूँ।"
+    },
+    {
+      "targetText": "I see three buses.",
+      "transliteration": "आई सी थ्री बसेस।",
+      "baseTranslation": "मैं तीन बसें देखता हूँ।"
+    },
+    {
+      "targetText": "I see a box.",
+      "transliteration": "आई सी अ बॉक्स।",
+      "baseTranslation": "मैं एक डिब्बा देखता हूँ।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 20,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "see",
+      "a cat",
+      "two dogs",
+      "an apple",
+      "three buses",
+      "a box"
+    ],
+    "requiredKeywords": [
+      "see",
+      "cat",
+      "dogs",
+      "apple",
+      "buses",
+      "box"
+    ],
+    "acceptableParaphrases": [
+      "I see one cat",
+      "I can see an apple",
+      "There are two dogs"
+    ],
+    "scoringRubric": {
+      "Article Accuracy": "Did the user correctly use 'An' with apple, and 'A' with cat/box?",
+      "Plural Suppression": "Did the user correctly NOT use 'A' before dogs and buses?"
+    },
+    "sampleAnswer": "I see a cat. I see two dogs. I see an apple. I see three buses. I see a box.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! Your English instincts are working perfectly. You naturally added 'An', dropped articles for plurals, and pronounced '-es' correctly.",
+    "onFail": "Keep practicing! You probably kept saying 'A dogs' or 'A apple'. 'A' and 'An' mean exactly one. Vowels (A, E, I, O, U) need 'An'.",
+    "onPartial": "Good try! You missed a few plural rules. Make sure you clearly pronounce the 'iz' at the end of 'buses'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b3/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m1/b3/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b3/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m1/b3/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m1/b3/speaking/full_dialogue.mp3",
+    "audioTranscript": "Teacher: Look over there. What do you see?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "articles", "plurals", "objects", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b3/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak slowly. Think about the first letter of the target word. Apple starts with A (a vowel sound). So it must be 'An apple'.",
+  "commonMistakes": [
+    "Saying 'I see a two dogs' - directly translating 'मैं एक दो कुत्ते देखता हूँ' incorrectly.",
+    "Saying 'I see a apple'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B3_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,405 @@
+{
+  "activityId": "en_hi_M1B2_test_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Mega Assessment: Pronouns & Verbs",
+  "learningGoal": "The learner will demonstrate a comprehensive understanding of English subject pronouns and their strict auxiliary 'To Be' verb pairings, as well as the ability to construct SVO negative sentences.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M1B2_lesson_001",
+    "en_hi_M1B2_pronunciation_001",
+    "en_hi_M1B2_reading_001",
+    "en_hi_M1B2_writing_001",
+    "en_hi_M1B2_listening_001",
+    "en_hi_M1B2_vocabulary_001",
+    "en_hi_M1B2_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 2. It contains 20 questions across Grammar, Vocabulary, Reading, and Writing/Structures. You must know your I/You/He/She/It/We/They rules to pass.",
+  "testTitle": "Block 2 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: Subject + Verb + Object.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: To-Be Verb Conjugation",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: I _____ a student.",
+          "questionType": "multiple_choice",
+          "options": ["is", "am", "are", "be"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the blank: They _____ from Delhi.",
+          "questionType": "multiple_choice",
+          "options": ["am", "is", "are", "was"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "If you are pointing to a dog, what sentence is correct?",
+          "questionType": "multiple_choice",
+          "options": ["He is a dog.", "It is a dog.", "She is a dog.", "We are a dog."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "It is a dog.",
+            "transliteration": "इट इज़ अ डॉग।",
+            "baseTranslation": "यह एक कुत्ता है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "How do you make 'She is happy' negative?",
+          "questionType": "multiple_choice",
+          "options": ["She not is happy.", "Not she is happy.", "She is not happy.", "She is happy not."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "She is not happy.",
+            "transliteration": "शी इज़ नॉट हैप्पी।",
+            "baseTranslation": "वह खुश नहीं है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "What does the contraction 'They're' mean in long form?",
+          "questionType": "multiple_choice",
+          "options": ["They am", "They is", "They are", "They not"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the English word for: 'लंबा'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Tall",
+            "transliteration": "टॉल",
+            "baseTranslation": "लंबा"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the meaning of 'Smart'?",
+          "questionType": "multiple_choice",
+          "options": ["छोटा", "लंबा", "होशियार", "दयालु"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Smart",
+            "transliteration": "स्मार्ट",
+            "baseTranslation": "होशियार"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which pronoun is used exclusively for women/girls?",
+          "questionType": "multiple_choice",
+          "options": ["He", "She", "It", "They"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Write the English word for: 'भाई'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Brother",
+            "transliteration": "ब्रदर",
+            "baseTranslation": "भाई"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Which English word means 'हम'?",
+          "questionType": "multiple_choice",
+          "options": ["We", "You", "They", "He"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Reading",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Read the sentence and find the mistake: 'I is a doctor.'",
+          "questionType": "multiple_choice",
+          "options": ["The mistake is 'I'. It should be 'Me is a doctor'.", "The mistake is 'is'. It should be 'I am a doctor'.", "There is no mistake."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am a doctor.",
+            "transliteration": "आई एम अ डॉक्टर।",
+            "baseTranslation": "मैं एक डॉक्टर हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "True or False: If you are talking to one single person, you should say 'You is'.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "If a man is your friend, you say: '___ is my friend.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He",
+            "transliteration": "ही",
+            "baseTranslation": "वह"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Find the correct sentence.",
+          "questionType": "multiple_choice",
+          "options": ["We are not students.", "We not are students.", "Not we are students."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We are not students.",
+            "transliteration": "वी आर नॉट स्टूडेंट्स।",
+            "baseTranslation": "हम छात्र नहीं हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which is the correct contraction for 'I am'?",
+          "questionType": "multiple_choice",
+          "options": ["I'm", "Iam'", "Im'", "I'am"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'वह मेरी बहन है।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "She is my sister.",
+            "transliteration": "शी इज़ माई सिस्टर।",
+            "baseTranslation": "वह मेरी बहन है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'वे खुश हैं।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They are happy.",
+            "transliteration": "दे आर हैप्पी।",
+            "baseTranslation": "वे खुश हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'मैं डॉक्टर नहीं हूँ।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am not a doctor.",
+            "transliteration": "आई एम नॉट अ डॉक्टर।",
+            "baseTranslation": "मैं डॉक्टर नहीं हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'हम दोस्त हैं।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We are friends.",
+            "transliteration": "वी आर फ्रेंड्स।",
+            "baseTranslation": "हम दोस्त हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "True or False: In English, 'You' is always followed by 'are', even if you are talking to one person.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "am",
+      "q002": "are",
+      "q003": "It is a dog.",
+      "q004": "She is not happy.",
+      "q005": "They are",
+      "q006": "Tall",
+      "q007": "होशियार",
+      "q008": "She",
+      "q009": "Brother",
+      "q010": "We",
+      "q011": "The mistake is 'is'. It should be 'I am a doctor'.",
+      "q012": "False",
+      "q013": "He",
+      "q014": "We are not students.",
+      "q015": "I'm",
+      "q016": "She is my sister.",
+      "q017": "They are happy.",
+      "q018": "I am not a doctor.",
+      "q019": "We are friends.",
+      "q020": "True"
+    },
+    "scoringRubric": {
+      "q016": "Full marks if written perfectly. Partial if punctuation is missing."
+    },
+    "partialCreditRules": {
+      "q016": "Give 3 marks if 'she is my sister' (no capitals)."
+    },
+    "alternateValidAnswers": {
+      "q006": ["tall"],
+      "q009": ["brother"],
+      "q013": ["he"],
+      "q016": ["she is my sister", "She's my sister.", "She is my sister"],
+      "q017": ["they are happy", "They're happy.", "They are happy"],
+      "q018": ["i am not a doctor", "I'm not a doctor.", "I am not a doctor"],
+      "q019": ["we are friends", "We're friends.", "We are friends"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have completely passed Block 2. You now instinctively know how to pair English pronouns with To-Be verbs, and make them negative.",
+    "onFail": "Keep pushing! You did not meet the 75% threshold. Please look at your sentence structures closely (SVO) and review your pronoun matches (I am, He is, They are).",
+    "onPartial": "Good attempt! You were very close. Please review the questions where you slipped up on negative sentence structures."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block2", "svo", "to-be", "pronouns", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B3_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

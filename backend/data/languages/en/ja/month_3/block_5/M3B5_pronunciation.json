@@ -1,0 +1,150 @@
+{
+  "activityId": "ja_en_M3B5_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Emergencies",
+  "learningGoal": "The learner will master the rapid, clear pronunciation of emergency phrases to ensure they can be understood by dispatchers or doctors under stress.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B5_lesson_001",
+    "ja_en_M3B5_vocabulary_001"
+  ],
+  "instructions": "In this exercise, practice stating these emergency phrases loudly and clearly. In a real emergency, pronunciation must be crisp.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For example: 'Kyuukyuusha wo yonde kudasai!' needs to be loud and clear, emphasizing the long 'uu' sounds."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "きゅうきゅうしゃを よんで ください",
+      "transliteration": "Kyuukyuusha wo yonde kudasai",
+      "baseTranslation": "Please call an ambulance.",
+      "phoneticHint": "kyoo-kyoo-shah oh yon-deh koo-dah-sigh",
+      "syllableSplit": "kyu-u-kyu-u-sha o yo-n-de ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Kyukyusha' without holding the long 'uu' vowel sounds."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "けいさつを よんで ください",
+      "transliteration": "Keisatsu wo yonde kudasai",
+      "baseTranslation": "Please call the police.",
+      "phoneticHint": "kay-sah-tsoo oh yon-deh koo-dah-sigh",
+      "syllableSplit": "ke-i-sa-tsu o yo-n-de ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'Keisatu' instead of 'Keisatsu' (tsu sound)."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "パスポートを ぬすまれました",
+      "transliteration": "Pasupooto wo nusumaremashita",
+      "baseTranslation": "My passport was stolen.",
+      "phoneticHint": "pah-soo-poh-toh oh noo-soo-mah-reh-mah-shee-tah",
+      "syllableSplit": "pa-su-po-o-to o nu-su-ma-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Tripping over the passive ending 'nusumaremashita'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "さいふを なくして しまいました",
+      "transliteration": "Saifu wo nakushite shimaimashita",
+      "baseTranslation": "I unfortunately lost my wallet.",
+      "phoneticHint": "sigh-foo oh nah-koo-shee-teh shee-my-mah-shee-tah",
+      "syllableSplit": "sa-i-fu o na-ku-shi-te shi-ma-i-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'nakushite shimamashita' (dropping the 'i')."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "おなかが いたいです",
+      "transliteration": "Onaka ga itai desu",
+      "baseTranslation": "My stomach hurts.",
+      "phoneticHint": "oh-nah-kah gah ee-tie dess",
+      "syllableSplit": "o-na-ka ga i-ta-i de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Mumbling the 'ga' particle."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "たすけて",
+      "transliteration": "Tasukete",
+      "baseTranslation": "Help me!",
+      "phoneticHint": "tah-soo-keh-teh",
+      "syllableSplit": "ta-su-ke-te",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'Tas'kete' (It should have three clear syllables)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "きゅうきゅうしゃをよんでください けいさつをよんでください パスポートをぬすまれました さいふをなくしてしまいました おなかがいたいです たすけて",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! Your pronunciation is clear enough for any emergency dispatcher.",
+    "onFail": "Keep practicing! In an emergency, clear vowels are crucial. Speak loudly and enunciate.",
+    "onPartial": "Good effort. Pay close attention to 'Kyuukyuusha'. Hold the 'u' sound longer."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "きゅうきゅうしゃをよんでください けいさつをよんでください パスポートをぬすまれました さいふをなくしてしまいました おなかがいたいです たすけて",
+    "acceptedVariants": [
+      "きゅうきゅうしゃを よんで ください けいさつを よんで ください パスポートを ぬすまれました さいふを なくして しまいました おなかが いたいです たすけて"
+    ],
+    "syllableSplitReference": "kyu-u-kyu-u-sha-o-yo-n-de-ku-da-sa-i ke-i-sa-tsu-o-yo-n-de-ku-da-sa-i pa-su-po-o-to-o-nu-su-ma-re-ma-shi-ta sa-i-fu-o-na-ku-shi-te-shi-ma-i-ma-shi-ta o-na-ka-ga-i-ta-i-de-su ta-su-ke-te",
+    "phoneticApproximation": "kyuukyuushawoyondekudasai keisatsuwoyondekudasai pasupootowonusumaremashita saifuwonakushiteshimaimashita onakagaitaidesu tasukete",
+    "nativeScriptReference": "きゅうきゅうしゃをよんでください けいさつをよんでください パスポートをぬすまれました さいふをなくしてしまいました おなかがいたいです たすけて",
+    "transliteration": "Kyuukyuusha wo yonde kudasai Keisatsu wo yonde kudasai Pasupooto wo nusumaremashita Saifu wo nakushite shimaimashita Onaka ga itai desu Tasukete",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b5/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m3/b5/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b5/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "きゅうきゅうしゃを よんで ください。けいさつを よんで ください。パスポートを ぬすまれました。さいふを なくして しまいました。おなかが いたいです。たすけて。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "medical",
+    "police",
+    "emergencies",
+    "advanced",
+    "month3",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with urgency but maintain clear diction. Do not slur the particles (wo, ga).",
+  "commonMistakes": [
+    "Mispronouncing 'Kyuukyuusha' as 'Kukusha'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

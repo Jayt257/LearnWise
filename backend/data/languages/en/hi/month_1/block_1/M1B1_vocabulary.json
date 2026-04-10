@@ -1,0 +1,245 @@
+{
+  "activityId": "hi_en_M1B1_vocabulary_6",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "vocabulary",
+  "title": "Vocabulary: Your First Words in Hindi",
+  "learningGoal": "Memorize the core greetings, pronouns, and basic verbs used in introductory conversations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M1B1_lesson_1"
+  ],
+  "instructions": "Here are the most essential words from our first lesson. Pay close attention to the difference between 'Main' (I) and 'Aap' (You). Use the audio to practice your pronunciation.",
+  "vocabTheme": "Greetings and Basic Pronouns",
+  "wordList": [
+    {
+      "wordId": "v_1",
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "Hello / Greetings",
+      "partOfSpeech": "greeting",
+      "formalityLevel": "polite",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_2",
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "You",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "formal",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_3",
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "I",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_4",
+      "targetText": "कैसे",
+      "transliteration": "kaise",
+      "baseTranslation": "how",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_5",
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_6",
+      "targetText": "हूँ",
+      "transliteration": "hoon",
+      "baseTranslation": "am",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_7",
+      "targetText": "ठीक",
+      "transliteration": "theek",
+      "baseTranslation": "fine / okay / right",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "धन्यवाद",
+      "transliteration": "Dhanyawad",
+      "baseTranslation": "Thank you",
+      "partOfSpeech": "phrase",
+      "formalityLevel": "formal",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_9",
+      "targetText": "हाँ",
+      "transliteration": "Haan",
+      "baseTranslation": "Yes",
+      "partOfSpeech": "particle",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_10",
+      "targetText": "नहीं",
+      "transliteration": "Nahi",
+      "baseTranslation": "No",
+      "partOfSpeech": "particle",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "meaningList": [
+    "Hello", "You", "I", "how", "are", "am", "fine", "Thank you", "Yes", "No"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v_2",
+      "targetText": "आप कैसे हैं?",
+      "transliteration": "Aap kaise hain?",
+      "baseTranslation": "How are you?"
+    },
+    {
+      "wordId": "v_3",
+      "targetText": "मैं ठीक हूँ।",
+      "transliteration": "Main theek hoon.",
+      "baseTranslation": "I am fine."
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "धन्यवाद।",
+      "transliteration": "Dhanyawad.",
+      "baseTranslation": "Thank you."
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "vq_1",
+      "questionText": "What does 'Aap' (आप) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "You (formal)",
+        "I",
+        "He"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_1"
+    },
+    {
+      "questionId": "vq_2",
+      "questionText": "Which word is the formal way to say 'Thank you' in Hindi?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Dhanyawad (धन्यवाद)",
+        "Namaste (नमस्ते)",
+        "Haan (हाँ)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_2"
+    },
+    {
+      "questionId": "vq_3",
+      "questionText": "If someone asks 'Aap kaise hain?', and you want to say 'I am fine', which word means 'fine'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Theek (ठीक)",
+        "Main (मैं)",
+        "Hoon (हूँ)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_3"
+    },
+    {
+      "questionId": "vq_4",
+      "questionText": "What does 'Main' (मैं) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "I",
+        "You",
+        "How"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_4"
+    },
+    {
+      "questionId": "vq_5",
+      "questionText": "Match the verb to the pronoun: If the pronoun is 'Main' (I), the verb at the end is...",
+      "questionType": "multiple_choice",
+      "options": [
+        "Hoon (हूँ) - am",
+        "Hain (हैं) - are",
+        "Kaise (कैसे) - how"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "vq_1": "You (formal)",
+      "vq_2": "Dhanyawad (धन्यवाद)",
+      "vq_3": "Theek (ठीक)",
+      "vq_4": "I",
+      "vq_5": "Hoon (हूँ) - am"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! You've learned your first 10 Hindi words.",
+    "onFail": "Review the list. Pay attention to the difference between 'Main' (I) and 'Aap' (You).",
+    "onPartial": "Good try! Remember that 'Hoon' goes with 'Main', and 'Hain' goes with 'Aap'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "vocabulary",
+    "greetings",
+    "pronouns",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "In Hindi, verbs change based on the pronoun. 'Main' always takes 'hoon', and 'Aap' always takes 'hain'.",
+  "commonMistakes": [
+    "Saying 'Main theek hain' (incorrect matching of pronoun and verb)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B1_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

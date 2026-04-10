@@ -1,0 +1,280 @@
+{
+  "activityId": "en_ja_M3B6_test_8",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "3-Month Mega Assessment",
+  "learningGoal": "Evaluate your comprehensive understanding of all grammar, vocabulary, and situational English learned over the past 3 months.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "en_ja_M3B6_speaking_7"
+  ],
+  "instructions": "これまでの3ヶ月間の総まとめとなる最終テストです。時制、比較、条件法、ビジネス英語、緊急時の表現など、全範囲から出題されます。(This is the final assessment for the past 3 months. It covers all grammar, vocabulary, and situational expressions.)",
+  "testTitle": "Ultimate English Mastery Test",
+  "testScope": "month_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Tenses (時制)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「私は去年、ロンドンに行きました」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have been to London last year.",
+            "I went to London last year.",
+            "I go to London last year.",
+            "I am going to London last year."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「彼はハワイに3回行ったことがあります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "He went to Hawaii three times.",
+            "He has been to Hawaii three times.",
+            "He was in Hawaii three times.",
+            "He is going to Hawaii three times."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "「明日、もし雨が降ったら家にいます」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "If it will rain tomorrow, I stay home.",
+            "If it rains tomorrow, I will stay home.",
+            "If it is rain tomorrow, I stayed home.",
+            "If it rained tomorrow, I will stay home."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Polite Requests & Business (丁寧な依頼とビジネス)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「手伝っていただけませんか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Would you mind helping me?",
+            "Would you mind to help me?",
+            "Do you mind help me?",
+            "Could you mind helping me?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「会議を延期することは可能でしょうか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Is it possible postponing the meeting?",
+            "Would it be possible to postpone the meeting?",
+            "Do you possible to postpone the meeting?",
+            "Can you possible postpone the meeting?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「遅れて申し訳ありません（フォーマル）」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I apologize for the delay.",
+            "I am sorry for late.",
+            "I apologize my late.",
+            "Sorry for delay."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Medical & Emergencies (医療と緊急事態)",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「私は猫アレルギーです」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am allergy cats.",
+            "I have allergic cats.",
+            "I am allergic to cats.",
+            "I allergic with cats."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「ひどい頭痛があります。薬を飲みたいです」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have a terrible headache. I want to drink medicine.",
+            "I have a terrible headache. I want to take medicine.",
+            "My head hurts terrible. I want to take medicine.",
+            "I am headache. I want to drink medicine."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「旅行保険」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Travel ambulance",
+            "Travel insurance",
+            "Travel prescription",
+            "Travel pharmacy"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "Vocabulary & Phrasal Verbs (語彙と句動詞)",
+      "questions": [
+        {
+          "questionId": "q10",
+          "questionText": "「give up」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "あきらめる",
+            "上に行く",
+            "理解する",
+            "目を覚ます"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        },
+        {
+          "questionId": "q11",
+          "questionText": "「under the weather」はどういう意味ですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "天気が悪い",
+            "体調が悪い",
+            "とても簡単",
+            "傘がない"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q11"
+        },
+        {
+          "questionId": "q12",
+          "questionText": "「お返事を楽しみにしています（ビジネス）」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I look forward to hear from you.",
+            "I look forward to hearing from you.",
+            "I am looking forward to hear you.",
+            "I look forward hear you."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q12"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "I went to London last year.",
+      "q2": "He has been to Hawaii three times.",
+      "q3": "If it rains tomorrow, I will stay home.",
+      "q4": "Would you mind helping me?",
+      "q5": "Would it be possible to postpone the meeting?",
+      "q6": "I apologize for the delay.",
+      "q7": "I am allergic to cats.",
+      "q8": "I have a terrible headache. I want to take medicine.",
+      "q9": "Travel insurance",
+      "q10": "あきらめる",
+      "q11": "体調が悪い",
+      "q12": "I look forward to hearing from you."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 20,
+      "sec_4": 20
+    },
+    "overallPassMark": 90
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Congratulaions! 3ヶ月間の学習の成果がしっかり出ています。あなたはこのレベルを完全にマスターしました！",
+    "onFail": "もう一度復習しましょう。特に間違えたセクション（時制、ビジネス、医療など）のレッスンを再度確認してください。",
+    "onPartial": "よくできました。非常にハイレベルな内容ですが、あともう少しで完璧です。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_6",
+    "month_3",
+    "mega_assessment",
+    "final_exam"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Take your time. This test covers everything from tenses to medical emergencies.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [],
+  "attemptLimit": null,
+  "metadata": {}
+}

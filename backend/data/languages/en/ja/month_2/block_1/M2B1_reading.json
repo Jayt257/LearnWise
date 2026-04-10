@@ -1,0 +1,233 @@
+{
+  "activityId": "ja_en_M2B1_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "The Haunted Ryokan",
+  "learningGoal": "The learner will read a descriptive passage to identify spatial locations (ue, shita, naka), distinguish animate (imasu) from inanimate (arimasu) existence, and interpret negative adjective conjugations.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B1_lesson_001",
+    "ja_en_M2B1_vocabulary_001"
+  ],
+  "instructions": "Read the story about a student staying at an old traditional Japanese inn (Ryokan). Pay close attention to exactly what objects are in the room, where they are located, and whether they are alive (imasu) or not (arimasu).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Notice the use of 'ja arimasen' and 'ku arimasen' to describe what the room is NOT."
+    }
+  ],
+  "readingTitle": "A Strange Night at the Inn",
+  "readingText": "ここは ふるい りょかんです。とても しずかです。あたらしくありません。へやの なかに おおきい つくえが あります。つくえの うえに ほんが あります。でも、ほんは きれいじゃありません。そして、ベッドの したに こどもが います。",
+  "textInTargetLanguage": "ここは ふるい りょかんです。とても しずかです。あたらしくありません。へやの なかに おおきい つくえが あります。つくえの うえに ほんが あります。でも、ほんは きれいじゃありません。そして、ベッドの したに こどもが います。",
+  "baseLanguageSupportText": "This is an old inn. It is very quiet. It is not new. Inside the room, there is a large desk. On top of the desk, there is a book. But, the book is not clean. And, under the bed, there is a child.",
+  "glossary": [
+    {
+      "targetText": "ふるい",
+      "transliteration": "Furui",
+      "baseTranslation": "Old",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "りょかん",
+      "transliteration": "Ryokan",
+      "baseTranslation": "Traditional Japanese Inn",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あたらしくありません",
+      "transliteration": "Atarashiku arimasen",
+      "baseTranslation": "Is not new",
+      "exampleSentence": {
+        "targetText": "この りょかんは あたらしくありません。",
+        "transliteration": "Kono ryokan wa atarashiku arimasen.",
+        "baseTranslation": "This inn is not new."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "へやの なか",
+      "transliteration": "Heya no naka",
+      "baseTranslation": "Inside the room",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おおきい つくえ",
+      "transliteration": "Ookii tsukue",
+      "baseTranslation": "Big desk",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "きれいじゃありません",
+      "transliteration": "Kirei ja arimasen",
+      "baseTranslation": "Is not clean / Is not beautiful",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "こども",
+      "transliteration": "Kodomo",
+      "baseTranslation": "Child",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "へやの なかに おおきい つくえが あります。",
+      "transliteration": "Heya no naka ni ookii tsukue ga arimasu.",
+      "baseTranslation": "Inside the room, there is a big desk."
+    },
+    {
+      "targetText": "つくえの うえに ほんが あります。",
+      "transliteration": "Tsukue no ue ni hon ga arimasu.",
+      "baseTranslation": "On top of the desk, there is a book."
+    },
+    {
+      "targetText": "ベッドの したに こどもが います。",
+      "transliteration": "Beddo no shita ni kodomo ga imasu.",
+      "baseTranslation": "Under the bed, there is a child."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "How is the Ryokan (Inn) described in the first three sentences?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Old, quiet, and not new",
+        "New, lively, and expensive",
+        "Big, beautiful, and not old",
+        "Small, quiet, and not clean"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What exists INSIDE the room?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A small chair",
+        "A big desk",
+        "A beautiful book",
+        "A quiet dog"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What exists ON TOP OF the desk?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A child",
+        "A tree",
+        "A cat",
+        "A book"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "How is the book described?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It is new.",
+        "It is not clean.",
+        "It is not expensive.",
+        "It is large."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Look closely at the final sentence. Is the thing under the bed alive (animate) or inanimate?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Alive (it uses imasu)",
+        "Inanimate (it uses arimasu)",
+        "It doesn't say."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    },
+    {
+      "questionId": "q006",
+      "questionText": "Write the romaji for the positional noun used to describe where the child is located.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q006"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Old, quiet, and not new",
+      "q002": "A big desk",
+      "q003": "A book",
+      "q004": "It is not clean.",
+      "q005": "Alive (it uses imasu)",
+      "q006": "shita"
+    },
+    "acceptableParaphrases": {
+      "q006": ["shita", "Shita", "した"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The inn is old, quiet, and not new.",
+      "There is a big desk in the room.",
+      "There is a dirty book on the desk.",
+      "There is a living child under the bed."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading comprehension! You easily handled negative adjectives and positional words.",
+    "onFail": "Review the positional words. Naka = inside, Ue = top, Shita = under.",
+    "onPartial": "Good effort. Remember that 'Kirei ja arimasen' means 'is not clean/beautiful'. 'Atarashiku arimasen' means 'is not new'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b1/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b1/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b1/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m2/b1/reading/normal_reading.mp3",
+    "audioTranscript": "ここは ふるい りょかんです。とても しずかです。あたらしくありません。へやの なかに おおきい つくえが あります。つくえの うえに ほんが あります。でも、ほんは きれいじゃありません。そして、ベッドの したに こどもが います。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "adjectives",
+    "locations",
+    "existence",
+    "intermediate",
+    "month2",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the verb in the last sentence. 'Imasu' means the thing is alive.",
+  "commonMistakes": [
+    "Confusing 'Kirei' with an i-adjective and misunderstanding 'Kirei ja arimasen'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

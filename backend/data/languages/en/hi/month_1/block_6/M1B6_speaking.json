@@ -1,0 +1,190 @@
+{
+  "activityId": "hi_en_M1B6_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Speaking: Giving Instructions",
+  "learningGoal": "Engage in a roleplay where you provide directions and polite instructions to a guest in your house.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B6_vocabulary_6",
+    "hi_en_M1B6_listening_5"
+  ],
+  "instructions": "You are hosting an elder guest at your house. You need to politely invite them in, tell them where to sit, and offer them food and water.",
+  "speakingPrompt": "Respond to the prompts using polite Hindi commands ending in '-iye'. Ensure you use correct postpositions for locations.",
+  "scenario": "Hosting a formal guest at your home.",
+  "role": "Host",
+  "conversationPartner": "Elder Guest",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "The guest arrives. Greet them and say: 'Please come inside.' (Come = Aa)",
+      "expectedSpeakingPoints": [
+        "Namaste",
+        "Andar",
+        "aaiye"
+      ],
+      "sampleResponse": {
+        "targetText": "नमस्ते। अंदर आइये।",
+        "transliteration": "Namaste. Andar aaiye.",
+        "baseTranslation": "Hello. Please come inside."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Offer them a seat. Say: 'Please sit here.' (Sit = Baith, Here = Yahaan)",
+      "expectedSpeakingPoints": [
+        "Yahaan",
+        "baithiye"
+      ],
+      "sampleResponse": {
+        "targetText": "यहाँ बैठिये।",
+        "transliteration": "Yahaan baithiye.",
+        "baseTranslation": "Please sit here."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Offer them water. Point to the table and say: 'Water is on the table.'",
+      "expectedSpeakingPoints": [
+        "Paani",
+        "mez",
+        "par hai"
+      ],
+      "sampleResponse": {
+        "targetText": "पानी मेज़ पर है।",
+        "transliteration": "Paani mez par hai.",
+        "baseTranslation": "Water is on the table."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Offer them food. Say: 'Please eat food.' (Eat = Kha)",
+      "expectedSpeakingPoints": [
+        "Khaana",
+        "khaaiye"
+      ],
+      "sampleResponse": {
+        "targetText": "खाना खाइये।",
+        "transliteration": "Khaana khaaiye.",
+        "baseTranslation": "Please eat food."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप घर में हैं।",
+    "transliteration": "Aap ghar mein hain.",
+    "baseTranslation": "You are in the house."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। अंदर आइये।",
+      "transliteration": "Namaste. Andar aaiye.",
+      "baseTranslation": "Hello. Please come inside."
+    },
+    {
+      "targetText": "यहाँ बैठिये।",
+      "transliteration": "Yahaan baithiye.",
+      "baseTranslation": "Please sit here."
+    },
+    {
+      "targetText": "पानी मेज़ पर है।",
+      "transliteration": "Paani mez par hai.",
+      "baseTranslation": "Water is on the table."
+    },
+    {
+      "targetText": "खाना खाइये।",
+      "transliteration": "Khaana khaaiye.",
+      "baseTranslation": "Please eat food."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Andar aaiye",
+      "Yahaan baithiye",
+      "Mez par",
+      "Khaaiye"
+    ],
+    "requiredKeywords": [
+      "अंदर",
+      "आइये",
+      "यहाँ",
+      "बैठिये",
+      "मेज़",
+      "पर",
+      "खाना",
+      "खाइये"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Kripya andar aaiye' (Please come inside) is also excellent."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Formal Imperative Use",
+          "weight": 60,
+          "description": "Must use 'aaiye', 'baithiye', and 'khaaiye'. Using 'aao' or 'khaao' will fail the task because the guest is an elder."
+        },
+        {
+          "name": "Postposition Accuracy",
+          "weight": 40,
+          "description": "Must say 'Mez par' not 'Par mez'."
+        }
+      ]
+    },
+    "sampleAnswer": "Namaste. Andar aaiye. Yahaan baithiye. Paani mez par hai. Khaana khaaiye.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic hospitality! You spoke very politely and clearly.",
+    "onFail": "Review the formal commands. You must add '-iye' to the verb root when speaking to an elder.",
+    "onPartial": "Good effort. Pay attention to your postposition order: object comes first, then the position (Mez par)."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। अंदर आइये। यहाँ बैठिये। पानी मेज़ पर है। खाना खाइये।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "commands",
+    "formal",
+    "hospitality",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with a welcoming tone. 'Khaaiye' rhymes with 'Aaiye'.",
+  "commonMistakes": [
+    "Using informal commands like 'Aao' or 'Khaao' with the elder guest."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B6_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

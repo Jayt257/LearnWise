@@ -1,0 +1,182 @@
+{
+  "activityId": "ja_en_M2B5_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "What Do You Think?",
+  "learningGoal": "The learner will listen to a conversational dialogue to comprehend predictions and opinions utilizing dictionary forms and nai-forms.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B5_lesson_001",
+    "ja_en_M2B5_vocabulary_001"
+  ],
+  "instructions": "Listen to two coworkers discussing upcoming events. Pay attention to how they guess what will happen using 'to omoimasu'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen carefully for the irregular negative verb 'konai' (will not come)."
+    }
+  ],
+  "listeningGoal": "Identify whether Tanaka will attend the meeting and what the weather prediction is.",
+  "audioScenario": "Two coworkers talking in an office.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "たなかさんは きますか。",
+      "transliteration": "Tanaka-san wa kimasu ka.",
+      "baseTranslation": "Will Tanaka-san come?"
+    },
+    {
+      "targetText": "いいえ、こないと おもいます。",
+      "transliteration": "Iie, konai to omoimasu.",
+      "baseTranslation": "No, I think he will not come."
+    },
+    {
+      "targetText": "そうですか。",
+      "transliteration": "Sou desu ka.",
+      "baseTranslation": "Is that so."
+    },
+    {
+      "targetText": "あしたは あめが ふりますか。",
+      "transliteration": "Ashita wa ame ga furimasu ka.",
+      "baseTranslation": "Will it rain tomorrow?"
+    },
+    {
+      "targetText": "はい、たぶん ふると おもいます。",
+      "transliteration": "Hai, tabun furu to omoimasu.",
+      "baseTranslation": "Yes, I think it will probably rain."
+    }
+  ],
+  "audioTranscriptFull": "（Ａ）たなかさんは きますか。\n（Ｂ）いいえ、こないと おもいます。\n（Ａ）そうですか。あしたは あめが ふりますか。\n（Ｂ）はい、たぶん ふると おもいます。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What does person A ask first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Will it rain?",
+        "Will Tanaka come?",
+        "Is Tanaka busy?",
+        "Where is Tanaka?"
+      ],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is person B's prediction about Tanaka?",
+      "questionType": "multiple_choice",
+      "options": [
+        "They think he will come.",
+        "They think he will not come.",
+        "They don't know.",
+        "They think he is sick."
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What does person A ask about tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "If it will snow",
+        "If it will rain",
+        "If it will be hot",
+        "If they have work"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What is person B's prediction about the weather?",
+      "questionType": "multiple_choice",
+      "options": [
+        "They think it will snow.",
+        "They think it will probably rain.",
+        "They think it will not rain.",
+        "They think it will be sunny."
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the plain negative verb 'will not come' used in the audio.",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Will Tanaka come?",
+      "q002": "They think he will not come.",
+      "q003": "If it will rain",
+      "q004": "They think it will probably rain.",
+      "q005": "konai"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["konai", "Konai"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully tracked the plain forms inside the sentences.",
+    "onFail": "Listen again carefully. 'Konai' means 'will not come'. 'Furu' means 'will fall'.",
+    "onPartial": "Good effort. Review the word 'Tabun', which means 'probably/maybe'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b5/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b5/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m2/b5/listening/native_dialogue.mp3",
+    "audioTranscript": "たなかさんは きますか。いいえ、こないと おもいます。そうですか。あしたは あめが ふりますか。はい、たぶん ふると おもいます。",
+    "audioLanguage": "ja",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "plain-form",
+    "nai-form",
+    "quotation",
+    "intermediate",
+    "month2",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'konai' (will not come) and 'furu' (will fall).",
+  "commonMistakes": [
+    "Confusing 'Konai' with 'Kimasen'. They mean the same thing, but 'Konai' is the plain form needed for 'to omoimasu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

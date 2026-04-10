@@ -1,0 +1,174 @@
+{
+  "activityId": "en_ja_M2B4_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Monday Morning Chat",
+  "learningGoal": "Listen to a conversation about past weekend activities to identify past tense verbs, questions, and negative statements.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B4_writing_4"
+  ],
+  "instructions": "月曜日の朝のオフィスでの同僚の会話を聞いてください。「Did you...（〜しましたか？）」という質問や、「didn't（〜しなかった）」という否定、そして過去形の動詞（played, went, saw など）を聞き取って、質問に答えてください。(Listen to colleagues chatting on a Monday morning. Listen for 'Did you' questions, negative statements, and past tense verbs, then answer the questions.)",
+  "listeningGoal": "To extract details about past events from a dialogue using past tense forms and auxiliary verbs (did/didn't).",
+  "audioScenario": "Two coworkers are talking about what they did over the weekend.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Good morning, Mark. Did you have a good weekend?",
+      "transliteration": "グッド モーニング、マーク。ディジュー ハヴ ア グッド ウィークエンド？",
+      "baseTranslation": "おはよう、マーク。良い週末を過ごした？"
+    },
+    {
+      "targetText": "Yes, I did. I played tennis with my brother on Saturday.",
+      "transliteration": "イエス、アイ ディド。アイ プレイド テニス ウィズ マイ ブラザー オン サタデイ。",
+      "baseTranslation": "うん、過ごしたよ。土曜日は兄とテニスをしたんだ。"
+    },
+    {
+      "targetText": "That sounds fun. Did you watch the baseball game on Sunday?",
+      "transliteration": "ザット サウンズ ファン。ディジュー ウォッチ ザ ベースボール ゲーム オン サンデイ？",
+      "baseTranslation": "楽しそうだね。日曜日の野球の試合は見た？"
+    },
+    {
+      "targetText": "No, I didn't watch it. I didn't have time.",
+      "transliteration": "ノー、アイ ディドント ウォッチ イット。アイ ディドント ハヴ タイム。",
+      "baseTranslation": "ううん、見なかったよ。時間がなかったんだ。"
+    },
+    {
+      "targetText": "Oh, what did you do?",
+      "transliteration": "オー、ホワット ディジュー ドゥー？",
+      "baseTranslation": "へえ、何をしてたの？"
+    },
+    {
+      "targetText": "I went to the city museum with my family.",
+      "transliteration": "アイ ウェント トゥ ザ シティ ミュージアム ウィズ マイ ファミリー。",
+      "baseTranslation": "家族と市の博物館に行ったんだ。"
+    },
+    {
+      "targetText": "Did you see the new dinosaur exhibit?",
+      "transliteration": "ディジュー シー ザ ニュー ダイナソー イグジビット？",
+      "baseTranslation": "新しい恐竜の展示は見た？"
+    },
+    {
+      "targetText": "Yes, I saw it! It was amazing.",
+      "transliteration": "イエス、アイ ソー イット！ イット ワズ アメイジング。",
+      "baseTranslation": "うん、見たよ！素晴らしかった。"
+    }
+  ],
+  "audioTranscriptFull": "Person A: Good morning, Mark. Did you have a good weekend?\nPerson B: Yes, I did. I played tennis with my brother on Saturday.\nPerson A: That sounds fun. Did you watch the baseball game on Sunday?\nPerson B: No, I didn't watch it. I didn't have time.\nPerson A: Oh, what did you do?\nPerson B: I went to the city museum with my family.\nPerson A: Did you see the new dinosaur exhibit?\nPerson B: Yes, I saw it! It was amazing.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "マーク（Person B）は土曜日に誰とテニスをしましたか？ (Who did Mark play tennis with?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "His sister",
+        "His brother",
+        "His father",
+        "His friend"
+      ],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "日曜日に、マークは野球の試合を見ましたか？ (Did Mark watch the baseball game?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, he watched it.",
+        "No, he didn't watch it.",
+        "He played baseball.",
+        "He watched soccer."
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "日曜日に、マークはどこへ行きましたか？ (Where did Mark go on Sunday?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "To the park",
+        "To the supermarket",
+        "To the city museum",
+        "To the baseball stadium"
+      ],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "マークが博物館で見た（saw）ものは何ですか？ (What did Mark see at the museum?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "A painting",
+        "A dinosaur",
+        "An airplane",
+        "A movie"
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "His brother",
+      "q2": "No, he didn't watch it.",
+      "q3": "To the city museum",
+      "q4": "A dinosaur"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent listening! You successfully tracked the past events using questions and negative statements.",
+    "onFail": "Listen again closely. Focus on the word 'didn't' to understand what Mark did NOT do.",
+    "onPartial": "Good effort. Pay attention to irregular verbs like 'went' (went to the museum) and 'saw' (saw the dinosaur)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B4_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B4_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: Good morning, Mark. Did you have a good weekend? Person B: Yes, I did...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "simple_past",
+    "irregular_verbs",
+    "did"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "When you hear 'Did you...', the next verb will be in the present tense (watch, see), but it's asking about the past!",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

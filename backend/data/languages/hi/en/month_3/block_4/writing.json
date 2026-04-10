@@ -1,0 +1,132 @@
+{
+  "activityId": "en_hi_M3B4_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Fixing the Rude Tourist",
+  "learningGoal": "The learner will revise aggressive or grammatically literal L1 translations into polite, culturally appropriate English service requests, asserting sociolinguistic competence.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B4_reading_001"],
+  "instructions": "A tourist from another country is trying to speak English, but he is directly translating his native language. Because of this, he sounds VERY rude and aggressive to the locals! Rewrite his 3 sentences to make him sound like a polite, fluent English speaker.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Never say 'Hey you'. Never say 'I want'. Never say 'What is the price'."
+    }
+  ],
+  "writingPrompt": "Fix the Rude Tourist's sentences: 1. (To a stranger) Hey you, where is the hotel? 2. (To a waiter) I want tea. 3. (In a shop) What is the price of this?",
+  "promptGoal": "Test independent sociolinguistic revision of overly direct/L1-translated service inquiries.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Excuse me",
+      "transliteration": "एक्सक्यूज़ मी",
+      "baseTranslation": "माफ़ करें (विनम्र शुरुआत)",
+      "partOfSpeech": "Phrase"
+    },
+    {
+      "targetText": "I would like",
+      "transliteration": "आई वुड लाइक",
+      "baseTranslation": "मैं लेना पसंद करूँगा",
+      "partOfSpeech": "Phrase"
+    },
+    {
+      "targetText": "How much is this?",
+      "transliteration": "हाउ मच इज़ दिस?",
+      "baseTranslation": "यह कितने का है?",
+      "partOfSpeech": "Question Sentence"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (To a stranger): [Polite greeting], where is the hotel?",
+    "Sentence 2 (To a waiter): I [polite verb for want] tea, please.",
+    "Sentence 3 (In a shop): How [question word] is this?"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Excuse me, where is the hotel? I would like tea, please. How much is this?",
+      "transliteration": "एक्सक्यूज़ मी, वेयर इज़ द होटल? आई वुड लाइक टी, प्लीज़। हाउ मच इज़ दिस?",
+      "baseTranslation": "माफ़ करें, होटल कहाँ है? मैं चाय लेना पसंद करूँगा। यह कितने का है?",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner completely purged the rude/literal translations ('Hey you', 'I want', 'What is the price') and substituted them with culturally standard service phrases."
+    },
+    {
+      "targetText": "Hello you, where is the hotel? Give me tea. What is the cost?",
+      "transliteration": "हेलो यू, वेयर इज़ द होटल? गिव मी टी। वॉट इज़ द कॉस्ट?",
+      "baseTranslation": "व्याकरण की गंभीर गलतियाँ।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. They failed to apply the polite register shifts, retaining aggressive imperatives ('Give me') and non-native pricing equivalents ('Cost')."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Stranger Greeting",
+      "weight": 30,
+      "description": "Did the user definitively replace 'Hey you' with 'Excuse me'?"
+    },
+    {
+      "criterion": "Restaurant Politeness",
+      "weight": 35,
+      "description": "Did the user replace 'I want' with either 'I would like' or 'I will have'?"
+    },
+    {
+      "criterion": "Shopping Pragmatics",
+      "weight": 35,
+      "description": "Did the user replace 'What is the price?' with 'How much is this?'"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Excuse me, where is the hotel? I would like tea, please. How much is this?",
+    "acceptableAlternates": [
+      "Excuse me, where is the hotel? I will have tea. How much is this?"
+    ],
+    "requiredKeywords": ["excuse me", "would like", "how much"],
+    "grammarBaseline": "Absolute zero tolerance for 'I want' in a service context or 'Hey' applied to an unacquainted stranger.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "Fixed Greeting": "30%",
+      "Fixed Ordering": "35%",
+      "Fixed Pricing": "35%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully transformed the aggressive tourist into a polite, fluent English speaker! Waiters and shopkeepers will love talking to you now.",
+    "onFail": "Please review your writing. Did you leave 'I want' in the sentence? English speakers NEVER say 'I want' to a waiter. You MUST say 'I would like'. Also, never shout 'Hey' at a stranger!",
+    "onPartial": "Good start! Double check Sentence 3. Asking 'What is the price/cost' is not technically wrong, but it sounds very strange and robotic. A native speaker will ALWAYS ask 'How much is this?'"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b4/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b4/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b4/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m3/b4/writing/prompt.mp3",
+    "audioTranscript": "Fix the Rude Tourist's sentences: Hey you, where is the hotel? I want tea. What is the price of this?",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "survival_english", "polite_requests", "capstone", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b4/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Replace 'Hey you' with 'Excuse me'. Replace 'I want' with 'I would like'. Replace 'What is the price' with 'How much is this'.",
+  "commonMistakes": [
+    "Retaining 'Give me' or 'I want' due to literal Hindi 'मुझे चाय चाहिए' translations."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B4_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

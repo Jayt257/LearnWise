@@ -1,0 +1,165 @@
+{
+  "activityId": "en_ja_M3B2_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Sharing Experiences",
+  "learningGoal": "Speak fluently to answer questions about experiences using the present perfect tense and facts using the passive voice.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M3B2_vocabulary_6"
+  ],
+  "instructions": "外国人の友人と経験について話しています。質問に対して、「Yes, I have...」や「No, I have never...」を使って答えてください。マイクに向かって英語で話しましょう。(You are sharing experiences with a foreign friend. Answer their questions using the present perfect and passive voice.)",
+  "speakingPrompt": "Answer questions about your experiences using the present perfect tense.",
+  "scenario": "A friend is asking you about your life in Japan.",
+  "role": "You",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Your friend asks: 'Have you ever been to Kyoto?' Answer: 'Yes, I have been to Kyoto.'",
+      "expectedSpeakingPoints": [
+        "Yes",
+        "I have been to Kyoto"
+      ],
+      "sampleResponse": {
+        "targetText": "Yes, I have been to Kyoto.",
+        "transliteration": "イエス、アイ ハヴ ビーン トゥ キョウト。",
+        "baseTranslation": "はい、京都に行ったことがあります。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Your friend asks: 'Have you ever eaten natto?' Answer: 'No, I have never eaten natto.'",
+      "expectedSpeakingPoints": [
+        "No",
+        "I have never eaten natto"
+      ],
+      "sampleResponse": {
+        "targetText": "No, I have never eaten natto.",
+        "transliteration": "ノー、アイ ハヴ ネヴァー イートン ナットウ。",
+        "baseTranslation": "いいえ、私は一度も納豆を食べたことがありません。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Your friend asks: 'Was this camera made in Japan?' Answer: 'Yes, it was made in Japan.'",
+      "expectedSpeakingPoints": [
+        "Yes",
+        "it was made in Japan"
+      ],
+      "sampleResponse": {
+        "targetText": "Yes, it was made in Japan.",
+        "transliteration": "イエス、イット ワズ メイド イン ジャパン。",
+        "baseTranslation": "はい、それは日本で作られました（日本製です）。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "We are talking about Japan. Tell me about your experiences!",
+    "transliteration": "ウィー アー トーキング アバウト ジャパン。テル ミー アバウト ユア エクスペリエンシズ！",
+    "baseTranslation": "日本について話しているね。あなたの経験を教えて！"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Yes, I have been to Kyoto.",
+      "transliteration": "イエス、アイ ハヴ ビーン トゥ キョウト。",
+      "baseTranslation": "はい、京都に行ったことがあります。"
+    },
+    {
+      "targetText": "No, I have never eaten natto.",
+      "transliteration": "ノー、アイ ハヴ ネヴァー イートン ナットウ。",
+      "baseTranslation": "いいえ、私は一度も納豆を食べたことがありません。"
+    },
+    {
+      "targetText": "Yes, it was made in Japan.",
+      "transliteration": "イエス、イット ワズ メイド イン ジャパン。",
+      "baseTranslation": "はい、それは日本で作られました（日本製です）。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'have been to' for travel experience.",
+      "Using 'have never eaten' for food experience.",
+      "Using passive voice 'was made in' for a fact."
+    ],
+    "requiredKeywords": [
+      "have",
+      "been",
+      "never",
+      "eaten",
+      "was",
+      "made"
+    ],
+    "acceptableParaphrases": [
+      "Yes, I've been to Kyoto. No, I've never eaten natto. Yes, it was made in Japan."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Past Participles",
+          "weight": 60,
+          "description": "Must use 'been', 'eaten', and 'made' correctly."
+        },
+        {
+          "name": "Sentence Structure",
+          "weight": 40,
+          "description": "Must use 'I have' for experience and 'It was' for passive voice."
+        }
+      ]
+    },
+    "sampleAnswer": "Yes, I have been to Kyoto. No, I have never eaten natto. Yes, it was made in Japan.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent speaking! You confidently answered using the correct grammar structures.",
+    "onFail": "Please try again. Make sure you use the past participles (been, eaten, made) and not the basic verbs (go, eat, make).",
+    "onPartial": "Good effort! Remember to use 'have never' to emphasize that you haven't done something in your whole life."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B2_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B2_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B2_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Yes, I have been to Kyoto. No, I have never eaten natto. Yes, it was made in Japan.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "present_perfect",
+    "passive_voice",
+    "experiences"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'I have never...' to say you haven't done it.",
+  "commonMistakes": [
+    "Saying 'I have gone to Kyoto' instead of 'I have been to Kyoto'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B2_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

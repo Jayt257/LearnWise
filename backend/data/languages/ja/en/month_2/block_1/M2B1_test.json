@@ -1,0 +1,245 @@
+{
+  "activityId": "en_ja_M2B1_test_8",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Test: Describe and Compare",
+  "learningGoal": "Evaluate your understanding of adjectives, adverbs, comparatives, and superlatives.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B1_speaking_7"
+  ],
+  "instructions": "Month 2 Block 1 のテストです。形容詞と副詞の使い分け、および比較級・最上級（〜er / more / the 〜est）のルールに関する問題に答えてください。(This is the Block 1 test. Answer questions about adjectives, adverbs, comparatives, and superlatives.)",
+  "testTitle": "Comparisons Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Adjectives vs Adverbs (形容詞と副詞)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Fill in the blank: 'She sings ________.' (彼女は美しく歌う)",
+          "questionType": "multiple_choice",
+          "options": [
+            "beautiful",
+            "beautifully",
+            "beauty",
+            "more beautiful"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'He is a ________ runner.' (彼は速いランナーだ)",
+          "questionType": "multiple_choice",
+          "options": [
+            "fast",
+            "fastly",
+            "faster",
+            "fastest"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Fill in the blank: 'Ken speaks English ________.' (ケンは英語を上手に話す)",
+          "questionType": "multiple_choice",
+          "options": [
+            "good",
+            "goodly",
+            "well",
+            "better"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Comparatives and Superlatives (比較級と最上級)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「私の車はあなたの車より大きい」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "My car is more big than your car.",
+            "My car is bigger than your car.",
+            "My car is big than your car.",
+            "My car is bigger then your car."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「これはこの店で一番高い（高価な）時計です」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "This is the most expensive watch in the store.",
+            "This is the expensivest watch in the store.",
+            "This is most expensive watch in the store.",
+            "This is more expensive watch in the store."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "Fill in the blank: 'This book is ________ than that book.' (この本はあの本より面白い)",
+          "questionType": "multiple_choice",
+          "options": [
+            "interesting",
+            "more interesting",
+            "most interesting",
+            "interestingest"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Irregular Forms and Vocabulary",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「good」の比較級（より良い）の正しいスペルはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "gooder",
+            "more good",
+            "better",
+            "best"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「bad」の最上級（一番悪い）の正しいスペルはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "baddest",
+            "most bad",
+            "worse",
+            "worst"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "2つのものを比較する時に使う「〜より」という意味の単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "then",
+            "than",
+            "that",
+            "the"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "He is the tallest boy in the class.",
+            "He is tallest boy in the class.",
+            "He is the most tall boy in the class.",
+            "He is taller boy in the class."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "beautifully",
+      "q2": "fast",
+      "q3": "well",
+      "q4": "My car is bigger than your car.",
+      "q5": "This is the most expensive watch in the store.",
+      "q6": "more interesting",
+      "q7": "better",
+      "q8": "worst",
+      "q9": "than",
+      "q10": "He is the tallest boy in the class."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！形容詞と副詞の使い分け、比較のルールを完璧にマスターしましたね！",
+    "onFail": "短い単語には -er/-est、長い単語には more/most をつけるルールをもう一度復習しましょう。",
+    "onPartial": "よくできました。good は better、bad は worse になるという不規則な変化に気をつけてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_1",
+    "adjectives",
+    "adverbs",
+    "comparatives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget the 'the' before a superlative (the biggest, the best).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B2_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

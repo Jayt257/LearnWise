@@ -1,0 +1,150 @@
+{
+  "activityId": "hi_en_M3B2_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Causative Infixes",
+  "learningGoal": "Accurately pronounce the vowel shifts and infixes required to transform base verbs into their causative forms.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M3B2_lesson_1"
+  ],
+  "instructions": "Practice transitioning smoothly from the base verb to its causative forms. Notice how long vowels in the base verb often become short in the causative form.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "करना",
+      "transliteration": "Karna",
+      "baseTranslation": "To do",
+      "phoneticHint": "kur-naa",
+      "syllableSplit": "kar-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'car-na'. The 'a' in 'kar' is a short schwa."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "कराना",
+      "transliteration": "Karana",
+      "baseTranslation": "To make someone do",
+      "phoneticHint": "kuh-raa-naa",
+      "syllableSplit": "ka-ra-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Karna' instead of 'Karana'. You must add the middle syllable 'raa'."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "करवाना",
+      "transliteration": "Karwana",
+      "baseTranslation": "To get done by someone",
+      "phoneticHint": "kur-waa-naa",
+      "syllableSplit": "kar-wa-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kar-va-na'. While 'v' is accepted, 'w' (rounded lips) is much more standard for the 'waa' causative infix."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "सीखना",
+      "transliteration": "Seekhna",
+      "baseTranslation": "To learn",
+      "phoneticHint": "seekh-naa",
+      "syllableSplit": "seekh-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Ignoring the aspiration on the 'kh'. It must be breathy."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "सिखाना",
+      "transliteration": "Sikhana",
+      "baseTranslation": "To teach (Causative of Learn)",
+      "phoneticHint": "si-khaa-naa",
+      "syllableSplit": "si-kha-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Seekhana'. The long 'ee' shortens to a short 'i' when the causative 'aa' is added."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "सिखवाना",
+      "transliteration": "Sikhwana",
+      "baseTranslation": "To have someone taught",
+      "phoneticHint": "sikh-waa-naa",
+      "syllableSplit": "sikh-wa-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Same as above—forgetting to shorten the 'ee' to 'i'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "किया जाता है",
+      "transliteration": "Kiya jaata hai",
+      "baseTranslation": "Is done (Passive)",
+      "phoneticHint": "kee-yaa jaa-taa hai",
+      "syllableSplit": "ki-ya ja-ta hai",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kiya jaati hai' when talking about a masculine object. 'Jaata' must match the object."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear distinction between the base verb, the 'aa' infix, and the 'waa' infix. Proper vowel shortening.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Outstanding! You clearly articulate the subtle differences between doing, making do, and having done.",
+    "onFail": "Listen to the vowel lengths. 'Seekhna' has a long 'ee'. 'Sikhana' has a short 'i'.",
+    "onPartial": "Good effort. Make sure you clearly pronounce the 'w' in 'Karwana'. That 'waa' sound is the universal sign of delegation."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "causatives",
+    "passive_voice",
+    "vowel_shortening",
+    "phonetics"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'Karwana', round your lips firmly for the 'waa' syllable.",
+  "commonMistakes": [
+    "Pronouncing the long vowel in the causative forms (e.g., saying 'Deekhana' instead of 'Dikhana')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B2_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,145 @@
+{
+  "activityId": "en_hi_M2B5_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Describing the Scene",
+  "learningGoal": "The learner will compose sentences demonstrating strict dichotomization between animate genitives (name + 's) and inanimate partitives (noun + of + noun), alongside correct demonstrative pronoun pluralization.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B5_reading_001"],
+  "instructions": "Look at the people and things around you. Write 3 sentences. One sentence must show a person owning something (using 'S). One sentence must describe a piece of an object (using OF). One sentence must point at many things far away (using THOSE).",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Never write 'The bag of Amit'. Write 'Amit's bag'. Never write 'The car's door'. Write 'The door of the car'."
+    }
+  ],
+  "writingPrompt": "Write 3 sentences. Sentence 1: A person owning an object (Name + 's). Sentence 2: A part of an object (The [part] of the [object]). Sentence 3: Pointing at many things far away (Those are...).",
+  "promptGoal": "Test strict execution of the animate/inanimate ownership dichotomy and plural-distal demonstrative morphology.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "'s",
+      "transliteration": "'स",
+      "baseTranslation": "का/की/के (व्यक्तियों के लिए)",
+      "partOfSpeech": "Suffix"
+    },
+    {
+      "targetText": "Of",
+      "transliteration": "ऑफ",
+      "baseTranslation": "का/की/के (वस्तुओं के लिए)",
+      "partOfSpeech": "Preposition"
+    },
+    {
+      "targetText": "Those",
+      "transliteration": "दोज़",
+      "baseTranslation": "वे (दूर, कई)",
+      "partOfSpeech": "Demonstrative"
+    },
+    {
+      "targetText": "Door",
+      "transliteration": "डोर",
+      "baseTranslation": "दरवाज़ा",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Car",
+      "transliteration": "कार",
+      "baseTranslation": "गाड़ी",
+      "partOfSpeech": "Noun"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Person): This is [Name]'s [Item].",
+    "Sentence 2 (Object Part): The [Piece] of the [Whole Object] is [Color/Size].",
+    "Sentence 3 (Pointing Far): Those are [Plural Noun]!"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "This is Rahul's phone. The door of the house is blue. Those are tall trees.",
+      "transliteration": "दिस इज़ राहुल'स फोन। द डोर ऑफ द हाउस इज़ ब्लू। दोज़ आर टॉल ट्रीज़।",
+      "baseTranslation": "यह राहुल का फोन है। घर का दरवाज़ा नीला है। वे ऊंचे पेड़ हैं।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect. Correctly employed the animate enclitic (Rahul's), the inanimate partitive (door of the house), and the distal plural (Those + trees)."
+    },
+    {
+      "targetText": "This is the phone of Rahul. The house's door is blue. That are tall trees.",
+      "transliteration": "दिस इज़ द फोन ऑफ राहुल। द हाउस'स डोर इज़ ब्लू। दैट आर टॉल ट्रीज़।",
+      "baseTranslation": "खराब व्याकरण के साथ विवरण।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Inverted the animate/inanimate rules (phone of Rahul / house's door) and mismatched a singular demonstrative with a plural noun (That are trees)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Animate Enclitic Execution",
+      "weight": 35,
+      "description": "Did the user correctly attach 's to a human/animal owner? Penalize 'noun of person'."
+    },
+    {
+      "criterion": "Inanimate Partitive Execution",
+      "weight": 35,
+      "description": "Did the user correctly use 'of' for object parts? Penalize 'object's part'."
+    },
+    {
+      "criterion": "Plural Distal Matching",
+      "weight": 30,
+      "description": "Did the user use 'Those' with a plural noun and the plural copula 'are'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "That is Sarah's book. The tire of the car is black. Those are my friends.",
+    "acceptableAlternates": [
+      "Here is Amit's dog. The glass of the window is clean. Those are birds."
+    ],
+    "requiredKeywords": ["of", "those"],
+    "grammarBaseline": "Zero tolerance for 'That are' or 'Those is'. Strong penalty for 'The book of John'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "Person's Ownership": "35%",
+      "Object of Object": "35%",
+      "Those + Plural": "30%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You wrote perfect sentences! You showed deep understanding of how to separate human ownership from object parts.",
+    "onFail": "Please review what you wrote. Human ownership takes an 'S (Mom's car). Object parts take OF (The wheels of the car). Do not mix them up!",
+    "onPartial": "Good start! Double check your pointing words. 'Those' ALWAYS means more than one thing. You must say 'Those ARE dogs', never 'Those IS dog'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b5/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b5/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b5/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m2/b5/writing/prompt.mp3",
+    "audioTranscript": "Write three sentences. One about a person's item. One about a piece of an object. One pointing at many things.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "possessives", "demonstratives", "apostrophe", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b5/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read your sentences aloud! 'The screen of the phone'. 'Ravi's phone'. 'Those are phones'. If you say 'That are', something is broken!",
+  "commonMistakes": [
+    "Writing 'That are my shoes'.",
+    "Writing 'The car of Amit'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B5_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

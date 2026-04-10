@@ -1,0 +1,167 @@
+{
+  "activityId": "ja_en_M1B4_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Interrogations: Time, Day, and Age",
+  "learningGoal": "The learner will listen to a question-and-answer dialogue to accurately extract specific times, ages, and days of the week.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B4_lesson_001",
+    "ja_en_M1B4_vocabulary_001"
+  ],
+  "instructions": "Listen to the conversation between Person A and Person B. Person A is asking Person B several questions about the time, the day, and their age. Answer the comprehension questions based on what Person B replies.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen for the question marker 'ka' at the end of Person A's sentences. This indicates they are asking for information."
+    }
+  ],
+  "listeningGoal": "Extract the specific numbers and days mentioned in the audio dialogue.",
+  "audioScenario": "A rapid-fire question and answer session between two acquaintances.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "いま、なんじですか。",
+      "transliteration": "Ima, nan-ji desu ka.",
+      "baseTranslation": "What time is it now?"
+    },
+    {
+      "targetText": "よじです。",
+      "transliteration": "Yo-ji desu.",
+      "baseTranslation": "It is 4 o'clock."
+    },
+    {
+      "targetText": "なんさいですか。",
+      "transliteration": "Nan-sai desu ka.",
+      "baseTranslation": "How old are you?"
+    },
+    {
+      "targetText": "わたしは にじゅうごさいです。",
+      "transliteration": "Watashi wa ni-juu-go-sai desu.",
+      "baseTranslation": "I am 25 years old."
+    },
+    {
+      "targetText": "きょうは かようびですか。",
+      "transliteration": "Kyou wa kayoubi desu ka.",
+      "baseTranslation": "Is today Tuesday?"
+    },
+    {
+      "targetText": "いいえ、すいようびです。",
+      "transliteration": "Iie, suiyoubi desu.",
+      "baseTranslation": "No, it is Wednesday."
+    }
+  ],
+  "audioTranscriptFull": "（Ａ）いま、なんじですか。\n（Ｂ）よじです。\n（Ａ）なんさいですか。\n（Ｂ）わたしは にじゅうごさいです。\n（Ａ）きょうは かようびですか。\n（Ｂ）いいえ、すいようびです。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What time is it in the dialogue?",
+      "questionType": "multiple_choice",
+      "options": ["4 o'clock", "8 o'clock", "9 o'clock", "12 o'clock"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "How old is the person answering the questions?",
+      "questionType": "multiple_choice",
+      "options": ["20 years old", "24 years old", "25 years old", "35 years old"],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What day of the week does Person A *guess* that it is?",
+      "questionType": "multiple_choice",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What day of the week is it *actually*?",
+      "questionType": "multiple_choice",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "What word does Person B use to say 'No'?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "4 o'clock",
+      "q002": "25 years old",
+      "q003": "Tuesday",
+      "q004": "Wednesday",
+      "q005": "いいえ"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["iie", "Iie", "いいえ", "no"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You successfully decoded the numbers and time expressions from the audio.",
+    "onFail": "Listen again carefully. The difference between Tuesday (Kayoubi) and Wednesday (Suiyoubi) is important.",
+    "onPartial": "Good effort. Review the numbers 11-99 to make sure you catch 'ni-juu-go' (25) correctly."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b4/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b4/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m1/b4/listening/native_dialogue.mp3",
+    "audioTranscript": "いま、なんじですか。よじです。なんさいですか。わたしは にじゅうごさいです。きょうは かようびですか。いいえ、すいようびです。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "time",
+    "numbers",
+    "days",
+    "beginner",
+    "month1",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Person A guesses the wrong day. Listen for 'Iie' (No) followed by the correct day.",
+  "commonMistakes": [
+    "Thinking 'yoji' means 8 o'clock (confusing it with hachi)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

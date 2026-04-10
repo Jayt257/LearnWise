@@ -1,0 +1,181 @@
+{
+  "activityId": "ja_en_M2B3_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Weekend Plans vs Reality",
+  "learningGoal": "The learner will listen to a conversational dialogue to distinguish between past actions (~mashita) and future desires (~tai desu).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B3_lesson_001",
+    "ja_en_M2B3_vocabulary_001"
+  ],
+  "instructions": "Listen to two friends talking about their weekend. Pay close attention to what happened in the past versus what they WANT to do in the future.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen for the 'mashita' sound (past action) and the 'tai' sound (want to)."
+    }
+  ],
+  "listeningGoal": "Identify whether the speaker watched a movie, what they actually did, and what they want to do next.",
+  "audioScenario": "Two coworkers talking on Monday morning.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "しゅうまつ、えいがを みましたか。",
+      "transliteration": "Shuumatsu, eiga wo mimashita ka.",
+      "baseTranslation": "Did you watch a movie on the weekend?"
+    },
+    {
+      "targetText": "いいえ、みませんでした。",
+      "transliteration": "Iie, mimasen deshita.",
+      "baseTranslation": "No, I didn't watch one."
+    },
+    {
+      "targetText": "しごとを しましたか。",
+      "transliteration": "Shigoto wo shimashita ka.",
+      "baseTranslation": "Did you do work?"
+    },
+    {
+      "targetText": "はい、しごとを しました。とても いそがしかったです。",
+      "transliteration": "Hai, shigoto wo shimashita. Totemo isogashikatta desu.",
+      "baseTranslation": "Yes, I did work. I was very busy."
+    },
+    {
+      "targetText": "そうですか。わたしは おんせんに いきたいです。",
+      "transliteration": "Sou desu ka. Watashi wa onsen ni ikitai desu.",
+      "baseTranslation": "Is that so. I want to go to a hot spring."
+    }
+  ],
+  "audioTranscriptFull": "（Ａ）しゅうまつ、えいがを みましたか。\n（Ｂ）いいえ、みませんでした。\n（Ａ）しごとを しましたか。\n（Ｂ）はい、しごとを しました。とても いそがしかったです。\n（Ａ）そうですか。わたしは おんせんに いきたいです。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "Did person B watch a movie on the weekend?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, they did.",
+        "No, they didn't.",
+        "They want to watch one."
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What did person B actually do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "They watched a movie.",
+        "They went to a hot spring.",
+        "They did work.",
+        "They played."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "How did person B describe their weekend?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It was fun.",
+        "They were very busy.",
+        "It was boring.",
+        "It was cold."
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What does person A WANT to do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Go to a movie",
+        "Go to a hot spring",
+        "Do work",
+        "Sleep"
+      ],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the adjective meaning 'busy' used in the audio.",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "No, they didn't.",
+      "q002": "They did work.",
+      "q003": "They were very busy.",
+      "q004": "Go to a hot spring",
+      "q005": "isogashii"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["isogashii", "isogashikatta", "Isogashii", "Isogashikatta"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great listening! You accurately separated the past events from the future desires.",
+    "onFail": "Listen again carefully. 'Mimasen deshita' means 'did not watch'. 'Ikitai' means 'want to go'.",
+    "onPartial": "Good effort. Review the past tense adjective 'Isogashikatta' (was busy)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b3/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b3/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m2/b3/listening/native_dialogue.mp3",
+    "audioTranscript": "しゅうまつ、えいがを みましたか。いいえ、みませんでした。しごとを しましたか。はい、しごとを しました。とても いそがしかったです。そうですか。わたしは おんせんに いきたいです。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "intermediate",
+    "month2",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'shigoto' (work) and 'onsen' (hot spring).",
+  "commonMistakes": [
+    "Confusing 'Mimasen deshita' (did not watch) with 'Mimashita' (watched)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

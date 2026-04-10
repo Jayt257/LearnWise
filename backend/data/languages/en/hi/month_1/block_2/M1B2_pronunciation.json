@@ -1,0 +1,172 @@
+{
+  "activityId": "hi_en_M1B2_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Aspiration and Retroflex Sounds",
+  "learningGoal": "Master the difference between aspirated/unaspirated consonants and practice retroflex 'T' sounds.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_lesson_1"
+  ],
+  "instructions": "This is a critical pronunciation drill. Hindi requires you to produce sounds that English speakers usually do not differentiate. For 'Kh' and 'Gh', put your hand in front of your mouth; you should feel a burst of air. For the 'Ta' sounds, curl your tongue backwards.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "क",
+      "transliteration": "ka",
+      "baseTranslation": "Unaspirated 'k'",
+      "phoneticHint": "k-uh (soft, no air)",
+      "syllableSplit": "ka",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kha' with too much breath."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "ख",
+      "transliteration": "kha",
+      "baseTranslation": "Aspirated 'k'",
+      "phoneticHint": "k-huh (hard puff of air)",
+      "syllableSplit": "kha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying it like a regular 'k'. Must expel air from the chest."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "च",
+      "transliteration": "cha",
+      "baseTranslation": "Unaspirated 'ch'",
+      "phoneticHint": "ch-uh",
+      "syllableSplit": "cha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Adding too much breath."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "छ",
+      "transliteration": "chha",
+      "baseTranslation": "Aspirated 'ch'",
+      "phoneticHint": "chh-huh",
+      "syllableSplit": "chha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'sh'. It is a hard 'ch' with extra air."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "ट",
+      "transliteration": "ta",
+      "baseTranslation": "Retroflex 't'",
+      "phoneticHint": "t-uh (curl tongue up and back)",
+      "syllableSplit": "ta",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying the English 't' where the tongue touches the teeth. Tongue must hit the roof."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "ठ",
+      "transliteration": "tha",
+      "baseTranslation": "Aspirated retroflex 't'",
+      "phoneticHint": "th-huh (curl tongue + air)",
+      "syllableSplit": "tha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'th' like in 'the' or 'think'. It is a hard T with air."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "ड",
+      "transliteration": "da",
+      "baseTranslation": "Retroflex 'd'",
+      "phoneticHint": "d-uh (curl tongue back)",
+      "syllableSplit": "da",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using the English soft 'd'."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "मैं अमेरिका से हूँ",
+      "transliteration": "Main Amerika se hoon",
+      "baseTranslation": "I am from America",
+      "phoneticHint": "main uh-may-ree-kah say hoon",
+      "syllableSplit": "main A-me-ri-ka se hoon",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing 'Main' like the English word 'main'. It has a nasal 'n'."
+    },
+    {
+      "itemId": "p_9",
+      "targetText": "मैं भारत से हूँ",
+      "transliteration": "Main Bharat se hoon",
+      "baseTranslation": "I am from India",
+      "phoneticHint": "main bhaa-ruht say hoon",
+      "syllableSplit": "main Bha-rat se hoon",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Barat'. 'Bh' is heavily aspirated. And 't' is soft (dental), unlike the retroflex 'T' learned above."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear contrast between aspirated and unaspirated sounds, and distinct retroflex tongue placement.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Incredible! You are mastering sounds that take English speakers months to learn.",
+    "onFail": "Listen to the difference between 'ka' and 'kha'. Use the paper trick: hold a paper to your lips; it should only move on 'kha'.",
+    "onPartial": "Good progress. The retroflex 'T' is hard. Practice curling your tongue further back on the roof of your mouth."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 400,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "consonants",
+    "aspiration",
+    "retroflex",
+    "vyanjan"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Aspiration comes from the diaphragm, not just the mouth. Push from your stomach.",
+  "commonMistakes": [
+    "Failing to differentiate 'ka' and 'kha' entirely."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B2_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

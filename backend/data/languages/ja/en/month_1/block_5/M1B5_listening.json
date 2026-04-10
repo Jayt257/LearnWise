@@ -1,0 +1,169 @@
+{
+  "activityId": "en_ja_M1B5_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "A Lazy Roommate",
+  "learningGoal": "Listen for the third-person 's' and the negative 'doesn't' in spoken English to understand daily routines.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B5_writing_4"
+  ],
+  "instructions": "女性がルームメイトの「ポール」について話しているのを聞いてください。動詞の最後につく「s」の音や、「doesn't」という否定の言葉を注意深く聞き取り、質問に答えてください。(Listen to a woman talking about her roommate, Paul. Listen carefully for the 's' sound at the end of verbs and the negative word 'doesn't', then answer the questions.)",
+  "listeningGoal": "To identify third-person singular verbs and negative auxiliaries in a spoken narrative.",
+  "audioScenario": "A woman is complaining about her lazy roommate's daily routine.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "My roommate is Paul. He is very lazy.",
+      "transliteration": "マイ ルームメイト イズ ポール。ヒー イズ ヴェリー レイジー",
+      "baseTranslation": "私のルームメイトはポールです。彼はとても怠け者です。"
+    },
+    {
+      "targetText": "I wake up at 7:00, but he wakes up at 11:00.",
+      "transliteration": "アイ ウェイク アップ アット セヴン、バット ヒー ウェイクス アップ アット イレヴン",
+      "baseTranslation": "私は7時に起きますが、彼は11時に起きます。"
+    },
+    {
+      "targetText": "He doesn't eat breakfast.",
+      "transliteration": "ヒー ダズント イート ブレックファースト",
+      "baseTranslation": "彼は朝食を食べません。"
+    },
+    {
+      "targetText": "He eats pizza for lunch.",
+      "transliteration": "ヒー イーツ ピザ フォー ランチ",
+      "baseTranslation": "彼は昼食にピザを食べます。"
+    },
+    {
+      "targetText": "He doesn't go to work or university.",
+      "transliteration": "ヒー ダズント ゴー トゥ ワーク オア ユニヴァーシティ",
+      "baseTranslation": "彼は仕事にも大学にも行きません。"
+    },
+    {
+      "targetText": "He watches TV all day.",
+      "transliteration": "ヒー ウォッチズ ティーヴィー オール デイ",
+      "baseTranslation": "彼は一日中テレビを見ます。"
+    },
+    {
+      "targetText": "He is a bad roommate!",
+      "transliteration": "ヒー イズ ア バッド ルームメイト！",
+      "baseTranslation": "彼は悪いルームメイトです！"
+    }
+  ],
+  "audioTranscriptFull": "My roommate is Paul. He is very lazy. I wake up at 7:00, but he wakes up at 11:00. He doesn't eat breakfast. He eats pizza for lunch. He doesn't go to work or university. He watches TV all day. He is a bad roommate!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ポールは何時に起きますか？ (What time does Paul wake up?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "7:00",
+        "8:00",
+        "11:00",
+        "12:00"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ポールの朝食について、女性は何と言っていますか？ (What does the woman say about Paul's breakfast?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "He eats pizza.",
+        "He eats bread.",
+        "He eats rice.",
+        "He doesn't eat breakfast."
+      ],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ポールは昼食に何を食べますか？ (What does Paul eat for lunch?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Pizza",
+        "Pasta",
+        "Salad",
+        "He doesn't eat lunch."
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ポールは日中（一日中）どこに行きますか？ (Where does Paul go during the day?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "He goes to work.",
+        "He goes to university.",
+        "He doesn't go anywhere; he watches TV.",
+        "He goes to a restaurant."
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "11:00",
+      "q2": "He doesn't eat breakfast.",
+      "q3": "Pizza",
+      "q4": "He doesn't go anywhere; he watches TV."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You successfully heard the 's' on the verbs and the negative 'doesn't'.",
+    "onFail": "Listen again carefully. Notice how the woman says 'I wake up' but 'He wakes up'.",
+    "onPartial": "Good effort. Pay attention to the word 'doesn't'. When you hear it, it means he does NOT do that action."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B5_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B5_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "My roommate is Paul. He is very lazy...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "daily_routine",
+    "third_person_singular",
+    "negation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for the 'iz' sound in 'watches' (He watches TV).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B5_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

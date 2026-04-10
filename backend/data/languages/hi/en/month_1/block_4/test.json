@@ -1,0 +1,402 @@
+{
+  "activityId": "en_hi_M1B4_test_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Mega Assessment: Numbers & Questions",
+  "learningGoal": "The learner will demonstrate structural mastery in formulating English interrogatives, recognizing specific numerals, capitalizing days/months, and spelling core sequential vocab.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M1B4_lesson_001",
+    "en_hi_M1B4_pronunciation_001",
+    "en_hi_M1B4_reading_001",
+    "en_hi_M1B4_writing_001",
+    "en_hi_M1B4_listening_001",
+    "en_hi_M1B4_vocabulary_001",
+    "en_hi_M1B4_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 4. It contains 20 questions evaluating your ability to ask questions, spell numbers, and use the calendar. Think carefully about where the WH word goes, and where the Verb is placed in a question.",
+  "testTitle": "Block 4 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: Question = Verb before Subject.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Question Inversion",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank to make a correct question: '_____ _____ happy?'",
+          "questionType": "multiple_choice",
+          "options": ["You are", "Are you", "Is you", "You is"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the blank to make a correct question: 'Where _____ _____ from?'",
+          "questionType": "multiple_choice",
+          "options": ["you are", "are you", "is you", "from you"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Which is the correct question format?",
+          "questionType": "multiple_choice",
+          "options": ["What is your name?", "What your name is?", "Is your name what?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "What is your name?",
+            "transliteration": "वॉट इज़ योर नेम?",
+            "baseTranslation": "तुम्हारा नाम क्या है?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Which is the correct question format for 'वह कहाँ है?'",
+          "questionType": "multiple_choice",
+          "options": ["Where he is?", "Is he where?", "Where is he?", "He is where?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Where is he?",
+            "transliteration": "वेयर इज़ ही?",
+            "baseTranslation": "वह कहाँ है?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: In English, a statement is 'You are' and a question is 'Are you'.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Spelling & Translations",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for '40'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Forty",
+            "transliteration": "फोर्टी",
+            "baseTranslation": "चालीस"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the day AFTER Thursday?",
+          "questionType": "multiple_choice",
+          "options": ["Wednesday", "Friday", "Tuesday", "Saturday"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which word translates to 'कब'?",
+          "questionType": "multiple_choice",
+          "options": ["Who", "Why", "When", "What"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Write the exact English word for '13'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Thirteen",
+            "transliteration": "थर्टीन",
+            "baseTranslation": "तेरह (13)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What WH word do you use to ask about a Person (कौन)?",
+          "questionType": "multiple_choice",
+          "options": ["When", "Who", "Where", "How"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the mistake: 'Today is friday.'",
+          "questionType": "multiple_choice",
+          "options": ["'Today' should be small", "'friday' needs a capital F", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Today is Friday.",
+            "transliteration": "टुडे इज़ फ्राइडे।",
+            "baseTranslation": "आज शुक्रवार है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Which of these words is a Month?",
+          "questionType": "multiple_choice",
+          "options": ["Wednesday", "April", "Twenty", "Who"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Complete the logic: Thirty, Forty, ______, Sixty.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Fifty",
+            "transliteration": "फिफ्टी",
+            "baseTranslation": "पचास"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "True or False: 'When is he coming?' is medically correct English.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Select the correct translation for: 'तुम्हारा नाम क्या है?'",
+          "questionType": "multiple_choice",
+          "options": ["What your name is?", "Who is your name?", "What is your name?", "When is your name?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'आज सोमवार है।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Today is Monday.",
+            "transliteration": "टुडे इज़ मंडे।",
+            "baseTranslation": "आज सोमवार है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'तुम कहाँ हो?' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Where are you?",
+            "transliteration": "वेयर आर यू?",
+            "baseTranslation": "तुम कहाँ हो?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'मैं बीस वर्ष का हूँ।'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am twenty years old.",
+            "transliteration": "आई एम ट्वेंटी इयर्स ओल्ड।",
+            "baseTranslation": "मैं बीस वर्ष का हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'क्या वह एक डॉक्टर है?' (Question Inversion)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Is she a doctor? / Is he a doctor?",
+            "transliteration": "इज़ शी अ डॉक्टर? / इज़ ही अ डॉक्टर?",
+            "baseTranslation": "क्या वह/वह एक डॉक्टर है?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'कुत्ता कहाँ है?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Where is the dog?",
+            "transliteration": "वेयर इज़ द डॉग?",
+            "baseTranslation": "कुत्ता कहाँ है?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Are you",
+      "q002": "are you",
+      "q003": "What is your name?",
+      "q004": "Where is he?",
+      "q005": "True",
+      "q006": "Forty",
+      "q007": "Friday",
+      "q008": "When",
+      "q009": "Thirteen",
+      "q010": "Who",
+      "q011": "'friday' needs a capital F",
+      "q012": "April",
+      "q013": "Fifty",
+      "q014": "True",
+      "q015": "What is your name?",
+      "q016": "Today is Monday.",
+      "q017": "Where are you?",
+      "q018": "I am twenty years old.",
+      "q019": "Is he a doctor?",
+      "q020": "Where is the dog?"
+    },
+    "scoringRubric": {
+      "q016": "Minus 2 points if Monday is not capitalized."
+    },
+    "partialCreditRules": {
+      "q016": "Give 3 marks if written 'today is monday'."
+    },
+    "alternateValidAnswers": {
+      "q006": ["forty"],
+      "q009": ["thirteen"],
+      "q013": ["fifty"],
+      "q016": ["today is monday", "Today is monday."],
+      "q017": ["where are you", "Where are you"],
+      "q018": ["i am twenty years old", "I'm twenty years old", "I am 20 years old."],
+      "q019": ["is she a doctor", "Is she a doctor?", "is he a doctor", "Is he a doctor?"],
+      "q020": ["where is the dog", "Where is the dog?", "Where is dog?"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You have mastered the crucial SVO verb invention for asking questions, and you spelled the difficult numbers correctly.",
+    "onFail": "Please don't give up! If you struggled with asking questions, remember to put the verb FIRST ('Are you?' instead of 'You are?'). If you struggled with numbers, review the lesson.",
+    "onPartial": "Good effort! Check your capital letters. Did you capitalize Monday? Did you spell Forty without a 'u'?"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers questions and numbers.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block4", "questions", "numbers", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

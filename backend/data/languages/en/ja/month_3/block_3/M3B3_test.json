@@ -1,0 +1,444 @@
+{
+  "activityId": "ja_en_M3B3_test_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Final Test — Causative & Causative-Passive",
+  "learningGoal": "The learner will demonstrate mastery over the complex conjugations of the causative (making someone do) and causative-passive (being forced to do) forms across all verb groups.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M3B3_lesson_001",
+    "ja_en_M3B3_pronunciation_001",
+    "ja_en_M3B3_reading_001",
+    "ja_en_M3B3_writing_001",
+    "ja_en_M3B3_listening_001",
+    "ja_en_M3B3_vocabulary_001",
+    "ja_en_M3B3_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to form and understand the causative and causative-passive forms. Pay strict attention to the distinction between 'make do' and 'forced to do'.",
+  "testTitle": "Block 3 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Remember the short causative-passive form for U-verbs (e.g. Nomu -> Nomasareru).",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Power & Work Vocabulary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does ぶちょう (Buchou) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Mother", "Child", "Department Head / Boss", "Friend"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does ざんぎょう (Zangyou) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Homework", "Vegetables", "Overtime work", "Medicine"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does むり (Muri) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Impossible / Unreasonable", "Unpleasant", "Tired", "Difficult"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does くすり (Kusuri) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Vegetables", "Medicine", "Homework", "Job"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Causative & Causative-Passive Forms",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "What is the causative form (make/let eat) of Taberu?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たべられる (Taberareru)",
+            "たべさせる (Tabesaseru)",
+            "たばせる (Tabaseru)",
+            "たべさせられる (Tabesaserareru)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "What is the causative-passive form (forced to eat) of Taberu?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たべられる (Taberareru)",
+            "たべさせる (Tabesaseru)",
+            "たばされる (Tabasareru)",
+            "たべさせられる (Tabesaserareru)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the short causative-passive form (forced to drink) of Nomu?",
+          "questionType": "multiple_choice",
+          "options": [
+            "のませられる (Nomaserareru)",
+            "のまされる (Nomasareru)",
+            "のまれる (Nomareru)",
+            "のませる (Nomaseru)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "What is the causative-passive form (forced to do) of Suru?",
+          "questionType": "multiple_choice",
+          "options": [
+            "させる (Saseru)",
+            "される (Sareru)",
+            "させられる (Saserareru)",
+            "すさせられる (Susaserareru)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Forming Sentences",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Translate: 'The boss made me do overtime.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ぶちょうは わたしに ざんぎょうを させました",
+            "ぶちょうは わたしに ざんぎょうを させられました",
+            "わたしは ぶちょうに ざんぎょうを させました",
+            "ぶちょうは わたしに ざんぎょうを されました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Translate: 'I was forced to do overtime by the boss.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたしは ぶちょうに ざんぎょうを させました",
+            "わたしは ぶちょうに ざんぎょうを させられました",
+            "ぶちょうは わたしに ざんぎょうを させられました",
+            "わたしは ぶちょうを ざんぎょうを させられました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'The mother made the child eat vegetables.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ははは こどもに やさいを たべさせました",
+            "ははは こどもに やさいを たべさせられました",
+            "こどもは ははに やさいを たべさせました",
+            "ははは こどもに やさいを たべられました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'I was forced to drink medicine.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたしは くすりを のませました",
+            "わたしは くすりを のまされました",
+            "わたしは くすりを のみました",
+            "わたしは くすりを のまれました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What was the speaker forced to do?",
+          "questionType": "multiple_choice",
+          "options": ["Do overtime", "Drink alcohol", "Eat vegetables", "Go to the bank"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "ぶちょうに ざんぎょうを させられました。",
+            "transliteration": "Buchou ni zangyou wo saseraremashita.",
+            "baseTranslation": "I was forced to do overtime by the boss."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. Who forced them to do it?",
+          "questionType": "multiple_choice",
+          "options": ["The boss", "A friend", "Their mother", "The child"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "ぶちょうに ざんぎょうを させられました。",
+            "transliteration": "Buchou ni zangyou wo saseraremashita.",
+            "baseTranslation": "I was forced to do overtime by the boss."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What else were they forced to do?",
+          "questionType": "multiple_choice",
+          "options": ["Drink alcohol", "Pay money", "Sing", "Work"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "さけを のまされました。",
+            "transliteration": "Sake wo nomasaremashita.",
+            "baseTranslation": "I was forced to drink alcohol."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'forced to do' (polite past of suru in causative-passive) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "させられました",
+            "transliteration": "saseraremashita",
+            "baseTranslation": "was forced to do"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'forced to drink' (short causative-passive of nomu, polite past) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "のまされました",
+            "transliteration": "nomasaremashita",
+            "baseTranslation": "was forced to drink"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'forced to go' (short causative-passive of iku, polite past) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "いかされました",
+            "transliteration": "ikasaremashita",
+            "baseTranslation": "was forced to go"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'made (someone) eat' (causative of taberu, polite past) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たべさせました",
+            "transliteration": "tabesasemashita",
+            "baseTranslation": "made (someone) eat"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'overtime work' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ざんぎょう",
+            "transliteration": "zangyou",
+            "baseTranslation": "overtime work"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Department Head / Boss",
+      "q002": "Overtime work",
+      "q003": "Impossible / Unreasonable",
+      "q004": "Medicine",
+      "q005": "たべさせる (Tabesaseru)",
+      "q006": "たべさせられる (Tabesaserareru)",
+      "q007": "のまされる (Nomasareru)",
+      "q008": "させられる (Saserareru)",
+      "q009": "ぶちょうは わたしに ざんぎょうを させました",
+      "q010": "わたしは ぶちょうに ざんぎょうを させられました",
+      "q011": "ははは こどもに やさいを たべさせました",
+      "q012": "わたしは くすりを のまされました",
+      "q013": "Do overtime",
+      "q014": "The boss",
+      "q015": "Drink alcohol",
+      "q016": "saseraremashita",
+      "q017": "nomasaremashita",
+      "q018": "ikasaremashita",
+      "q019": "tabesasemashita",
+      "q020": "zangyou"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Saseraremashita"],
+      "q017": ["Nomasaremashita"],
+      "q018": ["Ikasaremashita"],
+      "q019": ["Tabesasemashita"],
+      "q020": ["Zangyou"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have conquered the final boss of Japanese verb conjugations.",
+    "onFail": "Review the difference between causative (make do) and causative-passive (forced to do).",
+    "onPartial": "Almost there. Pay close attention to the short form of U-verbs: Nomu -> Nomasareru."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block3",
+    "causative",
+    "passive",
+    "advanced",
+    "month3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

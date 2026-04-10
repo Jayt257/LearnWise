@@ -1,0 +1,172 @@
+{
+  "activityId": "hi_en_M3B3_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Writing: Vectorizing Actions",
+  "learningGoal": "Transform simple verbs into compound verbs based on specific requested nuances (completion, force, benefit).",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B3_lesson_1"
+  ],
+  "instructions": "You will be given a simple sentence. Your task is to rewrite it using a compound (vector) verb to add the requested nuance.",
+  "writingPrompt": "Translate and add the requested nuances:\n1. He slept. -> Nuance: Finality/Completion. (He fell asleep).\n2. I read the book. -> Nuance: Directed inward/Benefit to self. (I read it up).\n3. He broke my phone. -> Nuance: Violence/Recklessness. (He smashed it).\n4. She did not fall. -> Nuance: Negative sentence. (Careful with the rule!)",
+  "promptGoal": "Accurately apply 'jaana', 'lena', 'daalna', and the negative-drop rule.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "वह",
+      "transliteration": "Woh",
+      "baseTranslation": "He / She"
+    },
+    {
+      "targetText": "सो गया",
+      "transliteration": "so gaya",
+      "baseTranslation": "fell asleep (Sona + Jaana)"
+    },
+    {
+      "targetText": "मैंने",
+      "transliteration": "Maine",
+      "baseTranslation": "I (ergative)"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "book"
+    },
+    {
+      "targetText": "पढ़ ली",
+      "transliteration": "padh li",
+      "baseTranslation": "read for oneself (Padhna + Lena)"
+    },
+    {
+      "targetText": "उसने",
+      "transliteration": "Usne",
+      "baseTranslation": "He (ergative)"
+    },
+    {
+      "targetText": "मेरा फोन",
+      "transliteration": "mera phone",
+      "baseTranslation": "my phone"
+    },
+    {
+      "targetText": "तोड़ डाला",
+      "transliteration": "tod daala",
+      "baseTranslation": "smashed (Todna + Daalna)"
+    },
+    {
+      "targetText": "नहीं गिरी",
+      "transliteration": "nahi giri",
+      "baseTranslation": "did not fall (Simple verb)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Woh so gaya.",
+    "Sentence 2: Maine kitaab padh li.",
+    "Sentence 3: Usne mera phone tod daala.",
+    "Sentence 4: Woh nahi giri."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "वह सो गया। मैंने किताब पढ़ ली। उसने मेरा फोन तोड़ डाला। वह नहीं गिरी।",
+      "transliteration": "Woh so gaya. Maine kitaab padh li. Usne mera phone tod daala. Woh nahi giri.",
+      "baseTranslation": "He fell asleep. I read the book. He smashed my phone. She did not fall.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect application of 'gaya' for completion, 'li' for self-benefit, 'daala' for force, and reverting to the simple verb for the negative sentence."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Vector: Jaana",
+      "weight": 25,
+      "description": "Sentence 1 must use 'so gaya'."
+    },
+    {
+      "criterion": "Vector: Lena",
+      "weight": 25,
+      "description": "Sentence 2 must use 'padh li'. Note the gender agreement: Kitaab is feminine, so it is 'li', not 'liya'."
+    },
+    {
+      "criterion": "Vector: Daalna",
+      "weight": 25,
+      "description": "Sentence 3 must use 'tod daala'."
+    },
+    {
+      "criterion": "Negative Rule",
+      "weight": 25,
+      "description": "Sentence 4 MUST use the simple verb 'nahi giri'. If it uses 'nahi gir padi' or 'nahi gir gayi', deduct points."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "वह सो गया। मैंने किताब पढ़ ली। उसने मेरा फोन तोड़ डाला। वह नहीं गिरी।",
+    "acceptableAlternates": [
+      "Woh so gaya. Maine kitaab padh li. Usne mera phone tod daala. Woh nahi giri."
+    ],
+    "requiredKeywords": [
+      "so gaya",
+      "padh li",
+      "tod daala",
+      "nahi giri"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict checking on the negative verb and the gender matching for 'padh li'.",
+    "lengthExpectation": "Four specific nuanced sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Negative Compound Error",
+          "weight": 100,
+          "description": "If user writes 'Woh nahi gir padi', reduce score significantly. Negative sentences reject compound verbs."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Magnificent! You are writing with the flair and accuracy of a native speaker.",
+    "onFail": "Review the core vectors: Sona + Gaya = Fell asleep. Padh + Li = Read it up. Tod + Daala = Smashed. And never use vectors with 'Nahi'.",
+    "onPartial": "Good effort. Pay close attention to sentence 2. 'Kitaab' is feminine, so 'Padh liya' becomes 'Padh li'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "compound_verbs",
+    "vector_verbs",
+    "nuance",
+    "grammar",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For Sentence 4, ignore the vector entirely. Just say 'She not fell' (Woh nahi giri).",
+  "commonMistakes": [
+    "Writing 'Woh nahi gir gayi' instead of 'Woh nahi giri'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

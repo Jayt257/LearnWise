@@ -1,0 +1,251 @@
+{
+  "activityId": "hi_en_M1B3_vocabulary_6",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "vocabulary",
+  "title": "Vocabulary: Demonstratives and Objects",
+  "learningGoal": "Memorize demonstrative pronouns (this, that, what) and basic everyday objects.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_lesson_1"
+  ],
+  "instructions": "Learn the core demonstratives (Yeh/Woh) and a few essential nouns. Many Hindi nouns are adopted directly from English, which makes vocabulary building much easier!",
+  "vocabTheme": "Pointing and Asking",
+  "wordList": [
+    {
+      "wordId": "v_1",
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this / he / she (nearby)",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_2",
+      "targetText": "वह",
+      "transliteration": "woh",
+      "baseTranslation": "that / he / she (far away)",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_3",
+      "targetText": "क्या",
+      "transliteration": "kya",
+      "baseTranslation": "what",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_4",
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "book",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_5",
+      "targetText": "गाड़ी",
+      "transliteration": "gaadi",
+      "baseTranslation": "car / vehicle",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_6",
+      "targetText": "कंप्यूटर",
+      "transliteration": "kampyutar",
+      "baseTranslation": "computer",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_7",
+      "targetText": "फ़ोन",
+      "transliteration": "fon",
+      "baseTranslation": "phone",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "घर",
+      "transliteration": "ghar",
+      "baseTranslation": "house / home",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_9",
+      "targetText": "पानी",
+      "transliteration": "paani",
+      "baseTranslation": "water",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_10",
+      "targetText": "खाना",
+      "transliteration": "khaana",
+      "baseTranslation": "food / to eat",
+      "partOfSpeech": "noun/verb",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "meaningList": [
+    "this", "that", "what", "book", "car", "computer", "phone", "house", "water", "food"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v_1",
+      "targetText": "यह फ़ोन है।",
+      "transliteration": "Yeh fon hai.",
+      "baseTranslation": "This is a phone."
+    },
+    {
+      "wordId": "v_2",
+      "targetText": "वह घर है।",
+      "transliteration": "Woh ghar hai.",
+      "baseTranslation": "That is a house."
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "मैं घर में हूँ।",
+      "transliteration": "Main ghar mein hoon.",
+      "baseTranslation": "I am in the house."
+    },
+    {
+      "wordId": "v_9",
+      "targetText": "यह पानी है।",
+      "transliteration": "Yeh paani hai.",
+      "baseTranslation": "This is water."
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "vq_1",
+      "questionText": "What does 'Woh' (वह) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "That (far away)",
+        "This (nearby)",
+        "What"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_1"
+    },
+    {
+      "questionId": "vq_2",
+      "questionText": "Which word means 'House'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ghar (घर)",
+        "Gaadi (गाड़ी)",
+        "Paani (पानी)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_2"
+    },
+    {
+      "questionId": "vq_3",
+      "questionText": "How do you ask 'What is this?'",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yeh kya hai? (यह क्या है?)",
+        "Woh kya hai? (वह क्या है?)",
+        "Yeh kahan hai? (यह कहाँ है?)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_3"
+    },
+    {
+      "questionId": "vq_4",
+      "questionText": "Which word means 'Water'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Paani (पानी)",
+        "Khaana (खाना)",
+        "Kitaab (किताब)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_4"
+    },
+    {
+      "questionId": "vq_5",
+      "questionText": "If someone points to a car far away, what should they say?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Woh gaadi hai.",
+        "Yeh gaadi hai.",
+        "Woh ghar hai."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "vq_1": "That (far away)",
+      "vq_2": "Ghar (घर)",
+      "vq_3": "Yeh kya hai? (यह क्या है?)",
+      "vq_4": "Paani (पानी)",
+      "vq_5": "Woh gaadi hai."
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Awesome! You've learned your first survival nouns.",
+    "onFail": "Review the list. Make sure you don't confuse 'Paani' (water) and 'Khaana' (food).",
+    "onPartial": "Good try! Remember, 'Yeh' means this (close), and 'Woh' means that (far)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "vocabulary",
+    "objects",
+    "nouns",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Many words like 'Phone', 'Computer', and 'Bus' are the same in Hindi and English.",
+  "commonMistakes": [
+    "Using 'yeh' for objects far away."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

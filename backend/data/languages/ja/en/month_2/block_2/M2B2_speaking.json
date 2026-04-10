@@ -1,0 +1,173 @@
+{
+  "activityId": "en_ja_M2B2_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Now and Tomorrow",
+  "learningGoal": "Speak fluently using present continuous, 'be going to', and 'will' in a natural conversational flow.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B2_vocabulary_6"
+  ],
+  "instructions": "友達からの電話に出た場面を想像してください。マイクに向かって、「私は本を読んでいます。今夜、夕食を作る予定です。明日あなたに電話します」と英語で話してください。(Imagine answering a phone call from a friend. Speak into the microphone and say: 'I am reading a book. I am going to cook dinner tonight. I will call you tomorrow.')",
+  "speakingPrompt": "Say: 'I am reading a book. I am going to cook dinner tonight. I will call you tomorrow.'",
+  "scenario": "Your friend calls you to ask what you are doing and what your plans are.",
+  "role": "You",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Say what you are doing now. (I am reading a book.)",
+      "expectedSpeakingPoints": [
+        "I am reading",
+        "a book"
+      ],
+      "sampleResponse": {
+        "targetText": "I am reading a book.",
+        "transliteration": "アイ アム リーディング ア ブック。",
+        "baseTranslation": "私は本を読んでいます。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Say what you plan to do tonight. (I am going to cook dinner tonight.)",
+      "expectedSpeakingPoints": [
+        "I am going to",
+        "cook dinner tonight"
+      ],
+      "sampleResponse": {
+        "targetText": "I am going to cook dinner tonight.",
+        "transliteration": "アイ アム ゴーイング トゥ クック ディナー トゥナイト。",
+        "baseTranslation": "今夜、夕食を作る予定です。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Make a promise for tomorrow. (I will call you tomorrow.)",
+      "expectedSpeakingPoints": [
+        "I will call you",
+        "tomorrow"
+      ],
+      "sampleResponse": {
+        "targetText": "I will call you tomorrow.",
+        "transliteration": "アイ ウィル コール ユー トゥモロー。",
+        "baseTranslation": "明日あなたに電話します。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hey! What are you doing right now?",
+    "transliteration": "ヘイ！ ホワット アー ユー ドゥーイング ライト ナウ？",
+    "baseTranslation": "やあ！今何してるの？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I am reading a book.",
+      "transliteration": "アイ アム リーディング ア ブック。",
+      "baseTranslation": "私は本を読んでいます。"
+    },
+    {
+      "targetText": "I am going to cook dinner tonight.",
+      "transliteration": "アイ アム ゴーイング トゥ クック ディナー トゥナイト。",
+      "baseTranslation": "今夜、夕食を作る予定です。"
+    },
+    {
+      "targetText": "I will call you tomorrow.",
+      "transliteration": "アイ ウィル コール ユー トゥモロー。",
+      "baseTranslation": "明日あなたに電話します。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'am reading'",
+      "Using 'am going to cook'",
+      "Using 'will call'"
+    ],
+    "requiredKeywords": [
+      "reading",
+      "book",
+      "going",
+      "cook",
+      "tonight",
+      "will",
+      "call",
+      "tomorrow"
+    ],
+    "acceptableParaphrases": [
+      "I'm reading a book. I'm going to cook dinner tonight. I'll call you tomorrow.",
+      "I'm reading a book. I'm gonna cook dinner tonight. I'll call you tomorrow."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Verb Tenses",
+          "weight": 50,
+          "description": "Critical use of present continuous, going to, and will."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear pronunciation of -ing, going to (or gonna), and will."
+        },
+        {
+          "name": "Content",
+          "weight": 30,
+          "description": "All three sentences stated clearly."
+        }
+      ]
+    },
+    "sampleAnswer": "I am reading a book. I am going to cook dinner tonight. I will call you tomorrow.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You used three different tenses perfectly in one conversation.",
+    "onFail": "Please try again. Pay close attention to the grammar: 'am reading' (not am read), and 'will call' (not will calling).",
+    "onPartial": "Good effort! Remember to pronounce the 'am' clearly in 'I am going to'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B2_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M2B2_speaking_sample.mp3",
+    "slowAudio": "path/to/M2B2_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I am reading a book. I am going to cook dinner tonight. I will call you tomorrow.",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "present_continuous",
+    "future_tense"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you don't say 'I will calling'. 'Will' is always followed by the base verb without -ing.",
+  "commonMistakes": [
+    "Saying 'I am read a book'.",
+    "Saying 'I will calling you'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B2_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

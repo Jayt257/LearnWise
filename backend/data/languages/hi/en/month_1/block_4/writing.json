@@ -1,0 +1,164 @@
+{
+  "activityId": "en_hi_M1B4_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Answering and Asking Questions",
+  "learningGoal": "The learner will successfully draft a short 50-150 word English response addressing specific WH- questions, spelling out numerical ages, and formulating at least one structurally inverted English question.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B4_reading_001"],
+  "instructions": "Your new English friend has sent you a message with three questions: 1) What is your name? 2) How old are you? 3) What day is today? Write a paragraph answering these questions. Use the full word for your age, not the number (e.g., 'Twenty', not '20'). Finally, ask your friend ONE question using 'Who', 'What', 'Where', or 'When'.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Remember to flip the Verb and Subject for your question! (e.g., 'Are you...' instead of 'You are...')"
+    }
+  ],
+  "writingPrompt": "Write a reply message answering your friend's 3 questions, and ending with 1 question of your own.",
+  "promptGoal": "Demonstrate comprehension of WH-questions, accurate numerical spelling, date capitalization, and interrogative sentence inversion.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "Name",
+      "transliteration": "नेम",
+      "baseTranslation": "नाम",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Old",
+      "transliteration": "ओल्ड",
+      "baseTranslation": "उम्र / पुराना",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Today",
+      "transliteration": "टुडे",
+      "baseTranslation": "आज",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Where",
+      "transliteration": "वेयर",
+      "baseTranslation": "कहाँ",
+      "partOfSpeech": "Question Word"
+    },
+    {
+      "targetText": "When",
+      "transliteration": "वेन",
+      "baseTranslation": "कब",
+      "partOfSpeech": "Question Word"
+    },
+    {
+      "targetText": "Twenty",
+      "transliteration": "ट्वेंटी",
+      "baseTranslation": "बीस",
+      "partOfSpeech": "Number"
+    },
+    {
+      "targetText": "Thirty",
+      "transliteration": "थर्टी",
+      "baseTranslation": "तीस",
+      "partOfSpeech": "Number"
+    }
+  ],
+  "referenceHints": [
+    "To answer 'What is your name?': My name is [Name].",
+    "To answer 'How old are you?': I am [number written out] years old.",
+    "To answer 'What day is today?': Today is [Day]. Capitalize the Day!",
+    "To ask a question: Start with Where/What/When/Who, then flip the verb (e.g., Where ARE YOU?)."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Hello! My name is Rahul. I am twenty-two years old. Today is Monday. I am very happy to meet you. Where are you from?",
+      "transliteration": "हेलो! माई नेम इज़ राहुल। आई एम ट्वेंटी-टू इयर्स ओल्ड। टुडे इज़ मंडे। आई एम वेरी हैप्पी टू मीट यू। वेयर आर यू फ्रॉम?",
+      "baseTranslation": "नमस्ते! मेरा नाम राहुल है। मैं बाईस वर्ष का हूँ। आज सोमवार है। मुझे आपसे मिलकर बहुत खुशी हुई। आप कहाँ से हैं?",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Spells out 'twenty-two', capitalizes 'Monday', answers all 3 prompts, and successfully forms an inverted WH-question at the end."
+    },
+    {
+      "targetText": "Hi. My name is Priya. I am thirty years old. Today is Friday. How are you?",
+      "transliteration": "हाय। माई नेम इज़ प्रिया। आई एम थर्टी इयर्स ओल्ड। टुडे इज़ फ्राइडे। हाउ आर यू?",
+      "baseTranslation": "नमस्ते। मेरा नाम प्रिया है। मैं तीस वर्ष की हूँ। आज शुक्रवार है। आप कैसे हैं?",
+      "qualityLevel": "acceptable",
+      "annotation": "Acceptable. Very simple structure but technically fulfills every rule and constraint perfectly."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Answering All Queries",
+      "weight": 30,
+      "description": "Did the user provide their name, age (spelled out), and today's day?"
+    },
+    {
+      "criterion": "Question Formulation (Inversion)",
+      "weight": 40,
+      "description": "Did the user ask a valid question ending in a question mark? Was the Verb correctly placed before the Subject? (e.g., 'Are you' instead of 'You are')."
+    },
+    {
+      "criterion": "Capitalization & Spelling",
+      "weight": 30,
+      "description": "Are Days of the week capitalized? Is the numerical age spelled via alphabet rather than digits?"
+    }
+  ],
+  "minimumWordCount": 20,
+  "maximumWordCount": 150,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Hi, my name is Sara. I am twenty-five years old. Today is Wednesday. Where are you from?",
+    "acceptableAlternates": [
+      "My name is Amit. I am thirty years old. Today is Friday. What is your favorite day?"
+    ],
+    "requiredKeywords": [
+      "name",
+      "years",
+      "old",
+      "Today",
+      "?"
+    ],
+    "grammarBaseline": "Must include an inverted interrogative sentence structure and capitalized weekday.",
+    "lengthExpectation": "20 to 150 words",
+    "scoringRubric": {
+      "Task Completion": "30%",
+      "Interrogative Syntax": "40%",
+      "Capitalization/Spelling": "30%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Magnificent! You correctly synthesized answers to English prompts and successfully fired back a natively structured question.",
+    "onFail": "Keep practicing! Ensure you write out your age in letters (e.g. 'twenty' not '20'). Look at your question: did you write 'Where you are?' Remember to flip it to 'Where ARE YOU?'.",
+    "onPartial": "Good start! You answered the questions well, but you might have forgotten to use a capital letter for the Day of the Week, or you forgot the question mark '?' at the end."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b4/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b4/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b4/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Write a reply answering Name, Age, and Day. End with a question.",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "questions", "numbers", "dates", "introductions", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b4/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To ask a question easily, build the normal sentence first: 'You are happy'. Then flip the first two words: 'Are you happy?'. Add a WH word if you want: 'Why are you happy?'",
+  "commonMistakes": [
+    "Writing 'I am 20 years old' instead of 'I am twenty years old'.",
+    "Writing 'What your name is?' instead of 'What is your name?'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B4_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

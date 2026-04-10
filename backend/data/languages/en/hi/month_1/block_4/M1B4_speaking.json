@@ -1,0 +1,191 @@
+{
+  "activityId": "hi_en_M1B4_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Speaking: Time and Age",
+  "learningGoal": "Engage in a conversation stating your age, asking for the time, and mentioning the day of the week.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B4_vocabulary_6",
+    "hi_en_M1B4_listening_5"
+  ],
+  "instructions": "In this roleplay, you are talking to a young relative. You will state your age, ask them for the time, and tell them what day it is today.",
+  "speakingPrompt": "Speak clearly and pay attention to the gender marker 'ka' or 'ki' when stating your age.",
+  "scenario": "A casual conversation with a young family member.",
+  "role": "Yourself (Assume you are 10 years old for this exercise)",
+  "conversationPartner": "Your cousin",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Your cousin asks: 'Aap kitne saal ke hain?' (How old are you?). Reply: 'I am 10 years old.' (Use 'ka hoon' if you are male, 'ki hoon' if female. The sample answer uses 'ka hoon').",
+      "expectedSpeakingPoints": [
+        "Main",
+        "das saal",
+        "ka hoon"
+      ],
+      "sampleResponse": {
+        "targetText": "मैं दस साल का हूँ।",
+        "transliteration": "Main das saal ka hoon.",
+        "baseTranslation": "I am 10 years old."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Now ask your cousin: 'What time is it?'",
+      "expectedSpeakingPoints": [
+        "Kitne",
+        "baje",
+        "hain"
+      ],
+      "sampleResponse": {
+        "targetText": "कितने बजे हैं?",
+        "transliteration": "Kitne baje hain?",
+        "baseTranslation": "What time is it?"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Your cousin replies: 'Chaar baje hain. Kal kya hai?' (It is 4 o'clock. What is tomorrow?). Tell them: 'Tomorrow is Thursday.'",
+      "expectedSpeakingPoints": [
+        "Kal",
+        "guruvaar",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "कल गुरुवार है।",
+        "transliteration": "Kal guruvaar hai.",
+        "baseTranslation": "Tomorrow is Thursday."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Now tell your cousin: 'Today is Wednesday.'",
+      "expectedSpeakingPoints": [
+        "Aaj",
+        "budhvaar",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "आज बुधवार है।",
+        "transliteration": "Aaj budhvaar hai.",
+        "baseTranslation": "Today is Wednesday."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप घर में हैं।",
+    "transliteration": "Aap ghar mein hain.",
+    "baseTranslation": "You are in the house."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं दस साल का हूँ।",
+      "transliteration": "Main das saal ka hoon.",
+      "baseTranslation": "I am 10 years old."
+    },
+    {
+      "targetText": "कितने बजे हैं?",
+      "transliteration": "Kitne baje hain?",
+      "baseTranslation": "What time is it?"
+    },
+    {
+      "targetText": "कल गुरुवार है।",
+      "transliteration": "Kal guruvaar hai.",
+      "baseTranslation": "Tomorrow is Thursday."
+    },
+    {
+      "targetText": "आज बुधवार है।",
+      "transliteration": "Aaj budhvaar hai.",
+      "baseTranslation": "Today is Wednesday."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 50,
+    "grammarWeight": 20,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Main das saal ka hoon",
+      "Kitne baje hain",
+      "Kal guruvaar hai",
+      "Aaj budhvaar hai"
+    ],
+    "requiredKeywords": [
+      "दस",
+      "साल",
+      "कितने",
+      "बजे",
+      "कल",
+      "आज"
+    ],
+    "acceptableParaphrases": [
+      "Using 'ki hoon' for female speakers is perfectly correct.",
+      "Using real numbers for your age is also acceptable."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Time Question Formation",
+          "weight": 50,
+          "description": "Must use 'Kitne' (plural) and 'hain' (plural) for asking the time."
+        },
+        {
+          "name": "Age Gender Agreement",
+          "weight": 50,
+          "description": "Must use 'ka' or 'ki' directly after 'saal'."
+        }
+      ]
+    },
+    "sampleAnswer": "Main das saal ka hoon. Kitne baje hain? Kal guruvaar hai. Aaj budhvaar hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Superb! You can naturally discuss the time, date, and age.",
+    "onFail": "Review the question for time. It must be 'Kitne baje hain?'.",
+    "onPartial": "Good effort. Pay attention to your pronunciation of 'das' and 'baje'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "मैं दस साल का हूँ। कितने बजे हैं? कल गुरुवार है। आज बुधवार है।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "numbers",
+    "time",
+    "days",
+    "age"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak smoothly. 'Kitne baje hain' should sound like one phrase: Kitne-baje-hain.",
+  "commonMistakes": [
+    "Saying 'Kitna baje hai' (using the singular instead of plural)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B4_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

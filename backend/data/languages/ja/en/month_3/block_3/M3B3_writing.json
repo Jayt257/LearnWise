@@ -1,0 +1,164 @@
+{
+  "activityId": "en_ja_M3B3_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Advising a Friend",
+  "learningGoal": "Write sentences using phrasal verbs and idioms to give advice and encouragement.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B3_reading_3"
+  ],
+  "instructions": "あなたの友人は体調が悪く、さらにパソコンが動かなくて困っています。友人を励ます英語を3文で書いてください。(Write 3 sentences to advise and encourage your sick friend who has computer trouble.)\n以下の表現をすべて使ってください。\n1. under the weather（体調が悪い）\n2. turn it off（それを消す）\n3. a piece of cake（とても簡単）",
+  "writingPrompt": "Write 3 sentences to your friend. Use: 1. under the weather, 2. turn it off, 3. a piece of cake.",
+  "promptGoal": "To actively construct sentences incorporating specific idiomatic expressions and separable phrasal verbs.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "under the weather",
+      "transliteration": "アンダー ザ ウェザー",
+      "baseTranslation": "体調が悪い",
+      "partOfSpeech": "idiom"
+    },
+    {
+      "targetText": "turn it off",
+      "transliteration": "ターン イット オフ",
+      "baseTranslation": "それを消す、電源を切る",
+      "partOfSpeech": "phrasal verb"
+    },
+    {
+      "targetText": "a piece of cake",
+      "transliteration": "ア ピース オヴ ケイク",
+      "baseTranslation": "とても簡単",
+      "partOfSpeech": "idiom"
+    },
+    {
+      "targetText": "computer",
+      "transliteration": "コンピューター",
+      "baseTranslation": "パソコン",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "fix",
+      "transliteration": "フィックス",
+      "baseTranslation": "直す",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "You are feeling under the weather. (あなたは体調が悪いですね)\nTurn it off and rest. (電源を切って休んでください)\nFixing it is a piece of cake. (直すのは簡単です)\nこれらの表現を組み合わせて自然な文章を作りましょう。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I know you are feeling under the weather today. Just turn it off and get some sleep. Fixing the computer is a piece of cake for me.",
+      "transliteration": "アイ ノウ ユー アー フィーリング アンダー ザ ウェザー トゥデイ。ジャスト ターン イット オフ アンド ゲット サム スリープ。フィキシング ザ コンピューター イズ ア ピース オヴ ケイク フォー ミー。",
+      "baseTranslation": "今日、あなたが体調が悪いのは知っています。ただ電源を切って寝てください。パソコンを直すのは私にとって朝飯前です。",
+      "qualityLevel": "excellent",
+      "annotation": "Natural integration of all three required phrases."
+    },
+    {
+      "targetText": "You look under the weather, so you should rest. Please turn it off now. I will help you because it is a piece of cake.",
+      "transliteration": "ユー ルック アンダー ザ ウェザー、ソー ユー シュッド レスト。プリーズ ターン イット オフ ナウ。アイ ウィル ヘルプ ユー ビコーズ イット イズ ア ピース オヴ ケイク。",
+      "baseTranslation": "体調が悪そうだから休むべきだよ。今は電源を切って。とても簡単だから私が手伝ってあげる。",
+      "qualityLevel": "excellent",
+      "annotation": "Good use of modals and conjunctions to connect the ideas."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Under the weather",
+      "weight": 30,
+      "description": "Did the user correctly use 'under the weather' to describe feeling sick?"
+    },
+    {
+      "criterion": "Turn it off",
+      "weight": 30,
+      "description": "Did the user use the exact phrase 'turn it off' (not 'turn off it')?"
+    },
+    {
+      "criterion": "Piece of cake",
+      "weight": 30,
+      "description": "Did the user correctly use 'a piece of cake' to mean something is easy?"
+    },
+    {
+      "criterion": "Cohesion",
+      "weight": 10,
+      "description": "Do the three sentences make sense together as a message to a friend?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "You are under the weather. Turn it off. It is a piece of cake.",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "under",
+      "weather",
+      "turn",
+      "it",
+      "off",
+      "piece",
+      "cake"
+    ],
+    "grammarBaseline": "Must include all three phrases exactly.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Vocabulary inclusion",
+          "weight": 60,
+          "description": "Includes all required idioms and phrasal verbs."
+        },
+        {
+          "name": "Pronoun Placement",
+          "weight": 40,
+          "description": "'it' must be between 'turn' and 'off'."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great advice! You used the idioms and phrasal verbs just like a native speaker.",
+    "onFail": "Please check your sentences. Did you include all three phrases? Make sure it's 'turn IT off', not 'turn off it'.",
+    "onPartial": "Good try. Check your spelling of 'piece of cake' and 'weather'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "idioms",
+    "phrasal_verbs"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure to write 'turn it off' exactly like that.",
+  "commonMistakes": [
+    "Writing 'turn off it' instead of 'turn it off'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

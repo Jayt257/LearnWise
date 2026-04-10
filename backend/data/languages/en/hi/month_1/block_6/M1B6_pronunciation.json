@@ -1,0 +1,161 @@
+{
+  "activityId": "hi_en_M1B6_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Command Endings and Nasals",
+  "learningGoal": "Accurately pronounce the formal command ending '-iye' and the nasalized postposition 'mein'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B6_lesson_1"
+  ],
+  "instructions": "The formal command ending '-iye' requires a smooth glide between vowels. Additionally, the postposition 'mein' (in) ends with a nasal sound, exactly like 'hain'. Practice making these sounds natural and fluid.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "जाइये",
+      "transliteration": "Jaaiye",
+      "baseTranslation": "Please go",
+      "phoneticHint": "jaa-ee-yay",
+      "syllableSplit": "jaa-i-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'jaa-yay' or 'jye'. You must clearly pronounce the 'ee' sound in the middle."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "खाइये",
+      "transliteration": "Khaaiye",
+      "baseTranslation": "Please eat",
+      "phoneticHint": "khaa-ee-yay",
+      "syllableSplit": "khaa-i-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Swallowing the middle 'i'."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "कीजिये",
+      "transliteration": "Kijiye",
+      "baseTranslation": "Please do",
+      "phoneticHint": "kee-jee-yay",
+      "syllableSplit": "ki-ji-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kaj-yay'."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "जाओ",
+      "transliteration": "Jaao",
+      "baseTranslation": "Go (informal)",
+      "phoneticHint": "jaa-oh",
+      "syllableSplit": "jaa-o",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'jow' like rhyming with 'cow'. It should be two clear vowel sounds."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "में",
+      "transliteration": "mein",
+      "baseTranslation": "in",
+      "phoneticHint": "may-n (nasalize the end)",
+      "syllableSplit": "mein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing a hard 'n' where the tongue touches the roof of the mouth. The tongue should stay down."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "पर",
+      "transliteration": "par",
+      "baseTranslation": "on",
+      "phoneticHint": "puhr",
+      "syllableSplit": "par",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'pahr' with a long a. It is a short schwa sound."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "से",
+      "transliteration": "se",
+      "baseTranslation": "from",
+      "phoneticHint": "say",
+      "syllableSplit": "se",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'see'."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "अंदर",
+      "transliteration": "andar",
+      "baseTranslation": "inside",
+      "phoneticHint": "un-duhr",
+      "syllableSplit": "an-dar",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'ahn-dahr'. Both 'a's are short."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear articulation of the three-syllable formal commands (-i-ye) and soft nasalization on 'mein'.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Great job! Your commands sound very polite and natural.",
+    "onFail": "Please listen carefully to the 'iye' sound. It is not just one sound, it's a glide: ee-yay.",
+    "onPartial": "Good effort. Ensure your 'mein' is nasalized, just like you learned with 'hain'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "commands",
+    "postpositions",
+    "vowel_glides",
+    "nasalization"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'mein' correctly, start saying the word 'main' in English, but stop before your tongue touches the roof of your mouth.",
+  "commonMistakes": [
+    "Dropping the 'i' in 'Jaaiye' resulting in 'Jaaye'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B6_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

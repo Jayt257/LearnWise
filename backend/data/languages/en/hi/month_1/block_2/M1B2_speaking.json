@@ -1,0 +1,189 @@
+{
+  "activityId": "hi_en_M1B2_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Speaking: Where Are You From?",
+  "learningGoal": "Engage in a fluid conversation stating your name, country, and asking the same of someone else.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_vocabulary_6",
+    "hi_en_M1B2_listening_5"
+  ],
+  "instructions": "You will now roleplay a conversation. You will meet Anjali. Introduce yourself by name, ask her where she is from, and state where you are from. Speak clearly and remember the SOV word order.",
+  "speakingPrompt": "Respond to Anjali using complete Hindi sentences.",
+  "scenario": "Meeting a new person and exchanging origins.",
+  "role": "Yourself (Use 'John' from 'America' if you prefer)",
+  "conversationPartner": "Anjali (from India)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Anjali says: 'Namaste. Main Anjali hoon.' (Hello. I am Anjali.) Reply with: 'Hello. I am John.'",
+      "expectedSpeakingPoints": [
+        "Namaste",
+        "Main John hoon"
+      ],
+      "sampleResponse": {
+        "targetText": "नमस्ते। मैं जॉन हूँ।",
+        "transliteration": "Namaste. Main John hoon.",
+        "baseTranslation": "Hello. I am John."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Now, ask her formally: 'Where are you from?'",
+      "expectedSpeakingPoints": [
+        "Aap",
+        "kahan se",
+        "hain"
+      ],
+      "sampleResponse": {
+        "targetText": "आप कहाँ से हैं?",
+        "transliteration": "Aap kahan se hain?",
+        "baseTranslation": "Where are you from?"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Anjali says: 'Main Bharat se hoon. Aur aap?' (I am from India. And you?). Reply: 'I am from America.'",
+      "expectedSpeakingPoints": [
+        "Main",
+        "Amerika se",
+        "hoon"
+      ],
+      "sampleResponse": {
+        "targetText": "मैं अमेरिका से हूँ।",
+        "transliteration": "Main Amerika se hoon.",
+        "baseTranslation": "I am from America."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Anjali points to your friend Peter and asks: 'Aur yeh kaun hai?' (And who is this?). Reply: 'This is Peter.'",
+      "expectedSpeakingPoints": [
+        "Yeh",
+        "Peter",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "यह पीटर है।",
+        "transliteration": "Yeh Peter hai.",
+        "baseTranslation": "This is Peter."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप अंजलि से बात कर रहे हैं।",
+    "transliteration": "Aap Anjali se baat kar rahe hain.",
+    "baseTranslation": "You are talking to Anjali."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। मैं जॉन हूँ।",
+      "transliteration": "Namaste. Main John hoon.",
+      "baseTranslation": "Hello. I am John."
+    },
+    {
+      "targetText": "आप कहाँ से हैं?",
+      "transliteration": "Aap kahan se hain?",
+      "baseTranslation": "Where are you from?"
+    },
+    {
+      "targetText": "मैं अमेरिका से हूँ।",
+      "transliteration": "Main Amerika se hoon.",
+      "baseTranslation": "I am from America."
+    },
+    {
+      "targetText": "यह पीटर है।",
+      "transliteration": "Yeh Peter hai.",
+      "baseTranslation": "This is Peter."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 50,
+    "grammarWeight": 20,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Namaste",
+      "Main ___ hoon",
+      "Aap kahan se hain",
+      "Main ___ se hoon",
+      "Yeh ___ hai"
+    ],
+    "requiredKeywords": [
+      "नमस्ते",
+      "कहाँ से",
+      "हूँ",
+      "हैं",
+      "है"
+    ],
+    "acceptableParaphrases": [
+      "Using your real name and country is perfectly acceptable."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Verb Matching",
+          "weight": 50,
+          "description": "Used 'hoon' for I, 'hain' for You, and 'hai' for Third Person."
+        },
+        {
+          "name": "Question Formation",
+          "weight": 50,
+          "description": "Correctly formed 'Aap kahan se hain?'."
+        }
+      ]
+    },
+    "sampleAnswer": "Namaste. Main John hoon. Aap kahan se hain? Main Amerika se hoon. Yeh Peter hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! You are now capable of introducing yourself and a friend in Hindi.",
+    "onFail": "Make sure you use the correct verb for each person. Main = hoon, Aap = hain, Yeh = hai.",
+    "onPartial": "Good effort! Practice saying 'Aap kahan se hain' faster so it sounds natural."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। मैं जॉन हूँ। आप कहाँ से हैं? मैं अमेरिका से हूँ। यह पीटर है।",
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "introductions",
+    "countries",
+    "roleplay",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak confidently. Remember the 'se' goes right after the country name.",
+  "commonMistakes": [
+    "Saying 'Main hoon se Amerika' (incorrect word order)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B2_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

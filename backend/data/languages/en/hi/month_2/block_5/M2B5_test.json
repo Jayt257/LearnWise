@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M2B5_test_8",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Test: Modals & The Dative Trap",
+  "learningGoal": "Evaluate understanding of Sakna, Chahiye, Padega and the mandatory shift from normal subjects to dative subjects.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B5_lesson_1",
+    "hi_en_M2B5_pronunciation_2",
+    "hi_en_M2B5_reading_3",
+    "hi_en_M2B5_writing_4",
+    "hi_en_M2B5_listening_5",
+    "hi_en_M2B5_vocabulary_6",
+    "hi_en_M2B5_speaking_7"
+  ],
+  "instructions": "This block test will verify your mastery of Hindi modals. Watch out for the Dative Trap! Check if the sentence needs 'Main' or 'Mujhe'.",
+  "testTitle": "Modals Mastery Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_sakna",
+      "sectionTitle": "Ability (Can)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "Translate: 'I can speak Hindi.' (Assume Male Speaker)",
+          "questionType": "multiple_choice",
+          "options": [
+            "Main Hindi bol sakta hoon.",
+            "Mujhe Hindi bol sakta hoon.",
+            "Main Hindi bolna chahiye."
+          ],
+          "questionHints": {
+            "targetText": "Main Hindi bol sakta hoon.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "How does a FEMALE say 'I cannot go'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Main nahi jaa sakti.",
+            "Main nahi jaa sakta.",
+            "Mujhe nahi jaana hai."
+          ],
+          "questionHints": {
+            "targetText": "Main nahi jaa sakti.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_chahiye_padega",
+      "sectionTitle": "Should & Have To (Dative)",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate: 'I should read a book.' (Book = Kitaab [Fem])",
+          "questionType": "multiple_choice",
+          "options": [
+            "Mujhe kitaab padhni chahiye.",
+            "Main kitaab padhna chahiye.",
+            "Mujhe kitaab padhna chahiye."
+          ],
+          "questionHints": {
+            "targetText": "Mujhe kitaab padhni chahiye.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "If a manager says to you 'Tumhein aana padega', what does it mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "You will have to come.",
+            "You should come.",
+            "You can come."
+          ],
+          "questionHints": {
+            "targetText": "You will have to come.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: मुझे अब जाना है। (Mujhe ab jaana hai.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "I have to go now.",
+            "transliteration": "Mujhe ab jaana hai.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Main Hindi bol sakta hoon.",
+      "tq_2": "Main nahi jaa sakti.",
+      "tq_3": "Mujhe kitaab padhni chahiye.",
+      "tq_4": "You will have to come.",
+      "tq_5": "I have to go now."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'I must go now' or 'I need to go now'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Flawless! You dodged the Dative Trap completely.",
+    "onFail": "Review the lesson. Remember that 'Sakta' uses 'Main'. 'Chahiye' and 'Padega' use 'Mujhe'.",
+    "onPartial": "Good effort. Just remember that if an object is feminine (like a book), 'chahiye' forces the verb 'padhna' to become feminine 'padhni'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block5_month2",
+    "modals",
+    "dative",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the English sentence first. Can = Sakta (Normal Subject). Should = Chahiye (Dative Subject). Have to = Padega/Hai (Dative Subject).",
+  "commonMistakes": [
+    "Choosing 'Main kitaab padhna chahiye' (Using Main with Chahiye)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B6_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

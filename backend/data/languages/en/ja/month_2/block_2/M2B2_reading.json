@@ -1,0 +1,207 @@
+{
+  "activityId": "ja_en_M2B2_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "A Letter to a Friend",
+  "learningGoal": "The learner will read a short letter to identify ongoing actions (~te imasu) and polite requests (~te kudasai).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B2_lesson_001",
+    "ja_en_M2B2_vocabulary_001"
+  ],
+  "instructions": "Read this digital message sent from a student to their host family. Pay close attention to verbs ending in 'te imasu' (is currently doing) versus standard 'masu' (will do).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Notice how the Te-form fundamentally changes the tense of the sentence from 'future/habitual' to 'happening right this second'."
+    }
+  ],
+  "readingTitle": "Hanging out in Tokyo",
+  "readingText": "こんにちは。いま、わたしは カフェで コーヒーを のんで います。ともだちは プールで およいで います。あとで、ともだちと えいがを みます。それから、うちへ かえります。はやく かえって ください。はい、わかりました。",
+  "textInTargetLanguage": "こんにちは。いま、わたしは カフェで コーヒーを のんで います。ともだちは プールで およいで います。あとで、ともだちと えいがを みます。それから、うちへ かえります。はやく かえって ください。はい、わかりました。",
+  "baseLanguageSupportText": "Hello. Right now, I am drinking coffee at a cafe. My friend is swimming in the pool. Later, I will watch a movie with my friend. After that, I will return home. 'Please return quickly.' Yes, understood.",
+  "glossary": [
+    {
+      "targetText": "のんで います",
+      "transliteration": "Nonde imasu",
+      "baseTranslation": "Am drinking (Te-form + imasu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "およいで います",
+      "transliteration": "Oyoide imasu",
+      "baseTranslation": "Is swimming (Te-form + imasu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あとで",
+      "transliteration": "Ato de",
+      "baseTranslation": "Later",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "それから",
+      "transliteration": "Sorekara",
+      "baseTranslation": "After that / And then",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "かえって ください",
+      "transliteration": "Kaette kudasai",
+      "baseTranslation": "Please return (Te-form + kudasai)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "わかりました",
+      "transliteration": "Wakarimashita",
+      "baseTranslation": "Understood / Got it",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "いま、わたしは カフェで コーヒーを のんで います。",
+      "transliteration": "Ima, watashi wa kafe de koohii wo nonde imasu.",
+      "baseTranslation": "Now, I am drinking coffee at a cafe."
+    },
+    {
+      "targetText": "ともだちは プールで およいで います。",
+      "transliteration": "Tomodachi wa puuru de oyoide imasu.",
+      "baseTranslation": "My friend is swimming in the pool."
+    },
+    {
+      "targetText": "はやく かえって ください。",
+      "transliteration": "Hayaku kaette kudasai.",
+      "baseTranslation": "Please return quickly."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What is the author CURRENTLY doing?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Watching a movie",
+        "Drinking coffee",
+        "Swimming in the pool",
+        "Returning home"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is the friend CURRENTLY doing?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Drinking coffee",
+        "Waiting",
+        "Swimming in the pool",
+        "Watching a movie"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Are they watching a movie right now?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, the verb is 'mite imasu'.",
+        "No, the verb is just 'mimasu' (will watch later)."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What request did the host family make to the student?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Please watch a movie.",
+        "Please return quickly.",
+        "Please drink coffee.",
+        "Please wait a little."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the base dictionary form of 'Kaette' (to return).",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Drinking coffee",
+      "q002": "Swimming in the pool",
+      "q003": "No, the verb is just 'mimasu' (will watch later).",
+      "q004": "Please return quickly.",
+      "q005": "kaerimasu"
+    },
+    "acceptableParaphrases": {
+      "q005": ["kaerimasu", "Kaerimasu", "かえります"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The author is drinking coffee while the friend swims.",
+      "They will watch a movie later.",
+      "The host family requested them to come home early."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job distinguishing between actions happening NOW vs LATER.",
+    "onFail": "Review the Te-form + imasu rule. If a verb just ends in 'masu', it means it WILL happen in the future.",
+    "onPartial": "Good effort. Pay close attention to 'Kaette kudasai'. Kaerimasu -> drop ri -> add tte."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b2/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b2/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b2/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m2/b2/reading/normal_reading.mp3",
+    "audioTranscript": "こんにちは。いま、わたしは カフェで コーヒーを のんで います。ともだちは プールで およいで います。あとで、ともだちと えいがを みます。それから、うちへ かえります。はやく かえって ください。はい、わかりました。",
+    "audioLanguage": "ja",
+    "audioDuration": 55,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "te-form",
+    "progressive",
+    "requests",
+    "intermediate",
+    "month2",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the verb endings. 'imasu' = -ing. 'kudasai' = please do.",
+  "commonMistakes": [
+    "Thinking 'mimasu' means 'am watching'. It must be 'mite imasu' to mean 'am watching'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B2_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

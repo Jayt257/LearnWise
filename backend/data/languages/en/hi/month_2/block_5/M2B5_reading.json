@@ -1,0 +1,261 @@
+{
+  "activityId": "hi_en_M2B5_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "Reading: Doctor's Orders",
+  "learningGoal": "Read and comprehend a dialogue heavily featuring modals (should, must, can) and dative pronouns.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B5_pronunciation_2"
+  ],
+  "instructions": "Read the conversation between a doctor and a sick patient. Pay close attention to how the doctor gives advice ('chahiye') and states what the patient must do ('padega').",
+  "readingTitle": "डॉक्टर की सलाह (Doctor's Advice)",
+  "readingText": "रोगी: नमस्ते डॉक्टर। मैं ठीक से साँस नहीं ले सकता। मुझे बहुत खाँसी है।\nडॉक्टर: नमस्ते। आपको आराम करना चाहिए। क्या आप रात को सोते हैं?\nरोगी: नहीं, मैं नहीं सो सकता। मुझे पूरी रात खाँसना पड़ता है।\nडॉक्टर: यह अच्छा नहीं है। आपको यह दवा पीनी चाहिए। और आपको ठंडा पानी नहीं पीना चाहिए।\nरोगी: क्या मैं आइसक्रीम खा सकता हूँ?\nडॉक्टर: बिल्कुल नहीं! अगर आपको ठीक होना है, तो आपको आइसक्रीम छोड़नी पड़ेगी।\nरोगी: ठीक है डॉक्टर। मुझे अब जाना है।",
+  "textInTargetLanguage": "रोगी: नमस्ते डॉक्टर। मैं ठीक से साँस नहीं ले सकता। मुझे बहुत खाँसी है।\nडॉक्टर: नमस्ते। आपको आराम करना चाहिए। क्या आप रात को सोते हैं?\nरोगी: नहीं, मैं नहीं सो सकता। मुझे पूरी रात खाँसना पड़ता है।\nडॉक्टर: यह अच्छा नहीं है। आपको यह दवा पीनी चाहिए। और आपको ठंडा पानी नहीं पीना चाहिए।\nरोगी: क्या मैं आइसक्रीम खा सकता हूँ?\nडॉक्टर: बिल्कुल नहीं! अगर आपको ठीक होना है, तो आपको आइसक्रीम छोड़नी पड़ेगी।\nरोगी: ठीक है डॉक्टर। मुझे अब जाना है।",
+  "baseLanguageSupportText": "Patient: Hello Doctor. I cannot breathe properly. I have a lot of cough.\nDoctor: Hello. You should rest. Do you sleep at night?\nPatient: No, I cannot sleep. I have to cough all night.\nDoctor: This is not good. You should drink this medicine. And you should not drink cold water.\nPatient: Can I eat ice cream?\nDoctor: Absolutely not! If you want to get well, then you will have to leave ice cream.\nPatient: Okay doctor. I have to go now.",
+  "glossary": [
+    {
+      "targetText": "रोगी",
+      "transliteration": "Rogi",
+      "baseTranslation": "Patient",
+      "exampleSentence": {
+        "targetText": "रोगी बीमार है।",
+        "transliteration": "Rogi bimaar hai.",
+        "baseTranslation": "The patient is sick."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "ले सकता",
+      "transliteration": "le sakta",
+      "baseTranslation": "can take (ability)",
+      "exampleSentence": {
+        "targetText": "मैं साँस नहीं ले सकता।",
+        "transliteration": "Main saans nahi le sakta.",
+        "baseTranslation": "I cannot take a breath."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "चाहिए",
+      "transliteration": "chahiye",
+      "baseTranslation": "should (when used with a verb)",
+      "exampleSentence": {
+        "targetText": "आपको आराम करना चाहिए।",
+        "transliteration": "Aapko aaram karna chahiye.",
+        "baseTranslation": "You should rest."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "पड़ता है",
+      "transliteration": "padta hai",
+      "baseTranslation": "have to (present habitual compulsion)",
+      "exampleSentence": {
+        "targetText": "मुझे खाँसना पड़ता है।",
+        "transliteration": "Mujhe khaansna padta hai.",
+        "baseTranslation": "I have to cough."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "दवा",
+      "transliteration": "dawa",
+      "baseTranslation": "medicine (feminine)",
+      "exampleSentence": {
+        "targetText": "दवा पीनी चाहिए।",
+        "transliteration": "Dawa peeni chahiye.",
+        "baseTranslation": "Should drink medicine."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "पीनी",
+      "transliteration": "peeni",
+      "baseTranslation": "drink (feminine form, forced by 'dawa')",
+      "exampleSentence": {
+        "targetText": "चाय पीनी है।",
+        "transliteration": "Chai peeni hai.",
+        "baseTranslation": "Have to drink tea."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "बिल्कुल",
+      "transliteration": "bilkul",
+      "baseTranslation": "absolutely",
+      "exampleSentence": {
+        "targetText": "बिल्कुल नहीं!",
+        "transliteration": "Bilkul nahi!",
+        "baseTranslation": "Absolutely not!"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "छोड़नी पड़ेगी",
+      "transliteration": "chhodni padegi",
+      "baseTranslation": "will have to leave (fem)",
+      "exampleSentence": {
+        "targetText": "आइसक्रीम छोड़नी पड़ेगी।",
+        "transliteration": "Ice cream chhodni padegi.",
+        "baseTranslation": "Will have to leave ice cream."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "जाना है",
+      "transliteration": "jaana hai",
+      "baseTranslation": "have to go (immediate compulsion)",
+      "exampleSentence": {
+        "targetText": "मुझे जाना है।",
+        "transliteration": "Mujhe jaana hai.",
+        "baseTranslation": "I have to go."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं ठीक से साँस नहीं ले सकता।",
+      "transliteration": "Main theek se saans nahi le sakta.",
+      "baseTranslation": "I cannot breathe properly."
+    },
+    {
+      "targetText": "आपको यह दवा पीनी चाहिए।",
+      "transliteration": "Aapko yeh dawa peeni chahiye.",
+      "baseTranslation": "You should drink this medicine."
+    },
+    {
+      "targetText": "आपको आइसक्रीम छोड़नी पड़ेगी।",
+      "transliteration": "Aapko ice cream chhodni padegi.",
+      "baseTranslation": "You will have to leave ice cream."
+    },
+    {
+      "targetText": "मुझे अब जाना है।",
+      "transliteration": "Mujhe ab jaana hai.",
+      "baseTranslation": "I have to go now."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "What does the patient say he CANNOT do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "He cannot breathe properly (saans nahi le sakta) and cannot sleep (nahi so sakta).",
+        "He cannot eat ice cream.",
+        "He cannot drink water."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "Why does the doctor say 'Aapko dawa peenI chahiye' with a feminine 'i' ending?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because medicine (Dawa) is a feminine word in Hindi.",
+        "Because the doctor is female.",
+        "Because 'chahiye' always forces an 'i' ending."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "When the patient asks 'Kya main ice cream kha SAKTA hoon?', why doesn't he use 'Mujhe'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because 'Sakna' (can) is the only modal that uses normal subjects (Main). It does not use the dative 'Mujhe'.",
+        "Because he forgot the rules.",
+        "Because it's a question."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "What compulsion does the doctor place on the patient regarding ice cream?",
+      "questionType": "multiple_choice",
+      "options": [
+        "He will have to leave it (chhodni padegi).",
+        "He should eat it (khaani chahiye).",
+        "He can leave it (chhod sakta hai)."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "How does the patient excuse himself at the end?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Mujhe ab jaana hai (I have to go now).",
+        "Main jaa sakta hoon (I can go).",
+        "Mujhe jaana chahiye (I should go)."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "He cannot breathe properly (saans nahi le sakta) and cannot sleep (nahi so sakta).",
+      "rq_2": "Because medicine (Dawa) is a feminine word in Hindi.",
+      "rq_3": "Because 'Sakna' (can) is the only modal that uses normal subjects (Main). It does not use the dative 'Mujhe'.",
+      "rq_4": "He will have to leave it (chhodni padegi).",
+      "rq_5": "Mujhe ab jaana hai (I have to go now)."
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Understand the difference between 'sakta' (ability) and 'chahiye/padega' (obligation).",
+      "Recognize the shift from 'Main' to 'Aapko/Mujhe'."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You easily distinguished between the different levels of advice and compulsion.",
+    "onFail": "Review Section 3 and 5. Remember that 'chahiye' means should, and 'padega' means will have to.",
+    "onPartial": "Good effort. Pay close attention to 'Mujhe jaana hai'. This is the most common way to say 'I have to go' right now."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "रोगी: नमस्ते डॉक्टर। मैं ठीक से साँस नहीं ले सकता। मुझे बहुत खाँसी है। डॉक्टर: नमस्ते। आपको आराम करना चाहिए। क्या आप रात को सोते हैं? रोगी: नहीं, मैं नहीं सो सकता। मुझे पूरी रात खाँसना पड़ता है। डॉक्टर: यह अच्छा नहीं है। आपको यह दवा पीनी चाहिए। और आपको ठंडा पानी नहीं पीना चाहिए। रोगी: क्या मैं आइसक्रीम खा सकता हूँ? डॉक्टर: बिल्कुल नहीं! अगर आपको ठीक होना है, तो आपको आइसक्रीम छोड़नी पड़ेगी। रोगी: ठीक है डॉक्टर। मुझे अब जाना है।",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "modals",
+    "chahiye",
+    "sakna",
+    "padega",
+    "doctor",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how the doctor says 'peeni chahiye' for medicine (feminine), but 'peena chahiye' for water (masculine) in the exact same sentence!",
+  "commonMistakes": [
+    "Thinking 'Mujhe ab jaana hai' means 'I want to go'. It specifically means 'I HAVE to go'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B5_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

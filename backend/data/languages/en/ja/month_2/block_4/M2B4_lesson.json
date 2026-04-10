@@ -1,0 +1,206 @@
+{
+  "activityId": "ja_en_M2B4_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Permissions & Prohibitions",
+  "learningGoal": "The learner will utilize the Te-form to ask for permission (~te mo ii desu ka) and state strict rules or prohibitions (~te wa ikemasen).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M2B3_test_001"
+  ],
+  "instructions": "This lesson builds directly on your knowledge of the Te-form. By adding specific phrases to the end of a Te-form verb, you can ask for permission or warn someone against doing something.",
+  "conceptTitle": "May I? And You Must Not!",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Asking for Permission (~te mo ii desu ka)",
+      "bodyText": "To ask 'May I do X?', take the Te-form of the verb and add 'mo ii desu ka'. 'Ii' means 'good', so literally you are asking 'Even if I do this, is it good?'",
+      "targetLanguageExamples": [
+        {
+          "targetText": "しゃしんを とっても いいですか。",
+          "transliteration": "Shashin wo totte mo ii desu ka.",
+          "baseTranslation": "May I take a photo? (Torimasu -> Totte)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ここに すわっても いいですか。",
+          "transliteration": "Koko ni suwatte mo ii desu ka.",
+          "baseTranslation": "May I sit here? (Suwarimasu -> Suwatte)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "はい、いいですよ。",
+          "transliteration": "Hai, ii desu yo.",
+          "baseTranslation": "Yes, it's fine. (Giving permission)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Strict Prohibitions (~te wa ikemasen)",
+      "bodyText": "To say 'You must not do X', use the Te-form and add 'wa ikemasen'. This is a very strong prohibition used for rules, laws, or strict warnings.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "ここで しゃしんを とっては いけません。",
+          "transliteration": "Koko de shashin wo totte wa ikemasen.",
+          "baseTranslation": "You must not take photos here.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "びょういんで たばこを すっては いけません。",
+          "transliteration": "Byouin de tabako wo sutte wa ikemasen.",
+          "baseTranslation": "You must not smoke in the hospital. (Suimasu -> Sutte)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "けいたいでんわを つかっては いけません。",
+          "transliteration": "Keitai denwa wo tsukatte wa ikemasen.",
+          "baseTranslation": "You must not use a mobile phone. (Tsukaimasu -> Tsukatte)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "The 'Wa' Particle Pronunciation",
+      "bodyText": "In the phrase '~te wa ikemasen', the 'wa' is written using the hiragana 'ha' (は), exactly the same as the topic marker 'wa'. Make sure to pronounce it 'wa', not 'ha'.",
+      "targetLanguageExamples": []
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Casual Denial (Dame desu)",
+      "bodyText": "If someone asks for permission and you want to say no, saying '~te wa ikemasen' might sound too strict like a police officer. Instead, you can simply say 'Sumimasen, chotto...' (Sorry, it's a little...) or 'Dame desu' (It is forbidden/no good).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "A: はいっても いいですか。",
+          "transliteration": "A: Haitte mo ii desu ka.",
+          "baseTranslation": "A: May I enter?",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "B: すみません、だめです。",
+          "transliteration": "B: Sumimasen, dame desu.",
+          "baseTranslation": "B: Sorry, it's not allowed.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will construct sentences expressing permission and prohibition using the Te-form, recognizing appropriate social contexts for strong versus soft refusals.",
+  "examples": [
+    {
+      "targetText": "びじゅつかんで しゃしんを とっては いけません。みても いいです。",
+      "transliteration": "Bijutsukan de shashin wo totte wa ikemasen. Mite mo ii desu.",
+      "baseTranslation": "You must not take photos in the museum. You may look.",
+      "explanation": "Contrasts a prohibition (totte wa ikemasen) with a permission (mite mo ii desu)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Do not use '~te wa ikemasen' to give advice to a friend. It is too strong. It is used for rules, laws, and danger.",
+      "exceptionNotes": "A teacher might say it to a student, or a sign might have it written."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The particle 'wa' in '~te wa ikemasen' is written with the character は (ha).",
+      "exceptionNotes": "Pronounce it 'wa'."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japan has many unwritten rules about public spaces. For example, talking on a mobile phone on a train is generally considered 'Dame' (forbidden/frowned upon), even if it's not technically illegal.",
+    "dosList": [
+      "Always ask 'shashin wo totte mo ii desu ka?' before taking pictures inside a shop or of a person."
+    ],
+    "dontsList": [
+      "Don't use 'ikemasen' casually with friends."
+    ]
+  },
+  "summary": "To ask for permission, use Te-form + mo ii desu ka. To grant permission, say ~te mo ii desu. To state a strict rule or prohibition, use Te-form + wa ikemasen. For a softer refusal, use 'Sumimasen, dame desu'.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "How do you ask 'May I drink?' (Drink = Nomimasu)",
+      "expectedAnswer": "のんでも いいですか (Nonde mo ii desu ka)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "How do you say 'You must not enter' (Enter = Hairimasu)?",
+      "expectedAnswer": "はいってはいけません (Haitte wa ikemasen)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you say 'It is not allowed / No good'?",
+      "expectedAnswer": "だめです (Dame desu)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Permission: ~te mo ii desu ka",
+      "Prohibition: ~te wa ikemasen",
+      "Soft refusal: Dame desu / Chotto..."
+    ],
+    "conceptSummary": "High-density block on social permissions and rules utilizing the Te-form.",
+    "importantFacts": [
+      "The 'wa' is written as は (ha)."
+    ],
+    "checkpointAnswers": {
+      "q1": "のんでも いいですか",
+      "q2": "はいってはいけません",
+      "q3": "だめです"
+    },
+    "expectedUnderstanding": "Learner must seamlessly attach permission/prohibition suffixes to previously learned Te-form verbs."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Excellent! You can now navigate rules and manners in Japanese society.",
+    "onFail": "Review the Te-form from Block 2. If you don't know the Te-form, you cannot build these new sentences.",
+    "onPartial": "Good start. Pay close attention to the pronunciation of 'wa ikemasen'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "しゃしんを とっても いいですか。ここに すわっても いいですか。はい、いいですよ。ここで しゃしんを とっては いけません。びょういんで たばこを すっては いけません。けいたいでんわを つかっては いけません。はいっても いいですか。すみません、だめです。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "modals",
+    "permission",
+    "prohibition",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Pronouncing 'ha' instead of 'wa' in 'te wa ikemasen'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

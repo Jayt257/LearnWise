@@ -1,0 +1,150 @@
+{
+  "activityId": "ja_en_M3B1_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Conditions and Pauses",
+  "learningGoal": "The learner will master the rhythm of conditional sentences, specifically executing a natural pause immediately after the '~tara' or '~to' clause before stating the consequence.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B1_lesson_001",
+    "ja_en_M3B1_vocabulary_001"
+  ],
+  "instructions": "In Japanese, conditional sentences consist of two parts: the 'If' part and the 'Then' part. Make sure to pause slightly at the comma after '~tara' or '~to'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For example: 'Ame ga futtara, [PAUSE] ikimasen'."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "あめが ふったら、いきません",
+      "transliteration": "Ame ga futtara, ikimasen",
+      "baseTranslation": "If it rains, I will not go.",
+      "phoneticHint": "ah-meh gah foot-tah-rah, ee-kee-mah-sen",
+      "syllableSplit": "a-me ga fu-t-ta-ra, i-ki-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'futara' without the double t."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "やすかったら、かいます",
+      "transliteration": "Yasukattara, kaimasu",
+      "baseTranslation": "If it is cheap, I will buy it.",
+      "phoneticHint": "yah-soo-kaht-tah-rah, kye-mahs",
+      "syllableSplit": "ya-su-ka-t-ta-ra, ka-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Failing to pause after 'tara'."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "ひまだったら、きて ください",
+      "transliteration": "Hima dattara, kite kudasai",
+      "baseTranslation": "If you are free, please come.",
+      "phoneticHint": "hee-mah daht-tah-rah, kee-teh koo-dah-sye",
+      "syllableSplit": "hi-ma da-t-ta-ra, ki-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'Hima tara' instead of 'Hima dattara'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "ボタンを おすと、ドアが あきます",
+      "transliteration": "Botan wo osu to, doa ga akimasu",
+      "baseTranslation": "If you push the button, the door opens.",
+      "phoneticHint": "boh-tahn oh oh-soo toh, doh-ah gah ah-kee-mahs",
+      "syllableSplit": "bo-ta-n o o-su to, do-a ga a-ki-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Running the phrase together without a pause."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "わからなかったら、きいて ください",
+      "transliteration": "Wakaranakattara, kiite kudasai",
+      "baseTranslation": "If you don't understand, please ask.",
+      "phoneticHint": "wah-kah-rah-nah-kaht-tah-rah, kee-ee-teh koo-dah-sye",
+      "syllableSplit": "wa-ka-ra-na-ka-t-ta-ra, ki-i-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Stumbling over the long 'nakattara' syllable sequence."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "まっすぐ いくと、えきが あります",
+      "transliteration": "Massugu iku to, eki ga arimasu",
+      "baseTranslation": "If you go straight, the station is there.",
+      "phoneticHint": "mahs-soo-goo ee-koo toh, eh-kee gah ah-ree-mahs",
+      "syllableSplit": "ma-s-su-gu i-ku to, e-ki ga a-ri-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'Masugu'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "あめがふったら いきません やすかったら かいます ひまだったら きてください ボタンをおすと ドアがあきます わからなかったら きいてください まっすぐいくと えきがあります",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You have mastered the rhythmic pacing of complex Japanese sentences.",
+    "onFail": "Keep practicing! Ensure you make a distinct, brief pause after 'tara' or 'to'.",
+    "onPartial": "Good effort. Pay close attention to long words like 'wakaranakattara'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "あめがふったら いきません やすかったら かいます ひまだったら きてください ボタンをおすと ドアがあきます わからなかったら きいてください まっすぐいくと えきがあります",
+    "acceptedVariants": [
+      "あめが ふったら いきません やすかったら かいます ひまだったら きて ください ボタンを おすと ドアが あきます わからなかったら きいて ください まっすぐ いくと えきが あります"
+    ],
+    "syllableSplitReference": "a-me-ga-fu-t-ta-ra i-ki-ma-se-n ya-su-ka-t-ta-ra ka-i-ma-su hi-ma-da-t-ta-ra ki-te-ku-da-sa-i bo-ta-n-o-o-su-to do-a-ga-a-ki-ma-su wa-ka-ra-na-ka-t-ta-ra ki-i-te-ku-da-sa-i ma-s-su-gu-i-ku-to e-ki-ga-a-ri-ma-su",
+    "phoneticApproximation": "amegafuttara ikimasen yasukattara kaimasu himadattara kitekudasai botanwoosuto doagaakimasu wakaranakattara kiitekudasai massuguikuto ekigaarimasu",
+    "nativeScriptReference": "あめがふったら いきません やすかったら かいます ひまだったら きてください ボタンをおすと ドアがあきます わからなかったら きいてください まっすぐいくと えきがあります",
+    "transliteration": "Ame ga futtara, ikimasen. Yasukattara, kaimasu. Hima dattara, kite kudasai. Botan wo osu to, doa ga akimasu. Wakaranakattara, kiite kudasai. Massugu iku to, eki ga arimasu.",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b1/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m3/b1/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b1/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "あめが ふったら、いきません。やすかったら、かいます。ひまだったら、きて ください。ボタンを おすと、ドアが あきます。わからなかったら、きいて ください。まっすぐ いくと、えきが あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "conditionals",
+    "tara-form",
+    "to-form",
+    "advanced",
+    "month3",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Breathe at the comma. It helps your listener process the 'If' condition before you give the result.",
+  "commonMistakes": [
+    "Speaking too quickly through the comma."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

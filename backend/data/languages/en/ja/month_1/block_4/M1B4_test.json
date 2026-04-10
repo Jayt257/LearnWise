@@ -1,0 +1,428 @@
+{
+  "activityId": "ja_en_M1B4_test_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Final Test — Numbers, Time, and Schedules",
+  "learningGoal": "The learner will demonstrate mastery of counting 1-99, identifying days of the week, and correctly applying phonetic exceptions for age and time.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B4_lesson_001",
+    "ja_en_M1B4_pronunciation_001",
+    "ja_en_M1B4_reading_001",
+    "ja_en_M1B4_writing_001",
+    "ja_en_M1B4_listening_001",
+    "ja_en_M1B4_vocabulary_001",
+    "ja_en_M1B4_speaking_001"
+  ],
+  "instructions": "This comprehensive test evaluates everything you learned in Block 4. Answer all 20 questions regarding numbers, time, age, and days of the week. Pay special attention to the exceptions we practiced.",
+  "testTitle": "Block 4 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. You need a minimum of 70 points to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_numbers",
+      "sectionTitle": "Counting and Math",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "How do you write the number '53' in Japanese?",
+          "questionType": "multiple_choice",
+          "options": ["ごじゅうさん (go-juu-san)", "さんじゅうご (san-juu-go)", "じゅうごさん (juu-go-san)", "ごさんじゅう (go-san-juu)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What number is はちじゅうに (hachi-juu-ni)?",
+          "questionType": "multiple_choice",
+          "options": ["28", "82", "18", "80"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Calculate: さん + よん = ?",
+          "questionType": "multiple_choice",
+          "options": ["なな (nana)", "はち (hachi)", "ろく (roku)", "きゅう (kyuu)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Calculate: にじゅう - じゅうご = ?",
+          "questionType": "multiple_choice",
+          "options": ["ご (go)", "じゅう (juu)", "よん (yon)", "さん (san)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_time_age",
+      "sectionTitle": "Time and Age Exceptions",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "How do you say '4 o'clock'?",
+          "questionType": "multiple_choice",
+          "options": ["よんじ (yon-ji)", "しじ (shi-ji)", "よじ (yo-ji)", "よんじかん (yon-jikan)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "How do you say '9 o'clock'?",
+          "questionType": "multiple_choice",
+          "options": ["きゅうじ (kyuu-ji)", "くじ (ku-ji)", "きゅじ (kyu-ji)", "ななじ (nana-ji)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "How do you say '20 years old'?",
+          "questionType": "multiple_choice",
+          "options": ["にじゅうさい (ni-juu-sai)", "ふたち (futachi)", "はたち (hatachi)", "はたさい (hatasai)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Translate: 'いま、なんじですか' (Ima, nanji desu ka)",
+          "questionType": "multiple_choice",
+          "options": ["How old are you?", "What time is it now?", "What day is today?", "Where are you now?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_days",
+      "sectionTitle": "Days of the Week",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Which of these means 'Monday'?",
+          "questionType": "multiple_choice",
+          "options": ["かようび", "げつようび", "すいようび", "きんようび"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "げつようび",
+            "transliteration": "getsuyoubi",
+            "baseTranslation": "Monday"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Which of these means 'Friday'?",
+          "questionType": "multiple_choice",
+          "options": ["もくようび", "どようび", "にちようび", "きんようび"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "きんようび",
+            "transliteration": "kinyoubi",
+            "baseTranslation": "Friday"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "What does きょう (Kyou) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Yesterday", "Tomorrow", "Today", "Now"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "きょう",
+            "transliteration": "Kyou",
+            "baseTranslation": "Today"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'きょうは にちようびです'",
+          "questionType": "multiple_choice",
+          "options": ["Today is Sunday.", "Today is Monday.", "Tomorrow is Sunday.", "Now it is Sunday."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "にちようび",
+            "transliteration": "nichiyoubi",
+            "baseTranslation": "Sunday"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What time does the speaker say it is?",
+          "questionType": "multiple_choice",
+          "options": ["4 o'clock", "5 o'clock", "9 o'clock", "1 o'clock"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "くじです",
+            "transliteration": "ku-ji desu",
+            "baseTranslation": "It is 9 o'clock"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. How old is the speaker?",
+          "questionType": "multiple_choice",
+          "options": ["18", "20", "22", "8"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "はたちです",
+            "transliteration": "hatachi desu",
+            "baseTranslation": "I am 20 years old"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What day of the week is it?",
+          "questionType": "multiple_choice",
+          "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "かようびです",
+            "transliteration": "kayoubi desu",
+            "baseTranslation": "It is Tuesday"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'Ima' (Now) in Hiragana.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "いま",
+            "transliteration": "Ima",
+            "baseTranslation": "Now"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'Hatachi' (20 years old) in Hiragana.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "はたち",
+            "transliteration": "Hatachi",
+            "baseTranslation": "20 years old"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "How do you write '15' in Japanese numbers (Romaji)?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "じゅうご",
+            "transliteration": "juu-go",
+            "baseTranslation": "15"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "How do you write '8' in Japanese numbers (Romaji)?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "はち",
+            "transliteration": "hachi",
+            "baseTranslation": "8"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'I am 20 years old.' using the exception word, ending in 'desu' (Romaji or Hiragana).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "はたちです",
+            "transliteration": "Hatachi desu",
+            "baseTranslation": "20 years old it is"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 70,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "ごじゅうさん (go-juu-san)",
+      "q002": "82",
+      "q003": "なな (nana)",
+      "q004": "ご (go)",
+      "q005": "よじ (yo-ji)",
+      "q006": "くじ (ku-ji)",
+      "q007": "はたち (hatachi)",
+      "q008": "What time is it now?",
+      "q009": "げつようび",
+      "q010": "きんようび",
+      "q011": "Today",
+      "q012": "Today is Sunday.",
+      "q013": "9 o'clock",
+      "q014": "20",
+      "q015": "Tuesday",
+      "q016": "いま",
+      "q017": "はたち",
+      "q018": "juu-go",
+      "q019": "hachi",
+      "q020": "はたちです"
+    },
+    "scoringRubric": {
+      "q016": "Must be exact Hiragana.",
+      "q017": "Must be exact Hiragana.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji or Hiragana combinations."
+    },
+    "partialCreditRules": {
+      "q020": "Half points for minor spelling errors."
+    },
+    "alternateValidAnswers": {
+      "q018": ["juugo", "ju-go", "jyuugo"],
+      "q019": ["hachi", "haci"],
+      "q020": [
+        "watashi wa hatachi desu",
+        "Watashi wa hatachi desu",
+        "わたしは はたちです",
+        "Hatachi desu",
+        "hatachi desu"
+      ]
+    },
+    "sectionPassMarks": {
+      "sec_numbers": 10,
+      "sec_time_age": 10,
+      "sec_days": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Fantastic! You completely mastered the numbers, the time exceptions, and the days of the week.",
+    "onFail": "Keep trying! Remember that 4 o'clock is yoji, 9 o'clock is kuji, and 20 years old is hatachi.",
+    "onPartial": "Almost there! Double check your math on the numbers and review the days of the week."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block4",
+    "numbers",
+    "time",
+    "age",
+    "days",
+    "beginner",
+    "month1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

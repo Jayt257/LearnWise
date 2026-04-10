@@ -1,0 +1,186 @@
+{
+  "activityId": "ja_en_M3B1_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Writing Conditions",
+  "learningGoal": "The learner will synthesize conditional sentences, correctly choosing between the '~to' form for mechanics and the '~tara' form for general hypotheticals.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B1_lesson_001",
+    "ja_en_M3B1_reading_001"
+  ],
+  "instructions": "Write four conditional sentences in Japanese based on the English prompts. Decide carefully whether to use the '~to' form or the '~tara' form. Remember: Nouns and na-adjectives take 'dattara'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For sentence 1, use the '~to' form because it describes a mechanical consequence."
+    }
+  ],
+  "writingPrompt": "Translate: 1) If you push the button, the door opens. 2) If it rains, I will not go. 3) If it is cheap, I will buy it. 4) If you are free, please come.",
+  "promptGoal": "To construct grammatically accurate conditionals differentiating between mechanical rules (~to) and hypothetical situations (~tara) across verbs and adjectives.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "ボタン",
+      "transliteration": "Botan",
+      "baseTranslation": "Button",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "おす",
+      "transliteration": "Osu",
+      "baseTranslation": "To push",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "あきます",
+      "transliteration": "Akimasu",
+      "baseTranslation": "Opens",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "あめが ふる",
+      "transliteration": "Ame ga furu",
+      "baseTranslation": "Rain falls",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "いきません",
+      "transliteration": "Ikimasen",
+      "baseTranslation": "Will not go",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "やすい",
+      "transliteration": "Yasui",
+      "baseTranslation": "Cheap",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "かいます",
+      "transliteration": "Kaimasu",
+      "baseTranslation": "Will buy",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ひま",
+      "transliteration": "Hima",
+      "baseTranslation": "Free (time)",
+      "partOfSpeech": "na-adjective"
+    },
+    {
+      "targetText": "きてください",
+      "transliteration": "Kite kudasai",
+      "baseTranslation": "Please come",
+      "partOfSpeech": "expression"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Button] wo [Push-Dictionary form] to, doa ga [Opens].",
+    "Sentence 2: [Rain falls-Ta form] ra, [Will not go].",
+    "Sentence 3: [Cheap-Past tense] ra, [Will buy].",
+    "Sentence 4: [Free-Noun past] ra, [Please come]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "ボタンを おすと、ドアが あきます。あめが ふったら、いきません。やすかったら、かいます。ひまだったら、きて ください。",
+      "transliteration": "Botan wo osu to, doa ga akimasu. Ame ga futtara, ikimasen. Yasukattara, kaimasu. Hima dattara, kite kudasai.",
+      "baseTranslation": "If you push the button, the door opens. If it rains, I will not go. If it is cheap, I will buy it. If you are free, please come.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect selection of conditionals: ~to for the mechanical action (osu to), ~tara for verbs (futtara), i-adjectives (yasukattara), and na-adjectives (hima dattara)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Mechanical To-form",
+      "weight": 25,
+      "description": "Did the learner write 'osu to'?"
+    },
+    {
+      "criterion": "Verb Tara-form",
+      "weight": 25,
+      "description": "Did the learner write 'futtara'?"
+    },
+    {
+      "criterion": "Adjective Tara-form",
+      "weight": 25,
+      "description": "Did the learner write 'yasukattara'?"
+    },
+    {
+      "criterion": "Noun/Na-adj Tara-form",
+      "weight": 25,
+      "description": "Did the learner write 'hima dattara'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "ボタンを おすと、ドアが あきます。あめが ふったら、いきません。やすかったら、かいます。ひまだったら、きて ください。",
+    "acceptableAlternates": [
+      "ボタンを おすと ドアが あきます。あめが ふったら いきません。やすかったら かいます。ひまだったら きて ください。"
+    ],
+    "requiredKeywords": [
+      "おすと",
+      "ふったら",
+      "やすかったら",
+      "ひまだったら"
+    ],
+    "grammarBaseline": "Mastery of the morphological changes required to produce past-conditional forms across verb and adjective classes.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You correctly applied all four variations of the conditional forms.",
+    "onFail": "Review the rule for na-adjectives. 'Hima' requires 'dattara' to become conditional.",
+    "onPartial": "Good try! Make sure you didn't write 'Oshitara' for the first sentence. While understandable, '~to' is the most natural for machines."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b1/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "conditionals",
+    "tara-form",
+    "to-form",
+    "advanced",
+    "month3",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make 'Yasui' (cheap) conditional, drop the 'i' and add 'kattara'.",
+  "commonMistakes": [
+    "Writing 'Hima tara' instead of 'Hima dattara'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,154 @@
+{
+  "activityId": "ja_en_M1B6_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "Postposition Ninja: Particle Listening",
+  "learningGoal": "The learner will listen to spoken sentences and identify the correct particles (wo, ni, de) being used in context.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B6_lesson_001",
+    "ja_en_M1B6_vocabulary_001"
+  ],
+  "instructions": "Listen to the audio clips. The speaker will state an action they are doing. Your job is to identify what particles they are using, and understand what the full sentence means.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Japanese speech can be fast. Listen closely for the tiny connecting sounds: 'wo', 'ni', and 'de'."
+    }
+  ],
+  "listeningGoal": "Identify the missing particles and the overall meaning of the sentences.",
+  "audioScenario": "A rapid series of statements about daily actions.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "わたしは カフェで コーヒーを のみます。",
+      "transliteration": "Watashi wa kafe de koohii wo nomimasu.",
+      "baseTranslation": "I drink coffee at a cafe."
+    },
+    {
+      "targetText": "わたしは じゅうじに うちに かえります。",
+      "transliteration": "Watashi wa juu-ji ni uchi ni kaerimasu.",
+      "baseTranslation": "I return home at 10 o'clock."
+    },
+    {
+      "targetText": "わたしは はしで ごはんを たべます。",
+      "transliteration": "Watashi wa hashi de gohan wo tabemasu.",
+      "baseTranslation": "I eat a meal with chopsticks."
+    }
+  ],
+  "audioTranscriptFull": "わたしは カフェで コーヒーを のみます。わたしは じゅうじに うちに かえります。わたしは はしで ごはんを たべます。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "Listen to the first sentence. Which particle is used after 'Cafe'?",
+      "questionType": "multiple_choice",
+      "options": ["に (ni)", "を (wo)", "で (de)", "は (wa)"],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "In the first sentence, what is the speaker drinking?",
+      "questionType": "multiple_choice",
+      "options": ["Water", "Coffee", "Tea", "Juice"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Listen to the second sentence. What time do they return home?",
+      "questionType": "multiple_choice",
+      "options": ["8 o'clock", "9 o'clock", "10 o'clock", "4 o'clock"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "In the third sentence, which particle is used after 'Hashi' (chopsticks)?",
+      "questionType": "multiple_choice",
+      "options": ["を (wo)", "に (ni)", "は (wa)", "で (de)"],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Why is 'de' used after 'Hashi' (chopsticks)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because chopsticks are a destination.",
+        "Because chopsticks are the direct object being eaten.",
+        "Because chopsticks are the tool used to perform the action.",
+        "Because chopsticks are a time."
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "で (de)",
+      "q002": "Coffee",
+      "q003": "10 o'clock",
+      "q004": "で (de)",
+      "q005": "Because chopsticks are the tool used to perform the action."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You successfully identified the rapid-fire particles.",
+    "onFail": "Listen again on slow speed. The particle 'de' marks both locations (Cafe) AND tools (Chopsticks).",
+    "onPartial": "Good effort. Review the particle rules to ensure you don't confuse 'ni' and 'de'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b6/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b6/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m1/b6/listening/native_dialogue.mp3",
+    "audioTranscript": "わたしは カフェで コーヒーを のみます。わたしは じゅうじに うちに かえります。わたしは はしで ごはんを たべます。",
+    "audioLanguage": "ja",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "particles",
+    "verbs",
+    "beginner",
+    "month1",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you hear an action happening AT a place, or WITH a tool, the particle is 'de'.",
+  "commonMistakes": [
+    "Assuming 'wo' follows the noun. You don't eat chopsticks, so it isn't 'hashi wo'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

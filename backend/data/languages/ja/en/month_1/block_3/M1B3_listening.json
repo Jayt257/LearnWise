@@ -1,0 +1,164 @@
+{
+  "activityId": "en_ja_M1B3_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Taking the Order",
+  "learningGoal": "Listen closely to distinguish between singular, plural, and uncountable items in a spoken context.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B3_writing_4"
+  ],
+  "instructions": "レストランでの注文の会話を聞いてください。「a」「an」がついているか、最後に「s」が聞こえるか、何もついていないか（水など）を注意深く聞き取り、質問に答えてください。(Listen to the order in a restaurant. Pay close attention to whether you hear 'a', 'an', an 's' at the end, or nothing at all (like for water), and answer the questions.)",
+  "listeningGoal": "To identify articles and plural endings in rapid spoken English.",
+  "audioScenario": "A waiter is taking an order from a customer at a cafe.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hello. Are you ready to order?",
+      "transliteration": "ヘロー。アー ユー レディ トゥ オーダー？",
+      "baseTranslation": "こんにちは。ご注文はお決まりですか？"
+    },
+    {
+      "targetText": "Yes. I want a sandwich and an apple.",
+      "transliteration": "イエス。アイ ウォント ア サンドウィッチ アンド アナップル。",
+      "baseTranslation": "はい。サンドイッチを１つと、りんごを１つお願いします。"
+    },
+    {
+      "targetText": "A sandwich and an apple. Okay.",
+      "transliteration": "ア サンドウィッチ アンド アナップル。オーケー。",
+      "baseTranslation": "サンドイッチ１つとりんご１つですね。かしこまりました。"
+    },
+    {
+      "targetText": "And I want three oranges, please.",
+      "transliteration": "アンド アイ ウォント スリー オレンヂィズ、プリーズ。",
+      "baseTranslation": "それから、オレンジを３つお願いします。"
+    },
+    {
+      "targetText": "Three oranges. Do you want water?",
+      "transliteration": "スリー オレンヂィズ。ドゥー ユー ウォント ウォーター？",
+      "baseTranslation": "オレンジ３つですね。お水は必要ですか？"
+    },
+    {
+      "targetText": "Yes, I want water. Thank you.",
+      "transliteration": "イエス、アイ ウォント ウォーター。サンキュー。",
+      "baseTranslation": "はい、水をください。ありがとう。"
+    }
+  ],
+  "audioTranscriptFull": "Waiter: Hello. Are you ready to order?\nCustomer: Yes. I want a sandwich and an apple.\nWaiter: A sandwich and an apple. Okay.\nCustomer: And I want three oranges, please.\nWaiter: Three oranges. Do you want water?\nCustomer: Yes, I want water. Thank you.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "客はサンドイッチをいくつ注文しましたか？ (How many sandwiches did the customer order?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "1つ (One)",
+        "2つ (Two)",
+        "3つ (Three)",
+        "注文していない (Did not order)"
+      ],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "客はりんごをいくつ注文しましたか？ (How many apples did the customer order?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "1つ (One)",
+        "2つ (Two)",
+        "3つ (Three)",
+        "注文していない (Did not order)"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "客はオレンジをいくつ注文しましたか？ (How many oranges did the customer order?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "1つ (One)",
+        "2つ (Two)",
+        "3つ (Three)",
+        "注文していない (Did not order)"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "客は水（Water）を注文する時、「A water」と言いましたか？ (Did the customer say 'A water'?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "言った (Yes, he said 'A water')",
+        "言っていない (No, he just said 'water')",
+        "彼は水を注文していない (He didn't order water)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "1つ (One)",
+      "q2": "1つ (One)",
+      "q3": "3つ (Three)",
+      "q4": "言っていない (No, he just said 'water')"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You successfully heard the 'a', 'an', and plural 's'.",
+    "onFail": "Listen again carefully. When they say 'a sandwich' or 'an apple', it means ONE.",
+    "onPartial": "Good effort. Pay attention to the end of the word 'oranges' to hear the 'iz' plural sound."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B3_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B3_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Waiter: Hello. Are you ready to order? Customer: Yes. I want a sandwich and an apple...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "articles",
+    "plurals",
+    "food",
+    "restaurant"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'a', 'an', or numbers before the food words.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

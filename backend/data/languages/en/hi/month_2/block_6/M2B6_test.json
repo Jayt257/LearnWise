@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M2B6_test_8",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Test: Travel & Imperatives",
+  "learningGoal": "Evaluate the learner's ability to construct formal commands, negative commands, and navigate travel scenarios.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B6_lesson_1",
+    "hi_en_M2B6_pronunciation_2",
+    "hi_en_M2B6_reading_3",
+    "hi_en_M2B6_writing_4",
+    "hi_en_M2B6_listening_5",
+    "hi_en_M2B6_vocabulary_6",
+    "hi_en_M2B6_speaking_7"
+  ],
+  "instructions": "This test covers the imperative mood, directional vocabulary, and negotiation phrases. Pay close attention to the requested formality level.",
+  "testTitle": "Street Smart Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_commands",
+      "sectionTitle": "Imperatives (Commands)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "What is the formal (Aap) command for 'Please go' (from Jaana)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Jaiye (जाइए)",
+            "Jao (जाओ)",
+            "Jaa (जा)"
+          ],
+          "questionHints": {
+            "targetText": "Jaiye (जाइए)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "What is the irregular formal command for 'Please do' (from Karna)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Keejiye (कीजिए)",
+            "Kariye (करिए)",
+            "Karo (करो)"
+          ],
+          "questionHints": {
+            "targetText": "Keejiye (कीजिए)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate: 'Do not eat.' (Formal)",
+          "questionType": "multiple_choice",
+          "options": [
+            "Mat khaiye.",
+            "Nahi khaiye.",
+            "Mat khaana."
+          ],
+          "questionHints": {
+            "targetText": "Mat khaiye.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_travel",
+      "sectionTitle": "Travel & Negotiation",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "Translate to English: आगे से बाएँ लीजिए। (Aage se baayein leejiye.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "Take a left from ahead.",
+            "transliteration": "Aage se baayein leejiye.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "If an auto driver asks for 1000 rupees for a short trip, what should you say?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Yeh bahut mehenga hai. Sahi daam lagaiye.",
+            "Theek hai, leejiye.",
+            "Kitne paise hue?"
+          ],
+          "questionHints": {
+            "targetText": "Yeh bahut mehenga hai. Sahi daam lagaiye.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Jaiye (जाइए)",
+      "tq_2": "Keejiye (कीजिए)",
+      "tq_3": "Mat khaiye.",
+      "tq_4": "Take a left from ahead.",
+      "tq_5": "Yeh bahut mehenga hai. Sahi daam lagaiye."
+    },
+    "partialCreditRules": {
+      "tq_4": "Accept 'Take a left ahead' or 'Turn left from ahead'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Exceptional! You have mastered Month 2. You can navigate, negotiate, and command in Hindi.",
+    "onFail": "Review the irregular verbs (Keejiye, Deejiye, Leejiye) and the negative command 'Mat'.",
+    "onPartial": "Good job. Remember that 'Karna' becomes 'Keejiye', not 'Kariye'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block6_month2",
+    "imperatives",
+    "directions",
+    "negotiation"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Formal commands always end in 'iye'. Negative commands always use 'Mat'.",
+  "commonMistakes": [
+    "Choosing 'Nahi khaiye' instead of 'Mat khaiye'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B1_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

@@ -1,0 +1,162 @@
+{
+  "activityId": "hi_en_M2B4_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Past Tense Suffixes and Pronoun Mergers",
+  "learningGoal": "Accurately pronounce the merged pronoun forms (Maine, Usne, Unhone) and the sharp past tense vowel endings.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B4_lesson_1"
+  ],
+  "instructions": "The 'ne' particle merges completely with pronouns, creating new words that must flow naturally. Also, practice hitting the sharp 'ee' (feminine) and 'aa' (masculine) endings for past tense verbs.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "मैंने",
+      "transliteration": "Maine",
+      "baseTranslation": "I (past transitive)",
+      "phoneticHint": "may-nay",
+      "syllableSplit": "mai-ne",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'main-ne' with a heavy pause in the middle. It should sound like one smooth word."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "उसने",
+      "transliteration": "Usne",
+      "baseTranslation": "He/She/It (far/casual)",
+      "phoneticHint": "oos-nay",
+      "syllableSplit": "us-ne",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'use-nay'. The 's' is soft."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "उन्होंने",
+      "transliteration": "Unhone",
+      "baseTranslation": "They / He respectful",
+      "phoneticHint": "oon-ho-nay",
+      "syllableSplit": "un-ho-ne",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Swallowing the 'h'. You must exhale on the 'ho' syllable."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "गया",
+      "transliteration": "Gaya",
+      "baseTranslation": "Went (masc)",
+      "phoneticHint": "guh-yaa",
+      "syllableSplit": "ga-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'gay-ah'. The first 'a' is a short schwa, the second 'a' is long."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "गई",
+      "transliteration": "Gayi",
+      "baseTranslation": "Went (fem)",
+      "phoneticHint": "guh-yee",
+      "syllableSplit": "ga-yi",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'guy'. It must be two distinct sounds: ga-yee."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "देखी",
+      "transliteration": "Dekhi",
+      "baseTranslation": "Saw (feminine object)",
+      "phoneticHint": "day-khee (aspirated kh)",
+      "syllableSplit": "de-khi",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using a hard 'k'. Push air from your throat for the 'kh'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "किया",
+      "transliteration": "Kiya",
+      "baseTranslation": "Did (masculine object)",
+      "phoneticHint": "kee-yaa",
+      "syllableSplit": "ki-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kia' like the car brand. Make the 'ya' distinct."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "खाया",
+      "transliteration": "Khaaya",
+      "baseTranslation": "Ate (masculine object)",
+      "phoneticHint": "khaa-yaa (aspirated kh)",
+      "syllableSplit": "khaa-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kaa-ya'. Must be breathy."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Fluid delivery of merged pronouns and sharp vowel distinctions on past tense verbs to indicate gender.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Excellent! Your pronunciation clearly distinguishes between masculine and feminine past tense actions.",
+    "onFail": "Listen to the difference between 'Gaya' and 'Gayi'. One means male, one means female. You must make the ending vowels very clear.",
+    "onPartial": "Good effort. Work on 'Unhone'. Don't forget to push air out on the 'h' sound in the middle."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 350,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "past_tense",
+    "ne_particle",
+    "pronouns",
+    "vowels",
+    "aspiration"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Open your mouth wide for the 'aa' sound in 'Gaya' and 'Khaaya'. Smile widely to hit the sharp 'ee' in 'Gayi' and 'Dekhi'.",
+  "commonMistakes": [
+    "Slurring the 'ne' particle so it sounds like part of the previous word."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

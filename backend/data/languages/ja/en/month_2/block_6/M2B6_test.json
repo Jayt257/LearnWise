@@ -1,0 +1,245 @@
+{
+  "activityId": "en_ja_M2B6_test_8",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Test: Directions",
+  "learningGoal": "Evaluate your understanding of giving and asking for directions, prepositions of location, and travel vocabulary.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B6_speaking_7"
+  ],
+  "instructions": "Month 2 Block 6 のテストです。道の尋ね方や教え方、場所を表す表現（前置詞）についての問題に答えてください。(This is the Block 6 test. Answer questions about asking for and giving directions.)",
+  "testTitle": "Navigating the City Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Asking for Directions (道を尋ねる)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「駅にはどうやって行けばいいですか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "How do I go the station?",
+            "How do I get to the station?",
+            "How to go to the station?",
+            "What is the station?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "知らない人に道を尋ねる時、最初に言うべき言葉はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Hey you.",
+            "Excuse me.",
+            "I'm sorry.",
+            "Hello there."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Giving Directions (道を教える)",
+      "questions": [
+        {
+          "questionId": "q3",
+          "questionText": "「まっすぐ進んでください」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Go straight.",
+            "Going straight.",
+            "You straight.",
+            "Go to straight."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        },
+        {
+          "questionId": "q4",
+          "questionText": "「角を右に曲がってください」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Turn right the corner.",
+            "Turn right at the corner.",
+            "Turn to right at corner.",
+            "Turn left at the corner."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「それはあなたの左側にあります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "It is your left.",
+            "It is in your left.",
+            "It is on your left.",
+            "It is to your left."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Locations & Transportation (場所と交通手段)",
+      "questions": [
+        {
+          "questionId": "q6",
+          "questionText": "「博物館は郵便局の隣にあります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "The museum is next of the post office.",
+            "The museum is next to the post office.",
+            "The museum is near to the post office.",
+            "The museum is right to the post office."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "「病院は銀行の向かい側にあります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "The hospital is across the bank.",
+            "The hospital is across to the bank.",
+            "The hospital is across from the bank.",
+            "The hospital is front of the bank."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「私はバスで駅に行きます」と言う時、正しい表現はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "by a bus",
+            "with bus",
+            "on bus",
+            "by bus"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「徒歩で」を英語で言うと何ですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "by walk",
+            "by foot",
+            "on foot",
+            "with foot"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい道案内の文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Go straight and turn left at the hospital.",
+            "You going straight and turn left.",
+            "Go straight and to turn left.",
+            "Go straight and left turn."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "How do I get to the station?",
+      "q2": "Excuse me.",
+      "q3": "Go straight.",
+      "q4": "Turn right at the corner.",
+      "q5": "It is on your left.",
+      "q6": "The museum is next to the post office.",
+      "q7": "The hospital is across from the bank.",
+      "q8": "by bus",
+      "q9": "on foot",
+      "q10": "Go straight and turn left at the hospital."
+    },
+    "sectionPassMarks": {
+      "sec_1": 10,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！方向を表す単語や前置詞の使い方を完璧にマスターしています。これで海外旅行も安心です！",
+    "onFail": "もう一度復習しましょう。「〜の隣（next to）」や「〜の向かい（across from）」といった前置詞の使い方を確認してください。",
+    "onPartial": "よくできました。「by bus（バスで）」には a や the がつかないこと、「on foot（徒歩で）」の使い方をもう一度確認しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_6",
+    "directions",
+    "prepositions",
+    "travel"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember: 'How do I get to...', 'next to', 'across from', and 'by bus'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B1_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

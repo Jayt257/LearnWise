@@ -1,0 +1,435 @@
+{
+  "activityId": "ja_en_M3B6_test_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "The Ultimate 3-Month Mega Test",
+  "learningGoal": "The learner will demonstrate comprehensive mastery over the vocabulary, particles, verb conjugations, and Keigo protocols taught throughout the entire 3-month curriculum.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M3B6_lesson_001",
+    "ja_en_M3B6_pronunciation_001",
+    "ja_en_M3B6_reading_001",
+    "ja_en_M3B6_writing_001",
+    "ja_en_M3B6_listening_001",
+    "ja_en_M3B6_vocabulary_001",
+    "ja_en_M3B6_speaking_001"
+  ],
+  "instructions": "This is your final assessment. It covers Month 1 (basics, particles), Month 2 (Te-forms, conditionals, relative clauses), and Month 3 (Causative, Passives, Keigo, Emergencies). Good luck!",
+  "testTitle": "Final 3-Month Mega Assessment",
+  "testScope": "curriculum_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Read each question carefully. You must synthesize multiple grammar rules to arrive at the correct answer.",
+  "questionSections": [
+    {
+      "sectionId": "sec_particles",
+      "sectionTitle": "Particle Mastery (Month 1)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blanks: はし ___ すし ___ たべます。(Eat sushi with chopsticks)",
+          "questionType": "multiple_choice",
+          "options": ["で / を (De / Wo)", "に / を (Ni / Wo)", "を / で (Wo / De)", "が / に (Ga / Ni)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which particle marks the destination of movement? (To go TO Japan)",
+          "questionType": "multiple_choice",
+          "options": ["は (Wa)", "を (Wo)", "に (Ni)", "で (De)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        }
+      ],
+      "sectionMarks": 10,
+      "sectionPassMarks": 5
+    },
+    {
+      "sectionId": "sec_teform",
+      "sectionTitle": "Te-Form & Connections (Month 2)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q003",
+          "questionText": "What is the Te-form of のむ (Nomu - to drink)?",
+          "questionType": "multiple_choice",
+          "options": ["のみて (Nomite)", "のんで (Nonde)", "のって (Notte)", "のって (Noute)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Translate: 'May I take a picture?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "しゃしんを とって ください (Shashin wo totte kudasai)",
+            "しゃしんを とっても いいですか (Shashin wo totte mo ii desu ka)",
+            "しゃしんを とってはいけません (Shashin wo totte wa ikemasen)",
+            "しゃしんを とります (Shashin wo torimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "How do you say 'If it rains'?",
+          "questionType": "multiple_choice",
+          "options": ["あめが ふるから", "あめが ふるつもり", "あめが ふったら", "あめが ふっても"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 15,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_pot_vol",
+      "sectionTitle": "Potential & Volitional (Month 3 Block 1)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What is the Potential form (Can do) of はなす (Hanasu - to speak)?",
+          "questionType": "multiple_choice",
+          "options": ["はなせる (Hanaseru)", "はなされる (Hanasareru)", "はなさせる (Hanasaseru)", "はなそう (Hanasou)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the Volitional form (Let's do) of たべる (Taberu)?",
+          "questionType": "multiple_choice",
+          "options": ["たべよう (Tabeyou)", "たべる (Taberu)", "たべろう (Taberou)", "たべない (Tabenai)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        }
+      ],
+      "sectionMarks": 10,
+      "sectionPassMarks": 5
+    },
+    {
+      "sectionId": "sec_directional",
+      "sectionTitle": "Giving & Receiving Favors (Month 3 Block 2)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q008",
+          "questionText": "Which verb means 'to receive' (I receive a favor from someone)?",
+          "questionType": "multiple_choice",
+          "options": ["あげる (Ageru)", "くれる (Kureru)", "もらう (Morau)", "する (Suru)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Which verb do you use if someone gives YOU a gift?",
+          "questionType": "multiple_choice",
+          "options": ["あげる (Ageru)", "くれる (Kureru)", "もらう (Morau)", "いく (Iku)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        }
+      ],
+      "sectionMarks": 10,
+      "sectionPassMarks": 5
+    },
+    {
+      "sectionId": "sec_caus_pass",
+      "sectionTitle": "Causative & Passive (Month 3 Block 3)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q010",
+          "questionText": "What does させられる (Saserareru) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To make someone do", "To be forced to do", "To be able to do", "To want to do"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'I was forced to do overtime by the boss.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ぶちょうに ざんぎょうを させました",
+            "ぶちょうに ざんぎょうを させられました",
+            "ぶちょうが ざんぎょうを しました",
+            "ぶちょうは ざんぎょうが できます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        }
+      ],
+      "sectionMarks": 10,
+      "sectionPassMarks": 5
+    },
+    {
+      "sectionId": "sec_keigo",
+      "sectionTitle": "Keigo: Respectful & Humble (Month 3 Block 4)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q012",
+          "questionText": "If the President (Shachou) comes, which verb do you use?",
+          "questionType": "multiple_choice",
+          "options": ["まいります (Mairimasu)", "いらっしゃいます (Irasshaimasu)", "いただきます (Itadakimasu)", "もうします (Moushimasu)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "If YOU eat, which humble verb do you use?",
+          "questionType": "multiple_choice",
+          "options": ["めしあがります (Meshiagarimasu)", "いただきます (Itadakimasu)", "なさいます (Nasaimasu)", "いらっしゃいます (Irasshaimasu)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        }
+      ],
+      "sectionMarks": 10,
+      "sectionPassMarks": 5
+    },
+    {
+      "sectionId": "sec_emergencies_writing",
+      "sectionTitle": "Emergencies & Written Production",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q014",
+          "questionText": "Translate: 'My wallet was stolen.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "さいふを なくしました",
+            "さいふを ぬすまれました",
+            "さいふが ぬすみました",
+            "さいふを くれました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Write 'Please call an ambulance' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 7,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "きゅうきゅうしゃを よんで ください",
+            "transliteration": "kyuukyuusha wo yonde kudasai",
+            "baseTranslation": "Please call an ambulance"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'I intend to go to Japan' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 7,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "にほんに いく つもりです",
+            "transliteration": "nihon ni iku tsumori desu",
+            "baseTranslation": "Intend to go"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'Because I studied, I can speak' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 7,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "べんきょうしました から、はなせます",
+            "transliteration": "benkyou shimashita kara, hanasemasu",
+            "baseTranslation": "Because I studied, I can speak"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Listen to the audio. What is the speaker's ability?",
+          "questionType": "multiple_choice",
+          "options": ["They can read Japanese", "They can speak Japanese", "They cannot speak Japanese", "They want to speak Japanese"],
+          "marks": 4,
+          "audioRef": "audioAssets.sampleAudio_q018",
+          "questionHints": {
+            "targetText": "にほんごが はなせます。",
+            "transliteration": "Nihongo ga hanasemasu.",
+            "baseTranslation": "I can speak Japanese."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Listen to the audio. What happened to the speaker's passport?",
+          "questionType": "multiple_choice",
+          "options": ["They lost it", "It was stolen", "They found it", "They forgot it"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q019",
+          "questionHints": {
+            "targetText": "パスポートを ぬすまれて しまいました。",
+            "transliteration": "Pasupooto wo nusumarete shimaimashita.",
+            "baseTranslation": "My passport was unfortunately stolen."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Listen to the audio. What formal apology does the speaker use?",
+          "questionType": "multiple_choice",
+          "options": ["Gomen nasai", "Sumimasen", "Moushiwake gozaimasen", "Shitsurei shimasu"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q020",
+          "questionHints": {
+            "targetText": "もうしわけございません。",
+            "transliteration": "Moushiwake gozaimasen.",
+            "baseTranslation": "I am very sorry (Formal)."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 35,
+      "sectionPassMarks": 18
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "で / を (De / Wo)",
+      "q002": "に (Ni)",
+      "q003": "のんで (Nonde)",
+      "q004": "しゃしんを とっても いいですか (Shashin wo totte mo ii desu ka)",
+      "q005": "あめが ふったら",
+      "q006": "はなせる (Hanaseru)",
+      "q007": "たべよう (Tabeyou)",
+      "q008": "もらう (Morau)",
+      "q009": "くれる (Kureru)",
+      "q010": "To be forced to do",
+      "q011": "ぶちょうに ざんぎょうを させられました",
+      "q012": "いらっしゃいます (Irasshaimasu)",
+      "q013": "いただきます (Itadakimasu)",
+      "q014": "さいふを ぬすまれました",
+      "q015": "kyuukyuusha wo yonde kudasai",
+      "q016": "nihon ni iku tsumori desu",
+      "q017": "benkyou shimashita kara hanasemasu",
+      "q018": "They can speak Japanese",
+      "q019": "It was stolen",
+      "q020": "Moushiwake gozaimasen"
+    },
+    "scoringRubric": {
+      "q015": "Accept Romaji variations.",
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q015": ["Kyuukyuusha wo yonde kudasai"],
+      "q016": ["Nihon ni iku tsumori desu"],
+      "q017": ["Benkyou shita kara hanasemasu", "Benkyou shimashita kara, hanasemasu"]
+    },
+    "sectionPassMarks": {
+      "sec_particles": 5,
+      "sec_teform": 10,
+      "sec_pot_vol": 5,
+      "sec_directional": 5,
+      "sec_caus_pass": 5,
+      "sec_keigo": 5,
+      "sec_emergencies_writing": 18
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! You have successfully completed the 3-Month English-to-Japanese curriculum! Your mastery of grammar is phenomenal.",
+    "onFail": "Don't give up! This test covers 3 months of intense material. Review the specific sections you missed and try again.",
+    "onPartial": "Almost there. Review the specific grammar points you missed, particularly Keigo and Causative-Passive forms."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "mega_assessment",
+    "comprehensive",
+    "final",
+    "advanced",
+    "month3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [],
+  "attemptLimit": null,
+  "metadata": {}
+}

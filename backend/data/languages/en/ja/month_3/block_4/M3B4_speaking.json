@@ -1,0 +1,195 @@
+{
+  "activityId": "ja_en_M3B4_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Customer Interaction",
+  "learningGoal": "The learner will verbally construct respectful sentences (Sonkeigo) and highly formal apologies/acknowledgments used in customer service and business.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M3B4_lesson_001",
+    "ja_en_M3B4_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, you are a staff member speaking to a very important customer. Reply verbally in Japanese based on the English prompts, using highly respectful language.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: You must use Sonkeigo for the customer's actions."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) Welcome. 2) What will you eat? 3) I am very sorry. 4) Understood.",
+  "scenario": "A waiter speaking to a VIP customer.",
+  "role": "Waiter / Staff",
+  "conversationPartner": "Customer",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Greet the customer. Say: 'Welcome.'",
+      "expectedSpeakingPoints": [
+        "Use Irasshaimase"
+      ],
+      "sampleResponse": {
+        "targetText": "いらっしゃいませ。",
+        "transliteration": "Irasshaimase.",
+        "baseTranslation": "Welcome."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Ask for their order respectfully. Say: 'What will you eat?'",
+      "expectedSpeakingPoints": [
+        "Use nani wo",
+        "Use meshiagarimasu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "なにを めしあがりますか。",
+        "transliteration": "Nani wo meshiagarimasu ka.",
+        "baseTranslation": "What will you eat?"
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "The kitchen is out of an item. Apologize formally. Say: 'I am very sorry.'",
+      "expectedSpeakingPoints": [
+        "Use Moushiwake",
+        "Use gozaimasen"
+      ],
+      "sampleResponse": {
+        "targetText": "もうしわけございません。",
+        "transliteration": "Moushiwake gozaimasen.",
+        "baseTranslation": "I am very sorry."
+      }
+    },
+    {
+      "subTaskId": "st004",
+      "prompt": "Acknowledge their new order formally. Say: 'Understood.'",
+      "expectedSpeakingPoints": [
+        "Use Kashikomarimashita"
+      ],
+      "sampleResponse": {
+        "targetText": "かしこまりました。",
+        "transliteration": "Kashikomarimashita.",
+        "baseTranslation": "Understood."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "すしを おねがいします。",
+    "transliteration": "Sushi wo onegaishimasu.",
+    "baseTranslation": "Sushi, please."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "いらっしゃいませ。",
+      "transliteration": "Irasshaimase.",
+      "baseTranslation": "Welcome."
+    },
+    {
+      "targetText": "なにを めしあがりますか。",
+      "transliteration": "Nani wo meshiagarimasu ka.",
+      "baseTranslation": "What will you eat?"
+    },
+    {
+      "targetText": "もうしわけございません。",
+      "transliteration": "Moushiwake gozaimasen.",
+      "baseTranslation": "I am very sorry."
+    },
+    {
+      "targetText": "かしこまりました。",
+      "transliteration": "Kashikomarimashita.",
+      "baseTranslation": "Understood."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Irasshaimase",
+      "Say Nani wo meshiagarimasu ka",
+      "Say Moushiwake gozaimasen",
+      "Say Kashikomarimashita"
+    ],
+    "requiredKeywords": [
+      "いらっしゃいませ",
+      "めしあがりますか",
+      "もうしわけございません",
+      "かしこまりました"
+    ],
+    "acceptableParaphrases": [
+      "Accept variations in tone/pitch, but the words must be exact for formal business Keigo."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Sonkeigo Usage",
+          "weight": 40,
+          "description": "Did the learner accurately say 'meshiagarimasu ka' instead of 'tabemasu ka'?"
+        },
+        {
+          "name": "Formal Apology",
+          "weight": 30,
+          "description": "Did the learner say 'moushiwake gozaimasen' instead of 'gomen nasai'?"
+        },
+        {
+          "name": "Formal Acknowledgment",
+          "weight": 30,
+          "description": "Did the learner say 'kashikomarimashita' instead of 'wakarimashita'?"
+        }
+      ]
+    },
+    "sampleAnswer": "いらっしゃいませ。なにを めしあがりますか。もうしわけございません。かしこまりました。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You sound highly professional and polite.",
+    "onFail": "Review the set phrases. 'Gomen nasai' is completely unacceptable in customer service; you must use 'Moushiwake gozaimasen'.",
+    "onPartial": "Good try! Make sure you use 'Kashikomarimashita' for 'Understood'. 'Wakarimashita' is too casual for a VIP."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b4/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m3/b4/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "いらっしゃいませ。なにを めしあがりますか。もうしわけございません。かしこまりました。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "keigo",
+    "customer_service",
+    "roleplay",
+    "advanced",
+    "month3",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Do not use 'Tabemasu' or 'Wakarimashita'. Use their highly formal equivalents.",
+  "commonMistakes": [
+    "Saying 'Gomen nasai' to a customer."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

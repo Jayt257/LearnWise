@@ -1,0 +1,212 @@
+{
+  "activityId": "ja_en_M1B2_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Business Card Exchange (Meishi Koukan)",
+  "learningGoal": "The learner will verbally introduce themselves in a formal context, stating their name, nationality, and occupation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B2_lesson_001",
+    "ja_en_M1B2_vocabulary_001"
+  ],
+  "instructions": "In this activity, you are attending a networking event in Tokyo. You will exchange business cards (Meishi) with a Japanese person. Follow the prompts to introduce yourself properly. Speak clearly and use a formal, polite tone.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember the standard structure for a Japanese self-introduction: 1. Hajimemashite, 2. Name + desu, 3. Nationality + desu, 4. Occupation + desu, 5. Yoroshiku onegaishimasu."
+    }
+  ],
+  "speakingPrompt": "Introduce yourself verbally as if you are handing over your business card to a new acquaintance.",
+  "scenario": "You are at a formal meet-and-greet event. A Japanese office worker approaches you, bows, and introduces himself as Tanaka. Now it is your turn to introduce yourself.",
+  "role": "An American university student named Alex (or you can use your real name/occupation).",
+  "conversationPartner": "Tanaka-san, a Japanese office worker",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Start your introduction properly by saying 'Nice to meet you (for the first time)'.",
+      "expectedSpeakingPoints": [
+        "Say 'Hajimemashite'"
+      ],
+      "sampleResponse": {
+        "targetText": "はじめまして。",
+        "transliteration": "Hajimemashite.",
+        "baseTranslation": "Nice to meet you."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "State your name (Use 'Alex' for this exercise) using 'I am...'.",
+      "expectedSpeakingPoints": [
+        "Say 'Watashi wa Alex desu'"
+      ],
+      "sampleResponse": {
+        "targetText": "わたしは アレックスです。",
+        "transliteration": "Watashi wa Arekkusu desu.",
+        "baseTranslation": "I am Alex."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "State that you are American.",
+      "expectedSpeakingPoints": [
+        "Say 'Amerika-jin desu'"
+      ],
+      "sampleResponse": {
+        "targetText": "アメリカじんです。",
+        "transliteration": "Amerika-jin desu.",
+        "baseTranslation": "I am American."
+      }
+    },
+    {
+      "subTaskId": "st004",
+      "prompt": "State that you are a university student.",
+      "expectedSpeakingPoints": [
+        "Say 'Daigakusei desu'"
+      ],
+      "sampleResponse": {
+        "targetText": "だいがくせいです。",
+        "transliteration": "Daigakusei desu.",
+        "baseTranslation": "I am a university student."
+      }
+    },
+    {
+      "subTaskId": "st005",
+      "prompt": "Finish your introduction politely with 'Please treat me well'.",
+      "expectedSpeakingPoints": [
+        "Say 'Yoroshiku onegaishimasu'"
+      ],
+      "sampleResponse": {
+        "targetText": "よろしく おねがいします。",
+        "transliteration": "Yoroshiku onegaishimasu.",
+        "baseTranslation": "Please treat me well."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "はじめまして。わたしは たなかです。にほんじんです。かいしゃいんです。よろしく おねがいします。",
+    "transliteration": "Hajimemashite. Watashi wa Tanaka desu. Nihon-jin desu. Kaishain desu. Yoroshiku onegaishimasu.",
+    "baseTranslation": "Nice to meet you. I am Tanaka. I am Japanese. I am an office worker. Please treat me well."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "はじめまして。",
+      "transliteration": "Hajimemashite.",
+      "baseTranslation": "Nice to meet you."
+    },
+    {
+      "targetText": "わたしは アレックスです。",
+      "transliteration": "Watashi wa Arekkusu desu.",
+      "baseTranslation": "I am Alex."
+    },
+    {
+      "targetText": "アメリカじんです。",
+      "transliteration": "Amerika-jin desu.",
+      "baseTranslation": "I am American."
+    },
+    {
+      "targetText": "だいがくせいです。",
+      "transliteration": "Daigakusei desu.",
+      "baseTranslation": "I am a university student."
+    },
+    {
+      "targetText": "よろしく おねがいします。",
+      "transliteration": "Yoroshiku onegaishimasu.",
+      "baseTranslation": "Please treat me well."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 40,
+    "grammarWeight": 20,
+    "vocabularyWeight": 15
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Use Hajimemashite to open",
+      "State Name correctly with desu",
+      "State Nationality correctly with jin and desu",
+      "State Occupation correctly with desu",
+      "Use Yoroshiku onegaishimasu to close"
+    ],
+    "requiredKeywords": [
+      "はじめまして",
+      "です",
+      "じん",
+      "よろしく おねがいします"
+    ],
+    "acceptableParaphrases": [
+      "The learner can use their real name, real nationality, and real occupation instead of the prompt's examples. The evaluation will accept any valid [word] desu patterns."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Completeness",
+          "weight": 40,
+          "description": "Did the learner include all 5 steps of the standard introduction?"
+        },
+        {
+          "name": "Grammar (Desu/Wa)",
+          "weight": 30,
+          "description": "Were 'wa' and 'desu' used correctly?"
+        },
+        {
+          "name": "Fluency",
+          "weight": 30,
+          "description": "Was the speech relatively smooth and confident?"
+        }
+      ]
+    },
+    "sampleAnswer": "はじめまして。わたしは アレックスです。アメリカじんです。だいがくせいです。よろしく おねがいします。",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You delivered a very natural, polite Japanese self-introduction.",
+    "onFail": "Please try again. Ensure you include both 'Hajimemashite' at the start and 'Yoroshiku onegaishimasu' at the end.",
+    "onPartial": "Good effort! Make sure you clearly pronounce 'desu' at the end of your name, nationality, and occupation."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b2/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m1/b2/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "はじめまして。わたしは たなかです。にほんじんです。かいしゃいんです。よろしく おねがいします。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "introductions",
+    "identity",
+    "roleplay",
+    "beginner",
+    "month1",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you struggle with the long closing phrase, break it down: yoro-shiku o-negai-shimasu.",
+  "commonMistakes": [
+    "Saying 'Watashi wa [Name]' and forgetting to add 'desu'.",
+    "Mumbling 'Yoroshiku onegaishimasu' because it is long."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

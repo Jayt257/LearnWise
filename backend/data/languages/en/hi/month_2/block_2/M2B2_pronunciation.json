@@ -1,0 +1,161 @@
+{
+  "activityId": "hi_en_M2B2_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Future Nasals and Helper Verbs",
+  "learningGoal": "Accurately pronounce the future tense nasalized suffixes (-unga, -enge) and fluidly link 'raha' to main verbs.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B2_lesson_1"
+  ],
+  "instructions": "The future tense is full of nasal sounds. When you say 'Jaunga' (I will go), the 'un' is nasalized, bleeding into the 'ga'. Additionally, you must practice speaking the root verb + raha + hoon as one smooth rhythm.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "जाऊँगा",
+      "transliteration": "Jaunga",
+      "baseTranslation": "will go (Male 'I')",
+      "phoneticHint": "jaa-oong-gaa (nasal oon)",
+      "syllableSplit": "jaa-un-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying a hard 'n' (jaa-un-ga). The tongue should not touch the roof of the mouth for the 'n'."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "जाऊँगी",
+      "transliteration": "Jaungi",
+      "baseTranslation": "will go (Female 'I')",
+      "phoneticHint": "jaa-oong-gee",
+      "syllableSplit": "jaa-un-gi",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Swallowing the 'gi' ending."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "खाएँगे",
+      "transliteration": "Khayenge",
+      "baseTranslation": "will eat (Aap / We)",
+      "phoneticHint": "khaa-yeng-gay",
+      "syllableSplit": "khaa-yen-ge",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kha-en-ge'. The 'y' sound naturally bridges the two vowels."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "जाएगा",
+      "transliteration": "Jayega",
+      "baseTranslation": "will go (He)",
+      "phoneticHint": "jaa-yay-gaa",
+      "syllableSplit": "jaa-ye-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'jaa-eh-ga'."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "आ रहा हूँ",
+      "transliteration": "Aa raha hoon",
+      "baseTranslation": "am coming (Male)",
+      "phoneticHint": "aa-ruh-haa-hoon",
+      "syllableSplit": "aa ra-ha hoon",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Putting a heavy pause between 'Aa' and 'raha'. It should flow like one long word."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "कर रही है",
+      "transliteration": "Kar rahi hai",
+      "baseTranslation": "is doing (Female)",
+      "phoneticHint": "kuhr-ruh-hee-hay",
+      "syllableSplit": "kar ra-hi hai",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kaar' instead of 'kar'. The 'a' in 'kar' is very short."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "आइयेगा",
+      "transliteration": "Aaiyega",
+      "baseTranslation": "Please come (polite future)",
+      "phoneticHint": "aa-ee-yay-gaa",
+      "syllableSplit": "aa-i-ye-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Aai-ga'. Do not skip the 'ye' syllable in the middle."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "अभी",
+      "transliteration": "Abhi",
+      "baseTranslation": "Right now",
+      "phoneticHint": "uh-bhee (aspirated bh)",
+      "syllableSplit": "a-bhi",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'a-bee'. You must push air through the 'bh'."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Fluid rhythmic delivery of root verb + raha + hoon, and correct nasalization in future suffixes.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Fantastic! Your future tense suffixes sound completely authentic.",
+    "onFail": "Listen closely to 'Jaunga'. The 'n' sound happens in your nose, not on your teeth.",
+    "onPartial": "Good effort. When saying continuous sentences, try linking the words together more smoothly. Aa-raha-hoon."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "future_tense",
+    "continuous",
+    "nasals",
+    "aspiration"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To pronounce the 'bh' in 'Abhi', start by saying 'b' and force a quick sigh of air out immediately after.",
+  "commonMistakes": [
+    "Saying a hard English N in words like Jaunga and Khayenge."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B2_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

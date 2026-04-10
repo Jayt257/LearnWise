@@ -1,0 +1,150 @@
+{
+  "activityId": "ja_en_M3B2_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Favors",
+  "learningGoal": "The learner will master the fluid pronunciation of linking Te-form verbs with verbs of giving and receiving ('~te agemasu', '~te kuremasu').",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B2_lesson_001",
+    "ja_en_M3B2_vocabulary_001"
+  ],
+  "instructions": "In this exercise, practice asking for and stating favors. Do not pause between the Te-form verb and the giving/receiving verb. They function as a single grammatical unit.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For example: Say 'Tetsudatte-kuremashita' smoothly, without stopping at 'te'."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "てつだって くれました",
+      "transliteration": "Tetsudatte kuremashita",
+      "baseTranslation": "(They) helped me.",
+      "phoneticHint": "teh-tsoo-daht-teh koo-reh-mah-shee-tah",
+      "syllableSplit": "te-tsu-da-t-te ku-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Tetsudate' without the double consonant pause."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "おしえて もらいました",
+      "transliteration": "Oshiete moraimashita",
+      "baseTranslation": "I had them teach me. / I received teaching.",
+      "phoneticHint": "oh-shee-eh-teh moh-rye-mah-shee-tah",
+      "syllableSplit": "o-shi-e-te mo-ra-i-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Pausing awkwardly: 'Oshiete... moraimashita'."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "かして あげます",
+      "transliteration": "Kashite agemasu",
+      "baseTranslation": "I will lend it to you.",
+      "phoneticHint": "kah-shee-teh ah-geh-mahs",
+      "syllableSplit": "ka-shi-te a-ge-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Slurring 'kashite' into 'kashte'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "ともだちが くれました",
+      "transliteration": "Tomodachi ga kuremashita",
+      "baseTranslation": "My friend gave it to me.",
+      "phoneticHint": "toh-moh-dah-chee gah koo-reh-mah-shee-tah",
+      "syllableSplit": "to-mo-da-chi ga ku-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Using the particle 'wa' when 'ga' is preferred to emphasize the giver."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "プレゼントを あげました",
+      "transliteration": "Purezento wo agemashita",
+      "baseTranslation": "I gave a present.",
+      "phoneticHint": "poo-reh-zen-toh oh ah-geh-mah-shee-tah",
+      "syllableSplit": "pu-re-ze-n-to o a-ge-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Mispronouncing the 'zu' sound in purezento."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "はらって もらいました",
+      "transliteration": "Haratte moraimashita",
+      "baseTranslation": "I had them pay for it.",
+      "phoneticHint": "hah-raht-teh moh-rye-mah-shee-tah",
+      "syllableSplit": "ha-ra-t-te mo-ra-i-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'Harate' without the double consonant pause."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "てつだってくれました おしえてもらいました かしてあげます ともだちがくれました プレゼントをあげました はらってもらいました",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You are speaking like a native, linking actions directly to favors.",
+    "onFail": "Keep practicing! Ensure you don't pause between the two verbs. 'Tetsudatte kuremashita' is one thought.",
+    "onPartial": "Good effort. Pay close attention to double consonants in 'te-tsu-da-t-te' and 'ha-ra-t-te'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "てつだってくれました おしえてもらいました かしてあげます ともだちがくれました プレゼントをあげました はらってもらいました",
+    "acceptedVariants": [
+      "てつだって くれました おしえて もらいました かして あげます ともだちが くれました プレゼントを あげました はらって もらいました"
+    ],
+    "syllableSplitReference": "te-tsu-da-t-te-ku-re-ma-shi-ta o-shi-e-te-mo-ra-i-ma-shi-ta ka-shi-te-a-ge-ma-su to-mo-da-chi-ga-ku-re-ma-shi-ta pu-re-ze-n-to-o-a-ge-ma-shi-ta ha-ra-t-te-mo-ra-i-ma-shi-ta",
+    "phoneticApproximation": "tetsudattekuremashita oshietemoraimashita kashiteagemasu tomodachigakuremashita purezentowoagemashita harattemoraimashita",
+    "nativeScriptReference": "てつだってくれました おしえてもらいました かしてあげます ともだちがくれました プレゼントをあげました はらってもらいました",
+    "transliteration": "Tetsudatte kuremashita Oshiete moraimashita Kashite agemasu Tomodachi ga kuremashita Purezento wo agemashita Haratte moraimashita",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b2/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m3/b2/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b2/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "てつだって くれました。おしえて もらいました。かして あげます。ともだちが くれました。プレゼントを あげました。はらって もらいました。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "giving",
+    "receiving",
+    "te-form",
+    "advanced",
+    "month3",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Blend the Te-form and the giving verb together smoothly.",
+  "commonMistakes": [
+    "Saying 'Tetsudate' instead of 'Tetsudatte'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B2_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

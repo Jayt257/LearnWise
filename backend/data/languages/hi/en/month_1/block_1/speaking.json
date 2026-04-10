@@ -1,0 +1,161 @@
+{
+  "activityId": "en_hi_M1B1_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Meeting Your English Teacher",
+  "learningGoal": "The learner will successfully articulate 4 spoken introductory SVO sentences in English, maintaining proper time-based greetings and polite responses in a real-time roleplay.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B1_vocabulary_001"],
+  "instructions": "In this guided roleplay, you are entering your new English classroom in the morning. You will talk to your teacher. Read the scenario, listen to the teacher's prompts, and record your spoken English response. Try to match the sample audio's rhythm.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Speak clearly. Pay attention to the 'W' in 'Welcome' and 'V' in 'Very' if you use them."
+    }
+  ],
+  "speakingPrompt": "Respond verbally to the teacher's prompts to introduce yourself.",
+  "scenario": "It is 9:00 AM. You open the door to the classroom. Your new English teacher, Mr. Smith, is standing at the desk.",
+  "role": "New student entering the classroom",
+  "conversationPartner": "Mr. Smith, the English teacher",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "शिक्षक आपकी ओर देखते हैं। उन्हें 'शुभ प्रभात' (सुबह 9 बजे) कहें और सर कहें।",
+      "expectedSpeakingPoints": ["Say Good morning", "Address him as sir"],
+      "sampleResponse": {
+        "targetText": "Good morning, sir.",
+        "transliteration": "गुड मॉर्निंग, सर।",
+        "baseTranslation": "शुभ प्रभात, सर।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "शिक्षक कहते हैं, 'Good morning! Welcome to the class. What is your name?' अपना नाम बताएं (My name is... का उपयोग करके)।",
+      "expectedSpeakingPoints": ["Use My name is", "State your name clearly"],
+      "sampleResponse": {
+        "targetText": "My name is Amit.",
+        "transliteration": "माई नेम इज़ अमित।",
+        "baseTranslation": "मेरा नाम अमित है।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "शिक्षक कहते हैं, 'Nice to meet you, Amit. How are you today?' उन्हें बताएं कि आप ठीक हैं और धन्यवाद दें।",
+      "expectedSpeakingPoints": ["Say I am fine", "Say Thank you"],
+      "sampleResponse": {
+        "targetText": "I am fine, thank you.",
+        "transliteration": "आई एम फाइन, थैंक यू।",
+        "baseTranslation": "मैं ठीक हूँ, धन्यवाद।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "शिक्षक कहते हैं, 'Please sit down. The class will start now.' शांति से उन्हें धन्यवाद दें।",
+      "expectedSpeakingPoints": ["Say Thank you, sir"],
+      "sampleResponse": {
+        "targetText": "Thank you, sir.",
+        "transliteration": "थैंक यू, सर।",
+        "baseTranslation": "धन्यवाद, सर।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Welcome to your English class.",
+    "transliteration": "वेलकम टू योर इंग्लिश क्लास।",
+    "baseTranslation": "आपकी अंग्रेजी कक्षा में स्वागत है।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Good morning, sir.",
+      "transliteration": "गुड मॉर्निंग, सर।",
+      "baseTranslation": "शुभ प्रभात, सर।"
+    },
+    {
+      "targetText": "My name is Amit.",
+      "transliteration": "माई नेम इज़ अमित।",
+      "baseTranslation": "मेरा नाम अमित है।"
+    },
+    {
+      "targetText": "I am fine, thank you.",
+      "transliteration": "आई एम फाइन, थैंक यू।",
+      "baseTranslation": "मैं ठीक हूँ, धन्यवाद।"
+    },
+    {
+      "targetText": "Thank you, sir.",
+      "transliteration": "थैंक यू, सर।",
+      "baseTranslation": "धन्यवाद, सर।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 20,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Good morning",
+      "My name is",
+      "I am fine",
+      "Thank you"
+    ],
+    "requiredKeywords": [
+      "morning",
+      "name",
+      "am",
+      "thank",
+      "you"
+    ],
+    "acceptableParaphrases": [
+      "I am Amit",
+      "I am good",
+      "Thanks"
+    ],
+    "scoringRubric": {
+      "Pronunciation": "Checks for clear V/W distinction and understandable phrasing.",
+      "Completeness": "Did the user fully answer the WH-questions?"
+    },
+    "sampleAnswer": "Good morning, sir. My name is Amit. I am fine, thank you. Thank you, sir.",
+    "minimumContentCoverage": 70
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have successfully held your first English conversation. Your teacher understood you perfectly.",
+    "onFail": "Keep trying! Ensure you are saying 'My name is' and correctly replying 'I am fine, thank you'.",
+    "onPartial": "Good attempt! You missed a few politeness markers like 'Thank you' or your pronunciation of 'morning' was difficult to understand."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b1/speaking/scenario_prompts.mp3",
+    "nativeAudio": "audio/en_hi/m1/b1/speaking/full_native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b1/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m1/b1/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m1/b1/speaking/full_native_dialogue.mp3",
+    "audioTranscript": "Teacher: Good morning! Welcome to the class. What is your name? ...",
+    "audioLanguage": "en",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "introductions", "greetings", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b1/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't rush. Speak slowly and pronounce each word fully: 'My... name... is... Amit.'",
+  "commonMistakes": [
+    "Saying 'I name is Amit'",
+    "Forgetting to say Thank you when asked 'How are you?'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B1_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

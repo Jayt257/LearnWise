@@ -1,0 +1,202 @@
+{
+  "activityId": "en_hi_M3B4_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Survival English & Scenarios",
+  "learningGoal": "The learner will synthesize previously acquired grammatical structures (Modals, Question Formulation, Polite Register) to navigate three high-stakes, real-world transactional environments: Traveling, Dining, and Emergencies.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B3_test_001"],
+  "instructions": "Congratulations! You have reached the final block! It is time to leave the classroom and step into the real world. In this lesson, we will focus purely on 'Survival English'. You will learn the exact phrases you need if you are lost in an airport, ordering food, or facing an emergency.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अब हम व्याकरण (Grammar) के बारे में सोचना बंद कर देंगे। अब हम केवल संचार (Communication) पर ध्यान केंद्रित करेंगे। विदेश यात्रा करते समय या किसी अंग्रेजी बोलने वाले देश में आपको किन वाक्यों की सबसे ज्यादा जरूरत होगी?"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Use 'I would like' instead of 'I want' for polite transactions.",
+      "Use modal 'Could you' for requesting directions from strangers.",
+      "In emergencies, abandon polite framing and use direct, simple present or imperative structures (Call an ambulance!)."
+    ],
+    "conceptSummary": "Capstone module transitioning learners from structural grammar acquisition to pragmatic, sociolinguistically-calibrated phrase deployment across varied transactional contexts.",
+    "importantFacts": [
+      "Never say 'What is the cost?' at a restaurant or shop. Native speakers say 'How much is this?'",
+      "Do not use 'want' at a restaurant. It sounds very rude. Always use 'I would like' or 'I will have'."
+    ],
+    "checkpointAnswers": {
+      "q1": "How much is this?",
+      "q2": "I would like",
+      "q3": "Could you help me?",
+      "q4": "Call an ambulance!"
+    },
+    "expectedUnderstanding": "Learners will demonstrate contextual awareness, selecting polite modal phrases for service interactions and direct imperatives for emergencies."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You have successfully mastered the most important survival phrases in the English language! You are ready to travel the world.",
+    "onFail": "Please review the lesson carefully! Remember that politeness is extremely important in English. You cannot order food by saying 'Give me chicken'. You MUST say 'I would like...'",
+    "onPartial": "Good effort! Let's clarify Question 1. When asking for a price, native speakers rarely use the word 'Cost' or 'Price'. They simply ask, 'How much is this?'"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b4/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m3/b4/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m3/b4/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m3/b4/lesson/native_lesson.mp3",
+    "audioTranscript": "Excuse me, where is the bathroom? I would like the chicken. Call the police!",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["survival", "travel", "restaurant", "emergency", "phrases", "capstone", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b4/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the feeling of the words. Are you asking a polite stranger, or are you shouting for help?",
+  "commonMistakes": [
+    "Saying 'I want water' to a waiter (rudeness).",
+    "Asking 'What is the price?' instead of 'How much?'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B4_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Navigating English Reality",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Scenario 1: Travel & Location (यात्रा और स्थान)",
+      "bodyText": "यदि आप किसी हवाई अड्डे (airport) पर हैं या किसी नए शहर में खो गए हैं, तो आपको अजनबियों से मदद मांगनी होगी। बातचीत शुरू करने के लिए हमेशा 'Excuse me' का प्रयोग करें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Excuse me, where is the bathroom?",
+          "transliteration": "एक्सक्यूज़ मी, वेयर इज़ द बाथरूम?",
+          "baseTranslation": "माफ़ करें, बाथरूम (शौचालय) कहाँ है?"
+        },
+        {
+          "targetText": "Could you help me? I am lost.",
+          "transliteration": "कुड यू हेल्प मी? आई एम लॉस्ट।",
+          "baseTranslation": "क्या आप मेरी मदद कर सकते हैं? मैं खो गया हूँ। (हमेशा मदद मांगने के लिए Could का प्रयोग करें)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Scenario 2: The Restaurant (रेस्तरां)",
+      "bodyText": "यह बहुत महत्वपूर्ण नियम है! वेटर से कभी मत कहो 'I want...' (मुझे चाहिए)। यह अंग्रेजी में बहुत अशिष्ट (rude) लगता है। हमेशा 'I would like...' (मैं लेना पसंद करूँगा) का उपयोग करें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I would like the chicken, please.",
+          "transliteration": "आई वुड लाइक द चिकन, प्लीज़।",
+          "baseTranslation": "मैं चिकन लेना पसंद करूँगा।"
+        },
+        {
+          "targetText": "Can I have the bill, please?",
+          "transliteration": "कैन आई हैव द बिल, प्लीज़?",
+          "baseTranslation": "क्या मुझे बिल मिल सकता है?"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Scenario 3: Shopping (खरीदारी)",
+      "bodyText": "जब आप कुछ खरीदना चाहते हैं, तो 'What is its price?' पूछना पुराना या किताबी लगता है। व्यावहारिक अंग्रेजी में, लोग एक बहुत ही सरल वाक्यांश का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "How much is this?",
+          "transliteration": "हाउ मच इज़ दिस?",
+          "baseTranslation": "यह कितने का है?"
+        },
+        {
+          "targetText": "Do you accept credit cards?",
+          "transliteration": "डू यू एक्सेप्ट क्रेडिट कार्ड्स?",
+          "baseTranslation": "क्या आप क्रेडिट कार्ड स्वीकार करते हैं?"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Scenario 4: Emergencies (आपात स्थिति)",
+      "bodyText": "यदि कोई गंभीर समस्या है (दुर्घटना, चोरी), तो शिष्टाचार (politeness) भूल जाइए! आपको छोटे, स्पष्ट और प्रत्यक्ष वाक्यों का उपयोग करना होगा ताकि लोग जल्दी समझ सकें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Call an ambulance! He is hurt.",
+          "transliteration": "कॉल एन एम्बुलेंस! ही इज़ हर्ट।",
+          "baseTranslation": "एम्बुलेंस बुलाओ! उसे चोट लगी है।"
+        },
+        {
+          "targetText": "Someone stole my bag!",
+          "transliteration": "समवन स्टोल माई बैग!",
+          "baseTranslation": "किसी ने मेरा बैग चुरा लिया!"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map contextual scenarios (dining, getting lost, emergencies) to their respective syntactical frameworks, demonstrating pragmatic register shifting.",
+  "examples": [
+    {
+      "targetText": "Excuse me, which way is the train station?",
+      "transliteration": "एक्सक्यूज़ मी, विच वे इज़ द ट्रेन स्टेशन?",
+      "baseTranslation": "माफ़ करें, रेलवे स्टेशन किस तरफ है?",
+      "explanation": "Standard polite inquiry for navigation."
+    },
+    {
+      "targetText": "I'll have a coffee.",
+      "transliteration": "आईल हैव अ कॉफ़ी।",
+      "baseTranslation": "मैं एक कॉफ़ी लूँगा।",
+      "explanation": "A very natural, native way to order food/drinks ('I will have...')."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use 'Want' when ordering food. Always use 'I would like' or 'I will have'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "In emergencies, do not use 'Could you' or 'Please'. Use emergency imperatives (Call the police!).",
+      "exceptionNotes": "Your goal in an emergency is speed and clarity, not politeness."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Customer service in Western countries relies heavily on polite modals. Waiters and shop assistants expect to be treated with 'Could', 'Would', and 'Please'. If you speak to them using imperatives ('Give me...'), they will consider you incredibly rude.",
+    "dosList": ["Always start with 'Excuse me' before asking a stranger a question."],
+    "dontsList": ["Never click your fingers or shout 'Hey' to get a waiter's attention (very offensive)."]
+  },
+  "summary": "To survive in daily English: Ask for prices with 'How much'. Ask for food with 'I would like'. Ask for directions with 'Excuse me'. In emergencies, be fast and loud!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "If you are in a shop and holding a shirt, what is the most natural way to ask its price?",
+      "expectedAnswer": "How much is this?"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank: Waiter: 'What do you want to eat?' You: '__________ the chicken.'",
+      "expectedAnswer": "I would like"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If you are lost in a new city, what is the best way to politely stop a stranger?",
+      "expectedAnswer": "Could you help me?"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate: 'एम्बुलेंस बुलाओ!' (Emergency situation)",
+      "expectedAnswer": "Call an ambulance!"
+    }
+  ]
+}

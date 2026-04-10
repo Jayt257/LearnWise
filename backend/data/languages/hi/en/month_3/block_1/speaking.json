@@ -1,0 +1,177 @@
+{
+  "activityId": "en_hi_M3B1_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "The Driving Instructor",
+  "learningGoal": "The learner will verbally construct permissive (can), advisory (should), and obligatory (must) statements in real-time, rigorously maintaining the bare infinitive structure without L1 'to' interference.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B1_vocabulary_001"],
+  "instructions": "You are a driving instructor. You are teaching your friend Amit how to drive a car. Reply ALOUD to his questions. Use Can for permission, Should for advice, and Must for strict traffic rules! And remember the Golden Rule: NEVER use 'to' after a modal!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "If Amit says 'The light is red', tell him a RULE. If he says 'I am tired', give him ADVICE."
+    }
+  ],
+  "speakingPrompt": "Respond to Amit's questions aloud.",
+  "scenario": "Teaching a friend how to drive.",
+  "role": "The Driving Instructor",
+  "conversationPartner": "Amit",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "अमित: 'Can I go now? The light is red.' (क्या मैं अब जा सकता हूँ? बत्ती लाल है।) जवाब दें: 'नहीं! बत्ती लाल है। तुम्हें (ज़रूर) रुकना चाहिए।' (No! The light is red. You must...)",
+      "expectedSpeakingPoints": ["You must", "stop"],
+      "sampleResponse": {
+        "targetText": "No! The light is red. You must stop.",
+        "transliteration": "नो! द लाइट इज़ रेड। यू मस्ट स्टॉप।",
+        "baseTranslation": "नहीं! बत्ती लाल है। तुम्हें (ज़रूर) रुकना चाहिए।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "अमित: 'Okay, I stopped. The light is green now.' (ठीक है, मैं रुक गया। अब बत्ती हरी है।) जवाब दें: 'तुम अब जा सकते हो।' (You can...)",
+      "expectedSpeakingPoints": ["You can", "go now"],
+      "sampleResponse": {
+        "targetText": "You can go now.",
+        "transliteration": "यू कैन गो नाउ।",
+        "baseTranslation": "तुम अब जा सकते हो।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "अमित: 'This road is wet. It is raining.' (यह सड़क गीली है। बारिश हो रही है।) जवाब दें: 'तुम्हें धीरे चलाना चाहिए।' (You should...)",
+      "expectedSpeakingPoints": ["You should", "drive slowly"],
+      "sampleResponse": {
+        "targetText": "You should drive slowly.",
+        "transliteration": "यू शुड ड्राइव स्लोली।",
+        "baseTranslation": "तुम्हें धीरे चलाना चाहिए।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "अमित: 'I am very tired. Should I drink coffee?' (मैं बहुत थका हुआ हूँ। क्या मुझे कॉफी पीनी चाहिए?) जवाब दें: 'नहीं। तुम्हें आराम करना चाहिए।' (No. You should...)",
+      "expectedSpeakingPoints": ["No", "You should rest"],
+      "sampleResponse": {
+        "targetText": "No. You should rest.",
+        "transliteration": "नो। यू शुड रेस्ट।",
+        "baseTranslation": "नहीं। तुम्हें आराम करना चाहिए।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "अमित: 'Okay, I will park the car.' (ठीक है, मैं कार पार्क करूँगा।) जवाब दें: 'तुम कार यहाँ नहीं खड़ी कर सकते। यह एक अस्पताल है!' (You cannot...)",
+      "expectedSpeakingPoints": ["You cannot", "park here"],
+      "sampleResponse": {
+        "targetText": "You cannot park here! It is a hospital.",
+        "transliteration": "यू कैनॉट पार्क हियर! इट इज़ अ हॉस्पिटल।",
+        "baseTranslation": "तुम कार यहाँ नहीं खड़ी कर सकते। यह एक अस्पताल है!"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Can I go now? The light is red.",
+    "transliteration": "कैन आई गो नाउ? द लाइट इज़ रेड।",
+    "baseTranslation": "क्या मैं अब जा सकता हूँ? बत्ती लाल है।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "No! The light is red. You must stop.",
+      "transliteration": "नो! द लाइट इज़ रेड। यू मस्ट स्टॉप।",
+      "baseTranslation": "नहीं! बत्ती लाल है। तुम्हें रुकना ही होगा।"
+    },
+    {
+      "targetText": "You can go now.",
+      "transliteration": "यू कैन गो नाउ।",
+      "baseTranslation": "तुम अब जा सकते हो।"
+    },
+    {
+      "targetText": "You should drive slowly.",
+      "transliteration": "यू शुड ड्राइव स्लोली।",
+      "baseTranslation": "तुम्हें धीरे चलाना चाहिए।"
+    },
+    {
+      "targetText": "No. You should rest.",
+      "transliteration": "नो। यू शुड रेस्ट।",
+      "baseTranslation": "नहीं। तुम्हें आराम करना चाहिए।"
+    },
+    {
+      "targetText": "You cannot park here! It is a hospital.",
+      "transliteration": "यू कैनॉट पार्क हियर! इट इज़ अ हॉस्पिटल।",
+      "baseTranslation": "तुम यहाँ कार खड़ी नहीं कर सकते! यह एक अस्पताल है।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "must stop",
+      "can go",
+      "should drive",
+      "should rest",
+      "cannot park"
+    ],
+    "requiredKeywords": [
+      "must",
+      "can",
+      "should",
+      "cannot"
+    ],
+    "acceptableParaphrases": [
+      "You have to stop",
+      "You should go slowly",
+      "You can't park here"
+    ],
+    "scoringRubric": {
+      "Zero Tolerance for 'To'": "Did the user aggressively eliminate 'to' after the modals (e.g. failing if they said 'You must to stop')?",
+      "Semantic Accuracy": "Did the user correctly use Must for the red light, and Should for the wet road?",
+      "Pronunciation": "Was the 'L' in 'Should' completely silent?"
+    },
+    "sampleAnswer": "No, you must stop! You can go now. You should drive slowly. No, you should rest. You cannot park here, it is a hospital!",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You are a great driving instructor. You knew exactly when to give polite advice (Should) and when to enforce absolute laws (Must). All of your verbs were perfectly clean!",
+    "onFail": "Keep practicing! A very common mistake is saying 'You must to stop'. If you put 'to' inside the sentence, it is completely wrong! Modals must touch the action verb directly: 'You must stop'.",
+    "onPartial": "Good try! Make sure you don't confuse 'Should' and 'Must'. Running a red light is a crime, so you MUST say 'Must'. Being tired is just bad, so it is 'Should'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b1/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m3/b1/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b1/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m3/b1/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m3/b1/speaking/full_dialogue.mp3",
+    "audioTranscript": "Amit: Can I go now? The light is red...",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "modals", "can", "should", "must", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b1/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with authority! But remember, 'Should' has a silent L. Do not say Sh-u-L-d. Shrink it down to 'Shud'.",
+  "commonMistakes": [
+    "Saying 'You should to rest'.",
+    "Saying 'You must parked here' (adding an -ed suffix violation)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

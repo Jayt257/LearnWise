@@ -1,0 +1,166 @@
+{
+  "activityId": "en_ja_M2B6_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Giving Directions",
+  "learningGoal": "Write clear and accurate directions using imperative verbs and prepositions of location.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B6_reading_3"
+  ],
+  "instructions": "観光客に「駅」への行き方を教える英語を3文で書いてください。(Write 3 sentences to tell a tourist how to get to the station.)\n以下の条件をすべて満たしてください。\n1. 「まっすぐ進む」という指示を入れる（例：Go straight...）\n2. 「右（または左）に曲がる」という指示を入れる（例：Turn right/left...）\n3. 駅がどこにあるか、「〜の隣（next to）」か「〜の向かい（across from）」を使って説明する",
+  "writingPrompt": "Write 3 sentences to give directions to the station. Use: 1. Go straight, 2. Turn right/left, 3. next to OR across from.",
+  "promptGoal": "To actively construct imperative sentences and use prepositional phrases for location.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "Go straight",
+      "transliteration": "ゴー ストレイト",
+      "baseTranslation": "まっすぐ進む",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "Turn right",
+      "transliteration": "ターン ライト",
+      "baseTranslation": "右に曲がる",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "Turn left",
+      "transliteration": "ターン レフト",
+      "baseTranslation": "左に曲がる",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "next to",
+      "transliteration": "ネクスト トゥ",
+      "baseTranslation": "〜の隣に",
+      "partOfSpeech": "preposition"
+    },
+    {
+      "targetText": "across from",
+      "transliteration": "アクロス フロム",
+      "baseTranslation": "〜の向かいに",
+      "partOfSpeech": "preposition"
+    },
+    {
+      "targetText": "traffic light",
+      "transliteration": "トラフィック ライト",
+      "baseTranslation": "信号",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "道案内は「You go...」ではなく、動詞から始める命令形（Go... / Turn...）を使います。",
+    "The station is next to the bank.（駅は銀行の隣です）のように、最後に目的地がどこにあるかを説明しましょう。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Go straight on this street. Turn right at the traffic light. The station is next to the park.",
+      "transliteration": "ゴー ストレイト オン ディス ストリート。ターン ライト アット ザ トラフィック ライト。ザ ステーション イズ ネクスト トゥ ザ パーク。",
+      "baseTranslation": "この道をまっすぐ進んでください。信号を右に曲がってください。駅は公園の隣にあります。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect directions using imperative verbs and 'next to'."
+    },
+    {
+      "targetText": "Go straight for two blocks. Turn left. It is across from the supermarket.",
+      "transliteration": "ゴー ストレイト フォー トゥー ブロックス。ターン レフト。イット イズ アクロス フロム ザ スーパーマーケット。",
+      "baseTranslation": "2ブロックまっすぐ進んでください。左に曲がってください。スーパーマーケットの向かいにあります。",
+      "qualityLevel": "excellent",
+      "annotation": "Great use of 'for two blocks' and 'across from'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Go Straight",
+      "weight": 30,
+      "description": "Did the user use 'Go straight' correctly?"
+    },
+    {
+      "criterion": "Turn Right/Left",
+      "weight": 30,
+      "description": "Did the user use 'Turn right' or 'Turn left' correctly?"
+    },
+    {
+      "criterion": "Preposition of Location",
+      "weight": 30,
+      "description": "Did the user describe the location using 'next to' or 'across from'?"
+    },
+    {
+      "criterion": "Imperative Form",
+      "weight": 10,
+      "description": "Did the user use imperative sentences (starting with verbs) for the directions?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Go straight. Turn left. The station is next to the bank.",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "straight"
+    ],
+    "grammarBaseline": "Must use imperative form for directions. Must include a correct preposition of location at the end.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Directional Commands",
+          "weight": 60,
+          "description": "Uses 'go straight' and a 'turn' command correctly."
+        },
+        {
+          "name": "Location Description",
+          "weight": 40,
+          "description": "Uses 'next to' or 'across from' + a noun to describe where the station is."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great directions! Any tourist would be able to find the station with your help.",
+    "onFail": "Please check your sentences. Did you start with the verbs 'Go' and 'Turn'? Did you explain what building it is next to or across from?",
+    "onPartial": "Good try. Make sure you don't write 'next of' instead of 'next to'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "directions",
+    "travel",
+    "imperatives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Start your first two sentences with 'Go...' and 'Turn...'",
+  "commonMistakes": [
+    "Writing 'You go straight' instead of the imperative 'Go straight'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

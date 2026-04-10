@@ -1,0 +1,161 @@
+{
+  "activityId": "hi_en_M3B2_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Writing: Delegating and Reporting",
+  "learningGoal": "Transform active sentences into passive and causative forms accurately.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B2_lesson_1"
+  ],
+  "instructions": "You must write three distinct types of sentences: Active, Causative, and Passive. Pay close attention to the verb endings 'waa' (causative) and 'gaya/jayega' (passive).",
+  "writingPrompt": "Translate the following sentences into Hindi:\n1. Active: I am doing the work. (I = Main, Work = Kaam, Doing = Kar raha hoon)\n2. Causative (Delegation): I am getting the work done. (Getting done = Karwa raha hoon)\n3. Passive (Past): The work was done. (Work = Kaam, Was done = Kiya gaya)\n4. Passive (Future): The work will be done tomorrow. (Tomorrow = Kal, Will be done = Kiya jayega)",
+  "promptGoal": "Demonstrate the ability to shift focus between the actor, the delegator, and the action itself.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "main",
+      "baseTranslation": "I"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "kaam",
+      "baseTranslation": "work"
+    },
+    {
+      "targetText": "कर रहा हूँ",
+      "transliteration": "kar raha hoon",
+      "baseTranslation": "am doing"
+    },
+    {
+      "targetText": "करवा रहा हूँ",
+      "transliteration": "karwa raha hoon",
+      "baseTranslation": "am getting done (causative)"
+    },
+    {
+      "targetText": "किया गया",
+      "transliteration": "kiya gaya",
+      "baseTranslation": "was done (passive)"
+    },
+    {
+      "targetText": "कल",
+      "transliteration": "kal",
+      "baseTranslation": "tomorrow / yesterday"
+    },
+    {
+      "targetText": "किया जाएगा",
+      "transliteration": "kiya jayega",
+      "baseTranslation": "will be done (passive)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Main kaam kar raha hoon.",
+    "Sentence 2: Main kaam karwa raha hoon.",
+    "Sentence 3: Kaam kiya gaya.",
+    "Sentence 4: Kal kaam kiya jayega."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं काम कर रहा हूँ। मैं काम करवा रहा हूँ। काम किया गया। कल काम किया जाएगा।",
+      "transliteration": "Main kaam kar raha hoon. Main kaam karwa raha hoon. Kaam kiya gaya. Kal kaam kiya jayega.",
+      "baseTranslation": "I am doing the work. I am getting the work done. The work was done. Tomorrow the work will be done.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect mapping of the four states: Active, Causative, Past Passive, and Future Passive."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Causative Infix",
+      "weight": 30,
+      "description": "Sentence 2 MUST use 'karwa' to indicate delegation."
+    },
+    {
+      "criterion": "Passive Helper Verb (Past)",
+      "weight": 30,
+      "description": "Sentence 3 MUST use 'gaya' as the helper verb for the past passive."
+    },
+    {
+      "criterion": "Passive Helper Verb (Future)",
+      "weight": 30,
+      "description": "Sentence 4 MUST use 'jayega' as the helper verb for the future passive."
+    },
+    {
+      "criterion": "Absence of 'Hona'",
+      "weight": 10,
+      "description": "None of the passive sentences should use forms of 'Hona' (e.g., 'Kaam kiya tha' or 'Kaam kiya hoga'). They must use 'Jaana'."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं काम कर रहा हूँ। मैं काम करवा रहा हूँ। काम किया गया। कल काम किया जाएगा।",
+    "acceptableAlternates": [
+      "Main kaam kar raha hoon. Main kaam karwa raha hoon. Kaam kiya gaya. Kal kaam kiya jayega."
+    ],
+    "requiredKeywords": [
+      "kar raha",
+      "karwa raha",
+      "kiya gaya",
+      "kiya jayega"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check on 'waa', 'gaya', and 'jayega'.",
+    "lengthExpectation": "Four distinct sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Passive Error",
+          "weight": 100,
+          "description": "If user writes 'Kaam kiya tha' instead of 'Kaam kiya gaya', deduct heavily. 'Kiya tha' is active voice ('Someone had done the work')."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Flawless! You successfully navigated between active, delegating, and passive voices.",
+    "onFail": "Review Sections 1 and 4. Remember that the passive voice in Hindi uses 'Jaana' (to go). The past tense of Jaana is 'Gaya'. The future is 'Jayega'.",
+    "onPartial": "Good effort. Pay close attention to sentence 2. 'Kar' means to do. 'KarWA' means to get someone else to do it."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "passive_voice",
+    "causatives",
+    "grammar",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For sentence 3, literally translate 'Work went done'. For sentence 4, translate 'Tomorrow work will go done'.",
+  "commonMistakes": [
+    "Translating 'The work was done' as 'Kaam kiya tha'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

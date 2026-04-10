@@ -1,0 +1,176 @@
+{
+  "activityId": "ja_en_M3B6_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "A Job Interview in Japan",
+  "learningGoal": "The learner will listen to a formal business interview to comprehend spoken Keigo, potential forms, and reason-giving structures ('kara desu').",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M3B6_lesson_001",
+    "ja_en_M3B6_vocabulary_001"
+  ],
+  "instructions": "Listen to a candidate interviewing for a job at a Japanese company. Note why they came to Japan and what their abilities are.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "The interviewer will use formal language. The candidate will use polite forms and potential forms."
+    }
+  ],
+  "listeningGoal": "Understand the candidate's motivations and language abilities.",
+  "audioScenario": "A job interview.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "なぜ にほんに いらっしゃいましたか。",
+      "transliteration": "Naze nihon ni irasshaimashita ka.",
+      "baseTranslation": "Why did you come to Japan? (Respectful)"
+    },
+    {
+      "targetText": "にほんの かいしゃで はたらきたい からです。",
+      "transliteration": "Nihon no kaisha de hatarakitai kara desu.",
+      "baseTranslation": "Because I want to work at a Japanese company."
+    },
+    {
+      "targetText": "そうですか。にほんごは はなせますか。",
+      "transliteration": "Sou desu ka. Nihongo wa hanasemasu ka.",
+      "baseTranslation": "I see. Can you speak Japanese? (Potential)"
+    },
+    {
+      "targetText": "はい。まいにち べんきょうしました から、はなせます。",
+      "transliteration": "Hai. Mainichi benkyou shimashita kara, hanasemasu.",
+      "baseTranslation": "Yes. Because I studied every day, I can speak."
+    }
+  ],
+  "audioTranscriptFull": "（面接官）なぜ にほんに いらっしゃいましたか。\n（候補者）にほんの かいしゃで はたらきたい からです。\n（面接官）そうですか。にほんごは はなせますか。\n（候補者）はい。まいにち べんきょうしました から、はなせます。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What verb does the interviewer use to respectfully ask 'did you come'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kimashita ka",
+        "Ikumashita ka",
+        "Irasshaimashita ka",
+        "Mairimashita ka"
+      ],
+      "audioTimestamp": "00:01",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Why did the candidate come to Japan?",
+      "questionType": "multiple_choice",
+      "options": [
+        "To travel (Ryokou)",
+        "To eat sushi (Sushi wo taberu)",
+        "To work at a company (Kaisha de hataraku)",
+        "To study (Benkyou suru)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What grammar structure does the candidate use to say 'Because I want to work'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Hatarakitai kara desu",
+        "Hatarakitai tsumori desu",
+        "Hatarakitai to omoimasu",
+        "Hatarakimasu kara"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What verb does the interviewer use to ask 'Can you speak'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Hanasemasu ka",
+        "Hanashimasu ka",
+        "Iemasu ka",
+        "Kikemasu ka"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the word meaning 'Because' used at the end of the sentence to give a reason.",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Irasshaimashita ka",
+      "q002": "To work at a company (Kaisha de hataraku)",
+      "q003": "Hatarakitai kara desu",
+      "q004": "Hanasemasu ka",
+      "q005": "kara"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["kara", "Kara desu"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully tracked multiple grammar structures in a real-world scenario.",
+    "onFail": "Listen again carefully. Review how 'kara' is used to mean 'because'.",
+    "onPartial": "Good effort. Notice how the interviewer uses Sonkeigo (Irasshaimashita) because the candidate is technically a 'guest' at this stage."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b6/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b6/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m3/b6/listening/native_dialogue.mp3",
+    "audioTranscript": "なぜ にほんに いらっしゃいましたか。にほんの かいしゃで はたらきたい からです。そうですか。にほんごは はなせますか。はい。まいにち べんきょうしました から、はなせます。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "interview",
+    "comprehensive",
+    "advanced",
+    "month3",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'kara' (because) and the potential verb endings (emasu).",
+  "commonMistakes": [
+    "Confusing 'hanashimasu' (will speak) with 'hanasemasu' (can speak)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

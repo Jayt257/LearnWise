@@ -1,0 +1,245 @@
+{
+  "activityId": "en_ja_M1B3_test_8",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Test: Plurals and Articles",
+  "learningGoal": "Evaluate your understanding of countable vs uncountable nouns, plurals, and article usage.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B3_speaking_7"
+  ],
+  "instructions": "Block 3 のテストです。名詞の複数形や、冠詞（a, an, the）の正しい使い方に関する問題に答えてください。(This is the Block 3 test. Answer questions about noun plurals and the correct usage of articles.)",
+  "testTitle": "Nouns and Articles Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Articles (冠詞)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Fill in the blank: 'I have _____ apple.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "a",
+            "an",
+            "two",
+            "no article (何も入れない)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'He is _____ doctor.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Fill in the blank: 'I want _____ water.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "a",
+            "an",
+            "one",
+            "no article (何も入れない)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Plurals (複数形)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "What is the plural of 'man'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "mans",
+            "mens",
+            "men",
+            "man"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "Which sentence is correct?",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have two orange.",
+            "I have two oranges.",
+            "I have two orangess.",
+            "I have a two oranges."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "What is the plural of 'child'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "childs",
+            "children",
+            "childrens",
+            "child"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary and Comprehension",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「お金」を英語で言うと何ですか？数えられる名詞ですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Money (数えられる)",
+            "Moneys (数えられる)",
+            "Money (数えられない)",
+            "A money (数えられない)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "Which sentence uses 'The' correctly?",
+          "questionType": "multiple_choice",
+          "options": [
+            "I bought a car. The car is red.",
+            "The water is important for all humans.",
+            "He is the a student.",
+            "I want the a apple."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「私たちは箱を３つ持っています」の正しい英語は？",
+          "questionType": "multiple_choice",
+          "options": [
+            "We have three box.",
+            "We have three boxes.",
+            "We have the three box.",
+            "They have three boxes."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "「woman」の複数形「women」の正しい発音はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "ウーマンズ (womans)",
+            "ウォーメン (women)",
+            "ウィメン (wimen)",
+            "ウーメン (woomen)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "an",
+      "q2": "a",
+      "q3": "no article (何も入れない)",
+      "q4": "men",
+      "q5": "I have two oranges.",
+      "q6": "children",
+      "q7": "Money (数えられない)",
+      "q8": "I bought a car. The car is red.",
+      "q9": "We have three boxes.",
+      "q10": "ウィメン (wimen)"
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You have successfully mastered English nouns and articles.",
+    "onFail": "Please review the lesson. Remember that 'water' and 'money' don't take 'a' or 's'.",
+    "onPartial": "Good effort. Review the irregular plurals like 'men' and 'children'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_3",
+    "grammar",
+    "articles",
+    "plurals"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to whether a noun starts with a vowel sound (a/e/i/o/u). If it does, use 'an'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B4_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,184 @@
+{
+  "activityId": "en_ja_M3B2_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Experiences",
+  "learningGoal": "Master the pronunciation of past participles and the contracted forms of 'have' (I've, you've).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M3B2_lesson_1"
+  ],
+  "instructions": "過去分詞（eaten, seenなど）の発音と、現在完了形で使われる「have」の短縮形（I've, you've）の発音を練習します。マイクに向かってリピートしてください。(Practice pronouncing past participles and contractions with 'have'. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "I've",
+      "transliteration": "アイヴ",
+      "baseTranslation": "私は〜した（I have の短縮形）",
+      "phoneticHint": "Bite your bottom lip gently for the 'v' sound. I-v.",
+      "syllableSplit": "I've",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ai-bu' with a 'b' sound."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "you've",
+      "transliteration": "ユーヴ",
+      "baseTranslation": "あなたは〜した（you have の短縮形）",
+      "phoneticHint": "Yoo-v.",
+      "syllableSplit": "you've",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'yu-bu'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "we've",
+      "transliteration": "ウィーヴ",
+      "baseTranslation": "私たちは〜した（we have の短縮形）",
+      "phoneticHint": "Wee-v.",
+      "syllableSplit": "we've",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ui-bu'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "they've",
+      "transliteration": "ゼイヴ",
+      "baseTranslation": "彼らは〜した（they have の短縮形）",
+      "phoneticHint": "Tongue between the teeth for 'th'. Vay-v.",
+      "syllableSplit": "they've",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'zei-bu'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "Have you ever",
+      "transliteration": "ハヴュー エヴァー",
+      "baseTranslation": "今までに〜したことがありますか",
+      "phoneticHint": "Link the words smoothly. Hav-yoo-ev-er.",
+      "syllableSplit": "Have you ev-er",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Havu yu eba'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "eaten",
+      "transliteration": "イートン",
+      "baseTranslation": "食べた（eatの過去分詞）",
+      "phoneticHint": "In American English, the 't' is often stopped in the throat. Ee-tn.",
+      "syllableSplit": "eat-en",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ii-tun'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "seen",
+      "transliteration": "シーン",
+      "baseTranslation": "見た（seeの過去分詞）",
+      "phoneticHint": "Long 'ee' sound. S-ee-n.",
+      "syllableSplit": "seen",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shi-n'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "been",
+      "transliteration": "ビーン",
+      "baseTranslation": "行ったことがある、いた（beの過去分詞）",
+      "phoneticHint": "In American English, it often sounds like the word 'bin'. B-i-n.",
+      "syllableSplit": "been",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Always saying a very long 'biiiiin'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "done",
+      "transliteration": "ダン",
+      "baseTranslation": "した（doの過去分詞）",
+      "phoneticHint": "Sounds exactly like 'dun' (or the sun). D-uh-n.",
+      "syllableSplit": "done",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'do-n' (rhyming with bone)."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "built",
+      "transliteration": "ビルト",
+      "baseTranslation": "建てられた（buildの過去/過去分詞）",
+      "phoneticHint": "Short 'i' sound. B-i-l-t.",
+      "syllableSplit": "built",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'biruto'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "I've you've we've they've Have you ever eaten seen been done built",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! Your 'v' sounds in the contractions were excellent, and you pronounced the past participles clearly.",
+    "onFail": "Please try again. Pay close attention to the 'v' sound in 'I've' and 'you've'. Don't say 'bu'.",
+    "onPartial": "Good effort! Remember that 'done' rhymes with 'sun', not 'bone'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "I've you've we've they've Have you ever eaten seen been done built",
+    "acceptedVariants": [
+      "I have you have we have they have have you ever eaten seen been done built"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "I've you've we've they've Have you ever eaten seen been done built",
+    "transliteration": "ive yoov weev vayv havyooehver eetn seen bin dun bilt",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B2_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B2_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I've, you've, we've, they've, Have you ever, eaten, seen, been, done, built",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "contractions",
+    "present_perfect",
+    "past_participles"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure to make a 'v' sound (biting your bottom lip) for I've and you've.",
+  "commonMistakes": [
+    "Saying 'aibu' instead of 'I've'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B2_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,270 @@
+{
+  "activityId": "en_ja_M2B5_vocabulary_6",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "vocabulary",
+  "title": "Rules and Actions",
+  "learningGoal": "Learn common action verbs used to describe abilities, rules, and prohibitions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B5_listening_5"
+  ],
+  "instructions": "「〜できる」「〜してはいけない」などの助動詞と一緒に使われることが多い、日常のアクション動詞を覚えましょう。(Learn common action verbs often used with modals of ability and rules.)",
+  "vocabTheme": "Action Verbs for Rules",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "swim",
+      "transliteration": "スイム",
+      "baseTranslation": "泳ぐ",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "play",
+      "transliteration": "プレイ",
+      "baseTranslation": "（スポーツを）する、（楽器を）弾く",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "drive",
+      "transliteration": "ドライヴ",
+      "baseTranslation": "運転する",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "smoke",
+      "transliteration": "スモーク",
+      "baseTranslation": "タバコを吸う",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "wear",
+      "transliteration": "ウェア",
+      "baseTranslation": "着ている、かぶる、身につける",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "park",
+      "transliteration": "パーク",
+      "baseTranslation": "駐車する",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "run",
+      "transliteration": "ラン",
+      "baseTranslation": "走る",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "use",
+      "transliteration": "ユーズ",
+      "baseTranslation": "使う",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "bring",
+      "transliteration": "ブリング",
+      "baseTranslation": "持ってくる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "practice",
+      "transliteration": "プラクティス",
+      "baseTranslation": "練習する",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    }
+  ],
+  "meaningList": [
+    "泳ぐ",
+    "弾く・する",
+    "運転する",
+    "タバコを吸う",
+    "身につける",
+    "駐車する",
+    "走る",
+    "使う",
+    "持ってくる",
+    "練習する"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v1",
+      "targetText": "I can swim very fast.",
+      "transliteration": "アイ キャン スイム ヴェリー ファスト",
+      "baseTranslation": "私はとても速く泳ぐことができます。"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "You must not drive here.",
+      "transliteration": "ユー マス ノット ドライヴ ヒア",
+      "baseTranslation": "ここで運転してはいけません。"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "You must not smoke in the hospital.",
+      "transliteration": "ユー マス ノット スモーク イン ザ ホスピタル",
+      "baseTranslation": "病院でタバコを吸ってはいけません。"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "You can park your car here.",
+      "transliteration": "ユー キャン パーク ユア カー ヒア",
+      "baseTranslation": "ここに車を駐車できますよ。"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "You have to practice every day.",
+      "transliteration": "ユー ハフ トゥ プラクティス エヴリー デイ",
+      "baseTranslation": "毎日練習しなければなりません。"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does 'park' mean in 'You can park your car here'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "公園",
+        "運転する",
+        "駐車する",
+        "走る"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank: 'You must not ________ in the hospital.' (タバコを吸う)",
+      "questionType": "multiple_choice",
+      "options": [
+        "smoke",
+        "swim",
+        "play",
+        "wear"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Which word means '練習する'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "bring",
+        "practice",
+        "use",
+        "drive"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Fill in the blank: 'You have to ________ a uniform.' (着る)",
+      "questionType": "multiple_choice",
+      "options": [
+        "wear",
+        "use",
+        "bring",
+        "park"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Which word means '使う'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "use",
+        "run",
+        "play",
+        "swim"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "駐車する",
+      "q2": "smoke",
+      "q3": "practice",
+      "q4": "wear",
+      "q5": "use"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! You know all the action verbs to talk about rules.",
+    "onFail": "Review the list. Make sure you know the difference between 'bring' (持ってくる) and 'wear' (着る).",
+    "onPartial": "Good effort. Note that 'park' can mean 公園 (noun) or 駐車する (verb)!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "action_verbs",
+    "rules"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the verbs we use when talking about rules, like 'must not smoke'.",
+  "commonMistakes": [
+    "Thinking 'park' only means 'a place with trees'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

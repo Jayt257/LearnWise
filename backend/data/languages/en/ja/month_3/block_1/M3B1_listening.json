@@ -1,0 +1,181 @@
+{
+  "activityId": "ja_en_M3B1_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Trouble at the Station",
+  "learningGoal": "The learner will listen to a conversational dialogue to comprehend cause-and-effect relationships and troubleshooting instructions utilizing the '~to' conditional.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M3B1_lesson_001",
+    "ja_en_M3B1_vocabulary_001"
+  ],
+  "instructions": "Listen to a passenger asking for help at a ticket machine. Identify what the problem is, and what the solution requires.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen for the words 'Botan wo osu to' (If you push the button)."
+    }
+  ],
+  "listeningGoal": "Understand the mechanical instructions given to solve the passenger's problem.",
+  "audioScenario": "A passenger speaking with station staff.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "すみません。きっぷが でません。",
+      "transliteration": "Sumimasen. Kippu ga demasen.",
+      "baseTranslation": "Excuse me. The ticket doesn't come out."
+    },
+    {
+      "targetText": "この ボタンを おしましたか。",
+      "transliteration": "Kono botan wo oshimashita ka.",
+      "baseTranslation": "Did you push this button?"
+    },
+    {
+      "targetText": "いいえ。",
+      "transliteration": "Iie.",
+      "baseTranslation": "No."
+    },
+    {
+      "targetText": "ボタンを おすと、きっぷが でますよ。",
+      "transliteration": "Botan wo osu to, kippu ga demasu yo.",
+      "baseTranslation": "If you push the button, the ticket comes out."
+    },
+    {
+      "targetText": "あ、でました。ありがとうございます。",
+      "transliteration": "A, demashita. Arigatou gozaimasu.",
+      "baseTranslation": "Ah, it came out. Thank you very much."
+    }
+  ],
+  "audioTranscriptFull": "（乗客）すみません。きっぷが でません。\n（駅員）この ボタンを おしましたか。\n（乗客）いいえ。\n（駅員）ボタンを おすと、きっぷが でますよ。\n（乗客）あ、でました。ありがとうございます。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What is the passenger's problem?",
+      "questionType": "multiple_choice",
+      "options": [
+        "They lost their passport",
+        "The train left",
+        "The ticket won't come out",
+        "They don't have money"
+      ],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What does the station staff ask the passenger?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Did you push this button?",
+        "Did you pay?",
+        "Where are you going?",
+        "Did you turn it?"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Had the passenger done what the staff asked?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes",
+        "No",
+        "They didn't answer"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What happens when the button is pushed?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The door opens",
+        "The ticket comes out",
+        "Change comes out",
+        "It stops"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the conditional phrase 'If you push the button' heard in the audio.",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "The ticket won't come out",
+      "q002": "Did you push this button?",
+      "q003": "No",
+      "q004": "The ticket comes out",
+      "q005": "botan wo osu to"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["botan wo osu to", "Botan wo osu to", "osu to"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully identified the cause and effect.",
+    "onFail": "Listen again carefully. 'Kippu' = ticket. 'Demasen' = does not come out. 'Osu to' = if you push.",
+    "onPartial": "Good effort. Review the verb 'Osu' which means 'to push'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b1/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b1/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m3/b1/listening/native_dialogue.mp3",
+    "audioTranscript": "すみません。きっぷが でません。この ボタンを おしましたか。いいえ。ボタンを おすと、きっぷが でますよ。あ、でました。ありがとうございます。",
+    "audioLanguage": "ja",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "conditionals",
+    "to-form",
+    "machines",
+    "advanced",
+    "month3",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'osu to' (if you push).",
+  "commonMistakes": [
+    "Confusing 'Osu' (push) with 'Hiku' (pull)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

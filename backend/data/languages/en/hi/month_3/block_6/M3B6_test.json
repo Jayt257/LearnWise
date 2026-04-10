@@ -1,0 +1,419 @@
+{
+  "activityId": "hi_en_M3B6_test_8",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Final 3-Month Mega Assessment",
+  "learningGoal": "Evaluate your complete mastery of the 3-month Hindi curriculum.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M3B6_speaking_7"
+  ],
+  "instructions": "Welcome to your final assessment! This test covers everything you have learned: Devanagari script, grammar, vocabulary, and emergency situations. Take your time and read carefully. You need 85% to pass and graduate.",
+  "testTitle": "Graduation Exam: Hindi Level 1",
+  "testScope": "final_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening",
+    "pronunciation",
+    "writing",
+    "speaking"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_devanagari",
+      "sectionTitle": "Devanagari Script & Pronunciation",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Which of these letters is the aspirated 'bh' sound?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ब",
+            "भ",
+            "म",
+            "प"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Read the following word and choose the correct English translation: नमस्ते",
+          "questionType": "multiple_choice",
+          "options": [
+            "Thank you",
+            "Hello",
+            "Water",
+            "House"
+          ],
+          "questionHints": {
+            "targetText": "नमस्ते",
+            "transliteration": "Namaste",
+            "baseTranslation": "Hello"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Which symbol represents the 'aa' (आ) matra attached to a consonant?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ि",
+            "ी",
+            "ा",
+            "ु"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        },
+        {
+          "questionId": "q4",
+          "questionText": "Identify the word 'अस्पताल' in English.",
+          "questionType": "multiple_choice",
+          "options": [
+            "School",
+            "Hospital",
+            "Market",
+            "Police Station"
+          ],
+          "questionHints": {
+            "targetText": "अस्पताल",
+            "transliteration": "Aspataal",
+            "baseTranslation": "Hospital"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "Which letter is the retroflex flap 'ṛ' (as in 'Sadak')?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ड",
+            "ड़",
+            "द",
+            "ध"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Tenses, Pronouns & The 'ne' Rule",
+      "questions": [
+        {
+          "questionId": "q6",
+          "questionText": "Which is the correct formal way to ask 'Where are you going?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "तुम कहाँ जा रहे हो? (Tum kahan ja rahe ho?)",
+            "तू कहाँ जा रहा है? (Tu kahan ja raha hai?)",
+            "आप कहाँ जा रहे हैं? (Aap kahan ja rahe hain?)",
+            "मैं कहाँ जा रहा हूँ? (Main kahan ja raha hoon?)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "Translate: 'I ate an apple.' (Apple is masculine)",
+          "questionType": "multiple_choice",
+          "options": [
+            "मैं एक सेब खाया। (Main ek seb khaaya.)",
+            "मैंने एक सेब खाया। (Maine ek seb khaaya.)",
+            "मैंने एक सेब खाई। (Maine ek seb khaayi.)",
+            "मैं एक सेब खाता हूँ। (Main ek seb khaata hoon.)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "Fill in the blank for Future Tense (Female Speaker): कल मैं बाज़ार ____।",
+          "questionType": "multiple_choice",
+          "options": [
+            "जाता हूँ (jaata hoon)",
+            "जाऊँगा (jaaunga)",
+            "जाऊँगी (jaaungi)",
+            "गई (gayi)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "What happens when you combine the pronoun 'हम' (Hum - We) with the postposition 'को' (ko)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "हमको / हमें (Humko / Humein)",
+            "हमसे (Humse)",
+            "हमारा (Hamara)",
+            "मुझको (Mujhko)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "Choose the correct sentence for 'I have a fever'.",
+          "questionType": "multiple_choice",
+          "options": [
+            "मैं बुखार हूँ। (Main bukhar hoon.)",
+            "मुझे बुखार है। (Mujhe bukhar hai.)",
+            "मेरा बुखार है। (Mera bukhar hai.)",
+            "मुझसे बुखार है। (Mujhse bukhar hai.)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_vocab_situations",
+      "sectionTitle": "Vocabulary & Emergency Situations",
+      "questions": [
+        {
+          "questionId": "q11",
+          "questionText": "If someone snatches your wallet, what do you tell the police?",
+          "questionType": "multiple_choice",
+          "options": [
+            "मुझे चक्कर आ रहे हैं। (Mujhe chakkar aa rahe hain.)",
+            "मेरा बटुआ चोरी हो गया है। (Mera batua chori ho gaya hai.)",
+            "मैं रास्ता भूल गया हूँ। (Main raasta bhool gaya hoon.)",
+            "मुझे खाना चाहिए। (Mujhe khana chahiye.)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q11"
+        },
+        {
+          "questionId": "q12",
+          "questionText": "What does 'दुर्घटना' (Durghatna) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Accident",
+            "Hospital",
+            "Medicine",
+            "Help"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q12"
+        },
+        {
+          "questionId": "q13",
+          "questionText": "How do you ask an auto driver 'How much money?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "कितने बजे? (Kitne baje?)",
+            "कितने पैसे? (Kitne paise?)",
+            "कहाँ जाना है? (Kahan jaana hai?)",
+            "क्या नाम है? (Kya naam hai?)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q13"
+        },
+        {
+          "questionId": "q14",
+          "questionText": "Which word means 'Yesterday' OR 'Tomorrow'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "आज (Aaj)",
+            "कल (Kal)",
+            "अब (Ab)",
+            "रोज़ (Roz)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q14"
+        },
+        {
+          "questionId": "q15",
+          "questionText": "If a doctor says 'यह दवा दिन में दो बार खाइए', what are they telling you?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Take this medicine once a day.",
+            "Take this medicine twice a day.",
+            "Take this medicine at night only.",
+            "Do not take this medicine."
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q15"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Reading & Logic Comprehension",
+      "questions": [
+        {
+          "questionId": "q16",
+          "questionText": "Read and translate: 'वह एक बड़ा घर है।' (Woh ek bada ghar hai.)",
+          "questionType": "multiple_choice",
+          "options": [
+            "That is a small house.",
+            "That is a big house.",
+            "This is a big house.",
+            "Where is the house?"
+          ],
+          "questionHints": {
+            "targetText": "वह एक बड़ा घर है।",
+            "transliteration": "Woh ek bada ghar hai.",
+            "baseTranslation": "That is a big house."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q16"
+        },
+        {
+          "questionId": "q17",
+          "questionText": "Complete the conditional sentence: 'अगर तुम बाज़ार जाओगे, तो...' (Agar tum baazaar jaoge, toh...)",
+          "questionType": "multiple_choice",
+          "options": [
+            "...मैं भी आऊँगा। (...main bhi aaunga.)",
+            "...मैं गया था। (...main gaya tha.)",
+            "...मैं सो रहा हूँ। (...main so raha hoon.)",
+            "...तुम कौन हो? (...tum kaun ho?)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q17"
+        },
+        {
+          "questionId": "q18",
+          "questionText": "What does the cultural phrase 'अतिथि देवो भव:' (Atithi Devo Bhava) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Food is life.",
+            "The guest is equivalent to God.",
+            "Always work hard.",
+            "India is great."
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q18"
+        },
+        {
+          "questionId": "q19",
+          "questionText": "In the sentence 'मैंने उसे एक किताब दी' (Maine use ek kitaab di), why is 'di' used instead of 'diya'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Because the speaker is female.",
+            "Because 'Kitaab' (Book) is a feminine noun, and the verb agrees with the object when 'ne' is used.",
+            "Because the person receiving it is female.",
+            "Because it is a future tense verb."
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q19"
+        },
+        {
+          "questionId": "q20",
+          "questionText": "Translate: 'मुझे भारत बहुत पसंद है!' (Mujhe bharat bahut pasand hai!)",
+          "questionType": "multiple_choice",
+          "options": [
+            "I want to go to India!",
+            "I am in India!",
+            "I really like India!",
+            "India is big!"
+          ],
+          "questionHints": {
+            "targetText": "मुझे भारत बहुत पसंद है!",
+            "transliteration": "Mujhe bharat bahut pasand hai!",
+            "baseTranslation": "I really like India!"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q20"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "भ",
+      "q2": "Hello",
+      "q3": "ा",
+      "q4": "Hospital",
+      "q5": "ड़",
+      "q6": "आप कहाँ जा रहे हैं? (Aap kahan ja rahe hain?)",
+      "q7": "मैंने एक सेब खाया। (Maine ek seb khaaya.)",
+      "q8": "जाऊँगी (jaaungi)",
+      "q9": "हमको / हमें (Humko / Humein)",
+      "q10": "मुझे बुखार है। (Mujhe bukhar hai.)",
+      "q11": "मेरा बटुआ चोरी हो गया है। (Mera batua chori ho gaya hai.)",
+      "q12": "Accident",
+      "q13": "कितने पैसे? (Kitne paise?)",
+      "q14": "कल (Kal)",
+      "q15": "Take this medicine twice a day.",
+      "q16": "That is a big house.",
+      "q17": "...मैं भी आऊँगा। (...main bhi aaunga.)",
+      "q18": "The guest is equivalent to God.",
+      "q19": "Because 'Kitaab' (Book) is a feminine noun, and the verb agrees with the object when 'ne' is used.",
+      "q20": "I really like India!"
+    },
+    "sectionPassMarks": {
+      "sec_devanagari": 15,
+      "sec_grammar": 15,
+      "sec_vocab_situations": 15,
+      "sec_comprehension": 15
+    },
+    "overallPassMark": 85
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! You have successfully completed the entire 3-month Hindi course. You are now equipped with the vocabulary and grammar to communicate confidently in India.",
+    "onFail": "You scored below 85%. Review the sections where you lost points. You are very close to mastering Level 1 Hindi!",
+    "onPartial": "Almost there! Review your mistakes and retake the graduation exam."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "final",
+    "graduation",
+    "evaluation",
+    "mega_assessment"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the questions carefully. Think about gender, tense, and formality before choosing an answer.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [],
+  "attemptLimit": null,
+  "metadata": {}
+}

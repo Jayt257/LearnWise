@@ -1,0 +1,390 @@
+{
+  "activityId": "en_hi_M2B3_test_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Mega Assessment: The Past",
+  "learningGoal": "The learner will demonstrate absolute mastery of the affirmative Simple Past structure, isolating root irregular alternants (went/ate) and regular -ed suffixes strictly devoid of the auxiliary 'to be' error.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M2B3_lesson_001",
+    "en_hi_M2B3_pronunciation_001",
+    "en_hi_M2B3_reading_001",
+    "en_hi_M2B3_writing_001",
+    "en_hi_M2B3_listening_001",
+    "en_hi_M2B3_vocabulary_001",
+    "en_hi_M2B3_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 3. It contains 20 questions evaluating your ability to describe what happened yesterday. DO NOT forget the golden rule: If it happened yesterday, you MUST throw away the helper verbs. No 'Is', no 'Am', no 'Are'!",
+  "testTitle": "Block 3 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Past Formula Rules",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: Yesterday, he ________ football.",
+          "questionType": "multiple_choice",
+          "options": ["playing", "is played", "played", "play"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which sentence means 'मैंने एक कार देखी'?",
+          "questionType": "multiple_choice",
+          "options": ["I am saw a car.", "I saw a car.", "I seed a car.", "I see a car yesterday."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Choose the correctly formed past sentence:",
+          "questionType": "multiple_choice",
+          "options": ["They are went to the store.", "They goed to the store.", "They went to the store.", "They going store."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They went to the store.",
+            "transliteration": "दे वेंट टू द स्टोर।",
+            "baseTranslation": "वे दुकान गए।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: Saying 'I am worked today' is terrible English grammar.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "If someone asks 'What did you eat?', how do you answer?",
+          "questionType": "multiple_choice",
+          "options": ["I am ate pizza.", "I eat pizza yesterday.", "I ate pizza.", "I eating pizza."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Rule Breakers",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for 'गया' (Past of Go).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Went",
+            "transliteration": "वेंट",
+            "baseTranslation": "गया"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the past tense of 'Drink'?",
+          "questionType": "multiple_choice",
+          "options": ["Drinked", "Drank", "Drunk", "Draked"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the English word for 'सोचा' (Past of Think).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Thought",
+            "transliteration": "थॉट",
+            "baseTranslation": "सोचा"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "If you gave something to a friend ('दिया'), what English word is this?",
+          "questionType": "multiple_choice",
+          "options": ["Gave", "Gived", "Give", "Got"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What does 'Bought' mean?",
+          "questionType": "multiple_choice",
+          "options": ["सोचा", "लिया", "खरीदा", "बनाया"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the massive mistake: 'I am saw a bird.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'I am seed a bird.'", "It should be 'I saw a bird.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Find the mistake: 'They catched the ball.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'They caught the ball.'", "It should be 'They are catched the ball.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Why is 'He eated lunch' wrong?",
+          "questionType": "multiple_choice",
+          "options": ["Because he is a boy", "Because 'eat' is an irregular rule breaker", "It is not wrong"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What word is completely unnecessary in this sentence: 'We are went home.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which means 'उसने कहा'?",
+          "questionType": "multiple_choice",
+          "options": ["She said", "She is say", "She sayed", "She spoke"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मैं दुकान गया।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I went to the store.",
+            "transliteration": "आई वेंट टू द स्टोर।",
+            "baseTranslation": "मैं दुकान गया।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'उसने काम किया।' (Write the full English sentence for 'He...')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He worked.",
+            "transliteration": "ही वर्क्ट।",
+            "baseTranslation": "उसने काम किया।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'मैंने एक टीवी खरीदा।' (I ... )",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I bought a TV.",
+            "transliteration": "आई बॉट अ टीवी।",
+            "baseTranslation": "मैंने एक टीवी खरीदा।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'उन्होंने सेब खाया।' (They...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They ate the apple.",
+            "transliteration": "दे एट दि ऐपल।",
+            "baseTranslation": "उन्होंने सेब खाया।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'हम भागे।' (We... [Past of Run])",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We ran.",
+            "transliteration": "वी रैन।",
+            "baseTranslation": "हम भागे।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "played",
+      "q002": "I saw a car.",
+      "q003": "They went to the store.",
+      "q004": "True",
+      "q005": "I ate pizza.",
+      "q006": "Went",
+      "q007": "Drank",
+      "q008": "Thought",
+      "q009": "Gave",
+      "q010": "खरीदा",
+      "q011": "It should be 'I saw a bird.'",
+      "q012": "It should be 'They caught the ball.'",
+      "q013": "Because 'eat' is an irregular rule breaker",
+      "q014": "are",
+      "q015": "She said",
+      "q016": "I went to the store.",
+      "q017": "He worked.",
+      "q018": "I bought a TV.",
+      "q019": "They ate an apple.",
+      "q020": "We ran."
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'am/was' is used."
+    },
+    "partialCreditRules": {
+      "q019": "Give 5 marks if written 'They ate the apple' or 'They ate apple'."
+    },
+    "alternateValidAnswers": {
+      "q006": ["went", "WENT"],
+      "q008": ["thought", "THOUGHT"],
+      "q014": ["are", "ARE", "we are"],
+      "q016": ["i went to the store", "I went to the store", "I left to the store", "I went to a store"],
+      "q017": ["he worked", "He worked"],
+      "q018": ["i bought a tv", "I bought a tv.", "I bought a television."],
+      "q019": ["they ate an apple", "they ate the apple", "They ate the apple."],
+      "q020": ["we ran", "We ran"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! This is the hardest block in the curriculum! You mastered the irregulars AND completely stopped yourself from accidentally writing 'I am went'!",
+    "onFail": "Please don't give up! Look at this rule one more time: YESTERDAY has NO helper verbs. NEVER use 'am', 'is', 'are' with past words. Just say I WENT, I ATE, I PLAYED.",
+    "onPartial": "Good effort! Remember the rule breakers. The past of Take is 'Took'. The past of Catch is 'Caught'. The past of Eat is 'Ate'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers the past verbs.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block3", "simple_past", "irregular_verbs", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B4_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

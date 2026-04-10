@@ -1,0 +1,170 @@
+{
+  "activityId": "hi_en_M1B3_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Writing: Pointing at Objects",
+  "learningGoal": "Construct sentences identifying objects using 'Yeh' (this) and 'Woh' (that), and forming basic Yes/No questions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_lesson_1"
+  ],
+  "instructions": "In this exercise, practice the SOV structure with demonstrative pronouns (Yeh/Woh). Remember that to turn a statement into a Yes/No question, you just put the word 'Kya' (what) at the very beginning of the sentence.",
+  "writingPrompt": "Translate the following sentences into Hindi using the word bank:\n1. This is a book.\n2. That is a car.\n3. Is this a computer?\n4. Yes, this is a computer.",
+  "promptGoal": "Building sentences with 'Yeh/Woh' and 'Kya' for Yes/No questions.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "woh",
+      "baseTranslation": "that",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "क्या",
+      "transliteration": "kya",
+      "baseTranslation": "what (or question marker)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "book",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "gaadi",
+      "baseTranslation": "car",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "कंप्यूटर",
+      "transliteration": "kampyutar",
+      "baseTranslation": "computer",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "हाँ",
+      "transliteration": "haan",
+      "baseTranslation": "yes",
+      "partOfSpeech": "particle"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'This book is.'",
+    "Sentence 2: 'That car is.'",
+    "Sentence 3: '[Question Marker] this computer is?'",
+    "Sentence 4: 'Yes, this computer is.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "यह किताब है। वह गाड़ी है। क्या यह कंप्यूटर है? हाँ, यह कंप्यूटर है।",
+      "transliteration": "Yeh kitaab hai. Woh gaadi hai. Kya yeh kampyutar hai? Haan, yeh kampyutar hai.",
+      "baseTranslation": "This is a book. That is a car. Is this a computer? Yes, this is a computer.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect translation capturing the 'Kya' at the beginning for a Yes/No question."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Demonstratives",
+      "weight": 30,
+      "description": "Correctly distinguishes 'Yeh' (this) and 'Woh' (that)."
+    },
+    {
+      "criterion": "Verb Placement",
+      "weight": 30,
+      "description": "The verb 'hai' is placed at the end of every sentence."
+    },
+    {
+      "criterion": "Question Formation",
+      "weight": 40,
+      "description": "Places 'Kya' at the start of the sentence to form a Yes/No question."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "यह किताब है। वह गाड़ी है। क्या यह कंप्यूटर है? हाँ, यह कंप्यूटर है।",
+    "acceptableAlternates": [
+      "Yeh kitaab hai. Woh gaadi hai. Kya yeh kampyutar hai? Haan, yeh kampyutar hai."
+    ],
+    "requiredKeywords": [
+      "yeh",
+      "woh",
+      "kya",
+      "hai",
+      "haan"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict checking of 'Kya' placement.",
+    "lengthExpectation": "Four short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Yes/No Question Logic",
+          "weight": 100,
+          "description": "Must understand that 'Kya yeh kampyutar hai?' is the only way to say 'Is this a computer?'."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You know how to identify objects and ask simple questions.",
+    "onFail": "Review the Yes/No question structure. You do not move the verb like in English (Is this...?). You just put 'Kya' at the front.",
+    "onPartial": "Good try. Check your use of 'Yeh' vs 'Woh'. Yeh is for nearby objects (this), Woh is for far objects (that)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "objects",
+    "demonstratives",
+    "questions",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "In Hindi, you don't use 'a' or 'an'. 'This is a book' translates literally to 'This book is'.",
+  "commonMistakes": [
+    "Writing 'Hai yeh kampyutar?' (Trying to use English word order 'Is this...')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

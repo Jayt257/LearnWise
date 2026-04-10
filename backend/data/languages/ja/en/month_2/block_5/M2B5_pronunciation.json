@@ -1,0 +1,184 @@
+{
+  "activityId": "en_ja_M2B5_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Modals",
+  "learningGoal": "Master the pronunciation of modals, specifically the difference between 'can' and 'can't', and the sound changes in 'have to' and 'has to'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B5_lesson_1"
+  ],
+  "instructions": "助動詞の発音を練習します。肯定文の「can」は短く弱く発音され、否定文の「can't」は強く長く発音されます。また、「have to」の「v」は「f」の音に変わることに注意しましょう。マイクに向かってリピートしてください。(Practice the pronunciation of modal verbs. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "can",
+      "transliteration": "クン（キャン）",
+      "baseTranslation": "〜できる",
+      "phoneticHint": "In a sentence, 'can' is often pronounced very fast and weak, like 'k-n' or 'kun'. I kn swim.",
+      "syllableSplit": "can",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying a very strong 'KYAN' every time."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "can't",
+      "transliteration": "キャーント",
+      "baseTranslation": "〜できない",
+      "phoneticHint": "Unlike 'can', 'can't' is stressed and pronounced with a strong 'a' sound. The 't' at the end is often very quiet. Caaan't.",
+      "syllableSplit": "can't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it exactly like 'can' so listeners don't know if it's positive or negative."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "have to",
+      "transliteration": "ハフ トゥ",
+      "baseTranslation": "〜しなければならない",
+      "phoneticHint": "The 'v' in have changes to an 'f' sound because it's followed by a 't'. Haf-too.",
+      "syllableSplit": "have to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'havu to' with a 'v' sound."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "has to",
+      "transliteration": "ハス トゥ",
+      "baseTranslation": "〜しなければならない（三人称単数）",
+      "phoneticHint": "The 'z' sound in has changes to an 's' sound. Has-too.",
+      "syllableSplit": "has to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hazu to' with a 'z' sound."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "must not",
+      "transliteration": "マス ノット",
+      "baseTranslation": "〜してはいけない",
+      "phoneticHint": "When speaking quickly, the 't' in must is dropped. Mus-not.",
+      "syllableSplit": "must not",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'masuto notto'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "don't have to",
+      "transliteration": "ドント ハフ トゥ",
+      "baseTranslation": "〜しなくてよい",
+      "phoneticHint": "The 't' in don't is often silent. Don-haf-too.",
+      "syllableSplit": "don't have to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'donto havu to'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "could",
+      "transliteration": "クッド",
+      "baseTranslation": "〜できた",
+      "phoneticHint": "The 'l' is completely silent. Cood.",
+      "syllableSplit": "could",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'courudo' pronouncing the 'L'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "couldn't",
+      "transliteration": "クドント",
+      "baseTranslation": "〜できなかった",
+      "phoneticHint": "Cood-int.",
+      "syllableSplit": "could-n't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'kudonto'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "should",
+      "transliteration": "シュッド",
+      "baseTranslation": "〜すべき、した方がいい",
+      "phoneticHint": "The 'l' is silent. Shood.",
+      "syllableSplit": "should",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shourudo'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "shouldn't",
+      "transliteration": "シュドント",
+      "baseTranslation": "〜すべきではない",
+      "phoneticHint": "Shood-int.",
+      "syllableSplit": "should-n't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shudonto'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "can can't have to has to must not don't have to could couldn't should shouldn't",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! Your pronunciation of the modals is very natural. Great job on 'haf-too' instead of 'have to'.",
+    "onFail": "Please try again. Pay close attention to 'have to' (sounds like 'haf-too') and make sure the 'L' in could and should is silent.",
+    "onPartial": "Good effort! Remember to make 'can't' longer and stronger than 'can'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "can can't have to has to must not don't have to could couldn't should shouldn't",
+    "acceptedVariants": [
+      "can cannot have to has to must not do not have to could could not should should not"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "can can't have to has to must not don't have to could couldn't should shouldn't",
+    "transliteration": "kun cant haftoo hastoo musnot dont haftoo cood coodint shood shoodint",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B5_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B5_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "can, can't, have to, has to, must not, don't have to, could, couldn't, should, shouldn't",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "modals",
+    "silent_letters",
+    "reductions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "In 'have to', change the 'v' sound to an 'f' sound (haf-too). In 'has to', change the 'z' to an 's' (has-too).",
+  "commonMistakes": [
+    "Pronouncing the 'L' in could and should."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

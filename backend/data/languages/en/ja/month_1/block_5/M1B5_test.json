@@ -1,0 +1,429 @@
+{
+  "activityId": "ja_en_M1B5_test_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Final Test — Ko-So-A-Do Demonstratives",
+  "learningGoal": "The learner will demonstrate mastery over the Japanese demonstrative system, identifying correct distance-based pronouns and properly applying the 'mo' particle.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B5_lesson_001",
+    "ja_en_M1B5_pronunciation_001",
+    "ja_en_M1B5_reading_001",
+    "ja_en_M1B5_writing_001",
+    "ja_en_M1B5_listening_001",
+    "ja_en_M1B5_vocabulary_001",
+    "ja_en_M1B5_speaking_001"
+  ],
+  "instructions": "This test evaluates your understanding of 'This', 'That', 'Here', 'There', and the 'also' particle. Pay very close attention to whether the object is near you or near the listener in the scenarios.",
+  "testTitle": "Block 5 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Choose the best demonstrative for each scenario.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "How do you say 'Book' in Japanese?",
+          "questionType": "multiple_choice",
+          "options": ["かばん", "ほん", "かさ", "くつ"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "How do you say 'Umbrella'?",
+          "questionType": "multiple_choice",
+          "options": ["とけい", "くるま", "かさ", "かばん"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does とけい (Tokei) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Car", "Clock/Watch", "Bag", "Shoes"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does くつ (Kutsu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Shoes", "Socks", "Pants", "Shirt"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_demonstratives",
+      "sectionTitle": "Ko-So-A-Do System",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "If an object is far away from both you and your friend, which word do you use for 'That over there'?",
+          "questionType": "multiple_choice",
+          "options": ["これ (Kore)", "それ (Sore)", "あれ (Are)", "どれ (Dore)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "If you are holding an object, which word do you use?",
+          "questionType": "multiple_choice",
+          "options": ["これ (Kore)", "それ (Sore)", "あれ (Are)", "どれ (Dore)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the correct word for the place 'Over there'?",
+          "questionType": "multiple_choice",
+          "options": ["あこ (Ako)", "あそこ (Asoko)", "あろこ (Aroko)", "どこ (Doko)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which demonstrative MUST be attached directly to a noun (e.g., '____ book')?",
+          "questionType": "multiple_choice",
+          "options": ["これ (Kore)", "ここ (Koko)", "この (Kono)", "どれ (Dore)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Particles & Grammar",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Translate: 'This is ALSO a bag.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "これも かばんです。",
+            "これは かばんです。",
+            "それも かばんです。",
+            "これはも かばんです。"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Translate: 'Which one is it?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "どれですか。",
+            "どこですか。",
+            "だれですか。",
+            "なんですか。"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'Where is the toilet?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "トイレは どれですか。",
+            "トイレは どこですか。",
+            "トイレは そこですか。",
+            "どこは トイレですか。"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'This umbrella is my umbrella.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "これは かさは わたしの かさです。",
+            "この かさは わたしの かさです。",
+            "ここ かさは わたしの かさです。",
+            "かさは これ わたしの かさです。"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What object is the speaker talking about?",
+          "questionType": "multiple_choice",
+          "options": ["Car", "Bag", "Book", "Shoes"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "これは くるまです。",
+            "transliteration": "Kore wa kuruma desu.",
+            "baseTranslation": "This is a car."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. Where is the cafe?",
+          "questionType": "multiple_choice",
+          "options": ["Here", "There (near listener)", "Over there (far)", "Where"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "カフェは あそこです。",
+            "transliteration": "Kafe wa asoko desu.",
+            "baseTranslation": "The cafe is over there."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What does the speaker ask?",
+          "questionType": "multiple_choice",
+          "options": ["What is this?", "Where is the book?", "Which one is the book?", "Is that a book?"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "ほんは どれですか。",
+            "transliteration": "Hon wa dore desu ka.",
+            "baseTranslation": "Which one is the book?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'This' (thing) in Hiragana.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "これ",
+            "transliteration": "kore",
+            "baseTranslation": "This"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'Over there' (place) in Hiragana.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "あそこ",
+            "transliteration": "asoko",
+            "baseTranslation": "Over there"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "How do you write 'Umbrella' in Romaji?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "かさ",
+            "transliteration": "kasa",
+            "baseTranslation": "umbrella"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write the Hiragana for the particle that means 'Also/Too'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "も",
+            "transliteration": "mo",
+            "baseTranslation": "also"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'This is ALSO a bag' in Romaji or Hiragana.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "これも かばんです",
+            "transliteration": "Kore mo kaban desu",
+            "baseTranslation": "This is also a bag"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 70,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "ほん",
+      "q002": "かさ",
+      "q003": "Clock/Watch",
+      "q004": "Shoes",
+      "q005": "あれ (Are)",
+      "q006": "これ (Kore)",
+      "q007": "あそこ (Asoko)",
+      "q008": "この (Kono)",
+      "q009": "これも かばんです。",
+      "q010": "どれですか。",
+      "q011": "トイレは どこですか。",
+      "q012": "この かさは わたしの かさです。",
+      "q013": "Car",
+      "q014": "Over there (far)",
+      "q015": "Which one is the book?",
+      "q016": "これ",
+      "q017": "あそこ",
+      "q018": "kasa",
+      "q019": "も",
+      "q020": "これも かばんです"
+    },
+    "scoringRubric": {
+      "q016": "Must be exact Hiragana.",
+      "q017": "Must be exact Hiragana.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Must be exact Hiragana.",
+      "q020": "Accept Romaji or Hiragana combinations."
+    },
+    "partialCreditRules": {
+      "q020": "Half points if they wrote 'Kore wa mo kaban desu'."
+    },
+    "alternateValidAnswers": {
+      "q018": ["Kasa", "kasa"],
+      "q020": [
+        "Kore mo kaban desu",
+        "kore mo kaban desu.",
+        "これもかばんです",
+        "これも かばんです。"
+      ]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_demonstratives": 10,
+      "sec_grammar": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Fantastic! You have completely mastered the Ko-So-A-Do pointing system.",
+    "onFail": "Review the patterns! Kore = this. Koko = here. Kono = this (noun).",
+    "onPartial": "Almost there! Double check your difference between Sore (near them) and Are (far away)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block5",
+    "demonstratives",
+    "particles",
+    "grammar",
+    "beginner",
+    "month1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

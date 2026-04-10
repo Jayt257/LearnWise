@@ -1,0 +1,184 @@
+{
+  "activityId": "en_ja_M3B1_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Linking If and Will",
+  "learningGoal": "Master the linked pronunciation of 'If I' and 'If it', and practice the contracted forms of 'will' (I'll, you'll).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M3B1_lesson_1"
+  ],
+  "instructions": "If と代名詞が続く時の「音の繋がり（リンキング）」と、will の短縮形の発音を練習します。マイクに向かってリピートしてください。(Practice the linked sounds of 'if' and the contractions of 'will'. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "If I",
+      "transliteration": "イファイ",
+      "baseTranslation": "もし私が",
+      "phoneticHint": "The 'f' links smoothly to the 'I'. If-eye.",
+      "syllableSplit": "If I",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ifu ai' with a pause in the middle."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "If it",
+      "transliteration": "イフィット",
+      "baseTranslation": "もしそれが",
+      "phoneticHint": "The 'f' links to the 'i' in it. If-it.",
+      "syllableSplit": "If it",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ifu itto'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "If you",
+      "transliteration": "イフュー",
+      "baseTranslation": "もしあなたが",
+      "phoneticHint": "The 'f' sound slides right into the 'y' sound. If-yoo.",
+      "syllableSplit": "If you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ifu yu'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "I'll",
+      "transliteration": "アイル",
+      "baseTranslation": "私は〜するだろう（I will）",
+      "phoneticHint": "Sounds exactly like 'aisle' or 'isle'. It's one smooth sound.",
+      "syllableSplit": "I'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ai-ru' with a strong R sound."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "you'll",
+      "transliteration": "ユール",
+      "baseTranslation": "あなたは〜するだろう（you will）",
+      "phoneticHint": "Rhymes with 'pool'. Yool.",
+      "syllableSplit": "you'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'yu-ru'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "he'll",
+      "transliteration": "ヒール",
+      "baseTranslation": "彼は〜するだろう（he will）",
+      "phoneticHint": "Rhymes with 'feel'.",
+      "syllableSplit": "he'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hi-ru'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "she'll",
+      "transliteration": "シール",
+      "baseTranslation": "彼女は〜するだろう（she will）",
+      "phoneticHint": "Rhymes with 'wheel'.",
+      "syllableSplit": "she'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shi-ru'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "it'll",
+      "transliteration": "イットゥル",
+      "baseTranslation": "それは〜するだろう（it will）",
+      "phoneticHint": "This is tricky. It sounds like 'id-ul' in fast speech.",
+      "syllableSplit": "it'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'itto-ru'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "we'll",
+      "transliteration": "ウィール",
+      "baseTranslation": "私たちは〜するだろう（we will）",
+      "phoneticHint": "Exactly the same pronunciation as 'wheel'.",
+      "syllableSplit": "we'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ui-ru'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "they'll",
+      "transliteration": "ゼイル",
+      "baseTranslation": "彼らは〜するだろう（they will）",
+      "phoneticHint": "Make sure your tongue is between your teeth for the 'th'. Vay-ul.",
+      "syllableSplit": "they'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'zei-ru' without the 'th' sound."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "If I If it If you I'll you'll he'll she'll it'll we'll they'll",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You linked 'if' very smoothly and pronounced the 'll' contractions well.",
+    "onFail": "Please try again. Don't add 'u' after 'If'. Make it one sound: 'if-eye'. Also, 'I'll' is one syllable.",
+    "onPartial": "Good effort! Remember that 'it'll' sounds a bit like 'id-ul'. Keep practicing the 'L' sound at the end of the contractions."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "If I If it If you I'll you'll he'll she'll it'll we'll they'll",
+    "acceptedVariants": [
+      "if I if it if you I will you will he will she will it will we will they will"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "If I If it If you I'll you'll he'll she'll it'll we'll they'll",
+    "transliteration": "ifeye ifit ifyoo aisle yool heel sheel idul wheel vayul",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B1_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B1_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "If I, If it, If you, I'll, you'll, he'll, she'll, it'll, we'll, they'll",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "conditionals",
+    "contractions",
+    "linking"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Link the 'f' in If to the next vowel to sound natural: If I = i-fai.",
+  "commonMistakes": [
+    "Putting a heavy 'u' sound at the end of 'If' (ifu ai)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B1_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

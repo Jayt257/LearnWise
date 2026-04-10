@@ -1,0 +1,205 @@
+{
+  "activityId": "en_hi_M2B6_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "A Chat on the Bus",
+  "learningGoal": "The learner will decode auditory polite boundary markers ('Excuse me') and recognize the structural arc of functional small talk (greeting, weather observation, polite conclusion) within a transit scenario.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M2B6_writing_001"],
+  "instructions": "Listen to a man trying to sit down next to a woman on a bus. Notice how polite he is. He doesn't order her to move her bag! Then, notice how they make 'small talk' (talking about the weather so they don't sit in silence). Answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Listen to the tone of their voices. It goes UP when they ask questions!"
+    }
+  ],
+  "listeningGoal": "Identify the acoustic signatures of modal softeners and pragmatic boundary markers in conversational speech.",
+  "audioScenario": "A man boarding a bus and interacting with a seated passenger.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Excuse me, is this seat empty?",
+      "transliteration": "एक्सक्यूज़ मी, इज़ दिस सीट एम्प्टी?",
+      "baseTranslation": "माफ़ कीजिए, क्या यह सीट खाली है?"
+    },
+    {
+      "targetText": "Yes, it is empty.",
+      "transliteration": "येस, इट इज़ एम्प्टी।",
+      "baseTranslation": "हाँ, यह खाली है।"
+    },
+    {
+      "targetText": "Could you move your bag, please?",
+      "transliteration": "कुड यू मूव योर बैग, प्लीज़?",
+      "baseTranslation": "क्या आप कृपया अपना बैग हटा सकती हैं?"
+    },
+    {
+      "targetText": "Oh, I'm sorry! Yes, of course.",
+      "transliteration": "ओह, आई'म सॉरी! येस, ऑफ कोर्स।",
+      "baseTranslation": "ओह, मुझे खेद है! हाँ, बिल्कुल।"
+    },
+    {
+      "targetText": "Thank you. Nice weather today, isn't it?",
+      "transliteration": "थैंक यू। नाइस वेदर टुडे, इज़न्ट इट?",
+      "baseTranslation": "धन्यवाद। आज मौसम अच्छा है, है ना?"
+    },
+    {
+      "targetText": "Yes, very nice. It is sunny.",
+      "transliteration": "येस, वेरी नाइस। इट इज़ सनी।",
+      "baseTranslation": "हाँ, बहुत अच्छा। धूप खिली है।"
+    },
+    {
+      "targetText": "I am traveling to the hospital. How about you?",
+      "transliteration": "आई एम ट्रैवलिंग टू द हॉस्पिटल। हाउ अबाउट यू?",
+      "baseTranslation": "मैं अस्पताल जा रहा हूँ। आप कहाँ जा रही हैं?"
+    },
+    {
+      "targetText": "I am going to work. Look, this is my stop.",
+      "transliteration": "आई एम गोइंग टू वर्क। लुक, दिस इज़ माई स्टॉप।",
+      "baseTranslation": "मैं काम पर जा रही हूँ। देखो, यह मेरा स्टॉप है।"
+    },
+    {
+      "targetText": "Okay. Have a good day!",
+      "transliteration": "ओके। हैव अ गुड डे!",
+      "baseTranslation": "ठीक है। आपका दिन शुभ हो!"
+    },
+    {
+      "targetText": "Thank you. You too.",
+      "transliteration": "थैंक यू। यू टू।",
+      "baseTranslation": "धन्यवाद। आपको भी।"
+    }
+  ],
+  "audioTranscriptFull": "Man: Excuse me, is this seat empty?\nWoman: Yes, it is empty.\nMan: Could you move your bag, please?\nWoman: Oh, I'm sorry! Yes, of course.\nMan: Thank you. Nice weather today, isn't it?\nWoman: Yes, very nice. It is sunny.\nMan: I am traveling to the hospital. How about you?\nWoman: I am going to work. Look, this is my stop.\nMan: Okay. Have a good day!\nWoman: Thank you. You too.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does the man say before asking if the seat is empty?",
+      "questionType": "multiple_choice",
+      "options": ["Move over", "Excuse me", "Hello"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Why cannot the man sit down at first?",
+      "questionType": "multiple_choice",
+      "options": ["The woman is sleeping", "The woman's bag is on the seat", "The seat is broken"],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How does he politely ask her to get her bag out of the way?",
+      "questionType": "multiple_choice",
+      "options": ["Could you move your bag, please?", "Move your bag", "Take your bag"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What topic does the man mention to start making 'small talk'?",
+      "questionType": "multiple_choice",
+      "options": ["The bus", "The hospital", "The weather"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Where is the woman going?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "What does the man say when the woman leaves?",
+      "questionType": "multiple_choice",
+      "options": ["Goodbye", "Have a good day!", "See you"],
+      "audioTimestamp": "00:26",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "If the pitch of his voice had FALLEN at the end of 'Could you move your bag', how would he sound?",
+      "questionType": "multiple_choice",
+      "options": ["Polite", "Angry or irritated", "Happy"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "What phrase did the woman use to apologize for her bag?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for Q1, Q2, Q3, Q4, Q6, Q7."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Excuse me",
+      "q2": "The woman's bag is on the seat",
+      "q3": "Could you move your bag, please?",
+      "q4": "The weather",
+      "q5": "To work",
+      "q6": "Have a good day!",
+      "q7": "Angry or irritated",
+      "q8": "I'm sorry"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["work", "Work", "to work", "To work", "she is going to work"],
+      "q8": ["sorry", "I'm sorry", "I am sorry"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["work"],
+      "q8": ["sorry"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly understood how English speakers interact with strangers on public transit. They use polite softeners, apologize quickly, and make small talk about the weather!",
+    "onFail": "Keep trying! Ensure you playback the audio on Slow mode. Listen to exactly how the man asks for the seat. If you use direct words on a bus, people might get angry!",
+    "onPartial": "Good ear! Watch out for the small talk clues. Talking about the weather is the #1 way English speakers make polite friends with strangers."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b6/listening/bus_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m2/b6/listening/bus_slow.mp3",
+    "normalAudio": "audio/en_hi/m2/b6/listening/bus_native.mp3",
+    "audioTranscript": "Man: Excuse me, is this seat empty?... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "politeness", "could_you", "small_talk", "beginner", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b6/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to when the woman says 'Oh, I'm sorry!' English speakers apologize instantly if they are taking up your space.",
+  "commonMistakes": [
+    "Thinking 'small talk' implies a serious conversation, rather than a polite acknowledgement."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B6_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

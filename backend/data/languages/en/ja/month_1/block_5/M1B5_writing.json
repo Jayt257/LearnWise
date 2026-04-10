@@ -1,0 +1,161 @@
+{
+  "activityId": "ja_en_M1B5_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Pointing Out Objects",
+  "learningGoal": "The learner will write 3 short sentences pointing out physical objects using Kore, Sore, and Are.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B5_lesson_001",
+    "ja_en_M1B5_reading_001"
+  ],
+  "instructions": "Write three short sentences in Japanese based on the prompts. Pay attention to the physical distance implied in each prompt to choose the correct demonstrative word.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: Near you = Kore. Near them = Sore. Far away = Are."
+    }
+  ],
+  "writingPrompt": "Translate these three sentences: 1) This is a book. 2) That (near you) is an umbrella. 3) That over there is ALSO an umbrella.",
+  "promptGoal": "To construct 'A wa B desu' sentences using demonstrative pronouns and the 'mo' particle.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "これ",
+      "transliteration": "Kore",
+      "baseTranslation": "This",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "それ",
+      "transliteration": "Sore",
+      "baseTranslation": "That (near you)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "あれ",
+      "transliteration": "Are",
+      "baseTranslation": "That (over there)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "ほん",
+      "transliteration": "Hon",
+      "baseTranslation": "Book",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "かさ",
+      "transliteration": "Kasa",
+      "baseTranslation": "Umbrella",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "も",
+      "transliteration": "mo",
+      "baseTranslation": "also",
+      "partOfSpeech": "particle"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [This] wa [Book] desu.",
+    "Sentence 2: [That near you] wa [Umbrella] desu.",
+    "Sentence 3: [That over there] mo [Umbrella] desu."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "これは ほんです。それは かさです。あれも かさです。",
+      "transliteration": "Kore wa hon desu. Sore wa kasa desu. Are mo kasa desu.",
+      "baseTranslation": "This is a book. That is an umbrella. That over there is also an umbrella.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect translation utilizing Kore, Sore, Are, and the 'mo' particle correctly."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Demonstrative Usage",
+      "weight": 40,
+      "description": "Did the learner use Kore, Sore, and Are in the correct order?"
+    },
+    {
+      "criterion": "Vocabulary Accuracy",
+      "weight": 30,
+      "description": "Did the learner correctly identify hon (book) and kasa (umbrella)?"
+    },
+    {
+      "criterion": "Particle 'Mo'",
+      "weight": 30,
+      "description": "Did the learner replace 'wa' with 'mo' in the third sentence?"
+    }
+  ],
+  "minimumWordCount": 6,
+  "maximumWordCount": 20,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "これは ほんです。それは かさです。あれも かさです。",
+    "acceptableAlternates": [
+      "Any set of sentences that perfectly mirrors the logic."
+    ],
+    "requiredKeywords": [
+      "これ",
+      "それ",
+      "あれも",
+      "かさです"
+    ],
+    "grammarBaseline": "A wa B desu structure applied to Demonstratives.",
+    "lengthExpectation": "Three simple sentences.",
+    "scoringRubric": {
+      "kore_sentence": 30,
+      "sore_sentence": 30,
+      "are_mo_sentence": 40
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! You easily distinguish between Kore, Sore, and Are.",
+    "onFail": "Make sure you used the correct demonstrative. Kore (This), Sore (That), Are (That over there).",
+    "onPartial": "Good try! Make sure you didn't accidentally write 'Are wa mo kasa desu'. It should just be 'Are mo kasa desu'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "demonstratives",
+    "particles",
+    "grammar",
+    "beginner",
+    "month1",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For sentence 3, DO NOT write 'Are wa mo'. The 'mo' eats the 'wa'. It is just 'Are mo'.",
+  "commonMistakes": [
+    "Writing 'Kono wa hon desu'. Kono MUST be attached to a noun. Use 'Kore' instead."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

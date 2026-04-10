@@ -1,0 +1,178 @@
+{
+  "activityId": "en_ja_M1B4_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Your Schedule and Age",
+  "learningGoal": "Write sentences stating your age, and the day, date, and time of an event.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B4_reading_3"
+  ],
+  "instructions": "あなたの年齢と、ある予定（パーティーや会議など何でも構いません）について英語で書いてください。(Write about your age and an upcoming schedule in English.)\n以下の4つの条件を含めてください。\n1. あなたの年齢 (I am...)\n2. 予定の曜日 (on Mondayなど)\n3. 予定の月と日付 (May 5thなど)\n4. 予定の時間 (at 3:00など)",
+  "writingPrompt": "Write 3 to 4 sentences. Tell me your age. Then, write about an event (like a party or a meeting). Tell me the day of the week, the date, and the time of the event.",
+  "promptGoal": "To construct sentences using correct prepositions for time and dates (on, at, in) and ordinal numbers.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "I am ___ years old.",
+      "transliteration": "アイ アム ___ イヤーズ オールド",
+      "baseTranslation": "私は___歳です。",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "The party is",
+      "transliteration": "ザ パーティー イズ",
+      "baseTranslation": "パーティーは〜です",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "on",
+      "transliteration": "オン",
+      "baseTranslation": "〜に（曜日・日付の前に置く）",
+      "partOfSpeech": "preposition"
+    },
+    {
+      "targetText": "at",
+      "transliteration": "アット",
+      "baseTranslation": "〜に（時間の前に置く）",
+      "partOfSpeech": "preposition"
+    },
+    {
+      "targetText": "Monday",
+      "transliteration": "マンデイ",
+      "baseTranslation": "月曜日",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "o'clock",
+      "transliteration": "オクロック",
+      "baseTranslation": "〜時ちょうど",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "曜日の前には「on」をつけます（例：on Sunday）。",
+    "時間の前には「at」をつけます（例：at 5:00）。",
+    "日付は「one」ではなく「first (1st)」「second (2nd)」を使います。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I am 25 years old. The party is on Friday. It is on October 10th. The party is at 7:00.",
+      "transliteration": "アイ アム トゥエンティ ファイヴ イヤーズ オールド。ザ パーティー イズ オン フライデイ。イット イズ オン オクトーバー テンス。ザ パーティー イズ アット セヴン オクロック。",
+      "baseTranslation": "私は25歳です。パーティーは金曜日です。10月10日です。パーティーは7時からです。",
+      "qualityLevel": "excellent",
+      "annotation": "Uses prepositions 'on' and 'at' correctly. Uses an ordinal number (10th) for the date."
+    },
+    {
+      "targetText": "I'm thirty. My meeting is on Monday, June 3rd. It is at 2:30.",
+      "transliteration": "アイム サーティ。マイ ミーティング イズ オン マンデイ、ジューン サード。イット イズ アット トゥー サーティ。",
+      "baseTranslation": "私は30歳です。私の会議は6月3日月曜日です。2時30分からです。",
+      "qualityLevel": "excellent",
+      "annotation": "Combines day and date naturally. Uses correct time format."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Age Statement",
+      "weight": 20,
+      "description": "Did the student state their age correctly using the 'be' verb?"
+    },
+    {
+      "criterion": "Preposition 'on'",
+      "weight": 30,
+      "description": "Is 'on' used before the day of the week and date?"
+    },
+    {
+      "criterion": "Preposition 'at'",
+      "weight": 30,
+      "description": "Is 'at' used before the time?"
+    },
+    {
+      "criterion": "Date Format",
+      "weight": 20,
+      "description": "Is the date written correctly (e.g., Month + ordinal number)?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I am [number] years old. The [event] is on [Day]. It is on [Month] [Date]th. It is at [Time].",
+    "acceptableAlternates": [
+      "I am [number]. My [event] is on [Day], [Month] [Date]rd at [Time]."
+    ],
+    "requiredKeywords": [
+      "am",
+      "on",
+      "at"
+    ],
+    "grammarBaseline": "Must use 'at' for time and 'on' for days/dates.",
+    "lengthExpectation": "3 to 4 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Age",
+          "weight": 20,
+          "description": "I am X years old."
+        },
+        {
+          "name": "Prepositions",
+          "weight": 60,
+          "description": "Uses 'on' for days/dates, 'at' for time."
+        },
+        {
+          "name": "Date Format",
+          "weight": 20,
+          "description": "Month is capitalized, uses number."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You used the prepositions of time (on, at) perfectly.",
+    "onFail": "Please review the prepositions. Use 'on' for days (on Monday) and 'at' for time (at 5:00).",
+    "onPartial": "Good effort. Make sure the month is capitalized (e.g., May, not may)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "numbers",
+    "time",
+    "dates",
+    "prepositions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "You can write the numbers as digits (e.g., 25, 7:00) or words (twenty-five, seven o'clock). Both are fine!",
+  "commonMistakes": [
+    "Saying 'I have 20 years' (This is Spanish/French style. In English, we say 'I am 20 years old').",
+    "Using 'in' for time: 'in 5:00'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

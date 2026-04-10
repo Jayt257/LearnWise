@@ -1,0 +1,179 @@
+{
+  "activityId": "ja_en_M3B5_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Explaining Symptoms",
+  "learningGoal": "The learner will verbally construct sentences to accurately describe physical symptoms to a medical professional.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M3B5_lesson_001",
+    "ja_en_M3B5_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a doctor asks what is wrong. Reply verbally in Japanese based on the English prompts, stating your symptoms clearly.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Speak clearly. Remember to use 'ga' with body parts and pain."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) My stomach hurts. 2) I have a fever. 3) Please give me medicine.",
+  "scenario": "A medical clinic examination.",
+  "role": "Patient",
+  "conversationPartner": "Doctor",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "State your pain. Say: 'My stomach hurts.'",
+      "expectedSpeakingPoints": [
+        "Use Onaka ga",
+        "Use itai desu"
+      ],
+      "sampleResponse": {
+        "targetText": "おなかが いたいです。",
+        "transliteration": "Onaka ga itai desu.",
+        "baseTranslation": "My stomach hurts."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "State your other symptom. Say: 'I have a fever.'",
+      "expectedSpeakingPoints": [
+        "Use Netsu ga",
+        "Use arimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ねつが あります。",
+        "transliteration": "Netsu ga arimasu.",
+        "baseTranslation": "I have a fever."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Request treatment. Say: 'Please give me medicine.'",
+      "expectedSpeakingPoints": [
+        "Use Kusuri wo",
+        "Use kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "くすりを ください。",
+        "transliteration": "Kusuri wo kudasai.",
+        "baseTranslation": "Please give me medicine."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "どうしましたか。",
+    "transliteration": "Dou shimashita ka.",
+    "baseTranslation": "What's wrong? / What happened?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "おなかが いたいです。",
+      "transliteration": "Onaka ga itai desu.",
+      "baseTranslation": "My stomach hurts."
+    },
+    {
+      "targetText": "ねつが あります。",
+      "transliteration": "Netsu ga arimasu.",
+      "baseTranslation": "I have a fever."
+    },
+    {
+      "targetText": "くすりを ください。",
+      "transliteration": "Kusuri wo kudasai.",
+      "baseTranslation": "Please give me medicine."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Onaka ga itai desu",
+      "Say Netsu ga arimasu",
+      "Say Kusuri wo kudasai"
+    ],
+    "requiredKeywords": [
+      "おなか",
+      "いたい",
+      "ねつ",
+      "くすり",
+      "ください"
+    ],
+    "acceptableParaphrases": [
+      "Accept 'Watashi wa onaka ga itai desu'."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Symptom Accuracy 1",
+          "weight": 40,
+          "description": "Did the learner say 'Onaka ga itai' correctly?"
+        },
+        {
+          "name": "Symptom Accuracy 2",
+          "weight": 40,
+          "description": "Did the learner say 'Netsu ga arimasu' correctly?"
+        },
+        {
+          "name": "Request Accuracy",
+          "weight": 20,
+          "description": "Did the learner correctly ask for 'Kusuri' (medicine)?"
+        }
+      ]
+    },
+    "sampleAnswer": "おなかが いたいです。ねつが あります。くすりを ください。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You conveyed your symptoms perfectly.",
+    "onFail": "Review the medical vocabulary. 'Onaka' means stomach. 'Atama' means head.",
+    "onPartial": "Good try! Make sure you ask for medicine ('kusuri') at the end."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b5/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m3/b5/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "どうしましたか。おなかが いたいです。ねつが あります。くすりを ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "medical",
+    "doctor",
+    "roleplay",
+    "advanced",
+    "month3",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'ga' to mark what is hurting or what symptom you have.",
+  "commonMistakes": [
+    "Saying 'Onaka wo itai'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

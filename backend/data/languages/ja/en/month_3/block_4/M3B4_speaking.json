@@ -1,0 +1,196 @@
+{
+  "activityId": "en_ja_M3B4_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Speaking Professionally",
+  "learningGoal": "Speak fluently and politely in a business context using formal modals and vocabulary.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B4_vocabulary_6"
+  ],
+  "instructions": "取引先とのオンライン会議です。失礼のないよう、丁寧な表現（Could you, Would you mind, I apologize）を使って英語で発言してください。(You are in an online meeting with a client. Speak politely using formal expressions.)",
+  "speakingPrompt": "Respond to the prompts using formal business English structures.",
+  "scenario": "You are discussing a project delay and rescheduling a meeting with a client.",
+  "role": "You (Project Manager)",
+  "conversationPartner": "Client",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Ask the client politely to send the report. (Could you please...)",
+      "expectedSpeakingPoints": [
+        "Could you please",
+        "send the report"
+      ],
+      "sampleResponse": {
+        "targetText": "Could you please send the report?",
+        "transliteration": "クジュー プリーズ センド ザ レポート？",
+        "baseTranslation": "レポートを送っていただけますか？"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "You are late sending an email. Apologize professionally. (I apologize for...)",
+      "expectedSpeakingPoints": [
+        "I apologize for",
+        "the delay"
+      ],
+      "sampleResponse": {
+        "targetText": "I apologize for the delay.",
+        "transliteration": "アイ アポロジャイズ フォー ザ ディレイ。",
+        "baseTranslation": "遅れまして申し訳ありません。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Ask politely to delay the meeting to next week. (Would you mind...)",
+      "expectedSpeakingPoints": [
+        "Would you mind",
+        "postponing the meeting"
+      ],
+      "sampleResponse": {
+        "targetText": "Would you mind postponing the meeting?",
+        "transliteration": "ウジュー マインド ポストポーニング ザ ミーティング？",
+        "baseTranslation": "会議を延期していただけませんか？"
+      }
+    },
+    {
+      "subTaskId": "s4",
+      "prompt": "End the meeting by saying you are excited to get their email soon. (I look forward to...)",
+      "expectedSpeakingPoints": [
+        "I look forward to",
+        "hearing from you"
+      ],
+      "sampleResponse": {
+        "targetText": "I look forward to hearing from you.",
+        "transliteration": "アイ ルック フォワード トゥ ヒアリング フロム ユー。",
+        "baseTranslation": "お返事をお待ちしております。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "We need to update the client professionally.",
+    "transliteration": "ウィー ニード トゥ アップデイト ザ クライアント プロフェッショナリー。",
+    "baseTranslation": "クライアントにプロとして（丁寧に）状況を伝える必要があります。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Could you please send the report?",
+      "transliteration": "クジュー プリーズ センド ザ レポート？",
+      "baseTranslation": "レポートを送っていただけますか？"
+    },
+    {
+      "targetText": "I apologize for the delay.",
+      "transliteration": "アイ アポロジャイズ フォー ザ ディレイ。",
+      "baseTranslation": "遅れまして申し訳ありません。"
+    },
+    {
+      "targetText": "Would you mind postponing the meeting?",
+      "transliteration": "ウジュー マインド ポストポーニング ザ ミーティング？",
+      "baseTranslation": "会議を延期していただけませんか？"
+    },
+    {
+      "targetText": "I look forward to hearing from you.",
+      "transliteration": "アイ ルック フォワード トゥ ヒアリング フロム ユー。",
+      "baseTranslation": "お返事をお待ちしております。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'Could you please' for a polite request.",
+      "Using 'apologize for the delay'.",
+      "Using 'Would you mind' + V-ing.",
+      "Using 'look forward to' + V-ing."
+    ],
+    "requiredKeywords": [
+      "could",
+      "please",
+      "apologize",
+      "delay",
+      "would",
+      "mind",
+      "postponing",
+      "forward",
+      "hearing"
+    ],
+    "acceptableParaphrases": [
+      "Could you please send me the report?",
+      "I apologize for the delay.",
+      "Would you mind postponing our meeting?",
+      "I am looking forward to hearing from you."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Grammar accuracy",
+          "weight": 50,
+          "description": "Correct use of -ing forms after 'mind' and 'to'."
+        },
+        {
+          "name": "Formal tone",
+          "weight": 30,
+          "description": "Using the specific formal vocabulary requested."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear pronunciation of long words like apologize and postponing."
+        }
+      ]
+    },
+    "sampleAnswer": "Could you please send the report? I apologize for the delay. Would you mind postponing the meeting? I look forward to hearing from you.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent speaking! You sound very polite and professional.",
+    "onFail": "Please try again. Remember that 'Would you mind' and 'look forward to' MUST be followed by the -ing form of the verb.",
+    "onPartial": "Good effort. Practice linking the sounds in 'Could you' (Coo-joo) and 'Would you' (Woo-joo)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B4_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B4_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B4_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Could you please send the report? I apologize for the delay. Would you mind postponing the meeting? I look forward to hearing from you.",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "business_english",
+    "polite_requests",
+    "formal_vocabulary"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the grammar: mind + -ing, and to + -ing.",
+  "commonMistakes": [
+    "Saying 'Would you mind to postpone...'",
+    "Saying 'I look forward to hear...'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B4_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

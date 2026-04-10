@@ -1,0 +1,172 @@
+{
+  "activityId": "hi_en_M1B3_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Tricky Sounds and Half Letters",
+  "learningGoal": "Accurately pronounce the aspirated 'ph' and 'bh', the rolled 'r', and words containing half-letters.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_lesson_1"
+  ],
+  "instructions": "In this exercise, we will practice the 'Lip sounds' (Labials), the rolled 'r', and how to quickly transition between consonants in half-letter combinations (conjuncts). Listen to the native audio and mimic the rhythm. Pay special attention to 'r' which should be tapped, not hard.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "प",
+      "transliteration": "pa",
+      "baseTranslation": "Soft 'p'",
+      "phoneticHint": "p-uh",
+      "syllableSplit": "pa",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Aspirating it too much."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "फ",
+      "transliteration": "pha",
+      "baseTranslation": "Aspirated 'p' (or soft 'f')",
+      "phoneticHint": "f-uh or ph-huh",
+      "syllableSplit": "pha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing it like a pure English 'p'."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "ब",
+      "transliteration": "ba",
+      "baseTranslation": "Soft 'b'",
+      "phoneticHint": "b-uh",
+      "syllableSplit": "ba",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Aspirating it."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "भ",
+      "transliteration": "bha",
+      "baseTranslation": "Aspirated 'b'",
+      "phoneticHint": "bh-huh",
+      "syllableSplit": "bha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing it like a regular 'b' without the deep puff of air from the chest."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "र",
+      "transliteration": "ra",
+      "baseTranslation": "Tapped 'r'",
+      "phoneticHint": "ruh (tap tongue lightly)",
+      "syllableSplit": "ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using the hard American 'r' where the tongue pulls back."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "Book",
+      "phoneticHint": "kih-taab",
+      "syllableSplit": "ki-taab",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kee-tab' (switching the vowel lengths)."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "गाड़ी",
+      "transliteration": "gaadi",
+      "baseTranslation": "Car",
+      "phoneticHint": "gaa-dee",
+      "syllableSplit": "gaa-di",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using an English soft 'd' instead of the retroflex flap (ड़)."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "Hello (Half-letter practice)",
+      "phoneticHint": "nuh-muh-stay",
+      "syllableSplit": "na-mas-te",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Adding a vowel between s and t: 'Na-ma-sa-te'."
+    },
+    {
+      "itemId": "p_9",
+      "targetText": "कंप्यूटर",
+      "transliteration": "Kampyutar",
+      "baseTranslation": "Computer",
+      "phoneticHint": "kum-pyoo-tuhr",
+      "syllableSplit": "kam-pyu-tar",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying it with a heavy American accent rather than blending it into Hindi phonetics."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear aspiration on 'bh', tapped 'r', and smooth transition in half-letter conjuncts like 'st' or 'py'.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Excellent! Your pronunciation is sounding very authentic.",
+    "onFail": "Please listen carefully to the 'bha' sound. It requires a lot of air from your chest, unlike the English 'b'.",
+    "onPartial": "Good effort! Practice the tapped 'r'. Try touching the roof of your mouth very lightly and quickly."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 350,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "consonants",
+    "matras",
+    "half-letters",
+    "aspiration"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For half-letters, jump directly from the first consonant to the second without making any vowel sound in between.",
+  "commonMistakes": [
+    "Pronouncing 'bha' and 'ba' exactly the same."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

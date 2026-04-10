@@ -1,0 +1,277 @@
+{
+  "activityId": "en_hi_M1B1_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "Welcome to English: Alphabet, Sounds, and Greetings",
+  "learningGoal": "The learner will be able to master the 26 English letters, identify key pronunciation differences from Hindi (like V and W), and confidently use daily greetings.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": [],
+  "instructions": "In this lesson, you will build your very first English foundation. Read the explanations of the alphabet, listen to the examples multiple times, and practice repeating the greetings out loud. There are checkpoint questions at the end to test your understanding.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Welcome to your English journey. We start by looking at how the English alphabet works differently from the Hindi varnamala, and how to introduce yourself politely."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "English has 26 letters with capital and small variants.",
+      "The English 'V' involves the teeth, while 'W' uses rounded lips.",
+      "Time-specific greetings include Good morning, Good afternoon, and Good evening.",
+      "English sentences follow SVO (Subject-Verb-Object) structure."
+    ],
+    "conceptSummary": "Introduction to the English writing system, key phonetic contrasts to Hindi, and essential conversational greetings.",
+    "importantFacts": [
+      "Unlike Hindi, English letters do not always sound exactly the way they are written.",
+      "Sentences always begin with an uppercase (capital) letter."
+    ],
+    "checkpointAnswers": {
+      "q1": "26",
+      "q2": "Subject-Verb-Object",
+      "q3": "Good afternoon",
+      "q4": "Teeth touching the bottom lip"
+    },
+    "expectedUnderstanding": "Learners should identify English letters, pronounce V vs W correctly, and use context-appropriate greetings."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! You have successfully completed your first English lesson. You've mastered the basics of the alphabet and greetings.",
+    "onFail": "Don't worry, English takes real practice! Please review the sections on tricky letters and try the questions again.",
+    "onPartial": "Good effort! Check your incorrect answers and re-read the sections on pronunciation rules."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b1/lesson/native_lesson_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b1/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m1/b1/lesson/sample_greetings.mp3",
+    "slowAudio": "audio/en_hi/m1/b1/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m1/b1/lesson/normal_lesson.mp3",
+    "audioTranscript": "A, B, C, D... Good morning. How are you? Have a good day.",
+    "audioLanguage": "en",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["alphabet", "phonics", "greetings", "beginner", "month1", "block1", "svo"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b1/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember: V is 'वी' with teeth touching the lip, W is 'डब्लू' with a round mouth. Greetings rely strictly on the time on the clock.",
+  "commonMistakes": [
+    "Saying 'V' and 'W' with the exact same 'व' sound.",
+    "Saying 'Good night' as a greeting instead of a goodbye.",
+    "Forgetting to capitalize the first letter of a sentence."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B1_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "The English Alphabet & Core Greetings",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Breaking the Habit: SVO vs SOV",
+      "bodyText": "अंग्रेजी सीखने में सबसे बड़ा बदलाव वाक्यों की संरचना (Sentence Structure) का है। हिंदी में हम Subject (कर्ता) - Object (कर्म) - Verb (क्रिया) का उपयोग करते हैं। उदाहरण: 'मैं सेब खाता हूँ'। लेकिन अंग्रेजी में हम Subject - Verb - Object का उपयोग करते हैं। यानी क्रिया बीच में आती है। यह सबसे महत्वपूर्ण नियम है!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I eat an apple.",
+          "transliteration": "आई ईट ऐन ऐपल।",
+          "baseTranslation": "मैं सेब खाता हूँ। (मैं खाता हूँ सेब)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The 26 Letters of the English Alphabet",
+      "bodyText": "अंग्रेजी वर्णमाला में 26 अक्षर (Alphabets) होते हैं। हिंदी वर्णमाला (जहाँ 52 अक्षर होते हैं) की तुलना में यह बहुत छोटी है। अंग्रेजी में हर अक्षर हमेशा एक ही ध्वनि (sound) नहीं देता, जो इसे थोड़ा भ्रमित करने वाला बनाता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "A B C D E",
+          "transliteration": "ए बी सी डी ई",
+          "baseTranslation": "अंग्रेजी वर्णमाला के पहले 5 अक्षर",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Capital and Small Letters (बड़े और छोटे अक्षर)",
+      "bodyText": "हिंदी के विपरीत, अंग्रेजी में हर अक्षर के दो रूप होते हैं: Capital Letters (A, B, C) और Small Letters (a, b, c)। वाक्य का पहला अक्षर और किसी भी व्यक्ति या जगह का नाम हमेशा Capital Letter से शुरू होता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "My name is Rahul.",
+          "transliteration": "माई नेम इज़ राहुल।",
+          "baseTranslation": "मेरा नाम राहुल है।",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "The Vowels (स्वरों) of English",
+      "bodyText": "अंग्रेजी में केवल 5 Vowels (स्वर) होते हैं: A, E, I, O, U। बाकी 21 अक्षरों को Consonants (व्यंजन) कहा जाता है। मजे की बात यह है कि अंग्रेजी के शब्द बिना स्वर के नहीं बन सकते, लेकिन इन 5 अक्षरों की दर्जनों अलग-अलग ध्वनियाँ हो सकती हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Apple",
+          "transliteration": "ऐपल",
+          "baseTranslation": "सेब",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "Umbrella",
+          "transliteration": "अम्ब्रेला",
+          "baseTranslation": "छाता",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec5",
+      "sectionTitle": "The Big Difference: 'V' vs 'W'",
+      "bodyText": "हिंदी बोलने वालों के लिए 'V' और 'W' सबसे चुनौतीपूर्ण हैं क्योंकि हिंदी में हम दोनों के लिए केवल 'व' का इस्तेमाल करते हैं। अंग्रेजी में, 'V' बोलने के लिए अपने ऊपर के दांतों को निचले होंठ से छुआएँ (जैसे 'Van')। 'W' बोलने के लिए, अपने होंठों को गोल करें जैसे आप सीटी बजा रहे हों (जैसे 'Water')।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Very good water.",
+          "transliteration": "वेरी गुड वाटर।",
+          "baseTranslation": "बहुत अच्छा पानी।",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec6",
+      "sectionTitle": "The 'Th' Sound (द और थ)",
+      "bodyText": "अंग्रेजी में 'Th' की दो अलग-अलग ध्वनियाँ होती हैं। एक ध्वनि हिंदी के 'द' (Da) के करीब है, जैसे कि 'The' या 'This'। दूसरी ध्वनि 'थ' (Tha) के करीब है, जैसे कि 'Thank you' या 'Think'।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Thank you for this.",
+          "transliteration": "थैंक यू फॉर दिस।",
+          "baseTranslation": "इसके लिए धन्यवाद।",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec7",
+      "sectionTitle": "Time-of-Day Greetings (समय के अनुसार अभिवादन)",
+      "bodyText": "अंग्रेजी में, दिन के समय के आधार पर अभिवादन बदल जाता है। दोपहर 12 बजे तक 'Good morning' कहें। दोपहर 12 बजे से शाम 5 बजे तक 'Good afternoon' कहें। शाम 5 बजे के बाद 'Good evening' कहें। ध्यान दें: 'Good night' केवल तब कहा जाता है जब आप सो रहे हों या पार्टी से जा रहे हों, मिलते समय कभी नहीं!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Good morning, teacher.",
+          "transliteration": "गुड मॉर्निंग, टीचर।",
+          "baseTranslation": "शुभ प्रभात / नमस्ते, शिक्षक।",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "Good evening, sir.",
+          "transliteration": "गुड ईवनिंग, सर।",
+          "baseTranslation": "शुभ संध्या, सर।",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec8",
+      "sectionTitle": "Informal Greetings (अनौपचारिक अभिवादन)",
+      "bodyText": "दोस्तों और परिवार के साथ, आप अधिक अनौपचारिक शब्दों का उपयोग कर सकते हैं। 'Hi', 'Hello', और 'Hey' बहुत सामान्य हैं। इसके बाद आप अक्सर पूछ सकते हैं 'How are you?' (आप कैसे हैं?)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Hello! How are you?",
+          "transliteration": "हेलो! हाउ आर यू?",
+          "baseTranslation": "नमस्ते! आप कैसे हैं?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec9",
+      "sectionTitle": "Farewells (विदा लेना)",
+      "bodyText": "जब बातचीत समाप्त हो जाए, तो 'Goodbye' या बस 'Bye' कहना मानक है। यदि आप उन्हें फिर से देखने की उम्मीद करते हैं, तो 'See you later' कहें। शिष्टाचार दिखाने के लिए 'Take care' (अपना ख्याल रखना) भी बहुत लोकप्रिय है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Goodbye, take care.",
+          "transliteration": "गुडबाय, टेक केयर।",
+          "baseTranslation": "अलविदा, अपना ख्याल रखना।",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "By the end of this dense lesson, learners will confidently recognize all 26 English letters, understand SVO structure, correctly distinguish V and W sounds, and confidently perform context-accurate greetings.",
+  "examples": [
+    {
+      "targetText": "I go to school.",
+      "transliteration": "आई गो टू स्कूल।",
+      "baseTranslation": "मैं स्कूल जाता हूँ।",
+      "explanation": "This demonstrates the Subject-Verb-Object rule, where 'go' comes exactly in the middle."
+    },
+    {
+      "targetText": "Good night, sleep well.",
+      "transliteration": "गुड नाईट, स्लीप वेल।",
+      "baseTranslation": "शुभ रात्रि, अच्छे से सोएं।",
+      "explanation": "This demonstrates that 'Good night' is only used as a farewell, never as a greeting upon first meeting someone in the dark."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Always capitalize the pronoun 'I' no matter where it is in the sentence.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Never use 'Good night' when arriving at an evening event, only use it when departing.",
+      "exceptionNotes": "Say 'Good evening' when arriving, even if it is 11:00 PM."
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "The V sound requires the top teeth to touch the bottom lip. The W sound requires rounded lips only.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "In English-speaking countries, making brief eye contact when greeting someone is a sign of respect and confidence. Shaking hands is the traditional professional greeting, unlike the Namaste gesture in India.",
+    "dosList": [
+      "Smile gently when saying Good morning.",
+      "Make brief eye contact when greeting.",
+      "Use 'Hi' or 'Hello' with friends, and 'Good morning/afternoon' in professional settings."
+    ],
+    "dontsList": [
+      "Do not look down when shaking hands.",
+      "Do not say 'Good night' when entering a restaurant for dinner."
+    ]
+  },
+  "summary": "English uses a Subject-Verb-Object structure, which is completely reversed from Hindi's SOV structure. The 26-letter alphabet uses uppercase and lowercase letters. Crucially, mastering unique phonetic sounds like 'V', 'W', and 'Th' requires active tongue and lip placement changes. Proper greetings like Good morning, afternoon, and evening depend on the clock.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "How many letters are in the English alphabet?",
+      "expectedAnswer": "26"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What sentence structure does English use?",
+      "expectedAnswer": "Subject-Verb-Object"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What formal greeting should you use at 3:00 PM?",
+      "expectedAnswer": "Good afternoon"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "When pronouncing 'V', where should your top teeth be?",
+      "expectedAnswer": "Touching the bottom lip"
+    }
+  ]
+}

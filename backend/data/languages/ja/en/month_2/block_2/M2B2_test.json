@@ -1,0 +1,244 @@
+{
+  "activityId": "en_ja_M2B2_test_8",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Test: Now and Future",
+  "learningGoal": "Evaluate your understanding of present continuous (be + ing) and future tenses (will / be going to).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B2_speaking_7"
+  ],
+  "instructions": "Month 2 Block 2 のテストです。現在進行形（今していること）と、未来を表す will と be going to の使い分けに関する問題に答えてください。(This is the Block 2 test. Answer questions about the present continuous and future tenses.)",
+  "testTitle": "Tense Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Present Continuous (現在進行形)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「私は今、朝食を食べています」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I eating breakfast now.",
+            "I am eat breakfast now.",
+            "I am eating breakfast now.",
+            "I eat breakfast right now."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'Ken ________ watching TV right now.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "do"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "英語で「東京に住んでいる」と言う時、正しいのはどちらですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I live in Tokyo.",
+            "I am living in Tokyo.",
+            "I living in Tokyo.",
+            "I will living in Tokyo."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Future Tense (未来形)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「私は明日、あなたに電話します」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I will calling you tomorrow.",
+            "I am call you tomorrow.",
+            "I will call you tomorrow.",
+            "I will called you tomorrow."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "Fill in the blank: 'We ________ going to visit Kyoto next week.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "will",
+            "are",
+            "do",
+            "is"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「牛乳がない！私が買いに行くよ（その場で決めた）」に最も適しているのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am going to buy it.",
+            "I will buy it.",
+            "I am buying it.",
+            "I buy it."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary and Spelling",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「will not」の短縮形として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "willn't",
+            "won't",
+            "want",
+            "don't"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「right now」の意味として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "後で",
+            "明日",
+            "今まさに",
+            "いつも"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「tonight」の意味として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "今夜",
+            "明日",
+            "来週",
+            "今日"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am will eat sushi tonight.",
+            "I will eating sushi tonight.",
+            "I am going to eat sushi tonight.",
+            "I going to eat sushi tonight."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "I am eating breakfast now.",
+      "q2": "is",
+      "q3": "I live in Tokyo.",
+      "q4": "I will call you tomorrow.",
+      "q5": "are",
+      "q6": "I will buy it.",
+      "q7": "won't",
+      "q8": "今まさに",
+      "q9": "今夜",
+      "q10": "I am going to eat sushi tonight."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！現在進行形と未来形を完全にマスターしましたね！",
+    "onFail": "もう一度復習しましょう。進行形（be + ing）と未来形（will / be going to + 動詞の原形）の形を混同しないように気をつけてください。",
+    "onPartial": "よくできました。「live」や「know」などの状態を表す動詞は ing にしないという点と、will not が won't になる点をもう一度確認してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_2",
+    "present_continuous",
+    "future_tense"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read carefully: 'I am' must be followed by an '-ing' word or 'going to'. 'will' must be followed by a base verb.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

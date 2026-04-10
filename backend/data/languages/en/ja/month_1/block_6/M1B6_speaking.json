@@ -1,0 +1,179 @@
+{
+  "activityId": "ja_en_M1B6_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Daily Plans and Particles",
+  "learningGoal": "The learner will verbally construct complete sentences using verbs and the wo/ni/de particles to describe their daily schedule.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B6_lesson_001",
+    "ja_en_M1B6_vocabulary_001"
+  ],
+  "instructions": "Your friend is asking about your plans for today. Reply verbally in Japanese by translating the provided prompts. Pay close attention to using the correct particle for time (ni), destination (ni), and location of action (de).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Speak clearly and confidently. Make sure your verbs end with a polite '~masu'."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) I go to school at 8 o'clock. 2) I read a book at the cafe. 3) I return home at 5 o'clock.",
+  "scenario": "Walking to the train station with a friend, discussing your plans.",
+  "role": "Student",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Say: 'I go to school at 8 o'clock.'",
+      "expectedSpeakingPoints": [
+        "Use hachi-ji ni",
+        "Use gakkou ni",
+        "Use ikimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "はちじに がっこうに いきます。",
+        "transliteration": "Hachi-ji ni gakkou ni ikimasu.",
+        "baseTranslation": "I go to school at 8 o'clock."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Say: 'I read a book at the cafe.'",
+      "expectedSpeakingPoints": [
+        "Use kafe de",
+        "Use hon wo",
+        "Use yomimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "カフェで ほんを よみます。",
+        "transliteration": "Kafe de hon wo yomimasu.",
+        "baseTranslation": "I read a book at the cafe."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Say: 'I return home at 5 o'clock.'",
+      "expectedSpeakingPoints": [
+        "Use go-ji ni",
+        "Use uchi ni (or e)",
+        "Use kaerimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ごじに うちに かえります。",
+        "transliteration": "Go-ji ni uchi ni kaerimasu.",
+        "baseTranslation": "I return home at 5 o'clock."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "きょうは なにを しますか。",
+    "transliteration": "Kyou wa nani wo shimasu ka.",
+    "baseTranslation": "What will you do today?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "はちじに がっこうに いきます。",
+      "transliteration": "Hachi-ji ni gakkou ni ikimasu.",
+      "baseTranslation": "I go to school at 8 o'clock."
+    },
+    {
+      "targetText": "カフェで ほんを よみます。",
+      "transliteration": "Kafe de hon wo yomimasu.",
+      "baseTranslation": "I read a book at the cafe."
+    },
+    {
+      "targetText": "ごじに うちに かえります。",
+      "transliteration": "Go-ji ni uchi ni kaerimasu.",
+      "baseTranslation": "I return home at 5 o'clock."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Hachi-ji ni gakkou ni ikimasu",
+      "Say Kafe de hon wo yomimasu",
+      "Say Go-ji ni uchi ni kaerimasu"
+    ],
+    "requiredKeywords": [
+      "いきます",
+      "よみます",
+      "かえります",
+      "に",
+      "で",
+      "を"
+    ],
+    "acceptableParaphrases": [
+      "Using 'Watashi wa' at the start is acceptable but not required.",
+      "Using 'Uchi e' instead of 'Uchi ni' is perfectly fine."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Particle Accuracy",
+          "weight": 60,
+          "description": "Did the learner use 'de' for the cafe, 'wo' for the book, and 'ni' for times/destinations?"
+        },
+        {
+          "name": "Verb Placement",
+          "weight": 40,
+          "description": "Did the learner put the verbs at the end of the sentence?"
+        }
+      ]
+    },
+    "sampleAnswer": "はちじに がっこうに いきます。カフェで ほんを よみます。ごじに うちに かえります。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You confidently built complex Japanese sentences with correct particles.",
+    "onFail": "Make sure you use 'de' for reading AT the cafe, not 'ni'.",
+    "onPartial": "Good effort! Remember to fully pronounce the 'wo' particle (as 'o') after the noun."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b6/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m1/b6/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "きょうは なにを しますか。はちじに がっこうに いきます。カフェで ほんを よみます。ごじに うちに かえります。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "verbs",
+    "particles",
+    "roleplay",
+    "beginner",
+    "month1",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus strictly on the particles. Time + ni. Destination + ni. Location + de. Object + wo.",
+  "commonMistakes": [
+    "Saying 'Kafe ni hon wo yomimasu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

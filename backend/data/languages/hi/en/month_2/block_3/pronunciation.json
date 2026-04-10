@@ -1,0 +1,237 @@
+{
+  "activityId": "en_hi_M2B3_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "The Three Sounds of '-ED'",
+  "learningGoal": "The learner will master the three distinct phonetic realizations of the regular past tense '-ed' suffix (/t/, /d/, /ɪd/), eliminating the common L1 interference of pronouncing every suffix as a heavy /ed/ syllable.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B3_lesson_001"],
+  "instructions": "In English, the letters '-ED' at the end of a past word can trick you! It DOES NOT always sound like 'एड' (-ed). Sometimes it sounds like a sharp 'T' (Walk-T). Sometimes it sounds like a soft 'D' (Play-D). It only sounds like an extra syllable 'ID' if the word already ends in a T or D! Listen carefully.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL: Do not say 'Play-Ed'. Say it as one beat: 'Playd'."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "I played",
+      "transliteration": "आई प्लेड",
+      "baseTranslation": "मैंने खेला",
+      "phoneticHint": "The ED makes a soft 'D' sound. Do NOT add a new syllable (Play-ed is wrong). Just 'Playd'.",
+      "syllableSplit": "I PLAYD",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Play-ed' with two syllables."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "She cleaned",
+      "transliteration": "शी क्लींड",
+      "baseTranslation": "उसने साफ किया",
+      "phoneticHint": "Soft 'D' sound. 'Cleend'.",
+      "syllableSplit": "She CLEEND",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Clean-ed'."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "They loved",
+      "transliteration": "दे लवड",
+      "baseTranslation": "उन्होंने प्यार किया",
+      "phoneticHint": "Soft 'D' sound. 'Luhv-d'.",
+      "syllableSplit": "They LUHVD",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p04",
+      "targetText": "He walked",
+      "transliteration": "ही वाक्ट",
+      "baseTranslation": "वह चला",
+      "phoneticHint": "Because 'Walk' ends in a sharp K, the ED turns into a sharp 'T' sound. 'Wawkt'.",
+      "syllableSplit": "He WAWKT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Walk-ed' or 'Walk-uhd'."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "I washed",
+      "transliteration": "आई वाष्ट",
+      "baseTranslation": "मैंने धोया",
+      "phoneticHint": "Sharp 'T' sound! 'Wash-t'.",
+      "syllableSplit": "I WASHT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Wash-ed'."
+    },
+    {
+      "itemId": "p06",
+      "targetText": "She watched",
+      "transliteration": "शी वाच्ड",
+      "baseTranslation": "उसने देखा",
+      "phoneticHint": "Sharp 'T' sound. 'Watch-t'.",
+      "syllableSplit": "She WATCHT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p07",
+      "targetText": "He jumped",
+      "transliteration": "ही जम्प्ट",
+      "baseTranslation": "वह कूदा",
+      "phoneticHint": "Sharp 'T' sound. 'Jump-t'.",
+      "syllableSplit": "He JUMPT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "I worked",
+      "transliteration": "आई वर्क्ट",
+      "baseTranslation": "मैंने काम किया",
+      "phoneticHint": "Sharp 'T' sound. 'Work-t'.",
+      "syllableSplit": "I WORKT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Work-ed'."
+    },
+    {
+      "itemId": "p09",
+      "targetText": "I wanted",
+      "transliteration": "आई वान्टेड",
+      "baseTranslation": "मैं चाहता था",
+      "phoneticHint": "EXTRA SYLLABLE! Because 'Want' ends in a T, you actually DO add a new syllable here. 'Want-id'.",
+      "syllableSplit": "I WANT-id",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Failing to drop the jaw for the 'id' sound."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "He needed",
+      "transliteration": "ही नीडेड",
+      "baseTranslation": "उसे ज़रुरत थी",
+      "phoneticHint": "EXTRA SYLLABLE! 'Need-id'.",
+      "syllableSplit": "He NEED-id",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p11",
+      "targetText": "They waited",
+      "transliteration": "दे वेटेड",
+      "baseTranslation": "उन्होंने इंतज़ार किया",
+      "phoneticHint": "EXTRA SYLLABLE! 'Wait-id'.",
+      "syllableSplit": "They WAIT-id",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p12",
+      "targetText": "I went",
+      "transliteration": "आई वेंट",
+      "baseTranslation": "मैं गया",
+      "phoneticHint": "Irregular! 'Went'.",
+      "syllableSplit": "I WENT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p13",
+      "targetText": "She ate",
+      "transliteration": "शी एट",
+      "baseTranslation": "उसने खाया",
+      "phoneticHint": "Irregular! Sounds exactly like the number 8.",
+      "syllableSplit": "She ATE",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Eated'."
+    },
+    {
+      "itemId": "p14",
+      "targetText": "He saw",
+      "transliteration": "ही सॉ",
+      "baseTranslation": "उसने देखा",
+      "phoneticHint": "Irregular! Jaw drops for 'Aw'.",
+      "syllableSplit": "He SAW",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p15",
+      "targetText": "I ran",
+      "transliteration": "आई रैन",
+      "baseTranslation": "मैं दौड़ा",
+      "phoneticHint": "Irregular! Sharp 'A' like in 'apple'.",
+      "syllableSplit": "I RAN",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "I played He walked I wanted",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Awesome! You perfectly navigated the three traps of the '-ED' sound, and didn't fall into the habit of stretching out words like 'Worked' into two syllables.",
+    "onFail": "Keep practicing! Listen carefully to 'Walked'. Do NOT say 'Walk-ed'. Say 'WawkT'. It is one fast sound.",
+    "onPartial": "Good effort! Remember, ONLY add an extra syllable if the word originally ends in a T or D (like Want -> Wanted, Need -> Needed)."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "i played she cleaned they loved he walked i washed she watched he jumped i worked i wanted he needed they waited i went she ate he saw i ran",
+    "acceptedVariants": [
+      "i played she cleaned they loved he walked i washed she watched he jumped i worked i wanted he needed they waited i went she ate he saw i ran"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Syllabic reduction on non-coronal consonant stems (walked -> /wɔ:kt/). Full syllabification only on /t, d/ stems (wanted -> /wɒntɪd/).",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b3/pronunciation/native_past.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m2/b3/pronunciation/slow_past.mp3",
+    "normalAudio": "audio/en_hi/m2/b3/pronunciation/native_past.mp3",
+    "audioTranscript": "I play-d. He walk-t. I want-id.",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "simple_past", "ed_suffix", "irregular_verbs", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b3/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To train your brain, hiss like a snake at the end of 'Walked': Wawk... T!",
+  "commonMistakes": [
+    "Dropping the past tense suffix entirely (I walk yesterday).",
+    "Over-syllabifying (I work-ed yesterday)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B3_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

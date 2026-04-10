@@ -1,0 +1,383 @@
+{
+  "activityId": "en_hi_M3B6_test_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "The Final 3-Month Mega Assessment",
+  "learningGoal": "The learner will demonstrate comprehensive terminal mastery of the 90-day curriculum, structurally isolating L1 interference and successfully outputting English SVO syntax, advanced auxiliaries, and idiomatic survival vocabulary.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "en_hi_M3B6_lesson_001",
+    "en_hi_M3B6_pronunciation_001",
+    "en_hi_M3B6_reading_001",
+    "en_hi_M3B6_writing_001",
+    "en_hi_M3B6_listening_001",
+    "en_hi_M3B6_vocabulary_001",
+    "en_hi_M3B6_speaking_001"
+  ],
+  "instructions": "This is it! The Ultimate 90-Day Mega Assessment! This giant test covers everything you have learned over the last 3 months. Grammar, Spelling, Polite English, Emergencies, and Tenses. Take a deep breath. You need 80/100 to earn your Final Certificate!",
+  "testTitle": "Final 3-Month Mega Assessment",
+  "testScope": "final_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing", "listening", "speaking"],
+  "testInstructions": "Complete all 4 master sections. You need a total of 80/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar_svo",
+      "sectionTitle": "Phase 1: The SVO Foundation & Basic Be Verbs",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Rearrange into correct English SVO order: [ eating / I / an apple / am ]",
+          "questionType": "multiple_choice",
+          "options": ["I an apple am eating.", "I am eating an apple.", "Am eating I an apple."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "How do you translate 'मैं डॉक्टर हूँ'? (Do NOT forget the article!)",
+          "questionType": "multiple_choice",
+          "options": ["I am doctor.", "I doctor am.", "I am a doctor."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Fill in the correct 'Be' verb: They _____ watching a movie right now.",
+          "questionType": "multiple_choice",
+          "options": ["is", "am", "are"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Translate to English: 'यह मेरी बिल्ली है।'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "This is my cat.",
+            "transliteration": "दिस इज़ माई कैट।",
+            "baseTranslation": "यह मेरी बिल्ली है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "Complete the negative sentence: I _____ not like big cities.",
+          "questionType": "multiple_choice",
+          "options": ["does", "do", "am"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_advanced_tenses",
+      "sectionTitle": "Phase 2: The Timeline (Past, Perfect, Future)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Translate to English: 'क्या आप कल काम पर गए थे?' (Did...)",
+          "questionType": "multiple_choice",
+          "options": ["Did you go to work yesterday?", "Are you go to work yesterday?", "Did you went to work yesterday?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "Write the Irregular Past tense of 'Go'. (गया)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which sentence uses the Present Perfect to talk about life experiences correctly?",
+          "questionType": "multiple_choice",
+          "options": ["I did seen London.", "I have been to London.", "I was go to London."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "What strict Modal verb means it is absolutely necessary (100% required)?",
+          "questionType": "multiple_choice",
+          "options": ["Can", "Should", "Must"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Fill in the blank for the Future: I ____ buy a new car next year. (गा/गी/गे)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab_phrasals",
+      "sectionTitle": "Phase 3: Survival Vocab & Phrasal Verbs",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "What is the polite, native way to say 'I want food' in a restaurant?",
+          "questionType": "multiple_choice",
+          "options": ["I require food.", "Give me food.", "I would like some food."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "What native Phrasal Verb is used instead of 'Open the TV / Light'?",
+          "questionType": "multiple_choice",
+          "options": ["Start up", "Turn on", "Give out"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "If your car stops working on the road, it ________ (खराब होना).",
+          "questionType": "multiple_choice",
+          "options": ["Breaks down", "Turns off", "Picks up"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Identify the word for 'उड़ान' (Flight).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Flight",
+            "transliteration": "फ्लाइट",
+            "baseTranslation": "उड़ान"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Write the English word for 'दवाखाना / मेडिकल स्टोर'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Pharmacy",
+            "transliteration": "फार्मेसी",
+            "baseTranslation": "दवाखाना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_putting_it_together",
+      "sectionTitle": "Phase 4: Flawless Production",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Fix this severe grammar mistake: 'My head is paining.' (Use 'Have')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have a headache.",
+            "transliteration": "आई हैव अ हेडेक।",
+            "baseTranslation": "मेरे सिर में दर्द है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Fix this severe grammar mistake: 'I am go to store yesterday.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I went to the store yesterday.",
+            "transliteration": "आई वेंट टू द स्टोर यस्टरडे।",
+            "baseTranslation": "मैं कल स्टोर गया था।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Fix this severe grammar mistake: 'He does not speaks English.'",
+          "questionType": "multiple_choice",
+          "options": ["He do not speaks English.", "He does not speak English.", "He not speak English."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'मुझे डॉक्टर को दिखाने की ज़रूरत है।' (4 words)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I need to see a doctor.",
+            "transliteration": "आई नीड टू सी अ डॉक्टर।",
+            "baseTranslation": "मुझे डॉक्टर को दिखाने की ज़रूरत है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Are you ready to speak English in the real world?",
+          "questionType": "multiple_choice",
+          "options": ["Yes, I am ready!", "No", "Maybe"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 0,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 50,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "I am eating an apple.",
+      "q002": "I am a doctor.",
+      "q003": "are",
+      "q004": "This is my cat.",
+      "q005": "do",
+      "q006": "Did you go to work yesterday?",
+      "q007": "went",
+      "q008": "I have been to London.",
+      "q009": "Must",
+      "q010": "will",
+      "q011": "I would like some food.",
+      "q012": "Turn on",
+      "q013": "Breaks down",
+      "q014": "Flight",
+      "q015": "Pharmacy",
+      "q016": "I have a headache.",
+      "q017": "I went to the store yesterday.",
+      "q018": "He does not speak English.",
+      "q019": "I need to see a doctor.",
+      "q020": "Yes, I am ready!"
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'paining' is used. Zero tolerance for Hindi syntactical progression mapping.",
+      "q017": "Total zero if 'goed' or 'am go' is used."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q004": ["This is my cat", "this is my cat"],
+      "q007": ["went", "Went"],
+      "q010": ["will", "Will"],
+      "q014": ["flight", "Flight", "a flight"],
+      "q015": ["pharmacy", "Pharmacy", "the pharmacy"],
+      "q016": ["I have a headache", "i have a headache"],
+      "q017": ["I went to the store yesterday", "i went to the store yesterday"],
+      "q019": ["I need to see a doctor", "I need to see a doctor.", "i need to see a doctor"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar_svo": 15,
+      "sec_advanced_tenses": 15,
+      "sec_vocab_phrasals": 15,
+      "sec_putting_it_together": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! YOU DID IT! You have successfully passed the 3-Month English Master Course! You proved that you understand SVO structure, you do not translate literally from Hindi, and you can switch between past, present, and future perfectly. You are amazing!",
+    "onFail": "Do not give up! This is the hardest test in the entire system. Look at the questions you missed. Did you mistranslate Medical phrases? Did you forget the irregular verbs (Go -> Went)? Study those areas and take the test again. You can do this!",
+    "onPartial": "Almost there. Check Phase 2 (Tenses). Remember: 'Did you GO', not 'Did you went'. When 'Did' is in the sentence, the main verb stays normal!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This is it. The Final Mega Assessment. Take your time, read carefully, and think in English.",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "capstone", "final_exam", "graduation", "grammar", "vocabulary", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [],
+  "attemptLimit": 999,
+  "metadata": {
+    "isFinalExam": true
+  }
+}

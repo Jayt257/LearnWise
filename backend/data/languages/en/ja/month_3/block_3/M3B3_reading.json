@@ -1,0 +1,236 @@
+{
+  "activityId": "ja_en_M3B3_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "My Terrible Day",
+  "learningGoal": "The learner will read a short diary entry to identify instances of the causative-passive form and determine who was forced to do what by whom.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B3_lesson_001",
+    "ja_en_M3B3_vocabulary_001"
+  ],
+  "instructions": "Read this short diary entry written by a very tired salaryman. Pay attention to the particle 'ni', which indicates the person who forced him to do things.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: The causative-passive (saserareru / asareru) is the ultimate form for complaining about what you had to do."
+    }
+  ],
+  "readingTitle": "A Very Tired Salaryman",
+  "readingText": "きのうは さいあくな ひ でした。\nわたしは ぶちょうに ざんぎょうを させられました。\nよる、ともだちに さけを のまされました。\nそして、きょう、ははに やさいを たべさせられました。\nとても つかれました。",
+  "textInTargetLanguage": "きのうは さいあくな ひ でした。\nわたしは ぶちょうに ざんぎょうを させられました。\nよる、ともだちに さけを のまされました。\nそして、きょう、ははに やさいを たべさせられました。\nとても つかれました。",
+  "baseLanguageSupportText": "Yesterday was the worst day. I was forced to do overtime by the boss. At night, I was forced to drink alcohol by a friend. And today, I was forced to eat vegetables by my mother. I am very tired.",
+  "glossary": [
+    {
+      "targetText": "さいあくな",
+      "transliteration": "Saiaku na",
+      "baseTranslation": "The worst",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ひ",
+      "transliteration": "Hi",
+      "baseTranslation": "Day",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "させられました",
+      "transliteration": "Saseraremashita",
+      "baseTranslation": "Was forced to do",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "よる",
+      "transliteration": "Yoru",
+      "baseTranslation": "Night / Evening",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "さけ",
+      "transliteration": "Sake",
+      "baseTranslation": "Alcohol",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "のまされました",
+      "transliteration": "Nomasaremashita",
+      "baseTranslation": "Was forced to drink",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "そして",
+      "transliteration": "Soshite",
+      "baseTranslation": "And",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "きょう",
+      "transliteration": "Kyou",
+      "baseTranslation": "Today",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "たべさせられました",
+      "transliteration": "Tabesaseraremashita",
+      "baseTranslation": "Was forced to eat",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "つかれました",
+      "transliteration": "Tsukaremashita",
+      "baseTranslation": "Am tired / Got tired",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "わたしは ぶちょうに ざんぎょうを させられました。",
+      "transliteration": "Watashi wa buchou ni zangyou wo saseraremashita.",
+      "baseTranslation": "I was forced to do overtime by the boss."
+    },
+    {
+      "targetText": "よる、ともだちに さけを のまされました。",
+      "transliteration": "Yoru, tomodachi ni sake wo nomasaremashita.",
+      "baseTranslation": "At night, I was forced to drink alcohol by a friend."
+    },
+    {
+      "targetText": "ははに やさいを たべさせられました。",
+      "transliteration": "Haha ni yasai wo tabesaseraremashita.",
+      "baseTranslation": "I was forced to eat vegetables by my mother."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "Who forced the writer to do overtime?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Their mother",
+        "The boss",
+        "A friend",
+        "No one"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What did the friend force the writer to do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Do overtime",
+        "Eat vegetables",
+        "Drink alcohol",
+        "Go to the bank"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What did the mother force the writer to do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Do overtime",
+        "Eat vegetables",
+        "Drink alcohol",
+        "Clean the house"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What grammatical form is 'nomasaremashita'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Causative (Made someone drink)",
+        "Passive (Was drunk)",
+        "Causative-Passive (Was forced to drink)",
+        "Potential (Can drink)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the word meaning 'overtime work'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "The boss",
+      "q002": "Drink alcohol",
+      "q003": "Eat vegetables",
+      "q004": "Causative-Passive (Was forced to drink)",
+      "q005": "zangyou"
+    },
+    "acceptableParaphrases": {
+      "q005": ["zangyou", "Zangyou"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The boss forced him to do overtime.",
+      "A friend forced him to drink.",
+      "His mother forced him to eat vegetables."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading! You successfully navigated a series of complex causative-passive sentences.",
+    "onFail": "Review the use of the particle 'ni'. In causative-passive sentences, 'ni' marks the person who is doing the forcing.",
+    "onPartial": "Good effort. Notice how the 'I was forced' subject ('Watashi wa') is only stated once and then implied for the rest of the text."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b3/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b3/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b3/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m3/b3/reading/normal_reading.mp3",
+    "audioTranscript": "きのうは さいあくな ひ でした。わたしは ぶちょうに ざんぎょうを させられました。よる、ともだちに さけを のまされました。そして、きょう、ははに やさいを たべさせられました。とても つかれました。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "causative-passive",
+    "complaining",
+    "advanced",
+    "month3",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at 'nomasaremashita'. It is the short causative-passive form of 'nomu' (to drink).",
+  "commonMistakes": [
+    "Thinking the writer forced their friend to drink (reading it as causative instead of causative-passive)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B3_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

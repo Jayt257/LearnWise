@@ -1,0 +1,204 @@
+{
+  "activityId": "en_hi_M3B1_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "Can, Should, and Must",
+  "learningGoal": "The learner will successfully map semantic concepts of ability (सकना), advisability (चाहिए), and strict obligation (ज़रूरी) onto English modal auxiliaries ('Can', 'Should', 'Must') while adhering strictly to the base infinitive verb rule.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B6_test_001"],
+  "instructions": "Welcome to Month 3! We are going to learn three of the most powerful words in English: Can, Should, and Must. Just like the word 'Will', these three words act like a SHIELD. Action verbs stay perfectly clean after them. No 'ing'. No 'ed'. No 's'. Read the rules carefully!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अंग्रेजी में 'Can', 'Should', और 'Must' बहुत ही जादुई शब्द हैं। वे हमें कुछ नया करने की शक्ति देते हैं: 'मैं कर सकता हूँ' (Can), 'मुझे करना चाहिए' (Should), और 'मुझे जरूर करना है' (Must)।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "'Can' communicates capability or permission (सकना).",
+      "'Should' communicates advice or mild suggestion (चाहिए).",
+      "'Must' communicates absolute rules, law, or urgent obligation (ज़रूरी).",
+      "All three modal verbs reject 'to' and all morphological suffixes on the subsequent main verb."
+    ],
+    "conceptSummary": "Introduction to the primary modal auxiliaries, cementing the syntactic rule that modals require a bare infinitive compliment, addressing negative L1 transfer involving 'chahiye' mismatches.",
+    "importantFacts": [
+      "Saying 'I can to swim' is a very common mistake. Never use 'to' after Can, Should, or Must. Just say 'I can swim'.",
+      "'Should' is for good ideas. 'Must' is for the law."
+    ],
+    "checkpointAnswers": {
+      "q1": "False",
+      "q2": "Should",
+      "q3": "Can",
+      "q4": "You must stop."
+    },
+    "expectedUnderstanding": "Learners will map Hindi modal concepts cleanly to English modal auxiliaries, preventing the intrusion of the 'to' particle and verb infection."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand exactly when to use Can (power), Should (advice), and Must (rules). And you kept your verbs perfectly clean!",
+    "onFail": "Please review carefully! A very common mistake is saying 'I must to go'. This is wrong! The rule is: Modal + Clean Verb. 'I must go'. Never add 'to'!",
+    "onPartial": "Good effort! Watch out for the difference between Should and Must. 'Should' means it's a good idea. 'Must' means you have no choice!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b1/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b1/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m3/b1/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m3/b1/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m3/b1/lesson/native_lesson.mp3",
+    "audioTranscript": "I can swim. You should sleep. We must stop.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "modals", "can", "should", "must", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b1/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Can = 'सकता हूँ'. Should = 'चाहिए'. Must = 'ज़रूरी'. They all destroy verb suffixes!",
+  "commonMistakes": [
+    "Saying 'I can to play'.",
+    "Saying 'She should drives'.",
+    "Confusing 'chahiye' (should) with wanting an object ('I should water' instead of 'I want water')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "The Power Words: Modals",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "The Golden Barrier Rule (स्वर्ण नियम)",
+      "bodyText": "जैसे 'Will' क्रियाओं की रक्षा करता है, वैसे ही Can, Should, और Must भी करते हैं। उनके बाद क्रिया हमेशा अपने मूल, पूर्ण रूप में 'स्वच्छ' होनी चाहिए। कोई '-ing' नहीं, कोई '-ed' नहीं, और 'to' शब्द का उपयोग कभी न करें!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "WRONG: I can to swim.",
+          "transliteration": "",
+          "baseTranslation": "कभी नहीं! 'can' के बाद 'to' हटा दें।"
+        },
+        {
+          "targetText": "RIGHT: I can swim.",
+          "transliteration": "आई कैन स्विम।",
+          "baseTranslation": "मैं तैर सकता हूँ।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "CAN: Ability and Power (क्षमता: 'सकना')",
+      "bodyText": "जब आप कुछ करने में सक्षम होते हैं, तो आप 'Can' का उपयोग करते हैं। यह शारीरिक क्षमता या अनुमति के लिए है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I can lift this box.",
+          "transliteration": "आई कैन लिफ्ट दिस बॉक्स।",
+          "baseTranslation": "मैं इस डिब्बे को उठा सकता हूँ।"
+        },
+        {
+          "targetText": "You can park your car here.",
+          "transliteration": "यू कैन पार्क योर कार हियर।",
+          "baseTranslation": "आप अपनी कार यहाँ खड़ी कर सकते हैं। (अनुमति)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "SHOULD: Advice (सलाह: 'चाहिए')",
+      "bodyText": "जब आप किसी को सलाह देना चाहते हैं कि उनके लिए क्या करना अच्छा होगा, तो 'Should' का उपयोग करें। यह एक सुझाव है, आदेश नहीं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "You look tired. You should sleep.",
+          "transliteration": "यू लुक टायर्ड। यू शुड स्लीप।",
+          "baseTranslation": "तुम थके हुए लग रहे हो। तुम्हें सोना चाहिए।"
+        },
+        {
+          "targetText": "He should drink water.",
+          "transliteration": "ही शुड ड्रिंक वाटर।",
+          "baseTranslation": "उसे पानी पीना चाहिए।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "MUST: Strong Rules (मजबूत नियम: 'ज़रूरी')",
+      "bodyText": "'Must' बहुत मजबूत है! 'Should' के विपरीत, 'Must' एक विकल्प नहीं है। यह कानून या एक बहुत ही सख्त नियम है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The light is red. You must stop.",
+          "transliteration": "द लाइट इज़ रेड। यू मस्ट स्टॉप।",
+          "baseTranslation": "बत्ती लाल है। तुम्हें (ज़रूर) रुकना होगा।"
+        },
+        {
+          "targetText": "All workers must wash their hands.",
+          "transliteration": "ऑल वर्कर्स मस्ट वॉश देयर हैंड्स।",
+          "baseTranslation": "सभी कर्मचारियों के लिए हाथ धोना अनिवार्य है।"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will encode semantic ability, advisability, and obligation into English modals while eliminating 'to' particle intrusion on infinitives.",
+  "examples": [
+    {
+      "targetText": "She can speak English.",
+      "transliteration": "शी कैन स्पीक इंग्लिश।",
+      "baseTranslation": "वह अंग्रेजी बोल सकती है।",
+      "explanation": "Ability. Note that there is no 's' on speak, even though the subject is 'She'!"
+    },
+    {
+      "targetText": "We must leave now.",
+      "transliteration": "वी मस्ट लीव नाउ।",
+      "baseTranslation": "हमें अभी (ज़रूर) निकलना होगा।",
+      "explanation": "Urgent rule/obligation. Do not say 'must to leave'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use 'to' after Can, Should, or Must.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Never use verb endings (-s, -ed, -ing) after these words. Use the raw verb.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Using 'Must' on a stranger is considered very aggressive in English culture because it sounds like you are acting as their boss or the police. Use 'Should' to give advice politely.",
+    "dosList": ["Use 'Should' when giving friendly advice to coworkers."],
+    "dontsList": ["Do not tell coworkers 'You must do this' unless there is a fire or a real law being broken."]
+  },
+  "summary": "Use CAN when you have the power to do it. Use SHOULD when it is a good idea. Use MUST when it is the law. And ALWAYS keep the action verb right after them 100% clean!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "True or False: Saying 'I should to go home' is correct English.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "If you are giving a sick friend advice to go to the doctor, which word do you use? (Can, Should, Must)",
+      "expectedAnswer": "Should"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If you are very strong and are lifting a heavy box, which word do you use? (Can, Should, Must)",
+      "expectedAnswer": "Can"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate: 'तुम्हें (ज़रूर) रुकना होगा।' (Using Must)",
+      "expectedAnswer": "You must stop."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_en_M2B4_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Permissions and Prohibitions",
+  "learningGoal": "The learner will accurately pronounce the permission phrase '~te mo ii desu ka' and the prohibition phrase '~te wa ikemasen', ensuring the 'wa' particle is correctly voiced.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B4_lesson_001",
+    "ja_en_M2B4_vocabulary_001"
+  ],
+  "instructions": "In this exercise, practice the flow of asking for permission and giving strict commands. The phrase 'wa ikemasen' must be pronounced smoothly, without pausing after the 'te'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: The character は is pronounced 'wa' when it is used as a grammar particle in 'te wa ikemasen'."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "とっても いいですか",
+      "transliteration": "Totte mo ii desu ka",
+      "baseTranslation": "May I take (it)?",
+      "phoneticHint": "toht-teh mo ee des kah",
+      "syllableSplit": "to-t-te mo i-i de-su ka",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Tote mo' instead of pausing for the double consonant."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "すわっても いいですか",
+      "transliteration": "Suwatte mo ii desu ka",
+      "baseTranslation": "May I sit?",
+      "phoneticHint": "soo-waht-teh mo ee des kah",
+      "syllableSplit": "su-wa-t-te mo i-i de-su ka",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Mumbling 'suwate'. The 't' must be held."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "はいっても いいですか",
+      "transliteration": "Haitte mo ii desu ka",
+      "baseTranslation": "May I enter?",
+      "phoneticHint": "hah-eet-teh mo ee des kah",
+      "syllableSplit": "ha-i-t-te mo i-i de-su ka",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'Hate mo'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "ここではしってはいけません",
+      "transliteration": "Koko de hashitte wa ikemasen",
+      "baseTranslation": "You must not run here.",
+      "phoneticHint": "koh-koh deh hah-sheet-teh wah ee-keh-mah-sen",
+      "syllableSplit": "ko-ko de ha-shi-t-te wa i-ke-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Pronouncing 'wa' as 'ha'. It MUST be 'wa'."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "すってはいけません",
+      "transliteration": "Sutte wa ikemasen",
+      "baseTranslation": "You must not smoke.",
+      "phoneticHint": "soot-teh wah ee-keh-mah-sen",
+      "syllableSplit": "su-t-te wa i-ke-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Pronouncing 'ha' instead of 'wa'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "つかってはいけません",
+      "transliteration": "Tsukatte wa ikemasen",
+      "baseTranslation": "You must not use.",
+      "phoneticHint": "tsoo-kaht-teh wah ee-keh-mah-sen",
+      "syllableSplit": "tsu-ka-t-te wa i-ke-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Dropping the 'tsu' and saying 'sukatte'."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "すみません、だめです",
+      "transliteration": "Sumimasen, dame desu",
+      "baseTranslation": "Sorry, it's not allowed.",
+      "phoneticHint": "soo-mee-mah-sen, dah-meh des",
+      "syllableSplit": "su-mi-ma-se-n da-me de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Saying 'dam' instead of 'dah-meh'."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "あぶないですよ",
+      "transliteration": "Abunai desu yo",
+      "baseTranslation": "It is dangerous, you know.",
+      "phoneticHint": "ah-boo-nye des yoh",
+      "syllableSplit": "a-bu-na-i de-su yo",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "None. Very straightforward."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "とってもいいですか すわってもいいですか はいってもいいですか ここではしってはいけません すってはいけません つかってはいけません すみませんだめです あぶないですよ",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You pronounced the strict prohibitions with perfect clarity.",
+    "onFail": "Keep practicing! Remember to pronounce は as 'wa' in 'te wa ikemasen'.",
+    "onPartial": "Good effort. Make sure you don't speed through the double consonants. Hold the 't' in 'totte'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "とってもいいですか すわってもいいですか はいってもいいですか ここではしってはいけません すってはいけません つかってはいけません すみませんだめです あぶないですよ",
+    "acceptedVariants": [
+      "とっても いいですか すわっても いいですか はいっても いいですか ここで はしってはいけません すってはいけません つかってはいけません すみません だめです あぶないですよ"
+    ],
+    "syllableSplitReference": "to-t-te-mo-i-i-de-su-ka su-wa-t-te-mo-i-i-de-su-ka ha-i-t-te-mo-i-i-de-su-ka ko-ko-de-ha-shi-t-te-wa-i-ke-ma-se-n su-t-te-wa-i-ke-ma-se-n tsu-ka-t-te-wa-i-ke-ma-se-n su-mi-ma-se-n-da-me-de-su a-bu-na-i-de-su-yo",
+    "phoneticApproximation": "tottemoiidesuka suwattemoiidesuka haittemoiidesuka kokodehashittewaikemasen suttewaikemasen tsukattewaikemasen sumimasendamedesu abunaidesuyo",
+    "nativeScriptReference": "とってもいいですか すわってもいいですか はいってもいいですか ここではしってはいけません すってはいけません つかってはいけません すみませんだめです あぶないですよ",
+    "transliteration": "Totte mo ii desu ka Suwatte mo ii desu ka Haitte mo ii desu ka Koko de hashitte wa ikemasen Sutte wa ikemasen Tsukatte wa ikemasen Sumimasen dame desu Abunai desu yo",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b4/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m2/b4/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b4/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "とっても いいですか。すわっても いいですか。はいっても いいですか。ここで はしってはいけません。すってはいけません。つかってはいけません。すみません、だめです。あぶないですよ。",
+    "audioLanguage": "ja",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "permission",
+    "prohibition",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read 'te wa ikemasen' smoothly. Do not pause between 'te' and 'wa'.",
+  "commonMistakes": [
+    "Pronouncing は as 'ha' instead of 'wa'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

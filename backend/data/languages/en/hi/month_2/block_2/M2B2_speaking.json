@@ -1,0 +1,190 @@
+{
+  "activityId": "hi_en_M2B2_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Speaking: Making Plans",
+  "learningGoal": "Engage in a conversation describing your current actions and making plans for tomorrow using the future tense.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B2_vocabulary_6",
+    "hi_en_M2B2_listening_5"
+  ],
+  "instructions": "You are talking to a friend on the phone. You will assume a FEMALE identity for this exercise. Answer the questions using continuous and future tense verbs ending in 'i'.",
+  "speakingPrompt": "Speak clearly. Remember to use 'rahi' and 'ungi' since you are speaking as a female.",
+  "scenario": "A phone call with a friend discussing current activities and tomorrow's plans.",
+  "role": "Female Speaker",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Your friend asks: 'Tum kya kar rahi ho?' (What are you doing?). Reply: 'I am eating right now.' (To eat = Khaana)",
+      "expectedSpeakingPoints": [
+        "Main",
+        "abhi",
+        "kha rahi hoon"
+      ],
+      "sampleResponse": {
+        "targetText": "मैं अभी खा रही हूँ।",
+        "transliteration": "Main abhi kha rahi hoon.",
+        "baseTranslation": "I am eating right now."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Your friend asks: 'Kal kya karogi?' (What will you do tomorrow?). Reply: 'Tomorrow I will work.' (Work = Kaam)",
+      "expectedSpeakingPoints": [
+        "Kal main",
+        "kaam",
+        "karungi"
+      ],
+      "sampleResponse": {
+        "targetText": "कल मैं काम करूँगी।",
+        "transliteration": "Kal main kaam karungi.",
+        "baseTranslation": "Tomorrow I will work."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Your friend asks: 'Kya tum Delhi jaogi?' (Will you go to Delhi?). Reply: 'Yes, I will go to Delhi.' (Go = Jaa)",
+      "expectedSpeakingPoints": [
+        "Haan",
+        "main Delhi",
+        "jaungi"
+      ],
+      "sampleResponse": {
+        "targetText": "हाँ, मैं दिल्ली जाऊँगी।",
+        "transliteration": "Haan, main Delhi jaungi.",
+        "baseTranslation": "Yes, I will go to Delhi."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Tell your friend: 'You please come tomorrow.' (Polite future request of Aa)",
+      "expectedSpeakingPoints": [
+        "Aap",
+        "kal",
+        "aaiyega"
+      ],
+      "sampleResponse": {
+        "targetText": "आप कल आइयेगा।",
+        "transliteration": "Aap kal aaiyega.",
+        "baseTranslation": "You please come tomorrow."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप फोन पर बात कर रही हैं।",
+    "transliteration": "Aap phone par baat kar rahi hain.",
+    "baseTranslation": "You are talking on the phone."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं अभी खा रही हूँ।",
+      "transliteration": "Main abhi kha rahi hoon.",
+      "baseTranslation": "I am eating right now."
+    },
+    {
+      "targetText": "कल मैं काम करूँगी।",
+      "transliteration": "Kal main kaam karungi.",
+      "baseTranslation": "Tomorrow I will work."
+    },
+    {
+      "targetText": "हाँ, मैं दिल्ली जाऊँगी।",
+      "transliteration": "Haan, main Delhi jaungi.",
+      "baseTranslation": "Yes, I will go to Delhi."
+    },
+    {
+      "targetText": "आप कल आइयेगा।",
+      "transliteration": "Aap kal aaiyega.",
+      "baseTranslation": "You please come tomorrow."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "kha rahi hoon",
+      "kaam karungi",
+      "Delhi jaungi",
+      "kal aaiyega"
+    ],
+    "requiredKeywords": [
+      "खा",
+      "रही",
+      "काम",
+      "करूँगी",
+      "जाऊँगी",
+      "आइयेगा"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Tum kal aana' instead of 'Aap kal aaiyega' is acceptable but less polite."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Feminine Verb Usage",
+          "weight": 70,
+          "description": "Fails if user says 'kha raha hoon', 'karunga', or 'jaunga'. Must use the 'i' endings for the female role."
+        },
+        {
+          "name": "Future Polite",
+          "weight": 30,
+          "description": "Must attach 'ga' to the formal imperative for 'aaiyega'."
+        }
+      ]
+    },
+    "sampleAnswer": "Main abhi kha rahi hoon. Kal main kaam karungi. Haan, main Delhi jaungi. Aap kal aaiyega.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You held a conversation using complex timeline shifts and correct feminine endings.",
+    "onFail": "Review the feminine endings. You must say 'karungi' instead of 'karunga'.",
+    "onPartial": "Good effort. Make sure you don't confuse the present continuous 'rahi' with the future 'ungi'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "मैं अभी खा रही हूँ। कल मैं काम करूँगी। हाँ, मैं दिल्ली जाऊँगी। आप कल आइयेगा।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "continuous",
+    "future",
+    "feminine",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak slowly to make sure you hit the 'i' vowel on 'karungi' and 'jaungi'.",
+  "commonMistakes": [
+    "Defaulting to the masculine 'karunga' out of habit."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B2_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

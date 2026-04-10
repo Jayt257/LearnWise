@@ -1,0 +1,394 @@
+{
+  "activityId": "en_hi_M2B2_test_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Mega Assessment: The Ongoing Present",
+  "learningGoal": "The learner will demonstrate absolute mastery of the Present Continuous two-part formula (Copula + Present Participle) and the interrogative inversion rule required for English WH-Questions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M2B2_lesson_001",
+    "en_hi_M2B2_pronunciation_001",
+    "en_hi_M2B2_reading_001",
+    "en_hi_M2B2_writing_001",
+    "en_hi_M2B2_listening_001",
+    "en_hi_M2B2_vocabulary_001",
+    "en_hi_M2B2_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 2. It contains 20 questions evaluating your ability to describe actions happening RIGHT NOW. Remember: if it is happening now, you need BOTH a helper verb (is/am/are) AND an '-ing'. One without the other is completely wrong.",
+  "testTitle": "Block 2 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Present Continuous Formula",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: He ________ sleeping right now.",
+          "questionType": "multiple_choice",
+          "options": ["am", "is", "are", "do"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which sentence means 'मैं खा रहा हूँ'?",
+          "questionType": "multiple_choice",
+          "options": ["I am eat.", "I eating.", "I am eating.", "I am eats."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Choose the correct English question:",
+          "questionType": "multiple_choice",
+          "options": ["Where you are going?", "Where are you going?", "Who you going?", "You where are going?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Where are you going?",
+            "transliteration": "वेयर आर यू गोइंग?",
+            "baseTranslation": "तुम कहाँ जा रहे हो?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Fill in the blank: The boys ____ playing football.",
+          "questionType": "multiple_choice",
+          "options": ["am", "is", "are", "does"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: Saying 'They watching TV' is perfectly correct English.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for 'क्यों'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Why",
+            "transliteration": "वाय",
+            "baseTranslation": "क्यों"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What does 'Where' mean in Hindi?",
+          "questionType": "multiple_choice",
+          "options": ["क्या", "कैसे", "कहाँ", "कौन"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the English word for 'कौन'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Who",
+            "transliteration": "हू",
+            "baseTranslation": "कौन"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "If someone is 'Laughing', what are they doing?",
+          "questionType": "multiple_choice",
+          "options": ["रो रहा", "हंस रहा", "देख रहा", "खेल रहा"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "True or False: The word 'Waiting' means 'इंतज़ार कर रहा'.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the mistake: 'I am read a book.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'I am reading a book.'", "It should be 'I reading a book.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am reading a book.",
+            "transliteration": "आई एम रीडिंग अ बुक।",
+            "baseTranslation": "मैं एक किताब पढ़ रहा हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Find the mistake: 'What he is doing?'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'What doing is he?'", "It should be 'What is he doing?'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "If someone asks 'Who is sleeping?', what kind of answer do they want?",
+          "questionType": "multiple_choice",
+          "options": ["The name of a place", "The reason why", "The name of a person", "The time"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What word is missing: 'Why ______ you crying?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which means 'वह रो रही है'?",
+          "questionType": "multiple_choice",
+          "options": ["She is laughing", "She is crying", "She crying", "She am crying"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मैं काम कर रहा हूँ।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am working.",
+            "transliteration": "आई एम वर्किंग।",
+            "baseTranslation": "मैं काम कर रहा हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'तुम क्या कर रहे हो?' (Write the full English question)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "What are you doing?",
+            "transliteration": "वॉट आर यू डूइंग?",
+            "baseTranslation": "तुम क्या कर रहे हो?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'वह टीवी देख रहा है।' (He is ...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He is watching TV.",
+            "transliteration": "ही इज़ वाचिंग टीवी।",
+            "baseTranslation": "वह टीवी देख रहा है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'कुत्ता दौड़ रहा है।' (The dog is...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The dog is running.",
+            "transliteration": "द डॉग इज़ रनिंग।",
+            "baseTranslation": "कुत्ता दौड़ रहा है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'हम इंतज़ार कर रहे हैं।' (We are...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We are waiting.",
+            "transliteration": "वी आर वेटिंग।",
+            "baseTranslation": "हम इंतज़ार कर रहे हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "is",
+      "q002": "I am eating.",
+      "q003": "Where are you going?",
+      "q004": "are",
+      "q005": "False",
+      "q006": "Why",
+      "q007": "कहाँ",
+      "q008": "Who",
+      "q009": "हंस रहा",
+      "q010": "True",
+      "q011": "It should be 'I am reading a book.'",
+      "q012": "It should be 'What is he doing?'",
+      "q013": "The name of a person",
+      "q014": "are",
+      "q015": "She is crying",
+      "q016": "I am working.",
+      "q017": "What are you doing?",
+      "q018": "He is watching TV.",
+      "q019": "The dog is running.",
+      "q020": "We are waiting."
+    },
+    "scoringRubric": {
+      "q016": "Minus 2 points if 'am' is missing. Minus 2 points if 'ing' is missing."
+    },
+    "partialCreditRules": {
+      "q017": "Give 2 marks if written 'What you are doing?' (Missing inversion)."
+    },
+    "alternateValidAnswers": {
+      "q006": ["why", "WHY"],
+      "q008": ["who", "WHO"],
+      "q014": ["are", "ARE"],
+      "q016": ["i am working", "I am working", "I am working right now"],
+      "q017": ["what are you doing", "what are you doing?", "What are you doing?"],
+      "q018": ["he is watching tv", "He is watching TV"],
+      "q019": ["the dog is running", "The dog is running", "a dog is running"],
+      "q020": ["we are waiting", "We are waiting"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered the two halves of Present Continuous: the helper verb AND the 'ing' ending.",
+    "onFail": "Please don't give up! Remember, 'I eating' is completely wrong. It must be 'I AM eating'. You must always use am/is/are + ING.",
+    "onPartial": "Good effort! Check your question words carefully. 'Who' is for people. 'Where' is for places. 'Why' is for reasons."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers right-now actions and question words.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block2", "present_continuous", "wh_questions", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B3_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

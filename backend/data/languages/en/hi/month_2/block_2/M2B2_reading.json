@@ -1,0 +1,244 @@
+{
+  "activityId": "hi_en_M2B2_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "Reading: Plans for the Weekend",
+  "learningGoal": "Read and comprehend a dialogue that switches between the present continuous tense and future plans.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B2_pronunciation_2"
+  ],
+  "instructions": "Read the text messages between Neha and Rahul. Pay attention to how they use 'Raha/Rahi' for what they are doing right now, and 'Ga/Ge/Gi' for what they will do tomorrow.",
+  "readingTitle": "कल का प्लान (Tomorrow's Plan)",
+  "readingText": "नेहा: राहुल, तुम क्या कर रहे हो?\nराहुल: मैं अभी काम कर रहा हूँ। तुम क्या कर रही हो?\nनेहा: मैं खाना खा रही हूँ। कल तुम क्या करोगे?\nराहुल: कल मैं दिल्ली जाऊँगा।\nनेहा: बहुत अच्छा! क्या तुम वहाँ काम करोगे?\nराहुल: नहीं, मैं वहाँ आराम करूँगा। और तुम?\nनेहा: मैं कल घर पर रहूँगी।",
+  "textInTargetLanguage": "नेहा: राहुल, तुम क्या कर रहे हो?\nराहुल: मैं अभी काम कर रहा हूँ। तुम क्या कर रही हो?\nनेहा: मैं खाना खा रही हूँ। कल तुम क्या करोगे?\nराहुल: कल मैं दिल्ली जाऊँगा।\nनेहा: बहुत अच्छा! क्या तुम वहाँ काम करोगे?\nराहुल: नहीं, मैं वहाँ आराम करूँगा। और तुम?\nनेहा: मैं कल घर पर रहूँगी।",
+  "baseLanguageSupportText": "Neha: Rahul, what are you doing?\nRahul: I am doing work right now. What are you doing?\nNeha: I am eating food. Tomorrow what will you do?\nRahul: Tomorrow I will go to Delhi.\nNeha: Very good! Will you do work there?\nRahul: No, I will do rest there. And you?\nNeha: I will stay at home tomorrow.",
+  "glossary": [
+    {
+      "targetText": "क्या कर रहे हो?",
+      "transliteration": "kya kar rahe ho?",
+      "baseTranslation": "what are (you) doing? (masc/informal)",
+      "exampleSentence": {
+        "targetText": "तुम क्या कर रहे हो?",
+        "transliteration": "Tum kya kar rahe ho?",
+        "baseTranslation": "What are you doing?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "kaam",
+      "baseTranslation": "work",
+      "exampleSentence": {
+        "targetText": "मैं काम कर रहा हूँ।",
+        "transliteration": "Main kaam kar raha hoon.",
+        "baseTranslation": "I am working."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "अभी",
+      "transliteration": "abhi",
+      "baseTranslation": "right now",
+      "exampleSentence": {
+        "targetText": "मैं अभी काम कर रहा हूँ।",
+        "transliteration": "Main abhi kaam kar raha hoon.",
+        "baseTranslation": "I am working right now."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "करोगे",
+      "transliteration": "karoge",
+      "baseTranslation": "will do (you/informal/masc)",
+      "exampleSentence": {
+        "targetText": "कल तुम क्या करोगे?",
+        "transliteration": "Kal tum kya karoge?",
+        "baseTranslation": "What will you do tomorrow?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "जाऊँगा",
+      "transliteration": "jaunga",
+      "baseTranslation": "will go (I/masc)",
+      "exampleSentence": {
+        "targetText": "मैं दिल्ली जाऊँगा।",
+        "transliteration": "Main Delhi jaunga.",
+        "baseTranslation": "I will go to Delhi."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "वहाँ",
+      "transliteration": "wahaan",
+      "baseTranslation": "there",
+      "exampleSentence": {
+        "targetText": "क्या तुम वहाँ काम करोगे?",
+        "transliteration": "Kya tum wahaan kaam karoge?",
+        "baseTranslation": "Will you work there?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "आराम",
+      "transliteration": "aaram",
+      "baseTranslation": "rest",
+      "exampleSentence": {
+        "targetText": "मैं आराम करूँगा।",
+        "transliteration": "Main aaram karunga.",
+        "baseTranslation": "I will rest."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "रहूँगी",
+      "transliteration": "rahungi",
+      "baseTranslation": "will stay/live (I/fem)",
+      "exampleSentence": {
+        "targetText": "मैं घर पर रहूँगी।",
+        "transliteration": "Main ghar par rahungi.",
+        "baseTranslation": "I will stay at home."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं अभी काम कर रहा हूँ।",
+      "transliteration": "Main abhi kaam kar raha hoon.",
+      "baseTranslation": "I am doing work right now."
+    },
+    {
+      "targetText": "कल मैं दिल्ली जाऊँगा।",
+      "transliteration": "Kal main Delhi jaunga.",
+      "baseTranslation": "Tomorrow I will go to Delhi."
+    },
+    {
+      "targetText": "मैं कल घर पर रहूँगी।",
+      "transliteration": "Main kal ghar par rahungi.",
+      "baseTranslation": "Tomorrow I will stay at home."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "What is Rahul doing right now?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kaam (Work)",
+        "Aaram (Rest)",
+        "Khaana (Eating food)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "Why does Neha say 'kar RAHI ho' to ask Rahul what he is doing, but Rahul says 'kar RAHA hoon'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The premise is wrong. Neha asks 'Tum kya kar RAHE ho' because Rahul is a male. Rahul asks Neha 'kar RAHI ho' because she is female.",
+        "Because Neha is female.",
+        "Because Rahul is older."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "Where will Rahul go tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Delhi (दिल्ली)",
+        "Ghar (घर)",
+        "Dukan (दुकान)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "Will Rahul work in Delhi?",
+      "questionType": "multiple_choice",
+      "options": [
+        "No, he will rest (aaram karunga).",
+        "Yes, he will work.",
+        "He doesn't know."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "What does Neha plan to do tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Stay at home (Ghar par rahungi)",
+        "Go to Delhi (Delhi jaungi)",
+        "Eat food (Khaana khaungi)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Kaam (Work)",
+      "rq_2": "The premise is wrong. Neha asks 'Tum kya kar RAHE ho' because Rahul is a male. Rahul asks Neha 'kar RAHI ho' because she is female.",
+      "rq_3": "Delhi (दिल्ली)",
+      "rq_4": "No, he will rest (aaram karunga).",
+      "rq_5": "Stay at home (Ghar par rahungi)"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Identify 'abhi' indicating present continuous.",
+      "Identify 'kal' indicating future plans based on 'ga/ge/gi' endings.",
+      "Recognize gender agreement in the verbs."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading comprehension! You successfully navigated timeline shifts.",
+    "onFail": "Review how the verbs end. 'Raha/Rahi' means 'ing'. 'Ga/Gi' means 'will'.",
+    "onPartial": "Good effort. Pay close attention to who is speaking. Neha uses 'rahungi' because she is a woman."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नेहा: राहुल, तुम क्या कर रहे हो? राहुल: मैं अभी काम कर रहा हूँ। तुम क्या कर रही हो? नेहा: मैं खाना खा रही हूँ। कल तुम क्या करोगे? राहुल: कल मैं दिल्ली जाऊँगा। नेहा: बहुत अच्छा! क्या तुम वहाँ काम करोगे? राहुल: नहीं, मैं वहाँ आराम करूँगा। और तुम? नेहा: मैं कल घर पर रहूँगी।",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "continuous",
+    "future",
+    "planning",
+    "verbs"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look at the suffixes. 'Rahe' vs 'Rahi', 'Karunga' vs 'Rahungi'. They tell you the gender of the person.",
+  "commonMistakes": [
+    "Thinking 'Kal' in this context meant yesterday."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B2_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

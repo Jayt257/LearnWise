@@ -1,0 +1,252 @@
+{
+  "activityId": "en_ja_M3B1_test_8",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Test: Conditionals",
+  "learningGoal": "Evaluate your understanding of zero and first conditionals, and the difference between 'if' and 'when'.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B1_speaking_7"
+  ],
+  "instructions": "Month 3 Block 1 のテストです。If（もし〜なら）とWhen（〜する時）の使い方や、条件文での動詞の形（現在形か未来形か）についての問題に答えてください。(This is the Block 1 test. Answer questions about conditionals and time clauses.)",
+  "testTitle": "Conditionals Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: The 'If' Clause (If節の文法)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「もし明日雨が降ったら、家にいます」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "If it will rain tomorrow, I will stay home.",
+            "If it rains tomorrow, I will stay home.",
+            "If it raining tomorrow, I will stay home.",
+            "If it rain tomorrow, I will stay home."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「もし彼に会ったら、この本を渡します」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "If I will see him, I give him this book.",
+            "If I saw him, I will give him this book.",
+            "If I see him, I will give him this book.",
+            "If I see him, I gives him this book."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "次の空欄に入る正しい言葉はどれですか？ 'I will call you ________ I have time.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "if",
+            "but",
+            "so",
+            "will"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: If vs When (IfとWhenの違い)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「（明日確実に）駅に着いた時に、電話します」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "If I arrive at the station, I will call you.",
+            "When I arrive at the station, I will call you.",
+            "If I will arrive at the station, I will call you.",
+            "When I will arrive at the station, I will call you."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "If（もし〜なら）とWhen（〜する時）の違いとして正しい説明はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Ifは確実に起こることに使い、Whenは起こるかわからないことに使う。",
+            "Ifは過去のことに使い、Whenは未来のことに使う。",
+            "Ifは起こるかわからないことに使い、Whenは確実に起こることに使う。",
+            "IfとWhenの意味と使い方は全く同じである。"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Grammar: Zero Conditional (一般的な事実)",
+      "questions": [
+        {
+          "questionId": "q6",
+          "questionText": "「氷を熱すると溶ける（普遍的な事実）」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "If you heat ice, it will melts.",
+            "If you heat ice, it melts.",
+            "If you will heat ice, it will melt.",
+            "If you heats ice, it melt."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "一般的な事実やルールを話す「ゼロ条件文」では、Ifの節とメインの節の動詞はそれぞれどの形になりますか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "現在形 / 未来形(will)",
+            "過去形 / 過去形",
+            "現在形 / 現在形",
+            "未来形(will) / 未来形(will)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "Vocabulary and Reading Comprehension",
+      "questions": [
+        {
+          "questionId": "q8",
+          "questionText": "「traffic」の日本語の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "天気",
+            "旅行",
+            "渋滞・交通",
+            "駅"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「If the traffic is bad...」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "もし天気が悪ければ",
+            "もし渋滞がひどければ",
+            "もし道に迷ったら",
+            "もしバスに乗ったら"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "When I will see him, I tell him.",
+            "When I see him, I will tell him.",
+            "If I will see him, I will tell him.",
+            "If I see him, I told him."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "If it rains tomorrow, I will stay home.",
+      "q2": "If I see him, I will give him this book.",
+      "q3": "if",
+      "q4": "When I arrive at the station, I will call you.",
+      "q5": "Ifは起こるかわからないことに使い、Whenは確実に起こることに使う。",
+      "q6": "If you heat ice, it melts.",
+      "q7": "現在形 / 現在形",
+      "q8": "渋滞・交通",
+      "q9": "もし渋滞がひどければ",
+      "q10": "When I see him, I will tell him."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 10,
+      "sec_3": 10,
+      "sec_4": 20
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！仮定法の「If節の中ではwillを使わない」という重要なルールを完全にマスターしています。",
+    "onFail": "もう一度復習しましょう。未来のことでも「If」や「When」のすぐ後ろの動詞は「現在形」になります（If it will rainではなくIf it rains）。",
+    "onPartial": "よくできました。ゼロ条件文（一般的な事実）と第1条件文（未来のこと）の違いをもう一度確認しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_1",
+    "month_3",
+    "conditionals",
+    "if_clauses"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember: The 'If' clause and 'When' clause both use the PRESENT tense, even for the future!",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B2_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

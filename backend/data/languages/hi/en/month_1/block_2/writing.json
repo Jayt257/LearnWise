@@ -1,0 +1,169 @@
+{
+  "activityId": "en_hi_M1B2_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Describing Your World",
+  "learningGoal": "The learner will generate a 60-120 word paragraph accurately rotating between 'I am', 'He is', 'She is', and 'We are' to describe multiple subjects, ensuring at least one negative 'not' sentence is included.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B2_reading_001"],
+  "instructions": "Write a short paragraph about yourself and two other people (a friend, brother, or sister). Use 'I am' to describe yourself. Use 'He is' or 'She is' to describe them. Use 'We are' to talk about you together. You MUST include at least one negative sentence (e.g., He is not...).",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Remember: The verb comes AFTER the subject in English. Do not write 'He my brother is'."
+    }
+  ],
+  "writingPrompt": "Describe yourself and two other people. What are their relationships to you? What are their jobs or qualities? (Include at least one negative sentence).",
+  "promptGoal": "Demonstrate the ability to switch pronouns and match the 'To Be' verb correctly while maintaining SVO order.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "Brother",
+      "transliteration": "ब्रदर",
+      "baseTranslation": "भाई",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Sister",
+      "transliteration": "सिस्टर",
+      "baseTranslation": "बहन",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Friend",
+      "transliteration": "फ्रेंड",
+      "baseTranslation": "दोस्त",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Teacher",
+      "transliteration": "टीचर",
+      "baseTranslation": "शिक्षक",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Happy",
+      "transliteration": "हैप्पी",
+      "baseTranslation": "खुश",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Tall",
+      "transliteration": "टॉल",
+      "baseTranslation": "लंबा",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Smart",
+      "transliteration": "स्मार्ट",
+      "baseTranslation": "होशियार",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Not",
+      "transliteration": "नॉट",
+      "baseTranslation": "नहीं",
+      "partOfSpeech": "Adverb"
+    }
+  ],
+  "referenceHints": [
+    "I -> am",
+    "He / She -> is",
+    "We / They -> are",
+    "Put 'not' directly after the am/is/are word."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "My name is Raj. I am a student. I am from India. This is my brother. His name is Rahul. He is very tall. He is not a student. He is a doctor. This is my friend Priya. She is very smart. She is a teacher. We are all good friends. We are very happy.",
+      "transliteration": "माई नेम इज़ राज। आई एम अ स्टूडेंट। आई एम फ्रॉम इंडिया। दिस इज़ माई ब्रदर। हिज़ नेम इज़ राहुल। ही इज़ वेरी टॉल। ही इज़ नॉट अ स्टूडेंट। ही इज़ अ डॉक्टर। दिस इज़ माई फ्रेंड प्रिया। शी इज़ वेरी स्मार्ट। शी इज़ अ टीचर। वी आर ऑल गुड फ्रेंड्स। वी आर वेरी हैप्पी।",
+      "baseTranslation": "मेरा नाम राज है। मैं एक छात्र हूँ। मैं भारत से हूँ। यह मेरा भाई है। उसका नाम राहुल है। वह बहुत लंबा है। वह छात्र नहीं है। वह डॉक्टर है। यह मेरी दोस्त प्रिया है। वह बहुत होशियार है। वह एक शिक्षिका है। हम सब अच्छे दोस्त हैं। हम बहुत खुश हैं।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The writer uses I am, He is, She is, We are flawlessly. It includes an SVO negative 'He is not a student'."
+    },
+    {
+      "targetText": "I am Anjali. I am happy. He is my brother. He is tall. She is my sister. She is not tall. We are siblings.",
+      "transliteration": "आई एम अंजलि। आई एम हैप्पी। ही इज़ माई ब्रदर। ही इज़ टॉल। शी इज़ माई सिस्टर। शी इज़ नॉट टॉल। वी आर सिबलिंग्स।",
+      "baseTranslation": "मैं अंजलि हूँ। मैं खुश हूँ। वह मेरा भाई है। वह लंबा है। वह मेरी बहन है। वह लंबी नहीं है। हम भाई-बहन हैं।",
+      "qualityLevel": "acceptable",
+      "annotation": "Acceptable grammar, but very short and simple. Fulfills the negative requirement 'She is not tall'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Pronoun-Verb Pairing",
+      "weight": 40,
+      "description": "Did the user correctly match 'I' with 'am', 'He/She' with 'is', and 'We' with 'are'?"
+    },
+    {
+      "criterion": "SVO Order & Negative Sentence Structure",
+      "weight": 40,
+      "description": "Is SVO strictly followed? Does the negative sentence correctly use 'is not', 'are not', or 'am not' in the right position?"
+    },
+    {
+      "criterion": "Length and Capitalization",
+      "weight": 20,
+      "description": "Are names and the letter 'I' capitalized? Is it long enough?"
+    }
+  ],
+  "minimumWordCount": 30,
+  "maximumWordCount": 150,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Hello, I am Kabir. I am a student. He is my dad. He is very tall. He is not a doctor. She is my mom. She is sweet. We are happy.",
+    "acceptableAlternates": [
+      "I am from Delhi. My friend is Amit. He is smart. He is not tall. She is Aditi. We are happy."
+    ],
+    "requiredKeywords": [
+      "am",
+      "is",
+      "are",
+      "not"
+    ],
+    "grammarBaseline": "Flawless Subject-Verb-Object tracking with proper To-Be auxiliary conjugation. One negative required.",
+    "lengthExpectation": "30 to 150 words",
+    "scoringRubric": {
+      "Conjugation": "40%",
+      "Syntax": "40%",
+      "Mechanics": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Magnificent! You are now writing fully formed English sentences using multiple subjects. You successfully created an English negative sentence.",
+    "onFail": "Please do not translate directly from Hindi. Remember: I am, He is, She is, We are. Verbs go in the middle of the sentence! Try again.",
+    "onPartial": "Good sentences, but you may have forgotten to include the negative ('not') sentence or you used an incorrect pronoun ('He am'). Please review the hints."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b2/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b2/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b2/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Write a short paragraph about yourself and two other people. Include a negative statement.",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "pronouns", "svo", "negative-sentences", "descriptions", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b2/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To use a negative, make the sentence exactly like a positive one, but drop 'not' after the verb: I am NOT a doctor.",
+  "commonMistakes": [
+    "Writing 'He not is a doctor' instead of 'He is not a doctor'.",
+    "Using 'We is' instead of 'We are'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B2_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

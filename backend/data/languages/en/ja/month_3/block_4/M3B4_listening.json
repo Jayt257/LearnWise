@@ -1,0 +1,176 @@
+{
+  "activityId": "ja_en_M3B4_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Customer Service Keigo",
+  "learningGoal": "The learner will listen to a customer service interaction to comprehend the exchange of respectful language from the staff and humble language from the customer.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M3B4_lesson_001",
+    "ja_en_M3B4_vocabulary_001"
+  ],
+  "instructions": "Listen to a restaurant staff member talking to a customer. Notice how the staff uses Sonkeigo for the customer, and the customer uses Kenjougo for themselves.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen for 'meshiagarimasu' (staff to customer) and 'itadakimasu' (customer to staff)."
+    }
+  ],
+  "listeningGoal": "Identify the formal verbs used for eating and ordering.",
+  "audioScenario": "A waiter taking an order at a high-end restaurant.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "いらっしゃいませ。",
+      "transliteration": "Irasshaimase.",
+      "baseTranslation": "Welcome."
+    },
+    {
+      "targetText": "なにを めしあがりますか。",
+      "transliteration": "Nani wo meshiagarimasu ka.",
+      "baseTranslation": "What will you eat?"
+    },
+    {
+      "targetText": "すしを いただきます。",
+      "transliteration": "Sushi wo itadakimasu.",
+      "baseTranslation": "I will eat sushi."
+    },
+    {
+      "targetText": "かしこまりました。",
+      "transliteration": "Kashikomarimashita.",
+      "baseTranslation": "Certainly / Understood."
+    }
+  ],
+  "audioTranscriptFull": "（店員）いらっしゃいませ。なにを めしあがりますか。\n（客）すしを いただきます。\n（店員）かしこまりました。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What does the staff member say to welcome the customer?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Konnichiwa",
+        "Irasshaimase",
+        "Ojamashimasu",
+        "Tadaima"
+      ],
+      "audioTimestamp": "00:01",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What verb does the staff member use to ask 'what will you eat'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Tabemasu ka",
+        "Itadakimasu ka",
+        "Meshiagarimasu ka",
+        "Nomimasu ka"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What verb does the customer use to say 'I will eat'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Tabemasu",
+        "Meshiagarimasu",
+        "Itadakimasu",
+        "Mairimasu"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What is the customer ordering?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ramen",
+        "Tempura",
+        "Sushi",
+        "Sake"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the staff's final highly formal confirmation ('Certainly/Understood').",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Irasshaimase",
+      "q002": "Meshiagarimasu ka",
+      "q003": "Itadakimasu",
+      "q004": "Sushi",
+      "q005": "kashikomarimashita"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["kashikomarimashita", "Kashikomarimashita"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully identified the flow of customer service Keigo.",
+    "onFail": "Listen again carefully. Staff elevates the customer (meshiagaru). Customer lowers themselves (itadaku).",
+    "onPartial": "Good effort. Notice how 'kashikomarimashita' is the standard polite reply in service settings, meaning 'I have humbly understood'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b4/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b4/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m3/b4/listening/native_dialogue.mp3",
+    "audioTranscript": "いらっしゃいませ。なにを めしあがりますか。すしを いただきます。かしこまりました。",
+    "audioLanguage": "ja",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "keigo",
+    "customer_service",
+    "advanced",
+    "month3",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'Meshiagarimasu' (Respectful) and 'Itadakimasu' (Humble).",
+  "commonMistakes": [
+    "Confusing who is saying which verb."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

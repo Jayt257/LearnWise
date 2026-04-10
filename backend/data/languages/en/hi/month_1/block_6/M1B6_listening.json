@@ -1,0 +1,176 @@
+{
+  "activityId": "hi_en_M1B6_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "Listening: At the Restaurant",
+  "learningGoal": "Understand spoken polite commands and recognize postpositions denoting locations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B6_lesson_1"
+  ],
+  "instructions": "Listen to a customer talking to a waiter at a restaurant. Notice how the waiter uses very polite commands (iye) when addressing the customer.",
+  "listeningGoal": "Identify formal imperatives and the postposition 'par' (on) in a spoken conversation.",
+  "audioScenario": "A customer arrives at a restaurant and speaks to the waiter.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "वेटर: नमस्ते सर। अंदर आइये।",
+      "transliteration": "Waiter: Namaste Sir. Andar aaiye.",
+      "baseTranslation": "Waiter: Hello Sir. Please come inside."
+    },
+    {
+      "targetText": "ग्राहक: नमस्ते।",
+      "transliteration": "Grahak: Namaste.",
+      "baseTranslation": "Customer: Hello."
+    },
+    {
+      "targetText": "वेटर: सर, यहाँ बैठिये। पानी मेज़ पर है।",
+      "transliteration": "Waiter: Sir, yahaan baithiye. Paani mez par hai.",
+      "baseTranslation": "Waiter: Sir, please sit here. Water is on the table."
+    },
+    {
+      "targetText": "ग्राहक: धन्यवाद। खाना कहाँ है?",
+      "transliteration": "Grahak: Dhanyawad. Khaana kahaan hai?",
+      "baseTranslation": "Customer: Thank you. Where is the food?"
+    },
+    {
+      "targetText": "वेटर: खाना रसोई में है। यह मेनू लीजिये।",
+      "transliteration": "Waiter: Khaana rasoi mein hai. Yeh menu lijiye.",
+      "baseTranslation": "Waiter: Food is in the kitchen. Please take this menu."
+    },
+    {
+      "targetText": "ग्राहक: ठीक है। मैं पानी पीता हूँ।",
+      "transliteration": "Grahak: Theek hai. Main paani peeta hoon.",
+      "baseTranslation": "Customer: Okay. I drink water."
+    }
+  ],
+  "audioTranscriptFull": "नमस्ते सर। अंदर आइये। नमस्ते। सर, यहाँ बैठिये। पानी मेज़ पर है। धन्यवाद। खाना कहाँ है? खाना रसोई में है। यह मेनू लीजिये। ठीक है। मैं पानी पीता हूँ।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What does the waiter tell the customer to do first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Come inside (Andar aaiye)",
+        "Sit down (Baithiye)",
+        "Drink water (Paani pijiye)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "Where does the waiter say the water is?",
+      "questionType": "multiple_choice",
+      "options": [
+        "On the table (Mez par)",
+        "In the kitchen (Rasoi mein)",
+        "Outside (Bahar)"
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "Where is the food?",
+      "questionType": "multiple_choice",
+      "options": [
+        "In the kitchen (Rasoi mein)",
+        "On the table (Mez par)",
+        "In the house (Ghar mein)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "What formal command does the waiter use to tell the customer to 'take' the menu?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Lijiye (लीजिये)",
+        "Khaaiye (खाइये)",
+        "Baithiye (बैठिये)"
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "What word is used to say 'Here' (as in 'Sit here')?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yahaan (यहाँ)",
+        "Kahaan (कहाँ)",
+        "Wahaan (वहाँ)"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Come inside (Andar aaiye)",
+      "lq_2": "On the table (Mez par)",
+      "lq_3": "In the kitchen (Rasoi mein)",
+      "lq_4": "Lijiye (लीजिये)",
+      "lq_5": "Yahaan (यहाँ)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You can understand polite instructions in real-world scenarios.",
+    "onFail": "Review the formal imperatives. The waiter ends all his verbs with '-iye'.",
+    "onPartial": "Good effort. Note that 'yahaan' means 'here', and 'kahaan' means 'where'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते सर। अंदर आइये। नमस्ते। सर, यहाँ बैठिये। पानी मेज़ पर है। धन्यवाद। खाना कहाँ है? खाना रसोई में है। यह मेनू लीजिये। ठीक है। मैं पानी पीता हूँ।",
+    "audioLanguage": "hi",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "commands",
+    "postpositions",
+    "restaurant",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Waiters will almost exclusively use the 'Aap' form (-iye) when speaking to customers.",
+  "commonMistakes": [
+    "Mixing up 'Rasoi' (kitchen) with other rooms."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B6_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M2B2_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Te-Form Requests",
+  "learningGoal": "The learner will master the pronunciation of the double consonant 'tte' and string together Te-form request phrases fluidly.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B2_lesson_001",
+    "ja_en_M2B2_vocabulary_001"
+  ],
+  "instructions": "In this exercise, you must correctly pronounce the 'sokuon' (the small 'tsu' that doubles the consonant). When you see 'Matte' or 'Itte', you MUST put a tiny half-second pause before the 't' sound. Listen to the native audio very carefully.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "If you say 'Mate' instead of 'Matte', it sounds wrong. The pause is critical for meaning in Japanese."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "ちょっと まって ください",
+      "transliteration": "Chotto matte kudasai",
+      "baseTranslation": "Please wait a little",
+      "phoneticHint": "cho-to mah-teh koo-dah-sigh (with pauses on double T)",
+      "syllableSplit": "cho-t-to ma-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Choto mate kudasai'. The 't' must be held."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "いって ください",
+      "transliteration": "Itte kudasai",
+      "baseTranslation": "Please go",
+      "phoneticHint": "ee-teh koo-dah-sigh",
+      "syllableSplit": "i-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'Ite kudasai'."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "コーヒーを のんで います",
+      "transliteration": "Koohii wo nonde imasu",
+      "baseTranslation": "I am drinking coffee",
+      "phoneticHint": "koh-hee oh nohn-deh ee-mahs",
+      "syllableSplit": "ko-o-hi-i o no-n-de i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'nonte' instead of 'nonde'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "えいごを はなして ください",
+      "transliteration": "Eigo wo hanashite kudasai",
+      "baseTranslation": "Please speak English",
+      "phoneticHint": "ay-goh oh hah-nah-shee-teh koo-dah-sigh",
+      "syllableSplit": "e-i-go o ha-na-shi-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'hanashite' too slowly. It flows quickly into kudasai."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "ほんを よんで ください",
+      "transliteration": "Hon wo yonde kudasai",
+      "baseTranslation": "Please read the book",
+      "phoneticHint": "hohn oh yohn-deh koo-dah-sigh",
+      "syllableSplit": "ho-n o yo-n-de ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Saying 'yote' instead of 'yonde'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "いま べんきょうして います",
+      "transliteration": "Ima benkyou shite imasu",
+      "baseTranslation": "I am studying now",
+      "phoneticHint": "ee-mah ben-kyoh shee-teh ee-mahs",
+      "syllableSplit": "i-ma be-n-kyo-u shi-te i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Stumbling over the 'kyou' sound. It is a palatalized sound."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "てがみを かいて います",
+      "transliteration": "Tegami wo kaite imasu",
+      "baseTranslation": "I am writing a letter",
+      "phoneticHint": "teh-gah-mee oh kah-ee-teh ee-mahs",
+      "syllableSplit": "te-ga-mi o ka-i-te i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Saying 'katte' instead of 'kaite'. Kakimasu -> Kaite."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "はやく かえって ください",
+      "transliteration": "Hayaku kaette kudasai",
+      "baseTranslation": "Please return quickly",
+      "phoneticHint": "hah-yah-koo kah-eh-teh koo-dah-sigh",
+      "syllableSplit": "ha-ya-ku ka-e-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Saying 'kaerite' instead of the double consonant 'kaette'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "ちょっとまってください いってください コーヒーをのんでいます えいごをはなしてください ほんをよんでください いまべんきょうしています てがみをかいています はやくかえってください",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You nailed the rhythm of the double consonants and Te-form strings.",
+    "onFail": "Keep practicing! Focus purely on the double consonants. Say 'ma...' then stop, then say 'te'. 'Ma-te'.",
+    "onPartial": "Good effort. Try to speak the 'te kudasai' part as one fluid block rather than pausing."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "ちょっとまってください いってください コーヒーをのんでいます えいごをはなしてください ほんをよんでください いまべんきょうしています てがみをかいています はやくかえってください",
+    "acceptedVariants": [
+      "ちょっと まって ください いって ください コーヒーを のんで います えいごを はなして ください ほんを よんで ください いま べんきょうして います てがみを かいて います はやく かえって ください"
+    ],
+    "syllableSplitReference": "cho-t-to-ma-t-te-ku-da-sa-i i-t-te-ku-da-sa-i ko-o-hi-i-o-no-n-de-i-ma-su e-i-go-o-ha-na-shi-te-ku-da-sa-i ho-n-o-yo-n-de-ku-da-sa-i i-ma-be-n-kyo-u-shi-te-i-ma-su te-ga-mi-o-ka-i-te-i-ma-su ha-ya-ku-ka-e-t-te-ku-da-sa-i",
+    "phoneticApproximation": "chottomattekudasai ittekudasai koohiio nondeimasu eigoo hanashitekudasai hono yondekudasai ima benkyoushiteimasu tegamio kaiteimasu hayaku kaettekudasai",
+    "nativeScriptReference": "ちょっとまってください いってください コーヒーをのんでいます えいごをはなしてください ほんをよんでください いまべんきょうしています てがみをかいています はやくかえってください",
+    "transliteration": "Chotto matte kudasai Itte kudasai Koohii wo nonde imasu Eigo wo hanashite kudasai Hon wo yonde kudasai Ima benkyou shite imasu Tegami wo kaite imasu Hayaku kaette kudasai",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b2/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m2/b2/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b2/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "ちょっと まって ください。いって ください。コーヒーを のんで います。えいごを はなして ください。ほんを よんで ください。いま べんきょうして います。てがみを かいて います。はやく かえって ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "te-form",
+    "verbs",
+    "intermediate",
+    "month2",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Exaggerate the pause on 'Matte' and 'Itte' while learning. It helps lock in the rhythm.",
+  "commonMistakes": [
+    "Dropping the pause and saying 'Choto mate'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B2_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

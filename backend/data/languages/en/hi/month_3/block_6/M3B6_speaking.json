@@ -1,0 +1,203 @@
+{
+  "activityId": "hi_en_M3B6_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Final Speaking Assessment",
+  "learningGoal": "Demonstrate the ability to speak using past, present, and future tenses in a continuous conversation.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M3B6_vocabulary_6"
+  ],
+  "instructions": "This is your final speaking assessment. You will have a short conversation with your teacher. You must accurately use the past, present, and future tenses in your responses. Speak clearly into the microphone.",
+  "speakingPrompt": "Roleplay a conversation with your Hindi teacher on the last day of class. Greet them, state what you did yesterday, how you feel today, and your plans for next year.",
+  "scenario": "It is the last day of your 3-month Hindi course. You meet your teacher, Guruji. You want to thank him and tell him about your progress and future plans.",
+  "role": "Student",
+  "conversationPartner": "Teacher (Guruji)",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Greet the teacher formally and say 'Thank you for everything.'",
+      "expectedSpeakingPoints": [
+        "Formal greeting",
+        "Thank you"
+      ],
+      "sampleResponse": {
+        "targetText": "नमस्ते गुरुजी। सब कुछ के लिए धन्यवाद।",
+        "transliteration": "Namaste Guruji. Sab kuch ke liye dhanyawad.",
+        "baseTranslation": "Hello Guruji. Thank you for everything."
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "The teacher asks what you did yesterday. Reply: 'Yesterday I studied Hindi for two hours.'",
+      "expectedSpeakingPoints": [
+        "Yesterday",
+        "Studied Hindi",
+        "Two hours",
+        "Past tense with 'ne'"
+      ],
+      "sampleResponse": {
+        "targetText": "कल मैंने दो घंटे हिंदी पढ़ी।",
+        "transliteration": "Kal maine do ghante hindi padhi.",
+        "baseTranslation": "Yesterday I studied Hindi for two hours."
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "The teacher asks how you are feeling today. Reply: 'Now I am very happy because I can speak Hindi.'",
+      "expectedSpeakingPoints": [
+        "Very happy now",
+        "Because",
+        "Can speak Hindi"
+      ],
+      "sampleResponse": {
+        "targetText": "अब मैं बहुत खुश हूँ क्योंकि मैं हिंदी बोल सकता हूँ।",
+        "transliteration": "Ab main bahut khush hoon kyonki main hindi bol sakta hoon.",
+        "baseTranslation": "Now I am very happy because I can speak Hindi."
+      }
+    },
+    {
+      "subTaskId": "s4",
+      "prompt": "The teacher asks about your future. Reply: 'Next year, I will come to India.'",
+      "expectedSpeakingPoints": [
+        "Next year",
+        "Will come to India",
+        "Future tense"
+      ],
+      "sampleResponse": {
+        "targetText": "अगले साल, मैं भारत आऊँगा।",
+        "transliteration": "Agle saal, main bharat aaunga.",
+        "baseTranslation": "Next year, I will come to India."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "गुरुजी: नमस्ते! आज हमारी आखिरी क्लास है।",
+    "transliteration": "Guruji: Namaste! Aaj hamari aakhiri class hai.",
+    "baseTranslation": "Guruji: Hello! Today is our last class."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते गुरुजी। सब कुछ के लिए धन्यवाद।",
+      "transliteration": "Namaste Guruji. Sab kuch ke liye dhanyawad.",
+      "baseTranslation": "Hello Guruji. Thank you for everything."
+    },
+    {
+      "targetText": "कल मैंने दो घंटे हिंदी पढ़ी।",
+      "transliteration": "Kal maine do ghante hindi padhi.",
+      "baseTranslation": "Yesterday I studied Hindi for two hours."
+    },
+    {
+      "targetText": "अब मैं बहुत खुश हूँ क्योंकि मैं हिंदी बोल सकता हूँ।",
+      "transliteration": "Ab main bahut khush hoon kyonki main hindi bol sakta hoon.",
+      "baseTranslation": "Now I am very happy because I can speak Hindi."
+    },
+    {
+      "targetText": "अगले साल, मैं भारत आऊँगा।",
+      "transliteration": "Agle saal, main bharat aaunga.",
+      "baseTranslation": "Next year, I will come to India."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 35,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Greeting the teacher",
+      "Expressing gratitude",
+      "Using 'maine padhi' for past tense studying",
+      "Expressing happiness",
+      "Stating ability to speak Hindi",
+      "Using future tense for coming to India"
+    ],
+    "requiredKeywords": [
+      "धन्यवाद",
+      "मैंने",
+      "पढ़ी",
+      "खुश",
+      "बोल सकता",
+      "आऊँगा"
+    ],
+    "acceptableParaphrases": [
+      "Female speakers should say 'bol sakti hoon' and 'aaungi'.",
+      "Can say 'Kal maine hindi seekhi' (Yesterday I learned Hindi)."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Content",
+          "weight": 35,
+          "description": "Did the user answer all parts of the prompt correctly?"
+        },
+        {
+          "name": "Fluency",
+          "weight": 25,
+          "description": "Did the user speak naturally without excessive hesitation?"
+        },
+        {
+          "name": "Grammar (Tenses)",
+          "weight": 30,
+          "description": "Were the past (with 'ne'), present continuous/ability, and future tenses formed correctly?"
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 10,
+          "description": "Were the correct words used?"
+        }
+      ]
+    },
+    "sampleAnswer": "नमस्ते गुरुजी। सब कुछ के लिए धन्यवाद। कल मैंने दो घंटे हिंदी पढ़ी। अब मैं बहुत खुश हूँ क्योंकि मैं हिंदी बोल सकता हूँ। अगले साल, मैं भारत आऊँगा।",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! You spoke flawlessly using all three tenses. You are ready for the final test.",
+    "onFail": "You had trouble switching between tenses. Make sure you use 'maine' in the past and 'ga/ge/gi' in the future.",
+    "onPartial": "Good effort. Pay close attention to gender agreements in the present and future tenses."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B6_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B6_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B6_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "नमस्ते गुरुजी... (Full response)",
+    "audioLanguage": "hi",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "review",
+    "tenses",
+    "assessment",
+    "conversation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Female speakers: remember to say 'bol sakti hoon' and 'aaungi'.",
+  "commonMistakes": [
+    "Saying 'Main padha' instead of 'Maine padha/padhi'.",
+    "Using present tense for future plans."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B6_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

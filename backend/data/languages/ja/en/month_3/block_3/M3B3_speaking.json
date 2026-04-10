@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M3B3_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Natural Advice",
+  "learningGoal": "Speak fluently using phrasal verbs (with correct pronoun placement) and idioms to give advice.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M3B3_vocabulary_6"
+  ],
+  "instructions": "同僚が仕事で困っています。句動詞やイディオムを使って、彼にアドバイスをしてあげましょう。代名詞（it）の位置に注意して、マイクに向かって話してください。(Your colleague is having trouble at work. Use phrasal verbs and idioms to give him advice. Pay attention to pronoun placement.)",
+  "speakingPrompt": "Give advice using 'turn it off', 'piece of cake', and 'don't give up'.",
+  "scenario": "A colleague's computer is broken and he is frustrated.",
+  "role": "You",
+  "conversationPartner": "Colleague",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Your colleague says: 'My computer froze!' Tell him to turn it off. (Please turn it off.)",
+      "expectedSpeakingPoints": [
+        "Please",
+        "turn it off"
+      ],
+      "sampleResponse": {
+        "targetText": "Please turn it off.",
+        "transliteration": "プリーズ ターン イット オフ。",
+        "baseTranslation": "電源を切ってください。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "He says: 'I can't fix it. It's too hard.' Tell him it is very easy. (It is a piece of cake.)",
+      "expectedSpeakingPoints": [
+        "It is",
+        "a piece of cake"
+      ],
+      "sampleResponse": {
+        "targetText": "It is a piece of cake.",
+        "transliteration": "イット イズ ア ピース オヴ ケイク。",
+        "baseTranslation": "とても簡単ですよ（朝飯前です）。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "He says: 'I want to quit.' Tell him not to give up. (Please don't give up.)",
+      "expectedSpeakingPoints": [
+        "Please",
+        "don't give up"
+      ],
+      "sampleResponse": {
+        "targetText": "Please don't give up.",
+        "transliteration": "プリーズ ドント ギヴ アップ。",
+        "baseTranslation": "あきらめないでください。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Help your colleague fix his computer and encourage him.",
+    "transliteration": "ヘルプ ユア コリーグ フィックス ヒズ コンピューター アンド エンカレッジ ヒム。",
+    "baseTranslation": "同僚がパソコンを直すのを手伝い、励ましてあげてください。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Please turn it off.",
+      "transliteration": "プリーズ ターン イット オフ。",
+      "baseTranslation": "電源を切ってください。"
+    },
+    {
+      "targetText": "It is a piece of cake.",
+      "transliteration": "イット イズ ア ピース オヴ ケイク。",
+      "baseTranslation": "とても簡単ですよ（朝飯前です）。"
+    },
+    {
+      "targetText": "Please don't give up.",
+      "transliteration": "プリーズ ドント ギヴ アップ。",
+      "baseTranslation": "あきらめないでください。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using pronoun correctly: turn IT off.",
+      "Using idiom: piece of cake.",
+      "Using phrasal verb: give up."
+    ],
+    "requiredKeywords": [
+      "turn",
+      "it",
+      "off",
+      "piece",
+      "cake",
+      "don't",
+      "give",
+      "up"
+    ],
+    "acceptableParaphrases": [
+      "Turn it off. It's a piece of cake. Don't give up."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Pronoun Placement",
+          "weight": 50,
+          "description": "Must put 'it' in the middle of 'turn off'."
+        },
+        {
+          "name": "Idiom Usage",
+          "weight": 30,
+          "description": "Must say 'piece of cake'."
+        },
+        {
+          "name": "Pronunciation Linking",
+          "weight": 20,
+          "description": "Links 'turn it off' smoothly."
+        }
+      ]
+    },
+    "sampleAnswer": "Please turn it off. It is a piece of cake. Please don't give up.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You sound very natural. Your pronunciation of 'turn it off' was excellent.",
+    "onFail": "Please try again. Did you say 'turn off it'? The correct way is 'turn IT off'.",
+    "onPartial": "Good effort! Practice linking the sounds together so 'piece of' sounds like 'peesuv'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B3_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B3_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B3_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Please turn it off. It is a piece of cake. Please don't give up.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "phrasal_verbs",
+    "idioms",
+    "pronouns"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure to say 'turn IT off'. Don't put 'it' at the end.",
+  "commonMistakes": [
+    "Saying 'turn off it'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B3_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,256 @@
+{
+  "activityId": "ja_en_M2B2_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "The Te-Form: Requests & Progressive",
+  "learningGoal": "The learner will master the most complex conjugation in beginner Japanese (the Te-form), categorize verbs into the three verb groups, make polite requests, and describe ongoing actions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M2B1_test_001"
+  ],
+  "instructions": "This is arguably the most important grammar lesson in all of Japanese. The 'Te-Form' allows you to link verbs together, ask people for favors, and say what you are currently doing. You MUST memorize the verb group rules.",
+  "conceptTitle": "The Heart of Japanese Verbs: The Te-Form",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "What is the Te-Form?",
+      "bodyText": "By itself, the Te-form means nothing. It is a connecting form. However, when you attach words like 'kudasai' (please) or 'imasu' (is doing) to it, it unlocks massive communicative power. To conjugate a verb into the Te-form, you must first know which 'Group' the verb belongs to.",
+      "targetLanguageExamples": []
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Group 2 (Ru-Verbs) and Group 3 (Irregular)",
+      "bodyText": "Group 2 is easy! Just drop 'masu' and add 'te'. Group 3 only has two verbs: Shimasu (to do) and Kimasu (to come). Memorize them.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべます -> たべて",
+          "transliteration": "Tabemasu -> Tabete",
+          "baseTranslation": "To eat -> Eat and... (Group 2)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "みます -> みて",
+          "transliteration": "Mimasu -> Mite",
+          "baseTranslation": "To see -> See and... (Group 2)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "します -> して",
+          "transliteration": "Shimasu -> Shite",
+          "baseTranslation": "To do -> Do and... (Group 3)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きます -> きて",
+          "transliteration": "Kimasu -> Kite",
+          "baseTranslation": "To come -> Come and... (Group 3)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Group 1 (U-Verbs): The Hard Ones",
+      "bodyText": "Group 1 conjugation depends on the syllable right before 'masu'. You must memorize this song/pattern:\n1) i, chi, ri -> tte (Double T)\n2) mi, bi, ni -> nde\n3) ki -> ite\n4) gi -> ide\n5) shi -> shite",
+      "targetLanguageExamples": [
+        {
+          "targetText": "かいます -> かって",
+          "transliteration": "Kaimasu (buy) -> Katte (i->tte)",
+          "baseTranslation": "Buy and... ",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "まちます -> まって",
+          "transliteration": "Machimasu (wait) -> Matte (chi->tte)",
+          "baseTranslation": "Wait and...",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "のみます -> のんで",
+          "transliteration": "Nomimasu (drink) -> Nonde (mi->nde)",
+          "baseTranslation": "Drink and...",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ききます -> きいて",
+          "transliteration": "Kikimasu (listen) -> Kiite (ki->ite)",
+          "baseTranslation": "Listen and...",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いきます -> いって",
+          "transliteration": "Ikimasu (go) -> Itte (EXCEPTION!)",
+          "baseTranslation": "Go and... (Ikite is wrong. It must be Itte)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Making Requests (~te kudasai)",
+      "bodyText": "To ask someone politely to do something, conjugate the verb into the Te-form and add 'kudasai'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "これを たべて ください。",
+          "transliteration": "Kore wo tabete kudasai.",
+          "baseTranslation": "Please eat this.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ちょっと まって ください。",
+          "transliteration": "Chotto matte kudasai.",
+          "baseTranslation": "Please wait a little.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "えいごを はなして ください。",
+          "transliteration": "Eigo wo hanashite kudasai.",
+          "baseTranslation": "Please speak English.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_05",
+      "sectionTitle": "Ongoing Actions (~te imasu)",
+      "bodyText": "To say you are CURRENTLY doing something (progressive tense like '-ing' in English), use the Te-form + 'imasu'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いま ごはんを たべて います。",
+          "transliteration": "Ima gohan wo tabete imasu.",
+          "baseTranslation": "I am eating a meal now.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ほんを よんで います。",
+          "transliteration": "Hon wo yonde imasu.",
+          "baseTranslation": "I am reading a book.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "えいごを べんきょうして います。",
+          "transliteration": "Eigo wo benkyou shite imasu.",
+          "baseTranslation": "I am studying English.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will correctly categorize verbs into their respective conjugation groups, execute the Te-form conjugations from memory, and form sentences requesting actions and describing current states.",
+  "examples": [
+    {
+      "targetText": "カフェで コーヒーを のんで います。ちょっと まって ください。",
+      "transliteration": "Kafe de koohii wo nonde imasu. Chotto matte kudasai.",
+      "baseTranslation": "I am drinking coffee at the cafe. Please wait a little.",
+      "explanation": "Combines location particle (de), object particle (wo), progressive tense (nonde imasu), and a request (matte kudasai)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Ikimasu (to go) is a Group 1 exception. Even though the syllable before masu is 'ki' (which normally becomes 'ite'), Ikimasu becomes 'Itte'.",
+      "exceptionNotes": "Saying 'Ikite kudasai' means 'Please live' (from ikimasu - to live). 'Itte kudasai' means 'Please go'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Do not confuse Group 2 with Group 1 verbs that end in 'i'. E.g., 'Mimasu' is Group 2 (Mite). 'Kaimasu' is Group 1 (Katte).",
+      "exceptionNotes": "You will eventually memorize which is which by exposure."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "'Kudasai' is a polite request, but it is still a command (Please do this for me). You use it with equals, friends, or shop staff. Do not use 'Kudasai' to command your boss or a strict teacher to do something.",
+    "dosList": [
+      "Use '~te kudasai' when asking someone for a favor or ordering food."
+    ],
+    "dontsList": [
+      "Do not use '~te kudasai' to superiors unless it is clearly for their benefit (e.g. 'Please sit down')."
+    ]
+  },
+  "summary": "The Te-form connects verbs. Group 2 drops 'masu' and adds 'te'. Group 1 uses complex phonetic changes (i/chi/ri -> tte, mi/bi/ni -> nde, ki -> ite, gi -> ide, shi -> shite). Attach 'kudasai' for requests, and 'imasu' for ongoing actions.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the Te-form of 'Nomimasu' (to drink)?",
+      "expectedAnswer": "のんで (Nonde)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Translate: 'Please wait' (Wait = Machimasu).",
+      "expectedAnswer": "まって ください (Matte kudasai)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What is the Te-form of the exception verb 'Ikimasu' (to go)?",
+      "expectedAnswer": "いって (Itte)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Group 1 conjugations: i/chi/ri(tte), mi/bi/ni(nde), ki(ite), gi(ide), shi(shite).",
+      "Te-form + kudasai = Please do.",
+      "Te-form + imasu = Currently doing."
+    ],
+    "conceptSummary": "High-density block introducing verb conjugations and linking grammar.",
+    "importantFacts": [
+      "Ikimasu -> Itte.",
+      "Mimasu -> Mite, Tabemasu -> Tabete."
+    ],
+    "checkpointAnswers": {
+      "q1": "のんで",
+      "q2": "まって ください",
+      "q3": "いって"
+    },
+    "expectedUnderstanding": "Learner must fluidly convert ~masu verbs into ~te verbs on the fly."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Incredible job! You survived the hardest grammar wall in beginner Japanese.",
+    "onFail": "Do not rush this. Memorize the Group 1 song. i-chi-ri-tte, mi-bi-ni-nde, ki-ite, gi-ide, shi-shite.",
+    "onPartial": "Good start. Make sure you don't confuse Group 2 (drop masu add te) with Group 1."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b2/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "たべます、たべて。します、して。かいます、かって。まちます、まって。のみます、のんで。ききます、きいて。いきます、いって。これを たべて ください。ちょっと まって ください。ほんを よんで います。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "te-form",
+    "verbs",
+    "grammar",
+    "intermediate",
+    "month2",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Ikite' instead of 'Itte'.",
+    "Saying 'Machite' instead of 'Matte'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B2_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

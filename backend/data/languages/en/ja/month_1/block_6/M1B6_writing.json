@@ -1,0 +1,182 @@
+{
+  "activityId": "ja_en_M1B6_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Describing Actions",
+  "learningGoal": "The learner will write 3 short sentences constructing active statements using ~masu verbs and the wo, ni, and de particles.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B6_lesson_001",
+    "ja_en_M1B6_reading_001"
+  ],
+  "instructions": "Write three short sentences in Japanese. Follow the prompts carefully to construct the sentences with the correct particles. Remember, the verb must go at the VERY END of the sentence.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "The particle 'wo' connects an object to a verb. The particle 'de' connects a location to a verb. The particle 'ni' connects a time/destination to a verb."
+    }
+  ],
+  "writingPrompt": "Translate these three sentences: 1) I eat a meal at the cafe. 2) I go to school at 9 o'clock. 3) I listen to music at home.",
+  "promptGoal": "To construct SOV sentences demonstrating proficiency with wo, ni, and de.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "たべます",
+      "transliteration": "Tabemasu",
+      "baseTranslation": "To eat",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "いきます",
+      "transliteration": "Ikimasu",
+      "baseTranslation": "To go",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ききます",
+      "transliteration": "Kikimasu",
+      "baseTranslation": "To listen",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ごはん",
+      "transliteration": "Gohan",
+      "baseTranslation": "Meal",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "おんがく",
+      "transliteration": "Ongaku",
+      "baseTranslation": "Music",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "うち",
+      "transliteration": "Uchi",
+      "baseTranslation": "Home",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "を",
+      "transliteration": "wo",
+      "baseTranslation": "Object particle",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "に",
+      "transliteration": "ni",
+      "baseTranslation": "Time/Destination particle",
+      "partOfSpeech": "particle"
+    },
+    {
+      "targetText": "で",
+      "transliteration": "de",
+      "baseTranslation": "Location of action particle",
+      "partOfSpeech": "particle"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Cafe] de [Meal] wo [Eat].",
+    "Sentence 2: [9 o'clock] ni [School] ni [Go].",
+    "Sentence 3: [Home] de [Music] wo [Listen]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "カフェで ごはんを たべます。くじに がっこうに いきます。うちで おんがくを ききます。",
+      "transliteration": "Kafe de gohan wo tabemasu. Ku-ji ni gakkou ni ikimasu. Uchi de ongaku wo kikimasu.",
+      "baseTranslation": "I eat a meal at the cafe. I go to school at 9 o'clock. I listen to music at home.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect particle usage and word order. Also correctly used the exception 'ku-ji' for 9 o'clock."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Verb Placement",
+      "weight": 30,
+      "description": "Are all three verbs (tabemasu, ikimasu, kikimasu) at the end of their respective sentences?"
+    },
+    {
+      "criterion": "Particle Accuracy (de vs ni)",
+      "weight": 40,
+      "description": "Did the learner use 'de' for the cafe/home and 'ni' for school/9 o'clock?"
+    },
+    {
+      "criterion": "Direct Object Particle (wo)",
+      "weight": 30,
+      "description": "Did the learner use 'wo' after meal (gohan) and music (ongaku)?"
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "カフェで ごはんを たべます。くじに がっこうに いきます。うちで おんがくを ききます。",
+    "acceptableAlternates": [
+      "わたしは カフェで ごはんを たべます。わたしは くじに がっこうに いきます。わたしは うちで おんがくを ききます。"
+    ],
+    "requiredKeywords": [
+      "カフェで",
+      "を",
+      "たべます",
+      "くじに",
+      "いきます",
+      "うちで",
+      "ききます"
+    ],
+    "grammarBaseline": "SOV sentence structure with wo, ni, de.",
+    "lengthExpectation": "Three active sentences.",
+    "scoringRubric": {
+      "sentence_1": 33,
+      "sentence_2": 33,
+      "sentence_3": 34
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! You have successfully mastered basic Japanese sentence structure.",
+    "onFail": "Please review the particles. 'de' is for where an action happens (Cafe de). 'wo' connects the object to the verb (Gohan wo tabemasu).",
+    "onPartial": "Good try! Make sure you didn't accidentally write 'kyuu-ji' instead of 'ku-ji' for 9 o'clock."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "verbs",
+    "particles",
+    "grammar",
+    "beginner",
+    "month1",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To type the particle 'wo', type 'w' then 'o'. It will become を.",
+  "commonMistakes": [
+    "Writing 'Kafe ni tabemasu'. You eat AT a cafe, so it must be 'Kafe de'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

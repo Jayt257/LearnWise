@@ -1,0 +1,160 @@
+{
+  "activityId": "en_ja_M3B2_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Things I Have Done",
+  "learningGoal": "Write sentences using the present perfect tense to describe life experiences.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B2_reading_3"
+  ],
+  "instructions": "あなたが今までの人生で経験したこと（行った場所、食べたもの、見たものなど）について、英語で3つの文章を書いてください。(Write 3 sentences about things you have experienced in your life.)\n以下の条件をすべて満たしてください。\n1. すべての文を「I have ＋ 過去分詞」で始めること（例：I have been to... / I have eaten...）\n2. 「yesterday（昨日）」や「last year（去年）」のような、特定の過去を表す言葉は使わないこと",
+  "writingPrompt": "Write 3 sentences about your life experiences using 'I have + past participle'. Example: 'I have eaten sushi.'",
+  "promptGoal": "To actively construct present perfect sentences to describe personal experiences without using specific past time markers.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "have been to",
+      "transliteration": "ハヴ ビーン トゥ",
+      "baseTranslation": "〜に行ったことがある",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "have eaten",
+      "transliteration": "ハヴ イートン",
+      "baseTranslation": "〜を食べたことがある",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "have seen",
+      "transliteration": "ハヴ シーン",
+      "baseTranslation": "〜を見たことがある",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "have played",
+      "transliteration": "ハヴ プレイド",
+      "baseTranslation": "〜をプレイしたことがある",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "many times",
+      "transliteration": "メニー タイムズ",
+      "baseTranslation": "何度も",
+      "partOfSpeech": "adverb phrase"
+    },
+    {
+      "targetText": "before",
+      "transliteration": "ビフォア",
+      "baseTranslation": "以前に",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "「〜に行ったことがある」は have gone to ではなく have been to を使います。",
+    "経験を強調したい時は、文の最後に before（以前に）をつけることができます。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I have been to America. I have eaten authentic Italian pizza. I have seen a wild bear before.",
+      "transliteration": "アイ ハヴ ビーン トゥ アメリカ。アイ ハヴ イートン オーセンティック イタリアン ピザ。アイ ハヴ シーン ア ワイルド ベア ビフォア。",
+      "baseTranslation": "私はアメリカに行ったことがあります。私は本物のイタリアンピザを食べたことがあります。私は以前、野生のクマを見たことがあります。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect sentences using the present perfect for experiences."
+    },
+    {
+      "targetText": "I have visited Kyoto three times. I have played baseball. I have watched that movie many times.",
+      "transliteration": "アイ ハヴ ヴィジテッド キョウト スリー タイムズ。アイ ハヴ プレイド ベースボール。アイ ハヴ ウォッチド ザット ムーヴィー メニー タイムズ。",
+      "baseTranslation": "私は京都を3回訪れたことがあります。私は野球をしたことがあります。私はその映画を何度も見たことがあります。",
+      "qualityLevel": "excellent",
+      "annotation": "Great use of 'three times' and 'many times' to emphasize experience."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Use of Present Perfect",
+      "weight": 50,
+      "description": "Did the user use 'I have' followed by a past participle?"
+    },
+    {
+      "criterion": "Appropriate Verbs",
+      "weight": 30,
+      "description": "Are the past participles formed correctly (e.g., eaten instead of eated, been instead of went)?"
+    },
+    {
+      "criterion": "No Specific Past Time",
+      "weight": 20,
+      "description": "Did the user avoid words like 'yesterday', 'last year', or 'in 2010'?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I have been to Tokyo. I have eaten sushi. I have seen a famous actor.",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "have"
+    ],
+    "grammarBaseline": "Must use 'have' + past participle. Must not use simple past tense time markers.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Grammar (Present Perfect)",
+          "weight": 70,
+          "description": "Consistently uses I have + past participle."
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 30,
+          "description": "Uses appropriate nouns and phrases to complete the experience."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You shared your experiences perfectly using the present perfect tense.",
+    "onFail": "Please check your sentences. Make sure you wrote 'I have' before the verb, and that the verb is in the past participle form (like eaten, seen, been).",
+    "onPartial": "Good try. Remember, we cannot use 'yesterday' or 'last year' with 'I have'. If you want to use a time, use 'before' or 'many times'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "present_perfect",
+    "experiences"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'I have been to...' for places you visited.",
+  "commonMistakes": [
+    "Writing 'I have went to' instead of 'I have been to'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

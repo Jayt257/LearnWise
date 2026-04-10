@@ -1,0 +1,211 @@
+{
+  "activityId": "hi_en_M1B4_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "Reading: Reading the Calendar",
+  "learningGoal": "Read paragraphs describing schedules, ages, and times of day.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B4_pronunciation_2"
+  ],
+  "instructions": "Read the following diary entry by a young student describing his week. Pay attention to the numbers written in Devanagari numerals and the days of the week.",
+  "readingTitle": "मेरा सप्ताह (My Week)",
+  "readingText": "नमस्ते। मैं रवि हूँ। मैं ८ (आठ) साल का हूँ। आज सोमवार है। मैं स्कूल में हूँ। स्कूल ९ (नौ) बजे शुरू होता है (starts)। कल (tomorrow) मंगलवार है। मंगलवार को मेरी छुट्टी (holiday) है। मैं ३ (तीन) बजे घर में हूँ। मेरा भाई ५ (पाँच) साल का है। हम खुश (happy) हैं।",
+  "textInTargetLanguage": "नमस्ते। मैं रवि हूँ। मैं ८ साल का हूँ। आज सोमवार है। मैं स्कूल में हूँ। स्कूल ९ बजे शुरू होता है। कल मंगलवार है। मंगलवार को मेरी छुट्टी है। मैं ३ बजे घर में हूँ। मेरा भाई ५ साल का है। हम खुश हैं।",
+  "baseLanguageSupportText": "Hello. I am Ravi. I am 8 years old. Today is Monday. I am in school. School starts at 9 o'clock. Tomorrow is Tuesday. On Tuesday, I have a holiday. I am at home at 3 o'clock. My brother is 5 years old. We are happy.",
+  "glossary": [
+    {
+      "targetText": "आज",
+      "transliteration": "aaj",
+      "baseTranslation": "today",
+      "exampleSentence": {
+        "targetText": "आज सोमवार है।",
+        "transliteration": "Aaj Somvaar hai.",
+        "baseTranslation": "Today is Monday."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "कल",
+      "transliteration": "kal",
+      "baseTranslation": "tomorrow / yesterday",
+      "exampleSentence": {
+        "targetText": "कल मंगलवार है।",
+        "transliteration": "Kal Mangalvaar hai.",
+        "baseTranslation": "Tomorrow is Tuesday."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "छुट्टी",
+      "transliteration": "chhutti",
+      "baseTranslation": "holiday / day off",
+      "exampleSentence": {
+        "targetText": "कल मेरी छुट्टी है।",
+        "transliteration": "Kal meri chhutti hai.",
+        "baseTranslation": "Tomorrow is my holiday."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "भाई",
+      "transliteration": "bhai",
+      "baseTranslation": "brother",
+      "exampleSentence": {
+        "targetText": "यह मेरा भाई है।",
+        "transliteration": "Yeh mera bhai hai.",
+        "baseTranslation": "This is my brother."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "खुश",
+      "transliteration": "khush",
+      "baseTranslation": "happy",
+      "exampleSentence": {
+        "targetText": "हम खुश हैं।",
+        "transliteration": "Hum khush hain.",
+        "baseTranslation": "We are happy."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं ८ साल का हूँ।",
+      "transliteration": "Main aath saal ka hoon.",
+      "baseTranslation": "I am 8 years old."
+    },
+    {
+      "targetText": "स्कूल ९ बजे शुरू होता है।",
+      "transliteration": "School nau baje shuru hota hai.",
+      "baseTranslation": "School starts at 9 o'clock."
+    },
+    {
+      "targetText": "मेरा भाई ५ साल का है।",
+      "transliteration": "Mera bhai paanch saal ka hai.",
+      "baseTranslation": "My brother is 5 years old."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "How old is Ravi?",
+      "questionType": "multiple_choice",
+      "options": [
+        "8 years old (Aath)",
+        "9 years old (Nau)",
+        "5 years old (Paanch)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "What day of the week is it 'today' (aaj) in the story?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Somvaar (Monday)",
+        "Mangalvaar (Tuesday)",
+        "Ravivaar (Sunday)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "What happens at 9 o'clock (nau baje)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "School starts.",
+        "Ravi goes home.",
+        "Ravi plays with his brother."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "How old is Ravi's brother?",
+      "questionType": "multiple_choice",
+      "options": [
+        "5 years old (Paanch)",
+        "3 years old (Teen)",
+        "10 years old (Das)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "What does the word 'chhutti' (छुट्टी) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Holiday / Day off",
+        "School",
+        "Brother"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "8 years old (Aath)",
+      "rq_2": "Somvaar (Monday)",
+      "rq_3": "School starts.",
+      "rq_4": "5 years old (Paanch)",
+      "rq_5": "Holiday / Day off"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Understand the numerals 8, 9, 3, and 5 in context.",
+      "Identify Monday and Tuesday.",
+      "Understand basic family and emotion words (bhai, khush)."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant reading! You successfully navigated Devanagari numerals and days.",
+    "onFail": "Review the Devanagari numerals. Remember: ८ is 8, ९ is 9, ५ is 5.",
+    "onPartial": "Good effort! Note that the word 'kal' can mean both yesterday and tomorrow depending on context."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। मैं रवि हूँ। मैं ८ साल का हूँ। आज सोमवार है। मैं स्कूल में हूँ। स्कूल ९ बजे शुरू होता है। कल मंगलवार है। मंगलवार को मेरी छुट्टी है। मैं ३ बजे घर में हूँ। मेरा भाई ५ साल का है। हम खुश हैं।",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "numbers",
+    "days",
+    "time",
+    "diary"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Match the numerals in the text to the glossary. ८ looks like a broken 8.",
+  "commonMistakes": [
+    "Confusing ३ (3) with the letter 'u' or expecting it to mean a different number."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B4_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

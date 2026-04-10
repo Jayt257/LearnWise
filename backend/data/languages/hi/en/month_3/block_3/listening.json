@@ -1,0 +1,200 @@
+{
+  "activityId": "en_hi_M3B3_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Splitting the Words",
+  "learningGoal": "The learner will parse conversational English containing splittable phrasal verbs, specifically identifying the object pronoun when it acts as an infix between the verb and the particle (e.g., 'Turn *it* off', 'Pick *them* up').",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M3B3_writing_001"],
+  "instructions": "Listen to a mother telling her son to clean his room. Notice how she splits the Phrasal verbs in half! Instead of saying 'Pick up the toys', she says 'Pick them up'. Try to catch the hidden pronouns!",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Remember our pronunciation rule! When the mother says 'Pick it up', she links the sounds together rapidly. It sounds like: Pih-kih-TUP!"
+    }
+  ],
+  "listeningGoal": "Identify object pronouns functioning as infixes within separable phrasal verbs in rapid speech.",
+  "audioScenario": "A mother instructing her son to tidy a messy bedroom.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Rahul, look at this room! It's a mess.",
+      "transliteration": "राहुल, लुक एट दिस रूम! इट्स अ मेस।",
+      "baseTranslation": "राहुल, इस कमरे को देखो! यह अस्त-व्यस्त है।"
+    },
+    {
+      "targetText": "Your dirty clothes are on the floor. Pick them up!",
+      "transliteration": "योर डर्टी क्लोथ्स आर ऑन द फ्लोर। पिक देम अप!",
+      "baseTranslation": "तुम्हारे गंदे कपड़े फर्श पर हैं। उन्हें उठाओ!"
+    },
+    {
+      "targetText": "Okay, Mom. I'll pick them up.",
+      "transliteration": "ओके, मॉम। आइल पिक देम अप।",
+      "baseTranslation": "ठीक है, माँ। मैं उन्हें उठा लूंगा।"
+    },
+    {
+      "targetText": "And what about the television? Why is the TV on?",
+      "transliteration": "एंड वॉट अबाऊट द टेलीविज़न? व्हाई इज़ द टीवी ऑन?",
+      "baseTranslation": "और टेलीविजन के बारे में क्या? टीवी चालू क्यों है?"
+    },
+    {
+      "targetText": "I was watching a movie.",
+      "transliteration": "आई वॉज़ वॉचिंग अ मूवी।",
+      "baseTranslation": "मैं एक फिल्म देख रहा था।"
+    },
+    {
+      "targetText": "Well, you aren't watching it now. Turn it off.",
+      "transliteration": "वेल, यू आरंट वॉचिंग इट नाउ। टर्न इट ऑफ।",
+      "baseTranslation": "खैर, तुम इसे अभी नहीं देख रहे हो। इसे बंद कर दो।"
+    },
+    {
+      "targetText": "Fine. I will turn it off.",
+      "transliteration": "फाइन। आई विल टर्न इट ऑफ।",
+      "baseTranslation": "ठीक है। मैं इसे बंद कर दूँगा।"
+    },
+    {
+      "targetText": "And these wet shoes. Take them off immediately and put them outside.",
+      "transliteration": "एंड दीज़ वेट शूज़। टेक देम ऑफ इमीडिएटली एंड पुट देम आउटसाइड।",
+      "baseTranslation": "और ये गीले जूते। इन्हें तुरंत बाहर निकालो (उतारो) और बाहर रखो।"
+    },
+    {
+      "targetText": "Okay! I am taking them off.",
+      "transliteration": "ओके! आई एम टेकिंग देम ऑफ।",
+      "baseTranslation": "ठीक है! मैं उन्हें उतार रहा हूँ।"
+    }
+  ],
+  "audioTranscriptFull": "Mom: Rahul, look at this room! It's a mess. Your dirty clothes are on the floor. Pick them up!\nRahul: Okay, Mom. I'll pick them up.\nMom: And what about the television? Why is the TV on?\nRahul: I was watching a movie.\nMom: Well, you aren't watching it now. Turn it off.\nRahul: Fine. I will turn it off.\nMom: And these wet shoes. Take them off immediately and put them outside.\nRahul: Okay! I am taking them off.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does the mother want Rahul to do with the dirty clothes?",
+      "questionType": "multiple_choice",
+      "options": ["Put them on", "Take them off", "Pick them up"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Listen closely: The mother says '____ them up!'",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What does the mother say about the television?",
+      "questionType": "multiple_choice",
+      "options": ["Turn it on", "Turn it off", "Turn it around"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "When the mother says 'Turn it off', what does the word 'It' refer to?",
+      "questionType": "multiple_choice",
+      "options": ["The clothes", "The shoes", "The television"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What does the mother tell Rahul to do with his wet shoes?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Listen to the pronunciation of 'Take them off'. It sounds like 'Tayk-the-Moff'. This is because of...",
+      "questionType": "multiple_choice",
+      "options": ["Consonant-to-vowel linking", "A grammar mistake", "Rahul crying"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "True or False: Saying 'Take off the shoes' is WRONG in English.",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:00",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "When Rahul replies, does he say 'I am taking off them' or 'I am taking them off'?",
+      "questionType": "multiple_choice",
+      "options": ["taking off them", "taking them off"],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for MCQ."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Pick them up",
+      "q2": "Pick",
+      "q3": "Turn it off",
+      "q4": "The television",
+      "q5": "Take them off",
+      "q6": "Consonant-to-vowel linking",
+      "q7": "False",
+      "q8": "taking them off"
+    },
+    "acceptedShortAnswers": {
+      "q2": ["pick", "Pick"],
+      "q5": ["take them off", "Take them off", "take off", "take off the shoes"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q2": ["pick"],
+      "q5": ["take", "off"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly heard the hidden pronouns. This is a very advanced listening skill. You realized that 'Turn it off' and 'Turn off the TV' mean the exact same thing!",
+    "onFail": "Keep trying! When native speakers use pronouns like 'it' or 'them', they put them right in the middle of the Phrasal verb. Turn IT off. Pick THEM up.",
+    "onPartial": "Good ear! Watch out for Question 7. Remember the rule from the lesson: 'Take off the shoes' and 'Take the shoes off' are BOTH 100% correct!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b3/listening/room_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b3/listening/room_slow.mp3",
+    "normalAudio": "audio/en_hi/m3/b3/listening/room_native.mp3",
+    "audioTranscript": "Mom: Rahul, look at this room! It's a mess... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "phrasal_verbs", "splittable", "pronouns", "intermediate", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b3/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the object is a pronoun (it, them, him, her), it MUST go in the middle of the phrasal verb. You cannot say 'Turn off it'.",
+  "commonMistakes": [
+    "Thinking 'Take off them' is correct (pronouns cannot go at the end of a splittable phrasal verb)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B3_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

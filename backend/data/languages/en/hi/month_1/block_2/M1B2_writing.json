@@ -1,0 +1,224 @@
+{
+  "activityId": "hi_en_M1B2_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Writing: Who Are You and Where Are You From?",
+  "learningGoal": "Construct full sentences in Hindi to introduce yourself and state your home country using the correct postpositions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_lesson_1"
+  ],
+  "instructions": "In this exercise, you will practice writing self-introductions. Remember that Hindi sentences end with the verb (SOV order). Use the word bank to translate the complex sentences. Pay special attention to where the word 'se' (from) is placed.",
+  "writingPrompt": "Translate the following self-introduction into Hindi:\n1. Hello. How are you?\n2. I am [Your Name]. (Use 'John' for the system check)\n3. I am from America.\n4. And who is this?\n5. This is Maria. Maria is from Spain.",
+  "promptGoal": "Building complex self-introductions using 'Main... hoon', 'se', and 'yeh... hai'.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "Hello",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "You",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "कैसे",
+      "transliteration": "kaise",
+      "baseTranslation": "how",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "I",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "जॉन",
+      "transliteration": "John",
+      "baseTranslation": "John",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "hoon",
+      "baseTranslation": "am",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "अमेरिका",
+      "transliteration": "Amerika",
+      "baseTranslation": "America",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "से",
+      "transliteration": "se",
+      "baseTranslation": "from",
+      "partOfSpeech": "postposition"
+    },
+    {
+      "targetText": "और",
+      "transliteration": "aur",
+      "baseTranslation": "and",
+      "partOfSpeech": "conjunction"
+    },
+    {
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this / he / she",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "कौन",
+      "transliteration": "kaun",
+      "baseTranslation": "who",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "मारिया",
+      "transliteration": "Maria",
+      "baseTranslation": "Maria",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "स्पेन",
+      "transliteration": "Spain",
+      "baseTranslation": "Spain",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 2: 'I John am.'",
+    "Sentence 3: 'I America from am.'",
+    "Sentence 4: 'And this who is?'",
+    "Sentence 5: 'This Maria is. Maria Spain from is.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "नमस्ते। आप कैसे हैं? मैं जॉन हूँ। मैं अमेरिका से हूँ। और यह कौन है? यह मारिया है। मारिया स्पेन से है।",
+      "transliteration": "Namaste. Aap kaise hain? Main John hoon. Main Amerika se hoon. Aur yeh kaun hai? Yeh Maria hai. Maria Spain se hai.",
+      "baseTranslation": "Hello. How are you? I am John. I am from America. And who is this? This is Maria. Maria is from Spain.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect SOV word order and correct use of verbs 'hoon' vs 'hai'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Self Introduction",
+      "weight": 25,
+      "description": "Correctly forms 'Main [Name] hoon'."
+    },
+    {
+      "criterion": "Origin Statement",
+      "weight": 25,
+      "description": "Places 'se' immediately after the country, and ends with 'hoon'."
+    },
+    {
+      "criterion": "Third Person Pronouns",
+      "weight": 25,
+      "description": "Correctly uses 'yeh' to introduce someone else."
+    },
+    {
+      "criterion": "Verb Matching",
+      "weight": 25,
+      "description": "Uses 'hoon' for 'I' and 'hai' for 'Maria/This'."
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "नमस्ते। आप कैसे हैं? मैं जॉन हूँ। मैं अमेरिका से हूँ। और यह कौन है? यह मारिया है। मारिया स्पेन से है।",
+    "acceptableAlternates": [
+      "Namaste. Aap kaise hain? Main John hoon. Main Amerika se hoon. Aur yeh kaun hai? Yeh Maria hai. Maria Spain se hai."
+    ],
+    "requiredKeywords": [
+      "Namaste",
+      "Aap kaise hain",
+      "Main",
+      "hoon",
+      "se",
+      "yeh kaun hai",
+      "hai"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict checking of verb ending (SOV).",
+    "lengthExpectation": "A full paragraph of 6 short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Verb Placement",
+          "weight": 50,
+          "description": "Verbs 'hain', 'hoon', and 'hai' must be at the very end of their respective clauses."
+        },
+        {
+          "name": "Postposition Placement",
+          "weight": 50,
+          "description": "The word 'se' must immediately follow the noun it modifies (e.g., Amerika se)."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Masterful! You can now write full, complex introductions in Hindi.",
+    "onFail": "Please review the word order. In Hindi, it's 'I America from am'.",
+    "onPartial": "Good try! Make sure you don't mix up 'hoon' (am) and 'hai' (is). Maria takes 'hai', you take 'hoon'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "introductions",
+    "countries",
+    "grammar",
+    "sov"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the 'Reference Hints' section closely to see the literal English translation of the Hindi word order.",
+  "commonMistakes": [
+    "Writing 'Main hoon Amerika se' (English word order)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

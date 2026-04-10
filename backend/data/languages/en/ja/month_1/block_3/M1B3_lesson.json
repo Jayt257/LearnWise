@@ -1,0 +1,212 @@
+{
+  "activityId": "ja_en_M1B3_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "Katakana & Loan Words",
+  "learningGoal": "The learner will understand the purpose of Katakana, recognize core Katakana characters, and read common loan words like 'Coffee' and 'Taxi'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B2_test_001"
+  ],
+  "instructions": "Read through the lesson carefully. Katakana is the second Japanese alphabet. It sounds exactly the same as Hiragana, but the letters look different and it is used for specific purposes. Make sure to listen to the audio for the new loan words.",
+  "conceptTitle": "The Katakana Alphabet & Foreign Words",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "What is Katakana?",
+      "bodyText": "Katakana is one of the three Japanese writing systems. It represents exactly the same sounds as Hiragana (a, i, u, e, o, ka, ki, etc.). However, its characters are more angular and sharp. Katakana is primarily used for foreign loan words, foreign names, and sometimes for emphasis (like italics in English).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "アメリカ",
+          "transliteration": "Amerika",
+          "baseTranslation": "America",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "カメラ",
+          "transliteration": "Kamera",
+          "baseTranslation": "Camera",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "The Elongation Mark (ー)",
+      "bodyText": "One big difference when writing in Katakana is the elongation mark, which looks like a dash (ー). When you see this mark, it means you must hold the previous vowel sound for an extra beat. This is very common in English loan words.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "コーヒー",
+          "transliteration": "Koohii",
+          "baseTranslation": "Coffee (Long 'o' and long 'i')",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "コンピューター",
+          "transliteration": "Konpyuutaa",
+          "baseTranslation": "Computer",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Common Everyday Loan Words",
+      "bodyText": "Because Katakana words are often borrowed from English, they might sound familiar, but they are adapted to Japanese pronunciation rules. For example, Japanese has no 'v' sound, so it often becomes 'b'. Every consonant (except 'n') must also be followed by a vowel.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "テレビ",
+          "transliteration": "Terebi",
+          "baseTranslation": "Television (TV)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "タクシー",
+          "transliteration": "Takushii",
+          "baseTranslation": "Taxi",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ホテル",
+          "transliteration": "Hoteru",
+          "baseTranslation": "Hotel",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Ordering at a Restaurant",
+      "bodyText": "You will see a lot of Katakana on Japanese restaurant menus. To order something, simply say the item name followed by 'onegaishimasu' (please).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "コーヒー、おねがいします。",
+          "transliteration": "Koohii, onegaishimasu.",
+          "baseTranslation": "Coffee, please.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ジュース、おねがいします。",
+          "transliteration": "Juusu, onegaishimasu.",
+          "baseTranslation": "Juice, please.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will be able to recognize the purpose of Katakana, understand the elongation mark, and read basic Katakana loan words.",
+  "examples": [
+    {
+      "targetText": "わたしは ジョンです。イギリスじんです。コーヒー、おねがいします。",
+      "transliteration": "Watashi wa Jon desu. Igirisu-jin desu. Koohii, onegaishimasu.",
+      "baseTranslation": "I am John. I am British. Coffee, please.",
+      "explanation": "This example combines Katakana names, Katakana nationalities, and ordering a Katakana item."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Use Katakana for foreign words and foreign names.",
+      "exceptionNotes": "Do not write Japanese words like 'Watashi' or 'Sensei' in Katakana unless you are trying to be highly stylized or emphatic."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The elongation mark (ー) is only used in Katakana, not in Hiragana.",
+      "exceptionNotes": "In Hiragana, we elongate vowels by writing the vowel character itself (e.g. おう for 'ou')."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese language has thousands of 'Gairaigo' (loan words), mostly from English, but also from Portuguese, German, and French. Sometimes, the meaning shifts slightly from the original English meaning. For example, 'Mansion' (マンション) in Japanese just means a standard concrete apartment building, not a giant luxury house.",
+    "dosList": [
+      "Use Japanese pronunciation when saying English loan words in Japan. If you say 'Coffee' with a perfect American accent, they might not understand you. Say 'Koohii'."
+    ],
+    "dontsList": [
+      "Do not assume every English word works in Japanese. Only specific words have been adopted into the language."
+    ]
+  },
+  "summary": "Katakana is the sharp, angular script used for foreign words and names. It uses the exact same sounds as Hiragana. The most unique feature of written Katakana is the dash (ー), which elongates the vowel sound. Many everyday items in Japan, like computers, TVs, and coffee, are written in Katakana.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does the line (ー) do in Katakana?",
+      "expectedAnswer": "It elongates the previous vowel sound."
+    },
+    {
+      "questionId": "q2",
+      "questionText": "If your name is David, which alphabet would you use to write it in Japanese?",
+      "expectedAnswer": "Katakana."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you order a coffee politely?",
+      "expectedAnswer": "コーヒー、おねがいします (Koohii, onegaishimasu)."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Katakana is used for foreign words",
+      "The dash (ー) elongates vowels",
+      "English words are adapted to Japanese syllables"
+    ],
+    "conceptSummary": "Introduction to the Katakana script and its usage for loan words.",
+    "importantFacts": [
+      "Japanese has no 'v' sound, so it often becomes 'b' (Video -> Bideo, TV -> Terebi)."
+    ],
+    "checkpointAnswers": {
+      "q1": "Elongates the vowel",
+      "q2": "Katakana",
+      "q3": "コーヒー おねがいします"
+    },
+    "expectedUnderstanding": "Learner should understand when to use Katakana vs Hiragana and recognize the elongation mark."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand the basics of Katakana.",
+    "onFail": "Please review the rules of Katakana.",
+    "onPartial": "Good. Make sure you remember the elongation mark rule."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b3/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "アメリカ。カメラ。コーヒー。コンピューター。テレビ。タクシー。ホテル。コーヒー、おねがいします。ジュース、おねがいします。わたしは ジョンです。イギリスじんです。コーヒー、おねがいします。",
+    "audioLanguage": "ja",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "katakana",
+    "loan_words",
+    "beginner",
+    "month1",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Trying to pronounce Katakana words with a native English accent.",
+    "Forgetting the elongation mark when writing."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B3_pronunciation_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

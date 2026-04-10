@@ -1,0 +1,167 @@
+{
+  "activityId": "en_ja_M2B4_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "What did you do yesterday?",
+  "learningGoal": "Write sentences about past events using regular verbs (-ed), irregular verbs, and negative forms (didn't).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B4_reading_3"
+  ],
+  "instructions": "あなたが昨日したことについて、英語で3つの文章を書いてください。(Write three sentences about what you did yesterday.)\n以下の条件をすべて満たしてください。\n1. 規則動詞（〜ed がつく動詞）を1つ使う（例：played, watched）\n2. 不規則動詞（形が変わる動詞）を1つ使う（例：went, ate, saw）\n3. 否定文（didn't を使った文）を1つ使う\n※didn't の後ろの動詞は原形に戻ることに注意！",
+  "writingPrompt": "Write 3 sentences about what you did yesterday. Use one regular verb (-ed), one irregular verb (like went or ate), and one negative sentence (didn't).",
+  "promptGoal": "To actively construct affirmative and negative past tense sentences using both regular and irregular verbs.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "played",
+      "transliteration": "プレイド",
+      "baseTranslation": "遊んだ、〜をした（規則動詞）",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "watched",
+      "transliteration": "ウォッチト",
+      "baseTranslation": "見た（規則動詞）",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "went",
+      "transliteration": "ウェント",
+      "baseTranslation": "行った（go の過去形・不規則動詞）",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ate",
+      "transliteration": "エイト",
+      "baseTranslation": "食べた（eat の過去形・不規則動詞）",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "didn't",
+      "transliteration": "ディドント",
+      "baseTranslation": "〜しなかった",
+      "partOfSpeech": "auxiliary verb"
+    },
+    {
+      "targetText": "yesterday",
+      "transliteration": "イエスタデイ",
+      "baseTranslation": "昨日",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "不規則動詞の例：go → went, eat → ate, see → saw, have → had",
+    "「I didn't went」は間違いです。「I didn't go」のように、didn't の後は原形を使います。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I played tennis yesterday. I went to a nice restaurant. I didn't eat meat.",
+      "transliteration": "アイ プレイド テニス イエスタデイ。アイ ウェント トゥ ア ナイス レストラン。アイ ディドント イート ミート。",
+      "baseTranslation": "私は昨日テニスをしました。素敵なレストランに行きました。お肉は食べませんでした。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect. Uses regular (played), irregular (went), and negative (didn't eat)."
+    },
+    {
+      "targetText": "I watched a movie last night. I had pizza for dinner. I didn't sleep well.",
+      "transliteration": "アイ ウォッチト ア ムービー ラスト ナイト。アイ ハッド ピザ フォー ディナー。アイ ディドント スリープ ウェル。",
+      "baseTranslation": "昨夜、映画を見ました。夕食にピザを食べました。よく眠れませんでした。",
+      "qualityLevel": "excellent",
+      "annotation": "Great use of 'watched' (regular), 'had' (irregular), and 'didn't sleep' (negative)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Regular Past Verb",
+      "weight": 30,
+      "description": "Did the user use a verb ending in -ed correctly?"
+    },
+    {
+      "criterion": "Irregular Past Verb",
+      "weight": 30,
+      "description": "Did the user use a correctly conjugated irregular verb (e.g., went, ate)?"
+    },
+    {
+      "criterion": "Negative Sentence",
+      "weight": 30,
+      "description": "Did the user use 'didn't' with a base verb?"
+    },
+    {
+      "criterion": "Grammar (Double Past)",
+      "weight": 10,
+      "description": "Did the user avoid the double past mistake (e.g., no 'didn't went')?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I [regular verb + ed]. I [irregular verb past]. I didn't [base verb].",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "didn't"
+    ],
+    "grammarBaseline": "Must include at least one -ed verb, one irregular past verb, and one 'didn't + base verb'. Must NOT use 'didn't + past verb'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Past Tense Mechanics",
+          "weight": 60,
+          "description": "Correctly forms affirmative past verbs (both types) and negative past verbs."
+        },
+        {
+          "name": "Syntax and Spelling",
+          "weight": 40,
+          "description": "Basic sentence structure is sound."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great writing! You perfectly demonstrated how to talk about the past in English.",
+    "onFail": "Please check your sentences. Did you include an '-ed' word? Did you include a changed word like 'went' or 'ate'? Did you use 'didn't'?",
+    "onPartial": "Good try. Check your negative sentence. Make sure you used the base verb after didn't (e.g., 'didn't go', NOT 'didn't went')."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "simple_past",
+    "irregular_verbs",
+    "negatives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you don't write 'I didn't played'. It must be 'I didn't play'.",
+  "commonMistakes": [
+    "Writing 'I didn't went'.",
+    "Using present tense verbs (I go, I play) when talking about yesterday."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

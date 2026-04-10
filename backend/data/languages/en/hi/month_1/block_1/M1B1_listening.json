@@ -1,0 +1,152 @@
+{
+  "activityId": "hi_en_M1B1_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Listening: First Encounters",
+  "learningGoal": "Recognize the greeting 'Namaste' and the question 'Aap kaise hain' in spoken audio.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M1B1_lesson_1"
+  ],
+  "instructions": "Listen to the audio of a simple conversation between two people meeting at a cafe. They are speaking slowly. Try to pick out the greeting words.",
+  "listeningGoal": "Identify greetings and basic questions in slow, clear speech.",
+  "audioScenario": "Two people greeting each other.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "अमित: नमस्ते, नेहा।",
+      "transliteration": "Amit: Namaste, Neha.",
+      "baseTranslation": "Amit: Hello, Neha."
+    },
+    {
+      "targetText": "नेहा: नमस्ते, अमित।",
+      "transliteration": "Neha: Namaste, Amit.",
+      "baseTranslation": "Neha: Hello, Amit."
+    },
+    {
+      "targetText": "अमित: आप कैसे हैं?",
+      "transliteration": "Amit: Aap kaise hain?",
+      "baseTranslation": "Amit: How are you?"
+    },
+    {
+      "targetText": "नेहा: मैं ठीक हूँ। धन्यवाद।",
+      "transliteration": "Neha: Main theek hoon. Dhanyawad.",
+      "baseTranslation": "Neha: I am fine. Thank you. (Dhanyawad means Thank you)"
+    }
+  ],
+  "audioTranscriptFull": "नमस्ते, नेहा。 नमस्ते, अमित。 आप कैसे हैं? मैं ठीक हूँ। धन्यवाद。",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What word do Amit and Neha use to greet each other?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Namaste (नमस्ते)",
+        "Theek (ठीक)",
+        "Kaise (कैसे)"
+      ],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "What question does Amit ask Neha?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aap kaise hain? (How are you?)",
+        "Aap kaun hain? (Who are you?)",
+        "Namaste?"
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "How does Neha reply to 'Aap kaise hain'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Main theek hoon (I am fine)",
+        "Namaste",
+        "Aap (You)"
+      ],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "What does Neha say at the very end of the conversation?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Dhanyawad (Thank you)",
+        "Namaste (Hello)",
+        "Theek (Fine)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Namaste (नमस्ते)",
+      "lq_2": "Aap kaise hain? (How are you?)",
+      "lq_3": "Main theek hoon (I am fine)",
+      "lq_4": "Dhanyawad (Thank you)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You successfully identified the core Hindi greetings.",
+    "onFail": "Listen again carefully. They say 'Namaste' at the beginning.",
+    "onPartial": "Good effort! Remember that 'Dhanyawad' means Thank you."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते, नेहा。 नमस्ते, अमित。 आप कैसे हैं? मैं ठीक हूँ। धन्यवाद。",
+    "audioLanguage": "hi",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "greetings",
+    "namaste",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the transcript sentences above if you are having trouble hearing the words.",
+  "commonMistakes": [
+    "Confusing 'Theek' (fine) with 'Kaise' (how)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

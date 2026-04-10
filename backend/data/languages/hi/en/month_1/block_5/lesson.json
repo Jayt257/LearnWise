@@ -1,0 +1,214 @@
+{
+  "activityId": "en_hi_M1B5_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "Action Verbs and Daily Routines",
+  "learningGoal": "The learner will transition from static 'To Be' sentences to active Present Simple sentences, mastering the critical rule of appending 's' or 'es' to verbs for third-person singular subjects (He/She/It) while avoiding the common 'To Be + Verb' error.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B4_test_001"],
+  "instructions": "In this lesson, we leave 'am/is/are' behind. You will learn how to talk about actions you do every day (eating, running, sleeping). Read the rules very carefully: English has ONE very important rule for verbs when talking about 'He' or 'She'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अब तक आपने 'मैं एक छात्र हूँ' (I am a student) कहना सीखा। अब हम दैनिक कार्यों के बारे में बात करेंगे: 'मैं खाता हूँ', 'मैं जाता हूँ'। अंग्रेजी में, इसके लिए 'am/is/are' की आवश्यकता नहीं होती है। हम सीधे Action Verb (क्रिया) का उपयोग करते हैं।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Present Simple uses the base verb exclusively for I, You, We, They (I eat, You eat, We eat).",
+      "Third Person Singular subjects (He, She, It) ALWAYS require an 's' or 'es' at the end of the action verb (He eats, She goes).",
+      "Never mix 'To Be' verbs with base action verbs in Present Simple (e.g., 'I am eat' is fundamentally broken English).",
+      "Just like nouns, verbs ending in s, x, ch, sh, o take '-es' (Go -> Goes, Watch -> Watches)."
+    ],
+    "conceptSummary": "Introduction to Present Simple affirmative sentences emphasizing the He/She/It suffix conjugation and the exclusion of auxiliary 'To Be' verbs.",
+    "importantFacts": [
+      "Hindi uses completely different verb endings based on gender (खाता है vs खाती है). English verbs are completely gender-neutral (He eats / She eats).",
+      "The English verb only changes based on NUMBER (Singular vs Plural/You/I)."
+    ],
+    "checkpointAnswers": {
+      "q1": "goes",
+      "q2": "eats",
+      "q3": "We run in the park.",
+      "q4": "False"
+    },
+    "expectedUnderstanding": "Learners can describe habitual routines without defaulting to 'I am wake up', correctly choosing between 'I wake up' and 'He wakes up'."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand the Golden Rule of English action verbs: Add an 's' for He/She/It, and leave the verb alone for I/You/We/They.",
+    "onFail": "Please review the section on the 'Golden Rule'. Remember: sentences like 'I am eat' are wrong. Just say 'I eat'. And if it relates to a Boy or Girl (He/She), you MUST add 's' to the verb ('He eats').",
+    "onPartial": "Good effort! Check your answers for words that end in 'o' or 'ch'. They take 'es', not just 's' (He goes. She watches)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b5/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m1/b5/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m1/b5/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m1/b5/lesson/native_lesson.mp3",
+    "audioTranscript": "I eat. You run. He sleeps. She goes. They play.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "present_simple", "routines", "beginner", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b5/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you are confused whether to use 's' or not, remember the 'Third Person Singular' rule. Only one single person who is NOT you. So: I (no s), You (no s), He (add s), They (no s).",
+  "commonMistakes": [
+    "Saying 'I am go to school' instead of 'I go to school'.",
+    "Saying 'He eat an apple' instead of 'He eats an apple'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B5_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Action Verbs & Routines",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Drop the 'Am / Is / Are' ('Am' और 'Is' को हटा दें)",
+      "bodyText": "जब आप उस चीज़ के बारे में बात करते हैं जो आप रोज़ करते हैं (जैसे खाना, सोना, खेलना), तो आप 'am/is/are' का उपयोग नहीं करते हैं। हिंदी बोलने वाले अक्सर एक बहुत बड़ी गलती करते हैं: वे 'I am eat' कहते हैं। यह गलत है। बस सीधे 'Subject + Action' कहें: 'I eat'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I eat breakfast. You sleep. They run.",
+          "transliteration": "आई ईट ब्रेकफ़ास्ट। यू स्लीप। दे रन।",
+          "baseTranslation": "मैं नाश्ता करता हूँ। तुम सोते हो। वे दौड़ते हैं। (यहाँ am/are नहीं है!)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The Golden Rule: He, She, It (स्वर्णिम नियम)",
+      "bodyText": "अंग्रेजी वाक्यों का सबसे बड़ा नियम: यदि आपका Subject 'He', 'She', 'It' है, या किसी एक व्यक्ति का नाम (Rahul, Priya) है, तो आपको क्रिया (Verb) के अंत में 's' लगाना होगा।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I sleep -> He sleeps.",
+          "transliteration": "आई स्लीप -> ही स्लीप्स।",
+          "baseTranslation": "मैं सोता हूँ -> वह सोता है। (चूंकि यह 'He' है, हमने 's' जोड़ा है।)"
+        },
+        {
+          "targetText": "You run -> She runs.",
+          "transliteration": "यू रन -> शी रन्स।",
+          "baseTranslation": "तुम दौड़ते हो -> वह दौड़ती है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Adding '-es' instead of '-s' ('-es' जोड़ना)",
+      "bodyText": "ठीक वैसे ही जैसे बहुवचन (Plurals) के साथ होता है, यदि आपकी क्रिया 'o', 'sh', 'ch', 's', या 'x' पर समाप्त होती है, तो आप 's' के बजाय 'es' जोड़ते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I go -> He goes. I watch -> She watches.",
+          "transliteration": "आई गो -> ही गोज़। आई वॉच -> शी वॉचेस।",
+          "baseTranslation": "मैं जाता हूँ -> वह जाता है। मैं देखता हूँ -> वह देखती है।"
+        },
+        {
+          "targetText": "I wash -> Amit washes.",
+          "transliteration": "आई वॉश -> अमित वॉशेस।",
+          "baseTranslation": "मैं धोता हूँ -> अमित धोता है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "No Genders in Verbs (क्रियाओं में कोई लिंग नहीं होता)",
+      "bodyText": "हिंदी में, लिंग के आधार पर क्रियाएँ बदल जाती हैं ('वह जाता है' बनाम 'वह जाती है')। अंग्रेजी में, क्रिया लिंग की परवाह नहीं करती है। लड़का हो या लड़की, यह एक ही रहता है!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "He eats an apple. She eats an apple.",
+          "transliteration": "ही ईट्स ऐन ऐपल। शी ईट्स ऐन ऐपल।",
+          "baseTranslation": "वह (लड़का) सेब खाता है। वह (लड़की) सेब खाती है। (अंग्रेजी में क्रिया एक ही है: eats!)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec5",
+      "sectionTitle": "Plurals and Verbs (बहुवचन और क्रियाएँ)",
+      "bodyText": "याद रखें, यदि कई लोग हैं (They, We, या The dogs), तो आप क्रिया में 's' नहीं जोड़ते हैं। 'S' केवल एक तीसरे व्यक्ति (He, She, It) के लिए है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The dog runs. The dogs run.",
+          "transliteration": "द डॉग रन्स। द डॉग्स रन।",
+          "baseTranslation": "कुत्ता दौड़ता है। कुत्ते दौड़ते हैं। (बहुवचन 'dogs' है, इसलिए 'run' में 's' नहीं लगेगा!)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will establish reflexes for affixing third-person singular markers to action verbs and eradicate the incorrect habit of inserting auxiliary 'to be' verbs into simple action statements.",
+  "examples": [
+    {
+      "targetText": "Rahul goes to the market.",
+      "transliteration": "राहुल गोज़ टू द मार्केट।",
+      "baseTranslation": "राहुल बाज़ार जाता है।",
+      "explanation": "Rahul is one person (He). The verb is 'go'. Since it ends in 'O', we add 'es' to make 'goes'."
+    },
+    {
+      "targetText": "We eat breakfast.",
+      "transliteration": "वी ईट ब्रेकफ़ास्ट।",
+      "baseTranslation": "हम नाश्ता करते हैं।",
+      "explanation": "We is plural. Therefore, no 's' is added to 'eat'. Never say 'We are eat'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Do NOT say 'I am sleep', 'You are run', or 'He is eat'. It must be 'I sleep', 'You run', 'He eats'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "If the subject is He, She, It, or a singular noun (one dog, Amit), you MUST add 's' or 'es' to the verb action.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "If the subject is I, You, We, They, or a plural noun (dogs, boys), you do NOT use the 's'. Just say the base verb.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Native speakers instantly spot broken English when someone says 'I am live in India'. It sounds robotic. Saying 'I live in India' sounds immediately native.",
+    "dosList": [
+      "Use base verbs for facts and daily habits (I drink coffee, I read books)."
+    ],
+    "dontsList": [
+      "Do not try to make verbs match the gender of the speaker (English doesn't do this!)."
+    ]
+  },
+  "summary": "For daily routines, drop am/is/are. Use the base action verb for I, You, We, They. The Golden Rule: If the subject is ONE other thing (He, She, It, Rahul, dog), you must add 's' or 'es' to the verb. E.g., 'I run', but 'He runs'.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Fill in the blank: She ______ to the park. (go)",
+      "expectedAnswer": "goes"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank: Amit ______ an apple. (eat)",
+      "expectedAnswer": "eats"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Correct this sentence: 'We are run in the park.'",
+      "expectedAnswer": "We run in the park."
+    },
+    {
+      "questionId": "q4",
+      "questionText": "True or False: The verb changes depending on whether it is a man or woman (e.g. He read / She reads).",
+      "expectedAnswer": "False"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "activityId": "en_ja_M1B1_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Meeting Robert and Victoria",
+  "learningGoal": "Listen to a basic English conversation and distinguish between R/L and V/B sounds in names.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B1_writing_4"
+  ],
+  "instructions": "音声を聞いて、質問に答えてください。特に R と V の音（Robert, Victoria, Very）に注意して聞いてみましょう。(Listen to the audio and answer the questions. Pay special attention to the R and V sounds in Robert, Victoria, and Very.)",
+  "listeningGoal": "To comprehend a basic introductory conversation and correctly identify spoken names containing R and V sounds.",
+  "audioScenario": "Two people, Robert and Victoria, are meeting for the first time.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hello. My name is Robert. Nice to meet you.",
+      "transliteration": "ヘロー。マイ ネーム イズ ロバート。ナイス トゥ ミート ユー。",
+      "baseTranslation": "こんにちは。私の名前はロバートです。はじめまして。"
+    },
+    {
+      "targetText": "Nice to meet you too, Robert.",
+      "transliteration": "ナイス トゥ ミート ユー トゥー、ロバート。",
+      "baseTranslation": "こちらこそはじめまして、ロバート。"
+    },
+    {
+      "targetText": "I am Victoria. How are you?",
+      "transliteration": "アイ アム ヴィクトリア。ハウ アー ユー？",
+      "baseTranslation": "私はヴィクトリアです。お元気ですか？"
+    },
+    {
+      "targetText": "I am very well, thank you. And you?",
+      "transliteration": "アイ アム ヴェリー ウェル、サンキュー。アンド ユー？",
+      "baseTranslation": "とても元気です、ありがとう。あなたは？"
+    },
+    {
+      "targetText": "I am fine, thanks.",
+      "transliteration": "アイ アム ファイン、サンクス。",
+      "baseTranslation": "元気です、ありがとう。"
+    }
+  ],
+  "audioTranscriptFull": "Robert: Hello. My name is Robert. Nice to meet you.\nVictoria: Nice to meet you too, Robert. I am Victoria. How are you?\nRobert: I am very well, thank you. And you?\nVictoria: I am fine, thanks.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "男性の名前は何ですか？ (What is the man's name?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Albert",
+        "Robert",
+        "Richard",
+        "Lobert"
+      ],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "女性の名前は何ですか？ (What is the woman's name?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Victoria",
+        "Bictoria",
+        "Veronica",
+        "Maria"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "女性が「How are you?」と聞いた後、男性は何と答えましたか？ (How did the man reply when the woman asked 'How are you?')",
+      "questionType": "multiple_choice",
+      "options": [
+        "I am fine.",
+        "I am very well, thank you.",
+        "Nice to meet you.",
+        "I am Robert."
+      ],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "男性が「And you? (あなたは？)」と聞いた後、女性は何と答えましたか？ (How did the woman reply to 'And you?')",
+      "questionType": "multiple_choice",
+      "options": [
+        "I am fine, thanks.",
+        "Nice to meet you too.",
+        "Goodbye.",
+        "I am Victoria."
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Robert",
+      "q2": "Victoria",
+      "q3": "I am very well, thank you.",
+      "q4": "I am fine, thanks."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You successfully identified the correct names and responses.",
+    "onFail": "Listen again carefully. The first letter of the man's name has an 'R' sound, not an 'L' sound.",
+    "onPartial": "Good effort! Try listening to the slow audio to catch the exact words they use."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B1_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B1_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Robert: Hello. My name is Robert. Nice to meet you...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "greetings",
+    "names",
+    "conversation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the 'V' sound in 'Very well' and 'Victoria'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

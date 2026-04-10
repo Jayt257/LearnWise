@@ -1,0 +1,182 @@
+{
+  "activityId": "hi_en_M3B1_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Listening: The Weekend Plan",
+  "learningGoal": "Identify and decode various conditional statements ('Agar... toh...') in a rapid, natural conversation about weekend plans.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B1_lesson_1"
+  ],
+  "instructions": "Listen to Neha and Rahul try to make plans for the weekend. Their plans keep changing based on different conditions. Track what will happen IF it rains, IF Neha gets a car, and IF Rahul's boss calls.",
+  "listeningGoal": "Distinguish between real future possibilities and dropped 'Agar' conditionals in spoken Hindi.",
+  "audioScenario": "Neha and Rahul are discussing where to go this Saturday.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "नेहा: राहुल, अगर इस शनिवार को मौसम अच्छा रहा, तो हम पहाड़ पर चलेंगे।",
+      "transliteration": "Neha: Rahul, agar is shanivaar ko mausam achchha raha, toh hum pahaad par chalenge.",
+      "baseTranslation": "Neha: Rahul, if the weather is good this Saturday, then we will go to the mountains."
+    },
+    {
+      "targetText": "राहुल: हाँ, लेकिन अगर बारिश हुई, तो क्या करेंगे?",
+      "transliteration": "Rahul: Haan, lekin agar baarish hui, toh kya karenge?",
+      "baseTranslation": "Rahul: Yes, but if it rains, then what will we do?"
+    },
+    {
+      "targetText": "नेहा: बारिश हुई, तो हम घर पर फिल्म देखेंगे।",
+      "transliteration": "Neha: Baarish hui, toh hum ghar par film dekhenge.",
+      "baseTranslation": "Neha: [If] it rains, then we will watch a film at home."
+    },
+    {
+      "targetText": "राहुल: ठीक है। लेकिन मुझे ऑफिस से भी कॉल आ सकता है।",
+      "transliteration": "Rahul: Theek hai. Lekin mujhe office se bhi call aa sakta hai.",
+      "baseTranslation": "Rahul: Okay. But I can also get a call from the office."
+    },
+    {
+      "targetText": "नेहा: अगर तुम्हारे बॉस ने बुलाया, तो तुम क्या करोगे?",
+      "transliteration": "Neha: Agar tumhare boss ne bulaya, toh tum kya karoge?",
+      "baseTranslation": "Neha: If your boss calls/invites, then what will you do?"
+    },
+    {
+      "targetText": "राहुल: बॉस ने बुलाया, तो मुझे जाना पड़ेगा। मेरी नौकरी का सवाल है।",
+      "transliteration": "Rahul: Boss ne bulaya, toh mujhe jaana padega. Meri naukri ka sawaal hai.",
+      "baseTranslation": "Rahul: [If] the boss calls, then I will have to go. It is a question of my job."
+    },
+    {
+      "targetText": "नेहा: काश मेरे पास अपनी गाड़ी होती! गाड़ी होती, तो हम कहीं भी चले जाते।",
+      "transliteration": "Neha: Kaash mere paas apni gaadi hoti! Gaadi hoti, toh hum kahin bhi chale jaate.",
+      "baseTranslation": "Neha: I wish I had my own car! [If] I had a car, then we would go anywhere."
+    }
+  ],
+  "audioTranscriptFull": "राहुल, अगर इस शनिवार को मौसम अच्छा रहा, तो हम पहाड़ पर चलेंगे। हाँ, लेकिन अगर बारिश हुई, तो क्या करेंगे? बारिश हुई, तो हम घर पर फिल्म देखेंगे। ठीक है। लेकिन मुझे ऑफिस से भी कॉल आ सकता है। अगर तुम्हारे बॉस ने बुलाया, तो तुम क्या करोगे? बॉस ने बुलाया, तो मुझे जाना पड़ेगा। मेरी नौकरी का सवाल है। काश मेरे पास अपनी गाड़ी होती! गाड़ी होती, तो हम कहीं भी चले जाते।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What is the very first condition Neha sets for going to the mountains?",
+      "questionType": "multiple_choice",
+      "options": [
+        "If the weather remains good (Agar mausam achchha raha).",
+        "If they have a car.",
+        "If Rahul's boss allows it."
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "When Neha says 'Baarish hui, toh hum ghar par film dekhenge', what word did she drop?",
+      "questionType": "multiple_choice",
+      "options": [
+        "She dropped 'Agar' at the start of the sentence.",
+        "She dropped 'Toh'.",
+        "She dropped 'Nahi'."
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "What will happen if Rahul's boss calls him (Boss ne bulaya)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "He will have to go (Mujhe jaana padega).",
+        "He will ignore it.",
+        "He will tell Neha."
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "Look at Neha's final statement: 'Gaadi hoti, toh hum kahin bhi chale jaate'. What type of conditional is this?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A hypothetical/unreal condition. She does not have a car.",
+        "A real future condition. She is getting a car tomorrow.",
+        "A past fact."
+      ],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "What word does Neha use that means 'I wish'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kaash (काश)",
+        "Agar (अगर)",
+        "Lekin (लेकिन)"
+      ],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "If the weather remains good (Agar mausam achchha raha).",
+      "lq_2": "She dropped 'Agar' at the start of the sentence.",
+      "lq_3": "He will have to go (Mujhe jaana padega).",
+      "lq_4": "A hypothetical/unreal condition. She does not have a car.",
+      "lq_5": "Kaash (काश)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Astounding! You can follow rapid-fire hypotheticals effortlessly.",
+    "onFail": "Listen closely to the ending verbs. 'Dekhenge' means 'will watch'. 'Jaate' means 'would go'. That difference is the key to understanding conditionals.",
+    "onPartial": "Good effort. Notice how often Neha and Rahul drop the word 'Agar' but keep the word 'Toh'. 'Toh' is the true signal of a condition."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "राहुल, अगर इस शनिवार को मौसम अच्छा रहा, तो हम पहाड़ पर चलेंगे। हाँ, लेकिन अगर बारिश हुई, तो क्या करेंगे? बारिश हुई, तो हम घर पर फिल्म देखेंगे। ठीक है। लेकिन मुझे ऑफिस से भी कॉल आ सकता है। अगर तुम्हारे बॉस ने बुलाया, तो तुम क्या करोगे? बॉस ने बुलाया, तो मुझे जाना पड़ेगा। मेरी नौकरी का सवाल है। काश मेरे पास अपनी गाड़ी होती! गाड़ी होती, तो हम कहीं भी चले जाते।",
+    "audioLanguage": "hi",
+    "audioDuration": 85,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "conditionals",
+    "agar_toh",
+    "kaash",
+    "hypotheticals",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the word 'Kaash' (I wish). When you hear 'Kaash', the verb will always be in the hypothetical form (ending in 'ta/te/ti').",
+  "commonMistakes": [
+    "Thinking 'chale jaate' means 'will go' instead of 'would go'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,170 @@
+{
+  "activityId": "hi_en_M3B1_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Writing: Constructing Alternate Realities",
+  "learningGoal": "Write grammatically correct conditional sentences, distinguishing between Real Future conditions and Unreal Present/Past hypotheticals.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B1_lesson_1"
+  ],
+  "instructions": "You must translate three conditional sentences. Pay strict attention to the TENSE. \nReal Future = Use Future Tense.\nHypothetical = Use Root + ta/ti/te (NO hai/tha). \nAssume you are a MALE speaker.",
+  "writingPrompt": "Translate the following sentences (MALE speaker):\n1. Real Future: If I go to Delhi, then I will meet him. (Go = Jaa. Meet = Mil. Him = Us-se)\n2. Unreal Present: If I had money, then I would buy a car. (Money = Paise. Have = Paas hona. Buy = Khareed. Car = Gaadi)\n3. Unreal Past (Regret): If you had told me, then I would have come. (Tell = Bata. Me = Mujhe. Come = Aa)",
+  "promptGoal": "Apply the three core conditional structures.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "अगर",
+      "transliteration": "agar",
+      "baseTranslation": "if"
+    },
+    {
+      "targetText": "तो",
+      "transliteration": "toh",
+      "baseTranslation": "then"
+    },
+    {
+      "targetText": "मैं जाऊँगा",
+      "transliteration": "main jaunga",
+      "baseTranslation": "I will go"
+    },
+    {
+      "targetText": "उससे मिलूँगा",
+      "transliteration": "us-se milunga",
+      "baseTranslation": "I will meet him"
+    },
+    {
+      "targetText": "मेरे पास पैसे होते",
+      "transliteration": "mere paas paise hote",
+      "baseTranslation": "I had money (hypothetical)"
+    },
+    {
+      "targetText": "गाड़ी खरीदता",
+      "transliteration": "gaadi khareedta",
+      "baseTranslation": "would buy a car"
+    },
+    {
+      "targetText": "तुमने",
+      "transliteration": "tumne",
+      "baseTranslation": "you (ergative past)"
+    },
+    {
+      "targetText": "मुझे बताया होता",
+      "transliteration": "mujhe bataya hota",
+      "baseTranslation": "had told me"
+    },
+    {
+      "targetText": "आ जाता",
+      "transliteration": "aa jaata",
+      "baseTranslation": "would have come"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'Agar main Delhi jaunga, toh main us-se milunga.' (Both future)",
+    "Sentence 2: 'Agar mere paas paise hote, toh main gaadi khareedta.' (Cutoff verbs)",
+    "Sentence 3: 'Agar tumne mujhe bataya hota, toh main aa jaata.' (Past participle + hota)"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "अगर मैं दिल्ली जाऊँगा, तो मैं उससे मिलूँगा। अगर मेरे पास पैसे होते, तो मैं गाड़ी खरीदता। अगर तुमने मुझे बताया होता, तो मैं आ जाता।",
+      "transliteration": "Agar main Delhi jaunga, toh main us-se milunga. Agar mere paas paise hote, toh main gaadi khareedta. Agar tumne mujhe bataya hota, toh main aa jaata.",
+      "baseTranslation": "If I go to Delhi, then I will meet him. If I had money, then I would buy a car. If you had told me, then I would have come.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect mapping of the three conditional forms: Future-Future, Root(ta)-Root(ta), Past(hota)-Root(ta)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Real Future Formatting",
+      "weight": 30,
+      "description": "Sentence 1 must use future tense in both clauses ('jaunga', 'milunga') or past-future ('gaya', 'milunga')."
+    },
+    {
+      "criterion": "Hypothetical Cutoff",
+      "weight": 40,
+      "description": "Sentence 2 MUST NOT have 'hain' or 'tha' at the end. It must end abruptly on 'hote' and 'khareedta'."
+    },
+    {
+      "criterion": "Past Regret Structure",
+      "weight": 30,
+      "description": "Sentence 3 must use 'hota' for the condition (bataya hota), and 'ta' for the result (aata/aa jaata)."
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "अगर मैं दिल्ली जाऊँगा, तो मैं उससे मिलूँगा। अगर मेरे पास पैसे होते, तो मैं गाड़ी खरीदता। अगर तुमने मुझे बताया होता, तो मैं आ जाता।",
+    "acceptableAlternates": [
+      "Agar main Delhi gaya, toh main usse milunga. Agar mere paas paise hote, toh main gaadi khareedta. Agar tumne mujhe bataya hota, toh main aata."
+    ],
+    "requiredKeywords": [
+      "agar",
+      "toh",
+      "jaunga",
+      "milunga",
+      "hote",
+      "khareedta",
+      "bataya hota",
+      "aata"
+    ],
+    "grammarBaseline": "Accepts transliteration. Extremely strict on checking for the absence of 'tha/hai' in sentence 2 and 3.",
+    "lengthExpectation": "Three complex sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Hypothetical Failure",
+          "weight": 100,
+          "description": "If user writes 'Agar mere paas paise hote hain' or 'main gaadi khareedta tha', deduct heavily. Hypotheticals CANNOT have auxiliary verbs."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Magnificent! You have mastered the three tiers of conditional logic in Hindi.",
+    "onFail": "Review Section 3 of the lesson. The most common mistake is adding 'tha' (was) at the end of imaginary sentences. Don't do it! Just end on 'ta/te/ti'.",
+    "onPartial": "Good effort. Sentence 1 is a real possibility, so we use future tense. Sentences 2 and 3 are imaginary, so we use the special 'ta' cutoff form."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "conditionals",
+    "hypotheticals",
+    "agar_toh",
+    "grammar",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For sentence 2, literally write 'If with me money were, then I car buy.' Do not add 'am' or 'was' at the end of the sentence.",
+  "commonMistakes": [
+    "Adding 'tha' at the end of 'khareedta', making it 'khareedta tha' (which means 'used to buy' instead of 'would buy')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

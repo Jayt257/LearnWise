@@ -1,0 +1,186 @@
+{
+  "activityId": "ja_en_M3B6_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Comprehensive Sentence Creation",
+  "learningGoal": "The learner will synthesize grammar from the entire curriculum, including potential form, requests, intention, and conditionals, to construct flawless Japanese sentences.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B6_lesson_001",
+    "ja_en_M3B6_reading_001"
+  ],
+  "instructions": "Translate these four sentences. They test different major grammar points from the past three months. Pay strict attention to your verb conjugations.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "You will need: Potential form, Te-form permissions, Intention form, and Conditional 'tara' form."
+    }
+  ],
+  "writingPrompt": "Translate: 1) I can eat sushi. 2) May I take a picture? 3) I intend to go to Japan. 4) If it rains, I will not go.",
+  "promptGoal": "To construct grammatically accurate sentences across four distinct, advanced paradigms.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "すし",
+      "transliteration": "Sushi",
+      "baseTranslation": "Sushi",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "たべられます",
+      "transliteration": "Taberaremasu",
+      "baseTranslation": "Can eat (Potential)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "しゃしん",
+      "transliteration": "Shashin",
+      "baseTranslation": "Picture",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "とっても いいですか",
+      "transliteration": "Totte mo ii desu ka",
+      "baseTranslation": "May I take (Te-form + mo ii desu ka)",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "にほん",
+      "transliteration": "Nihon",
+      "baseTranslation": "Japan",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いく つもりです",
+      "transliteration": "Iku tsumori desu",
+      "baseTranslation": "Intend to go",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "あめ",
+      "transliteration": "Ame",
+      "baseTranslation": "Rain",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ふったら",
+      "transliteration": "Futtara",
+      "baseTranslation": "If it falls/rains (Conditional)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "いきません",
+      "transliteration": "Ikimasen",
+      "baseTranslation": "Will not go",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Sushi] ga [Can eat]. (Potential verbs take 'ga' instead of 'wo').",
+    "Sentence 2: [Picture] wo [May I take].",
+    "Sentence 3: [Japan] ni [Intend to go].",
+    "Sentence 4: [Rain] ga [If it falls], [Will not go]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "すしが たべられます。しゃしんを とっても いいですか。にほんに いく つもりです。あめが ふったら、いきません。",
+      "transliteration": "Sushi ga taberaremasu. Shashin wo totte mo ii desu ka. Nihon ni iku tsumori desu. Ame ga futtara, ikimasen.",
+      "baseTranslation": "I can eat sushi. May I take a picture? I intend to go to Japan. If it rains, I will not go.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect application of four distinct grammar structures."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Potential Form",
+      "weight": 25,
+      "description": "Did the learner write 'ga taberaremasu'?"
+    },
+    {
+      "criterion": "Te-form Permission",
+      "weight": 25,
+      "description": "Did the learner write 'totte mo ii desu ka'?"
+    },
+    {
+      "criterion": "Intention Form",
+      "weight": 25,
+      "description": "Did the learner use plain form verb + 'tsumori desu'?"
+    },
+    {
+      "criterion": "Conditional Form",
+      "weight": 25,
+      "description": "Did the learner correctly conjugate Furu to 'Futtara'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "すしが たべられます。しゃしんを とっても いいですか。にほんに いく つもりです。あめが ふったら、いきません。",
+    "acceptableAlternates": [
+      "すしをたべられます。しゃしんをとってもいいですか。にほんへいくつもりです。あめがふったら、いきません。"
+    ],
+    "requiredKeywords": [
+      "たべられます",
+      "とってもいいですか",
+      "いくつもりです",
+      "ふったら"
+    ],
+    "grammarBaseline": "Mastery of N5 to N4 grammar points.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You have demonstrated mastery over the core grammar from the 3-month curriculum.",
+    "onFail": "Review your verb conjugations. Check how 'Taberu' becomes 'Taberareru', and how 'Furu' becomes 'Futtara'.",
+    "onPartial": "Good try! Make sure you used the plain form ('iku') before 'tsumori desu', not the masu-form ('ikimasu tsumori')."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "review",
+    "grammar",
+    "comprehensive",
+    "advanced",
+    "month3",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'ga' before potential verbs (ga taberaremasu).",
+  "commonMistakes": [
+    "Writing 'ikimasu tsumori' instead of 'iku tsumori'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

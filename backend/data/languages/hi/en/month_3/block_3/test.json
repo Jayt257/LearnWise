@@ -1,0 +1,381 @@
+{
+  "activityId": "en_hi_M3B3_test_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Mega Assessment: Word Glue",
+  "learningGoal": "The learner will demonstrate semantic and syntactic mastery over high-frequency phrasal verbs, actively resisting direct L1 transitive translations and correctly infusing object pronouns in splittable constructions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M3B3_lesson_001",
+    "en_hi_M3B3_pronunciation_001",
+    "en_hi_M3B3_reading_001",
+    "en_hi_M3B3_writing_001",
+    "en_hi_M3B3_listening_001",
+    "en_hi_M3B3_vocabulary_001",
+    "en_hi_M3B3_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 3! It contains 20 questions evaluating your knowledge of Phrasal Verbs. Have you stopped translating word-for-word? Let's see if you can use the glue words like a native speaker!",
+  "testTitle": "Block 3 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Correct the L1 Mistake",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "A student says: 'Please open the fan.' This is wrong. What is the correct English phrasing?",
+          "questionType": "multiple_choice",
+          "options": ["Start the fan", "Turn on the fan", "Open up the fan"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the exact phrase: If you are too hot, you should _____ your jacket.",
+          "questionType": "multiple_choice",
+          "options": ["take off", "turn off", "put out"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Which of these sentences is grammatically correct?",
+          "questionType": "multiple_choice",
+          "options": ["Turn off it.", "Turn it off.", "Off the TV."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: 'Turn on the TV' and 'Turn the TV on' are both correct.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "Translate 'कपड़े पहन लो' using the phrasal verb.",
+          "questionType": "multiple_choice",
+          "options": ["Wear your clothes", "Put on your clothes", "Put in your clothes"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Everyday Actions",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What phrasal verb means 'to search for' (खोजना)?",
+          "questionType": "multiple_choice",
+          "options": ["Look for", "Look at", "Find out"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the English phrase for 'नींद से जागना'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Wake up",
+            "transliteration": "वेक अप",
+            "baseTranslation": "जागना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English phrase for 'कचरा फेंक देना'. (_____ away)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "What does 'Hold on' mean in a conversation?",
+          "questionType": "multiple_choice",
+          "options": ["पकड़ना", "रुकना / प्रतीक्षा करना", "पीछे मुड़ना"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Identify the phrasal verb meaning 'हल निकालना / समझना'.",
+          "questionType": "multiple_choice",
+          "options": ["Figure out", "Fill out", "Take out", "Give back"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Splitting and Pronouns",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "If the pen is on the floor, you should '_____'.",
+          "questionType": "multiple_choice",
+          "options": ["Pick up it", "Pick it up", "Pick up down"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Find the major grammar mistake in this sentence: 'I am taking off them.'",
+          "questionType": "multiple_choice",
+          "options": ["taking off is wrong", "the pronoun 'them' must be in the middle", "there is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "When a native speaker says 'Clee-NUP', which two words are glued together?",
+          "questionType": "multiple_choice",
+          "options": ["Clean up", "Close up", "Come up"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "True or False: Phrasal verbs show that English speakers like to use two small words instead of one big formal word.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which phrase is the opposite of 'Sit down'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Purging Translations",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Rewrite correctly: 'Close the machine.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Turn off the machine.",
+            "transliteration": "टर्न ऑफ द मशीन।",
+            "baseTranslation": "मशीन बंद करें।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Rewrite correctly: 'Open the AC.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Turn on the AC.",
+            "transliteration": "टर्न ऑन द एसी।",
+            "baseTranslation": "एसी चालू करें।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Rewrite correctly: 'Please pick up it.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Please pick it up.",
+            "transliteration": "प्लीज़ पिक इट अप।",
+            "baseTranslation": "कृपया इसे उठाएं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate to English: 'अपने जूते पहन लो।' (Use Put)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Put on your shoes.",
+            "transliteration": "पुट ऑन योर शूज़।",
+            "baseTranslation": "अपने जूते पहन लो।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate to English: 'मैं अपनी कार तलाश कर (ढूंढ) रहा हूँ।' (Use Look)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am looking for my car.",
+            "transliteration": "आई एम लुकिंग फॉर माई कार।",
+            "baseTranslation": "मैं अपनी कार ढूंढ रहा हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Turn on the fan",
+      "q002": "take off",
+      "q003": "Turn it off.",
+      "q004": "True",
+      "q005": "Put on your clothes",
+      "q006": "Look for",
+      "q007": "Wake up",
+      "q008": "Throw",
+      "q009": "रुकना / प्रतीक्षा करना",
+      "q010": "Figure out",
+      "q011": "Pick it up",
+      "q012": "the pronoun 'them' must be in the middle",
+      "q013": "Clean up",
+      "q014": "True",
+      "q015": "Stand up",
+      "q016": "Turn off the machine.",
+      "q017": "Turn on the AC.",
+      "q018": "Please pick it up.",
+      "q019": "Put on your shoes.",
+      "q020": "I am looking for my car."
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'close' is used.",
+      "q017": "Minus 5 points if 'open' is used."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q007": ["wake up", "WAKE UP"],
+      "q008": ["throw away", "throw", "Throw away"],
+      "q015": ["stand up", "Stand up"],
+      "q016": ["turn off the machine", "Turn the machine off."],
+      "q017": ["turn on the ac", "Turn the AC on.", "Turn on the AC"],
+      "q018": ["please pick it up", "Please pick it up"],
+      "q019": ["put on your shoes", "put your shoes on", "Put your shoes on."],
+      "q020": ["i am looking for my car", "I'm looking for my car."]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered Phrasal Verbs! You proved that you understand how native English speakers construct their daily actions. Great job breaking the Hindi translation habits!",
+    "onFail": "Please review the two main rules: 1. NEVER use Open/Close for electronics. Turn ON/Turn OFF. 2. NEVER put a tiny pronoun at the end. It must be 'Pick it up', not 'Pick up it'!",
+    "onPartial": "Good effort! Watch out for the literal vs idiomatic meanings. 'Look at' means see with your eyes. 'Look for' means actively searching for a lost item!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This Mega Assessment covers Phrasal Verbs, Splitting, and Object Pronouns.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block3", "phrasal_verbs", "turn_on", "put_on", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B4_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

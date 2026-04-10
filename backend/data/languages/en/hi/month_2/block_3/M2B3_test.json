@@ -1,0 +1,183 @@
+{
+  "activityId": "hi_en_M2B3_test_8",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Test: Social Registers & Possessives",
+  "learningGoal": "Evaluate understanding of Aap/Tum/Tu and the gender rules of possessive pronouns.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B3_lesson_1",
+    "hi_en_M2B3_pronunciation_2",
+    "hi_en_M2B3_reading_3",
+    "hi_en_M2B3_writing_4",
+    "hi_en_M2B3_listening_5",
+    "hi_en_M2B3_vocabulary_6",
+    "hi_en_M2B3_speaking_7"
+  ],
+  "instructions": "This block test will verify your understanding of Hindi's social hierarchy. Choose your words carefully!",
+  "testTitle": "Respect and Possession Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_formality",
+      "sectionTitle": "Formality Levels",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "If you are speaking to a police officer, which pronoun MUST you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Aap (आप)",
+            "Tum (तुम)",
+            "Tu (तू)"
+          ],
+          "questionHints": {
+            "targetText": "Aap (आप)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "How do you ask a friend 'Where are you?' casually?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Tum kahan ho?",
+            "Tum kahan hain?",
+            "Tum kahan hai?"
+          ],
+          "questionHints": {
+            "targetText": "Tum kahan ho?",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_possessives",
+      "sectionTitle": "Possessive Pronouns",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "If a grandfather is talking about his car (gaadi, feminine), does he say 'Mera gaadi' or 'Meri gaadi'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Meri gaadi (The pronoun matches the car)",
+            "Mera gaadi (The pronoun matches the grandfather)"
+          ],
+          "questionHints": {
+            "targetText": "Meri gaadi (The pronoun matches the car)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Translate: 'Your name' (Speaking to someone formally. Naam is masculine).",
+          "questionType": "multiple_choice",
+          "options": [
+            "Aapka naam",
+            "Aapki naam",
+            "Aapke naam"
+          ],
+          "questionHints": {
+            "targetText": "Aapka naam",
+            "transliteration": "Aapka naam",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: यह उसका घर है। (Yeh uska ghar hai.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "This is his house.",
+            "transliteration": "Yeh uska ghar hai.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Aap (आप)",
+      "tq_2": "Tum kahan ho?",
+      "tq_3": "Meri gaadi (The pronoun matches the car)",
+      "tq_4": "Aapka naam",
+      "tq_5": "This is his house."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'This is her house'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Flawless! You understand the complex social rules of Hindi.",
+    "onFail": "Review Section 1 and 2. Remember that 'Tum' always takes 'ho'. And possessives always match the OBJECT, not the speaker.",
+    "onPartial": "Good effort. Just remember that 'Naam' (name) is masculine, so it is always 'Mera/Aapka naam'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block3_month2",
+    "formality",
+    "possessives",
+    "pronouns"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Possessive pronouns act exactly like the adjectives Bada/Badi. They change based on the thing they describe.",
+  "commonMistakes": [
+    "Thinking that a male speaker always uses 'Mera'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M3B3_test_8",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Test: Vector Verbs",
+  "learningGoal": "Evaluate the learner's comprehension of compound verbs, vector meanings (Jaana, Lena, Dena, Daalna, Padna), and the strict negative rule.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B3_lesson_1",
+    "hi_en_M3B3_pronunciation_2",
+    "hi_en_M3B3_reading_3",
+    "hi_en_M3B3_writing_4",
+    "hi_en_M3B3_listening_5",
+    "hi_en_M3B3_vocabulary_6",
+    "hi_en_M3B3_speaking_7"
+  ],
+  "instructions": "This test covers the nuances of compound verbs. Remember the difference between doing something for yourself vs. others, and the rule for negative sentences.",
+  "testTitle": "Nuance Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_vectors",
+      "sectionTitle": "Choosing the Right Vector",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "If you want to say 'I read the book (to myself)', which vector verb should you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Padh li (Lena)",
+            "Padh di (Dena)",
+            "Padh daali (Daalna)"
+          ],
+          "questionHints": {
+            "targetText": "Padh li (Lena)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "What does the vector verb 'Jaana' (e.g., So gaya, Bhool gaya) generally indicate?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Finality, completion, or a change of state.",
+            "Suddenness or uncontrollability.",
+            "Violence or extreme force."
+          ],
+          "questionHints": {
+            "targetText": "Finality, completion, or a change of state.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        },
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate: 'He suddenly burst into tears.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Woh ro pada.",
+            "Woh ro gaya.",
+            "Woh ro liya."
+          ],
+          "questionHints": {
+            "targetText": "Woh ro pada.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_negative",
+      "sectionTitle": "The Negative Rule",
+      "questions": [
+        {
+          "questionId": "tq_4",
+          "questionText": "Translate to Hindi: 'He did not eat the food.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Usne khana nahi khaya.",
+            "Usne khana nahi kha liya.",
+            "Usne khana nahi kha gaya."
+          ],
+          "questionHints": {
+            "targetText": "Usne khana nahi khaya.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Why is 'Woh nahi aa gaya' grammatically wrong?",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "Because compound verbs are not used in negative sentences.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Padh li (Lena)",
+      "tq_2": "Finality, completion, or a change of state.",
+      "tq_3": "Woh ro pada.",
+      "tq_4": "Usne khana nahi khaya.",
+      "tq_5": "Because compound verbs are not used in negative sentences."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'Because it has nahi' or 'Negatives drop the vector'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You have mastered the 'flavor' of Hindi verbs and the golden negative rule.",
+    "onFail": "Review Section 6 of the lesson. The biggest rule of compound verbs is that they disappear the moment you add 'Nahi' to the sentence.",
+    "onPartial": "Good effort. Just remember that Lena = Inward (eating, drinking, reading to oneself). Dena = Outward (giving, telling, reading out loud)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block3_month3",
+    "compound_verbs",
+    "vector_verbs",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For Q4, remember that compound verbs are fragile. They shatter if a 'nahi' touches them.",
+  "commonMistakes": [
+    "Choosing 'Nahi kha liya' because they are trying to translate 'did not eat up'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B4_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

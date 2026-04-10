@@ -1,0 +1,179 @@
+{
+  "activityId": "ja_en_M3B1_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Explaining How to Use Something",
+  "learningGoal": "The learner will verbally construct sentences using both the '~to' conditional for mechanical functions and the '~tara' conditional for hypothetical requests.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M3B1_lesson_001",
+    "ja_en_M3B1_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a friend is asking for your help to use a machine, and then asks for a favor. Reply verbally in Japanese based on the English prompts. Remember when to use '~to' vs '~tara'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For the first prompt, use '~to' because it is a mechanical rule. For the others, use '~tara'."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) If you push the button, the door opens. 2) If you do not understand, please ask. 3) If you are free, please come.",
+  "scenario": "A conversation between friends near a ticket machine.",
+  "role": "Helper",
+  "conversationPartner": "Confused Friend",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Explain the machine. Say: 'If you push the button, the door opens.'",
+      "expectedSpeakingPoints": [
+        "Use botan wo osu to",
+        "Use doa ga",
+        "Use akimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ボタンを おすと、ドアが あきます。",
+        "transliteration": "Botan wo osu to, doa ga akimasu.",
+        "baseTranslation": "If you push the button, the door opens."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Offer help. Say: 'If you do not understand, please ask.'",
+      "expectedSpeakingPoints": [
+        "Use wakaranakattara",
+        "Use kiite kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "わからなかったら、きいて ください。",
+        "transliteration": "Wakaranakattara, kiite kudasai.",
+        "baseTranslation": "If you do not understand, please ask."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Invite them out. Say: 'If you are free, please come.'",
+      "expectedSpeakingPoints": [
+        "Use hima dattara",
+        "Use kite kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "ひまだったら、きて ください。",
+        "transliteration": "Hima dattara, kite kudasai.",
+        "baseTranslation": "If you are free, please come."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "この きかいは どうやって つかいますか。",
+    "transliteration": "Kono kikai wa dou yatte tsukaimasu ka.",
+    "baseTranslation": "How do you use this machine?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "ボタンを おすと、ドアが あきます。",
+      "transliteration": "Botan wo osu to, doa ga akimasu.",
+      "baseTranslation": "If you push the button, the door opens."
+    },
+    {
+      "targetText": "わからなかったら、きいて ください。",
+      "transliteration": "Wakaranakattara, kiite kudasai.",
+      "baseTranslation": "If you do not understand, please ask."
+    },
+    {
+      "targetText": "ひまだったら、きて ください。",
+      "transliteration": "Hima dattara, kite kudasai.",
+      "baseTranslation": "If you are free, please come."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Botan wo osu to, doa ga akimasu",
+      "Say Wakaranakattara, kiite kudasai",
+      "Say Hima dattara, kite kudasai"
+    ],
+    "requiredKeywords": [
+      "おすと",
+      "わからなかったら",
+      "ひまだったら"
+    ],
+    "acceptableParaphrases": [
+      "Accept minor particle variations like 'doa wa akimasu'."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "To-form Conjugation",
+          "weight": 30,
+          "description": "Did the learner say 'osu to'?"
+        },
+        {
+          "name": "Negative Tara-form",
+          "weight": 40,
+          "description": "Did the learner correctly form 'wakaranakattara'?"
+        },
+        {
+          "name": "Noun Tara-form",
+          "weight": 30,
+          "description": "Did the learner say 'hima dattara'?"
+        }
+      ]
+    },
+    "sampleAnswer": "ボタンを おすと、ドアが あきます。わからなかったら、きいて ください。ひまだったら、きて ください。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You perfectly juggled the two types of conditionals.",
+    "onFail": "Review the negative tara-form. Wakaranai -> Wakaranakattara.",
+    "onPartial": "Good try! Make sure you didn't say 'Hima tara'. Because Hima is a na-adjective, it needs 'dattara'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b1/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m3/b1/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "この きかいは どうやって つかいますか。ボタンを おすと、ドアが あきます。わからなかったら、きいて ください。ひまだったら、きて ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "conditionals",
+    "tara-form",
+    "to-form",
+    "roleplay",
+    "advanced",
+    "month3",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'If you do not understand', change 'Wakaranai' to 'Wakaranakattara'.",
+  "commonMistakes": [
+    "Saying 'Oshitara' instead of 'Osu to'. (Oshitara is grammatically okay but less natural for machines than Osu to)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

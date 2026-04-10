@@ -1,0 +1,177 @@
+{
+  "activityId": "en_hi_M2B3_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "A Great Weekend",
+  "learningGoal": "The learner will verbally construct Simple Past affirmative statements, successfully executing common irregular verbs (went, saw) and regular '-ed' suffixes natively without auxiliary verb contamination.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B3_vocabulary_001"],
+  "instructions": "You are talking to a coworker on Monday morning. They ask you what you did over the weekend. Answer their questions out loud. Make sure you use the PAST words (Went, Ate, Saw, Walked). And remember, NO 'Is' or 'Am' helper words!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Speak naturally. When you say 'Walked', do not say 'Walk-ed'. Say 'WawkT'."
+    }
+  ],
+  "speakingPrompt": "Respond to the Hindi prompts aloud.",
+  "scenario": "A Monday morning chat at the office watercooler.",
+  "role": "The Co-worker",
+  "conversationPartner": "Your friend Sarah",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "साराह: 'How was your weekend?' (तुम्हारा सप्ताहांत कैसा था?)। जवाब दें: 'यह अच्छा था। मैं पार्क गया।' (It was good... I went...)",
+      "expectedSpeakingPoints": ["It was good", "I went", "to the park"],
+      "sampleResponse": {
+        "targetText": "It was good. I went to the park.",
+        "transliteration": "इट वाज़ गुड। आई वेंट टू द पार्क।",
+        "baseTranslation": "यह अच्छा था। मैं पार्क गया।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "साराह: 'Did you walk or drive?' (क्या तुम पैदल गए या ड्राइव किया?)। जवाब दें: 'मैं चलकर गया।' (I walked).",
+      "expectedSpeakingPoints": ["I walked"],
+      "sampleResponse": {
+        "targetText": "I walked.",
+        "transliteration": "आई वाक्ड।",
+        "baseTranslation": "मैं चला।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "साराह: 'Did you see anyone?' (क्या तुमने किसी को देखा?)। जवाब दें: 'हाँ, मैंने एक कुत्ता देखा!' (I saw...)",
+      "expectedSpeakingPoints": ["Yes", "I saw", "a dog"],
+      "sampleResponse": {
+        "targetText": "Yes, I saw a dog!",
+        "transliteration": "येस, आई सॉ अ डॉग!",
+        "baseTranslation": "हाँ, मैंने एक कुत्ता देखा!"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "साराह: 'Did you eat lunch there?' (क्या तुमने वहाँ लंच किया?)। जवाब दें: 'हाँ, मैंने एक सेब खाया।' (I ate...)",
+      "expectedSpeakingPoints": ["Yes", "I ate", "an apple"],
+      "sampleResponse": {
+        "targetText": "Yes, I ate an apple.",
+        "transliteration": "येस, आई एट ऐन ऐपल।",
+        "baseTranslation": "हाँ, मैंने एक सेब खाया।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "साराह: 'That sounds nice.' (यह अच्छा लगता है)। उसे बताएं: 'फिर मैं घर आया।' (Then, I came...)",
+      "expectedSpeakingPoints": ["Then", "I came", "home"],
+      "sampleResponse": {
+        "targetText": "Then, I came home.",
+        "transliteration": "देन, आई केम होम।",
+        "baseTranslation": "फिर, मैं घर आया।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "How was your weekend?",
+    "transliteration": "हाउ वाज़ योर वीकेंड?",
+    "baseTranslation": "तुम्हारा सप्ताहांत कैसा था?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "It was good. I went to the park.",
+      "transliteration": "इट वाज़ गुड। आई वेंट टू द पार्क।",
+      "baseTranslation": "यह अच्छा था। मैं पार्क गया।"
+    },
+    {
+      "targetText": "I walked.",
+      "transliteration": "आई वाक्ट।",
+      "baseTranslation": "मैं चला।"
+    },
+    {
+      "targetText": "Yes, I saw a dog!",
+      "transliteration": "येस, आई सॉ अ डॉग!",
+      "baseTranslation": "हाँ, मैंने एक कुत्ता देखा!"
+    },
+    {
+      "targetText": "Yes, I ate an apple.",
+      "transliteration": "येस, आई एट ऐन ऐपल।",
+      "baseTranslation": "हाँ, मैंने एक सेब खाया।"
+    },
+    {
+      "targetText": "Then, I came home.",
+      "transliteration": "देन, आई केम होम।",
+      "baseTranslation": "फिर, मैं घर आया।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "went to the park",
+      "walked",
+      "saw a dog",
+      "ate an apple",
+      "came home"
+    ],
+    "requiredKeywords": [
+      "went",
+      "walked",
+      "saw",
+      "ate",
+      "came"
+    ],
+    "acceptableParaphrases": [
+      "I went to a park",
+      "I walked there"
+    ],
+    "scoringRubric": {
+      "Auxiliary Drop": "Did the user say 'I went' and NOT 'I am went'?",
+      "Irregular Correct": "Did the user use went/saw/ate instead of goed/seed/eated?",
+      "Phonetics": "Did the user pronounce 'Walked' correctly as /wɔ:kt/?"
+    },
+    "sampleAnswer": "It was good. I went to the park. I walked. Yes, I saw a dog. Yes, I ate an apple. Then, I came home.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You flawlessly formed Simple Past sentences without using any 'Is/Am/Are' helper verbs. You sounded incredibly native!",
+    "onFail": "Keep practicing! A very common mistake is saying 'I am went'. If it happened in the past, just say 'I went'. Throw the 'Am' in the trash!",
+    "onPartial": "Good try! Make sure you don't say 'Walk-ed'. Remember, the ED usually makes a sharp T or D sound. 'Wawkt'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b3/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m2/b3/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b3/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m2/b3/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m2/b3/speaking/full_dialogue.mp3",
+    "audioTranscript": "Sarah: How was your weekend?...",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "simple_past", "irregular_verbs", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b3/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To speak past tense perfectly, just say the person, and then the action. Skip everything in the middle. I + Went. Easy!",
+  "commonMistakes": [
+    "Saying 'I am went'.",
+    "Saying 'I see a dog' instead of 'I saw a dog'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B3_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

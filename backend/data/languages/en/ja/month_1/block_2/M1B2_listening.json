@@ -1,0 +1,213 @@
+{
+  "activityId": "ja_en_M1B2_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Who Are They? Listening to Introductions",
+  "learningGoal": "The learner will listen to audio of two people introducing themselves and answer comprehension questions regarding their names, nationalities, and occupations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B2_lesson_001",
+    "ja_en_M1B2_vocabulary_001"
+  ],
+  "instructions": "Listen to the audio clip of two people introducing themselves at a language exchange event. Then, answer the following 8 questions. You may listen to the audio as many times as you need. Pay attention to the keywords indicating nationality (jin) and occupation.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "The speakers will speak at a natural but clear pace. Try to pick out the 'A wa B desu' structures."
+    }
+  ],
+  "listeningGoal": "Identify the personal details (name, nationality, occupation) of the speakers.",
+  "audioScenario": "Two people, Tom and Yuki, are taking turns introducing themselves to a group.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "はじめまして。",
+      "transliteration": "Hajimemashite.",
+      "baseTranslation": "Nice to meet you."
+    },
+    {
+      "targetText": "わたしは トムです。",
+      "transliteration": "Watashi wa Tomu desu.",
+      "baseTranslation": "I am Tom."
+    },
+    {
+      "targetText": "イギリスじんです。",
+      "transliteration": "Igirisu-jin desu.",
+      "baseTranslation": "I am British."
+    },
+    {
+      "targetText": "せんせいです。",
+      "transliteration": "Sensei desu.",
+      "baseTranslation": "I am a teacher."
+    },
+    {
+      "targetText": "よろしく おねがいします。",
+      "transliteration": "Yoroshiku onegaishimasu.",
+      "baseTranslation": "Please treat me well."
+    },
+    {
+      "targetText": "はじめまして。",
+      "transliteration": "Hajimemashite.",
+      "baseTranslation": "Nice to meet you."
+    },
+    {
+      "targetText": "わたしは ゆきです。",
+      "transliteration": "Watashi wa Yuki desu.",
+      "baseTranslation": "I am Yuki."
+    },
+    {
+      "targetText": "にほんじんです。",
+      "transliteration": "Nihon-jin desu.",
+      "baseTranslation": "I am Japanese."
+    },
+    {
+      "targetText": "だいがくせいです。",
+      "transliteration": "Daigakusei desu.",
+      "baseTranslation": "I am a university student."
+    },
+    {
+      "targetText": "よろしく おねがいします。",
+      "transliteration": "Yoroshiku onegaishimasu.",
+      "baseTranslation": "Please treat me well."
+    }
+  ],
+  "audioTranscriptFull": "はじめまして。わたしは トムです。イギリスじんです。せんせいです。よろしく おねがいします。はじめまして。わたしは ゆきです。にほんじんです。だいがくせいです。よろしく おねがいします。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "Who is the first speaker?",
+      "questionType": "multiple_choice",
+      "options": ["Mike", "Tom", "John", "David"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is Tom's nationality?",
+      "questionType": "multiple_choice",
+      "options": ["American", "Canadian", "British", "Australian"],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What is Tom's occupation?",
+      "questionType": "multiple_choice",
+      "options": ["Student", "University Student", "Office Worker", "Teacher"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Who is the second speaker?",
+      "questionType": "multiple_choice",
+      "options": ["Yuki", "Sakura", "Hana", "Maria"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "What is Yuki's nationality?",
+      "questionType": "multiple_choice",
+      "options": ["Chinese", "Korean", "Japanese", "American"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    },
+    {
+      "questionId": "q006",
+      "questionText": "Is Yuki a teacher?",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:19",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q006"
+    },
+    {
+      "questionId": "q007",
+      "questionText": "What exactly is Yuki's occupation?",
+      "questionType": "multiple_choice",
+      "options": ["High School Student", "University Student", "Teacher", "Doctor"],
+      "audioTimestamp": "00:19",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q007"
+    },
+    {
+      "questionId": "q008",
+      "questionText": "What phrase do both speakers use at the very end of their introductions?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q008"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "Half points for minor spelling errors on short answer questions."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Tom",
+      "q002": "British",
+      "q003": "Teacher",
+      "q004": "Yuki",
+      "q005": "Japanese",
+      "q006": "False",
+      "q007": "University Student",
+      "q008": "よろしく おねがいします"
+    },
+    "acceptedShortAnswers": {
+      "q008": ["Yoroshiku onegaishimasu", "yoroshiku onegaishimasu", "よろしくおねがいします"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Great job! You successfully extracted the key details from the spoken introductions.",
+    "onFail": "Listen to the audio again. Try to isolate the words that come right before 'desu' to find the answers.",
+    "onPartial": "Good effort! You caught most of the details. Review the difference between 'gakusei' and 'daigakusei'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b2/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b2/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m1/b2/listening/native_dialogue.mp3",
+    "audioTranscript": "はじめまして。わたしは トムです。イギリスじんです。せんせいです。よろしく おねがいします。はじめまして。わたしは ゆきです。にほんじんです。だいがくせいです。よろしく おねがいします。",
+    "audioLanguage": "ja",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "introductions",
+    "identity",
+    "beginner",
+    "month1",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "イギリス (Igirisu) is the Japanese word for the UK/Britain.",
+  "commonMistakes": [
+    "Missing the 'dai' in daigakusei and just hearing 'gakusei'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

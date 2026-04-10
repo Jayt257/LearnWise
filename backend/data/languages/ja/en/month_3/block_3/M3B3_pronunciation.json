@@ -1,0 +1,184 @@
+{
+  "activityId": "en_ja_M3B3_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Linking Phrasal Verbs",
+  "learningGoal": "Master the smooth linking sounds of phrasal verbs with pronouns (turn it on, take it off).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M3B3_lesson_1"
+  ],
+  "instructions": "句動詞と代名詞（it）が連続する時の「リンキング（音の繋がり）」を練習します。単語を区切らずに、一つの単語のように滑らかに発音してください。(Practice the linked pronunciation of phrasal verbs with pronouns. Say them smoothly as one word.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "turn it on",
+      "transliteration": "ターニトン",
+      "baseTranslation": "それをつける",
+      "phoneticHint": "Link the 'n' to 'i', and 't' to 'o'. Tur-ni-ton.",
+      "syllableSplit": "turn-it-on",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'turn itto on' with pauses between words."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "turn it off",
+      "transliteration": "ターニトフ",
+      "baseTranslation": "それを消す",
+      "phoneticHint": "Tur-ni-toff.",
+      "syllableSplit": "turn-it-off",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'turn itto ofu'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "take it off",
+      "transliteration": "テイキトフ",
+      "baseTranslation": "それを脱ぐ",
+      "phoneticHint": "The 'k' links to 'i'. Tay-ki-toff.",
+      "syllableSplit": "take-it-off",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'teiku itto ofu'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "put it on",
+      "transliteration": "プティトン",
+      "baseTranslation": "それを着る",
+      "phoneticHint": "The 't's become soft 'd' sounds in American English. Pu-di-don.",
+      "syllableSplit": "put-it-on",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'putto itto on'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "give it up",
+      "transliteration": "ギヴィタップ",
+      "baseTranslation": "それをあきらめる",
+      "phoneticHint": "The 'v' links to 'i'. Gi-vi-tup.",
+      "syllableSplit": "give-it-up",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'gibu itto appu'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "figure it out",
+      "transliteration": "フィギュアリタウト",
+      "baseTranslation": "それを解決する、理解する",
+      "phoneticHint": "Fi-gyer-i-dout. The 't' in it links to the 'o' in out.",
+      "syllableSplit": "fig-ure-it-out",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'figyua itto auto'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "piece of cake",
+      "transliteration": "ピーソヴ ケイク",
+      "baseTranslation": "とても簡単（イディオム）",
+      "phoneticHint": "Link 'piece' and 'of'. Pee-suv-cake.",
+      "syllableSplit": "piece of cake",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'piisu obu keiki'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "under the weather",
+      "transliteration": "アンダー ザ ウェザー",
+      "baseTranslation": "体調が悪い（イディオム）",
+      "phoneticHint": "Make sure your tongue is between your teeth for 'the' and 'wea-ther'.",
+      "syllableSplit": "un-der the wea-ther",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'anda za ueza'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "wake up",
+      "transliteration": "ウェイカップ",
+      "baseTranslation": "起きる",
+      "phoneticHint": "Link the 'k' to the 'u'. Way-kup.",
+      "syllableSplit": "wake up",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ueiku appu'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "break a leg",
+      "transliteration": "ブレイカ レッグ",
+      "baseTranslation": "がんばれ！（イディオム）",
+      "phoneticHint": "Link the 'k' to 'a'. Bray-kuh-leg.",
+      "syllableSplit": "break a leg",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'bureiku a reggu'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "turn it on turn it off take it off put it on give it up figure it out piece of cake under the weather wake up break a leg",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! Your linking sounds very natural. You sound like a native speaker!",
+    "onFail": "Please try again. Don't pause between the words. Try to say 'take it off' like one long word: 'taykitoff'.",
+    "onPartial": "Good effort! Remember to connect the consonant at the end of the verb to the 'i' in 'it'. 'Turn-it' sounds like 'Tur-nit'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "turn it on turn it off take it off put it on give it up figure it out piece of cake under the weather wake up break a leg",
+    "acceptedVariants": [
+      "turn it on turn it off take it off put it on give it up figure it out piece of cake under the weather wake up break a leg"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "turn it on turn it off take it off put it on give it up figure it out piece of cake under the weather wake up break a leg",
+    "transliteration": "turniton turnitoff taykitoff pudidon givitup figyeridout peesuvcake unduhthehweather waykup braykuhleg",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B3_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B3_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "turn it on, turn it off, take it off, put it on, give it up, figure it out, piece of cake, under the weather, wake up, break a leg",
+    "audioLanguage": "en",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "phrasal_verbs",
+    "idioms",
+    "linking"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read 'turn it on' as if it is spelled 'tur-ni-ton'. Don't stop your breath!",
+  "commonMistakes": [
+    "Saying 'it-to' instead of a fast 'it'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B3_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

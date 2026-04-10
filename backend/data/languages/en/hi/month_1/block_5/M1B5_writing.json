@@ -1,0 +1,195 @@
+{
+  "activityId": "hi_en_M1B5_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Writing: Describing Objects and People",
+  "learningGoal": "Construct descriptive sentences ensuring that the adjective matches the gender of the noun, and the verb matches the pronoun.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B5_lesson_1"
+  ],
+  "instructions": "In this writing task, you must pay extreme attention to grammar. You will describe a car (feminine), a house (masculine), and talk to a friend (informal). Choose the correct verb (hai/hain/ho/hoon) and the correct adjective ending (a/e/i).",
+  "writingPrompt": "Translate the following sentences into Hindi:\n1. The house is big.\n2. The car is good. ('Car' is feminine)\n3. These are books.\n4. You are my friend. (Use informal 'Tum')",
+  "promptGoal": "Applying adjective gender agreement and pronoun-verb conjugation.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "घर",
+      "transliteration": "ghar",
+      "baseTranslation": "house (masculine)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "बड़ा",
+      "transliteration": "bada",
+      "baseTranslation": "big (masculine)",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "gaadi",
+      "baseTranslation": "car (feminine)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "अच्छी",
+      "transliteration": "achchhi",
+      "baseTranslation": "good (feminine)",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "ये",
+      "transliteration": "ye",
+      "baseTranslation": "these",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "किताबें",
+      "transliteration": "kitaabein",
+      "baseTranslation": "books",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "तुम",
+      "transliteration": "tum",
+      "baseTranslation": "you (informal)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "मेरे",
+      "transliteration": "mere",
+      "baseTranslation": "my",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "दोस्त",
+      "transliteration": "dost",
+      "baseTranslation": "friend",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "हो",
+      "transliteration": "ho",
+      "baseTranslation": "are (for 'tum')",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'House big is.'",
+    "Sentence 2: 'Car good (fem) is.'",
+    "Sentence 3: 'These books are.'",
+    "Sentence 4: 'You my friend are (informal verb).'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "घर बड़ा है। गाड़ी अच्छी है। ये किताबें हैं। तुम मेरे दोस्त हो।",
+      "transliteration": "Ghar bada hai. Gaadi achchhi hai. Ye kitaabein hain. Tum mere dost ho.",
+      "baseTranslation": "The house is big. The car is good. These are books. You are my friend.",
+      "qualityLevel": "excellent",
+      "annotation": "Flawless grammar. 'Gaadi' takes 'achchhi'. 'Tum' takes 'ho'. Plural 'Ye' takes plural 'hain'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Adjective Agreement",
+      "weight": 35,
+      "description": "Uses 'bada' for ghar and 'achchhi' for gaadi."
+    },
+    {
+      "criterion": "Plural Verb",
+      "weight": 35,
+      "description": "Uses 'hain' for 'Ye kitaabein'."
+    },
+    {
+      "criterion": "Informal Pronoun Conjugation",
+      "weight": 30,
+      "description": "Uses 'Tum' with 'ho'."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "घर बड़ा है। गाड़ी अच्छी है। ये किताबें हैं। तुम मेरे दोस्त हो।",
+    "acceptableAlternates": [
+      "Ghar bada hai. Gaadi achchhi hai. Ye kitaabein hain. Tum mere dost ho.",
+      "ghar bada hai. gaadi achchhi hai. ye kitaabein hain. tum mere dost ho."
+    ],
+    "requiredKeywords": [
+      "ghar bada hai",
+      "gaadi achchhi",
+      "ye kitaabein hain",
+      "tum",
+      "ho"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict checking of adjective endings and verb matches.",
+    "lengthExpectation": "Four short descriptive sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Tum-Ho Pairing",
+          "weight": 100,
+          "description": "Must end sentence 4 with 'ho'."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Masterful! You can now write grammatically sound descriptive sentences in Hindi.",
+    "onFail": "Review the verb conjugation chart. Remember: Main hoon, Aap hain, Tum ho, Yeh hai.",
+    "onPartial": "Good try. Check your adjective endings. If the noun is feminine (like Gaadi), the adjective MUST end in 'i' (Achchhi)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "adjectives",
+    "verb_to_be",
+    "pronouns",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the sentences out loud to check if they sound right. 'Tum... hai' should sound wrong to your ear now.",
+  "commonMistakes": [
+    "Writing 'Gaadi achchha hai'. (Failing to make the adjective feminine)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

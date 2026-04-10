@@ -1,0 +1,196 @@
+{
+  "activityId": "en_ja_M3B6_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "3-Month Speaking Challenge",
+  "learningGoal": "Demonstrate the ability to speak accurately using past tenses, polite requests, medical vocabulary, and future tenses.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B6_vocabulary_6"
+  ],
+  "instructions": "これまでの3ヶ月で学んだスピーキングの総仕上げです。「過去の出来事」「丁寧な依頼」「病院での症状」「未来の予定」の4つの異なる状況に合わせて、英語で発言してください。(This is the final speaking challenge. Speak accurately in four different situations.)",
+  "speakingPrompt": "Respond to the four different scenarios clearly and accurately.",
+  "scenario": "A mix of daily life, travel, and emergency situations.",
+  "role": "You",
+  "conversationPartner": "Various",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "A friend asks what you did last year. Tell them you went to New York. (I went to...)",
+      "expectedSpeakingPoints": [
+        "I went to",
+        "New York last year"
+      ],
+      "sampleResponse": {
+        "targetText": "I went to New York last year.",
+        "transliteration": "アイ ウェント トゥ ニュー ヨーク ラスト イヤー。",
+        "baseTranslation": "去年、ニューヨークに行きました。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "You are at a restaurant. Ask the waiter politely to bring the menu. (Could you please...)",
+      "expectedSpeakingPoints": [
+        "Could you please",
+        "bring me the menu"
+      ],
+      "sampleResponse": {
+        "targetText": "Could you please bring me the menu?",
+        "transliteration": "クジュー プリーズ ブリング ミー ザ メニュー？",
+        "baseTranslation": "メニューを持ってきていただけますか？"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "You are at the hospital. Tell the doctor you have a terrible headache.",
+      "expectedSpeakingPoints": [
+        "I have a",
+        "terrible headache"
+      ],
+      "sampleResponse": {
+        "targetText": "I have a terrible headache.",
+        "transliteration": "アイ ハヴ ア テリブル ヘッドエイク。",
+        "baseTranslation": "ひどい頭痛がします。"
+      }
+    },
+    {
+      "subTaskId": "s4",
+      "prompt": "Your boss asks about your plans. Tell him you are going to work tomorrow. (I am going to...)",
+      "expectedSpeakingPoints": [
+        "I am going to",
+        "work tomorrow"
+      ],
+      "sampleResponse": {
+        "targetText": "I am going to work tomorrow.",
+        "transliteration": "アイ アム ゴーイング トゥ ワーク トゥモロー。",
+        "baseTranslation": "明日は仕事をする予定です。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Switch between different grammar tenses and vocabulary themes smoothly.",
+    "transliteration": "スウィッチ ビトウィーン ディファレント グラマー テンシズ アンド ヴォキャブラリー シームズ スムースリー。",
+    "baseTranslation": "異なる文法時制と語彙のテーマをスムーズに切り替えてください。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I went to New York last year.",
+      "transliteration": "アイ ウェント トゥ ニュー ヨーク ラスト イヤー。",
+      "baseTranslation": "去年、ニューヨークに行きました。"
+    },
+    {
+      "targetText": "Could you please bring me the menu?",
+      "transliteration": "クジュー プリーズ ブリング ミー ザ メニュー？",
+      "baseTranslation": "メニューを持ってきていただけますか？"
+    },
+    {
+      "targetText": "I have a terrible headache.",
+      "transliteration": "アイ ハヴ ア テリブル ヘッドエイク。",
+      "baseTranslation": "ひどい頭痛がします。"
+    },
+    {
+      "targetText": "I am going to work tomorrow.",
+      "transliteration": "アイ アム ゴーイング トゥ ワーク トゥモロー。",
+      "baseTranslation": "明日は仕事をする予定です。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using past tense 'went'.",
+      "Using polite modal 'Could you please'.",
+      "Using 'I have a' for symptoms.",
+      "Using 'am going to' for future plans."
+    ],
+    "requiredKeywords": [
+      "went",
+      "last",
+      "could",
+      "bring",
+      "menu",
+      "terrible",
+      "headache",
+      "going",
+      "work"
+    ],
+    "acceptableParaphrases": [
+      "I went to New York last year.",
+      "Could you please bring the menu?",
+      "I have a terrible headache.",
+      "I will work tomorrow."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Grammar Switching",
+          "weight": 50,
+          "description": "Correctly switches from past to present to future tenses."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 30,
+          "description": "Clear pronunciation of headache, could you, and going to."
+        },
+        {
+          "name": "Fluency",
+          "weight": 20,
+          "description": "Speaks naturally without long pauses."
+        }
+      ]
+    },
+    "sampleAnswer": "I went to New York last year. Could you please bring me the menu? I have a terrible headache. I am going to work tomorrow.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Outstanding! You have mastered switching between different English tenses and situations.",
+    "onFail": "Please try again. Pay close attention to the grammar required for each situation (past, request, symptom, future).",
+    "onPartial": "Good effort. Make sure you say 'went' for the past tense, and 'going to' for the future."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B6_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B6_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B6_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I went to New York last year. Could you please bring me the menu? I have a terrible headache. I am going to work tomorrow.",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "review",
+    "mega_review",
+    "tenses"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the verb in each sentence: went, bring, have, am going to.",
+  "commonMistakes": [
+    "Saying 'I go to New York last year' (forgetting past tense).",
+    "Saying 'I going to work' (forgetting 'am')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B6_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,184 @@
+{
+  "activityId": "ja_en_M3B5_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Reporting Emergencies",
+  "learningGoal": "The learner will construct sentences to report medical symptoms, declare stolen items using the passive voice, and request emergency services.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B5_lesson_001",
+    "ja_en_M3B5_reading_001"
+  ],
+  "instructions": "Translate the English emergency phrases into Japanese. These are critical sentences to memorize.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Pay close attention to particles (ga vs wo) and verb tenses."
+    }
+  ],
+  "writingPrompt": "Translate: 1) My head hurts. 2) I caught a cold. 3) My wallet was stolen. 4) Please call the police.",
+  "promptGoal": "To construct grammatically accurate emergency reports.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "あたま",
+      "transliteration": "Atama",
+      "baseTranslation": "Head",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いたいです",
+      "transliteration": "Itai desu",
+      "baseTranslation": "Hurts / Is painful",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "かぜ",
+      "transliteration": "Kaze",
+      "baseTranslation": "Cold",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ひきました",
+      "transliteration": "Hikimashita",
+      "baseTranslation": "Caught",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "さいふ",
+      "transliteration": "Saifu",
+      "baseTranslation": "Wallet",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ぬすまれました",
+      "transliteration": "Nusumaremashita",
+      "baseTranslation": "Was stolen",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "けいさつ",
+      "transliteration": "Keisatsu",
+      "baseTranslation": "Police",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "よんで ください",
+      "transliteration": "Yonde kudasai",
+      "baseTranslation": "Please call",
+      "partOfSpeech": "phrase"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Head] ga [Hurts].",
+    "Sentence 2: [Cold] wo [Caught].",
+    "Sentence 3: [Wallet] wo [Was stolen].",
+    "Sentence 4: [Police] wo [Please call]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "あたまが いたいです。かぜを ひきました。さいふを ぬすまれました。けいさつを よんで ください。",
+      "transliteration": "Atama ga itai desu. Kaze wo hikimashita. Saifu wo nusumaremashita. Keisatsu wo yonde kudasai.",
+      "baseTranslation": "My head hurts. I caught a cold. My wallet was stolen. Please call the police.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect sentence construction with correct particles and verb forms."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Medical Pain",
+      "weight": 25,
+      "description": "Did the learner use 'ga' with 'itai desu'?"
+    },
+    {
+      "criterion": "Medical Illness",
+      "weight": 25,
+      "description": "Did the learner correctly write 'kaze wo hikimashita'?"
+    },
+    {
+      "criterion": "Crime Report",
+      "weight": 25,
+      "description": "Did the learner use the passive form 'nusumaremashita'?"
+    },
+    {
+      "criterion": "Emergency Request",
+      "weight": 25,
+      "description": "Did the learner write 'keisatsu wo yonde kudasai'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "あたまが いたいです。かぜを ひきました。さいふを ぬすまれました。けいさつを よんで ください。",
+    "acceptableAlternates": [
+      "あたまがいたい。かぜをひいた。さいふをぬすまれた。けいさつをよんでください。"
+    ],
+    "requiredKeywords": [
+      "あたま",
+      "いたい",
+      "かぜ",
+      "ひきました",
+      "さいふ",
+      "ぬすまれました",
+      "けいさつ",
+      "よんでください"
+    ],
+    "grammarBaseline": "Mastery of ga vs wo particles in emergency contexts.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You correctly applied the emergency grammar structures.",
+    "onFail": "Review the vocabulary list. 'Nusumaremashita' means stolen. 'Nakushimashita' means lost.",
+    "onPartial": "Good try! Make sure you use the 'ga' particle when saying a body part hurts (Atama ga itai)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "medical",
+    "police",
+    "emergencies",
+    "advanced",
+    "month3",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'wo' with 'nusumaremashita' because it happened to your object.",
+  "commonMistakes": [
+    "Writing 'Saifu ga nusumaremashita'. It should be 'wo'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

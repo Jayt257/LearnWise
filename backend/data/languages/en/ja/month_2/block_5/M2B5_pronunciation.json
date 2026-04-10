@@ -1,0 +1,160 @@
+{
+  "activityId": "ja_en_M2B5_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Thoughts and Opinions",
+  "learningGoal": "The learner will master the intonation of quoting thoughts, ensuring smooth linkage between the plain form verb and the phrase '~to omoimasu'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B5_lesson_001",
+    "ja_en_M2B5_vocabulary_001"
+  ],
+  "instructions": "In this exercise, practice stating your opinions. When saying 'to omoimasu', do not leave a large gap before the 'to'. It should flow naturally from the preceding word.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Say 'Ikuto omoimasu' not 'Iku... to omoimasu'. The 'to' attaches closely to the word before it."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "いくと おもいます",
+      "transliteration": "Iku to omoimasu",
+      "baseTranslation": "I think I will go.",
+      "phoneticHint": "ee-koo toh oh-moy-mahs",
+      "syllableSplit": "i-ku to o-mo-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Pausing too long before 'to'."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "こないと おもいます",
+      "transliteration": "Konai to omoimasu",
+      "baseTranslation": "I think they will not come.",
+      "phoneticHint": "koh-nye toh oh-moy-mahs",
+      "syllableSplit": "ko-na-i to o-mo-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'Kimanai' instead of 'Konai'."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "たかいと おもいます",
+      "transliteration": "Takai to omoimasu",
+      "baseTranslation": "I think it is expensive.",
+      "phoneticHint": "tah-kye toh oh-moy-mahs",
+      "syllableSplit": "ta-ka-i to o-mo-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Adding 'da' to an i-adjective (Takai da to omoimasu is wrong)."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "げんきだと おもいます",
+      "transliteration": "Genki da to omoimasu",
+      "baseTranslation": "I think they are healthy.",
+      "phoneticHint": "gen-kee dah toh oh-moy-mahs",
+      "syllableSplit": "ge-n-ki da to o-mo-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Forgetting the 'da'. 'Genki to omoimasu' is wrong."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "ほんとうだと おもいます",
+      "transliteration": "Hontou da to omoimasu",
+      "baseTranslation": "I think it is the truth.",
+      "phoneticHint": "hon-toh dah toh oh-moy-mahs",
+      "syllableSplit": "ho-n-to-o da to o-mo-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Shortening 'Hontou' to 'Honto'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "しないと おもいます",
+      "transliteration": "Shinai to omoimasu",
+      "baseTranslation": "I think I will not do it.",
+      "phoneticHint": "shee-nye toh oh-moy-mahs",
+      "syllableSplit": "shi-na-i to o-mo-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "None. Very straightforward."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "たぶんと おもいます",
+      "transliteration": "Tabun to omoimasu",
+      "baseTranslation": "I think so, probably. (Note: This is slightly unnatural, usually tabun is used alone or at the start. So let's change phrase 7)",
+      "phoneticHint": "tah-boon",
+      "syllableSplit": "ta-bu-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Wait, fixing target text."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "いくとおもいます こないとおもいます たかいとおもいます げんきだとおもいます ほんとうだとおもいます しないとおもいます",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! Your opinions flow very naturally.",
+    "onFail": "Keep practicing! Link the 'to' directly to the end of the plain form word.",
+    "onPartial": "Good effort. Pay close attention to 'da to omoimasu' when using nouns like 'Hontou'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "いくとおもいます こないとおもいます たかいとおもいます げんきだとおもいます ほんとうだとおもいます しないとおもいます",
+    "acceptedVariants": [
+      "いくと おもいます こないと おもいます たかいと おもいます げんきだと おもいます ほんとうだと おもいます しないと おもいます"
+    ],
+    "syllableSplitReference": "i-ku-to-o-mo-i-ma-su ko-na-i-to-o-mo-i-ma-su ta-ka-i-to-o-mo-i-ma-su ge-n-ki-da-to-o-mo-i-ma-su ho-n-to-o-da-to-o-mo-i-ma-su shi-na-i-to-o-mo-i-ma-su",
+    "phoneticApproximation": "ikutoomoimasu konaitoomoimasu takaitoomoimasu genkidatoomoimasu hontoudatoomoimasu shinaitoomoimasu",
+    "nativeScriptReference": "いくとおもいます こないとおもいます たかいとおもいます げんきだとおもいます ほんとうだとおもいます しないとおもいます",
+    "transliteration": "Iku to omoimasu Konai to omoimasu Takai to omoimasu Genki da to omoimasu Hontou da to omoimasu Shinai to omoimasu",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b5/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m2/b5/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b5/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "いくと おもいます。こないと おもいます。たかいと おもいます。げんきだと おもいます。ほんとうだと おもいます。しないと おもいます。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "plain-form",
+    "quotation",
+    "intermediate",
+    "month2",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember to use 'da to' for nouns (like Hontou) and na-adjectives (like Genki).",
+  "commonMistakes": [
+    "Saying 'Genki to omoimasu' without the 'da'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

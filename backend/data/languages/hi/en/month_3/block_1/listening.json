@@ -1,0 +1,210 @@
+{
+  "activityId": "en_hi_M3B1_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Doctor's Orders",
+  "learningGoal": "The learner will parse rapid auditory strings to accurately decode authoritative modal markers ('should', 'must') and accurately identify phonological elision (the silent 'L' in should, silent 'T' in mustn't, and schwa reduction in can).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M3B1_writing_001"],
+  "instructions": "Listen to a doctor talking to a sick patient. The doctor speaks very quickly! Listen closely to hear the difference between friendly advice (Should) and strict rules (Must). Answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Remember, native speakers do NOT say the 'L' in should. It is silent!"
+    }
+  ],
+  "listeningGoal": "Isolate boundary phonetics in modal contractions and distinguish between advisory and obligatory acoustic stress patterns.",
+  "audioScenario": "A doctor giving instructions to a patient with a bad cold.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Good morning, Amit. How are you feeling today?",
+      "transliteration": "गुड मॉर्निंग, अमित। हाउ आर यू फीलिंग टुडे?",
+      "baseTranslation": "सुप्रभात, अमित। आज आप कैसा महसूस कर रहे हैं?"
+    },
+    {
+      "targetText": "I feel terrible, doctor. I have a bad fever.",
+      "transliteration": "आई फील टेरिबल, डॉक्टर। आई हैव अ बैड फीवर।",
+      "baseTranslation": "मुझे बहुत बुरा लग रहा है, डॉक्टर। मुझे तेज़ बुखार है।"
+    },
+    {
+      "targetText": "Yes, I see. You have a throat infection.",
+      "transliteration": "येस, आई सी। यू हैव अ थ्रोट इन्फेक्शन।",
+      "baseTranslation": "हाँ, मैं समझ रहा हूँ। आपके गले में संक्रमण है।"
+    },
+    {
+      "targetText": "You must take this medicine two times a day.",
+      "transliteration": "यू मस्ट टेक दिस मेडिसिन टू टाइम्स अ डे।",
+      "baseTranslation": "आपको यह दवा दिन में दो बार (ज़रूर) लेनी चाहिए।"
+    },
+    {
+      "targetText": "Okay. Can I go to work tomorrow?",
+      "transliteration": "ओके। कैन आई गो टू वर्क टुमॉरो?",
+      "baseTranslation": "ठीक है। क्या मैं कल काम पर जा सकता हूँ?"
+    },
+    {
+      "targetText": "No, absolutely not. You must rest at home.",
+      "transliteration": "नो, एब्सोल्यूटली नॉट। यू मस्ट रेस्ट एट होम।",
+      "baseTranslation": "नहीं, बिल्कुल नहीं। तुम्हें घर पर ही (ज़रूर) आराम करना चाहिए।"
+    },
+    {
+      "targetText": "You shouldn't work when you are sick. You are too weak.",
+      "transliteration": "यू शुडन्ट वर्क वेन यू आर सिक। यू आर टू वीक।",
+      "baseTranslation": "बीमार होने पर तुम्हें काम नहीं करना चाहिए। तुम बहुत कमज़ोर हो।"
+    },
+    {
+      "targetText": "I understand. What about food? Should I eat soup?",
+      "transliteration": "आई अंडरस्टैंड। वॉट अबाऊट फूड? शुड आई ईट सूप?",
+      "baseTranslation": "मैं समझ गया। खाने के बारे में क्या? क्या मुझे सूप पीना (खाना) चाहिए?"
+    },
+    {
+      "targetText": "Yes, soup is good. You can eat soup and you can drink hot tea.",
+      "transliteration": "येस, सूप इज़ गुड। यू कैन ईट सूप एंड यू कैन ड्रिंक हॉट टी।",
+      "baseTranslation": "हाँ, सूप अच्छा है। तुम सूप पी सकते हो और गर्म चाय पी सकते हो।"
+    },
+    {
+      "targetText": "But you mustn't drink cold water. It will hurt your throat.",
+      "transliteration": "बट यू मसन्ट ड्रिंक कोल्ड वाटर। इट विल हर्ट योर थ्रोट।",
+      "baseTranslation": "लेकिन तुम्हें बिल्कुल भी ठंडा पानी नहीं पीना चाहिए। इससे तुम्हारे गले को चोट पहुंचेगी।"
+    },
+    {
+      "targetText": "Got it. No cold water. Thank you, doctor.",
+      "transliteration": "गॉट इट। नो कोल्ड वाटर। थैंक यू, डॉक्टर।",
+      "baseTranslation": "समझ गया। ठंडा पानी नहीं। धन्यवाद, डॉक्टर।"
+    }
+  ],
+  "audioTranscriptFull": "Doctor: Good morning, Amit. How are you feeling today?\nAmit: I feel terrible, doctor. I have a bad fever.\nDoctor: Yes, I see. You have a throat infection. You must take this medicine two times a day.\nAmit: Okay. Can I go to work tomorrow?\nDoctor: No, absolutely not. You must rest at home. You shouldn't work when you are sick. You are too weak.\nAmit: I understand. What about food? Should I eat soup?\nDoctor: Yes, soup is good. You can eat soup and you can drink hot tea. But you mustn't drink cold water. It will hurt your throat.\nAmit: Got it. No cold water. Thank you, doctor.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does the doctor say is a STRICT RULE regarding the medicine?",
+      "questionType": "multiple_choice",
+      "options": ["You should take it", "You must take it", "You can take it"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What does Amit ask permission to do?",
+      "questionType": "multiple_choice",
+      "options": ["Can I drink tea?", "Can I eat soup?", "Can I go to work?"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What is the doctor's absolute rule about staying at home?",
+      "questionType": "multiple_choice",
+      "options": ["You must rest", "You should rest", "You can rest"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Listen to the word 'shouldn't' when the doctor talks about working. Which letter is completely silent?",
+      "questionType": "multiple_choice",
+      "options": ["S", "N", "L"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Amit asks for advice about food. Fill in the blank: '____ I eat soup?'",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Can Amit drink hot tea?",
+      "questionType": "multiple_choice",
+      "options": ["Yes, he can", "No, he cannot"],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "When the doctor says 'mustn't drink cold water', what word is he squishing together?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "Did the doctor ever use the word 'to' after Can, Should, or Must in the entire conversation?",
+      "questionType": "true_false",
+      "options": ["Yes", "No"],
+      "audioTimestamp": "00:30",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for MCQ."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "You must take it",
+      "q2": "Can I go to work?",
+      "q3": "You must rest",
+      "q4": "L",
+      "q5": "Should",
+      "q6": "Yes, he can",
+      "q7": "Must not",
+      "q8": "No"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["should", "Should"],
+      "q7": ["must not", "Must not"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["should"],
+      "q7": ["must", "not"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly understood the doctor's fast speech, mapped the difference between advice and rules, and proved you know the grammar!",
+    "onFail": "Keep trying! Ensure you playback the audio on Slow mode. Listen to exactly when the doctor uses 'Must'. He only uses it for very serious things: taking medicine, resting, and avoiding cold water.",
+    "onPartial": "Good ear! Watch out for 'Mustn't'. It sounds like 'Muss-int'. That means 'Must not'!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b1/listening/doctor_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b1/listening/doctor_slow.mp3",
+    "normalAudio": "audio/en_hi/m3/b1/listening/doctor_native.mp3",
+    "audioTranscript": "Doctor: Good morning, Amit. How are you feeling today?... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "modals", "can", "should", "must", "health", "intermediate", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b1/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the doctor raises his voice and sounds very serious, he is usually saying 'Must'!",
+  "commonMistakes": [
+    "Failing to hear 'mustn't' due to the complete elision of the internal 't'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

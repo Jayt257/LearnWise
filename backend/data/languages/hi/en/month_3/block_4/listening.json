@@ -1,0 +1,205 @@
+{
+  "activityId": "en_hi_M3B4_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Airport Emergency",
+  "learningGoal": "The learner will parse rapid, chaotic auditory input within a high-stress transit environment, successfully identifying key survival vocabulary (Gate, Delayed, Passport) and directional instructions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M3B4_writing_001"],
+  "instructions": "Listen to a traveler arguing with an airport ticket agent. He is very stressed! He has lost his passport, and his flight might be leaving soon. Listen closely to the exact words the agent uses to direct him to the police.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "The traveler speaks very quickly because he is in a panic. Don't worry if you miss a word—focus on the key Survival Vocabulary!"
+    }
+  ],
+  "listeningGoal": "Identify critical transit and emergency vocabulary (Flight, Delayed, Police, Passport) amidst rapid, emotionally elevated conversational speech.",
+  "audioScenario": "A panicked traveler interacting with an airline agent about a lost passport.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Excuse me, I need help! It's an emergency!",
+      "transliteration": "एक्सक्यूज़ मी, आई नीड हेल्प! इट्स एन इमरजेंसी!",
+      "baseTranslation": "माफ़ करें, मुझे मदद की ज़रूरत है! यह एक आपात स्थिति है!"
+    },
+    {
+      "targetText": "Please calm down, sir. How can I help you?",
+      "transliteration": "प्लीज़ काम डाउन, सर। हाउ कैन आई हेल्प यू?",
+      "baseTranslation": "कृपया शांत हो जाइए, सर। मैं आपकी कैसे मदद कर सकती हूँ?"
+    },
+    {
+      "targetText": "I am flying to Delhi. My flight is at Gate 4. But I cannot find my passport!",
+      "transliteration": "आई एम फ्लाइंग टू दिल्ली। माई फ्लाइट इज़ एट गेट 4। बट आई कैनॉट फाइंड माई पासपोर्ट!",
+      "baseTranslation": "मैं दिल्ली जा रहा हूँ। मेरी उड़ान गेट 4 पर है। लेकिन मुझे अपना पासपोर्ट नहीं मिल रहा है!"
+    },
+    {
+      "targetText": "Someone stole my bag while I was in the bathroom.",
+      "transliteration": "समवन स्टोल माई बैग वाइल आई वॉज़ इन द बाथरूम।",
+      "baseTranslation": "जब मैं बाथरूम में था तो किसी ने मेरा बैग चुरा लिया।"
+    },
+    {
+      "targetText": "Oh no. That is terrible. But you are lucky. Your flight is delayed.",
+      "transliteration": "ओह नो। दैट इज़ टेरिबल। बट यू आर लकी। योर फ्लाइट इज़ डिलेड।",
+      "baseTranslation": "अरे नहीं। यह बहुत बुरा है। लेकिन आप भाग्यशाली हैं। आपकी उड़ान में देरी (देर) है।"
+    },
+    {
+      "targetText": "It is delayed? How much time do I have?",
+      "transliteration": "इट इज़ डिलेड? हाउ मच टाइम डू आई हैव?",
+      "baseTranslation": "इसमें देरी है? मेरे पास कितना समय है?"
+    },
+    {
+      "targetText": "It will leave in two hours. You need to call the police.",
+      "transliteration": "इट विल लीव इन टू आवर्स। यू नीड टू कॉल द पुलिस।",
+      "baseTranslation": "यह दो घंटे में जाएगा। आपको पुलिस को बुलाना होगा।"
+    },
+    {
+      "targetText": "Where are the police?",
+      "transliteration": "वेयर आर द पुलिस?",
+      "baseTranslation": "पुलिस कहाँ है?"
+    },
+    {
+      "targetText": "Go straight down this hall. Turn left at the exit. You will see them.",
+      "transliteration": "गो स्ट्रेट डाउन दिस हॉल। टर्न लेफ्ट एट द एग्जिट। यू विल सी देम।",
+      "baseTranslation": "इस हॉल में सीधे जाएँ। निकास (एग्जिट) पर बाएँ मुड़ें। आप उन्हें देखेंगे।"
+    },
+    {
+      "targetText": "Thank you so much!",
+      "transliteration": "थैंक यू सो मच!",
+      "baseTranslation": "आपका बहुत बहुत धन्यवाद!"
+    }
+  ],
+  "audioTranscriptFull": "Traveler: Excuse me, I need help! It's an emergency!\nAgent: Please calm down, sir. How can I help you?\nTraveler: I am flying to Delhi. My flight is at Gate 4. But I cannot find my passport! Someone stole my bag while I was in the bathroom.\nAgent: Oh no. That is terrible. But you are lucky. Your flight is delayed.\nTraveler: It is delayed? How much time do I have?\nAgent: It will leave in two hours. You need to call the police.\nTraveler: Where are the police?\nAgent: Go straight down this hall. Turn left at the exit. You will see them.\nTraveler: Thank you so much!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does the traveler say first to get the agent's attention politely?",
+      "questionType": "multiple_choice",
+      "options": ["Hey you", "Excuse me", "Help me"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What number is the man's Flight Gate?",
+      "questionType": "multiple_choice",
+      "options": ["Gate 2", "Gate 4", "Gate 5"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What item has the man lost?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What happened to the man's bag?",
+      "questionType": "multiple_choice",
+      "options": ["He left it at home.", "Someone stole it.", "The agent has it."],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "The agent says the flight is 'delayed'. What does this mean?",
+      "questionType": "multiple_choice",
+      "options": ["The flight is leaving very early.", "The flight is cancelled.", "The flight is late (he has more time)."],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Who does the agent tell the traveler to call?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:19",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Fill in the blank for the directions: Go ____ down this hall. Turn left at the exit.",
+      "questionType": "multiple_choice",
+      "options": ["straight", "back", "right"],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "When the man says 'Thank you so much', his voice is...",
+      "questionType": "multiple_choice",
+      "options": ["Angry and loud", "Polite and grateful (rising tune)"],
+      "audioTimestamp": "00:27",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for MCQ."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Excuse me",
+      "q2": "Gate 4",
+      "q3": "Passport",
+      "q4": "Someone stole it.",
+      "q5": "The flight is late (he has more time).",
+      "q6": "Police",
+      "q7": "straight",
+      "q8": "Polite and grateful (rising tune)"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["passport", "Passport", "his passport"],
+      "q6": ["police", "Police", "the police"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q3": ["pass"],
+      "q6": ["police"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly handled the high-stress airport situation! You heard the directional keywords (Straight, Left) and understood the emergency vocabulary (Stole, Delayed, Police).",
+    "onFail": "Keep trying! This is very fast native speech during a stressful event. Play the audio on Slow mode. Listen carefully to the agent giving directions. She says 'Straight' and 'Left'.",
+    "onPartial": "Good ear! Watch out for Question 5. 'Delayed' is a very important airport word! It means your train or flight is coming late, so it actually gave the man extra time!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b4/listening/airport_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b4/listening/airport_slow.mp3",
+    "normalAudio": "audio/en_hi/m3/b4/listening/airport_native.mp3",
+    "audioTranscript": "Traveler: Excuse me, I need help! It's an emergency... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "survival_english", "airport", "emergency", "capstone", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b4/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you miss something during the fast, panicky speech, just replay the audio. Focus on the agent—she speaks clearly and calmly.",
+  "commonMistakes": [
+    "Misinterpreting 'Delayed' as 'Cancelled'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B4_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

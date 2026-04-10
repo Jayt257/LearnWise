@@ -1,0 +1,174 @@
+{
+  "activityId": "en_ja_M2B3_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "At the Hotel",
+  "learningGoal": "Listen to a formal conversation at a hotel to identify polite requests, offers, and permissions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B3_writing_4"
+  ],
+  "instructions": "ホテルのフロントでの会話を聞いてください。スタッフがお客様に対して使う丁寧な表現（May I, Could you, Would you like）を聞き取り、質問に答えてください。(Listen to a conversation at a hotel front desk. Listen for polite expressions used by the staff and answer the questions.)",
+  "listeningGoal": "To recognize and understand formal modal verbs used in customer service.",
+  "audioScenario": "A guest is checking in at a hotel front desk.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Good afternoon, sir. May I help you?",
+      "transliteration": "グッド アフタヌーン、サー。メイ アイ ヘルプ ユー？",
+      "baseTranslation": "こんにちは、お客様。何かお手伝いいたしましょうか？"
+    },
+    {
+      "targetText": "Yes, I would like to check in, please.",
+      "transliteration": "イエス、アイ ウッド ライク トゥ チェック イン、プリーズ",
+      "baseTranslation": "はい、チェックインをお願いします。"
+    },
+    {
+      "targetText": "Certainly. Could I have your name, please?",
+      "transliteration": "サーテンリー。クッド アイ ハヴ ユア ネーム、プリーズ？",
+      "baseTranslation": "かしこまりました。お名前を伺ってもよろしいでしょうか？"
+    },
+    {
+      "targetText": "My name is Tom Baker.",
+      "transliteration": "マイ ネーム イズ トム ベイカー",
+      "baseTranslation": "私の名前はトム・ベイカーです。"
+    },
+    {
+      "targetText": "Thank you, Mr. Baker. Could you show me your passport?",
+      "transliteration": "サンキュー、ミスター ベイカー。クジュー ショウ ミー ユア パスポート？",
+      "baseTranslation": "ありがとうございます、ベイカー様。パスポートを見せていただけますか？"
+    },
+    {
+      "targetText": "Here you are.",
+      "transliteration": "ヒア ユー アー",
+      "baseTranslation": "はい、どうぞ。"
+    },
+    {
+      "targetText": "Thank you. Would you like a room with a nice view?",
+      "transliteration": "サンキュー。ウッド ジュー ライク ア ルーム ウィズ ア ナイス ヴュー？",
+      "baseTranslation": "ありがとうございます。景色の良いお部屋はいかがですか？"
+    },
+    {
+      "targetText": "Yes, I would love that. Thank you.",
+      "transliteration": "イエス、アイ ウッド ラヴ ザット。サンキュー",
+      "baseTranslation": "はい、ぜひお願いします。ありがとう。"
+    }
+  ],
+  "audioTranscriptFull": "Staff: Good afternoon, sir. May I help you?\nGuest: Yes, I would like to check in, please.\nStaff: Certainly. Could I have your name, please?\nGuest: My name is Tom Baker.\nStaff: Thank you, Mr. Baker. Could you show me your passport?\nGuest: Here you are.\nStaff: Thank you. Would you like a room with a nice view?\nGuest: Yes, I would love that. Thank you.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "スタッフが最初に声をかけた時、「Can I help you?」より丁寧な表現として何を使っていますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "May I help you?",
+        "Could you help me?",
+        "Do you want help?",
+        "I would like to help you."
+      ],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "客は「チェックインしたい」と伝える時、どのように言っていますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "I want to check in.",
+        "I would like to check in.",
+        "Could you check in?",
+        "May I check in?"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "スタッフは客に何を見せてほしいとお願いしていますか？ (What does the staff ask the guest to show?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "A ticket",
+        "A credit card",
+        "A passport",
+        "A menu"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "スタッフが「景色の良い部屋はいかがですか？」と提案する時、どのフレーズを使っていますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Do you want",
+        "Would you like",
+        "Could you like",
+        "May I like"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "May I help you?",
+      "q2": "I would like to check in.",
+      "q3": "A passport",
+      "q4": "Would you like"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You caught all the polite business phrases.",
+    "onFail": "Listen again carefully. The staff uses 'May I', 'Could you', and 'Would you like' because it is a formal situation.",
+    "onPartial": "Good effort. Pay attention to the difference between 'Could you show me' (お願い) and 'Would you like' (提案)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B3_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B3_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Staff: Good afternoon, sir. May I help you? Guest: Yes, I would like to check in, please...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "politeness",
+    "hotel",
+    "modals"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'May I' at the very beginning and 'Would you like' near the end.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

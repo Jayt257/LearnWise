@@ -1,0 +1,201 @@
+{
+  "activityId": "hi_en_M2B1_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Writing: Expressing Wants and Needs",
+  "learningGoal": "Construct grammatically accurate sentences expressing desire using dative pronouns and matching adjectives.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B1_lesson_1"
+  ],
+  "instructions": "In this writing task, you must completely forget English sentence structure. You are writing in the 'To me [object] is needed' format. Pay attention to the gender of the objects when choosing adjective endings.",
+  "writingPrompt": "Translate the following sentences into Hindi:\n1. I want hot tea. (Tea is feminine)\n2. What do you want? (Use formal 'Aapko')\n3. I want a big house. (House is masculine)\n4. I want cold water too. (Water is masculine, Use 'bhi' for too)",
+  "promptGoal": "Applying the 'chahiye' construction and adjective agreement in written form.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "मुझे",
+      "transliteration": "mujhe",
+      "baseTranslation": "to me (I want)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "आपको",
+      "transliteration": "aapko",
+      "baseTranslation": "to you (formal)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "चाहिए",
+      "transliteration": "chahiye",
+      "baseTranslation": "is needed / want",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "क्या",
+      "transliteration": "kya",
+      "baseTranslation": "what",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "गरम",
+      "transliteration": "garam",
+      "baseTranslation": "hot",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "ठंडा",
+      "transliteration": "thanda",
+      "baseTranslation": "cold",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "बड़ा",
+      "transliteration": "bada",
+      "baseTranslation": "big",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "चाय",
+      "transliteration": "chai",
+      "baseTranslation": "tea (fem)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "पानी",
+      "transliteration": "paani",
+      "baseTranslation": "water (masc)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "घर",
+      "transliteration": "ghar",
+      "baseTranslation": "house (masc)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "भी",
+      "transliteration": "bhi",
+      "baseTranslation": "too / also",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "एक",
+      "transliteration": "ek",
+      "baseTranslation": "a / one",
+      "partOfSpeech": "number"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'To-me hot tea is-needed.'",
+    "Sentence 2: 'To-you what is-needed?'",
+    "Sentence 3: 'To-me a big house is-needed.'",
+    "Sentence 4: 'To-me cold water too is-needed.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मुझे गरम चाय चाहिए। आपको क्या चाहिए? मुझे एक बड़ा घर चाहिए। मुझे ठंडा पानी भी चाहिए।",
+      "transliteration": "Mujhe garam chai chahiye. Aapko kya chahiye? Mujhe ek bada ghar chahiye. Mujhe thanda paani bhi chahiye.",
+      "baseTranslation": "I want hot tea. What do you want? I want a big house. I want cold water too.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect. 'Mujhe' and 'Aapko' are used instead of 'Main' and 'Aap'. 'Bhi' is placed immediately after 'paani'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Dative Pronoun Usage",
+      "weight": 40,
+      "description": "Must use 'Mujhe' and 'Aapko'. Using 'Main' or 'Aap' results in failure."
+    },
+    {
+      "criterion": "Chahiye Placement",
+      "weight": 30,
+      "description": "The word 'chahiye' must be at the very end of the sentence."
+    },
+    {
+      "criterion": "Adjective Agreement",
+      "weight": 30,
+      "description": "Must use 'thanda' (masculine) for water, and 'bada' (masculine) for house."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मुझे गरम चाय चाहिए। आपको क्या चाहिए? मुझे एक बड़ा घर चाहिए। मुझे ठंडा पानी भी चाहिए।",
+    "acceptableAlternates": [
+      "Mujhe garam chai chahiye. Aapko kya chahiye? Mujhe ek bada ghar chahiye. Mujhe thanda paani bhi chahiye.",
+      "mujhe garam chai chahiye. aapko kya chahiye? mujhe bada ghar chahiye. mujhe thanda paani bhi chahiye."
+    ],
+    "requiredKeywords": [
+      "mujhe",
+      "garam",
+      "chai",
+      "chahiye",
+      "aapko",
+      "kya",
+      "bada",
+      "ghar",
+      "thanda",
+      "paani",
+      "bhi"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check against subject pronouns.",
+    "lengthExpectation": "Four short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Pronoun Error Check",
+          "weight": 100,
+          "description": "If 'Main' or 'Aap' is used with 'chahiye', the score is 0."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Incredible! You have mastered the most difficult grammatical concept for English speakers.",
+    "onFail": "Review Section 2 and 3. You CANNOT say 'Main chahiye'. You must say 'Mujhe chahiye' (To me it is needed).",
+    "onPartial": "Good try. Check your placement of 'bhi' (too/also). It should go right after the thing you also want."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "chahiye",
+    "dative",
+    "adjectives",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the sentences back to yourself. Does 'Chahiye' come at the very end of every sentence? It should.",
+  "commonMistakes": [
+    "Writing 'Mujhe chahiye garam chai' (Using English word order)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

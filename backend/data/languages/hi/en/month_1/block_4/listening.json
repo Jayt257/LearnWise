@@ -1,0 +1,231 @@
+{
+  "activityId": "en_hi_M1B4_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "At the Clinic: Hearing Numbers and Dates",
+  "learningGoal": "The learner will accurately extract specific numerical data (ages, phone fragments) and temporal data (days/months) from a rapid, native-speed English conversation, specifically discriminating between '-teen' and '-ty' sounds.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B4_writing_001"],
+  "instructions": "Listen to a receptionist talking to a new patient at a clinic. Pay very close attention to the questions she asks (What, When, How old) and the numbers the patient says. Is he saying 14 or 40? Listen carefully and answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "The audio is at native speed. If the numbers are too fast, use the slow playback button."
+    }
+  ],
+  "listeningGoal": "Accurately parse auditory cues to isolate correct spelled-out integers and calendar dates.",
+  "audioScenario": "A receptionist at a dentist office is registering a new patient, asking him standard intake questions.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hello. What is your name?",
+      "transliteration": "हेलो। वॉट इज़ योर नेम?",
+      "baseTranslation": "नमस्ते। आपका नाम क्या है?"
+    },
+    {
+      "targetText": "My name is Rohan.",
+      "transliteration": "माई नेम इज़ रोहन।",
+      "baseTranslation": "मेरा नाम रोहन है।"
+    },
+    {
+      "targetText": "Okay, Rohan. How old are you?",
+      "transliteration": "ओके, रोहन। हाउ ओल्ड आर यू?",
+      "baseTranslation": "ठीक है, रोहन। आपकी उम्र क्या है?"
+    },
+    {
+      "targetText": "I am fourteen years old.",
+      "transliteration": "आई एम फोर्टीन इयर्स ओल्ड।",
+      "baseTranslation": "मैं चौदह वर्ष का हूँ।"
+    },
+    {
+      "targetText": "Forty?",
+      "transliteration": "फोर्टी?",
+      "baseTranslation": "चालीस?"
+    },
+    {
+      "targetText": "No, fourteen. One, four.",
+      "transliteration": "नो, फोर्टीन। वन, फोर।",
+      "baseTranslation": "नहीं, चौदह। एक, चार।"
+    },
+    {
+      "targetText": "Ah, okay. When is your birthday?",
+      "transliteration": "आह, ओके। वेन इज़ योर बर्थडे?",
+      "baseTranslation": "आह, ठीक है। आपका जन्मदिन कब है?"
+    },
+    {
+      "targetText": "My birthday is in August.",
+      "transliteration": "माई बर्थडे इज़ इन अगस्त।",
+      "baseTranslation": "मेरा जन्मदिन अगस्त में है।"
+    },
+    {
+      "targetText": "When is your appointment?",
+      "transliteration": "वेन इज़ योर अपॉइंटमेंट?",
+      "baseTranslation": "आपकी अपॉइंटमेंट (मुलाकात) कब है?"
+    },
+    {
+      "targetText": "My appointment is on Tuesday. Tuesday, August ten.",
+      "transliteration": "माई अपॉइंटमेंट इज़ ऑन ट्यूसडे। ट्यूसडे, अगस्त टेन।",
+      "baseTranslation": "मेरी अपॉइंटमेंट मंगलवार को है। मंगलवार, दस अगस्त।"
+    },
+    {
+      "targetText": "Where do you live?",
+      "transliteration": "वेयर डू यू लिव?",
+      "baseTranslation": "आप कहाँ रहते हैं?"
+    },
+    {
+      "targetText": "I live at fifty Park Road.",
+      "transliteration": "आई लिव ऐट फिफ्टी पार्क रोड।",
+      "baseTranslation": "मैं पचास पार्क रोड पर रहता हूँ।"
+    },
+    {
+      "targetText": "Fifty or fifteen?",
+      "transliteration": "फिफ्टी ऑर फिफ्टीन?",
+      "baseTranslation": "पचास या पंद्रह?"
+    },
+    {
+      "targetText": "Fifty. Five, zero.",
+      "transliteration": "फिफ्टी। फाइव, ज़ीरो।",
+      "baseTranslation": "पचास। पाँच, शून्य।"
+    },
+    {
+      "targetText": "Thank you, Rohan. Please sit down.",
+      "transliteration": "थैंक यू, रोहन। प्लीज़ सिट डाउन।",
+      "baseTranslation": "धन्यवाद, रोहन। कृपया बैठ जाइए।"
+    }
+  ],
+  "audioTranscriptFull": "Receptionist: Hello. What is your name?\nRohan: My name is Rohan.\nReceptionist: Okay, Rohan. How old are you?\nRohan: I am fourteen years old.\nReceptionist: Forty?\nRohan: No, fourteen. One, four.\nReceptionist: Ah, okay. When is your birthday?\nRohan: My birthday is in August.\nReceptionist: When is your appointment?\nRohan: My appointment is on Tuesday. Tuesday, August ten.\nReceptionist: Where do you live?\nRohan: I live at fifty Park Road.\nReceptionist: Fifty or fifteen?\nRohan: Fifty. Five, zero.\nReceptionist: Thank you, Rohan. Please sit down.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What WH-word does the receptionist use to ask Rohan about his name?",
+      "questionType": "multiple_choice",
+      "options": ["Who", "Where", "What", "When"],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "How old is Rohan?",
+      "questionType": "multiple_choice",
+      "options": ["Forty (40)", "Fourteen (14)", "Four (4)", "Four hundred (400)"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "In what month is Rohan's birthday?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What day of the week is his appointment?",
+      "questionType": "multiple_choice",
+      "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What is the exact date (number) of his appointment in August?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "What WH-word does the receptionist use to ask about his address (____ do you live)?",
+      "questionType": "multiple_choice",
+      "options": ["Who", "When", "What", "Where"],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "What is Rohan's house number? Listen carefully to the 'TY' vs 'TEEN'.",
+      "questionType": "multiple_choice",
+      "options": ["Fifteen (15)", "Fifty (50)", "Five (5)", "Fifty-five (55)"],
+      "audioTimestamp": "00:30",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "True or False: The receptionist perfectly heard all his numbers the first time without asking him to clarify.",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:32",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for Q2 and Q7. Distinguishing Teens from Tens is binary."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "What",
+      "q2": "Fourteen (14)",
+      "q3": "August",
+      "q4": "Tuesday",
+      "q5": "Ten",
+      "q6": "Where",
+      "q7": "Fifty (50)",
+      "q8": "False"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["August", "august"],
+      "q5": ["Ten", "10", "ten", "August 10"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q3": ["august"],
+      "q5": ["10", "ten"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You successfully navigated a fast-paced conversation, accurately picking out numerical data and recognizing WH-question hooks.",
+    "onFail": "Keep trying! Ensure you playback the audio on Slow mode. Listen to how Rohan strictly stresses 'Four-TEEN' but then stresses 'FIF-ty'.",
+    "onPartial": "Good ear! You caught most of the information. Always double check if you hear a stressed 'teen' at the end of a number or a soft 'ee' (ty)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b4/listening/clinic_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b4/listening/clinic_slow.mp3",
+    "normalAudio": "audio/en_hi/m1/b4/listening/clinic_native.mp3",
+    "audioTranscript": "Receptionist: Hello. What is your name? ... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "numbers", "dates", "wh-words", "beginner", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b4/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the number ends with an 'N' sound (Teen), it is a small number (13-19). If it ends in an 'EE' sound (Ty), it is a big number (30-90).",
+  "commonMistakes": [
+    "Hearing Rohan say 40 instead of 14.",
+    "Hearing Rohan say 15 instead of 50."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B4_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

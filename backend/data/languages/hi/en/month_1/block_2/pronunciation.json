@@ -1,0 +1,249 @@
+{
+  "activityId": "en_hi_M1B2_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Pronouns, Be Verbs, and Contractions",
+  "learningGoal": "The learner will accurately pronounce the nuanced differences between long form combinations (I am, You are) and fluid spoken contractions (I'm, You're), and successfully execute the voiced 'th' sound in 'They'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B2_lesson_001"],
+  "instructions": "In natural spoken English, words are often mashed together into contractions. Listen closely to the difference between 'I am' and 'I'm'. You will practice 16 different phrases. Use your microphone to mirror the native speaker exactly.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Focus heavily on the 'th' sound in They and Them. It is a vibrating 'द' sound."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "I am",
+      "transliteration": "आई एम",
+      "baseTranslation": "मैं हूँ",
+      "phoneticHint": "Fully say 'eye', then distinct 'am'.",
+      "syllableSplit": "I am",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'yam'"
+    },
+    {
+      "itemId": "p02",
+      "targetText": "I'm",
+      "transliteration": "आईम",
+      "baseTranslation": "मैं हूँ (संक्षिप्त)",
+      "phoneticHint": "Merge it entirely. Rhymes with 'Time' without the T.",
+      "syllableSplit": "I'm",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it as two syllables"
+    },
+    {
+      "itemId": "p03",
+      "targetText": "He is",
+      "transliteration": "ही इज़",
+      "baseTranslation": "वह है (लड़का)",
+      "phoneticHint": "Make sure the 's' in 'is' sounds like a buzzing 'Z' (izz).",
+      "syllableSplit": "He is",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'is' with a sharp snake 's'."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "He's",
+      "transliteration": "हीज़",
+      "baseTranslation": "वह है (संक्षिप्त)",
+      "phoneticHint": "Like 'He' but ending with a Z sound. Heeez.",
+      "syllableSplit": "He's",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Heess'"
+    },
+    {
+      "itemId": "p05",
+      "targetText": "She is",
+      "transliteration": "शी इज़",
+      "baseTranslation": "वह है (लड़की)",
+      "phoneticHint": "The 'sh' must be soft and breathy.",
+      "syllableSplit": "She is",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'See' instead of 'She'"
+    },
+    {
+      "itemId": "p06",
+      "targetText": "She's",
+      "transliteration": "शीज़",
+      "baseTranslation": "वह है (संक्षिप्त)",
+      "phoneticHint": "Merge the e directly into the soft z. Sheeez.",
+      "syllableSplit": "She's",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p07",
+      "targetText": "It is",
+      "transliteration": "इट इज़",
+      "baseTranslation": "यह है",
+      "phoneticHint": "Blend the T. I-tizz.",
+      "syllableSplit": "It is",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "It's",
+      "transliteration": "इट्स",
+      "baseTranslation": "यह है (संक्षिप्त)",
+      "phoneticHint": "This ends in a sharp snake 'S', not a 'Z'.",
+      "syllableSplit": "It's",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Itz' with a buzzing Z"
+    },
+    {
+      "itemId": "p09",
+      "targetText": "You are",
+      "transliteration": "यू आर",
+      "baseTranslation": "मुम / आप हो",
+      "phoneticHint": "The 'R' is very soft, almost silent at the end (Yoo-ah).",
+      "syllableSplit": "You are",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Rolling the R heavily like a pirate 'arrrr'"
+    },
+    {
+      "itemId": "p10",
+      "targetText": "You're",
+      "transliteration": "योर",
+      "baseTranslation": "आप हो (संक्षिप्त)",
+      "phoneticHint": "Rhymes directly with 'door'.",
+      "syllableSplit": "You're",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it like two words 'you are'"
+    },
+    {
+      "itemId": "p11",
+      "targetText": "We are",
+      "transliteration": "वी आर",
+      "baseTranslation": "हम हैं",
+      "phoneticHint": "Use round lips for W!",
+      "syllableSplit": "We are",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Teeth on lips ('Vee are')"
+    },
+    {
+      "itemId": "p12",
+      "targetText": "We're",
+      "transliteration": "वीयर / वियर",
+      "baseTranslation": "हम हैं (संक्षिप्त)",
+      "phoneticHint": "Rhymes loosely with 'ear' or 'beer' (wee-uh).",
+      "syllableSplit": "We're",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'where'"
+    },
+    {
+      "itemId": "p13",
+      "targetText": "They are",
+      "transliteration": "दे आर",
+      "baseTranslation": "वे हैं",
+      "phoneticHint": "Vibrate the tongue behind your top teeth for 'Th'.",
+      "syllableSplit": "They are",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Day are'"
+    },
+    {
+      "itemId": "p14",
+      "targetText": "They're",
+      "transliteration": "देर",
+      "baseTranslation": "वे हैं (संक्षिप्त)",
+      "phoneticHint": "Pronounced exactly the same as 'their' or 'there'.",
+      "syllableSplit": "They're",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'They are' fully"
+    },
+    {
+      "itemId": "p15",
+      "targetText": "I am not",
+      "transliteration": "आई एम नॉट",
+      "baseTranslation": "मैं नहीं हूँ",
+      "phoneticHint": "Do not swallow the 't'. Keep it crisp at the end.",
+      "syllableSplit": "I am not",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Swallowing the 'T'"
+    },
+    {
+      "itemId": "p16",
+      "targetText": "She is not",
+      "transliteration": "शी इज़ नॉट",
+      "baseTranslation": "वह नहीं है",
+      "phoneticHint": "Blend 'she' and 'is' smoothly before a hard stop at 'not'.",
+      "syllableSplit": "She is not",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "I am, I'm, He is, He's, She is, She's, It is, It's, You are, You're, We are, We're, They are, They're, I am not, She is not",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal pronunciation. You successfully captured the fluid, gliding rhythm of English contractions without breaking them apart.",
+    "onFail": "Keep practicing! You are likely pronouncing the 'th' incorrectly as 'd' or not blending the contractions. Practice 'I'm' and 'You're'.",
+    "onPartial": "Good progress! Be careful with the buzzing 'Z' sounds at the end of 'is' and 'He's'. Keep drilling!"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "I am I'm He is He's She is She's It is It's You are You're We are We're They are They're I am not She is not",
+    "acceptedVariants": [
+      "im he's she's its you're we're they're i'm not",
+      "i'm he is she is it's you're we are they're"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Contractions must sound like singular unbroken syllables. He's rhymes with bees.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "strict"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b2/pronunciation/native_pronouns.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b2/pronunciation/slow_pronouns.mp3",
+    "normalAudio": "audio/en_hi/m1/b2/pronunciation/native_pronouns.mp3",
+    "audioTranscript": "I am, I'm, He is, He's... (matches target list)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "contractions", "pronouns", "beginner", "drills"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b2/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak like water flowing. In English, we do not pause sharply between words. 'He is' should sound connected like 'Heeyizz'.",
+  "commonMistakes": [
+    "Pronouncing 'They' as 'Day'",
+    "Failing to make contractions fluid and breaking them back into 2 words"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B2_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

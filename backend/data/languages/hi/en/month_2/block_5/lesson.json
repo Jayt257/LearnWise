@@ -1,0 +1,202 @@
+{
+  "activityId": "en_hi_M2B5_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "Who Owns What: Possessives & Demonstratives",
+  "learningGoal": "The learner will accurately map Hindi genitive postpositions (का/की/के) to English possessive suffixes ('s), and distinguish near/far spatial proximal referents using demonstratives (This/That/These/Those).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B4_test_001"],
+  "instructions": "In this lesson, we will learn how to talk about who owns something (like 'Ram's dog') and how to point at things near and far (This vs. That). Read the rules carefully!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "हिंदी में, आप 'का', 'की', या 'के' का उपयोग करते हैं (जैसे राम का कुत्ता)। अंग्रेजी में, हम नाम के अंत में एक छोटा सा चिह्न (Apostrophe) और 's' लगाते हैं (Ram's dog)। इसके अलावा, हम सीखेंगे कि पास और दूर की चीजों की ओर कैसे इशारा किया जाए!"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Ownership for people and animals is shown by adding 's to the owner (John's book).",
+      "Ownership for non-living objects uses 'Of' (The door of the car, NOT the car's door).",
+      "Demonstratives change based on distance AND quantity: This (1, Near), That (1, Far), These (Many, Near), Those (Many, Far)."
+    ],
+    "conceptSummary": "Introduction to the enclitic possessive 's and spatial demonstrative pronouns, explicitly countering L1 interference of misapplying 'of' where genitive 's is required.",
+    "importantFacts": [
+      "Saying 'The book of John' is grammatically terrible. It must be 'John's book'.",
+      "'This' is for one thing you can touch. 'These' is for many things you can touch."
+    ],
+    "checkpointAnswers": {
+      "q1": "Amit's car",
+      "q2": "These",
+      "q3": "False",
+      "q4": "The color of the box"
+    },
+    "expectedUnderstanding": "Learners will default to the possessive suffix for animate owners and correctly align demonstrative pronouns to spatial proximity arrays."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand how to point at objects using This/That/These/Those, and you know how to use the 'S' to show ownership for people!",
+    "onFail": "Please review carefully! A common mistake is saying 'The dog of Amit'. While people will understand you, it sounds very strange. Always say 'Amit's dog'.",
+    "onPartial": "Good effort! Watch out for 'This' vs 'These'. 'This' is for ONE thing. 'These' is for MANY things."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b5/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m2/b5/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m2/b5/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m2/b5/lesson/native_lesson.mp3",
+    "audioTranscript": "Ram's dog. This book. Those cars.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "possessives", "demonstratives", "apostrophe", "this_that", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b5/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If a person or an animal owns it, use an Apostrophe 'S' (Sarah's). If it is a dead object, use OF (The door of the house).",
+  "commonMistakes": [
+    "Saying 'The bag of Amit'.",
+    "Using 'This' for plural objects (e.g., This shoes)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B5_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Pointing and Owning",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "The Apostrophe 'S' ('का/की/के' नियम)",
+      "bodyText": "जब कोई व्यक्ति या जानवर किसी चीज़ का मालिक होता है, तो हम उनके नाम के अंत में 's जोड़ते हैं। कृपया 'द बुक ऑफ जॉन' न कहें। यह बहुत अजीब लगता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "John's book.",
+          "transliteration": "जॉन'स बुक।",
+          "baseTranslation": "जॉन की किताब।"
+        },
+        {
+          "targetText": "The dog's food.",
+          "transliteration": "द डॉग'स फूड।",
+          "baseTranslation": "कुत्ते का खाना।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The 'OF' Rule for Things (निर्जीव वस्तुओं के लिए 'Of')",
+      "bodyText": "अगर 'मालिक' एक निर्जीव वस्तु है (जैसे कोई इमारत, कार, या बॉक्स), तो हम आमतौर पर 's का उपयोग नहीं करते हैं। हम 'Of' का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The roof of the house.",
+          "transliteration": "द रूफ ऑफ द हाउस।",
+          "baseTranslation": "घर की छत। (न कि 'The house's roof')"
+        },
+        {
+          "targetText": "The door of the car.",
+          "transliteration": "द डोर ऑफ द कार।",
+          "baseTranslation": "कार का दरवाज़ा।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Pointing: This vs. That (यह और वह)",
+      "bodyText": "जब कोई एक वस्तु आपके पास होती है, तो आप 'This' का उपयोग करते हैं। जब कोई एक वस्तु दूर होती है, तो आप 'That' का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "This is my pen.",
+          "transliteration": "दिस इज़ माई पेन।",
+          "baseTranslation": "यह मेरा पेन है। (हाथ में या पास)"
+        },
+        {
+          "targetText": "That is your car.",
+          "transliteration": "दैट इज़ योर कार।",
+          "baseTranslation": "वह तुम्हारी कार है। (सड़क के उस पार)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Pointing: These vs. Those (ये और वे)",
+      "bodyText": "अगर एक से अधिक वस्तुएं हैं, तो नियम बदल जाता है। आस-पास की कई वस्तुओं के लिए 'These'। दूर की कई वस्तुओं के लिए 'Those'!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "These apples are red.",
+          "transliteration": "दीज़ एप्पल्स आर रेड।",
+          "baseTranslation": "ये सेब लाल हैं। (पास में कई सेब)"
+        },
+        {
+          "targetText": "Those trees are tall.",
+          "transliteration": "दोज़ ट्रीज़ आर टॉल।",
+          "baseTranslation": "वे पेड़ ऊंचे हैं। (दूर कई पेड़)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will definitively reject 'noun-of-noun' genitive constructions for animates and correctly align demonstrative pronouns to spatial arrays.",
+  "examples": [
+    {
+      "targetText": "This is Sarah's house.",
+      "transliteration": "दिस इज़ सारा'स हाउस।",
+      "baseTranslation": "यह सारा का घर है।",
+      "explanation": "Uses 'This' for a nearby house, and 's to show Sarah owns it."
+    },
+    {
+      "targetText": "Look at those birds.",
+      "transliteration": "लुक एट दोज़ बर्ड्स।",
+      "baseTranslation": "उन (वे) पक्षियों को देखो।",
+      "explanation": "Uses 'Those' because there are many birds and they are far away in the sky."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "People and Animals get ['s]. Objects get [of].",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "This (1, Near) | That (1, Far) | These (Many, Near) | Those (Many, Far).",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "To show ownership, add an 'S' to people and animals. To point at things, ask yourself two questions: Is it close or far? Is it one or many? Then choose This, That, These, or Those!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Translate 'अमित की कार' to English.",
+      "expectedAnswer": "Amit's car"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank: _____ (This/These) dogs next to me are loud.",
+      "expectedAnswer": "These"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "True or False: Saying 'The shoes of my father' is the best way to speak English.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate 'बॉक्स का रंग' (The box is an object).",
+      "expectedAnswer": "The color of the box"
+    }
+  ]
+}

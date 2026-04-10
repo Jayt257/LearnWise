@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_en_M2B6_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Giving Directions",
+  "learningGoal": "The learner will verbally construct navigational instructions using the Te-form and specify destinations using relative spatial nouns.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M2B6_lesson_001",
+    "ja_en_M2B6_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a tourist asks you for directions to the bank. Reply verbally in Japanese based on the English prompts.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Make sure to pronounce the double consonant in 'itte' and 'magatte' clearly."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) Please go straight. 2) Please turn right at the corner. 3) The bank is next to the post office.",
+  "scenario": "A tourist asking a local for directions on the street.",
+  "role": "Local",
+  "conversationPartner": "Tourist",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Tell them the first step. Say: 'Please go straight.'",
+      "expectedSpeakingPoints": [
+        "Use massugu",
+        "Use itte",
+        "Use kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "まっすぐ いって ください。",
+        "transliteration": "Massugu itte kudasai.",
+        "baseTranslation": "Please go straight."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Tell them where to turn. Say: 'Please turn right at the corner.'",
+      "expectedSpeakingPoints": [
+        "Use kado wo",
+        "Use migi ni",
+        "Use magatte kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "かどを みぎに まがって ください。",
+        "transliteration": "Kado wo migi ni magatte kudasai.",
+        "baseTranslation": "Please turn right at the corner."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Tell them the final location. Say: 'The bank is next to the post office.'",
+      "expectedSpeakingPoints": [
+        "Use ginkou wa",
+        "Use yuubinkyoku no tonari ni",
+        "Use arimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ぎんこうは ゆうびんきょくの となりに あります。",
+        "transliteration": "Ginkou wa yuubinkyoku no tonari ni arimasu.",
+        "baseTranslation": "The bank is next to the post office."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "すみません。ぎんこうへ どうやって いきますか。",
+    "transliteration": "Sumimasen. Ginkou e dou yatte ikimasu ka.",
+    "baseTranslation": "Excuse me. How do I get to the bank?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "まっすぐ いって ください。",
+      "transliteration": "Massugu itte kudasai.",
+      "baseTranslation": "Please go straight."
+    },
+    {
+      "targetText": "かどを みぎに まがって ください。",
+      "transliteration": "Kado wo migi ni magatte kudasai.",
+      "baseTranslation": "Please turn right at the corner."
+    },
+    {
+      "targetText": "ぎんこうは ゆうびんきょくの となりに あります。",
+      "transliteration": "Ginkou wa yuubinkyoku no tonari ni arimasu.",
+      "baseTranslation": "The bank is next to the post office."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Massugu itte kudasai",
+      "Say Kado wo migi ni magatte kudasai",
+      "Say Ginkou wa yuubinkyoku no tonari ni arimasu"
+    ],
+    "requiredKeywords": [
+      "まっすぐ",
+      "いって",
+      "かどを",
+      "みぎに",
+      "まがって",
+      "となりに"
+    ],
+    "acceptableParaphrases": [
+      "Dropping 'Ginkou wa' in the third sentence is acceptable since the topic is already established."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Te-form Conjugation",
+          "weight": 40,
+          "description": "Did the learner accurately say 'itte' and 'magatte'?"
+        },
+        {
+          "name": "Particle Usage",
+          "weight": 30,
+          "description": "Did the learner say 'kado wo' and 'migi ni'?"
+        },
+        {
+          "name": "Location Nouns",
+          "weight": 30,
+          "description": "Did the learner accurately construct 'yuubinkyoku no tonari'?"
+        }
+      ]
+    },
+    "sampleAnswer": "まっすぐ いって ください。かどを みぎに まがって ください。ぎんこうは ゆうびんきょくの となりに あります。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You gave perfect directions.",
+    "onFail": "Review your particles. It is 'Kado WO migi NI'.",
+    "onPartial": "Good try! Make sure you clearly pause for the double consonant in 'ma-ga-t-te'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b6/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m2/b6/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "すみません。ぎんこうへ どうやって いきますか。まっすぐ いって ください。かどを みぎに まがって ください。ぎんこうは ゆうびんきょくの となりに あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "directions",
+    "te-form",
+    "roleplay",
+    "intermediate",
+    "month2",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To turn right is Migi Ni Magarimasu. Change it to Te-form: Migi ni magatte kudasai.",
+  "commonMistakes": [
+    "Saying 'Kado ni migi wo' (reversing the particles)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

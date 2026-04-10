@@ -1,0 +1,161 @@
+{
+  "activityId": "ja_en_M1B5_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "The Tourist & The Guide",
+  "learningGoal": "The learner will listen to a dialogue to identify specific locations (Koko, Soko, Asoko) and ownership of objects using 'mo'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B5_lesson_001",
+    "ja_en_M1B5_vocabulary_001"
+  ],
+  "instructions": "Listen to the conversation between a lost tourist (A) and a local guide (B). Answer the comprehension questions based on where things are located and who owns the bags.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Pay close attention to 'Koko' (here) vs 'Asoko' (over there) to understand the map."
+    }
+  ],
+  "listeningGoal": "Extract the locations of the cafe and toilet, and the ownership of the bags.",
+  "audioScenario": "A tourist asks for directions and points out a bag.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "すみません。あそこは トイレですか。",
+      "transliteration": "Sumimasen. Asoko wa toire desu ka.",
+      "baseTranslation": "Excuse me. Is that over there the toilet?"
+    },
+    {
+      "targetText": "いいえ。ここは トイレです。あそこは カフェです。",
+      "transliteration": "Iie. Koko wa toire desu. Asoko wa kafe desu.",
+      "baseTranslation": "No. Here is the toilet. Over there is the cafe."
+    },
+    {
+      "targetText": "そうですか。あの かばんは あなたの ですか。",
+      "transliteration": "Sou desu ka. Ano kaban wa anata no desu ka.",
+      "baseTranslation": "Is that so. Is that bag over there yours?"
+    },
+    {
+      "targetText": "はい。これも わたしの かばんです。",
+      "transliteration": "Hai. Kore mo watashi no kaban desu.",
+      "baseTranslation": "Yes. This is ALSO my bag."
+    }
+  ],
+  "audioTranscriptFull": "（Ａ）すみません。あそこは トイレですか。\n（Ｂ）いいえ。ここは トイレです。あそこは カフェです。\n（Ａ）そうですか。あの かばんは あなたの ですか。\n（Ｂ）はい。これも わたしの かばんです。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "Where does the tourist *think* the toilet is initially?",
+      "questionType": "multiple_choice",
+      "options": ["Right here", "Over there", "Near the guide", "At the cafe"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Where is the toilet *actually* located?",
+      "questionType": "multiple_choice",
+      "options": ["Right here (Koko)", "Over there (Asoko)", "Next door (Soko)", "In the bag"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What building is 'over there' (Asoko)?",
+      "questionType": "multiple_choice",
+      "options": ["Hotel", "Toilet", "Cafe", "University"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What does the local guide say about the bags?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Neither bag is his.",
+        "That bag is his, but this one isn't.",
+        "That bag over there is his, and THIS one is ALSO his.",
+        "He wants to buy a bag."
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "What noun does the tourist point at using 'Ano'?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Over there",
+      "q002": "Right here (Koko)",
+      "q003": "Cafe",
+      "q004": "That bag over there is his, and THIS one is ALSO his.",
+      "q005": "かばん"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["kaban", "Kaban", "かばん", "bag", "Bag"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You successfully mapped out the locations based on the demonstratives.",
+    "onFail": "Listen again carefully. 'Koko' is here. 'Asoko' is over there. The guide corrects the tourist.",
+    "onPartial": "Good effort. Pay close attention to the word 'mo' in the final sentence."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b5/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b5/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m1/b5/listening/native_dialogue.mp3",
+    "audioTranscript": "すみません。あそこは トイレですか。いいえ。ここは トイレです。あそこは カフェです。そうですか。あの かばんは あなたの ですか。はい。これも わたしの かばんです。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "demonstratives",
+    "places",
+    "beginner",
+    "month1",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "When the guide says 'Kore mo', he means 'This also'.",
+  "commonMistakes": [
+    "Confusing Koko (here) with Asoko (over there)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

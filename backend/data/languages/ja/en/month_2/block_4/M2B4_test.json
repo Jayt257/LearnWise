@@ -1,0 +1,244 @@
+{
+  "activityId": "en_ja_M2B4_test_8",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Test: Past Tense",
+  "learningGoal": "Evaluate your understanding of regular and irregular past tense verbs, and the use of did/didn't.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B4_speaking_7"
+  ],
+  "instructions": "Month 2 Block 4 のテストです。過去形（〜した）と過去の否定形（〜しなかった）、疑問文（〜しましたか？）のルールについての問題に答えてください。(This is the Block 4 test. Answer questions about the past tense.)",
+  "testTitle": "Past Tense Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Did and Didn't (疑問文と否定文)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「あなたは昨日、映画を見ましたか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Did you watched a movie yesterday?",
+            "Did you watch a movie yesterday?",
+            "Do you watched a movie yesterday?",
+            "Are you watch a movie yesterday?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「私は公園に行きませんでした」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I didn't went to the park.",
+            "I wasn't go to the park.",
+            "I didn't go to the park.",
+            "I no went to the park."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Fill in the blank: '________ he play tennis last week?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Does",
+            "Was",
+            "Did",
+            "Is"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Irregular Verbs (不規則動詞)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「go」の過去形として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "goed",
+            "went",
+            "gone",
+            "going"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「私たちは夕食に寿司を食べました」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "We eated sushi for dinner.",
+            "We ate sushi for dinner.",
+            "We eat sushi for dinner.",
+            "We was eat sushi for dinner."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「see」の過去形として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "seed",
+            "saw",
+            "seen",
+            "sew"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Verb Forms and the Verb 'Be' (be動詞と一般動詞)",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「私は昨日忙しかった」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I did busy yesterday.",
+            "I was busy yesterday.",
+            "I am busy yesterday.",
+            "I were busy yesterday."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「彼らは家にいませんでした」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "They wasn't at home.",
+            "They didn't at home.",
+            "They weren't at home.",
+            "They aren't at home."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「have」の過去形として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "haved",
+            "has",
+            "had",
+            "have"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "She didn't bought a car.",
+            "Did she buy a car?",
+            "Did she bought a car?",
+            "She was buy a car."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "Did you watch a movie yesterday?",
+      "q2": "I didn't go to the park.",
+      "q3": "Did",
+      "q4": "went",
+      "q5": "We ate sushi for dinner.",
+      "q6": "saw",
+      "q7": "I was busy yesterday.",
+      "q8": "They weren't at home.",
+      "q9": "had",
+      "q10": "Did she buy a car?"
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！過去形のルール（Didの後ろは原形に戻る）と不規則動詞を完全にマスターしています！",
+    "onFail": "もう一度復習しましょう。特に、Did や didn't の後ろでは動詞が「原形」に戻る（過去形にしない）という点に注意してください。",
+    "onPartial": "よくできました。be動詞（was/were）と一般動詞（go, playなど）の否定文・疑問文の作り方の違いをもう一度確認しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_4",
+    "simple_past",
+    "irregular_verbs"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember the golden rule: If you use 'did' or 'didn't', the main verb goes back to its base form!",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

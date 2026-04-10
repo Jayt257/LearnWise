@@ -1,0 +1,189 @@
+{
+  "activityId": "ja_en_M2B2_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Making Requests and Stating Actions",
+  "learningGoal": "The learner will construct sentences using the Te-form to describe ongoing actions (~te imasu) and make polite requests (~te kudasai).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B2_lesson_001",
+    "ja_en_M2B2_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences by translating the English prompts. You will need to conjugate verbs into the Te-form and attach either 'imasu' (for ongoing actions) or 'kudasai' (for requests).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Mentally identify the verb's dictionary form first. Example: 'To wait' is Machimasu. It is Group 1. 'chi' becomes 'tte'. -> Matte."
+    }
+  ],
+  "writingPrompt": "Translate: 1) I am writing a letter now. 2) Please speak Japanese. 3) I am reading a book. 4) Please wait a little.",
+  "promptGoal": "To construct complex verbs combining Te-form + imasu and Te-form + kudasai.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "かきます",
+      "transliteration": "Kakimasu",
+      "baseTranslation": "To write",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "はなします",
+      "transliteration": "Hanashimasu",
+      "baseTranslation": "To speak",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "よみます",
+      "transliteration": "Yomimasu",
+      "baseTranslation": "To read",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "まちます",
+      "transliteration": "Machimasu",
+      "baseTranslation": "To wait",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "てがみ",
+      "transliteration": "Tegami",
+      "baseTranslation": "Letter",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "にほんご",
+      "transliteration": "Nihongo",
+      "baseTranslation": "Japanese language",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ほん",
+      "transliteration": "Hon",
+      "baseTranslation": "Book",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いま",
+      "transliteration": "Ima",
+      "baseTranslation": "Now",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "ちょっと",
+      "transliteration": "Chotto",
+      "baseTranslation": "A little",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Now] [Letter] wo [Kaite imasu].",
+    "Sentence 2: [Japanese] wo [Hanashite kudasai].",
+    "Sentence 3: [Book] wo [Yonde imasu].",
+    "Sentence 4: [A little] [Matte kudasai]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "いま てがみを かいて います。にほんごを はなして ください。ほんを よんで います。ちょっと まって ください。",
+      "transliteration": "Ima tegami wo kaite imasu. Nihongo wo hanashite kudasai. Hon wo yonde imasu. Chotto matte kudasai.",
+      "baseTranslation": "I am writing a letter now. Please speak Japanese. I am reading a book. Please wait a little.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect conjugation of four different Group 1 verbs (ki->ite, shi->shite, mi->nde, chi->tte)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Group 1 (ki -> ite) Conjugation",
+      "weight": 25,
+      "description": "Did the learner write 'kaite imasu' for writing?"
+    },
+    {
+      "criterion": "Group 1 (shi -> shite) Conjugation",
+      "weight": 25,
+      "description": "Did the learner write 'hanashite kudasai' for speaking?"
+    },
+    {
+      "criterion": "Group 1 (mi -> nde) Conjugation",
+      "weight": 25,
+      "description": "Did the learner write 'yonde imasu' for reading?"
+    },
+    {
+      "criterion": "Group 1 (chi -> tte) Conjugation",
+      "weight": 25,
+      "description": "Did the learner write 'matte kudasai' for waiting?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "いま てがみを かいて います。にほんごを はなして ください。ほんを よんで います。ちょっと まって ください。",
+    "acceptableAlternates": [
+      "わたしは いま てがみを かいて います。にほんごを はなして ください。わたしは ほんを よんで います。ちょっと まって ください。"
+    ],
+    "requiredKeywords": [
+      "かいて",
+      "います",
+      "はなして",
+      "ください",
+      "よんで",
+      "まって"
+    ],
+    "grammarBaseline": "Flawless execution of four different Group 1 Te-form rules.",
+    "lengthExpectation": "Four specific sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the most difficult conjugation rules in Japanese.",
+    "onFail": "Review the Group 1 song! Kakimasu = ki = ite = Kaite. Yomimasu = mi = nde = Yonde.",
+    "onPartial": "Good try! Make sure you didn't mix up 'kudasai' (please) with 'imasu' (is doing)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b2/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "te-form",
+    "requests",
+    "progressive",
+    "intermediate",
+    "month2",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Break it down. 'Wait' = Machimasu. It ends in 'chi'. The rule is 'i, chi, ri -> tte'. So it becomes 'Matte'.",
+  "commonMistakes": [
+    "Writing 'Yomite imasu' instead of 'Yonde imasu'.",
+    "Writing 'Machite kudasai' instead of 'Matte kudasai'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B2_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

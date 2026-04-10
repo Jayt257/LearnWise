@@ -1,0 +1,200 @@
+{
+  "activityId": "ja_en_M3B2_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Writing Favors",
+  "learningGoal": "The learner will construct sentences expressing the giving and receiving of items and favors, accurately applying 'agemasu', 'moraimasu', and 'kuremasu' along with their respective particles.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B2_lesson_001",
+    "ja_en_M3B2_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences based on the English prompts. Pay strict attention to who is the subject, who is the recipient, and whether you must use Agemasu, Moraimasu, or Kuremasu.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: You can never use 'Agemasu' if you are the one receiving the item or favor."
+    }
+  ],
+  "writingPrompt": "Translate: 1) Tanaka gave me a book. 2) I helped my friend. 3) I had the teacher teach me English. 4) My friend lent me an umbrella.",
+  "promptGoal": "To construct grammatically accurate sentences differentiating between kuremashita (they gave me), agemashita (I gave them), and moraimashita (I received).",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "ほん",
+      "transliteration": "Hon",
+      "baseTranslation": "Book",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "くれました",
+      "transliteration": "Kuremashita",
+      "baseTranslation": "Gave me",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ともだち",
+      "transliteration": "Tomodachi",
+      "baseTranslation": "Friend",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "てつだって",
+      "transliteration": "Tetsudatte",
+      "baseTranslation": "Help (Te-form)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "あげました",
+      "transliteration": "Agemashita",
+      "baseTranslation": "Gave (away)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "せんせい",
+      "transliteration": "Sensei",
+      "baseTranslation": "Teacher",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "えいご",
+      "transliteration": "Eigo",
+      "baseTranslation": "English",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "おしえて",
+      "transliteration": "Oshiete",
+      "baseTranslation": "Teach (Te-form)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "もらいました",
+      "transliteration": "Moraimashita",
+      "baseTranslation": "Received",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "かさ",
+      "transliteration": "Kasa",
+      "baseTranslation": "Umbrella",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "かして",
+      "transliteration": "Kashite",
+      "baseTranslation": "Lend (Te-form)",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Tanaka-san] wa/ga watashi ni [Book] wo [Gave me].",
+    "Sentence 2: Watashi wa [Friend] wo [Help-Te] [Gave].",
+    "Sentence 3: Watashi wa [Teacher] ni [English] wo [Teach-Te] [Received].",
+    "Sentence 4: [Friend] wa watashi ni [Umbrella] wo [Lend-Te] [Gave me]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "たなかさんは わたしに ほんを くれました。わたしは ともだちを てつだって あげました。わたしは せんせいに えいごを おしえて もらいました。ともだちは わたしに かさを かして くれました。",
+      "transliteration": "Tanaka-san wa watashi ni hon wo kuremashita. Watashi wa tomodachi wo tetsudatte agemashita. Watashi wa sensei ni Eigo wo oshiete moraimashita. Tomodachi wa watashi ni kasa wo kashite kuremashita.",
+      "baseTranslation": "Tanaka gave me a book. I helped my friend. I had the teacher teach me English. My friend lent me an umbrella.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect selection of giving verbs based on the subject and direction of the action."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Kureru for items",
+      "weight": 25,
+      "description": "Did the learner write 'kuremashita' for Tanaka giving the book?"
+    },
+    {
+      "criterion": "Ageru for favors",
+      "weight": 25,
+      "description": "Did the learner write 'tetsudatte agemashita'?"
+    },
+    {
+      "criterion": "Morau for favors",
+      "weight": 25,
+      "description": "Did the learner write 'oshiete moraimashita'?"
+    },
+    {
+      "criterion": "Kureru for favors",
+      "weight": 25,
+      "description": "Did the learner write 'kashite kuremashita'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "たなかさんは わたしに ほんを くれました。わたしは ともだちを てつだって あげました。わたしは せんせいに えいごを おしえて もらいました。ともだちは わたしに かさを かして くれました。",
+    "acceptableAlternates": [
+      "たなかさんが ほんを くれました。わたしは ともだちを てつだって あげました。わたしは せんせいに えいごを おしえて もらいました。ともだちが かさを かして くれました。"
+    ],
+    "requiredKeywords": [
+      "くれました",
+      "てつだって",
+      "あげました",
+      "おしえて",
+      "もらいました",
+      "かして"
+    ],
+    "grammarBaseline": "Mastery of Kuremasu/Moraimasu/Agemasu combined with Te-forms.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! Your understanding of social directionality in Japanese is excellent.",
+    "onFail": "Review who the subject is. If 'I' am the subject and someone gave me something, use 'Moraimasu'. If 'THEY' are the subject and gave me something, use 'Kuremasu'.",
+    "onPartial": "Good try! Make sure you didn't write 'Tanaka-san wa agemashita' for sentence 1. It MUST be kuremashita."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b2/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "giving",
+    "receiving",
+    "favors",
+    "advanced",
+    "month3",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the sentence starts with 'Watashi wa', you cannot use Kuremasu. You must use Moraimasu or Agemasu.",
+  "commonMistakes": [
+    "Writing 'Sensei ni oshiete kuremashita'. (If 'Sensei ni' is used, the verb must be 'moraimashita')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B2_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

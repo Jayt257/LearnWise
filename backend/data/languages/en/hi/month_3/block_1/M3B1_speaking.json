@@ -1,0 +1,198 @@
+{
+  "activityId": "hi_en_M3B1_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Speaking: Making Deals and Excuses",
+  "learningGoal": "Verbally construct real future conditionals and unreal past hypotheticals in real-time.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B1_vocabulary_6",
+    "hi_en_M3B1_listening_5"
+  ],
+  "instructions": "You are talking to a colleague. You need to bargain with him about a project, and then make an excuse for why you didn't help yesterday. THINK before you speak: Is this real (use future tense) or imaginary (use the 'ta' cutoff)? Assume you are MALE.",
+  "speakingPrompt": "Respond to your colleague using complex conditional structures.",
+  "scenario": "A negotiation and an excuse at the office.",
+  "role": "Colleague A (Male)",
+  "conversationPartner": "Colleague B",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Colleague: 'Will you do my work?' Reply: 'If you give me money, then I will do your work.' (Give = Doge. Money = Paise. Do = Karunga)",
+      "expectedSpeakingPoints": [
+        "Agar tum paise doge",
+        "toh",
+        "main kaam karunga"
+      ],
+      "sampleResponse": {
+        "targetText": "अगर तुम मुझे पैसे दोगे, तो मैं तुम्हारा काम करूँगा।",
+        "transliteration": "Agar tum mujhe paise doge, toh main tumhara kaam karunga.",
+        "baseTranslation": "If you give me money, then I will do your work."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Colleague: 'Why didn't you help me yesterday?' Reply: 'If I had time, then I would have helped you.' (Have time = Waqt hota. Help = Madad karta)",
+      "expectedSpeakingPoints": [
+        "Agar mere paas",
+        "waqt hota",
+        "toh main madad karta"
+      ],
+      "sampleResponse": {
+        "targetText": "अगर मेरे पास वक्त होता, तो मैं तुम्हारी मदद करता।",
+        "transliteration": "Agar mere paas waqt hota, toh main tumhari madad karta.",
+        "baseTranslation": "If I had time, then I would have helped you."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Colleague: 'It's raining outside.' Reply: 'Even if it rains, I will go.' (Even if = Agar bhi. Rains = Baarish hui. Even then = Phir bhi)",
+      "expectedSpeakingPoints": [
+        "Agar baarish hui bhi",
+        "phir bhi",
+        "main jaunga"
+      ],
+      "sampleResponse": {
+        "targetText": "अगर बारिश हुई भी, फिर भी मैं जाऊँगा।",
+        "transliteration": "Agar baarish hui bhi, phir bhi main jaunga.",
+        "baseTranslation": "Even if it rains, I will go."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Colleague: 'Are you sure?' Reply: 'Yes, because I have to go.' (Because = Kyunki. Have to go = Jaana hai)",
+      "expectedSpeakingPoints": [
+        "Haan",
+        "kyunki mujhe",
+        "jaana hai"
+      ],
+      "sampleResponse": {
+        "targetText": "हाँ, क्योंकि मुझे जाना है।",
+        "transliteration": "Haan, kyunki mujhe jaana hai.",
+        "baseTranslation": "Yes, because I have to go."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप ऑफिस में हैं।",
+    "transliteration": "Aap office mein hain.",
+    "baseTranslation": "You are in the office."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "अगर तुम मुझे पैसे दोगे, तो मैं तुम्हारा काम करूँगा।",
+      "transliteration": "Agar tum mujhe paise doge, toh main tumhara kaam karunga.",
+      "baseTranslation": "If you give me money, then I will do your work."
+    },
+    {
+      "targetText": "अगर मेरे पास वक्त होता, तो मैं तुम्हारी मदद करता।",
+      "transliteration": "Agar mere paas waqt hota, toh main tumhari madad karta.",
+      "baseTranslation": "If I had time, then I would have helped you."
+    },
+    {
+      "targetText": "अगर बारिश हुई भी, फिर भी मैं जाऊँगा।",
+      "transliteration": "Agar baarish hui bhi, phir bhi main jaunga.",
+      "baseTranslation": "Even if it rains, I will go."
+    },
+    {
+      "targetText": "हाँ, क्योंकि मुझे जाना है।",
+      "transliteration": "Haan, kyunki mujhe jaana hai.",
+      "baseTranslation": "Yes, because I have to go."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "agar tum",
+      "paise doge",
+      "toh main",
+      "karunga",
+      "waqt hota",
+      "madad karta",
+      "hui bhi",
+      "phir bhi",
+      "kyunki"
+    ],
+    "requiredKeywords": [
+      "अगर",
+      "पैसे",
+      "तो",
+      "करूँगा",
+      "होता",
+      "करता",
+      "बारिश",
+      "फिर भी",
+      "क्योंकि"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Agar baarish hogi bhi' instead of 'hui bhi' is acceptable."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Hypothetical Failure",
+          "weight": 100,
+          "description": "If user says 'Agar mere paas waqt hota tha' or 'main madad karta tha', deduct massively. NO 'tha' is allowed in hypotheticals."
+        },
+        {
+          "name": "Toh Omission",
+          "weight": 50,
+          "description": "If user drops the word 'toh' connecting the clauses in sentences 1 and 2, deduct points."
+        }
+      ]
+    },
+    "sampleAnswer": "Agar tum mujhe paise doge, toh main tumhara kaam karunga. Agar mere paas waqt hota, toh main tumhari madad karta. Agar baarish hui bhi, phir bhi main jaunga. Haan, kyunki mujhe jaana hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Astounding! You can think on your feet and deploy complex conditional grammar seamlessly.",
+    "onFail": "Review Section 3. The biggest mistake is adding 'tha' to the end of your imaginary sentences. Stop right at 'hota' and 'karta'.",
+    "onPartial": "Good effort. Watch your intonation. Your voice should rise slightly before the word 'toh', and then fall."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "अगर तुम मुझे पैसे दोगे, तो मैं तुम्हारा काम करूँगा। अगर मेरे पास वक्त होता, तो मैं तुम्हारी मदद करता। अगर बारिश हुई भी, फिर भी मैं जाऊँगा। हाँ, क्योंकि मुझे जाना है।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "conditionals",
+    "hypotheticals",
+    "roleplay",
+    "office"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure sentence 1 uses future tense (doge, karunga) because it is a real offer. Make sure sentence 2 uses the cutoff form (hota, karta) because it is an excuse about the past.",
+  "commonMistakes": [
+    "Mixing the two up and saying 'Agar tum paise dete, toh main karunga' (If you gave money, I will do)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B1_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

@@ -1,0 +1,169 @@
+{
+  "activityId": "en_ja_M3B1_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Weekend Weather Plans",
+  "learningGoal": "Speak fluently using the first conditional to discuss future plans based on weather conditions.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M3B1_vocabulary_6"
+  ],
+  "instructions": "友達と週末の予定について話しています。天気によって予定が変わります。マイクに向かって、「もし雨が降ったら、家にいます」や、「もし晴れたら、公園に行きます」と英語で答えてください。(You are discussing weekend plans with a friend. Speak into the microphone to explain what you will do depending on the weather.)",
+  "speakingPrompt": "Answer questions about your weekend plans using 'If it rains...' and 'If it is sunny...'",
+  "scenario": "A friend asks what you will do this weekend.",
+  "role": "You",
+  "conversationPartner": "Friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Your friend asks: 'What will we do if it rains?' Answer: 'If it rains, we will stay home.'",
+      "expectedSpeakingPoints": [
+        "If it rains",
+        "we will stay home"
+      ],
+      "sampleResponse": {
+        "targetText": "If it rains, we will stay home.",
+        "transliteration": "イフ イット レインズ、ウィー ウィル ステイ ホーム。",
+        "baseTranslation": "もし雨が降ったら、私たちは家にいます。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Your friend asks: 'What will we do if it is sunny?' Answer: 'If it is sunny, we will go to the park.'",
+      "expectedSpeakingPoints": [
+        "If it is sunny",
+        "we will go to the park"
+      ],
+      "sampleResponse": {
+        "targetText": "If it is sunny, we will go to the park.",
+        "transliteration": "イフ イット イズ サニー、ウィー ウィル ゴー トゥ ザ パーク。",
+        "baseTranslation": "もし晴れたら、私たちは公園に行きます。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Your friend asks: 'When will we eat lunch?' Answer: 'When we arrive, we will eat lunch.'",
+      "expectedSpeakingPoints": [
+        "When we arrive",
+        "we will eat lunch"
+      ],
+      "sampleResponse": {
+        "targetText": "When we arrive, we will eat lunch.",
+        "transliteration": "ウェン ウィー アライヴ、ウィー ウィル イート ランチ。",
+        "baseTranslation": "私たちが到着した時、お昼ご飯を食べます。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hey! The weather is crazy this weekend. What will we do if it rains?",
+    "transliteration": "ヘイ！ ザ ウェザー イズ クレイジー ディス ウィークエンド。ホワット ウィル ウィー ドゥー イフ イット レインズ？",
+    "baseTranslation": "やあ！今週末は天気がおかしいね。もし雨が降ったら何をする？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "If it rains, we will stay home.",
+      "transliteration": "イフ イット レインズ、ウィー ウィル ステイ ホーム。",
+      "baseTranslation": "もし雨が降ったら、私たちは家にいます。"
+    },
+    {
+      "targetText": "If it is sunny, we will go to the park.",
+      "transliteration": "イフ イット イズ サニー、ウィー ウィル ゴー トゥ ザ パーク。",
+      "baseTranslation": "もし晴れたら、私たちは公園に行きます。"
+    },
+    {
+      "targetText": "When we arrive, we will eat lunch.",
+      "transliteration": "ウェン ウィー アライヴ、ウィー ウィル イート ランチ。",
+      "baseTranslation": "私たちが到着した時、お昼ご飯を食べます。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using present tense in the 'if/when' clause.",
+      "Using future tense (will) in the main clause."
+    ],
+    "requiredKeywords": [
+      "if",
+      "rains",
+      "sunny",
+      "when",
+      "arrive",
+      "will"
+    ],
+    "acceptableParaphrases": [
+      "If it rains, we'll stay home. If it's sunny, we'll go to the park. When we get there, we'll eat lunch."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Conditional Grammar",
+          "weight": 60,
+          "description": "Must not use 'will' in the if/when clause. Must use 'will' in the main clause."
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 20,
+          "description": "Uses 'rains', 'sunny', and 'arrive'."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear linking of 'If it'."
+        }
+      ]
+    },
+    "sampleAnswer": "If it rains, we will stay home. If it is sunny, we will go to the park. When we arrive, we will eat lunch.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great speaking! You perfectly handled the grammar rules for the future conditional.",
+    "onFail": "Please try again. Did you say 'If it will rain'? Remember to say 'If it rains' instead.",
+    "onPartial": "Good effort! Practice linking 'If' and 'it' together smoothly: 'If-it'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B1_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B1_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B1_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "If it rains, we will stay home. If it is sunny, we will go to the park. When we arrive, we will eat lunch.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "conditionals",
+    "future_plans",
+    "weather"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the verbs: If it RAINS, we WILL stay.",
+  "commonMistakes": [
+    "Saying 'If it will rain'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B1_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

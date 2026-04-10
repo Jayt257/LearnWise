@@ -1,0 +1,202 @@
+{
+  "activityId": "en_hi_M3B3_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "Two-Word Verbs",
+  "learningGoal": "The learner will understand the structural and semantic mechanics of high-frequency literal phrasal verbs (e.g., Turn on, Put on, Wake up), recognizing them as unified lexical items rather than separate verbs and prepositions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B2_test_001"],
+  "instructions": "Welcome to Month 3, Block 3! You already know lots of action words. But in spoken English, native speakers love to glue TWO small words together to make a brand-new action! These are called Phrasal Verbs. Let's learn the most common ones.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अंग्रेजी में, कभी-कभी एक सामान्य क्रिया (जैसे 'Turn') के साथ एक छोटा शब्द (जैसे 'On') जुड़ जाता है, जिससे पूरी तरह से नया अर्थ बन जाता है: 'Turn on' (चालू करना)। इन्हें Phrasal Verbs कहते हैं।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Phrasal verbs are composed of a verb and a particle (preposition/adverb) that function as a single semantic unit.",
+      "Many basic physical actions require phrasal verbs (Wake up, Sit down).",
+      "Object placement can often occur between the verb and the particle (Turn the TV on)."
+    ],
+    "conceptSummary": "Lexical acquisition module introducing high-frequency, literal phrasal verbs, overcoming L1 reliance on single-word action verbs.",
+    "importantFacts": [
+      "You cannot translate these word-by-word. 'Wake' means to stop sleeping, but 'Up' means direction. Together, 'Wake up' just means 'नींद से जागना'.",
+      "You can split some of them: 'Turn on the TV' is the same as 'Turn the TV on'."
+    ],
+    "checkpointAnswers": {
+      "q1": "Put on",
+      "q2": "True",
+      "q3": "Turn off",
+      "q4": "Wake up"
+    },
+    "expectedUnderstanding": "Learners will treat Target-Particle pairings as inseparable semantic blocks and will successfully deploy them for common everyday actions."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand that English speakers love to glue small words together. 'Turn' + 'On' = 'Turn on'! You are already sounding more like a native speaker.",
+    "onFail": "Please review carefully! A phrasal verb means you CANNOT translate the second word directly. 'Put on your shoes' does not mean 'Put your shoes UP on top of something'. It just means 'पहनना'.",
+    "onPartial": "Good effort! Watch out for 'Turn on' and 'Turn off'. In Hindi, people often say 'Light open karo' or 'Light close karo'. In English, you MUST use Turn On / Turn Off!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b3/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m3/b3/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m3/b3/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m3/b3/lesson/native_lesson.mp3",
+    "audioTranscript": "Wake up. Sit down. Turn on the light. Put on your shoes.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "phrasal_verbs", "vocabulary", "intermediate", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b3/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Memorize these words together. Do not try to separate them in your brain!",
+  "commonMistakes": [
+    "Translating 'Open the light' (L1 direct translation) instead of 'Turn on the light'.",
+    "Translating 'Wear the shirt' as the action of getting dressed, instead of the phrasal verb 'Put on'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B3_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "The Glue Words",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "What is a Phrasal Verb? (फ़्रेज़ल वर्ब क्या है?)",
+      "bodyText": "अंग्रेजी बोलने वाले लोग बहुत आलसी होते हैं! वे दो छोटे शब्दों को एक साथ जोड़कर एक नया 'एक्शन वर्ड' बनाना पसंद करते हैं। इसे Phrasal Verb कहते हैं। आप इनका शब्द-दर-शब्द अनुवाद नहीं कर सकते। आपको उन्हें एक साथ याद रखना होगा!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Wake up",
+          "transliteration": "वेक अप",
+          "baseTranslation": "जागना ('Wake' का मतलब जागना, 'Up' का मतलब ऊपर... लेकिन एक साथ इसका मतलब बस 'नींद से जागना' है।)"
+        },
+        {
+          "targetText": "Sit down",
+          "transliteration": "सिट डाउन",
+          "baseTranslation": "बैठ जाना"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Machines & Lights (मशीनें और लाइटें)",
+      "bodyText": "यह भारत में सबसे आम गलती है! हिंदी में, हम अक्सर 'लाइट खोल दो' या 'टीवी बंद कर दो (Close)' कहते हैं। अंग्रेजी में, हम कभी 'Open/Close' का उपयोग मशीनों के लिए नहीं करते हैं। हमें हमेशा 'Turn on' (चालू करना) और 'Turn off' (बंद करना) का उपयोग करना चाहिए।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Turn on the TV.",
+          "transliteration": "टर्न ऑन द टीवी।",
+          "baseTranslation": "टीवी चालू करें। (NOT 'Open the TV')"
+        },
+        {
+          "targetText": "Turn off the light.",
+          "transliteration": "टर्न ऑफ द लाइट।",
+          "baseTranslation": "लाइट बंद करें। (NOT 'Close the light')"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Clothing (कपड़े)",
+      "bodyText": "जब आप कपड़े पहन रहे होते हैं, तो क्रिया 'Put on' होती है। जब आप उन्हें उतार रहे होते हैं, तो क्रिया 'Take off' होती है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Put on your shoes.",
+          "transliteration": "पुट ऑन योर शूज़।",
+          "baseTranslation": "अपने जूते पहन लो।"
+        },
+        {
+          "targetText": "Take off your jacket.",
+          "transliteration": "टेक ऑफ योर जैकेट।",
+          "baseTranslation": "अपनी जैकेट उतार दो।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Splitting the Words (शब्दों को अलग करना)",
+      "bodyText": "Phrasal Verbs के बारे में सबसे मजेदार बात यह है कि आप अक्सर वस्तु (Object) को बीच में रख सकते हैं! दोनों तरीके 100% सही हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Turn on the TV.",
+          "transliteration": "टर्न ऑन द टीवी।",
+          "baseTranslation": "टीवी चालू करें। (एक साथ)"
+        },
+        {
+          "targetText": "Turn the TV on.",
+          "transliteration": "टर्न द टीवी ऑन।",
+          "baseTranslation": "टीवी चालू करें। (बीच में Object)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will adopt high-frequency phrasal verbs (turn on/off, put on, take off) to replace direct L1 transitive loan translations (open the light, close the TV).",
+  "examples": [
+    {
+      "targetText": "I wake up at 7 AM.",
+      "transliteration": "आई वेक अप एट 7 एएम।",
+      "baseTranslation": "मैं सुबह 7 बजे उठता हूँ।",
+      "explanation": "Standard daily routine phrasal verb."
+    },
+    {
+      "targetText": "Please turn the AC on.",
+      "transliteration": "प्लीज़ टर्न द एसी ऑन।",
+      "baseTranslation": "कृपया एसी चालू करें।",
+      "explanation": "Splitting the phrasal verb with the object in the middle."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use 'Open' or 'Close' for electronics, lights, or machines. Always use Turn on / Turn off.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "When modifying the tense (Past, Present Perfect), ONLY change the first word! (Turn on -> Turned on. Wake up -> Woke up).",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Native speakers use Phrasal Verbs naturally in almost every sentence. A non-native speaker might say 'Extinguish the fire', but a native speaker will say 'Put out the fire'. Learning these 2-word pairs is the secret to sounding fluent.",
+    "dosList": ["Use 'Turn on' and 'Turn off' for all electronics."],
+    "dontsList": ["Do not say 'Open the computer'."]
+  },
+  "summary": "English speakers glue words together to make Phrasal verbs. 'Turn on' (machines), 'Put on' (clothes), 'Wake up' (sleeping). Remember: Never translate the small word by itself! Treat them as one big action block.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the correct English phrase for 'पहनना' when talking about clothes?",
+      "expectedAnswer": "Put on"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "True or False: 'Turn the computer on' and 'Turn on the computer' mean exactly the same thing.",
+      "expectedAnswer": "True"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If the TV is too loud and you want silence, you should _____ the TV.",
+      "expectedAnswer": "Turn off"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate: 'जागना'.",
+      "expectedAnswer": "Wake up"
+    }
+  ]
+}

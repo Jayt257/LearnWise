@@ -1,0 +1,222 @@
+{
+  "activityId": "hi_en_M2B1_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "Reading: At the Market",
+  "learningGoal": "Read and comprehend a dialogue involving desires, prices, and descriptions in a marketplace setting.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B1_pronunciation_2"
+  ],
+  "instructions": "Read the dialogue between a customer (Rahul) and a shopkeeper. Notice how Rahul uses the 'Chahiye' construction to express what he wants, and how adjectives change to match the items.",
+  "readingTitle": "बाज़ार में (In the Market)",
+  "readingText": "दुकानदार: नमस्ते सर। आपको क्या चाहिए?\nराहुल: नमस्ते। मुझे एक शर्ट चाहिए।\nदुकानदार: यह शर्ट बहुत अच्छी है।\nराहुल: नहीं, यह महँगी है। मुझे सस्ती शर्ट चाहिए।\nदुकानदार: ठीक है। यह शर्ट सस्ती है। और क्या चाहिए?\nराहुल: मुझे ठंडा पानी भी चाहिए।\nदुकानदार: पानी यहाँ है।",
+  "textInTargetLanguage": "दुकानदार: नमस्ते सर। आपको क्या चाहिए?\nराहुल: नमस्ते। मुझे एक शर्ट चाहिए।\nदुकानदार: यह शर्ट बहुत अच्छी है।\nराहुल: नहीं, यह महँगी है। मुझे सस्ती शर्ट चाहिए।\nदुकानदार: ठीक है। यह शर्ट सस्ती है। और क्या चाहिए?\nराहुल: मुझे ठंडा पानी भी चाहिए।\nदुकानदार: पानी यहाँ है।",
+  "baseLanguageSupportText": "Shopkeeper: Hello Sir. What do you want? (To you what is needed?)\nRahul: Hello. I want a shirt. (To me a shirt is needed.)\nShopkeeper: This shirt is very good.\nRahul: No, this is expensive. I want a cheap shirt.\nShopkeeper: Okay. This shirt is cheap. What else do you want? (And what is needed?)\nRahul: I want cold water too.\nShopkeeper: Water is here.",
+  "glossary": [
+    {
+      "targetText": "दुकानदार",
+      "transliteration": "dukandaar",
+      "baseTranslation": "shopkeeper",
+      "exampleSentence": {
+        "targetText": "दुकानदार दुकान में है।",
+        "transliteration": "Dukandaar dukan mein hai.",
+        "baseTranslation": "The shopkeeper is in the shop."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "महँगी",
+      "transliteration": "mahangi",
+      "baseTranslation": "expensive (feminine)",
+      "exampleSentence": {
+        "targetText": "यह महँगी है।",
+        "transliteration": "Yeh mahangi hai.",
+        "baseTranslation": "This is expensive."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "सस्ती",
+      "transliteration": "sasti",
+      "baseTranslation": "cheap (feminine)",
+      "exampleSentence": {
+        "targetText": "मुझे सस्ती शर्ट चाहिए।",
+        "transliteration": "Mujhe sasti shirt chahiye.",
+        "baseTranslation": "I want a cheap shirt."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "ठंडा",
+      "transliteration": "thanda",
+      "baseTranslation": "cold (masculine)",
+      "exampleSentence": {
+        "targetText": "मुझे ठंडा पानी चाहिए।",
+        "transliteration": "Mujhe thanda paani chahiye.",
+        "baseTranslation": "I want cold water."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "भी",
+      "transliteration": "bhi",
+      "baseTranslation": "also / too",
+      "exampleSentence": {
+        "targetText": "मुझे पानी भी चाहिए।",
+        "transliteration": "Mujhe paani bhi chahiye.",
+        "baseTranslation": "I want water too."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "और",
+      "transliteration": "aur",
+      "baseTranslation": "and / more / else",
+      "exampleSentence": {
+        "targetText": "और क्या चाहिए?",
+        "transliteration": "Aur kya chahiye?",
+        "baseTranslation": "What else do you want?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "आपको क्या चाहिए?",
+      "transliteration": "Aapko kya chahiye?",
+      "baseTranslation": "What do you want?"
+    },
+    {
+      "targetText": "मुझे एक शर्ट चाहिए।",
+      "transliteration": "Mujhe ek shirt chahiye.",
+      "baseTranslation": "I want a shirt."
+    },
+    {
+      "targetText": "और क्या चाहिए?",
+      "transliteration": "Aur kya chahiye?",
+      "baseTranslation": "What else do you want?"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "What does the shopkeeper ask Rahul first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aapko kya chahiye? (What do you want?)",
+        "Aap kaise hain? (How are you?)",
+        "Yeh kya hai? (What is this?)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "Why does Rahul reject the first shirt?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It is expensive (Mahangi hai)",
+        "It is bad (Kharaab hai)",
+        "It is small (Chhoti hai)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "Based on the text, what gender is the word 'Shirt' in Hindi?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Feminine (because the adjectives are 'achchhi', 'mahangi', 'sasti')",
+        "Masculine (because it ends in a consonant)",
+        "Neutral"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "What does Rahul want besides a shirt?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Cold water (Thanda paani)",
+        "Hot tea (Garam chai)",
+        "Food (Khaana)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "What word does Rahul use to say 'too' or 'also'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Bhi (भी)",
+        "Aur (और)",
+        "Ek (एक)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Aapko kya chahiye? (What do you want?)",
+      "rq_2": "It is expensive (Mahangi hai)",
+      "rq_3": "Feminine (because the adjectives are 'achchhi', 'mahangi', 'sasti')",
+      "rq_4": "Cold water (Thanda paani)",
+      "rq_5": "Bhi (भी)"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Identify the 'Chahiye' construction in dialogue.",
+      "Recognize adjective agreement (sasti shirt, thanda paani).",
+      "Understand basic shop vocabulary."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You can now read complex transactional dialogues.",
+    "onFail": "Review Section 1 and 3. Remember that adjectives change to match the noun.",
+    "onPartial": "Good effort. Note that 'bhi' (also) comes immediately after the word it modifies."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "दुकानदार: नमस्ते सर। आपको क्या चाहिए? राहुल: नमस्ते। मुझे एक शर्ट चाहिए। दुकानदार: यह शर्ट बहुत अच्छी है। राहुल: नहीं, यह महँगी है। मुझे सस्ती शर्ट चाहिए। दुकानदार: ठीक है। यह शर्ट सस्ती है। और क्या चाहिए? राहुल: मुझे ठंडा पानी भी चाहिए। दुकानदार: पानी यहाँ है।",
+    "audioLanguage": "hi",
+    "audioDuration": 180,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "chahiye",
+    "market",
+    "shopping",
+    "adjectives"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look at the ending of the adjectives. 'Sast-i' tells you the noun is feminine.",
+  "commonMistakes": [
+    "Thinking 'Aur' always means 'And'. In questions like 'Aur kya?', it means 'Else/More'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B1_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

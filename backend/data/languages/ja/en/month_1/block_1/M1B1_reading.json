@@ -1,0 +1,242 @@
+{
+  "activityId": "en_ja_M1B1_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "Meeting a New Friend",
+  "learningGoal": "Read and understand a basic conversation introducing yourself and exchanging greetings.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B1_pronunciation_2"
+  ],
+  "instructions": "初めて会う二人の会話を読んで、質問に答えてください。新しい単語はグロッサリー（用語集）で確認しましょう。(Read the conversation between two people meeting for the first time and answer the questions. Check the glossary for new words.)",
+  "readingTitle": "Hello! Nice to meet you.",
+  "readingText": "Ken: Hello! Good morning.\nSarah: Hi! Good morning. How are you?\nKen: I am fine, thank you. And you?\nSarah: I am very good, thanks. My name is Sarah.\nKen: Nice to meet you, Sarah. I am Ken.\nSarah: Nice to meet you too, Ken. See you later!\nKen: Have a nice day!",
+  "textInTargetLanguage": "Ken: Hello! Good morning.\nSarah: Hi! Good morning. How are you?\nKen: I am fine, thank you. And you?\nSarah: I am very good, thanks. My name is Sarah.\nKen: Nice to meet you, Sarah. I am Ken.\nSarah: Nice to meet you too, Ken. See you later!\nKen: Have a nice day!",
+  "baseLanguageSupportText": "ケン：こんにちは！おはようございます。\nサラ：やあ！おはようございます。お元気ですか？\nケン：元気です、ありがとう。あなたは？\nサラ：とても元気です、ありがとう。私の名前はサラです。\nケン：はじめまして、サラ。私はケンです。\nサラ：こちらこそはじめまして、ケン。また後でね！\nケン：良い一日を！",
+  "glossary": [
+    {
+      "targetText": "Hello",
+      "transliteration": "ヘロー",
+      "baseTranslation": "こんにちは",
+      "exampleSentence": {
+        "targetText": "Hello! How are you?",
+        "transliteration": "ヘロー！ハウ アー ユー？",
+        "baseTranslation": "こんにちは！お元気ですか？"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Good morning",
+      "transliteration": "グッド モーニング",
+      "baseTranslation": "おはようございます",
+      "exampleSentence": {
+        "targetText": "Good morning, Ken.",
+        "transliteration": "グッド モーニング、ケン",
+        "baseTranslation": "おはよう、ケン。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "How are you",
+      "transliteration": "ハウ アー ユー",
+      "baseTranslation": "お元気ですか / 調子はどうですか",
+      "exampleSentence": {
+        "targetText": "Hi Sarah, how are you?",
+        "transliteration": "ハイ サラ、ハウ アー ユー？",
+        "baseTranslation": "やあサラ、元気？"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Fine",
+      "transliteration": "ファイン",
+      "baseTranslation": "元気な、良い",
+      "exampleSentence": {
+        "targetText": "I am fine.",
+        "transliteration": "アイ アム ファイン",
+        "baseTranslation": "私は元気です。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "My name is",
+      "transliteration": "マイ ネーム イズ",
+      "baseTranslation": "私の名前は～です",
+      "exampleSentence": {
+        "targetText": "My name is Ken.",
+        "transliteration": "マイ ネーム イズ ケン",
+        "baseTranslation": "私の名前はケンです。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Nice to meet you",
+      "transliteration": "ナイス トゥ ミート ユー",
+      "baseTranslation": "はじめまして（お会いできて嬉しいです）",
+      "exampleSentence": {
+        "targetText": "Nice to meet you too.",
+        "transliteration": "ナイス トゥ ミート ユー トゥー",
+        "baseTranslation": "こちらこそはじめまして。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "See you later",
+      "transliteration": "シー ユー レイター",
+      "baseTranslation": "またね（後で会いましょう）",
+      "exampleSentence": {
+        "targetText": "Goodbye, see you later.",
+        "transliteration": "グッバイ、シー ユー レイター",
+        "baseTranslation": "さようなら、またね。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "Have a nice day",
+      "transliteration": "ハヴ ア ナイス デイ",
+      "baseTranslation": "良い一日を",
+      "exampleSentence": {
+        "targetText": "Thank you. Have a nice day!",
+        "transliteration": "サンキュー。ハヴ ア ナイス デイ！",
+        "baseTranslation": "ありがとう。良い一日を！"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "I am fine, thank you. And you?",
+      "transliteration": "アイ アム ファイン、サンキュー。アンド ユー？",
+      "baseTranslation": "元気です、ありがとう。あなたは？"
+    },
+    {
+      "targetText": "Nice to meet you too, Ken.",
+      "transliteration": "ナイス トゥ ミート ユー トゥー、ケン",
+      "baseTranslation": "こちらこそはじめまして、ケン。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "この会話はいつ行われていますか？ (When is this conversation taking place?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "朝 (Morning)",
+        "午後 (Afternoon)",
+        "夜 (Night)",
+        "わからない (Unknown)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ケンはサラの「How are you?」に対して何と答えましたか？ (How did Ken reply to Sarah's 'How are you?')",
+      "questionType": "multiple_choice",
+      "options": [
+        "I am very good.",
+        "I am fine.",
+        "My name is Ken.",
+        "Nice to meet you."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "女性の名前は何ですか？ (What is the woman's name?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ken",
+        "Fine",
+        "Sarah",
+        "Later"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「こちらこそはじめまして」と言いたい時、英語で何と言いますか？ (How do you say 'Nice to meet you too' in English?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "See you later.",
+        "Have a nice day.",
+        "Nice to meet you too.",
+        "Thank you. And you?"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "別れる時にケンは何と言いましたか？ (What did Ken say when they parted?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Have a nice day!",
+        "Good morning.",
+        "How are you?",
+        "I am fine."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "朝 (Morning)",
+      "q2": "I am fine.",
+      "q3": "Sarah",
+      "q4": "Nice to meet you too.",
+      "q5": "Have a nice day!"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Two people (Ken and Sarah) meet in the morning.",
+      "They ask how the other is doing.",
+      "They introduce themselves.",
+      "They say polite goodbyes."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand basic English greetings perfectly.",
+    "onFail": "Please read the text and the Japanese translations again carefully.",
+    "onPartial": "Good effort. Review the phrases for saying goodbye and 'how are you'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B1_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B1_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Ken: Hello! Good morning...",
+    "audioLanguage": "en",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "greetings",
+    "introductions",
+    "conversation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look at the first line to see what time of day it is (Good morning).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

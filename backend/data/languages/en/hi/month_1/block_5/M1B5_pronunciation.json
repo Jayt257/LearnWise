@@ -1,0 +1,161 @@
+{
+  "activityId": "hi_en_M1B5_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: The Sounds of 'Hona' and Plurals",
+  "learningGoal": "Master the nasalized vowels in plural verbs ('hain') and plural nouns, distinguishing them from their singular forms.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B5_lesson_1"
+  ],
+  "instructions": "In this block, the most crucial pronunciation difference is between 'hai' (is) and 'hain' (are). 'Hain' has a nasal 'n' at the end. If you don't nasalize it, you are speaking grammatically incorrect Hindi. Practice pushing air through your nose for the plurals.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is (singular)",
+      "phoneticHint": "hay (sharp and clear)",
+      "syllableSplit": "hai",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'hi' like the English greeting."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are (plural)",
+      "phoneticHint": "hay-n (nasalize the end, don't tap the tongue)",
+      "syllableSplit": "hain",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing a hard 'n' (hayne). The tongue should not touch the roof of the mouth."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "हूँ",
+      "transliteration": "hoon",
+      "baseTranslation": "am",
+      "phoneticHint": "hoo-n (deep nasal sound)",
+      "syllableSplit": "hoon",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'who'."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "हो",
+      "transliteration": "ho",
+      "baseTranslation": "are (informal)",
+      "phoneticHint": "ho",
+      "syllableSplit": "ho",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'hoe' with a w-glide at the end. Make it a pure, clipped 'o'."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "किताबें",
+      "transliteration": "kitaabein",
+      "baseTranslation": "books",
+      "phoneticHint": "ki-taa-bain (nasal end)",
+      "syllableSplit": "ki-taa-bein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kitaaben' with a hard 'n'."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "ये",
+      "transliteration": "ye",
+      "baseTranslation": "these",
+      "phoneticHint": "yay",
+      "syllableSplit": "ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'yee'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "वे",
+      "transliteration": "ve",
+      "baseTranslation": "those",
+      "phoneticHint": "vay",
+      "syllableSplit": "ve",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'way'. Your top teeth should gently touch your lower lip."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "अच्छी",
+      "transliteration": "achchhi",
+      "baseTranslation": "good (feminine)",
+      "phoneticHint": "uh-ch-chee (hold the ch slightly)",
+      "syllableSplit": "ach-chhi",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'achi'. There is a double consonant here; pause slightly on the first 'ch'."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear distinction between nasalized and non-nasalized vowels, specifically differentiating 'hai' and 'hain'.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Excellent! You are nasalizing your plurals correctly.",
+    "onFail": "Listen to the difference between 'hai' and 'hain'. In 'hain', air must escape through your nose.",
+    "onPartial": "Good effort. Try to soften the 'n' at the end of words like 'hain' and 'hoon'. It is a nasal vowel, not a full consonant."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "grammar",
+    "plurals",
+    "nasalization",
+    "verb_to_be"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To test if you are nasalizing correctly, hold your nose while saying 'hain'. The sound should stop or become very muffled.",
+  "commonMistakes": [
+    "Pronouncing the Devanagari dot (Bindi - ं) as a full English 'N'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B5_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

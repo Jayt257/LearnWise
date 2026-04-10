@@ -1,0 +1,223 @@
+{
+  "activityId": "ja_en_M3B2_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "A Thank You Letter",
+  "learningGoal": "The learner will read a short letter of gratitude to identify who gave, who received, and what favors were exchanged using the verbs 'kuremashita', 'moraimashita', and 'agemashita'.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B2_lesson_001",
+    "ja_en_M3B2_vocabulary_001"
+  ],
+  "instructions": "Read this short thank-you letter written to Tanaka-san. Determine exactly who did what for whom by looking at the verbs and particles.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: When the writer uses 'kuremashita', they are talking about something Tanaka-san did for them."
+    }
+  ],
+  "readingTitle": "Thank You For Yesterday",
+  "readingText": "たなかさんへ。\nきのうは ありがとうございました。\nたなかさんが えいごを おしえてくれました。\nそして、わたしは たなかさんに じてんしゃを かしてもらいました。\nとても たすかりました。つぎは、わたしが にほんごを おしえて あげます。\nマイクより。",
+  "textInTargetLanguage": "たなかさんへ。\nきのうは ありがとうございました。\nたなかさんが えいごを おしえてくれました。\nそして、わたしは たなかさんに じてんしゃを かしてもらいました。\nとても たすかりました。つぎは、わたしが にほんごを おしえて あげます。\nマイクより。",
+  "baseLanguageSupportText": "To Tanaka-san. Thank you for yesterday. Tanaka-san gave me the favor of teaching English. And, I received the favor of Tanaka-san lending me a bicycle. It was very helpful. Next time, I will give the favor of teaching Japanese. From Mike.",
+  "glossary": [
+    {
+      "targetText": "へ",
+      "transliteration": "E",
+      "baseTranslation": "To (direction/recipient of a letter)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おしえてくれました",
+      "transliteration": "Oshiete kuremashita",
+      "baseTranslation": "Taught me (Gave me the favor of teaching)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "そして",
+      "transliteration": "Soshite",
+      "baseTranslation": "And / And then",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "かしてもらいました",
+      "transliteration": "Kashite moraimashita",
+      "baseTranslation": "Received the favor of lending (Had someone lend)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "たすかりました",
+      "transliteration": "Tasukarimashita",
+      "baseTranslation": "It was helpful / It saved me",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "つぎ",
+      "transliteration": "Tsugi",
+      "baseTranslation": "Next / Next time",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おしえて あげます",
+      "transliteration": "Oshiete agemasu",
+      "baseTranslation": "I will teach (I will give the favor of teaching)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "より",
+      "transliteration": "Yori",
+      "baseTranslation": "From (sender of a letter)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "たなかさんが えいごを おしえてくれました。",
+      "transliteration": "Tanaka-san ga Eigo wo oshiete kuremashita.",
+      "baseTranslation": "Tanaka-san taught me English."
+    },
+    {
+      "targetText": "わたしは たなかさんに じてんしゃを かしてもらいました。",
+      "transliteration": "Watashi wa Tanaka-san ni jitensha wo kashite moraimashita.",
+      "baseTranslation": "I had Tanaka-san lend me a bicycle."
+    },
+    {
+      "targetText": "つぎは、わたしが にほんごを おしえて あげます。",
+      "transliteration": "Tsugi wa, watashi ga Nihongo wo oshiete agemasu.",
+      "baseTranslation": "Next time, I will teach you Japanese."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "Who taught English?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Mike",
+        "Tanaka-san",
+        "A teacher",
+        "No one"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Who borrowed the bicycle?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Mike",
+        "Tanaka-san",
+        "A teacher",
+        "It was bought, not borrowed"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What does Mike promise to do next time?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Lend Tanaka-san a bicycle",
+        "Give Tanaka-san money",
+        "Teach Tanaka-san Japanese",
+        "Buy Tanaka-san a present"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Which phrase shows that Mike is offering to do a favor for Tanaka-san in the future?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Oshiete kuremashita",
+        "Kashite moraimashita",
+        "Oshiete agemasu",
+        "Tasukarimashita"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the word meaning 'It was helpful'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Tanaka-san",
+      "q002": "Mike",
+      "q003": "Teach Tanaka-san Japanese",
+      "q004": "Oshiete agemasu",
+      "q005": "tasukarimashita"
+    },
+    "acceptableParaphrases": {
+      "q005": ["tasukarimashita", "Tasukarimashita"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Tanaka taught Mike English.",
+      "Tanaka lent Mike a bike.",
+      "Mike will teach Tanaka Japanese."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading! You successfully tracked the flow of favors.",
+    "onFail": "Review the particles. 'Tanaka-san ga... kuremashita' means Tanaka gave to me. 'Watashi wa Tanaka-san ni... moraimashita' means I received from Tanaka.",
+    "onPartial": "Good effort. Notice how 'agemasu' is only used when the speaker (Mike) is giving a favor to someone else."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b2/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b2/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b2/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m3/b2/reading/normal_reading.mp3",
+    "audioTranscript": "たなかさんへ。きのうは ありがとうございました。たなかさんが えいごを おしえてくれました。そして、わたしは たなかさんに じてんしゃを かしてもらいました。とても たすかりました。つぎは、わたしが にほんごを おしえて あげます。マイクより。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "giving",
+    "receiving",
+    "favors",
+    "advanced",
+    "month3",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at 'oshiete agemasu'. Who is doing the teaching, and who is receiving it?",
+  "commonMistakes": [
+    "Thinking Mike taught English because he says 'watashi'. But the sentence says 'Tanaka-san ga... kuremashita'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B2_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

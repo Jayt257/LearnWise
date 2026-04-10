@@ -1,0 +1,368 @@
+{
+  "activityId": "en_hi_M3B5_test_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Assessment: Medical Mastery",
+  "learningGoal": "The learner will demonstrate mastery over English medical linguistics, identifying improper syntactic transfers ('is paining') and accurately synthesizing vocabulary for trauma and clinical workflows.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M3B5_lesson_001",
+    "en_hi_M3B5_pronunciation_001",
+    "en_hi_M3B5_reading_001",
+    "en_hi_M3B5_writing_001",
+    "en_hi_M3B5_listening_001",
+    "en_hi_M3B5_vocabulary_001",
+    "en_hi_M3B5_speaking_001"
+  ],
+  "instructions": "This is your Block 5 Assessment! It contains 20 questions evaluating your knowledge of Health and Emergencies. Let's see if you can talk to doctors and police officers accurately!",
+  "testTitle": "Block 5 Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Syntax: Fixing Sickness Mistakes",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "A student says: 'My head is paining.' This is wrong. What is the correct English phrasing?",
+          "questionType": "multiple_choice",
+          "options": ["My head is taking pain", "I have a headache", "I doing headache"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the blank for physical injuries: 'My arm _______.'",
+          "questionType": "multiple_choice",
+          "options": ["pains", "hurts", "aches"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Which of these sentences is grammatically correct?",
+          "questionType": "multiple_choice",
+          "options": ["I have cold.", "I am having cold.", "I have a cold."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: 'Ache' is a word part that means pain, like in Stomachache.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "Translate 'मुझे डॉक्टर को दिखाने की ज़रूरत है' perfectly.",
+          "questionType": "multiple_choice",
+          "options": ["I need doctor.", "I need to see a doctor.", "I want a doctor see."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Medical Dictionary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What word means 'दवाखाना' (where you buy medicine)?",
+          "questionType": "multiple_choice",
+          "options": ["Hospital", "Prescription", "Pharmacy"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the English word for 'खून बहना'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Bleeding",
+            "transliteration": "ब्लीडिंग",
+            "baseTranslation": "खून बहना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English word for 'डॉक्टर का पर्चा' (starts with P).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "If cars crash together, you tell the police you saw an...",
+          "questionType": "multiple_choice",
+          "options": ["Ambulance", "Accident", "Emergency"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Identify the English word for 'लक्षण' (signs of being sick).",
+          "questionType": "multiple_choice",
+          "options": ["Pills", "Fever", "Symptom"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Clinical Workflows",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "You go to the doctor. The doctor writes a ____, and you take it to the ____.",
+          "questionType": "multiple_choice",
+          "options": ["Prescription / Pharmacy", "Medicine / Hospital", "Pill / Symptom"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "If someone is bleeding heavily on the street, what vehicle should you call?",
+          "questionType": "multiple_choice",
+          "options": ["Police", "Ambulance", "Doctor"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Pronunciation question: How is 'C-H' pronounced in the word 'Stomachache'?",
+          "questionType": "multiple_choice",
+          "options": ["Like 'CH' in Cheese", "Like 'K' in Kite", "It is silent"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "True or False: 'Sick' is a verb.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which phrase is the natural English equivalent of 'मुझे जुकाम है'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Emergency Texts",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Rewrite correctly: 'My stomach is paining.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Rewrite correctly: 'My arm is doing pain.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate to English: 'मुझे डॉक्टर को दिखाने की ज़रूरत है।' (4 words)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I need to see a doctor.",
+            "transliteration": "आई नीड टू सी अ डॉक्टर।",
+            "baseTranslation": "मुझे डॉक्टर को दिखाने की ज़रूरत है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate to English: 'मुझे बुखार है।' (4 words)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have a fever.",
+            "transliteration": "आई हैव अ फीवर।",
+            "baseTranslation": "मुझे बुखार है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Fill in the blank: Please call an ________! (रोगी वाहन)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "I have a headache",
+      "q002": "hurts",
+      "q003": "I have a cold.",
+      "q004": "True",
+      "q005": "I need to see a doctor.",
+      "q006": "Pharmacy",
+      "q007": "Bleeding",
+      "q008": "Prescription",
+      "q009": "Accident",
+      "q010": "Symptom",
+      "q011": "Prescription / Pharmacy",
+      "q012": "Ambulance",
+      "q013": "Like 'K' in Kite",
+      "q014": "False",
+      "q015": "I have a cold.",
+      "q016": "My stomach hurts.",
+      "q017": "My arm hurts.",
+      "q018": "I need to see a doctor",
+      "q019": "I have a fever.",
+      "q020": "ambulance"
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'paining' is used. Must map to 'hurt' or 'have an ache'."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q007": ["bleeding", "BLEEDING"],
+      "q008": ["prescription", "PRESCRIPTION"],
+      "q015": ["i have a cold", "I've got a cold"],
+      "q016": ["my stomach hurts", "i have a stomachache", "I have a stomachache."],
+      "q017": ["my arm hurts", "My arm hurts"],
+      "q018": ["i need to see a doctor", "I need to see a doctor."],
+      "q019": ["i have a fever", "I have a fever"],
+      "q020": ["ambulance", "Ambulance"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered Health and Emergency vocabulary! You proved that you understand how to talk to doctors without making L1 literal translation mistakes.",
+    "onFail": "Please review the Health rules! Remember: NEVER use 'is paining'. You must use 'HURTS' or 'HAVE A...'. These phrases could save your life one day!",
+    "onPartial": "Good effort! Watch out for 'Sick'. 'Sick' is an adjective, not a verb! You cannot say 'I sick'. You must say 'I AM sick'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This Assessment covers Health, Emergencies, and Medical phrases.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block5", "health", "hospital", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B6_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

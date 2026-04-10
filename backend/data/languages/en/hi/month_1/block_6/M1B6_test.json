@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M1B6_test_8",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Month 1 Final Test: Commands & Postpositions",
+  "learningGoal": "Evaluate mastery of action verbs, formality-based command structures, and correct postposition placement.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B6_lesson_1",
+    "hi_en_M1B6_pronunciation_2",
+    "hi_en_M1B6_reading_3",
+    "hi_en_M1B6_writing_4",
+    "hi_en_M1B6_listening_5",
+    "hi_en_M1B6_vocabulary_6",
+    "hi_en_M1B6_speaking_7"
+  ],
+  "instructions": "This test concludes Month 1! It will test your ability to convert infinitive verbs into commands, and your ability to locate objects using 'mein', 'par', and 'se'.",
+  "testTitle": "Action & Location Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_commands",
+      "sectionTitle": "Imperatives",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "What is the polite/formal command for the verb 'Jaana' (To go)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Jaaiye (जाइये)",
+            "Jaao (जाओ)",
+            "Jaa (जा)"
+          ],
+          "questionHints": {
+            "targetText": "Jaaiye (जाइये)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "What is the informal command (for 'Tum') for the verb 'Peena' (To drink)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Piyo (पियो)",
+            "Pijiye (पीजिये)",
+            "Pee (पी)"
+          ],
+          "questionHints": {
+            "targetText": "Piyo (पियो)",
+            "transliteration": "Piyo",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_postpositions",
+      "sectionTitle": "Postpositions",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate: 'In the house'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Ghar mein (घर में)",
+            "Mein ghar (में घर)",
+            "Ghar par (घर पर)"
+          ],
+          "questionHints": {
+            "targetText": "Ghar mein (घर में)",
+            "transliteration": "Ghar mein",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Fill in the blank: Kitaab mez ____ hai. (The book is ON the table).",
+          "questionType": "multiple_choice",
+          "options": [
+            "par (पर)",
+            "mein (में)",
+            "se (से)"
+          ],
+          "questionHints": {
+            "targetText": "par (पर)",
+            "transliteration": "par",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: यह लीजिये। (Yeh lijiye.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "Please take this.",
+            "transliteration": "Yeh lijiye.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Jaaiye (जाइये)",
+      "tq_2": "Piyo (पियो)",
+      "tq_3": "Ghar mein (घर में)",
+      "tq_4": "par (पर)",
+      "tq_5": "Please take this."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'Take this' or 'Please take'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Congratulations! You have completed Month 1 and mastered basic survival Hindi.",
+    "onFail": "Review the rules of verbs. Formal ends in 'iye', informal ends in 'o'.",
+    "onPartial": "Good effort. Just remember that postpositions come after the noun."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block6",
+    "commands",
+    "postpositions",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to word order. Hindi is always Noun + Postposition.",
+  "commonMistakes": [
+    "Picking 'Mein ghar' due to English interference."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B1_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

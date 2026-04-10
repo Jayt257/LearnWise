@@ -1,0 +1,176 @@
+{
+  "activityId": "hi_en_M2B1_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Listening: Ordering at a Restaurant",
+  "learningGoal": "Understand spoken requests using the 'Chahiye' construction and adjective modifiers.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B1_lesson_1"
+  ],
+  "instructions": "Listen to the conversation between a waiter and a customer. Notice how the customer uses 'Mujhe' and 'Chahiye' to order, and how adjectives are used to specify exactly what kind of food and drink they want.",
+  "listeningGoal": "Identify dative pronouns and adjective-noun pairings in spoken Hindi.",
+  "audioScenario": "A customer is ordering food and drinks at a restaurant.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "वेटर: नमस्ते सर। आपको क्या चाहिए?",
+      "transliteration": "Waiter: Namaste Sir. Aapko kya chahiye?",
+      "baseTranslation": "Waiter: Hello Sir. What do you want?"
+    },
+    {
+      "targetText": "ग्राहक: नमस्ते। मुझे चाय चाहिए।",
+      "transliteration": "Grahak: Namaste. Mujhe chai chahiye.",
+      "baseTranslation": "Customer: Hello. I want tea."
+    },
+    {
+      "targetText": "वेटर: गरम चाय या ठंडी चाय?",
+      "transliteration": "Waiter: Garam chai ya thandi chai?",
+      "baseTranslation": "Waiter: Hot tea or cold tea?"
+    },
+    {
+      "targetText": "ग्राहक: मुझे गरम चाय चाहिए।",
+      "transliteration": "Grahak: Mujhe garam chai chahiye.",
+      "baseTranslation": "Customer: I want hot tea."
+    },
+    {
+      "targetText": "वेटर: ठीक है। और खाना? आपको क्या चाहिए?",
+      "transliteration": "Waiter: Theek hai. Aur khaana? Aapko kya chahiye?",
+      "baseTranslation": "Waiter: Okay. And food? What do you want?"
+    },
+    {
+      "targetText": "ग्राहक: मुझे खाना नहीं चाहिए। धन्यवाद।",
+      "transliteration": "Grahak: Mujhe khaana nahi chahiye. Dhanyawad.",
+      "baseTranslation": "Customer: I do not want food. Thank you."
+    }
+  ],
+  "audioTranscriptFull": "नमस्ते सर। आपको क्या चाहिए? नमस्ते। मुझे चाय चाहिए। गरम चाय या ठंडी चाय? मुझे गरम चाय चाहिए। ठीक है। और खाना? आपको क्या चाहिए? मुझे खाना नहीं चाहिए। धन्यवाद।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "How does the waiter ask 'What do you want?'",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aapko kya chahiye?",
+        "Aap kaise hain?",
+        "Tumhein kya chahiye?"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "What does the customer order first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Chai (Tea)",
+        "Paani (Water)",
+        "Khaana (Food)"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "What does the word 'ya' (या) mean in the sentence 'Garam chai ya thandi chai'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "or",
+        "and",
+        "also"
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "What type of tea does the customer specifically request?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Garam (Hot)",
+        "Thandi (Cold)",
+        "Achchhi (Good)"
+      ],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "What does the customer say when the waiter asks about food?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Mujhe khaana nahi chahiye (I don't want food)",
+        "Mujhe khaana chahiye (I want food)",
+        "Khaana kharaab hai (The food is bad)"
+      ],
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Aapko kya chahiye?",
+      "lq_2": "Chai (Tea)",
+      "lq_3": "or",
+      "lq_4": "Garam (Hot)",
+      "lq_5": "Mujhe khaana nahi chahiye (I don't want food)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great listening! You successfully tracked the 'Chahiye' structure.",
+    "onFail": "Listen to the pronouns carefully. 'Aapko' means 'To you'. 'Mujhe' means 'To me'.",
+    "onPartial": "Good effort. Note that 'ya' means 'or', while 'aur' means 'and'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते सर। आपको क्या चाहिए? नमस्ते। मुझे चाय चाहिए। गरम चाय या ठंडी चाय? मुझे गरम चाय चाहिए। ठीक है। और खाना? आपको क्या चाहिए? मुझे खाना नहीं चाहिए। धन्यवाद।",
+    "audioLanguage": "hi",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "restaurant",
+    "chahiye",
+    "adjectives",
+    "desire"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how you say 'I do not want'. The word 'nahi' (no/not) comes right before 'chahiye'.",
+  "commonMistakes": [
+    "Confusing 'ya' (or) with 'bhi' (also)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,187 @@
+{
+  "activityId": "hi_en_M3B6_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Final Essay: My Experience",
+  "learningGoal": "Write a comprehensive essay describing your experiences, challenges, and future plans using past, present, and future tenses.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M3B6_reading_3"
+  ],
+  "instructions": "This is your final writing task. Write a short essay (100-200 words) about your experience learning Hindi. Use the past tense to describe how hard it was at first, the present tense to describe what you can do now, and the future tense to state what you will do next year.",
+  "writingPrompt": "Write an essay titled 'My Hindi Journey'. Mention 1) how you felt when you started, 2) who or what helped you, 3) what you can do now in Hindi, and 4) what your plans are for the future regarding India.",
+  "promptGoal": "To demonstrate mastery of all three tenses and common vocabulary in a structured essay.",
+  "expectedWritingType": "short_essay",
+  "wordBank": [
+    {
+      "targetText": "शुरू में",
+      "transliteration": "shuru mein",
+      "baseTranslation": "in the beginning",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "मुश्किल",
+      "transliteration": "mushkil",
+      "baseTranslation": "difficult",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "मदद",
+      "transliteration": "madad",
+      "baseTranslation": "help",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "सीखना",
+      "transliteration": "seekhna",
+      "baseTranslation": "to learn",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "अब",
+      "transliteration": "ab",
+      "baseTranslation": "now",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "आसानी से",
+      "transliteration": "aasani se",
+      "baseTranslation": "easily",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "भविष्य",
+      "transliteration": "bhavishya",
+      "baseTranslation": "future",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "अगले साल",
+      "transliteration": "agle saal",
+      "baseTranslation": "next year",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "Use the 'ne' particle for past actions like 'मैंने पढ़ा' (I read) or 'मैंने सीखा' (I learned).",
+    "Use 'sakta hoon/sakti hoon' (can) to describe what you are able to do now.",
+    "Use 'jaunga/jaungi' (will go) or 'karunga/karungi' (will do) for your future plans."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मेरा हिंदी का सफर\n\nजब मैंने हिंदी सीखना शुरू किया, तो यह बहुत मुश्किल था। शुरू में मुझे कुछ भी समझ नहीं आता था। लेकिन मैंने रोज़ अभ्यास किया। मेरे शिक्षक और मेरे दोस्तों ने मेरी बहुत मदद की। मैंने कई किताबें पढ़ीं और हिंदी गाने सुने।\n\nअब मैं आसानी से हिंदी में बात कर सकता हूँ। मैं बाज़ार में मोल-भाव कर सकता हूँ और अपना खाना ऑर्डर कर सकता हूँ। मुझे भारत की संस्कृति बहुत पसंद है। मैं हिंदी में फिल्में भी देखता हूँ।\n\nअगले साल, मैं अपने परिवार के साथ भारत जाऊँगा। हम दिल्ली और मुंबई घूमेंगे। मैं अपने दोस्तों से मिलूँगा और उनके साथ हिंदी में बात करूँगा। मुझे यकीन है कि मेरा भविष्य भारत के साथ जुड़ा हुआ है। धन्यवाद।",
+      "transliteration": "Mera hindi ka safar\n\nJab maine hindi seekhna shuru kiya, toh yeh bahut mushkil tha. Shuru mein mujhe kuch bhi samajh nahi aata tha. Lekin maine roz abhyaas kiya. Mere shikshak aur mere doston ne meri bahut madad ki. Maine kayi kitaabein padhin aur hindi gaane sune.\n\nAb main aasani se hindi mein baat kar sakta hoon. Main baazaar mein mol-bhaav kar sakta hoon aur apna khana order kar sakta hoon. Mujhe bharat ki sanskriti bahut pasand hai. Main hindi mein filmein bhi dekhta hoon.\n\nAgle saal, main apne parivaar ke saath bharat jaunga. Hum Delhi aur Mumbai ghoomenge. Main apne doston se miloonga aur unke saath hindi mein baat karoonga. Mujhe yakeen hai ki mera bhavishya bharat ke saath juda hua hai. Dhanyawad.",
+      "baseTranslation": "My Hindi Journey\n\nWhen I started learning Hindi, it was very difficult. In the beginning, I didn't understand anything. But I practiced every day. My teacher and my friends helped me a lot. I read many books and listened to Hindi songs.\n\nNow I can easily talk in Hindi. I can negotiate in the market and order my food. I really like the culture of India. I also watch movies in Hindi.\n\nNext year, I will go to India with my family. We will travel to Delhi and Mumbai. I will meet my friends and talk to them in Hindi. I am sure that my future is connected with India. Thank you.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly uses past tense (with 'ne'), present tense (with 'sakta hoon'), and future tense ('jaunga'). Covers all prompts clearly."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Task Completion",
+      "weight": 25,
+      "description": "Did the essay address the past, present, and future?"
+    },
+    {
+      "criterion": "Tense Usage",
+      "weight": 35,
+      "description": "Are the past, present, and future tenses formed correctly?"
+    },
+    {
+      "criterion": "Grammar Accuracy ('ne' rule)",
+      "weight": 20,
+      "description": "Did they use 'ne' correctly for past transitive verbs?"
+    },
+    {
+      "criterion": "Vocabulary and Flow",
+      "weight": 20,
+      "description": "Is the vocabulary varied and does the essay flow logically?"
+    }
+  ],
+  "minimumWordCount": 100,
+  "maximumWordCount": 200,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "जब मैंने हिंदी सीखना शुरू किया, तो यह बहुत मुश्किल था। शुरू में मुझे कुछ भी समझ नहीं आता था। लेकिन मैंने रोज़ अभ्यास किया। मेरे दोस्तों ने मेरी बहुत मदद की। अब मैं आसानी से हिंदी में बात कर सकता हूँ। मैं बाज़ार में मोल-भाव कर सकता हूँ। अगले साल, मैं भारत जाऊँगा और वहाँ काम करूँगा।",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "शुरू में",
+      "मदद",
+      "अब",
+      "अगले साल"
+    ],
+    "grammarBaseline": "Must include at least one past tense sentence with 'ne', one present continuous/ability sentence, and one future tense sentence.",
+    "lengthExpectation": "100 to 200 words",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Task Completion",
+          "weight": 25,
+          "description": "All parts of prompt answered."
+        },
+        {
+          "name": "Tense Usage",
+          "weight": 35,
+          "description": "Correct past, present, and future verbs."
+        },
+        {
+          "name": "Grammar Accuracy",
+          "weight": 20,
+          "description": "Correct 'ne' usage."
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 20,
+          "description": "Good use of word bank."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Outstanding! You have demonstrated true mastery of Hindi writing. Your ability to switch tenses is excellent.",
+    "onFail": "Your essay is missing key elements or has major grammatical errors. Make sure you use the 'ne' particle in the past tense when needed.",
+    "onPartial": "Good effort. Review the model essay to see how to smoothly transition between past, present, and future."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "essay",
+    "review",
+    "tenses",
+    "final"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Draft your essay in three paragraphs: Past (1), Present (2), Future (3).",
+  "commonMistakes": [
+    "Forgetting the 'ne' rule when saying 'I learned' (Maine seekha).",
+    "Mixing up gender in future verbs (e.g., a woman saying 'Jaunga' instead of 'Jaungi')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,390 @@
+{
+  "activityId": "en_hi_M2B4_test_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Mega Assessment: Tomorrow",
+  "learningGoal": "The learner will demonstrate categorical exclusion of morphological inflection on verbs governed by the 'will' predictive modal, distinguishing it from periphrastic 'going to' locutions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M2B4_lesson_001",
+    "en_hi_M2B4_pronunciation_001",
+    "en_hi_M2B4_reading_001",
+    "en_hi_M2B4_writing_001",
+    "en_hi_M2B4_listening_001",
+    "en_hi_M2B4_vocabulary_001",
+    "en_hi_M2B4_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 4. It contains 20 questions evaluating your ability to describe the future. DO NOT forget the golden rule of WILL: No 'Is/Am/Are', No '-ing', and No '-ed'! Keep the action word clean!",
+  "testTitle": "Block 4 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: The Clean Verb Rule",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: Tomorrow morning, he ________ to the park.",
+          "questionType": "multiple_choice",
+          "options": ["will going", "is will go", "will go", "will goes"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which sentence means 'मैं एक सेब खाऊँगा'?",
+          "questionType": "multiple_choice",
+          "options": ["I am will eat an apple.", "I will eating an apple.", "I will ate an apple.", "I will eat an apple."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Choose the correctly formed future sentence:",
+          "questionType": "multiple_choice",
+          "options": ["They are going to play football.", "They going to play football.", "They are going play football.", "They are will play football."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They are going to play football.",
+            "transliteration": "दे आर गोइंग टू प्ले फुटबॉल।",
+            "baseTranslation": "वे फुटबॉल खेलने वाले हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: Saying 'She will works tomorrow' is excellent English grammar.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "If someone asks 'Will you help me?', how do you answer?",
+          "questionType": "multiple_choice",
+          "options": ["Yes, I am will help.", "Yes, I will help.", "Yes, I helping.", "Yes, I will helped."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Time to Weather",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What word means 'कल (आने वाला)'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Tomorrow",
+            "transliteration": "टुमॉरो",
+            "baseTranslation": "कल"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If water falls from the sky, it is _____.",
+          "questionType": "multiple_choice",
+          "options": ["Sunny", "Rain", "Snow", "Windy"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the English phrase for 'अगले सप्ताह'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Next week",
+            "transliteration": "नेक्स्ट वीक",
+            "baseTranslation": "अगले सप्ताह"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "If there are many clouds, the weather is _____.",
+          "questionType": "multiple_choice",
+          "options": ["Cloudy", "Sunny", "Rain", "Hot"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What does 'Travel' mean?",
+          "questionType": "multiple_choice",
+          "options": ["सोचना", "रुकना", "यात्रा करना", "योजना"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Contractions & Correction",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the massive mistake: 'I am will read a book.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'I am reading a book.'", "It should be 'I will read a book.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "What does the contraction 'I'll' stand for?",
+          "questionType": "multiple_choice",
+          "options": ["I am", "I will", "I well", "I all"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Why is 'We will going to the shop' wrong?",
+          "questionType": "multiple_choice",
+          "options": ["Because they are multiple people", "It mixed 'will' and 'going to'", "It is not wrong"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What word is completely unnecessary in this sentence: 'She is will call you later.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which means 'हम यात्रा करेंगे'?",
+          "questionType": "multiple_choice",
+          "options": ["We will travel", "We travels", "We will traveling", "We are travel"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मैं कल जाऊँगा।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I will go tomorrow.",
+            "transliteration": "आई विल गो टुमॉरो।",
+            "baseTranslation": "मैं कल जाऊँगा।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'वह काम करेगी।' (Write the full English sentence for 'She...')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "She will work.",
+            "transliteration": "शी विल वर्क।",
+            "baseTranslation": "वह काम करेगी।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'बारिश होगी।' (It ... )",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "It will rain.",
+            "transliteration": "इट विल रेन।",
+            "baseTranslation": "बारिश होगी।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'हम खेलने वाले हैं।' (We ... going ... )",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We are going to play.",
+            "transliteration": "वी आर गोइंग टू प्ले।",
+            "baseTranslation": "हम खेलने वाले हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'क्या तुम रुकोगे?' (Will you...?)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Will you stay?",
+            "transliteration": "विल यू स्टे?",
+            "baseTranslation": "क्या तुम रुकोगे?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "will go",
+      "q002": "I will eat an apple.",
+      "q003": "They are going to play football.",
+      "q004": "False",
+      "q005": "Yes, I will help.",
+      "q006": "Tomorrow",
+      "q007": "Rain",
+      "q008": "Next week",
+      "q009": "Cloudy",
+      "q010": "यात्रा करना",
+      "q011": "It should be 'I will read a book.'",
+      "q012": "I will",
+      "q013": "It mixed 'will' and 'going to'",
+      "q014": "is",
+      "q015": "We will travel",
+      "q016": "I will go tomorrow.",
+      "q017": "She will work.",
+      "q018": "It will rain.",
+      "q019": "We are going to play.",
+      "q020": "Will you stay?"
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'am' or 'going' is used when 'will' is requested."
+    },
+    "partialCreditRules": {
+      "q017": "Give 5 marks if written 'She will work' or 'She'll work'."
+    },
+    "alternateValidAnswers": {
+      "q006": ["tomorrow", "TOMORROW"],
+      "q008": ["next week", "NEXT WEEK"],
+      "q014": ["is", "IS"],
+      "q016": ["i will go tomorrow", "I will go tomorrow", "I'll go tomorrow"],
+      "q017": ["she will work", "She will work", "She'll work"],
+      "q018": ["it will rain", "It will rain.", "It'll rain."],
+      "q019": ["we are going to play", "We are going to play.", "We're going to play."],
+      "q020": ["will you stay", "Will you stay", "Will you stay?"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered the two ways to describe the future ('Will' and 'Going to') and kept your action words totally clean!",
+    "onFail": "Please review the absolute most important rule: WILL destroys all endings on verbs. NO '-ing'. NO '-ed'. And NEVER use 'is/am' with 'will'.",
+    "onPartial": "Good effort! Watch out for 'Going To'. It is three words. DO NOT say 'We going play'. It must be 'We ARE going TO play'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers the future verbs.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block4", "future_tense", "will", "going_to", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

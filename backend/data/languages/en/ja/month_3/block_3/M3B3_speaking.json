@@ -1,0 +1,178 @@
+{
+  "activityId": "ja_en_M3B3_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Complaining About Work",
+  "learningGoal": "The learner will verbally construct causative-passive sentences to explain situations where they were forced to do something against their will.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M3B3_lesson_001",
+    "ja_en_M3B3_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a colleague asks why you look so tired. Reply verbally in Japanese based on the English prompts, using the causative-passive form to complain about what the boss made you do.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For the verb 'to drink', use the short causative-passive form 'nomasareru'."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) I was forced to do overtime by the boss. 2) I was forced to drink alcohol. 3) I am very tired.",
+  "scenario": "Complaining to a coworker about last night.",
+  "role": "Tired Employee",
+  "conversationPartner": "Sympathetic Coworker",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Explain the first problem. Say: 'I was forced to do overtime by the boss.'",
+      "expectedSpeakingPoints": [
+        "Use buchou ni",
+        "Use zangyou wo",
+        "Use saseraremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "ぶちょうに ざんぎょうを させられました。",
+        "transliteration": "Buchou ni zangyou wo saseraremashita.",
+        "baseTranslation": "I was forced to do overtime by the boss."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Explain the second problem. Say: 'I was forced to drink alcohol.'",
+      "expectedSpeakingPoints": [
+        "Use sake wo",
+        "Use nomasaremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "さけを のまされました。",
+        "transliteration": "Sake wo nomasaremashita.",
+        "baseTranslation": "I was forced to drink alcohol."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "State your current condition. Say: 'I am very tired.'",
+      "expectedSpeakingPoints": [
+        "Use totemo",
+        "Use tsukaremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "とても つかれました。",
+        "transliteration": "Totemo tsukaremashita.",
+        "baseTranslation": "I am very tired."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "つかれましたね。どうしましたか。",
+    "transliteration": "Tsukaremashita ne. Dou shimashita ka.",
+    "baseTranslation": "You look tired. What happened?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "ぶちょうに ざんぎょうを させられました。",
+      "transliteration": "Buchou ni zangyou wo saseraremashita.",
+      "baseTranslation": "I was forced to do overtime by the boss."
+    },
+    {
+      "targetText": "さけを のまされました。",
+      "transliteration": "Sake wo nomasaremashita.",
+      "baseTranslation": "I was forced to drink alcohol."
+    },
+    {
+      "targetText": "とても つかれました。",
+      "transliteration": "Totemo tsukaremashita.",
+      "baseTranslation": "I am very tired."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Buchou ni zangyou wo saseraremashita",
+      "Say Sake wo nomasaremashita",
+      "Say Totemo tsukaremashita"
+    ],
+    "requiredKeywords": [
+      "させられました",
+      "のまされました",
+      "つかれました"
+    ],
+    "acceptableParaphrases": [
+      "Accept 'Watashi wa buchou ni...' for the first sentence."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Suru Causative-Passive",
+          "weight": 40,
+          "description": "Did the learner accurately say 'saseraremashita'?"
+        },
+        {
+          "name": "Nomu Short Causative-Passive",
+          "weight": 40,
+          "description": "Did the learner say 'nomasaremashita' instead of 'nomimashita'?"
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 20,
+          "description": "Did the learner use 'buchou', 'zangyou', and 'sake'?"
+        }
+      ]
+    },
+    "sampleAnswer": "ぶちょうに ざんぎょうを させられました。さけを のまされました。とても つかれました。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You perfectly articulated the causative-passive complaints.",
+    "onFail": "Review the conjugation for 'nomu'. Nomu -> Nomasareru (Forced to drink).",
+    "onPartial": "Good try! Make sure you didn't say 'Buchou wa' for the first sentence. The boss is the one forcing you, so he takes the particle 'ni'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b3/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m3/b3/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "つかれましたね。どうしましたか。ぶちょうに ざんぎょうを させられました。さけを のまされました。とても つかれました。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "causative-passive",
+    "complaining",
+    "roleplay",
+    "advanced",
+    "month3",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'forced to do', take Suru, change it to Saseru, and then to Saserareru.",
+  "commonMistakes": [
+    "Saying 'Nomaseraremashita'. (This is technically correct but very long. 'Nomasaremashita' is preferred)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B3_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

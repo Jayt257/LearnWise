@@ -1,0 +1,387 @@
+{
+  "activityId": "en_hi_M2B6_test_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Mega Assessment: Culture & Politeness",
+  "learningGoal": "The learner will demonstrate sociolinguistic competence by identifying and correcting pragmatically inappropriate imperative mappings, deploying modal softeners, and exhibiting situational mastery of English conversational boundaries.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M2B6_lesson_001",
+    "en_hi_M2B6_pronunciation_001",
+    "en_hi_M2B6_reading_001",
+    "en_hi_M2B6_writing_001",
+    "en_hi_M2B6_listening_001",
+    "en_hi_M2B6_vocabulary_001",
+    "en_hi_M2B6_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 6! It contains 20 questions evaluating your understanding of English culture. Remember: There is no 'Aap'. You must build politeness using your sentence structures!",
+  "testTitle": "Block 6 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Politeness Markers",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank to make this polite: _____ give me the book?",
+          "questionType": "multiple_choice",
+          "options": ["Could you", "Do it", "You will", "Are you"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which sentence is RUDE?",
+          "questionType": "multiple_choice",
+          "options": ["Could you help me?", "Help me now.", "Excuse me, could you help me?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "If someone asks 'Would you like tea?', how do you politely say yes?",
+          "questionType": "multiple_choice",
+          "options": ["Yes.", "Give it.", "Yes, please.", "I want."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: English has a special word like 'आप' to show respect to adults.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "If you want to walk past someone in a narrow hallway, you say:",
+          "questionType": "multiple_choice",
+          "options": ["Move.", "Excuse me.", "Sorry for you.", "Hello."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Speech & Small Talk",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What word means 'प्रतीक्षा करना / इंतज़ार करना'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Wait",
+            "transliteration": "वेट",
+            "baseTranslation": "प्रतीक्षा करना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If someone talks too fast, you say 'Could you speak _____?'",
+          "questionType": "multiple_choice",
+          "options": ["Slowly", "Fast", "Wait", "Tell"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English word for 'मौसम'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Weather",
+            "transliteration": "वेदर",
+            "baseTranslation": "मौसम"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "If you want someone to say something again, you ask them to _____.",
+          "questionType": "multiple_choice",
+          "options": ["Move", "Open", "Repeat", "Help"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What does 'Move' mean?",
+          "questionType": "multiple_choice",
+          "options": ["हटाना / खिसकाना", "खोलना", "देना", "मदद करना"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Situational Correction",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "What is the very first thing you say when you approach a stranger to ask a question?",
+          "questionType": "multiple_choice",
+          "options": ["Excuse me", "Listen to me", "Hey you"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "How do you politely reply when someone says 'How are you?'",
+          "questionType": "multiple_choice",
+          "options": ["Good.", "I am fine, thank you.", "I exist."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the mistake: 'Give me your bag, please.'",
+          "questionType": "multiple_choice",
+          "options": ["It is not a question using 'Could you'.", "It forgot 'Excuse me'.", "There is no mistake."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What is the most common topic for 'small talk' with strangers?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "When saying goodbye, what is the polite phrase?",
+          "questionType": "multiple_choice",
+          "options": ["Have a good day", "Go away", "Be good"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Polite Translations",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate into a POLITE English sentence: 'क्या आप दरवाज़ा खोल सकते हैं?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Could you open the door?",
+            "transliteration": "कुड यू ओपन द डोर?",
+            "baseTranslation": "क्या आप दरवाज़ा खोल सकते हैं?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate into a POLITE English sentence: 'माफ़ कीजिए, क्या आप मेरी मदद कर सकते हैं?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Excuse me, could you help me?",
+            "transliteration": "एक्सक्यूज़ मी, कुड यू हेल्प मी?",
+            "baseTranslation": "माफ़ कीजिए, क्या आप मेरी मदद कर सकते हैं?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "You are full. Translate: 'जी नहीं, धन्यवाद।' (No... )",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "No, thank you.",
+            "transliteration": "नो, थैंक यू।",
+            "baseTranslation": "जी नहीं, धन्यवाद।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'मैं ठीक हूँ, धन्यवाद।' (I am... )",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I am fine, thank you.",
+            "transliteration": "आई एम फाइन, थैंक यू।",
+            "baseTranslation": "मैं ठीक हूँ, धन्यवाद।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate into a POLITE question: 'क्या आप प्रतीक्षा कर सकते हैं?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Could you wait?",
+            "transliteration": "कुड यू वेट?",
+            "baseTranslation": "क्या आप प्रतीक्षा कर सकते हैं?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Could you",
+      "q002": "Help me now.",
+      "q003": "Yes, please.",
+      "q004": "False",
+      "q005": "Excuse me.",
+      "q006": "Wait",
+      "q007": "Slowly",
+      "q008": "Weather",
+      "q009": "Repeat",
+      "q010": "हटाना / खिसकाना",
+      "q011": "Excuse me",
+      "q012": "I am fine, thank you.",
+      "q013": "It is not a question using 'Could you'.",
+      "q014": "Weather",
+      "q015": "Have a good day",
+      "q016": "Could you open the door?",
+      "q017": "Excuse me, could you help me?",
+      "q018": "No, thank you.",
+      "q019": "I am fine, thank you.",
+      "q020": "Could you wait?"
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'Can you' or merely 'Open the door' is used.",
+      "q017": "Must contain 'Excuse me' as the preface."
+    },
+    "partialCreditRules": {
+      "q017": "Give 3 marks if they wrote 'Could you help me' but forgot 'Excuse me'."
+    },
+    "alternateValidAnswers": {
+      "q006": ["wait", "WAIT"],
+      "q008": ["weather", "WEATHER", "the weather"],
+      "q014": ["the weather", "weather", "Weather"],
+      "q016": ["could you open the door", "Could you open the door?", "Could you open the door please"],
+      "q017": ["excuse me could you help me", "Excuse me, could you help me", "Excuse me could you help me?"],
+      "q018": ["no thank you", "No thank you", "No, thank you"],
+      "q019": ["i am fine thank you", "I am fine, thank you.", "I'm fine thank you"],
+      "q020": ["could you wait", "Could you wait?", "Could you wait please?"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered English cultural politeness. You know how to replace direct commands with 'Could you', and you use 'Excuse me' effectively!",
+    "onFail": "Please review the module. Remember, English DOES NOT HAVE 'Aap'. If you use direct verbs like 'Give' or 'Help', you sound rude! Always ask 'Could you...'.",
+    "onPartial": "Good effort! Watch out for your responses. If someone offers you a chair or food, never just say 'Yes'. Always say 'Yes, please'!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers English politeness and small talk.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block6", "politeness", "culture", "could_you", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

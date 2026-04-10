@@ -1,0 +1,237 @@
+{
+  "activityId": "en_hi_M1B3_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronouncing the Plural 'S'",
+  "learningGoal": "The learner will master the three distinct phonetic sounds of the English plural (-s / -z / -iz) dependent on the origin word's final consonant.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B3_lesson_001"],
+  "instructions": "In English, adding 's' to the end of a word makes 3 different sounds depending on the word. Sometimes it sounds like a snake 'S' (स). Sometimes it buzzes like a bee 'Z' (ज़). Sometimes it adds a whole new syllable 'IZ' (इज़). Listen closely and repeat these 15 words.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Do not pronounce every 's' like 'स'. 'Dogs' MUST buzz. It is 'Dogg-z', not 'Dogg-s'."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "Cats",
+      "transliteration": "कैट्स",
+      "baseTranslation": "बिल्लियाँ",
+      "phoneticHint": "Sharp snake 'S'. The 'T' before it makes it sharp.",
+      "syllableSplit": "Cats",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Swallowing the 't' and saying 'Cass'"
+    },
+    {
+      "itemId": "p02",
+      "targetText": "Books",
+      "transliteration": "बुक्स",
+      "baseTranslation": "किताबें",
+      "phoneticHint": "Sharp 'S' (स). Make the 'k' and 's' very clicky.",
+      "syllableSplit": "Books",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p03",
+      "targetText": "Cups",
+      "transliteration": "कپس (कप्लस - प और स मिक्स)",
+      "baseTranslation": "कप / प्याले",
+      "phoneticHint": "Sharp 'S' (स). Popping 'p' directly into 's'.",
+      "syllableSplit": "Cups",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p04",
+      "targetText": "Maps",
+      "transliteration": "मैप्स",
+      "baseTranslation": "नक्शे",
+      "phoneticHint": "Sharp 'S' (स).",
+      "syllableSplit": "Maps",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p05",
+      "targetText": "Dogs",
+      "transliteration": "डॉग्स (ज़ की ध्वनि के साथ)",
+      "baseTranslation": "कुत्ते",
+      "phoneticHint": "BUZZING 'Z' (ज़). This does NOT sound like an S. 'Dogg-z'.",
+      "syllableSplit": "Dogs",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it with a sharp 'S' (Dog-ss)"
+    },
+    {
+      "itemId": "p06",
+      "targetText": "Bags",
+      "transliteration": "बैग्स (ज़)",
+      "baseTranslation": "थैले",
+      "phoneticHint": "BUZZING 'Z' (ज़). Feel your throat vibrate.",
+      "syllableSplit": "Bags",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bag-ss"
+    },
+    {
+      "itemId": "p07",
+      "targetText": "Cars",
+      "transliteration": "कार्स (ज़)",
+      "baseTranslation": "गाड़ियाँ",
+      "phoneticHint": "BUZZING 'Z' (ज़). Car-zz.",
+      "syllableSplit": "Cars",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Boys",
+      "transliteration": "बॉयज़",
+      "baseTranslation": "लड़के",
+      "phoneticHint": "BUZZING 'Z' (ज़). Boy-zz. All words ending in vowels get a Z sound.",
+      "syllableSplit": "Boys",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing 'ss'"
+    },
+    {
+      "itemId": "p09",
+      "targetText": "Girls",
+      "transliteration": "गर्ल्स (गर्ल-ज़)",
+      "baseTranslation": "लड़कियाँ",
+      "phoneticHint": "BUZZING 'Z' (ज़). Girl-zz.",
+      "syllableSplit": "Girls",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p10",
+      "targetText": "Boxes",
+      "transliteration": "बॉक्सेस",
+      "baseTranslation": "डिब्बे",
+      "phoneticHint": "EXTRA SYLLABLE: 'IZ'. Box-iz.",
+      "syllableSplit": "Box-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Trying to say 'Boxs' in one syllable."
+    },
+    {
+      "itemId": "p11",
+      "targetText": "Buses",
+      "transliteration": "बसेस",
+      "baseTranslation": "बसें",
+      "phoneticHint": "EXTRA SYLLABLE: 'IZ'. Bus-iz.",
+      "syllableSplit": "Bus-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p12",
+      "targetText": "Watches",
+      "transliteration": "वॉचेस",
+      "baseTranslation": "घड़ियाँ",
+      "phoneticHint": "EXTRA SYLLABLE: 'IZ'. Watch-iz.",
+      "syllableSplit": "Watch-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p13",
+      "targetText": "Brushes",
+      "transliteration": "ब्रशेस",
+      "baseTranslation": "ब्रश (बहुवचन)",
+      "phoneticHint": "EXTRA SYLLABLE: 'IZ'. Brush-iz.",
+      "syllableSplit": "Brush-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p14",
+      "targetText": "Glasses",
+      "transliteration": "ग्लासेस",
+      "baseTranslation": "गिलास (बहुवचन) / चश्मा",
+      "phoneticHint": "EXTRA SYLLABLE: 'IZ'. Glass-iz.",
+      "syllableSplit": "Glass-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p15",
+      "targetText": "Students",
+      "transliteration": "स्टूडेंट्स",
+      "baseTranslation": "छात्र (बहुवचन)",
+      "phoneticHint": "Sharp snake 'S'. The 'T' before it makes it sharp.",
+      "syllableSplit": "Stu-dents",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Student-z'"
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Cats Books Cups Maps Dogs Bags Cars Boys Girls Boxes Buses Watches Brushes Glasses Students",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Incredible! Your English is sounding extremely natural because you successfully shifted between S, Z, and IZ plural sounds.",
+    "onFail": "Keep practicing! You are likely pronouncing everything with a sharp 'S'. Make sure words like Dogs, Bags, and Boys vibrate like a bee (Z) in your throat.",
+    "onPartial": "Good progress! Be careful with the '-es' ending words specifically. 'Boxes' should be two distinct syllables: Box-iz."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "cats books cups maps dogs bags cars boys girls boxes buses watches brushes glasses students",
+    "acceptedVariants": [
+      "cats book cups map dog bag car boy girl box bus watch brush glass student"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Dogs must exhibit trailing voicing [z]. Boxes must exhibit an inserted schwa [iz].",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "strict"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b3/pronunciation/native_plurals.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b3/pronunciation/slow_plurals.mp3",
+    "normalAudio": "audio/en_hi/m1/b3/pronunciation/native_plurals.mp3",
+    "audioTranscript": "Cats. Books. Cups... (matches target list)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "plurals", "nouns", "phonetics", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b3/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Put your hand on your throat. When you say 'Dogs', you should feel your throat vibrate at the end. When you say 'Cats', it should NOT vibrate.",
+  "commonMistakes": [
+    "Not using the 'Z' sound for voiced endings.",
+    "Not creating a new syllable for '-es'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B3_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

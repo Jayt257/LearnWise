@@ -1,0 +1,185 @@
+{
+  "activityId": "en_ja_M2B4_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronouncing the Past",
+  "learningGoal": "Master the three different sounds of the '-ed' ending (/t/, /d/, /id/) and the pronunciation of common irregular past tense verbs.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B4_lesson_1"
+  ],
+  "instructions": "過去形の「-ed」は、単語によって「トゥ」「ドゥ」「イド」という3つの異なる発音になります。また、wentやateのような不規則動詞の発音も練習します。マイクに向かってリピートしてください。(Practice the three sounds of '-ed' and the pronunciation of irregular verbs. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "watched",
+      "transliteration": "ウォッチト",
+      "baseTranslation": "見た（watch の過去形）",
+      "phoneticHint": "The '-ed' sounds like a sharp 't'. Watch-t.",
+      "syllableSplit": "watched",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'watch-ed' (ウォッチド) with an extra vowel."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "played",
+      "transliteration": "プレイド",
+      "baseTranslation": "遊んだ、プレイした（play の過去形）",
+      "phoneticHint": "The '-ed' sounds like a soft 'd'. Play-d.",
+      "syllableSplit": "played",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'play-do' with an 'o' at the end."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "wanted",
+      "transliteration": "ウォンティド",
+      "baseTranslation": "欲しかった（want の過去形）",
+      "phoneticHint": "Because 'want' ends with a 't', the '-ed' adds a full syllable sounding like 'id'. Want-id.",
+      "syllableSplit": "want-ed",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'won-teddo'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "went",
+      "transliteration": "ウェント",
+      "baseTranslation": "行った（go の過去形）",
+      "phoneticHint": "Make sure the 't' at the end is crisp but quiet. W-en-t.",
+      "syllableSplit": "went",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'wento'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "ate",
+      "transliteration": "エイト",
+      "baseTranslation": "食べた（eat の過去形）",
+      "phoneticHint": "It is pronounced exactly the same as the number 8 (eight).",
+      "syllableSplit": "ate",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ah-te'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "saw",
+      "transliteration": "ソー",
+      "baseTranslation": "見た（see の過去形）",
+      "phoneticHint": "It is a long 'oh' sound, exactly like the tool you use to cut wood (saw). S-aw.",
+      "syllableSplit": "saw",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'sa-u'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "didn't",
+      "transliteration": "ディドント",
+      "baseTranslation": "しなかった（did not の短縮）",
+      "phoneticHint": "Did-int. The 'd' in the middle is very soft.",
+      "syllableSplit": "did-n't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'di-don-to'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "was",
+      "transliteration": "ワズ",
+      "baseTranslation": "だった（am / is の過去形）",
+      "phoneticHint": "Wuz. Make sure it sounds like a 'z' at the end, not an 's'.",
+      "syllableSplit": "was",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'wa-su'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "were",
+      "transliteration": "ワー",
+      "baseTranslation": "だった（are の過去形）",
+      "phoneticHint": "Rhymes with 'her'. Werr.",
+      "syllableSplit": "were",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'wa-a' without the 'r' sound."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "had",
+      "transliteration": "ハッド",
+      "baseTranslation": "持っていた（have の過去形）",
+      "phoneticHint": "The 'a' is short, like in 'cat'. H-a-d.",
+      "syllableSplit": "had",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ha-do'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "watched played wanted went ate saw didn't was were had",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You clearly distinguished the different -ed sounds and the irregular verbs.",
+    "onFail": "Please try again. Pay close attention to 'watched' (sounds like 't') and 'played' (sounds like 'd'). Do not add an extra 'o' at the end.",
+    "onPartial": "Good effort! Remember that 'ate' is pronounced exactly like the number 8."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "watched played wanted went ate saw didn't was were had",
+    "acceptedVariants": [
+      "watched played wanted went eight saw didn't was were had",
+      "watched played wanted went ate saw did not was were had"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "watched played wanted went ate saw didn't was were had",
+    "transliteration": "wacht playd wantid went ate saw didint wuz wer had",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B4_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B4_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "watched, played, wanted, went, ate, saw, didn't, was, were, had",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "simple_past",
+    "ed_ending",
+    "irregular_verbs"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the base verb ends in a 't' or 'd' (like want or need), the -ed sounds like 'id' (want-id, need-id). Otherwise, it's just a 't' or 'd' sound.",
+  "commonMistakes": [
+    "Pronouncing 'watched' as 'watch-ed'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

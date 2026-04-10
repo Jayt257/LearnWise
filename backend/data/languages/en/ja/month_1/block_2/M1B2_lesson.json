@@ -1,0 +1,268 @@
+{
+  "activityId": "ja_en_M1B2_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "Hiragana Part 2 & Basic Identity",
+  "learningGoal": "The learner will master the remaining Hiragana characters (H, M, Y, R, W rows + modifiers) and learn how to introduce their name, nationality, and occupation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B1_test_001"
+  ],
+  "instructions": "Read through each section carefully. In this lesson, we will complete the Hiragana alphabet and learn how to say who you are. Make sure to listen to the audio examples and practice the checkpoint questions.",
+  "conceptTitle": "Completing Hiragana & Self-Introductions",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "The Rest of the Hiragana Alphabet",
+      "bodyText": "In Block 1, we learned the A, K, S, T, and N rows. Now let's finish the main chart. The remaining rows are the H, M, Y, R, and W rows, plus the standalone 'N'. Let's look at some examples of words using these new letters.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "はな",
+          "transliteration": "Hana",
+          "baseTranslation": "Flower",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "やま",
+          "transliteration": "Yama",
+          "baseTranslation": "Mountain",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたし",
+          "transliteration": "Watashi",
+          "baseTranslation": "I / me",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Dakuten and Handakuten (Voice Marks)",
+      "bodyText": "In Japanese, you can add two small lines (゛) called Dakuten or a small circle (゜) called Handakuten to the top right of certain Hiragana to change their sound. For example, adding Dakuten to 'K' makes it 'G'. 'S' becomes 'Z', 'T' becomes 'D', and 'H' becomes 'B'. Adding the small circle to 'H' makes it 'P'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "がくせい",
+          "transliteration": "Gakusei",
+          "baseTranslation": "Student (K becomes G)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "みず",
+          "transliteration": "Mizu",
+          "baseTranslation": "Water (S becomes Z)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "だいがく",
+          "transliteration": "Daigaku",
+          "baseTranslation": "University (T becomes D, K becomes G)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Basic Identity: I am...",
+      "bodyText": "Now that we have more letters, let's make some sentences. The most basic sentence pattern in Japanese is 'A wa B desu' (A is B). The word 'wa' is a topic particle (written with the Hiragana for 'ha' は). The word 'desu' means 'is/am/are'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは たなかです。",
+          "transliteration": "Watashi wa Tanaka desu.",
+          "baseTranslation": "I am Tanaka.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたしは ジョンです。",
+          "transliteration": "Watashi wa Jon desu.",
+          "baseTranslation": "I am John.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Nationalities (Adding 'jin')",
+      "bodyText": "To state your nationality, simply take the name of your country and add the word 'jin' (じん) at the end. 'Jin' means 'person'. So, America-jin means American person.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは アメリカじんです。",
+          "transliteration": "Watashi wa Amerika-jin desu.",
+          "baseTranslation": "I am American.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたしは にほんじんです。",
+          "transliteration": "Watashi wa Nihon-jin desu.",
+          "baseTranslation": "I am Japanese.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_05",
+      "sectionTitle": "Occupations",
+      "bodyText": "You can use the exact same 'A wa B desu' pattern for occupations. Simply replace the nationality with your job.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは がくせいです。",
+          "transliteration": "Watashi wa gakusei desu.",
+          "baseTranslation": "I am a student.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたしは せんせいです。",
+          "transliteration": "Watashi wa sensei desu.",
+          "baseTranslation": "I am a teacher.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_06",
+      "sectionTitle": "Asking Questions (The 'ka' particle)",
+      "bodyText": "To turn a sentence into a question in Japanese, you don't change the word order. You simply add the particle 'ka' (か) to the very end of the sentence. It acts like a spoken question mark.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "あなたは アメリカじんですか。",
+          "transliteration": "Anata wa Amerika-jin desu ka.",
+          "baseTranslation": "Are you American?",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "あなたは せんせいですか。",
+          "transliteration": "Anata wa sensei desu ka.",
+          "baseTranslation": "Are you a teacher?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will be able to read all Hiragana characters including dakuten modifications and construct basic self-introduction sentences and questions.",
+  "examples": [
+    {
+      "targetText": "はじめまして。わたしは マイクです。アメリカじんです。がくせいです。よろしく おねがいします。",
+      "transliteration": "Hajimemashite. Watashi wa Maiku desu. Amerika-jin desu. Gakusei desu. Yoroshiku onegaishimasu.",
+      "baseTranslation": "Nice to meet you. I am Mike. I am American. I am a student. Please to meet you.",
+      "explanation": "This is a full, standard Japanese self-introduction using the grammar points from this lesson."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "The particle 'wa' is written using the Hiragana character for 'ha' (は). When you see は used as a particle, always pronounce it 'wa'.",
+      "exceptionNotes": "If は is just part of a word, like 'hana' (flower), it is pronounced 'ha'. Only when it acts as the topic marker particle is it pronounced 'wa'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Add 'jin' (じん) to a country name to express nationality.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "Add 'ka' (か) to the end of a sentence to make it a question.",
+      "exceptionNotes": "Do not raise your pitch wildly at the end of the question like in English. The 'ka' already does the job."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "When introducing yourself in Japan, it is customary to say 'Hajimemashite' (Nice to meet you / For the first time) at the beginning, and 'Yoroshiku onegaishimasu' (Please treat me well) at the end. You also usually bow slightly instead of shaking hands.",
+    "dosList": [
+      "Bow slightly when saying Yoroshiku onegaishimasu.",
+      "State your name clearly.",
+      "Use 'desu' to remain polite."
+    ],
+    "dontsList": [
+      "Do not try to force a handshake unless the Japanese person offers one first.",
+      "Do not forget to use 'desu' with new acquaintances, as dropping it sounds too casual or rude."
+    ]
+  },
+  "summary": "In this lesson, you finished the Hiragana alphabet and learned about Dakuten/Handakuten modifiers. You also learned the core 'A wa B desu' sentence structure, allowing you to state your name, nationality, and occupation. Finally, you learned to turn any statement into a question by adding 'ka' at the end.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "How do you say 'I am a student' in Japanese?",
+      "expectedAnswer": "わたしは がくせいです (Watashi wa gakusei desu)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What does adding the particle 'ka' to the end of a sentence do?",
+      "expectedAnswer": "It turns the sentence into a question."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you write the particle 'wa' in Hiragana?",
+      "expectedAnswer": "It is written as は (ha)."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Hiragana H, M, Y, R, W rows",
+      "Dakuten and Handakuten mark usage",
+      "A wa B desu sentence structure",
+      "Adding 'jin' for nationalities",
+      "Adding 'ka' for questions"
+    ],
+    "conceptSummary": "Mastering the rest of the Hiragana alphabet and basic self-introductions using the 'A wa B desu' format.",
+    "importantFacts": [
+      "The particle 'wa' is written as 'ha' (は).",
+      "'Jin' means person and is used for nationalities.",
+      "'Ka' makes a sentence a question."
+    ],
+    "checkpointAnswers": {
+      "q1": "わたしは がくせいです",
+      "q2": "Turns it into a question",
+      "q3": "は"
+    },
+    "expectedUnderstanding": "The learner should be able to read all Hiragana characters and construct basic identity sentences."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You have completed the lesson.",
+    "onFail": "Please review the lesson material.",
+    "onPartial": "Good effort. Review the missed points."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "はな。やま。わたし。がくせい。みず。だいがく。わたしは たなかです。わたしは ジョンです。わたしは アメリカじんです。わたしは にほんじんです。わたしは がくせいです。わたしは せんせいです。あなたは アメリカじんですか。あなたは せんせいですか。",
+    "audioLanguage": "ja",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "hiragana",
+    "identity",
+    "particles",
+    "beginner",
+    "month1",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Pronouncing the particle 'wa' as 'ha' instead of 'wa'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_pronunciation_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

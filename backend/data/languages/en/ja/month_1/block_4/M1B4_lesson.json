@@ -1,0 +1,259 @@
+{
+  "activityId": "ja_en_M1B4_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Numbers, Time, and Age",
+  "learningGoal": "The learner will master Japanese numbers from 1-99, learn how to state their age, tell time (hours), and name the days of the week.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 50,
+  "prerequisites": [
+    "ja_en_M1B3_test_001"
+  ],
+  "instructions": "Read through each section carefully. Numbers in Japanese are very logical, but there are a few tricky exceptions when telling time or stating your age. Make sure to review the examples and listen to the audio carefully.",
+  "conceptTitle": "Counting, Scheduling, and Age",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Numbers 1 to 10",
+      "bodyText": "Learning Japanese numbers 1-10 is the foundation for all counting. Note that 4, 7, and 9 have two different readings. 'Yon', 'Nana', and 'Kyuu' are the most common.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いち、に、さん",
+          "transliteration": "Ichi, ni, san",
+          "baseTranslation": "1, 2, 3",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "よん(し)、ご、ろく",
+          "transliteration": "Yon (shi), go, roku",
+          "baseTranslation": "4, 5, 6",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "なな(しち)、はち、きゅう(く)、じゅう",
+          "transliteration": "Nana (shichi), hachi, kyuu (ku), juu",
+          "baseTranslation": "7, 8, 9, 10",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Numbers 11 to 99",
+      "bodyText": "After 10, Japanese numbers stack like building blocks. 11 is '10 + 1' (juu-ichi). 20 is '2 + 10' (ni-juu). 21 is '2 + 10 + 1' (ni-juu-ichi). It's very mathematical!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "じゅういち、じゅうに",
+          "transliteration": "Juu-ichi, juu-ni",
+          "baseTranslation": "11, 12",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "にじゅう、さんじゅう",
+          "transliteration": "Ni-juu, san-juu",
+          "baseTranslation": "20, 30",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "よんじゅうご",
+          "transliteration": "Yon-juu-go",
+          "baseTranslation": "45 (4-10-5)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Stating Your Age (The 'sai' counter)",
+      "bodyText": "To state your age, add the word 'sai' (さい) to the number. For example, 5 years old is 'go-sai'. However, there are exceptions! 1, 8, and 10 change their sounds. Also, 20 years old is a special word: 'hatachi'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは じゅうごさいです。",
+          "transliteration": "Watashi wa juu-go-sai desu.",
+          "baseTranslation": "I am 15 years old.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたしは はたちです。",
+          "transliteration": "Watashi wa hatachi desu.",
+          "baseTranslation": "I am 20 years old. (Exception)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いっさい、はっさい、じゅっさい",
+          "transliteration": "Issai, hassai, jussai",
+          "baseTranslation": "1 year old, 8 years old, 10 years old (Exceptions)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Telling Time (Hours)",
+      "bodyText": "To express the hour, simply add 'ji' (じ) after the number. It means 'o'clock'. Watch out for 4, 7, and 9! They use the alternate readings: yo-ji, shichi-ji, and ku-ji.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いちじ、にじ、さんじ",
+          "transliteration": "Ichi-ji, ni-ji, san-ji",
+          "baseTranslation": "1 o'clock, 2 o'clock, 3 o'clock",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "よじ、しちじ、くじ",
+          "transliteration": "Yo-ji, shichi-ji, ku-ji",
+          "baseTranslation": "4 o'clock, 7 o'clock, 9 o'clock (Exceptions!)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いま、なんじですか。",
+          "transliteration": "Ima, nan-ji desu ka.",
+          "baseTranslation": "What time is it now?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_05",
+      "sectionTitle": "Days of the Week",
+      "bodyText": "Every day of the week ends in 'youbi' (ようび), meaning 'day'. The first part is an element of nature. Moon, Fire, Water, Wood, Gold, Earth, Sun.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "げつようび、かようび",
+          "transliteration": "Getsuyoubi, Kayoubi",
+          "baseTranslation": "Monday (Moon day), Tuesday (Fire day)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "すいようび、もくようび",
+          "transliteration": "Suiyoubi, Mokuyoubi",
+          "baseTranslation": "Wednesday (Water day), Thursday (Wood day)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きんようび、どようび、にちようび",
+          "transliteration": "Kinyoubi, Doyoubi, Nichiyoubi",
+          "baseTranslation": "Friday (Gold day), Saturday (Earth day), Sunday (Sun day)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will accurately count to 99, tell the time on the hour, state their age including exceptions like 'hatachi', and list the days of the week.",
+  "examples": [
+    {
+      "targetText": "いまは げつようびです。はちじです。わたしは はたちです。",
+      "transliteration": "Ima wa getsuyoubi desu. Hachi-ji desu. Watashi wa hatachi desu.",
+      "baseTranslation": "Now it is Monday. It is 8 o'clock. I am 20 years old.",
+      "explanation": "This ties together Time ('ima' = now), Day of the week, Hour ('ji'), and Age ('hatachi')."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "For 4 o'clock, NEVER say 'yon-ji'. It is ALWAYS 'yo-ji'.",
+      "exceptionNotes": "The same applies to 9 o'clock: It is 'ku-ji', not 'kyuu-ji'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "20 years old is a special word: 'hatachi' (はたち). Do not say 'ni-juu-sai'.",
+      "exceptionNotes": "If you are 21, it goes back to normal: 'ni-juu-issai'."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "In Japan, turning 20 is a huge cultural milestone. It is the age of adulthood. Every January, there is a national holiday called 'Coming of Age Day' (Seijin no Hi) where all the 20-year-olds ('hatachi') dress up in beautiful kimonos and suits to attend a city ceremony.",
+    "dosList": [
+      "Memorize 'hatachi' because 20 is the most culturally significant age in Japan."
+    ],
+    "dontsList": [
+      "Avoid giving gifts in sets of 4 or 9. The number 4 (shi) sounds like the word for 'death', and 9 (ku) sounds like the word for 'suffering'."
+    ]
+  },
+  "summary": "Japanese numbers stack logically (e.g., 20 is 2-10). To state your age, add 'sai', but remember that 20 is 'hatachi'. To state the time, add 'ji', but remember that 4:00 is 'yo-ji' and 9:00 is 'ku-ji'. The days of the week end in 'youbi'.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "How do you say 45 in Japanese?",
+      "expectedAnswer": "よんじゅうご (yon-juu-go)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "How do you say 'I am 20 years old'?",
+      "expectedAnswer": "わたしは はたちです (Watashi wa hatachi desu)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you say '4 o'clock'?",
+      "expectedAnswer": "よじ (yo-ji)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Numbers 1-99 stacking system",
+      "Age suffix 'sai' and exception 'hatachi'",
+      "Time suffix 'ji' and exceptions 'yoji'/'kuji'",
+      "Days of the week ending in 'youbi'"
+    ],
+    "conceptSummary": "Mastering numbers, time, age, and days of the week with an emphasis on phonetic exceptions.",
+    "importantFacts": [
+      "4 is yon/shi, 7 is nana/shichi, 9 is kyuu/ku.",
+      "4:00 is yoji, 9:00 is kuji."
+    ],
+    "checkpointAnswers": {
+      "q1": "よんじゅうご",
+      "q2": "わたしは はたちです",
+      "q3": "よじ"
+    },
+    "expectedUnderstanding": "Learner must memorize 'hatachi', 'yoji', 'kuji', and the 'youbi' suffixes."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great work! You have unlocked numbers, time, and days.",
+    "onFail": "Review the exceptions. Pay special attention to 4 o'clock and 20 years old.",
+    "onPartial": "Good. Remember that numbers like 4 and 9 change depending on what you are counting."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "いち。に。さん。よん。ご。ろく。なな。はち。きゅう。じゅう。にじゅう。さんじゅう。じゅうごさい。はたち。いちじ。よじ。くじ。げつようび。かようび。すいようび。",
+    "audioLanguage": "ja",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "numbers",
+    "time",
+    "age",
+    "days",
+    "beginner",
+    "month1",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'ni-juu-sai' for 20 years old.",
+    "Saying 'yon-ji' for 4 o'clock."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

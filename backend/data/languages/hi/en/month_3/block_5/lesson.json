@@ -1,0 +1,197 @@
+{
+  "activityId": "en_hi_M3B5_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "Health & Emergencies",
+  "learningGoal": "The learner will master critical life-saving phrases for describing medical symptoms (using 'I have a' + noun) and reporting emergencies to authorities, avoiding common L1 translation errors (e.g., 'My head is paining').",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B4_test_001"],
+  "instructions": "In an emergency, you need to speak clearly and correctly. Today we learn how to talk to doctors and police officers. You will learn the exact English phrases to describe pain, sickness, and accidents.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अंग्रेजी में हम दर्द के बारे में कैसे बात करते हैं, यह हिंदी से बहुत अलग है। 'मेरा सिर दर्द कर रहा है' का शाब्दिक अनुवाद 'My head is paining' गलत अंग्रेजी है! आइए सही वाक्यों को सीखें।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Use 'I have a' + noun for illnesses and aches (I have a headache).",
+      "Do not use present continuous for pain (Avoid 'is paining').",
+      "Use 'My [body part] hurts' for localized injury.",
+      "Emergency reporting requires simple, direct SVO structures."
+    ],
+    "conceptSummary": "High-density instruction on English medical syntax, heavily focusing on the 'I have a [symptom]' structure to counter L1 progressive verb translation habits.",
+    "importantFacts": [
+      "'My head is paining' is Indian English/Hindi direct translation. The global native standard is 'I have a headache' or 'My head hurts'.",
+      "'Doctor' is a noun, so you must say 'I need TO SEE A doctor'."
+    ],
+    "checkpointAnswers": {
+      "q1": "I have a headache.",
+      "q2": "My stomach hurts.",
+      "q3": "I need to see a doctor."
+    },
+    "expectedUnderstanding": "Learners will recognize and produce the correct noun-possession structure for sickness ('I have a cold') and the correct verb for physical injury ('It hurts')."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You have mastered the most critical medical phrases. You successfully avoided the 'is paining' translation trap!",
+    "onFail": "Please review the lesson carefully! Remember the big rule: NEVER say 'is paining'. You must say 'I have a headache' or 'My arm hurts'.",
+    "onPartial": "Good effort! Let's clarify Question 3. You cannot just say 'I need doctor'. You must use the full phrase: 'I need to see a doctor'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b5/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m3/b5/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m3/b5/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m3/b5/lesson/native_lesson.mp3",
+    "audioTranscript": "I have a headache. My arm hurts. I need to see a doctor.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["health", "emergencies", "medical", "hospital", "police", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b5/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the verbs 'Have' (for sickness) and 'Hurts' (for injury).",
+  "commonMistakes": [
+    "Saying 'My stomach is paining.'",
+    "Saying 'I am suffering from fever' (too formal for daily spoken English)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B5_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Medical & Emergency Syntax",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "The 'Paining' Mistake (दर्द के बारे में बात करना)",
+      "bodyText": "हिंदी भाषी अक्सर कहते हैं 'My head is paining'. नेटिव इंग्लिश स्पीकर ऐसा कभी नहीं बोलते। बीमारी के लिए हम 'I have a + noun' का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I have a headache.",
+          "transliteration": "आई हैव अ हेडेक।",
+          "baseTranslation": "मेरे सिर में दर्द है।"
+        },
+        {
+          "targetText": "I have a stomachache.",
+          "transliteration": "आई हैव अ स्टमकेक।",
+          "baseTranslation": "मेरे पेट में दर्द है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Physical Injuries (शारीरिक चोटें)",
+      "bodyText": "यदि आपको कोई बाहरी चोट लगी है (जैसे हाथ या पैर में दर्द है), तो हम 'Hurts' (हर्ट्स) का उपयोग करते हैं। यह 'is paining' का सही रूप है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "My arm hurts.",
+          "transliteration": "माई आर्म हर्ट्स।",
+          "baseTranslation": "मेरे हाथ में दर्द है / मुझे हाथ में चोट लगी है।"
+        },
+        {
+          "targetText": "My back hurts.",
+          "transliteration": "माई बैक हर्ट्स।",
+          "baseTranslation": "मेरी कमर में दर्द है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "General Sickness (सामान्य बीमारी)",
+      "bodyText": "सर्दी, बुखार या खांसी के लिए भी हम 'Have' का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I have a cold.",
+          "transliteration": "आई हैव अ कोल्ड।",
+          "baseTranslation": "मुझे जुकाम है।"
+        },
+        {
+          "targetText": "I have a fever.",
+          "transliteration": "आई हैव अ फीवर।",
+          "baseTranslation": "मुझे बुखार है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Asking for Medical Help (चिकित्सा सहायता मांगना)",
+      "bodyText": "डॉक्टर से मिलने के लिए, हम एक विशेष वाक्यांश 'see a doctor' का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I need to see a doctor.",
+          "transliteration": "आई नीड टू सी अ डॉक्टर।",
+          "baseTranslation": "मुझे डॉक्टर को दिखाने की ज़रूरत है।"
+        },
+        {
+          "targetText": "Where is the pharmacy?",
+          "transliteration": "वेयर इज़ द फार्मेसी?",
+          "baseTranslation": "फार्मेसी (दवाखाना) कहाँ है?"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will structure medical complaints correctly using 'I have a [condition]' and '[Body part] hurts', entirely abandoning L1 literal translations involving 'paining'.",
+  "examples": [
+    {
+      "targetText": "I have a toothache.",
+      "transliteration": "आई हैव अ टूथएक।",
+      "baseTranslation": "मेरे दांत में दर्द है।",
+      "explanation": "Notice the pattern: body part + ache = toothache, headache, stomachache."
+    },
+    {
+      "targetText": "My leg hurts.",
+      "transliteration": "माई लेग हर्ट्स।",
+      "baseTranslation": "मेरे पैर में दर्द है।",
+      "explanation": "Use 'hurts', never 'is paining'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never say 'My head is paining'. Always say 'I have a headache' or 'My head hurts'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Always use the article 'A' with sickness words: I have A cold, I have A fever.",
+      "exceptionNotes": "Exception: 'Flu' (फ्लू) takes 'the'. 'I have the flu'."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "In hospitals in Western countries, nurses will ask 'On a scale of 1 to 10, how much does it hurt?'. You must be able to describe your pain clearly using 'hurt' and 'ache'.",
+    "dosList": ["Use 'I have a...' for internal illnesses.", "Use 'My [part] hurts' for physical injuries."],
+    "dontsList": ["Never use 'is paining'."]
+  },
+  "summary": "To talk about health, remove the word 'paining' from your vocabulary. For illness and head/stomach/tooth pain, use 'I have a...'. For body injuries, say 'My [body part] hurts'.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Fix this sentence: 'My head is paining.' -> '____________'",
+      "expectedAnswer": "I have a headache."
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fix this sentence: 'My stomach is giving pain.' -> '____________'",
+      "expectedAnswer": "My stomach hurts."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Fill in the blank: 'I need to _____ a doctor.'",
+      "expectedAnswer": "see"
+    }
+  ]
+}

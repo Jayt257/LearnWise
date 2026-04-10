@@ -1,0 +1,245 @@
+{
+  "activityId": "en_ja_M1B4_test_8",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Test: Time and Calendar",
+  "learningGoal": "Evaluate your understanding of numbers, telling time, and correctly stating dates and days of the week.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B4_speaking_7"
+  ],
+  "instructions": "Block 4 のテストです。時間や曜日につく前置詞（on, atなど）や、日付の正しい言い方（序数）に関する問題に答えてください。(This is the Block 4 test. Answer questions about prepositions of time and the correct way to say dates.)",
+  "testTitle": "Time and Calendar Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Prepositions of Time (時間・日付の前置詞)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Fill in the blank: 'The meeting is _____ Monday.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "the"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'The party is _____ 7:30.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "to"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Fill in the blank: 'My birthday is _____ January.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "of"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Dates and Numbers (日付と数字)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「5月1日」の正しい英語の言い方はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "May one",
+            "May first",
+            "First May",
+            "The May one"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「私は30歳です」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have thirty years.",
+            "I am thirteen years old.",
+            "I am thirty years old.",
+            "I thirty years."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「13」の正しいスペルはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "thirteen",
+            "thirty",
+            "threeteen",
+            "thirten"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary: Calendar (カレンダーの単語)",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「水曜日」の正しい英単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「2月」の正しい英単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "January",
+            "February",
+            "March",
+            "April"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "月と曜日の書き方として、正しいルールはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "文の途中なら小文字で始める (Start with lowercase in the middle of a sentence)",
+            "常に大文字で始める (Always start with a capital letter)",
+            "全て大文字で書く (Write in ALL CAPS)",
+            "ルールはない (No rule)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "「3番目（3日）」を表す英単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "three",
+            "third",
+            "thirth",
+            "second"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "on",
+      "q2": "at",
+      "q3": "in",
+      "q4": "May first",
+      "q5": "I am thirty years old.",
+      "q6": "thirteen",
+      "q7": "Wednesday",
+      "q8": "February",
+      "q9": "常に大文字で始める (Always start with a capital letter)",
+      "q10": "third"
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！時間と日付の表現を完璧にマスターしましたね。",
+    "onFail": "前置詞（on, at, in）の使い分けや、曜日のスペルをもう一度復習しましょう。",
+    "onPartial": "よくできました。13（thirteen）と30（thirty）の違いや、日付の「first, second, third」を復習してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_4",
+    "time",
+    "dates",
+    "prepositions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Time takes 'at', days take 'on', and months take 'in'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B5_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,178 @@
+{
+  "activityId": "en_hi_M2B1_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "The Salesman",
+  "learningGoal": "The learner will verbally construct fluid noun phrases (Adjective + Noun) without stammering, successfully applying lexical stress to the adjective to emulate native expression during a persuasive dialogue.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B1_vocabulary_001"],
+  "instructions": "You are a salesman trying to sell a house to a family! They will ask you questions about the house. You must answer them by describing the house and the neighborhood using adjectives. Put a little extra energy into the describing words!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Remember: NEVER put an 's' on the describing word. And say the describing word slightly louder than the noun!"
+    }
+  ],
+  "speakingPrompt": "Respond to the customer's Hindi questions in English.",
+  "scenario": "A family is looking at a house you are trying to sell them.",
+  "role": "Real Estate Agent",
+  "conversationPartner": "The Customer",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "ग्राहक: 'Is this a small house?' (क्या यह एक छोटा घर है?)। जवाब दें: 'नहीं, यह एक बड़ा घर है।' (A big house).",
+      "expectedSpeakingPoints": ["No", "it is", "a big house"],
+      "sampleResponse": {
+        "targetText": "No, it is a big house.",
+        "transliteration": "नो, इट इज़ अ बिग हाउस।",
+        "baseTranslation": "नहीं, यह एक बड़ा घर है।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "ग्राहक: 'What about the kitchen?' (रसोई के बारे में क्या?)। जवाब दें: 'रसोई साफ और सुंदर है।' (clean and beautiful).",
+      "expectedSpeakingPoints": ["The kitchen is", "clean", "beautiful"],
+      "sampleResponse": {
+        "targetText": "The kitchen is clean and beautiful.",
+        "transliteration": "द किचन इज़ क्लीन एंड ब्यूटीफुल।",
+        "baseTranslation": "रसोई साफ और सुंदर है।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "ग्राहक: 'Is the street loud?' (क्या सड़क पर शोर है?)। जवाब दें: 'नहीं, यह एक शांत सड़क है।' (A quiet street).",
+      "expectedSpeakingPoints": ["No", "it is", "a quiet street"],
+      "sampleResponse": {
+        "targetText": "No, it is a quiet street.",
+        "transliteration": "नो, इट इज़ अ क्वाइट स्ट्रीट।",
+        "baseTranslation": "नहीं, यह एक शांत सड़क है।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "ग्राहक: 'Are the schools bad?' (क्या स्कूल बुरे हैं?)। जवाब दें: 'नहीं, वे अच्छे स्कूल हैं!' (Good schools - No 's' on good!)",
+      "expectedSpeakingPoints": ["No", "they are", "good schools"],
+      "sampleResponse": {
+        "targetText": "No, they are good schools.",
+        "transliteration": "नो, दे आर गुड स्कूल्स।",
+        "baseTranslation": "नहीं, वे अच्छे स्कूल हैं।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "ग्राहक: 'I like it. I am very happy.' (मुझे यह पसंद है। मैं बहुत खुश हूँ।)। जवाब दें: 'मैं भी खुश हूँ!' (I am... too).",
+      "expectedSpeakingPoints": ["I am", "happy", "too"],
+      "sampleResponse": {
+        "targetText": "I am happy too!",
+        "transliteration": "आई एम हैप्पी टू!",
+        "baseTranslation": "मैं भी खुश हूँ!"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Is this a small house?",
+    "transliteration": "इज़ दिस अ स्मॉल हाउस?",
+    "baseTranslation": "क्या यह एक छोटा घर है?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "No, it is a big house.",
+      "transliteration": "नो, इट इज़ अ बिग हाउस।",
+      "baseTranslation": "नहीं, यह एक बड़ा घर है।"
+    },
+    {
+      "targetText": "The kitchen is clean and beautiful.",
+      "transliteration": "द किचन इज़ क्लीन एंड ब्यूटीफुल।",
+      "baseTranslation": "रसोई साफ और सुंदर है।"
+    },
+    {
+      "targetText": "No, it is a quiet street.",
+      "transliteration": "नो, इट इज़ अ क्वाइट स्ट्रीट।",
+      "baseTranslation": "नहीं, यह एक शांत सड़क है।"
+    },
+    {
+      "targetText": "No, they are good schools.",
+      "transliteration": "नो, दे आर गुड स्कूल्स।",
+      "baseTranslation": "नहीं, वे अच्छे स्कूल हैं।"
+    },
+    {
+      "targetText": "I am happy too!",
+      "transliteration": "आई एम हैप्पी टू!",
+      "baseTranslation": "मैं भी खुश हूँ!"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "big house",
+      "clean and beautiful",
+      "quiet street",
+      "good schools",
+      "happy"
+    ],
+    "requiredKeywords": [
+      "big",
+      "clean",
+      "beautiful",
+      "quiet",
+      "good",
+      "happy"
+    ],
+    "acceptableParaphrases": [
+      "It is a big house",
+      "They are good schools"
+    ],
+    "scoringRubric": {
+      "Adjective Placement": "Did the user say 'A big house' and NOT 'A house big'?",
+      "No Plurals on Adjectives": "Did the user correctly say 'Good schools' and NOT 'Goods schools'?",
+      "Lexical Stress": "Did the user place slightly more vocal emphasis on the modifiers?"
+    },
+    "sampleAnswer": "No, it is a big house. The kitchen is clean and beautiful. No, it is a quiet street. No, they are good schools. I am happy too!",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully sold the house by using fluid, perfectly placed English adjectives. Best of all, you didn't say 'goods schools'!",
+    "onFail": "Keep practicing! You probably put the describing word in the wrong place. Say 'A BIG HOUSE'. Just like in Hindi (Bada Ghar), the describing word comes FIRST.",
+    "onPartial": "Good try! Remember, when talking about multiple things (Schools), the noun gets an 'S', but the describing word (Good) NEVER gets an 's'!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b1/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m2/b1/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b1/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m2/b1/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m2/b1/speaking/full_dialogue.mp3",
+    "audioTranscript": "Customer: Is this a small house?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "adjectives", "sales", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b1/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To sound very native, stretch the describing word just a tiny bit. 'It is a biiiiiig house.'",
+  "commonMistakes": [
+    "Stammering between the article and the adjective ('A... uh... big house').",
+    "Saying 'Goods schools'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B1_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

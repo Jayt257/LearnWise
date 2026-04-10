@@ -1,0 +1,211 @@
+{
+  "activityId": "hi_en_M1B5_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "Reading: Describing My Family and Things",
+  "learningGoal": "Read sentences describing objects and people, identifying the difference between formal and informal 'you', and singular vs plural verbs.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B5_pronunciation_2"
+  ],
+  "instructions": "Read the short paragraph written by Neha about her family and belongings. Pay attention to how adjectives change endings (bada vs badi) depending on what they describe.",
+  "readingTitle": "मेरा घर और परिवार (My Home and Family)",
+  "readingText": "नमस्ते। मैं नेहा हूँ। यह मेरा घर है। घर बड़ा है। ये मेरी किताबें हैं। किताबें अच्छी हैं। यह मेरा भाई, राहुल है। राहुल छोटा है। आप कैसे हैं? आप अच्छे हैं। तुम मेरे दोस्त हो। तुम बहुत अच्छे हो।",
+  "textInTargetLanguage": "नमस्ते। मैं नेहा हूँ। यह मेरा घर है। घर बड़ा है। ये मेरी किताबें हैं। किताबें अच्छी हैं। यह मेरा भाई, राहुल है। राहुल छोटा है। आप कैसे हैं? आप अच्छे हैं। तुम मेरे दोस्त हो। तुम बहुत अच्छे हो।",
+  "baseLanguageSupportText": "Hello. I am Neha. This is my house. The house is big. These are my books. The books are good. This is my brother, Rahul. Rahul is small (young). How are you (formal)? You are good. You are my friend (informal). You are very good.",
+  "glossary": [
+    {
+      "targetText": "बड़ा",
+      "transliteration": "bada",
+      "baseTranslation": "big (masculine)",
+      "exampleSentence": {
+        "targetText": "घर बड़ा है।",
+        "transliteration": "Ghar bada hai.",
+        "baseTranslation": "The house is big."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "छोटा",
+      "transliteration": "chhota",
+      "baseTranslation": "small / young (masculine)",
+      "exampleSentence": {
+        "targetText": "राहुल छोटा है।",
+        "transliteration": "Rahul chhota hai.",
+        "baseTranslation": "Rahul is young."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "अच्छी",
+      "transliteration": "achchhi",
+      "baseTranslation": "good (feminine)",
+      "exampleSentence": {
+        "targetText": "किताबें अच्छी हैं।",
+        "transliteration": "Kitaabein achchhi hain.",
+        "baseTranslation": "The books are good."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "दोस्त",
+      "transliteration": "dost",
+      "baseTranslation": "friend",
+      "exampleSentence": {
+        "targetText": "तुम मेरे दोस्त हो।",
+        "transliteration": "Tum mere dost ho.",
+        "baseTranslation": "You are my friend."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "बहुत",
+      "transliteration": "bahut",
+      "baseTranslation": "very",
+      "exampleSentence": {
+        "targetText": "तुम बहुत अच्छे हो।",
+        "transliteration": "Tum bahut achchhe ho.",
+        "baseTranslation": "You are very good."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "ये मेरी किताबें हैं।",
+      "transliteration": "Ye meri kitaabein hain.",
+      "baseTranslation": "These are my books."
+    },
+    {
+      "targetText": "आप अच्छे हैं।",
+      "transliteration": "Aap achchhe hain.",
+      "baseTranslation": "You (formal) are good."
+    },
+    {
+      "targetText": "तुम बहुत अच्छे हो।",
+      "transliteration": "Tum bahut achchhe ho.",
+      "baseTranslation": "You (informal) are very good."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "How does Neha describe her house (ghar)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Bada (Big)",
+        "Chhota (Small)",
+        "Achchha (Good)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "Why does Neha say 'Kitaabein achchhi hain' (books are good) using the feminine word 'achchhi' instead of 'achchha'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because the word 'Kitaab' (book) is grammatically feminine in Hindi.",
+        "Because Neha is a girl.",
+        "Because the books are small."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "When Neha talks to her friend, she uses 'Tum' (तुम). Which verb matches 'Tum' in her sentence?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ho (हो)",
+        "hain (हैं)",
+        "hai (है)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "How does Neha describe her brother Rahul?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Chhota (Small/Young)",
+        "Bada (Big/Old)",
+        "Bahut (Very)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "When Neha switches to formal language and says 'Aap kaise hain?', what verb does she use?",
+      "questionType": "multiple_choice",
+      "options": [
+        "hain (हैं)",
+        "ho (हो)",
+        "hoon (हूँ)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Bada (Big)",
+      "rq_2": "Because the word 'Kitaab' (book) is grammatically feminine in Hindi.",
+      "rq_3": "ho (हो)",
+      "rq_4": "Chhota (Small/Young)",
+      "rq_5": "hain (हैं)"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Identify the use of 'ho' with 'tum' and 'hain' with 'aap'.",
+      "Recognize that adjectives change based on the noun's gender.",
+      "Understand basic adjectives: big, small, good."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic reading! You are picking up on advanced grammar signals like adjective agreement.",
+    "onFail": "Review Section 4 of the lesson. Remember that verbs and adjectives change based on who or what you are talking about.",
+    "onPartial": "Good effort! Pay close attention to the difference between 'Aap hain' and 'Tum ho'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। मैं नेहा हूँ। यह मेरा घर है। घर बड़ा है। ये मेरी किताबें हैं। किताबें अच्छी हैं। यह मेरा भाई, राहुल है। राहुल छोटा है। आप कैसे हैं? आप अच्छे हैं। तुम मेरे दोस्त हो। तुम बहुत अच्छे हो।",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "adjectives",
+    "pronouns",
+    "verb_to_be",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the dots. 'Hain' (हैं) has a dot, 'Hai' (है) does not. The dot means it's plural or formal.",
+  "commonMistakes": [
+    "Thinking 'Achchhi' means a different word than 'Achchha'. It's just the feminine form."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B5_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

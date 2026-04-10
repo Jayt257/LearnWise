@@ -1,0 +1,184 @@
+{
+  "activityId": "en_hi_M1B2_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Describing Your Photograph",
+  "learningGoal": "The learner will fluidly speak at least 5 different English sentences dynamically swapping between 'I', 'He', 'She', and 'We' and their corresponding 'To Be' verbs, including one negative sentence.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B2_vocabulary_001"],
+  "instructions": "In this exercise, you are showing a family photograph to your English teacher. The teacher will ask you about the people in the picture. You must reply verbally using the correct pronoun (He, She, They) and 'To Be' verb.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Try your best to use contractions verbally! Say 'He's' instead of 'He is'."
+    }
+  ],
+  "speakingPrompt": "Answer the teacher's questions about your photograph out loud.",
+  "scenario": "You are sitting next to your teacher, looking at a photo on your phone. You have to explain who everyone is.",
+  "role": "Student explaining a photo",
+  "conversationPartner": "Your English Teacher",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "शिक्षक तस्वीर में एक आदमी की ओर इशारा करते हैं और पूछते हैं, 'Who is he?' (वह कौन है?)। बताएं कि वह आपका भाई है (He is... का उपयोग करें)।",
+      "expectedSpeakingPoints": ["Use He is or He's", "Say my brother"],
+      "sampleResponse": {
+        "targetText": "He is my brother.",
+        "transliteration": "ही इज़ माई ब्रदर।",
+        "baseTranslation": "वह मेरा भाई है।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "शिक्षक कहते हैं, 'Is he a student?' (क्या वह एक छात्र है?)। उन्हें बताएं कि नहीं, वह एक डॉक्टर है (नकारात्मक वाक्य का उपयोग करें: He is not...)।",
+      "expectedSpeakingPoints": ["Say He is not or He's not", "Use doctor"],
+      "sampleResponse": {
+        "targetText": "No, he is not a student. He is a doctor.",
+        "transliteration": "नो, ही इज़ नॉट अ स्टूडेंट। ही इज़ अ डॉक्टर।",
+        "baseTranslation": "नहीं, वह एक छात्र नहीं है। वह एक डॉक्टर है।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "शिक्षक तस्वीर में एक महिला की ओर इशारा करते हैं और पूछते हैं, 'Who is she?' (वह कौन है?)। बताएं कि वह आपकी बहन है।",
+      "expectedSpeakingPoints": ["Use She is or She's", "Say my sister"],
+      "sampleResponse": {
+        "targetText": "She is my sister.",
+        "transliteration": "शी इज़ माई सिस्टर।",
+        "baseTranslation": "वह मेरी बहन है।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "शिक्षक पूछते हैं, 'Are they your friends in the back?' (क्या पीछे वाले आपके दोस्त हैं?)। पुष्टि करें कि हाँ, वे मेरे दोस्त हैं।",
+      "expectedSpeakingPoints": ["Use They are or They're", "Say my friends"],
+      "sampleResponse": {
+        "targetText": "Yes, they are my friends.",
+        "transliteration": "येस, दे आर माई फ्रेंड्स।",
+        "baseTranslation": "हाँ, वे मेरे दोस्त हैं।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "शिक्षक कहते हैं, 'It is a very nice photo.' (यह बहुत अच्छी तस्वीर है।)। उन्हें बताएं कि आप सभी (हम) खुश हैं। (We are... का उपयोग करें)।",
+      "expectedSpeakingPoints": ["Use We are or We're", "Say happy"],
+      "sampleResponse": {
+        "targetText": "Thank you. We are very happy.",
+        "transliteration": "थैंक यू। वी आर वेरी हैप्पी।",
+        "baseTranslation": "धन्यवाद। हम बहुत खुश हैं।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "This is a great photo. Who is he?",
+    "transliteration": "दिस इज़ अ ग्रेट फोटो। हु इज़ ही?",
+    "baseTranslation": "यह एक बहुत अच्छी तस्वीर है। वह कौन है?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "He is my brother.",
+      "transliteration": "ही इज़ माई ब्रदर।",
+      "baseTranslation": "वह मेरा भाई है।"
+    },
+    {
+      "targetText": "No, he is not a student. He is a doctor.",
+      "transliteration": "नो, ही इज़ नॉट अ स्टूडेंट। ही इज़ अ डॉक्टर।",
+      "baseTranslation": "नहीं, वह एक छात्र नहीं है। वह एक डॉक्टर है।"
+    },
+    {
+      "targetText": "She is my sister.",
+      "transliteration": "शी इज़ माई सिस्टर।",
+      "baseTranslation": "वह मेरी बहन है।"
+    },
+    {
+      "targetText": "Yes, they are my friends.",
+      "transliteration": "येस, दे आर माई फ्रेंड्स।",
+      "baseTranslation": "हाँ, वे मेरे दोस्त हैं।"
+    },
+    {
+      "targetText": "Thank you. We are very happy.",
+      "transliteration": "थैंक यू। वी आर वेरी हैप्पी।",
+      "baseTranslation": "धन्यवाद। हम बहुत खुश हैं।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 20,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "He is",
+      "brother",
+      "not",
+      "doctor",
+      "She is",
+      "sister",
+      "They are",
+      "friends",
+      "We are",
+      "happy"
+    ],
+    "requiredKeywords": [
+      "brother",
+      "doctor",
+      "sister",
+      "friends",
+      "happy"
+    ],
+    "acceptableParaphrases": [
+      "He's my brother",
+      "She's my sister",
+      "They're my friends",
+      "We're happy",
+      "He isn't a student"
+    ],
+    "scoringRubric": {
+      "Pronoun Conjugation": "Did the user accurately map He to is, She to is, They to are, and We to are while speaking?",
+      "Negative Placement": "Did the user say 'He is not' correctly without defaulting to 'no he is'?"
+    },
+    "sampleAnswer": "He is my brother. He is not a student, he is a doctor. She is my sister. Yes, they are my friends. We are very happy.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered English Subject-Verb agreement natively while speaking.",
+    "onFail": "Keep practicing! You might be using 'is' with 'They' or forgetting the negative word 'not'. Repeat the phrases slowly.",
+    "onPartial": "Good try! Ensure you clearly differentiate between 'He' for your brother and 'She' for your sister!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b2/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m1/b2/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b2/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m1/b2/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m1/b2/speaking/full_dialogue.mp3",
+    "audioTranscript": "Teacher: This is a great photo. Who is he?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "pronouns", "to-be-verbs", "descriptions", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b2/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you are struggling to speak fast, do not use contractions. Say 'They are' fully. Speed will come with time.",
+  "commonMistakes": [
+    "Saying 'She is my brother' due to Hindi having no gendered pronoun for 'वह'.",
+    "Saying 'They is my friends'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B2_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,448 @@
+{
+  "activityId": "ja_en_M1B2_test_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Final Test — Identity and Full Hiragana",
+  "learningGoal": "The learner will demonstrate mastery over the complete Hiragana chart, dakuten usage, and the ability to state and comprehend names, nationalities, and occupations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B2_lesson_001",
+    "ja_en_M1B2_pronunciation_001",
+    "ja_en_M1B2_reading_001",
+    "ja_en_M1B2_writing_001",
+    "ja_en_M1B2_listening_001",
+    "ja_en_M1B2_vocabulary_001",
+    "ja_en_M1B2_speaking_001"
+  ],
+  "instructions": "This test evaluates everything you learned in Block 2. You will be tested on the new Hiragana letters, occupations, nationalities, and the 'A wa B desu' sentence structure. There are four sections. Take your time and make sure you understand each question before answering.",
+  "testTitle": "Block 2 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Answer all 20 questions. The total score is out of 100 points. You need at least 70 points to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab_grammar",
+      "sectionTitle": "Vocabulary and Grammar",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does だいがくせい mean?",
+          "questionType": "multiple_choice",
+          "options": ["Doctor", "University student", "High school student", "Teacher"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "だいがくせい",
+            "transliteration": "Daigakusei",
+            "baseTranslation": "University student"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which suffix is added to a country name to mean 'a person from that country'?",
+          "questionType": "multiple_choice",
+          "options": ["wa", "desu", "jin", "ka"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "How do you say 'Japanese (person)' in Japanese?",
+          "questionType": "multiple_choice",
+          "options": ["にほんご", "にほんじん", "アメリカじん", "イギリスじん"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "にほんじん",
+            "transliteration": "Nihon-jin",
+            "baseTranslation": "Japanese person"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Which of these words means 'Office worker'?",
+          "questionType": "multiple_choice",
+          "options": ["せんせい", "いしゃ", "かいしゃいん", "がくせい"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "かいしゃいん",
+            "transliteration": "Kaishain",
+            "baseTranslation": "Office worker"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "What particle is added to the end of a sentence to make it a question?",
+          "questionType": "multiple_choice",
+          "options": ["は (wa)", "か (ka)", "です (desu)", "を (wo)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "True or False: The topic particle 'wa' is written in Hiragana as わ.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "は",
+            "transliteration": "ha (pronounced wa)",
+            "baseTranslation": "topic particle"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What does わたしは ジョンです mean?",
+          "questionType": "multiple_choice",
+          "options": ["You are John.", "I am John.", "Is John here?", "Hello, John."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "わたしは ジョンです",
+            "transliteration": "Watashi wa Jon desu.",
+            "baseTranslation": "I am John."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which Hiragana character has a Dakuten (two small lines) added to it?",
+          "questionType": "multiple_choice",
+          "options": ["か", "が", "は", "ま"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "が",
+            "transliteration": "ga",
+            "baseTranslation": "K with dakuten"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 25
+    },
+    {
+      "sectionId": "sec_listening",
+      "sectionTitle": "Listening Comprehension",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Listen to the audio. What is the speaker's nationality?",
+          "questionType": "multiple_choice",
+          "options": ["American", "British", "Japanese", "Canadian"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q009",
+          "questionHints": {
+            "targetText": "イギリスじんです",
+            "transliteration": "Igirisu-jin desu",
+            "baseTranslation": "I am British"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Listen to the audio. What is the speaker's occupation?",
+          "questionType": "multiple_choice",
+          "options": ["Teacher", "Doctor", "University student", "Office worker"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q010",
+          "questionHints": {
+            "targetText": "いしゃです",
+            "transliteration": "Isha desu",
+            "baseTranslation": "I am a doctor"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Listen to the audio. What question is being asked?",
+          "questionType": "multiple_choice",
+          "options": ["Are you a teacher?", "Are you American?", "Are you a student?", "What is your name?"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q011",
+          "questionHints": {
+            "targetText": "あなたは アメリカじんですか。",
+            "transliteration": "Anata wa Amerika-jin desu ka.",
+            "baseTranslation": "Are you American?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Listen to the audio. Which word did you hear?",
+          "questionType": "multiple_choice",
+          "options": ["Flower", "Water", "Mountain", "Book"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q012",
+          "questionHints": {
+            "targetText": "みず",
+            "transliteration": "Mizu",
+            "baseTranslation": "Water"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_reading",
+      "sectionTitle": "Reading Hiragana",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "How do you read the word: かぜ",
+          "questionType": "multiple_choice",
+          "options": ["Kase", "Gaze", "Kaze", "Kade"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "かぜ",
+            "transliteration": "Kaze",
+            "baseTranslation": "Wind"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "How do you read the word: ぼうし",
+          "questionType": "multiple_choice",
+          "options": ["Houshi", "Poushi", "Boushi", "Moushi"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ぼうし",
+            "transliteration": "Boushi",
+            "baseTranslation": "Hat"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "How do you read the word: りんご",
+          "questionType": "multiple_choice",
+          "options": ["Rinko", "Ringo", "Rinso", "Rinzo"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "りんご",
+            "transliteration": "Ringo",
+            "baseTranslation": "Apple"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Read the following sentence: わたしは がくせいです. What does it mean?",
+          "questionType": "multiple_choice",
+          "options": ["I am a teacher.", "I am a student.", "You are a student.", "I am Japanese."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "わたしは がくせいです",
+            "transliteration": "Watashi wa gakusei desu",
+            "baseTranslation": "I am a student"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_writing",
+      "sectionTitle": "Writing and Construction",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q017",
+          "questionText": "Write the Hiragana characters for 'Mizu' (water).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "みず",
+            "transliteration": "Mizu",
+            "baseTranslation": "Water"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write the Hiragana characters for 'Hon' (book).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ほん",
+            "transliteration": "Hon",
+            "baseTranslation": "Book"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "What is the final phrase you must say to conclude your self-introduction? (Write the romanized or Hiragana version).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "よろしく おねがいします",
+            "transliteration": "Yoroshiku onegaishimasu",
+            "baseTranslation": "Please treat me well"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate this sentence to English: あなたは せんせいですか。",
+          "questionType": "multiple_choice",
+          "options": ["Are you a teacher?", "I am a teacher.", "Are you a student?", "You are a teacher."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "あなたは せんせいですか",
+            "transliteration": "Anata wa sensei desu ka.",
+            "baseTranslation": "Are you a teacher?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 10,
+    "reading": 20,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 15,
+    "speaking": 5
+  },
+  "totalMarks": 100,
+  "passMarks": 70,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "University student",
+      "q002": "jin",
+      "q003": "にほんじん",
+      "q004": "かいしゃいん",
+      "q005": "か (ka)",
+      "q006": "False",
+      "q007": "I am John.",
+      "q008": "が",
+      "q009": "British",
+      "q010": "Doctor",
+      "q011": "Are you American?",
+      "q012": "Water",
+      "q013": "Kaze",
+      "q014": "Boushi",
+      "q015": "Ringo",
+      "q016": "I am a student.",
+      "q017": "みず",
+      "q018": "ほん",
+      "q019": "よろしく おねがいします",
+      "q020": "Are you a teacher?"
+    },
+    "scoringRubric": {
+      "q017": "Full marks for exact Hiragana.",
+      "q018": "Full marks for exact Hiragana.",
+      "q019": "Full marks for correct Japanese phrase, either written in Hiragana or Romanized."
+    },
+    "partialCreditRules": {
+      "q019": "Half marks for spelling errors in Romaji."
+    },
+    "alternateValidAnswers": {
+      "q017": ["mizu", "Mizu"],
+      "q018": ["hon", "Hon"],
+      "q019": [
+        "Yoroshiku onegaishimasu",
+        "yoroshiku onegaishimasu",
+        "よろしくおねがいします"
+      ]
+    },
+    "sectionPassMarks": {
+      "sec_vocab_grammar": 25,
+      "sec_listening": 10,
+      "sec_reading": 10,
+      "sec_writing": 10
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Congratulations! You've mastered Block 2. You now know the complete Hiragana alphabet and can introduce yourself fully.",
+    "onFail": "Keep trying! Make sure you review the new Hiragana rows and practice the difference between 'wa' and 'ha'.",
+    "onPartial": "Almost there! Review your mistakes and try again. Focus on the vocabulary words."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block2",
+    "hiragana",
+    "identity",
+    "nationalities",
+    "occupations",
+    "beginner",
+    "month1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B3_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

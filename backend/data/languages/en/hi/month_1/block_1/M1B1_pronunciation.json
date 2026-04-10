@@ -1,0 +1,182 @@
+{
+  "activityId": "hi_en_M1B1_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Perfecting Vowels & Namaste",
+  "learningGoal": "Accurately pronounce Hindi short and long vowels, and the greeting 'Namaste'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M1B1_lesson_1"
+  ],
+  "instructions": "Hindi pronunciation requires you to clearly distinguish between short and long vowel sounds. Listen carefully to the audio and mimic the length. Pay special attention to the difference between 'i' and 'ee', and 'u' and 'oo'.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "अ",
+      "transliteration": "a",
+      "baseTranslation": "Short 'a' (like in 'about')",
+      "phoneticHint": "uh",
+      "syllableSplit": "a",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'a' like in 'apple'."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "आ",
+      "transliteration": "aa",
+      "baseTranslation": "Long 'aa' (like in 'car')",
+      "phoneticHint": "aah",
+      "syllableSplit": "aa",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Making it too short."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "इ",
+      "transliteration": "i",
+      "baseTranslation": "Short 'i' (like in 'sit')",
+      "phoneticHint": "ih",
+      "syllableSplit": "i",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Stretching the sound."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "ई",
+      "transliteration": "ee",
+      "baseTranslation": "Long 'ee' (like in 'see')",
+      "phoneticHint": "eee",
+      "syllableSplit": "ee",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Making it too short."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "उ",
+      "transliteration": "u",
+      "baseTranslation": "Short 'u' (like in 'put')",
+      "phoneticHint": "uh (rounded lips)",
+      "syllableSplit": "u",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'u' like in 'up'."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "ऊ",
+      "transliteration": "oo",
+      "baseTranslation": "Long 'oo' (like in 'moon')",
+      "phoneticHint": "ooo",
+      "syllableSplit": "oo",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Making it too short."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "ए",
+      "transliteration": "e",
+      "baseTranslation": "Like 'a' in 'say'",
+      "phoneticHint": "ay",
+      "syllableSplit": "e",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'e' like in 'egg'."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "ओ",
+      "transliteration": "o",
+      "baseTranslation": "Like 'o' in 'go'",
+      "phoneticHint": "oh",
+      "syllableSplit": "o",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Making it a diphthong (o-w)."
+    },
+    {
+      "itemId": "p_9",
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "Hello",
+      "phoneticHint": "nuh-muh-stay",
+      "syllableSplit": "na-mas-te",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Na-ma-stee'."
+    },
+    {
+      "itemId": "p_10",
+      "targetText": "आप कैसे हैं",
+      "transliteration": "Aap kaise hain",
+      "baseTranslation": "How are you?",
+      "phoneticHint": "aap kay-say hain",
+      "syllableSplit": "aap kai-se hain",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Mispronouncing 'hai' as 'high' without the nasal 'n' (bindu)."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear distinction between short and long vowels, and proper nasalization of 'hain'.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Excellent! You have mastered the basic Hindi sounds.",
+    "onFail": "Listen closely to the audio. Make sure you stretch the 'aa' sound longer than 'a'.",
+    "onPartial": "Good effort! Pay special attention to the nasal 'n' sound at the end of 'hain'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "vowels",
+    "swar",
+    "namaste"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Open your mouth wide for 'आ' (aa).",
+  "commonMistakes": [
+    "Failing to nasalize the 'hain' in 'Aap kaise hain'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B1_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

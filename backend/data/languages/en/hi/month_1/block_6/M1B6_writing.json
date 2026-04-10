@@ -1,0 +1,187 @@
+{
+  "activityId": "hi_en_M1B6_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Writing: Giving Directions",
+  "learningGoal": "Construct sentences using postpositions to state locations, and write polite commands using the formal '-iye' suffix.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B6_lesson_1"
+  ],
+  "instructions": "In this writing task, you will play the role of a host directing a formal guest (using 'Aap'). You will tell them where things are and politely ask them to do things.",
+  "writingPrompt": "Translate the following sentences into Hindi:\n1. Please come inside. (Come = Aa)\n2. Water is on the table.\n3. Please drink water. (Drink = Pee)\n4. Food is in the house.",
+  "promptGoal": "Applying formal imperatives and correct postposition word order.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "अंदर",
+      "transliteration": "andar",
+      "baseTranslation": "inside",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "आइये",
+      "transliteration": "aaiye",
+      "baseTranslation": "please come",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "पानी",
+      "transliteration": "paani",
+      "baseTranslation": "water",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "मेज़",
+      "transliteration": "mez",
+      "baseTranslation": "table",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "पर",
+      "transliteration": "par",
+      "baseTranslation": "on",
+      "partOfSpeech": "postposition"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "पीजिये",
+      "transliteration": "pijiye",
+      "baseTranslation": "please drink",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "खाना",
+      "transliteration": "khaana",
+      "baseTranslation": "food",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "घर",
+      "transliteration": "ghar",
+      "baseTranslation": "house",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "में",
+      "transliteration": "mein",
+      "baseTranslation": "in",
+      "partOfSpeech": "postposition"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'Inside please-come.'",
+    "Sentence 2: 'Water table on is.'",
+    "Sentence 3: 'Water please-drink.'",
+    "Sentence 4: 'Food house in is.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "अंदर आइये। पानी मेज़ पर है। पानी पीजिये। खाना घर में है।",
+      "transliteration": "Andar aaiye. Paani mez par hai. Paani pijiye. Khaana ghar mein hai.",
+      "baseTranslation": "Please come inside. Water is on the table. Please drink water. Food is in the house.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect translation. Uses the polite 'iye' form for commands, and correctly places postpositions after the nouns."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Formal Imperative Form",
+      "weight": 40,
+      "description": "Correctly uses the '-iye' endings: 'aaiye' and 'pijiye'."
+    },
+    {
+      "criterion": "Postposition Placement",
+      "weight": 40,
+      "description": "Correctly places 'par' after 'mez' and 'mein' after 'ghar'."
+    },
+    {
+      "criterion": "Sentence Structure",
+      "weight": 20,
+      "description": "Places the verb at the very end of the sentence."
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "अंदर आइये। पानी मेज़ पर है। पानी पीजिये। खाना घर में है।",
+    "acceptableAlternates": [
+      "Andar aaiye. Paani mez par hai. Paani pijiye. Khaana ghar mein hai."
+    ],
+    "requiredKeywords": [
+      "andar",
+      "aaiye",
+      "paani",
+      "mez",
+      "par",
+      "hai",
+      "pijiye",
+      "khaana",
+      "ghar",
+      "mein"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict checking of postposition word order.",
+    "lengthExpectation": "Four short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Postposition Reversal Check",
+          "weight": 100,
+          "description": "Must not write 'par mez' or 'mein ghar'. It MUST be 'mez par' and 'ghar mein'."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Flawless! You successfully wrote polite commands and located objects.",
+    "onFail": "Please review Section 4 regarding postpositions. They must come AFTER the noun they modify, not before.",
+    "onPartial": "Good try. Don't forget that Peena (to drink) is slightly irregular in the formal command: it becomes 'pijiye'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "commands",
+    "formal",
+    "postpositions",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the 'Reference Hints' for the exact literal word order in Hindi. Do not use English word order.",
+  "commonMistakes": [
+    "Writing 'Par mez hai water' (using English word order)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

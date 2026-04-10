@@ -1,0 +1,216 @@
+{
+  "activityId": "ja_en_M1B1_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "First Day Greetings",
+  "learningGoal": "The learner will verbally interact with a teacher and a peer, using appropriate formal and informal greetings and basic expressions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B1_vocabulary_001",
+    "ja_en_M1B1_pronunciation_001"
+  ],
+  "instructions": "In this speaking activity, you will roleplay as a new student on your first day of class. You will encounter your teacher and a fellow student. Read the scenario and prompts carefully. When you are ready, record yourself speaking the appropriate Japanese response. Pay attention to whether you should use formal or informal language.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember, the level of formality is very important in Japanese. Use formal language (like おはようございます and ありがとうございます) with your teacher, and neutral/informal language (like おはよう and ありがとう) with your classmates."
+    }
+  ],
+  "speakingPrompt": "Respond to the teacher and your new classmate appropriately based on the situation provided.",
+  "scenario": "It is your first morning at your new Japanese language school. You walk into the classroom and see your teacher arranging papers on the desk. Shortly after, another student walks in and sits next to you.",
+  "role": "A new student",
+  "conversationPartner": "Your teacher (Sensei) and a fellow student",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "You walk into the classroom in the morning and see your teacher. Greet your teacher formally.",
+      "expectedSpeakingPoints": [
+        "A formal 'Good morning'",
+        "Address the teacher as 'Sensei' (optional but good)"
+      ],
+      "sampleResponse": {
+        "targetText": "おはようございます、せんせい。",
+        "transliteration": "Ohayou gozaimasu, sensei.",
+        "baseTranslation": "Good morning, teacher."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "The teacher hands you your textbook. Thank the teacher formally.",
+      "expectedSpeakingPoints": [
+        "A formal 'Thank you very much'"
+      ],
+      "sampleResponse": {
+        "targetText": "ありがとうございます。",
+        "transliteration": "Arigatou gozaimasu.",
+        "baseTranslation": "Thank you very much."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "A classmate walks in and sits next to you. It's still morning. Greet them casually.",
+      "expectedSpeakingPoints": [
+        "A casual 'Good morning'"
+      ],
+      "sampleResponse": {
+        "targetText": "おはよう！",
+        "transliteration": "Ohayou!",
+        "baseTranslation": "Good morning!"
+      }
+    },
+    {
+      "subTaskId": "st004",
+      "prompt": "Your classmate drops their pen near your desk. You pick it up and hand it back to them. What do you say?",
+      "expectedSpeakingPoints": [
+        "Say 'Here you go' or 'Please'"
+      ],
+      "sampleResponse": {
+        "targetText": "どうぞ。",
+        "transliteration": "Douzo.",
+        "baseTranslation": "Here you go."
+      }
+    },
+    {
+      "subTaskId": "st005",
+      "prompt": "The classmate says 'Arigatou!'. You accidentally bump their desk when sitting back down. Apologize.",
+      "expectedSpeakingPoints": [
+        "Say 'Excuse me' or 'I'm sorry'"
+      ],
+      "sampleResponse": {
+        "targetText": "すみません。",
+        "transliteration": "Sumimasen.",
+        "baseTranslation": "Excuse me / I'm sorry."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "がっこうの あさです。",
+    "transliteration": "Gakkou no asa desu.",
+    "baseTranslation": "It is morning at the school."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "おはようございます、せんせい。",
+      "transliteration": "Ohayou gozaimasu, sensei.",
+      "baseTranslation": "Good morning, teacher."
+    },
+    {
+      "targetText": "ありがとうございます。",
+      "transliteration": "Arigatou gozaimasu.",
+      "baseTranslation": "Thank you very much."
+    },
+    {
+      "targetText": "おはよう！",
+      "transliteration": "Ohayou!",
+      "baseTranslation": "Good morning!"
+    },
+    {
+      "targetText": "どうぞ。",
+      "transliteration": "Douzo.",
+      "baseTranslation": "Here you go."
+    },
+    {
+      "targetText": "すみません。",
+      "transliteration": "Sumimasen.",
+      "baseTranslation": "Excuse me / I'm sorry."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 20,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Use formal greeting for teacher (Ohayou gozaimasu)",
+      "Use formal thanks for teacher (Arigatou gozaimasu)",
+      "Use casual greeting for classmate (Ohayou)",
+      "Offer object politely (Douzo)",
+      "Apologize correctly (Sumimasen)"
+    ],
+    "requiredKeywords": [
+      "おはようございます",
+      "ありがとうございます",
+      "おはよう",
+      "どうぞ",
+      "すみません"
+    ],
+    "acceptableParaphrases": [
+      "For st001, simply 'Ohayou gozaimasu' without 'sensei' is acceptable.",
+      "For st002, 'Arigatou' is acceptable but less than ideal for a teacher.",
+      "For st003, 'Konnichiwa' might be acceptable if the learner forgets the time, but 'Ohayou' is best."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Formality Awareness",
+          "weight": 40,
+          "description": "Did the learner use the correct formal vs informal register depending on the person?"
+        },
+        {
+          "name": "Vocabulary Accuracy",
+          "weight": 30,
+          "description": "Were the correct greeting or apology words used?"
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 30,
+          "description": "Was the speech clear and understandable to a native speaker?"
+        }
+      ]
+    },
+    "sampleAnswer": "おはようございます、せんせい。ありがとうございます。おはよう！どうぞ。すみません。",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Fantastic job! You navigated your first day perfectly and showed great awareness of formal and informal speech.",
+    "onFail": "Don't worry, speaking takes practice. Review the difference between formal and informal greetings and try again.",
+    "onPartial": "Good effort! Remember to use the 'gozaimasu' ending when speaking to a teacher to show respect."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b1/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m1/b1/speaking/sample_responses.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "がっこうの あさです。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "greetings",
+    "roleplay",
+    "formality",
+    "beginner",
+    "month1",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If speaking to a teacher, use the longer forms. If speaking to a fellow student, the short forms are fine.",
+  "commonMistakes": [
+    "Using おはよう with the teacher.",
+    "Using おはようございます with the classmate (it's not wrong, but unnaturally stiff for peers)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B1_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

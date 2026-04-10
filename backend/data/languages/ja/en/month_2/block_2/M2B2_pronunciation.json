@@ -1,0 +1,183 @@
+{
+  "activityId": "en_ja_M2B2_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing -ing, I'll, and Gonna",
+  "learningGoal": "Master the pronunciation of the -ing ending, future contractions (I'll, he'll, won't), and the casual form 'gonna'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B2_lesson_1"
+  ],
+  "instructions": "進行形の「-ing」の発音、willの短縮形（I'll, won't）、そしてネイティブがよく使う「gonna（going toの短縮）」の発音を練習します。マイクに向かってリピートしてください。(Practice the -ing ending, future contractions, and 'gonna'. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "eating",
+      "transliteration": "イーティン",
+      "baseTranslation": "食べている",
+      "phoneticHint": "Native speakers often drop the hard 'g' at the end. It sounds like 'ee-tin'.",
+      "syllableSplit": "eat-ing",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying a heavy 'g' like 'ee-ting-gu'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "running",
+      "transliteration": "ラニン",
+      "baseTranslation": "走っている",
+      "phoneticHint": "Run-nin. Soften the ending.",
+      "syllableSplit": "run-ning",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ran-ning-gu'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "watching",
+      "transliteration": "ウォッチン",
+      "baseTranslation": "見ている",
+      "phoneticHint": "Wa-chin. Don't add an extra vowel at the end.",
+      "syllableSplit": "watch-ing",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'watchin-gu'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "I'll",
+      "transliteration": "アイル",
+      "baseTranslation": "私は〜するつもりだ（I will の短縮）",
+      "phoneticHint": "Rhymes with 'mile' or 'aisle'. I-ul.",
+      "syllableSplit": "I'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ai-ru'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "he'll",
+      "transliteration": "ヒール",
+      "baseTranslation": "彼は〜するつもりだ（He will の短縮）",
+      "phoneticHint": "Rhymes with 'feel'. He-ul.",
+      "syllableSplit": "he'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hi-ru'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "she'll",
+      "transliteration": "シール",
+      "baseTranslation": "彼女は〜するつもりだ（She will の短縮）",
+      "phoneticHint": "Rhymes with 'shield' (without the d). She-ul.",
+      "syllableSplit": "she'll",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shi-ru'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "won't",
+      "transliteration": "ウォント",
+      "baseTranslation": "〜しないだろう（will not の短縮）",
+      "phoneticHint": "This is tricky! It sounds like 'w-OH-nt'. Make your lips round. Do NOT say 'want' (ウォント).",
+      "syllableSplit": "won't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it exactly like 'want'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "going to",
+      "transliteration": "ゴーイン トゥ",
+      "baseTranslation": "〜する予定だ",
+      "phoneticHint": "Go-in-to.",
+      "syllableSplit": "go-ing to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'go-in-gu too'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "gonna",
+      "transliteration": "ガナ",
+      "baseTranslation": "〜する予定だ（going to のカジュアルな発音）",
+      "phoneticHint": "In conversation, 'going to' usually sounds like 'gun-uh' or 'gah-nuh'.",
+      "syllableSplit": "gon-na",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'gonna' clearly as two separate words like 'go-na'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "doing",
+      "transliteration": "ドゥーイン",
+      "baseTranslation": "している",
+      "phoneticHint": "Doo-in.",
+      "syllableSplit": "do-ing",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'doo-in-gu'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "eating running watching I'll he'll she'll won't going to gonna doing",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! Your '-ing' sounds very natural, and you nailed 'won't' and 'gonna'.",
+    "onFail": "Please try again. Be careful not to add an extra 'gu' sound at the end of the -ing words.",
+    "onPartial": "Good effort! Remember that 'won't' has a round 'oh' sound. Make sure it doesn't sound like 'want'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "eating running watching I'll he'll she'll won't going to gonna doing",
+    "acceptedVariants": [
+      "eating running watching ill hell shell wont going to gonna doing",
+      "eating running watching I will he will she will will not going to gonna doing"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "eating running watching I'll he'll she'll won't going to gonna doing",
+    "transliteration": "eetin runin wachin ile heel sheel wohnt goin too gunuh dooin",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B2_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B2_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "eating, running, watching, I'll, he'll, she'll, won't, going to, gonna, doing",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "present_continuous",
+    "future_tense",
+    "contractions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To sound like a native, try to say 'gonna' instead of 'going to' when you are speaking naturally.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B2_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

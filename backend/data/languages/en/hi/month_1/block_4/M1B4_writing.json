@@ -1,0 +1,205 @@
+{
+  "activityId": "hi_en_M1B4_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Writing: Schedules and Ages",
+  "learningGoal": "Construct sentences stating your age and identifying the time and day.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B4_lesson_1"
+  ],
+  "instructions": "In this exercise, you will practice writing sentences about time and age. Pay very close attention to the gender marker when writing your age (ka for men, ki for women).",
+  "writingPrompt": "Translate the following schedule into Hindi:\n1. Today is Wednesday.\n2. I am [use 'das' for 10] years old. (Assume you are a male for this test).\n3. It is 4 o'clock.\n4. Tomorrow is Thursday.",
+  "promptGoal": "Building sentences using numbers, 'baje', and days of the week.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "आज",
+      "transliteration": "aaj",
+      "baseTranslation": "today",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "बुधवार",
+      "transliteration": "budhvaar",
+      "baseTranslation": "Wednesday",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "main",
+      "baseTranslation": "I",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "दस",
+      "transliteration": "das",
+      "baseTranslation": "10",
+      "partOfSpeech": "number"
+    },
+    {
+      "targetText": "साल",
+      "transliteration": "saal",
+      "baseTranslation": "years",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "का",
+      "transliteration": "ka",
+      "baseTranslation": "of (masculine)",
+      "partOfSpeech": "postposition"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "hoon",
+      "baseTranslation": "am",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "चार",
+      "transliteration": "chaar",
+      "baseTranslation": "4",
+      "partOfSpeech": "number"
+    },
+    {
+      "targetText": "बजे",
+      "transliteration": "baje",
+      "baseTranslation": "o'clock",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are (plural/formal)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "कल",
+      "transliteration": "kal",
+      "baseTranslation": "tomorrow",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "गुरुवार",
+      "transliteration": "guruvaar",
+      "baseTranslation": "Thursday",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'Today Wednesday is.'",
+    "Sentence 2: 'I ten years of am.'",
+    "Sentence 3: 'Four o'clock are.' (Remember time uses plural 'hain')",
+    "Sentence 4: 'Tomorrow Thursday is.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "आज बुधवार है। मैं दस साल का हूँ। चार बजे हैं। कल गुरुवार है।",
+      "transliteration": "Aaj budhvaar hai. Main das saal ka hoon. Chaar baje hain. Kal guruvaar hai.",
+      "baseTranslation": "Today is Wednesday. I am ten years old. It is four o'clock. Tomorrow is Thursday.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect SOV order. Correct masculine gender marker 'ka'. Correct plural verb 'hain' for time."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Days of the week",
+      "weight": 25,
+      "description": "Correctly maps Aaj to Wednesday and Kal to Thursday."
+    },
+    {
+      "criterion": "Age Statement",
+      "weight": 35,
+      "description": "Correctly forms 'Main das saal ka hoon'."
+    },
+    {
+      "criterion": "Time Statement",
+      "weight": 40,
+      "description": "Correctly forms 'Chaar baje hain'."
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "आज बुधवार है। मैं दस साल का हूँ। चार बजे हैं। कल गुरुवार है।",
+    "acceptableAlternates": [
+      "Aaj budhvaar hai. Main das saal ka hoon. Chaar baje hain. Kal guruvaar hai.",
+      "Aaj Budhvaar hai. Main das saal ki hoon. Chaar baje hain. Kal Guruvaar hai."
+    ],
+    "requiredKeywords": [
+      "aaj",
+      "budhvaar",
+      "das",
+      "saal",
+      "ka",
+      "chaar",
+      "baje",
+      "kal",
+      "guruvaar"
+    ],
+    "grammarBaseline": "Accepts transliteration. Checking verb endings closely.",
+    "lengthExpectation": "Four short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Plurality of Time",
+          "weight": 100,
+          "description": "Must use 'hain' for time (baje hain) because hours are countable plurals."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Flawless! You can write a basic calendar and state your age.",
+    "onFail": "Please review how to tell time. You must use 'hain' (are), not 'hai' (is) when saying 'baje'.",
+    "onPartial": "Good try. Don't forget that 'Main' always ends with 'hoon', and time always ends with 'hain'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "numbers",
+    "time",
+    "days",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the 'Reference Hints' for the exact literal word order in Hindi.",
+  "commonMistakes": [
+    "Writing 'Chaar baje hai' instead of 'Chaar baje hain'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

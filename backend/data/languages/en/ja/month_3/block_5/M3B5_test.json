@@ -1,0 +1,445 @@
+{
+  "activityId": "ja_en_M3B5_test_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Final Test — Emergencies",
+  "learningGoal": "The learner will demonstrate mastery over the vocabulary and grammar needed to report medical, legal, and accident emergencies in Japanese.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M3B5_lesson_001",
+    "ja_en_M3B5_pronunciation_001",
+    "ja_en_M3B5_reading_001",
+    "ja_en_M3B5_writing_001",
+    "ja_en_M3B5_listening_001",
+    "ja_en_M3B5_vocabulary_001",
+    "ja_en_M3B5_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to communicate in critical situations. Pay strict attention to the verbs used for losing items vs having them stolen.",
+  "testTitle": "Block 5 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Remember: body parts take 'ga' when expressing pain.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Emergency Vocabulary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does きゅうきゅうしゃ (Kyuukyuusha) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Police", "Hospital", "Ambulance", "Doctor"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does けいさつ (Keisatsu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Police", "Thief", "Wallet", "Ambulance"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does なくす (Nakusu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To steal", "To find", "To drop", "To lose (something)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does ねつ (Netsu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Pain", "Fever", "Cough", "Cold"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Symptoms & Reports",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "Translate: 'My head hurts.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "あたまを いたいです",
+            "あたまが いたいです",
+            "おなかが いたいです",
+            "のどが いたいです"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "Translate: 'I caught a cold.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "かぜを しました",
+            "ねつを ひきました",
+            "かぜを ひきました",
+            "せきを でました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "Translate: 'My wallet was stolen.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "さいふを ぬすみました",
+            "さいふを ぬすまれました",
+            "さいふを なくしました",
+            "さいふが おちました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "What does '~te shimaimashita' express?",
+          "questionType": "multiple_choice",
+          "options": [
+            "A desire to do something",
+            "A polite request",
+            "That something happened unfortunately or accidentally",
+            "A future plan"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Forming Emergency Sentences",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Translate: 'Please call an ambulance.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "けいさつを よんで ください",
+            "きゅうきゅうしゃを よんで ください",
+            "きゅうきゅうしゃに よんで ください",
+            "いしゃを よんで ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Translate: 'Please call the police.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "けいさつを よんで ください",
+            "こうばんを よんで ください",
+            "きゅうきゅうしゃを よんで ください",
+            "どろぼうを よんで ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'I unfortunately lost my passport.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "パスポートを なくして しまいました",
+            "パスポートを ぬすまれて しまいました",
+            "さいふを なくして しまいました",
+            "パスポートを なくしました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'My stomach hurts.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "あたまが いたいです",
+            "おなかが いたいです",
+            "のどが いたいです",
+            "はが いたいです"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Direct Commands",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What is the patient's first symptom?",
+          "questionType": "multiple_choice",
+          "options": ["Headache", "Stomach ache", "Fever", "Cough"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "ねつが あります。",
+            "transliteration": "Netsu ga arimasu.",
+            "baseTranslation": "I have a fever."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What is the patient's second symptom?",
+          "questionType": "multiple_choice",
+          "options": ["Bleeding", "Pain", "Fever", "Cough"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "せきが でます。",
+            "transliteration": "Seki ga demasu.",
+            "baseTranslation": "I have a cough."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What does the doctor say the patient has?",
+          "questionType": "multiple_choice",
+          "options": ["A cold (Kaze)", "Flu (Infuruenza)", "An injury (Kega)", "A broken bone"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "かぜですね。",
+            "transliteration": "Kaze desu ne.",
+            "baseTranslation": "It's a cold, isn't it."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'police' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "けいさつ",
+            "transliteration": "keisatsu",
+            "baseTranslation": "Police"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'ambulance' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "きゅうきゅうしゃ",
+            "transliteration": "kyuukyuusha",
+            "baseTranslation": "Ambulance"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'was stolen' (passive past of nusumu) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ぬすまれました",
+            "transliteration": "nusumaremashita",
+            "baseTranslation": "Was stolen"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write the particle used to mark a body part that hurts (e.g. Atama [?] itai desu).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "が",
+            "transliteration": "ga",
+            "baseTranslation": "Subject marker"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'help me!' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たすけて",
+            "transliteration": "tasukete",
+            "baseTranslation": "Help me!"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Ambulance",
+      "q002": "Police",
+      "q003": "To lose (something)",
+      "q004": "Fever",
+      "q005": "あたまが いたいです",
+      "q006": "かぜを ひきました",
+      "q007": "さいふを ぬすまれました",
+      "q008": "That something happened unfortunately or accidentally",
+      "q009": "きゅうきゅうしゃを よんで ください",
+      "q010": "けいさつを よんで ください",
+      "q011": "パスポートを なくして しまいました",
+      "q012": "おなかが いたいです",
+      "q013": "Fever",
+      "q014": "Cough",
+      "q015": "A cold (Kaze)",
+      "q016": "keisatsu",
+      "q017": "kyuukyuusha",
+      "q018": "nusumaremashita",
+      "q019": "ga",
+      "q020": "tasukete"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Keisatsu"],
+      "q017": ["Kyuukyuusha"],
+      "q018": ["Nusumaremashita"],
+      "q019": ["Ga"],
+      "q020": ["Tasukete"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered critical emergency communication in Japanese.",
+    "onFail": "Review the core vocabulary. Ensure you know the difference between 'Kaze' (Cold) and 'Kega' (Injury).",
+    "onPartial": "Almost there. Pay close attention to 'Nusumaremashita' (Was stolen), which is critical for police reports."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block5",
+    "emergencies",
+    "medical",
+    "police",
+    "advanced",
+    "month3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

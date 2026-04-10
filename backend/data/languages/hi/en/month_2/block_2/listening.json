@@ -1,0 +1,221 @@
+{
+  "activityId": "en_hi_M2B2_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "A Phone Call to the City",
+  "learningGoal": "The learner will accurately extract auditory information from a dialogue saturated with Present Continuous 'WH-Questions' (What are you doing? Where are you going?), decoding the inverted Subject-Verb interrogative structure.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M2B2_writing_001"],
+  "instructions": "Listen to a phone call between Rahul and his mother. His mother asks him a lot of questions about what he is doing RIGHT NOW. Listen carefully to the 'WH' question words (What, Where, Who) and Rahul's '-ing' answers. Answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Notice how the mother says 'Where ARE you going?' instead of 'Where you are going?'. This is the English question flip!"
+    }
+  ],
+  "listeningGoal": "Parse rapid interrogative syntax and isolate Present Continuous verbal responses.",
+  "audioScenario": "A mother calling her busy son in the city to check up on him.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hello, Rahul. What are you doing?",
+      "transliteration": "हेलो, राहुल। वॉट आर यू डूइंग?",
+      "baseTranslation": "नमस्ते, राहुल। तुम क्या कर रहे हो?"
+    },
+    {
+      "targetText": "Hi, Mom. I am walking on the street.",
+      "transliteration": "हाय, मॉम। आई एम वॉकिंग ऑन द स्ट्रीट।",
+      "baseTranslation": "नमस्ते, मॉम। मैं सड़क पर चल रहा हूँ।"
+    },
+    {
+      "targetText": "Oh, are you going to work?",
+      "transliteration": "ओह, आर यू गोइंग टू वर्क?",
+      "baseTranslation": "ओह, क्या तुम काम पर जा रहे हो?"
+    },
+    {
+      "targetText": "No, I am not working today. I am going to the park.",
+      "transliteration": "नो, आई एम नॉट वर्किंग टुडे। आई एम गोइंग टू द पार्क।",
+      "baseTranslation": "नहीं, मैं आज काम नहीं कर रहा हूँ। मैं पार्क जा रहा हूँ।"
+    },
+    {
+      "targetText": "Where is your brother? Is he going with you?",
+      "transliteration": "वेयर इज़ योर ब्रदर? इज़ ही गोइंग विथ यू?",
+      "baseTranslation": "तुम्हारा भाई कहाँ है? क्या वह तुम्हारे साथ जा रहा है?"
+    },
+    {
+      "targetText": "No, he is not. He is sleeping at home.",
+      "transliteration": "नो, ही इज़ नॉट। ही इज़ स्लीपिंग एट होम।",
+      "baseTranslation": "नहीं, वह नहीं है। वह घर पर सो रहा है।"
+    },
+    {
+      "targetText": "Who are you meeting at the park?",
+      "transliteration": "हू आर यू मीटिंग एट द पार्क?",
+      "baseTranslation": "तुम पार्क में किससे मिल रहे हो?"
+    },
+    {
+      "targetText": "I am meeting Amit.",
+      "transliteration": "आई एम मीटिंग अमित।",
+      "baseTranslation": "मैं अमित से मिल रहा हूँ।"
+    },
+    {
+      "targetText": "What is he doing there?",
+      "transliteration": "वॉट इज़ ही डूइंग देयर?",
+      "baseTranslation": "वह वहाँ क्या कर रहा है?"
+    },
+    {
+      "targetText": "He is playing football.",
+      "transliteration": "ही इज़ प्लेइंग फुटबॉल।",
+      "baseTranslation": "वह फुटबॉल खेल रहा है।"
+    },
+    {
+      "targetText": "Why are you laughing?",
+      "transliteration": "वाय आर यू लाफिंग?",
+      "baseTranslation": "तुम क्यों हंस रहे हो?"
+    },
+    {
+      "targetText": "I am laughing because a dog is running after Amit's ball! I have to go, Mom.",
+      "transliteration": "आई एम लाफिंग बिकॉज़ अ डॉग इज़ रनिंग आफ्टर अमित्स बॉल! आई हैव टू गो, मॉम।",
+      "baseTranslation": "मैं हंस रहा हूँ क्योंकि एक कुत्ता अमित की गेंद के पीछे दौड़ रहा है! मुझे जाना है, माँ।"
+    },
+    {
+      "targetText": "Okay, have a good day.",
+      "transliteration": "ओके, हैव अ गुड डे।",
+      "baseTranslation": "ठीक है, तुम्हारा दिन शुभ हो।"
+    }
+  ],
+  "audioTranscriptFull": "Mother: Hello, Rahul. What are you doing?\nRahul: Hi, Mom. I am walking on the street.\nMother: Oh, are you going to work?\nRahul: No, I am not working today. I am going to the park.\nMother: Where is your brother? Is he going with you?\nRahul: No, he is not. He is sleeping at home.\nMother: Who are you meeting at the park?\nRahul: I am meeting Amit.\nMother: What is he doing there?\nRahul: He is playing football.\nMother: Why are you laughing?\nRahul: I am laughing because a dog is running after Amit's ball! I have to go, Mom.\nMother: Okay, have a good day.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the very first question the mother asks?",
+      "questionType": "multiple_choice",
+      "options": ["Where are you going?", "Who are you?", "What are you doing?", "Why are you walking?"],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Where is Rahul going right now?",
+      "questionType": "multiple_choice",
+      "options": ["He is going to work", "He is going to the park", "He is going home"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What is Rahul's brother doing?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Who is Rahul meeting?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:19",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What is Amit doing at the park?",
+      "questionType": "multiple_choice",
+      "options": ["He is sleeping", "He is walking", "He is playing football", "He is laughing"],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Why is Rahul laughing at the end of the call?",
+      "questionType": "multiple_choice",
+      "options": ["Because Amit fell down", "Because a dog is running after the ball", "Because he is happy", "Because the mother made a joke"],
+      "audioTimestamp": "00:30",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Listen to the mother's question: 'Why are you laughing?'. Did she put the word 'are' BEFORE or AFTER the word 'you'?",
+      "questionType": "multiple_choice",
+      "options": ["Before 'you'", "After 'you'"],
+      "audioTimestamp": "00:27",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "True or False: Rahul is working today.",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for Q1, Q7, Q8."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "What are you doing?",
+      "q2": "He is going to the park",
+      "q3": "He is sleeping",
+      "q4": "Amit",
+      "q5": "He is playing football",
+      "q6": "Because a dog is running after the ball",
+      "q7": "Before 'you'",
+      "q8": "False"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["sleeping", "He is sleeping", "Sleeping", "sleeping at home"],
+      "q4": ["Amit", "amit", "he is meeting Amit"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q3": ["sleep"],
+      "q4": ["amit"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You were able to track the rapid WH-Questions and correctly identify every single '-ing' action happening in the dialogue.",
+    "onFail": "Keep trying! Ensure you playback the audio on Slow mode. Listen specifically for the 'ING' words to figure out what people are active doing.",
+    "onPartial": "Good ear! Watch out for the question structure. In English questions, the helper verb jumps to the front: 'Why ARE you laughing?', not 'Why you are laughing?'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b2/listening/phone_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m2/b2/listening/phone_slow.mp3",
+    "normalAudio": "audio/en_hi/m2/b2/listening/phone_native.mp3",
+    "audioTranscript": "Mother: Hello, Rahul. What are you doing?... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "present_continuous", "wh_questions", "beginner", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b2/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the first word of the question. 'Who' means a person. 'Where' means a place. 'What' means a thing/action. 'Why' means a reason.",
+  "commonMistakes": [
+    "Thinking Rahul was at work.",
+    "Thinking Amit was sleeping."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B2_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

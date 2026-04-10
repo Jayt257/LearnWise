@@ -1,0 +1,178 @@
+{
+  "activityId": "en_hi_M1B4_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Numbers and WH-Words",
+  "learningGoal": "The learner will master the phonetic distinction between 'TH' sounds (Three, Thirty) and appropriately stress '-TEEN' versus '-TY', while perfectly executing the soft 'W' in question words.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B4_lesson_001"],
+  "instructions": "In English, 13 and 30 sound very similar, but they have a different 'stress' (accentuation). Listen to how the native speaker emphasizes the end of Thir-TEEN, and the beginning of THIR-ty. Replicate this with your microphone.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "For the 'W' sound in What, Where, When—do NOT bite your lip like a 'V'. Make your lips round like you are kissing the air."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "Three",
+      "transliteration": "थ्री",
+      "baseTranslation": "तीन (3)",
+      "phoneticHint": "Soft 'Th' (थ). Put your tongue between your teeth."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "Thirteen",
+      "transliteration": "थर्टीन",
+      "baseTranslation": "तेरह (13)",
+      "phoneticHint": "Stress the TEEN. thir-TEEN."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "Thirty",
+      "transliteration": "थर्टी",
+      "baseTranslation": "तीस (30)",
+      "phoneticHint": "Stress the THIR. THIR-tee. The end is very short."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "Fourteen",
+      "transliteration": "फोर्टीन",
+      "baseTranslation": "चौदह (14)",
+      "phoneticHint": "Stress the TEEN. for-TEEN."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "Forty",
+      "transliteration": "फोर्टी",
+      "baseTranslation": "चालीस (40)",
+      "phoneticHint": "Stress the FOR. FOR-tee. Do not pronounce the 'u' (it is not four-ty)."
+    },
+    {
+      "itemId": "p06",
+      "targetText": "Fifteen",
+      "transliteration": "फिफ्टीन",
+      "baseTranslation": "पंद्रह (15)",
+      "phoneticHint": "Stress the TEEN. fif-TEEN. Notice it is 'fif', not 'five'."
+    },
+    {
+      "itemId": "p07",
+      "targetText": "Fifty",
+      "transliteration": "फिफ्टी",
+      "baseTranslation": "पचास (50)",
+      "phoneticHint": "Stress the FIF. FIF-tee. Short ending."
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Eighty",
+      "transliteration": "एटी",
+      "baseTranslation": "अस्सी (80)",
+      "phoneticHint": "Silent 'gh'. Sounds just like A-tee."
+    },
+    {
+      "itemId": "p09",
+      "targetText": "Hundred",
+      "transliteration": "हंड्रेड",
+      "baseTranslation": "सौ (100)",
+      "phoneticHint": "Hun-dred."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "Who",
+      "transliteration": "हू",
+      "baseTranslation": "कौन",
+      "phoneticHint": "The 'W' is completely silent! Sounds like an owl: Hoo."
+    },
+    {
+      "itemId": "p11",
+      "targetText": "What",
+      "transliteration": "वॉट (डब्लू से)",
+      "baseTranslation": "क्या",
+      "phoneticHint": "Round lips. 'Wot'. Do not say 'Vot'."
+    },
+    {
+      "itemId": "p12",
+      "targetText": "Where",
+      "transliteration": "वेयर (डब्लू से)",
+      "baseTranslation": "कहाँ",
+      "phoneticHint": "Round lips. Wher. Do not say 'Ver'."
+    },
+    {
+      "itemId": "p13",
+      "targetText": "When",
+      "transliteration": "वेन (डब्लू से)",
+      "baseTranslation": "कब",
+      "phoneticHint": "Round lips. Wen. Do not say 'Ven'."
+    },
+    {
+      "itemId": "p14",
+      "targetText": "Are you?",
+      "transliteration": "आर यू?",
+      "baseTranslation": "क्या तुम?",
+      "phoneticHint": "Question intonation: the pitch goes UP at the end of the sentence."
+    },
+    {
+      "itemId": "p15",
+      "targetText": "Is she?",
+      "transliteration": "इज़ शी?",
+      "baseTranslation": "क्या वह?",
+      "phoneticHint": "Smoothly link them. 'Izz-she'. Pitch goes UP at the end."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Three Thirteen Thirty Fourteen Forty Fifteen Fifty Eighty Hundred Who What Where When Are you Is she",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You correctly differentiated between the tricky 'TEEN' and 'TY' sounds, and used proper 'W' lip shapes.",
+    "onFail": "Keep practicing! You might be pronouncing 'W' with a 'V' sound (biting your lip). Round your lips! Also, make sure 13 and 30 don't sound the same.",
+    "onPartial": "Good progress. Pay special attention to 'Who'. The 'W' is totally silent. It is just 'Hoo'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "three thirteen thirty fourteen forty fifteen fifty eighty hundred who what where when are you is she",
+    "acceptedVariants": [
+      "3 13 30 14 40 15 50 80 100",
+      "who what where when are you is she"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Stress detection is critical for TEEN vs TY differentiation.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b4/pronunciation/native_numbers.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b4/pronunciation/slow_numbers.mp3",
+    "normalAudio": "audio/en_hi/m1/b4/pronunciation/native_numbers.mp3",
+    "audioTranscript": "Three. Thirteen. Thirty...",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "numbers", "wh-words", "phonetics", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b4/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To ask a question properly, your voice should go UP slightly at the very end of the sentence. 'Are YOU?'",
+  "commonMistakes": [
+    "Pronouncing 'When' as 'Ven' (Vocalizing with teeth instead of lips).",
+    "Saying 'Hoo-hoo' for Who."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B4_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

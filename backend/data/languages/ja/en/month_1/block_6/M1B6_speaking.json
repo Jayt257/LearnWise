@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M1B6_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Where are they?",
+  "learningGoal": "Speak clearly to describe the location of objects using prepositions like under, in, and on.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B6_vocabulary_6"
+  ],
+  "instructions": "家族にカバンとペンの場所を教え、自分がどこにいるかを伝えます。マイクに向かって、「私のカバンは机の下にあります。私のペンはカバンの中にあります。私は私の部屋にいます」と英語で話してください。(Tell your family where your bag and pen are, and where you are. Speak into the microphone and say: 'My bag is under the desk. My pen is in the bag. I am in my room.')",
+  "speakingPrompt": "Say: 'My bag is under the desk. My pen is in the bag. I am in my room.'",
+  "scenario": "You are on the phone with your mother. She is looking for your things.",
+  "role": "You",
+  "conversationPartner": "Mother",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Say where your bag is. (My bag is under the desk.)",
+      "expectedSpeakingPoints": [
+        "My bag is",
+        "under the desk"
+      ],
+      "sampleResponse": {
+        "targetText": "My bag is under the desk.",
+        "transliteration": "マイ バッグ イズ アンダー ザ デスク。",
+        "baseTranslation": "私のカバンは机の下にあります。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Say where your pen is. (My pen is in the bag.)",
+      "expectedSpeakingPoints": [
+        "My pen is",
+        "in the bag"
+      ],
+      "sampleResponse": {
+        "targetText": "My pen is in the bag.",
+        "transliteration": "マイ ペン イズ イン ザ バッグ。",
+        "baseTranslation": "私のペンはカバンの中にあります。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Say where you are. (I am in my room.)",
+      "expectedSpeakingPoints": [
+        "I am",
+        "in my room"
+      ],
+      "sampleResponse": {
+        "targetText": "I am in my room.",
+        "transliteration": "アイ アム イン マイ ルーム。",
+        "baseTranslation": "私は私の部屋にいます。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Where are you? And where is your bag?",
+    "transliteration": "ホウェア アー ユー？ アンド ホウェア イズ ユア バッグ？",
+    "baseTranslation": "あなたはどこにいるの？そして、あなたのカバンはどこ？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "My bag is under the desk.",
+      "transliteration": "マイ バッグ イズ アンダー ザ デスク。",
+      "baseTranslation": "私のカバンは机の下にあります。"
+    },
+    {
+      "targetText": "My pen is in the bag.",
+      "transliteration": "マイ ペン イズ イン ザ バッグ。",
+      "baseTranslation": "私のペンはカバンの中にあります。"
+    },
+    {
+      "targetText": "I am in my room.",
+      "transliteration": "アイ アム イン マイ ルーム。",
+      "baseTranslation": "私は私の部屋にいます。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'under' for the desk",
+      "Using 'in' for the bag",
+      "Using 'in' for the room"
+    ],
+    "requiredKeywords": [
+      "bag",
+      "under",
+      "desk",
+      "pen",
+      "in",
+      "room"
+    ],
+    "acceptableParaphrases": [
+      "My bag's under the desk. My pen's in the bag. I'm in my room."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Prepositions",
+          "weight": 50,
+          "description": "Critical use of under and in."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear pronunciation of 'bag', 'desk', 'room'."
+        },
+        {
+          "name": "Content",
+          "weight": 30,
+          "description": "All three locations stated."
+        }
+      ]
+    },
+    "sampleAnswer": "My bag is under the desk. My pen is in the bag. I am in my room.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You used 'in' and 'under' perfectly to describe where things are.",
+    "onFail": "Please try again. Be very careful with the words 'in' and 'under'. Make sure to say 'is' before the preposition (e.g., My bag IS under the desk).",
+    "onPartial": "Good effort! Remember to pronounce 'desk' clearly."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B6_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M1B6_speaking_sample.mp3",
+    "slowAudio": "path/to/M1B6_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "My bag is under the desk. My pen is in the bag. I am in my room.",
+    "audioLanguage": "en",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "prepositions",
+    "place",
+    "in",
+    "under"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget the 'is' and 'am'. 'My bag under the desk' is incorrect; it must be 'My bag IS under the desk'.",
+  "commonMistakes": [
+    "Saying 'My bag under the desk'.",
+    "Confusing 'in' and 'on'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B6_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

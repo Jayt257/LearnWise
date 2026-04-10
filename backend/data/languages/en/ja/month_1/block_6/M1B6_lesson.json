@@ -1,0 +1,237 @@
+{
+  "activityId": "ja_en_M1B6_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "Essential Verbs & Particles",
+  "learningGoal": "The learner will transition from static sentences to active sentences by learning the polite ~masu verb form and three critical particles: wo (object), ni (destination/time), and de (location of action/tool).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M1B5_test_001"
+  ],
+  "instructions": "This is the most important lesson in Month 1. You will finally learn how to describe actions. Pay extremely close attention to the particles (the small words that connect nouns to verbs). Japanese word order is flexible AS LONG AS the particles are correct and the verb is at the end.",
+  "conceptTitle": "Action Verbs and the Particle Ninja",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "The Polite Action Verb (~masu)",
+      "bodyText": "In Japanese, the verb ALWAYS goes at the very end of the sentence. To politely say you do an action, the verb ends in '~masu' (ます). For example, 'Tabemasu' means 'to eat' or 'I eat' or 'I will eat'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべます",
+          "transliteration": "Tabemasu",
+          "baseTranslation": "To eat / I eat",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "のみます",
+          "transliteration": "Nomimasu",
+          "baseTranslation": "To drink / I drink",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いきます",
+          "transliteration": "Ikimasu",
+          "baseTranslation": "To go / I go",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "The Object Particle: wo (を)",
+      "bodyText": "To say WHAT you are eating or drinking, you use the particle 'wo' (を). It connects the noun to the action verb. Note: Even though it is written as 'wo', it is pronounced just like 'o'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "ごはんを たべます。",
+          "transliteration": "Gohan wo tabemasu.",
+          "baseTranslation": "I eat rice. (Rice [Object] Eat)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "みずを のみます。",
+          "transliteration": "Mizu wo nomimasu.",
+          "baseTranslation": "I drink water.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "えいがを みます。",
+          "transliteration": "Eiga wo mimasu.",
+          "baseTranslation": "I watch a movie.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "The Target Particle: ni (に)",
+      "bodyText": "The particle 'ni' (に) acts like a dart hitting a bullseye. It is used for DESTINATIONS (where you are going) and specific TIMES (when an action happens).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "がっこうに いきます。",
+          "transliteration": "Gakkou ni ikimasu.",
+          "baseTranslation": "I go to school. (Destination)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "うちへ かえります。",
+          "transliteration": "Uchi ni kaerimasu.",
+          "baseTranslation": "I return to home. (Destination)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "はちじに おきます。",
+          "transliteration": "Hachi-ji ni okimasu.",
+          "baseTranslation": "I wake up at 8 o'clock. (Specific Time)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "The Action/Tool Particle: de (で)",
+      "bodyText": "The particle 'de' (で) is used to show WHERE an action takes place, or WHAT TOOL you use to do the action. (By means of / At).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "カフェで のみます。",
+          "transliteration": "Kafe de nomimasu.",
+          "baseTranslation": "I drink at a cafe. (Location of Action)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "はしで たべます。",
+          "transliteration": "Hashi de tabemasu.",
+          "baseTranslation": "I eat with chopsticks. (Tool)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "タクシーで いきます。",
+          "transliteration": "Takushii de ikimasu.",
+          "baseTranslation": "I go by taxi. (Tool/Means)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will understand SOV sentence structure, correctly utilize ~masu verbs, and differentiate between the usage of wo (direct object), ni (target), and de (context/tool) particles.",
+  "examples": [
+    {
+      "targetText": "わたしは はちじに カフェで コーヒーを のみます。",
+      "transliteration": "Watashi wa hachi-ji ni kafe de koohii wo nomimasu.",
+      "baseTranslation": "I drink coffee at a cafe at 8 o'clock.",
+      "explanation": "This mega-sentence combines everything: wa (topic), ni (time), de (location of action), wo (direct object), and masu (verb at the end)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "The verb MUST be the very last word in the sentence.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Use 'ni' for destinations (going somewhere). Use 'de' for the location where an action happens (eating at a cafe).",
+      "exceptionNotes": "Do NOT say 'Kafe ni tabemasu'. It must be 'Kafe de tabemasu'."
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "The particle を is typed as 'wo' on a keyboard, but pronounced like 'o'.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese relies heavily on context. In English, you must say 'I eat rice'. In Japanese, if it's obvious you are talking about yourself, you simply drop 'Watashi wa' and say 'Gohan wo tabemasu'. Dropping the subject is actually MORE natural than constantly repeating 'Watashi wa'.",
+    "dosList": [
+      "Drop 'Watashi wa' once the topic of the conversation is established."
+    ],
+    "dontsList": [
+      "Do not stab your chopsticks (hashi) vertically into a bowl of rice. This is a funeral ritual and is considered highly taboo."
+    ]
+  },
+  "summary": "Verbs end in ~masu and always go at the end of the sentence. To specify what you interact with, use particles: を (wo) for the direct object, に (ni) for time or destination, and で (de) for the location of the action or the tool used.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Which particle is used to mark the tool you use (like a taxi or chopsticks)?",
+      "expectedAnswer": "で (de)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Translate: 'I drink water.'",
+      "expectedAnswer": "みずを のみます (Mizu wo nomimasu)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Where does the verb go in a Japanese sentence?",
+      "expectedAnswer": "At the very end."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Verbs end in masu and go at the end.",
+      "wo marks the direct object.",
+      "ni marks time or destination.",
+      "de marks location of action or tool."
+    ],
+    "conceptSummary": "Moving from static 'A is B' sentences to dynamic action sentences using verbs and particles.",
+    "importantFacts": [
+      "Typing 'wo' produces を but it sounds like 'o'.",
+      "Subject dropping is highly encouraged in Japanese."
+    ],
+    "checkpointAnswers": {
+      "q1": "で",
+      "q2": "みずを のみます",
+      "q3": "At the very end"
+    },
+    "expectedUnderstanding": "Learner must choose the correct particle to attach nouns to the verb."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Excellent! You are ready to start building complex action sentences.",
+    "onFail": "Review the particles carefully. Remember: 'ni' is the bullseye (destination/time), 'de' is the stage/tool.",
+    "onPartial": "Good. Remember that 'wo' is used when you are directly doing something TO an object (eating it, drinking it, watching it)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "たべます。のみます。いきます。ごはんを たべます。えいがを みます。がっこうに いきます。はちじに おきます。カフェで のみます。はしで たべます。",
+    "audioLanguage": "ja",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "verbs",
+    "particles",
+    "grammar",
+    "beginner",
+    "month1",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Using 'ni' for the location of an action (e.g., Kafe ni tabemasu). You must use 'de'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

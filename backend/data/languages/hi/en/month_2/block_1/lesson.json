@@ -1,0 +1,198 @@
+{
+  "activityId": "en_hi_M2B1_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "Describing Things: Adjectives",
+  "learningGoal": "The learner will accurately deploy English adjectives to describe nouns, mastering the ungendered, unpluralized nature of English modifiers (e.g., preventing errors like 'bigs cars') while reinforcing the Pre-Nominal syntax (Adjective + Noun).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B6_test_001"],
+  "instructions": "Welcome to Month 2! Now we will learn how to describe things: big, small, red, fast. English adjectives are incredibly easy for Hindi speakers because they work almost exactly the same way, but with ONE amazing shortcut: they have no gender!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब आप किसी चीज़ का वर्णन करते हैं (जैसे 'बड़ी कार'), तो आप एक Adjective (विशेषण) का उपयोग करते हैं। अंग्रेजी में Adjectives बहुत सरल हैं। उनका कोई लिंग (Gender) नहीं होता है, और वे बहुवचन (Plurals) में कभी नहीं बदलते हैं!"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Adjectives always precede nouns in noun phrases (A big car).",
+      "English adjectives are completely gender-neutral (A good boy / A good girl).",
+      "English adjectives NEVER take a plural 's' (Good dogs, never Goods dogs).",
+      "Adjectives can also follow the 'To Be' verb (The car is big)."
+    ],
+    "conceptSummary": "Introduction to descriptive adjectives, highlighting the lack of morphological agreement required in English compared to the intense gender/number agreement required in Hindi.",
+    "importantFacts": [
+      "Hindi: 'बड़ा लड़का' (Bada ladka) vs 'बड़ी लड़की' (Badi ladki). English: 'Good boy' vs 'Good girl'. The adjective 'Good' remains completely static.",
+      "Hindi: 'अच्छे कुत्ते' (Achhe kutte). English: 'Good dogs'. The noun becomes plural (dogs), but the adjective (Good) does NOT get an 's'."
+    ],
+    "checkpointAnswers": {
+      "q1": "A red car",
+      "q2": "False",
+      "q3": "big cars",
+      "q4": "Both"
+    },
+    "expectedUnderstanding": "Learners will confidently use descriptive adjectives without attempting to pluralize them to match the noun, maintaining strict syntactic order."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand that English adjectives are incredibly simple. They never change for boys, girls, or groups of items.",
+    "onFail": "Please review the section on plurals. Remember, you never put an 's' on an adjective. 'Good dogs', not 'Goods dogs'.",
+    "onPartial": "Good effort! Pay close attention to word order. The describing word comes FIRST. 'Red car', not 'Car red'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b1/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b1/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m2/b1/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m2/b1/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m2/b1/lesson/native_lesson.mp3",
+    "audioTranscript": "A big car. A good boy. Good dogs.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "adjectives", "descriptions", "beginner", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b1/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you are confused about where the adjective goes, think in Hindi! 'लाल सेब' (Red Apple). 'लाल' (Red) सेब से पहले आता है। अंग्रेजी में भी ऐसा ही है!",
+  "commonMistakes": [
+    "Adding an 's' to adjectives (e.g. 'I have reds apples').",
+    "Worrying about male/female versions of a word. There is only ONE version!"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B1_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "The Rules of Adjectives",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Order: Adjective BEFORE Noun (विशेषण संज्ञा से पहले)",
+      "bodyText": "बिल्कुल हिंदी की तरह, वर्णन करने वाला शब्द (Adjective) वस्तु (Noun) से ठीक पहले आता है। 'एक बड़ी कार' अंग्रेजी में 'A big car' बन जाती है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "A red apple.",
+          "transliteration": "अ रेड ऐपल।",
+          "baseTranslation": "एक लाल सेब। (न कि 'An apple red')"
+        },
+        {
+          "targetText": "A happy dog.",
+          "transliteration": "अ हैप्पी डॉग।",
+          "baseTranslation": "एक खुश कुत्ता।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "No Genders! (कोई लिंग नहीं!)",
+      "bodyText": "हिंदी में, आप लिंग के आधार पर 'अच्छा', 'अच्छी', या 'अच्छे' कहते हैं। अंग्रेजी बहुत आसान है। यह हमेशा एक ही रहता है!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "A good boy. A good girl.",
+          "transliteration": "अ गुड बॉय। अ गुड गर्ल।",
+          "baseTranslation": "एक अच्छा लड़का। एक अच्छी लड़की। (यह दोनों के लिए सिर्फ 'good' है!)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "No Plurals for Adjectives! (विशेषणों के लिए कोई बहुवचन नहीं!)",
+      "bodyText": "यह सबसे आम गलती है! जब ५ कुत्ते हों, तो 'dogs' में 's' लगता है। लेकिन 'good' में कभी 's' नहीं लगता। वर्णन करने वाले शब्द (Adjectives) कभी बहुवचन नहीं होते।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Good dogs.",
+          "transliteration": "गुड डॉग्स।",
+          "baseTranslation": "अच्छे कुत्ते। (कभी 'Goods dogs' मत कहो!)"
+        },
+        {
+          "targetText": "Red cars.",
+          "transliteration": "रेड कार्स।",
+          "baseTranslation": "लाल कारें। ('Reds cars' गलत है!)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Using 'To Be' with Adjectives ('To Be' का उपयोग)",
+      "bodyText": "आप यह बताने के लिए Is/Am/Are का उपयोग भी कर सकते हैं कि कोई चीज़ कैसी है। इस स्थिति में, Adjective वाक्य के अंत में आता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "The car is fast.",
+          "transliteration": "द कार इज़ फास्ट।",
+          "baseTranslation": "कार तेज़ है।"
+        },
+        {
+          "targetText": "I am happy.",
+          "transliteration": "आई एम हैप्पी।",
+          "baseTranslation": "मैं खुश हूँ।"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will establish reflexes for affixing adjectives to nouns without attempting to pluralize or gender them, capitalizing on the grammatical simplicity compared to L1.",
+  "examples": [
+    {
+      "targetText": "She is a smart woman.",
+      "transliteration": "शी इज़ अ स्मार्ट वुमन।",
+      "baseTranslation": "वह एक चतुर महिला है।",
+      "explanation": "Adjective 'smart' comes before the noun 'woman'."
+    },
+    {
+      "targetText": "They have big houses.",
+      "transliteration": "दे हैव बिग हाउसेस।",
+      "baseTranslation": "उनके पास बड़े घर हैं।",
+      "explanation": "'Houses' takes an 's' because it is plural. But 'Big' NEVER takes an 's'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never put an 'S' on an adjective. 'Blue birds' not 'Blues birds'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The adjective goes exactly between the 'Article' (A/An/The) and the Noun. (A + Big + Car).",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Native speakers use adjectives constantly to show emotion. Knowing basic pairs of opposites (Hot/Cold, Big/Small) is critical for daily life.",
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "English adjectives are simple. Put them BEFORE the noun (A red apple). Do not change them if the noun is a boy or a girl. Do not put an 's' on them if there are many items. It is always just the base word.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "If a car (कार) is red (लाल), how do you say it in English?",
+      "expectedAnswer": "A red car"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "True or False: If you have two big cars, you say 'Two bigs cars'.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Fill in the blank: I have two ______. (big car / big cars / bigs cars)",
+      "expectedAnswer": "big cars"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Is 'good' used for boys, girls, or both?",
+      "expectedAnswer": "Both"
+    }
+  ]
+}

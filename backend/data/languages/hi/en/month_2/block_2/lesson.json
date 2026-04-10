@@ -1,0 +1,190 @@
+{
+  "activityId": "en_hi_M2B2_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "Right Now: The '-ING' Action",
+  "learningGoal": "The learner will understand and formulate the Present Continuous tense (auxiliary 'To Be' + base verb + 'ing') to express ongoing actions, explicitly contrasting it against the Present Simple tense taught in Month 1.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B1_test_001"],
+  "instructions": "In Month 1, we taught you to NEVER say 'I am eat'. You learned to say 'I eat'. But what if you are eating right now at this exact second? That is when we use the '-ING' ending! Read this lesson to learn the 'रहा हूँ' tense.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब आप हिंदी में 'रहा हूँ' या 'रही है' (जैसे 'मैं खा रहा हूँ') कहते हैं, तो आप अंग्रेजी में 'Present Continuous' (वर्तमान निरंतर) काल का उपयोग करते हैं। इसका एक बहुत ही सरल सूत्र है: (Is/Am/Are) + (Verb + ing)!"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Present Simple (I eat) describes routines. Present Continuous (I am eating) describes actions happening exactly at the moment of speech.",
+      "The Present Continuous absolutely requires an auxiliary 'To Be' verb (am/is/are) BEFORE the action.",
+      "The action verb must have the suffix '-ing' attached to its base form."
+    ],
+    "conceptSummary": "Introduction to the Present Continuous tense and gerund-style verb modification, bridging the 'To Be' constructs from M1B2 with the Action verbs from M1B5.",
+    "importantFacts": [
+      "Saying 'I eating' is grammatically incorrect. It must have the auxiliary: 'I AM eating'.",
+      "Saying 'I am eat' is grammatically incorrect. It must have the suffix: 'I am eatING'."
+    ],
+    "checkpointAnswers": {
+      "q1": "I am playing",
+      "q2": "He is going to school.",
+      "q3": "False",
+      "q4": "We are reading."
+    },
+    "expectedUnderstanding": "Learners will successfully map the Hindi 'raha hai/rahi hai' suffix to the English 'To Be + ING' structure."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You finally understand the difference between 'I eat' (routine) and 'I am eating' (right now).",
+    "onFail": "Please review carefully! If you want to say you are doing something right now, you need TWO things: the helper verb (am/is/are) AND the 'ing'.",
+    "onPartial": "Good effort! Watch out for missing the helper verb. 'She sleeping' is wrong. You need 'She IS sleeping'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b2/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m2/b2/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m2/b2/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m2/b2/lesson/native_lesson.mp3",
+    "audioTranscript": "I am eating. You are sleeping. He is running.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "tenses", "present_continuous", "verbs", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b2/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Match 'रहा' with 'ING'! 'मैं खा + रहा हूँ' = 'I + am + eat + ing'.",
+  "commonMistakes": [
+    "Saying 'I eating' (Forgetting the 'am').",
+    "Saying 'I am eat' (Forgetting the 'ing')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B2_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "The Present Continuous Tense",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Right Now vs Every Day (अभी vs रोज़)",
+      "bodyText": "पिछले महीने हमने सीखा था कि 'मैं खाता हूँ' (I eat) रोज़मर्रा की आदतों के लिए होता है। लेकिन अगर आप अभी अपनी मेज़ पर बैठे खाना खा रहे हैं, तो आप कहते हैं 'मैं खा रहा हूँ'। अंग्रेजी में इसे बताने के लिए हम क्रिया (Verb) में '-ing' जोड़ते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I eat an apple every day.",
+          "transliteration": "आई ईट ऐन ऐपल एवरी डे।",
+          "baseTranslation": "मैं रोज़ एक सेब खाता हूँ। (आदत)"
+        },
+        {
+          "targetText": "I am eating an apple right now.",
+          "transliteration": "आई एम ईटिंग ऐन ऐपल राइट नाउ।",
+          "baseTranslation": "मैं अभी एक सेब खा रहा हूँ। (इस समय)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The Formula: Is/Am/Are + ING (सूत्र)",
+      "bodyText": "'-ing' का उपयोग करने के लिए, आपको हमेशा एक सहायक शब्द (Is/Am/Are) का उपयोग करना होगा! आप इन्हें कभी नहीं छोड़ सकते।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am walking.",
+          "transliteration": "आई एम वॉकिंग।",
+          "baseTranslation": "मैं चल रहा हूँ। (सत्य: 'I' के साथ 'am' लगता है)"
+        },
+        {
+          "targetText": "He is running.",
+          "transliteration": "ही इज़ रनिंग।",
+          "baseTranslation": "वह दौड़ रहा है। (सत्य: 'He/She' के साथ 'is' लगता है)"
+        },
+        {
+          "targetText": "They are sleeping.",
+          "transliteration": "दे आर स्लीपिंग।",
+          "baseTranslation": "वे सो रहे हैं। (सत्य: 'They/We' के साथ 'are' लगता है)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "The Question: What are you doing? (तुम क्या कर रहे हो?)",
+      "bodyText": "जब हम किसी से पूछते हैं कि वे अभी क्या कर रहे हैं, तो हम 'What' का उपयोग करते हैं, और हम सहायक शब्द को आगे लाते हैं (Subject-Verb Inversion) जो हमने पहले महीने में सीखा था।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "What are you doing?",
+          "transliteration": "वॉट आर यू डूइंग?",
+          "baseTranslation": "तुम क्या कर रहे हो? (न कि 'What you are doing?')"
+        },
+        {
+          "targetText": "Where is he going?",
+          "transliteration": "वेयर इज़ ही गोइंग?",
+          "baseTranslation": "वह कहाँ जा रहा है?"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map the Hindi progressive aspect ('raha') to the English '-ing' participle, strictly utilizing copular auxiliary verbs ('to be') to avoid lone-participle syntax errors.",
+  "examples": [
+    {
+      "targetText": "My mother is cooking.",
+      "transliteration": "माई मदर इज़ कुकिंग।",
+      "baseTranslation": "मेरी माँ खाना बना रही हैं।",
+      "explanation": "Because it is happening right now, we use 'is' + 'cook' + 'ing'."
+    },
+    {
+      "targetText": "We are watching TV.",
+      "transliteration": "वी आर वाचिंग टीवी।",
+      "baseTranslation": "हम टीवी देख रहे हैं।",
+      "explanation": "Because the subject is plural ('We'), we use 'Are' and combine it with the 'ing' action."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "NEVER combine 'Is/Am/Are' with a basic verb without 'ing'. ('I am eat' is completely ruined English).",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "NEVER use '-ing' without 'Is/Am/Are'. ('I eating' is completely ruined English).",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "Every time you want to say something is happening RIGHT NOW ('रहा हूँ'), use the '-ing' ending on your action word. But to make it work, it must be protected by its helper! I AM eating. He IS running. We ARE playing.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Translate 'मैं खेल रहा हूँ' to English.",
+      "expectedAnswer": "I am playing"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the correct form: He _____ (go) to school right now.",
+      "expectedAnswer": "He is going to school."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "True or False: Saying 'They playing football' is completely correct.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate 'हम पढ़ रहे हैं' using the word 'read'.",
+      "expectedAnswer": "We are reading."
+    }
+  ]
+}

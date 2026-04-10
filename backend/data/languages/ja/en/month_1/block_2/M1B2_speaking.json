@@ -1,0 +1,173 @@
+{
+  "activityId": "en_ja_M1B2_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "You are the Detective",
+  "learningGoal": "Practice forming yes/no questions using 'be' verbs (Are you, Is she) in a spoken context.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B2_vocabulary_6"
+  ],
+  "instructions": "あなたは探偵です。容疑者に質問をしなければなりません。マイクに向かって、「あなたはケンですか？」「あなたはアメリカ出身ですか？」「彼女は医者ですか？」と英語で質問してください。(You are a detective. You must question a suspect. Ask 'Are you Ken?', 'Are you from America?', and 'Is she a doctor?' in English.)",
+  "speakingPrompt": "Ask the suspect: 1) Are you Ken? 2) Are you from America? 3) Is she a doctor?",
+  "scenario": "You are interrogating a suspect and need to confirm their identity and the identity of their friend.",
+  "role": "Detective",
+  "conversationPartner": "Suspect",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Ask the suspect if his name is Ken. (Are you Ken?)",
+      "expectedSpeakingPoints": [
+        "Are you",
+        "Ken"
+      ],
+      "sampleResponse": {
+        "targetText": "Are you Ken?",
+        "transliteration": "アー ユー ケン？",
+        "baseTranslation": "あなたはケンですか？"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Ask the suspect if he is from America. (Are you from America?)",
+      "expectedSpeakingPoints": [
+        "Are you",
+        "from America"
+      ],
+      "sampleResponse": {
+        "targetText": "Are you from America?",
+        "transliteration": "アー ユー フロム アメリカ？",
+        "baseTranslation": "あなたはアメリカ出身ですか？"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Ask if the woman next to him is a doctor. (Is she a doctor?)",
+      "expectedSpeakingPoints": [
+        "Is she",
+        "a doctor"
+      ],
+      "sampleResponse": {
+        "targetText": "Is she a doctor?",
+        "transliteration": "イズ シー ア ドクター？",
+        "baseTranslation": "彼女は医者ですか？"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Yes, detective. What do you want to ask me?",
+    "transliteration": "イエス、ディテクティヴ。ホワット ドゥー ユー ウォント トゥー アスク ミー？",
+    "baseTranslation": "はい、探偵さん。私に何を聞きたいのですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Are you Ken?",
+      "transliteration": "アー ユー ケン？",
+      "baseTranslation": "あなたはケンですか？"
+    },
+    {
+      "targetText": "Are you from America?",
+      "transliteration": "アー ユー フロム アメリカ？",
+      "baseTranslation": "あなたはアメリカ出身ですか？"
+    },
+    {
+      "targetText": "Is she a doctor?",
+      "transliteration": "イズ シー ア ドクター？",
+      "baseTranslation": "彼女は医者ですか？"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'Are you' for direct questions",
+      "Using 'Is she' for questions about a third person",
+      "Correct vocabulary (Ken, America, doctor)"
+    ],
+    "requiredKeywords": [
+      "Are",
+      "you",
+      "Ken",
+      "from",
+      "America",
+      "Is",
+      "she",
+      "doctor"
+    ],
+    "acceptableParaphrases": [
+      "Are you from the US?"
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Grammar Structure",
+          "weight": 30,
+          "description": "Correctly reversing subject and verb for questions."
+        },
+        {
+          "name": "Content",
+          "weight": 40,
+          "description": "Asked all three questions."
+        },
+        {
+          "name": "Fluency",
+          "weight": 30,
+          "description": "Spoke clearly with rising intonation for questions."
+        }
+      ]
+    },
+    "sampleAnswer": "Are you Ken? Are you from America? Is she a doctor?",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You formed the questions perfectly.",
+    "onFail": "Make sure you start your questions with 'Are you' or 'Is she'. Don't say 'You are Ken?'.",
+    "onPartial": "Good effort! Remember to raise your pitch at the end of the question."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B2_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M1B2_speaking_sample.mp3",
+    "slowAudio": "path/to/M1B2_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Are you Ken? Are you from America? Is she a doctor?",
+    "audioLanguage": "en",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "questions",
+    "be_verb",
+    "pronouns"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make a question with the 'be' verb, flip the subject and the verb (You are -> Are you).",
+  "commonMistakes": [
+    "Saying 'You are Ken?' instead of 'Are you Ken?'",
+    "Forgetting the 'a' in 'a doctor'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B2_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

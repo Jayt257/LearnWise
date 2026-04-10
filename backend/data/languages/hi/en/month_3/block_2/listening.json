@@ -1,0 +1,200 @@
+{
+  "activityId": "en_hi_M3B2_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "The Office Update",
+  "learningGoal": "The learner will parse rapid conversational English to identify contracted Present Perfect auxiliaries ('I've', 'He's', 'They've') and isolate the subsequent V3 participles indicating task completion.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M3B2_writing_001"],
+  "instructions": "Listen to a boss checking on her workers in an office. They are speaking very quickly using 'Contractions' (I've instead of I have). Listen closely to what jobs they have already finished. Answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Listen for the hidden 'Z' sound! If the boss says 'He's gone', she means 'He HAS gone'."
+    }
+  ],
+  "listeningGoal": "Identify morphological contractions of 'have' and 'has' against subject pronouns in continuous speech.",
+  "audioScenario": "A manager asking for status updates from her team.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Good afternoon, everyone. Let's check our progress.",
+      "transliteration": "गुड आफ्टरनून, एवरीवन। लेट्स चेक आवर प्रोग्रेस।",
+      "baseTranslation": "शुभ दोपहर, सब लोग। आइए हमारी प्रगति की जांच करें।"
+    },
+    {
+      "targetText": "Amit, have you finished the report?",
+      "transliteration": "अमित, हैव यू फिनिश्ड द रिपोर्ट?",
+      "baseTranslation": "अमित, क्या तुमने रिपोर्ट पूरी कर ली है?"
+    },
+    {
+      "targetText": "Yes, I've finished it. I've sent it to your email.",
+      "transliteration": "येस, आईव फिनिश्ड इट। आईव सेंट इट टू योर ईमेल।",
+      "baseTranslation": "हाँ, मैंने इसे पूरा कर लिया है। मैंने इसे आपके ईमेल पर भेज दिया है।"
+    },
+    {
+      "targetText": "Excellent. Where is John? I don't see him.",
+      "transliteration": "एक्सीलेंट। वेयर इज़ जॉन? आई डोन्ट सी हिम।",
+      "baseTranslation": "बहुत बढ़िया। जॉन कहाँ है? मैं उसे नहीं देख रही हूँ।"
+    },
+    {
+      "targetText": "He's left already. He's gone to the bank.",
+      "transliteration": "हीज़ लेफ्ट ऑलरेडी। हीज़ गॉन टू द बैंक।",
+      "baseTranslation": "वह पहले ही जा चुका है। वह बैंक गया है।"
+    },
+    {
+      "targetText": "Okay. And what about the new computers?",
+      "transliteration": "ओके। एंड वॉट अबाऊट द न्यू कंप्यूटर्स?",
+      "baseTranslation": "ठीक है। और नए कंप्यूटरों के बारे में क्या?"
+    },
+    {
+      "targetText": "They've arrived! We've put them in the meeting room.",
+      "transliteration": "देव अराइव्ड! वीव पुट देम इन द मीटिंग रूम।",
+      "baseTranslation": "वे आ चुके हैं! हमने उन्हें मीटिंग रूम में रख दिया है।"
+    },
+    {
+      "targetText": "Great work. It looks like we've completed everything.",
+      "transliteration": "ग्रेट वर्क। इट लुक्स लाइक वीव कंप्लीटेड एवरीथिंग।",
+      "baseTranslation": "बहुत अच्छा काम। ऐसा लगता है कि हमने सब कुछ पूरा कर लिया है।"
+    },
+    {
+      "targetText": "Yes, we've had a very good day.",
+      "transliteration": "येस, वीव हैड अ वेरी गुड डे।",
+      "baseTranslation": "हाँ, हमारा दिन बहुत अच्छा बीता (रहा) है।"
+    }
+  ],
+  "audioTranscriptFull": "Boss: Good afternoon, everyone. Let's check our progress. Amit, have you finished the report?\nAmit: Yes, I've finished it. I've sent it to your email.\nBoss: Excellent. Where is John? I don't see him.\nAmit: He's left already. He's gone to the bank.\nBoss: Okay. And what about the new computers?\nAmit: They've arrived! We've put them in the meeting room.\nBoss: Great work. It looks like we've completed everything.\nAmit: Yes, we've had a very good day.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does Amit say he has done with the report?",
+      "questionType": "multiple_choice",
+      "options": ["He threw it away", "He is writing it now", "He's sent it to her email"],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Listen closely: Does Amit say 'I have finished it' or 'I've finished it'?",
+      "questionType": "multiple_choice",
+      "options": ["I have finished it (Slow)", "I've finished it (Fast)"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Where is John currently?",
+      "questionType": "multiple_choice",
+      "options": ["At his desk", "He's gone to the bank", "He's sleeping"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "When Amit says 'He's gone', what two words is he squishing together into 'He's'?",
+      "questionType": "multiple_choice",
+      "options": ["He is", "He has", "He was"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What has arrived at the office?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "When Amit talks about the computers arriving, he says '_____ arrived!'.",
+      "questionType": "multiple_choice",
+      "options": ["They've", "They has", "Them have"],
+      "audioTimestamp": "00:19",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Where have they put the computers?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "When the boss says 'we've completed everything', what does 'we've' mean?",
+      "questionType": "multiple_choice",
+      "options": ["We are", "We have", "We will"],
+      "audioTimestamp": "00:24",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for MCQ."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "He's sent it to her email",
+      "q2": "I've finished it (Fast)",
+      "q3": "He's gone to the bank",
+      "q4": "He has",
+      "q5": "Computers",
+      "q6": "They've",
+      "q7": "Meeting room",
+      "q8": "We have"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["computers", "Computers", "new computers", "the new computers"],
+      "q7": ["meeting room", "the meeting room", "In the meeting room"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["computer"],
+      "q7": ["meeting", "room"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly decoded the native contractions! You heard 'He's' and instantly knew it meant 'He has' because of the V3 verb that followed it.",
+    "onFail": "Keep trying! This is very fast native speech. Play the audio on Slow mode. Listen to how 'I have' strings together into 'I've'. Native speakers do this to save time!",
+    "onPartial": "Good ear! Watch out for Question 4. Remember our rule: If 'He's' is followed by a V3 action like 'Gone', it MUST mean 'He has'! It cannot mean 'He is gone'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b2/listening/office_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b2/listening/office_slow.mp3",
+    "normalAudio": "audio/en_hi/m3/b2/listening/office_native.mp3",
+    "audioTranscript": "Boss: Good afternoon, everyone. Let's check our progress... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "present_perfect", "contractions", "have", "has", "intermediate", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b2/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the tiny sounds. A 'v' sound at the end of a pronoun means 'have'. A 'z' sound means 'has'.",
+  "commonMistakes": [
+    "Hearing 'He's left' and assuming it means 'He is left' (passive/adjective state) rather than Present Perfect 'He has left'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B2_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

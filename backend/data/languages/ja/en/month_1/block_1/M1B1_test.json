@@ -1,0 +1,244 @@
+{
+  "activityId": "en_ja_M1B1_test_8",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Test: Greetings and Phonics",
+  "learningGoal": "Evaluate your understanding of basic English greetings and difficult pronunciation rules.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B1_speaking_7"
+  ],
+  "instructions": "Block 1 のテストです。英語の挨拶や、発音（R/L, V/B）に関する問題に答えてください。(This is the Block 1 test. Answer questions about English greetings and pronunciation.)",
+  "testTitle": "Greetings and Phonics Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Phonics and Pronunciation (発音)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "V を発音するとき、正しい口の形はどれですか？ (What is the correct mouth shape for 'V'?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "両方の唇を閉じる (Close both lips)",
+            "上の前歯で下唇を軽く噛む (Bite lower lip with upper teeth)",
+            "舌を上の歯の裏につける (Put tongue behind upper teeth)",
+            "舌を歯で挟む (Put tongue between teeth)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「Right（右）」を発音するとき、舌はどうなりますか？ (What happens to your tongue when pronouncing 'Right'?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "上の歯の裏に押し当てる (Press against back of upper teeth)",
+            "どこにも当てず、口の奥に引く (Pull back without touching anywhere)",
+            "唇を丸める (Round the lips)",
+            "舌を歯で挟む (Put tongue between teeth)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "TH の発音で正しいのはどれですか？ (What is correct for the 'TH' sound?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "サシスセソと同じように発音する (Same as 'sa shi su se so')",
+            "舌を上下の歯で軽く挟んで息を出す (Put tongue between teeth and blow air)",
+            "唇を閉じて鼻から息を出す (Close lips and blow air through nose)",
+            "舌を巻く (Roll the tongue)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Vocabulary and Greetings (単語と挨拶)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「こんにちは」の正しい英語はどれですか？ (What is the correct English for 'Konnichiwa'?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "Good morning",
+            "Goodbye",
+            "Hello",
+            "See you later"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "初対面の人への挨拶として正しいのはどれですか？ (What is the correct greeting for someone you meet for the first time?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "See you later.",
+            "Nice to meet you.",
+            "I am fine.",
+            "Goodbye."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「How are you?」に対する答えとして不自然なものはどれですか？ (Which is an unnatural reply to 'How are you?')",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am fine, thank you.",
+            "I am doing well.",
+            "I am good.",
+            "My name is Ken."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "別れる時の挨拶として「See you later.」と同じように使えるのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Have a nice day.",
+            "Good morning.",
+            "Hello.",
+            "I am very well."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Translations (翻訳)",
+      "questions": [
+        {
+          "questionId": "q8",
+          "questionText": "Translate: '私の名前はサラです。'",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am Sarah name.",
+            "Sarah is my name.",
+            "My name is Sarah.",
+            "Me name Sarah."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "Translate: 'おはようございます、お元気ですか？'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Good morning, how are you?",
+            "Hello, nice to meet you?",
+            "Good evening, I am fine?",
+            "Good morning, see you later?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "「とても」という意味の英単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Berry",
+            "Very",
+            "Right",
+            "Light"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "上の前歯で下唇を軽く噛む (Bite lower lip with upper teeth)",
+      "q2": "どこにも当てず、口の奥に引く (Pull back without touching anywhere)",
+      "q3": "舌を上下の歯で軽く挟んで息を出す (Put tongue between teeth and blow air)",
+      "q4": "Hello",
+      "q5": "Nice to meet you.",
+      "q6": "My name is Ken.",
+      "q7": "Have a nice day.",
+      "q8": "My name is Sarah.",
+      "q9": "Good morning, how are you?",
+      "q10": "Very"
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 30,
+      "sec_3": 20
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Block 1 を完璧にクリアしました。次のブロックへ進みましょう。",
+    "onFail": "不合格です。発音のルールや基本的な挨拶をもう一度復習してください。",
+    "onPartial": "惜しいです！間違えた問題を復習して、もう一度挑戦しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_1",
+    "phonics",
+    "greetings"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the Japanese translations carefully to match the correct English phrase.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B2_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

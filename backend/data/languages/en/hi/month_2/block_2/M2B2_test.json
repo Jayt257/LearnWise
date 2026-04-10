@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M2B2_test_8",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Test: Continuous & Future Timelines",
+  "learningGoal": "Evaluate understanding of 'raha' vs 'ga/ge/gi' and the impact of the subject's gender on verb forms.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B2_lesson_1",
+    "hi_en_M2B2_pronunciation_2",
+    "hi_en_M2B2_reading_3",
+    "hi_en_M2B2_writing_4",
+    "hi_en_M2B2_listening_5",
+    "hi_en_M2B2_vocabulary_6",
+    "hi_en_M2B2_speaking_7"
+  ],
+  "instructions": "This test will verify your ability to talk about what is happening right now, and what will happen tomorrow. Pay attention to who is speaking!",
+  "testTitle": "Timeline Mastery Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_continuous",
+      "sectionTitle": "Present Continuous",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "If a MALE is speaking, how does he say 'I am eating'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Main kha raha hoon. (मैं खा रहा हूँ।)",
+            "Main kha rahi hoon. (मैं खा रही हूँ।)",
+            "Main kha rahe hain. (मैं खा रहे हैं।)"
+          ],
+          "questionHints": {
+            "targetText": "Main kha raha hoon. (मैं खा रहा हूँ।)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "Fill in the blank for a formal 'Aap' request: Aap kya kar ____ hain?",
+          "questionType": "multiple_choice",
+          "options": [
+            "rahe (रहे)",
+            "raha (रहा)",
+            "rahi (रही)"
+          ],
+          "questionHints": {
+            "targetText": "rahe (रहे)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_future",
+      "sectionTitle": "Future Tense",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "How does a FEMALE say 'I will go'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Main jaungi. (मैं जाऊँगी।)",
+            "Main jaunga. (मैं जाऊँगा।)",
+            "Main jayegi. (मैं जाएगी।)"
+          ],
+          "questionHints": {
+            "targetText": "Main jaungi. (मैं जाऊँगी।)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Translate: 'We will eat food.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Hum khaana khayenge.",
+            "Hum khaana khayega.",
+            "Hum khaana khaunga."
+          ],
+          "questionHints": {
+            "targetText": "Hum khaana khayenge.",
+            "transliteration": "Hum khaana khayenge.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: कल आइयेगा। (Kal aaiyega.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "Please come tomorrow.",
+            "transliteration": "Kal aaiyega.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Main kha raha hoon. (मैं खा रहा हूँ।)",
+      "tq_2": "rahe (रहे)",
+      "tq_3": "Main jaungi. (मैं जाऊँगी।)",
+      "tq_4": "Hum khaana khayenge.",
+      "tq_5": "Please come tomorrow."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'Come tomorrow please' or 'Do come tomorrow'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Exceptional! You have broken free of the present tense.",
+    "onFail": "Review Section 1 and 3. Male = 'a' endings (raha/unga). Female = 'i' endings (rahi/ungi).",
+    "onPartial": "Good effort. Just remember that 'Aap' and 'Hum' always take the plural 'e' endings (rahe/enge)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block2_month2",
+    "continuous",
+    "future",
+    "gender"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Plural and formal subjects (Aap, Hum, Ve) always end in an 'E' sound.",
+  "commonMistakes": [
+    "Using 'Main jayegi' for 'I will go' (Female). It should be 'Jaungi'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B3_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

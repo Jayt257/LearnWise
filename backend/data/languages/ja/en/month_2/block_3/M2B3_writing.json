@@ -1,0 +1,163 @@
+{
+  "activityId": "en_ja_M2B3_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Making it Polite",
+  "learningGoal": "Transform casual expressions into polite requests and offers using 'I would like', 'Could you', and 'Would you like'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B3_reading_3"
+  ],
+  "instructions": "以下の3つのカジュアルな文を、丁寧な表現（Polite English）に書き直してください。(Change these three casual sentences into polite sentences.)\n1. I want coffee.\n2. Can you help me?\n3. Do you want water?\nヒント：Would, Could などの助動詞を使い、必要に応じて please をつけましょう。",
+  "writingPrompt": "Change these three casual sentences into polite sentences: 1. I want coffee. 2. Can you help me? 3. Do you want water?",
+  "promptGoal": "To actively convert direct, casual statements/questions into formal, polite equivalents.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "I would like",
+      "transliteration": "アイ ウッド ライク",
+      "baseTranslation": "〜をいただきたいです",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "Could you",
+      "transliteration": "クジュー",
+      "baseTranslation": "〜していただけますか",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "Would you like",
+      "transliteration": "ウッド ジュー ライク",
+      "baseTranslation": "〜はいかがですか",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "please",
+      "transliteration": "プリーズ",
+      "baseTranslation": "お願いします",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "「I want」は「I would like」にすると丁寧になります。",
+    "「Can you」は「Could you」にすると丁寧になります。",
+    "「Do you want」は「Would you like」にすると丁寧になります。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "1. I would like coffee, please. 2. Could you help me, please? 3. Would you like some water?",
+      "transliteration": "1. アイ ウッド ライク コーヒー、プリーズ。2. クジュー ヘルプ ミー、プリーズ？ 3. ウッド ジュー ライク サム ウォーター？",
+      "baseTranslation": "1. コーヒーをいただけますか。 2. 手伝っていただけますか？ 3. お水はいかがですか？",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect transformation of all three sentences, including the appropriate use of 'please'."
+    },
+    {
+      "targetText": "I would like some coffee. Could you please help me? Would you like water?",
+      "transliteration": "アイ ウッド ライク サム コーヒー。クジュー プリーズ ヘルプ ミー？ ウッド ジュー ライク ウォーター？",
+      "baseTranslation": "コーヒーをいただきたいです。手伝っていただけますでしょうか？お水はいかがですか？",
+      "qualityLevel": "good",
+      "annotation": "Correct grammar and very polite."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Polite Want",
+      "weight": 30,
+      "description": "Did the user change 'I want' to 'I would like'?"
+    },
+    {
+      "criterion": "Polite Request",
+      "weight": 30,
+      "description": "Did the user change 'Can you' to 'Could you' or 'Would you'?"
+    },
+    {
+      "criterion": "Polite Offer",
+      "weight": 30,
+      "description": "Did the user change 'Do you want' to 'Would you like'?"
+    },
+    {
+      "criterion": "Use of Please",
+      "weight": 10,
+      "description": "Did the user include 'please' to soften the requests?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "1. I would like coffee. 2. Could you help me, please? 3. Would you like water?",
+    "acceptableAlternates": [
+      "I'd like coffee.",
+      "Would you help me?",
+      "May I have coffee?"
+    ],
+    "requiredKeywords": [
+      "would like",
+      "could you",
+      "help",
+      "water"
+    ],
+    "grammarBaseline": "Must not use 'want' or 'can'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Politeness Conversion",
+          "weight": 70,
+          "description": "Successfully substitutes casual modals with polite equivalents."
+        },
+        {
+          "name": "Syntax",
+          "weight": 30,
+          "description": "Correct word order (e.g. Could you help, not You could help)."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! Your sentences are very polite and natural for a formal or business setting.",
+    "onFail": "Please try again. Remember the rules: 'want' becomes 'would like', 'can you' becomes 'could you', and 'do you want' becomes 'would you like'.",
+    "onPartial": "Good try. Don't forget that when offering something to someone else, you should use 'Would you like'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "politeness",
+    "modals",
+    "sentence_transformation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you have three separate sentences. Using 'please' at the end of requests is always a good idea!",
+  "commonMistakes": [
+    "Writing 'I want to like coffee'.",
+    "Writing 'Do you would like water?'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

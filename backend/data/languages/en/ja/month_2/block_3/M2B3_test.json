@@ -1,0 +1,445 @@
+{
+  "activityId": "ja_en_M2B3_test_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Final Test — Past & Desire",
+  "learningGoal": "The learner will demonstrate mastery over past tense verbs, i-adjective and na-adjective past conjugations, and the desire form (~tai).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M2B3_lesson_001",
+    "ja_en_M2B3_pronunciation_001",
+    "ja_en_M2B3_reading_001",
+    "ja_en_M2B3_writing_001",
+    "ja_en_M2B3_listening_001",
+    "ja_en_M2B3_vocabulary_001",
+    "ja_en_M2B3_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to talk about the past and your desires. Be extremely careful with adjective endings: i-adjectives use ~katta, while na-adjectives use ~deshita.",
+  "testTitle": "Block 3 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Double check your adjective classifications (i vs na) before answering.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Adjectives and Time Words",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does しゅうまつ (Shuumatsu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Weekend", "Yesterday", "Tomorrow", "Movie"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does さむい (Samui) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Hot", "Difficult", "Cold (weather)", "Boring"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does おんせん (Onsen) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Hot spring", "Movie", "Job", "Test"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Which of these is a na-adjective?",
+          "questionType": "multiple_choice",
+          "options": ["むずかしい (Muzukashii)", "たのしい (Tanoshii)", "ひま (Hima)", "おいしい (Oishii)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_adjectives",
+      "sectionTitle": "Past Adjective Conjugation",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "What is the past tense of むずかしい (Muzukashii / difficult)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "むずかしいでした (Muzukashii deshita)",
+            "むずかした (Muzukashita)",
+            "むずかしかった (Muzukashikatta)",
+            "むずかしくなかった (Muzukashikunakatta)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "What is the negative past tense of たのしい (Tanoshii / fun)? (It was not fun)",
+          "questionType": "multiple_choice",
+          "options": [
+            "たのしかった (Tanoshikatta)",
+            "たのしくなかった (Tanoshikunakatta)",
+            "たのしくないでした (Tanoshikunai deshita)",
+            "たのしいじゃありませんでした (Tanoshii ja arimasen deshita)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What is the past tense of ひま (Hima / free) (na-adjective)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ひまかった (Himakatta)",
+            "ひまくなかった (Himakunakatta)",
+            "ひまでした (Hima deshita)",
+            "ひまいでした (Himai deshita)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "How do you say 'The test was easy' (Yasashii)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "テストは やさしかったです (Tesuto wa yasashikatta desu)",
+            "テストは やさしいでした (Tesuto wa yasashii deshita)",
+            "テストは やさしくなかったです (Tesuto wa yasashikunakatta desu)",
+            "テストは やさしたです (Tesuto wa yasashita desu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_desire",
+      "sectionTitle": "Desire and Verbs",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "How do you say 'I want to drink' (Nomimasu)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "のみますたい (Nomimasutai)",
+            "のみたい (Nomitai)",
+            "のんでたい (Nondetai)",
+            "のむたい (Nomutai)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "How do you say 'I don't want to go' (Ikimasu)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "いきたいです (Ikitai desu)",
+            "いきたいじゃないです (Ikitai ja nai desu)",
+            "いきたくないです (Ikitakunai desu)",
+            "いきませんたい (Ikimasentai)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'Yesterday, I didn't study'.",
+          "questionType": "multiple_choice",
+          "options": [
+            "きのう、べんきょうしませんでした (Kinou, benkyou shimasen deshita)",
+            "きのう、べんきょうしました (Kinou, benkyou shimashita)",
+            "きのう、べんきょうしたいです (Kinou, benkyou shitai desu)",
+            "きのう、べんきょうしません (Kinou, benkyou shimasen)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "How do you say 'I want to return home'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "うちへ かえりました (Uchi e kaerimashita)",
+            "うちへ かえりたいです (Uchi e kaeritai desu)",
+            "うちへ かえってです (Uchi e kaette desu)",
+            "うちへ いきたいです (Uchi e ikitai desu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. How does the speaker describe the trip?",
+          "questionType": "multiple_choice",
+          "options": ["It was difficult", "It was fun", "It was boring", "It was cold"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "りょこうは たのしかったです。",
+            "transliteration": "Ryokou wa tanoshikatta desu.",
+            "baseTranslation": "The trip was fun."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What does the speaker want to do?",
+          "questionType": "multiple_choice",
+          "options": ["Eat sushi", "Go to Japan", "Drink coffee", "Watch a movie"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "にほんに いきたいです。",
+            "transliteration": "Nihon ni ikitai desu.",
+            "baseTranslation": "I want to go to Japan."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. Was the movie fun?",
+          "questionType": "multiple_choice",
+          "options": ["Yes, it was fun.", "No, it was not fun.", "It was scary.", "They didn't watch a movie."],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "えいがは たのしくなかったです。",
+            "transliteration": "Eiga wa tanoshikunakatta desu.",
+            "baseTranslation": "The movie was not fun."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'Was fun' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たのしかった",
+            "transliteration": "tanoshikatta",
+            "baseTranslation": "Was fun"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'Want to eat' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たべたい",
+            "transliteration": "tabetai",
+            "baseTranslation": "Want to eat"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'Went' (Past tense of Ikimasu) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "いきました",
+            "transliteration": "ikimashita",
+            "baseTranslation": "Went"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'Yesterday' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "きのう",
+            "transliteration": "kinou",
+            "baseTranslation": "Yesterday"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'Was difficult' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "むずかしかった",
+            "transliteration": "muzukashikatta",
+            "baseTranslation": "Was difficult"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Weekend",
+      "q002": "Cold (weather)",
+      "q003": "Hot spring",
+      "q004": "ひま (Hima)",
+      "q005": "むずかしかった (Muzukashikatta)",
+      "q006": "たのしくなかった (Tanoshikunakatta)",
+      "q007": "ひまでした (Hima deshita)",
+      "q008": "テストは やさしかったです (Tesuto wa yasashikatta desu)",
+      "q009": "のみたい (Nomitai)",
+      "q010": "いきたくないです (Ikitakunai desu)",
+      "q011": "きのう、べんきょうしませんでした (Kinou, benkyou shimasen deshita)",
+      "q012": "うちへ かえりたいです (Uchi e kaeritai desu)",
+      "q013": "It was fun",
+      "q014": "Go to Japan",
+      "q015": "No, it was not fun.",
+      "q016": "tanoshikatta",
+      "q017": "tabetai",
+      "q018": "ikimashita",
+      "q019": "kinou",
+      "q020": "muzukashikatta"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Tanoshikatta", "tanoshikatta desu", "Tanoshikatta desu"],
+      "q017": ["Tabetai", "tabetai desu", "Tabetai desu"],
+      "q018": ["Ikimashita"],
+      "q019": ["Kinou"],
+      "q020": ["Muzukashikatta", "muzukashikatta desu", "Muzukashikatta desu"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_adjectives": 10,
+      "sec_desire": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the past tense and the desire form.",
+    "onFail": "Review the difference between i-adjective past (katta) and na-adjective past (deshita).",
+    "onPartial": "Almost there. Remember that 'tai' acts exactly like an i-adjective. Tabetai -> Tabetakatta (Wanted to eat)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block3",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "intermediate",
+    "month2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

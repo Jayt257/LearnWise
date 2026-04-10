@@ -1,0 +1,176 @@
+{
+  "activityId": "en_hi_M3B6_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "The Final Interview",
+  "learningGoal": "The learner will successfully maintain a native-speed, dynamic oral interview, demonstrating real-time modulation between Simple Past, Present Perfect, and Modals without reverting to L1 syntax.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B6_vocabulary_001"],
+  "instructions": "This is it! Your Final Speaking Exam! You are speaking to the English Examiner. She will ask you questions about your past, your experiences, and your future. You must answer confidently using the correct verbs. If you pass this, you graduate!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Listen carefully to the Examiner's 'Helper Word' (Did, Have, Will). Let her verb guide your answer!"
+    }
+  ],
+  "speakingPrompt": "Answer the Examiner's questions using clear, perfect SVO sentences.",
+  "scenario": "A formal speaking test with an English Examiner to prove fluency.",
+  "role": "The Student",
+  "conversationPartner": "The Examiner",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "एग्जामिनर: 'Welcome! How are you feeling today?' जवाब दें: 'मैं अच्छा महसूस कर रहा हूँ। मैं उत्साहित हूँ।' (I feel... I am...)",
+      "expectedSpeakingPoints": ["I feel good", "I am excited"],
+      "sampleResponse": {
+        "targetText": "I feel good. I am excited.",
+        "transliteration": "आई फील गुड। आई एम एक्साइटेड।",
+        "baseTranslation": "मैं अच्छा महसूस कर रहा हूँ। मैं उत्साहित हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "एग्जामिनर: 'Great! Let us talk about yesterday. Did you go to the store?' (Past Tense) जवाब दें: 'हाँ, मैं स्टोर (गया) था।'",
+      "expectedSpeakingPoints": ["Yes", "I went to the store"],
+      "sampleResponse": {
+        "targetText": "Yes, I went to the store.",
+        "transliteration": "येस, आई वेंट टू द स्टोर।",
+        "baseTranslation": "हाँ, मैं स्टोर गया था।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "एग्जामिनर: 'Have you ever travelled to a different country?' (Present Perfect) जवाब दें: 'नहीं, मैंने कभी यात्रा नहीं की है।' (No, I have never...)",
+      "expectedSpeakingPoints": ["No", "I have never travelled"],
+      "sampleResponse": {
+        "targetText": "No, I have never travelled.",
+        "transliteration": "नो, आई हैव नेवर ट्रैवल्ड।",
+        "baseTranslation": "नहीं, मैंने कभी यात्रा नहीं की है।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "एग्जामिनर: 'If you want to be completely healthy, what should you do?' (Modal) जवाब दें: 'मुझे पानी जरूर पीना चाहिए (Must)।' (I must...)",
+      "expectedSpeakingPoints": ["I must drink water"],
+      "sampleResponse": {
+        "targetText": "I must drink water.",
+        "transliteration": "आई मस्ट ड्रिंक वाटर।",
+        "baseTranslation": "मुझे पानी जरूर पीना चाहिए।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "एग्जामिनर: 'Excellent. What will you do tomorrow?' (Future Tense) जवाब दें: 'मैं अंग्रेजी पढ़ूंगा।' (I will...)",
+      "expectedSpeakingPoints": ["I will study English"],
+      "sampleResponse": {
+        "targetText": "I will study English.",
+        "transliteration": "आई विल स्टडी इंग्लिश।",
+        "baseTranslation": "मैं अंग्रेजी पढ़ूंगा।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Welcome! I am your Examiner. Are you ready for the final test?",
+    "transliteration": "वेलकम! आई एम योर एग्जामिनर। आर यू रेडी फॉर द फाइनल टेस्ट?",
+    "baseTranslation": "आपका स्वागत है! मैं आपका परीक्षक (एग्जामिनर) हूँ। क्या आप अंतिम परीक्षा के लिए तैयार हैं?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I feel good. I am excited.",
+      "transliteration": "आई फील गुड। आई एम एक्साइटेड।",
+      "baseTranslation": "मैं अच्छा महसूस कर रहा हूँ। मैं उत्साहित हूँ।"
+    },
+    {
+      "targetText": "Yes, I went to the store.",
+      "transliteration": "येस, आई वेंट टू द स्टोर।",
+      "baseTranslation": "हाँ, मैं स्टोर गया था।"
+    },
+    {
+      "targetText": "No, I have never travelled.",
+      "transliteration": "नो, आई हैव नेवर ट्रैवल्ड।",
+      "baseTranslation": "नहीं, मैंने कभी यात्रा नहीं की है।"
+    },
+    {
+      "targetText": "I must drink water.",
+      "transliteration": "आई मस्ट ड्रिंक वाटर।",
+      "baseTranslation": "मुझे पानी जरूर पीना चाहिए।"
+    },
+    {
+      "targetText": "I will study English.",
+      "transliteration": "आई विल स्टडी इंग्लिश।",
+      "baseTranslation": "मैं अंग्रेजी पढ़ूंगा।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 25,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "I feel good",
+      "went to the store",
+      "have never travelled",
+      "must drink water",
+      "will study"
+    ],
+    "requiredKeywords": [
+      "good",
+      "went",
+      "have",
+      "must",
+      "will"
+    ],
+    "acceptableParaphrases": [
+      "I feel great",
+      "I will learn English"
+    ],
+    "scoringRubric": {
+      "Irregular Past Verb deployed": "Did the user say 'I went' or incorrectly say 'I goed' / 'I go'?",
+      "Present Perfect deployed": "Did the user say 'I have never travelled' or incorrectly map to simple past 'I did not travel'?",
+      "Future Auxiliary deployed": "Did the user use 'Will'?"
+    },
+    "sampleAnswer": "I feel good. I am excited. Yes, I went to the store. No, I have never travelled. I must drink water. I will study English.",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! You passed the oral examination! You seamlessly switched between Present, Past, Present Perfect, and Future tenses. You are officially ready to converse in the real world!",
+    "onFail": "Keep practicing! In a real conversation, the tenses change quickly. You cannot use 'I go' for everything. Focus on 'Went' (Past), 'Have' (Perfect), 'Must' (Modal), and 'Will' (Future)!",
+    "onPartial": "Almost there! Watch out for Task 2. When talking about yesterday, 'Go' becomes 'Went'. Hindi changes the end of the word, but English changes the entire word!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b6/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m3/b6/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b6/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m3/b6/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m3/b6/speaking/full_dialogue.mp3",
+    "audioTranscript": "Examiner: Welcome! How are you feeling today?... (full dialogue)",
+    "audioLanguage": "en",
+    "audioDuration": 180,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "final_exam", "roleplay", "tenses", "fluency", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b6/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Match your verb to the Examiner's question. If she asks 'Did', you must use a Past word. If she asks 'Will', you must answer with 'Will'.",
+  "commonMistakes": [
+    "Answering 'Did you go' with 'Yes, I did go' instead of 'Yes, I went'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B6_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

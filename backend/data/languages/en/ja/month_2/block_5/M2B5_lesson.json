@@ -1,0 +1,240 @@
+{
+  "activityId": "ja_en_M2B5_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "Plain Form & Expressing Thoughts",
+  "learningGoal": "The learner will master the Present/Future Plain forms of verbs (Dictionary form and Nai-form) and use them to express opinions with '~to omoimasu' (I think that...).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M2B4_test_001"
+  ],
+  "instructions": "So far, you have learned the 'Polite Form' (ending in ~masu and ~desu). Today, we introduce the 'Plain Form'. This is used when talking casually with close friends, OR as a building block inside complex sentences.",
+  "conceptTitle": "Getting Casual: The Plain Form",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "The Dictionary Form (Plain Positive)",
+      "bodyText": "The Dictionary Form is the casual version of '~masu'. For Group 2 verbs (like Tabemasu), drop 'masu' and add 'ru'. For Group 1 verbs (like Ikimasu), drop 'imasu' and add 'u'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべます -> たべる",
+          "transliteration": "Tabemasu -> Taberu",
+          "baseTranslation": "To eat (Polite -> Casual)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いきます -> いく",
+          "transliteration": "Ikimasu -> Iku",
+          "baseTranslation": "To go (Polite -> Casual)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "します -> する",
+          "transliteration": "Shimasu -> Suru",
+          "baseTranslation": "To do (Irregular)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きます -> くる",
+          "transliteration": "Kimasu -> Kuru",
+          "baseTranslation": "To come (Irregular)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "The Nai-Form (Plain Negative)",
+      "bodyText": "The Nai-form is the casual version of '~masen'. For Group 2, drop 'masen' and add 'nai'. For Group 1, change the 'i' sound before 'masen' to an 'a' sound, and add 'nai'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべません -> たべない",
+          "transliteration": "Tabemasen -> Tabenai",
+          "baseTranslation": "Do not eat",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いきません -> いかない",
+          "transliteration": "Ikimasen -> Ikanai",
+          "baseTranslation": "Do not go",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しません -> しない",
+          "transliteration": "Shimasen -> Shinai",
+          "baseTranslation": "Do not do",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ありません -> ない",
+          "transliteration": "Arimasen -> Nai",
+          "baseTranslation": "There is not (Irregular exception)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Expressing Thoughts (~to omoimasu)",
+      "bodyText": "To say 'I think that...', take a Plain Form verb (or plain adjective) and add 'to omoimasu'. The 'to' acts like quotation marks.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "あした、あめが ふると おもいます。",
+          "transliteration": "Ashita, ame ga furu to omoimasu.",
+          "baseTranslation": "I think that it will rain tomorrow. (Furu = Plain form of Furimasu)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たなかさんは いかないと おもいます。",
+          "transliteration": "Tanaka-san wa ikanai to omoimasu.",
+          "baseTranslation": "I think Tanaka-san will not go. (Ikanai = Nai-form)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "おいしいと おもいます。",
+          "transliteration": "Oishii to omoimasu.",
+          "baseTranslation": "I think it is delicious. (i-adjectives are already in plain form)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "na-Adjectives and Nouns with Thoughts",
+      "bodyText": "When using '~to omoimasu' with a na-adjective or a noun, you must add 'da' before the 'to'. 'Da' is the plain form of 'desu'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "げんきだ とおもいます。",
+          "transliteration": "Genki da to omoimasu.",
+          "baseTranslation": "I think they are healthy. (Genki is a na-adj)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ほんとうだ とおもいます。",
+          "transliteration": "Hontou da to omoimasu.",
+          "baseTranslation": "I think it is the truth. (Hontou is a noun)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will accurately conjugate verbs into the Dictionary and Nai forms, and synthesize these with '~to omoimasu' to express subjective thoughts.",
+  "examples": [
+    {
+      "targetText": "きのう、たなかさんは くる とおもいました。でも、きませんでした。",
+      "transliteration": "Kinou, Tanaka-san wa kuru to omoimashita. Demo, kimasen deshita.",
+      "baseTranslation": "Yesterday, I thought Tanaka-san would come. But, he didn't come.",
+      "explanation": "You can conjugate 'omoimasu' into the past tense (omoimashita) to say 'I thought'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use the polite '~masu' form directly before 'to omoimasu'.",
+      "exceptionNotes": "'Ikimasu to omoimasu' is incorrect. It must be 'Iku to omoimasu'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Group 1 verbs ending in the 'U' character (like Kaimasu -> Kau) change to 'wa' in the Nai-form, not 'a'.",
+      "exceptionNotes": "Kaimasen -> Kawanai. (Not Kaanai)."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese culture heavily favors indirect communication. Saying 'Sore wa takai desu' (That is expensive) can sound too blunt. Softening it to 'Takai to omoimasu' (I think it is expensive) is considered much more polite.",
+    "dosList": [
+      "Use '~to omoimasu' frequently when giving your opinion."
+    ],
+    "dontsList": [
+      "Do not use plain form (like 'Taberu?') to speak to your boss or teacher. It is strictly for close friends or family."
+    ]
+  },
+  "summary": "Plain positive verbs end in U-sounds (Dictionary form). Plain negative verbs end in 'nai'. Use these plain forms plus 'to omoimasu' to express what you think. Add 'da' for nouns and na-adjectives.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the Dictionary form of 'Nomi-masu' (to drink)?",
+      "expectedAnswer": "のむ (Nomu)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What is the Nai-form of 'Yomi-masen' (do not read)?",
+      "expectedAnswer": "よまない (Yomanai)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you say 'I think that it is a lie' (Uso = lie)?",
+      "expectedAnswer": "うそだとおもいます (Uso da to omoimasu)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Dictionary form: Base verb ending in U.",
+      "Nai-form: Base verb ending in 'nai'.",
+      "to omoimasu: attaches to plain form.",
+      "Nouns/na-adj require 'da' before 'to omoimasu'."
+    ],
+    "conceptSummary": "Introduction to plain forms and sub-clause quotation.",
+    "importantFacts": [
+      "Arimasu -> Nai (irregular)",
+      "Kimasu -> Kuru / Konai (irregular)",
+      "Shimasu -> Suru / Shinai (irregular)"
+    ],
+    "checkpointAnswers": {
+      "q1": "のむ",
+      "q2": "よまない",
+      "q3": "うそだとおもいます"
+    },
+    "expectedUnderstanding": "Learner must memorize the dictionary/nai conjugations to utilize advanced sentence structures."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You have unlocked the ability to speak casually and express complex thoughts.",
+    "onFail": "Review the group 1 and group 2 verb rules. Group 2 is easy: just drop masu and add ru/nai.",
+    "onPartial": "Good start. Don't forget that nouns need 'da' before 'to omoimasu'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "たべる。いく。する。くる。たべない。いかない。しない。ない。あした、あめが ふると おもいます。たなかさんは いかないと おもいます。おいしいと おもいます。げんきだ とおもいます。ほんとうだ とおもいます。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "plain-form",
+    "nai-form",
+    "quotation",
+    "thoughts",
+    "intermediate",
+    "month2",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Genki to omoimasu' instead of 'Genki DA to omoimasu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

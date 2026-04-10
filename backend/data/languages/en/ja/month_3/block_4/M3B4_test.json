@@ -1,0 +1,444 @@
+{
+  "activityId": "ja_en_M3B4_test_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Final Test — Keigo: Respectful & Humble",
+  "learningGoal": "The learner will demonstrate mastery over the Japanese Keigo system, correctly identifying and applying Sonkeigo (respectful) and Kenjougo (humble) vocabulary to maintain appropriate social hierarchy.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M3B4_lesson_001",
+    "ja_en_M3B4_pronunciation_001",
+    "ja_en_M3B4_reading_001",
+    "ja_en_M3B4_writing_001",
+    "ja_en_M3B4_listening_001",
+    "ja_en_M3B4_vocabulary_001",
+    "ja_en_M3B4_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to navigate the complexities of Japanese business politeness. Remember the golden rule: NEVER use Sonkeigo for yourself.",
+  "testTitle": "Block 4 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Pay close attention to who is performing the action in each sentence.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Keigo Vocabulary Mastery",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does いらっしゃる (Irassharu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To eat (Respectful)", "To go/come/be (Respectful)", "To go/come (Humble)", "To say (Humble)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does いただく (Itadaku) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To go (Humble)", "To eat/drink/receive (Humble)", "To eat/drink (Respectful)", "To see (Respectful)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does もうす (Mousu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To say (Humble)", "To say (Respectful)", "To do (Humble)", "To know (Humble)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What is the very formal word for 'Today'?",
+          "questionType": "multiple_choice",
+          "options": ["きょう (Kyou)", "あす (Asu)", "ほんじつ (Honjitsu)", "こちら (Kochira)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Applying Sonkeigo & Kenjougo",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "If the President (Shachou) is going to a meeting, which verb should you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "いきます (Ikimasu)",
+            "まいります (Mairimasu)",
+            "いらっしゃいます (Irasshaimasu)",
+            "いただきます (Itadakimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "If YOU are going to a meeting, which verb should you use to sound humble?",
+          "questionType": "multiple_choice",
+          "options": [
+            "いきます (Ikimasu)",
+            "まいります (Mairimasu)",
+            "いらっしゃいます (Irasshaimasu)",
+            "もうします (Moushimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If a Customer (Kyaku) is eating, which verb should you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たべます (Tabemasu)",
+            "めしあがります (Meshiagarimasu)",
+            "いただきます (Itadakimasu)",
+            "なさいます (Nasaimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "If YOU are eating, which verb should you use to sound humble?",
+          "questionType": "multiple_choice",
+          "options": [
+            "たべます (Tabemasu)",
+            "めしあがります (Meshiagarimasu)",
+            "いただきます (Itadakimasu)",
+            "いたします (Itashimasu)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Formal Sentences",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Translate: 'The president will go.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "しゃちょうは いらっしゃいます",
+            "しゃちょうは まいります",
+            "しゃちょうは おっしゃいます",
+            "しゃちょうは いただきます"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Translate: 'I will go.' (Formal)",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたくしは まいります",
+            "わたくしは いらっしゃいます",
+            "わたくしは いたします",
+            "わたくしは もうします"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'The customer ate.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "きゃくは めしあがりました",
+            "きゃくは いただきました",
+            "きゃくは なさいました",
+            "きゃくは いらっしゃいました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Translate: 'I ate (received).'",
+          "questionType": "multiple_choice",
+          "options": [
+            "わたくしは いただきました",
+            "わたくしは めしあがりました",
+            "わたくしは いたしました",
+            "わたくしは まいりました"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Formal Service",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What does the staff member say to welcome the customer?",
+          "questionType": "multiple_choice",
+          "options": ["Konnichiwa", "Irasshaimase", "Ojamashimasu", "O-machi kudasai"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "いらっしゃいませ。",
+            "transliteration": "Irasshaimase.",
+            "baseTranslation": "Welcome."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What verb does the staff use to ask the customer about eating?",
+          "questionType": "multiple_choice",
+          "options": ["Tabemasu ka", "Itadakimasu ka", "Meshiagarimasu ka", "Nomimasu ka"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "なにを めしあがりますか。",
+            "transliteration": "Nani wo meshiagarimasu ka.",
+            "baseTranslation": "What will you eat?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. What verb does the customer use for themselves?",
+          "questionType": "multiple_choice",
+          "options": ["Tabemasu", "Meshiagarimasu", "Itadakimasu", "Itashimasu"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "すしを いただきます。",
+            "transliteration": "Sushi wo itadakimasu.",
+            "baseTranslation": "I will eat sushi."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write the formal word for 'I' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "わたくし",
+            "transliteration": "watakushi",
+            "baseTranslation": "I (Formal)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write the humble verb for 'to go/come' in its polite form (Masu form) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "まいります",
+            "transliteration": "mairimasu",
+            "baseTranslation": "will go (Humble)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write the respectful verb for 'to eat/drink' in its polite form (Masu form) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "めしあがります",
+            "transliteration": "meshiagarimasu",
+            "baseTranslation": "will eat (Respectful)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write the standard, highly formal phrase for 'I am very sorry' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "もうしわけございません",
+            "transliteration": "moushiwake gozaimasen",
+            "baseTranslation": "I am very sorry"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write the standard, highly formal word for 'Understood' (used in customer service) in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "かしこまりました",
+            "transliteration": "kashikomarimashita",
+            "baseTranslation": "Understood"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "To go/come/be (Respectful)",
+      "q002": "To eat/drink/receive (Humble)",
+      "q003": "To say (Humble)",
+      "q004": "ほんじつ (Honjitsu)",
+      "q005": "いらっしゃいます (Irasshaimasu)",
+      "q006": "まいります (Mairimasu)",
+      "q007": "めしあがります (Meshiagarimasu)",
+      "q008": "いただきます (Itadakimasu)",
+      "q009": "しゃちょうは いらっしゃいます",
+      "q010": "わたくしは まいります",
+      "q011": "きゃくは めしあがりました",
+      "q012": "わたくしは いただきました",
+      "q013": "Irasshaimase",
+      "q014": "Meshiagarimasu ka",
+      "q015": "Itadakimasu",
+      "q016": "watakushi",
+      "q017": "mairimasu",
+      "q018": "meshiagarimasu",
+      "q019": "moushiwake gozaimasen",
+      "q020": "kashikomarimashita"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Watakushi"],
+      "q017": ["Mairimasu"],
+      "q018": ["Meshiagarimasu"],
+      "q019": ["Moushiwake gozaimasen"],
+      "q020": ["Kashikomarimashita"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You have mastered the most formal level of Japanese communication.",
+    "onFail": "Review the Golden Rule: Elevate the listener, lower yourself.",
+    "onPartial": "Almost there. Pay close attention to standard service phrases like 'Moushiwake gozaimasen'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block4",
+    "keigo",
+    "business",
+    "advanced",
+    "month3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B5_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

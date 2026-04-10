@@ -1,0 +1,174 @@
+{
+  "activityId": "en_ja_M2B2_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Pizza Tonight",
+  "learningGoal": "Listen to a casual phone conversation and distinguish between what the speakers are doing now and what they will do later.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B2_writing_4"
+  ],
+  "instructions": "友人同士の電話での会話を聞いてください。「今何をしているか（~ing）」と、「今夜何をするか（going to / will）」を聞き分けて、質問に答えてください。(Listen to a phone conversation between friends. Distinguish between what they are doing now and what they will do tonight, and answer the questions.)",
+  "listeningGoal": "To differentiate present continuous actions from future intentions in spoken English.",
+  "audioScenario": "A phone call between two friends making plans for dinner.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hello? Hey Sarah, what are you doing?",
+      "transliteration": "ハロー？ ヘイ サラ、ホワット アー ユー ドゥーイング？",
+      "baseTranslation": "もしもし？ねえサラ、今何してるの？"
+    },
+    {
+      "targetText": "Hi! I am watching a movie. What are you doing?",
+      "transliteration": "ハイ！ アイ アム ウォッチング ア ムービー。ホワット アー ユー ドゥーイング？",
+      "baseTranslation": "ハーイ！今映画を見てるよ。あなたは何してるの？"
+    },
+    {
+      "targetText": "I am studying. But I am hungry.",
+      "transliteration": "アイ アム スタディイング。バット アイ アム ハングリー。",
+      "baseTranslation": "勉強してるよ。でもお腹すいたな。"
+    },
+    {
+      "targetText": "Me too. Are you going to cook dinner tonight?",
+      "transliteration": "ミー トゥー。アー ユー ゴーイング トゥ クック ディナー トゥナイト？",
+      "baseTranslation": "私も。今夜は夕食を作る予定なの？"
+    },
+    {
+      "targetText": "No, I am too tired. I will order a pizza.",
+      "transliteration": "ノー、アイ アム トゥー タイアード。アイ ウィル オーダー ア ピザ。",
+      "baseTranslation": "ううん、疲れすぎちゃって。ピザを注文するつもりだよ。"
+    },
+    {
+      "targetText": "That sounds great! I will come to your house.",
+      "transliteration": "ザット サウンズ グレイト！ アイ ウィル カム トゥ ユア ハウス。",
+      "baseTranslation": "それいいね！あなたの家に行くよ。"
+    },
+    {
+      "targetText": "Okay. I am going to call the pizza shop right now.",
+      "transliteration": "オーケー。アイ アム ゴーイング トゥ コール ザ ピザ ショップ ライト ナウ。",
+      "baseTranslation": "わかった。今すぐピザ屋に電話するね。"
+    },
+    {
+      "targetText": "See you soon!",
+      "transliteration": "シー ユー スーン！",
+      "baseTranslation": "また後で！"
+    }
+  ],
+  "audioTranscriptFull": "Person A: Hello? Hey Sarah, what are you doing?\nPerson B: Hi! I am watching a movie. What are you doing?\nPerson A: I am studying. But I am hungry.\nPerson B: Me too. Are you going to cook dinner tonight?\nPerson A: No, I am too tired. I will order a pizza.\nPerson B: That sounds great! I will come to your house.\nPerson A: Okay. I am going to call the pizza shop right now.\nPerson B: See you soon!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "電話がかかってきた「今」、サラ（Person B）は何をしていますか？ (What is Sarah doing right now?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "She is studying.",
+        "She is cooking.",
+        "She is watching a movie.",
+        "She is eating pizza."
+      ],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "電話をかけた人（Person A）は「今」何をしていますか？ (What is Person A doing right now?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Studying",
+        "Sleeping",
+        "Watching a movie",
+        "Walking"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Person A は今夜、夕食を作る（cook）予定ですか？ (Is Person A going to cook dinner tonight?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, she will cook.",
+        "No, she will order a pizza.",
+        "No, she will eat at a restaurant.",
+        "She isn't going to eat."
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ピザの話を聞いて、サラ（Person B）は何をすると決めましたか？ (What does Sarah decide to do?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "She will go home.",
+        "She will make a salad.",
+        "She will come to Person A's house.",
+        "She will pay for the pizza."
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "She is watching a movie.",
+      "q2": "Studying",
+      "q3": "No, she will order a pizza.",
+      "q4": "She will come to Person A's house."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You perfectly separated what they were doing NOW and what they decided to do LATER.",
+    "onFail": "Listen again closely. Differentiate the 'I am ~ing' sentences from the 'I will' sentences.",
+    "onPartial": "Good effort. Pay attention to who is doing what (Sarah vs Person A)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B2_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B2_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: Hello? Hey Sarah, what are you doing? Person B: Hi! I am watching a movie...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "present_continuous",
+    "future_tense",
+    "conversation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'will' when they make a sudden decision like 'I will come to your house'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B2_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

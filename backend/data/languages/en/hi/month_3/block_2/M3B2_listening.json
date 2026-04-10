@@ -1,0 +1,182 @@
+{
+  "activityId": "hi_en_M3B2_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Listening: News and Event Planning",
+  "learningGoal": "Understand formal passive voice in a news context, and identify causative verbs in an event planning context.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B2_lesson_1"
+  ],
+  "instructions": "Listen to a news report followed by an event manager delegating tasks. Pay close attention to verbs ending in 'gaya/jayega' (passive) and 'waa' (causative delegation).",
+  "listeningGoal": "Rapidly decode whether an action is being performed by the speaker, being delegated by the speaker, or happening to the subject without a named actor.",
+  "audioScenario": "A brief news bulletin, followed by an event manager organizing a wedding.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "न्यूज़ एंकर: आज दिल्ली में एक नया पुल खोला गया।",
+      "transliteration": "News Anchor: Aaj Delhi mein ek naya pul khola gaya.",
+      "baseTranslation": "News Anchor: Today, a new bridge was opened in Delhi."
+    },
+    {
+      "targetText": "न्यूज़ एंकर: कल प्रधानमंत्री के द्वारा भाषण दिया जाएगा।",
+      "transliteration": "News Anchor: Kal Pradhan Mantri ke dwara bhashan diya jayega.",
+      "baseTranslation": "News Anchor: Tomorrow, a speech will be given by the Prime Minister."
+    },
+    {
+      "targetText": "मैनेजर: सुनो, शादी की तैयारियाँ कैसी चल रही हैं?",
+      "transliteration": "Manager: Suno, shaadi ki taiyariyan kaisi chal rahi hain?",
+      "baseTranslation": "Manager: Listen, how are the wedding preparations going?"
+    },
+    {
+      "targetText": "असिस्टेंट: मैंने हॉल बुक कर लिया है।",
+      "transliteration": "Assistant: Maine hall book kar liya hai.",
+      "baseTranslation": "Assistant: I have booked the hall."
+    },
+    {
+      "targetText": "मैनेजर: बहुत बढ़िया। क्या तुमने मेहमानों को खाना खिलाया?",
+      "transliteration": "Manager: Bahut badhiya. Kya tumne mehmanon ko khana khilaya?",
+      "baseTranslation": "Manager: Very good. Did you feed the guests?"
+    },
+    {
+      "targetText": "असिस्टेंट: नहीं, खाना कैटरर से बनवाया जा रहा है।",
+      "transliteration": "Assistant: Nahi, khana caterer se banwaya jaa raha hai.",
+      "baseTranslation": "Assistant: No, the food is being gotten made by the caterer."
+    },
+    {
+      "targetText": "मैनेजर: ठीक है। मैं शाम तक सारे कार्ड भिजवा दूँगा।",
+      "transliteration": "Manager: Theek hai. Main shaam tak saare card bhijwa doonga.",
+      "baseTranslation": "Manager: Okay. I will have all the cards sent by evening."
+    }
+  ],
+  "audioTranscriptFull": "न्यूज़ एंकर: आज दिल्ली में एक नया पुल खोला गया। कल प्रधानमंत्री के द्वारा भाषण दिया जाएगा। मैनेजर: सुनो, शादी की तैयारियाँ कैसी चल रही हैं? असिस्टेंट: मैंने हॉल बुक कर लिया है। मैनेजर: बहुत बढ़िया। क्या तुमने मेहमानों को खाना खिलाया? असिस्टेंट: नहीं, खाना कैटरर से बनवाया जा रहा है। मैनेजर: ठीक है। मैं शाम तक सारे कार्ड भिजवा दूँगा।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "In the news report, 'Ek naya pul khola gaya'. What does this literally mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A new bridge went opened (Passive Voice: Was opened).",
+        "A new bridge opened itself.",
+        "Someone is opening a bridge."
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "How does the anchor express 'BY the Prime Minister'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Pradhan Mantri ke dwara.",
+        "Pradhan Mantri se.",
+        "Pradhan Mantri ne."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "When the manager asks about feeding the guests, what verb does he use?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Khilaya (First Causative: Did you feed/make them eat?)",
+        "Khaya (Base: Did you eat?)",
+        "Khilwaya (Second Causative: Did you have someone feed them?)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "Listen to the assistant's reply: 'Khana caterer se banwaya jaa raha hai'. What grammar structure is this?",
+      "questionType": "multiple_choice",
+      "options": [
+        "A combination of Causative (banwaya) and Passive (jaa raha hai).",
+        "Just Passive.",
+        "Active Voice."
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "What does the manager say he will do with the cards?",
+      "questionType": "multiple_choice",
+      "options": [
+        "He will get them sent by someone else (Bhijwa doonga).",
+        "He will send them himself (Bhej doonga).",
+        "He will bring them (Laaunga)."
+      ],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "A new bridge went opened (Passive Voice: Was opened).",
+      "lq_2": "Pradhan Mantri ke dwara.",
+      "lq_3": "Khilaya (First Causative: Did you feed/make them eat?)",
+      "lq_4": "A combination of Causative (banwaya) and Passive (jaa raha hai).",
+      "lq_5": "He will get them sent by someone else (Bhijwa doonga)."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant! You can hear the 'waa' infix and instantly know that someone is delegating work.",
+    "onFail": "Review the difference between Bhejna (To send) and Bhijwana (To get sent). That 'waa' sound completely changes the meaning.",
+    "onPartial": "Good effort. Sentence 6 ('Banwaya jaa raha hai') is very complex. It means 'It is being gotten made'. It's causative AND passive!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "न्यूज़ एंकर: आज दिल्ली में एक नया पुल खोला गया। कल प्रधानमंत्री के द्वारा भाषण दिया जाएगा। मैनेजर: सुनो, शादी की तैयारियाँ कैसी चल रही हैं? असिस्टेंट: मैंने हॉल बुक कर लिया है। मैनेजर: बहुत बढ़िया। क्या तुमने मेहमानों को खाना खिलाया? असिस्टेंट: नहीं, खाना कैटरर से बनवाया जा रहा है। मैनेजर: ठीक है। मैं शाम तक सारे कार्ड भिजवा दूँगा।",
+    "audioLanguage": "hi",
+    "audioDuration": 85,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "passive_voice",
+    "causatives",
+    "news",
+    "planning",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'Ke dwara' in the news broadcast. It is the formal Hindi way of saying 'By [Person]'.",
+  "commonMistakes": [
+    "Confusing 'Khilaya' (Fed someone) with 'Khaya' (Ate)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B2_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,189 @@
+{
+  "activityId": "hi_en_M2B1_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Speaking: Shopping and Ordering",
+  "learningGoal": "Engage in a roleplay where you state your desires using the 'chahiye' construction and negotiate using opposites like cheap and expensive.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B1_vocabulary_6",
+    "hi_en_M2B1_listening_5"
+  ],
+  "instructions": "You are at a local market. A shopkeeper asks what you want. You will negotiate for a cheap shirt and ask for cold water.",
+  "speakingPrompt": "Speak clearly. Remember to use 'Mujhe' instead of 'Main' when asking for things.",
+  "scenario": "Buying items at a market stall.",
+  "role": "Customer",
+  "conversationPartner": "Shopkeeper",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "The shopkeeper says: 'Aapko kya chahiye?' (What do you want?). Reply: 'I want a shirt.' (To me a shirt is needed).",
+      "expectedSpeakingPoints": [
+        "Mujhe",
+        "shirt",
+        "chahiye"
+      ],
+      "sampleResponse": {
+        "targetText": "मुझे शर्ट चाहिए।",
+        "transliteration": "Mujhe shirt chahiye.",
+        "baseTranslation": "I want a shirt."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "The shopkeeper shows you a shirt. Say: 'This is expensive.'",
+      "expectedSpeakingPoints": [
+        "Yeh",
+        "mahangi",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "यह महँगी है।",
+        "transliteration": "Yeh mahangi hai.",
+        "baseTranslation": "This is expensive."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Tell the shopkeeper exactly what you want: 'I want a cheap shirt.'",
+      "expectedSpeakingPoints": [
+        "Mujhe",
+        "sasti shirt",
+        "chahiye"
+      ],
+      "sampleResponse": {
+        "targetText": "मुझे सस्ती शर्ट चाहिए।",
+        "transliteration": "Mujhe sasti shirt chahiye.",
+        "baseTranslation": "I want a cheap shirt."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "The shopkeeper gives you the shirt. Now ask for water: 'I want cold water.'",
+      "expectedSpeakingPoints": [
+        "Mujhe",
+        "thanda paani",
+        "chahiye"
+      ],
+      "sampleResponse": {
+        "targetText": "मुझे ठंडा पानी चाहिए।",
+        "transliteration": "Mujhe thanda paani chahiye.",
+        "baseTranslation": "I want cold water."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप दुकान में हैं।",
+    "transliteration": "Aap dukan mein hain.",
+    "baseTranslation": "You are in the shop."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मुझे शर्ट चाहिए।",
+      "transliteration": "Mujhe shirt chahiye.",
+      "baseTranslation": "I want a shirt."
+    },
+    {
+      "targetText": "यह महँगी है।",
+      "transliteration": "Yeh mahangi hai.",
+      "baseTranslation": "This is expensive."
+    },
+    {
+      "targetText": "मुझे सस्ती शर्ट चाहिए।",
+      "transliteration": "Mujhe sasti shirt chahiye.",
+      "baseTranslation": "I want a cheap shirt."
+    },
+    {
+      "targetText": "मुझे ठंडा पानी चाहिए।",
+      "transliteration": "Mujhe thanda paani chahiye.",
+      "baseTranslation": "I want cold water."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Mujhe shirt chahiye",
+      "Yeh mahangi hai",
+      "Mujhe sasti shirt chahiye",
+      "Mujhe thanda paani chahiye"
+    ],
+    "requiredKeywords": [
+      "मुझे",
+      "चाहिए",
+      "महँगी",
+      "सस्ती",
+      "ठंडा"
+    ],
+    "acceptableParaphrases": [
+      "Adding 'ek' (one/a) is fine: Mujhe ek sasti shirt chahiye."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Dative Pronoun Adherence",
+          "weight": 50,
+          "description": "If the user says 'Main shirt chahiye', they fail the task immediately."
+        },
+        {
+          "name": "Adjective Gender Match",
+          "weight": 50,
+          "description": "Must use 'sasti' with shirt (feminine) and 'thanda' with water (masculine)."
+        }
+      ]
+    },
+    "sampleAnswer": "Mujhe shirt chahiye. Yeh mahangi hai. Mujhe sasti shirt chahiye. Mujhe thanda paani chahiye.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant negotiating skills! You used 'Mujhe' and 'Chahiye' perfectly.",
+    "onFail": "Review the basic structure for 'I want'. It must ALWAYS be 'Mujhe [item] chahiye'.",
+    "onPartial": "Good effort. Watch your adjective endings. Water is masculine, so it is Thanda. Shirt is feminine, so it is Sasti."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "मुझे शर्ट चाहिए। यह महँगी है। मुझे सस्ती शर्ट चाहिए। मुझे ठंडा पानी चाहिए।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "shopping",
+    "chahiye",
+    "adjectives",
+    "dative"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak slowly. Make sure the 'jh' in 'Mujhe' is aspirated (breathy).",
+  "commonMistakes": [
+    "Saying 'Mujhe sasta shirt chahiye' (failing to make the adjective feminine)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B1_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

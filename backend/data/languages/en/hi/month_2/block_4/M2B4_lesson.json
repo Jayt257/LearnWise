@@ -1,0 +1,290 @@
+{
+  "activityId": "hi_en_M2B4_lesson_1",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "The Final Boss of Grammar: Past Tense and the 'Ne' Particle",
+  "learningGoal": "Master the simple past tense, distinguish between transitive and intransitive verbs, and flawlessly apply the notorious 'ne' (ने) particle rule that flips sentence agreement.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 180,
+  "prerequisites": [
+    "hi_en_M2B3_test_8"
+  ],
+  "instructions": "Brace yourself. You have reached the most difficult, famous, and essential rule in Hindi grammar: The 'Ne' Rule. This single block will completely change how you build sentences in the past tense. Read every section multiple times.",
+  "conceptTitle": "Intransitive Past, Transitive Past, and Ergativity (The Ne Rule)",
+  "lessonContent": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "1. What is the Simple Past Tense?",
+      "bodyText": "Until now, you have learned the Present Continuous (I am eating) and Future (I will eat). Now we learn the Simple Past (I ate, He went, We slept).\n\nTo form the past tense, we drop the 'na' from the dictionary verb and add past tense suffixes: Aa (आ), E (ए), Ee (ई), or Een (ईं).\n\nUnlike English, Hindi completely splits verbs into TWO separate categories in the past tense. The rules are entirely different for 'Intransitive' verbs vs 'Transitive' verbs. Let's explore Intransitive verbs first.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं गया।",
+          "transliteration": "Main gaya.",
+          "baseTranslation": "I went. (Male speaker)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "वह आई।",
+          "transliteration": "Woh aayi.",
+          "baseTranslation": "She came.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "2. Intransitive Verbs (No Object Needed)",
+      "bodyText": "An Intransitive verb is an action that cannot take a direct object. You can 'go', 'come', 'sleep', or 'sit', but you cannot 'go a book' or 'sleep a car'.\n\nCommon Intransitive Verbs: Jaana (To go), Aana (To come), Sona (To sleep), Baithna (To sit).\n\nRule for Intransitive Past: The verb matches the SUBJECT of the sentence (just like normal).\n- Masculine Singular Subject: Add 'aa' -> Gaya (went), Aaya (came), Soya (slept).\n- Masculine Plural/Formal Subject: Add 'e' -> Gaye (went), Aaye (came), Soye (slept).\n- Feminine Subject: Add 'i' -> Gayi (went), Aayi (came), Soyi (slept).\n\nExample (Male speaking): Main ghar gaya. (मैं घर गया।) - I went home.\nExample (Female speaking): Main ghar gayi. (मैं घर गई।) - I went home.\nExample (Formal): Aap kab aaye? (आप कब आए?) - When did you come?",
+      "targetLanguageExamples": [
+        {
+          "targetText": "लड़का सो गया।",
+          "transliteration": "Ladka so gaya.",
+          "baseTranslation": "The boy slept.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "लड़कियाँ आ गईं।",
+          "transliteration": "Ladkiyan aa gayin.",
+          "baseTranslation": "The girls came.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "3. Transitive Verbs (They take an Object)",
+      "bodyText": "A Transitive verb is an action done TO an object. You can 'eat food', 'read a book', 'drink water', 'watch a movie'.\n\nCommon Transitive Verbs: Khaana (To eat), Peena (To drink), Padhna (To read), Dekhna (To see/watch), Karna (To do), Bolna (To say).\n\nWhen you use a Transitive verb in the Past Tense, the entire structure of Hindi grammar flips upside down. This is called 'Ergativity'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने खाना खाया।",
+          "transliteration": "Maine khaana khaaya.",
+          "baseTranslation": "I ate food.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "4. The 'Ne' Particle: Blocking the Subject",
+      "bodyText": "Here is the golden rule of Transitive Past Tense: You MUST attach the particle 'ne' (ने) immediately after the subject.\n\nWhat does 'ne' do? It acts like a brick wall. It blocks the verb from seeing the subject. \n\nBecause the verb can no longer see the subject (due to the 'ne' wall), the verb turns around and looks at the OBJECT instead. THE VERB CONJUGATES TO MATCH THE OBJECT'S GENDER, NOT THE SPEAKER'S GENDER.\n\nLet's analyze: 'I ate a roti (feminine)'.\n1. Subject = I (Main)\n2. Add 'ne' = Main + ne = Maine (मैंने)\n3. Object = Roti (रोटी - Feminine)\n4. Verb = Khaaya (ate). Because Roti is feminine, the verb becomes feminine -> Khaayi (खाई).\nResult: मैंने रोटी खाई। (Maine roti khaayi). \n*Notice that even if a 6-foot tall man is speaking, he MUST say 'Khaayi' because the object (roti) is feminine!*",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने रोटी खाई।",
+          "transliteration": "Maine roti khaayi.",
+          "baseTranslation": "I ate a roti. (Verb is feminine because Roti is feminine)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "राधा ने केला खाया।",
+          "transliteration": "Radha ne kela khaaya.",
+          "baseTranslation": "Radha ate a banana. (Verb is masculine because Banana is masculine, even though Radha is female!)",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_5",
+      "sectionTitle": "5. Pronoun Mergers with 'Ne'",
+      "bodyText": "When 'ne' attaches to pronouns, it merges to form completely new words. You must memorize these:\n\n1. Main + ne = मैंने (Maine) -> I\n2. Tu + ne = तूने (Tune) -> You (intimate)\n3. Tum + ne = तुमने (Tumne) -> You (casual)\n4. Aap + ne = आपने (Aapne) -> You (formal)\n5. Hum + ne = हमने (Humne) -> We\n6. Yeh/Woh (Singular 3rd person) + ne = इसने / उसने (Isne / Usne) -> He/She/It did\n7. Ye/Ve (Plural 3rd person) + ne = इन्होंने / उन्होंने (Inhone / Unhone) -> They / He/She (respectful) did",
+      "targetLanguageExamples": [
+        {
+          "targetText": "आपने क्या किया?",
+          "transliteration": "Aapne kya kiya?",
+          "baseTranslation": "What did you do?",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "उसने पानी पिया।",
+          "transliteration": "Usne paani piya.",
+          "baseTranslation": "He/she drank water.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_6",
+      "sectionTitle": "6. Deep Dive: Gender Flipping in Action",
+      "bodyText": "Let's put a male subject (Rahul) and a female subject (Neha) through a test using 'Dekhna' (To see/watch). 'Dekha' is masculine. 'Dekhi' is feminine.\n\nScenario A: Watching a Film (फिल्‍म - Feminine)\n- Rahul: राहुल ने फिल्म देखी। (Rahul ne film dekhi.) -> Verb is 'dekhi' because film is feminine.\n- Neha: नेहा ने फिल्म देखी। (Neha ne film dekhi.) -> Verb is 'dekhi' because film is feminine.\n\nScenario B: Watching a Drama (नाटक - Masculine)\n- Rahul: राहुल ने नाटक देखा। (Rahul ne natak dekha.) -> Verb is 'dekha' because natak is masculine.\n- Neha: नेहा ने नाटक देखा। (Neha ne natak dekha.) -> Verb is 'dekha' because natak is masculine.\n\nDo you see it? The subject's gender is completely erased by 'ne'. Only the object matters.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "हमने फिल्म देखी।",
+          "transliteration": "Humne film dekhi.",
+          "baseTranslation": "We watched a film.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "तुमने क्या देखा?",
+          "transliteration": "Tumne kya dekha?",
+          "baseTranslation": "What did you see?",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_7",
+      "sectionTitle": "7. What if there is no object?",
+      "bodyText": "Sometimes we use a transitive verb, but we don't say the object. For example: 'I ate' (Maine khaya). \n\nRule: If there is a 'ne', but there is NO visible object in the sentence, the verb automatically defaults to MASCULINE SINGULAR (ending in 'a').\n\nExample: What did Neha do? \nAnswer: Neha ne khaya. (नेहा ने खाया।) -> Because the specific food isn't mentioned, the verb defaults to the masculine 'khaya', even though Neha is a woman.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने कहा।",
+          "transliteration": "Maine kaha.",
+          "baseTranslation": "I said (it).",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_8",
+      "sectionTitle": "8. The Rule Breakers (Exceptions)",
+      "bodyText": "Hindi has a few rebel verbs. These are transitive verbs (they take an object), but they REFUSE to take 'ne'. They conjugate like intransitive verbs (matching the subject).\n\nThe 3 major exceptions:\n1. लाना (Laana) - To bring. Example: Main kitaab laaya. (I brought the book.) - No 'ne' used!\n2. भूलना (Bhoolna) - To forget. Example: Main naam bhool gaya. (I forgot the name.) - No 'ne' used!\n3. समझना (Samajhna) - To understand. Example: Main samajh gaya. (I understood.) - No 'ne' used!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं पानी लाया।",
+          "transliteration": "Main paani laaya.",
+          "baseTranslation": "I brought water.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "वह भूल गई।",
+          "transliteration": "Woh bhool gayi.",
+          "baseTranslation": "She forgot.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will master the ergative alignment of the Hindi past tense, flawlessly applying the 'ne' particle to transitive verbs and making the verb agree with the object rather than the subject.",
+  "examples": [
+    {
+      "targetText": "सीता ने आम खाया।",
+      "transliteration": "Sita ne aam khaaya.",
+      "baseTranslation": "Sita ate a mango.",
+      "explanation": "Sita is female. Mango (Aam) is masculine. Because of 'ne', the verb 'khaaya' matches the masculine mango."
+    },
+    {
+      "targetText": "राम बाज़ार गया।",
+      "transliteration": "Ram baazaar gaya.",
+      "baseTranslation": "Ram went to the market.",
+      "explanation": "Jaana (to go) is intransitive. No 'ne' is used. The verb 'gaya' directly matches the male subject Ram."
+    },
+    {
+      "targetText": "उन्होंने काम किया।",
+      "transliteration": "Unhone kaam kiya.",
+      "baseTranslation": "They did work.",
+      "explanation": "Ve + ne = Unhone. Kaam is masculine, so the verb is 'kiya' (did)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "NEVER use 'ne' with Jaana (to go), Aana (to come), Hona (to be), Sona (to sleep), and Baithna (to sit).",
+      "exceptionNotes": "Saying 'Maine gaya' is the most common mistake foreigners make. It is instantly recognized as incorrect Hindi. It must be 'Main gaya'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "If a verb uses 'ne', it is physically impossible for the verb to match the subject. It must look at the object. If there is no object, it defaults to masculine singular.",
+      "exceptionNotes": "Remember the 'ne wall' metaphor. The verb cannot see past the wall to know who is speaking."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "The 'ne' particle is unique to the Indo-Aryan language family. Mastering it is the true test of Hindi fluency. When native speakers hear a foreigner correctly say 'Maine chai pee' instead of 'Main chai piya', they are instantly impressed.",
+    "dosList": [
+      "Memorize the gender of everyday objects (chai is feminine, paani is masculine) so you know how to conjugate past tense transitive verbs."
+    ],
+    "dontsList": [
+      "Do not try to find an English equivalent for 'ne'. It does not exist in English. Treat it as a mathematical formula."
+    ]
+  },
+  "summary": "You have survived the hardest block in the curriculum! You learned that intransitive verbs (like go, come, sleep) act normally in the past tense. But transitive verbs (like eat, drink, see) force you to put 'ne' after the subject. Once 'ne' is added, the verb turns around and matches the gender of the object you interacted with.",
+  "checkpointQuestions": [
+    {
+      "questionId": "cq_1",
+      "questionText": "Why is it completely wrong to say 'Maine gaya'?",
+      "expectedAnswer": "Because 'Jaana' (to go) is an intransitive verb. Intransitive verbs never take 'ne'. It should be 'Main gaya'."
+    },
+    {
+      "questionId": "cq_2",
+      "questionText": "If a woman drinks tea (Chai - feminine), does she say 'Maine chai piya' or 'Maine chai pee'?",
+      "expectedAnswer": "Maine chai pee. Because of 'ne', the verb matches the feminine object (Chai)."
+    },
+    {
+      "questionId": "cq_3",
+      "questionText": "If a man drinks tea, does he say 'Maine chai piya' or 'Maine chai pee'?",
+      "expectedAnswer": "Maine chai pee. The gender of the speaker does not matter at all. The verb only sees the feminine tea."
+    },
+    {
+      "questionId": "cq_4",
+      "questionText": "What does 'Aap' become when you add 'ne' to it?",
+      "expectedAnswer": "Aapne (आपने)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Intransitive = No Ne. Matches Subject.",
+      "Transitive = Uses Ne. Matches Object.",
+      "Main + ne = Maine. Tum + ne = Tumne. Yeh + ne = Isne. Woh + ne = Usne.",
+      "If no object is stated, verb defaults to masculine singular 'a' ending.",
+      "Exceptions: Laana, Bhoolna, Samajhna."
+    ],
+    "conceptSummary": "Mastery of ergative-absolutive alignment in the Hindi past tense.",
+    "importantFacts": [
+      "The 'ne' particle acts as a grammatical wall blocking subject-verb agreement."
+    ],
+    "checkpointAnswers": {
+      "cq_1": "Intransitive verbs never take 'ne'.",
+      "cq_2": "Maine chai pee.",
+      "cq_3": "Maine chai pee.",
+      "cq_4": "Aapne"
+    },
+    "expectedUnderstanding": "Learners can flawlessly distinguish when to use 'ne' and how to flip verb agreement to the object."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Astounding! You have conquered the Everest of Hindi Grammar.",
+    "onFail": "Read Section 3 and 4 again. This is a very unnatural concept for English speakers. Take your time.",
+    "onPartial": "Good progress. The biggest hurdle is remembering to check the gender of the OBJECT (like tea or water) before finishing your sentence."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "मैं गया। वह आई। मैंने खाना खाया। मैंने रोटी खाई। राधा ने केला खाया। आपने क्या किया? उसने पानी पिया। हमने फिल्म देखी। मैंने कहा। मैं पानी लाया।",
+    "audioLanguage": "hi",
+    "audioDuration": 400,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "grammar",
+    "past_tense",
+    "ne_particle",
+    "ergativity",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the examples out loud until 'Maine roti khaayi' sounds more natural to you than 'Maine roti khaaya'. Repetition is key.",
+  "commonMistakes": [
+    "Saying 'Maine gaya' (Applying 'ne' to an intransitive verb).",
+    "Saying 'Main khaya' (Forgetting 'ne' on a transitive verb)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_pronunciation_2"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

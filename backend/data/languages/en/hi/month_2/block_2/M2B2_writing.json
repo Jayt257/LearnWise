@@ -1,0 +1,193 @@
+{
+  "activityId": "hi_en_M2B2_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Writing: Present Actions and Future Plans",
+  "learningGoal": "Construct sentences using the present continuous and simple future tenses, demonstrating accurate gender agreement.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B2_lesson_1"
+  ],
+  "instructions": "In this writing task, you must assume the identity of a MALE speaker. You will translate sentences describing what you are doing right now, and what you will do later.",
+  "writingPrompt": "Translate the following sentences into Hindi (Assume you are a MALE speaker):\n1. I am drinking water right now. (Drink = Pee)\n2. I will go to Delhi tomorrow. (Go = Jaa)\n3. What are you doing? (Formal 'Aap', Do = Kar)\n4. Please come tomorrow. (Polite future command of 'Aana')",
+  "promptGoal": "Applying 'raha/rahe' and 'ga/ge' conjugations correctly.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "main",
+      "baseTranslation": "I",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "अभी",
+      "transliteration": "abhi",
+      "baseTranslation": "right now",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "पानी",
+      "transliteration": "paani",
+      "baseTranslation": "water",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "पी रहा हूँ",
+      "transliteration": "pee raha hoon",
+      "baseTranslation": "am drinking (male)",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "कल",
+      "transliteration": "kal",
+      "baseTranslation": "tomorrow",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "दिल्ली",
+      "transliteration": "Delhi",
+      "baseTranslation": "Delhi",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "जाऊँगा",
+      "transliteration": "jaunga",
+      "baseTranslation": "will go (male)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "aap",
+      "baseTranslation": "you (formal)",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "क्या",
+      "transliteration": "kya",
+      "baseTranslation": "what",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "कर रहे हैं",
+      "transliteration": "kar rahe hain",
+      "baseTranslation": "are doing",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "आइयेगा",
+      "transliteration": "aaiyega",
+      "baseTranslation": "please come (future polite)",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'I right-now water drink-ing am (male).'",
+    "Sentence 2: 'Tomorrow I Delhi will-go (male).'",
+    "Sentence 3: 'You (formal) what do-ing are?'",
+    "Sentence 4: 'Tomorrow please-come (future polite).'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं अभी पानी पी रहा हूँ। कल मैं दिल्ली जाऊँगा। आप क्या कर रहे हैं? कल आइयेगा।",
+      "transliteration": "Main abhi paani pee raha hoon. Kal main Delhi jaunga. Aap kya kar rahe hain? Kal aaiyega.",
+      "baseTranslation": "I am drinking water right now. Tomorrow I will go to Delhi. What are you doing? Please come tomorrow.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect masculine grammar. Uses 'raha hoon' and 'jaunga'. Correctly uses the polite future request 'aaiyega'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Masculine Speaker Grammar",
+      "weight": 35,
+      "description": "Must use 'raha' in sentence 1 and 'unga' in sentence 2."
+    },
+    {
+      "criterion": "Formal Continuous Structure",
+      "weight": 35,
+      "description": "Must use 'rahe hain' with 'Aap' in sentence 3."
+    },
+    {
+      "criterion": "Future Polite Request",
+      "weight": 30,
+      "description": "Must attach 'ga' to the formal imperative 'Aaiye' resulting in 'Aaiyega'."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं अभी पानी पी रहा हूँ। कल मैं दिल्ली जाऊँगा। आप क्या कर रहे हैं? कल आइयेगा।",
+    "acceptableAlternates": [
+      "Main abhi paani pee raha hoon. Kal main Delhi jaunga. Aap kya kar rahe hain? Kal aaiyega.",
+      "main abhi paani pee raha hoon. kal main delhi jaunga. aap kya kar rahe hain? kal aaiyega."
+    ],
+    "requiredKeywords": [
+      "main",
+      "abhi",
+      "pee raha hoon",
+      "kal",
+      "jaunga",
+      "aap",
+      "kya",
+      "kar rahe hain",
+      "aaiyega"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check on male endings.",
+    "lengthExpectation": "Four specific sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Gender Failure Check",
+          "weight": 100,
+          "description": "If user writes 'pee rahi hoon' or 'jaungi', score is 0. They must assume a male identity."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! Your tense formations and gender agreements are spot on.",
+    "onFail": "Review the instructions carefully. You must write as a MALE speaker ('raha' and 'unga').",
+    "onPartial": "Good try. Check your formal request. To say 'Please come tomorrow', you take the polite 'Aaiye' and add the future 'ga' -> 'Aaiyega'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "continuous",
+    "future",
+    "gender_agreement",
+    "grammar"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to sentence 3. 'Aap' (Formal You) always takes the plural forms: 'rahe' and 'hain'.",
+  "commonMistakes": [
+    "Writing 'Aap kya kar raha hai' (Mixing formal Aap with singular raha/hai)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,173 @@
+{
+  "activityId": "en_ja_M2B5_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Explaining the Rules",
+  "learningGoal": "Speak fluently to explain rules and lack of obligation using must, must not, and don't have to.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B5_vocabulary_6"
+  ],
+  "instructions": "あなたは新しい生徒に学校のルールを説明しています。マイクに向かって、「あなたは制服を着なければなりません。走ってはいけません。昼食を持ってくる必要はありません」と英語で話してください。(You are explaining the school rules to a new student. Speak into the microphone and say: 'You must wear a uniform. You must not run. You don't have to bring lunch.')",
+  "speakingPrompt": "Say: 'You must wear a uniform. You must not run. You don't have to bring lunch.'",
+  "scenario": "A new student is asking you about the school rules.",
+  "role": "You (Senior Student)",
+  "conversationPartner": "New Student",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "State a strong rule using must. (You must wear a uniform.)",
+      "expectedSpeakingPoints": [
+        "You must wear",
+        "a uniform"
+      ],
+      "sampleResponse": {
+        "targetText": "You must wear a uniform.",
+        "transliteration": "ユー マスト ウェア ア ユニフォーム。",
+        "baseTranslation": "あなたは制服を着なければなりません。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "State a prohibition using must not. (You must not run.)",
+      "expectedSpeakingPoints": [
+        "You must not",
+        "run"
+      ],
+      "sampleResponse": {
+        "targetText": "You must not run.",
+        "transliteration": "ユー マス ノット ラン。",
+        "baseTranslation": "走ってはいけません。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "State a lack of obligation using don't have to. (You don't have to bring lunch.)",
+      "expectedSpeakingPoints": [
+        "You don't have to",
+        "bring lunch"
+      ],
+      "sampleResponse": {
+        "targetText": "You don't have to bring lunch.",
+        "transliteration": "ユー ドント ハフ トゥ ブリング ランチ。",
+        "baseTranslation": "昼食を持ってくる必要はありません。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hi, I'm new here. What are the rules?",
+    "transliteration": "ハイ、アイム ニュー ヒア。ホワット アー ザ ルールズ？",
+    "baseTranslation": "やあ、僕は新入生なんだ。ルールは何？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "You must wear a uniform.",
+      "transliteration": "ユー マスト ウェア ア ユニフォーム。",
+      "baseTranslation": "あなたは制服を着なければなりません。"
+    },
+    {
+      "targetText": "You must not run.",
+      "transliteration": "ユー マス ノット ラン。",
+      "baseTranslation": "走ってはいけません。"
+    },
+    {
+      "targetText": "You don't have to bring lunch.",
+      "transliteration": "ユー ドント ハフ トゥ ブリング ランチ。",
+      "baseTranslation": "昼食を持ってくる必要はありません。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'must'",
+      "Using 'must not'",
+      "Using 'don't have to'"
+    ],
+    "requiredKeywords": [
+      "must",
+      "wear",
+      "uniform",
+      "not",
+      "run",
+      "don't",
+      "have",
+      "to",
+      "bring",
+      "lunch"
+    ],
+    "acceptableParaphrases": [
+      "You must wear a uniform. You mustn't run. You don't have to bring lunch."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Modal Usage",
+          "weight": 50,
+          "description": "Must use the exact modals for obligation, prohibition, and lack of obligation."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear pronunciation of 'have to' (sounds like haf-too)."
+        },
+        {
+          "name": "Verb Form",
+          "weight": 30,
+          "description": "All verbs following modals must be base form."
+        }
+      ]
+    },
+    "sampleAnswer": "You must wear a uniform. You must not run. You don't have to bring lunch.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great speaking! Your rules were perfectly clear, and your modals were correct.",
+    "onFail": "Please try again. Pay close attention to 'must not' vs 'don't have to'.",
+    "onPartial": "Good effort! Remember to pronounce 'have to' like 'haf-too'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B5_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M2B5_speaking_sample.mp3",
+    "slowAudio": "path/to/M2B5_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "You must wear a uniform. You must not run. You don't have to bring lunch.",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "modals",
+    "rules"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you clearly pronounce the 'not' in 'must not'.",
+  "commonMistakes": [
+    "Saying 'You don't have to run' when meaning prohibition."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

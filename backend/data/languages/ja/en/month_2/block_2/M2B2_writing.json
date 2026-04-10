@@ -1,0 +1,169 @@
+{
+  "activityId": "en_ja_M2B2_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Now and Later",
+  "learningGoal": "Write sentences distinguishing between present continuous (am doing), planned future (am going to do), and spontaneous/promised future (will do).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B2_reading_3"
+  ],
+  "instructions": "あなたが「今していること」と「これからの予定や約束」について、英語で3つの文章を書いてください。(Write three sentences about what you are doing now, what you plan to do, and a promise for tomorrow.)\n以下の条件をすべて満たしてください。\n1. 【現在進行形】を使って、今していることを書く（例：I am studying...）\n2. 【be going to】を使って、今夜の予定を書く（例：I am going to eat...）\n3. 【will】を使って、明日の約束や決意を書く（例：I will clean...）",
+  "writingPrompt": "Write 3 sentences. 1: What are you doing right now? (use am ~ing). 2: What is your plan for tonight? (use am going to). 3: Make a promise for tomorrow (use will).",
+  "promptGoal": "To actively construct and differentiate between present continuous, 'going to' future, and 'will' future in personal contexts.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "I am ~ing",
+      "transliteration": "アイ アム 〜イング",
+      "baseTranslation": "私は（今）〜している",
+      "partOfSpeech": "phrase (present continuous)"
+    },
+    {
+      "targetText": "I am going to",
+      "transliteration": "アイ アム ゴーイング トゥ",
+      "baseTranslation": "私は〜する予定だ",
+      "partOfSpeech": "phrase (future plan)"
+    },
+    {
+      "targetText": "I will",
+      "transliteration": "アイ ウィル",
+      "baseTranslation": "私は〜するつもりだ／〜するよ",
+      "partOfSpeech": "phrase (future promise/decision)"
+    },
+    {
+      "targetText": "right now",
+      "transliteration": "ライト ナウ",
+      "baseTranslation": "今すぐ、今まさに",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "tonight",
+      "transliteration": "トゥナイト",
+      "baseTranslation": "今夜",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "tomorrow",
+      "transliteration": "トゥモロー",
+      "baseTranslation": "明日",
+      "partOfSpeech": "adverb"
+    }
+  ],
+  "referenceHints": [
+    "「I am studying」のように、進行形には必ず be動詞（am）が必要です。",
+    "「going to」と「will」の後ろは、動詞の原形（ingやsがつかない形）になります。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I am studying English right now. I am going to watch a movie tonight. I will call you tomorrow.",
+      "transliteration": "アイ アム スタディイング イングリッシュ ライト ナウ。アイ アム ゴーイング トゥ ウォッチ ア ムービー トゥナイト。アイ ウィル コール ユー トゥモロー。",
+      "baseTranslation": "私は今英語を勉強しています。私は今夜映画を見る予定です。明日あなたに電話します（約束）。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect grammar. Demonstrates correct use of am ~ing, am going to, and will."
+    },
+    {
+      "targetText": "I am drinking coffee. I am going to eat sushi tonight. I will clean my room tomorrow.",
+      "transliteration": "アイ アム ドリンキング コーヒー。アイ アム ゴーイング トゥ イート スシ トゥナイト。アイ ウィル クリーン マイ ルーム トゥモロー。",
+      "baseTranslation": "私はコーヒーを飲んでいます。私は今夜寿司を食べる予定です。明日自分の部屋を掃除します（決意）。",
+      "qualityLevel": "excellent",
+      "annotation": "Very clear and natural sentences using all three required forms."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Present Continuous",
+      "weight": 30,
+      "description": "Is 'am + verb-ing' used correctly for an action happening now?"
+    },
+    {
+      "criterion": "Going To Future",
+      "weight": 30,
+      "description": "Is 'am going to + base verb' used correctly for a planned action?"
+    },
+    {
+      "criterion": "Will Future",
+      "weight": 30,
+      "description": "Is 'will + base verb' used correctly for a promise or decision?"
+    },
+    {
+      "criterion": "Verb Forms",
+      "weight": 10,
+      "description": "Are the verbs following 'going to' and 'will' in their base forms (no -ing)?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I am [verb+ing] right now. I am going to [base verb] tonight. I will [base verb] tomorrow.",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "am",
+      "going to",
+      "will"
+    ],
+    "grammarBaseline": "Must include be-verb for continuous. Must not add -ing after 'will' or 'going to'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Target Grammar Usage",
+          "weight": 70,
+          "description": "Includes all three target structures correctly."
+        },
+        {
+          "name": "Syntax and Spelling",
+          "weight": 30,
+          "description": "Proper capitalization and no major structural errors."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great writing! You perfectly understand the difference between these three very important verb forms.",
+    "onFail": "Please check your sentences. Did you remember 'am' before the -ing word? Did you use the base verb (not -ing) after 'will' and 'going to'?",
+    "onPartial": "Good try. Be careful not to say 'I will going'. It should be 'I will go'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "present_continuous",
+    "future_tense",
+    "grammar_in_use"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Check your verbs: I AM studying (ing), I AM GOING TO study (no ing), I WILL study (no ing).",
+  "commonMistakes": [
+    "Writing 'I studying' (forgot 'am').",
+    "Writing 'I will studying' (added 'ing' after will)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B2_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

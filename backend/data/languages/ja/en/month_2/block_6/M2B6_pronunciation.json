@@ -1,0 +1,184 @@
+{
+  "activityId": "en_ja_M2B6_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Clear Directions",
+  "learningGoal": "Master the pronunciation of key directional words (straight, right, left) and the intonation of asking for directions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B6_lesson_1"
+  ],
+  "instructions": "方向を表す単語（straight, right, left）の正しい発音と、道を尋ねる時のイントネーション（How do I get to...?）を練習します。マイクに向かってリピートしてください。(Practice pronouncing directional words and the intonation for asking directions. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "straight",
+      "transliteration": "ストレイト",
+      "baseTranslation": "まっすぐ",
+      "phoneticHint": "Make sure you pronounce the 'r' clearly, and the 'gh' is silent. Stray-t.",
+      "syllableSplit": "straight",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'sutoreito' with too many vowel sounds."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "right",
+      "transliteration": "ライト",
+      "baseTranslation": "右",
+      "phoneticHint": "Start with a strong 'r' sound (not an 'L'). The 'gh' is silent. R-eye-t.",
+      "syllableSplit": "right",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it like 'light' (L sound)."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "left",
+      "transliteration": "レフト",
+      "baseTranslation": "左",
+      "phoneticHint": "Start with a clear 'L' sound (tongue behind top teeth). L-ef-t.",
+      "syllableSplit": "left",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it with an 'r' sound (like 'reft')."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "across",
+      "transliteration": "アクロス",
+      "baseTranslation": "向かいに、横切って",
+      "phoneticHint": "Uh-cross. Emphasize the second syllable 'cross'.",
+      "syllableSplit": "a-cross",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'akurosu' with a long 'u' sound at the end."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "next to",
+      "transliteration": "ネクスト トゥ",
+      "baseTranslation": "〜の隣に",
+      "phoneticHint": "The 't' in next and the 't' in to blend together into one sound. Nex-too.",
+      "syllableSplit": "next to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'nekusuto tu' (two separate 't' sounds)."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "Excuse me",
+      "transliteration": "エクスキューズ ミー",
+      "baseTranslation": "すみません",
+      "phoneticHint": "Make sure the 's' in excuse sounds like a 'z'. Ex-cyooz me.",
+      "syllableSplit": "ex-cuse me",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ekusukyusu' with an 's' sound."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "How do I get to",
+      "transliteration": "ハウ ドゥー アイ ゲット トゥ",
+      "baseTranslation": "〜にはどうやって行けばいいですか",
+      "phoneticHint": "Link 'How do I' together smoothly. How-doo-eye get-too.",
+      "syllableSplit": "How do I get to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying each word separately like a robot."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "station",
+      "transliteration": "ステーション",
+      "baseTranslation": "駅",
+      "phoneticHint": "The 'ti' sounds like 'sh'. Stay-shun.",
+      "syllableSplit": "sta-tion",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'suteeshon'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "hospital",
+      "transliteration": "ホスピタル",
+      "baseTranslation": "病院",
+      "phoneticHint": "The 't' in the middle often sounds like a soft 'd' in American English. Hos-pi-dul.",
+      "syllableSplit": "hos-pi-tal",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hosupitaru'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "museum",
+      "transliteration": "ミュージアム",
+      "baseTranslation": "博物館",
+      "phoneticHint": "The stress is on the 'ze'. Myoo-ZEE-um.",
+      "syllableSplit": "mu-se-um",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'myuujiamu' with the stress on the first syllable."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "straight right left across next to Excuse me How do I get to station hospital museum",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! Your pronunciation is very clear. People will easily understand your directions.",
+    "onFail": "Please try again. Focus on the difference between the 'R' in 'right' and the 'L' in 'left'.",
+    "onPartial": "Good effort! Remember to blend 'next' and 'to' together: 'nex-too'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "straight right left across next to Excuse me How do I get to station hospital museum",
+    "acceptedVariants": [
+      "straight right left across next to excuse me how do i get to station hospital museum"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "straight right left across next to Excuse me How do I get to station hospital museum",
+    "transliteration": "strayt rite left uhcross nextoo excyooz me howdooeye getoo stayshun hospidul myoozeeum",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B6_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B6_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "straight, right, left, across, next to, Excuse me, How do I get to, station, hospital, museum",
+    "audioLanguage": "en",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "directions",
+    "travel",
+    "l_and_r"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you roll your tongue back for 'right' and touch your teeth for 'left'.",
+  "commonMistakes": [
+    "Mixing up the L and R sounds in left and right."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B6_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

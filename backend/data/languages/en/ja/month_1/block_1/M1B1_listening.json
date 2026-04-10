@@ -1,0 +1,202 @@
+{
+  "activityId": "en_ja_M1B1_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "The Greeting Gauntlet",
+  "learningGoal": "Listen to short Japanese interactions and correctly identify the appropriate greetings based on the time of day and situation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "en_ja_M1B1_writing_4"
+  ],
+  "instructions": "Listen to the audio clips of people meeting each other. Pay attention to what they say, and answer the questions about the time of day and who they might be talking to.",
+  "listeningGoal": "To quickly recognize core Japanese greetings in spoken context.",
+  "audioScenario": "Three different short scenes: morning at school, afternoon on the street, and evening at a store.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "おはようございます、先生。",
+      "transliteration": "Ohayou gozaimasu, sensei.",
+      "baseTranslation": "Good morning, teacher."
+    },
+    {
+      "targetText": "おはよう、ケンくん。",
+      "transliteration": "Ohayou, Ken-kun.",
+      "baseTranslation": "Good morning, Ken."
+    },
+    {
+      "targetText": "こんにちは！",
+      "transliteration": "Konnichiwa!",
+      "baseTranslation": "Hello! (Good afternoon)"
+    },
+    {
+      "targetText": "あ、こんにちは。",
+      "transliteration": "Ah, konnichiwa.",
+      "baseTranslation": "Ah, hello."
+    },
+    {
+      "targetText": "こんばんは。",
+      "transliteration": "Konbanwa.",
+      "baseTranslation": "Good evening."
+    },
+    {
+      "targetText": "いらっしゃいませ。こんばんは。",
+      "transliteration": "Irasshaimase. Konbanwa.",
+      "baseTranslation": "Welcome. Good evening."
+    },
+    {
+      "targetText": "あ、すみません。",
+      "transliteration": "Ah, sumimasen.",
+      "baseTranslation": "Ah, excuse me."
+    },
+    {
+      "targetText": "ありがとうございます。",
+      "transliteration": "Arigatou gozaimasu.",
+      "baseTranslation": "Thank you very much."
+    }
+  ],
+  "audioTranscriptFull": "Scene 1 (School):\nStudent: Ohayou gozaimasu, sensei.\nTeacher: Ohayou, Ken-kun.\n\nScene 2 (Street):\nFriend 1: Konnichiwa!\nFriend 2: Ah, konnichiwa.\n\nScene 3 (Store):\nCustomer: Konbanwa.\nClerk: Irasshaimase. Konbanwa.\nCustomer: Ah, sumimasen.\nClerk: Arigatou gozaimasu.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "In Scene 1, what time of day is it?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "In Scene 1, how does the teacher reply to the student?",
+      "questionType": "multiple_choice",
+      "options": [
+        "With a polite 'Ohayou gozaimasu'",
+        "With a casual 'Ohayou'",
+        "With 'Konnichiwa'",
+        "With 'Arigatou'"
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "In Scene 2, what greeting do the friends use?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ohayou",
+        "Konnichiwa",
+        "Konbanwa",
+        "Sumimasen"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What time of day is it in Scene 2?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "In Scene 3, what does the customer say first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ohayou gozaimasu",
+        "Konnichiwa",
+        "Konbanwa",
+        "Arigatou gozaimasu"
+      ],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "In Scene 3, how does the customer get the clerk's attention later?",
+      "questionType": "multiple_choice",
+      "options": [
+        "By saying 'Konnichiwa'",
+        "By saying 'Arigatou'",
+        "By saying 'Sumimasen'",
+        "By saying 'Sensei'"
+      ],
+      "audioTimestamp": "00:32",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 16.6,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Morning",
+      "q2": "With a casual 'Ohayou'",
+      "q3": "Konnichiwa",
+      "q4": "Afternoon",
+      "q5": "Konbanwa",
+      "q6": "By saying 'Sumimasen'"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great listening! You can easily identify which Japanese greeting to use.",
+    "onFail": "Listen again carefully. Pay attention to whether they say 'Ohayou' (Morning), 'Konnichiwa' (Afternoon), or 'Konbanwa' (Evening).",
+    "onPartial": "Good effort. Remember that teachers can use the casual 'Ohayou' to students, but students must use polite 'Ohayou gozaimasu' to teachers."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B1_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B1_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Scene 1: Ohayou gozaimasu, sensei. Ohayou, Ken-kun...",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "greetings",
+    "politeness",
+    "beginner"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'Ohayou' (Morning), 'Konnichiwa' (Afternoon), and 'Konbanwa' (Evening).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

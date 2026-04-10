@@ -1,0 +1,213 @@
+{
+  "activityId": "en_hi_M1B3_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Packing for a Trip: Hearing Plurals",
+  "learningGoal": "The learner will be able to distinguish between singular and plural nouns in fast-paced spoken English, particularly identifying whether an object had an indefinite article (A/An) or a plural suffix sound (S/Z/IZ).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B3_writing_001"],
+  "instructions": "Listen to a mother (Kavita) and her son (Rahul) packing for a trip. They are checking their list. Listen very closely to whether they say 'A bag' (one) or 'Bags' (many). Answer the 8 questions below.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "The audio is at native speed. Use the Slow track if you have trouble hearing the 'S' or 'ES' endings."
+    }
+  ],
+  "listeningGoal": "Accurately parse auditory cues to count items (singular vs plural) based on the presence of articles and plural suffix sounds.",
+  "audioScenario": "Kavita and her son Rahul are in their living room, packing for a weekend trip to Delhi. They are going through a checklist.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Rahul, are we ready for the trip to Delhi?",
+      "transliteration": "राहुल, आर वी रेडी फॉर द ट्रिप टू दिल्ली?",
+      "baseTranslation": "राहुल, क्या हम दिल्ली यात्रा के लिए तैयार हैं?"
+    },
+    {
+      "targetText": "Yes, Mom. I have a bag.",
+      "transliteration": "येस, मॉम। आई हैव अ बैग।",
+      "baseTranslation": "हाँ, माँ। मेरे पास एक थैला है।"
+    },
+    {
+      "targetText": "Only a bag? We need two bags.",
+      "transliteration": "ओनली अ बैग? वी नीड टू बैग्स।",
+      "baseTranslation": "केवल एक थैला? हमें दो थैलों की आवश्यकता है।"
+    },
+    {
+      "targetText": "Okay, I have two bags. The bags are heavy.",
+      "transliteration": "ओके, आई हैव टू बैग्स। द बैग्स आर हेवी।",
+      "baseTranslation": "ठीक है, मेरे पास दो थैले हैं। थैले भारी हैं।"
+    },
+    {
+      "targetText": "Did you pack an apple?",
+      "transliteration": "डिड यू पैक ऐन ऐपल?",
+      "baseTranslation": "क्या तुमने एक सेब रखा?"
+    },
+    {
+      "targetText": "No, I packed three apples and an orange.",
+      "transliteration": "नो, आई पैक्ड थ्री ऐपल्स एंड ऐन ऑरेंज।",
+      "baseTranslation": "नहीं, मैंने तीन सेब और एक संतरा रखा।"
+    },
+    {
+      "targetText": "Good. Do we need an umbrella?",
+      "transliteration": "गुड। डू वी नीड ऐन अम्ब्रेला?",
+      "baseTranslation": "अच्छा। क्या हमें एक छाते की आवश्यकता है?"
+    },
+    {
+      "targetText": "Yes, it is raining. I packed two umbrellas.",
+      "transliteration": "येस, इट इज़ रेनिंग। आई पैक्ड टू अम्ब्रेलाज़।",
+      "baseTranslation": "हाँ, बारिश हो रही है। मैंने दो छाते रखे।"
+    },
+    {
+      "targetText": "What is in those boxes?",
+      "transliteration": "वाट इज़ इन दोज़ बॉक्सेस?",
+      "baseTranslation": "उन डिब्बों में क्या है?"
+    },
+    {
+      "targetText": "These boxes? They are my books.",
+      "transliteration": "दीज़ बॉक्सेस? दे आर माई बुक्स।",
+      "baseTranslation": "ये डिब्बे? वे मेरी किताबें हैं।"
+    },
+    {
+      "targetText": "Okay. The buses are coming. Let's go.",
+      "transliteration": "ओके। द बसेस आर कमिंग। लेट्स गो।",
+      "baseTranslation": "ठीक है। बसें आ रही हैं। चलो चलते हैं।"
+    }
+  ],
+  "audioTranscriptFull": "Kavita: Rahul, are we ready for the trip to Delhi?\nRahul: Yes, Mom. I have a bag.\nKavita: Only a bag? We need two bags.\nRahul: Okay, I have two bags. The bags are heavy.\nKavita: Did you pack an apple?\nRahul: No, I packed three apples and an orange.\nKavita: Good. Do we need an umbrella?\nRahul: Yes, it is raining. I packed two umbrellas.\nKavita: What is in those boxes?\nRahul: These boxes? They are my books.\nKavita: Okay. The buses are coming. Let's go.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "Where are Kavita and Rahul going?",
+      "questionType": "multiple_choice",
+      "options": ["Mumbai", "Delhi", "London", "A store"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Initially, how many bags did Rahul say he had: 'A bag' or 'Two bags'?",
+      "questionType": "multiple_choice",
+      "options": ["A bag", "Two bags", "Three bags"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How many APPLES did Rahul pack?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Did Rahul pack 'An orange' or 'Oranges'?",
+      "questionType": "multiple_choice",
+      "options": ["An orange", "Oranges", "Neither"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "According to the audio, what weather is happening?",
+      "questionType": "multiple_choice",
+      "options": ["It is sunny", "It is raining", "It is snowing", "It is night"],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "What exact word does Kavita use for the plural of box? 'Boxs' or 'Boxes'?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:28",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "What is inside the boxes?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:32",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "What vehicle are they waiting for at the end of the tape?",
+      "questionType": "multiple_choice",
+      "options": ["Cars", "A bus", "Buses", "Trains"],
+      "audioTimestamp": "00:36",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for Q4. Plural recognition is binary."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Delhi",
+      "q2": "A bag",
+      "q3": "Three",
+      "q4": "An orange",
+      "q5": "It is raining",
+      "q6": "Boxes",
+      "q7": "Books",
+      "q8": "Buses"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["3", "Three apples"],
+      "q6": ["Boxes", "boxes"],
+      "q7": ["Books", "His books"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q3": ["3", "three"],
+      "q6": ["boxes"],
+      "q7": ["books"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You were able to hear when a noun had an article (meaning singular) and when it had an S/ES sound (meaning plural) at native speed.",
+    "onFail": "Keep trying! Slow the audio down. Listen to how Rahul says 'an orange', but then says 'three apples'.",
+    "onPartial": "Good ear! You caught most of it. But remember, the audio specifically said 'Buses' (plural) at the end, not 'A bus'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b3/listening/dialogue_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b3/listening/dialogue_slow.mp3",
+    "normalAudio": "audio/en_hi/m1/b3/listening/dialogue_native.mp3",
+    "audioTranscript": "Kavita: Rahul, are we ready for the trip to Delhi? ... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "plurals", "articles", "nouns", "trip", "beginner", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b3/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Plurals ending in '-es' add a whole new syllable. 'Boxes' has two beats, while 'Box' has one beat.",
+  "commonMistakes": [
+    "Not hearing the 'es' syllable in boxes.",
+    "Thinking 'An orange' was plural."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B3_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

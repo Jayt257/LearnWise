@@ -1,0 +1,195 @@
+{
+  "activityId": "en_hi_M3B6_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "The Final Listening Test",
+  "learningGoal": "The learner will parse a dense, multi-participant native-speed conversation, successfully extracting chronological tense markers (past vs future) and idiomatic phrasal verbs.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B6_writing_001"],
+  "instructions": "This is the hardest Listening Test of the entire course! You will hear THREE native speakers talking in an office. They are speaking very fast, using Phrasal Verbs, and talking about the Past and the Future. Listen closely!",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Try to understand 'When' things are happening. Did they already happen? Or will they happen later?"
+    }
+  ],
+  "listeningGoal": "Decode complex multi-tense dialogues containing linked phonetics and advanced phrasal verbs without L1 translation buffering.",
+  "audioScenario": "Three coworkers (Emma, John, and Sarah) discussing what they did last weekend and what they will do next weekend.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Emma: Hey John! Did you have a good weekend?",
+      "transliteration": "एम्मा: हे जॉन! डिड यू हैव अ गुड वीकेंड?",
+      "baseTranslation": "एम्मा: नमस्ते जॉन! क्या आपका सप्ताहांत (वीकेंड) अच्छा रहा?"
+    },
+    {
+      "targetText": "John: Yes, I did! I went to London. I have never been there before.",
+      "transliteration": "जॉन: येस, आई डिड! आई वेंट टू लंदन। आई हैव नेवर बीन देयर बिफोर।",
+      "baseTranslation": "जॉन: हाँ, रहा! मैं लंदन गया था। मैं वहां पहले कभी नहीं गया हूँ।"
+    },
+    {
+      "targetText": "Sarah: Wow! What did you do in London?",
+      "transliteration": "सारा: वाव! वॉट डिड यू डू इन लंदन?",
+      "baseTranslation": "सारा: वाह! आपने लंदन में क्या किया?"
+    },
+    {
+      "targetText": "John: I met an old friend. We went out for dinner, but my car broke down on the way home.",
+      "transliteration": "जॉन: आई मेट एन ओल्ड फ्रेंड। वी वेंट आउट फॉर डिनर, बट माई कार ब्रोक डाउन ऑन द वे होम।",
+      "baseTranslation": "जॉन: मैं एक पुराने दोस्त से मिला। हम रात के खाने के लिए बाहर गए, लेकिन रास्ते में मेरी कार खराब हो गई।"
+    },
+    {
+      "targetText": "Emma: Oh no! Did you fix it?",
+      "transliteration": "एम्मा: ओह नो! डिड यू फिक्स इट?",
+      "baseTranslation": "एम्मा: अरे नहीं! क्या आपने इसे ठीक किया?"
+    },
+    {
+      "targetText": "John: No, a mechanic picked it up. Anyway, what will you guys do next weekend?",
+      "transliteration": "जॉन: नो, अ मैकेनिक पिक्ट इट अप। एनीवे, वॉट विल यू गाइस डू नेक्स्ट वीकेंड?",
+      "baseTranslation": "जॉन: नहीं, एक मैकेनिक उसे ले गया। वैसे भी, आप लोग अगले सप्ताहांत क्या करेंगे?"
+    },
+    {
+      "targetText": "Sarah: I am going to stay home and relax. I have a headache today.",
+      "transliteration": "सारा: आई एम गोइंग टू स्टे होम एंड रिलैक्स। आई हैव अ हेडेक टुडे।",
+      "baseTranslation": "सारा: मैं घर पर रहकर आराम करने वाली हूँ। मुझे आज सिरदर्द है।"
+    },
+    {
+      "targetText": "Emma: I will fly to Paris. I must pack my bags tonight!",
+      "transliteration": "एम्मा: आई विल फ्लाई टू पेरिस। आई मस्ट पैक माई बैग्स टुनाइट!",
+      "baseTranslation": "एम्मा: मैं पेरिस के लिए उड़ान भरूंगी। मुझे आज रात अपना बैग पैक करना ही होगा!"
+    }
+  ],
+  "audioTranscriptFull": "Emma: Hey John! Did you have a good weekend?\nJohn: Yes, I did! I went to London. I have never been there before.\nSarah: Wow! What did you do in London?\nJohn: I met an old friend. We went out for dinner, but my car broke down on the way home.\nEmma: Oh no! Did you fix it?\nJohn: No, a mechanic picked it up. Anyway, what will you guys do next weekend?\nSarah: I am going to stay home and relax. I have a headache today.\nEmma: I will fly to Paris. I must pack my bags tonight!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What city did John visit in the past?",
+      "questionType": "multiple_choice",
+      "options": ["Paris", "London", "New York"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "John uses the Present Perfect ('I have never been there before'). What does this mean?",
+      "questionType": "multiple_choice",
+      "options": ["He does not want to go.", "He has zero lifetime experience going there.", "He will go there tomorrow."],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What irregular past tense verb does John use to say he saw a friend? (He ____ an old friend).",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What bad thing happened to John's car using a Phrasal Verb? (It ______ ________).",
+      "questionType": "multiple_choice",
+      "options": ["Turned on", "Put on", "Broke down"],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Did John fix the car himself?",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "What Phrasal verb does John use to say the mechanic lifted the car away? (He _____ it ___).",
+      "questionType": "multiple_choice",
+      "options": ["Picked it up", "Put it on", "Gave it up"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Why is Sarah staying home next weekend?",
+      "questionType": "multiple_choice",
+      "options": ["She is tired.", "She has a headache.", "She has a cold."],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "What strict Modal word does Emma use because it is absolutely necessary for her to pack her bags tonight?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:27",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 12,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for MCQ."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "London",
+      "q2": "He has zero lifetime experience going there.",
+      "q3": "met",
+      "q4": "Broke down",
+      "q5": "False",
+      "q6": "Picked it up",
+      "q7": "She has a headache.",
+      "q8": "must"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["met", "Met"],
+      "q8": ["must", "Must"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q3": ["met"],
+      "q8": ["must"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! This was an incredibly fast and complex conversation! You perfectly tracked the Simple Past (Met), Present Perfect (Have Never Been), and Phrasal Verbs (Broke down)!",
+    "onFail": "Keep trying! This dialogue shifts tenses very fast. Look at John's sentences. First he uses the Past ('Went', 'Met'), but when asking about next week, he uses the Future ('Will Do').",
+    "onPartial": "Good ear! Watch out for Question 4. 'Broke down' is the native way to say a machine stopped working. You don't say 'My car died'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b6/listening/office_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b6/listening/office_slow.mp3",
+    "normalAudio": "audio/en_hi/m3/b6/listening/office_native.mp3",
+    "audioTranscript": "Emma: Hey John! Did you have a good weekend... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "final_exam", "tenses", "phrasal_verbs", "office", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b6/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay close attention to the Helper Words. 'Did' means Past. 'Will' means Future. 'Have' means Perfect.",
+  "commonMistakes": [
+    "Unable to process 'I have never been there' due to literal mapping into L1 simple past."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B6_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

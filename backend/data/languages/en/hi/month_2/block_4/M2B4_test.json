@@ -1,0 +1,203 @@
+{
+  "activityId": "hi_en_M2B4_test_8",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 Test: The Everest of Hindi Grammar",
+  "learningGoal": "Comprehensively evaluate the learner's mastery over the 'ne' particle, pronoun mergers, intransitive verbs, and ergative gender agreement in the past tense.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B4_lesson_1",
+    "hi_en_M2B4_pronunciation_2",
+    "hi_en_M2B4_reading_3",
+    "hi_en_M2B4_writing_4",
+    "hi_en_M2B4_listening_5",
+    "hi_en_M2B4_vocabulary_6",
+    "hi_en_M2B4_speaking_7"
+  ],
+  "instructions": "This is it. The most important test in the course. Read every question twice. Check the verb (transitive or intransitive?). Check the object's gender.",
+  "testTitle": "The Ergativity Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_intransitive",
+      "sectionTitle": "Intransitive Verbs (No Ne)",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "A woman says: 'I went'. How does she say it?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Main gayi. (मैं गई।)",
+            "Maine gayi. (मैंने गई।)",
+            "Main gaya. (मैं गया।)"
+          ],
+          "questionHints": {
+            "targetText": "Main gayi. (मैं गई।)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "Translate: 'He slept.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Woh so gaya.",
+            "Usne so gaya.",
+            "Usne soya."
+          ],
+          "questionHints": {
+            "targetText": "Woh so gaya.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_transitive",
+      "sectionTitle": "Transitive Verbs (The Ne Rule)",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "A man says: 'I ate a roti'. (Roti is feminine). How does he say it?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Maine roti khaayi. (मैंने रोटी खाई।)",
+            "Maine roti khaaya. (मैंने रोटी खाया।)",
+            "Main roti khaaya. (मैं रोटी खाया।)"
+          ],
+          "questionHints": {
+            "targetText": "Maine roti khaayi. (मैंने रोटी खाई।)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "If you want to say 'They did the work', which pronoun do you use?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Unhone (उन्होंने)",
+            "Usne (उसने)",
+            "Ve (वे)"
+          ],
+          "questionHints": {
+            "targetText": "Unhone (उन्होंने)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: उसने किताब पढ़ी। (Usne kitaab padhi.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "He read a book.",
+            "transliteration": "Usne kitaab padhi.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        },
+        {
+          "questionId": "tq_6",
+          "questionText": "Which verb is the EXCEPTION that means 'to bring' and does NOT take the 'ne' particle?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Laana (लाना)",
+            "Khaana (खाना)",
+            "Dekhna (देखना)"
+          ],
+          "questionHints": {
+            "targetText": "Laana (लाना)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_6"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 30,
+  "passMarks": 25,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Main gayi. (मैं गई।)",
+      "tq_2": "Woh so gaya.",
+      "tq_3": "Maine roti khaayi. (मैंने रोटी खाई।)",
+      "tq_4": "Unhone (उन्होंने)",
+      "tq_5": "He read a book.",
+      "tq_6": "Laana (लाना)"
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'She read a book'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Legendary! You have mastered the 'ne' particle. You can now speak fluent past tense Hindi.",
+    "onFail": "Do not be discouraged. This is the hardest rule in Hindi. Go back to the Lesson and review Section 4 and 6.",
+    "onPartial": "Almost there. Remember the golden rule: If there is a 'ne', the verb MUST match the object's gender."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block4_month2",
+    "ne_particle",
+    "ergativity",
+    "past_tense",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If a man eats a feminine object (Roti), the verb is feminine (Khaayi). The man's gender is completely ignored.",
+  "commonMistakes": [
+    "Choosing 'Maine gaya'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B5_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

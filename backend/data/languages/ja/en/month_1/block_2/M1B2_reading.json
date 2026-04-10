@@ -1,0 +1,247 @@
+{
+  "activityId": "en_ja_M1B2_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "Who Are They?",
+  "learningGoal": "Read short profiles to understand how pronouns (He, She, They) and 'be' verbs (is, are) are used to describe people.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B2_pronunciation_2"
+  ],
+  "instructions": "登場人物たちの自己紹介と他己紹介を読んで、質問に答えてください。代名詞（He, She, We, They）とbe動詞（am, is, are）の組み合わせに注目しましょう。(Read the profiles and answer the questions. Pay attention to the combinations of pronouns and 'be' verbs.)",
+  "readingTitle": "Meet My Friends",
+  "readingText": "Hello! I am Ken. I am from Japan. I am a student. This is my friend, Tom. He is from America. He is a teacher. He is not a student. This is Sarah. She is from Canada. She is a doctor. She is very kind. Tom and Sarah are my friends. We are in Tokyo now. They are very happy.",
+  "textInTargetLanguage": "Hello! I am Ken. I am from Japan. I am a student. This is my friend, Tom. He is from America. He is a teacher. He is not a student. This is Sarah. She is from Canada. She is a doctor. She is very kind. Tom and Sarah are my friends. We are in Tokyo now. They are very happy.",
+  "baseLanguageSupportText": "こんにちは！私はケンです。私は日本出身です。私は学生です。こちらは私の友達のトムです。彼はアメリカ出身です。彼は先生です。彼は学生ではありません。こちらはサラです。彼女はカナダ出身です。彼女は医者です。彼女はとても親切です。トムとサラは私の友達です。私たちは今、東京にいます。彼らはとても幸せです。",
+  "glossary": [
+    {
+      "targetText": "from",
+      "transliteration": "フロム",
+      "baseTranslation": "〜出身、〜から",
+      "exampleSentence": {
+        "targetText": "I am from Japan.",
+        "transliteration": "アイ アム フロム ジャパン",
+        "baseTranslation": "私は日本出身です。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "student",
+      "transliteration": "スチューデント",
+      "baseTranslation": "学生",
+      "exampleSentence": {
+        "targetText": "He is a student.",
+        "transliteration": "ヒー イズ ア スチューデント",
+        "baseTranslation": "彼は学生です。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "friend",
+      "transliteration": "フレンド",
+      "baseTranslation": "友達",
+      "exampleSentence": {
+        "targetText": "She is my friend.",
+        "transliteration": "シー イズ マイ フレンド",
+        "baseTranslation": "彼女は私の友達です。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "teacher",
+      "transliteration": "ティーチャー",
+      "baseTranslation": "先生",
+      "exampleSentence": {
+        "targetText": "Tom is a teacher.",
+        "transliteration": "トム イズ ア ティーチャー",
+        "baseTranslation": "トムは先生です。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "doctor",
+      "transliteration": "ドクター",
+      "baseTranslation": "医者",
+      "exampleSentence": {
+        "targetText": "I am not a doctor.",
+        "transliteration": "アイ アム ノット ア ドクター",
+        "baseTranslation": "私は医者ではありません。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "kind",
+      "transliteration": "カインド",
+      "baseTranslation": "親切な、優しい",
+      "exampleSentence": {
+        "targetText": "She is very kind.",
+        "transliteration": "シー イズ ヴェリー カインド",
+        "baseTranslation": "彼女はとても優しいです。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "now",
+      "transliteration": "ナウ",
+      "baseTranslation": "今",
+      "exampleSentence": {
+        "targetText": "We are in Tokyo now.",
+        "transliteration": "ウィー アー イン トーキョー ナウ",
+        "baseTranslation": "私たちは今東京にいます。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "happy",
+      "transliteration": "ハッピー",
+      "baseTranslation": "幸せな、嬉しい",
+      "exampleSentence": {
+        "targetText": "They are happy.",
+        "transliteration": "ゼイ アー ハッピー",
+        "baseTranslation": "彼らは幸せです。"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "He is not a student.",
+      "transliteration": "ヒー イズ ノット ア スチューデント",
+      "baseTranslation": "彼は学生ではありません。"
+    },
+    {
+      "targetText": "Tom and Sarah are my friends.",
+      "transliteration": "トム アンド サラ アー マイ フレンズ",
+      "baseTranslation": "トムとサラは私の友達です。"
+    },
+    {
+      "targetText": "We are in Tokyo now.",
+      "transliteration": "ウィー アー イン トーキョー ナウ",
+      "baseTranslation": "私たちは今、東京にいます。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ケンの職業は何ですか？ (What is Ken's job?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Teacher",
+        "Doctor",
+        "Student",
+        "Unknown"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "トムについて正しい説明はどれですか？ (Which statement about Tom is true?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "He is from Japan.",
+        "He is a student.",
+        "He is from America and he is a teacher.",
+        "He is a doctor."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "カナダ出身の医者は誰ですか？ (Who is the doctor from Canada?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ken",
+        "Tom",
+        "Sarah",
+        "Tokyo"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "文章中の「They」は誰を指していますか？ (Who does 'They' refer to in the text?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Ken only",
+        "Tom and Sarah",
+        "Ken and Tom",
+        "Only Sarah"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "彼らは今どこにいますか？ (Where are they right now?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "In America",
+        "In Canada",
+        "In Tokyo",
+        "In a hospital"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Student",
+      "q2": "He is from America and he is a teacher.",
+      "q3": "Sarah",
+      "q4": "Tom and Sarah",
+      "q5": "In Tokyo"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Ken is a student from Japan.",
+      "Tom is a teacher from America.",
+      "Sarah is a doctor from Canada.",
+      "They are all friends in Tokyo."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You clearly understand how 'He', 'She', 'We', and 'They' are used.",
+    "onFail": "Read the text again carefully. Pay attention to who the pronouns (He/She) are referring to.",
+    "onPartial": "Good effort. Remember that 'They' refers to multiple people (Tom and Sarah)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B2_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B2_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Hello! I am Ken. I am from Japan...",
+    "audioLanguage": "en",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "pronouns",
+    "be_verb",
+    "identity"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look for the sentence 'Tom and Sarah are my friends' to understand who 'They' means.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B2_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

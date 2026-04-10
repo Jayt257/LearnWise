@@ -1,0 +1,181 @@
+{
+  "activityId": "ja_en_M3B2_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "Discussing Favors",
+  "learningGoal": "The learner will verbally construct sentences using 'kuremasu' to explain receiving an item/favor from someone else, and 'agemasu' to offer a favor in return.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M3B2_lesson_001",
+    "ja_en_M3B2_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a colleague asks about your new umbrella. Reply verbally in Japanese based on the English prompts, paying close attention to the verbs of exchange.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: You CANNOT use 'agemashita' when Tanaka gave the umbrella to you."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) Tanaka-san gave me this umbrella. 2) He lent it to me. 3) I will help Tanaka-san tomorrow.",
+  "scenario": "Chatting with a colleague about a nice umbrella.",
+  "role": "Employee",
+  "conversationPartner": "Colleague",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Explain where you got it. Say: 'Tanaka-san gave me this umbrella.'",
+      "expectedSpeakingPoints": [
+        "Use Tanaka-san ga",
+        "Use kono kasa wo",
+        "Use kuremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "たなかさんが この かさを くれました。",
+        "transliteration": "Tanaka-san ga kono kasa wo kuremashita.",
+        "baseTranslation": "Tanaka-san gave me this umbrella."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Clarify that it is not a permanent gift. Say: 'He lent it to me.'",
+      "expectedSpeakingPoints": [
+        "Use kashite",
+        "Use kuremashita"
+      ],
+      "sampleResponse": {
+        "targetText": "かして くれました。",
+        "transliteration": "Kashite kuremashita.",
+        "baseTranslation": "He lent it to me."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Explain how you will repay the favor. Say: 'I will help Tanaka-san tomorrow.'",
+      "expectedSpeakingPoints": [
+        "Use ashita",
+        "Use Tanaka-san wo tetsudatte",
+        "Use agemasu"
+      ],
+      "sampleResponse": {
+        "targetText": "あした たなかさんを てつだって あげます。",
+        "transliteration": "Ashita Tanaka-san wo tetsudatte agemasu.",
+        "baseTranslation": "I will help Tanaka-san tomorrow."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "いい かさですね。",
+    "transliteration": "Ii kasa desu ne.",
+    "baseTranslation": "That's a nice umbrella."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "たなかさんが この かさを くれました。",
+      "transliteration": "Tanaka-san ga kono kasa wo kuremashita.",
+      "baseTranslation": "Tanaka-san gave me this umbrella."
+    },
+    {
+      "targetText": "かして くれました。",
+      "transliteration": "Kashite kuremashita.",
+      "baseTranslation": "He lent it to me."
+    },
+    {
+      "targetText": "あした たなかさんを てつだって あげます。",
+      "transliteration": "Ashita Tanaka-san wo tetsudatte agemasu.",
+      "baseTranslation": "I will help Tanaka-san tomorrow."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Tanaka-san ga kono kasa wo kuremashita",
+      "Say Kashite kuremashita",
+      "Say Ashita Tanaka-san wo tetsudatte agemasu"
+    ],
+    "requiredKeywords": [
+      "くれました",
+      "かして",
+      "てつだって",
+      "あげます"
+    ],
+    "acceptableParaphrases": [
+      "Accept 'Watashi wa ashita...' for the third sentence."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Kureru Usage",
+          "weight": 40,
+          "description": "Did the learner accurately use kuremashita for the received item/favor?"
+        },
+        {
+          "name": "Te-form Linking",
+          "weight": 30,
+          "description": "Did the learner link kashite and tetsudatte properly?"
+        },
+        {
+          "name": "Ageru Usage",
+          "weight": 30,
+          "description": "Did the learner use agemasu for the favor they are giving?"
+        }
+      ]
+    },
+    "sampleAnswer": "たなかさんが この かさを くれました。かして くれました。あした たなかさんを てつだって あげます。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You have successfully mastered giving and receiving favors.",
+    "onFail": "Review the difference between Kuremasu and Agemasu. You cannot use Agemasu when someone gives something to you.",
+    "onPartial": "Good try! Make sure you linked the Te-form and the giving verb without pausing."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b2/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m3/b2/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "いい かさですね。たなかさんが この かさを くれました。かして くれました。あした たなかさんを てつだって あげます。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "giving",
+    "receiving",
+    "favors",
+    "roleplay",
+    "advanced",
+    "month3",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Tanaka is doing the giving in the first two sentences, so use Kuremashita. YOU are doing the giving in the last sentence, so use Agemasu.",
+  "commonMistakes": [
+    "Saying 'Tanaka-san ga agemashita'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B2_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

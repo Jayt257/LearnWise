@@ -1,0 +1,196 @@
+{
+  "activityId": "en_hi_M2B6_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "Culture & Politeness",
+  "learningGoal": "The learner will master polite locutions ('Could you', 'Please', 'Excuse me') to compensate for the lack of formal pronouns (आप) in English, thereby avoiding unintentional brusqueness in requests.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B5_test_001"],
+  "instructions": "In this special lesson, we will talk about English Culture. English is different from Hindi. In Hindi, if you want to be polite, you use the word 'आप'. In English, everyone is 'You'! So, how do we show respect? Read the lesson to find out.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "अंग्रेजी में 'तुम' और 'आप' के बीच कोई अंतर नहीं है। आप अपने सबसे अच्छे दोस्त को भी 'You' कहेंगे, और अपने बॉस को भी 'You' कहेंगे! इसका मतलब है कि यदि आप सीधे हिंदी से अंग्रेजी में अनुवाद करते हैं ('Give me water' -> 'मुझे पानी दो'), तो अंग्रेजी बोलने वालों को आप बहुत अशिष्ट (rude) लग सकते हैं। हमें विनम्र (polite) शब्दों का उपयोग करना सीखना होगा।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "There is no 'aap/tum' distinction in English. Politeness is built entirely via modals and specific polite markers (Please, Excuse me).",
+      "Direct imperatives ('Give me water', 'Come here') are considered rude in professional or public English contexts.",
+      "The phrase 'Could you...' is the standard structural replacement for 'आप... कर सकते हैं?'"
+    ],
+    "conceptSummary": "Cultural acquisition module focusing on the pragmatic application of modal softeners ('Could you') to mitigate the inherent directness of English imperatives.",
+    "importantFacts": [
+      "If you bump into someone, or want to get their attention, say 'Excuse me'.",
+      "Always append 'Please' to a request if you are not using 'Could you'."
+    ],
+    "checkpointAnswers": {
+      "q1": "Could you give me water?",
+      "q2": "False",
+      "q3": "Excuse me",
+      "q4": "Yes, please."
+    },
+    "expectedUnderstanding": "Learners will recognize direct translation of Hindi commands to English imperatives as socially inappropriate and will default to 'Could you' structures."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand English culture. Because English doesn't have an 'Aap' pronoun, we must use polite phrases like 'Could you' to show respect!",
+    "onFail": "Please review carefully! Saying 'Give me your pen' sounds like an order from a police officer. You must say 'Could you give me your pen?' to show respect.",
+    "onPartial": "Good effort! Remember 'Excuse me'. We use it when we want to get past someone, or when we want to ask a stranger a question."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b6/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m2/b6/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m2/b6/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m2/b6/lesson/native_lesson.mp3",
+    "audioTranscript": "Could you help me? Excuse me. Please.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["culture", "politeness", "could_you", "excuse_me", "pragmatics", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b6/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To sound like a gentleman or lady, never start a sentence with an action word (like 'Give'). Start it with 'Could you...'.",
+  "commonMistakes": [
+    "Saying 'Give me water' instead of 'Could you give me water?'.",
+    "Saying 'Move' instead of 'Excuse me'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B6_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "How to Be Polite in English",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "The 'Aap' Problem ('आप' की समस्या)",
+      "bodyText": "हिंदी में, जब आप किसी बड़े या अजनबी से बात करते हैं, तो आप 'आप' का उपयोग करते हैं और क्रिया बदल जाती है (तुम जाओ -> आप जाइये)। अंग्रेजी में ऐसा कोई शब्द नहीं है! यह सब 'You' है। इसलिए, यदि आप सम्मान दिखाना चाहते हैं, तो आपको विशेष वाक्यों का उपयोग करना होगा।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "RUDE: Give me your pen.",
+          "transliteration": "",
+          "baseTranslation": "यह बहुत अशिष्ट है! यह एक आदेश है (मुझे अपना पेन दो!)"
+        },
+        {
+          "targetText": "POLITE: Could you give me your pen?",
+          "transliteration": "कुड यू गिव मी योर पेन?",
+          "baseTranslation": "विनम्र: क्या आप मुझे अपना पेन दे सकते हैं?"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The Magic Phrase: Could You...? (जादुई वाक्यांश)",
+      "bodyText": "जब भी आप किसी से कुछ करने के लिए कहना चाहते हैं, तो हमेशा 'Could you' से शुरुआत करें। यह वाक्य को एक बहुत ही विनम्र प्रश्न में बदल देता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Could you help me?",
+          "transliteration": "कुड यू हेल्प मी?",
+          "baseTranslation": "क्या आप मेरी मदद कर सकते हैं?"
+        },
+        {
+          "targetText": "Could you open the door?",
+          "transliteration": "कुड यू ओपन द डोर?",
+          "baseTranslation": "क्या आप दरवाज़ा खोल सकते हैं?"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Excuse Me (क्षमा करें / सुनिए)",
+      "bodyText": "अंग्रेजी संस्कृति में 'Excuse me' बहुत महत्वपूर्ण है। हम इसका उपयोग दो समय करते हैं: 1. जब हम किसी अजनबी का ध्यान आकर्षित करना चाहते हैं (उन्हें छूने के बजाय)। 2. जब कोई हमारे रास्ते में खड़ा हो और हमें आगे निकलना हो।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Excuse me, where is the station?",
+          "transliteration": "एक्सक्यूज़ मी, वेयर इज़ द स्टेशन?",
+          "baseTranslation": "माफ़ कीजिए, स्टेशन कहाँ है? (अजनबी से बात शुरू करने के लिए)"
+        },
+        {
+          "targetText": "Excuse me.",
+          "transliteration": "एक्सक्यूज़ मी।",
+          "baseTranslation": "कृपया मुझे रास्ता दें। (भीड़ में आगे निकलने के लिए)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Yes, Please / No, Thank you (हाँ कृपया / नहीं धन्यवाद)",
+      "bodyText": "जब कोई आपको कुछ खाने या पीने के लिए देता है, तो कभी भी सिर्फ 'Yes' या 'No' न कहें। यह कठोर लगता है। 'Please' (हाँ के लिए) और 'Thank you' (नहीं के लिए) जोड़ें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Would you like coffee? - Yes, please.",
+          "transliteration": "येस, प्लीज़।",
+          "baseTranslation": "हाँ, कृपया।"
+        },
+        {
+          "targetText": "Would you like tea? - No, thank you.",
+          "transliteration": "नो, थैंक यू।",
+          "baseTranslation": "जी नहीं, धन्यवाद।"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will substitute L1 direct imperative translations with modal softeners ('could you') and pragmatic markers ('excuse me') to align with L2 sociolinguistic norms.",
+  "examples": [
+    {
+      "targetText": "Excuse me, could you move your car?",
+      "transliteration": "एक्सक्यूज़ मी, कुड यू मूव योर कार?",
+      "baseTranslation": "माफ़ कीजिए, क्या आप अपनी कार हटा सकते हैं?",
+      "explanation": "Combines 'Excuse me' to get their attention politely, and 'Could you' to soften the request."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never start a sentence with a command (Give, Do, Bring) when talking to an adult. Always use 'Could you...'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Say 'Excuse me' if you need to walk past someone. Never say 'Move'.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "In Western culture, directness can be seen as aggressive. Because English does not have an 'Aap' (formal You), the entire weight of politeness falls on words like 'Please', 'Could you', and 'Excuse me'. Overusing them is better than underusing them.",
+    "dosList": ["Do say 'Please' when asking for things.", "Do use 'Could you' instead of giving orders."],
+    "dontsList": ["Don't tell people 'Give me that'.", "Don't tap strangers on the shoulder; say 'Excuse me' first."]
+  },
+  "summary": "To show the respect of 'Aap' in English, you must soften your words. Say 'Excuse me' to get attention. Ask 'Could you...?' instead of telling people what to do. And always answer offers with 'Yes, please' or 'No, thank you'!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the most polite way to ask for water?",
+      "expectedAnswer": "Could you give me water?"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "True or False: Saying 'Give me my bag' to a hotel worker is good English.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If someone is blocking the door, what do you say to make them move?",
+      "expectedAnswer": "Excuse me"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "If someone offers you food and you want it, you should say ____.",
+      "expectedAnswer": "Yes, please."
+    }
+  ]
+}

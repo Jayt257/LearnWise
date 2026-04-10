@@ -1,0 +1,250 @@
+{
+  "activityId": "ja_en_M1B5_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "This, That, and the 'Mo' Particle",
+  "learningGoal": "The learner will master the 'Ko-So-A-Do' demonstrative words for things (Kore/Sore/Are) and places (Koko/Soko/Asoko), and learn how to use the 'mo' (also/too) particle.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B4_test_001"
+  ],
+  "instructions": "Read through each section carefully. The Japanese words for 'this' and 'that' are very structured and depend on how far the object is from the speaker and the listener. Take your time to understand the 'Ko-So-A-Do' system.",
+  "conceptTitle": "Pointing and Identifying (The Ko-So-A-Do System)",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Things: Kore, Sore, Are, Dore",
+      "bodyText": "When pointing at physical objects (without saying the name of the object directly after), we use Kore, Sore, and Are. 'Ko' words are near the speaker. 'So' words are near the listener. 'A' words are far from both.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "これは ほんです。",
+          "transliteration": "Kore wa hon desu.",
+          "baseTranslation": "This is a book. (Near speaker)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "それは かばんです。",
+          "transliteration": "Sore wa kaban desu.",
+          "baseTranslation": "That is a bag. (Near listener)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "あれは くるまです。",
+          "transliteration": "Are wa kuruma desu.",
+          "baseTranslation": "That over there is a car. (Far from both)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "どれですか。",
+          "transliteration": "Dore desu ka.",
+          "baseTranslation": "Which one is it?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Places: Koko, Soko, Asoko, Doko",
+      "bodyText": "The exact same distance rules apply to places. Koko (Here), Soko (There), Asoko (Over there), and Doko (Where). Notice that 'Asoko' is an exception (it is not 'Aroko').",
+      "targetLanguageExamples": [
+        {
+          "targetText": "ここは トイレです。",
+          "transliteration": "Koko wa toire desu.",
+          "baseTranslation": "Here is the toilet.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "そこは カフェです。",
+          "transliteration": "Soko wa kafe desu.",
+          "baseTranslation": "There is the cafe.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "あそこは ホテルです。",
+          "transliteration": "Asoko wa hoteru desu.",
+          "baseTranslation": "Over there is the hotel.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ホテルは どこですか。",
+          "transliteration": "Hoteru wa doko desu ka.",
+          "baseTranslation": "Where is the hotel?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Adjectives for Nouns: Kono, Sono, Ano, Dono",
+      "bodyText": "If you want to say 'This book' instead of just 'This', you must use the 'no' versions: Kono, Sono, Ano, and Dono. These must ALWAYS be followed immediately by a noun.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "この ほんです。",
+          "transliteration": "Kono hon desu.",
+          "baseTranslation": "It is this book.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "その かばんです。",
+          "transliteration": "Sono kaban desu.",
+          "baseTranslation": "It is that bag.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "どの くるまですか。",
+          "transliteration": "Dono kuruma desu ka.",
+          "baseTranslation": "Which car is it?",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "The 'Mo' Particle (Also / Too)",
+      "bodyText": "To say 'also' or 'too', you simply replace the topic particle 'wa' (は) with 'mo' (も). It's that easy!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは アメリカじんです。",
+          "transliteration": "Watashi wa Amerika-jin desu.",
+          "baseTranslation": "I am American.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ジョンさんも アメリカじんです。",
+          "transliteration": "Jon-san mo Amerika-jin desu.",
+          "baseTranslation": "John is ALSO American.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "これも ほんです。",
+          "transliteration": "Kore mo hon desu.",
+          "baseTranslation": "This is ALSO a book.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will understand the distance-based Ko-So-A-Do system to point out objects and places, and will be able to use the particle 'mo' to express 'also/too'.",
+  "examples": [
+    {
+      "targetText": "あれは ホテルです。ここも ホテルです。",
+      "transliteration": "Are wa hoteru desu. Koko mo hoteru desu.",
+      "baseTranslation": "That over there is a hotel. Here is also a hotel.",
+      "explanation": "This combines the 'A' distance word for places, the 'Ko' word for places, and the 'mo' particle replacing 'wa'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use Kono, Sono, Ano by themselves. They must always be attached to a noun (e.g. Kono hon).",
+      "exceptionNotes": "If you don't want to use a noun, use Kore, Sore, Are instead."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The place word for 'Over there' is Asoko, not Aroko. This is a common beginner mistake.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "When using 'mo', it completely replaces 'wa'. Do not say 'wa mo'.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "When pointing at objects or giving directions in Japan, it is considered polite to use your entire hand with all fingers extended together, rather than pointing with a single index finger.",
+    "dosList": [
+      "Use your whole hand to point to 'Asoko' (over there) when giving directions."
+    ],
+    "dontsList": [
+      "Do not point at people with your index finger."
+    ]
+  },
+  "summary": "Japanese demonstratives follow a strict Ko-So-A-Do pattern based on distance from the speaker and listener. Kore/Sore/Are refer to things. Koko/Soko/Asoko refer to places. Kono/Sono/Ano attach to nouns. Finally, replacing 'wa' with 'mo' means 'also/too'.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "If an object is far away from both you and your friend, which word do you use for 'that over there'?",
+      "expectedAnswer": "あれ (Are) or あの (Ano)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "How do you ask 'Where is it?'",
+      "expectedAnswer": "どこですか (Doko desu ka?)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Translate: 'I am also a student.'",
+      "expectedAnswer": "わたしも がくせいです (Watashi mo gakusei desu)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Ko-So-A-Do rules (Near me, Near you, Far, Question)",
+      "Kore/Sore/Are vs Kono/Sono/Ano",
+      "Koko/Soko/Asoko for places",
+      "'mo' particle for 'also'"
+    ],
+    "conceptSummary": "Mastering Japanese demonstratives and the inclusion particle.",
+    "importantFacts": [
+      "Asoko is an exception to the 're'/'no' patterns.",
+      "'Mo' replaces 'wa' entirely."
+    ],
+    "checkpointAnswers": {
+      "q1": "あれ",
+      "q2": "どこですか",
+      "q3": "わたしも がくせいです"
+    },
+    "expectedUnderstanding": "Learner must choose the correct demonstrative based on physical distance in a scenario."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You understand how to point things out in Japanese.",
+    "onFail": "Review the difference between Kore and Kono. Remember that Kono needs a noun.",
+    "onPartial": "Good. Remember that 'Asoko' is the word for 'over there', not 'aroko'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "これ。それ。あれ。どれ。ここは トイレです。あそこは ホテルです。この ほんです。あの くるまですか。わたしも アメリカじんです。これも ほんです。",
+    "audioLanguage": "ja",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "demonstratives",
+    "particles",
+    "grammar",
+    "beginner",
+    "month1",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Kono desu' instead of 'Kore desu'. Kono requires a noun (Kono hon desu).",
+    "Saying 'Aroko' instead of 'Asoko'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

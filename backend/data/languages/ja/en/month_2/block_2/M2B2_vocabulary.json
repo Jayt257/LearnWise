@@ -1,0 +1,272 @@
+{
+  "activityId": "en_ja_M2B2_vocabulary_6",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "vocabulary",
+  "title": "Now and Future Words",
+  "learningGoal": "Memorize common time expressions used for the present continuous and future tenses, along with related action verbs.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B2_listening_5"
+  ],
+  "instructions": "「今」や「未来」を表す時間を表す言葉と、進行形や未来形でよく使われる動詞を覚えましょう。(Memorize time expressions for 'now' and the 'future', along with commonly used action verbs.)",
+  "vocabTheme": "Time and Action",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "right now",
+      "transliteration": "ライト ナウ",
+      "baseTranslation": "今まさに、ちょうど今",
+      "partOfSpeech": "adverb (phrase)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "tonight",
+      "transliteration": "トゥナイト",
+      "baseTranslation": "今夜",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "tomorrow",
+      "transliteration": "トゥモロー",
+      "baseTranslation": "明日",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "later",
+      "transliteration": "レイター",
+      "baseTranslation": "後で",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "next week",
+      "transliteration": "ネクスト ウィーク",
+      "baseTranslation": "来週",
+      "partOfSpeech": "adverb (phrase)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "reading",
+      "transliteration": "リーディング",
+      "baseTranslation": "読んでいる（readのing形）",
+      "partOfSpeech": "verb (participle)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "cooking",
+      "transliteration": "クッキング",
+      "baseTranslation": "料理している（cookのing形）",
+      "partOfSpeech": "verb (participle)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "order",
+      "transliteration": "オーダー",
+      "baseTranslation": "注文する",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "visit",
+      "transliteration": "ヴィジット",
+      "baseTranslation": "訪れる、訪問する",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "stay",
+      "transliteration": "ステイ",
+      "baseTranslation": "滞在する、とどまる",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    }
+  ],
+  "meaningList": [
+    "今まさに",
+    "今夜",
+    "明日",
+    "後で",
+    "来週",
+    "読んでいる",
+    "料理している",
+    "注文する",
+    "訪れる",
+    "滞在する"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v1",
+      "targetText": "I am working right now.",
+      "transliteration": "アイ アム ワーキング ライト ナウ",
+      "baseTranslation": "私は今まさに働いています。"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "I will call you later.",
+      "transliteration": "アイ ウィル コール ユー レイター",
+      "baseTranslation": "後で電話します。"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "She is reading a book.",
+      "transliteration": "シー イズ リーディング ア ブック",
+      "baseTranslation": "彼女は本を読んでいます。"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "I will order a pizza tonight.",
+      "transliteration": "アイ ウィル オーダー ア ピザ トゥナイト",
+      "baseTranslation": "今夜ピザを注文します。"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "We are going to visit Kyoto next week.",
+      "transliteration": "ウィー アー ゴーイング トゥ ヴィジット キョート ネクスト ウィーク",
+      "baseTranslation": "私たちは来週、京都を訪れる予定です。"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does 'right now' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "後で",
+        "明日",
+        "今夜",
+        "今まさに"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Which word means '後で'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "later",
+        "tomorrow",
+        "tonight",
+        "next week"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Fill in the blank: 'I am ________ dinner right now.'",
+      "questionType": "multiple_choice",
+      "options": [
+        "cooking",
+        "cook",
+        "cooked",
+        "cooks"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Which word means '訪れる'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "stay",
+        "visit",
+        "order",
+        "read"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Fill in the blank: 'I will ________ a pizza later.'",
+      "questionType": "multiple_choice",
+      "options": [
+        "ordering",
+        "order",
+        "ordered",
+        "orders"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "今まさに",
+      "q2": "later",
+      "q3": "cooking",
+      "q4": "visit",
+      "q5": "order"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! You've learned the key words for expressing time and actions.",
+    "onFail": "Review the words. Pay attention to which words are used with the present continuous (right now, -ing) and which are for the future (tomorrow, later).",
+    "onPartial": "Good effort. Remember that after 'will', the verb must be in its base form (no -ing)!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "time_expressions",
+    "verbs",
+    "future",
+    "present_continuous"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "'right now' is often used with 'am ~ing'. 'tomorrow' and 'later' are used with 'will' or 'going to'.",
+  "commonMistakes": [
+    "Saying 'I will cooking' instead of 'I will cook'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B2_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

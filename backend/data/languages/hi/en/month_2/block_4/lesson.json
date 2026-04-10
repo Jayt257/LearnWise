@@ -1,0 +1,198 @@
+{
+  "activityId": "en_hi_M2B4_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Tomorrow: The Future Tense",
+  "learningGoal": "The learner will master the predictive 'Will' auxiliary and the planned 'Going To' structure, rigorously enforcing the use of the bare root verb following these constructions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B3_test_001"],
+  "instructions": "Now we are going to look forward in time! If something is going to happen tomorrow, next week, or next year, we use the word 'WILL'. Read this lesson to learn the rules of the Future Tense.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब आप हिंदी में 'गा', 'गी', या 'गे' (जैसे 'मैं जाऊँगा', 'वह खाएगी') कहते हैं, तो आप अंग्रेजी में 'WILL' का उपयोग करते हैं। भविष्य (Future) के बारे में बात करने का सूत्र बहुत आसान है: Will + Base Verb (क्रिया का मूल रूप)!"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The Future auxiliary 'Will' is ALWAYS followed by the pure, unmodified root verb (I will go, NOT I will going, NOT I will went).",
+      "Unlike Hindi (जाऊँगा / जाऊँगी), 'Will' does not change based on gender or whether there are many people. (I will, She will, They will).",
+      "To express something already planned, we use 'Going to' + Verb (I am going to eat)."
+    ],
+    "conceptSummary": "Introduction to the simple future using 'Will' and 'Going to', strictly policing the grammatical contamination of modal auxiliaries with gerunds or past tense morphs.",
+    "importantFacts": [
+      "Saying 'I will eating' is a critical error. Modal verbs reject '-ing'.",
+      "Saying 'I will played' is a critical error. Modal verbs reject '-ed'.",
+      "To ask a question about the future, you invert 'Will' and the subject. (Will you go?)"
+    ],
+    "checkpointAnswers": {
+      "q1": "I will go",
+      "q2": "She will run",
+      "q3": "False",
+      "q4": "Will you eat?"
+    },
+    "expectedUnderstanding": "Learners will intuitively place 'will' before bare infinitives void of any morphological suffixes."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand the Golden Rule of Will: Never put an 'ing' or 'ed' after it!",
+    "onFail": "Please review carefully! A massive mistake is saying 'I will going'. 'Will' is very strict. It only completely clean verbs. 'I will go'.",
+    "onPartial": "Good effort! Watch out for questions. In a question, 'Will' jumps to the front of the line: 'Will you go?'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b4/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m2/b4/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m2/b4/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m2/b4/lesson/native_lesson.mp3",
+    "audioTranscript": "I will go. She will eat.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "tenses", "future", "will", "going_to", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b4/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "WILL acts like a soap that washes the verb clean! No 'ing'. No 'ed'. No 's'. Just the pure, clean verb.",
+  "commonMistakes": [
+    "Saying 'I will going'.",
+    "Saying 'She will eats'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B4_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "How to Talk About Tomorrow",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "The Magic Word: WILL (जादू का शब्द)",
+      "bodyText": "भविष्य के बारे में बात करने के लिए, हम बस व्यक्ति के ठीक बाद 'Will' शब्द डालते हैं। यह बहुत आसान है! 'Will' कभी नहीं बदलता है। एक लड़का कहेगा 'I will', एक लड़की कहेगी 'I will', और कई लोग कहेंगे 'We will'। कोई 'is/am/are' नहीं!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I will play.",
+          "transliteration": "आई विल प्ले।",
+          "baseTranslation": "मैं खेलूँगा।"
+        },
+        {
+          "targetText": "She will go.",
+          "transliteration": "शी विल गो।",
+          "baseTranslation": "वह जाएगी।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The Clean Verb Rule (क्रिया को साफ रखें)",
+      "bodyText": "यह सबसे महत्वपूर्ण नियम है! 'Will' एक जादुई शब्द है जो अपने ठीक बाद आने वाले शब्द को पूरी तरह से साफ कर देता है। आप 'Will' के बाद '-ing' नहीं लगा सकते। आप 'Will' के बाद '-ed' नहीं लगा सकते।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "WRONG: I will going.",
+          "transliteration": "",
+          "baseTranslation": "यह पूरी तरह से गलत है।"
+        },
+        {
+          "targetText": "CORRECT: I will go.",
+          "transliteration": "आई विल गो।",
+          "baseTranslation": "मैं जाऊँगा। (हमेशा साफ शब्द का प्रयोग करें!)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Asking Questions (प्रश्न पूछना)",
+      "bodyText": "जब आप भविष्य के बारे में प्रश्न पूछते हैं, तो 'Will' व्यक्ति के आगे कूद जाता है!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Will you eat?",
+          "transliteration": "विल यू ईट?",
+          "baseTranslation": "क्या तुम खाओगे? (न कि 'You will eat?')"
+        },
+        {
+          "targetText": "Where will he go?",
+          "transliteration": "वेयर विल ही गो?",
+          "baseTranslation": "वह कहाँ जाएगा?"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Plans: Going To (योजना बनाना)",
+      "bodyText": "यदि आपने पहले ही तय कर लिया है कि आप भविष्य में कुछ करने वाले हैं, तो अंग्रेजी भाषी बहुत बार 'Will' की जगह 'Going To' का उपयोग करते हैं। इसका अर्थ एक ही है, लेकिन यह एक पक्की योजना की तरह लगता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am going to eat a pizza.",
+          "transliteration": "आई एम गोइंग टू ईट अ पिज़्ज़ा।",
+          "baseTranslation": "मैं एक पिज़्ज़ा खाने जा रहा हूँ। (मैंने पहले ही तय कर लिया है)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will definitively reject inflectional suffixes (-ing, -ed, -s) when structuring predictive syntaxes using the modal verb 'will'.",
+  "examples": [
+    {
+      "targetText": "They will stay at home.",
+      "transliteration": "दे विल स्टे एट होम।",
+      "baseTranslation": "वे घर पर रहेंगे।",
+      "explanation": "No 'are'. Just subject + 'will' + base verb."
+    },
+    {
+      "targetText": "I am going to buy a car.",
+      "transliteration": "आई एम गोइंग टू बाय अ कार।",
+      "baseTranslation": "मैं एक कार खरीदने जा रहा हूँ। (भविष्य की योजना)",
+      "explanation": "Uses 'am going to' to show a decided future plan."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use an '-ING' word after 'Will'. ('He will playing' is a massive error).",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Never use 'Is', 'Am', or 'Are' with 'Will'. ('I am will go' is gibberish).",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "To predict the future, just drop the word 'WILL' right after the person. I WILL go. They WILL play. But remember: 'Will' destroys all other grammar rules! No 'am', no 'ing', no 'ed'!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Translate 'मैं जाऊँगा' to English.",
+      "expectedAnswer": "I will go"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank with the very clean verb: She will _____ (running/run) tomorrow.",
+      "expectedAnswer": "She will run"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "True or False: Saying 'I will played' is a good way to say you will do something.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate 'क्या तुम खाओगे?' into English.",
+      "expectedAnswer": "Will you eat?"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "activityId": "en_ja_M3B1_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Concert Plans",
+  "learningGoal": "Listen to a conversation to identify conditional plans and the difference between 'if' and 'when'.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B1_writing_4"
+  ],
+  "instructions": "コンサートに行く計画を立てている2人の会話を聞いてください。「もし〜したらどうする？（If）」と「〜した時（When）」の表現を聞き分け、彼らがどのような計画を立てているのかを理解して質問に答えてください。(Listen to a conversation about concert plans. Listen for 'if' and 'when' to understand their backup plans.)",
+  "listeningGoal": "To recognize 'if' and 'when' clauses in fast speech and understand hypothetical future plans.",
+  "audioScenario": "Two friends are planning how to get to a concert.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Are you ready for the concert tonight?",
+      "transliteration": "アー ユー レディ フォー ザ コンサート トゥナイト？",
+      "baseTranslation": "今夜のコンサートの準備はできた？"
+    },
+    {
+      "targetText": "Yes! But I am worried about the traffic.",
+      "transliteration": "イエス！ バット アイ アム ウォーリード アバウト ザ トラフィック。",
+      "baseTranslation": "うん！でも渋滞が心配だな。"
+    },
+    {
+      "targetText": "Me too. If we take the bus, we might be late.",
+      "transliteration": "ミー トゥー。イフ ウィー テイク ザ バス、ウィー マイト ビー レイト。",
+      "baseTranslation": "私も。もしバスに乗ったら、遅れるかもしれない。"
+    },
+    {
+      "targetText": "What will we do if we miss the beginning?",
+      "transliteration": "ホワット ウィル ウィー ドゥー イフ ウィー ミス ザ ビギニング？",
+      "baseTranslation": "もし最初の方を見逃したらどうしよう？"
+    },
+    {
+      "targetText": "Don't worry. If the traffic is bad, we will take a train.",
+      "transliteration": "ドント ウォーリー。イフ ザ トラフィック イズ バッド、ウィー ウィル テイク ア トレイン。",
+      "baseTranslation": "心配しないで。もし渋滞がひどかったら、電車に乗ろう。"
+    },
+    {
+      "targetText": "That's a good idea. The train is faster.",
+      "transliteration": "ザッツ ア グッド アイディア。ザ トレイン イズ ファスター。",
+      "baseTranslation": "それはいいアイデアだ。電車の方が速いしね。"
+    },
+    {
+      "targetText": "Yes. And when we arrive at the stadium, I'll buy some drinks.",
+      "transliteration": "イエス。アンド ウェン ウィー アライヴ アット ザ スタジアム、アイル バイ サム ドリンクス。",
+      "baseTranslation": "うん。そして、スタジアムに着いたら、私が飲み物を買うよ。"
+    },
+    {
+      "targetText": "Great. I'll get some snacks.",
+      "transliteration": "グレイト。アイル ゲット サム スナックス。",
+      "baseTranslation": "いいね。私はスナックを買うよ。"
+    },
+    {
+      "targetText": "But if the lines are too long, we won't buy anything.",
+      "transliteration": "バット イフ ザ ラインズ アー トゥー ロング、ウィー ウォント バイ エニシング。",
+      "baseTranslation": "でも、もし列が長すぎたら、何も買わないでおこう。（won't = will not）"
+    },
+    {
+      "targetText": "Agreed. Let's go!",
+      "transliteration": "アグリード。レッツ ゴー！",
+      "baseTranslation": "賛成。行こう！"
+    }
+  ],
+  "audioTranscriptFull": "Person A: Are you ready for the concert tonight?\nPerson B: Yes! But I am worried about the traffic.\nPerson A: Me too. If we take the bus, we might be late.\nPerson B: What will we do if we miss the beginning?\nPerson A: Don't worry. If the traffic is bad, we will take a train.\nPerson B: That's a good idea. The train is faster.\nPerson A: Yes. And when we arrive at the stadium, I'll buy some drinks.\nPerson B: Great. I'll get some snacks.\nPerson A: But if the lines are too long, we won't buy anything.\nPerson B: Agreed. Let's go!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "彼らは何について心配していますか？ (What are they worried about?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "The weather",
+        "The traffic",
+        "The tickets",
+        "The seats"
+      ],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "もし「渋滞がひどかったら（If the traffic is bad）」、どうやって行きますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Take a bus",
+        "Walk",
+        "Take a taxi",
+        "Take a train"
+      ],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「When we arrive（スタジアムに着いた時）」、Person A（一人目の声）は何を買いますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Tickets",
+        "Snacks",
+        "Drinks",
+        "T-shirts"
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "どうして「If we arrive」ではなく「When we arrive」と言ったのでしょうか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "着くかどうかわからないから。",
+        "バスでも電車でも、必ずスタジアムには着くから。",
+        "過去の出来事だから。",
+        "Ifの意味を忘れたから。"
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "もし「列が長すぎたら（If the lines are too long）」、彼らはどうしますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "They will wait.",
+        "They won't buy anything.",
+        "They will go home.",
+        "They will buy snacks."
+      ],
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "The traffic",
+      "q2": "Take a train",
+      "q3": "Drinks",
+      "q4": "バスでも電車でも、必ずスタジアムには着くから。",
+      "q5": "They won't buy anything."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent listening! You caught the different plans depending on the conditions.",
+    "onFail": "Listen again closely. Pay attention to what they will do 'If the traffic is bad'.",
+    "onPartial": "Good effort. Remember that 'won't' means 'will not' (何もしないつもりだ)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B1_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B1_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: Are you ready for the concert tonight? Person B: Yes!...",
+    "audioLanguage": "en",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "conditionals",
+    "if_vs_when",
+    "future_plans"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for the words 'If' and 'When' to understand the difference between possibilities and certainties.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M1B6_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Particles and Verbs",
+  "learningGoal": "The learner will accurately pronounce complete action sentences, focusing on the flow between the noun, particle, and verb.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B6_lesson_001",
+    "ja_en_M1B6_vocabulary_001"
+  ],
+  "instructions": "Listen to the native speaker and repeat the sentences. Make sure to smoothly connect the particle (wo, ni, de) to the noun that comes before it, without pausing.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "The 'wo' particle is written as 'wo', but it is pronounced exactly like 'o'. Listen closely to the audio."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "ごはんを たべます",
+      "transliteration": "Gohan wo tabemasu",
+      "baseTranslation": "I eat rice",
+      "phoneticHint": "goh-hahn oh tah-beh-mahs",
+      "syllableSplit": "go-ha-n o ta-be-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Pronouncing 'wo' with a 'w' sound. It should be a pure 'o' sound."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "みずを のみます",
+      "transliteration": "Mizu wo nomimasu",
+      "baseTranslation": "I drink water",
+      "phoneticHint": "mee-zoo oh noh-mee-mahs",
+      "syllableSplit": "mi-zu o no-mi-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'nomimasu' with emphasis on 'mi'. Keep the pitch flat."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "がっこうに いきます",
+      "transliteration": "Gakkou ni ikimasu",
+      "baseTranslation": "I go to school",
+      "phoneticHint": "gahk-koh nee ee-kee-mahs",
+      "syllableSplit": "ga-k-ko-u ni i-ki-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Ignoring the double 'k' in gakkou. There must be a tiny pause before 'kou'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "うちへ かえります",
+      "transliteration": "Uchi ni kaerimasu",
+      "baseTranslation": "I return home",
+      "phoneticHint": "oo-chee nee kah-eh-ree-mahs",
+      "syllableSplit": "u-chi ni ka-e-ri-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Pronouncing the 'r' in kaerimasu like an English R. It is a soft flap."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "えいがを みます",
+      "transliteration": "Eiga wo mimasu",
+      "baseTranslation": "I watch a movie",
+      "phoneticHint": "ay-gah oh mee-mahs",
+      "syllableSplit": "e-i-ga o mi-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Saying 'eega'. It is 'e-i-ga'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "はしで たべます",
+      "transliteration": "Hashi de tabemasu",
+      "baseTranslation": "I eat with chopsticks",
+      "phoneticHint": "hah-shee deh tah-beh-mahs",
+      "syllableSplit": "ha-shi de ta-be-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Pausing between 'hashi' and 'de'."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "カフェで のみます",
+      "transliteration": "Kafe de nomimasu",
+      "baseTranslation": "I drink at a cafe",
+      "phoneticHint": "kah-feh deh noh-mee-mahs",
+      "syllableSplit": "ka-fe de no-mi-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Saying 'Kafe ni'. You must use 'de' for the location of an action."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "はちじに おきます",
+      "transliteration": "Hachi-ji ni okimasu",
+      "baseTranslation": "I wake up at 8 o'clock",
+      "phoneticHint": "hah-chee-jee nee oh-kee-mahs",
+      "syllableSplit": "ha-chi-ji ni o-ki-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Not pronouncing the 'i' clearly in Hachi-ji."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "ごはんをたべます みずをのみます がっこうにいきます うちにかえります えいがをみます はしでたべます カフェでのみます はちじにおきます",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Perfect! You successfully pronounced the particles and verbs with good flow.",
+    "onFail": "Keep practicing! Remember that 'wo' sounds like 'o', and the 'u' at the end of 'masu' is almost silent.",
+    "onPartial": "Good effort. Try to link the particle directly to the noun before it without a pause."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "ごはんをたべます みずをのみます がっこうにいきます うちにかえります えいがをみます はしでたべます カフェでのみます はちじにおきます",
+    "acceptedVariants": [
+      "ごはんを たべます みずを のみます がっこうに いきます うちに かえります えいがを みます はしで たべます カフェで のみます はちじに おきます"
+    ],
+    "syllableSplitReference": "go-ha-n-o ta-be-ma-su mi-zu-o no-mi-ma-su ga-k-ko-u-ni i-ki-ma-su u-chi-ni ka-e-ri-ma-su e-i-ga-o mi-ma-su ha-shi-de ta-be-ma-su ka-fe-de no-mi-ma-su ha-chi-ji-ni o-ki-ma-su",
+    "phoneticApproximation": "gohano tabemasu mizuo nomimasu gakkouni ikimasu uchini kaerimasu eigao mimasu hashide tabemasu kafede nomimasu hachijini okimasu",
+    "nativeScriptReference": "ごはんを たべます みずを のみます がっこうに いきます うちへ かえります えいがを みます はしで たべます カフェで のみます はちじに おきます",
+    "transliteration": "Gohan wo tabemasu Mizu wo nomimasu Gakkou ni ikimasu Uchi ni kaerimasu Eiga wo mimasu Hashi de tabemasu Kafe de nomimasu Hachi-ji ni okimasu",
+    "strictnessLevel": "moderate"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b6/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m1/b6/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b6/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "ごはんを たべます。みずを のみます。がっこうに いきます。うちに かえります。えいがを みます。はしで たべます。カフェで のみます。はちじに おきます。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "verbs",
+    "particles",
+    "beginner",
+    "month1",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure the 'u' in 'masu' is barely pronounced. It should sound like 'mahs'.",
+  "commonMistakes": [
+    "Pronouncing 'wo' with a heavy W sound."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B6_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

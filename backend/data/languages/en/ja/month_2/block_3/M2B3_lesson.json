@@ -1,0 +1,230 @@
+{
+  "activityId": "ja_en_M2B3_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "Past Tense & Expressing Desire",
+  "learningGoal": "The learner will conjugate verbs and adjectives into the past and past-negative tenses, and use the suffix '~tai desu' to express desire.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M2B2_test_001"
+  ],
+  "instructions": "This lesson unlocks your ability to talk about what you DID yesterday, and what you WANT TO DO tomorrow. Pay special attention to how i-adjectives conjugate in the past tense.",
+  "conceptTitle": "Time Travel and Wishes",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Verb Past Tense (~mashita)",
+      "bodyText": "Conjugating polite verbs into the past tense is incredibly easy. Just change 'masu' to 'mashita'. To make it negative past (didn't do), change 'masen' to 'masen deshita'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべます -> たべました",
+          "transliteration": "Tabemasu -> Tabemashita",
+          "baseTranslation": "I eat -> I ate",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たべません -> たべませんでした",
+          "transliteration": "Tabemasen -> Tabemasen deshita",
+          "baseTranslation": "I do not eat -> I did not eat",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きのう、えいがを みました。",
+          "transliteration": "Kinou, eiga wo mimashita.",
+          "baseTranslation": "Yesterday, I watched a movie.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "i-Adjective Past Tense (~katta)",
+      "bodyText": "To say something WAS an i-adjective (e.g. 'It was expensive'), drop the final 'i' and add 'katta'. For negative past ('It was not expensive'), drop 'i' and add 'kunakatta'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たかい -> たかかった です",
+          "transliteration": "Takai -> Takakatta desu",
+          "baseTranslation": "Expensive -> It was expensive",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たかくない -> たかくなかった です",
+          "transliteration": "Takakunai -> Takakunakatta desu",
+          "baseTranslation": "Not expensive -> It was not expensive",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "テストは むずかしかった です。",
+          "transliteration": "Tesuto wa muzukashikatta desu.",
+          "baseTranslation": "The test was difficult.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "na-Adjective Past Tense (~deshita)",
+      "bodyText": "For na-adjectives, the adjective itself does not change. Instead, 'desu' changes to 'deshita' (was). Negative becomes 'ja arimasen deshita' (was not).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "しずか です -> しずか でした",
+          "transliteration": "Shizuka desu -> Shizuka deshita",
+          "baseTranslation": "It is quiet -> It was quiet",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しずかじゃありません -> しずかじゃありません でした",
+          "transliteration": "Shizuka ja arimasen -> Shizuka ja arimasen deshita",
+          "baseTranslation": "It is not quiet -> It was not quiet",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Expressing Desire (~tai desu)",
+      "bodyText": "To say 'I want to (do something)', take a verb, drop the 'masu', and add 'tai desu'. Once you add 'tai', the verb acts EXACTLY like an i-adjective!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "たべます -> たべたい です",
+          "transliteration": "Tabemasu -> Tabetai desu",
+          "baseTranslation": "I eat -> I want to eat",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いきます -> いきたい です",
+          "transliteration": "Ikimasu -> Ikitai desu",
+          "baseTranslation": "I go -> I want to go",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "のみたくない です。",
+          "transliteration": "Nomitakunai desu.",
+          "baseTranslation": "I don't want to drink (Nomitai drops 'i' + kunai).",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will master past tense conjugations across all noun/adjective/verb classes, and synthesize the '~tai' form to express desires.",
+  "examples": [
+    {
+      "targetText": "きのう、すしを たべました。とても おいしかった です。",
+      "transliteration": "Kinou, sushi wo tabemashita. Totemo oishikatta desu.",
+      "baseTranslation": "Yesterday, I ate sushi. It was very delicious.",
+      "explanation": "Combines a past-tense verb (tabemashita) and a past-tense i-adjective (oishikatta)."
+    },
+    {
+      "targetText": "きょうは あつい です。みずを のみたい です。",
+      "transliteration": "Kyou wa atsui desu. Mizu wo nomitai desu.",
+      "baseTranslation": "Today is hot. I want to drink water.",
+      "explanation": "Uses present tense adjective (atsui) and the desire form of drink (nomimasu -> nomitai)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Once a verb becomes '~tai', it behaves entirely like an i-adjective.",
+      "exceptionNotes": "Want to eat: Tabetai. Don't want to eat: Tabetakunai. Wanted to eat: Tabetakatta. Didn't want to eat: Tabetakunakatta."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "You cannot use '~tai desu' to say what SOMEONE ELSE wants to do. You can only use it for your own desires, or to ask a direct question ('Do you want to go?').",
+      "exceptionNotes": "Saying 'Tanaka-san wa ikitai desu' is unnatural. Japanese requires different grammar to guess someone else's feelings."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "When refusing an invitation, Japanese people rarely say 'I don't want to go' (Ikitakunai desu) because it is too direct and harsh. Instead, they say 'Chotto...' (It's a little...) and trail off, letting the other person understand.",
+    "dosList": [
+      "Use ~tai desu to express your own hopes enthusiastically (e.g. 'I want to go to Japan!')."
+    ],
+    "dontsList": [
+      "Do not use ~takunai desu to refuse an invitation from a friend. Use a softer excuse."
+    ]
+  },
+  "summary": "Verbs in the past end in ~mashita. i-Adjectives in the past end in ~katta. na-Adjectives in the past end in ~deshita. To say 'I want to...', drop ~masu and add ~tai desu.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What is the past tense of 'Samui' (Cold)?",
+      "expectedAnswer": "さむかった (Samukatta)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "How do you say 'I didn't go'?",
+      "expectedAnswer": "いきませんでした (Ikimasen deshita)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "How do you say 'I want to see' (from Mimasu)?",
+      "expectedAnswer": "みたい (Mitai)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Past verbs: ~mashita / ~masen deshita",
+      "Past i-adj: ~katta / ~kunakatta",
+      "Desire: verb stem + tai desu."
+    ],
+    "conceptSummary": "Introduction to temporal shifts and expression of desire.",
+    "importantFacts": [
+      "~tai turns a verb into an i-adjective grammatically."
+    ],
+    "checkpointAnswers": {
+      "q1": "さむかった",
+      "q2": "いきませんでした",
+      "q3": "みたい"
+    },
+    "expectedUnderstanding": "Learner must confidently manipulate past tense markers across verbs and adjectives."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Great job! You now have the power to talk about memories and dreams.",
+    "onFail": "Review the i-adjective past tense. It can be a tongue-twister. Takai -> Takakatta.",
+    "onPartial": "Good start. Remember that ~tai desu only applies to YOUR desires, not your friend's."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "たべます。たべました。たべません。たべませんでした。きのう、えいがを みました。たかい。たかかった です。たかくない。たかくなかった です。テストは むずかしかった です。しずか でした。しずかじゃありません でした。たべたい です。いきたい です。のみたくない です。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "intermediate",
+    "month2",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Takai deshita' instead of 'Takakatta desu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

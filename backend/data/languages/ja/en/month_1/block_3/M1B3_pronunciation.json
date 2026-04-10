@@ -1,0 +1,182 @@
+{
+  "activityId": "en_ja_M1B3_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Plurals and Articles",
+  "learningGoal": "Master the pronunciation of plural 's', irregular plurals, and the linking sounds of 'a', 'an', and 'the'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B3_lesson_1"
+  ],
+  "instructions": "複数形の「s」の音や、冠詞（a, an, the）が名詞とくっつく時の「リンキング（音の繋がり）」を練習します。マイクに向かってリピートしてください。(Practice the plural 's' sounds and the linking sounds when articles connect with nouns. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "a book",
+      "transliteration": "ア ブック",
+      "baseTranslation": "（ある１つの）本",
+      "phoneticHint": "Say the 'a' very quickly and lightly, connecting it directly to 'book'.",
+      "syllableSplit": "a book",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'エー ブック (Eh book)' with a heavy stress on 'A'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "an apple",
+      "transliteration": "アナップル",
+      "baseTranslation": "（ある１つの）りんご",
+      "phoneticHint": "Link the 'n' in 'an' with the 'a' in 'apple'. It sounds like 'a-nap-ple'.",
+      "syllableSplit": "an ap-ple",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pausing between the words: 'アン、アップル'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "the car",
+      "transliteration": "ザ カー",
+      "baseTranslation": "（その）車",
+      "phoneticHint": "Use your teeth for the 'th' sound. Very short 'e' sound.",
+      "syllableSplit": "the car",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ザ (za)' like the Japanese 'za zi zu ze zo'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "the apple",
+      "transliteration": "ジ アップル",
+      "baseTranslation": "（その）りんご",
+      "phoneticHint": "Before a vowel, 'the' is pronounced 'thee'. Link the 'ee' sound to 'apple': thee-yap-ple.",
+      "syllableSplit": "the ap-ple",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ザ アップル (tha apple)'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "apples",
+      "transliteration": "アップルズ",
+      "baseTranslation": "りんご（複数）",
+      "phoneticHint": "The plural 's' here sounds like a buzzing 'z'.",
+      "syllableSplit": "ap-ples",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'アップルス (applu-su)' with a sharp 's'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "boxes",
+      "transliteration": "ボクシーズ",
+      "baseTranslation": "箱（複数）",
+      "phoneticHint": "Because 'box' ends in an 's' sound, the plural is pronounced as an extra syllable '-iz'.",
+      "syllableSplit": "box-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ボックスス (box-su)'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "an orange",
+      "transliteration": "アノレンジ",
+      "baseTranslation": "（ある１つの）オレンジ",
+      "phoneticHint": "Link the 'n' in 'an' with the 'o' in 'orange'. It sounds like 'a-nor-ange'.",
+      "syllableSplit": "an or-ange",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pausing between the words."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "men",
+      "transliteration": "メン",
+      "baseTranslation": "男たち（複数）",
+      "phoneticHint": "A short 'e' sound. Rhymes with 'pen'.",
+      "syllableSplit": "men",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it the same as the singular 'man' (マン)."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "women",
+      "transliteration": "ウィメン",
+      "baseTranslation": "女たち（複数）",
+      "phoneticHint": "This is irregular! The 'o' is pronounced like an 'i'. WI-men.",
+      "syllableSplit": "wom-en",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ウーマンズ (womans)' or 'ウォーメン (wo-men)'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "children",
+      "transliteration": "チルドレン",
+      "baseTranslation": "子供たち（複数）",
+      "phoneticHint": "Chill-dren. Make sure the 'r' is not a Japanese 'ら'.",
+      "syllableSplit": "chil-dren",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'チルドレンズ (childrens)' (children is already plural, don't add s!)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "a book an apple the car the apple apples boxes an orange men women children",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! Your linking sounds (an apple -> a-nap-ple) are very natural.",
+    "onFail": "Please review the linking rules. Don't pause between 'an' and the noun.",
+    "onPartial": "Good effort! Remember that 'women' is pronounced 'WI-men', not 'WO-men'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "a book an apple the car the apple apples boxes an orange men women children",
+    "acceptedVariants": [
+      "a book an apple the car the apple apples boxes an orange men women children"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "a book an apple the car the apple apples boxes an orange men women children",
+    "transliteration": "a buk an apl the kar thee apl aplz boksiz an orenj men wimen children",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B3_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B3_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "a book, an apple, the car, the apple, apples, boxes, an orange, men, women, children",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "articles",
+    "plurals",
+    "linking_sounds"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To sound like a native speaker, don't pause between the article and the noun. 'An apple' should sound like one word.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B3_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

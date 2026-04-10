@@ -1,0 +1,163 @@
+{
+  "activityId": "en_ja_M1B1_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Your First Introduction",
+  "learningGoal": "Write a short, accurate self-introduction in English.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B1_reading_3"
+  ],
+  "instructions": "英語で簡単な自己紹介を書いてみましょう。以下の3つの情報を必ず入れてください。(Let's write a simple self-introduction in English. Make sure to include the following three pieces of information.)\n1. 挨拶 (Greeting)\n2. あなたの名前 (Your name)\n3. はじめまして (Nice to meet you)",
+  "writingPrompt": "Write a 3-sentence introduction. Start with a greeting, tell us your name, and finish with a polite closing.",
+  "promptGoal": "To construct basic introductory sentences in English.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "Hello",
+      "transliteration": "ヘロー",
+      "baseTranslation": "こんにちは",
+      "partOfSpeech": "interjection"
+    },
+    {
+      "targetText": "My name is",
+      "transliteration": "マイ ネーム イズ",
+      "baseTranslation": "私の名前は～です",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "Nice to meet you",
+      "transliteration": "ナイス トゥ ミート ユー",
+      "baseTranslation": "はじめまして",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "I am",
+      "transliteration": "アイ アム",
+      "baseTranslation": "私は～です",
+      "partOfSpeech": "phrase"
+    }
+  ],
+  "referenceHints": [
+    "英語では文の最初は必ず大文字（Capital letter）にします。",
+    "文の最後にはピリオド（.）をつけます。",
+    "「I（私）」は文のどこにあっても常に大文字です。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Hello! My name is Ken. Nice to meet you.",
+      "transliteration": "ヘロー！ マイ ネーム イズ ケン。 ナイス トゥ ミート ユー。",
+      "baseTranslation": "こんにちは！私の名前はケンです。はじめまして。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect capitalization and punctuation. Uses the required phrases clearly."
+    },
+    {
+      "targetText": "Good morning. I am Yuki. Nice to meet you.",
+      "transliteration": "グッド モーニング。 アイ アム ユキ。 ナイス トゥ ミート ユー。",
+      "baseTranslation": "おはようございます。私はユキです。はじめまして。",
+      "qualityLevel": "excellent",
+      "annotation": "Uses 'I am' instead of 'My name is', which is also a perfect way to introduce yourself."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Task Completion",
+      "weight": 40,
+      "description": "Did the student include a greeting, their name, and a closing?"
+    },
+    {
+      "criterion": "Spelling and Punctuation",
+      "weight": 30,
+      "description": "Are sentences capitalized correctly and ended with a period/exclamation mark?"
+    },
+    {
+      "criterion": "Grammar",
+      "weight": 30,
+      "description": "Is 'My name is' or 'I am' used correctly without missing words?"
+    }
+  ],
+  "minimumWordCount": 5,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Hello. My name is [Name]. Nice to meet you.",
+    "acceptableAlternates": [
+      "Hi. I am [Name]. Nice to meet you."
+    ],
+    "requiredKeywords": [
+      "Hello",
+      "Hi",
+      "Good morning",
+      "name",
+      "am",
+      "Nice to meet you"
+    ],
+    "grammarBaseline": "Must use 'I am' or 'My name is' correctly. Sentences must be complete.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Task Completion",
+          "weight": 40,
+          "description": "Included all three parts of the prompt."
+        },
+        {
+          "name": "Mechanics",
+          "weight": 30,
+          "description": "Capitalization and punctuation."
+        },
+        {
+          "name": "Grammar",
+          "weight": 30,
+          "description": "Correct sentence structure."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! This is the perfect way to introduce yourself in English.",
+    "onFail": "Please check your capitalization (大文字) and punctuation (ピリオド). Make sure you included a greeting, your name, and 'Nice to meet you'.",
+    "onPartial": "Good effort. Make sure every sentence starts with a capital letter."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "introduction",
+    "greetings",
+    "basics"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget the period at the end of the sentence!",
+  "commonMistakes": [
+    "Forgetting the 'is' in 'My name is'.",
+    "Writing 'i am' instead of 'I am'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,169 @@
+{
+  "activityId": "en_ja_M2B1_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Buying a Laptop",
+  "learningGoal": "Listen to a dialogue involving comparatives and superlatives to understand product comparisons.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B1_writing_4"
+  ],
+  "instructions": "家電量販店での客と店員の会話を聞いてください。「better（より良い）」や「faster（より速い）」、「most expensive（一番高い）」といった比較級と最上級の言葉に注意して、質問に答えてください。(Listen to a conversation between a customer and a clerk at an electronics store. Pay attention to comparatives and superlatives like 'better', 'faster', and 'most expensive', then answer the questions.)",
+  "listeningGoal": "To extract comparative and superlative information to make a purchasing decision.",
+  "audioScenario": "A customer is asking a store clerk for advice on which laptop to buy.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Excuse me. Is this laptop good?",
+      "transliteration": "エクスキューズ ミー。イズ ディス ラップトップ グッド？",
+      "baseTranslation": "すみません。このノートパソコンは良いですか？"
+    },
+    {
+      "targetText": "Yes, it is good. But the black laptop is better.",
+      "transliteration": "イエス、イット イズ グッド。バット ザ ブラック ラップトップ イズ ベター。",
+      "baseTranslation": "はい、良いですよ。でも黒いノートパソコンの方がより良いです。"
+    },
+    {
+      "targetText": "Why is it better?",
+      "transliteration": "ホワイ イズ イット ベター？",
+      "baseTranslation": "なぜそっちの方が良いのですか？"
+    },
+    {
+      "targetText": "It is faster than this one.",
+      "transliteration": "イット イズ ファスター ザン ディス ワン。",
+      "baseTranslation": "これより速いからです。"
+    },
+    {
+      "targetText": "Is the black laptop more expensive?",
+      "transliteration": "イズ ザ ブラック ラップトップ モア エクスペンシヴ？",
+      "baseTranslation": "黒いノートパソコンの方が高いですか？"
+    },
+    {
+      "targetText": "Yes, it is the most expensive laptop in the store.",
+      "transliteration": "イエス、イット イズ ザ モスト エクスペンシヴ ラップトップ イン ザ ストア。",
+      "baseTranslation": "はい、店の中で一番高いノートパソコンです。"
+    },
+    {
+      "targetText": "Wow. Okay, I will buy the cheaper one.",
+      "transliteration": "ワオ。オーケー、アイ ウィル バイ ザ チーパー ワン。",
+      "baseTranslation": "うわあ。わかりました、安い方を買います。"
+    }
+  ],
+  "audioTranscriptFull": "Customer: Excuse me. Is this laptop good?\nClerk: Yes, it is good. But the black laptop is better.\nCustomer: Why is it better?\nClerk: It is faster than this one.\nCustomer: Is the black laptop more expensive?\nClerk: Yes, it is the most expensive laptop in the store.\nCustomer: Wow. Okay, I will buy the cheaper one.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "店員は、どのパソコンが「より良い（better）」と言っていますか？ (Which laptop does the clerk say is 'better'?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "The first laptop",
+        "The black laptop",
+        "The white laptop",
+        "Both are the same"
+      ],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "なぜ黒いパソコンの方が良いのですか？ (Why is the black laptop better?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because it is bigger.",
+        "Because it is faster.",
+        "Because it is newer.",
+        "Because it is beautiful."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "黒いパソコンの値段について、店員は何と言っていますか？ (What does the clerk say about the price of the black laptop?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "It is the cheapest.",
+        "It is cheap.",
+        "It is the most expensive.",
+        "It is free."
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最終的に、客はどちらのパソコンを買うことにしましたか？ (Which laptop will the customer buy in the end?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "The black laptop",
+        "The faster one",
+        "The cheaper one",
+        "None"
+      ],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "The black laptop",
+      "q2": "Because it is faster.",
+      "q3": "It is the most expensive.",
+      "q4": "The cheaper one"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You caught the differences between 'better', 'faster', and 'the most expensive'.",
+    "onFail": "Listen again closely. The black laptop is faster, but the customer chooses the cheaper one.",
+    "onPartial": "Good effort. Pay attention to the very end—what does the customer decide to buy?"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B1_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B1_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Customer: Excuse me. Is this laptop good? Clerk: Yes, it is good. But the black laptop is better...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "comparatives",
+    "superlatives",
+    "shopping"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'the most expensive' (一番高い) and 'cheaper' (より安い).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B1_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

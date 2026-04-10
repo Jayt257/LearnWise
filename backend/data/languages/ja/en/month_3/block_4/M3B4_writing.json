@@ -1,0 +1,187 @@
+{
+  "activityId": "en_ja_M3B4_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Writing a Business Email",
+  "learningGoal": "Write a formal business email using appropriate greetings, apologies, polite requests, and closings.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "en_ja_M3B4_reading_3"
+  ],
+  "instructions": "取引先のスミス氏（Mr. Smith）に返信のメールを書いてください。(Write a reply email to your client, Mr. Smith.)\n以下の4つの要素をすべて含めてください：\n1. 宛名（Dear...）\n2. 返信が遅れたことへの謝罪（apologize for the delay）\n3. 来週の月曜日に会議を設定することは可能かどうか尋ねる（Would it be possible...）\n4. 結びの言葉（Best regards または Sincerely）",
+  "writingPrompt": "Write a formal email to Mr. Smith. Apologize for your late reply, ask to schedule a meeting next Monday, and use formal greetings and closings.",
+  "promptGoal": "To actively construct a complete, professional business email using standard formal structures and polite modal verbs.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "Dear Mr. Smith,",
+      "transliteration": "ディア ミスター スミス、",
+      "baseTranslation": "スミス様（書き出し）",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "I apologize for the delay in my response.",
+      "transliteration": "アイ アポロジャイズ フォー ザ ディレイ イン マイ レスポンス",
+      "baseTranslation": "返信が遅れましたこと、お詫び申し上げます。",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "Would it be possible to...",
+      "transliteration": "ウッド イット ビー ポッシブル トゥ...",
+      "baseTranslation": "〜することは可能でしょうか",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "schedule a meeting",
+      "transliteration": "スケジュール ア ミーティング",
+      "baseTranslation": "会議の予定を組む、設定する",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "next Monday",
+      "transliteration": "ネクスト マンデイ",
+      "baseTranslation": "来週の月曜日",
+      "partOfSpeech": "noun phrase"
+    },
+    {
+      "targetText": "Best regards,",
+      "transliteration": "ベスト リガーズ、",
+      "baseTranslation": "よろしくお願いいたします（結び）",
+      "partOfSpeech": "closing"
+    }
+  ],
+  "referenceHints": [
+    "メールの構造は以下のようになります：",
+    "[宛名]",
+    "[謝罪の文]",
+    "[会議のお願いの文]",
+    "[結びの言葉]",
+    "[あなたの名前]"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Dear Mr. Smith,\nI apologize for the delay in my response.\nWould it be possible to schedule a meeting next Monday?\nBest regards,\nKen",
+      "transliteration": "ディア ミスター スミス、\nアイ アポロジャイズ フォー ザ ディレイ イン マイ レスポンス。\nウッド イット ビー ポッシブル トゥ スケジュール ア ミーティング ネクスト マンデイ？\nベスト リガーズ、\nケン",
+      "baseTranslation": "スミス様、\n返信が遅れましたこと、お詫び申し上げます。\n来週の月曜日に会議の予定を組むことは可能でしょうか？\nよろしくお願いいたします。\nケン",
+      "qualityLevel": "excellent",
+      "annotation": "A perfect, concise business email containing all required elements in the correct order."
+    },
+    {
+      "targetText": "Dear Mr. Smith, I apologize for the delay in my response. I was very busy yesterday. Would it be possible to schedule a meeting next Monday at 10 a.m.? Sincerely, Yumi.",
+      "transliteration": "ディア ミスター スミス、アイ アポロジャイズ フォー ザ ディレイ イン マイ レスポンス。アイ ワズ ヴェリー ビジー イエスタデイ。ウッド イット ビー ポッシブル トゥ スケジュール ア ミーティング ネクスト マンデイ アット テン エイエム？ シンシアリー、ユミ。",
+      "baseTranslation": "スミス様、返信が遅れましたことお詫び申し上げます。昨日はとても忙しかったです。来週の月曜日午前10時に会議を設定することは可能でしょうか？ 敬具、ユミ。",
+      "qualityLevel": "good",
+      "annotation": "Very good. 'Sincerely' is also an excellent formal closing."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Greeting",
+      "weight": 15,
+      "description": "Did the user start with 'Dear Mr. Smith,'?"
+    },
+    {
+      "criterion": "Apology",
+      "weight": 25,
+      "description": "Did the user write 'apologize for the delay' instead of 'I am sorry I am late'?"
+    },
+    {
+      "criterion": "Polite Request",
+      "weight": 35,
+      "description": "Did the user use 'Would it be possible to schedule a meeting next Monday?'"
+    },
+    {
+      "criterion": "Closing",
+      "weight": 15,
+      "description": "Did the user end with 'Best regards' or 'Sincerely'?"
+    },
+    {
+      "criterion": "Formatting",
+      "weight": 10,
+      "description": "Does it look like an email structure?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 60,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Dear Mr. Smith, I apologize for the delay in my response. Would it be possible to schedule a meeting next Monday? Best regards, [Name]",
+    "acceptableAlternates": [
+      "Dear Mr. Smith, I apologize for the delay. Would it be possible to schedule a meeting next Monday? Sincerely, [Name]"
+    ],
+    "requiredKeywords": [
+      "Dear",
+      "Smith",
+      "apologize",
+      "delay",
+      "possible",
+      "schedule",
+      "meeting",
+      "Monday",
+      "regards"
+    ],
+    "grammarBaseline": "Must use 'Would it be possible to' followed by a base verb.",
+    "lengthExpectation": "4-5 lines of email text.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Formal Tone",
+          "weight": 60,
+          "description": "Uses 'apologize' and 'Would it be possible'."
+        },
+        {
+          "name": "Email Structure",
+          "weight": 40,
+          "description": "Has a clear greeting and sign-off."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent email! It is very professional, polite, and clear.",
+    "onFail": "Please check your email. Make sure you included the greeting (Dear Mr. Smith), the apology, the request (Would it be possible to...), and the closing (Best regards).",
+    "onPartial": "Good effort. Double-check your spelling for words like 'apologize' and 'schedule'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "business_english",
+    "emails",
+    "polite_requests",
+    "formal"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'I apologize for the delay' instead of 'I am sorry'. It sounds much more professional.",
+  "commonMistakes": [
+    "Writing 'I am sorry for late' instead of 'I apologize for the delay'.",
+    "Forgetting the greeting or closing."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

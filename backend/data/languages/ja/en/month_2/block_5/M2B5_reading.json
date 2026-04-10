@@ -1,0 +1,210 @@
+{
+  "activityId": "en_ja_M2B5_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "Pool Rules",
+  "learningGoal": "Read a set of rules to understand how must, must not, have to, and don't have to are used in real-world contexts.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B5_pronunciation_2"
+  ],
+  "instructions": "市民プールの利用規則（ルール）を読んで、質問に答えてください。「しなければならないこと（must/have to）」「してはいけないこと（must not）」、「しなくてもよいこと（don't have to）」の違いに注意しましょう。(Read the rules for a public swimming pool. Pay attention to what you must do, must not do, and don't have to do.)",
+  "readingTitle": "City Pool Rules",
+  "readingText": "Welcome to the City Pool! Please follow these rules for your safety.\n1. You must take a shower before you enter the pool.\n2. You have to wear a swimming cap.\n3. You must not run near the pool. It is very dangerous.\n4. You don't have to wear goggles, but you can if you want.\n5. You must not bring food or drinks into the water.\n6. You should stretch before you swim.\nThank you, and have fun!",
+  "textInTargetLanguage": "Welcome to the City Pool! Please follow these rules for your safety.\n1. You must take a shower before you enter the pool.\n2. You have to wear a swimming cap.\n3. You must not run near the pool. It is very dangerous.\n4. You don't have to wear goggles, but you can if you want.\n5. You must not bring food or drinks into the water.\n6. You should stretch before you swim.\nThank you, and have fun!",
+  "baseLanguageSupportText": "市民プールへようこそ！安全のために以下のルールを守ってください。\n1. プールに入る前にシャワーを浴びなければなりません。\n2. 水泳キャップをかぶらなければなりません。\n3. プールの近くを走ってはいけません。とても危険です。\n4. ゴーグルをつける必要はありませんが、もし望むならつけても構いません。\n5. 食べ物や飲み物を水の中に持ち込んではいけません。\n6. 泳ぐ前にストレッチをした方がいいです。\nありがとうございます。楽しんでください！",
+  "glossary": [
+    {
+      "targetText": "must take",
+      "transliteration": "マスト テイク",
+      "baseTranslation": "浴びなければならない（強い義務）",
+      "exampleSentence": {
+        "targetText": "You must take a shower.",
+        "transliteration": "ユー マスト テイク ア シャワー",
+        "baseTranslation": "シャワーを浴びなければなりません。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "have to wear",
+      "transliteration": "ハフ トゥ ウェア",
+      "baseTranslation": "着なければならない、かぶらなければならない",
+      "exampleSentence": {
+        "targetText": "You have to wear a cap.",
+        "transliteration": "ユー ハフ トゥ ウェア ア キャップ",
+        "baseTranslation": "キャップをかぶらなければなりません。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "must not run",
+      "transliteration": "マス ノット ラン",
+      "baseTranslation": "走ってはいけない（禁止）",
+      "exampleSentence": {
+        "targetText": "You must not run.",
+        "transliteration": "ユー マス ノット ラン",
+        "baseTranslation": "走ってはいけません。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "don't have to wear",
+      "transliteration": "ドント ハフ トゥ ウェア",
+      "baseTranslation": "着る（つける）必要はない",
+      "exampleSentence": {
+        "targetText": "You don't have to wear goggles.",
+        "transliteration": "ユー ドント ハフ トゥ ウェア ゴーグルズ",
+        "baseTranslation": "ゴーグルをつける必要はありません。"
+      },
+      "audioRef": null
+    },
+    {
+      "targetText": "should stretch",
+      "transliteration": "シュッド ストレッチ",
+      "baseTranslation": "ストレッチした方がいい（アドバイス）",
+      "exampleSentence": {
+        "targetText": "You should stretch.",
+        "transliteration": "ユー シュッド ストレッチ",
+        "baseTranslation": "ストレッチをした方がいいです。"
+      },
+      "audioRef": null
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "You must not run near the pool.",
+      "transliteration": "ユー マス ノット ラン ニア ザ プール",
+      "baseTranslation": "プールの近くを走ってはいけません。（絶対にしてはダメなこと）"
+    },
+    {
+      "targetText": "You don't have to wear goggles.",
+      "transliteration": "ユー ドント ハフ トゥ ウェア ゴーグルズ",
+      "baseTranslation": "ゴーグルをつける必要はありません。（しなくてもいいこと）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "プールに入る前に「絶対にしなければならないこと」はどれですか？ (What MUST you do before entering the pool?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Take a shower",
+        "Eat food",
+        "Run",
+        "Wear goggles"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ゴーグル（goggles）について、ルールはどう言っていますか？ (What is the rule about goggles?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "You must wear them.",
+        "You must not wear them.",
+        "You don't have to wear them.",
+        "You shouldn't wear them."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "プールの近くで「してはいけないこと（禁止）」は何ですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Swimming",
+        "Running",
+        "Stretching",
+        "Wearing a cap"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "水の中に持ち込んで（bring）はいけないものは何ですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "A swimming cap",
+        "Goggles",
+        "Food or drinks",
+        "Water"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "泳ぐ前にした方がいい（should）とアドバイスされていることは何ですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Stretch",
+        "Eat lunch",
+        "Run fast",
+        "Drink water"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Take a shower",
+      "q2": "You don't have to wear them.",
+      "q3": "Running",
+      "q4": "Food or drinks",
+      "q5": "Stretch"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The text uses 'must' and 'have to' for absolute rules (shower, cap).",
+      "It uses 'must not' for dangerous or prohibited actions (running, food).",
+      "It uses 'don't have to' for optional things (goggles).",
+      "It uses 'should' for good advice (stretching)."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You understand the different levels of obligation and permission.",
+    "onFail": "Please read carefully. Look at the difference between rule 3 (must not) and rule 4 (don't have to).",
+    "onPartial": "Good effort. Remember that 'must not' means 'Don't do it!', but 'don't have to' means 'It is your choice'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B5_reading_full.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B5_reading_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Welcome to the City Pool! Please follow these rules for your safety...",
+    "audioLanguage": "en",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "modals",
+    "rules",
+    "must",
+    "have_to"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the negative words: 'must not' is a strong NO. 'don't have to' is an OPTION.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

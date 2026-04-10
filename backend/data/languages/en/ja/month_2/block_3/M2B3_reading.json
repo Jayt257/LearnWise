@@ -1,0 +1,216 @@
+{
+  "activityId": "ja_en_M2B3_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "A Trip to Kyoto",
+  "learningGoal": "The learner will read a short diary entry to identify past tense verbs, past tense adjectives, and expressions of desire.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B3_lesson_001",
+    "ja_en_M2B3_vocabulary_001"
+  ],
+  "instructions": "Read this diary entry written by a student studying in Japan. Pay attention to how the adjectives change when describing things that happened in the past.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: 'Kirei' is a na-adjective. So its past tense is 'Kirei deshita', not 'Kireikatta'."
+    }
+  ],
+  "readingTitle": "My Trip to Kyoto",
+  "readingText": "きのう、きょうとへ いきました。きょうとは とても きれいでした。でも、てんきは さむかったです。おいしい すしを たべました。たのしかったです。あしたも いきたいです。",
+  "textInTargetLanguage": "きのう、きょうとへ いきました。きょうとは とても きれいでした。でも、てんきは さむかったです。おいしい すしを たべました。たのしかったです。あしたも いきたいです。",
+  "baseLanguageSupportText": "Yesterday, I went to Kyoto. Kyoto was very beautiful. But, the weather was cold. I ate delicious sushi. It was fun. I want to go tomorrow too.",
+  "glossary": [
+    {
+      "targetText": "いきました",
+      "transliteration": "Ikimashita",
+      "baseTranslation": "Went (past tense of Ikimasu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "きれいでした",
+      "transliteration": "Kirei deshita",
+      "baseTranslation": "Was beautiful (na-adjective past)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "てんき",
+      "transliteration": "Tenki",
+      "baseTranslation": "Weather",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "さむかったです",
+      "transliteration": "Samukatta desu",
+      "baseTranslation": "Was cold (i-adjective past)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "たべました",
+      "transliteration": "Tabemashita",
+      "baseTranslation": "Ate (past tense of Tabemasu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "たのしかったです",
+      "transliteration": "Tanoshikatta desu",
+      "baseTranslation": "Was fun (i-adjective past)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "いきたいです",
+      "transliteration": "Ikitai desu",
+      "baseTranslation": "Want to go (Ikimasu + tai desu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "きょうとは とても きれいでした。",
+      "transliteration": "Kyouto wa totemo kirei deshita.",
+      "baseTranslation": "Kyoto was very beautiful."
+    },
+    {
+      "targetText": "でも、てんきは さむかったです。",
+      "transliteration": "Demo, tenki wa samukatta desu.",
+      "baseTranslation": "But, the weather was cold."
+    },
+    {
+      "targetText": "あしたも いきたいです。",
+      "transliteration": "Ashita mo ikitai desu.",
+      "baseTranslation": "I want to go tomorrow too."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "When did the author go to Kyoto?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Today",
+        "Tomorrow",
+        "Yesterday",
+        "On the weekend"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "How does the author describe Kyoto?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It was hot.",
+        "It was very beautiful.",
+        "It was not beautiful.",
+        "It was busy."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "How was the weather?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It was hot.",
+        "It was cold.",
+        "It was beautiful.",
+        "It was rainy."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Does the author want to return to Kyoto?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, they want to go tomorrow.",
+        "No, it was too cold.",
+        "The passage doesn't say."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for 'was cold'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Yesterday",
+      "q002": "It was very beautiful.",
+      "q003": "It was cold.",
+      "q004": "Yes, they want to go tomorrow.",
+      "q005": "samukatta desu"
+    },
+    "acceptableParaphrases": {
+      "q005": ["samukatta desu", "samukatta", "Samukatta desu", "Samukatta"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The author went to Kyoto yesterday.",
+      "Kyoto was beautiful but cold.",
+      "They ate sushi and had fun.",
+      "They want to go back."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job navigating the past tense adjectives!",
+    "onFail": "Review the adjective endings. Katta = was (for i-adj). Deshita = was (for na-adj).",
+    "onPartial": "Good effort. Pay close attention to the last sentence. 'Ikitai' means 'want to go'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b3/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b3/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m2/b3/reading/normal_reading.mp3",
+    "audioTranscript": "きのう、きょうとへ いきました。きょうとは とても きれいでした。でも、てんきは さむかったです。おいしい すしを たべました。たのしかったです。あしたも いきたいです。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "intermediate",
+    "month2",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the word 'Ikitai'. When 'masu' is replaced with 'tai', it means 'want to'.",
+  "commonMistakes": [
+    "Thinking 'Ikitai' means 'went'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

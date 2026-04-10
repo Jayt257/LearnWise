@@ -1,0 +1,198 @@
+{
+  "activityId": "ja_en_M3B6_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "Final 3-Month Mega Review",
+  "learningGoal": "The learner will review and synthesize the major grammatical structures from the entire 3-month curriculum, from basic particles to advanced Keigo and Causative-Passive forms.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M3B5_test_001"
+  ],
+  "instructions": "Welcome to the final block of your 3-month Japanese journey! This lesson is a high-level review of the most critical grammatical transformations you have learned.",
+  "conceptTitle": "The Path to Fluency",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "Month 1 Review: Particles & Basics",
+      "bodyText": "Remember the foundation. Particles mark the grammatical role of words. 'Wa' (Topic), 'Ga' (Subject), 'Wo' (Direct Object), 'Ni' (Time/Destination), 'De' (Location of action / Tool).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "わたしは はしで すしを たべます。",
+          "transliteration": "Watashi wa hashi de sushi wo tabemasu.",
+          "baseTranslation": "I eat sushi with chopsticks. (Tool 'de', Object 'wo').",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "にほんに いきます。",
+          "transliteration": "Nihon ni ikimasu.",
+          "baseTranslation": "I will go to Japan. (Destination 'ni').",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Month 2 Review: The Te-Form & Plain Forms",
+      "bodyText": "The Te-form allowed you to connect sentences, make requests, and ask for permission. Plain forms allowed you to speak casually and create relative clauses.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "しゃしんを とっても いいですか。",
+          "transliteration": "Shashin wo totte mo ii desu ka.",
+          "baseTranslation": "May I take a picture? (Te-form + mo ii desu ka).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "あした いく ひと。",
+          "transliteration": "Ashita iku hito.",
+          "baseTranslation": "The person who will go tomorrow. (Plain form relative clause).",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Month 3 Review: Complex Conjugations",
+      "bodyText": "Month 3 introduced nuance: Potential (can do), Volitional (let's do), Passive (was done to), Causative (make do), and Causative-Passive (forced to do).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "にほんごを はなせます。",
+          "transliteration": "Nihongo wo hanasemasu.",
+          "baseTranslation": "I can speak Japanese. (Potential).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ぶちょうに ざんぎょうを させられました。",
+          "transliteration": "Buchou ni zangyou wo saseraremashita.",
+          "baseTranslation": "I was forced to do overtime by the boss. (Causative-Passive).",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Month 3 Review: Keigo (Respectful Language)",
+      "bodyText": "The ultimate test of Japanese business fluency: knowing when to elevate the listener (Sonkeigo) and when to lower yourself (Kenjougo).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "しゃちょうは いらっしゃいます。",
+          "transliteration": "Shachou wa irasshaimasu.",
+          "baseTranslation": "The president goes/is here. (Sonkeigo).",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたくしが まいります。",
+          "transliteration": "Watakushi ga mairimasu.",
+          "baseTranslation": "I will go. (Kenjougo).",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will be able to identify and differentiate between the 10 major verb conjugations taught over the 3-month period.",
+  "examples": [
+    {
+      "targetText": "のむ、のんで、のめる、のもう、のまれる、のませる、のまされる。",
+      "transliteration": "Nomu, Nonde, Nomeru, Nomou, Nomareru, Nomaseru, Nomasareru.",
+      "baseTranslation": "Drink, Drink (Te), Can drink, Let's drink, Was drunk/affected, Make drink, Forced to drink.",
+      "explanation": "This is the evolution of a single verb (Nomu) across the curriculum."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Verb groups matter. Always remember if a verb is an Ru-verb (Taberu) or an U-verb (Nomu, Iku).",
+      "exceptionNotes": "Irregular verbs Suru (to do) and Kuru (to come) must be memorized separately for every form."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Completing this curriculum means you have encountered almost all the grammar required for JLPT N4, and some concepts from N3. You have the theoretical knowledge to survive and thrive in Japan.",
+    "dosList": [
+      "Review your flashcards. Language requires constant upkeep."
+    ],
+    "dontsList": [
+      "Do not worry if you make mistakes with Keigo or Causative forms in real life. Native speakers know it is difficult for learners."
+    ]
+  },
+  "summary": "You have mastered Particles, Te-forms, Plain forms, Conditionals, Potential, Volitional, Passives, Causatives, and Keigo.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "What does 'Taberareru' mean?",
+      "expectedAnswer": "Can eat (Potential) OR Is eaten (Passive)."
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What form is 'Katte mo ii desu ka'?",
+      "expectedAnswer": "Te-form request for permission (May I buy?)."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If you are going to a meeting, do you use 'Irassharu' or 'Mairu'?",
+      "expectedAnswer": "Mairu (Humble Kenjougo)."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Particles dictate sentence structure.",
+      "Verb forms dictate intention, ability, and social dynamic."
+    ],
+    "conceptSummary": "A comprehensive review of 3 months of Japanese grammar.",
+    "importantFacts": [
+      "U-verbs have complex conjugations across the A, I, U, E, O vowel sounds."
+    ],
+    "checkpointAnswers": {
+      "q1": "Can eat / Is eaten",
+      "q2": "May I buy?",
+      "q3": "Mairu"
+    },
+    "expectedUnderstanding": "Learner is prepared for the final comprehensive assessment."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Congratulations on reaching the final review!",
+    "onFail": "Please review the lesson content.",
+    "onPartial": "Good effort."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "わたしは はしで すしを たべます。にほんに いきます。しゃしんを とっても いいですか。あした いく ひと。にほんごを はなせます。ぶちょうに ざんぎょうを させられました。しゃちょうは いらっしゃいます。わたくしが まいります。のむ、のんで、のめる、のもう、のまれる、のませる、のまされる。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "review",
+    "grammar",
+    "comprehensive",
+    "advanced",
+    "month3",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

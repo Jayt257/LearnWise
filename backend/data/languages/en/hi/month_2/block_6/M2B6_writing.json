@@ -1,0 +1,220 @@
+{
+  "activityId": "hi_en_M2B6_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Writing: Command the Streets",
+  "learningGoal": "Construct sentences using the formal imperative mood to give directions, ask for prices, and negotiate.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B6_lesson_1"
+  ],
+  "instructions": "You are navigating India. Translate the following phrases into polite Hindi commands. Use 'Aap' level commands (ending in 'iye') to ensure respect.",
+  "writingPrompt": "Translate the following sentences into Hindi using FORMAL commands:\n1. Brother, please take a left from ahead. (Brother = Bhaiya, Ahead from = Aage se, Left = Baayein, Take = Lijiye/Leejiye)\n2. Please go straight, then please stop here. (Straight = Seedha, Go = Chaliye, Then = Phir, Here = Yahaan, Stop = Rokiye)\n3. Excuse me, how much is this for? (Excuse me = Suniye, This = Yeh, How much for = Kitne ka hai)\n4. Please reduce a little. (A little = Thoda, Reduce = Kam, Do = Keejiye)\n5. Please don't go there. (There = Wahaan, Do not = Mat, Go = Jaiye)",
+  "promptGoal": "Apply formal imperatives and negative commands accurately.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "भैया",
+      "transliteration": "bhaiya",
+      "baseTranslation": "brother"
+    },
+    {
+      "targetText": "आगे से",
+      "transliteration": "aage se",
+      "baseTranslation": "from ahead"
+    },
+    {
+      "targetText": "बाएँ",
+      "transliteration": "baayein",
+      "baseTranslation": "left"
+    },
+    {
+      "targetText": "लीजिए",
+      "transliteration": "leejiye",
+      "baseTranslation": "please take"
+    },
+    {
+      "targetText": "सीधा",
+      "transliteration": "seedha",
+      "baseTranslation": "straight"
+    },
+    {
+      "targetText": "चलिए",
+      "transliteration": "chaliye",
+      "baseTranslation": "please go/walk"
+    },
+    {
+      "targetText": "फिर",
+      "transliteration": "phir",
+      "baseTranslation": "then"
+    },
+    {
+      "targetText": "यहाँ",
+      "transliteration": "yahaan",
+      "baseTranslation": "here"
+    },
+    {
+      "targetText": "रोकिए",
+      "transliteration": "rokiye",
+      "baseTranslation": "please stop"
+    },
+    {
+      "targetText": "सुनिए",
+      "transliteration": "suniye",
+      "baseTranslation": "excuse me / please listen"
+    },
+    {
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this"
+    },
+    {
+      "targetText": "कितने का है",
+      "transliteration": "kitne ka hai",
+      "baseTranslation": "how much is it for?"
+    },
+    {
+      "targetText": "थोड़ा",
+      "transliteration": "thoda",
+      "baseTranslation": "a little"
+    },
+    {
+      "targetText": "कम",
+      "transliteration": "kam",
+      "baseTranslation": "less"
+    },
+    {
+      "targetText": "कीजिए",
+      "transliteration": "keejiye",
+      "baseTranslation": "please do"
+    },
+    {
+      "targetText": "वहाँ",
+      "transliteration": "wahaan",
+      "baseTranslation": "there"
+    },
+    {
+      "targetText": "मत",
+      "transliteration": "mat",
+      "baseTranslation": "do not (for commands)"
+    },
+    {
+      "targetText": "जाइए",
+      "transliteration": "jaiye",
+      "baseTranslation": "please go"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'Brother, ahead from left take-please.'",
+    "Sentence 2: 'Straight go-please, then here stop-please.'",
+    "Sentence 3: 'Listen-please, this how-much-of is?'",
+    "Sentence 4: 'A-little less do-please.'",
+    "Sentence 5: 'There do-not go-please.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "भैया, आगे से बाएँ लीजिए। सीधा चलिए, फिर यहाँ रोकिए। सुनिए, यह कितने का है? थोड़ा कम कीजिए। वहाँ मत जाइए।",
+      "transliteration": "Bhaiya, aage se baayein leejiye. Seedha chaliye, phir yahaan rokiye. Suniye, yeh kitne ka hai? Thoda kam keejiye. Wahaan mat jaiye.",
+      "baseTranslation": "Brother, please take a left from ahead. Please go straight, then please stop here. Excuse me, how much is this for? Please reduce a little. Please do not go there.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect application of the formal 'iye' endings. Correctly used 'mat' for the negative command."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Formal Command Endings",
+      "weight": 50,
+      "description": "Must use 'leejiye', 'chaliye', 'rokiye', 'suniye', 'keejiye', 'jaiye'. Deduct heavily if informal roots (ruk, chal) are used."
+    },
+    {
+      "criterion": "Negative Command Rule",
+      "weight": 30,
+      "description": "Must use 'mat' in sentence 5. If 'nahi' is used, deduct points."
+    },
+    {
+      "criterion": "Vocabulary Accuracy",
+      "weight": 20,
+      "description": "Must correctly use 'Baayein' (left), 'Seedha' (straight), and 'Kitne ka hai'."
+    }
+  ],
+  "minimumWordCount": 20,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "भैया, आगे से बाएँ लीजिए। सीधा चलिए, फिर यहाँ रोकिए। सुनिए, यह कितने का है? थोड़ा कम कीजिए। वहाँ मत जाइए।",
+    "acceptableAlternates": [
+      "Bhaiya, aage se baayein leejiye. Seedha chaliye, phir yahaan rokiye. Suniye, yeh kitne ka hai? Thoda kam keejiye. Wahaan mat jaiye.",
+      "bhaiya aage se baayein leejiye. seedha chaliye phir yahaan rokiye. suniye yeh kitne ka hai. thoda kam keejiye. wahaan mat jaiye."
+    ],
+    "requiredKeywords": [
+      "baayein",
+      "leejiye",
+      "seedha",
+      "chaliye",
+      "yahaan",
+      "rokiye",
+      "suniye",
+      "kitne ka hai",
+      "kam keejiye",
+      "mat jaiye"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check on 'iye' suffixes and 'mat'.",
+    "lengthExpectation": "Five instructional sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Nahi Error",
+          "weight": 100,
+          "description": "If user writes 'Wahaan nahi jaiye', score drops by 30%."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Outstanding! You are ready to confidently and politely navigate India.",
+    "onFail": "Review the lesson. Formal commands ALWAYS end in 'iye' (Rokiye, Chaliye). Never use 'Nahi' when telling someone not to do something—use 'Mat'.",
+    "onPartial": "Good try. Pay close attention to the irregular verbs. 'Do' becomes 'Keejiye', not 'Kariye'. 'Take' becomes 'Leejiye', not 'Liye'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "directions",
+    "commands",
+    "imperatives",
+    "mat",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Sentence 4 uses the verb 'Karna' (To do). The formal command for Karna is highly irregular: Keejiye.",
+  "commonMistakes": [
+    "Translating 'Excuse me' literally as 'Maaf kijiye' (Forgive me) instead of using 'Suniye' (Listen)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

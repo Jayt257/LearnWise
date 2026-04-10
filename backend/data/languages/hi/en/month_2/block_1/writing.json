@@ -1,0 +1,157 @@
+{
+  "activityId": "en_hi_M2B1_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "My Dream Life",
+  "learningGoal": "The learner will compose an English paragraph utilizing multiple descriptive adjectives in pre-nominal (Adjective + Noun) or predicative (Noun + is/are + Adjective) syntax, definitively confirming their avoidance of pluralized adjectives.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B1_reading_001"],
+  "instructions": "Write a paragraph describing your dream life! Talk about your dream house, your dream car, and your dogs. You MUST use at least 4 adjectives to describe things (like Big, Fast, Beautiful, Happy, Loud, Quiet). Remember: adjectives always stay singular, even if you have many dogs!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: DO NOT WRITE 'I have happys dogs'. Never put an 's' on the adjective. Just write 'happy dogs'."
+    }
+  ],
+  "writingPrompt": "Write a short paragraph describing a dream house, a car, and your pets using at least 4 descriptive adjectives.",
+  "promptGoal": "Test strict adherence to ADJ + NOUN ordering and the complete morphological neutrality of English adjectives regardless of gender or count.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "Big",
+      "transliteration": "बिग",
+      "baseTranslation": "बड़ा",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Beautiful",
+      "transliteration": "ब्यूटीफुल",
+      "baseTranslation": "सुंदर",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Fast",
+      "transliteration": "फास्ट",
+      "baseTranslation": "तेज़",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "Happy",
+      "transliteration": "हैप्पी",
+      "baseTranslation": "खुश",
+      "partOfSpeech": "Adjective"
+    },
+    {
+      "targetText": "House",
+      "transliteration": "हाउस",
+      "baseTranslation": "घर",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Car",
+      "transliteration": "कार",
+      "baseTranslation": "कार",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Dogs",
+      "transliteration": "डॉग्स",
+      "baseTranslation": "कुत्ते",
+      "partOfSpeech": "Noun (Plural)"
+    }
+  ],
+  "referenceHints": [
+    "I have a [Adjective] [Noun].",
+    "My [Noun] is [Adjective].",
+    "I have two [Adjective] dogs. (No 's' on the adjective!)"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I have a big house. My house is beautiful and quiet. I drive a fast car. I have three happy dogs. My life is very good.",
+      "transliteration": "आई हैव अ बिग हाउस। माई हाउस इज़ ब्यूटीफुल एंड क्वाइट। आई ड्राइव अ फास्ट कार। आई हैव थ्री हैप्पी डॉग्स। माई लाइफ इज़ वेरी गुड।",
+      "baseTranslation": "मेरे पास एक बड़ा घर है। मेरा घर सुंदर और शांत है। मैं एक तेज़ कार चलाता हूँ। मेरे तीन खुश कुत्ते हैं। मेरा जीवन बहुत अच्छा है।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner used 'big house', 'fast car', and 'happy dogs'. Adjectives preceded nouns and were never pluralized."
+    },
+    {
+      "targetText": "My house is big. My car is fast. I have good dogs.",
+      "transliteration": "माई हाउस इज़ बिग। माई कार इज़ फास्ट। आई हैव गुड डॉग्स।",
+      "baseTranslation": "मेरा घर बड़ा है। मेरी कार तेज़ है। मेरे पास अच्छे कुत्ते हैं।",
+      "qualityLevel": "acceptable",
+      "annotation": "Acceptable. While the vocabulary is simpler, the grammar is flawless. 'Good dogs' successfully avoids the 'Goods dogs' mistake."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Adjective Syntax Placement",
+      "weight": 50,
+      "description": "Did the user place the descriptive word BEFORE the noun or after the 'is' verb? (e.g., 'A fast car' vs 'A car fast')."
+    },
+    {
+      "criterion": "Absence of Plural Adjectives",
+      "weight": 30,
+      "description": "Did the user incorrectly append an 's' to any descriptive words? (e.g., scoring penalties for 'Bads dogs' or 'Fasts cars')."
+    },
+    {
+      "criterion": "Word Count and Usage",
+      "weight": 20,
+      "description": "Did the user fulfill the basic volume requirement and utilize at least a few descriptive terms?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 100,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I have a big house. The house is beautiful. I have a fast red car. I also have two small dogs. They are happy.",
+    "acceptableAlternates": [
+      "My dream house is big and clean. I drive a fast car. I have happy dogs."
+    ],
+    "requiredKeywords": [],
+    "grammarBaseline": "Must include at least two adjectives modifying nouns. Zero instances of pluralized adjectives.",
+    "lengthExpectation": "15 to 100 words",
+    "scoringRubric": {
+      "Adjective Use": "50%",
+      "No Plural Adjectives": "30%",
+      "Task Completion": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully placed all English adjectives BEFORE their nouns, and you flawlessly avoided making the adjectives plural.",
+    "onFail": "Please review your writing. Did you write 'I have a car fast'? That is wrong. It must be 'I have a FAST CAR'. The description ALWAYS comes first.",
+    "onPartial": "Good start! You placed the words in the right order. However, make sure you never put an 'S' on a description. 'Happys dogs' is incorrect. It is just 'Happy dogs'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b1/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b1/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b1/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Write about your dream house and car. Remember, descriptions come first and have no plurals.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "adjectives", "syntax", "descriptions", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b1/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "You can describe something in two ways. 'I have a big house.' OR 'My house is big.' Both ways are perfect!",
+  "commonMistakes": [
+    "Writing 'I have a house big'.",
+    "Writing 'I have smalls cats'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B1_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

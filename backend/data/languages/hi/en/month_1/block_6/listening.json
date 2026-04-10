@@ -1,0 +1,221 @@
+{
+  "activityId": "en_hi_M1B6_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "Packing the Bag: Where does it go?",
+  "learningGoal": "The learner will accurately extract spatial prepositions (In, On, Under) from a fast-paced, native-speed dialogue, correctly mapping objects to their designated locations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B6_writing_001"],
+  "instructions": "Listen to Amit and his sister packing for a trip. His sister is telling him exactly WHERE to put things. Pay close attention to 'In', 'On', and 'Under'! Try to picture where the items are going. Answer the 8 questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Notice how the words are linked. 'In a bag' sounds like 'Innuh bag'."
+    }
+  ],
+  "listeningGoal": "Accurately parse auditory cues to isolate rapid preposition-article linkages and map them to physical locations.",
+  "audioScenario": "A sister dictating packing instructions to her brother before a trip.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Amit, please pack the bag.",
+      "transliteration": "अमित, प्लीज़ पैक द बैग।",
+      "baseTranslation": "अमित, कृपया थैला पैक करो।"
+    },
+    {
+      "targetText": "Okay. Where are the shirts?",
+      "transliteration": "ओके। वेयर आर द शर्ट्स?",
+      "baseTranslation": "ठीक है। कमीजें कहाँ हैं?"
+    },
+    {
+      "targetText": "The shirts are on the bed. Put them in the bag.",
+      "transliteration": "द शर्ट्स आर ऑन द बेड। पुट देम इन द बैग।",
+      "baseTranslation": "कमीजें बिस्तर पर हैं। उन्हें थैले में रखो।"
+    },
+    {
+      "targetText": "Done. Where is my camera?",
+      "transliteration": "डन। वेयर इज़ माई कैमरा?",
+      "baseTranslation": "हो गया। मेरा कैमरा कहाँ है?"
+    },
+    {
+      "targetText": "Your camera is in the box. The box is under the desk.",
+      "transliteration": "योर कैमरा इज़ इन द बॉक्स। द बॉक्स इज़ अंडर द डेस्क।",
+      "baseTranslation": "तुम्हारा कैमरा डिब्बे में है। डिब्बा मेज़ के नीचे है।"
+    },
+    {
+      "targetText": "Okay, I have the camera. Do I put it in the bag?",
+      "transliteration": "ओके, आई हैव द कैमरा। डू आई पुट इट इन द बैग?",
+      "baseTranslation": "ठीक है, मेरे पास कैमरा है। क्या मैं इसे थैले में रखूँ?"
+    },
+    {
+      "targetText": "No! Put the camera on the table. It is fragile.",
+      "transliteration": "नो! पुट द कैमरा ऑन द टेबल। इट इज़ फ्रेजाएल।",
+      "baseTranslation": "नहीं! कैमरे को मेज़ पर रखो। यह नाज़ुक है।"
+    },
+    {
+      "targetText": "Where are the tickets?",
+      "transliteration": "वेयर आर द टिकट्स?",
+      "baseTranslation": "टिकट कहाँ हैं?"
+    },
+    {
+      "targetText": "The tickets are in my purse.",
+      "transliteration": "द टिकट्स आर इन माई पर्स।",
+      "baseTranslation": "टिकट मेरे पर्स में हैं।"
+    },
+    {
+      "targetText": "Where is your purse?",
+      "transliteration": "वेयर इज़ योर पर्स?",
+      "baseTranslation": "तुम्हारा पर्स कहाँ है?"
+    },
+    {
+      "targetText": "It is on the chair in the living room.",
+      "transliteration": "इट इज़ ऑन द चेयर इन द लिविंग रूम।",
+      "baseTranslation": "यह लिविंग रूम में कुर्सी पर है।"
+    },
+    {
+      "targetText": "Okay, I found it. The tickets are under your phone.",
+      "transliteration": "ओके, आई फाउंड इट। द टिकट्स आर अंडर योर फोन।",
+      "baseTranslation": "ठीक है, मुझे मिल गया। टिकट तुम्हारे फोन के नीचे हैं।"
+    },
+    {
+      "targetText": "Great! We are ready to go.",
+      "transliteration": "ग्रेट! वी आर रेडी टू गो।",
+      "baseTranslation": "महान! हम जाने के लिए तैयार हैं।"
+    }
+  ],
+  "audioTranscriptFull": "Sister: Amit, please pack the bag.\nAmit: Okay. Where are the shirts?\nSister: The shirts are on the bed. Put them in the bag.\nAmit: Done. Where is my camera?\nSister: Your camera is in the box. The box is under the desk.\nAmit: Okay, I have the camera. Do I put it in the bag?\nSister: No! Put the camera on the table. It is fragile.\nAmit: Where are the tickets?\nSister: The tickets are in my purse.\nAmit: Where is your purse?\nSister: It is on the chair in the living room.\nAmit: Okay, I found it. The tickets are under your phone.\nSister: Great! We are ready to go.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "Where were the shirts initially located before packing?",
+      "questionType": "multiple_choice",
+      "options": ["In the bag", "Under the bed", "On the bed", "On the table"],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What does Amit's sister tell him to do with the shirts?",
+      "questionType": "multiple_choice",
+      "options": ["Put them on the bag", "Put them in the bag", "Put them under the bag", "Put them in the box"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Where is the camera initially located?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Where is the box located?",
+      "questionType": "multiple_choice",
+      "options": ["On the desk", "In the desk", "Under the desk", "Under the bed"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Where does the sister tell Amit to put the camera?",
+      "questionType": "multiple_choice",
+      "options": ["In the bag", "In the box", "On the table", "Under the table"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Where is the purse located?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "What exactly was UNDER the phone?",
+      "questionType": "multiple_choice",
+      "options": ["The purse", "The tickets", "The camera", "The bag"],
+      "audioTimestamp": "00:30",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "True or False: The camera ultimately went INSIDE the bag.",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for Q2, Q4, Q5. The preposition is binary."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "On the bed",
+      "q2": "Put them in the bag",
+      "q3": "In the box",
+      "q4": "Under the desk",
+      "q5": "On the table",
+      "q6": "On the chair",
+      "q7": "The tickets",
+      "q8": "False"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["In the box", "box", "in box"],
+      "q6": ["On the chair", "chair", "in the living room", "on a chair"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q3": ["box"],
+      "q6": ["chair"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You were able to track all the moving pieces perfectly, correctly mapping the prepositional audio cues to their visual locations.",
+    "onFail": "Keep trying! Ensure you playback the audio on Slow mode. Listen specifically for 'In' versus 'On'. Did she say ON the bag, or IN the bag?",
+    "onPartial": "Good ear! You caught most of the locations. But remember: the camera did NOT go in the bag. She said 'Put it ON the table'!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b6/listening/packing_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b6/listening/packing_slow.mp3",
+    "normalAudio": "audio/en_hi/m1/b6/listening/packing_native.mp3",
+    "audioTranscript": "Sister: Amit, please pack the bag... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "prepositions", "in_on_under", "directions", "beginner", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b6/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "When the sister says 'In the box', try to visualize the camera dropping down into a box. When she says 'On the table', visualize it sitting flat on top.",
+  "commonMistakes": [
+    "Thinking Amit put the camera in the bag.",
+    "Thinking the Box was IN the desk instead of UNDER."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B6_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

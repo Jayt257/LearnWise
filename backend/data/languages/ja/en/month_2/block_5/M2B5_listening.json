@@ -1,0 +1,179 @@
+{
+  "activityId": "en_ja_M2B5_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "Joining the Band",
+  "learningGoal": "Listen to a conversation about joining a club and identify statements of ability, obligation, and rules.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B5_writing_4"
+  ],
+  "instructions": "バンドクラブに入るためのルールについての会話を聞いてください。「できること（can）」「しなければならないこと（have to）」「しなくてもいいこと（don't have to）」「してはいけないこと（must not）」を聞き取り、質問に答えてください。(Listen to a conversation about joining a band. Listen for what they can do, have to do, don't have to do, and must not do.)",
+  "listeningGoal": "To differentiate between various modal verbs (can, have to, don't have to, must not) in spoken English.",
+  "audioScenario": "A student is asking a club leader about joining the school band.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hi. Can you play the guitar?",
+      "transliteration": "ハイ。キャン ユー プレイ ザ ギター？",
+      "baseTranslation": "やあ。君はギターを弾ける？"
+    },
+    {
+      "targetText": "Yes, I can. I want to join the band.",
+      "transliteration": "イエス、アイ キャン。アイ ウォント トゥ ジョイン ザ バンド。",
+      "baseTranslation": "うん、弾けるよ。バンドに入りたいんだ。"
+    },
+    {
+      "targetText": "Great! You should join us. But there are some rules.",
+      "transliteration": "グレイト！ ユー シュッド ジョイン アス。バット ゼア アー サム ルールズ。",
+      "baseTranslation": "素晴らしい！入った方がいいよ。でも、いくつかルールがあるんだ。"
+    },
+    {
+      "targetText": "What do I have to do?",
+      "transliteration": "ホワット ドゥー アイ ハフ トゥ ドゥー？",
+      "baseTranslation": "何をしなければならないの？"
+    },
+    {
+      "targetText": "You have to practice every Tuesday and Thursday.",
+      "transliteration": "ユー ハフ トゥ プラクティス エヴリー チューズデイ アンド サーズデイ。",
+      "baseTranslation": "毎週火曜日と木曜日に練習しなければならないよ。"
+    },
+    {
+      "targetText": "Okay. Do I have to bring my own guitar?",
+      "transliteration": "オーケー。ドゥー アイ ハフ トゥ ブリング マイ オウン ギター？",
+      "baseTranslation": "わかった。自分のギターを持っていかなければならない？"
+    },
+    {
+      "targetText": "No, you don't have to bring one. We have guitars here.",
+      "transliteration": "ノー、ユー ドント ハフ トゥ ブリング ワン。ウィー ハヴギターズ ヒア。",
+      "baseTranslation": "ううん、持ってくる必要はないよ。ここにギターがあるから。"
+    },
+    {
+      "targetText": "That's good. Anything else?",
+      "transliteration": "ザッツ グッド。エニシング エルス？",
+      "baseTranslation": "それはよかった。他には？"
+    },
+    {
+      "targetText": "Yes. You must not be late for practice. It's very important.",
+      "transliteration": "イエス。ユー マス ノット ビー レイト フォー プラクティス。イッツ ヴェリー インポータント。",
+      "baseTranslation": "うん。練習に遅れてはいけないよ。とても重要なことなんだ。"
+    }
+  ],
+  "audioTranscriptFull": "Person A: Hi. Can you play the guitar?\nPerson B: Yes, I can. I want to join the band.\nPerson A: Great! You should join us. But there are some rules.\nPerson B: What do I have to do?\nPerson A: You have to practice every Tuesday and Thursday.\nPerson B: Okay. Do I have to bring my own guitar?\nPerson A: No, you don't have to bring one. We have guitars here.\nPerson B: That's good. Anything else?\nPerson A: Yes. You must not be late for practice. It's very important.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "Person B（バンドに入りたい人）の能力について、正しいのはどれですか？ (What can Person B do?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "He can sing.",
+        "He can play the piano.",
+        "He can play the guitar.",
+        "He can't play the guitar."
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "バンドに入ったら、絶対にしなければならない（have to）ことは何ですか？ (What does he have to do?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Practice every day.",
+        "Practice every Tuesday and Thursday.",
+        "Buy a guitar.",
+        "Sing a song."
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Person Bは自分のギターを持っていく必要がありますか？ (Does he have to bring his own guitar?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, he has to bring it.",
+        "No, he doesn't have to bring it.",
+        "Yes, he must buy one.",
+        "No, he must not bring it."
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "バンドの最も重要なルール（してはいけないこと）は何ですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "You must not play the guitar.",
+        "You don't have to be late.",
+        "You must not be late for practice.",
+        "You must not join."
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "He can play the guitar.",
+      "q2": "Practice every Tuesday and Thursday.",
+      "q3": "No, he doesn't have to bring it.",
+      "q4": "You must not be late for practice."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You caught all the important rules and abilities.",
+    "onFail": "Listen again closely. Pay attention to 'have to' (must do) vs 'don't have to' (not necessary).",
+    "onPartial": "Good effort. Make sure you understand why he doesn't have to bring a guitar (they already have them!)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B5_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B5_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: Hi. Can you play the guitar? Person B: Yes, I can...",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "modals",
+    "rules",
+    "conversation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'have to' vs 'don't have to' when they talk about bringing a guitar.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

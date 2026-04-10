@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M2B1_test_8",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Test: The Dative Construction",
+  "learningGoal": "Evaluate understanding of the 'Chahiye' verb structure, dative pronouns, and adjective gender agreement.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B1_lesson_1",
+    "hi_en_M2B1_pronunciation_2",
+    "hi_en_M2B1_reading_3",
+    "hi_en_M2B1_writing_4",
+    "hi_en_M2B1_listening_5",
+    "hi_en_M2B1_vocabulary_6",
+    "hi_en_M2B1_speaking_7"
+  ],
+  "instructions": "This block test will verify your mastery of the 'To me it is needed' construction. Do not let English grammar confuse you during this test.",
+  "testTitle": "Desire & Description Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_chahiye",
+      "sectionTitle": "The Chahiye Structure",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "How do you correctly say 'I want tea'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Mujhe chai chahiye. (मुझे चाय चाहिए।)",
+            "Main chai chahiye. (मैं चाय चाहिए।)",
+            "Chai mujhe hai. (चाय मुझे है।)"
+          ],
+          "questionHints": {
+            "targetText": "Mujhe chai chahiye. (मुझे चाय चाहिए।)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "If you want to formally ask someone 'What do you want?', you say: '_____ kya chahiye?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Aapko (आपको)",
+            "Aap (आप)",
+            "Mujhe (मुझे)"
+          ],
+          "questionHints": {
+            "targetText": "Aapko (आपको)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_adjectives",
+      "sectionTitle": "Adjectives & Opposites",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "What is the opposite of 'Garam' (hot)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Thanda (ठंडा)",
+            "Mahanga (महँगा)",
+            "Sasta (सस्ता)"
+          ],
+          "questionHints": {
+            "targetText": "Thanda (ठंडा)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "If 'Gaadi' (car) is feminine, how do you say 'An expensive car'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Mahangi gaadi (महँगी गाड़ी)",
+            "Mahanga gaadi (महँगा गाड़ी)",
+            "Mahange gaadi (महँगे गाड़ी)"
+          ],
+          "questionHints": {
+            "targetText": "Mahangi gaadi (महँगी गाड़ी)",
+            "transliteration": "Mahangi gaadi",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: मुझे ठंडा पानी नहीं चाहिए। (Mujhe thanda paani nahi chahiye.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "I do not want cold water.",
+            "transliteration": "Mujhe thanda paani nahi chahiye.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Mujhe chai chahiye. (मुझे चाय चाहिए।)",
+      "tq_2": "Aapko (आपको)",
+      "tq_3": "Thanda (ठंडा)",
+      "tq_4": "Mahangi gaadi (महँगी गाड़ी)",
+      "tq_5": "I do not want cold water."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'I don't need cold water'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Spectacular! You have conquered the dative pronouns.",
+    "onFail": "Review the very first rule of this block: You cannot use 'Main' or 'Aap' with 'Chahiye'. You must use 'Mujhe' or 'Aapko'.",
+    "onPartial": "Good effort. Just remember that the negative word 'nahi' goes right before the verb 'chahiye'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block1_month2",
+    "chahiye",
+    "adjectives",
+    "dative"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Dative pronoun + Adjective + Object + Chahiye. That is the formula.",
+  "commonMistakes": [
+    "Selecting 'Main chai chahiye' because it directly translates word-for-word from English."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B2_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

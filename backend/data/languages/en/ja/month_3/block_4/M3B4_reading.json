@@ -1,0 +1,218 @@
+{
+  "activityId": "ja_en_M3B4_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "A Formal Business Email",
+  "learningGoal": "The learner will read a formal Japanese business email to identify Sonkeigo (referring to the client's actions) and Kenjougo (referring to the sender's actions).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B4_lesson_001",
+    "ja_en_M3B4_vocabulary_001"
+  ],
+  "instructions": "Read this business email from Smith to President Tanaka. Identify which actions belong to the President (Sonkeigo) and which actions belong to Smith (Kenjougo).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: The person writing the email lowers themselves by using Kenjougo, and elevates the recipient by using Sonkeigo."
+    }
+  ],
+  "readingTitle": "Meeting Follow-up",
+  "readingText": "たなかしゃちょうへ。\nほんじつは ありがとうございました。\nしゃちょうが おっしゃいました ことを、わたくしが いたします。\nあす、わたくしが そちらに まいります。\nよろしく おねがいいたします。\nスミスより。",
+  "textInTargetLanguage": "たなかしゃちょうへ。\nほんじつは ありがとうございました。\nしゃちょうが おっしゃいました ことを、わたくしが いたします。\nあす、わたくしが そちらに まいります。\nよろしく おねがいいたします。\nスミスより。",
+  "baseLanguageSupportText": "To President Tanaka. Thank you very much for today. I will do the things that the President said. Tomorrow, I will go there (to your company). I humbly look forward to working with you. From Smith.",
+  "glossary": [
+    {
+      "targetText": "ほんじつ",
+      "transliteration": "Honjitsu",
+      "baseTranslation": "Today (Formal)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おっしゃいました",
+      "transliteration": "Oshhaimashita",
+      "baseTranslation": "Said (Respectful past of Iu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "こと",
+      "transliteration": "Koto",
+      "baseTranslation": "Thing(s) / Matter(s)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "いたします",
+      "transliteration": "Itashimasu",
+      "baseTranslation": "Will do (Humble for Suru)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あす",
+      "transliteration": "Asu",
+      "baseTranslation": "Tomorrow (Formal)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "そちら",
+      "transliteration": "Sochira",
+      "baseTranslation": "There / Your company (Formal)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "まいります",
+      "transliteration": "Mairimasu",
+      "baseTranslation": "Will go (Humble for Iku)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "よろしく おねがいいたします",
+      "transliteration": "Yoroshiku onegai itashimasu",
+      "baseTranslation": "I humbly request your favor / Let's work well together",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "しゃちょうが おっしゃいました ことを、わたくしが いたします。",
+      "transliteration": "Shachou ga osshaimashita koto wo, watakushi ga itashimasu.",
+      "baseTranslation": "I will do the things that the President said."
+    },
+    {
+      "targetText": "あす、わたくしが そちらに まいります。",
+      "transliteration": "Asu, watakushi ga sochira ni mairimasu.",
+      "baseTranslation": "Tomorrow, I will go to your company."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "Who is the sender of this email?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Smith",
+        "Tanaka",
+        "The President",
+        "A Customer"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What verb does Smith use to refer to President Tanaka speaking?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Iimashita (Standard)",
+        "Oshhaimashita (Respectful)",
+        "Moushimashita (Humble)",
+        "Hanashimashita (Standard)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What verb does Smith use to state his own intention to do something?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Itashimasu (Humble)",
+        "Shimasu (Standard)",
+        "Nasaimasu (Respectful)",
+        "Yarimasu (Casual)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Who is going to the other's company tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Smith is going to Tanaka's company",
+        "Tanaka is going to Smith's company",
+        "They are both going somewhere",
+        "No one is going"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the humble verb meaning 'I will go'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Smith",
+      "q002": "Oshhaimashita (Respectful)",
+      "q003": "Itashimasu (Humble)",
+      "q004": "Smith is going to Tanaka's company",
+      "q005": "mairimasu"
+    },
+    "acceptableParaphrases": {
+      "q005": ["mairimasu", "Mairimasu"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Smith uses Sonkeigo for Tanaka's actions.",
+      "Smith uses Kenjougo for his own actions.",
+      "Smith is visiting Tanaka tomorrow."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading! You successfully navigated a formal Japanese business email.",
+    "onFail": "Review the verbs. 'Mairimasu' and 'Itashimasu' are humble forms used by the writer (Smith).",
+    "onPartial": "Good effort. Notice how the writer uses 'watakushi' instead of 'watashi' to sound even more formal."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b4/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b4/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m3/b4/reading/normal_reading.mp3",
+    "audioTranscript": "たなかしゃちょうへ。ほんじつは ありがとうございました。しゃちょうが おっしゃいました ことを、わたくしが いたします。あす、わたくしが そちらに まいります。よろしく おねがいいたします。スミスより。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "keigo",
+    "business",
+    "email",
+    "advanced",
+    "month3",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the subject of each sentence. When Tanaka is the subject, Sonkeigo is used. When Smith is the subject, Kenjougo is used.",
+  "commonMistakes": [
+    "Assuming Tanaka is doing the actions in the second half of the email."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

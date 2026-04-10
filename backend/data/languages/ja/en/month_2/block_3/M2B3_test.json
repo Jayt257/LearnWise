@@ -1,0 +1,244 @@
+{
+  "activityId": "en_ja_M2B3_test_8",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Test: Polite English",
+  "learningGoal": "Evaluate your understanding of polite modal verbs (Could, Would, May) and formal expressions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B3_speaking_7"
+  ],
+  "instructions": "Month 2 Block 3 のテストです。レストランやホテルで使われる「丁寧な表現（Polite English）」についての問題に答えてください。(This is the Block 3 test. Answer questions about polite expressions used in restaurants and hotels.)",
+  "testTitle": "Politeness Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Polite Requests (丁寧なお願い)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「手伝ってくれませんか？」と見知らぬ人に丁寧に頼む時、最も適切なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Can you help me?",
+            "Could you help me?",
+            "Do you help me?",
+            "May I help you?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「お水を持ってきていただけますか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Could you bring me some water?",
+            "May I bring some water?",
+            "I would like bring some water.",
+            "Do you want bring some water?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "「パスポートを拝見してもよろしいでしょうか？」と許可を求める時、最も丁寧なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Can I see your passport?",
+            "Could you see my passport?",
+            "May I see your passport?",
+            "I want to see your passport."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Ordering and Offering (注文と提案)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "レストランで「ステーキをお願いします（欲しいです）」と丁寧に言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I want the steak.",
+            "I would like the steak.",
+            "I am going to steak.",
+            "Give me the steak."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "お客様に「何かお飲み物はいかがですか？」と勧める時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Do you want something to drink?",
+            "Would you like something to drink?",
+            "Are you drink something?",
+            "Could you drink something?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「I would like」の短縮形として正しいものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I'll like",
+            "I've like",
+            "I'd like",
+            "I'm like"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary in Context",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "ホテルで「かしこまりました」と一番丁寧に応答する時、何と言いますか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Sure.",
+            "Okay.",
+            "Certainly.",
+            "Yes."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「May I take your ________? (ご注文をお伺いしてもよろしいでしょうか？)」の空欄に入る単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "menu",
+            "order",
+            "water",
+            "passport"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「チェックインをお願いします」と言う時、「I would like to ________」の空欄に入るのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "order",
+            "check in",
+            "show",
+            "help"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Could you to help me?",
+            "Could you help me, please?",
+            "Could you helping me?",
+            "May I help me, please?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "Could you help me?",
+      "q2": "Could you bring me some water?",
+      "q3": "May I see your passport?",
+      "q4": "I would like the steak.",
+      "q5": "Would you like something to drink?",
+      "q6": "I'd like",
+      "q7": "Certainly.",
+      "q8": "order",
+      "q9": "check in",
+      "q10": "Could you help me, please?"
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Could, Would, May の使い分けを完全に理解しています。これで海外旅行も安心です！",
+    "onFail": "もう一度復習しましょう。「自分がしたい」なら May I / I would like、「相手にしてほしい」なら Could you です。",
+    "onPartial": "よくできました。Could you の後ろの動詞には to や ing をつけない（原形にする）というルールに気をつけてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_3",
+    "politeness",
+    "modals"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read carefully. Remember that 'I want' is usually too direct for a restaurant or hotel.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

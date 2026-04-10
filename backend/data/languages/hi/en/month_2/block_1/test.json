@@ -1,0 +1,399 @@
+{
+  "activityId": "en_hi_M2B1_test_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Mega Assessment: Descriptions",
+  "learningGoal": "The learner will demonstrate absolute mastery of English adjective syntax, proving they can sequence adjectives prior to nouns and maintain total morphological neutrality (no gender framing, no pluralization).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M2B1_lesson_001",
+    "en_hi_M2B1_pronunciation_001",
+    "en_hi_M2B1_reading_001",
+    "en_hi_M2B1_writing_001",
+    "en_hi_M2B1_listening_001",
+    "en_hi_M2B1_vocabulary_001",
+    "en_hi_M2B1_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 1. It contains 20 questions evaluating your ability to describe the world. Remember the Two Golden Rules: Description comes first (Big Car), and Descriptions NEVER change (they have no plural 's', and no male/female forms).",
+  "testTitle": "Block 1 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Adjective Rules",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: She drives a _____ car.",
+          "questionType": "multiple_choice",
+          "options": ["fast", "fasts", "car fast", "fasting"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which phrase is correct?",
+          "questionType": "multiple_choice",
+          "options": ["Two smalls dogs", "Two small dogs", "Dogs small two", "Small two dogs"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Which is the structurally correct English sentence?",
+          "questionType": "multiple_choice",
+          "options": ["It is a beautiful house.", "It is a house beautiful.", "Beautiful is a house it."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "It is a beautiful house.",
+            "transliteration": "इट इज़ अ ब्यूटीफुल हाउस।",
+            "baseTranslation": "यह एक सुंदर घर है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "In Hindi we say 'अच्छा लड़का' and 'अच्छी लड़की'. In English, you use the word _____ for both.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Good",
+            "transliteration": "गुड",
+            "baseTranslation": "अच्छा"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: English adjectives MUST get an 's' at the end if you have many of the items (e.g., Red -> Reds).",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for 'तेज़'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Fast",
+            "transliteration": "फास्ट",
+            "baseTranslation": "तेज़"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What does 'Old' mean in Hindi?",
+          "questionType": "multiple_choice",
+          "options": ["छोटा", "तेज़", "पुराना / बूढ़ा", "नया"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the English word for 'शांत'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Quiet",
+            "transliteration": "क्वाइट",
+            "baseTranslation": "शांत"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Which adjective is the opposite of 'Hot'?",
+          "questionType": "multiple_choice",
+          "options": ["Cold", "Clean", "Loud", "Fast"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "True or False: The word for 'सुंदर' is 'Beautiful'.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the mistake: 'I have a car old.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'I have an old car.'", "It should be 'I have an olds car.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have an old car.",
+            "transliteration": "आई हैव ऐन ओल्ड कार।",
+            "baseTranslation": "मेरे पास एक पुरानी कार है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Find the mistake: 'They are cleans streets.'",
+          "questionType": "multiple_choice",
+          "options": ["'cleans' should just be 'clean'", "'streets' shouldn't have an 's'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the mistake: 'The dog is happys.'",
+          "questionType": "multiple_choice",
+          "options": ["'happys' should be 'happy'", "It should be 'The happys dog is'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What word is missing in this sentence: 'It is ____ hot day.'",
+          "questionType": "multiple_choice",
+          "options": ["is", "a", "the"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which is correct to say?",
+          "questionType": "multiple_choice",
+          "options": ["The man is fast", "The fast is man", "Man is the fast"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'वह एक अच्छी लड़की है।' (She is ... )",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "She is a good girl.",
+            "transliteration": "शी इज़ अ गुड गर्ल।",
+            "baseTranslation": "वह एक अच्छी लड़की है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'वे बहुत खुश हैं।' (They are ... very ...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They are very happy.",
+            "transliteration": "दे आर वेरी हैप्पी।",
+            "baseTranslation": "वे बहुत खुश हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'यह एक तेज़ कार है।' (It is...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "It is a fast car.",
+            "transliteration": "इट इज़ अ फास्ट कार।",
+            "baseTranslation": "यह एक तेज़ कार है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'मेरे पास एक बड़ा डिब्बा है।' (I have ...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I have a big box.",
+            "transliteration": "आई हैव अ बिग बॉक्स।",
+            "baseTranslation": "मेरे पास एक बड़ा डिब्बा है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'चाय गर्म है।' (The tea is ...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The tea is hot.",
+            "transliteration": "द टी इज़ हॉट।",
+            "baseTranslation": "चाय गर्म है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "fast",
+      "q002": "Two small dogs",
+      "q003": "It is a beautiful house.",
+      "q004": "Good",
+      "q005": "False",
+      "q006": "Fast",
+      "q007": "पुराना / बूढ़ा",
+      "q008": "Quiet",
+      "q009": "Cold",
+      "q010": "True",
+      "q011": "It should be 'I have an old car.'",
+      "q012": "'cleans' should just be 'clean'",
+      "q013": "'happys' should be 'happy'",
+      "q014": "a",
+      "q015": "The man is fast",
+      "q016": "She is a good girl.",
+      "q017": "They are very happy.",
+      "q018": "It is a fast car.",
+      "q019": "I have a big box.",
+      "q020": "The tea is hot."
+    },
+    "scoringRubric": {
+      "q016": "Minus 1 point if 'the' is used instead of 'a'.",
+      "q019": "Minus 2 points if 'big' comes after 'box'."
+    },
+    "partialCreditRules": {
+      "q016": "Give 3 marks if written 'She is good girl' (missing 'a')."
+    },
+    "alternateValidAnswers": {
+      "q004": ["good", "GOOD"],
+      "q006": ["fast", "FAST"],
+      "q008": ["quiet", "QUIET"],
+      "q016": ["she is a good girl", "She is a good girl"],
+      "q017": ["they are very happy", "They are very happy"],
+      "q018": ["it is a fast car", "It is a fast car"],
+      "q019": ["i have a big box", "I have a big box"],
+      "q020": ["the tea is hot", "The tea is hot", "Tea is hot", "tea is hot"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered the two rules of Adjectives: Place them before the noun, and NEVER put a plural 'S' on them.",
+    "onFail": "Please don't give up! Remember, adjectives never change. 'Good boy', 'Good girl', 'Good dogs'. Always just 'Good'.",
+    "onPartial": "Good effort! Remember when an adjective starts with an O, you have to use 'An' instead of 'A'. 'An old car'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b1/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers adjectives and descriptions.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block1", "adjectives", "descriptions", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B2_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

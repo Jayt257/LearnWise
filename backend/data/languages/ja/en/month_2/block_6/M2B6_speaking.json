@@ -1,0 +1,176 @@
+{
+  "activityId": "en_ja_M2B6_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Excuse Me, I'm Lost",
+  "learningGoal": "Speak fluently to ask for directions, confirm instructions, and ask about locations.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B6_vocabulary_6"
+  ],
+  "instructions": "あなたは海外旅行中で、道に迷ってしまいました。地元の人に道を尋ねるロールプレイをします。マイクに向かって、英語で質問や確認をしてください。(You are traveling and lost. Roleplay asking a local for directions. Speak into the microphone to ask questions and confirm instructions.)",
+  "speakingPrompt": "Roleplay asking for directions to the airport and confirming the route.",
+  "scenario": "You are lost in a foreign city and need to find the airport.",
+  "role": "You (Tourist)",
+  "conversationPartner": "Local Person",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Ask how to get to the airport. (Excuse me, how do I get to the airport?)",
+      "expectedSpeakingPoints": [
+        "Excuse me",
+        "how do I get to",
+        "the airport"
+      ],
+      "sampleResponse": {
+        "targetText": "Excuse me, how do I get to the airport?",
+        "transliteration": "エクスキューズ ミー、ハウ ドゥー アイ ゲット トゥ ザ エアポート？",
+        "baseTranslation": "すみません、空港にはどうやって行けばいいですか？"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "The local says: 'Go straight and turn left at the traffic light.' Confirm this by repeating: 'Turn left at the traffic light?'",
+      "expectedSpeakingPoints": [
+        "Turn left",
+        "at the traffic light"
+      ],
+      "sampleResponse": {
+        "targetText": "Turn left at the traffic light?",
+        "transliteration": "ターン レフト アット ザ トラフィック ライト？",
+        "baseTranslation": "信号を左に曲がるんですね？"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "The local says: 'Yes. It is near the station.' Ask if it is next to the station. (Is it next to the station?)",
+      "expectedSpeakingPoints": [
+        "Is it",
+        "next to the station"
+      ],
+      "sampleResponse": {
+        "targetText": "Is it next to the station?",
+        "transliteration": "イズ イット ネクスト トゥ ザ ステーション？",
+        "baseTranslation": "駅の隣ですか？"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "You see a friendly local person. Ask them for help.",
+    "transliteration": "ユー シー ア フレンドリー ローカル パーソン。アスク ゼム フォー ヘルプ。",
+    "baseTranslation": "親切そうな地元の人を見つけました。助けを求めてください。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Excuse me, how do I get to the airport?",
+      "transliteration": "エクスキューズ ミー、ハウ ドゥー アイ ゲット トゥ ザ エアポート？",
+      "baseTranslation": "すみません、空港にはどうやって行けばいいですか？"
+    },
+    {
+      "targetText": "Turn left at the traffic light?",
+      "transliteration": "ターン レフト アット ザ トラフィック ライト？",
+      "baseTranslation": "信号を左に曲がるんですね？"
+    },
+    {
+      "targetText": "Is it next to the station?",
+      "transliteration": "イズ イット ネクスト トゥ ザ ステーション？",
+      "baseTranslation": "駅の隣ですか？"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Asking for directions using 'How do I get to...'",
+      "Confirming a command 'Turn left at...'",
+      "Asking a yes/no question using 'next to'"
+    ],
+    "requiredKeywords": [
+      "excuse",
+      "me",
+      "how",
+      "get",
+      "airport",
+      "turn",
+      "left",
+      "traffic",
+      "light",
+      "next",
+      "station"
+    ],
+    "acceptableParaphrases": [
+      "Excuse me, how can I get to the airport? Turn left at the traffic light? Is it next to the station?"
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Direction Phrases",
+          "weight": 50,
+          "description": "Must use the exact phrase 'how do I get to' and 'turn left'."
+        },
+        {
+          "name": "Prepositions",
+          "weight": 30,
+          "description": "Must use 'at the traffic light' and 'next to'."
+        },
+        {
+          "name": "Intonation",
+          "weight": 20,
+          "description": "Voice should go up at the end of the questions to sound like confirmation."
+        }
+      ]
+    },
+    "sampleAnswer": "Excuse me, how do I get to the airport? Turn left at the traffic light? Is it next to the station?",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You sound like a natural traveler. Your pronunciation and intonation were excellent.",
+    "onFail": "Please try again. Make sure you use the full phrase 'How do I get to...' instead of just 'Where is...'.",
+    "onPartial": "Good effort! Remember to raise your pitch at the end of 'Turn left at the traffic light?' to show you are confirming what they said."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B6_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M2B6_speaking_sample.mp3",
+    "slowAudio": "path/to/M2B6_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Excuse me, how do I get to the airport? Turn left at the traffic light? Is it next to the station?",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "directions",
+    "travel",
+    "questions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget to say 'Excuse me' before asking the question. It's polite!",
+  "commonMistakes": [
+    "Saying 'How to go to the airport?' instead of 'How do I get to...?'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B6_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

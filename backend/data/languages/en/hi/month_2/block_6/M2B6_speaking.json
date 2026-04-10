@@ -1,0 +1,196 @@
+{
+  "activityId": "hi_en_M2B6_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Speaking: The Delhi Auto Ride",
+  "learningGoal": "Verbally command an auto driver using formal imperatives and negotiate prices aloud.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B6_vocabulary_6",
+    "hi_en_M2B6_listening_5"
+  ],
+  "instructions": "You are roleplaying a tourist in an auto-rickshaw. You must give clear directions to the driver and negotiate the final price. Use 'Aap' (formal) commands to remain respectful.",
+  "speakingPrompt": "Respond to the prompts to guide the auto driver and settle the bill.",
+  "scenario": "Guiding an auto-rickshaw to a hotel and negotiating the fare.",
+  "role": "Passenger",
+  "conversationPartner": "Auto Driver",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Tell the driver: 'Brother, please take a right from ahead.' (Brother = Bhaiya, From ahead = Aage se, Right = Daayein, Take = Leejiye)",
+      "expectedSpeakingPoints": [
+        "Bhaiya",
+        "aage se daayein",
+        "leejiye"
+      ],
+      "sampleResponse": {
+        "targetText": "भैया, आगे से दाएँ लीजिए।",
+        "transliteration": "Bhaiya, aage se daayein leejiye.",
+        "baseTranslation": "Brother, please take a right from ahead."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "The driver is about to go left. Stop him! Say: 'Do not go left! Please go straight.' (Left = Baayein, Do not go = Mat jaiye, Straight = Seedha, Go = Chaliye)",
+      "expectedSpeakingPoints": [
+        "Baayein",
+        "mat jaiye",
+        "seedha chaliye"
+      ],
+      "sampleResponse": {
+        "targetText": "बाएँ मत जाइए! सीधा चलिए।",
+        "transliteration": "Baayein mat jaiye! Seedha chaliye.",
+        "baseTranslation": "Do not go left! Please go straight."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "You arrived. Say: 'Please stop here. How much money did it become?' (Here = Yahaan, Stop = Rokiye, How much money = Kitne paise, Become = Hue)",
+      "expectedSpeakingPoints": [
+        "Yahaan",
+        "rokiye",
+        "kitne paise hue"
+      ],
+      "sampleResponse": {
+        "targetText": "यहाँ रोकिए। कितने पैसे हुए?",
+        "transliteration": "Yahaan rokiye. Kitne paise hue?",
+        "baseTranslation": "Please stop here. How much money is it?"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "He asks for 500 rupees. Say: 'This is very expensive. Please apply the right price.' (Expensive = Mehenga, Right price = Sahi daam, Apply = Lagaiye)",
+      "expectedSpeakingPoints": [
+        "Bahut mehenga hai",
+        "sahi daam",
+        "lagaiye"
+      ],
+      "sampleResponse": {
+        "targetText": "यह बहुत महँगा है। सही दाम लगाइए।",
+        "transliteration": "Yeh bahut mehenga hai. Sahi daam lagaiye.",
+        "baseTranslation": "This is very expensive. Please apply the right price."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप एक ऑटो-रिक्शा में हैं।",
+    "transliteration": "Aap ek auto-rickshaw mein hain.",
+    "baseTranslation": "You are in an auto-rickshaw."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "भैया, आगे से दाएँ लीजिए।",
+      "transliteration": "Bhaiya, aage se daayein leejiye.",
+      "baseTranslation": "Brother, please take a right from ahead."
+    },
+    {
+      "targetText": "बाएँ मत जाइए! सीधा चलिए।",
+      "transliteration": "Baayein mat jaiye! Seedha chaliye.",
+      "baseTranslation": "Do not go left! Please go straight."
+    },
+    {
+      "targetText": "यहाँ रोकिए। कितने पैसे हुए?",
+      "transliteration": "Yahaan rokiye. Kitne paise hue?",
+      "baseTranslation": "Please stop here. How much money is it?"
+    },
+    {
+      "targetText": "यह बहुत महँगा है। सही दाम लगाइए।",
+      "transliteration": "Yeh bahut mehenga hai. Sahi daam lagaiye.",
+      "baseTranslation": "This is very expensive. Please apply the right price."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "daayein leejiye",
+      "mat jaiye",
+      "seedha chaliye",
+      "rokiye",
+      "kitne paise hue",
+      "sahi daam lagaiye"
+    ],
+    "requiredKeywords": [
+      "दाएँ",
+      "लीजिए",
+      "मत",
+      "सीधा",
+      "चलिए",
+      "रोकिए",
+      "कितने पैसे",
+      "महँगा",
+      "सही दाम",
+      "लगाइए"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Yahaan rukiye' is acceptable, though 'rokiye' is better for transitive stopping of a vehicle."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Nahi Error",
+          "weight": 100,
+          "description": "If user says 'Baayein nahi jaiye', deduct massive points. Must use 'mat'."
+        },
+        {
+          "name": "Casual Command",
+          "weight": 50,
+          "description": "If user says 'Daayein lo' or 'Seedha chalo' instead of 'leejiye/chaliye', deduct points for not using formal register."
+        }
+      ]
+    },
+    "sampleAnswer": "Bhaiya, aage se daayein leejiye. Baayein mat jaiye! Seedha chaliye. Yahaan rokiye. Kitne paise hue? Yeh bahut mehenga hai. Sahi daam lagaiye.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Incredible! You handled the auto driver perfectly with firm, polite commands.",
+    "onFail": "Review Section 1 and 2. Make sure every command ends in 'iye' (Leejiye, Chaliye, Rokiye).",
+    "onPartial": "Good try. Watch out for negative commands. Never use 'nahi' to tell someone not to do something. Use 'mat'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "भैया, आगे से दाएँ लीजिए। बाएँ मत जाइए! सीधा चलिए। यहाँ रोकिए। कितने पैसे हुए? यह बहुत महँगा है। सही दाम लगाइए।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "travel",
+    "directions",
+    "imperatives",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak loudly and clearly. Command the space with 'Leejiye' and 'Chaliye'.",
+  "commonMistakes": [
+    "Saying 'Baayein nahi jaiye'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B6_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

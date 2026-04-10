@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_en_M2B5_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Expressing Opinions",
+  "learningGoal": "The learner will synthesize the dictionary form, nai-form, and abstract nouns with the quotation particle to construct opinionated sentences.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B5_lesson_001",
+    "ja_en_M2B5_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences expressing what you think. Use the exact grammar structure '~to omoimasu'. Be extremely careful with the second sentence—'truth' is a noun, so it requires a special plain-form copula ('da') before 'to'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For sentence 4, use the irregular negative verb 'Konai' (will not come)."
+    }
+  ],
+  "writingPrompt": "Translate: 1) I think it is expensive. 2) I think it is the truth. 3) I think it will rain tomorrow. 4) I think Tanaka will not come.",
+  "promptGoal": "To construct grammatically accurate opinion sentences differentiating between i-adjective, noun, dictionary verb, and nai-verb attachment to 'to omoimasu'.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "たかい",
+      "transliteration": "Takai",
+      "baseTranslation": "Expensive",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "ほんとう",
+      "transliteration": "Hontou",
+      "baseTranslation": "Truth",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "あした",
+      "transliteration": "Ashita",
+      "baseTranslation": "Tomorrow",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "あめ",
+      "transliteration": "Ame",
+      "baseTranslation": "Rain",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ふる",
+      "transliteration": "Furu",
+      "baseTranslation": "To fall",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "たなかさん",
+      "transliteration": "Tanaka-san",
+      "baseTranslation": "Tanaka",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "こない",
+      "transliteration": "Konai",
+      "baseTranslation": "Will not come",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "おもいます",
+      "transliteration": "Omoimasu",
+      "baseTranslation": "Think",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Expensive] to [Think].",
+    "Sentence 2: [Truth] da to [Think].",
+    "Sentence 3: [Tomorrow], [Rain] ga [Fall] to [Think].",
+    "Sentence 4: [Tanaka] wa [Not come] to [Think]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "たかいと おもいます。ほんとうだと おもいます。あした、あめが ふると おもいます。たなかさんは こないと おもいます。",
+      "transliteration": "Takai to omoimasu. Hontou da to omoimasu. Ashita, ame ga furu to omoimasu. Tanaka-san wa konai to omoimasu.",
+      "baseTranslation": "I think it is expensive. I think it is the truth. Tomorrow, I think it will rain. I think Tanaka will not come.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect conjugation across four different word types: i-adj (takai), noun (hontou + da), dictionary verb (furu), and nai-form verb (konai)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "i-Adjective Attachment",
+      "weight": 20,
+      "description": "Did the learner write 'takai to omoimasu' without adding 'da'?"
+    },
+    {
+      "criterion": "Noun Attachment",
+      "weight": 30,
+      "description": "Did the learner write 'hontou DA to omoimasu'?"
+    },
+    {
+      "criterion": "Dictionary Verb Attachment",
+      "weight": 25,
+      "description": "Did the learner write 'furu to omoimasu'?"
+    },
+    {
+      "criterion": "Nai-form Attachment",
+      "weight": 25,
+      "description": "Did the learner write 'konai to omoimasu'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "たかいと おもいます。ほんとうだと おもいます。あした、あめが ふると おもいます。たなかさんは こないと おもいます。",
+    "acceptableAlternates": [
+      "たかいと おもいます。ほんとうだと おもいます。あした あめが ふると おもいます。たなかさんは こないと おもいます。"
+    ],
+    "requiredKeywords": [
+      "たかいと",
+      "ほんとうだと",
+      "ふると",
+      "こないと",
+      "おもいます"
+    ],
+    "grammarBaseline": "Mastery of plain form variations attaching to '~to omoimasu'.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 20,
+      "sentence_2": 30,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You correctly applied the complex plain form rules.",
+    "onFail": "Review the rules for nouns. Nouns and na-adjectives MUST have 'da' before 'to omoimasu'.",
+    "onPartial": "Good try! Make sure you didn't write 'Kimasen to omoimasu'. It must be the plain form 'Konai'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "plain-form",
+    "nai-form",
+    "quotation",
+    "thoughts",
+    "intermediate",
+    "month2",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'I think it is the truth', use 'Hontou DA to omoimasu'.",
+  "commonMistakes": [
+    "Writing 'Hontou to omoimasu' (forgetting the 'da').",
+    "Writing 'Kimanai to omoimasu' (the negative of Kimasu is Konai)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

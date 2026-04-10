@@ -1,0 +1,275 @@
+{
+  "activityId": "ja_en_M2B1_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "Adjectives, Locations, and Existence",
+  "learningGoal": "The learner will master the two classes of Japanese adjectives (i-adj and na-adj), negative adjective conjugations, the existence verbs (arimasu/imasu), and positional nouns (ue, shita, naka).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 75,
+  "prerequisites": [
+    "ja_en_M1B6_test_001"
+  ],
+  "instructions": "Welcome to Month 2! The pace and density of information increases significantly here. This mega-lesson covers how to describe objects, state what exists, and specify exactly where things are located in space. Take notes, especially on the difference between i-adjectives and na-adjectives.",
+  "conceptTitle": "Describing the World and its Contents",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "The Two Types of Adjectives",
+      "bodyText": "Japanese has two distinct types of adjectives that conjugate completely differently: 'i-adjectives' and 'na-adjectives'. An 'i-adjective' always ends in the Hiragana 'i' (い). 'na-adjectives' do not (with a few tricky exceptions).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "おいしい",
+          "transliteration": "Oishii",
+          "baseTranslation": "Delicious (i-adjective)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たかい",
+          "transliteration": "Takai",
+          "baseTranslation": "Expensive / High (i-adjective)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しずか",
+          "transliteration": "Shizuka",
+          "baseTranslation": "Quiet (na-adjective)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きれい",
+          "transliteration": "Kirei",
+          "baseTranslation": "Beautiful / Clean (EXCEPTION: Ends in 'i' but is a na-adjective!)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Conjugating Adjectives (Present & Negative)",
+      "bodyText": "To make a na-adjective negative, you just change 'desu' to 'ja arimasen' (just like nouns). BUT for i-adjectives, you must drop the final 'i' and add 'ku arimasen'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "この ほんは たかいです。",
+          "transliteration": "Kono hon wa takai desu.",
+          "baseTranslation": "This book is expensive. (i-adj affirmative)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "この ほんは たかくありません。",
+          "transliteration": "Kono hon wa takaku arimasen.",
+          "baseTranslation": "This book is NOT expensive. (Drop 'i', add 'ku arimasen')",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "この としょかんは しずかです。",
+          "transliteration": "Kono toshokan wa shizuka desu.",
+          "baseTranslation": "This library is quiet. (na-adj affirmative)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "この としょかんは しずかじゃありません。",
+          "transliteration": "Kono toshokan wa shizuka ja arimasen.",
+          "baseTranslation": "This library is NOT quiet. (Change desu to ja arimasen)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Attaching Adjectives to Nouns",
+      "bodyText": "When putting an adjective directly in front of a noun, i-adjectives stay the same. Na-adjectives require you to add the syllable 'na' (な) before the noun. This is why they are called na-adjectives!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "おいしい すし",
+          "transliteration": "Oishii sushi",
+          "baseTranslation": "Delicious sushi (i-adj + noun)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しずかな としょかん",
+          "transliteration": "Shizuka na toshokan",
+          "baseTranslation": "A quiet library (na-adj + na + noun)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きれいな ひと",
+          "transliteration": "Kirei na hito",
+          "baseTranslation": "A beautiful person (na-adj exception + na + noun)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Existence: Arimasu vs Imasu",
+      "bodyText": "Japanese has two verbs for 'there is / there are'. 'Arimasu' (あります) is used for inanimate, non-moving objects (books, cars, trees). 'Imasu' (います) is used for animate, living things that move on their own (people, animals). We use the 'ga' (が) particle to mark what exists.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "くるまが あります。",
+          "transliteration": "Kuruma ga arimasu.",
+          "baseTranslation": "There is a car. (Inanimate)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "いぬが います。",
+          "transliteration": "Inu ga imasu.",
+          "baseTranslation": "There is a dog. (Animate)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "ねこが いません。",
+          "transliteration": "Neko ga imasen.",
+          "baseTranslation": "There is no cat. (Animate Negative)",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_05",
+      "sectionTitle": "Positional Nouns (Where things are)",
+      "bodyText": "To say exactly WHERE something exists, we use positional nouns: Ue (top/above), Shita (bottom/under), Naka (inside), Mae (front), Ushiro (behind), and Tonari (next to). The structure is: [Place] no [Position] ni [Object] ga arimasu/imasu.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "つくえの うえに ほんが あります。",
+          "transliteration": "Tsukue no ue ni hon ga arimasu.",
+          "baseTranslation": "On top of the desk, there is a book.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "はこの なかに ねこが います。",
+          "transliteration": "Hako no naka ni neko ga imasu.",
+          "baseTranslation": "Inside the box, there is a cat.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "きの したに いぬが いません。",
+          "transliteration": "Ki no shita ni inu ga imasen.",
+          "baseTranslation": "Under the tree, there is no dog.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will fluidly conjugate i-adjectives and na-adjectives in both affirmative and negative forms, differentiate between Arimasu and Imasu, and construct complex sentences identifying the spatial location of objects.",
+  "examples": [
+    {
+      "targetText": "あの おおきい きの したに、きれいな ねこが います。",
+      "transliteration": "Ano ookii ki no shita ni, kirei na neko ga imasu.",
+      "baseTranslation": "Under that big tree over there, there is a beautiful cat.",
+      "explanation": "Mega-sentence combining a demonstrative (Ano), an i-adj (ookii), a positional phrase (ki no shita ni), a na-adj (kirei na), and animate existence (neko ga imasu)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "'Kirei' (beautiful/clean) and 'Yuumei' (famous) end in 'i', but they are strictly na-adjectives. Do not conjugate them like i-adjectives.",
+      "exceptionNotes": "Kirei ja arimasen (Correct). Kireiku arimasen (WRONG)."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "To make an i-adjective negative, you MUST drop the final 'i'.",
+      "exceptionNotes": "Takai -> Taka -> Takaku arimasen. (NOT Takaiku arimasen)."
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "Plants and trees are alive, but they do not move on their own. Therefore, you use 'Arimasu' for trees, not 'Imasu'.",
+      "exceptionNotes": "Ki ga arimasu. (There is a tree)."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Japanese ghosts (Yurei) and monsters (Yokai) are considered animate, so you use 'Imasu' when talking about them. There is a famous urban legend about 'Toshokan no Hanako-san' (Hanako of the Toilet). If you ask 'Hanako-san ga imasu ka?' (Is Hanako there?), she might reply!",
+    "dosList": [
+      "Use 'Imasu' for people, animals, insects, and mythical creatures."
+    ],
+    "dontsList": [
+      "Do not use 'Imasu' for robots or cars, even if they move on their own. They are inanimate (Arimasu)."
+    ]
+  },
+  "summary": "Adjectives are split into i-adjectives (drop 'i' add 'ku arimasen' for negative) and na-adjectives (add 'na' before nouns). 'Arimasu' is for inanimate existence, 'Imasu' is for animate existence. Combine these with positional nouns (ue, naka, shita) to describe your environment in deep detail.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Make the i-adjective 'Takai' (expensive) negative.",
+      "expectedAnswer": "たかくありません (Takaku arimasen)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Which verb do you use to say 'There is a dog'?",
+      "expectedAnswer": "います (Imasu)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Translate: 'On top of the desk' (desk = tsukue, top = ue).",
+      "expectedAnswer": "つくえの うえに (Tsukue no ue ni)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "i-adjective negative: drop i, add ku arimasen.",
+      "na-adjective modifier: add na before noun.",
+      "Arimasu (inanimate) vs Imasu (animate).",
+      "Location formula: Noun no Position ni."
+    ],
+    "conceptSummary": "High-density block introducing adjective conjugations and existence/location grammar.",
+    "importantFacts": [
+      "Kirei and Yuumei are na-adjective exceptions.",
+      "The particle 'ga' marks the subject of existence."
+    ],
+    "checkpointAnswers": {
+      "q1": "たかくありません",
+      "q2": "います",
+      "q3": "つくえの うえに"
+    },
+    "expectedUnderstanding": "Learner must process long sentences identifying location, existence, and descriptive qualities simultaneously."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Incredible job processing this massive lesson! You are ready to describe the world.",
+    "onFail": "Take it slow. Focus first on separating Arimasu vs Imasu. Then memorize the position words.",
+    "onPartial": "Good start. Review the negative form of i-adjectives (dropping the 'i') as this is a very common sticking point."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b1/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b1/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "おいしい。しずか。たかいです。たかくありません。しずかです。しずかじゃありません。おいしい すし。きれいな ひと。くるまが あります。いぬが います。つくえの うえに ほんが あります。きの したに いぬが いません。",
+    "audioLanguage": "ja",
+    "audioDuration": 360,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "adjectives",
+    "existence",
+    "locations",
+    "intermediate",
+    "month2",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Takaiku arimasen' instead of 'Takaku arimasen'.",
+    "Saying 'Kirei na desu'. (You only use 'na' when a noun follows immediately after)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

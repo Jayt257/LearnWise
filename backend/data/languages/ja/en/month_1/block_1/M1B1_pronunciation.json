@@ -1,0 +1,182 @@
+{
+  "activityId": "en_ja_M1B1_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronunciation Gauntlet: Beating Katakana",
+  "learningGoal": "Accurately pronounce difficult English sounds (R/L, V/B, TH) and avoid Katakana pronunciation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B1_lesson_1"
+  ],
+  "instructions": "カタカナ発音を捨てる練習です。マイクに向かって、英語の正しい発音で各単語を録音してください。特に R と L、V と B の違いに注意してください。(Practice discarding Katakana pronunciation. Record each word with the correct English pronunciation into the microphone, paying special attention to R/L and V/B differences.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "Right",
+      "transliteration": "ゥライト (r-ait)",
+      "baseTranslation": "右、正しい",
+      "phoneticHint": "Start with your tongue pulled back.",
+      "syllableSplit": "right",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Light' with the tongue touching the teeth."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "Light",
+      "transliteration": "ライト (l-ait)",
+      "baseTranslation": "光、軽い",
+      "phoneticHint": "Press your tongue firmly against your upper front teeth.",
+      "syllableSplit": "light",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Right' or a soft Japanese 'ら'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "Very",
+      "transliteration": "ヴェリー (ve-ri)",
+      "baseTranslation": "とても",
+      "phoneticHint": "Bite your lower lip gently with your upper teeth.",
+      "syllableSplit": "ver-y",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Berry' with both lips."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "Berry",
+      "transliteration": "ベリー (be-ri)",
+      "baseTranslation": "ベリー（果物）",
+      "phoneticHint": "Press both lips together.",
+      "syllableSplit": "ber-ry",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Very' by biting the lip."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "Think",
+      "transliteration": "スィンク (th-ink)",
+      "baseTranslation": "考える",
+      "phoneticHint": "Put your tongue between your teeth and blow air.",
+      "syllableSplit": "think",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Sink' (シンク)."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "Sink",
+      "transliteration": "シンク (s-ink)",
+      "baseTranslation": "沈む、流し台",
+      "phoneticHint": "Keep your tongue behind your teeth.",
+      "syllableSplit": "sink",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Think'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "Hello",
+      "transliteration": "ヘロー (he-loh)",
+      "baseTranslation": "こんにちは",
+      "phoneticHint": "Stress the second syllable: he-LLO.",
+      "syllableSplit": "hel-lo",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying flat 'ハロー (Ha-ro)'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "Water",
+      "transliteration": "ウォーター (wa-dr)",
+      "baseTranslation": "水",
+      "phoneticHint": "In American English, the 't' sounds like a soft 'd' or a Japanese flap 'r'.",
+      "syllableSplit": "wa-ter",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ウォーター' heavily stressing the T."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "Thank you",
+      "transliteration": "サンキュー (th-ank yu)",
+      "baseTranslation": "ありがとう",
+      "phoneticHint": "Tongue between teeth for TH, and connect the 'k' to 'you' (kyou).",
+      "syllableSplit": "thank you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'サンキュー' without the tongue between the teeth."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "Apple",
+      "transliteration": "アェポォ (ae-pl)",
+      "baseTranslation": "りんご",
+      "phoneticHint": "Wide mouth for 'a', and swallow the 'l' at the end.",
+      "syllableSplit": "ap-ple",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'アップル (A-ppu-ru)'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Right Light Very Berry Think Sink Hello Water Thank you Apple",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! Your pronunciation is breaking away from Katakana English.",
+    "onFail": "Keep practicing! Focus on the physical position of your tongue and lips. Try again.",
+    "onPartial": "Good effort! Pay close attention to the difference between R and L."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Right Light Very Berry Think Sink Hello Water Thank you Apple",
+    "acceptedVariants": [
+      "right light very berry think sink hello water thank you apple"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "Right Light Very Berry Think Sink Hello Water Thank you Apple",
+    "transliteration": "rait lait veri beri think sink helo water thank you apple",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B1_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B1_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Right, Light, Very, Berry, Think, Sink, Hello, Water, Thank you, Apple",
+    "audioLanguage": "en",
+    "audioDuration": 30,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "phonics",
+    "alphabet",
+    "katakana"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use a mirror to check your mouth shape when practicing V and TH sounds.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

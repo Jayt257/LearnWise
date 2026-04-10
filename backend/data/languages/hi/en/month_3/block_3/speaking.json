@@ -1,0 +1,180 @@
+{
+  "activityId": "en_hi_M3B3_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "The Frustrated Friend",
+  "learningGoal": "The learner will orally produce appropriate phrasal verbs on demand within a high-pressure roleplay context, completely substituting L1 mechanical loan-translations (e.g. producing 'turn on' instead of 'open').",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B3_vocabulary_001"],
+  "instructions": "You are getting ready to go to the cinema with your brother. But he is very slow, very messy, and very confused! Tell him what to do aloud! Use the correct Phrasal Verbs (Turn on, Put on, Hurry up, etc.) to command him.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Remember our rules for machines and clothes. NEVER say 'Open the TV' or 'Wear your shoes' as a command!"
+    }
+  ],
+  "speakingPrompt": "Give commands to your brother loudly and clearly.",
+  "scenario": "Trying to leave the house with a distracted brother.",
+  "role": "The Organized Sibling",
+  "conversationPartner": "Brother",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "भाई: 'I am opening the TV to watch the cricket match.' जवाब दें: 'नहीं! टीवी चालू मत करो। हमें देर हो रही है!' (No! Do not turn...)",
+      "expectedSpeakingPoints": ["Do not", "turn on the TV"],
+      "sampleResponse": {
+        "targetText": "No! Do not turn on the TV. We are late!",
+        "transliteration": "नो! डू नॉट टर्न ऑन द टीवी। वी आर लेट!",
+        "baseTranslation": "नहीं! टीवी चालू मत करो। हमें देर हो रही है!"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "भाई: 'Okay, okay. Should I close the lights in the bedroom?' जवाब दें: 'हाँ, कृपया लाइटें बंद कर दो।' (Yes, please turn...)",
+      "expectedSpeakingPoints": ["please turn off", "the lights"],
+      "sampleResponse": {
+        "targetText": "Yes, please turn off the lights.",
+        "transliteration": "येस, प्लीज़ टर्न ऑफ द लाइट्स।",
+        "baseTranslation": "हाँ, कृपया लाइटें बंद कर दो।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "भाई: 'I cannot find my bag. Where is it?' जवाब दें: 'यह फर्श पर है। इसे उठाओ!' (It is on the floor. Pick...)",
+      "expectedSpeakingPoints": ["Pick it up"],
+      "sampleResponse": {
+        "targetText": "It is on the floor. Pick it up!",
+        "transliteration": "इट इज़ ऑन द फ्लोर। पिक इट अप!",
+        "baseTranslation": "यह फर्श पर है। इसे उठाओ!"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "भाई: 'Should I bring my heavy jacket?' जवाब दें: 'नहीं, बाहर गर्मी है। अपनी जैकेट उतार दो।' (No, it is hot. Take...)",
+      "expectedSpeakingPoints": ["Take off", "your jacket"],
+      "sampleResponse": {
+        "targetText": "No, it is hot outside. Take off your jacket.",
+        "transliteration": "नो, इट इज़ हॉट आउटसाइड। टेक ऑफ योर जैकेट।",
+        "baseTranslation": "नहीं, बाहर गर्मी है। अपनी जैकेट उतार दो।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "भाई: 'Okay, I am walking to the car slowly.' जवाब दें: 'जल्दी करो! फिल्म शुरू होने वाली है!' (Hurry...)",
+      "expectedSpeakingPoints": ["Hurry up"],
+      "sampleResponse": {
+        "targetText": "Hurry up! The movie is starting!",
+        "transliteration": "हरी अप! द मूवी इज़ स्टार्टिंग!",
+        "baseTranslation": "जल्दी करो! फिल्म शुरू होने वाली है!"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "I am opening the TV to watch the cricket match.",
+    "transliteration": "आई एम ओपनिंग द टीवी टू वॉच द क्रिकेट मैच।",
+    "baseTranslation": "मैं क्रिकेट मैच देखने के लिए टीवी चालू (खोल रहा) कर रहा हूँ।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "No! Do not turn on the TV. We are late!",
+      "transliteration": "नो! डू नॉट टर्न ऑन द टीवी। वी आर लेट!",
+      "baseTranslation": "नहीं! टीवी चालू मत करो। हमें देर हो रही है!"
+    },
+    {
+      "targetText": "Yes, please turn off the lights.",
+      "transliteration": "येस, प्लीज़ टर्न ऑफ द लाइट्स।",
+      "baseTranslation": "हाँ, कृपया लाइटें बंद कर दो।"
+    },
+    {
+      "targetText": "It is on the floor. Pick it up!",
+      "transliteration": "इट इज़ ऑन द फ्लोर। पिक इट अप!",
+      "baseTranslation": "यह फर्श पर है। इसे उठाओ!"
+    },
+    {
+      "targetText": "No, it is hot outside. Take off your jacket.",
+      "transliteration": "नो, इट इज़ हॉट आउटसाइड। टेक ऑफ योर जैकेट।",
+      "baseTranslation": "नहीं, बाहर गर्मी है। अपनी जैकेट उतार दो।"
+    },
+    {
+      "targetText": "Hurry up! The movie is starting!",
+      "transliteration": "हरी अप! द मूवी इज़ स्टार्टिंग!",
+      "baseTranslation": "जल्दी करो! फिल्म शुरू होने वाली है!"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "turn on",
+      "turn off",
+      "pick it up",
+      "take off",
+      "hurry up"
+    ],
+    "requiredKeywords": [
+      "turn",
+      "on",
+      "off",
+      "pick",
+      "up",
+      "take",
+      "hurry"
+    ],
+    "acceptableParaphrases": [
+      "Don't turn on the TV",
+      "Turn the lights off",
+      "Take your jacket off"
+    ],
+    "scoringRubric": {
+      "Zero Tolerance for L1 Translate": "Did the user say 'Open the TV' or 'Close the lights'? If so, instant failure for that sub-task.",
+      "Pronoun Splitting": "In T3, did the user accurately split the verb? 'Pick IT up' instead of 'Pick up it'?",
+      "Catenation": "Did the user successfully link the consonant to the vowel during 'Pick it up' (/pɪkɪtʌp/)?"
+    },
+    "sampleAnswer": "No, do not turn on the TV. Yes, turn off the lights. Pick it up! Take off your jacket. Hurry up!",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully commanded your brother using native Phrasal Verbs! You completely avoided saying 'Open the TV' or 'Close the lights'!",
+    "onFail": "Keep practicing! You MUST replace the Hindi habits. Do not use 'Open' for TVs. Use 'Turn on'. Do not use 'Close' for lights. Use 'Turn off'.",
+    "onPartial": "Good try! Watch out for Task 3. Because 'It' is a pronoun, it must go in the middle! You must say 'Pick IT up'. Never say 'Pick up it'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b3/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m3/b3/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b3/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m3/b3/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m3/b3/speaking/full_dialogue.mp3",
+    "audioTranscript": "Brother: I am opening the TV... (full dialogue)",
+    "audioLanguage": "en",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "phrasal_verbs", "turn_on", "pick_up", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b3/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with authority! And remember to link your sounds: Pih-kih-TUP (Pick it up). Tay-KOFF (Take off).",
+  "commonMistakes": [
+    "Saying 'Close the lights' out of habit.",
+    "Failing to position the object pronoun 'it' correctly (saying 'pick up it')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B3_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

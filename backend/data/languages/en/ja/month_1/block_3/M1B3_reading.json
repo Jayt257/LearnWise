@@ -1,0 +1,243 @@
+{
+  "activityId": "ja_en_M1B3_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "Menu Decoder",
+  "learningGoal": "The learner will read a short Katakana cafe menu and a simple ordering dialogue to test their recognition of loan words.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B3_lesson_001",
+    "ja_en_M1B3_pronunciation_001"
+  ],
+  "instructions": "Read the cafe menu below, which is written entirely in Katakana. After reviewing the menu, read the short dialogue between the customer and the staff. Then, answer the comprehension questions.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Japanese cafes heavily use Katakana. Take your time to sound out the letters if you get stuck."
+    }
+  ],
+  "readingTitle": "Cafe Sakura Menu",
+  "readingText": "【カフェ サクラ】\nメニュー\n\n１．コーヒー\n２．ジュース\n３．ケーキ\n４．サンドイッチ\n５．アイスクリーム\n\n（お客さん）すみません。コーヒー、おねがいします。\n（店員）はい、どうぞ。",
+  "textInTargetLanguage": "【カフェ サクラ】\nメニュー\n\n１．コーヒー\n２．ジュース\n３．ケーキ\n４．サンドイッチ\n５．アイスクリーム\n\n（お客さん）すみません。コーヒー、おねがいします。\n（店員）はい、どうぞ。",
+  "baseLanguageSupportText": "[Cafe Sakura]\nMenu\n\n1. Coffee\n2. Juice\n3. Cake\n4. Sandwich\n5. Ice Cream\n\n(Customer) Excuse me. Coffee, please.\n(Staff) Yes, here you go.",
+  "glossary": [
+    {
+      "targetText": "カフェ",
+      "transliteration": "Kafe",
+      "baseTranslation": "Cafe",
+      "exampleSentence": {
+        "targetText": "カフェ サクラです。",
+        "transliteration": "Kafe Sakura desu.",
+        "baseTranslation": "It is Cafe Sakura."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "メニュー",
+      "transliteration": "Menyuu",
+      "baseTranslation": "Menu",
+      "exampleSentence": {
+        "targetText": "メニュー、おねがいします。",
+        "transliteration": "Menyuu, onegaishimasu.",
+        "baseTranslation": "Menu, please."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "コーヒー",
+      "transliteration": "Koohii",
+      "baseTranslation": "Coffee",
+      "exampleSentence": {
+        "targetText": "コーヒーです。",
+        "transliteration": "Koohii desu.",
+        "baseTranslation": "It is coffee."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ジュース",
+      "transliteration": "Juusu",
+      "baseTranslation": "Juice",
+      "exampleSentence": {
+        "targetText": "ジュース、おねがいします。",
+        "transliteration": "Juusu, onegaishimasu.",
+        "baseTranslation": "Juice, please."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ケーキ",
+      "transliteration": "Keeki",
+      "baseTranslation": "Cake",
+      "exampleSentence": {
+        "targetText": "ケーキです。",
+        "transliteration": "Keeki desu.",
+        "baseTranslation": "It is cake."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "サンドイッチ",
+      "transliteration": "Sandoitchi",
+      "baseTranslation": "Sandwich",
+      "exampleSentence": {
+        "targetText": "サンドイッチ、おねがいします。",
+        "transliteration": "Sandoitchi, onegaishimasu.",
+        "baseTranslation": "Sandwich, please."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "アイスクリーム",
+      "transliteration": "Aisukuriimu",
+      "baseTranslation": "Ice Cream",
+      "exampleSentence": {
+        "targetText": "アイスクリームです。",
+        "transliteration": "Aisukuriimu desu.",
+        "baseTranslation": "It is ice cream."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "すみません。コーヒー、おねがいします。",
+      "transliteration": "Sumimasen. Koohii, onegaishimasu.",
+      "baseTranslation": "Excuse me. Coffee, please."
+    },
+    {
+      "targetText": "はい、どうぞ。",
+      "transliteration": "Hai, douzo.",
+      "baseTranslation": "Yes, here you go."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What is the name of the cafe?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Cafe Tokyo",
+        "Cafe Fuji",
+        "Cafe Sakura",
+        "Cafe Matcha"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Look at item number 3 on the menu: ケーキ. What is this?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Coffee",
+        "Cake",
+        "Juice",
+        "Sandwich"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Look at item number 4 on the menu: サンドイッチ. What is this?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Sandwich",
+        "Salad",
+        "Soup",
+        "Sushi"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What does the customer order in the dialogue?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Juice",
+        "Cake",
+        "Ice Cream",
+        "Coffee"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "What phrase does the customer use to politely order the item?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ありがとう (Arigatou)",
+        "おねがいします (Onegaishimasu)",
+        "どうぞ (Douzo)",
+        "はじめまして (Hajimemashite)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Cafe Sakura",
+      "q002": "Cake",
+      "q003": "Sandwich",
+      "q004": "Coffee",
+      "q005": "おねがいします (Onegaishimasu)"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The menu has 5 items in Katakana.",
+      "The customer ordered coffee.",
+      "The staff served it saying 'hai, douzo'."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You successfully navigated a Japanese Katakana menu.",
+    "onFail": "Review the Katakana characters. Sound them out slowly, especially the long vowels (ー).",
+    "onPartial": "Almost there. Double-check your answers with the glossary provided."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b3/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b3/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b3/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m1/b3/reading/normal_reading.mp3",
+    "audioTranscript": "カフェサクラ、メニュー。コーヒー。ジュース。ケーキ。サンドイッチ。アイスクリーム。すみません。コーヒー、おねがいします。はい、どうぞ。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "katakana",
+    "cafe",
+    "menu",
+    "ordering",
+    "beginner",
+    "month1",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the menu items aloud. They sound almost exactly like the English words.",
+  "commonMistakes": [
+    "Not recognizing the elongation dash (ー)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B3_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

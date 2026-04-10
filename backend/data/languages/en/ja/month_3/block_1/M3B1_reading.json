@@ -1,0 +1,230 @@
+{
+  "activityId": "ja_en_M3B1_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "Machine Instructions",
+  "learningGoal": "The learner will read a set of instructional sentences to identify both the '~to' conditional (for mechanical functions) and the '~tara' conditional (for troubleshooting).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B1_lesson_001",
+    "ja_en_M3B1_vocabulary_001"
+  ],
+  "instructions": "Read this instructional sign placed next to a ticket machine at a train station. Pay attention to what happens naturally versus what you should do if something goes wrong.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Notice the difference between 'de-masu' (comes out normally) and 'de-nakattara' (if it does not come out)."
+    }
+  ],
+  "readingTitle": "How to use the ticket machine",
+  "readingText": "きかいの つかいかた。\nこの ボタンを おすと、きっぷが でます。\nきっぷが でなかったら、この あかい ボタンを おしてください。\nわからなかったら、えきの ひとに きいてください。\nトラブルが あったら、よんでください。",
+  "textInTargetLanguage": "きかいの つかいかた。\nこの ボタンを おすと、きっぷが でます。\nきっぷが でなかったら、この あかい ボタンを おしてください。\nわからなかったら、えきの ひとに きいてください。\nトラブルが あったら、よんでください。",
+  "baseLanguageSupportText": "How to use the machine. If you push this button, a ticket comes out. If a ticket does not come out, please push this red button. If you do not understand, please ask the station staff. If there is trouble, please call.",
+  "glossary": [
+    {
+      "targetText": "つかいかた",
+      "transliteration": "Tsukaikata",
+      "baseTranslation": "How to use",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おすと",
+      "transliteration": "Osu to",
+      "baseTranslation": "If/When you push",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "でます",
+      "transliteration": "Demasu",
+      "baseTranslation": "Comes out",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "でなかったら",
+      "transliteration": "Denakattara",
+      "baseTranslation": "If it does not come out",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あかい",
+      "transliteration": "Akai",
+      "baseTranslation": "Red",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "わからなかったら",
+      "transliteration": "Wakaranakattara",
+      "baseTranslation": "If you do not understand",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "えきの ひと",
+      "transliteration": "Eki no hito",
+      "baseTranslation": "Station staff (person of the station)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あったら",
+      "transliteration": "Attara",
+      "baseTranslation": "If there is (from Aru)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "よんでください",
+      "transliteration": "Yonde kudasai",
+      "baseTranslation": "Please call",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "この ボタンを おすと、きっぷが でます。",
+      "transliteration": "Kono botan wo osu to, kippu ga demasu.",
+      "baseTranslation": "If you push this button, a ticket comes out."
+    },
+    {
+      "targetText": "きっぷが でなかったら、この あかい ボタンを おしてください。",
+      "transliteration": "Kippu ga denakattara, kono akai botan wo oshite kudasai.",
+      "baseTranslation": "If a ticket does not come out, please push this red button."
+    },
+    {
+      "targetText": "トラブルが あったら、よんでください。",
+      "transliteration": "Toraburu ga attara, yonde kudasai.",
+      "baseTranslation": "If there is trouble, please call."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What happens naturally when you push the first button?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The door opens",
+        "A ticket comes out",
+        "Change comes out",
+        "An alarm rings"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What should you do if the ticket does not come out?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Push the first button again",
+        "Push the red button",
+        "Go home",
+        "Call the police"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What does the sign tell you to do if you do not understand?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Read it again",
+        "Ask the station staff",
+        "Push the red button",
+        "Push the first button"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Which grammar form is used to explain the natural function of the machine?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The ~to form (Osu to)",
+        "The ~tara form (Oshitara)",
+        "The ~te form (Oshite)",
+        "The ~masu form (Oshimasu)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the negative conditional 'If it does not come out'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "A ticket comes out",
+      "q002": "Push the red button",
+      "q003": "Ask the station staff",
+      "q004": "The ~to form (Osu to)",
+      "q005": "denakattara"
+    },
+    "acceptableParaphrases": {
+      "q005": ["denakattara", "Denakattara"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Pushing the button causes the ticket to exit.",
+      "If it fails (denakattara), push the red button.",
+      "If you don't understand (wakaranakattara), ask staff."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading! You successfully navigated both types of conditionals.",
+    "onFail": "Review the negative conditionals. 'Denakattara' comes from 'Denai' (Does not come out).",
+    "onPartial": "Good effort. Notice how '~to' is used for the normal function, and '~tara' is used for unexpected situations."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b1/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b1/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b1/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m3/b1/reading/normal_reading.mp3",
+    "audioTranscript": "きかいの つかいかた。この ボタンを おすと、きっぷが でます。きっぷが でなかったら、この あかい ボタンを おしてください。わからなかったら、えきの ひとに きいてください。トラブルが あったら、よんでください。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "conditionals",
+    "tara-form",
+    "to-form",
+    "advanced",
+    "month3",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at 'denakattara'. 'De' is to come out, 'nai' makes it negative, 'kattara' makes it conditional.",
+  "commonMistakes": [
+    "Thinking 'Wakaranakattara' means 'I understood'. It means 'If you do NOT understand'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,219 @@
+{
+  "activityId": "en_hi_M1B3_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "Nouns, Plurals, and Articles (A/An)",
+  "learningGoal": "The learner will accurately insert indefinite articles (A/An) before singular nouns, distinguish proper vs. common nouns, and correctly form plural nouns using '-s' and '-es'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B2_test_001"],
+  "instructions": "In this lesson, you will learn why English requires small words like 'A' or 'An' in front of nouns, and how to change one thing into many things. Read through the rules carefully, listen to the target language examples, and test your knowledge at the bottom.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "हिंदी में हम कहते हैं 'यह किताब है'। अंग्रेजी में, हम बिना 'एक' (a) के 'This is book' नहीं कह सकते। अंग्रेजी में, गिना जा सकने वाला हर एकवचन शब्द 'a' या 'an' लेता है।"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Common singular nouns ALWAYS require an article (a/an/the) or a possessive (my/your) in English.",
+      "'A' precedes consonant sounds; 'An' precedes vowel sounds (A, E, I, O, U). Phonetics dictate this, not just the written letter.",
+      "Plurals are formed by appending 's'. Nouns ending in s, x, z, ch, sh take 'es'.",
+      "Articles 'A/An' must be dropped when a noun becomes plural."
+    ],
+    "conceptSummary": "Introduction to noun categorization, compulsory indefinite articles, and baseline plural suffix rules.",
+    "importantFacts": [
+      "Proper nouns (names of specific people, cities, companies) do not take articles (e.g., You say 'I am Rahul', not 'I am a Rahul').",
+      "The choice of A vs An is strictly about SOUND, meaning 'Hour' takes 'An' because the 'H' is silent (an hour). However, we stick to basic vowels in this block."
+    ],
+    "checkpointAnswers": {
+      "q1": "an",
+      "q2": "boxes",
+      "q3": "We are students.",
+      "q4": "False"
+    },
+    "expectedUnderstanding": "Learners will automatically place 'a' before student ('I am a student') and drop the 'a' when making it plural ('We are students')."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant! You grasped one of the toughest concepts for Hindi speakers: the mandatory English article. Your plural rules are solid.",
+    "onFail": "Review the A vs An section. Remember A E I O U takes 'an'. Also, review the 'eses' plural rule for words like 'bus' and 'box'.",
+    "onPartial": "Good try! Make sure to remember that we DO NOT use 'a' or 'an' with plural words."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b3/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m1/b3/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m1/b3/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m1/b3/lesson/native_lesson.mp3",
+    "audioTranscript": "A cat. An apple. Boys. Boxes.",
+    "audioLanguage": "en",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "nouns", "articles", "plurals", "beginner", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b3/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the word starts with a vocal sound like Aa, Ee, Oo (A, E, I, O, U), use 'AN'. Example: An apple, An egg.",
+  "commonMistakes": [
+    "Saying 'I am student' instead of 'I am a student'.",
+    "Saying 'They are a students'. (Plurals DO NOT take A/An)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B3_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Nouns, Plurals & Articles",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "What is a Noun? (संज्ञा क्या है?)",
+      "bodyText": "संज्ञा किसी व्यक्ति, स्थान, या वस्तु का नाम है। यह दो प्रकार की होती है: Proper Noun (विशेष नाम जैसे Rahul, Delhi) और Common Noun (सामान्य नाम जैसे boy, city, book, chair)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Rahul is a boy. Delhi is a city.",
+          "transliteration": "राहुल इज़ अ बॉय। दिल्ली इज़ अ सिटी।",
+          "baseTranslation": "राहुल एक लड़का है। दिल्ली एक शहर है। (राहुल और दिल्ली Proper Noun हैं, boy और city Common Noun हैं।)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "The Mandatory Article ('A' and 'An')",
+      "bodyText": "हिंदी में हम 'मैं छात्र हूँ' कह सकते हैं। लेकिन अंग्रेजी में, Common Nouns (सामान्य संज्ञाओं) को एक 'Article' (a, an, the) की आवश्यकता होती है जब वे एकवचन (singular) हों। 'A' और 'An' का अर्थ 'एक' होता है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am a student. He is a teacher.",
+          "transliteration": "आई एम अ स्टूडेंट। ही इज़ अ टीचर।",
+          "baseTranslation": "मैं एक छात्र हूँ। वह एक शिक्षक है। (आप 'I am student' या 'He is teacher' नहीं कह सकते।)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "When to use 'A' vs 'An' (A या An का प्रयोग कब करें?)",
+      "bodyText": "नियम ध्वनि (sound) पर आधारित है, केवल अक्षर पर नहीं। यदि शब्द 'Vowel' (स्वर) ध्वनि से शुरू होता है (A, E, I, O, U), तो हम 'An' का उपयोग करते हैं। अन्य सभी (Consonants / व्यंजन) के लिए हम 'A' का उपयोग करते हैं।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "An apple. An egg. An umbrella.",
+          "transliteration": "ऐन ऐपल। ऐन एग। ऐन अम्ब्रेला।",
+          "baseTranslation": "एक सेब। एक अंडा। एक छाता। (स्वर ध्वनियों के कारण An)"
+        },
+        {
+          "targetText": "A dog. A book. A cat.",
+          "transliteration": "अ डॉग। अ बुक। अ कैट।",
+          "baseTranslation": "एक कुत्ता। एक किताब। एक बिल्ली। (व्यंजन के कारण A)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Making Plurals: Adding '-s' (बहुवचन बनाना)",
+      "bodyText": "जब एक से अधिक चीजें हों, तो हम शब्द के अंत में '-s' जोड़ते हैं। ध्यान दें: जब हम बहुवचन बनाते हैं, तो हम 'A' और 'An' को हटा देते हैं क्योंकि उनका अर्थ 'एक' होता है!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "One apple. Two apples.",
+          "transliteration": "वन ऐपल। टू ऐपल्स।",
+          "baseTranslation": "एक सेब। दो सेब। ('An' हटा दिया और 's' जोड़ा।)"
+        },
+        {
+          "targetText": "I am a student. We are students.",
+          "transliteration": "आई एम अ स्टूडेंट। वी आर स्टूडेंट्स।",
+          "baseTranslation": "मैं एक छात्र हूँ। हम छात्र हैं। ('A' हटा दिया और 's' जोड़ा।)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec5",
+      "sectionTitle": "Plurals: Adding '-es' ('-es' जोड़ना)",
+      "bodyText": "यदि कोई शब्द s, x, z, ch, या sh पर समाप्त होता है, तो हम सिर्फ 's' नहीं जोड़ते, हम '-es' जोड़ते हैं। ऐसा इसलिए है ताकि हम शब्द का उच्चारण आसानी से कर सकें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "A bus -> Two buses. A box -> Two boxes.",
+          "transliteration": "अ बस -> टू बसेस। अ बॉक्स -> टू बॉक्सेस।",
+          "baseTranslation": "एक बस -> दो बसें। एक डिब्बा -> दो डिब्बे।"
+        },
+        {
+          "targetText": "A watch -> Two watches. A brush -> Two brushes.",
+          "transliteration": "अ वॉच -> टू वॉचेस। अ ब्रश -> टू ब्रशेस।",
+          "baseTranslation": "एक घड़ी -> दो घड़ियाँ। एक ब्रश -> दो ब्रश।"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will establish structural instincts for dropping 'a/an' upon pluralization and appending the correct suffix based on word endings.",
+  "examples": [
+    {
+      "targetText": "They are teachers.",
+      "transliteration": "दे आर टीचर्स।",
+      "baseTranslation": "वे शिक्षक हैं।",
+      "explanation": "Because 'They' refers to multiple people, 'teacher' becomes 'teachers', and 'a' is dropped."
+    },
+    {
+      "targetText": "It is an elephant.",
+      "transliteration": "इट इज़ ऐन एलीफेंट।",
+      "baseTranslation": "यह एक हाथी है।",
+      "explanation": "Elephant begins with an 'E' (vowel), so it takes 'An' instead of 'A'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "A singular common noun can almost never sit alone in English. You must say 'a book' or 'an apple'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Never use 'A' or 'An' with Plural nouns (e.g., NEVER say 'A apples' or 'A boys').",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "Proper Nouns (Names, Countries, Cities) never take A or An.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Directly translating 'मैं डॉक्टर हूँ' to 'I am doctor' sounds very broken to an English speaker. The 'a' makes the sentence sound complete and native.",
+    "dosList": [
+      "Always put 'A' before professions (I am a doctor, she is a student)."
+    ],
+    "dontsList": [
+      "Do not use 'A' before someone's name. (Never 'I am a Rahul')."
+    ]
+  },
+  "summary": "Master singular vs plural. Singular nouns take 'A' or 'An'. Plurals take '-s' or '-es' and drop the 'A'/'An'. Vowel sounds (A, E, I, O, U) demand 'An'. Words ending in s, x, ch, and sh demand '-es' for plurals.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Fill in the blank: It is ___ orange.",
+      "expectedAnswer": "an"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What is the correct plural of 'box'?",
+      "expectedAnswer": "boxes"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Make this plural: 'I am a student.' -> 'We _________.'",
+      "expectedAnswer": "We are students."
+    },
+    {
+      "questionId": "q4",
+      "questionText": "True or False: You should say: 'He is a Amit.'",
+      "expectedAnswer": "False"
+    }
+  ]
+}

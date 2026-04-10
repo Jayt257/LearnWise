@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_en_M2B6_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Travel Directions",
+  "learningGoal": "The learner will master the pronunciation of movement verbs in the Te-form, specifically focusing on the double consonant 't-te' sound which is crucial for clear navigation instructions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B6_lesson_001",
+    "ja_en_M2B6_vocabulary_001"
+  ],
+  "instructions": "In this exercise, practice giving clear directions. The small 'tsu' character in 'magatte', 'watatte', and 'itte' requires a distinct pause before the 'te' sound.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "If you do not pause for the double consonant, 'itte' (go) sounds like 'ite' (exist), which will confuse a native speaker."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "まっすぐ いって ください",
+      "transliteration": "Massugu itte kudasai",
+      "baseTranslation": "Please go straight.",
+      "phoneticHint": "mahs-soo-goo eet-teh koo-dah-sye",
+      "syllableSplit": "ma-s-su-gu i-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Masugu' instead of 'Massugu' (holding the s sound)."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "みぎに まがって ください",
+      "transliteration": "Migi ni magatte kudasai",
+      "baseTranslation": "Please turn right.",
+      "phoneticHint": "mee-gee nee mah-gaht-teh koo-dah-sye",
+      "syllableSplit": "mi-gi ni ma-ga-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'magate' without the double t."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "ひだりに まがって ください",
+      "transliteration": "Hidari ni magatte kudasai",
+      "baseTranslation": "Please turn left.",
+      "phoneticHint": "hee-dah-ree nee mah-gaht-teh koo-dah-sye",
+      "syllableSplit": "hi-da-ri ni ma-ga-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'Hidari wo' instead of 'Hidari ni'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "はしを わたって ください",
+      "transliteration": "Hashi wo watatte kudasai",
+      "baseTranslation": "Please cross the bridge.",
+      "phoneticHint": "hah-shee oh wah-taht-teh koo-dah-sye",
+      "syllableSplit": "ha-shi o wa-ta-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'Hashi ni' instead of 'Hashi wo'."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "ここで とまって ください",
+      "transliteration": "Koko de tomatte kudasai",
+      "baseTranslation": "Please stop here.",
+      "phoneticHint": "koh-koh deh toh-maht-teh koo-dah-sye",
+      "syllableSplit": "ko-ko de to-ma-t-te ku-da-sa-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Saying 'tomate' (tomato)."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "どうやって いきますか",
+      "transliteration": "Dou yatte ikimasu ka",
+      "baseTranslation": "How do you go?",
+      "phoneticHint": "doh yaht-teh ee-kee-mahs kah",
+      "syllableSplit": "do-o ya-t-te i-ki-ma-su ka",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'Do yate'."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "ぎんこうの まえ",
+      "transliteration": "Ginkou no mae",
+      "baseTranslation": "In front of the bank.",
+      "phoneticHint": "geen-koh noh mah-eh",
+      "syllableSplit": "gi-n-ko-o no ma-e",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Shortening the 'o' sound in Ginkou."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "ホテルの うしろ",
+      "transliteration": "Hoteru no ushiro",
+      "baseTranslation": "Behind the hotel.",
+      "phoneticHint": "hoh-teh-roo noh oo-shee-roh",
+      "syllableSplit": "ho-te-ru no u-shi-ro",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Mispronouncing the 'u' in ushiro."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "まっすぐいってください みぎにまがってください ひだりにまがってください はしをわたってください ここでとまってください どうやっていきますか ぎんこうのまえ ホテルのうしろ",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Perfect! A taxi driver in Tokyo would understand you clearly.",
+    "onFail": "Keep practicing! Make sure you pause briefly on the small 'tsu' characters. I-t-te.",
+    "onPartial": "Good effort. Pay close attention to 'Massugu'. It requires you to hold the 's' sound."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "まっすぐいってください みぎにまがってください ひだりにまがってください はしをわたってください ここでとまってください どうやっていきますか ぎんこうのまえ ホテルのうしろ",
+    "acceptedVariants": [
+      "まっすぐ いってください みぎに まがって ください ひだりに まがって ください はしを わたって ください ここで とまって ください どうやって いきますか ぎんこうの まえ ホテルの うしろ"
+    ],
+    "syllableSplitReference": "ma-s-su-gu-i-t-te-ku-da-sa-i mi-gi-ni-ma-ga-t-te-ku-da-sa-i hi-da-ri-ni-ma-ga-t-te-ku-da-sa-i ha-shi-o-wa-ta-t-te-ku-da-sa-i ko-ko-de-to-ma-t-te-ku-da-sa-i do-o-ya-t-te-i-ki-ma-su-ka gi-n-ko-o-no-ma-e ho-te-ru-no-u-shi-ro",
+    "phoneticApproximation": "massuguittekudasai miginimagattekudasai hidarinimagattekudasai hashiowatattekudasai kokodetomattekudasai douyatteikimasuka ginkounomae hoterunoushiro",
+    "nativeScriptReference": "まっすぐいってください みぎにまがってください ひだりにまがってください はしをわたってください ここでとまってください どうやっていきますか ぎんこうのまえ ホテルのうしろ",
+    "transliteration": "Massugu itte kudasai Migi ni magatte kudasai Hidari ni magatte kudasai Hashi wo watatte kudasai Koko de tomatte kudasai Dou yatte ikimasu ka Ginkou no mae Hoteru no ushiro",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b6/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m2/b6/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b6/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "まっすぐ いって ください。みぎに まがって ください。ひだりに まがって ください。はしを わたって ください。ここで とまって ください。どうやって いきますか。ぎんこうの まえ。ホテルの うしろ。",
+    "audioLanguage": "ja",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "directions",
+    "travel",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For 'dou yatte', bounce on the 'ya' and hold the 't' before the 'te'.",
+  "commonMistakes": [
+    "Saying 'Do yate'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

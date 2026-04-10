@@ -1,0 +1,194 @@
+{
+  "activityId": "en_ja_M3B5_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Speaking in an Emergency",
+  "learningGoal": "Speak clearly to describe medical symptoms and ask for emergency help.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B5_vocabulary_6"
+  ],
+  "instructions": "あなたは海外で事故に遭い、怪我をしました。救急車を呼び、病院で医師に症状を伝えてください。(You had an accident abroad. Call an ambulance and describe your symptoms to the doctor.)",
+  "speakingPrompt": "Respond to the emergency situations loudly and clearly.",
+  "scenario": "Calling for help and speaking to a doctor at the hospital.",
+  "role": "You (Patient/Victim)",
+  "conversationPartner": "Passerby / Doctor",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "You are hurt on the street. Ask a passerby to call an ambulance. (Please call an ambulance!)",
+      "expectedSpeakingPoints": [
+        "Please call",
+        "an ambulance"
+      ],
+      "sampleResponse": {
+        "targetText": "Please call an ambulance!",
+        "transliteration": "プリーズ コール アン アンビュランス！",
+        "baseTranslation": "救急車を呼んでください！"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "You are at the hospital. Tell the doctor you have a terrible headache.",
+      "expectedSpeakingPoints": [
+        "I have a",
+        "terrible headache"
+      ],
+      "sampleResponse": {
+        "targetText": "I have a terrible headache.",
+        "transliteration": "アイ ハヴ ア テリブル ヘッドエイク。",
+        "baseTranslation": "ひどい頭痛がします。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "The doctor asks where else it hurts. Tell her your arm hurts very badly.",
+      "expectedSpeakingPoints": [
+        "My arm",
+        "hurts very badly"
+      ],
+      "sampleResponse": {
+        "targetText": "My arm hurts very badly.",
+        "transliteration": "マイ アーム ハーツ ヴェリー バッドリー。",
+        "baseTranslation": "腕がとても痛いです。"
+      }
+    },
+    {
+      "subTaskId": "s4",
+      "prompt": "The doctor asks about allergies. Tell her you are allergic to penicillin.",
+      "expectedSpeakingPoints": [
+        "I am allergic to",
+        "penicillin"
+      ],
+      "sampleResponse": {
+        "targetText": "I am allergic to penicillin.",
+        "transliteration": "アイ アム アラージック トゥ ペニシリン。",
+        "baseTranslation": "私はペニシリンにアレルギーがあります。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Get medical help and explain your condition accurately.",
+    "transliteration": "ゲット メディカル ヘルプ アンド エクスプレイン ユア コンディション アキュレイトリー。",
+    "baseTranslation": "医療の助けを得て、自分の状態を正確に説明してください。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Please call an ambulance!",
+      "transliteration": "プリーズ コール アン アンビュランス！",
+      "baseTranslation": "救急車を呼んでください！"
+    },
+    {
+      "targetText": "I have a terrible headache.",
+      "transliteration": "アイ ハヴ ア テリブル ヘッドエイク。",
+      "baseTranslation": "ひどい頭痛がします。"
+    },
+    {
+      "targetText": "My arm hurts very badly.",
+      "transliteration": "マイ アーム ハーツ ヴェリー バッドリー。",
+      "baseTranslation": "腕がとても痛いです。"
+    },
+    {
+      "targetText": "I am allergic to penicillin.",
+      "transliteration": "アイ アム アラージック トゥ ペニシリン。",
+      "baseTranslation": "私はペニシリンにアレルギーがあります。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 50,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Asking for an ambulance.",
+      "Using 'I have a...'.",
+      "Using 'My [body part] hurts'.",
+      "Using 'I am allergic to...'."
+    ],
+    "requiredKeywords": [
+      "call",
+      "ambulance",
+      "have",
+      "headache",
+      "arm",
+      "hurts",
+      "allergic",
+      "to"
+    ],
+    "acceptableParaphrases": [
+      "Please call an ambulance.",
+      "I have a bad headache.",
+      "My arm hurts a lot.",
+      "I am allergic to penicillin."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Accuracy of Medical Information",
+          "weight": 50,
+          "description": "Uses 'allergic to' and 'have a headache' correctly."
+        },
+        {
+          "name": "Pronunciation of Key Terms",
+          "weight": 30,
+          "description": "Clear pronunciation of ambulance, headache, and allergic."
+        },
+        {
+          "name": "Clarity",
+          "weight": 20,
+          "description": "Speech is loud and understandable."
+        }
+      ]
+    },
+    "sampleAnswer": "Please call an ambulance. I have a terrible headache. My arm hurts very badly. I am allergic to penicillin.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You communicated your emergency clearly. A doctor would understand you perfectly.",
+    "onFail": "Please try again. Speak clearly. Make sure to say 'allergic TO' and 'headACHE' (with a 'k' sound).",
+    "onPartial": "Good effort. Practice the pronunciation of 'ambulance' (AM-byu-luhns) and 'allergic' (uh-LUR-jik)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B5_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M3B5_speaking_sample.mp3",
+    "slowAudio": "path/to/M3B5_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Please call an ambulance! I have a terrible headache. My arm hurts very badly. I am allergic to penicillin.",
+    "audioLanguage": "en",
+    "audioDuration": 30,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "medical",
+    "emergencies",
+    "symptoms"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you say 'My arm HURTS' (with an 's') because 'arm' is singular.",
+  "commonMistakes": [
+    "Saying 'I am allergy'. Must say 'I am allergic'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B5_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

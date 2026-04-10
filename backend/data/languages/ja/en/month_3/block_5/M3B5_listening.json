@@ -1,0 +1,222 @@
+{
+  "activityId": "en_ja_M3B5_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "Calling 911",
+  "learningGoal": "Listen to an emergency phone call and understand how to explain an accident and ask for an ambulance.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B5_writing_4"
+  ],
+  "instructions": "緊急通報（アメリカでは911）の電話の音声を聞いてください。通報者がどのように事故の状況（過去進行形や過去形を使用）を説明し、救急車を要請しているかに注意して質問に答えてください。(Listen to a 911 emergency call. Pay attention to how the caller explains the accident and requests an ambulance.)",
+  "listeningGoal": "To comprehend high-stress emergency communication, focusing on location, accident description, and immediate needs.",
+  "audioScenario": "A tourist is calling 911 after witnessing a traffic accident.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "911, what is your emergency?",
+      "transliteration": "ナイン ワン ワン、ホワット イズ ユア エマージェンシー？",
+      "baseTranslation": "911です。どのような緊急事態ですか？"
+    },
+    {
+      "targetText": "Please help! I need an ambulance right away. There has been a terrible accident.",
+      "transliteration": "プリーズ ヘルプ！ アイ ニード アン アンビュランス ライト アウェイ。ゼア ハズ ビーン ア テリブル アクシデント。",
+      "baseTranslation": "助けてください！すぐに救急車が必要です。ひどい事故がありました。"
+    },
+    {
+      "targetText": "Okay, calm down. What is your location?",
+      "transliteration": "オーケー、カーム ダウン。ホワット イズ ユア ロケーション？",
+      "baseTranslation": "わかりました、落ち着いてください。現在地はどこですか？"
+    },
+    {
+      "targetText": "I am in front of the Central Library on Main Street.",
+      "transliteration": "アイ アム イン フロント オヴ ザ セントラル ライブラリー オン メイン ストリート。",
+      "baseTranslation": "メインストリートにある中央図書館の前です。"
+    },
+    {
+      "targetText": "An ambulance is on the way. What exactly happened?",
+      "transliteration": "アン アンビュランス イズ オン ザ ウェイ。ホワット イグザクトリー ハプンド？",
+      "baseTranslation": "救急車が向かっています。正確に何が起きたのですか？"
+    },
+    {
+      "targetText": "A woman was crossing the street when a blue car hit her.",
+      "transliteration": "ア ウーマン ワズ クロッシング ザ ストリート ウェン ア ブルー カー ヒット ハー。",
+      "baseTranslation": "女性が道を渡っていた時、青い車が彼女を轢きました。"
+    },
+    {
+      "targetText": "Is the woman awake? Is she breathing?",
+      "transliteration": "イズ ザ ウーマン アウェイク？ イズ シー ブリージング？",
+      "baseTranslation": "その女性は意識がありますか？呼吸はしていますか？"
+    },
+    {
+      "targetText": "Yes, she is awake, but her leg hurts really badly. She can't move.",
+      "transliteration": "イエス、シー イズ アウェイク、バット ハー レッグ ハーツ リアリー バッドリー。シー キャント ムーヴ。",
+      "baseTranslation": "はい、意識はありますが、彼女の足がひどく痛んでいます。動けません。"
+    },
+    {
+      "targetText": "Did the blue car stop?",
+      "transliteration": "ディド ザ ブルー カー ストップ？",
+      "baseTranslation": "青い車は止まりましたか？"
+    },
+    {
+      "targetText": "No, it didn't. It drove away very fast. I couldn't see the license plate.",
+      "transliteration": "ノー、イット ディドント。イット ドローヴ アウェイ ヴェリー ファスト。アイ クドゥント シー ザ ライセンス プレイト。",
+      "baseTranslation": "いいえ、止まりませんでした。とても速く走り去りました。ナンバープレートは見えませんでした。"
+    },
+    {
+      "targetText": "Okay, I am sending the police too. Stay with the woman until they arrive.",
+      "transliteration": "オーケー、アイ アム センディング ザ ポリス トゥー。ステイ ウィズ ザ ウーマン アンティル ゼイ アライヴ。",
+      "baseTranslation": "わかりました、警察も向かわせます。彼らが到着するまで女性のそばにいてください。"
+    },
+    {
+      "targetText": "I will. Please hurry!",
+      "transliteration": "アイ ウィル。プリーズ ハリー！",
+      "baseTranslation": "そうします。急いでください！"
+    }
+  ],
+  "audioTranscriptFull": "Operator: 911, what is your emergency?\nCaller: Please help! I need an ambulance right away. There has been a terrible accident.\nOperator: Okay, calm down. What is your location?\nCaller: I am in front of the Central Library on Main Street.\nOperator: An ambulance is on the way. What exactly happened?\nCaller: A woman was crossing the street when a blue car hit her.\nOperator: Is the woman awake? Is she breathing?\nCaller: Yes, she is awake, but her leg hurts really badly. She can't move.\nOperator: Did the blue car stop?\nCaller: No, it didn't. It drove away very fast. I couldn't see the license plate.\nOperator: Okay, I am sending the police too. Stay with the woman until they arrive.\nCaller: I will. Please hurry!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "通報者は、最初に何を要請しましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "The police",
+        "An ambulance",
+        "A taxi",
+        "A doctor"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "事故が起きた場所はどこですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "In front of the hospital",
+        "In front of the police station",
+        "In front of the Central Library",
+        "In a blue car"
+      ],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "女性が青い車に轢かれた時、彼女は何をしていましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "She was reading a book.",
+        "She was driving a car.",
+        "She was crossing the street.",
+        "She was waiting for an ambulance."
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "女性の現在の状態はどうですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "She is sleeping.",
+        "She is awake, but her head hurts.",
+        "She is awake, but her leg hurts.",
+        "She ran away."
+      ],
+      "audioTimestamp": "00:26",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "事故を起こした青い車はどうなりましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "It stopped to help the woman.",
+        "It drove away very fast.",
+        "The police caught it.",
+        "It hit the library."
+      ],
+      "audioTimestamp": "00:35",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "オペレーターは救急車の他に、誰を向かわせると言いましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "A doctor",
+        "The woman's family",
+        "The police",
+        "A tow truck"
+      ],
+      "audioTimestamp": "00:45",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 16.6,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "An ambulance",
+      "q2": "In front of the Central Library",
+      "q3": "She was crossing the street.",
+      "q4": "She is awake, but her leg hurts.",
+      "q5": "It drove away very fast.",
+      "q6": "The police"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent listening! You successfully understood the details of the emergency call.",
+    "onFail": "Listen again carefully. Pay attention to what the woman was doing (crossing the street) and what hurt (her leg).",
+    "onPartial": "Good effort. Review the past continuous tense ('was crossing') used to describe what was happening when the accident occurred."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B5_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B5_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Operator: 911, what is your emergency? Caller: Please help! I need an ambulance right away...",
+    "audioLanguage": "en",
+    "audioDuration": 55,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "emergencies",
+    "accidents",
+    "past_continuous"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for keywords like 'ambulance', 'crossing', 'leg', and 'police'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B5_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

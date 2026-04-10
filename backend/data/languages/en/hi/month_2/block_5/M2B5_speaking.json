@@ -1,0 +1,191 @@
+{
+  "activityId": "hi_en_M2B5_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Speaking: Navigating Responsibilities",
+  "learningGoal": "Verbally express what you can do, what you should do, and what you have to do in a professional context.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B5_vocabulary_6",
+    "hi_en_M2B5_listening_5"
+  ],
+  "instructions": "You are having a meeting with your boss. You need to tell him what you can do, and ask him what you should do. Pay close attention to when you use 'Main' vs 'Mujhe'. ASSUME YOU ARE A MALE SPEAKER.",
+  "speakingPrompt": "Respond to your boss's questions using the correct modal verbs (sakta, chahiye, padega, hai).",
+  "scenario": "A meeting with the boss to discuss project deadlines.",
+  "role": "Employee (Male)",
+  "conversationPartner": "Boss",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Boss asks: 'Can you do this work?' Reply: 'Yes, I can do this work.' (Work = Kaam. Do = Kar. Can = Sakta hoon)",
+      "expectedSpeakingPoints": [
+        "Jee",
+        "main",
+        "kaam kar sakta hoon"
+      ],
+      "sampleResponse": {
+        "targetText": "जी, मैं यह काम कर सकता हूँ।",
+        "transliteration": "Jee, main yeh kaam kar sakta hoon.",
+        "baseTranslation": "Yes, I can do this work."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Ask the boss for advice: 'When should I come tomorrow?' (When = Kab. Come = Aana. Should = Chahiye)",
+      "expectedSpeakingPoints": [
+        "Mujhe",
+        "kal kab",
+        "aana chahiye"
+      ],
+      "sampleResponse": {
+        "targetText": "मुझे कल कब आना चाहिए?",
+        "transliteration": "Mujhe kal kab aana chahiye?",
+        "baseTranslation": "When should I come tomorrow?"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Boss says: 'You will have to come at 9 AM.' (You formal = Aapko. 9 = Nau. Will have to = Padega)",
+      "expectedSpeakingPoints": [
+        "Aapko",
+        "nau baje",
+        "aana padega"
+      ],
+      "sampleResponse": {
+        "targetText": "आपको नौ बजे आना पड़ेगा।",
+        "transliteration": "Aapko nau baje aana padega.",
+        "baseTranslation": "You will have to come at 9 AM."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Excuse yourself from the meeting: 'Okay Sir, I have to go now.' (Now = Ab. Have to go = Jaana hai)",
+      "expectedSpeakingPoints": [
+        "Theek hai",
+        "mujhe",
+        "ab jaana hai"
+      ],
+      "sampleResponse": {
+        "targetText": "ठीक है सर, मुझे अब जाना है।",
+        "transliteration": "Theek hai Sir, mujhe ab jaana hai.",
+        "baseTranslation": "Okay Sir, I have to go now."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप अपने बॉस के साथ मीटिंग में हैं।",
+    "transliteration": "Aap apne boss ke saath meeting mein hain.",
+    "baseTranslation": "You are in a meeting with your boss."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "जी, मैं यह काम कर सकता हूँ।",
+      "transliteration": "Jee, main yeh kaam kar sakta hoon.",
+      "baseTranslation": "Yes, I can do this work."
+    },
+    {
+      "targetText": "मुझे कल कब आना चाहिए?",
+      "transliteration": "Mujhe kal kab aana chahiye?",
+      "baseTranslation": "When should I come tomorrow?"
+    },
+    {
+      "targetText": "आपको नौ बजे आना पड़ेगा।",
+      "transliteration": "Aapko nau baje aana padega.",
+      "baseTranslation": "You will have to come at 9 AM."
+    },
+    {
+      "targetText": "ठीक है सर, मुझे अब जाना है।",
+      "transliteration": "Theek hai Sir, mujhe ab jaana hai.",
+      "baseTranslation": "Okay Sir, I have to go now."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "main kar sakta hoon",
+      "mujhe aana chahiye",
+      "aapko aana padega",
+      "mujhe jaana hai"
+    ],
+    "requiredKeywords": [
+      "मैं",
+      "सकता",
+      "मुझे",
+      "चाहिए",
+      "आपको",
+      "पड़ेगा",
+      "जाना है"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Haan' instead of 'Jee' is acceptable, but 'Jee' is more respectful for a boss."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Dative Mixup",
+          "weight": 100,
+          "description": "If user says 'Main kal kab aana chahiye' instead of 'Mujhe', score drops significantly."
+        },
+        {
+          "name": "Verb Form Error",
+          "weight": 100,
+          "description": "If user says 'Mujhe aa chahiye' instead of 'Mujhe aana chahiye' (Full infinitive verb required before chahiye)."
+        }
+      ]
+    },
+    "sampleAnswer": "Jee, main yeh kaam kar sakta hoon. Mujhe kal kab aana chahiye? Aapko nau baje aana padega. Theek hai Sir, mujhe ab jaana hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Fantastic! You are extremely comfortable shifting between the Absolutive and Dative cases.",
+    "onFail": "Review Section 6. Only 'Sakta' allows you to use 'Main'. Everything else (Chahiye, Padega, Hai) requires you to use 'Mujhe'.",
+    "onPartial": "Good try. Watch your verb endings. 'Kar sakta' drops the 'na'. But 'Aana chahiye' keeps the 'na'. Modals are tricky like that!"
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "जी, मैं यह काम कर सकता हूँ। मुझे कल कब आना चाहिए? आपको नौ बजे आना पड़ेगा। ठीक है सर, मुझे अब जाना है।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "modals",
+    "dative",
+    "roleplay",
+    "office"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Take a deep breath before every sentence. Identify the ending (Can, Should, or Have To). Then pick the matching starting word (Main vs Mujhe).",
+  "commonMistakes": [
+    "Saying 'Main ab jaana hai' (Must be Mujhe)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B5_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M1B3_test_8",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 Test: Matras & Demonstratives",
+  "learningGoal": "Evaluate mastery of Devanagari Matras (vowel signs) and the usage of 'Yeh', 'Woh', and 'Kya'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_lesson_1",
+    "hi_en_M1B3_pronunciation_2",
+    "hi_en_M1B3_reading_3",
+    "hi_en_M1B3_writing_4",
+    "hi_en_M1B3_listening_5",
+    "hi_en_M1B3_vocabulary_6",
+    "hi_en_M1B3_speaking_7"
+  ],
+  "instructions": "This is a comprehensive test for Block 3. It will check your ability to read words with Matras, recognize vocabulary like 'book' and 'car', and correctly form basic questions using 'Yeh' and 'Woh'.",
+  "testTitle": "Matras & Pointing Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_reading_matras",
+      "sectionTitle": "Decoding Matras",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "Look at the word 'किताब' (Kitaab). Where is the short 'i' matra placed on the first letter 'k'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Before the letter (to the left)",
+            "After the letter (to the right)",
+            "Under the letter"
+          ],
+          "questionHints": {
+            "targetText": "Before the letter (to the left)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "What happens when you add an 'aa' matra (ा) to the letter ग (ga)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "It becomes गा (gaa)",
+            "It becomes गे (ge)",
+            "It becomes गु (gu)"
+          ],
+          "questionHints": {
+            "targetText": "It becomes गा (gaa)",
+            "transliteration": "gaa",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_vocab_grammar",
+      "sectionTitle": "Vocabulary & Grammar",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate to English: वह गाड़ी है। (Woh gaadi hai.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "That is a car.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Which word is missing in this question: '____ yeh kampyutar hai?' (Is this a computer?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "Kya (क्या)",
+            "Kaun (कौन)",
+            "Kahan (कहाँ)"
+          ],
+          "questionHints": {
+            "targetText": "Kya (क्या)",
+            "transliteration": "Kya",
+            "baseTranslation": "What/Question marker"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Match the correct meaning: 'Yeh' (यह) means...",
+          "questionType": "multiple_choice",
+          "options": [
+            "This (nearby)",
+            "That (far away)",
+            "What"
+          ],
+          "questionHints": {
+            "targetText": "This (nearby)",
+            "transliteration": "This",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Before the letter (to the left)",
+      "tq_2": "It becomes गा (gaa)",
+      "tq_3": "That is a car.",
+      "tq_4": "Kya (क्या)",
+      "tq_5": "This (nearby)"
+    },
+    "partialCreditRules": {
+      "tq_3": "Accept 'That is a car', 'That's a car', or 'That is vehicle'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You can read matras and use demonstrative pronouns perfectly.",
+    "onFail": "Review the Matra section in the lesson. Knowing where vowels attach is the key to reading Hindi.",
+    "onPartial": "Good effort! Remember: Yeh = This, Woh = That, Kya = What."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block3",
+    "matras",
+    "yeh_woh",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the questions carefully. 'Kya' acts as a question mark when placed at the front of a sentence.",
+  "commonMistakes": [
+    "Thinking 'Kya' only means 'what' and cannot be used for Yes/No questions."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B4_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

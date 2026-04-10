@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_en_M2B3_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "A Bad Day",
+  "learningGoal": "The learner will construct sentences utilizing past tense negative adjectives and express desire to return home.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B3_lesson_001",
+    "ja_en_M2B3_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences describing a bad trip. You will need to use past tense negative adjectives. Remember, 'Tanoshii' is an i-adjective, so its negative past is 'Tanoshikunakatta'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For the desire form 'want to go', conjugate Ikimasu -> Ikitai desu."
+    }
+  ],
+  "writingPrompt": "Translate: 1) Yesterday, I went to Tokyo. 2) It was not fun. 3) The movie was boring. 4) I want to go home.",
+  "promptGoal": "To construct complex past-negative conjugations of i-adjectives and use the ~tai form.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "きのう",
+      "transliteration": "Kinou",
+      "baseTranslation": "Yesterday",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "とうきょう",
+      "transliteration": "Toukyou",
+      "baseTranslation": "Tokyo",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いきました",
+      "transliteration": "Ikimashita",
+      "baseTranslation": "Went",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "たのしい",
+      "transliteration": "Tanoshii",
+      "baseTranslation": "Fun",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "えいが",
+      "transliteration": "Eiga",
+      "baseTranslation": "Movie",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "つまらない",
+      "transliteration": "Tsumaranai",
+      "baseTranslation": "Boring",
+      "partOfSpeech": "i-adjective"
+    },
+    {
+      "targetText": "うち",
+      "transliteration": "Uchi",
+      "baseTranslation": "Home",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "かえります",
+      "transliteration": "Kaerimasu",
+      "baseTranslation": "To return",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Yesterday], [Tokyo] e/ni [Went].",
+    "Sentence 2: [Fun-negative-past] desu.",
+    "Sentence 3: [Movie] wa [Boring-past] desu.",
+    "Sentence 4: [Home] e/ni [Return-desire] desu."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "きのう、とうきょうへ いきました。たのしくなかったです。えいがは つまらなかったです。うちへ かえりたいです。",
+      "transliteration": "Kinou, Toukyou e ikimashita. Tanoshikunakatta desu. Eiga wa tsumaranakatta desu. Uchi e kaeritai desu.",
+      "baseTranslation": "Yesterday, I went to Tokyo. It was not fun. The movie was boring. I want to return home.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect conjugation of negative past (kunakatta) and positive past (katta) for i-adjectives, and desire form (tai)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Past Tense Verb",
+      "weight": 20,
+      "description": "Did the learner write 'ikimashita'?"
+    },
+    {
+      "criterion": "Negative Past i-Adjective",
+      "weight": 30,
+      "description": "Did the learner write 'tanoshikunakatta desu'?"
+    },
+    {
+      "criterion": "Past i-Adjective",
+      "weight": 25,
+      "description": "Did the learner write 'tsumaranakatta desu'?"
+    },
+    {
+      "criterion": "Desire Form",
+      "weight": 25,
+      "description": "Did the learner write 'kaeritai desu'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 30,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "きのう、とうきょうへ いきました。たのしくなかったです。えいがは つまらなかったです。うちへ かえりたいです。",
+    "acceptableAlternates": [
+      "きのう、とうきょうに いきました。たのしくなかったです。えいがは つまらなかったです。うちへ かえりたいです。",
+      "きのう とうきょうへ いきました。それは たのしくなかったです。えいがは つまらなかったです。うちへ かえりたいです。"
+    ],
+    "requiredKeywords": [
+      "きのう",
+      "いきました",
+      "たのしくなかった",
+      "つまらなかった",
+      "かえりたい"
+    ],
+    "grammarBaseline": "Mastery of ~katta, ~kunakatta, and ~tai.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 20,
+      "sentence_2": 30,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly conjugated these very long and complex Japanese words.",
+    "onFail": "Review the past tense of i-adjectives. Drop the 'i' and add 'katta' for positive past. Drop the 'i' and add 'kunakatta' for negative past.",
+    "onPartial": "Good try! Make sure you didn't write 'Tanoshii ja arimasen deshita'. Tanoshii is an i-adjective, not a na-adjective."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "intermediate",
+    "month2",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make 'Tanoshii' (fun) into 'was not fun', drop the 'i' and add 'kunakatta'.",
+  "commonMistakes": [
+    "Writing 'Tanoshiikunakatta' (forgetting to drop the first i).",
+    "Writing 'Tsumaranaikatta' (forgetting to drop the i)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

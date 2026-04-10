@@ -1,0 +1,194 @@
+{
+  "activityId": "hi_en_M3B5_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Writing an F.I.R. Report",
+  "learningGoal": "Write a formal complaint describing a theft for a police report.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M3B5_reading_3"
+  ],
+  "instructions": "Imagine your wallet was stolen at a busy market. Write a short complaint (80-150 words) to the police inspector. State what was stolen, where it happened, what was inside the wallet, and request them to file an F.I.R.",
+  "writingPrompt": "Write an application/report to the Police Inspector stating that your wallet has been stolen. Include the location (e.g., Sarojini Market), mention that it contained your ID cards and some cash, and politely ask them to register your complaint.",
+  "promptGoal": "To clearly report a theft and request official police action using formal Hindi.",
+  "expectedWritingType": "short_essay",
+  "wordBank": [
+    {
+      "targetText": "चोरी",
+      "transliteration": "chori",
+      "baseTranslation": "theft",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "बटुआ",
+      "transliteration": "batua",
+      "baseTranslation": "wallet",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "बाज़ार",
+      "transliteration": "baazaar",
+      "baseTranslation": "market",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "पैसे",
+      "transliteration": "paise",
+      "baseTranslation": "money / cash",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "पहचान पत्र",
+      "transliteration": "pehchaan patra",
+      "baseTranslation": "identity card",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "शिकायत",
+      "transliteration": "shikayat",
+      "baseTranslation": "complaint",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "दर्ज करना",
+      "transliteration": "darj karna",
+      "baseTranslation": "to register / file",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "मदद",
+      "transliteration": "madad",
+      "baseTranslation": "help",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "Start with a formal greeting to the Police Inspector: 'सेवा में, पुलिस इंस्पेक्टर महोदय' (To, The Police Inspector Sir).",
+    "Use the passive voice for the theft: 'मेरा बटुआ चोरी हो गया है' (My wallet has been stolen).",
+    "Use 'में' (in) to say what was inside the wallet.",
+    "End with a polite request: 'कृपया मेरी शिकायत दर्ज करें' (Please register my complaint)."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "सेवा में, पुलिस इंस्पेक्टर महोदय। मैं आपको सूचित करना चाहता हूँ कि आज सुबह सरोजिनी बाज़ार में मेरा बटुआ चोरी हो गया है। बाज़ार में बहुत भीड़ थी और अचानक मैंने देखा कि मेरे पास मेरा बटुआ नहीं है। मेरे बटुए में कुछ ज़रूरी दस्तावेज़ थे, जैसे मेरा पहचान पत्र, क्रेडिट कार्ड और पाँच हज़ार रुपये नकद। मैं बहुत परेशान हूँ क्योंकि पहचान पत्र मेरे लिए बहुत ज़रूरी है। कृपया आप मेरी शिकायत (F.I.R.) जल्दी दर्ज करें और मेरी मदद करें। मैं आपका बहुत आभारी रहूँगा। धन्यवाद।",
+      "transliteration": "Sewa mein, Police Inspector mahoday. Main aapko suchit karna chahta hoon ki aaj subah Sarojini baazaar mein mera batua chori ho gaya hai. Baazaar mein bahut bheed thi aur achanak maine dekha ki mere paas mera batua nahi hai. Mere batue mein kuch zaroori dastawez the, jaise mera pehchaan patra, credit card aur paanch hazaar rupaye nakad. Main bahut pareshaan hoon kyonki pehchaan patra mere liye bahut zaroori hai. Kripya aap meri shikayat (F.I.R.) jaldi darj karein aur meri madad karein. Main aapka bahut aabhari rahoonga. Dhanyawad.",
+      "baseTranslation": "To, Respected Police Inspector. I want to inform you that my wallet has been stolen in Sarojini Market this morning. There was a lot of crowd in the market and suddenly I noticed that I don't have my wallet. There were some important documents in my wallet, like my identity card, credit card, and five thousand rupees cash. I am very worried because the identity card is very important for me. Please register my complaint (F.I.R.) quickly and help me. I will be very grateful to you. Thank you.",
+      "qualityLevel": "excellent",
+      "annotation": "Uses formal addressing ('Sewa mein'), clearly states the incident using passive voice, lists the missing items, and politely requests action."
+    },
+    {
+      "targetText": "इंस्पेक्टर जी, मेरा बटुआ चोरी हो गया है। यह आज बाज़ार में हुआ। मेरे बटुए में मेरे पैसे और पहचान पत्र था। मुझे अपनी शिकायत दर्ज करनी है। कृपया मेरी मदद करें और मेरा बटुआ ढूँढ़ें। धन्यवाद।",
+      "transliteration": "Inspector ji, mera batua chori ho gaya hai. Yeh aaj baazaar mein hua. Mere batue mein mere paise aur pehchaan patra tha. Mujhe apni shikayat darj karni hai. Kripya meri madad karein aur mera batua dhoondhein. Dhanyawad.",
+      "baseTranslation": "Inspector sir, my wallet has been stolen. This happened in the market today. There was my money and identity card in my wallet. I need to file my complaint. Please help me and find my wallet. Thank you.",
+      "qualityLevel": "acceptable",
+      "annotation": "A shorter but completely valid response. It covers all necessary points but lacks the formal structure and vocabulary of an excellent response."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Task Completion",
+      "weight": 30,
+      "description": "Did the learner mention the stolen item, the location, the contents, and request an FIR?"
+    },
+    {
+      "criterion": "Grammar Accuracy",
+      "weight": 30,
+      "description": "Is the passive voice (chori ho gaya) used correctly? Are postpositions correct?"
+    },
+    {
+      "criterion": "Vocabulary Usage",
+      "weight": 20,
+      "description": "Are words like 'batua', 'shikayat', and 'darj karna' used appropriately?"
+    },
+    {
+      "criterion": "Formality and Tone",
+      "weight": 20,
+      "description": "Is the tone polite and appropriate for speaking to a police officer?"
+    }
+  ],
+  "minimumWordCount": 80,
+  "maximumWordCount": 150,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "सेवा में, पुलिस इंस्पेक्टर महोदय। मैं आपको सूचित करना चाहता हूँ कि आज सुबह सरोजिनी बाज़ार में मेरा बटुआ चोरी हो गया है। बाज़ार में बहुत भीड़ थी और अचानक मैंने देखा कि मेरे पास मेरा बटुआ नहीं है। मेरे बटुए में कुछ ज़रूरी दस्तावेज़ थे, जैसे मेरा पहचान पत्र, क्रेडिट कार्ड और पाँच हज़ार रुपये नकद। मैं बहुत परेशान हूँ क्योंकि पहचान पत्र मेरे लिए बहुत ज़रूरी है। कृपया आप मेरी शिकायत (F.I.R.) जल्दी दर्ज करें और मेरी मदद करें। मैं आपका बहुत आभारी रहूँगा। धन्यवाद।",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "चोरी",
+      "बटुआ",
+      "शिकायत"
+    ],
+    "grammarBaseline": "Use of 'chori ho gaya', 'mein' for location and contents, formal imperatives for requests.",
+    "lengthExpectation": "80 to 150 words",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Task Completion",
+          "weight": 30,
+          "description": "Includes all elements of the prompt."
+        },
+        {
+          "name": "Grammar Accuracy",
+          "weight": 30,
+          "description": "Correct sentence structure."
+        },
+        {
+          "name": "Vocabulary Usage",
+          "weight": 20,
+          "description": "Uses relevant emergency words."
+        },
+        {
+          "name": "Formality",
+          "weight": 20,
+          "description": "Polite and formal."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You have written a clear and formal complaint that a police officer would understand.",
+    "onFail": "Your writing is missing some key information or has too many grammatical errors. Make sure you state clearly what was stolen and request an FIR.",
+    "onPartial": "Good effort. Review the model answer to see how to make your report more formal and structured."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "police",
+    "report",
+    "emergency",
+    "formal"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use the word bank! Don't forget to mention what was inside the wallet.",
+  "commonMistakes": [
+    "Saying 'Maine chori kiya' (I stole) instead of 'Mera batua chori ho gaya' (My wallet got stolen).",
+    "Using informal language ('Tu' or 'Tum') when addressing the police."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,167 @@
+{
+  "activityId": "hi_en_M1B1_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Speaking: Greeting a Colleague",
+  "learningGoal": "Perform a basic greeting and ask someone how they are doing.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M1B1_vocabulary_6",
+    "hi_en_M1B1_listening_5"
+  ],
+  "instructions": "You are meeting a new colleague from India for the first time. Greet them with 'Namaste' and ask how they are doing. Then, respond when they ask you the same question.",
+  "speakingPrompt": "Respond to the audio prompts using the greetings you have learned.",
+  "scenario": "Meeting a new colleague.",
+  "role": "Yourself",
+  "conversationPartner": "A new colleague (Amit)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Say 'Hello' to Amit.",
+      "expectedSpeakingPoints": [
+        "Namaste"
+      ],
+      "sampleResponse": {
+        "targetText": "नमस्ते।",
+        "transliteration": "Namaste.",
+        "baseTranslation": "Hello."
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Amit replies 'Namaste'. Now ask him formally: 'How are you?'",
+      "expectedSpeakingPoints": [
+        "Aap",
+        "kaise",
+        "hain"
+      ],
+      "sampleResponse": {
+        "targetText": "आप कैसे हैं?",
+        "transliteration": "Aap kaise hain?",
+        "baseTranslation": "How are you?"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Amit says 'Main theek hoon. Aap kaise hain?' (I am fine. How are you?). Reply: 'I am fine. Thank you.'",
+      "expectedSpeakingPoints": [
+        "Main",
+        "theek hoon",
+        "Dhanyawad"
+      ],
+      "sampleResponse": {
+        "targetText": "मैं ठीक हूँ। धन्यवाद।",
+        "transliteration": "Main theek hoon. Dhanyawad.",
+        "baseTranslation": "I am fine. Thank you."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप अमित से मिल रहे हैं।",
+    "transliteration": "Aap Amit se mil rahe hain.",
+    "baseTranslation": "You are meeting Amit."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते।",
+      "transliteration": "Namaste.",
+      "baseTranslation": "Hello."
+    },
+    {
+      "targetText": "आप कैसे हैं?",
+      "transliteration": "Aap kaise hain?",
+      "baseTranslation": "How are you?"
+    },
+    {
+      "targetText": "मैं ठीक हूँ। धन्यवाद।",
+      "transliteration": "Main theek hoon. Dhanyawad.",
+      "baseTranslation": "I am fine. Thank you."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 50,
+    "grammarWeight": 10,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Namaste",
+      "Aap kaise hain",
+      "Main theek hoon",
+      "Dhanyawad"
+    ],
+    "requiredKeywords": [
+      "नमस्ते",
+      "आप कैसे हैं",
+      "मैं ठीक हूँ",
+      "धन्यवाद"
+    ],
+    "acceptableParaphrases": [
+      "Saying just 'Main theek hoon' without 'Dhanyawad' is acceptable but less polite."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Greeting Appropriateness",
+          "weight": 50,
+          "description": "Used 'Namaste' and 'Aap kaise hain' correctly."
+        },
+        {
+          "name": "Pronunciation of Vowels",
+          "weight": 50,
+          "description": "Clear pronunciation of 'aa' in Aap and 'ee' in theek."
+        }
+      ]
+    },
+    "sampleAnswer": "Namaste. Aap kaise hain? Main theek hoon. Dhanyawad.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great speaking! You had your first Hindi conversation.",
+    "onFail": "Don't forget the question structure: Aap (You) kaise (how) hain (are).",
+    "onPartial": "Good effort. Try to sound more confident and nasalize the 'n' in 'hain' and 'hoon'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। आप कैसे हैं? मैं ठीक हूँ। धन्यवाद।",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "greetings",
+    "namaste",
+    "roleplay",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak slowly. Pronounce 'Aap' with a long 'a' sound (Aah-p).",
+  "commonMistakes": [
+    "Saying 'Kaise aap hain' instead of 'Aap kaise hain'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B1_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

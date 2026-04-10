@@ -1,0 +1,183 @@
+{
+  "activityId": "en_ja_M2B1_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Endings: -er, -est, -ly",
+  "learningGoal": "Master the pronunciation of comparative (-er), superlative (-est), and adverbial (-ly) endings, as well as irregular forms like better/best.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B1_lesson_1"
+  ],
+  "instructions": "比較級（-er）、最上級（-est）、副詞（-ly）の語尾を正しく発音する練習です。また、better や worst のような不規則な単語も練習します。マイクに向かってリピートしてください。(Practice pronouncing the endings for comparatives, superlatives, and adverbs. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "taller",
+      "transliteration": "トーラー",
+      "baseTranslation": "より背が高い",
+      "phoneticHint": "The '-er' sound is soft. Pull your tongue back slightly for the 'r'.",
+      "syllableSplit": "tall-er",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'to-raa' with a flat Japanese 'a'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "tallest",
+      "transliteration": "トーレスト",
+      "baseTranslation": "一番背が高い",
+      "phoneticHint": "The '-est' sounds like 'ist'. Tall-ist.",
+      "syllableSplit": "tall-est",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'to-resuto'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "quietly",
+      "transliteration": "クワイエットリー",
+      "baseTranslation": "静かに",
+      "phoneticHint": "Don't pause between quiet and ly. Flow them together: qui-et-ly.",
+      "syllableSplit": "qui-et-ly",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'kuwaietto-rii'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "beautifully",
+      "transliteration": "ビューティフリー",
+      "baseTranslation": "美しく",
+      "phoneticHint": "The 't' often sounds like a soft 'd' or flap 'r' in American English. Beau-di-ful-ly.",
+      "syllableSplit": "beau-ti-ful-ly",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'byutifuru-rii'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "better",
+      "transliteration": "ベター",
+      "baseTranslation": "より良い",
+      "phoneticHint": "In American English, the 'tt' sounds like a quick, soft 'd' (flap T). Be-der.",
+      "syllableSplit": "bet-ter",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying a sharp 'bet-taa'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "the best",
+      "transliteration": "ザ ベスト",
+      "baseTranslation": "一番良い",
+      "phoneticHint": "Make sure to say 'the'. The 't' in best is often very soft.",
+      "syllableSplit": "the best",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Dropping the 'the' and saying 'besuto'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "worse",
+      "transliteration": "ワース",
+      "baseTranslation": "より悪い",
+      "phoneticHint": "Make your lips round for the 'w', and pull your tongue back for the 'r'. Werr-ss.",
+      "syllableSplit": "worse",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'waasu'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "the worst",
+      "transliteration": "ザ ワースト",
+      "baseTranslation": "一番悪い",
+      "phoneticHint": "Add a crisp 't' at the end of worse. Werr-st.",
+      "syllableSplit": "the worst",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'za waasuto'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "more",
+      "transliteration": "モア",
+      "baseTranslation": "より〜（長い形容詞に）",
+      "phoneticHint": "Make sure to pronounce the 'r' at the end. Morrr.",
+      "syllableSplit": "more",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'moa' without an 'r' sound."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "the most",
+      "transliteration": "ザ モスト",
+      "baseTranslation": "一番〜（長い形容詞に）",
+      "phoneticHint": "The 'o' is a long 'oh' sound. Moh-st.",
+      "syllableSplit": "the most",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'mosuto'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "taller tallest quietly beautifully better the best worse the worst more the most",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You pronounced the word endings and the irregular words very clearly.",
+    "onFail": "Please try again. Pay close attention to the 'r' sounds at the ends of words like taller and better.",
+    "onPartial": "Good effort! Remember that 'est' usually sounds like 'ist' (tall-ist)."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "taller tallest quietly beautifully better the best worse the worst more the most",
+    "acceptedVariants": [
+      "taller tallest quietly beautifully better the best worse the worst more the most"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "taller tallest quietly beautifully better the best worse the worst more the most",
+    "transliteration": "tawler tawlist kwietly byootifuly beder the best wers the werst mor the mohst",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B1_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B1_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "taller, tallest, quietly, beautifully, better, the best, worse, the worst, more, the most",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "adjectives",
+    "adverbs",
+    "comparatives",
+    "superlatives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "In American English, 'better' sounds like 'bedder'. Give it a try!",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B1_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

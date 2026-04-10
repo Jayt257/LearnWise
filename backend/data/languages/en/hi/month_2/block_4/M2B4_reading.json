@@ -1,0 +1,316 @@
+{
+  "activityId": "hi_en_M2B4_reading_3",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "Reading: The Detective's Interrogation",
+  "learningGoal": "Read and analyze a police interrogation to identify who performed which actions, paying close attention to the 'ne' particle and verb gender agreements.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B4_pronunciation_2"
+  ],
+  "instructions": "Inspector Sharma is interrogating two suspects, Rahul and Neha, about a stolen file. Notice how they use 'Maine' and 'Usne' to blame each other. Pay attention to the verb endings to see how they match the objects.",
+  "readingTitle": "पुलिस की पूछताछ (Police Interrogation)",
+  "readingText": "इंस्पेक्टर: कल रात तुम दोनों कहाँ गए थे?\nराहुल: सर, मैं कल रात घर गया। मैं बाहर नहीं गया।\nनेहा: झूठ! यह बाहर गया। मैंने इसे देखा।\nइंस्पेक्टर: नेहा, तुमने कल क्या किया?\nनेहा: मैंने कल एक किताब पढ़ी। मैंने कुछ नहीं किया।\nराहुल: सर, इसने मेरी किताब ली! और उसने फाइल भी देखी।\nइंस्पेक्टर: फाइल किसने ली?\nनेहा: मैंने फाइल नहीं ली। राहुल ने फाइल ली।\nराहुल: नहीं सर! मैं तो सो गया। मुझे कुछ नहीं पता।",
+  "textInTargetLanguage": "इंस्पेक्टर: कल रात तुम दोनों कहाँ गए थे?\nराहुल: सर, मैं कल रात घर गया। मैं बाहर नहीं गया।\nनेहा: झूठ! यह बाहर गया। मैंने इसे देखा।\nइंस्पेक्टर: नेहा, तुमने कल क्या किया?\nनेहा: मैंने कल एक किताब पढ़ी। मैंने कुछ नहीं किया।\nराहुल: सर, इसने मेरी किताब ली! और उसने फाइल भी देखी।\nइंस्पेक्टर: फाइल किसने ली?\nनेहा: मैंने फाइल नहीं ली। राहुल ने फाइल ली।\nराहुल: नहीं सर! मैं तो सो गया। मुझे कुछ नहीं पता।",
+  "baseLanguageSupportText": "Inspector: Last night where did you both go?\nRahul: Sir, last night I went home. I did not go outside.\nNeha: Lie! He went outside. I saw him.\nInspector: Neha, what did you do yesterday?\nNeha: Yesterday I read a book. I did nothing.\nRahul: Sir, she took my book! And she also saw the file.\nInspector: Who took the file?\nNeha: I did not take the file. Rahul took the file.\nRahul: No Sir! I slept. I know nothing.",
+  "glossary": [
+    {
+      "targetText": "कल रात",
+      "transliteration": "kal raat",
+      "baseTranslation": "last night (literally yesterday night)",
+      "exampleSentence": {
+        "targetText": "कल रात वह आया।",
+        "transliteration": "Kal raat woh aaya.",
+        "baseTranslation": "He came last night."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "गया",
+      "transliteration": "gaya",
+      "baseTranslation": "went (intransitive, male)",
+      "exampleSentence": {
+        "targetText": "मैं घर गया।",
+        "transliteration": "Main ghar gaya.",
+        "baseTranslation": "I went home."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "बाहर",
+      "transliteration": "baahar",
+      "baseTranslation": "outside",
+      "exampleSentence": {
+        "targetText": "मैं बाहर नहीं गया।",
+        "transliteration": "Main baahar nahi gaya.",
+        "baseTranslation": "I did not go outside."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "झूठ",
+      "transliteration": "jhooth",
+      "baseTranslation": "lie",
+      "exampleSentence": {
+        "targetText": "यह झूठ है।",
+        "transliteration": "Yeh jhooth hai.",
+        "baseTranslation": "This is a lie."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "मैंने",
+      "transliteration": "maine",
+      "baseTranslation": "I (transitive past)",
+      "exampleSentence": {
+        "targetText": "मैंने देखा।",
+        "transliteration": "Maine dekha.",
+        "baseTranslation": "I saw."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "देखा",
+      "transliteration": "dekha",
+      "baseTranslation": "saw (transitive, masc object)",
+      "exampleSentence": {
+        "targetText": "मैंने इसे देखा।",
+        "transliteration": "Maine ise dekha.",
+        "baseTranslation": "I saw him/it."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "तुमने",
+      "transliteration": "tumne",
+      "baseTranslation": "You (transitive past)",
+      "exampleSentence": {
+        "targetText": "तुमने क्या किया?",
+        "transliteration": "Tumne kya kiya?",
+        "baseTranslation": "What did you do?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "पढ़ी",
+      "transliteration": "padhi",
+      "baseTranslation": "read (transitive, fem object)",
+      "exampleSentence": {
+        "targetText": "मैंने किताब पढ़ी।",
+        "transliteration": "Maine kitaab padhi.",
+        "baseTranslation": "I read a book."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "किया",
+      "transliteration": "kiya",
+      "baseTranslation": "did (transitive, masc object)",
+      "exampleSentence": {
+        "targetText": "मैंने काम किया।",
+        "transliteration": "Maine kaam kiya.",
+        "baseTranslation": "I did work."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "इसने",
+      "transliteration": "isne",
+      "baseTranslation": "He/she (nearby, transitive past)",
+      "exampleSentence": {
+        "targetText": "इसने मेरी किताब ली।",
+        "transliteration": "Isne meri kitaab lee.",
+        "baseTranslation": "She took my book."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "ली",
+      "transliteration": "lee",
+      "baseTranslation": "took (transitive, fem object)",
+      "exampleSentence": {
+        "targetText": "राहुल ने फाइल ली।",
+        "transliteration": "Rahul ne file lee.",
+        "baseTranslation": "Rahul took the file."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "किसने",
+      "transliteration": "kisne",
+      "baseTranslation": "who? (transitive past)",
+      "exampleSentence": {
+        "targetText": "यह किसने किया?",
+        "transliteration": "Yeh kisne kiya?",
+        "baseTranslation": "Who did this?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "सो गया",
+      "transliteration": "so gaya",
+      "baseTranslation": "slept / went to sleep (intransitive, masc)",
+      "exampleSentence": {
+        "targetText": "मैं सो गया।",
+        "transliteration": "Main so gaya.",
+        "baseTranslation": "I slept."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं कल रात घर गया।",
+      "transliteration": "Main kal raat ghar gaya.",
+      "baseTranslation": "I went home last night."
+    },
+    {
+      "targetText": "मैंने कल एक किताब पढ़ी।",
+      "transliteration": "Maine kal ek kitaab padhi.",
+      "baseTranslation": "I read a book yesterday."
+    },
+    {
+      "targetText": "इसने मेरी किताब ली!",
+      "transliteration": "Isne meri kitaab lee!",
+      "baseTranslation": "She took my book!"
+    },
+    {
+      "targetText": "राहुल ने फाइल ली।",
+      "transliteration": "Rahul ne file lee.",
+      "baseTranslation": "Rahul took the file."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "Why does Rahul say 'Main ghar gaya' (मैं घर गया) without using the 'ne' particle?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because 'Jaana' (to go) is an intransitive verb. Intransitive verbs do not take 'ne'.",
+        "Because Rahul forgot the grammar rules.",
+        "Because 'ghar' (home) is masculine."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "When Neha says she read a book, she says 'Maine kitaab PADHI' (मैंने किताब पढ़ी). Why is the verb 'padhi' (feminine) when 'Maine' is gender neutral?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because 'kitaab' (book) is a feminine object, and the 'ne' particle forces the verb to match the object.",
+        "Because Neha is a woman.",
+        "Because the verb padhna is always feminine."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "Who claims they saw Rahul go outside?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Neha",
+        "Inspector",
+        "No one"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "What two things does Rahul accuse Neha of doing?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Taking his book (kitaab lee) and seeing the file (file dekhi).",
+        "Going outside and lying.",
+        "Sleeping and reading."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "Look at the Inspector's question: 'File kisne lee?' (फाइल किसने ली?). What does 'Kisne' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Who (When used with a transitive verb in the past tense)",
+        "Where",
+        "Why"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    },
+    {
+      "questionId": "rq_6",
+      "questionText": "How does the dialogue end?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Rahul says he slept (so gaya) and knows nothing.",
+        "Neha confesses.",
+        "Rahul fights the inspector."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_6"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Because 'Jaana' (to go) is an intransitive verb. Intransitive verbs do not take 'ne'.",
+      "rq_2": "Because 'kitaab' (book) is a feminine object, and the 'ne' particle forces the verb to match the object.",
+      "rq_3": "Neha",
+      "rq_4": "Taking his book (kitaab lee) and seeing the file (file dekhi).",
+      "rq_5": "Who (When used with a transitive verb in the past tense)",
+      "rq_6": "Rahul says he slept (so gaya) and knows nothing."
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Distinguish intransitive verbs (gaya, so gaya) from transitive verbs with 'ne' (maine dekha, kisne lee).",
+      "Recognize that 'ne' blocks the subject gender, forcing the verb to match the object (kitaab padhi, file dekhi)."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Outstanding! You successfully decoded the complex grammar of a Hindi police interrogation.",
+    "onFail": "Review the dialogue carefully. The word 'Maine' is 'I'. The word 'Isne' is 'He/She'. See how the verbs change based on what they touch.",
+    "onPartial": "Good effort. Pay close attention to question 2. Neha says 'padhI' not because she is a woman, but because 'kitaab' is feminine!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "इंस्पेक्टर: कल रात तुम दोनों कहाँ गए थे? राहुल: सर, मैं कल रात घर गया। मैं बाहर नहीं गया। नेहा: झूठ! यह बाहर गया। मैंने इसे देखा। इंस्पेक्टर: नेहा, तुमने कल क्या किया? नेहा: मैंने कल एक किताब पढ़ी। मैंने कुछ नहीं किया। राहुल: सर, इसने मेरी किताब ली! और उसने फाइल भी देखी। इंस्पेक्टर: फाइल किसने ली? नेहा: मैंने फाइल नहीं ली। राहुल ने फाइल ली। राहुल: नहीं सर! मैं तो सो गया। मुझे कुछ नहीं पता।",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "past_tense",
+    "ne_particle",
+    "ergativity",
+    "detective",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the objects. 'Kitaab' (book) and 'File' are both feminine, so the verbs acting on them end in 'ee' (Padhi, Lee, Dekhi).",
+  "commonMistakes": [
+    "Thinking 'Padhi' is feminine because Neha is speaking."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

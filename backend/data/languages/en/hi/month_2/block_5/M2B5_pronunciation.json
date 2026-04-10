@@ -1,0 +1,150 @@
+{
+  "activityId": "hi_en_M2B5_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Modals and Dative Subjects",
+  "learningGoal": "Accurately pronounce modal verbs (Sakta, Chahiye, Padega) and the dative pronouns (Mujhe, Humein, Tumhein).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B5_lesson_1"
+  ],
+  "instructions": "Practice saying these modal phrases. Pay special attention to the nasal 'n' sounds in 'Humein' and 'Tumhein', and the aspirated 'chh' in 'Chahiye'.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "सकता",
+      "transliteration": "Sakta",
+      "baseTranslation": "Can (masc)",
+      "phoneticHint": "suk-taa",
+      "syllableSplit": "sak-ta",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'sack-ta'. The 'a' in 'sak' is a short schwa, like the 'u' in 'sun'."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "चाहिए",
+      "transliteration": "Chahiye",
+      "baseTranslation": "Should / Want",
+      "phoneticHint": "chaa-hee-yeh",
+      "syllableSplit": "cha-hi-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'chai-yeh' (like the tea). It must be three distinct syllables."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "पड़ेगा",
+      "transliteration": "Padega",
+      "baseTranslation": "Will have to",
+      "phoneticHint": "puh-day-gaa",
+      "syllableSplit": "pa-de-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing a hard 'd' like in 'dog'. The 'd' in 'padega' is a retroflex flap (the tongue taps the roof of the mouth)."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "To me (I should...)",
+      "phoneticHint": "moo-jhay",
+      "syllableSplit": "mu-jhe",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'moo-jee'. The 'jh' is breathy/aspirated."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "तुम्हें",
+      "transliteration": "Tumhein",
+      "baseTranslation": "To you (You casual should...)",
+      "phoneticHint": "toom-hay(n)",
+      "syllableSplit": "tum-hein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Forgetting the nasalization at the end. It's not a hard 'n', but an echo in the nose."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "हमें",
+      "transliteration": "Humein",
+      "baseTranslation": "To us (We should...)",
+      "phoneticHint": "huh-may(n)",
+      "syllableSplit": "hu-mein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'hoo-main'. Start with a short schwa 'hu'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "पीनी चाहिए",
+      "transliteration": "Peeni chahiye",
+      "baseTranslation": "Should drink (fem object)",
+      "phoneticHint": "pee-nee chaa-hee-yeh",
+      "syllableSplit": "pee-ni cha-hi-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'peena chahiye' when talking about tea. The 'ni' ending must be sharp."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear retroflex sounds in 'padega' and distinct nasal vowels in dative pronouns.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Brilliant! Your pronunciation of the modals is completely natural.",
+    "onFail": "Listen closely to 'Padega'. Do not use the English 'D'. Roll your tongue back and tap the roof of your mouth.",
+    "onPartial": "Good effort. Ensure your nasal vowels (the 'n' in Tumhein) are soft and in the nose, not hard like the word 'No'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "modals",
+    "dative",
+    "nasalization",
+    "retroflex"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make the retroflex 'D' in 'Padega', touch the tip of your tongue to the highest point of your palate and quickly flick it down.",
+  "commonMistakes": [
+    "Pronouncing 'Chahiye' as two syllables instead of three."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B5_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

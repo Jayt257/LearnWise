@@ -1,0 +1,183 @@
+{
+  "activityId": "en_hi_M1B6_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Finding Lost Items",
+  "learningGoal": "The learner will formulate questions asking for locations ('Where is...') and actively generate responses enforcing the English Preposition-First rule ('Under the bed') rather than the Hindi Postposition rule.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B6_vocabulary_001"],
+  "instructions": "In this exercise, you will help your friend find his lost items. You will ask him questions using 'Where', and you will answer his questions using 'In', 'On', and 'Under'. Remember: The direction word MUST come before the object! Keep your speech smooth.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Try to link the words together. Say 'In the box' cleanly, don't chop it up."
+    }
+  ],
+  "speakingPrompt": "Respond to the Hindi prompts aloud.",
+  "scenario": "Your friend Rahul is very disorganized. He is asking you where his things are in the room.",
+  "role": "Helpful Friend",
+  "conversationPartner": "Rahul",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "राहुल पूछता है: 'Where is my pen?' (मेरा पेन कहाँ है?)। उसे बताएं कि 'यह मेज़ पर है।' (It is...)",
+      "expectedSpeakingPoints": ["It is", "on the table"],
+      "sampleResponse": {
+        "targetText": "It is on the table.",
+        "transliteration": "इट इज़ ऑन द टेबल।",
+        "baseTranslation": "यह मेज़ पर है।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "राहुल पूछता है: 'And where is my phone?' (और मेरा फोन कहाँ है?)। उसे बताएं: 'वह बिस्तर के नीचे है।' (under)",
+      "expectedSpeakingPoints": ["It is", "under the bed"],
+      "sampleResponse": {
+        "targetText": "It is under the bed.",
+        "transliteration": "इट इज़ अंडर द बेड।",
+        "baseTranslation": "यह बिस्तर के नीचे है।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "अब आपकी बारी है। राहुल से पूछें, 'मेरी किताब कहाँ है?' (Where ... ?)",
+      "expectedSpeakingPoints": ["Where is", "my book"],
+      "sampleResponse": {
+        "targetText": "Where is my book?",
+        "transliteration": "वेयर इज़ माई बुक?",
+        "baseTranslation": "मेरी किताब कहाँ है?"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "राहुल कहता है: 'It is in the bag. Where is the dog?' (यह थैले में है। कुत्ता कहाँ है?)। जवाब दें: 'कुत्ता फर्श पर है।' (on)",
+      "expectedSpeakingPoints": ["The dog is", "on the floor"],
+      "sampleResponse": {
+        "targetText": "The dog is on the floor.",
+        "transliteration": "द डॉग इज़ ऑन द फ्लोर।",
+        "baseTranslation": "कुत्ता फर्श पर है।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "अंत में, राहुल को बताएं: 'तुम्हारी चाबियां डिब्बे में हैं।' (in)",
+      "expectedSpeakingPoints": ["Your keys are", "in the box"],
+      "sampleResponse": {
+        "targetText": "Your keys are in the box.",
+        "transliteration": "योर कीज़ आर इन द बॉक्स।",
+        "baseTranslation": "तुम्हारी चाबियां डिब्बे में हैं।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Where is my pen?",
+    "transliteration": "वेयर इज़ माई पेन?",
+    "baseTranslation": "मेरा पेन कहाँ है?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "It is on the table.",
+      "transliteration": "इट इज़ ऑन द टेबल।",
+      "baseTranslation": "यह मेज़ पर है।"
+    },
+    {
+      "targetText": "It is under the bed.",
+      "transliteration": "इट इज़ अंडर द बेड।",
+      "baseTranslation": "यह बिस्तर के नीचे है।"
+    },
+    {
+      "targetText": "Where is my book?",
+      "transliteration": "वेयर इज़ माई बुक?",
+      "baseTranslation": "मेरी किताब कहाँ है?"
+    },
+    {
+      "targetText": "The dog is on the floor.",
+      "transliteration": "द डॉग इज़ ऑन द फ्लोर।",
+      "baseTranslation": "कुत्ता फर्श पर है।"
+    },
+    {
+      "targetText": "Your keys are in the box.",
+      "transliteration": "योर कीज़ आर इन द बॉक्स।",
+      "baseTranslation": "तुम्हारी चाबियां डिब्बे में हैं।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "It is",
+      "on the table",
+      "under the bed",
+      "Where is",
+      "on the floor",
+      "in the box"
+    ],
+    "requiredKeywords": [
+      "table",
+      "under",
+      "bed",
+      "Where",
+      "book",
+      "dog",
+      "floor",
+      "keys",
+      "in",
+      "box"
+    ],
+    "acceptableParaphrases": [
+      "The pen is on the table.",
+      "The phone is under the bed.",
+      "It is on the floor."
+    ],
+    "scoringRubric": {
+      "Preposition Order": "Did the user say 'On the table' instead of 'The table on'?",
+      "WH Syntax": "Did the user invert to ask 'Where IS my book'?"
+    },
+    "sampleAnswer": "It is on the table. It is under the bed. Where is my book? The dog is on the floor. Your keys are in the box.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully placed all English prepositions fully BEFORE the objects, overriding the Hindi habit.",
+    "onFail": "Keep practicing! If you said 'It is table on', that is wrong. It must be 'It is ON the table.' Try again.",
+    "onPartial": "Good try! You might have forgotten the word 'the'. Make sure to say 'In THE box' and 'On THE floor'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b6/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m1/b6/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b6/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m1/b6/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m1/b6/speaking/full_dialogue.mp3",
+    "audioTranscript": "Rahul: Where is my pen?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "prepositions", "locations", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b6/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Always start with the location word: In, On, Under. 'On the table'!",
+  "commonMistakes": [
+    "Saying 'The table on' instead of 'On the table'.",
+    "Saying 'In box' instead of 'In the box'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B6_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,410 @@
+{
+  "activityId": "en_hi_M1B5_test_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Mega Assessment: Verbs & Routines",
+  "learningGoal": "The learner will validate their ability to conjugate Present Simple action verbs across first, second, third, and plural persons, while successfully eliminating auxiliary 'to be' errors from translations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M1B5_lesson_001",
+    "en_hi_M1B5_pronunciation_001",
+    "en_hi_M1B5_reading_001",
+    "en_hi_M1B5_writing_001",
+    "en_hi_M1B5_listening_001",
+    "en_hi_M1B5_vocabulary_001",
+    "en_hi_M1B5_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 5. It contains 20 questions evaluating your mastery of Action Verbs. If you are ever confused, look for the Subject: Is it 'I', or is it 'He'? Does it need an 's'?",
+  "testTitle": "Block 5 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: 'I eat' is correct. 'I am eat' is incorrect.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Conjugating Verbs",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: I _____ an apple every morning.",
+          "questionType": "multiple_choice",
+          "options": ["eats", "eat", "am eat", "eating"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Fill in the blank: She _____ to school.",
+          "questionType": "multiple_choice",
+          "options": ["go", "gos", "goes", "is go"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Which is the correct sentence?",
+          "questionType": "multiple_choice",
+          "options": ["They plays in the park.", "They play in the park.", "They is play in the park."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "They play in the park.",
+            "transliteration": "दे प्ले इन द पार्क।",
+            "baseTranslation": "वे पार्क में खेलते हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What is the third-person spelling (He/She) for the verb 'Watch'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Watches",
+            "transliteration": "वॉचेस",
+            "baseTranslation": "देखता है/देखती है"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: 'He sleeps' means 'वह सोता है'. The 's' has nothing to do with plural objects; it is just a grammar rule for 'He'.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary Translation",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for 'पीना'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Drink",
+            "transliteration": "ड्रिंक",
+            "baseTranslation": "पीना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "What does 'Read' mean in Hindi?",
+          "questionType": "multiple_choice",
+          "options": ["देखना", "दौड़ना", "पढ़ना", "लिखना"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Read",
+            "transliteration": "रीड",
+            "baseTranslation": "पढ़ना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the English word for 'धोना'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Wash",
+            "transliteration": "वॉश",
+            "baseTranslation": "धोना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Which verb means 'दौड़ना'?",
+          "questionType": "multiple_choice",
+          "options": ["Play", "Go", "Sleep", "Run"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "True or False: English verbs change depending on whether it is a man or a woman (लड़का या लड़की).",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Sentence Correction & Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the mistake: 'I am go to the park.'",
+          "questionType": "multiple_choice",
+          "options": ["'go' should be 'goes'", "'am' must be removed", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I go to the park.",
+            "transliteration": "आई गो टू द पार्क।",
+            "baseTranslation": "मैं पार्क जाता हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Find the mistake: 'He read a book.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'He reads a book.'", "It should be 'He am read a book.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He reads a book.",
+            "transliteration": "ही रीड्स अ बुक।",
+            "baseTranslation": "वह एक किताब पढ़ता है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the mistake: 'The dogs runs.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'The dog runs' or 'The dogs run'.", "It should be 'The dogs runns'.", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The dogs run. / The dog runs.",
+            "transliteration": "द डॉग्स रन। / द डॉग रन्स।",
+            "baseTranslation": "कुत्ते दौड़ते हैं। / कुत्ता दौड़ता है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "What does 'We' (हम) do to the verb?",
+          "questionType": "multiple_choice",
+          "options": ["It adds an 's'", "It leaves the verb normal (no 's')", "It adds an 'es'"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "If a word ends in 'sh' (like wash), what do you add for 'He' or 'She'?",
+          "questionType": "multiple_choice",
+          "options": ["'es'", "'s'", "Nothing"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मैं एक सेब खाता हूँ।' (Write the English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I eat an apple.",
+            "transliteration": "आई ईट ऐन ऐपल।",
+            "baseTranslation": "मैं एक सेब खाता हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'वह स्कूल जाता है।' (Write the English sentence. You MUST use He).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He goes to school.",
+            "transliteration": "ही गोज़ टू स्कूल।",
+            "baseTranslation": "वह स्कूल जाता है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'हम खेलते हैं।'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We play.",
+            "transliteration": "वी प्ले।",
+            "baseTranslation": "हम खेलते हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'मेरी बहन सोती है।' (My sister...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "My sister sleeps.",
+            "transliteration": "माई सिस्टर स्लीप्स।",
+            "baseTranslation": "मेरी बहन सोती है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'मैं पानी पीता हूँ।'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I drink water.",
+            "transliteration": "आई ड्रिंक वाटर।",
+            "baseTranslation": "मैं पानी पीता हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "eat",
+      "q002": "goes",
+      "q003": "They play in the park.",
+      "q004": "Watches",
+      "q005": "True",
+      "q006": "Drink",
+      "q007": "पढ़ना",
+      "q008": "Wash",
+      "q009": "Run",
+      "q010": "False",
+      "q011": "'am' must be removed",
+      "q012": "It should be 'He reads a book.'",
+      "q013": "It should be 'The dog runs' or 'The dogs run'.",
+      "q014": "It leaves the verb normal (no 's')",
+      "q015": "'es'",
+      "q016": "I eat an apple.",
+      "q017": "He goes to school.",
+      "q018": "We play.",
+      "q019": "My sister sleeps.",
+      "q020": "I drink water."
+    },
+    "scoringRubric": {
+      "q016": "Minus 1 point if 'am' is included. Minus 1 point if 'an' is forgotten."
+    },
+    "partialCreditRules": {
+      "q017": "Give 3 marks if written 'He go to school' without the 'es'."
+    },
+    "alternateValidAnswers": {
+      "q004": ["watches", "WATCHES"],
+      "q006": ["drink", "DRINK"],
+      "q008": ["wash", "WASH"],
+      "q016": ["i eat an apple", "I eat an apple", "I eat a apple (partial - check hinting engine)"],
+      "q017": ["he goes to school", "He goes to school"],
+      "q018": ["we play", "We play"],
+      "q019": ["my sister sleeps", "My sister sleeps"],
+      "q020": ["i drink water", "I drink water"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully destroyed the 'I am eat' habit, and correctly conjugated the third-person verbs with 'S' and 'ES' modifiers.",
+    "onFail": "Keep practicing! You probably mixed up Plurals (Dogs) with verbs (Plays). Plural people (dogs, they, we) DO NOT take 's' on the verb. Remember the rule!",
+    "onPartial": "Good effort! Remember that words ending in 'o' like 'go' take an 'es'. It is 'goes', not 'gos'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers the third-person 'S' verb rule and dropping am/is/are.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block5", "verbs", "routines", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B6_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

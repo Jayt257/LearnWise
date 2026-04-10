@@ -1,0 +1,176 @@
+{
+  "activityId": "ja_en_M3B3_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Complaining at the Pub",
+  "learningGoal": "The learner will listen to a conversational dialogue to comprehend the causative-passive form in its most natural habitat: complaining about work.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M3B3_lesson_001",
+    "ja_en_M3B3_vocabulary_001"
+  ],
+  "instructions": "Listen to two colleagues talking at an izakaya (Japanese pub) after work. Identify what the speaker was forced to do.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen for 'saseraremashita' (forced to do) and 'nomasaremashita' (forced to drink)."
+    }
+  ],
+  "listeningGoal": "Identify the actions the speaker was forced to do against their will by their boss.",
+  "audioScenario": "Two colleagues chatting after a long day.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "つかれましたね。",
+      "transliteration": "Tsukaremashita ne.",
+      "baseTranslation": "You look tired."
+    },
+    {
+      "targetText": "はい。きのう、ぶちょうに ざんぎょうを させられました。",
+      "transliteration": "Hai. Kinou, buchou ni zangyou wo saseraremashita.",
+      "baseTranslation": "Yes. Yesterday, I was forced to do overtime by the boss."
+    },
+    {
+      "targetText": "たいへんですね。",
+      "transliteration": "Taihen desu ne.",
+      "baseTranslation": "That's tough."
+    },
+    {
+      "targetText": "ええ。そして、さけを のまされました。",
+      "transliteration": "Ee. Soshite, sake wo nomasaremashita.",
+      "baseTranslation": "Yeah. And, I was forced to drink alcohol."
+    }
+  ],
+  "audioTranscriptFull": "（同僚A）つかれましたね。\n（同僚B）はい。きのう、ぶちょうに ざんぎょうを させられました。\n（同僚A）たいへんですね。\n（同僚B）ええ。そして、さけを のまされました。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "How does the second speaker look/feel?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Happy",
+        "Tired",
+        "Angry",
+        "Hungry"
+      ],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What was the speaker forced to do yesterday?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Go to Tokyo",
+        "Eat vegetables",
+        "Do overtime work",
+        "Clean the office"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Who forced them to do it?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Their mother",
+        "Their friend",
+        "The department head (boss)",
+        "Their wife"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What else was the speaker forced to do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Pay for dinner",
+        "Drink alcohol",
+        "Sing karaoke",
+        "Drive the boss home"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the phrase 'forced to do' heard in the second sentence.",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Tired",
+      "q002": "Do overtime work",
+      "q003": "The department head (boss)",
+      "q004": "Drink alcohol",
+      "q005": "saseraremashita"
+    },
+    "acceptedShortAnswers": {
+      "q005": ["saseraremashita", "Saseraremashita"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully identified the causative-passive complaints.",
+    "onFail": "Listen again carefully. 'Saseraremashita' = forced to do. 'Nomasaremashita' = forced to drink.",
+    "onPartial": "Good effort. Notice how 'Nomasaremashita' is used instead of the longer 'Nomaseraremashita'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b3/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b3/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m3/b3/listening/native_dialogue.mp3",
+    "audioTranscript": "つかれましたね。はい。きのう、ぶちょうに ざんぎょうを させられました。たいへんですね。ええ。そして、さけを のまされました。",
+    "audioLanguage": "ja",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "causative-passive",
+    "complaining",
+    "advanced",
+    "month3",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for the word 'zangyou' (overtime).",
+  "commonMistakes": [
+    "Thinking the speaker made the boss do overtime (confusing the causative with the causative-passive)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B3_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,228 @@
+{
+  "activityId": "hi_en_M1B2_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "Reading: International Introductions",
+  "learningGoal": "Read longer dialogues introducing multiple people from different countries.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_pronunciation_2"
+  ],
+  "instructions": "Read the following dialogue set at an international hostel in Delhi. Try to identify the names and countries of the speakers. Pay close attention to the word 'se' (from).",
+  "readingTitle": "मैं कहाँ से हूँ? (Where am I from?)",
+  "readingText": "अमित: नमस्ते। आप कैसे हैं?\nजॉन: नमस्ते। मैं ठीक हूँ।\nअमित: मैं अमित हूँ। मैं भारत से हूँ।\nजॉन: मैं जॉन हूँ। मैं अमेरिका से हूँ।\nअमित: और यह कौन है? (And who is this?)\nजॉन: यह मारिया है। मारिया स्पेन से है।\nअमित: नमस्ते मारिया। भारत में स्वागत है! (Welcome to India!)",
+  "textInTargetLanguage": "अमित: नमस्ते। आप कैसे हैं?\nजॉन: नमस्ते। मैं ठीक हूँ।\nअमित: मैं अमित हूँ। मैं भारत से हूँ।\nजॉन: मैं जॉन हूँ। मैं अमेरिका से हूँ।\nअमित: और यह कौन है?\nजॉन: यह मारिया है। मारिया स्पेन से है।\nअमित: नमस्ते मारिया। भारत में स्वागत है!",
+  "baseLanguageSupportText": "Amit: Hello. How are you?\nJohn: Hello. I am fine.\nAmit: I am Amit. I am from India.\nJohn: I am John. I am from America.\nAmit: And who is this?\nJohn: This is Maria. Maria is from Spain.\nAmit: Hello Maria. Welcome to India!",
+  "glossary": [
+    {
+      "targetText": "भारत",
+      "transliteration": "Bharat",
+      "baseTranslation": "India",
+      "exampleSentence": {
+        "targetText": "मैं भारत से हूँ।",
+        "transliteration": "Main Bharat se hoon.",
+        "baseTranslation": "I am from India."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "से",
+      "transliteration": "se",
+      "baseTranslation": "from",
+      "exampleSentence": {
+        "targetText": "मैं अमेरिका से हूँ।",
+        "transliteration": "Main Amerika se hoon.",
+        "baseTranslation": "I am from America."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "और",
+      "transliteration": "aur",
+      "baseTranslation": "and",
+      "exampleSentence": {
+        "targetText": "और यह कौन है?",
+        "transliteration": "Aur yeh kaun hai?",
+        "baseTranslation": "And who is this?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this / he / she",
+      "exampleSentence": {
+        "targetText": "यह मारिया है।",
+        "transliteration": "Yeh Maria hai.",
+        "baseTranslation": "This is Maria."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "कौन",
+      "transliteration": "kaun",
+      "baseTranslation": "who",
+      "exampleSentence": {
+        "targetText": "यह कौन है?",
+        "transliteration": "Yeh kaun hai?",
+        "baseTranslation": "Who is this?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "exampleSentence": {
+        "targetText": "मारिया स्पेन से है।",
+        "transliteration": "Maria Spain se hai.",
+        "baseTranslation": "Maria is from Spain."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "स्वागत",
+      "transliteration": "swagat",
+      "baseTranslation": "welcome",
+      "exampleSentence": {
+        "targetText": "भारत में स्वागत है!",
+        "transliteration": "Bharat mein swagat hai!",
+        "baseTranslation": "Welcome to India!"
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं जॉन हूँ। मैं अमेरिका से हूँ।",
+      "transliteration": "Main John hoon. Main Amerika se hoon.",
+      "baseTranslation": "I am John. I am from America."
+    },
+    {
+      "targetText": "यह मारिया है। मारिया स्पेन से है।",
+      "transliteration": "Yeh Maria hai. Maria Spain se hai.",
+      "baseTranslation": "This is Maria. Maria is from Spain."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "Where is Amit from?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Bharat (India)",
+        "Amerika (America)",
+        "Spain"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "What word does John use to mean 'from' when he says 'Main Amerika ___ hoon'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "se (से)",
+        "hain (हैं)",
+        "aur (और)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "When John introduces Maria, he uses 'hai' (is) instead of 'hoon' (am). Why?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because he is talking about a third person (She is), not himself (I am).",
+        "Because Maria is from Spain.",
+        "Because 'hai' is for females."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "What does Amit say to welcome Maria to India?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Bharat mein swagat hai! (भारत में स्वागत है!)",
+        "Namaste Maria.",
+        "Main Bharat se hoon."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "Look closely at the script for 'Bharat' (भारत). Which vowel matra is used in the first letter 'Bha' (भा)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The long 'aa' matra (vertical line).",
+        "The short 'i' matra.",
+        "There is no vowel matra."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Bharat (India)",
+      "rq_2": "se (से)",
+      "rq_3": "Because he is talking about a third person (She is), not himself (I am).",
+      "rq_4": "Bharat mein swagat hai! (भारत में स्वागत है!)",
+      "rq_5": "The long 'aa' matra (vertical line)."
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Understand the usage of 'se' (from).",
+      "Recognize that 'hoon' is for 'I' and 'hai' is for 'he/she/it'.",
+      "Identify the country names in Hindi."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant! You can now read full introductory dialogues in Hindi.",
+    "onFail": "Review the glossary. Make sure you understand the difference between 'hoon' (am) and 'hai' (is).",
+    "onPartial": "Good effort! Pay close attention to grammar rules: 'Main' takes 'hoon', but 'Yeh' (this/she) takes 'hai'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "अमित: नमस्ते। आप कैसे हैं? जॉन: नमस्ते। मैं ठीक हूँ। अमित: मैं अमित हूँ। मैं भारत से हूँ। जॉन: मैं जॉन हूँ। मैं अमेरिका से हूँ। अमित: और यह कौन है? जॉन: यह मारिया है। मारिया स्पेन से है। अमित: नमस्ते मारिया। भारत में स्वागत है!",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "introductions",
+    "countries",
+    "grammar",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read slowly. 'Bharat' has a long 'aa' sound in the beginning.",
+  "commonMistakes": [
+    "Thinking 'hai' means 'from'. 'hai' means 'is', 'se' means 'from'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B2_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

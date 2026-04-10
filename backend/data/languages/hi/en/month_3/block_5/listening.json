@@ -1,0 +1,200 @@
+{
+  "activityId": "en_hi_M3B5_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "Calling 911 (Emergency)",
+  "learningGoal": "The learner will parse high-stress, rapid auditory input depicting a vehicular emergency, accurately identifying medical syntax ('his leg hurts') and core emergency commands.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M3B5_writing_001"],
+  "instructions": "In an emergency, you have to speak fast and listen carefully! Listen to a man calling the emergency number (911) after a car accident. Listen to how he describes the injuries.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "The operator speaks calmly, but the man is very stressed. Focus on the injury words!"
+    }
+  ],
+  "listeningGoal": "Extract critical incident details (what happened, who is hurt, what the injury is) from a high-speed emergency dialogue.",
+  "audioScenario": "A civilian calling the emergency dispatch operator to report a car crash with injuries.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "911, what is your emergency?",
+      "transliteration": "नाइन वन वन, वॉट इज़ योर इमरजेंसी?",
+      "baseTranslation": "911, आपकी आपात स्थिति (इमरजेंसी) क्या है?"
+    },
+    {
+      "targetText": "Help! There is a car accident on Main Street!",
+      "transliteration": "हेल्प! देयर इज़ अ कार एक्सीडेंट ऑन मेन स्ट्रीट!",
+      "baseTranslation": "मदद करो! मेन स्ट्रीट पर एक कार दुर्घटना (एक्सीडेंट) हुई है!"
+    },
+    {
+      "targetText": "Okay, sir. Please calm down. Are you hurt?",
+      "transliteration": "ओके, सर। प्लीज़ काम डाउन। आर यू हर्ट?",
+      "baseTranslation": "ठीक है, सर। कृपया शांत हो जाइए। क्या आपको चोट लगी है?"
+    },
+    {
+      "targetText": "No, I am okay. But another man is badly hurt.",
+      "transliteration": "नो, आई एम ओके। बट अनदर मैन इज़ बैडली हर्ट।",
+      "baseTranslation": "नहीं, मैं ठीक हूँ। लेकिन एक और आदमी को बहुत चोट लगी है।"
+    },
+    {
+      "targetText": "I understand. An ambulance is coming. Tell me, what is wrong with the man?",
+      "transliteration": "आई अंडरस्टैंड। एन एम्बुलेंस इज़ कमिंग। टेल मी, वॉट इज़ रॉन्ग विद द मैन?",
+      "baseTranslation": "मैं समझती हूँ। एम्बुलेंस आ रही है। मुझे बताइए, आदमी को क्या समस्या है?"
+    },
+    {
+      "targetText": "He is on the ground. His leg hurts! He cannot stand up.",
+      "transliteration": "ही इज़ ऑन द ग्राउंड। हिज़ लेग हर्ट्स! ही कैनॉट स्टैंड अप।",
+      "baseTranslation": "वह जमीन पर है। उसके पैर में चोट है (दर्द है)! वह खड़ा नहीं हो सकता।"
+    },
+    {
+      "targetText": "Is his head bleeding?",
+      "transliteration": "इज़ हिज़ हेड ब्लीडिंग?",
+      "baseTranslation": "क्या उसके सिर से खून बह रहा है?"
+    },
+    {
+      "targetText": "No, he does not have a headache. Just his leg hurts.",
+      "transliteration": "नो, ही डज़ नॉट हैव अ हेडेक। जस्ट हिज़ लेग हर्ट्स।",
+      "baseTranslation": "नहीं, उसके सिर में दर्द नहीं है। बस उसके पैर में दर्द है।"
+    },
+    {
+      "targetText": "Okay. Tell him to stay on the ground. The ambulance will be there in two minutes.",
+      "transliteration": "ओके। टेल हिम टू स्टे ऑन द ग्राउंड। द एम्बुलेंस विल बी देयर इन टू मिनट्स।",
+      "baseTranslation": "ठीक है। उसे जमीन पर रहने के लिए कहें। एम्बुलेंस दो मिनट में वहां आ जाएगी।"
+    }
+  ],
+  "audioTranscriptFull": "Operator: 911, what is your emergency?\nCaller: Help! There is a car accident on Main Street!\nOperator: Okay, sir. Please calm down. Are you hurt?\nCaller: No, I am okay. But another man is badly hurt.\nOperator: I understand. An ambulance is coming. Tell me, what is wrong with the man?\nCaller: He is on the ground. His leg hurts! He cannot stand up.\nOperator: Is his head bleeding?\nCaller: No, he does not have a headache. Just his leg hurts.\nOperator: Okay. Tell him to stay on the ground. The ambulance will be there in two minutes.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does the operator say exactly when she answers the phone?",
+      "questionType": "multiple_choice",
+      "options": ["Hello?", "911, what is your emergency?", "How can I help you?"],
+      "audioTimestamp": "00:01",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What kind of accident happened?",
+      "questionType": "multiple_choice",
+      "options": ["A fire", "A train accident", "A car accident"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "True or False: The man making the phone call is seriously injured.",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What vehicle does the operator send to the street?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "How does the caller describe the other man's injury? (What is his exact phrase?)",
+      "questionType": "multiple_choice",
+      "options": ["His leg is paining.", "He broke his leg.", "His leg hurts!"],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "The operator asks if his head is '_____' (losing blood).",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:24",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "What 'Ache' word does the caller use to confirm the man's head is fine?",
+      "questionType": "multiple_choice",
+      "options": ["Headache", "Stomachache", "Toothache"],
+      "audioTimestamp": "00:27",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "How many minutes until the vehicle arrives?",
+      "questionType": "multiple_choice",
+      "options": ["Two minutes", "Ten minutes", "Twenty minutes"],
+      "audioTimestamp": "00:32",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "No partial credit for MCQ."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "911, what is your emergency?",
+      "q2": "A car accident",
+      "q3": "False",
+      "q4": "An ambulance",
+      "q5": "His leg hurts!",
+      "q6": "bleeding",
+      "q7": "Headache",
+      "q8": "Two minutes"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["ambulance", "Ambulance", "an ambulance"],
+      "q6": ["bleeding", "Bleeding"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["ambulance"],
+      "q6": ["bleed"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You perfectly understood a very stressful, high-speed emergency scenario! You heard the correct injury syntax ('His leg hurts') and caught the medical vocabulary (Ambulance, Bleeding).",
+    "onFail": "Keep trying! Listening to emergency English is hard because people speak fast. Play the audio on Slow mode. Listen carefully to how the caller describes the other man's injury. He says 'His leg hurts'.",
+    "onPartial": "Good ear! Watch out for Question 6. 'Bleeding' is a critical medical word. It means blood is coming out of the body."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b5/listening/911_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b5/listening/911_slow.mp3",
+    "normalAudio": "audio/en_hi/m3/b5/listening/911_native.mp3",
+    "audioTranscript": "Operator: 911, what is your emergency... (matches full transcript)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "emergency", "health", "car_accident", "ambulance", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b5/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the Operator's questions. She is trying to find out where the pain is.",
+  "commonMistakes": [
+    "Thinking the caller is the one who is hurt."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B5_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

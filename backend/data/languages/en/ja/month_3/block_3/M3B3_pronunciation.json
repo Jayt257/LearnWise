@@ -1,0 +1,149 @@
+{
+  "activityId": "ja_en_M3B3_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Long Verb Conjugations",
+  "learningGoal": "The learner will master the fluid pronunciation of complex causative and causative-passive verbs, up to 8 syllables long, without stumbling.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B3_lesson_001",
+    "ja_en_M3B3_vocabulary_001"
+  ],
+  "instructions": "In this exercise, you must smoothly pronounce the longest verb conjugations in the Japanese language. Take a breath before each word, and maintain an even, flat pitch.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For example: 'Tabesaseraremashita' has 9 syllables. Say it slowly but evenly."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "たべさせました",
+      "transliteration": "Tabesasemashita",
+      "baseTranslation": "Made (someone) eat.",
+      "phoneticHint": "tah-beh-sah-seh-mah-shee-tah",
+      "syllableSplit": "ta-be-sa-se-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Tabesemashita'."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "たべさせられました",
+      "transliteration": "Tabesaseraremashita",
+      "baseTranslation": "Was forced to eat.",
+      "phoneticHint": "tah-beh-sah-seh-rah-reh-mah-shee-tah",
+      "syllableSplit": "ta-be-sa-se-ra-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Tripping over the 'ra-re' syllables."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "のまされました",
+      "transliteration": "Nomasaremashita",
+      "baseTranslation": "Was forced to drink.",
+      "phoneticHint": "noh-mah-sah-reh-mah-shee-tah",
+      "syllableSplit": "no-ma-sa-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'Nomaseraremashita' (This is grammatically fine, but Nomasaremashita is more natural)."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "いかされました",
+      "transliteration": "Ikasaremashita",
+      "baseTranslation": "Was forced to go.",
+      "phoneticHint": "ee-kah-sah-reh-mah-shee-tah",
+      "syllableSplit": "i-ka-sa-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'Ikisaremashita'."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "させられました",
+      "transliteration": "Saseraremashita",
+      "baseTranslation": "Was forced to do.",
+      "phoneticHint": "sah-seh-rah-reh-mah-shee-tah",
+      "syllableSplit": "sa-se-ra-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Stuttering on 'ra-re'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "こさせられました",
+      "transliteration": "Kosaseraremashita",
+      "baseTranslation": "Was forced to come.",
+      "phoneticHint": "koh-sah-seh-rah-reh-mah-shee-tah",
+      "syllableSplit": "ko-sa-se-ra-re-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'Kiseraremashita' (confusing it with passive)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "たべさせました たべさせられました のまされました いかされました させられました こさせられました",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You articulated the longest verbs in Japanese flawlessly.",
+    "onFail": "Keep practicing! Slow down. It's a tongue twister, even for native speakers.",
+    "onPartial": "Good effort. Pay close attention to 'Tabesaseraremashita'. It helps to break it into 'Tabesase' and 'raremashita'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "たべさせました たべさせられました のまされました いかされました させられました こさせられました",
+    "acceptedVariants": [
+      "たべさせました たべさせられました のまされました いかされました させられました こさせられました"
+    ],
+    "syllableSplitReference": "ta-be-sa-se-ma-shi-ta ta-be-sa-se-ra-re-ma-shi-ta no-ma-sa-re-ma-shi-ta i-ka-sa-re-ma-shi-ta sa-se-ra-re-ma-shi-ta ko-sa-se-ra-re-ma-shi-ta",
+    "phoneticApproximation": "tabesasemashita tabesaseraremashita nomasaremashita ikasaremashita saseraremashita kosaseraremashita",
+    "nativeScriptReference": "たべさせました たべさせられました のまされました いかされました させられました こさせられました",
+    "transliteration": "Tabesasemashita Tabesaseraremashita Nomasaremashita Ikasaremashita Saseraremashita Kosaseraremashita",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b3/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m3/b3/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b3/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "たべさせました。たべさせられました。のまされました。いかされました。させられました。こさせられました。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "causative",
+    "passive",
+    "advanced",
+    "month3",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Tap your finger for each syllable to keep a steady rhythm. Ta-be-sa-se-ra-re-ma-shi-ta.",
+  "commonMistakes": [
+    "Speeding up in the middle of the word and tripping over the syllables."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B3_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

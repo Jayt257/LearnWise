@@ -1,0 +1,169 @@
+{
+  "activityId": "hi_en_M1B1_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Writing: Tracing Vowels & Basic Greetings",
+  "learningGoal": "Practice writing the first few Hindi vowels and constructing a polite greeting.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M1B1_lesson_1"
+  ],
+  "instructions": "In this writing activity, use the provided transliteration to type out the Hindi greetings you learned. Don't worry if you don't have a Hindi keyboard; just type the romanized version (e.g., 'Namaste') or select from the word bank to build the Hindi sentence.",
+  "writingPrompt": "Translate the following into Hindi using the word bank:\n1. Hello.\n2. How are you?\n3. I am fine.",
+  "promptGoal": "Building 'Namaste' and 'Aap kaise hain'.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "Hello",
+      "partOfSpeech": "greeting"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "You",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "कैसे",
+      "transliteration": "kaise",
+      "baseTranslation": "how",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "I",
+      "partOfSpeech": "pronoun"
+    },
+    {
+      "targetText": "ठीक",
+      "transliteration": "theek",
+      "baseTranslation": "fine",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "hoon",
+      "baseTranslation": "am",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "In Hindi, the verb usually goes at the end of the sentence. 'You how are' -> 'Aap kaise hain'.",
+    "Don't forget the question mark for 'Aap kaise hain?'."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "नमस्ते। आप कैसे हैं? मैं ठीक हूँ।",
+      "transliteration": "Namaste. Aap kaise hain? Main theek hoon.",
+      "baseTranslation": "Hello. How are you? I am fine.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect greeting exchange."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Correct Greeting",
+      "weight": 30,
+      "description": "Uses 'Namaste' for Hello."
+    },
+    {
+      "criterion": "Correct Question Structure",
+      "weight": 40,
+      "description": "Forms 'Aap kaise hain' in the correct order."
+    },
+    {
+      "criterion": "Correct Reply",
+      "weight": 30,
+      "description": "Forms 'Main theek hoon' correctly."
+    }
+  ],
+  "minimumWordCount": 5,
+  "maximumWordCount": 15,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "नमस्ते। आप कैसे हैं? मैं ठीक हूँ।",
+    "acceptableAlternates": [
+      "Namaste. Aap kaise hain? Main theek hoon.",
+      "namaste. aap kaise hain? main theek hoon."
+    ],
+    "requiredKeywords": [
+      "Namaste",
+      "Aap",
+      "kaise",
+      "hain",
+      "Main",
+      "theek",
+      "hoon"
+    ],
+    "grammarBaseline": "Accepts transliteration for absolute beginners. Correct word order is mandatory.",
+    "lengthExpectation": "Three short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Vocabulary Selection",
+          "weight": 50,
+          "description": "Selected the right words for Hello, You, How, Are."
+        },
+        {
+          "name": "Sentence Order",
+          "weight": 50,
+          "description": "Subject Object Verb (SOV) order maintained."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You can now write basic greetings in Hindi.",
+    "onFail": "Review the word order. In Hindi, it's 'You how are' (Aap kaise hain).",
+    "onPartial": "Good try! Make sure you matched 'Main' (I) with 'hoon' (am) and 'Aap' (You) with 'hain' (are)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "greetings",
+    "namaste",
+    "sentence building"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Match the English words to the transliteration in the word bank to build the sentence.",
+  "commonMistakes": [
+    "Writing 'Aap hain kaise' instead of 'Aap kaise hain'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

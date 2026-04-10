@@ -1,0 +1,183 @@
+{
+  "activityId": "en_ja_M1B4_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Numbers and Dates",
+  "learningGoal": "Accurately pronounce the tricky differences between -teen and -ty, difficult months, and ordinal numbers (TH sound).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B4_lesson_1"
+  ],
+  "instructions": "日本人が苦手とする数字の発音（13と30など）や、発音が難しい月・曜日を練習します。マイクに向かってリピートしてください。(Practice difficult number pronunciations like 13 vs 30, and tricky months/days. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "thirteen",
+      "transliteration": "サーティーン",
+      "baseTranslation": "13",
+      "phoneticHint": "Tongue between teeth for TH. Stress the 'TEEN' part heavily.",
+      "syllableSplit": "thir-teen",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'thirty' by not stressing the end."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "thirty",
+      "transliteration": "サーティ",
+      "baseTranslation": "30",
+      "phoneticHint": "Stress the first syllable (THIR). The 't' at the end sounds like a soft 'd' or a quick tap.",
+      "syllableSplit": "thir-ty",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'thirteen' or stressing the 'ty'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "fourteen",
+      "transliteration": "フォーティーン",
+      "baseTranslation": "14",
+      "phoneticHint": "Bite your lower lip for F. Stress the 'TEEN'.",
+      "syllableSplit": "four-teen",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'forty'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "forty",
+      "transliteration": "フォーティ",
+      "baseTranslation": "40",
+      "phoneticHint": "Stress the 'FOR'. Drop the 'u' sound from four.",
+      "syllableSplit": "for-ty",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Stressing the end."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "January",
+      "transliteration": "ジャニュアリー",
+      "baseTranslation": "1月",
+      "phoneticHint": "Four syllables: Jan-yoo-er-ee. Stress the first syllable.",
+      "syllableSplit": "Jan-u-ar-y",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Jan-a-ri'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "February",
+      "transliteration": "フェブラリー",
+      "baseTranslation": "2月",
+      "phoneticHint": "Feb-roo-er-ee. Many native speakers drop the first 'r' and say 'Feb-yoo-er-ee'.",
+      "syllableSplit": "Feb-ru-ar-y",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Feb-ra-ri'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "Wednesday",
+      "transliteration": "ウェンズデイ",
+      "baseTranslation": "水曜日",
+      "phoneticHint": "The 'd' is completely silent. Wenz-day.",
+      "syllableSplit": "Wednes-day",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'We-do-nes-day'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "Thursday",
+      "transliteration": "サーズデイ",
+      "baseTranslation": "木曜日",
+      "phoneticHint": "Tongue between teeth for TH. Thurz-day.",
+      "syllableSplit": "Thurs-day",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Saa-zu-day'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "first",
+      "transliteration": "ファースト",
+      "baseTranslation": "1番目、1日",
+      "phoneticHint": "Bite lower lip for F. End with a sharp 'st'.",
+      "syllableSplit": "first",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Faa-su-to'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "third",
+      "transliteration": "サード",
+      "baseTranslation": "3番目、3日",
+      "phoneticHint": "Tongue between teeth. Pull tongue back for 'r', end with a soft 'd'.",
+      "syllableSplit": "third",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Saa-do' without the TH or R sounds."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "thirteen thirty fourteen forty January February Wednesday Thursday first third",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You clearly distinguished the tricky numbers and dates.",
+    "onFail": "Please try again. Pay close attention to where the stress is on words like thirteen and thirty.",
+    "onPartial": "Good effort! Remember that the 'd' in Wednesday is completely silent."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "thirteen thirty fourteen forty January February Wednesday Thursday first third",
+    "acceptedVariants": [
+      "thirteen thirty fourteen forty january february wednesday thursday first third"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "thirteen thirty fourteen forty January February Wednesday Thursday first third",
+    "transliteration": "thirteen thirty fourteen forty janyuari febyuari wenzday therzday first third",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B4_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B4_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "thirteen, thirty, fourteen, forty, January, February, Wednesday, Thursday, first, third",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "numbers",
+    "dates",
+    "months",
+    "days"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'thirteen' correctly, say 'thir' quietly and yell 'TEEN'. For 'thirty', yell 'THIR' and say 'ty' quietly.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B4_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

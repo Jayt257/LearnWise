@@ -1,0 +1,182 @@
+{
+  "activityId": "ja_en_M2B5_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Sharing Opinions",
+  "learningGoal": "The learner will verbally construct sentences using plain form verbs, adjectives, and nouns connected to '~to omoimasu'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M2B5_lesson_001",
+    "ja_en_M2B5_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a friend asks for your opinion on various topics. Reply verbally in Japanese based on the English prompts. Pay attention to the grammatical class of the word before 'to'.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: Nouns need 'da'. i-Adjectives do not. Verbs must be in the plain form (Dictionary or Nai form)."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) I think it is expensive. 2) I think Tanaka will not go. 3) I think it is a lie.",
+  "scenario": "A conversation between friends sharing gossip and opinions.",
+  "role": "Friend A",
+  "conversationPartner": "Friend B",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Give your opinion on the price. Say: 'I think it is expensive.'",
+      "expectedSpeakingPoints": [
+        "Use takai",
+        "Use to omoimasu",
+        "Do NOT use da"
+      ],
+      "sampleResponse": {
+        "targetText": "たかいと おもいます。",
+        "transliteration": "Takai to omoimasu.",
+        "baseTranslation": "I think it is expensive."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Give your prediction about Tanaka. Say: 'I think Tanaka will not go.'",
+      "expectedSpeakingPoints": [
+        "Use Tanaka-san wa",
+        "Use ikanai",
+        "Use to omoimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "たなかさんは いかないと おもいます。",
+        "transliteration": "Tanaka-san wa ikanai to omoimasu.",
+        "baseTranslation": "I think Tanaka will not go."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Express disbelief. Say: 'I think it is a lie.'",
+      "expectedSpeakingPoints": [
+        "Use uso",
+        "Use da",
+        "Use to omoimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "うそだと おもいます。",
+        "transliteration": "Uso da to omoimasu.",
+        "baseTranslation": "I think it is a lie."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "どう おもいますか。",
+    "transliteration": "Dou omoimasu ka.",
+    "baseTranslation": "What do you think?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "たかいと おもいます。",
+      "transliteration": "Takai to omoimasu.",
+      "baseTranslation": "I think it is expensive."
+    },
+    {
+      "targetText": "たなかさんは いかないと おもいます。",
+      "transliteration": "Tanaka-san wa ikanai to omoimasu.",
+      "baseTranslation": "I think Tanaka will not go."
+    },
+    {
+      "targetText": "うそだと おもいます。",
+      "transliteration": "Uso da to omoimasu.",
+      "baseTranslation": "I think it is a lie."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Takai to omoimasu",
+      "Say Tanaka-san wa ikanai to omoimasu",
+      "Say Uso da to omoimasu"
+    ],
+    "requiredKeywords": [
+      "たかいと",
+      "いかないと",
+      "うそだと",
+      "おもいます"
+    ],
+    "acceptableParaphrases": [
+      "Dropping 'Tanaka-san wa' is acceptable if the context is understood, but full sentence is preferred."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "i-Adjective Rule",
+          "weight": 30,
+          "description": "Did the learner say 'Takai to' instead of 'Takai da to'?"
+        },
+        {
+          "name": "Nai-form Rule",
+          "weight": 40,
+          "description": "Did the learner say 'Ikanai to' instead of 'Ikimasen to'?"
+        },
+        {
+          "name": "Noun Rule",
+          "weight": 30,
+          "description": "Did the learner say 'Uso da to' instead of 'Uso to'?"
+        }
+      ]
+    },
+    "sampleAnswer": "たかいと おもいます。たなかさんは いかないと おもいます。うそだと おもいます。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You perfectly juggled three different grammatical rules.",
+    "onFail": "Review the rules for nouns. You must add 'da' before 'to omoimasu' when using a noun like 'Uso' (lie).",
+    "onPartial": "Good try! Make sure you didn't say 'Ikimasen to omoimasu'. The verb must be in plain form: 'Ikanai'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b5/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m2/b5/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "どう おもいますか。たかいと おもいます。たなかさんは いかないと おもいます。うそだと おもいます。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "plain-form",
+    "nai-form",
+    "quotation",
+    "roleplay",
+    "intermediate",
+    "month2",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'will not go', change Ikimasen to Ikanai.",
+  "commonMistakes": [
+    "Saying 'Uso to omoimasu' (forgetting the 'da')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B5_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

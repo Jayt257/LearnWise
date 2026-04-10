@@ -1,0 +1,461 @@
+{
+  "activityId": "ja_en_M1B1_test_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Final Test — Hiragana & Greetings",
+  "learningGoal": "The learner will demonstrate mastery of fundamental greetings, basic survival vocabulary, and the first five rows of Hiragana (A, K, S, T, N).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B1_lesson_001",
+    "ja_en_M1B1_pronunciation_001",
+    "ja_en_M1B1_reading_001",
+    "ja_en_M1B1_writing_001",
+    "ja_en_M1B1_listening_001",
+    "ja_en_M1B1_vocabulary_001",
+    "ja_en_M1B1_speaking_001"
+  ],
+  "instructions": "Welcome to the Block 1 Final Test. This test will evaluate your knowledge of the essential greetings, basic vocabulary, cultural rules, and your ability to read and write the first five rows of Hiragana. Answer all 20 questions carefully. You must score at least 70/100 to pass.",
+  "testTitle": "Block 1 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. For listening questions, press play before answering. Each section contributes to your final score.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary and Greetings Recognition",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does こんにちは mean?",
+          "questionType": "multiple_choice",
+          "options": ["Good morning", "Hello / Good afternoon", "Good evening", "Goodbye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "こんにちは",
+            "transliteration": "Konnichiwa",
+            "baseTranslation": "Hello / Good afternoon"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which phrase is the formal way to say 'Good morning'?",
+          "questionType": "multiple_choice",
+          "options": ["おはよう", "おはようございます", "こんばんは", "ありがとう"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "おはようございます",
+            "transliteration": "Ohayou gozaimasu",
+            "baseTranslation": "Good morning (formal)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does すみません mean?",
+          "questionType": "multiple_choice",
+          "options": ["Excuse me / I'm sorry", "Thank you", "Yes", "No"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "すみません",
+            "transliteration": "Sumimasen",
+            "baseTranslation": "Excuse me / I'm sorry"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What is the Japanese word for 'Teacher'?",
+          "questionType": "multiple_choice",
+          "options": ["がくせい", "せんせい", "わたし", "あなた"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "せんせい",
+            "transliteration": "Sensei",
+            "baseTranslation": "Teacher"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "If someone hands you a gift and says 'Douzo', what is the formal way to reply?",
+          "questionType": "multiple_choice",
+          "options": ["ありがとう", "ありがとうございます", "いいえ", "さようなら"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ありがとうございます",
+            "transliteration": "Arigatou gozaimasu",
+            "baseTranslation": "Thank you very much (formal)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "True or False: 'Hai' means Yes and 'Iie' means No.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "はい / いいえ",
+            "transliteration": "Hai / Iie",
+            "baseTranslation": "Yes / No"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        }
+      ],
+      "sectionMarks": 30,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_listening",
+      "sectionTitle": "Listening Comprehension",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q007",
+          "questionText": "Listen to the audio. What did the speaker say?",
+          "questionType": "multiple_choice",
+          "options": ["Good morning (casual)", "Hello", "Good evening", "Goodbye"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q007",
+          "questionHints": {
+            "targetText": "おはよう",
+            "transliteration": "Ohayou",
+            "baseTranslation": "Good morning (casual)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Listen to the audio. What did the speaker say?",
+          "questionType": "multiple_choice",
+          "options": ["Thank you", "Thank you very much", "Excuse me", "Please"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q008",
+          "questionHints": {
+            "targetText": "ありがとうございます",
+            "transliteration": "Arigatou gozaimasu",
+            "baseTranslation": "Thank you very much (formal)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Listen to the audio. Which word is spoken?",
+          "questionType": "multiple_choice",
+          "options": ["Yes", "No", "I", "You"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q009",
+          "questionHints": {
+            "targetText": "いいえ",
+            "transliteration": "Iie",
+            "baseTranslation": "No"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Listen to the audio. Which word is spoken?",
+          "questionType": "multiple_choice",
+          "options": ["Teacher", "Student", "Japan", "Japanese language"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q010",
+          "questionHints": {
+            "targetText": "にほんご",
+            "transliteration": "Nihongo",
+            "baseTranslation": "Japanese language"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Listen to the audio. What is the speaker asking you to do?",
+          "questionType": "multiple_choice",
+          "options": ["To excuse them", "To accept something (Here you go)", "To ask for a favor (Please)", "To say goodbye"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q011",
+          "questionHints": {
+            "targetText": "どうぞ",
+            "transliteration": "Douzo",
+            "baseTranslation": "Here you go / After you"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading",
+      "sectionTitle": "Hiragana Reading",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q012",
+          "questionText": "How do you read the following word: あか",
+          "questionType": "multiple_choice",
+          "options": ["Aka", "Asa", "Ana", "Aki"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "あか",
+            "transliteration": "Aka",
+            "baseTranslation": "Red"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "How do you read the following word: すし",
+          "questionType": "multiple_choice",
+          "options": ["Suta", "Susa", "Sushi", "Suki"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "すし",
+            "transliteration": "Sushi",
+            "baseTranslation": "Sushi"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "How do you read the following word: ねこ",
+          "questionType": "multiple_choice",
+          "options": ["Neko", "Nito", "Nuka", "Neso"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ねこ",
+            "transliteration": "Neko",
+            "baseTranslation": "Cat"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "How do you read the following word: たぬき",
+          "questionType": "multiple_choice",
+          "options": ["Tasuki", "Tanuki", "Tatuki", "Tasaki"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "たぬき",
+            "transliteration": "Tanuki",
+            "baseTranslation": "Raccoon dog"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_writing",
+      "sectionTitle": "Hiragana Writing",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Write the Hiragana characters for 'kasa' (umbrella).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "かさ",
+            "transliteration": "kasa",
+            "baseTranslation": "umbrella"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write the Hiragana characters for 'tsukue' (desk).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "つくえ",
+            "transliteration": "tsukue",
+            "baseTranslation": "desk"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write the formal greeting for 'Good morning' in Hiragana.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "おはようございます",
+            "transliteration": "ohayou gozaimasu",
+            "baseTranslation": "Good morning (formal)"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        }
+      ],
+      "sectionMarks": 15,
+      "sectionPassMarks": 5
+    },
+    {
+      "sectionId": "sec_culture",
+      "sectionTitle": "Culture & Formality",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q019",
+          "questionText": "In Japanese society, when should you use formal language (like using 'gozaimasu')?",
+          "questionType": "multiple_choice",
+          "options": [
+            "With close friends and family.",
+            "With teachers, superiors, and strangers.",
+            "Only when writing emails.",
+            "Only at night."
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "At 8:00 PM, which greeting is most appropriate to use when meeting someone?",
+          "questionType": "multiple_choice",
+          "options": ["おはようございます", "こんにちは", "こんばんは", "さようなら"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "こんばんは",
+            "transliteration": "Konbanwa",
+            "baseTranslation": "Good evening"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 10,
+      "sectionPassMarks": 5
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 10,
+    "pronunciation": 0,
+    "reading": 20,
+    "writing": 15,
+    "listening": 25,
+    "vocabulary": 30,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 70,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Hello / Good afternoon",
+      "q002": "おはようございます",
+      "q003": "Excuse me / I'm sorry",
+      "q004": "せんせい",
+      "q005": "ありがとうございます",
+      "q006": "True",
+      "q007": "Good morning (casual)",
+      "q008": "Thank you very much",
+      "q009": "No",
+      "q010": "Japanese language",
+      "q011": "To accept something (Here you go)",
+      "q012": "Aka",
+      "q013": "Sushi",
+      "q014": "Neko",
+      "q015": "Tanuki",
+      "q016": "かさ",
+      "q017": "つくえ",
+      "q018": "おはようございます",
+      "q019": "With teachers, superiors, and strangers.",
+      "q020": "こんばんは"
+    },
+    "scoringRubric": {
+      "q016": "Full marks for exact Hiragana.",
+      "q017": "Full marks for exact Hiragana.",
+      "q018": "Full marks for exact Hiragana. Half marks if casual version 'おはよう' is provided instead of formal."
+    },
+    "partialCreditRules": {
+      "q018": "Award 2.5 marks if answer is おはよう"
+    },
+    "alternateValidAnswers": {
+      "q016": ["kasa", "Kasa"],
+      "q017": ["tsukue", "Tsukue"],
+      "q018": ["ohayou gozaimasu", "Ohayou gozaimasu"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 20,
+      "sec_listening": 15,
+      "sec_reading": 10,
+      "sec_writing": 5,
+      "sec_culture": 5
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Congratulations! You have successfully completed Block 1. You have a solid grasp of Hiragana and basic greetings.",
+    "onFail": "You didn't pass this time, but that's okay. Review the Hiragana characters and the vocabulary lists, then try again.",
+    "onPartial": "Good effort! You're close to passing. Check which sections you struggled with and review those lessons."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b1/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block1",
+    "hiragana",
+    "greetings",
+    "beginner",
+    "month1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

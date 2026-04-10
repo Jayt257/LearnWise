@@ -1,0 +1,250 @@
+{
+  "activityId": "en_hi_M1B1_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Mastering English Phonics: V, W, Th, and Core Greetings",
+  "learningGoal": "The learner will accurately map correct lip and tongue placement to physically pronounce challenging English sounds and execute smooth, confident greetings without heavy Indian accent markers.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B1_lesson_001"],
+  "instructions": "In this extensive pronunciation trainer, you will practice the most difficult sounds for Hindi speakers. Listen to the native audio, pay attention to the phonetic lip placement hints, and record your voice trying to precisely mimic the native speaker. Aim for 80% accuracy to pass.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Correct pronunciation of English requires moving your mouth slightly differently than Hindi. Focus on the V, W, and Th sounds during these heavy drills."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "v001",
+      "targetText": "Van",
+      "transliteration": "वैन",
+      "baseTranslation": "गाड़ी / वैन",
+      "phoneticHint": "Place your top teeth on your bottom lip and push air out (vvvv-an).",
+      "syllableSplit": "Van",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it like 'Wæn' with round lips"
+    },
+    {
+      "itemId": "v002",
+      "targetText": "Very",
+      "transliteration": "वेरी",
+      "baseTranslation": "बहुत",
+      "phoneticHint": "Teeth on lip! Veh-ree",
+      "syllableSplit": "Ve-ry",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it softly like 'Waery'"
+    },
+    {
+      "itemId": "w001",
+      "targetText": "Water",
+      "transliteration": "वाटर",
+      "baseTranslation": "पानी",
+      "phoneticHint": "Round your lips like a tight circle (ooh-wa-ter).",
+      "syllableSplit": "Wa-ter",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it with teeth on lips like 'Vater'"
+    },
+    {
+      "itemId": "w002",
+      "targetText": "Welcome",
+      "transliteration": "वेलकम",
+      "baseTranslation": "स्वागत है",
+      "phoneticHint": "Round your lips completely before making the sound.",
+      "syllableSplit": "Wel-come",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it 'Velcome'"
+    },
+    {
+      "itemId": "th001",
+      "targetText": "Think",
+      "transliteration": "थिंक",
+      "baseTranslation": "सोचना",
+      "phoneticHint": "Put your tongue between your teeth and blow air out softly.",
+      "syllableSplit": "Think",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it harshly as 'Tink'"
+    },
+    {
+      "itemId": "th002",
+      "targetText": "Thank you",
+      "transliteration": "थैंक यू",
+      "baseTranslation": "आपका धन्यवाद",
+      "phoneticHint": "Tongue between teeth gently! Th-ank you.",
+      "syllableSplit": "Thank you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it like 'Tank you'"
+    },
+    {
+      "itemId": "th003",
+      "targetText": "That",
+      "transliteration": "दैट",
+      "baseTranslation": "वह",
+      "phoneticHint": "Tongue behind teeth, vocal fold vibrating. Like the Hindi 'द' but softer.",
+      "syllableSplit": "That",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Dat'"
+    },
+    {
+      "itemId": "th004",
+      "targetText": "The",
+      "transliteration": "द",
+      "baseTranslation": "यह / वह (निश्चित लेख)",
+      "phoneticHint": "Like a very soft, buzzing 'द'.",
+      "syllableSplit": "The",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Da'"
+    },
+    {
+      "itemId": "g001",
+      "targetText": "Good morning",
+      "transliteration": "गुड मॉर्निंग",
+      "baseTranslation": "शुभ प्रभात",
+      "phoneticHint": "Hold the 'R' in morning very lightly.",
+      "syllableSplit": "Good mor-ning",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Rolling the 'r' heavily like 'morrrrning'"
+    },
+    {
+      "itemId": "g002",
+      "targetText": "Good afternoon",
+      "transliteration": "गुड आफ्टरनून",
+      "baseTranslation": "शुभ दोपहर",
+      "phoneticHint": "Blend the d and a together (Goo-dafternoon).",
+      "syllableSplit": "Good af-ter-noon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Making a hard stop between good and afternoon"
+    },
+    {
+      "itemId": "g003",
+      "targetText": "Good evening",
+      "transliteration": "गुड ईवनिंग",
+      "baseTranslation": "शुभ संध्या",
+      "phoneticHint": "Blend again (Goo-devening).",
+      "syllableSplit": "Good e-ve-ning",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Adding harsh gaps between words"
+    },
+    {
+      "itemId": "g004",
+      "targetText": "Good night",
+      "transliteration": "गुड नाईट",
+      "baseTranslation": "शुभ रात्रि",
+      "phoneticHint": "The 'gh' is totally silent.",
+      "syllableSplit": "Good night",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing the G in night"
+    },
+    {
+      "itemId": "g005",
+      "targetText": "Hello",
+      "transliteration": "हेलो",
+      "baseTranslation": "नमस्ते",
+      "phoneticHint": "Put emphasis on the second syllable: he-LOH.",
+      "syllableSplit": "Hel-lo",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "HE-llo"
+    },
+    {
+      "itemId": "g006",
+      "targetText": "How are you?",
+      "transliteration": "हाउ आर यू?",
+      "baseTranslation": "आप कैसे हैं?",
+      "phoneticHint": "Blend words, 'are' becomes very quick and soft.",
+      "syllableSplit": "How are you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Emphasizing all words equally like a robot"
+    },
+    {
+      "itemId": "g007",
+      "targetText": "I am fine",
+      "transliteration": "आई एम फाइन",
+      "baseTranslation": "मैं ठीक हूँ",
+      "phoneticHint": "Fine requires the 'F' sound—teeth on lips!",
+      "syllableSplit": "I am fine",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'pine' instead of 'fine'"
+    },
+    {
+      "itemId": "g008",
+      "targetText": "Goodbye",
+      "transliteration": "गुडबाय",
+      "baseTranslation": "अलविदा",
+      "phoneticHint": "Emphasis on the BYE.",
+      "syllableSplit": "Good-bye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Van, Very, Water, Welcome, Think, Thank you, That, The, Good morning, Good afternoon, Good evening, Good night, Hello, How are you, I am fine, Goodbye",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! Your mouth movements are adapting wonderfully to the English phonetic system.",
+    "onFail": "Keep practicing in front of a mirror! Make sure your teeth touch your lips for V, and your lips become round for W.",
+    "onPartial": "You are getting closer! Focus specifically on maintaining a soft 'R' sound and rounding your lips for W."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Van, Very, Water, Welcome, Think, Thank you, That, The, Good morning, Good afternoon, Good evening, Good night, Hello, How are you, I am fine, Goodbye",
+    "acceptedVariants": [
+      "how're you",
+      "I'm fine",
+      "good bye"
+    ],
+    "syllableSplitReference": "See targetPhrasesOrWords array",
+    "phoneticApproximation": "V requires teeth on lip. W requires round lips. Th requires tongue near teeth.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "moderate"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b1/pronunciation/native_mix.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b1/pronunciation/slow_mix.mp3",
+    "normalAudio": "audio/en_hi/m1/b1/pronunciation/normal_mix.mp3",
+    "audioTranscript": "Van. Very. Water. Welcome. Think. Thank you. That. The. Good morning. Good afternoon. Good evening. Good night. Hello. How are you. I am fine. Goodbye.",
+    "audioLanguage": "en",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "v-w-sounds", "th-sound", "greetings", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b1/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use a pocket mirror: if your bottom lip is completely hidden when you say 'Very', you are pronouncing it wrong!",
+  "commonMistakes": [
+    "Merging V and W into a single 'wa' sound",
+    "Pronouncing 'th' as a hard 'T' or 'D'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B1_reading_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

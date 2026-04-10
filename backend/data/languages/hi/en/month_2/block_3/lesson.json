@@ -1,0 +1,205 @@
+{
+  "activityId": "en_hi_M2B3_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "Yesterday: The Simple Past",
+  "learningGoal": "The learner will map Hindi past tense completions ('खाया', 'गया') to English Simple Past, mastering regular '-ed' suffixes and identifying the lack of auxiliary verbs in affirmative past tense statements (preventing the 'I am played' error).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B2_test_001"],
+  "instructions": "Now we are going back in time! If something happened yesterday, we use the Simple Past verb. Read this lesson to learn how to add '-ed' to action words, and learn why some words completely change their shape!",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "जब आप अतीत (Past) के बारे में बात करते हैं—जैसे 'मैं गया' (I went) या 'मैंने खेला' (I played)—तो आप क्रिया (Verb) का एक नया रूप उपयोग करते हैं। बुरी खबर यह है कि अंग्रेजी में अतीत के शब्द थोड़े अजीब हैं। अच्छी खबर यह है कि आपको यहाँ 'is/am/are' का उपयोग करने की आवश्यकता नहीं है!"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Affirmative Simple Past sentences NEVER use 'am', 'is', or 'are'. (I played, NOT I am played).",
+      "Regular verbs are transformed to the past by adding '-ed' (Play -> Played, Walk -> Walked).",
+      "Irregular verbs change their spelling entirely and must be memorized (Go -> Went, Eat -> Ate)."
+    ],
+    "conceptSummary": "Introduction to the Simple Past aspect, focusing heavily on eliminating the auxiliary copula from affirmative past statements while introducing the concept of irregular verb conjugation.",
+    "importantFacts": [
+      "Saying 'I am went' or 'He is played' is a critical, devastating error. The verb alone carries the past tense.",
+      "Just like adjectives, past tense verbs do NOT change based on the subject's gender or plurality. 'I went', 'He went', 'They went'."
+    ],
+    "checkpointAnswers": {
+      "q1": "I played",
+      "q2": "Went",
+      "q3": "False",
+      "q4": "We ate an apple."
+    },
+    "expectedUnderstanding": "Learners will sever the auxiliary 'To Be' verb from past tense affirmative sentences and successfully identify common irregulars."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand that past actions live alone. 'I played', NOT 'I am played'.",
+    "onFail": "Please review carefully! A massive mistake is saying 'I am went'. If it happened yesterday, drop the 'am/is/are' completely. Just say 'I went'.",
+    "onPartial": "Good effort! Watch out for irregular verbs. You don't say 'Eated', you say 'Ate'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b3/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m2/b3/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m2/b3/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m2/b3/lesson/native_lesson.mp3",
+    "audioTranscript": "I played. I went. I ate.",
+    "audioLanguage": "en",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "tenses", "simple_past", "verbs", "irregular_verbs", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b3/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If it happened yesterday, you do NOT need a helper verb. Say goodbye to Is/Am/Are!",
+  "commonMistakes": [
+    "Saying 'I am played football'.",
+    "Saying 'He was go to the store'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B3_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "How to Talk About Yesterday",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Drop the 'Is/Am/Are' (सहायक क्रियाओं को छोड़ दें)",
+      "bodyText": "अतीत के बारे में बात करते समय सबसे बड़ा नियम यह है कि आपको 'is, am, are' की आवश्यकता नहीं है। यदि आप कहते हैं 'I am played', तो यह व्याकरण के अनुसार पूरी तरह से गलत है। 'I am' का अर्थ है 'मैं हूँ'। 'Played' का अर्थ है 'खेला'। आप ये दोनों एक साथ नहीं हो सकते!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I played football.",
+          "transliteration": "आई प्लेड फुटबॉल।",
+          "baseTranslation": "मैंने फुटबॉल खेला। (न कि 'I am played')"
+        },
+        {
+          "targetText": "He walked to the park.",
+          "transliteration": "ही वाक्ड टू द पार्क।",
+          "baseTranslation": "वह पार्क तक चलकर गया।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Regular Verbs: Just Add '-ED' ('-ed' जोड़ें)",
+      "bodyText": "अधिकांश शब्दों को अतीत में बदलने के लिए, बस उनके अंत में '-ed' जोड़ दें।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Today I play. Yesterday I played.",
+          "transliteration": "टुडे आई प्ले। यस्टरडे आई प्लेड।",
+          "baseTranslation": "आज मैं खेलता हूँ। कल मैंने खेला।"
+        },
+        {
+          "targetText": "Today I walk. Yesterday I walked.",
+          "transliteration": "टुडे आई वॉक। यस्टरडे आई वाक्ड।",
+          "baseTranslation": "आज मैं चलता हूँ। कल मैं चला।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "Irregular Verbs: The Rule Breakers! (नियम तोड़ने वाले)",
+      "bodyText": "अंग्रेजी में कुछ शब्द ऐसे हैं जो '-ed' का नियम नहीं मानते हैं। वे पूरी तरह से बदल जाते हैं। आपको इन्हें याद करना होगा!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Go -> Went",
+          "transliteration": "गो -> वेंट",
+          "baseTranslation": "जाना -> गया. (न कि 'Go-ed')",
+          "extraInfo": "Example: I went to school."
+        },
+        {
+          "targetText": "Eat -> Ate",
+          "transliteration": "ईट -> एट",
+          "baseTranslation": "खाना -> खाया. (न कि 'Eat-ed')",
+          "extraInfo": "Example: I ate an apple."
+        },
+        {
+          "targetText": "See -> Saw",
+          "transliteration": "सी -> सॉ",
+          "baseTranslation": "देखना -> देखा. (न कि 'See-ed')",
+          "extraInfo": "Example: I saw a dog."
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "No Gender, No Plurality (कोई लिंग नहीं, कोई बहुवचन नहीं)",
+      "bodyText": "हिंदी में, क्रिया लिंग के आधार पर बदलती है: 'लड़का गया', 'लड़की गई', 'वे गए'। अंग्रेजी में, अतीत की क्रिया कभी नहीं बदलती!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I went. She went. We went.",
+          "transliteration": "आई वेंट। शी वेंट। वी वेंट।",
+          "baseTranslation": "मैं गया। वह गई। हम गए। (सबके लिए सिर्फ 'Went'!)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will establish syntactic independence between pronouns and past morphological shifts (e.g. knowing that auxiliary 'to be' is illegal in standard affirmative past structures).",
+  "examples": [
+    {
+      "targetText": "She cleaned the room.",
+      "transliteration": "शी क्लींड द रूम।",
+      "baseTranslation": "उसने कमरा साफ किया।",
+      "explanation": "Add '-ed' to 'clean' to make it past tense. Notice there is no 'is' or 'are'."
+    },
+    {
+      "targetText": "They went to the shop.",
+      "transliteration": "दे वेंट टू द शॉप।",
+      "baseTranslation": "वे दुकान गए।",
+      "explanation": "'Go' is irregular, so it completely changes its shape to 'Went'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "NEVER use a 'To Be' helper verb (Is/Am/Are) with an '-ED' word. 'I am played' sounds like gibberish.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Memorize the Irregular 3: Go -> Went, Eat -> Ate, See -> Saw.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "When talking about the past, do two things. First: THROW AWAY the helper verbs (is/am/are). Second: Attach '-ed' to the action word, unless it is a rule breaker (like Go becoming Went)!",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Translate 'मैंने खेला' to English.",
+      "expectedAnswer": "I played"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Fill in the blank with the correct past word for 'Go': Yesterday, he _____ to work.",
+      "expectedAnswer": "Went"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "True or False: Saying 'I am ate an apple' is completely correct.",
+      "expectedAnswer": "False"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Translate 'हमने एक सेब खाया' using the past version of 'Eat'.",
+      "expectedAnswer": "We ate an apple."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "activityId": "en_ja_M2B4_lesson_1",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Simple Past Tense & Irregular Verbs",
+  "learningGoal": "Learn how to talk about the past using regular verbs (-ed) and common irregular verbs, and understand how to form past questions and negatives using 'did'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_ja_M2B3_test_8"
+  ],
+  "instructions": "「昨日〜した」「先週〜に行った」など、過去の出来事について話す方法を学びます。規則的に変化する動詞と、形が全く変わってしまう「不規則動詞」をマスターしましょう。(Learn how to talk about past events using regular and irregular verbs.)",
+  "conceptTitle": "Talking About the Past",
+  "lessonContent": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "過去形とは（規則動詞）",
+      "bodyText": "「昨日〜した」と言う時、動詞の後ろに「ed」をつけます（例：play → played）。ただし、「e」で終わる単語は「d」だけをつけます（例：like → liked）。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I played tennis yesterday.",
+          "transliteration": "アイ プレイド テニス イエスタデイ",
+          "baseTranslation": "私は昨日テニスをしました。",
+          "audioRef": null
+        },
+        {
+          "targetText": "She watched a movie last night.",
+          "transliteration": "シー ウォッチト ア ムービー ラスト ナイト",
+          "baseTranslation": "彼女は昨夜映画を見ました。",
+          "audioRef": null
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "不規則動詞（形が全く変わる動詞）",
+      "bodyText": "よく使う動詞の中には、「ed」がつかず、形が全く変わってしまうものがあります。これらは「不規則動詞」と呼ばれ、暗記する必要があります。例：go → went, eat → ate, see → saw, have → had。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I went to Tokyo last week.",
+          "transliteration": "アイ ウェント トゥ トーキョー ラスト ウィーク",
+          "baseTranslation": "私は先週東京に行きました。（goの過去形）",
+          "audioRef": null
+        },
+        {
+          "targetText": "We ate sushi for dinner.",
+          "transliteration": "ウィー エイト スシ フォー ディナー",
+          "baseTranslation": "私たちは夕食に寿司を食べました。（eatの過去形）",
+          "audioRef": null
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "be動詞の過去形 (was / were)",
+      "bodyText": "「〜だった」「〜にいた」という状態を表すbe動詞も過去形になります。am と is は「was」に、are は「were」になります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I was tired yesterday.",
+          "transliteration": "アイ ワズ タイアード イエスタデイ",
+          "baseTranslation": "私は昨日疲れていました。（am → was）",
+          "audioRef": null
+        },
+        {
+          "targetText": "They were at home.",
+          "transliteration": "ゼイ ワー アット ホーム",
+          "baseTranslation": "彼らは家にいました。（are → were）",
+          "audioRef": null
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "過去の疑問文「〜しましたか？」",
+      "bodyText": "過去の質問をする時は、文の最初に「Did」を置きます。ここが一番のポイントです：【Did を使ったら、後ろの動詞は必ず原形（元の形）に戻ります】。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Did you play tennis?",
+          "transliteration": "ディジュー プレイ テニス？",
+          "baseTranslation": "テニスをしましたか？（played にならない！）",
+          "audioRef": null
+        },
+        {
+          "targetText": "Did she go to Tokyo?",
+          "transliteration": "ディド シー ゴー トゥ トーキョー？",
+          "baseTranslation": "彼女は東京に行きましたか？（went にならない！）",
+          "audioRef": null
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_5",
+      "sectionTitle": "過去の否定文「〜しませんでした」",
+      "bodyText": "「〜しなかった」と言う時は「didn't（did not）」を使います。疑問文と同じく、【didn't の後ろの動詞は原形】に戻ります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I didn't play tennis.",
+          "transliteration": "アイ ディドント プレイ テニス",
+          "baseTranslation": "私はテニスをしませんでした。",
+          "audioRef": null
+        },
+        {
+          "targetText": "He didn't eat breakfast.",
+          "transliteration": "ヒー ディドント イート ブレックファースト",
+          "baseTranslation": "彼は朝食を食べませんでした。",
+          "audioRef": null
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will conjugate regular and common irregular verbs into the past tense, and construct negative and interrogative sentences using 'did/didn't' with base verbs.",
+  "examples": [
+    {
+      "targetText": "I went to a restaurant yesterday. I didn't eat sushi. I ate steak.",
+      "transliteration": "アイ ウェント トゥ ア レストラン イエスタデイ。アイ ディドント イート スシ。アイ エイト ステーキ",
+      "baseTranslation": "昨日レストランに行きました。寿司は食べませんでした。ステーキを食べました。",
+      "explanation": "肯定文（〜した）では went や ate のように過去形にしますが、否定文（〜しなかった）では didn't の後ろなので eat（原形）に戻っています。"
+    },
+    {
+      "targetText": "Did you see the movie? Yes, it was great.",
+      "transliteration": "ディジュー シー ザ ムービー？ イエス、イット ワズ グレイト",
+      "baseTranslation": "その映画を見ましたか？ はい、素晴らしかったです。",
+      "explanation": "質問なので Did を使い、動詞は see（原形）に戻っています。また、「素晴らしかった」と過去の状態を言うために is ではなく was を使っています。"
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "goの過去形はwent、eatはate、seeはsaw、haveはhadなど、不規則に変化する動詞は暗記する。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Did や didn't を使った文では、動詞は必ず「原形」に戻る（× Did you went? → ○ Did you go?）。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "be動詞の過去形は、主語が I, He, She, It なら was、You, We, They なら were を使う。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "日本人が最もよく間違えるのが、過去の質問で「Did you went?」と言ってしまうことです。「Did（過去のしるし）」が前にあるので、後ろの動詞まで過去形（went）にする必要はありません。英語は「過去のサインは1つの文に1つだけ」と覚えておきましょう。",
+    "dosList": [
+      "疑問文と否定文では必ず動詞を原形に戻す。"
+    ],
+    "dontsList": [
+      "Did you ate? や I didn't played と言わない。"
+    ]
+  },
+  "summary": "このレッスンでは、過去形（edをつける規則動詞と、形が変わる不規則動詞）を学びました。また、Did や didn't を使う時は、動詞が原形に戻るという重要なルールをマスターしました。",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「昨日彼を見ましたか？」という時、正しいのはどちらですか？ A: Did you saw him yesterday? / B: Did you see him yesterday?",
+      "expectedAnswer": "B (Didを使っているので、動詞は原形の see に戻ります)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「彼女は昨日家にいませんでした」という時、正しいのはどちらですか？ A: She wasn't at home yesterday. / B: She didn't at home yesterday.",
+      "expectedAnswer": "A (家に「いる」という状態を表すbe動詞の過去形 was の否定なので、wasn't となります)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Regular past tense = verb + ed.",
+      "Irregular past tense must be memorized (go->went, eat->ate).",
+      "Questions use 'Did + subject + base verb'.",
+      "Negatives use 'didn't + base verb'."
+    ],
+    "conceptSummary": "Learning how to express completed actions in the past and the critical rule of reverting to the base verb when using 'did/didn't'.",
+    "importantFacts": [
+      "Double past tense (Did you went?) is a very common beginner mistake."
+    ],
+    "checkpointAnswers": {
+      "q1": "B",
+      "q2": "A"
+    },
+    "expectedUnderstanding": "Learners should stop using the past tense verb form in negative sentences and questions."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Didの後ろは原形に戻るという、過去形の最も重要なルールを理解できました。",
+    "onFail": "もう一度ルールを確認しましょう。Didやdidn'tの文で「Did you went?」のように過去形を重ねないように注意です。",
+    "onPartial": "よくできました。be動詞（was/were）と一般動詞（play/goなど）の違いをもう一度確認してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "grammar",
+    "simple_past",
+    "irregular_verbs",
+    "did",
+    "didn't"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Did や didn't が文の中にある時は、その後の動詞は「元の形」です！",
+  "commonMistakes": [
+    "Saying 'Did you went?'.",
+    "Saying 'I didn't ate'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B4_pronunciation_2"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

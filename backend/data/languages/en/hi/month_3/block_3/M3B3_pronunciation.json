@@ -1,0 +1,150 @@
+{
+  "activityId": "hi_en_M3B3_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Fusing the Compound Verb",
+  "learningGoal": "Pronounce compound verbs fluidly, ensuring the root verb and vector verb sound like a single cohesive unit.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M3B3_lesson_1"
+  ],
+  "instructions": "In spoken Hindi, compound verbs are said rapidly without a pause in between. 'Bata diya' should sound almost like a single word. Practice blending these verbs together.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "बता दिया",
+      "transliteration": "Bata diya",
+      "baseTranslation": "Told (outward)",
+      "phoneticHint": "buh-taa-dee-yaa",
+      "syllableSplit": "ba-ta di-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pausing between 'bata' and 'diya'. They must flow together instantly."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "समझ ली",
+      "transliteration": "Samajh li",
+      "baseTranslation": "Understood (inward)",
+      "phoneticHint": "suh-mujh lee",
+      "syllableSplit": "sa-majh li",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Ignoring the 'h' in 'samajh'. It must be aspirated before transitioning to 'li'."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "सो गया",
+      "transliteration": "So gaya",
+      "baseTranslation": "Fell asleep",
+      "phoneticHint": "so guh-yaa",
+      "syllableSplit": "so ga-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'sew gaya'. The 'o' in 'so' is pure and round, not a diphthong."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "मार डाला",
+      "transliteration": "Maar daala",
+      "baseTranslation": "Killed / Smashed",
+      "phoneticHint": "maar daa-laa",
+      "syllableSplit": "maar daa-la",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using a soft 'd' for 'daala'. It must be a hard, retroflex 'D' (tongue curled back to the roof of the mouth)."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "रो पड़ी",
+      "transliteration": "Ro padi",
+      "baseTranslation": "Burst into tears (Feminine)",
+      "phoneticHint": "ro puh-dee",
+      "syllableSplit": "ro pa-di",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing 'padi' with a regular D. It is a retroflex flap (the tongue snaps forward)."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "पी लिया",
+      "transliteration": "Pee liya",
+      "baseTranslation": "Drank up",
+      "phoneticHint": "pee lee-yaa",
+      "syllableSplit": "pee li-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Shortening the 'ee' in 'Pee'. It must be a long, distinct 'Pee' followed directly by 'li-ya'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "आ जाओ",
+      "transliteration": "Aa jao",
+      "baseTranslation": "Arrive / Come on over",
+      "phoneticHint": "aa jaa-oh",
+      "syllableSplit": "aa ja-o",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Slurring it into 'Aajo'. The two distinct 'A' sounds must be maintained: 'Aa' then 'jaa-o'."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Fluid, continuous pronunciation of the root and vector verbs without awkward pauses, maintaining correct retroflex consonants.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Perfect! Your verbs flow together beautifully, sounding highly native.",
+    "onFail": "Don't pause between the two verbs. Treat 'Bata diya' as one long word.",
+    "onPartial": "Good effort. Pay close attention to the retroflex sounds in 'Daala' and 'Padi'. They require the tongue to curl back."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "compound_verbs",
+    "vector_verbs",
+    "fluidity",
+    "retroflex"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To nail the retroflex 'D' in Daala and Padi, touch the tip of your tongue to the highest point of the roof of your mouth.",
+  "commonMistakes": [
+    "Pausing between the root and vector."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B3_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

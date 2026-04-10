@@ -1,0 +1,179 @@
+{
+  "activityId": "en_hi_M2B5_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Whose Is This?",
+  "learningGoal": "The learner will verbally construct animate possessive noun phrases using the 's suffix and accurately differentiate between proximal singular/plural demonstratives.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B5_vocabulary_001"],
+  "instructions": "You found some items left in the office meeting room. Your coworker is asking you who owns them. Reply ALOUD to her questions. Make sure to use the 'S for people's names! And use This/That/These/Those correctly based on her questions.",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "When you say a name with an S, do not pause! It is 'Amits', not 'Amit...s'."
+    }
+  ],
+  "speakingPrompt": "Respond to the Hindi prompts aloud.",
+  "scenario": "Returning lost items in an office.",
+  "role": "The Finder",
+  "conversationPartner": "Your coworker Priya",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "प्रिया: 'Whose bag is this?' (यह किसका बैग है?) जवाब दें: 'यह अमित का बैग है।' (This is...)",
+      "expectedSpeakingPoints": ["This is", "Amit's bag"],
+      "sampleResponse": {
+        "targetText": "This is Amit's bag.",
+        "transliteration": "दिस इज़ अमित'स बैग।",
+        "baseTranslation": "यह अमित का बैग है।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "प्रिया: 'Oh, you are right. And whose phone is that on the table?' (और मेज पर वह फोन किसका है?) जवाब दें: 'वह राहुल का फोन है।' (That is...)",
+      "expectedSpeakingPoints": ["That is", "Rahul's phone"],
+      "sampleResponse": {
+        "targetText": "That is Rahul's phone.",
+        "transliteration": "दैट इज़ राहुल'स फोन।",
+        "baseTranslation": "वह राहुल का फोन है।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "प्रिया: 'It looks broken.' (यह टूटा हुआ लग रहा है।) जवाब दें: 'हाँ। फोन की स्क्रीन टूट गई है।' (Yes. The screen of the phone...)",
+      "expectedSpeakingPoints": ["Yes", "The screen of the phone", "is broken"],
+      "sampleResponse": {
+        "targetText": "Yes. The screen of the phone is broken.",
+        "transliteration": "येस। द स्क्रीन ऑफ द फोन इज़ ब्रोकन।",
+        "baseTranslation": "हाँ। फ़ोन की स्क्रीन टूट गई है।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "प्रिया: 'Are these your keys?' (क्या ये तुम्हारी चाबियां हैं?) जवाब दें: 'नहीं, ये मेरी चाबियां नहीं हैं। ये सारा की चाबियां हैं।' (No, these are...)",
+      "expectedSpeakingPoints": ["No", "these are not my keys", "These are Sarah's keys"],
+      "sampleResponse": {
+        "targetText": "No, these are not my keys. These are Sarah's keys.",
+        "transliteration": "नो, दीज़ आर नॉट माई कीज़। दीज़ आर सारा'स कीज़।",
+        "baseTranslation": "नहीं, ये मेरी चाबियां नहीं हैं। ये सारा की चाबियां हैं।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "प्रिया: 'Okay, I will give them to her.' (ठीक है, मैं उन्हें दे दूंगी।) जवाब दें: 'धन्यवाद, प्रिया।' (Thank you...)",
+      "expectedSpeakingPoints": ["Thank you", "Priya"],
+      "sampleResponse": {
+        "targetText": "Thank you, Priya.",
+        "transliteration": "थैंक यू, प्रिया।",
+        "baseTranslation": "धन्यवाद, प्रिया।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Whose bag is this?",
+    "transliteration": "हूज़ बैग इज़ दिस?",
+    "baseTranslation": "यह किसका बैग है?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "This is Amit's bag.",
+      "transliteration": "दिस इज़ अमित'स बैग।",
+      "baseTranslation": "यह अमित का बैग है।"
+    },
+    {
+      "targetText": "That is Rahul's phone.",
+      "transliteration": "दैट इज़ राहुल'स फोन।",
+      "baseTranslation": "वह राहुल का फोन है।"
+    },
+    {
+      "targetText": "Yes. The screen of the phone is broken.",
+      "transliteration": "येस। द स्क्रीन ऑफ द फोन इज़ ब्रोकन।",
+      "baseTranslation": "हाँ। फ़ोन की स्क्रीन टूट गई है।"
+    },
+    {
+      "targetText": "No, these are not my keys. These are Sarah's keys.",
+      "transliteration": "नो, दीज़ आर नॉट माई कीज़। दीज़ आर सारा'स कीज़।",
+      "baseTranslation": "नहीं, ये मेरी चाबियां नहीं हैं। ये सारा की चाबियां हैं।"
+    },
+    {
+      "targetText": "Thank you, Priya.",
+      "transliteration": "थैंक यू, प्रिया।",
+      "baseTranslation": "धन्यवाद, प्रिया।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "amit's bag",
+      "rahul's phone",
+      "screen of the phone",
+      "these are",
+      "sarah's keys"
+    ],
+    "requiredKeywords": [
+      "amit's",
+      "rahul's",
+      "of",
+      "these",
+      "sarah's"
+    ],
+    "acceptableParaphrases": [
+      "It is Amit's bag",
+      "That phone is Rahul's",
+      "The phone's screen is broken (Grammatically acceptable in modern parlance, but 'screen of phone' is preferred target)",
+      "They are Sarah's keys"
+    ],
+    "scoringRubric": {
+      "Animate Possessive": "Did the user say 'Amit's bag' and NOT 'The bag of Amit'?",
+      "Inanimate Possessive": "Did the user deploy the partitive 'of' for the phone screen?",
+      "Demonstrative Plurality": "Did the user correctly use 'These' for the keys?"
+    },
+    "sampleAnswer": "This is Amit's bag. That is Rahul's phone. Yes, the screen of the phone is broken. No, these are not my keys. These are Sarah's keys. Thank you, Priya.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You correctly identified human owners using the 'S, and you perfectly handled pointing at singular versus plural objects!",
+    "onFail": "Keep practicing! A very common mistake is saying 'This are keys'. You cannot say 'This are'. If there are many keys, it MUST be 'These are'.",
+    "onPartial": "Good try! Make sure you don't say 'The bag of Amit'. While technically understandable, native English speakers never talk like that. Always use the Apostrophe 'S' for people!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b5/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m2/b5/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b5/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m2/b5/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m2/b5/speaking/full_dialogue.mp3",
+    "audioTranscript": "Priya: Whose bag is this?...",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "possessives", "demonstratives", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b5/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To train your brain, hiss like a snake at the end of the names! A-mit-SSS. Ra-hul-SSS.",
+  "commonMistakes": [
+    "Saying 'That is the phone of Rahul'.",
+    "Using 'This is Sarah's keys' instead of 'These are'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B5_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

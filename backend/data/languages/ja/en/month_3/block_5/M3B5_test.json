@@ -1,0 +1,282 @@
+{
+  "activityId": "en_ja_M3B5_test_8",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Test: Medical & Emergencies",
+  "learningGoal": "Evaluate your understanding of emergency vocabulary, describing medical symptoms, and stating allergies.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B5_speaking_7"
+  ],
+  "instructions": "Month 3 Block 5 のテストです。病院での症状の伝え方、アレルギーの表現、そして緊急時の語彙についての問題に答えてください。(This is the Block 5 test. Answer questions about describing symptoms, stating allergies, and emergency vocabulary.)",
+  "testTitle": "Medical Emergency Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Describing Symptoms (症状を伝える)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「私はひどい頭痛があります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "My head is headache.",
+            "I have a terrible headache.",
+            "I am headache.",
+            "My headache is terrible."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「私の腕が痛いです」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have an armache.",
+            "My arm hurts.",
+            "My arm is pain.",
+            "I am hurt my arm."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "「私はペニシリンにアレルギーがあります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am allergic to penicillin.",
+            "I am allergy penicillin.",
+            "I have allergic for penicillin.",
+            "I allergic with penicillin."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Vocabulary: Medical Terms (医療用語)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「prescription」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "病院",
+            "処方箋（薬の指示書）",
+            "救急車",
+            "保険"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「nauseous」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "めまいがする",
+            "吐き気がする",
+            "熱がある",
+            "出血している"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "「dizzy」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "めまいがする",
+            "吐き気がする",
+            "痛い",
+            "眠い"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Emergency Situations (緊急事態)",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「救急車を呼んでください！」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Please call a hospital!",
+            "Please call a doctor!",
+            "Please call an ambulance!",
+            "Please call a police!"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「薬を飲む」の正しい英語表現はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Eat medicine",
+            "Drink medicine",
+            "Take medicine",
+            "Have medicine"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「旅行保険」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Travel ambulance",
+            "Travel pharmacy",
+            "Travel insurance",
+            "Travel accident"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "Comprehensive Understanding",
+      "questions": [
+        {
+          "questionId": "q10",
+          "questionText": "「私はピーナッツアレルギーです。救急車を呼んでください。」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have a peanut allergy. Call the police.",
+            "I am allergic to peanuts. Please call an ambulance.",
+            "I am allergy for peanuts. Please call a pharmacy.",
+            "I allergic peanuts. Call a doctor."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        },
+        {
+          "questionId": "q11",
+          "questionText": "医師から「Take one pill twice a day after meals.」と言われました。どういう意味ですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "1日1回、食前に2錠飲む",
+            "1日2回、食後に1錠飲む",
+            "1日2回、食前に1錠飲む",
+            "痛い時に2錠飲む"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q11"
+        },
+        {
+          "questionId": "q12",
+          "questionText": "道を歩いていた人が車に轢かれました。目撃者として911（警察）に電話する時の最初の言葉として最も適切なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have a headache.",
+            "I need to fill this prescription.",
+            "There has been a terrible accident.",
+            "Do you have travel insurance?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q12"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "I have a terrible headache.",
+      "q2": "My arm hurts.",
+      "q3": "I am allergic to penicillin.",
+      "q4": "処方箋（薬の指示書）",
+      "q5": "吐き気がする",
+      "q6": "めまいがする",
+      "q7": "Please call an ambulance!",
+      "q8": "Take medicine",
+      "q9": "Travel insurance",
+      "q10": "I am allergic to peanuts. Please call an ambulance.",
+      "q11": "1日2回、食後に1錠飲む",
+      "q12": "There has been a terrible accident."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 20,
+      "sec_4": 20
+    },
+    "overallPassMark": 90
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！緊急時に自分の身を守るための重要な英語を完璧に理解しています。",
+    "onFail": "もう一度復習しましょう。特に「I am allergic to...」と「take medicine」は海外で必須の表現です。",
+    "onPartial": "よくできました。医療用語（prescription, nauseous, dizzy）の意味をしっかりと確認しておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_5",
+    "month_3",
+    "medical",
+    "emergencies"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember: You 'take' medicine, and you are 'allergic TO' something.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B6_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

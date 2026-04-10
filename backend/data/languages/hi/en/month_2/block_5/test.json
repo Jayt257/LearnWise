@@ -1,0 +1,386 @@
+{
+  "activityId": "en_hi_M2B5_test_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Mega Assessment: Pointing & Owning",
+  "learningGoal": "The learner will demonstrate mastery over English genitive stratification (animate 's vs inanimate 'of') and successfully align the four spatial demonstrative pronouns to corresponding singular/plural semantic loads.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M2B5_lesson_001",
+    "en_hi_M2B5_pronunciation_001",
+    "en_hi_M2B5_reading_001",
+    "en_hi_M2B5_writing_001",
+    "en_hi_M2B5_listening_001",
+    "en_hi_M2B5_vocabulary_001",
+    "en_hi_M2B5_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 5. It contains 20 questions evaluating your ability to show who owns what, and your ability to point at objects far and near. DO NOT mix up the 'Of' rule with the 's rule!",
+  "testTitle": "Block 5 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Possessive Stratification",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: That is ________ book.",
+          "questionType": "multiple_choice",
+          "options": ["the book of Sarah", "Sarah's", "Sarah book's", "Sarahs"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which sentence means 'घर का दरवाज़ा'?",
+          "questionType": "multiple_choice",
+          "options": ["The house's door.", "The door of the house.", "The door house.", "The house of door."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Choose the correct pointing word for many things far away:",
+          "questionType": "multiple_choice",
+          "options": ["This", "That", "These", "Those"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: Saying 'These is my car' is grammatically correct.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "How would you correctly translate 'कुत्ते का खिलौना'?",
+          "questionType": "multiple_choice",
+          "options": ["The toy of the dog", "The dog toys", "The dog's toy", "Dog is toy"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: House & Hold",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What word means 'बटुआ'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Wallet",
+            "transliteration": "वॉलेट",
+            "baseTranslation": "बटुआ"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If you look up inside a house, you see the _____.",
+          "questionType": "multiple_choice",
+          "options": ["Floor", "Door", "Roof", "Keys"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English word for 'चाबियाँ' (plural).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Keys",
+            "transliteration": "कीज़",
+            "baseTranslation": "चाबियाँ"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "The _____ is used to enter a house.",
+          "questionType": "multiple_choice",
+          "options": ["Window", "Door", "Screen", "Wallet"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What does 'Floor' mean?",
+          "questionType": "multiple_choice",
+          "options": ["दीवार", "काँच", "फर्श", "छत"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Demonstrative Correction",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "Find the massive mistake: 'Those is a big birds.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'Those are big birds.'", "It should be 'That are big birds.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Why is 'The car of Amit is fast' weird English?",
+          "questionType": "multiple_choice",
+          "options": ["Because Amit is a human and should get an apostrophe 'S'.", "Because cars don't belong to humans.", "It is not weird."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the mistake: 'This girls are my friends.'",
+          "questionType": "multiple_choice",
+          "options": ["It should be 'These girls are my friends.'", "It should be 'That girls are my friends.'", "There is no mistake"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "If you hold one pen in your hand, you say: '_____ is my pen.'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which means 'कार का पहिया'?",
+          "questionType": "multiple_choice",
+          "options": ["The tire of the car", "The car's tire", "The tire car's", "The of tire car"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translate to English",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'यह राहुल की किताब है।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "This is Rahul's book.",
+            "transliteration": "दिस इज़ राहुल'स बुक।",
+            "baseTranslation": "यह राहुल की किताब है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'वे मेरी चाबियां हैं।' (They are far away. 'T... a... m... k...')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Those are my keys.",
+            "transliteration": "दोज़ आर माई कीज़।",
+            "baseTranslation": "वे मेरी चाबियां हैं।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'घर की छत' (The r... of the h...)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "The roof of the house.",
+            "transliteration": "द रूफ ऑफ द हाउस।",
+            "baseTranslation": "घर की छत।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'ये कुत्ते' (Near to you, multiple dogs. 'T... d...')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "These dogs.",
+            "transliteration": "दीज़ डॉग्स।",
+            "baseTranslation": "ये कुत्ते।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'वह सारा की कार है।' (Far away. 'T... i... S... c...')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "That is Sarah's car.",
+            "transliteration": "दैट इज़ सारा'स कार।",
+            "baseTranslation": "वह सारा की कार है।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Sarah's",
+      "q002": "The door of the house.",
+      "q003": "Those",
+      "q004": "False",
+      "q005": "The dog's toy",
+      "q006": "Wallet",
+      "q007": "Roof",
+      "q008": "Keys",
+      "q009": "Door",
+      "q010": "फर्श",
+      "q011": "It should be 'Those are big birds.'",
+      "q012": "Because Amit is a human and should get an apostrophe 'S'.",
+      "q013": "It should be 'These girls are my friends.'",
+      "q014": "This",
+      "q015": "The tire of the car",
+      "q016": "This is Rahul's book.",
+      "q017": "Those are my keys.",
+      "q018": "The roof of the house.",
+      "q019": "These dogs.",
+      "q020": "That is Sarah's car."
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'the book of Rahul' is used. Must test animate 's."
+    },
+    "partialCreditRules": {
+      "q018": "Give 5 marks if written 'roof of the house' or 'Roof of house'."
+    },
+    "alternateValidAnswers": {
+      "q006": ["wallet", "WALLET"],
+      "q008": ["keys", "KEYS"],
+      "q014": ["this", "THIS", "this one"],
+      "q016": ["this is rahul's book", "This is Rahul's book", "This is Rahuls book"],
+      "q017": ["those are my keys", "Those are my keys"],
+      "q018": ["the roof of the house", "The roof of the house", "Roof of the house"],
+      "q019": ["these dogs", "These dogs", "These dogs."],
+      "q020": ["that is sarah's car", "That is Sarah's car", "That is Sarahs car"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered the difference between pointing at single things and multiple things! And you correctly gave humans the 'S!",
+    "onFail": "Please review the two main rules: 1. Humans get 'S. Objects get OF. 2. This/That is for ONE thing. These/Those are for MANY things. Practice matching them!",
+    "onPartial": "Good effort! Watch out for 'This' vs 'These'. If you say 'This are my keys', it is a huge mistake. Keys is plural, so it must be 'These'!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers possessives and demonstratives.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block5", "possessives", "demonstratives", "apostrophe", "beginner", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B6_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

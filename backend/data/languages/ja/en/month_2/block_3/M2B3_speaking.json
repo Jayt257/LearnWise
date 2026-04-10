@@ -1,0 +1,153 @@
+{
+  "activityId": "en_ja_M2B3_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Ordering Politely",
+  "learningGoal": "Speak clearly to make polite requests in a restaurant setting using 'I would like' and 'Could you'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B3_vocabulary_6"
+  ],
+  "instructions": "レストランで注文をします。「I want」や「Can you」の代わりに、丁寧な表現を使いましょう。マイクに向かって、「ステーキをお願いします。水を持ってきていただけますか？」と英語で話してください。(Order food at a restaurant using polite expressions. Speak into the microphone and say: 'I would like the steak, please. Could you bring me some water?')",
+  "speakingPrompt": "Say: 'I would like the steak, please. Could you bring me some water?'",
+  "scenario": "You are at a nice restaurant and the waiter asks for your order.",
+  "role": "Customer",
+  "conversationPartner": "Waiter",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Order the steak politely. (I would like the steak, please.)",
+      "expectedSpeakingPoints": [
+        "I would like",
+        "the steak, please"
+      ],
+      "sampleResponse": {
+        "targetText": "I would like the steak, please.",
+        "transliteration": "アイ ウッド ライク ザ ステーキ、プリーズ。",
+        "baseTranslation": "ステーキをお願いします。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Ask the waiter to bring water politely. (Could you bring me some water?)",
+      "expectedSpeakingPoints": [
+        "Could you bring me",
+        "some water"
+      ],
+      "sampleResponse": {
+        "targetText": "Could you bring me some water?",
+        "transliteration": "クジュー ブリング ミー サム ウォーター？",
+        "baseTranslation": "水を持ってきていただけますか？"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Good evening. May I take your order?",
+    "transliteration": "グッド イヴニング。メイ アイ テイク ユア オーダー？",
+    "baseTranslation": "こんばんは。ご注文をお伺いしてもよろしいでしょうか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I would like the steak, please.",
+      "transliteration": "アイ ウッド ライク ザ ステーキ、プリーズ。",
+      "baseTranslation": "ステーキをお願いします。"
+    },
+    {
+      "targetText": "Could you bring me some water?",
+      "transliteration": "クジュー ブリング ミー サム ウォーター？",
+      "baseTranslation": "水を持ってきていただけますか？"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Using 'I would like'",
+      "Using 'Could you'"
+    ],
+    "requiredKeywords": [
+      "would",
+      "like",
+      "steak",
+      "please",
+      "could",
+      "bring",
+      "water"
+    ],
+    "acceptableParaphrases": [
+      "I'd like the steak, please. Could you bring me some water?"
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Polite Modals",
+          "weight": 50,
+          "description": "Must use 'would like' and 'could you' (no 'want' or 'can you')."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear pronunciation of 'Could you' (linking sounds ok) and 'steak'."
+        },
+        {
+          "name": "Content",
+          "weight": 30,
+          "description": "Both the food order and the water request are stated."
+        }
+      ]
+    },
+    "sampleAnswer": "I would like the steak, please. Could you bring me some water?",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Beautiful! You sounded very polite and natural, exactly like a customer at a nice restaurant.",
+    "onFail": "Please try again. Remember to say 'I would like' instead of 'I want', and 'Could you' instead of 'Can you'.",
+    "onPartial": "Good effort! Try linking 'Could' and 'you' together so it sounds like 'Cuh-joo'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B3_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M2B3_speaking_sample.mp3",
+    "slowAudio": "path/to/M2B3_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I would like the steak, please. Could you bring me some water?",
+    "audioLanguage": "en",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "politeness",
+    "restaurant",
+    "modals"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't use 'want' or 'can'. Be as polite as possible!",
+  "commonMistakes": [
+    "Saying 'I want the steak'.",
+    "Saying 'Can you bring me water'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

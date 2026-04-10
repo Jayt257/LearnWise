@@ -1,0 +1,182 @@
+{
+  "activityId": "hi_en_M1B4_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Listening: Telling Time and Age",
+  "learningGoal": "Understand spoken numbers related to time and age, and distinguish between masculine and feminine grammar markers.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B4_lesson_1"
+  ],
+  "instructions": "Listen to the conversation between two children at a park. They are discussing their ages and the time they need to go home. Pay close attention to the numbers and whether they use 'ka' or 'ki' when stating their age.",
+  "listeningGoal": "Identify numbers 1-10 used for time and age in a spoken dialogue.",
+  "audioScenario": "Two children, Rohan (male) and Sita (female), talking at a park.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "रोहन: नमस्ते। मेरा नाम रोहन है।",
+      "transliteration": "Rohan: Namaste. Mera naam Rohan hai.",
+      "baseTranslation": "Rohan: Hello. My name is Rohan."
+    },
+    {
+      "targetText": "सीता: नमस्ते रोहन। मैं सीता हूँ। आप कितने साल के हैं?",
+      "transliteration": "Sita: Namaste Rohan. Main Sita hoon. Aap kitne saal ke hain?",
+      "baseTranslation": "Sita: Hello Rohan. I am Sita. How old are you?"
+    },
+    {
+      "targetText": "रोहन: मैं आठ साल का हूँ। और आप?",
+      "transliteration": "Rohan: Main aath saal ka hoon. Aur aap?",
+      "baseTranslation": "Rohan: I am 8 years old. And you?"
+    },
+    {
+      "targetText": "सीता: मैं नौ साल की हूँ।",
+      "transliteration": "Sita: Main nau saal ki hoon.",
+      "baseTranslation": "Sita: I am 9 years old."
+    },
+    {
+      "targetText": "रोहन: सीता, कितने बजे हैं?",
+      "transliteration": "Rohan: Sita, kitne baje hain?",
+      "baseTranslation": "Rohan: Sita, what time is it?"
+    },
+    {
+      "targetText": "सीता: पाँच बजे हैं। मुझे घर जाना है।",
+      "transliteration": "Sita: Paanch baje hain. Mujhe ghar jaana hai.",
+      "baseTranslation": "Sita: It is 5 o'clock. I have to go home."
+    },
+    {
+      "targetText": "रोहन: ठीक है। कल मिलते हैं।",
+      "transliteration": "Rohan: Theek hai. Kal milte hain.",
+      "baseTranslation": "Rohan: Okay. See you tomorrow."
+    }
+  ],
+  "audioTranscriptFull": "नमस्ते। मेरा नाम रोहन है। नमस्ते रोहन। मैं सीता हूँ। आप कितने साल के हैं? मैं आठ साल का हूँ। और आप? मैं नौ साल की हूँ। सीता, कितने बजे हैं? पाँच बजे हैं। मुझे घर जाना है। ठीक है। कल मिलते हैं।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "How old is Rohan?",
+      "questionType": "multiple_choice",
+      "options": [
+        "8 years old (Aath)",
+        "9 years old (Nau)",
+        "5 years old (Paanch)"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "When Rohan states his age, he says 'Main aath saal ____ hoon'. What is the missing word?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ka (का)",
+        "ki (की)",
+        "ke (के)"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "How old is Sita?",
+      "questionType": "multiple_choice",
+      "options": [
+        "9 years old (Nau)",
+        "8 years old (Aath)",
+        "10 years old (Das)"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "When Sita states her age, she says 'Main nau saal ____ hoon'. What is the missing word?",
+      "questionType": "multiple_choice",
+      "options": [
+        "ki (की)",
+        "ka (का)",
+        "ke (के)"
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "What time is it?",
+      "questionType": "multiple_choice",
+      "options": [
+        "5 o'clock (Paanch baje)",
+        "8 o'clock (Aath baje)",
+        "9 o'clock (Nau baje)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "8 years old (Aath)",
+      "lq_2": "ka (का)",
+      "lq_3": "9 years old (Nau)",
+      "lq_4": "ki (की)",
+      "lq_5": "5 o'clock (Paanch baje)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! You successfully heard the numbers and the gender markers.",
+    "onFail": "Listen closely to the difference between Rohan's age and Sita's age. Rohan uses 'ka' because he is a boy.",
+    "onPartial": "Good effort. Remember 'aath' is 8, 'nau' is 9, and 'paanch' is 5."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। मेरा नाम रोहन है। नमस्ते रोहन। मैं सीता हूँ। आप कितने साल के हैं? मैं आठ साल का हूँ। और आप? मैं नौ साल की हूँ। सीता, कितने बजे हैं? पाँच बजे हैं। मुझे घर जाना है। ठीक है। कल मिलते हैं।",
+    "audioLanguage": "hi",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "numbers",
+    "time",
+    "age",
+    "gender",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the ending of the word 'saal'. It changes depending on who is speaking.",
+  "commonMistakes": [
+    "Mixing up 8 (Aath) and 5 (Paanch)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B4_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

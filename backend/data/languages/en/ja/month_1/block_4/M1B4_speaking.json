@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M1B4_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Answering Scheduling Questions",
+  "learningGoal": "The learner will verbally answer questions regarding the time, their age, and the day of the week, correctly utilizing the phonetic exceptions taught in this block.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B4_lesson_001",
+    "ja_en_M1B4_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a classmate will ask you three questions. First, they will ask for the time. Then, they will ask the day of the week. Finally, they will ask your age. Respond verbally in Japanese using the information provided in the prompt.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember to use 'desu' at the end of every answer to keep it polite."
+    }
+  ],
+  "speakingPrompt": "Answer the audio prompts based on this information: 1) It is 4 o'clock. 2) Today is Monday. 3) You are 20 years old.",
+  "scenario": "You are sitting in a classroom. A classmate turns to you to confirm some scheduling details.",
+  "role": "A 20-year-old student.",
+  "conversationPartner": "Classmate",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "The classmate asks: 'Ima, nanji desu ka?'. Tell them it is 4 o'clock.",
+      "expectedSpeakingPoints": [
+        "Say 'Yo-ji desu'"
+      ],
+      "sampleResponse": {
+        "targetText": "よじです。",
+        "transliteration": "Yo-ji desu.",
+        "baseTranslation": "It is 4 o'clock."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "The classmate asks: 'Kyou wa nanyoubi desu ka?'. Tell them today is Monday.",
+      "expectedSpeakingPoints": [
+        "Say 'Getsuyoubi desu'"
+      ],
+      "sampleResponse": {
+        "targetText": "げつようびです。",
+        "transliteration": "Getsuyoubi desu.",
+        "baseTranslation": "It is Monday."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "The classmate asks: 'Nansai desu ka?'. Tell them you are 20 years old.",
+      "expectedSpeakingPoints": [
+        "Say 'Hatachi desu'"
+      ],
+      "sampleResponse": {
+        "targetText": "はたちです。",
+        "transliteration": "Hatachi desu.",
+        "baseTranslation": "I am 20 years old."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "すみません。いま、なんじですか。",
+    "transliteration": "Sumimasen. Ima, nan-ji desu ka.",
+    "baseTranslation": "Excuse me. What time is it now?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "よじです。",
+      "transliteration": "Yo-ji desu.",
+      "baseTranslation": "It is 4 o'clock."
+    },
+    {
+      "targetText": "げつようびです。",
+      "transliteration": "Getsuyoubi desu.",
+      "baseTranslation": "It is Monday."
+    },
+    {
+      "targetText": "はたちです。",
+      "transliteration": "Hatachi desu.",
+      "baseTranslation": "I am 20 years old."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 50,
+    "grammarWeight": 10,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say yoji desu",
+      "Say getsuyoubi desu",
+      "Say hatachi desu"
+    ],
+    "requiredKeywords": [
+      "よじ",
+      "げつようび",
+      "はたち",
+      "です"
+    ],
+    "acceptableParaphrases": [
+      "The learner can add 'Ima wa' or 'Kyou wa' or 'Watashi wa' to the beginning of their answers, but it is not strictly required."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Exception Usage",
+          "weight": 60,
+          "description": "Did the learner correctly say 'yo-ji' and 'hatachi' instead of 'yon-ji' and 'ni-juu-sai'?"
+        },
+        {
+          "name": "Sentence Completion",
+          "weight": 40,
+          "description": "Did every answer end properly with 'desu'?"
+        }
+      ]
+    },
+    "sampleAnswer": "よじです。げつようびです。はたちです。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect! You confidently used the numerical exceptions in a conversation.",
+    "onFail": "Make sure you do not say 'yon-ji'. It is 'yo-ji'. And remember that 20 years old is 'hatachi'.",
+    "onPartial": "Good effort! Practice your days of the week so you can recall 'getsuyoubi' faster."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b4/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m1/b4/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "すみません。いま、なんじですか。よじです。きょうは なんようびですか。げつようびです。なんさいですか。はたちです。",
+    "audioLanguage": "ja",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "time",
+    "age",
+    "days",
+    "roleplay",
+    "beginner",
+    "month1",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus strictly on the three requested items: 4, Monday, and 20.",
+  "commonMistakes": [
+    "Answering 'yonji desu' instead of 'yoji desu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

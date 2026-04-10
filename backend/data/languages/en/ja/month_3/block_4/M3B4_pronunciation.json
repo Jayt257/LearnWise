@@ -1,0 +1,150 @@
+{
+  "activityId": "ja_en_M3B4_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Formal Business Phrases",
+  "learningGoal": "The learner will master the fluid pronunciation of formal Keigo phrases and set business expressions.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B4_lesson_001",
+    "ja_en_M3B4_vocabulary_001"
+  ],
+  "instructions": "In this exercise, practice saying formal business phrases smoothly. Maintain a polite, even, and slightly higher tone than casual speech, as is customary in Japanese business settings.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "For example: 'Shachou ga irasshaimasu'. Pronounce 'ira-s-sha-i-ma-su' with the double consonant."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "いらっしゃいます",
+      "transliteration": "Irasshaimasu",
+      "baseTranslation": "Go/come/be (Respectful)",
+      "phoneticHint": "ee-rahs-shy-mahs",
+      "syllableSplit": "i-ra-s-sha-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Irashaimasu' without the double 's' pause."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "わたくしが まいります",
+      "transliteration": "Watakushi ga mairimasu",
+      "baseTranslation": "I will go (Humble)",
+      "phoneticHint": "wah-tah-koo-shee gah my-ree-mahs",
+      "syllableSplit": "wa-ta-ku-shi ga ma-i-ri-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'Watashi ga mairimasu'. (Watashi is okay, but Watakushi is more proper here)."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "おっしゃいました",
+      "transliteration": "Oshhaimashita",
+      "baseTranslation": "They said (Respectful)",
+      "phoneticHint": "ohs-shy-mah-shee-tah",
+      "syllableSplit": "o-s-sha-i-ma-shi-ta",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'Oshaimashita'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "ほんじつは ありがとうございます",
+      "transliteration": "Honjitsu wa arigatou gozaimasu",
+      "baseTranslation": "Thank you for today (Formal)",
+      "phoneticHint": "hon-jee-tsoo wah ah-ree-gah-toe go-zai-mahs",
+      "syllableSplit": "ho-n-ji-tsu wa a-ri-ga-to-o go-za-i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Rushing through 'Honjitsu wa'."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "もうしわけございません",
+      "transliteration": "Moushiwake gozaimasen",
+      "baseTranslation": "I am very sorry (Business formal)",
+      "phoneticHint": "moe-shee-wah-keh go-zai-mah-sen",
+      "syllableSplit": "mo-o-shi-wa-ke go-za-i-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Stuttering on 'Moushiwake'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "よろしく おねがいいたします",
+      "transliteration": "Yoroshiku onegai itashimasu",
+      "baseTranslation": "Please take care of it / I look forward to working with you (Humble)",
+      "phoneticHint": "yoh-roh-shee-koo oh-neh-guy ee-tah-shee-mahs",
+      "syllableSplit": "yo-ro-shi-ku o-ne-ga-i i-ta-shi-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'onegai shimasu' instead of the humbler 'onegai itashimasu'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "いらっしゃいます わたくしがまいります おっしゃいました ほんじつはありがとうございます もうしわけございません よろしくおねがいいたします",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You sound like a true Japanese business professional.",
+    "onFail": "Keep practicing! Ensure you hit the double consonants in 'Irasshaimasu' and 'Osshaimashita'.",
+    "onPartial": "Good effort. Pay close attention to 'Moushiwake gozaimasen', it is the standard apology in business."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "いらっしゃいます わたくしがまいります おっしゃいました ほんじつはありがとうございます もうしわけございません よろしくおねがいいたします",
+    "acceptedVariants": [
+      "いらっしゃいます わたくしが まいります おっしゃいました ほんじつは ありがとうございます もうしわけ ございません よろしく おねがい いたします"
+    ],
+    "syllableSplitReference": "i-ra-s-sha-i-ma-su wa-ta-ku-shi-ga-ma-i-ri-ma-su o-s-sha-i-ma-shi-ta ho-n-ji-tsu-wa-a-ri-ga-to-o-go-za-i-ma-su mo-o-shi-wa-ke-go-za-i-ma-se-n yo-ro-shi-ku-o-ne-ga-i-i-ta-shi-ma-su",
+    "phoneticApproximation": "irasshaimasu watakushigamairimasu oshhaimashita honjitsuwaarigatougozaimasu moushiwakegozaimasen yoroshikuonegaiitashimasu",
+    "nativeScriptReference": "いらっしゃいます わたくしがまいります おっしゃいました ほんじつはありがとうございます もうしわけございません よろしくおねがいいたします",
+    "transliteration": "Irasshaimasu Watakushi ga mairimasu Osshaimashita Honjitsu wa arigatou gozaimasu Moushiwake gozaimasen Yoroshiku onegai itashimasu",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b4/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m3/b4/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b4/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "いらっしゃいます。わたくしが まいります。おっしゃいました。ほんじつは ありがとうございます。もうしわけございません。よろしく おねがいいたします。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "keigo",
+    "business",
+    "formal",
+    "advanced",
+    "month3",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with a clear, polite tone. Keigo relies on sounding professional.",
+  "commonMistakes": [
+    "Mumbling 'Moushiwake gozaimasen'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

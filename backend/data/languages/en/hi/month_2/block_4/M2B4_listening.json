@@ -1,0 +1,181 @@
+{
+  "activityId": "hi_en_M2B4_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Listening: Office Gossip (Who did what?)",
+  "learningGoal": "Identify subjects and objects in rapid spoken past tense sentences, focusing on the use of merged pronouns like 'Usne' and 'Unhone'.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B4_lesson_1"
+  ],
+  "instructions": "Listen to two colleagues gossiping about a project failure. Track who did what. Listen closely to the difference between 'Usne' (He/She casual) and 'Unhone' (They / Boss respectful).",
+  "listeningGoal": "Distinguish between transitive actions (done with 'ne') and intransitive actions (done without 'ne') in a narrative.",
+  "audioScenario": "Two office workers, Amit and Ravi, are discussing a recent incident at work.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "अमित: रवि, तुम्हें पता है कल क्या हुआ?",
+      "transliteration": "Amit: Ravi, tumhein pata hai kal kya hua?",
+      "baseTranslation": "Amit: Ravi, do you know what happened yesterday?"
+    },
+    {
+      "targetText": "रवि: नहीं, मैंने कुछ नहीं सुना। क्या हुआ?",
+      "transliteration": "Ravi: Nahi, maine kuch nahi suna. Kya hua?",
+      "baseTranslation": "Ravi: No, I didn't hear anything. What happened?"
+    },
+    {
+      "targetText": "अमित: कल बॉस बहुत गुस्सा थे। उन्होंने राहुल को बुलाया।",
+      "transliteration": "Amit: Kal boss bahut gussa the. Unhone Rahul ko bulaya.",
+      "baseTranslation": "Amit: Yesterday the boss was very angry. He (respectful) called Rahul."
+    },
+    {
+      "targetText": "रवि: राहुल ने क्या किया?",
+      "transliteration": "Ravi: Rahul ne kya kiya?",
+      "baseTranslation": "Ravi: What did Rahul do?"
+    },
+    {
+      "targetText": "अमित: उसने फाइल नहीं बनाई! उसने सारा दिन सिर्फ चाय पी।",
+      "transliteration": "Amit: Usne file nahi banayi! Usne saara din sirf chai pee.",
+      "baseTranslation": "Amit: He didn't make the file! He just drank tea all day."
+    },
+    {
+      "targetText": "रवि: बाप रे! फिर राहुल कहाँ गया?",
+      "transliteration": "Ravi: Baap re! Phir Rahul kahan gaya?",
+      "baseTranslation": "Ravi: Oh my God! Then where did Rahul go?"
+    },
+    {
+      "targetText": "अमित: वह जल्दी घर गया। उसने कुछ नहीं कहा।",
+      "transliteration": "Amit: Woh jaldi ghar gaya. Usne kuch nahi kaha.",
+      "baseTranslation": "Amit: He went home early. He said nothing."
+    }
+  ],
+  "audioTranscriptFull": "रवि, तुम्हें पता है कल क्या हुआ? नहीं, मैंने कुछ नहीं सुना। क्या हुआ? कल बॉस बहुत गुस्सा थे। उन्होंने राहुल को बुलाया। राहुल ने क्या किया? उसने फाइल नहीं बनाई! उसने सारा दिन सिर्फ चाय पी। बाप रे! फिर राहुल कहाँ गया? वह जल्दी घर गया। उसने कुछ नहीं कहा।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What does Ravi say when Amit asks if he knows what happened?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Maine kuch nahi suna. (I didn't hear anything).",
+        "Maine sab dekha. (I saw everything).",
+        "Woh ghar gaya. (He went home)."
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "How does Amit refer to the Boss when saying 'He called Rahul'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Unhone (They / He respectful)",
+        "Usne (He casual)",
+        "Maine (I)"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "What did Rahul NOT do? (Hint: The verb is 'banayi' because the object is feminine)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Usne file nahi banayi (He didn't make the file).",
+        "Usne chai nahi pee (He didn't drink tea).",
+        "Woh ghar nahi gaya (He didn't go home)."
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "What did Rahul do all day? (Hint: The verb is 'pee' because the object is feminine)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Chai pee (Drank tea)",
+        "Kaam kiya (Did work)",
+        "So gaya (Slept)"
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "When Amit says 'He went home early', which pronoun does he use for Rahul?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Woh (Because 'gaya' is intransitive, no 'ne' is used).",
+        "Usne (Because he is doing an action).",
+        "Unhone (Because he respects Rahul)."
+      ],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Maine kuch nahi suna. (I didn't hear anything).",
+      "lq_2": "Unhone (They / He respectful)",
+      "lq_3": "Usne file nahi banayi (He didn't make the file).",
+      "lq_4": "Chai pee (Drank tea)",
+      "lq_5": "Woh (Because 'gaya' is intransitive, no 'ne' is used)."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Incredible listening! You easily tracked the complex pronoun shifts.",
+    "onFail": "Listen closely to the endings. The Boss gets 'Unhone' (respectful). Rahul gets 'Usne' (casual). And when Rahul goes home, it's just 'Woh' because 'go' has no 'ne'!",
+    "onPartial": "Good effort. Pay special attention to Question 5. 'Gaya' never takes 'ne', so the pronoun reverts back to the normal 'Woh'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "रवि, तुम्हें पता है कल क्या हुआ? नहीं, मैंने कुछ नहीं सुना। क्या हुआ? कल बॉस बहुत गुस्सा थे। उन्होंने राहुल को बुलाया। राहुल ने क्या किया? उसने फाइल नहीं बनाई! उसने सारा दिन सिर्फ चाय पी। बाप रे! फिर राहुल कहाँ गया? वह जल्दी घर गया। उसने कुछ नहीं कहा।",
+    "audioLanguage": "hi",
+    "audioDuration": 75,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "past_tense",
+    "ne_particle",
+    "office",
+    "gossip"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how 'Chai' and 'File' force the verbs to be feminine (Pee, Banayi), while 'Kya' (what) and 'Kuch' (anything) force them to be masculine (Kiya, Kaha, Suna).",
+  "commonMistakes": [
+    "Confusing 'Usne' (He/She) with 'Unhone' (They/He respectful)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B4_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

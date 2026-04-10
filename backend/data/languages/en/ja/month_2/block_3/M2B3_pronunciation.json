@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_en_M2B3_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Adjective Conjugations",
+  "learningGoal": "The learner will master the pronunciation of the double consonant in the past tense i-adjective suffix '~katta', and the extended negative suffix '~kunakatta'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B3_lesson_001",
+    "ja_en_M2B3_vocabulary_001"
+  ],
+  "instructions": "In this exercise, you must correctly pronounce the long suffix endings for i-adjectives. Pay extremely close attention to the small 'tsu' in '~katta'. It creates a pause before the 't' sound.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "If you say 'Tanoshi-kata' instead of 'Tanoshi-kat-ta', it is grammatically incorrect. Hold the 't' for half a beat."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "たのしかった です",
+      "transliteration": "Tanoshikatta desu",
+      "baseTranslation": "It was fun",
+      "phoneticHint": "tah-no-shee-kaht-tah des",
+      "syllableSplit": "ta-no-shi-ka-t-ta de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Saying 'Tanoshikata'."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "おいしかった です",
+      "transliteration": "Oishikatta desu",
+      "baseTranslation": "It was delicious",
+      "phoneticHint": "oh-ee-shee-kaht-tah des",
+      "syllableSplit": "o-i-shi-ka-t-ta de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Swallowing the 'shi' sound."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "むずかしかった です",
+      "transliteration": "Muzukashikatta desu",
+      "baseTranslation": "It was difficult",
+      "phoneticHint": "moo-zoo-kah-shee-kaht-tah des",
+      "syllableSplit": "mu-zu-ka-shi-ka-t-ta de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "A long word. Take it slowly: mu-zu-ka-shi-ka-t-ta."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "さむくなかった です",
+      "transliteration": "Samukunakatta desu",
+      "baseTranslation": "It was not cold",
+      "phoneticHint": "sah-moo-koo-nah-kaht-tah des",
+      "syllableSplit": "sa-mu-ku-na-ka-t-ta de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Missing the 'ku' in the middle. 'Samunakatta' is wrong."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "たのしくなかった です",
+      "transliteration": "Tanoshikunakatta desu",
+      "baseTranslation": "It was not fun",
+      "phoneticHint": "tah-noh-shee-koo-nah-kaht-tah des",
+      "syllableSplit": "ta-no-shi-ku-na-ka-t-ta de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Very long word. Maintain rhythm without speeding up too much at the end."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "にほんに いきたい です",
+      "transliteration": "Nihon ni ikitai desu",
+      "baseTranslation": "I want to go to Japan",
+      "phoneticHint": "nee-hon nee ee-kee-tie des",
+      "syllableSplit": "ni-ho-n ni i-ki-ta-i de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "None. Very straightforward."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "すしを たべたい です",
+      "transliteration": "Sushi wo tabetai desu",
+      "baseTranslation": "I want to eat sushi",
+      "phoneticHint": "soo-shee oh tah-beh-tie des",
+      "syllableSplit": "su-shi o ta-be-ta-i de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Saying 'sushi' with a hard 'sh' like in English. Japanese 'sh' is softer."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "いきたくない です",
+      "transliteration": "Ikitakunai desu",
+      "baseTranslation": "I don't want to go",
+      "phoneticHint": "ee-kee-tah-koo-nye des",
+      "syllableSplit": "i-ki-ta-ku-na-i de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Saying 'Ikitanai'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "たのしかったです おいしかったです むずかしかったです さむくなかったです たのしくなかったです にほんにいきたいです すしをたべたいです いきたくないです",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent! You perfectly articulated the long '~katta' and '~kunakatta' suffixes.",
+    "onFail": "Keep practicing! Break the long words down. Ta-no-shi. Ku-na-kat-ta.",
+    "onPartial": "Good effort. Make sure you don't drop the 'ku' in the negative forms like 'Samu-ku-nakatta'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "たのしかったです おいしかったです むずかしかったです さむくなかったです たのしくなかったです にほんにいきたいです すしをたべたいです いきたくないです",
+    "acceptedVariants": [
+      "たのしかった です おいしかった です むずかしかった です さむくなかった です たのしくなかった です にほんに いきたい です すしを たべたい です いきたくない です"
+    ],
+    "syllableSplitReference": "ta-no-shi-ka-t-ta-de-su o-i-shi-ka-t-ta-de-su mu-zu-ka-shi-ka-t-ta-de-su sa-mu-ku-na-ka-t-ta-de-su ta-no-shi-ku-na-ka-t-ta-de-su ni-ho-n-ni-i-ki-ta-i-de-su su-shi-o-ta-be-ta-i-de-su i-ki-ta-ku-na-i-de-su",
+    "phoneticApproximation": "tanoshikattadesu oishikattadesu muzukashikattadesu samukunakattadesu tanoshikunakattadesu nihonniikitaidesu sushiotabetaidesu ikitakunaidesu",
+    "nativeScriptReference": "たのしかったです おいしかったです むずかしかったです さむくなかったです たのしくなかったです にほんにいきたいです すしをたべたいです いきたくないです",
+    "transliteration": "Tanoshikatta desu Oishikatta desu Muzukashikatta desu Samukunakatta desu Tanoshikunakatta desu Nihon ni ikitai desu Sushi wo tabetai desu Ikitakunai desu",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b3/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m2/b3/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b3/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "たのしかった です。おいしかった です。むずかしかった です。さむくなかった です。たのしくなかった です。にほんに いきたい です。すしを たべたい です。いきたくない です。",
+    "audioLanguage": "ja",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "intermediate",
+    "month2",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Exaggerate the pause on the small 'tsu' before the 'ta'. It sounds like a tiny hiccup.",
+  "commonMistakes": [
+    "Saying 'Muzukashikata'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,178 @@
+{
+  "activityId": "en_hi_M3B4_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "The World Traveler",
+  "learningGoal": "The learner will verbally navigate three distinct transactional environments sequentially (directions, dining, emergency), actively modifying their pitch and register to suit the sociolinguistic context of each interaction.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B4_vocabulary_001"],
+  "instructions": "You are traveling to New York City! Speak ALOUD to the people you meet. Remember your manners! Use 'Excuse me' and 'I would like' for service. But if something goes wrong, speak loudly and directly!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Modulate your voice! Smile when you speak to the waiter. Sound panicked when you speak to the police."
+    }
+  ],
+  "speakingPrompt": "Respond aloud to the situations.",
+  "scenario": "Navigating a foreign city, from the airport to a restaurant, and dealing with a stolen bag.",
+  "role": "The Tourist",
+  "conversationPartner": "Various Locals",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "आप हवाई अड्डे पर खो गए हैं। एक सुरक्षा गार्ड के पास जाएं। विनम्रता से पूछें: 'माफ़ करें, क्या आप मेरी मदद कर सकते हैं?' (Excuse...)",
+      "expectedSpeakingPoints": ["Excuse me", "could you help me"],
+      "sampleResponse": {
+        "targetText": "Excuse me, could you help me?",
+        "transliteration": "एक्सक्यूज़ मी, कुड यू हेल्प मी?",
+        "baseTranslation": "माफ़ करें, क्या आप मेरी मदद कर सकते हैं?"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "आप एक दुकान में पानी की बोतल देखते हैं। कैशियर से विनम्रता से पूछें: 'यह कितने का है?' (How...)",
+      "expectedSpeakingPoints": ["How much", "is this"],
+      "sampleResponse": {
+        "targetText": "How much is this?",
+        "transliteration": "हाउ मच इज़ दिस?",
+        "baseTranslation": "यह कितने का है?"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "आप एक रेस्तरां में हैं। वेटर पूछता है 'What do you want?'. विनम्रता से जवाब दें: 'मैं चिकन सैंडविच लेना पसंद करूँगा, कृपया।' (I would...)",
+      "expectedSpeakingPoints": ["I would like", "chicken sandwich", "please"],
+      "sampleResponse": {
+        "targetText": "I would like the chicken sandwich, please.",
+        "transliteration": "आई वुड लाइक द चिकन सैंडविच, प्लीज़।",
+        "baseTranslation": "मैं चिकन सैंडविच लेना पसंद करूँगा, कृपया।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "खाना खत्म हो गया है। वेटर से पूछें: 'क्या मुझे बिल मिल सकता है, कृपया?' (Can I...)",
+      "expectedSpeakingPoints": ["Can I have", "the bill", "please"],
+      "sampleResponse": {
+        "targetText": "Can I have the bill, please?",
+        "transliteration": "कैन आई हैव द बिल, प्लीज़?",
+        "baseTranslation": "क्या मुझे बिल मिल सकता है, कृपया?"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "आप बाहर निकलते हैं और कोई आपका बैग छीन लेता है! ज़ोर से चिल्लाएँ (बिना विनम्रता के!): 'मेरी मदद करो! पुलिस को बुलाओ!' (Help...)",
+      "expectedSpeakingPoints": ["Help me", "Call the police"],
+      "sampleResponse": {
+        "targetText": "Help me! Call the police!",
+        "transliteration": "हेल्प मी! कॉल द पुलिस!",
+        "baseTranslation": "मेरी मदद करो! पुलिस को बुलाओ!"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Excuse me, could you help me?",
+    "transliteration": "एक्सक्यूज़ मी, कुड यू हेल्प मी?",
+    "baseTranslation": "माफ़ करें, क्या आप मेरी मदद कर सकते हैं?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Excuse me, could you help me?",
+      "transliteration": "एक्सक्यूज़ मी, कुड यू हेल्प मी?",
+      "baseTranslation": "माफ़ करें, क्या आप मेरी मदद कर सकते हैं?"
+    },
+    {
+      "targetText": "How much is this?",
+      "transliteration": "हाउ मच इज़ दिस?",
+      "baseTranslation": "यह कितने का है?"
+    },
+    {
+      "targetText": "I would like the chicken sandwich, please.",
+      "transliteration": "आई वुड लाइक द चिकन सैंडविच, प्लीज़।",
+      "baseTranslation": "मैं चिकन सैंडविच लेना पसंद करूँगा, कृपया।"
+    },
+    {
+      "targetText": "Can I have the bill, please?",
+      "transliteration": "कैन आई हैव द बिल, प्लीज़?",
+      "baseTranslation": "क्या मुझे बिल मिल सकता है, कृपया?"
+    },
+    {
+      "targetText": "Help me! Call the police!",
+      "transliteration": "हेल्प मी! कॉल द पुलिस!",
+      "baseTranslation": "मेरी मदद करो! पुलिस को बुलाओ!"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 20,
+    "vocabularyWeight": 30
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Excuse me",
+      "How much",
+      "would like",
+      "the bill please",
+      "Call the police"
+    ],
+    "requiredKeywords": [
+      "excuse",
+      "help",
+      "much",
+      "like",
+      "bill",
+      "police"
+    ],
+    "acceptableParaphrases": [
+      "I'll have the chicken",
+      "Could I get the check please"
+    ],
+    "scoringRubric": {
+      "Zero Tolerance for 'Want'": "Did the user say 'I want the chicken'? If so, instant failure for that sub-task.",
+      "Pragmatic Greeting": "Did the user correctly preamble the stranger interaction with 'Excuse me'?",
+      "Intonation Shift": "Did the user correctly shift from a polite requesting tone (T3/T4) to an urgent imperative tone (T5)?"
+    },
+    "sampleAnswer": "Excuse me, could you help me? How much is this? I would like the chicken sandwich, please. Can I have the bill, please? Help me! Call the police!",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully navigated a foreign country using perfect conversational English. You were polite to the waiter and acted fast during the emergency! You are ready to travel.",
+    "onFail": "Keep practicing! Remember, your tone matters. Do not use 'Give me' or 'I want' in a restaurant. You must say 'I would like...'. And NEVER start asking a stranger a question without saying 'Excuse me' first.",
+    "onPartial": "Good try! You did great at the restaurant. But watch out for the price! Do not say 'What is the price'. Ask 'How much is this?' It sounds much more natural."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b4/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m3/b4/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b4/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m3/b4/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m3/b4/speaking/full_dialogue.mp3",
+    "audioTranscript": "Excuse me, could you help me?... (full dialogue)",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "survival_english", "travel", "emergency", "capstone", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b4/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with a smile for the first four scenarios. For the last scenario, shout it with power!",
+  "commonMistakes": [
+    "Saying 'I want the chicken'.",
+    "Saying 'Please call the police' (over-politeness in a life-safety emergency)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B4_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,150 @@
+{
+  "activityId": "hi_en_M3B4_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Sanskritized Consonant Clusters",
+  "learningGoal": "Accurately pronounce the complex consonant clusters (samyuktakshar) found in pure Sanskrit-derived Hindi vocabulary.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M3B4_lesson_1"
+  ],
+  "instructions": "Sanskritized Hindi is famous for its complex, heavy consonant clusters (like 'sht', 'ksha', 'pra'). Practice these formal words slowly, ensuring every consonant is clearly articulated.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "महत्वपूर्ण",
+      "transliteration": "Mahatvapoorna",
+      "baseTranslation": "Important",
+      "phoneticHint": "muh-hut-vuh-poor-nuh",
+      "syllableSplit": "ma-hat-va-poor-na",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Mahat-poorn'. The 'v' (va) in the middle is crucial: ma-hat-VA-poorna."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "हस्ताक्षर",
+      "transliteration": "Hastakshar",
+      "baseTranslation": "Signature",
+      "phoneticHint": "hus-taak-shur",
+      "syllableSplit": "has-taak-shar",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Hastachar'. The 'ksha' is a combination of K and SH. Has-taak-shar."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "प्रतीक्षा",
+      "transliteration": "Pratiksha",
+      "baseTranslation": "Wait / Waiting",
+      "phoneticHint": "pruh-teek-shaa",
+      "syllableSplit": "pra-teek-sha",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Par-tik-sha'. The 'pra' is a cluster. The P and R happen simultaneously: Pra."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "समस्या",
+      "transliteration": "Samasya",
+      "baseTranslation": "Problem",
+      "phoneticHint": "suh-mus-yaa",
+      "syllableSplit": "sa-mas-ya",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Samasiya'. The S and Y are glued together: mas-ya."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "अनुरोध",
+      "transliteration": "Anurodh",
+      "baseTranslation": "Request",
+      "phoneticHint": "uh-noo-rodh (aspirated dh)",
+      "syllableSplit": "a-nu-rodh",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using a hard English 'D'. The 'dh' must be soft (dental) and breathy."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "प्रारंभ",
+      "transliteration": "Prarambh",
+      "baseTranslation": "Beginning",
+      "phoneticHint": "praa-rumbh",
+      "syllableSplit": "praa-rambh",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Ignoring the final 'bh'. It ends with a strong, breathy B."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "क्या मैं आऊँ?",
+      "transliteration": "Kya main aaun?",
+      "baseTranslation": "May I come?",
+      "phoneticHint": "kyaa may(n) aa-oon",
+      "syllableSplit": "kya main aa-un",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'aaunga'. To use the subjunctive, you must stop at the nasal 'n' (aaun)."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear enunciation of Sanskrit clusters (ksha, pra, st) and distinct nasal drops for subjunctive verb endings.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Magnificent! You sound like a professional news anchor.",
+    "onFail": "Slow down on the clusters. For 'Pratiksha', break it down: Pra - teek - sha.",
+    "onPartial": "Good effort. Pay close attention to the 'Ksha' sound in 'Hastakshar' and 'Pratiksha'. It is a blend of K and SH."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "formal_hindi",
+    "sanskrit",
+    "clusters",
+    "subjunctive"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Sanskrit words are highly phonetic. Pronounce every single letter you see in the transliteration. Do not skip the 'v' in Mahatvapoorna.",
+  "commonMistakes": [
+    "Turning 'pra' into 'par'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B4_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

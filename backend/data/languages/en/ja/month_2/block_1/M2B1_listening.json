@@ -1,0 +1,178 @@
+{
+  "activityId": "ja_en_M2B1_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "Where is the Cat?",
+  "learningGoal": "The learner will listen to a rapid dialogue to track the location of an animate object using spatial nouns and the verb 'imasu'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B1_lesson_001",
+    "ja_en_M2B1_vocabulary_001"
+  ],
+  "instructions": "Listen to two people looking for a lost cat. Pay close attention to the positional words (naka, shita, ue) to follow the cat's movements.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Notice that 'Imasu' is used exclusively, because a cat is a living creature."
+    }
+  ],
+  "listeningGoal": "Track the exact locations mentioned and identify where the cat is actually found.",
+  "audioScenario": "Two roommates looking for their cat in the yard.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "すみません。ねこが いますか。",
+      "transliteration": "Sumimasen. Neko ga imasu ka.",
+      "baseTranslation": "Excuse me. Is there a cat?"
+    },
+    {
+      "targetText": "はい。はこの なかに います。",
+      "transliteration": "Hai. Hako no naka ni imasu.",
+      "baseTranslation": "Yes. It is inside the box."
+    },
+    {
+      "targetText": "いいえ、はこの なかに いません。",
+      "transliteration": "Iie, hako no naka ni imasen.",
+      "baseTranslation": "No, it is not inside the box."
+    },
+    {
+      "targetText": "あ、きの したに います。",
+      "transliteration": "A, ki no shita ni imasu.",
+      "baseTranslation": "Ah, it is under the tree."
+    },
+    {
+      "targetText": "はい、あの おおきい きの したですね。",
+      "transliteration": "Hai, ano ookii ki no shita desu ne.",
+      "baseTranslation": "Yes, under that big tree, right?"
+    }
+  ],
+  "audioTranscriptFull": "（Ａ）すみません。ねこが いますか。\n（Ｂ）はい。はこの なかに います。\n（Ａ）いいえ、はこの なかに いません。\n（Ｂ）あ、きの したに います。\n（Ａ）はい、あの おおきい きの したですね。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What animal are the speakers looking for?",
+      "questionType": "multiple_choice",
+      "options": ["A dog", "A bird", "A cat", "A tree"],
+      "audioTimestamp": "00:02",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Where does person B *first* think the animal is?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Inside the house",
+        "Inside the box",
+        "Under the tree",
+        "On top of the desk"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Is the animal actually inside the box?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, it is.",
+        "No, person A says it is not there.",
+        "They don't know."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Where do they finally spot the animal?",
+      "questionType": "multiple_choice",
+      "options": [
+        "On top of the tree",
+        "Behind the tree",
+        "Under the tree",
+        "Next to the box"
+      ],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "How does person A describe the tree at the end?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It is a small tree.",
+        "It is a big tree.",
+        "It is an old tree.",
+        "It is a beautiful tree."
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "A cat",
+      "q002": "Inside the box",
+      "q003": "No, person A says it is not there.",
+      "q004": "Under the tree",
+      "q005": "It is a big tree."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great listening! You tracked the cat's location perfectly.",
+    "onFail": "Listen again closely. 'Hako no naka' means inside the box. 'Ki no shita' means under the tree.",
+    "onPartial": "Good effort. Review the adjective at the very end: 'ookii ki' means 'big tree'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b1/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b1/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m2/b1/listening/native_dialogue.mp3",
+    "audioTranscript": "すみません。ねこが いますか。はい。はこの なかに います。いいえ、はこの なかに いません。あ、きの したに います。はい、あの おおきい きの したですね。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "existence",
+    "locations",
+    "intermediate",
+    "month2",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'shita' (under) vs 'naka' (inside).",
+  "commonMistakes": [
+    "Confusing 'naka' (inside) with 'shita' (under)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

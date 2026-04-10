@@ -1,0 +1,177 @@
+{
+  "activityId": "en_hi_M1B5_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "A Day in the Life",
+  "learningGoal": "The learner will fluently dictate daily routine actions mapped across first-person and third-person subjects, vocally affirming the '-s' suffix restriction rule at native speed.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B5_vocabulary_001"],
+  "instructions": "In this exercise, you will tell a friend about your morning, and then tell them about your brother's morning. Pay very close attention: your voice must not use an 's' on verbs for yourself ('I eat'), but it MUST use an 's' for your brother ('He eats'). Do not use 'am' or 'is' with action verbs!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Speak clearly. The microphone is listening specifically for the buzzing 'Z' and sharp 'S' at the end of the verbs for your brother."
+    }
+  ],
+  "speakingPrompt": "Respond to the Hindi prompts aloud.",
+  "scenario": "You are talking to a new friend about your morning routines.",
+  "role": "Person describing routines",
+  "conversationPartner": "A friend",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "दोस्त पूछता है: 'What do you do in the morning?' (तुम सुबह क्या करते हो?)। बताएं कि 'मैं नाश्ता करता हूँ।'",
+      "expectedSpeakingPoints": ["I eat", "breakfast"],
+      "sampleResponse": {
+        "targetText": "I eat breakfast.",
+        "transliteration": "आई ईट ब्रेकफ़ास्ट।",
+        "baseTranslation": "मैं नाश्ता करता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "अतिरिक्त जानकारी जोड़ें: 'मैं पार्क जाता हूँ।' (I am का उपयोग न करें!)",
+      "expectedSpeakingPoints": ["I go", "to the park"],
+      "sampleResponse": {
+        "targetText": "I go to the park.",
+        "transliteration": "आई गो टू द पार्क।",
+        "baseTranslation": "मैं पार्क जाता हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "दोस्त पूछता है: 'What does your brother do?' (तुम्हारा भाई क्या करता है?)। उन्हें बताएं कि 'वह सोता है।' (He sleep...?)",
+      "expectedSpeakingPoints": ["He", "sleeps"],
+      "sampleResponse": {
+        "targetText": "He sleeps.",
+        "transliteration": "ही स्लीप्स।",
+        "baseTranslation": "वह सोता है।"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "अतिरिक्त जानकारी जोड़ें: 'वह स्कूल जाता है।' ('-es' ध्वनि पर ध्यान दें)।",
+      "expectedSpeakingPoints": ["He", "goes", "to school"],
+      "sampleResponse": {
+        "targetText": "He goes to school.",
+        "transliteration": "ही गोज़ टू स्कूल।",
+        "baseTranslation": "वह स्कूल जाता है।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "अंत में, आप दोनों के बारे में बताएं: 'हम खेलते हैं।' (We ... ?)",
+      "expectedSpeakingPoints": ["We", "play", "no 's' suffix"],
+      "sampleResponse": {
+        "targetText": "We play.",
+        "transliteration": "वी प्ले।",
+        "baseTranslation": "हम खेलते हैं।"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "What do you do in the morning?",
+    "transliteration": "वॉट डू यू डू इन द मॉर्निंग?",
+    "baseTranslation": "तुम सुबह क्या करते हो?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I eat breakfast.",
+      "transliteration": "आई ईट ब्रेकफ़ास्ट।",
+      "baseTranslation": "मैं नाश्ता करता हूँ।"
+    },
+    {
+      "targetText": "I go to the park.",
+      "transliteration": "आई गो टू द पार्क।",
+      "baseTranslation": "मैं पार्क जाता हूँ।"
+    },
+    {
+      "targetText": "He sleeps.",
+      "transliteration": "ही स्लीप्स।",
+      "baseTranslation": "वह सोता है।"
+    },
+    {
+      "targetText": "He goes to school.",
+      "transliteration": "ही गोज़ टू स्कूल।",
+      "baseTranslation": "वह स्कूल जाता है।"
+    },
+    {
+      "targetText": "We play.",
+      "transliteration": "वी प्ले।",
+      "baseTranslation": "हम खेलते हैं।"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "eat",
+      "go",
+      "sleeps",
+      "goes",
+      "play"
+    ],
+    "requiredKeywords": [
+      "eat",
+      "go",
+      "sleeps",
+      "goes",
+      "play"
+    ],
+    "acceptableParaphrases": [
+      "I eat my breakfast",
+      "I am eating",
+      "We play together"
+    ],
+    "scoringRubric": {
+      "Conjugation Consistency (I/We)": "Did the user use the bare ROOT of the verb when the subject was 'I' or 'We'? (e.g., 'we play')",
+      "Third Person Consistency (He)": "Did the user append an 's' or 'es' to the root verb when the subject was 'He'?"
+    },
+    "sampleAnswer": "I eat breakfast. I go to the park. He sleeps. He goes to school. We play.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You flawlessly swapped back and forth between the base verb and the third-person 's' verb using only your voice.",
+    "onFail": "Keep practicing! You probably kept saying 'He go'. It must be 'He goes'. Or you probably said 'I am eat'. It must be 'I eat'.",
+    "onPartial": "Good try! Make sure to emphasize the vibrating 'z' sound when you say 'He goes'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b5/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m1/b5/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b5/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m1/b5/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m1/b5/speaking/full_dialogue.mp3",
+    "audioTranscript": "Friend: What do you do in the morning?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "verbs", "routines", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b5/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Before you speak, look at the subject. If it is 'I', 'You', 'We', or 'They', do not use an 'S' on the action. If it is 'He', 'She', or 'It', use the 'S'.",
+  "commonMistakes": [
+    "Saying 'I am go to the park'.",
+    "Saying 'We plays'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B5_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

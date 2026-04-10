@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M1B5_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Ko-So-A-Do and Objects",
+  "learningGoal": "The learner will correctly pronounce demonstrative words and their noun pairings, focusing on smooth transitions without awkward pausing.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B5_lesson_001",
+    "ja_en_M1B5_vocabulary_001"
+  ],
+  "instructions": "Listen to the native speaker and repeat the words and phrases. Focus on smoothly linking the 'no' demonstratives (Kono, Sono, Ano) directly to the noun without a pause. Record yourself and aim for a score of 70 or higher.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "When you say 'Kono kuruma' (this car), it should flow together almost like a single word."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "これ",
+      "transliteration": "Kore",
+      "baseTranslation": "This (thing)",
+      "phoneticHint": "koh-reh",
+      "syllableSplit": "ko-re",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Pronouncing 're' with a hard English R. It is a soft flap."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "あそこ",
+      "transliteration": "Asoko",
+      "baseTranslation": "Over there (place)",
+      "phoneticHint": "ah-soh-koh",
+      "syllableSplit": "a-so-ko",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'aroko' due to over-applying the rule for kore/sore/are."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "この くるま",
+      "transliteration": "Kono kuruma",
+      "baseTranslation": "This car",
+      "phoneticHint": "koh-noh koo-roo-mah",
+      "syllableSplit": "ko-no ku-ru-ma",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Pausing too long between kono and kuruma."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "その かばん",
+      "transliteration": "Sono kaban",
+      "baseTranslation": "That bag",
+      "phoneticHint": "soh-noh kah-bahn",
+      "syllableSplit": "so-no ka-ba-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'kaban' like 'cabin'. The 'a' must be an 'ah' sound."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "あの とけい",
+      "transliteration": "Ano tokei",
+      "baseTranslation": "That clock over there",
+      "phoneticHint": "ah-noh toh-kay",
+      "syllableSplit": "a-no to-ke-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Not pronouncing the 'i' at the end of 'to-ke-i'. It creates an 'ay' sound."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "どの かさ",
+      "transliteration": "Dono kasa",
+      "baseTranslation": "Which umbrella",
+      "phoneticHint": "doh-noh kah-sah",
+      "syllableSplit": "do-no ka-sa",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Saying 'dore kasa'. You must use 'dono' before a noun."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "どこですか",
+      "transliteration": "Doko desu ka",
+      "baseTranslation": "Where is it?",
+      "phoneticHint": "doh-koh des kah",
+      "syllableSplit": "do-ko de-su ka",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Putting stress on 'ka'. Keep the pitch relatively flat."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "わたしも",
+      "transliteration": "Watashi mo",
+      "baseTranslation": "Me too / Me also",
+      "phoneticHint": "wah-tah-shee moh",
+      "syllableSplit": "wa-ta-shi mo",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Saying 'watashi wa mo'. The 'mo' completely replaces 'wa'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "これ あそこ このくるま そのかばん あのとけい どのかさ どこですか わたしも",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You are smoothly linking your demonstratives and pronouncing the exceptions perfectly.",
+    "onFail": "Keep practicing! Make sure you don't pause between 'kono' and the noun.",
+    "onPartial": "Good effort. Review 'Asoko' and make sure you aren't saying 'Aroko'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "これ あそこ このくるま そのかばん あのとけい どのかさ どこですか わたしも",
+    "acceptedVariants": [
+      "これ あそこ この くるま その かばん あの とけい どの かさ どこですか わたしも"
+    ],
+    "syllableSplitReference": "ko-re a-so-ko ko-no-ku-ru-ma so-no-ka-ba-n a-no-to-ke-i do-no-ka-sa do-ko-de-su-ka wa-ta-shi-mo",
+    "phoneticApproximation": "koh-reh ah-soh-koh koh-noh koo-roo-mah soh-noh kah-bahn ah-noh toh-kay doh-noh kah-sah doh-koh des kah wah-tah-shee moh",
+    "nativeScriptReference": "これ あそこ このくるま そのかばん あのとけい どのかさ どこですか わたしも",
+    "transliteration": "Kore Asoko Kono kuruma Sono kaban Ano tokei Dono kasa Doko desu ka Watashi mo",
+    "strictnessLevel": "moderate"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b5/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m1/b5/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b5/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "これ。あそこ。この くるま。その かばん。あの とけい。どの かさ。どこですか。わたしも。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "demonstratives",
+    "grammar",
+    "beginner",
+    "month1",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't overthink the 'mo' particle. It just attaches to the end of the noun exactly like 'wa' does.",
+  "commonMistakes": [
+    "Saying 'watashi wa mo' instead of just 'watashi mo'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

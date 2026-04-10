@@ -1,0 +1,179 @@
+{
+  "activityId": "ja_en_M2B2_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "A Polite Interruption",
+  "learningGoal": "The learner will verbally construct sentences using the Te-form to request someone to wait and to describe what they are currently doing.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M2B2_lesson_001",
+    "ja_en_M2B2_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, someone is rushing you. Verbally tell them to wait, explain what you are currently doing, and then make a polite request of your own.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember the double 't' in 'Matte'. Pronounce it with a slight pause."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) Please wait a little. 2) I am studying Japanese now. 3) Please read this book.",
+  "scenario": "A friend is trying to get you to leave, but you are busy studying.",
+  "role": "Busy Student",
+  "conversationPartner": "Impatient Friend",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Your friend says 'Let's go!'. Tell them: 'Please wait a little.'",
+      "expectedSpeakingPoints": [
+        "Use chotto",
+        "Use matte",
+        "Use kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "ちょっと まって ください。",
+        "transliteration": "Chotto matte kudasai.",
+        "baseTranslation": "Please wait a little."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Explain what you are doing. Say: 'I am studying Japanese now.'",
+      "expectedSpeakingPoints": [
+        "Use ima",
+        "Use nihongo wo",
+        "Use benkyou shite imasu"
+      ],
+      "sampleResponse": {
+        "targetText": "いま にほんごを べんきょうして います。",
+        "transliteration": "Ima nihongo wo benkyou shite imasu.",
+        "baseTranslation": "I am studying Japanese now."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Hand them a book to keep them busy. Say: 'Please read this book.'",
+      "expectedSpeakingPoints": [
+        "Use kono hon wo",
+        "Use yonde",
+        "Use kudasai"
+      ],
+      "sampleResponse": {
+        "targetText": "この ほんを よんで ください。",
+        "transliteration": "Kono hon wo yonde kudasai.",
+        "baseTranslation": "Please read this book."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "はやく いきましょう！",
+    "transliteration": "Hayaku ikimashou!",
+    "baseTranslation": "Let's go quickly!"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "ちょっと まって ください。",
+      "transliteration": "Chotto matte kudasai.",
+      "baseTranslation": "Please wait a little."
+    },
+    {
+      "targetText": "いま にほんごを べんきょうして います。",
+      "transliteration": "Ima nihongo wo benkyou shite imasu.",
+      "baseTranslation": "I am studying Japanese now."
+    },
+    {
+      "targetText": "この ほんを よんで ください。",
+      "transliteration": "Kono hon wo yonde kudasai.",
+      "baseTranslation": "Please read this book."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Chotto matte kudasai",
+      "Say Ima nihongo wo benkyou shite imasu",
+      "Say Kono hon wo yonde kudasai"
+    ],
+    "requiredKeywords": [
+      "まって",
+      "ください",
+      "べんきょうして",
+      "います",
+      "よんで"
+    ],
+    "acceptableParaphrases": [
+      "Using 'Watashi wa' before 'Ima' is acceptable.",
+      "Using 'Sore' or 'Are' instead of 'Kono' is acceptable if pointing."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Te-form Conjugation Accuracy",
+          "weight": 60,
+          "description": "Did the learner correctly conjugate Machimasu to Matte, Shimasu to Shite, and Yomimasu to Yonde?"
+        },
+        {
+          "name": "Requests vs Progressive",
+          "weight": 40,
+          "description": "Did the learner correctly attach 'kudasai' for requests and 'imasu' for the ongoing action?"
+        }
+      ]
+    },
+    "sampleAnswer": "ちょっと まって ください。いま にほんごを べんきょうして います。この ほんを よんで ください。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You fluidly switched between making requests and describing your actions.",
+    "onFail": "Make sure you used 'Yonde' for reading. The verb is 'Yomimasu', which becomes 'Yonde'.",
+    "onPartial": "Good effort! Remember the double consonant in 'Matte'. It should have a tiny pause in the middle."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b2/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m2/b2/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "はやく いきましょう！ちょっと まって ください。いま にほんごを べんきょうして います。この ほんを よんで ください。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "te-form",
+    "requests",
+    "progressive",
+    "roleplay",
+    "intermediate",
+    "month2",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Match the ending to the intent: 'kudasai' = please do this. 'imasu' = I am doing this.",
+  "commonMistakes": [
+    "Saying 'Yomite kudasai' instead of 'Yonde kudasai'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B2_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

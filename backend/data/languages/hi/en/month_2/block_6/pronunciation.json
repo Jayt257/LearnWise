@@ -1,0 +1,236 @@
+{
+  "activityId": "en_hi_M2B6_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "The Polite Pitch",
+  "learningGoal": "The learner will mimic native intonation curves, utilizing a rising pitch boundary at the end of requests ('Could you help me? ⤴') to acoustically convey politeness and mitigate imperative flatness.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B6_lesson_001"],
+  "instructions": "In English, HOW you say something is just as important as what you say. If your voice is flat and loud, you sound angry! When you ask a polite question ('Could you...'), your voice should go UP at the end of the sentence. Listen to the audio and copy the joyful, rising pitch!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Make your voice go up (⤴) at the end of friendly questions. Make it go down (⤵) when you are stating a fact."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "Could you help me?",
+      "transliteration": "कुड यू हेल्प मी?",
+      "baseTranslation": "क्या आप मेरी मदद कर सकते हैं?",
+      "phoneticHint": "Raise the pitch of your voice on the word 'me'. Imagine an arrow pointing up!",
+      "syllableSplit": "Could you help ME⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying it with a flat, robotic tone."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "Excuse me?",
+      "transliteration": "एक्सक्यूज़ मी?",
+      "baseTranslation": "माफ़ कीजिए? (ध्यान खींचने के लिए)",
+      "phoneticHint": "Pitch goes UP on 'me'. This sounds friendly.",
+      "syllableSplit": "Ex-cuse ME⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Flat tone, which sounds aggressive."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "Could you open the door?",
+      "transliteration": "कुड यू ओपन द डोर?",
+      "baseTranslation": "क्या आप दरवाज़ा खोल सकते हैं?",
+      "phoneticHint": "Pitch goes UP on 'door'.",
+      "syllableSplit": "Could you open the DOOR⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p04",
+      "targetText": "Yes, please.",
+      "transliteration": "येस, प्लीज़।",
+      "baseTranslation": "हाँ, कृपया।",
+      "phoneticHint": "Gentle, smiling tone. Stretch the 'eee' in please.",
+      "syllableSplit": "Yes, PLEEEZ",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p05",
+      "targetText": "No, thank you.",
+      "transliteration": "नो, थैंक यू।",
+      "baseTranslation": "जी नहीं, धन्यवाद।",
+      "phoneticHint": "Soft voice. Do not yell 'No'.",
+      "syllableSplit": "No, THANK you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p06",
+      "targetText": "Could you pass the water?",
+      "transliteration": "कुड यू पास द वाटर?",
+      "baseTranslation": "क्या आप पानी बढ़ा सकते हैं?",
+      "phoneticHint": "Pitch goes UP on 'water'.",
+      "syllableSplit": "Could you pass the WA-TER⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p07",
+      "targetText": "I'm sorry.",
+      "transliteration": "आई'म सॉरी।",
+      "baseTranslation": "मुझे खेद है।",
+      "phoneticHint": "Voice goes DOWN. You should sound a little sad.",
+      "syllableSplit": "I'm SO-rry⤵",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Could you please wait?",
+      "transliteration": "कुड यू प्लीज़ वेट?",
+      "baseTranslation": "क्या आप कृपया प्रतीक्षा कर सकते हैं?",
+      "phoneticHint": "Pitch goes UP on 'wait'.",
+      "syllableSplit": "Could you please WAIT⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p09",
+      "targetText": "How are you?",
+      "transliteration": "हाउ आर यू?",
+      "baseTranslation": "आप कैसे हैं?",
+      "phoneticHint": "Standard greeting. Pitch drops slightly at the very end.",
+      "syllableSplit": "How ARE you⤵",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p10",
+      "targetText": "I am fine, thank you.",
+      "transliteration": "आई एम फाइन, थैंक यू।",
+      "baseTranslation": "मैं ठीक हूँ, धन्यवाद।",
+      "phoneticHint": "Happy, bright tone.",
+      "syllableSplit": "I am FINE, thank you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p11",
+      "targetText": "Could you repeat that?",
+      "transliteration": "कुड यू रिपीट दैट?",
+      "baseTranslation": "क्या आप उसे दोहरा सकते हैं?",
+      "phoneticHint": "Pitch goes UP heavily on 'that'. (Used when you didn't hear someone).",
+      "syllableSplit": "Could you repeat THAT⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p12",
+      "targetText": "Excuse me, where is the bathroom?",
+      "transliteration": "एक्सक्यूज़ मी, वेयर इज़ द बाथरूम?",
+      "baseTranslation": "माफ़ कीजिए, बाथरूम कहाँ है?",
+      "phoneticHint": "Polite inquiry contour.",
+      "syllableSplit": "Ex-cuse me, where is the BATH-room⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p13",
+      "targetText": "Have a good day!",
+      "transliteration": "हैव अ गुड डे!",
+      "baseTranslation": "आपका दिन शुभ हो!",
+      "phoneticHint": "Very bright, happy voice! Pitch drops at the end.",
+      "syllableSplit": "Have a good DAY⤵",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p14",
+      "targetText": "Could you speak slowly?",
+      "transliteration": "कुड यू स्पीक स्लोली?",
+      "baseTranslation": "क्या आप धीरे बोल सकते हैं?",
+      "phoneticHint": "Pitch goes UP on 'slowly'.",
+      "syllableSplit": "Could you speak SLOW-ly⤴",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p15",
+      "targetText": "Nice to meet you.",
+      "transliteration": "नाइस टू मीट यू।",
+      "baseTranslation": "आपसे मिलकर अच्छा लगा।",
+      "phoneticHint": "Put the stress on 'Nice'.",
+      "syllableSplit": "NICE to meet you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Could you help me Excuse me Yes please",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Awesome! Your voice sounds incredibly friendly and polite. You used the rising pitch perfectly on your questions!",
+    "onFail": "Keep practicing! You sound a little robotic or angry. Smile when you speak! When you ask 'Could you', make your pitch go UP at the end of the sentence.",
+    "onPartial": "Good effort! Watch out for 'Excuse me'. Make it sound like a gentle question so you don't scare the person!"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "could you help me excuse me could you open the door yes please no thank you could you pass the water i'm sorry could you please wait how are you i am fine thank you could you repeat that excuse me where is the bathroom have a good day could you speak slowly nice to meet you",
+    "acceptedVariants": [
+      "could you help me excuse me could you open the door yes please no thank you could you pass the water i'm sorry could you please wait how are you i am fine thank you could you repeat that excuse me where is the bathroom have a good day could you speak slowly nice to meet you"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Requires active modulation of prosodic contours. Rising terminal intonation contour (L* H-H%) mandatory for yes/no modal requests to encode politeness.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b6/pronunciation/native_polite.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m2/b6/pronunciation/slow_polite.mp3",
+    "normalAudio": "audio/en_hi/m2/b6/pronunciation/native_polite.mp3",
+    "audioTranscript": "Could you help me? Excuse me...",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "intonation", "pitch", "politeness", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b6/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Smile while you speak! Smiling physically changes the shape of your mouth and raises your pitch automatically.",
+  "commonMistakes": [
+    "Using a flat, descending tone for requests, which encodes aggression in English."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B6_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

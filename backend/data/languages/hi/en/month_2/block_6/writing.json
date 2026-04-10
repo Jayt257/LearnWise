@@ -1,0 +1,144 @@
+{
+  "activityId": "en_hi_M2B6_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Fixing Rude Sentences",
+  "learningGoal": "The learner will successfully rewrite direct imperative statements into socially appropriate modal requests utilizing 'Could you' and appending 'Please'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B6_reading_001"],
+  "instructions": "Oh no! A robot translated some Hindi sentences directly into English. It sounds very rude! 'Give me the menu.' 'Help me.' 'Open the window.' Your job is to rewrite these 3 sentences to make them polite. Start them with 'Could you' and end them with 'please'.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Drop the command completely. Turn it into a question! 'Give me water' -> 'Could you give me water, please?'"
+    }
+  ],
+  "writingPrompt": "Rewrite these 3 rude sentences into polite questions: 1. Give me the menu. 2. Help me. 3. Open the window.",
+  "promptGoal": "Test generation of modal softeners and pragmatic politeness markers to mitigate L1 transitive translation brutality.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Could you",
+      "transliteration": "कुड यू",
+      "baseTranslation": "क्या आप कर सकते हैं?",
+      "partOfSpeech": "Modal Phrase"
+    },
+    {
+      "targetText": "Please",
+      "transliteration": "प्लीज़",
+      "baseTranslation": "कृपया",
+      "partOfSpeech": "Adverb"
+    },
+    {
+      "targetText": "Give me",
+      "transliteration": "गिव मी",
+      "baseTranslation": "मुझे दें",
+      "partOfSpeech": "Verb phrase"
+    },
+    {
+      "targetText": "Help me",
+      "transliteration": "हेल्प मी",
+      "baseTranslation": "मेरी मदद करें",
+      "partOfSpeech": "Verb phrase"
+    },
+    {
+      "targetText": "Open",
+      "transliteration": "ओपन",
+      "baseTranslation": "खोलना",
+      "partOfSpeech": "Verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Could you [give me the menu], please?",
+    "Sentence 2: Could you [help me], please?",
+    "Sentence 3: Could you [open the window], please?"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Could you give me the menu, please? Could you help me, please? Could you open the window, please?",
+      "transliteration": "कुड यू गिव मी द मेनू, प्लीज़? कुड यू हेल्प मी, प्लीज़? कुड यू ओपन द विंडो, प्लीज़?",
+      "baseTranslation": "क्या आप कृपया मुझे मेनू दे सकते हैं? क्या आप कृपया मेरी मदद कर सकते हैं? क्या आप कृपया खिड़की खोल सकते हैं?",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully decoupled the imperative force and bracketed the requests with modal softeners and adverbs."
+    },
+    {
+      "targetText": "Please give me the menu. Please help me. Please open window.",
+      "transliteration": "प्लीज़ गिव मी द मेनू। प्लीज़ हेल्प मी। प्लीज़ ओपन विंडो।",
+      "baseTranslation": "कृपया मुझे मेनू दें। (विनम्र, लेकिन फिर भी आदेशात्मक)",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. They merely prepended 'Please' to the imperatives without fundamentally shifting the syntactic structure to a modal inquiry ('Could you')."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Modal Softener Implementation",
+      "weight": 60,
+      "description": "Did the user definitively alter the sentence structure to begin with 'Could you'? (Penalize heavily for just prepending 'please' to the command)."
+    },
+    {
+      "criterion": "Inclusion of 'Please'",
+      "weight": 20,
+      "description": "Did the user append 'please' to the request?"
+    },
+    {
+      "criterion": "Target Completion",
+      "weight": 20,
+      "description": "Were all 3 sentences modified correctly?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Could you give me the menu, please? Could you help me, please? Could you open the window, please?",
+    "acceptableAlternates": [
+      "Could you please give me the menu? Could you please help me? Could you please open the window?"
+    ],
+    "requiredKeywords": ["could you", "please"],
+    "grammarBaseline": "Zero tolerance for unmodified imperative structures. 'Please give me water' is a failure; it must be a modal question.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "Structure changed to Could You": "60%",
+      "Added Please": "20%",
+      "Fixed all 3": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully destroyed the rude commands and rebuilt them into polite, gentlemanly questions!",
+    "onFail": "Please review your work. Did you just slap the word 'Please' onto the front of the order? In English, that is still an order! You must change the structure completely: 'Could you give me...'",
+    "onPartial": "Good start! Don't forget 'Could you'. It is the single most important polite phrase in the English language."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b6/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b6/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b6/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m2/b6/writing/prompt.mp3",
+    "audioTranscript": "Change these commands: Give me the menu. Help me. Open the window. Make them polite.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "politeness", "could_you", "sentences", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b6/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Frame every single request as a question! [Could you] + [Action] + [Please].",
+  "commonMistakes": [
+    "Thinking that merely saying 'Please help me' is sufficient for a stranger."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B6_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,195 @@
+{
+  "activityId": "ja_en_M2B6_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Writing Directions",
+  "learningGoal": "The learner will construct sentences giving sequential travel instructions using the Te-form and identifying locations using relative spatial nouns.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B6_lesson_001",
+    "ja_en_M2B6_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences based on the English prompts. Focus on the correct particles for movement (wo for passing through/turning AT, ni for direction).",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: 'Turn left at the corner' uses 'wo' for the corner (where the turn happens) and 'ni' for the left (the direction)."
+    }
+  ],
+  "writingPrompt": "Translate: 1) How do I get to the station? 2) Please go straight. 3) Please turn left at the corner. 4) The bank is behind the hotel.",
+  "promptGoal": "To construct grammatically accurate questions with 'dou yatte', instructions with '~te kudasai', and locations with 'A no B'.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "えき",
+      "transliteration": "Eki",
+      "baseTranslation": "Station",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "どうやって",
+      "transliteration": "Dou yatte",
+      "baseTranslation": "How / In what way",
+      "partOfSpeech": "question word"
+    },
+    {
+      "targetText": "いきます",
+      "transliteration": "Ikimasu",
+      "baseTranslation": "To go",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "まっすぐ",
+      "transliteration": "Massugu",
+      "baseTranslation": "Straight",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "かど",
+      "transliteration": "Kado",
+      "baseTranslation": "Corner",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "ひだり",
+      "transliteration": "Hidari",
+      "baseTranslation": "Left",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "まがって",
+      "transliteration": "Magatte",
+      "baseTranslation": "Turn",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "ください",
+      "transliteration": "Kudasai",
+      "baseTranslation": "Please",
+      "partOfSpeech": "expression"
+    },
+    {
+      "targetText": "ぎんこう",
+      "transliteration": "Ginkou",
+      "baseTranslation": "Bank",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "うしろ",
+      "transliteration": "Ushiro",
+      "baseTranslation": "Behind / Back",
+      "partOfSpeech": "noun"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [Station] e/ni [How] [Go] ka.",
+    "Sentence 2: [Straight] [Go-Te] kudasai.",
+    "Sentence 3: [Corner] wo [Left] ni [Turn-Te] kudasai.",
+    "Sentence 4: [Bank] wa [Hotel] no [Behind] ni arimasu."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "えきへ どうやって いきますか。まっすぐ いってください。かどを ひだりに まがってください。ぎんこうは ホテルの うしろに あります。",
+      "transliteration": "Eki e dou yatte ikimasu ka. Massugu itte kudasai. Kado wo hidari ni magatte kudasai. Ginkou wa hoteru no ushiro ni arimasu.",
+      "baseTranslation": "How do I get to the station? Please go straight. Please turn left at the corner. The bank is behind the hotel.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect particle usage (kado wo hidari ni) and correct spatial construction (hoteru no ushiro)."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Question Structure",
+      "weight": 20,
+      "description": "Did the learner write 'dou yatte ikimasu ka'?"
+    },
+    {
+      "criterion": "Straight Instruction",
+      "weight": 20,
+      "description": "Did the learner write 'massugu itte kudasai'?"
+    },
+    {
+      "criterion": "Turning Instruction",
+      "weight": 35,
+      "description": "Did the learner write 'kado wo hidari ni magatte kudasai'?"
+    },
+    {
+      "criterion": "Location Description",
+      "weight": 25,
+      "description": "Did the learner write 'hoteru no ushiro ni arimasu'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 35,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "えきへ どうやって いきますか。まっすぐ いってください。かどを ひだりに まがってください。ぎんこうは ホテルの うしろに あります。",
+    "acceptableAlternates": [
+      "えきに どうやって いきますか。まっすぐ いってください。かどを ひだりに まがってください。ぎんこうは ホテルの うしろに あります。"
+    ],
+    "requiredKeywords": [
+      "どうやって",
+      "いきますか",
+      "まっすぐ",
+      "いって",
+      "かどを",
+      "ひだりに",
+      "まがって",
+      "うしろに"
+    ],
+    "grammarBaseline": "Mastery of directional particles and Te-form requests.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 20,
+      "sentence_2": 20,
+      "sentence_3": 35,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! Your directions are clear and grammatically perfect.",
+    "onFail": "Review the particles for turning. You turn AT a place (wo) TO a direction (ni). Kado wo hidari ni.",
+    "onPartial": "Good try! Make sure you didn't write 'Hoteru no ushiro desu'. Because a bank is an inanimate object, you must use 'arimasu' for its location."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "directions",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Use 'wo' for the corner (where you turn) and 'ni' for the left (where you head toward).",
+  "commonMistakes": [
+    "Writing 'Kado ni hidari wo' (reversing the particles)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

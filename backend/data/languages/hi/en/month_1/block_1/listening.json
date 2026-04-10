@@ -1,0 +1,219 @@
+{
+  "activityId": "en_hi_M1B1_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "First Day at the Global English School",
+  "learningGoal": "The learner will be able to comprehend a 3-minute spoken conversation between a teacher and multiple new students, identify basic greetings, and understand names and introductions without visual text.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B1_writing_001"],
+  "instructions": "Listen to the audio of a teacher welcoming students on their first day of class. Do not look at the transcript unless you are completely lost. Try to hear the difference between 'V' and 'W' when the teacher says 'Very' and 'Welcome'. Answer the 8 questions that follow.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Play the audio multiple times before answering."
+    }
+  ],
+  "listeningGoal": "Identify spoken names, track time-of-day greetings, and understand basic SVO sentences spoken at natural speed.",
+  "audioScenario": "Mr. Clark is welcoming his new students into the classroom at 9:00 AM. He asks them how they are doing and introduces them to each other.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Good morning, class!",
+      "transliteration": "गुड मॉर्निंग, क्लास!",
+      "baseTranslation": "शुभ प्रभात, कक्षा!"
+    },
+    {
+      "targetText": "Good morning, Mr. Clark.",
+      "transliteration": "गुड मॉर्निंग, मिस्टर क्लार्क।",
+      "baseTranslation": "शुभ प्रभात, मिस्टर क्लार्क।"
+    },
+    {
+      "targetText": "Welcome to the English Language School.",
+      "transliteration": "वेलकम टू द इंग्लिश लैंग्वेज स्कूल।",
+      "baseTranslation": "अंग्रेजी भाषा स्कूल में आपका स्वागत है।"
+    },
+    {
+      "targetText": "I am very happy to see you.",
+      "transliteration": "आई एम वेरी हैप्पी टू सी यू।",
+      "baseTranslation": "मैं आपको देखकर बहुत खुश हूँ।"
+    },
+    {
+      "targetText": "My name is John Clark. I am your teacher.",
+      "transliteration": "माई नेम इज़ जॉन क्लार्क। आई एम योर टीचर।",
+      "baseTranslation": "मेरा नाम जॉन क्लार्क है। मैं आपका शिक्षक हूँ।"
+    },
+    {
+      "targetText": "How are you today, Amit?",
+      "transliteration": "हाउ आर यू टुडे, अमित?",
+      "baseTranslation": "आज आप कैसे हैं, अमित?"
+    },
+    {
+      "targetText": "I am fine, thank you. How are you?",
+      "transliteration": "आई एम फाइन, थैंक यू। हाउ आर यू?",
+      "baseTranslation": "मैं ठीक हूँ, धन्यवाद। आप कैसे हैं?"
+    },
+    {
+      "targetText": "I am very good. Amit, this is Priya.",
+      "transliteration": "आई एम वेरी गुड। अमित, दिस इज़ प्रिया।",
+      "baseTranslation": "मैं बहुत अच्छा हूँ। अमित, यह प्रिया है।"
+    },
+    {
+      "targetText": "Hello, Priya. Nice to meet you.",
+      "transliteration": "हेलो, प्रिया। नाइस टू मीट यू।",
+      "baseTranslation": "नमस्ते, प्रिया। आपसे मिलकर अच्छा लगा।"
+    },
+    {
+      "targetText": "Hi Amit. Nice to meet you too.",
+      "transliteration": "हाय अमित। नाइस टू मीट यू टू।",
+      "baseTranslation": "हाय अमित। मुझे भी आपसे मिलकर अच्छा लगा।"
+    },
+    {
+      "targetText": "Okay class, let us learn the English letters.",
+      "transliteration": "ओके क्लास, लेट अस लर्न द इंग्लिश लेटर्स।",
+      "baseTranslation": "ठीक है कक्षा, आइए अंग्रेजी के अक्षर सीखें।"
+    },
+    {
+      "targetText": "A, B, C, D, E. Listen carefully to the V and W sounds.",
+      "transliteration": "ए, बी, सी, डी, ई। लिसन केयरफुली टू द वी एंड डब्लू साउंड्स।",
+      "baseTranslation": "A, B, C, D, E. V और W की ध्वनियों को ध्यान से सुनें।"
+    }
+  ],
+  "audioTranscriptFull": "Teacher: Good morning, class!\nStudents: Good morning, Mr. Clark.\nTeacher: Welcome to the English Language School. I am very happy to see you. My name is John Clark. I am your teacher. How are you today, Amit?\nAmit: I am fine, thank you. How are you?\nTeacher: I am very good. Amit, this is Priya.\nAmit: Hello, Priya. Nice to meet you.\nPriya: Hi Amit. Nice to meet you too.\nTeacher: Okay class, let us learn the English letters. A, B, C, D, E. Listen carefully to the V and W sounds.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What time of day is it according to the greetings?",
+      "questionType": "multiple_choice",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What is the teacher's full name?",
+      "questionType": "multiple_choice",
+      "options": ["John Clark", "Amit Clark", "John Smith", "Mr. Priya"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Did the teacher say he is happy or sad to see the students?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Who does Amit introduce himself to?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Fill in the blank from the audio: '____ to the English Language School.'",
+      "questionType": "fill_blank",
+      "options": null,
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "What does Amit say after saying he is fine?",
+      "questionType": "multiple_choice",
+      "options": ["Goodbye", "Thank you. How are you?", "Nice to meet you.", "Hello Mr. Clark."],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Which two specific letter sounds does the teacher ask the students to listen to carefully?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:35",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "Is Mr. Clark speaking formal or informal English by saying 'Good morning' instead of 'Hey'?",
+      "questionType": "multiple_choice",
+      "options": ["Formal", "Informal"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "Give 5 marks if spelling is slightly off on short answers but conceptually correct."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Morning",
+      "q2": "John Clark",
+      "q3": "Happy",
+      "q4": "Priya",
+      "q5": "Welcome",
+      "q6": "Thank you. How are you?",
+      "q7": "V and W",
+      "q8": "Formal"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["He is very happy", "Happy", "Very happy"],
+      "q4": ["Priya", "A new student named Priya"],
+      "q5": ["Welcome"],
+      "q7": ["V and W", "V, W", "The V and W sounds"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q7": ["v", "w"]
+    },
+    "partialCreditRules": {
+      "q4": "5 points for saying 'a new student' without the name."
+    }
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Excellent listening skills! You caught the details of the conversation perfectly.",
+    "onFail": "Please use the 'Slow Playback' feature and listen again. Don't rely on the text until you have tried 3 times.",
+    "onPartial": "Good work! You heard most of it. Review the transcript for the ones you missed."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b1/listening/dialogue_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b1/listening/dialogue_slow.mp3",
+    "normalAudio": "audio/en_hi/m1/b1/listening/dialogue_native.mp3",
+    "audioTranscript": "Teacher: Good morning, class! Students: Good morning, Mr. Clark... (full transcript in text block)",
+    "audioLanguage": "en",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "class", "introductions", "svo", "greetings", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b1/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you struggle, turn on slow playback. Pay attention to how 'Mr. Clark' is pronounced vs 'Amit'.",
+  "commonMistakes": [
+    "Not hearing the 'r' in Morning or Afternoon because English speakers soften it.",
+    "Missing 'Thank you' as part of the formal 'How are you' response."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B1_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

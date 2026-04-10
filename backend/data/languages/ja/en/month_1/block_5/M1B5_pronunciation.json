@@ -1,0 +1,182 @@
+{
+  "activityId": "en_ja_M1B5_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "Pronouncing the Action 'S'",
+  "learningGoal": "Master the three different sounds of the third-person singular 's' (/s/, /z/, /iz/) and correctly pronounce irregulars like 'has' and 'doesn't'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B5_lesson_1"
+  ],
+  "instructions": "三人称単数の「s」には、単語の終わり方によって３つの発音（ス、ズ、イズ）があります。それぞれの音と、don't / doesn't の発音を練習しましょう。マイクに向かってリピートしてください。(Practice the three sounds of the third-person 's' and the pronunciation of don't/doesn't. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "eats",
+      "transliteration": "イーツ",
+      "baseTranslation": "食べる（三人称）",
+      "phoneticHint": "Because 'eat' ends in a 't' sound, the 's' sounds like a sharp /s/.",
+      "syllableSplit": "eats",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'eat-su'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "reads",
+      "transliteration": "リーズ",
+      "baseTranslation": "読む（三人称）",
+      "phoneticHint": "Because 'read' ends in a voiced 'd', the 's' sounds like a buzzing /z/.",
+      "syllableSplit": "reads",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'read-su'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "goes",
+      "transliteration": "ゴーズ",
+      "baseTranslation": "行く（三人称）",
+      "phoneticHint": "The 'es' sounds like /z/. Goz.",
+      "syllableSplit": "goes",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'go-es'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "watches",
+      "transliteration": "ウォッチズ",
+      "baseTranslation": "見る（三人称）",
+      "phoneticHint": "Because 'watch' ends in a 'ch' sound, you add an extra syllable: /iz/. Wa-chiz.",
+      "syllableSplit": "watch-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'watch-s'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "washes",
+      "transliteration": "ウォッシズ",
+      "baseTranslation": "洗う（三人称）",
+      "phoneticHint": "Ends in 'sh', so add the /iz/ sound. Wa-shiz.",
+      "syllableSplit": "wash-es",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'wash-s'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "has",
+      "transliteration": "ハズ",
+      "baseTranslation": "持っている（三人称）",
+      "phoneticHint": "The 's' sounds like a buzzing /z/.",
+      "syllableSplit": "has",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hass' with a sharp 's'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "wakes up",
+      "transliteration": "ウェイクス アップ",
+      "baseTranslation": "起きる（三人称）",
+      "phoneticHint": "The 's' is attached to 'wake', sounding like a sharp /s/, and connects to 'up'. Wake-sup.",
+      "syllableSplit": "wakes up",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'wake up-s'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "sleeps",
+      "transliteration": "スリープス",
+      "baseTranslation": "寝る（三人称）",
+      "phoneticHint": "Ends in 'p', so the 's' is a sharp /s/.",
+      "syllableSplit": "sleeps",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'sleep-su'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "don't",
+      "transliteration": "ドント",
+      "baseTranslation": "〜しない",
+      "phoneticHint": "Rhymes with 'won't'. Do-nt. The 't' is often very soft.",
+      "syllableSplit": "don't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'don-to'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "doesn't",
+      "transliteration": "ダズント",
+      "baseTranslation": "〜しない（三人称）",
+      "phoneticHint": "Duz-nt. The 's' sounds like /z/.",
+      "syllableSplit": "does-n't",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'doo-zent' or 'da-zun-to'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "eats reads goes watches washes has wakes up sleeps don't doesn't",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You pronounced the tricky 's' and 'es' endings perfectly.",
+    "onFail": "Please try again. Pay attention to whether the 's' sounds like a snake (s) or a bee (z).",
+    "onPartial": "Good effort! Remember that 'watches' has an extra beat: watch-iz."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "eats reads goes watches washes has wakes up sleeps don't doesn't",
+    "acceptedVariants": [
+      "eats reads goes watches washes has wakes up sleeps dont doesnt"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "eats reads goes watches washes has wakes up sleeps don't doesn't",
+    "transliteration": "eets reedz gohz wachiz washiz haz wayks up sleeps dohnt duznt",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B5_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B5_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "eats, reads, goes, watches, washes, has, wakes up, sleeps, don't, doesn't",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "verbs",
+    "third_person_singular",
+    "negation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To sound native, don't say the 'su' sound too strongly at the end of words like 'eats' or 'sleeps'. It should be a short hiss.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B5_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

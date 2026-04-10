@@ -1,0 +1,282 @@
+{
+  "activityId": "hi_en_M1B2_vocabulary_6",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "vocabulary",
+  "title": "Vocabulary: Countries and Introductions",
+  "learningGoal": "Memorize the vocabulary needed to introduce yourself and state where you and others are from.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_lesson_1"
+  ],
+  "instructions": "Learn the names of countries in Hindi, and the essential words for asking 'who' and 'where'. Pay attention to the spelling of the country names in Devanagari.",
+  "vocabTheme": "Identity and Countries",
+  "wordList": [
+    {
+      "wordId": "v_1",
+      "targetText": "भारत",
+      "transliteration": "Bharat",
+      "baseTranslation": "India",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_2",
+      "targetText": "अमेरिका",
+      "transliteration": "Amerika",
+      "baseTranslation": "America",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_3",
+      "targetText": "इंग्लैंड",
+      "transliteration": "Inglaing",
+      "baseTranslation": "England",
+      "partOfSpeech": "noun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_4",
+      "targetText": "से",
+      "transliteration": "se",
+      "baseTranslation": "from",
+      "partOfSpeech": "postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_5",
+      "targetText": "और",
+      "transliteration": "aur",
+      "baseTranslation": "and",
+      "partOfSpeech": "conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_6",
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this / he / she",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_7",
+      "targetText": "कौन",
+      "transliteration": "kaun",
+      "baseTranslation": "who",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "कहाँ",
+      "transliteration": "kahan",
+      "baseTranslation": "where",
+      "partOfSpeech": "pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_9",
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is",
+      "partOfSpeech": "verb",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_10",
+      "targetText": "स्वागत",
+      "transliteration": "swagat",
+      "baseTranslation": "welcome",
+      "partOfSpeech": "noun",
+      "formalityLevel": "formal",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_11",
+      "targetText": "में",
+      "transliteration": "mein",
+      "baseTranslation": "in",
+      "partOfSpeech": "postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "wordId": "v_12",
+      "targetText": "कहाँ से",
+      "transliteration": "kahan se",
+      "baseTranslation": "from where",
+      "partOfSpeech": "phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "meaningList": [
+    "India", "America", "England", "from", "and", "this / he / she", "who", "where", "is", "welcome", "in", "from where"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v_1",
+      "targetText": "मैं भारत से हूँ।",
+      "transliteration": "Main Bharat se hoon.",
+      "baseTranslation": "I am from India."
+    },
+    {
+      "wordId": "v_6",
+      "targetText": "यह जॉन है।",
+      "transliteration": "Yeh John hai.",
+      "baseTranslation": "This is John."
+    },
+    {
+      "wordId": "v_8",
+      "targetText": "आप कहाँ से हैं?",
+      "transliteration": "Aap kahan se hain?",
+      "baseTranslation": "Where are you from?"
+    },
+    {
+      "wordId": "v_10",
+      "targetText": "भारत में स्वागत है!",
+      "transliteration": "Bharat mein swagat hai!",
+      "baseTranslation": "Welcome to India! (Literally: In India welcome is)"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "vq_1",
+      "questionText": "What is the Hindi word for 'from'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "se (से)",
+        "mein (में)",
+        "aur (और)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_1"
+    },
+    {
+      "questionId": "vq_2",
+      "questionText": "If 'kaun' (कौन) means 'who', what does 'kahan' (कहाँ) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Where",
+        "Why",
+        "What"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_2"
+    },
+    {
+      "questionId": "vq_3",
+      "questionText": "How do you say 'This is Amit'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yeh Amit hai. (यह अमित है।)",
+        "Main Amit hoon. (मैं अमित हूँ।)",
+        "Aap Amit hain. (आप अमित हैं।)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_3"
+    },
+    {
+      "questionId": "vq_4",
+      "questionText": "Translate to English: 'Aap kahan se hain?'",
+      "questionType": "multiple_choice",
+      "options": [
+        "Where are you from?",
+        "How are you?",
+        "Who are you?"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_4"
+    },
+    {
+      "questionId": "vq_5",
+      "questionText": "What does the postposition 'mein' (में) mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "In",
+        "From",
+        "And"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_5"
+    },
+    {
+      "questionId": "vq_6",
+      "questionText": "Which verb goes with 'Yeh' (This/He/She)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "hai (है) - is",
+        "hoon (हूँ) - am",
+        "hain (हैं) - are"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.vq_6"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "vq_1": "se (से)",
+      "vq_2": "Where",
+      "vq_3": "Yeh Amit hai. (यह अमित है।)",
+      "vq_4": "Where are you from?",
+      "vq_5": "In",
+      "vq_6": "hai (है) - is"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Awesome! You have a solid grasp of question words and postpositions.",
+    "onFail": "Review the question words. 'Kaun' is who, 'Kahan' is where.",
+    "onPartial": "Good try! Make sure you remember that 'se' means 'from' and 'mein' means 'in'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "vocabulary",
+    "countries",
+    "questions",
+    "postpositions",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Postpositions in Hindi come AFTER the noun they modify. So 'In India' becomes 'India in' (Bharat mein).",
+  "commonMistakes": [
+    "Confusing 'kaun' (who) with 'kahan' (where)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B2_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

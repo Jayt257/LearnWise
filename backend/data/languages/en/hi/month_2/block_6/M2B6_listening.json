@@ -1,0 +1,181 @@
+{
+  "activityId": "hi_en_M2B6_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "Listening: The Confused Auto Driver",
+  "learningGoal": "Understand spoken directions, identify negative commands, and comprehend rapid Hindi numbers during payment.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M2B6_lesson_1"
+  ],
+  "instructions": "Listen to a passenger giving directions to a confused auto driver. Track the directions (left, right, straight) and note when the passenger uses 'Mat' to stop the driver from making a mistake.",
+  "listeningGoal": "Accurately decode rapid directional commands and negative imperatives in a noisy street context.",
+  "audioScenario": "A passenger is directing an auto-rickshaw driver through small alleys to reach a hotel.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "यात्री: भैया, यहाँ से दाएँ लीजिए।",
+      "transliteration": "Yaatri: Bhaiya, yahaan se daayein leejiye.",
+      "baseTranslation": "Passenger: Brother, take a right from here."
+    },
+    {
+      "targetText": "ड्राइवर: सर, आगे रास्ता बंद है। क्या मैं बाएँ चलूँ?",
+      "transliteration": "Driver: Sir, aage raasta band hai. Kya main baayein chaloon?",
+      "baseTranslation": "Driver: Sir, the road ahead is closed. Should I go left?"
+    },
+    {
+      "targetText": "यात्री: नहीं, बाएँ मत जाइए! वहाँ बहुत ट्रैफिक है।",
+      "transliteration": "Yaatri: Nahi, baayein mat jaiye! Wahaan bahut traffic hai.",
+      "baseTranslation": "Passenger: No, do not go left! There is a lot of traffic there."
+    },
+    {
+      "targetText": "ड्राइवर: तो फिर कहाँ जाना है?",
+      "transliteration": "Driver: Toh phir kahan jaana hai?",
+      "baseTranslation": "Driver: Then where do we have to go?"
+    },
+    {
+      "targetText": "यात्री: बस सीधा चलिए। वो लाल इमारत देखिए।",
+      "transliteration": "Yaatri: Bas seedha chaliye. Wo laal imaarat dekhiye.",
+      "baseTranslation": "Passenger: Just keep going straight. Look at that red building."
+    },
+    {
+      "targetText": "ड्राइवर: हाँ, दिख गई।",
+      "transliteration": "Driver: Haan, dikh gayi.",
+      "baseTranslation": "Driver: Yes, I see it."
+    },
+    {
+      "targetText": "यात्री: बस, उसी के सामने गाड़ी रोकिए।",
+      "transliteration": "Yaatri: Bas, usi ke saamne gaadi rokiye.",
+      "baseTranslation": "Passenger: Enough, stop the car right in front of it."
+    }
+  ],
+  "audioTranscriptFull": "भैया, यहाँ से दाएँ लीजिए। सर, आगे रास्ता बंद है। क्या मैं बाएँ चलूँ? नहीं, बाएँ मत जाइए! वहाँ बहुत ट्रैफिक है। तो फिर कहाँ जाना है? बस सीधा चलिए। वो लाल इमारत देखिए। हाँ, दिख गई। बस, उसी के सामने गाड़ी रोकिए।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What direction does the passenger initially tell the driver to take?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Right (Daayein leejiye)",
+        "Left (Baayein leejiye)",
+        "Straight (Seedha chaliye)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "Why does the driver want to go left?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because the road ahead is closed (Aage raasta band hai).",
+        "Because he knows a shortcut.",
+        "Because there is traffic on the right."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "How does the passenger tell the driver NOT to go left?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Baayein mat jaiye! (Do not go left!)",
+        "Baayein nahi jaiye!",
+        "Seedha chaliye!"
+      ],
+      "audioTimestamp": "00:11",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "What landmark does the passenger tell the driver to look at (dekhiye)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "That red building (Wo laal imaarat).",
+        "A red car.",
+        "The traffic light."
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "Where exactly should the driver stop the car?",
+      "questionType": "multiple_choice",
+      "options": [
+        "In front of it (Usi ke saamne).",
+        "Behind it (Peeche).",
+        "Inside it (Andar)."
+      ],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Right (Daayein leejiye)",
+      "lq_2": "Because the road ahead is closed (Aage raasta band hai).",
+      "lq_3": "Baayein mat jaiye! (Do not go left!)",
+      "lq_4": "That red building (Wo laal imaarat).",
+      "lq_5": "In front of it (Usi ke saamne)."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Superb listening skills! You perfectly tracked the directions and commands.",
+    "onFail": "Listen closely to the directional words: Daayein (Right), Baayein (Left), Seedha (Straight).",
+    "onPartial": "Good effort. Notice how the passenger says 'Nahi' to answer the driver's question, but immediately uses 'Mat' to give the actual command (Baayein mat jaiye)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "भैया, यहाँ से दाएँ लीजिए। सर, आगे रास्ता बंद है। क्या मैं बाएँ चलूँ? नहीं, बाएँ मत जाइए! वहाँ बहुत ट्रैफिक है। तो फिर कहाँ जाना है? बस सीधा चलिए। वो लाल इमारत देखिए। हाँ, दिख गई। बस, उसी के सामने गाड़ी रोकिए।",
+    "audioLanguage": "hi",
+    "audioDuration": 85,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "directions",
+    "commands",
+    "auto_rickshaw",
+    "mat"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for the 'iye' endings. The passenger is frustrated, but he maintains respect by using 'leejiye', 'jaiye', 'chaliye', and 'rokiye'.",
+  "commonMistakes": [
+    "Confusing 'Daayein' (Right) and 'Baayein' (Left) because they sound so similar."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B6_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

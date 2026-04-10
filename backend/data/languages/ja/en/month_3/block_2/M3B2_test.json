@@ -1,0 +1,252 @@
+{
+  "activityId": "en_ja_M3B2_test_8",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Test: Passive & Perfect",
+  "learningGoal": "Evaluate your understanding of the passive voice and the present perfect tense for experiences.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B2_speaking_7"
+  ],
+  "instructions": "Month 3 Block 2 のテストです。受動態（be動詞＋過去分詞）と、現在完了形（have＋過去分詞）についての問題に答えてください。(This is the Block 2 test. Answer questions about the passive voice and present perfect tense.)",
+  "testTitle": "Passive and Perfect Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Present Perfect (現在完了形・経験)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "「私は今までにアメリカに行ったことがあります」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have gone to America.",
+            "I have went to America.",
+            "I have been to America.",
+            "I have go to America."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "「今までに寿司を食べたことがありますか？」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "Did you ever ate sushi?",
+            "Have you ever eaten sushi?",
+            "Do you ever eat sushi?",
+            "Have you ever ate sushi?"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "次のうち、間違っている（文法的に誤りがある）文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have been to London three times.",
+            "She has seen that movie before.",
+            "I have visited Japan yesterday.",
+            "I have never eaten natto."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Passive Voice (受動態)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「この車は日本で作られました」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "This car made in Japan.",
+            "This car was making in Japan.",
+            "This car was made in Japan.",
+            "This car is make in Japan."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「その本は彼によって書かれました」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "The book wrote by him.",
+            "The book was wrote by him.",
+            "The book was written with him.",
+            "The book was written by him."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary: Past Participles (過去分詞)",
+      "questions": [
+        {
+          "questionId": "q6",
+          "questionText": "動詞「see（見る）」の過去分詞形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "saw",
+            "seed",
+            "seen",
+            "seeing"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "動詞「build（建てる）」の過去分詞形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "builded",
+            "built",
+            "builds",
+            "builten"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "Comprehensive Understanding",
+      "questions": [
+        {
+          "questionId": "q8",
+          "questionText": "「I have gone to Paris.」の意味として最も適切なものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "私はパリに行ったことがある（そして帰ってきている）。",
+            "私はパリに行ってしまった（今ここにいない）。",
+            "私はパリに行くつもりだ。",
+            "私はパリが好きだ。"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "次の文の空欄に入る単語は何ですか？ 'Sushi is ________ by many people.' (愛されている)",
+          "questionType": "multiple_choice",
+          "options": [
+            "love",
+            "loved",
+            "loving",
+            "loves"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "「私はそれを一度もしたことがない」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I have ever done that.",
+            "I have didn't do that.",
+            "I have never done that.",
+            "I haven't never done that."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "I have been to America.",
+      "q2": "Have you ever eaten sushi?",
+      "q3": "I have visited Japan yesterday.",
+      "q4": "This car was made in Japan.",
+      "q5": "The book was written by him.",
+      "q6": "seen",
+      "q7": "built",
+      "q8": "私はパリに行ってしまった（今ここにいない）。",
+      "q9": "loved",
+      "q10": "I have never done that."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 10,
+      "sec_3": 10,
+      "sec_4": 20
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！現在完了形（経験）と受動態の違いを完璧に理解し、過去分詞も正しく使えています。",
+    "onFail": "もう一度復習しましょう。「have been to（行ったことがある）」と「have gone to（行ってしまった）」の違いに注意してください。",
+    "onPartial": "よくできました。現在完了形と一緒に「yesterday」などの過去の時間は使えないことを覚えておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_2",
+    "month_3",
+    "present_perfect",
+    "passive_voice"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember: 'have been to' is for experience. Passive voice uses 'be + past participle'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B3_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

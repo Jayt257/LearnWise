@@ -1,0 +1,193 @@
+{
+  "activityId": "ja_en_M1B2_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Dakuten, Handakuten, and New Rows",
+  "learningGoal": "The learner will correctly pronounce words containing the H, M, Y, R, W rows and words with dakuten (゛) and handakuten (゜) modifiers.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B2_lesson_001"
+  ],
+  "instructions": "Listen to the native pronunciation of each word. Pay close attention to how the dakuten (゛) changes K to G, S to Z, T to D, and H to B. Also, notice how handakuten (゜) changes H to P. Record yourself speaking each word and aim for a score of 70 or higher.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "This activity will help you master the new sounds introduced in Block 2. Focus on clear vowel sounds and the sharp distinction between unvoiced sounds (like K) and voiced sounds (like G)."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "はな",
+      "transliteration": "Hana",
+      "baseTranslation": "Flower",
+      "phoneticHint": "hah-nah",
+      "syllableSplit": "ha-na",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Pronouncing 'ha' too heavily from the throat. It should be light."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "やま",
+      "transliteration": "Yama",
+      "baseTranslation": "Mountain",
+      "phoneticHint": "yah-mah",
+      "syllableSplit": "ya-ma",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Pronouncing 'ya' like 'jaw'."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "わたし",
+      "transliteration": "Watashi",
+      "baseTranslation": "I / me",
+      "phoneticHint": "wah-tah-shee",
+      "syllableSplit": "wa-ta-shi",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Pronouncing 'wa' like 'v'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "がくせい",
+      "transliteration": "Gakusei",
+      "baseTranslation": "Student",
+      "phoneticHint": "gah-ku-SAY",
+      "syllableSplit": "ga-ku-se-i",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Pronouncing 'ga' too harshly."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "だいがく",
+      "transliteration": "Daigaku",
+      "baseTranslation": "University",
+      "phoneticHint": "die-gah-ku",
+      "syllableSplit": "da-i-ga-ku",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Failing to pronounce the 'i' clearly before 'ga'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "みず",
+      "transliteration": "Mizu",
+      "baseTranslation": "Water",
+      "phoneticHint": "mee-zoo",
+      "syllableSplit": "mi-zu",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Pronouncing 'zu' as 'su'."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "かぜ",
+      "transliteration": "Kaze",
+      "baseTranslation": "Wind",
+      "phoneticHint": "kah-zeh",
+      "syllableSplit": "ka-ze",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Pronouncing 'ze' like 'zay' with a long y sound."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "ぼうし",
+      "transliteration": "Boushi",
+      "baseTranslation": "Hat",
+      "phoneticHint": "boh-shee",
+      "syllableSplit": "bo-u-shi",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Making the 'bo' too short. It has an 'u' after it, making it long."
+    },
+    {
+      "itemId": "p009",
+      "targetText": "えんぴつ",
+      "transliteration": "Enpitsu",
+      "baseTranslation": "Pencil",
+      "phoneticHint": "en-peet-su",
+      "syllableSplit": "e-n-pi-tsu",
+      "nativeAudioRef": "audioAssets.nativeAudio_p009",
+      "slowAudioRef": "audioAssets.slowAudio_p009",
+      "commonMispronunciation": "Pronouncing 'tsu' as 'su'."
+    },
+    {
+      "itemId": "p010",
+      "targetText": "りんご",
+      "transliteration": "Ringo",
+      "baseTranslation": "Apple",
+      "phoneticHint": "reen-go",
+      "syllableSplit": "ri-n-go",
+      "nativeAudioRef": "audioAssets.nativeAudio_p010",
+      "slowAudioRef": "audioAssets.slowAudio_p010",
+      "commonMispronunciation": "Using a hard English 'R'. The Japanese 'R' is a flap like the 'dd' in 'ladder'."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "はな やま わたし がくせい だいがく みず かぜ ぼうし えんぴつ りんご",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Excellent! You are sounding very natural with the new Hiragana rows and dakuten modifiers.",
+    "onFail": "Keep practicing! Listen to the slow audio carefully and try to match the rhythm and clarity of the vowels.",
+    "onPartial": "Good effort! You got most of the sounds right. Review the words with dakuten (like ga, za, da, ba) and try again."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "はな やま わたし がくせい だいがく みず かぜ ぼうし えんぴつ りんご",
+    "acceptedVariants": [
+      "hana yama watashi gakusei daigaku mizu kaze boushi enpitsu ringo"
+    ],
+    "syllableSplitReference": "ha-na ya-ma wa-ta-shi ga-ku-se-i da-i-ga-ku mi-zu ka-ze bo-u-shi e-n-pi-tsu ri-n-go",
+    "phoneticApproximation": "hah-nah yah-mah wah-tah-shee gah-ku-SAY die-gah-ku mee-zoo kah-zeh boh-shee en-peet-su reen-go",
+    "nativeScriptReference": "はな やま わたし がくせい だいがく みず かぜ ぼうし えんぴつ りんご",
+    "transliteration": "Hana Yama Watashi Gakusei Daigaku Mizu Kaze Boushi Enpitsu Ringo",
+    "strictnessLevel": "moderate"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b2/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m1/b2/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b2/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "はな。やま。わたし。がくせい。だいがく。みず。かぜ。ぼうし。えんぴつ。りんご。",
+    "audioLanguage": "ja",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "hiragana",
+    "dakuten",
+    "beginner",
+    "month1",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure your 'R' sounds like a light tap on the roof of your mouth, not a hard American R.",
+  "commonMistakes": [
+    "Pronouncing Japanese R like English R.",
+    "Making the vowels too long. Keep them short and crisp."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

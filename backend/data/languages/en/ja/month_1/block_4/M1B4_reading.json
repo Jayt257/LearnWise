@@ -1,0 +1,210 @@
+{
+  "activityId": "ja_en_M1B4_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "Yuki's Morning Schedule",
+  "learningGoal": "The learner will read a short paragraph containing numbers, age, time, and days of the week, successfully extracting the specific details.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B4_lesson_001",
+    "ja_en_M1B4_vocabulary_001"
+  ],
+  "instructions": "Read the short diary entry below written by a Japanese university student named Yuki. Pay close attention to the numbers used for her age and the time. Answer the comprehension questions after reading.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember that 'ima' means 'now' and 'kyou' means 'today'."
+    }
+  ],
+  "readingTitle": "Yuki's Introduction",
+  "readingText": "はじめまして。わたしは ゆきです。はたちです。\nきょうは げつようびです。いま、くじです。\nわたしは だいがくせいです。よろしく おねがいします。",
+  "textInTargetLanguage": "はじめまして。わたしは ゆきです。はたちです。\nきょうは げつようびです。いま、くじです。\nわたしは だいがくせいです。よろしく おねがいします。",
+  "baseLanguageSupportText": "Nice to meet you. I am Yuki. I am 20 years old. Today is Monday. Now it is 9 o'clock. I am a university student. Please treat me well.",
+  "glossary": [
+    {
+      "targetText": "はたち",
+      "transliteration": "Hatachi",
+      "baseTranslation": "20 years old",
+      "exampleSentence": {
+        "targetText": "わたしは はたちです。",
+        "transliteration": "Watashi wa hatachi desu.",
+        "baseTranslation": "I am 20 years old."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "きょう",
+      "transliteration": "Kyou",
+      "baseTranslation": "Today",
+      "exampleSentence": {
+        "targetText": "きょうは げつようびです。",
+        "transliteration": "Kyou wa getsuyoubi desu.",
+        "baseTranslation": "Today is Monday."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "げつようび",
+      "transliteration": "Getsuyoubi",
+      "baseTranslation": "Monday",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "いま",
+      "transliteration": "Ima",
+      "baseTranslation": "Now",
+      "exampleSentence": {
+        "targetText": "いま、なんじですか。",
+        "transliteration": "Ima, nanji desu ka.",
+        "baseTranslation": "What time is it now?"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "くじ",
+      "transliteration": "Ku-ji",
+      "baseTranslation": "9 o'clock",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "わたしは ゆきです。はたちです。",
+      "transliteration": "Watashi wa Yuki desu. Hatachi desu.",
+      "baseTranslation": "I am Yuki. I am 20 years old."
+    },
+    {
+      "targetText": "きょうは げつようびです。いま、くじです。",
+      "transliteration": "Kyou wa getsuyoubi desu. Ima, kuji desu.",
+      "baseTranslation": "Today is Monday. Now it is 9 o'clock."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "How old is Yuki?",
+      "questionType": "multiple_choice",
+      "options": [
+        "18 years old",
+        "19 years old",
+        "20 years old",
+        "21 years old"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What day of the week is it in the text?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What time is it currently in the story?",
+      "questionType": "multiple_choice",
+      "options": [
+        "8 o'clock",
+        "9 o'clock",
+        "10 o'clock",
+        "4 o'clock"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What is Yuki's occupation?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Teacher",
+        "Office worker",
+        "Doctor",
+        "University student"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "What word does Yuki use to say 'Today'?",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "20 years old",
+      "q002": "Monday",
+      "q003": "9 o'clock",
+      "q004": "University student",
+      "q005": "きょう"
+    },
+    "acceptableParaphrases": {
+      "q005": ["Kyou", "kyou", "きょう"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Yuki is a 20-year-old university student.",
+      "It is Monday.",
+      "It is 9 o'clock."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You correctly identified the age, time, and day of the week.",
+    "onFail": "Review the numbers vocabulary. Pay close attention to words like 'hatachi' and 'kuji'.",
+    "onPartial": "Almost perfect! Check the glossary to see what 'kyou' and 'ima' mean if you got confused."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b4/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b4/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b4/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m1/b4/reading/normal_reading.mp3",
+    "audioTranscript": "はじめまして。わたしは ゆきです。はたちです。きょうは げつようびです。いま、くじです。わたしは だいがくせいです。よろしく おねがいします。",
+    "audioLanguage": "ja",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "numbers",
+    "time",
+    "age",
+    "days",
+    "beginner",
+    "month1",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the word 'hatachi'. It doesn't end in 'sai', but it still means age (20).",
+  "commonMistakes": [
+    "Thinking 'kuji' means 8 o'clock."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B4_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

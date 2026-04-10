@@ -1,0 +1,245 @@
+{
+  "activityId": "en_ja_M1B5_test_8",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Test: Verbs and Routines",
+  "learningGoal": "Evaluate your understanding of action verbs, the third-person singular 's', and negative sentences (don't/doesn't).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B5_speaking_7"
+  ],
+  "instructions": "Block 5 のテストです。主語によって動詞の形がどう変わるか（sがつくか、don'tかdoesn'tか）に関する問題に答えてください。(This is the Block 5 test. Answer questions about how the verb form changes depending on the subject.)",
+  "testTitle": "Action Verbs Mastery",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "Grammar: Third-Person Singular (三人称単数の s)",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "Fill in the blank: 'Ken ________ to work at 8:00.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "go",
+            "goes",
+            "gos",
+            "going"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Fill in the blank: 'She ________ an apple.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "eat",
+            "eats",
+            "have",
+            "eating"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Fill in the blank: 'He ________ a new car.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "haves",
+            "have",
+            "has",
+            "having"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "Grammar: Negative Sentences (否定文)",
+      "questions": [
+        {
+          "questionId": "q4",
+          "questionText": "「私は肉を食べません」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "I am not eat meat.",
+            "I don't eat meat.",
+            "I doesn't eat meat.",
+            "I not eat meat."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "「彼はテレビを見ません」の正しい英語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "He don't watch TV.",
+            "He doesn't watches TV.",
+            "He doesn't watch TV.",
+            "He isn't watch TV."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        },
+        {
+          "questionId": "q6",
+          "questionText": "Fill in the blank: 'She ________ have a car.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "don't",
+            "doesn't",
+            "isn't",
+            "not"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "Vocabulary and Comprehension",
+      "questions": [
+        {
+          "questionId": "q7",
+          "questionText": "「勉強する」の三人称単数形（He/Sheが主語の時の形）の正しいスペルはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "studys",
+            "studies",
+            "studyes",
+            "study"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "「起きる」を意味するフレーズはどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "sleep up",
+            "wake up",
+            "go up",
+            "watch up"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "「goes」の正しい発音はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "ゴーエス (go-es)",
+            "ゴーズ (goz)",
+            "ゴース (gos)",
+            "ゴーイズ (go-iz)"
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "次のうち、完全に正しい文はどれですか？",
+          "questionType": "multiple_choice",
+          "options": [
+            "He wakes up at 7:00.",
+            "I wakes up at 7:00.",
+            "He wake up at 7:00.",
+            "He is wake up at 7:00."
+          ],
+          "questionHints": null,
+          "marks": 10,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "goes",
+      "q2": "eats",
+      "q3": "has",
+      "q4": "I don't eat meat.",
+      "q5": "He doesn't watch TV.",
+      "q6": "doesn't",
+      "q7": "studies",
+      "q8": "wake up",
+      "q9": "ゴーズ (goz)",
+      "q10": "He wakes up at 7:00."
+    },
+    "sectionPassMarks": {
+      "sec_1": 20,
+      "sec_2": 20,
+      "sec_3": 30
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！英語で最も間違いやすい「三単現のs」を完璧にマスターしています！",
+    "onFail": "もう一度ルールを確認しましょう。主語が「I」や「You」以外の時だけ「s」がつきます。否定文では「doesn't」を使い、後ろの動詞は原形に戻ります。",
+    "onPartial": "よくできました。Doesn't の後は動詞を「元の形」に戻すルール（例：He doesn't watch）をもう一度復習してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block_5",
+    "verbs",
+    "third_person_singular",
+    "negation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay close attention to the subject. Is it I? Is it He? That changes everything.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B6_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

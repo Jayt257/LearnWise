@@ -1,0 +1,169 @@
+{
+  "activityId": "en_ja_M3B1_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "If It Happens...",
+  "learningGoal": "Write sentences using the first conditional (If + present, will + base verb) to describe future plans based on conditions.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B1_reading_3"
+  ],
+  "instructions": "天候などの条件によって変わる「明日の予定」について、英語で3つの文章を書いてください。(Write 3 sentences about your plans for tomorrow depending on conditions.)\n以下の条件をすべて満たしてください。\n1. すべての文で「If（もし〜なら）」を使うこと\n2. Ifの節（条件）の中の動詞は【現在形】にすること\n3. メインの節（結果・予定）には【will】を使うこと",
+  "writingPrompt": "Write 3 sentences using 'If'. Example: 'If it rains tomorrow, I will read a book.'",
+  "promptGoal": "To actively construct first conditional sentences and correctly apply the tense rule (present tense inside the if-clause, future tense in the main clause).",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "If",
+      "transliteration": "イフ",
+      "baseTranslation": "もし〜なら",
+      "partOfSpeech": "conjunction"
+    },
+    {
+      "targetText": "rains",
+      "transliteration": "レインズ",
+      "baseTranslation": "雨が降る（現在形）",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "is sunny",
+      "transliteration": "イズ サニー",
+      "baseTranslation": "晴れる（現在形）",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "have time",
+      "transliteration": "ハヴ タイム",
+      "baseTranslation": "時間がある（現在形）",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "will",
+      "transliteration": "ウィル",
+      "baseTranslation": "〜するつもりだ",
+      "partOfSpeech": "auxiliary verb"
+    },
+    {
+      "targetText": "tomorrow",
+      "transliteration": "トゥモロー",
+      "baseTranslation": "明日",
+      "partOfSpeech": "noun/adverb"
+    }
+  ],
+  "referenceHints": [
+    "「If it will rain」は間違いです。「If it rains」のように、Ifの中は現在形にします。",
+    "Ifから文を始める時は、Ifの節が終わるところにカンマ（,）をつけましょう。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "If it is sunny tomorrow, I will go to the park. If it rains, I will stay home. If I have time, I will clean my room.",
+      "transliteration": "イフ イット イズ サニー トゥモロー、アイ ウィル ゴー トゥ ザ パーク。イフ イット レインズ、アイ ウィル ステイ ホーム。イフ アイ ハヴ タイム、アイ ウィル クリーン マイ ルーム。",
+      "baseTranslation": "もし明日晴れたら、公園に行きます。もし雨が降ったら、家にいます。もし時間があれば、部屋を掃除します。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect grammar. Uses present tense in the 'if' clause and 'will' in the main clause."
+    },
+    {
+      "targetText": "If I wake up early, I will make breakfast. If I am tired, I will sleep. I will play games if my friend comes.",
+      "transliteration": "イフ アイ ウェイク アップ アーリー、アイ ウィル メイク ブレックファースト。イフ アイ アム タイアード、アイ ウィル スリープ。アイ ウィル プレイ ゲームズ イフ マイ フレンド カムズ。",
+      "baseTranslation": "もし早く起きたら、朝食を作ります。もし疲れていたら、寝ます。もし友達が来たら、ゲームをします。",
+      "qualityLevel": "excellent",
+      "annotation": "Great variations. The last sentence correctly puts 'if' in the middle without a comma."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Use of If",
+      "weight": 20,
+      "description": "Did the user use 'If' to state a condition?"
+    },
+    {
+      "criterion": "Present Tense in If-Clause",
+      "weight": 40,
+      "description": "Did the user use the present tense for the verb immediately following 'If' (e.g., rains, is, have)?"
+    },
+    {
+      "criterion": "Will in Main Clause",
+      "weight": 30,
+      "description": "Did the user use 'will' in the main clause to express future intention?"
+    },
+    {
+      "criterion": "Punctuation",
+      "weight": 10,
+      "description": "Did the user use a comma if the sentence started with 'If'?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "If it [present verb], I will [base verb].",
+    "acceptableAlternates": [
+      "I will [base verb] if it [present verb]."
+    ],
+    "requiredKeywords": [
+      "if",
+      "will"
+    ],
+    "grammarBaseline": "Must NOT use 'will' inside the 'if' clause. Main clause must use 'will'.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Conditional Structure",
+          "weight": 60,
+          "description": "If + present tense, main clause + future tense."
+        },
+        {
+          "name": "Vocabulary/Spelling",
+          "weight": 40,
+          "description": "Basic sentence construction makes sense."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent writing! You perfectly applied the rule for the first conditional.",
+    "onFail": "Please check your sentences. Did you use 'will' inside the 'If' part? Remember, the 'If' part must be in the present tense.",
+    "onPartial": "Good try. Check your commas. If you start with 'If', put a comma before the 'I will...' part."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "conditionals",
+    "future_tense",
+    "if_clauses"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If it rains (correct) / If it will rain (wrong).",
+  "commonMistakes": [
+    "Writing 'If it will rain, I will stay home'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

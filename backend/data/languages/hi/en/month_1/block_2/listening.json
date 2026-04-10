@@ -1,0 +1,213 @@
+{
+  "activityId": "en_hi_M1B2_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Who Are They? Listening to Contractions",
+  "learningGoal": "The learner will accurately interpret English subject pronouns, To-Be verbs, and their contracted forms (I'm, He's) spoken at natural conversational speeds.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B2_writing_001"],
+  "instructions": "Listen to the audio of two girls, Riya and Aditi, looking at an old high school photo album. They speak quickly using English contractions like 'She's' instead of 'She is'. Pay close attention to who is a student and who is NOT a student. Then, answer the 8 comprehension questions.",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Play the audio. Do not look at the transcript transcript on your first try."
+    }
+  ],
+  "listeningGoal": "Identify spoken contractions and correctly map pronouns to the people they represent in a 2-minute dialogue.",
+  "audioScenario": "Riya and Aditi are looking at a photo album in their dorm room. They are discussing their old classmates.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Look at this photo, Aditi. It's very old.",
+      "transliteration": "लुक ऐट दिस फोटो, अदिति। इट्स वेरी ओल्ड।",
+      "baseTranslation": "इस तस्वीर को देखो, अदिति। यह बहुत पुरानी है।"
+    },
+    {
+      "targetText": "Wow! Who is he?",
+      "transliteration": "वाव! हु इज़ ही?",
+      "baseTranslation": "वाह! वह कौन है?"
+    },
+    {
+      "targetText": "He's Rohan. He's my brother.",
+      "transliteration": "हीज़ रोहन। हीज़ माई ब्रदर।",
+      "baseTranslation": "वह रोहन है। वह मेरा भाई है।"
+    },
+    {
+      "targetText": "Is he a student?",
+      "transliteration": "इज़ ही अ स्टूडेंट?",
+      "baseTranslation": "क्या वह एक छात्र है?"
+    },
+    {
+      "targetText": "No, he's not. He's a teacher now.",
+      "transliteration": "नो, हीज़ नॉट। हीज़ अ टीचर नाउ।",
+      "baseTranslation": "नहीं, वह नहीं है। वह अब एक शिक्षक है।"
+    },
+    {
+      "targetText": "And who is she? She's very tall.",
+      "transliteration": "एंड हु इज़ शी? शीज़ वेरी टॉल।",
+      "baseTranslation": "और वह (लड़की) कौन है? वह बहुत लंबी है।"
+    },
+    {
+      "targetText": "She's Priya. We're very good friends.",
+      "transliteration": "शीज़ प्रिया। वीयर वेरी गुड फ्रेंड्स।",
+      "baseTranslation": "वह प्रिया है। हम बहुत अच्छे दोस्त हैं।"
+    },
+    {
+      "targetText": "Are they from Delhi?",
+      "transliteration": "आर दे फ्रॉम दिल्ली?",
+      "baseTranslation": "क्या वे दिल्ली से हैं?"
+    },
+    {
+      "targetText": "Yes, they're from Delhi. They're not from Mumbai.",
+      "transliteration": "येस, देयर फ्रॉम दिल्ली। देयर नॉट फ्रॉम मुंबई।",
+      "baseTranslation": "हाँ, वे दिल्ली से हैं। वे मुंबई से नहीं हैं।"
+    },
+    {
+      "targetText": "I'm so happy to see these photos.",
+      "transliteration": "आईम सो हैप्पी टू सी दीज़ फोटोज़।",
+      "baseTranslation": "मैं इन तस्वीरों को देखकर बहुत खुश हूँ।"
+    },
+    {
+      "targetText": "It's an amazing album. You're very lucky.",
+      "transliteration": "इट्स ऐन अमेजिंग एल्बम। योर वेरी लकी।",
+      "baseTranslation": "यह एक अद्भुत एल्बम है। तुम बहुत भाग्यशाली हो।"
+    }
+  ],
+  "audioTranscriptFull": "Riya: Look at this photo, Aditi. It's very old.\nAditi: Wow! Who is he?\nRiya: He's Rohan. He's my brother.\nAditi: Is he a student?\nRiya: No, he's not. He's a teacher now.\nAditi: And who is she? She's very tall.\nRiya: She's Priya. We're very good friends.\nAditi: Are they from Delhi?\nRiya: Yes, they're from Delhi. They're not from Mumbai.\nAditi: I'm so happy to see these photos.\nRiya: It's an amazing album. You're very lucky.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "What does Riya say about the photo album?",
+      "questionType": "multiple_choice",
+      "options": ["It is new", "It is old", "It is expensive", "It is heavy"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Who is Rohan?",
+      "questionType": "multiple_choice",
+      "options": ["Riya's father", "Riya's friend", "Riya's brother", "Aditi's brother"],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Is Rohan a student? (Answer using a negative statement from the audio).",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Fill in the blank from the audio describing Priya: 'She's very ____. '",
+      "questionType": "fill_blank",
+      "options": null,
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Fill in the blank using the exact contraction spoken: '_____ from Delhi.'",
+      "questionType": "fill_blank",
+      "options": null,
+      "audioTimestamp": "00:28",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "According to Riya, where are they NOT from?",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:30",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "What contraction does Aditi use to say 'I am so happy'?",
+      "questionType": "multiple_choice",
+      "options": ["Am so happy", "I'm so happy", "I are happy", "I am happy"],
+      "audioTimestamp": "00:33",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "What does Riya mean when she says 'You're very lucky'?",
+      "questionType": "multiple_choice",
+      "options": ["He is very lucky", "She (Aditi) is very lucky", "I am very lucky", "They are very lucky"],
+      "audioTimestamp": "00:38",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 10,
+    "partialCreditAllowed": true,
+    "partialCreditRules": "Give 5 marks if 'He is not' is used instead of the contraction 'He's not', as it proves comprehension but misses the exact spoken form."
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "It is old",
+      "q2": "Riya's brother",
+      "q3": "No, he's not.",
+      "q4": "tall",
+      "q5": "They're",
+      "q6": "Mumbai",
+      "q7": "I'm so happy",
+      "q8": "She (Aditi) is very lucky"
+    },
+    "acceptedShortAnswers": {
+      "q3": ["He's not", "He is not", "No, he is not"],
+      "q6": ["From Mumbai", "They are not from Mumbai", "They're not from Mumbai", "Mumbai"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["tall"],
+      "q5": ["They're", "they're"]
+    },
+    "partialCreditRules": {
+      "q5": "5 points for writing 'They are' instead of the exact spoken word 'They're'."
+    }
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Awesome! You can now hear and understand English contractions when spoken by native speakers.",
+    "onFail": "Please use the 'Slow Playback' feature. Native speakers blend 'She is' into 'She's'. Listen to the track again and look at the transcript.",
+    "onPartial": "Good mapping! You caught the meaning, but review the exact contractions used. When writing down what you hear, write exactly what was spoken."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b2/listening/dialogue_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m1/b2/listening/dialogue_slow.mp3",
+    "normalAudio": "audio/en_hi/m1/b2/listening/dialogue_native.mp3",
+    "audioTranscript": "Riya: Look at this photo, Aditi. It's very old... (see transcript array)",
+    "audioLanguage": "en",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "contractions", "to-be-verbs", "pronouns", "beginner", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b2/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you hear 'Their', remember it sounds exactly the same as 'They're' (They are). Use the context to know which one it is!",
+  "commonMistakes": [
+    "Thinking 'He's' means 'His'.",
+    "Writing out 'They are' when the speaker clearly said 'They're'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B2_vocabulary_001"],
+  "attemptLimit": 4,
+  "metadata": {}
+}

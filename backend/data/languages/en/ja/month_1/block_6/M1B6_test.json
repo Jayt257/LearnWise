@@ -1,0 +1,416 @@
+{
+  "activityId": "ja_en_M1B6_test_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Final Test — Verbs & Particles Mastery",
+  "learningGoal": "The learner will demonstrate mastery over basic ~masu action verbs and the three critical particles (wo, ni, de) in various contexts.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M1B6_lesson_001",
+    "ja_en_M1B6_pronunciation_001",
+    "ja_en_M1B6_reading_001",
+    "ja_en_M1B6_writing_001",
+    "ja_en_M1B6_listening_001",
+    "ja_en_M1B6_vocabulary_001",
+    "ja_en_M1B6_speaking_001"
+  ],
+  "instructions": "This is the final test for Month 1. It comprehensively evaluates your understanding of verbs and particles. Think carefully about where an action happens versus where you are going before selecting a particle.",
+  "testTitle": "Block 6 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Pay very close attention to the difference between 'ni' and 'de'.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Verb & Noun Vocabulary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does よみます (Yomimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To eat", "To sleep", "To read", "To drink"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does かえります (Kaerimasu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["To return home", "To go", "To come", "To wake up"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does おんがく (Ongaku) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Movie", "Music", "Newspaper", "Water"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "Which noun pairs logically with the verb のみます (Nomimasu)?",
+          "questionType": "multiple_choice",
+          "options": ["ごはん (Gohan)", "ほん (Hon)", "えいが (Eiga)", "みず (Mizu)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_particles",
+      "sectionTitle": "Particle Logic (Wo / Ni / De)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "Which particle marks the DIRECT OBJECT of an action (e.g. eating an apple)?",
+          "questionType": "multiple_choice",
+          "options": ["は (wa)", "を (wo)", "に (ni)", "で (de)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "Which particle marks the SPECIFIC TIME an action occurs (e.g. at 8 o'clock)?",
+          "questionType": "multiple_choice",
+          "options": ["は (wa)", "を (wo)", "に (ni)", "で (de)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "Which particle marks the LOCATION WHERE AN ACTION TAKES PLACE (e.g. reading at a cafe)?",
+          "questionType": "multiple_choice",
+          "options": ["は (wa)", "を (wo)", "に (ni)", "で (de)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Which particle marks the TOOL used to perform an action (e.g. eating WITH chopsticks)?",
+          "questionType": "multiple_choice",
+          "options": ["は (wa)", "を (wo)", "に (ni)", "で (de)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Sentence Construction",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Fill in the blank: わたしは がっこう ___ いきます。",
+          "questionType": "multiple_choice",
+          "options": ["を (wo)", "に (ni)", "で (de)", "は (wa)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Fill in the blank: わたしは カフェ ___ コーヒーを のみます。",
+          "questionType": "multiple_choice",
+          "options": ["を (wo)", "に (ni)", "で (de)", "は (wa)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Fill in the blank: わたしは ごはん ___ たべます。",
+          "questionType": "multiple_choice",
+          "options": ["を (wo)", "に (ni)", "で (de)", "は (wa)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "Which sentence is grammatically correct?",
+          "questionType": "multiple_choice",
+          "options": [
+            "えいがで みます。 (Eiga de mimasu.)",
+            "えいがに みます。 (Eiga ni mimasu.)",
+            "えいがを みます。 (Eiga wo mimasu.)",
+            "みますを えいが。 (Mimasu wo eiga.)"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What action is the speaker taking?",
+          "questionType": "multiple_choice",
+          "options": ["Going to school", "Waking up", "Returning home", "Going to sleep"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "はちじに がっこうに いきます。",
+            "transliteration": "Hachi-ji ni gakkou ni ikimasu.",
+            "baseTranslation": "I go to school at 8 o'clock."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. What is the speaker reading?",
+          "questionType": "multiple_choice",
+          "options": ["A book", "A newspaper", "A magazine", "A menu"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "しんぶんを よみます。",
+            "transliteration": "Shinbun wo yomimasu.",
+            "baseTranslation": "I read the newspaper."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. Where is the action taking place?",
+          "questionType": "multiple_choice",
+          "options": ["School", "Cafe", "Home", "Taxi"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "うちで ごはんを たべます。",
+            "transliteration": "Uchi de gohan wo tabemasu.",
+            "baseTranslation": "I eat a meal at home."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'I watch a movie' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "えいがを みます",
+            "transliteration": "Eiga wo mimasu",
+            "baseTranslation": "I watch a movie"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'I wake up at 7 o'clock' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "しちじに おきます",
+            "transliteration": "Shichi-ji ni okimasu",
+            "baseTranslation": "I wake up at 7 o'clock"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'I return home' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "うちへ かえります",
+            "transliteration": "Uchi ni kaerimasu",
+            "baseTranslation": "I return home"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'I sleep' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "ねます",
+            "transliteration": "Nemasu",
+            "baseTranslation": "I sleep"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'I eat a meal at home' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "うちで ごはんを たべます",
+            "transliteration": "Uchi de gohan wo tabemasu",
+            "baseTranslation": "I eat a meal at home"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 70,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "To read",
+      "q002": "To return home",
+      "q003": "Music",
+      "q004": "みず (Mizu)",
+      "q005": "を (wo)",
+      "q006": "に (ni)",
+      "q007": "で (de)",
+      "q008": "で (de)",
+      "q009": "に (ni)",
+      "q010": "で (de)",
+      "q011": "を (wo)",
+      "q012": "えいがを みます。 (Eiga wo mimasu.)",
+      "q013": "Going to school",
+      "q014": "A newspaper",
+      "q015": "Home",
+      "q016": "Eiga wo mimasu",
+      "q017": "Shichiji ni okimasu",
+      "q018": "Uchi ni kaerimasu",
+      "q019": "Nemasu",
+      "q020": "Uchi de gohan wo tabemasu"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations (shichiji/nanaji).",
+      "q018": "Accept Romaji variations (uchi ni / uchi e).",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {
+      "q020": "Half points if particle is missing but nouns/verbs are correct."
+    },
+    "alternateValidAnswers": {
+      "q016": ["eiga wo mimasu", "Eiga o mimasu", "eiga o mimasu"],
+      "q017": ["shichiji ni okimasu", "shichi-ji ni okimasu", "nana-ji ni okimasu", "nanaji ni okimasu"],
+      "q018": ["uchi ni kaerimasu", "uchi e kaerimasu", "Uchi e kaerimasu"],
+      "q019": ["nemasu", "Nemasu"],
+      "q020": [
+        "uchi de gohan wo tabemasu",
+        "Uchi de gohan o tabemasu",
+        "uchi de gohan o tabemasu"
+      ]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_particles": 10,
+      "sec_grammar": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Fantastic! You have officially conquered Month 1 of Japanese. You understand verbs, particles, and basic sentence structure perfectly.",
+    "onFail": "Keep trying! Month 1 is the hardest part. Review the difference between 'ni' and 'de' one more time.",
+    "onPartial": "Almost there! Double check your verb meanings and your spelling."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block6",
+    "verbs",
+    "particles",
+    "grammar",
+    "beginner",
+    "month1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

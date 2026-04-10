@@ -1,0 +1,149 @@
+{
+  "activityId": "hi_en_M2B3_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Possessive Pronouns",
+  "learningGoal": "Accurately pronounce the vowel endings in possessive pronouns and distinguish between similar sounds like 'Uska' and 'Unka'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B3_lesson_1"
+  ],
+  "instructions": "Practice saying these possessive pronouns clearly. Pay special attention to the difference between 'Uska' (Singular) and 'Unka' (Plural/Respectful).",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "तुम्हारा",
+      "transliteration": "Tumhara",
+      "baseTranslation": "Your (casual/masculine)",
+      "phoneticHint": "toom-haa-raa",
+      "syllableSplit": "tum-ha-ra",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'toom-ah-ra'. You must lightly pronounce the 'h' in the middle."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "आपकी",
+      "transliteration": "Aapki",
+      "baseTranslation": "Your (formal/feminine)",
+      "phoneticHint": "aap-kee",
+      "syllableSplit": "aap-ki",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'ab-ki'. Keep the 'p' sharp and unvoiced."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "उनका",
+      "transliteration": "Unka",
+      "baseTranslation": "Their / His respectful",
+      "phoneticHint": "oon-kaa",
+      "syllableSplit": "un-ka",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Confusing it with 'Uska'. Ensure the 'n' is clearly heard."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "उसकी",
+      "transliteration": "Uski",
+      "baseTranslation": "His/Her (casual/feminine)",
+      "phoneticHint": "oos-kee",
+      "syllableSplit": "us-ki",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'oo-ski'. The break is between 'us' and 'ki'."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "हमारे",
+      "transliteration": "Hamare",
+      "baseTranslation": "Our (masculine plural)",
+      "phoneticHint": "huh-maa-ray",
+      "syllableSplit": "ha-ma-re",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'ha-ma-ree'. The 'e' ending must be distinct from the 'i' ending."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "मेरा नाम",
+      "transliteration": "Mera naam",
+      "baseTranslation": "My name",
+      "phoneticHint": "may-raa naam",
+      "syllableSplit": "me-ra naam",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "A female saying 'Meri naam'. Remember 'naam' is masculine."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "इनके",
+      "transliteration": "Inke",
+      "baseTranslation": "Their / His respectful (nearby/plural)",
+      "phoneticHint": "in-kay",
+      "syllableSplit": "in-ke",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Slurring the 'n' so it sounds like 'Ike'."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear distinction of a, e, and i endings. Accurate pronunciation of 'Tumhara' with the aspirated h.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Perfect! Your vowel endings are incredibly precise.",
+    "onFail": "Listen closely to the endings. 'a' is singular masculine, 'e' is plural masculine, 'i' is feminine.",
+    "onPartial": "Good effort. Make sure you don't confuse 'Uska' (singular) with 'Unka' (plural/respectful)."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "possessives",
+    "pronouns",
+    "vowels"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "When saying 'Tumhara', the 'h' is soft but present. It is not 'Tumara'.",
+  "commonMistakes": [
+    "Mispronouncing the 'e' in 'Hamare' as an 'ee' sound."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B3_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

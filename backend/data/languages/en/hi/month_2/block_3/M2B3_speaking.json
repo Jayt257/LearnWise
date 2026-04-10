@@ -1,0 +1,192 @@
+{
+  "activityId": "hi_en_M2B3_speaking_7",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Speaking: Navigating Formality",
+  "learningGoal": "Switch between formal (Aap) and casual (Tum) registers smoothly, using the correct possessive pronouns.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B3_vocabulary_6",
+    "hi_en_M2B3_listening_5"
+  ],
+  "instructions": "You are hosting a small gathering. You will speak to an elder guest (formally) and then to your younger cousin (casually). Pay close attention to which possessive pronouns you use.",
+  "speakingPrompt": "Respond to the prompts, switching between 'Aap/Aapka' and 'Tum/Tumhara' based on who you are talking to.",
+  "scenario": "A family gathering at your house.",
+  "role": "Host",
+  "conversationPartner": "Elder Guest & Younger Cousin",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Address the elder guest: 'How is your health?' (Health = Tabiyat [Fem])",
+      "expectedSpeakingPoints": [
+        "Aapki",
+        "tabiyat",
+        "kaisi hai"
+      ],
+      "sampleResponse": {
+        "targetText": "आपकी तबीयत कैसी है?",
+        "transliteration": "Aapki tabiyat kaisi hai?",
+        "baseTranslation": "How is your health?"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Offer the elder guest tea: 'Is this your tea?' (Tea = Chai [Fem])",
+      "expectedSpeakingPoints": [
+        "Kya yeh",
+        "aapki chai",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "क्या यह आपकी चाय है?",
+        "transliteration": "Kya yeh aapki chai hai?",
+        "baseTranslation": "Is this your tea?"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Now turn to your younger cousin (casual): 'Where is your book?' (Book = Kitaab [Fem])",
+      "expectedSpeakingPoints": [
+        "Tumhari",
+        "kitaab",
+        "kahan hai"
+      ],
+      "sampleResponse": {
+        "targetText": "तुम्हारी किताब कहाँ है?",
+        "transliteration": "Tumhari kitaab kahan hai?",
+        "baseTranslation": "Where is your book?"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Tell your cousin about his friend standing far away: 'He is your friend.' (Friend = Dost [Masc])",
+      "expectedSpeakingPoints": [
+        "Woh",
+        "tumhara",
+        "dost hai"
+      ],
+      "sampleResponse": {
+        "targetText": "वह तुम्हारा दोस्त है।",
+        "transliteration": "Woh tumhara dost hai.",
+        "baseTranslation": "He is your friend."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप घर पर हैं। मेहमान आए हैं।",
+    "transliteration": "Aap ghar par hain. Mehman aaye hain.",
+    "baseTranslation": "You are at home. Guests have come."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "आपकी तबीयत कैसी है?",
+      "transliteration": "Aapki tabiyat kaisi hai?",
+      "baseTranslation": "How is your health?"
+    },
+    {
+      "targetText": "क्या यह आपकी चाय है?",
+      "transliteration": "Kya yeh aapki chai hai?",
+      "baseTranslation": "Is this your tea?"
+    },
+    {
+      "targetText": "तुम्हारी किताब कहाँ है?",
+      "transliteration": "Tumhari kitaab kahan hai?",
+      "baseTranslation": "Where is your book?"
+    },
+    {
+      "targetText": "वह तुम्हारा दोस्त है।",
+      "transliteration": "Woh tumhara dost hai.",
+      "baseTranslation": "He is your friend."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Aapki tabiyat",
+      "Aapki chai",
+      "Tumhari kitaab",
+      "Tumhara dost"
+    ],
+    "requiredKeywords": [
+      "आपकी",
+      "तुम्हारी",
+      "तुम्हारा",
+      "तबीयत",
+      "चाय",
+      "किताब",
+      "दोस्त"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Yeh aapki chai hai kya?' instead of 'Kya yeh aapki chai hai?' is completely acceptable."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Formality Shift",
+          "weight": 60,
+          "description": "Must use Aapki for the elder, and Tumhari/Tumhara for the cousin. Failure to shift results in a low score."
+        },
+        {
+          "name": "Gender Matching",
+          "weight": 40,
+          "description": "Must use 'Tumhari kitaab' (feminine) but 'Tumhara dost' (masculine)."
+        }
+      ]
+    },
+    "sampleAnswer": "Aapki tabiyat kaisi hai? Kya yeh aapki chai hai? Tumhari kitaab kahan hai? Woh tumhara dost hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You switched formality levels like a native speaker.",
+    "onFail": "Review the possessive pronouns. Remember to change from 'Aap' to 'Tum' depending on who you speak to.",
+    "onPartial": "Good effort. Watch your adjective endings. 'Dost' is masculine so it takes 'Tumhara'. 'Kitaab' is feminine so it takes 'Tumhari'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "आपकी तबीयत कैसी है? क्या यह आपकी चाय है? तुम्हारी किताब कहाँ है? वह तुम्हारा दोस्त है।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "formality",
+    "possessives",
+    "pronouns",
+    "family",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak slowly. The difference between 'Tumhara' and 'Tumhari' is critical.",
+  "commonMistakes": [
+    "Saying 'Tumhari dost hai' (making friend feminine by accident)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B3_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

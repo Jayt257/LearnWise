@@ -1,0 +1,233 @@
+{
+  "activityId": "en_hi_M1B2_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "Mastering Pronouns and the 'To Be' Verbs",
+  "learningGoal": "The learner will master English Subject Pronouns, apply 'To Be' verbs (is, am, are) correctly in Subject-Verb-Object (SVO) sentences, and create negative sentences using 'not'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B1_test_001"],
+  "instructions": "This lesson forms the absolute core of English sentence building. You will learn how to say 'I am', 'He is', and 'They are' in the correct order. Read the rules, listen to the examples multiple times, and study the checkpoint questions.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "In Hindi, the verb comes at the end (मैं एक छात्र हूँ - हूँ अंत में है)। In English, the verb comes right after the subject (I am a student - am बीच में है). We will use 'To Be' verbs to make our first sentences."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "I takes 'am', He/She/It takes 'is', We/You/They take 'are'.",
+      "Negative sentences are formed by placing 'not' immediately after the 'To Be' verb.",
+      "English pronouns distinguish gender in the 3rd person singular (He vs She), unlike the Hindi 'वह'."
+    ],
+    "conceptSummary": "English basic pronouns, 'To Be' auxiliary verbs (is, am, are), and SVO negative construction.",
+    "importantFacts": [
+      "In English, the word 'You' is used for both single individuals and multiple people, mapping to 'तुम' and 'आप'.",
+      "The 'be' verbs reflect existence, equivalent to 'हूँ', 'हैं', and 'हो' in Hindi."
+    ],
+    "checkpointAnswers": {
+      "q1": "are",
+      "q2": "is not",
+      "q3": "Subject-Verb-Object (SVO)",
+      "q4": "She"
+    },
+    "expectedUnderstanding": "Learners can pair any pronoun with the correct 'to be' verb to formulate factual sentences."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic! You completely understand the backbone of the English language. You know how to build a state-of-being sentence.",
+    "onFail": "Review the pronoun chart. Remember: Only 'I' uses 'am'. 'He, She, It' use 'is'.",
+    "onPartial": "Good effort! Check your answers specifically regarding the negative 'not' position."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m1/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b2/lesson/instruction.mp3",
+    "sampleAudio": "audio/en_hi/m1/b2/lesson/examples.mp3",
+    "slowAudio": "audio/en_hi/m1/b2/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/en_hi/m1/b2/lesson/native_lesson.mp3",
+    "audioTranscript": "Subject, Verb, Object. I am. You are. He is...",
+    "audioLanguage": "en",
+    "audioDuration": 360,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "svo", "pronouns", "to-be-verbs", "beginner", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b2/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make a sentence negative, just put 'not' after 'am', 'is', or 'are' (e.g., I am not).",
+  "commonMistakes": [
+    "Saying 'I is' instead of 'I am'.",
+    "Translating literally to SOV: 'I student am'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B2_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Pronouns & To Be Verbs",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "Recap: SVO (Subject-Verb-Object) Rule",
+      "bodyText": "याद रखें, अंग्रेजी हमेशा SVO नियम का पालन करती है। हिंदी में हम कहते हैं 'मैं एक खुश व्यक्ति हूँ' (Subject - Object - Verb)। लेकिन अंग्रेजी में, क्रिया (Verb) तुरंत Subject (कर्ता) के बाद आती है।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am a happy person.",
+          "transliteration": "आई एम अ हैप्पी पर्सन।",
+          "baseTranslation": "मैं एक खुश व्यक्ति हूँ। (यहाँ 'am' क्रिया है जो बीच में आई है)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "Subject Pronouns (कर्ता सर्वनाम)",
+      "bodyText": "सर्वनाम वे शब्द हैं जो नाम की जगह लेते हैं (जैसे राम की जगह 'वह')। अंग्रेजी में मुख्य सर्वनाम हैं: I (मैं), You (तुम/आप), He (वह-लड़का), She (वह-लड़की), It (यह/वह - निर्जीव/जानवर), We (हम), They (वे)। ध्यान दें: हिंदी 'वह' का अर्थ He या She दोनों हो सकता है, लेकिन अंग्रेजी में लिंग (gender) महत्वपूर्ण है!",
+      "targetLanguageExamples": [
+        {
+          "targetText": "He is Rahul. She is Priya.",
+          "transliteration": "ही इज़ राहुल। शी इज़ प्रिया।",
+          "baseTranslation": "वह राहुल है। वह प्रिया है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "The Verb 'To Be' (Am, Is, Are)",
+      "bodyText": "'To Be' अंग्रेजी में सबसे महत्वपूर्ण क्रिया है। इसका मतलब है 'होना'। इसके तीन रूप हैं वर्तमान काल में: Am (हूँ), Is (है), Are (हैं / हो)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "Am, Is, Are.",
+          "transliteration": "एम, इज़, आर।",
+          "baseTranslation": "हूँ, है, हैं/हो।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "Matching Pronouns with 'To Be'",
+      "bodyText": "यह अंग्रेजी का सबसे सख्त नियम है जिसे आपको याद रखना है: 1) 'I' के साथ हमेशा 'am' आता है। 2) एकवचन (He, She, It) के साथ 'is' आता है। 3) बहुवचन (We, You, They) के साथ 'are' आता है। (नोट: 'You' हमेशा 'are' लेता है, भले ही आप केवल एक व्यक्ति से बात कर रहे हों)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am. You are. We are. They are. He is. She is. It is.",
+          "transliteration": "आई एम। यू आर। वी आर। दे आर। ही इज़। शी इज़। इट इज़।",
+          "baseTranslation": "मैं हूँ। आप हैं। हम हैं। वे हैं। वह है। वह है। यह है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec5",
+      "sectionTitle": "Making Full Sentences (वाक्य बनाना)",
+      "bodyText": "अब हम S-V-O नियम का उपयोग करते हैं। Subject (I) + Verb (am) + Object (student).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am a student. They are teachers. It is a book.",
+          "transliteration": "आई एम अ स्टूडेंट। दे आर टीचर्स। इट इज़ अ बुक।",
+          "baseTranslation": "मैं एक छात्र हूँ। वे शिक्षक हैं। यह एक किताब है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec6",
+      "sectionTitle": "Negative Sentences (नकारात्मक वाक्य)",
+      "bodyText": "हिंदी में हम 'नहीं' को क्रिया से पहले लगाते हैं ('मैं छात्र नहीं हूँ')। अंग्रेजी में, 'not' को हमेशा 'To be' क्रिया के ठीक बाद लगाया जाता है (I am not...)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I am not a student.",
+          "transliteration": "आई एम नॉट अ स्टूडेंट।",
+          "baseTranslation": "मैं एक छात्र नहीं हूँ।"
+        },
+        {
+          "targetText": "She is not happy.",
+          "transliteration": "शी इज़ नॉट हैप्पी।",
+          "baseTranslation": "वह खुश नहीं है।"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec7",
+      "sectionTitle": "Contractions (संक्षिप्त रूप)",
+      "bodyText": "बोलचाल की अंग्रेजी में, लोग अक्सर 'To be' क्रिया को छोटा कर देते हैं। I am बन जाता है 'I'm' (आईम)। He is बन जाता है 'He's' (हीज़)। They are बन जाता है 'They're' (देयर)।",
+      "targetLanguageExamples": [
+        {
+          "targetText": "I'm fine. He's very good. They're my friends.",
+          "transliteration": "आईम फाइन। हीज़ वेरी गुड। देयर माई फ्रेंड्स।",
+          "baseTranslation": "मैं ठीक हूँ। वह बहुत अच्छा है। वे मेरे दोस्त हैं।"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "By completing this deep dive into To-Be verbs, learners will instinctively pair the correct verb form with pronouns and correctly formulate English states of being in both positive and negative configurations.",
+  "examples": [
+    {
+      "targetText": "You are a teacher.",
+      "transliteration": "यू आर अ टीचर।",
+      "baseTranslation": "आप एक शिक्षक हैं।",
+      "explanation": "Notice how 'You' takes 'are', even if 'You' is just one single teacher."
+    },
+    {
+      "targetText": "We are not from India.",
+      "transliteration": "वी आर नॉट फ्रॉम इंडिया।",
+      "baseTranslation": "हम भारत से नहीं हैं।",
+      "explanation": "Notice the negative 'not' comes immediately after the verb 'are'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Never use 'is' or 'are' with 'I'. 'I' exclusively pairs with 'am'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The word 'You' functions grammatically as a plural, even when addressing one person. Always use 'You are'.",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 3,
+      "ruleText": "In negative phrases, 'not' always follows the auxiliary verb directly.",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "English eliminates the complex formality hierarchy of 'Tu / Tum / Aap'. Everyone is simply 'You'. To show respect in English, speakers use polite tones and words like 'Please' rather than changing the pronoun.",
+    "dosList": [
+      "Use 'You' for both your friends and your boss.",
+      "Use contractions like 'I'm' in informal speech to sound more natural."
+    ],
+    "dontsList": [
+      "Do not try to find an English equivalent for 'Aap' (आप). It does not exist."
+    ]
+  },
+  "summary": "Mastering Pronouns (I, You, He, She, It, We, They) and 'To Be' verbs (Am, Is, Are) is the absolute foundation of building descriptive SVO sentences in English. Negative constructions are simply created by sliding 'not' directly after the verb. Understanding grammatical plural rules—that 'You' is always plural structurally—will prevent major beginner errors.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Fill in the blank: 'They ________ happy.'",
+      "expectedAnswer": "are"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Change to negative: 'He is happy.'",
+      "expectedAnswer": "He is not happy."
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What sentence order must we always follow?",
+      "expectedAnswer": "Subject-Verb-Object (SVO)"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Which English pronoun means 'वह (लड़की)'?",
+      "expectedAnswer": "She"
+    }
+  ]
+}

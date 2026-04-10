@@ -1,0 +1,191 @@
+{
+  "activityId": "hi_en_M1B3_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Speaking: Asking About Objects",
+  "learningGoal": "Perform a conversation asking what various objects are, confirming their identity, and answering questions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B3_vocabulary_6",
+    "hi_en_M1B3_listening_5"
+  ],
+  "instructions": "You are at a local market with a friend. Point out items and ask what they are. Also, answer your friend's questions. Remember: 'Yeh' for things near you, 'Woh' for things far away.",
+  "speakingPrompt": "Respond to the audio prompts using full Hindi sentences.",
+  "scenario": "Walking through a market and identifying objects.",
+  "role": "Curious Shopper",
+  "conversationPartner": "Your friend (Ravi)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Point to something close to you and ask Ravi: 'What is this?'",
+      "expectedSpeakingPoints": [
+        "Yeh",
+        "kya",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "यह क्या है?",
+        "transliteration": "Yeh kya hai?",
+        "baseTranslation": "What is this?"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Ravi answers: 'Yeh kitaab hai.' (This is a book.) Now point to something far away and ask: 'And what is that?'",
+      "expectedSpeakingPoints": [
+        "Aur",
+        "woh",
+        "kya",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "और वह क्या है?",
+        "transliteration": "Aur woh kya hai?",
+        "baseTranslation": "And what is that?"
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Ravi answers: 'Woh gaadi hai.' (That is a car.) Now Ravi points to an object near you and asks: 'Kya yeh kampyutar hai?' (Is this a computer?). Answer him: 'Yes, this is a computer.'",
+      "expectedSpeakingPoints": [
+        "Haan",
+        "yeh",
+        "kampyutar",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "हाँ, यह कंप्यूटर है।",
+        "transliteration": "Haan, yeh kampyutar hai.",
+        "baseTranslation": "Yes, this is a computer."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "You are thirsty. Say: 'This is water.'",
+      "expectedSpeakingPoints": [
+        "Yeh",
+        "paani",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "यह पानी है।",
+        "transliteration": "Yeh paani hai.",
+        "baseTranslation": "This is water."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप बाज़ार में हैं।",
+    "transliteration": "Aap baazaar mein hain.",
+    "baseTranslation": "You are in the market."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "यह क्या है?",
+      "transliteration": "Yeh kya hai?",
+      "baseTranslation": "What is this?"
+    },
+    {
+      "targetText": "और वह क्या है?",
+      "transliteration": "Aur woh kya hai?",
+      "baseTranslation": "And what is that?"
+    },
+    {
+      "targetText": "हाँ, यह कंप्यूटर है।",
+      "transliteration": "Haan, yeh kampyutar hai.",
+      "baseTranslation": "Yes, this is a computer."
+    },
+    {
+      "targetText": "यह पानी है।",
+      "transliteration": "Yeh paani hai.",
+      "baseTranslation": "This is water."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 20,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Yeh kya hai",
+      "Aur woh kya hai",
+      "Haan yeh kampyutar hai",
+      "Yeh paani hai"
+    ],
+    "requiredKeywords": [
+      "यह",
+      "वह",
+      "क्या",
+      "हाँ",
+      "पानी"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Ji haan' instead of 'Haan' is also perfectly fine."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Demonstrative Pronoun Accuracy",
+          "weight": 50,
+          "description": "Uses 'Yeh' for the first and third prompts, and 'Woh' for the second."
+        },
+        {
+          "name": "Vocabulary Recall",
+          "weight": 50,
+          "description": "Correctly uses Kampyutar and Paani."
+        }
+      ]
+    },
+    "sampleAnswer": "Yeh kya hai? Aur woh kya hai? Haan, yeh kampyutar hai. Yeh paani hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You can now navigate simple environments and ask what things are.",
+    "onFail": "Please review the difference between 'Yeh' (this) and 'Woh' (that). Also remember that 'kya' means 'what'.",
+    "onPartial": "Good effort. Try to link the words together smoothly: 'Yeh kya_hai' instead of pausing between each word."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "यह क्या है? और वह क्या है? हाँ, यह कंप्यूटर है। यह पानी है।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "objects",
+    "questions",
+    "roleplay",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak with a rising intonation when asking 'Yeh kya hai?' to indicate a question.",
+  "commonMistakes": [
+    "Answering 'Haan, kya yeh kampyutar hai' instead of 'Haan, yeh kampyutar hai' (leaving the question word in the answer)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

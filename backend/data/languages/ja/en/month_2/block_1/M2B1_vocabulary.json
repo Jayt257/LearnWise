@@ -1,0 +1,270 @@
+{
+  "activityId": "en_ja_M2B1_vocabulary_6",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "vocabulary",
+  "title": "Adjectives and Adverbs",
+  "learningGoal": "Learn common adjectives and adverbs, and understand how adjectives (beautiful) change into adverbs (beautifully).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B1_listening_5"
+  ],
+  "instructions": "名詞を修飾する「形容詞」と、動詞を修飾する「副詞」のペアを覚えましょう。多くの場合、形容詞に「ly」をつけると副詞になります。(Memorize pairs of adjectives and adverbs. Notice how adding 'ly' to an adjective often turns it into an adverb.)",
+  "vocabTheme": "Descriptive Words",
+  "wordList": [
+    {
+      "wordId": "v1",
+      "targetText": "tall",
+      "transliteration": "トール",
+      "baseTranslation": "背が高い（形容詞）",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v1"
+    },
+    {
+      "wordId": "v2",
+      "targetText": "fast",
+      "transliteration": "ファスト",
+      "baseTranslation": "速い（形容詞）、速く（副詞）",
+      "partOfSpeech": "adjective / adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v2"
+    },
+    {
+      "wordId": "v3",
+      "targetText": "quiet",
+      "transliteration": "クワイエット",
+      "baseTranslation": "静かな（形容詞）",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v3"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "quietly",
+      "transliteration": "クワイエットリー",
+      "baseTranslation": "静かに（副詞）",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v4"
+    },
+    {
+      "wordId": "v5",
+      "targetText": "beautiful",
+      "transliteration": "ビューティフル",
+      "baseTranslation": "美しい（形容詞）",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v5"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "beautifully",
+      "transliteration": "ビューティフリー",
+      "baseTranslation": "美しく（副詞）",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v6"
+    },
+    {
+      "wordId": "v7",
+      "targetText": "expensive",
+      "transliteration": "エクスペンシヴ",
+      "baseTranslation": "高価な（形容詞）",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v7"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "good",
+      "transliteration": "グッド",
+      "baseTranslation": "良い（形容詞）",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v8"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "well",
+      "transliteration": "ウェル",
+      "baseTranslation": "上手に、良く（副詞）",
+      "partOfSpeech": "adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v9"
+    },
+    {
+      "wordId": "v10",
+      "targetText": "bad",
+      "transliteration": "バッド",
+      "baseTranslation": "悪い（形容詞）",
+      "partOfSpeech": "adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.wordAudio_v10"
+    }
+  ],
+  "meaningList": [
+    "背が高い",
+    "速い / 速く",
+    "静かな",
+    "静かに",
+    "美しい",
+    "美しく",
+    "高価な",
+    "良い",
+    "上手に",
+    "悪い"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "v2",
+      "targetText": "He runs very fast.",
+      "transliteration": "ヒー ランズ ヴェリー ファスト",
+      "baseTranslation": "彼はとても速く走ります。（副詞のfast）"
+    },
+    {
+      "wordId": "v4",
+      "targetText": "Please speak quietly.",
+      "transliteration": "プリーズ スピーク クワイエットリー",
+      "baseTranslation": "静かに話してください。"
+    },
+    {
+      "wordId": "v6",
+      "targetText": "She sings beautifully.",
+      "transliteration": "シー シングス ビューティフリー",
+      "baseTranslation": "彼女は美しく歌います。"
+    },
+    {
+      "wordId": "v8",
+      "targetText": "This is a good book.",
+      "transliteration": "ディス イズ ア グッド ブック",
+      "baseTranslation": "これは良い本です。（形容詞）"
+    },
+    {
+      "wordId": "v9",
+      "targetText": "He plays tennis well.",
+      "transliteration": "ヒー プレイズ テニス ウェル",
+      "baseTranslation": "彼はテニスを上手にします。（副詞）"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "If 'quiet' means '静かな', how do you say '静かに' (adverb)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "quieter",
+        "quietly",
+        "more quiet",
+        "quiet"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What is the adverb form of 'good' (良い -> 上手に)?",
+      "questionType": "multiple_choice",
+      "options": [
+        "goodly",
+        "better",
+        "well",
+        "best"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Fill in the blank: 'She sings ________.' (彼女は美しく歌う)",
+      "questionType": "multiple_choice",
+      "options": [
+        "beautiful",
+        "beautifully",
+        "more beautiful",
+        "beauty"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Which word is BOTH an adjective and an adverb?",
+      "questionType": "multiple_choice",
+      "options": [
+        "quiet",
+        "fast",
+        "beautiful",
+        "good"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What does 'expensive' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "安い",
+        "速い",
+        "美しい",
+        "高価な"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {},
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "quietly",
+      "q2": "well",
+      "q3": "beautifully",
+      "q4": "fast",
+      "q5": "高価な"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You know the difference between describing a noun and describing an action.",
+    "onFail": "Review the words. Remember that adding 'ly' turns an adjective into an adverb (beautiful -> beautifully).",
+    "onPartial": "Good effort. Be careful with 'good' — the adverb form is 'well', not 'goodly'!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "vocabulary",
+    "adjectives",
+    "adverbs"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you are describing an action (like running or singing), you need an adverb (usually ends in -ly).",
+  "commonMistakes": [
+    "Saying 'speak good' instead of 'speak well'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B1_speaking_7"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

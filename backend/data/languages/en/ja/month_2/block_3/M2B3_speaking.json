@@ -1,0 +1,182 @@
+{
+  "activityId": "ja_en_M2B3_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Weekend Recap",
+  "learningGoal": "The learner will verbally formulate sentences combining past tense verbs, past tense adjectives, and expressions of desire.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M2B3_lesson_001",
+    "ja_en_M2B3_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, a coworker asks you what you did over the weekend. Reply verbally in Japanese based on the English prompts. Pay attention to your past tense adjective endings.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Make sure your adjectives match the tense of the conversation. If you went yesterday, it WAS fun, not IS fun."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) Yesterday, I went to a hot spring. 2) It was very fun. 3) I want to go tomorrow too.",
+  "scenario": "A coworker asks you about your weekend on Monday morning.",
+  "role": "Employee",
+  "conversationPartner": "Coworker",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Tell them where you went. Say: 'Yesterday, I went to a hot spring.'",
+      "expectedSpeakingPoints": [
+        "Use kinou",
+        "Use onsen ni/e",
+        "Use ikimashita"
+      ],
+      "sampleResponse": {
+        "targetText": "きのう、おんせんへ いきました。",
+        "transliteration": "Kinou, onsen e ikimashita.",
+        "baseTranslation": "Yesterday, I went to a hot spring."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Describe the experience. Say: 'It was very fun.'",
+      "expectedSpeakingPoints": [
+        "Use totemo",
+        "Use tanoshikatta desu"
+      ],
+      "sampleResponse": {
+        "targetText": "とても たのしかった です。",
+        "transliteration": "Totemo tanoshikatta desu.",
+        "baseTranslation": "It was very fun."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Express your desire to return. Say: 'I want to go tomorrow too.'",
+      "expectedSpeakingPoints": [
+        "Use ashita mo",
+        "Use ikitai desu"
+      ],
+      "sampleResponse": {
+        "targetText": "あしたも いきたい です。",
+        "transliteration": "Ashita mo ikitai desu.",
+        "baseTranslation": "I want to go tomorrow too."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "しゅうまつは どう でしたか。",
+    "transliteration": "Shuumatsu wa dou deshita ka.",
+    "baseTranslation": "How was the weekend?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "きのう、おんせんへ いきました。",
+      "transliteration": "Kinou, onsen e ikimashita.",
+      "baseTranslation": "Yesterday, I went to a hot spring."
+    },
+    {
+      "targetText": "とても たのしかった です。",
+      "transliteration": "Totemo tanoshikatta desu.",
+      "baseTranslation": "It was very fun."
+    },
+    {
+      "targetText": "あしたも いきたい です。",
+      "transliteration": "Ashita mo ikitai desu.",
+      "baseTranslation": "I want to go tomorrow too."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Kinou onsen ni/e ikimashita",
+      "Say Totemo tanoshikatta desu",
+      "Say Ashita mo ikitai desu"
+    ],
+    "requiredKeywords": [
+      "きのう",
+      "いきました",
+      "たのしかった",
+      "あしたも",
+      "いきたい"
+    ],
+    "acceptableParaphrases": [
+      "Using 'ni' instead of 'e' is perfectly acceptable (onsen ni ikimashita).",
+      "Dropping 'desu' at the end of the adjective is okay for a slightly more casual tone, but polite is preferred."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Past Tense Verb",
+          "weight": 30,
+          "description": "Did the learner use 'ikimashita'?"
+        },
+        {
+          "name": "Past Tense Adjective",
+          "weight": 40,
+          "description": "Did the learner say 'tanoshikatta' instead of 'tanoshii'?"
+        },
+        {
+          "name": "Desire Form",
+          "weight": 30,
+          "description": "Did the learner say 'ikitai desu'?"
+        }
+      ]
+    },
+    "sampleAnswer": "きのう、おんせんへ いきました。とても たのしかった です。あしたも いきたい です。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You perfectly navigated three different verb/adjective forms.",
+    "onFail": "Make sure you conjugated 'Tanoshii' correctly. Because it happened yesterday, you must say 'Tanoshikatta'.",
+    "onPartial": "Good try! Remember the particle 'mo' means 'also/too'. 'Ashita mo' means 'Tomorrow too'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b3/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m2/b3/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "しゅうまつは どう でしたか。きのう、おんせんへ いきました。とても たのしかった です。あしたも いきたい です。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "past-tense",
+    "adjectives",
+    "desire",
+    "roleplay",
+    "intermediate",
+    "month2",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To say 'Tomorrow TOO', use 'Ashita MO'.",
+  "commonMistakes": [
+    "Saying 'Tanoshii deshita' instead of 'Tanoshikatta desu'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B3_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,193 @@
+{
+  "activityId": "hi_en_M2B3_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Writing: Applying Formality and Possession",
+  "learningGoal": "Construct sentences using the correct level of formality and the accurately gendered possessive pronoun.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B3_lesson_1"
+  ],
+  "instructions": "Translate the sentences. Pay extremely close attention to the gender of the object being owned, and the social status of the person you are talking to.",
+  "writingPrompt": "Translate the following sentences into Hindi:\n1. Where is your car? (Speaking formally to an elder. Car = Gaadi [Fem])\n2. This is my house. (House = Ghar [Masc])\n3. Her book is here. (Speaking casually about a girl far away. Book = Kitaab [Fem])\n4. Where are you? (Speaking casually to a friend of same age)",
+  "promptGoal": "Accurately apply aapki, mera, uski, and tum.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "आपकी",
+      "transliteration": "aapki",
+      "baseTranslation": "your (formal/fem)"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "gaadi",
+      "baseTranslation": "car"
+    },
+    {
+      "targetText": "कहाँ",
+      "transliteration": "kahan",
+      "baseTranslation": "where"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "hai",
+      "baseTranslation": "is"
+    },
+    {
+      "targetText": "यह",
+      "transliteration": "yeh",
+      "baseTranslation": "this"
+    },
+    {
+      "targetText": "मेरा",
+      "transliteration": "mera",
+      "baseTranslation": "my (masc)"
+    },
+    {
+      "targetText": "घर",
+      "transliteration": "ghar",
+      "baseTranslation": "house"
+    },
+    {
+      "targetText": "उसकी",
+      "transliteration": "uski",
+      "baseTranslation": "her/his (casual/fem object)"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "kitaab",
+      "baseTranslation": "book"
+    },
+    {
+      "targetText": "यहाँ",
+      "transliteration": "yahaan",
+      "baseTranslation": "here"
+    },
+    {
+      "targetText": "तुम",
+      "transliteration": "tum",
+      "baseTranslation": "you (casual)"
+    },
+    {
+      "targetText": "हो",
+      "transliteration": "ho",
+      "baseTranslation": "are (for tum)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: 'Your (formal/fem) car where is?'",
+    "Sentence 2: 'This my (masc) house is.'",
+    "Sentence 3: 'Her (casual/fem) book here is.'",
+    "Sentence 4: 'You (casual) where are?'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "आपकी गाड़ी कहाँ है? यह मेरा घर है। उसकी किताब यहाँ है। तुम कहाँ हो?",
+      "transliteration": "Aapki gaadi kahan hai? Yeh mera ghar hai. Uski kitaab yahaan hai. Tum kahan ho?",
+      "baseTranslation": "Where is your car? This is my house. Her book is here. Where are you?",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect mapping of possessive endings to the object's gender (Aapki gaadi, Mera ghar, Uski kitaab). Correct use of Tum with 'ho'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Formal Feminine Possessive",
+      "weight": 30,
+      "description": "Must use 'Aapki' for 'gaadi'."
+    },
+    {
+      "criterion": "Masculine Possessive",
+      "weight": 20,
+      "description": "Must use 'Mera' for 'ghar'."
+    },
+    {
+      "criterion": "Casual Third Person Feminine",
+      "weight": 25,
+      "description": "Must use 'Uski' for 'kitaab'."
+    },
+    {
+      "criterion": "Casual Subject Verb Match",
+      "weight": 25,
+      "description": "Must pair 'Tum' with 'ho' (Tum kahan ho)."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 25,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "आपकी गाड़ी कहाँ है? यह मेरा घर है। उसकी किताब यहाँ है। तुम कहाँ हो?",
+    "acceptableAlternates": [
+      "Aapki gaadi kahan hai? Yeh mera ghar hai. Uski kitaab yahaan hai. Tum kahan ho?",
+      "aapki gaadi kahan hai? yeh mera ghar hai. uski kitaab yahaan hai. tum kahan ho?"
+    ],
+    "requiredKeywords": [
+      "aapki",
+      "gaadi",
+      "mera",
+      "ghar",
+      "uski",
+      "kitaab",
+      "tum",
+      "ho",
+      "kahan",
+      "yahaan"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check on a/e/i endings.",
+    "lengthExpectation": "Four short sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Possessive Gender Failure",
+          "weight": 100,
+          "description": "If user writes 'Aapka gaadi' or 'Meri ghar', score drops significantly."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You handled the gendered possessives flawlessly.",
+    "onFail": "Review Section 2. 'Gaadi' is feminine, so 'Your car' must be 'Aapki gaadi', not 'Aapka gaadi'.",
+    "onPartial": "Good try. Check your final sentence. 'Tum' (You casual) must ALWAYS end with the verb 'ho' (Tum kahan ho?)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "possessives",
+    "formality",
+    "pronouns",
+    "gender_agreement"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Before writing the pronoun (My, Your, His), look at the word immediately following it. If it's a feminine word, the pronoun MUST end in 'i'.",
+  "commonMistakes": [
+    "Writing 'Aap gaadi kahan hai?' instead of 'Aapki' (Using subject pronoun instead of possessive)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B3_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

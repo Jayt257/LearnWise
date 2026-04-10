@@ -1,0 +1,145 @@
+{
+  "activityId": "en_hi_M3B1_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Making the Rules",
+  "learningGoal": "The learner will compose sentences demonstrating strict adherence to the bare infinitive rule following modal auxiliaries, successfully generating semantic distinctions between permissive, advisory, and obligatory statements.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B1_reading_001"],
+  "instructions": "You are the manager of a Library! Write 3 rules for the people reading books. Sentence 1: Tell them something they are ALLOWED to do using 'You can'. Sentence 2: Give them ADVICE using 'You should'. Sentence 3: Tell them a STRICT RULE of what is forbidden, using 'You must not'.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Never use 'To', '-ing', or '-ed' after Can, Should, or Must!"
+    }
+  ],
+  "writingPrompt": "Write 3 sentences for a Library. 1. You can... 2. You should... 3. You must not...",
+  "promptGoal": "Test independent syntactic production of bare infinitives following modal auxiliaries while assessing semantic accuracy of 'can', 'should', and 'must'.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Read",
+      "transliteration": "रीड",
+      "baseTranslation": "पढ़ना",
+      "partOfSpeech": "Verb"
+    },
+    {
+      "targetText": "Speak",
+      "transliteration": "स्पीक",
+      "baseTranslation": "बोलना",
+      "partOfSpeech": "Verb"
+    },
+    {
+      "targetText": "Yell",
+      "transliteration": "येल",
+      "baseTranslation": "चिल्लाना",
+      "partOfSpeech": "Verb"
+    },
+    {
+      "targetText": "Quietly",
+      "transliteration": "क्वाइटली",
+      "baseTranslation": "चुपचाप",
+      "partOfSpeech": "Adverb"
+    },
+    {
+      "targetText": "Books",
+      "transliteration": "बुक्स",
+      "baseTranslation": "किताबें",
+      "partOfSpeech": "Noun"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Allowed): You can [action verb] here.",
+    "Sentence 2 (Advice): You should [action verb] quietly.",
+    "Sentence 3 (Strict Rule): You must not [action verb] loudly!"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "You can read books here. You should speak quietly. You must not yell.",
+      "transliteration": "यू कैन रीड बुक्स हियर। यू शुड स्पीक क्वाइटली। यू मस्ट नॉट येल।",
+      "baseTranslation": "आप यहाँ किताबें पढ़ सकते हैं। आपको चुपचाप बात करनी चाहिए। आपको चिल्लाना नहीं चाहिए।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner maintained the bare infinitive across all three sentences (can read, should speak, must not yell) and accurately mapped the semantic hierarchy of the modals."
+    },
+    {
+      "targetText": "You can to read books. You should speaking quietly. You must to not yell.",
+      "transliteration": "यू कैन टू रीड बुक्स। यू शुड स्पीकिंग क्वाइटली। यू मस्ट टू नॉट येल।",
+      "baseTranslation": "व्याकरण की गंभीर गलतियाँ।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Massive L1 interference leading to 'to' insertions ('can to read', 'must to not') and verb inflection ('should speaking')."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Bare Infinitive Zero-Tolerance",
+      "weight": 50,
+      "description": "Did the user aggressively maintain clean verbs? Heavy penalization for any instance of 'to', '-ing', '-ed', or '-s' following 'can', 'should', or 'must'."
+    },
+    {
+      "criterion": "Semantic Mapping",
+      "weight": 30,
+      "description": "Does the 'can' sentence show permission, the 'should' sentence show advice, and the 'must not' sentence show a strict rule?"
+    },
+    {
+      "criterion": "Target Completion",
+      "weight": 20,
+      "description": "Were all 3 sentences generated using the 3 requested modals?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "You can take computers. You should read fast. You must not eat food.",
+    "acceptableAlternates": [
+      "Can sit here. Should be quiet. Must not sleep."
+    ],
+    "requiredKeywords": ["can", "should", "must"],
+    "grammarBaseline": "Absolute zero tolerance for 'to' verbs. 'I can to swim' instantly fails.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "No Verb Endings / No To": "50%",
+      "Correct Modal Meanings": "30%",
+      "Wrote 3 Sentences": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You wrote perfect rules! Most importantly, you proved you have mastered the Golden Rule: the action verb NEVER, EVER changes form after a modal!",
+    "onFail": "Please review your writing. If you wrote 'You can to read' or 'You must not eating', you failed the core rule. No prefixes, no suffixes. Just Can + Action! Ask for a hint to see the exact structure.",
+    "onPartial": "Good start! Double check the difference between Should and Must. Must is for things that will get you kicked out of the library! Should is just friendly advice."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b1/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b1/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b1/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m3/b1/writing/prompt.mp3",
+    "audioTranscript": "Write library rules. One sentence with Can. One with Should. One with Must Not.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "modals", "can", "should", "must", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b1/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Keep it simple! You can read. You should whisper. You must not eat.",
+  "commonMistakes": [
+    "Writing 'You must to not talk'.",
+    "Writing 'You should whispering'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

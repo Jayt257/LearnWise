@@ -1,0 +1,180 @@
+{
+  "activityId": "ja_en_M3B6_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "Comprehensive Output",
+  "learningGoal": "The learner will verbally construct sentences combining multiple grammar points, including reasons, permissions, potentials, and conditionals.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M3B6_lesson_001",
+    "ja_en_M3B6_vocabulary_001"
+  ],
+  "instructions": "Translate the English prompts into Japanese verbally. You will need to recall various grammar structures from the past three months.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Speak clearly and confidently. Remember how to form 'kara', 'te mo ii', and 'tara'."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) Because I studied, I can speak. 2) May I drink? 3) If I go to Japan, I want to eat sushi.",
+  "scenario": "Demonstrating fluency.",
+  "role": "Fluent Speaker",
+  "conversationPartner": "Teacher",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Give a reason and potential. Say: 'Because I studied, I can speak.'",
+      "expectedSpeakingPoints": [
+        "Use benkyou shimashita kara",
+        "Use hanasemasu"
+      ],
+      "sampleResponse": {
+        "targetText": "べんきょうしましたから、はなせます。",
+        "transliteration": "Benkyou shimashita kara, hanasemasu.",
+        "baseTranslation": "Because I studied, I can speak."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Ask for permission. Say: 'May I drink?'",
+      "expectedSpeakingPoints": [
+        "Use nonde",
+        "Use mo ii desu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "のんでも いいですか。",
+        "transliteration": "Nonde mo ii desu ka.",
+        "baseTranslation": "May I drink?"
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "State a condition and desire. Say: 'If I go to Japan, I want to eat sushi.'",
+      "expectedSpeakingPoints": [
+        "Use Nihon ni ittara",
+        "Use sushi ga tabetai desu"
+      ],
+      "sampleResponse": {
+        "targetText": "にほんに いったら、すしが たべたいです。",
+        "transliteration": "Nihon ni ittara, sushi ga tabetai desu.",
+        "baseTranslation": "If I go to Japan, I want to eat sushi."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "にほんごで はなして ください。",
+    "transliteration": "Nihongo de hanashite kudasai.",
+    "baseTranslation": "Please speak in Japanese."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "べんきょうしましたから、はなせます。",
+      "transliteration": "Benkyou shimashita kara, hanasemasu.",
+      "baseTranslation": "Because I studied, I can speak."
+    },
+    {
+      "targetText": "のんでも いいですか。",
+      "transliteration": "Nonde mo ii desu ka.",
+      "baseTranslation": "May I drink?"
+    },
+    {
+      "targetText": "にほんに いったら、すしが たべたいです。",
+      "transliteration": "Nihon ni ittara, sushi ga tabetai desu.",
+      "baseTranslation": "If I go to Japan, I want to eat sushi."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Benkyou shimashita kara hanasemasu",
+      "Say Nonde mo ii desu ka",
+      "Say Nihon ni ittara sushi ga tabetai desu"
+    ],
+    "requiredKeywords": [
+      "べんきょう",
+      "から",
+      "はなせます",
+      "のんでも",
+      "いったら",
+      "たべたい"
+    ],
+    "acceptableParaphrases": [
+      "Accept 'Benkyou shita kara' (plain form before kara)."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Potential & Reason",
+          "weight": 35,
+          "description": "Did the learner use 'kara' and 'hanasemasu'?"
+        },
+        {
+          "name": "Permission",
+          "weight": 30,
+          "description": "Did the learner conjugate 'nomu' to 'nonde'?"
+        },
+        {
+          "name": "Condition & Desire",
+          "weight": 35,
+          "description": "Did the learner use 'ittara' and 'tabetai'?"
+        }
+      ]
+    },
+    "sampleAnswer": "べんきょうしましたから、はなせます。のんでも いいですか。にほんに いったら、すしが たべたいです。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You are truly speaking Japanese now.",
+    "onFail": "Review the core conjugations: Te-form, Tara-form, and Potential form.",
+    "onPartial": "Good try! Remember that 'want to eat' is 'tabetai', and the object takes 'ga' (sushi ga tabetai)."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m3/b6/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m3/b6/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "べんきょうしましたから、はなせます。のんでも いいですか。にほんに いったら、すしが たべたいです。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "review",
+    "grammar",
+    "comprehensive",
+    "advanced",
+    "month3",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Link clauses carefully. 'Iku' becomes 'Ittara' (If I go).",
+  "commonMistakes": [
+    "Saying 'Ikutara' instead of 'Ittara'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

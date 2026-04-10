@@ -1,0 +1,231 @@
+{
+  "activityId": "ja_en_M3B4_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "Keigo: Respectful and Humble Language",
+  "learningGoal": "The learner will understand the dual system of Japanese Keigo (Honorifics), mastering the distinction between Sonkeigo (elevating others) and Kenjougo (lowering oneself).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_en_M3B3_test_001"
+  ],
+  "instructions": "In Japanese, being polite isn't just about adding 'desu' or 'masu'. To show true respect to a customer, boss, or stranger, you must use completely different verbs for their actions versus your own actions. This system is called Keigo.",
+  "conceptTitle": "The Elevator of Respect",
+  "lessonContent": [
+    {
+      "sectionId": "sec_01",
+      "sectionTitle": "The Three Types of Politeness",
+      "bodyText": "Japanese politeness is divided into three categories: 1) Teineigo (Polite language - the standard 'desu/masu' you already know). 2) Sonkeigo (Respectful language - raises the listener). 3) Kenjougo (Humble language - lowers the speaker).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "ていねいご (Teineigo)",
+          "transliteration": "Ikimasu. (I go / You go)",
+          "baseTranslation": "Standard polite. Neutral height.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "そんけいご (Sonkeigo)",
+          "transliteration": "Irasshaimasu. (You go / The boss goes)",
+          "baseTranslation": "Respectful. Elevates the other person.",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "けんじょうご (Kenjougo)",
+          "transliteration": "Mairimasu. (I go)",
+          "baseTranslation": "Humble. Lowers yourself.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_02",
+      "sectionTitle": "Sonkeigo: Elevating Others",
+      "bodyText": "Use these verbs only for the actions of someone you respect (a customer, a boss, a teacher). NEVER use them for yourself.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いく・くる・いる -> いらっしゃる",
+          "transliteration": "Iku/Kuru/Iru -> Irassharu",
+          "baseTranslation": "To go, come, or be (Respectful)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たべる・のむ -> めしあがる",
+          "transliteration": "Taberu/Nomu -> Meshiagaru",
+          "baseTranslation": "To eat or drink (Respectful)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しゃちょうは いらっしゃいます。",
+          "transliteration": "Shachou wa irasshaimasu.",
+          "baseTranslation": "The company president goes/comes/is here.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_03",
+      "sectionTitle": "Kenjougo: Lowering Yourself",
+      "bodyText": "Use these verbs only for your own actions (or your in-group/family) when speaking to someone you respect. NEVER use them for the customer or boss.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いく・くる -> まいる",
+          "transliteration": "Iku/Kuru -> Mairu",
+          "baseTranslation": "To go or come (Humble)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "たべる・のむ・もらう -> いただく",
+          "transliteration": "Taberu/Nomu/Morau -> Itadaku",
+          "baseTranslation": "To eat, drink, or receive (Humble)",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "わたしが まいります。",
+          "transliteration": "Watashi ga mairimasu.",
+          "baseTranslation": "I will go/come.",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_04",
+      "sectionTitle": "Speaking and Knowing",
+      "bodyText": "Here are the respectful and humble forms for 'Say' and 'Know'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "いう -> おっしゃる (尊敬) / もうす (謙譲)",
+          "transliteration": "Iu -> Ossharu (Respectful) / Mousu (Humble)",
+          "baseTranslation": "To say",
+          "audioRef": "audioAssets.nativeAudio"
+        },
+        {
+          "targetText": "しっている -> ごぞんじだ (尊敬) / ぞんじている (謙譲)",
+          "transliteration": "Shitteiru -> Gozonji da (Respectful) / Zonjiteiru (Humble)",
+          "baseTranslation": "To know",
+          "audioRef": "audioAssets.nativeAudio"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will correctly select between Sonkeigo (respectful) and Kenjougo (humble) verbs based on the subject of the sentence, preventing critical social faux pas in business environments.",
+  "examples": [
+    {
+      "targetText": "きゃくは すしを めしあがりました。",
+      "transliteration": "Kyaku wa sushi wo meshiagarimashita.",
+      "baseTranslation": "The customer ate sushi. (Sonkeigo - Elevating the customer).",
+      "explanation": "If you say 'Watashi wa sushi wo meshiagarimashita', you are elevating yourself, which sounds arrogant."
+    },
+    {
+      "targetText": "わたしは すしを いただきました。",
+      "transliteration": "Watashi wa sushi wo itadakimashita.",
+      "baseTranslation": "I ate sushi. (Kenjougo - Lowering yourself).",
+      "explanation": "If you say 'Kyaku wa sushi wo itadakimashita', you are lowering the customer, which is incredibly rude."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "NEVER use Sonkeigo for yourself. NEVER use Kenjougo for the listener or their out-group.",
+      "exceptionNotes": "This is the most strictly enforced rule in Japanese business communication."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "When talking to a client about your own boss, you must use Kenjougo (humble language) for your boss.",
+      "exceptionNotes": "This is because your boss is in your 'in-group' relative to the client. You lower your entire company to respect the client."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Keigo is so complex that even native Japanese speakers take special training courses on it when they join a company. Mistakes in Keigo can cost business deals, as it shows a lack of social grace and respect.",
+    "dosList": [
+      "Use Kenjougo (Mairimasu, Itashimasu) when introducing yourself to strangers or clients."
+    ],
+    "dontsList": [
+      "Do not use Keigo with close friends or family. It will sound cold, distant, and sarcastic."
+    ]
+  },
+  "summary": "Sonkeigo (Irasshaimasu, Meshiagarimasu) elevates the listener's actions. Kenjougo (Mairimasu, Itadakimasu) lowers the speaker's actions.",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "If a customer asks if you will go to the meeting, do you reply with 'Mairimasu' or 'Irasshaimasu'?",
+      "expectedAnswer": "まいります (Mairimasu - Humble form for yourself)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "If you are asking the boss what they want to eat, which verb do you use?",
+      "expectedAnswer": "めしあがる (Meshiagaru - Respectful form for the boss)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What is the humble form of 'To say' (Iu)?",
+      "expectedAnswer": "もうす (Mousu)"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Sonkeigo: Respectful (Irassharu, Meshiagaru, Ossharu)",
+      "Kenjougo: Humble (Mairu, Itadaku, Mousu)",
+      "Rule: Never respect yourself, never humble the client."
+    ],
+    "conceptSummary": "Mastering the Japanese business language hierarchy.",
+    "importantFacts": [
+      "Irassharu covers go, come, and be. Mairu covers go and come."
+    ],
+    "checkpointAnswers": {
+      "q1": "まいります",
+      "q2": "めしあがる",
+      "q3": "もうす"
+    },
+    "expectedUnderstanding": "Learner must memorize the distinct vocabulary pairs for giving and receiving respect."
+  },
+  "evaluationMode": "manual",
+  "scoreThreshold": 100,
+  "feedbackRules": {
+    "onPass": "Excellent! You understand the core concept of Keigo directionality.",
+    "onFail": "Review the difference between elevating (Sonkeigo) and lowering (Kenjougo).",
+    "onPartial": "Good start. Focus on memorizing which verb belongs to which group. 'Meshiagaru' is for them, 'Itadaku' is for you."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/lesson/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "いらっしゃいます。しゃちょうは いらっしゃいます。まいります。わたしが まいります。めしあがる。いただく。おっしゃる。もうす。",
+    "audioLanguage": "ja",
+    "audioDuration": 420,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "keigo",
+    "sonkeigo",
+    "kenjougo",
+    "advanced",
+    "business",
+    "month3",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [
+    "Saying 'Watashi wa irasshaimasu'. This is extremely arrogant."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_vocabulary_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

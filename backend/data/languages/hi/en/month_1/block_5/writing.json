@@ -1,0 +1,159 @@
+{
+  "activityId": "en_hi_M1B5_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Describing Routines (Yours vs Theirs)",
+  "learningGoal": "The learner will successfully compose an English paragraph deploying the Present Simple tense, accurately producing bare verbs for the first-person subject ('I') and accurately affixing 's'/'es' suffixes for third-person singular subjects ('He/She/It') without resorting to 'am/is/are' auxiliaries.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B5_reading_001"],
+  "instructions": "Write a paragraph describing your morning routine, and the routine of a friend or family member. Use the words 'I' and 'He' (or 'She'). You must list at least 3 actions YOU do, and 3 actions THEY do. Remember: Add 's' or 'es' to the verbs for 'He' and 'She'!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: DO NOT WRITE 'I AM WAKE UP' OR 'HE IS EAT'. 'Am' or 'Is' cannot be used here. Simply write 'I wake up' or 'He eats'."
+    }
+  ],
+  "writingPrompt": "Write about what you do in the morning, and what a friend does. (At least 6 sentences total).",
+  "promptGoal": "Demonstrate the ability to toggle the third-person suffix 's/-es' on and off depending on the subject pronoun.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "Wake up",
+      "transliteration": "वेक अप",
+      "baseTranslation": "उठना",
+      "partOfSpeech": "Action Verb"
+    },
+    {
+      "targetText": "Brush",
+      "transliteration": "ब्रश",
+      "baseTranslation": "ब्रश करना (-es लेता है)",
+      "partOfSpeech": "Action Verb"
+    },
+    {
+      "targetText": "Eat",
+      "transliteration": "ईट",
+      "baseTranslation": "खाना",
+      "partOfSpeech": "Action Verb"
+    },
+    {
+      "targetText": "Drink",
+      "transliteration": "ड्रिंक",
+      "baseTranslation": "पीना",
+      "partOfSpeech": "Action Verb"
+    },
+    {
+      "targetText": "Go",
+      "transliteration": "गो",
+      "baseTranslation": "जाना (-es लेता है)",
+      "partOfSpeech": "Action Verb"
+    },
+    {
+      "targetText": "Watch",
+      "transliteration": "वॉच",
+      "baseTranslation": "देखना (-es लेता है)",
+      "partOfSpeech": "Action Verb"
+    },
+    {
+      "targetText": "Sleep",
+      "transliteration": "स्लीप",
+      "baseTranslation": "सोना",
+      "partOfSpeech": "Action Verb"
+    }
+  ],
+  "referenceHints": [
+    "I wake up. -> He wakes up.",
+    "I eat. -> She eats.",
+    "I go. -> Amit goes.",
+    "I brush. -> Priya brushes."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I wake up early. I drink water. I eat an apple. My brother wakes up late. He drinks tea. He goes to school. The dogs run in the park.",
+      "transliteration": "आई वेक अप अर्ली। आई ड्रिंक वाटर। आई ईट ऐन ऐपल। माई ब्रदर वेक्स अप लेट। ही ड्रिंक्स टी। ही गोज़ टू स्कूल। द डॉग्स रन इन द पार्क।",
+      "baseTranslation": "मैं जल्दी उठता हूँ। मैं पानी पीता हूँ। मैं एक सेब खाता हूँ। मेरा भाई देर से उठता है। वह चाय पीता है। वह स्कूल जाता है। कुत्ते पार्क में दौड़ते हैं।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The bare verb is used for 'I' (wake, drink, eat). The suffixed verb is used for 'brother/He' (wakes, drinks, goes). Zero usage of 'I am' / 'He is' with action verbs."
+    },
+    {
+      "targetText": "I brush. I eat. I go. My sister brushes. My sister eats. She goes.",
+      "transliteration": "आई ब्रश। आई ईट। आई गो। माई सिस्टर ब्रशेस। माई सिस्टर ईट्स। शी गोज़।",
+      "baseTranslation": "मैं ब्रश करता हूँ। मैं खाता हूँ। मैं जाता हूँ। मेरी बहन ब्रश करती है। मेरी बहन खाती है। वह जाती है।",
+      "qualityLevel": "acceptable",
+      "annotation": "Acceptable. Very short and repetitive, but perfectly obeys the grammatical rules mandated by the prompt."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "First Person Conjugation",
+      "weight": 30,
+      "description": "Did the user use the bare ROOT of the verb when the subject was 'I'? (e.g., 'I eat', not 'I eats')."
+    },
+    {
+      "criterion": "Third Person Conjugation",
+      "weight": 40,
+      "description": "Did the user append an 's' or 'es' to the root verb when the subject was 'He', 'She', or a name? (e.g., 'He eats', not 'He eat')."
+    },
+    {
+      "criterion": "Absence of Auxiliary Be",
+      "weight": 30,
+      "description": "Did the user avoid the Hindi-translation trap? (They must NOT write 'I am eat' or 'He is sleep')."
+    }
+  ],
+  "minimumWordCount": 30,
+  "maximumWordCount": 150,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "In the morning, I wake up and I brush my teeth. I eat breakfast. My friend Amit wakes up late. He brushes his teeth. He eats an apple. He goes to the park.",
+    "acceptableAlternates": [
+      "I sleep early. I drink milk. I go to school. My sister sleeps late. She drinks tea. She watches TV."
+    ],
+    "requiredKeywords": [],
+    "grammarBaseline": "Must include at least 1 'I + BaseVerb' and 1 'He/She + BaseVerb+s'. Must not include 'Am + BaseVerb'.",
+    "lengthExpectation": "30 to 150 words",
+    "scoringRubric": {
+      "Root Verbs": "30%",
+      "S/ES Verbs": "40%",
+      "No Auxiliary Error": "30%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Magnificent! You have officially broken perfectly away from Hindi verb logic. You correctly added 'S' for third-person, and accurately dropped 'I am'.",
+    "onFail": "Please review your writing. If you wrote 'I am wake up', rewrite it to 'I wake up'. If you wrote 'He eat', rewrite it to 'He eats'. Remember the rule!",
+    "onPartial": "Good start! You might have missed an 'es' (like writing 'He brushs' instead of 'He brushes'), or forgotten the 's' for one sentence."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b5/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b5/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b5/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Write about your morning and your friend's morning. Remember the 'S' for your friend.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "verbs", "s-suffix", "routines", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b5/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Verbs in English do not change to show if you are a man or woman. A brother 'eats' and a sister 'eats'. Genders do not matter, only 'number' (singular vs plural).",
+  "commonMistakes": [
+    "Writing: 'I am eat a apple'.",
+    "Writing: 'He brush his teeth'.",
+    "Writing: 'She sleep'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B5_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,176 @@
+{
+  "activityId": "hi_en_M2B2_listening_5",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Listening: Phone Call Plans",
+  "learningGoal": "Understand spoken present continuous statements and future plans over a phone call.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B2_lesson_1"
+  ],
+  "instructions": "Listen to the phone call between Amit and his mother. Amit is currently doing something, and his mother asks about his plans for tomorrow. Pay close attention to the verb endings.",
+  "listeningGoal": "Distinguish between 'raha hoon' (am doing) and 'unga' (will do) in a spoken dialogue.",
+  "audioScenario": "A mother calls her son who is currently away at college/work.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "माँ: हैलो अमित। तुम क्या कर रहे हो?",
+      "transliteration": "Maa: Hello Amit. Tum kya kar rahe ho?",
+      "baseTranslation": "Mother: Hello Amit. What are you doing?"
+    },
+    {
+      "targetText": "अमित: हैलो माँ। मैं अभी खाना खा रहा हूँ।",
+      "transliteration": "Amit: Hello Maa. Main abhi khaana kha raha hoon.",
+      "baseTranslation": "Amit: Hello Mother. I am eating food right now."
+    },
+    {
+      "targetText": "माँ: ठीक है। कल तुम क्या करोगे?",
+      "transliteration": "Maa: Theek hai. Kal tum kya karoge?",
+      "baseTranslation": "Mother: Okay. What will you do tomorrow?"
+    },
+    {
+      "targetText": "अमित: कल मैं काम करूँगा। मैं घर नहीं आऊँगा।",
+      "transliteration": "Amit: Kal main kaam karunga. Main ghar nahi aaunga.",
+      "baseTranslation": "Amit: Tomorrow I will work. I will not come home."
+    },
+    {
+      "targetText": "माँ: अच्छा। तो परसों घर आइयेगा।",
+      "transliteration": "Maa: Achchha. Toh parson ghar aaiyega.",
+      "baseTranslation": "Mother: Okay. Then please come home the day after tomorrow."
+    },
+    {
+      "targetText": "अमित: जी माँ। मैं परसों आऊँगा।",
+      "transliteration": "Amit: Jee Maa. Main parson aaunga.",
+      "baseTranslation": "Amit: Yes Mother. I will come the day after tomorrow."
+    }
+  ],
+  "audioTranscriptFull": "हैलो अमित। तुम क्या कर रहे हो? हैलो माँ। मैं अभी खाना खा रहा हूँ। ठीक है। कल तुम क्या करोगे? कल मैं काम करूँगा। मैं घर नहीं आऊँगा। अच्छा। तो परसों घर आइयेगा। जी माँ। मैं परसों आऊँगा।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What is Amit doing when his mother calls?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Khaana kha raha hoon (Eating food)",
+        "Kaam kar raha hoon (Working)",
+        "Ghar aa raha hoon (Coming home)"
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "What will Amit do tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "He will work (Kaam karunga).",
+        "He will come home (Ghar aaunga).",
+        "He will rest (Aaram karunga)."
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "Does Amit say he will come home tomorrow?",
+      "questionType": "multiple_choice",
+      "options": [
+        "No (Main ghar nahi aaunga).",
+        "Yes (Main ghar aaunga).",
+        "He is unsure."
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "When does the mother ask him to come home?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Parson (The day after tomorrow)",
+        "Kal (Tomorrow)",
+        "Aaj (Today)"
+      ],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "What extremely polite request form does the mother use?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aaiyega (Please come [future])",
+        "Aaunga (I will come)",
+        "Aao (Come [informal])"
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Khaana kha raha hoon (Eating food)",
+      "lq_2": "He will work (Kaam karunga).",
+      "lq_3": "No (Main ghar nahi aaunga).",
+      "lq_4": "Parson (The day after tomorrow)",
+      "lq_5": "Aaiyega (Please come [future])"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Awesome! You perfectly tracked the timeline shifts from present to future.",
+    "onFail": "Review the verb suffixes. '-raha' is right now. '-unga' is tomorrow.",
+    "onPartial": "Good effort. Note the word 'Parson' which means 'the day after tomorrow' (or 'the day before yesterday' depending on the tense)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "हैलो अमित। तुम क्या कर रहे हो? हैलो माँ। मैं अभी खाना खा रहा हूँ। ठीक है। कल तुम क्या करोगे? कल मैं काम करूँगा। मैं घर नहीं आऊँगा। अच्छा। तो परसों घर आइयेगा। जी माँ। मैं परसों आऊँगा।",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "future_tense",
+    "continuous_tense",
+    "timeline",
+    "family"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how the mother uses the highly polite 'Aaiyega' to express a gentle, loving request, even though she could use the informal 'Tum' with her son.",
+  "commonMistakes": [
+    "Confusing 'kal' (tomorrow) with 'parson' (day after tomorrow)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B2_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

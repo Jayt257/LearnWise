@@ -1,0 +1,385 @@
+{
+  "activityId": "en_hi_M3B4_test_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "The Final Assessment: Survival Mode",
+  "learningGoal": "The learner will demonstrate comprehensive mastery of the intermediate curriculum by successfully parsing, translating, and deploying contextual survival English phrases (polite modalities vs. urgent imperatives) and core travel vocabulary.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M3B4_lesson_001",
+    "en_hi_M3B4_pronunciation_001",
+    "en_hi_M3B4_reading_001",
+    "en_hi_M3B4_writing_001",
+    "en_hi_M3B4_listening_001",
+    "en_hi_M3B4_vocabulary_001",
+    "en_hi_M3B4_speaking_001"
+  ],
+  "instructions": "This is it! The Final Test of the Beginner Course! It evaluates everything you have learned about Survival English. Do you know how to order food politely? Do you know the vocabulary for the airport? Let's prove you are ready to travel the world!",
+  "testTitle": "Month 3 Final Assessment",
+  "testScope": "month_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 80/100 to pass this final test.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: Politeness vs Urgency",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Which phrase is the most POLITE way to stop a stranger on the street?",
+          "questionType": "multiple_choice",
+          "options": ["Hey you", "Excuse me", "Stop there, please"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "You are sitting in a restaurant. What is the correct way to order water?",
+          "questionType": "multiple_choice",
+          "options": ["Give me water.", "I want water.", "I would like some water, please."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Someone is attacking you! What should you shout?",
+          "questionType": "multiple_choice",
+          "options": ["Excuse me, could you call the police?", "Call the police!", "I would like the police."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: Asking 'What is the price?' in a shop is exactly how native speakers talk.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "Which is the correct way to ask for the check after eating?",
+          "questionType": "multiple_choice",
+          "options": ["Give me the check.", "What is my cost?", "Can I have the bill, please?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Travel & Emergency",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Write the exact English word for 'आपातकाल' (a dangerous situation).",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Emergency",
+            "transliteration": "इमरजेंसी",
+            "baseTranslation": "आपातकाल"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If your plane is 'Delayed', it means...",
+          "questionType": "multiple_choice",
+          "options": ["It is not coming at all.", "It is late.", "It is early."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English word for 'दवाखाना / मेडिकल स्टोर'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Pharmacy",
+            "transliteration": "फार्मेसी",
+            "baseTranslation": "दवाखाना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "What does a waiter give you so you can choose food?",
+          "questionType": "multiple_choice",
+          "options": ["Receipt", "Passport", "Menu"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Which word means 'रसीद' (the paper you get after buying something)?",
+          "questionType": "multiple_choice",
+          "options": ["Ticket", "Receipt", "Menu", "Luggage"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Situational Awareness",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "If a sign says 'Departures', what is happening there?",
+          "questionType": "multiple_choice",
+          "options": ["Planes are landing (arriving).", "Planes are leaving.", "People are eating."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "You cannot find your child. You tell a police officer: 'My child is _____'.",
+          "questionType": "multiple_choice",
+          "options": ["Lost", "Stolen", "Delayed"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Someone takes your bag. You tell the police: 'My bag was _____'.",
+          "questionType": "multiple_choice",
+          "options": ["Lost", "Stolen", "Delayed"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "True or False: Saying 'I want food' to a waiter might make them angry because it is impolite.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which phrase is the natural English equivalent of 'यह कितने का है?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: The Final Scripts",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate this polite request: 'माफ़ करें, क्या आप मेरी मदद कर सकते हैं?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Excuse me, could you help me?",
+            "transliteration": "एक्सक्यूज़ मी, कुड यू हेल्प मी?",
+            "baseTranslation": "माफ़ करें, क्या आप मेरी मदद कर सकते हैं?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate this polite restaurant order: 'मैं कॉफ़ी लेना पसंद करूँगा, कृपया!' (Use 'I would like...')",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I would like a coffee, please.",
+            "transliteration": "आई वुड लाइक अ कॉफ़ी, प्लीज़।",
+            "baseTranslation": "मैं कॉफ़ी लेना पसंद करूँगा, कृपया।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Change this rude sentence to make it perfect: 'What is the price of this?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "How much is this?",
+            "transliteration": "हाउ मच इज़ दिस?",
+            "baseTranslation": "यह कितने का है?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate this emergency shout: 'पुलिस को बुलाओ!'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Call the police!",
+            "transliteration": "कॉल द पुलिस!",
+            "baseTranslation": "पुलिस को बुलाओ!"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate this polite restaurant question: 'क्या मुझे बिल मिल सकता है, कृपया?'",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Can I have the bill, please?",
+            "transliteration": "कैन आई हैव द बिल, प्लीज़?",
+            "baseTranslation": "क्या मुझे बिल मिल सकता है, कृपया?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Excuse me",
+      "q002": "I would like some water, please.",
+      "q003": "Call the police!",
+      "q004": "False",
+      "q005": "Can I have the bill, please?",
+      "q006": "Emergency",
+      "q007": "It is late.",
+      "q008": "Pharmacy",
+      "q009": "Menu",
+      "q010": "Receipt",
+      "q011": "Planes are leaving.",
+      "q012": "Lost",
+      "q013": "Stolen",
+      "q014": "True",
+      "q015": "How much is this?",
+      "q016": "Excuse me, could you help me?",
+      "q017": "I would like a coffee, please.",
+      "q018": "How much is this?",
+      "q019": "Call the police!",
+      "q020": "Can I have the bill, please?"
+    },
+    "scoringRubric": {
+      "q016": "Must contain 'Excuse me' to pass.",
+      "q017": "Must contain 'would like'. 'I want' equates to an instant 0 points."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q006": ["emergency", "EMERGENCY"],
+      "q008": ["pharmacy", "PHARMACY"],
+      "q015": ["how much is this", "how much is it"],
+      "q016": ["excuse me could you help me", "Excuse me, can you help me?"],
+      "q017": ["i would like a coffee please", "I would like coffee, please."],
+      "q018": ["how much is this", "How much is it?"],
+      "q019": ["call the police", "Call police!"],
+      "q020": ["can i have the bill please", "Can I get the check, please?"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! You have passed the final exam and completed the entire Beginner English Curriculum! You are fully equipped to speak grammatically correct, highly polite, culturally accurate English. The world is yours to explore!",
+    "onFail": "Please review the Survival phrases. The difference between 'I want' and 'I would like' is the difference between making friends and making enemies! Make sure you memorize 'How much is this?' and 'Call the police!'",
+    "onPartial": "Good effort! Remember the difference between 'Lost' and 'Stolen'. If YOU drop your phone, it is lost. If someone TAKES your phone, it is stolen!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This is the final assessment of the entire course. Good luck!",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "final_assessment", "survival_english", "politeness", "capstone", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["graduation"],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,161 @@
+{
+  "activityId": "hi_en_M1B4_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Numbers and Days",
+  "learningGoal": "Master the pronunciation of Hindi numbers 1-10 and the days of the week, focusing on nasal sounds and correct vowel lengths.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B4_lesson_1"
+  ],
+  "instructions": "Hindi numbers have some tricky vowel combinations. Listen closely to the 'n' in 'Paanch' (5)—it is nasalized, not fully pronounced. Practice the long 'aa' in words like 'Chaar' (4) and 'Aath' (8).",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "एक",
+      "transliteration": "ek",
+      "baseTranslation": "One",
+      "phoneticHint": "ay-k",
+      "syllableSplit": "ek",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'eck'."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "तीन",
+      "transliteration": "teen",
+      "baseTranslation": "Three",
+      "phoneticHint": "tee-n",
+      "syllableSplit": "teen",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'tin'."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "पाँच",
+      "transliteration": "paanch",
+      "baseTranslation": "Five",
+      "phoneticHint": "paahn-ch (nasalize the n)",
+      "syllableSplit": "paan-ch",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying a hard 'n' like 'panch'."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "छह",
+      "transliteration": "chhah",
+      "baseTranslation": "Six",
+      "phoneticHint": "chhe",
+      "syllableSplit": "chhah",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'chha-ha'. It is usually compressed into 'chhe'."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "आठ",
+      "transliteration": "aath",
+      "baseTranslation": "Eight",
+      "phoneticHint": "aah-th (hard retroflex t with air)",
+      "syllableSplit": "aath",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'aat' or 'ath'. It requires a long 'a' and a hard aspirated 'th'."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "कितने बजे हैं?",
+      "transliteration": "Kitne baje hain?",
+      "baseTranslation": "What time is it?",
+      "phoneticHint": "kit-nay buh-jay hain",
+      "syllableSplit": "kit-ne ba-je hain",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'baji' instead of 'baje'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "सोमवार",
+      "transliteration": "Somvaar",
+      "baseTranslation": "Monday",
+      "phoneticHint": "som-vaar",
+      "syllableSplit": "som-vaar",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing the 'v' like an English 'w'. Keep teeth near the lower lip."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "गुरुवार",
+      "transliteration": "Guruvaar",
+      "baseTranslation": "Thursday",
+      "phoneticHint": "gu-ru-vaar",
+      "syllableSplit": "gu-ru-vaar",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'goo-roo' with long vowels. They are short 'u' sounds."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear vowels, aspirated retroflex consonants (like in Aath), and properly nasalized vowels (like in Paanch).",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Fantastic! Your numbers sound very natural.",
+    "onFail": "Please listen carefully to the nasal sounds. If you see a dot (ं) or a moon with a dot (ँ) in Devanagari, push the air through your nose.",
+    "onPartial": "Good progress. Make sure you don't over-pronounce the 'n' in 'Paanch'. It should be soft and nasal."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "numbers",
+    "days",
+    "nasalization",
+    "time"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pinch your nose gently when saying 'Paanch'—you should feel the vibration in your nose.",
+  "commonMistakes": [
+    "Using a hard 't' in 'Teen'. It must be a soft dental 't'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B4_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

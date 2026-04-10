@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M3B2_test_8",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Test: Passives & Causatives",
+  "learningGoal": "Evaluate the learner's ability to conjugate and utilize the passive voice (Jaana) and causative verbs (First and Second).",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B2_lesson_1",
+    "hi_en_M3B2_pronunciation_2",
+    "hi_en_M3B2_reading_3",
+    "hi_en_M3B2_writing_4",
+    "hi_en_M3B2_listening_5",
+    "hi_en_M3B2_vocabulary_6",
+    "hi_en_M3B2_speaking_7"
+  ],
+  "instructions": "This test covers the complex transformations from active doing to passive being done, and causative delegation. Remember the rules for helper verbs.",
+  "testTitle": "Delegation Mastery Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_passive",
+      "sectionTitle": "The Passive Voice",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "What verb is used as the 'To Be' helper in Hindi passive sentences?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Jaana (To go)",
+            "Hona (To be)",
+            "Karna (To do)"
+          ],
+          "questionHints": {
+            "targetText": "Jaana (To go)",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "Translate: 'The letter was written.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Patra likha gaya.",
+            "Patra likha tha.",
+            "Patra likhta hai."
+          ],
+          "questionHints": {
+            "targetText": "Patra likha gaya.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_causative",
+      "sectionTitle": "Causative Verbs",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "If 'Seekhna' is to learn, what is 'To teach' (First Causative)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Sikhana",
+            "Sikhwana",
+            "Seekhana"
+          ],
+          "questionHints": {
+            "targetText": "Sikhana",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Translate: 'I am getting my house built.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "Main ghar banwa raha hoon.",
+            "Main ghar bana raha hoon.",
+            "Main ghar ban raha hoon."
+          ],
+          "questionHints": {
+            "targetText": "Main ghar banwa raha hoon.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Translate to English: मैंने कैटरर से खाना बनवाया। (Maine caterer se khana banwaya.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "I got the food made by the caterer.",
+            "transliteration": "Maine caterer se khana banwaya.",
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "Jaana (To go)",
+      "tq_2": "Patra likha gaya.",
+      "tq_3": "Sikhana",
+      "tq_4": "Main ghar banwa raha hoon.",
+      "tq_5": "I got the food made by the caterer."
+    },
+    "partialCreditRules": {
+      "tq_5": "Accept 'I had the caterer make the food' or 'I got the caterer to make the food'."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Outstanding! You have mastered two of the most difficult and uniquely Hindi grammar structures.",
+    "onFail": "Review the core infixes. 'Aa' = doing it directly to someone (teaching). 'Waa' = delegating it (having someone taught). Passive voice ALWAYS uses 'Jaana'.",
+    "onPartial": "Good effort. Watch out for vowel shortening. It is 'Sikhana', not 'Seekhana'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block2_month3",
+    "passive_voice",
+    "causatives",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Whenever you see 'Waa', someone is paying or ordering someone else to do the work.",
+  "commonMistakes": [
+    "Choosing 'Patra likha tha' for the passive. That means 'Someone had written a letter'. 'Gaya' is required for passive."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B3_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

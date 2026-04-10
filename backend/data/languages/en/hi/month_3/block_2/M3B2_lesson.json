@@ -1,0 +1,237 @@
+{
+  "activityId": "hi_en_M3B2_lesson_1",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "Passive Voice and Causative Verbs",
+  "learningGoal": "Understand how to form passive sentences ('It is done') and master the unique Indian linguistic feature of causative verbs ('Making someone do something').",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 180,
+  "prerequisites": [
+    "hi_en_M3B1_test_8"
+  ],
+  "instructions": "This block introduces two advanced concepts that will drastically change how you speak Hindi. You will learn how to focus on the ACTION rather than the ACTOR (Passive Voice), and how to command someone else to perform an action for you (Causative Verbs).",
+  "conceptTitle": "The Passive Voice and The 'Aana / Waana' Suffixes",
+  "lessonContent": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "1. Introduction to the Passive Voice",
+      "bodyText": "In the active voice, the subject performs the action (e.g., 'I eat the apple'). In the passive voice, the action happens TO the object, and the subject is often hidden (e.g., 'The apple is eaten').\n\nIn English, we use the verb 'To Be' to form the passive (The work IS done, the car WAS washed). \n\nIn Hindi, we do NOT use 'Hona' (to be) for the passive. We use the verb 'Jaana' (To go)!\n\nThis sounds strange at first, but in Hindi, passive sentences literally translate to 'The work goes done'.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "यहाँ हिंदी बोली जाती है।",
+          "transliteration": "Yahaan Hindi boli jaati hai.",
+          "baseTranslation": "Hindi is spoken here. (Literally: Hindi goes spoken here).",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "काम किया गया।",
+          "transliteration": "Kaam kiya gaya.",
+          "baseTranslation": "The work was done. (Literally: Work went done).",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "2. Constructing the Passive Voice",
+      "bodyText": "To build a passive sentence:\n1. Take the main verb and turn it into its Past Participle (Karna -> Kiya, Padhna -> Padha, Bolna -> Bola).\n2. Add the helper verb 'Jaana' (To go).\n3. Conjugate 'Jaana' according to the Tense and the Gender of the Object.\n\nExamples with 'Karna' (To do) - Past Participle is 'Kiya':\n- Present: Kaam kiya jaata hai. (Work is done).\n- Past: Kaam kiya gaya. (Work was done - Note: The past tense of Jaana is Gaya).\n- Future: Kaam kiya jayega. (Work will be done).\n\nIf the object is feminine (like 'Bhasha' - Language), everything changes to feminine:\n- Bhasha boli jaati hai. (The language is spoken).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "पत्र लिखा जाएगा।",
+          "transliteration": "Patra likha jayega.",
+          "baseTranslation": "The letter will be written.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "दुकानें खोली जा रही हैं।",
+          "transliteration": "Dukaanein kholi jaa rahi hain.",
+          "baseTranslation": "The shops are being opened.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "3. The 'By' Phrase in Passive",
+      "bodyText": "If you want to mention who performed the action in a passive sentence, use the postposition 'ke dwara' (के द्वारा) or simply 'se' (से) after the actor.\n\nExample: The food was eaten by Ram.\n- Ram ke dwara khana khaya gaya. (राम के द्वारा खाना खाया गया।)\n- Ram se khana khaya gaya. (राम से खाना खाया गया।)\n\nHowever, in spoken Hindi, passive voice is almost exclusively used when you DON'T want to name the actor (e.g., when making excuses: 'Mistakes were made').",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझसे यह काम नहीं किया जाएगा।",
+          "transliteration": "Mujhse yeh kaam nahi kiya jayega.",
+          "baseTranslation": "This work will not be done by me. (I cannot do this).",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "4. Introduction to Causative Verbs",
+      "bodyText": "Causative verbs are a brilliant feature of Hindi. Instead of saying 'I made him do the work', Hindi modifies the verb itself to mean 'to make someone do'.\n\nThere are usually three tiers of a verb:\n1. Base Verb: The subject does the action.\n2. First Causative: The subject makes/helps someone else do the action directly.\n3. Second Causative: The subject has a third party do the action.\n\nExample with Padhna (To read/study):\n- Base: Padhna (पढ़ना) - To read.\n- Causative 1: Padhana (पढ़ाना) - To teach (to make someone read).\n- Causative 2: Padhwana (पढ़वाना) - To have someone taught by someone else.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं किताब पढ़ता हूँ।",
+          "transliteration": "Main kitaab padhta hoon.",
+          "baseTranslation": "I read the book. (Base)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "मैं उसे पढ़ाता हूँ।",
+          "transliteration": "Main use padhaata hoon.",
+          "baseTranslation": "I teach him. (Causative 1)",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_5",
+      "sectionTitle": "5. Forming Causatives: The 'Aana' and 'Waana' Rules",
+      "bodyText": "Rule 1: To form the First Causative, insert 'aa' before the 'na' of the verb root.\n- Karna (to do) -> Karana (to make someone do).\n- Sunna (to listen) -> Sunana (to tell / to make someone listen).\n- Milna (to meet) -> Milana (to introduce / to mix).\n\nRule 2: To form the Second Causative, insert 'waa' before the 'na' of the root.\n- Karna (to do) -> Karwana (to get it done by someone else).\n- Banana (to make) -> Banwana (to get it made/built).\n\nIf the base root has a long vowel (like 'ee' in Seekhna), it usually shortens (Sikhana, Sikhwana).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं अपना घर बनवा रहा हूँ।",
+          "transliteration": "Main apna ghar banwa raha hoon.",
+          "baseTranslation": "I am getting my house built. (Second Causative)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "मुझे एक कहानी सुनाओ।",
+          "transliteration": "Mujhe ek kahaani sunao.",
+          "baseTranslation": "Tell me a story. (Make me listen to a story).",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_6",
+      "sectionTitle": "6. Using 'Se' in Causative Sentences",
+      "bodyText": "When using a causative verb, the person who is actually performing the action takes the postposition 'se' (from/by).\n\nExample: I will get the work done by Ram.\n- Main Ram se kaam karwaunga. (मैं राम से काम करवाऊँगा।)\n\nBreakdown:\n- Main (I - the instigator)\n- Ram se (By Ram - the actual doer)\n- Kaam (The object)\n- Karwaunga (Will get done - Second Causative future tense).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने धोबी से कपड़े धुलवाए।",
+          "transliteration": "Maine dhobi se kapde dhulwaye.",
+          "baseTranslation": "I had the clothes washed by the washerman.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will master the construction of passive sentences using 'jaana' as the auxiliary verb and effortlessly shift verbs into their first and second causative forms using 'aa' and 'waa' infixes.",
+  "examples": [
+    {
+      "targetText": "दीपावली अक्टूबर में मनाई जाती है।",
+      "transliteration": "Deepawali October mein manayi jaati hai.",
+      "baseTranslation": "Diwali is celebrated in October.",
+      "explanation": "Passive voice. Manana (to celebrate) -> Manayi (past participle feminine, because Diwali is feminine) + jaati hai (is gone)."
+    },
+    {
+      "targetText": "बॉस ने मुझसे सारा काम करवाया।",
+      "transliteration": "Boss ne mujhse saara kaam karwaya.",
+      "baseTranslation": "The boss made me do all the work.",
+      "explanation": "Second causative. The boss instigated it, I ('mujhse') actually did it. The verb is 'karwaya' (past tense of karwana)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "In Hindi passive voice, always use the verb 'Jaana' (To go) as the helper verb, never 'Hona' (To be).",
+      "exceptionNotes": "Saying 'Kaam kiya hai' means 'The work has done (something)'. It MUST be 'Kaam kiya gaya hai' (The work has been done)."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "The First Causative generally implies direct involvement (teaching someone), while the Second Causative implies indirect involvement (hiring a teacher to teach someone).",
+      "exceptionNotes": "Seekhna (Learn) -> Sikhana (Teach) -> Sikhwana (Have taught)."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Causative verbs reflect the hierarchical nature of Indian society. Managers, elders, and wealthy individuals frequently use the 'waa' suffix to indicate that they are getting tasks done by others (e.g., 'Main gaadi theek karwa raha hoon' - I am getting the car fixed [by a mechanic]). The passive voice is often used in official announcements (e.g., 'Soochit kiya jaata hai' - It is informed).",
+    "dosList": [
+      "Use causatives to sound like a native. Instead of saying 'He is cutting my hair', say 'Main baal katwa raha hoon' (I am getting my hair cut)."
+    ],
+    "dontsList": [
+      "Don't use 'Hona' to translate the English passive 'is/are/was'. It will completely break your sentence."
+    ]
+  },
+  "summary": "You have unlocked two incredibly powerful tools. The Passive Voice allows you to focus on the action without naming the doer (Kaam kiya jayega - Work will be done). Causative Verbs allow you to express delegation elegantly, simply by adding 'waa' to the middle of a verb (Karwana - to get done).",
+  "checkpointQuestions": [
+    {
+      "questionId": "cq_1",
+      "questionText": "What helper verb is used to create the passive voice in Hindi?",
+      "expectedAnswer": "Jaana (To go)."
+    },
+    {
+      "questionId": "cq_2",
+      "questionText": "If 'Bolna' means 'To speak', what does 'Bolwana' mean?",
+      "expectedAnswer": "To make/have someone speak (Second Causative)."
+    },
+    {
+      "questionId": "cq_3",
+      "questionText": "How would you translate 'The house was built'?",
+      "expectedAnswer": "Ghar banaya gaya. (Built = Banaya + Was = Gaya)."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Passive = Past Participle of Main Verb + Conjugated 'Jaana'.",
+      "First Causative = Infix 'aa' (Karna -> Karana).",
+      "Second Causative = Infix 'waa' (Karna -> Karwana).",
+      "The actual doer in a causative sentence takes the postposition 'se'."
+    ],
+    "conceptSummary": "Mastery of passive transformations and the three tiers of causative verbs.",
+    "importantFacts": [
+      "Many verbs have vowel shortening when becoming causative (Seekhna -> Sikhana)."
+    ],
+    "checkpointAnswers": {
+      "cq_1": "Jaana",
+      "cq_2": "To have someone speak",
+      "cq_3": "Ghar banaya gaya."
+    },
+    "expectedUnderstanding": "Learners can express delegation and passive events fluently."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You have mastered advanced Indian sociolinguistics by understanding delegation verbs.",
+    "onFail": "Review Section 2 and 5. Remember, Passive = Jaana. Causative = Waa.",
+    "onPartial": "Good effort. Just remember that the past tense of 'Jaana' is 'Gaya'. So 'was done' is 'kiya gaya'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "यहाँ हिंदी बोली जाती है। काम किया गया। पत्र लिखा जाएगा। मैं उसे पढ़ाता हूँ। मैं अपना घर बनवा रहा हूँ। मुझे एक कहानी सुनाओ। मैंने धोबी से कपड़े धुलवाए।",
+    "audioLanguage": "hi",
+    "audioDuration": 350,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "grammar",
+    "passive_voice",
+    "causative_verbs",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To find the passive form of 'It is done', translate 'It went done'.",
+  "commonMistakes": [
+    "Using 'Hona' (To be) instead of 'Jaana' (To go) for passive sentences."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B2_pronunciation_2"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

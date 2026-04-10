@@ -1,0 +1,176 @@
+{
+  "activityId": "hi_en_M1B2_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Listening: The International Conference",
+  "learningGoal": "Understand rapid introductions and identify where people are from based on spoken audio.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_lesson_1"
+  ],
+  "instructions": "Listen to the audio of people introducing themselves at an international business conference in Delhi. They speak a bit faster now. Pay close attention to the country names and the word 'se' (from). Note down who is from where.",
+  "listeningGoal": "Identify names, countries, and third-person introductions in a multi-person conversation.",
+  "audioScenario": "A group introduction at a conference.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राजीव: नमस्ते! मैं राजीव हूँ। मैं भारत से हूँ।",
+      "transliteration": "Rajiv: Namaste! Main Rajiv hoon. Main Bharat se hoon.",
+      "baseTranslation": "Rajiv: Hello! I am Rajiv. I am from India."
+    },
+    {
+      "targetText": "सारा: नमस्ते राजीव। आप कैसे हैं? मैं सारा हूँ।",
+      "transliteration": "Sarah: Namaste Rajiv. Aap kaise hain? Main Sarah hoon.",
+      "baseTranslation": "Sarah: Hello Rajiv. How are you? I am Sarah."
+    },
+    {
+      "targetText": "राजीव: मैं ठीक हूँ। सारा, आप कहाँ से हैं? (Kahan means 'where')",
+      "transliteration": "Rajiv: Main theek hoon. Sarah, aap kahan se hain?",
+      "baseTranslation": "Rajiv: I am fine. Sarah, where are you from?"
+    },
+    {
+      "targetText": "सारा: मैं इंग्लैंड से हूँ। और यह पीटर है।",
+      "transliteration": "Sarah: Main Inglaing se hoon. Aur yeh Peter hai.",
+      "baseTranslation": "Sarah: I am from England. And this is Peter."
+    },
+    {
+      "targetText": "पीटर: नमस्ते। मैं अमेरिका से हूँ।",
+      "transliteration": "Peter: Namaste. Main Amerika se hoon.",
+      "baseTranslation": "Peter: Hello. I am from America."
+    },
+    {
+      "targetText": "राजीव: भारत में स्वागत है!",
+      "transliteration": "Rajiv: Bharat mein swagat hai!",
+      "baseTranslation": "Rajiv: Welcome to India!"
+    }
+  ],
+  "audioTranscriptFull": "नमस्ते! मैं राजीव हूँ। मैं भारत से हूँ। नमस्ते राजीव। आप कैसे हैं? मैं सारा हूँ। मैं ठीक हूँ। सारा, आप कहाँ से हैं? मैं इंग्लैंड से हूँ। और यह पीटर है। नमस्ते। मैं अमेरिका से हूँ। भारत में स्वागत है!",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "Where is Rajiv from?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Bharat (India)",
+        "Amerika (America)",
+        "Inglaing (England)"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "Rajiv introduces a new word: 'Kahan' (कहाँ). Based on the context, what does 'Aap kahan se hain?' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Where are you from?",
+        "How are you?",
+        "Who are you?"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "Where is Sarah from?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Inglaing (England)",
+        "Amerika (America)",
+        "Bharat (India)"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "Who is from America?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Peter",
+        "Sarah",
+        "Rajiv"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "How does Sarah introduce Peter?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aur yeh Peter hai. (And this is Peter.)",
+        "Main Peter hoon. (I am Peter.)",
+        "Aap Peter hain. (You are Peter.)"
+      ],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "Bharat (India)",
+      "lq_2": "Where are you from?",
+      "lq_3": "Inglaing (England)",
+      "lq_4": "Peter",
+      "lq_5": "Aur yeh Peter hai. (And this is Peter.)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Superb listening skills! You kept track of three different people and their countries.",
+    "onFail": "Listen again to the audio with the transcript visible. Pay attention to the names right before 'se hoon'.",
+    "onPartial": "Good try! Remember, when someone says 'Yeh ___ hai', they are introducing someone else."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते! मैं राजीव हूँ। मैं भारत से हूँ। नमस्ते राजीव। आप कैसे हैं? मैं सारा हूँ। मैं ठीक हूँ। सारा, आप कहाँ से हैं? मैं इंग्लैंड से हूँ। और यह पीटर है। नमस्ते। मैं अमेरिका से हूँ। भारत में स्वागत है!",
+    "audioLanguage": "hi",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "introductions",
+    "countries",
+    "kahan",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Kahan means 'Where'. 'Kahan se' means 'From where'.",
+  "commonMistakes": [
+    "Thinking Peter is from England, because Sarah introduces him right after mentioning England."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B2_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

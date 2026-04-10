@@ -1,0 +1,177 @@
+{
+  "activityId": "ja_en_M2B4_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Rules at the Park",
+  "learningGoal": "The learner will verbally construct sentences asking for permission and stating strict prohibitions using the Te-form.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M2B4_lesson_001",
+    "ja_en_M2B4_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, you are talking to a park guard. Ask for permission to play, then listen to the guard's response and verbally state a rule based on the prompt.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember to pronounce the 'wa' clearly in 'te wa ikemasen'."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) May I play here? 2) Yes, it's fine. 3) You must not run here.",
+  "scenario": "A conversation between a visitor and a guard at a park.",
+  "role": "Park Visitor / Guard",
+  "conversationPartner": "Self-Practice",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Ask the guard for permission. Say: 'May I play here?'",
+      "expectedSpeakingPoints": [
+        "Use koko de",
+        "Use asonde",
+        "Use mo ii desu ka"
+      ],
+      "sampleResponse": {
+        "targetText": "ここで あそんでも いいですか。",
+        "transliteration": "Koko de asonde mo ii desu ka.",
+        "baseTranslation": "May I play here?"
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Act as the guard giving permission. Say: 'Yes, it's fine.'",
+      "expectedSpeakingPoints": [
+        "Use hai",
+        "Use ii desu yo"
+      ],
+      "sampleResponse": {
+        "targetText": "はい、いいですよ。",
+        "transliteration": "Hai, ii desu yo.",
+        "baseTranslation": "Yes, it's fine."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Act as the guard stating a rule. Say: 'You must not run here.'",
+      "expectedSpeakingPoints": [
+        "Use koko de",
+        "Use hashitte",
+        "Use wa ikemasen"
+      ],
+      "sampleResponse": {
+        "targetText": "ここで はしってはいけません。",
+        "transliteration": "Koko de hashitte wa ikemasen.",
+        "baseTranslation": "You must not run here."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "すみません、しつもんが あります。",
+    "transliteration": "Sumimasen, shitsumon ga arimasu.",
+    "baseTranslation": "Excuse me, I have a question."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "ここで あそんでも いいですか。",
+      "transliteration": "Koko de asonde mo ii desu ka.",
+      "baseTranslation": "May I play here?"
+    },
+    {
+      "targetText": "はい、いいですよ。",
+      "transliteration": "Hai, ii desu yo.",
+      "baseTranslation": "Yes, it's fine."
+    },
+    {
+      "targetText": "ここで はしってはいけません。",
+      "transliteration": "Koko de hashitte wa ikemasen.",
+      "baseTranslation": "You must not run here."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Koko de asonde mo ii desu ka",
+      "Say Hai, ii desu yo",
+      "Say Koko de hashitte wa ikemasen"
+    ],
+    "requiredKeywords": [
+      "ここで",
+      "あそんでも",
+      "いいですか",
+      "はしっては",
+      "いけません"
+    ],
+    "acceptableParaphrases": [
+      "Dropping 'koko de' in the third sentence is acceptable since context implies it."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Permission Structure",
+          "weight": 40,
+          "description": "Did the learner accurately say 'asonde mo ii desu ka'?"
+        },
+        {
+          "name": "Prohibition Structure",
+          "weight": 60,
+          "description": "Did the learner accurately say 'hashitte wa ikemasen' with correct 'wa' pronunciation?"
+        }
+      ]
+    },
+    "sampleAnswer": "ここで あそんでも いいですか。はい、いいですよ。ここで はしってはいけません。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You perfectly articulated the permission and prohibition rules.",
+    "onFail": "Review the Te-form for 'Hashirimasu'. It drops the 'ri' and adds 'tte'. -> Hashitte.",
+    "onPartial": "Good try! Make sure you pronounced 'wa ikemasen' instead of 'ha ikemasen'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b4/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m2/b4/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "すみません、しつもんが あります。ここで あそんでも いいですか。はい、いいですよ。ここで はしってはいけません。",
+    "audioLanguage": "ja",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "permission",
+    "prohibition",
+    "te-form",
+    "roleplay",
+    "intermediate",
+    "month2",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To play is Asobimasu. Use the mi/bi/ni rule: nde. -> Asonde.",
+  "commonMistakes": [
+    "Saying 'Asobite' instead of 'Asonde'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

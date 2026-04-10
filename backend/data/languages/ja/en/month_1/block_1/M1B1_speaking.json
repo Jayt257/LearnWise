@@ -1,0 +1,173 @@
+{
+  "activityId": "en_ja_M1B1_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "Introduce Yourself Out Loud",
+  "learningGoal": "Speak a basic English introduction confidently, with good pronunciation and eye contact (imagined).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B1_vocabulary_6"
+  ],
+  "instructions": "英語を話すネイティブスピーカーに初めて会ったと想像してください。マイクに向かって挨拶し、自分の名前を言い、「調子はどう？」と尋ね、「はじめまして」と言ってください。カタカナ発音にならないよう注意してください。(Imagine you are meeting a native English speaker for the first time. Speak into the microphone to greet them, say your name, ask how they are, and say nice to meet you. Be careful not to use Katakana pronunciation.)",
+  "speakingPrompt": "Say 'Hello. My name is [Your Name]. How are you? Nice to meet you.'",
+  "scenario": "You are at an international party and you meet someone new.",
+  "role": "Yourself",
+  "conversationPartner": "A new English-speaking friend",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Say Hello and introduce your name. (Hello. My name is...)",
+      "expectedSpeakingPoints": [
+        "Hello",
+        "My name is"
+      ],
+      "sampleResponse": {
+        "targetText": "Hello. My name is Ken.",
+        "transliteration": "ヘロー。 マイ ネーム イズ ケン。",
+        "baseTranslation": "こんにちは。私の名前はケンです。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Ask them how they are doing. (How are you?)",
+      "expectedSpeakingPoints": [
+        "How are you?"
+      ],
+      "sampleResponse": {
+        "targetText": "How are you?",
+        "transliteration": "ハウ アー ユー？",
+        "baseTranslation": "お元気ですか？"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Say Nice to meet you. (Nice to meet you.)",
+      "expectedSpeakingPoints": [
+        "Nice to meet you"
+      ],
+      "sampleResponse": {
+        "targetText": "Nice to meet you.",
+        "transliteration": "ナイス トゥ ミート ユー。",
+        "baseTranslation": "はじめまして。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hi there! I don't think we've met.",
+    "transliteration": "ハイ ゼア！ アイ ドント スィンク ウィーヴ メット。",
+    "baseTranslation": "やあ！まだ会ったことがないと思うんだけど。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "Hello. My name is Ken.",
+      "transliteration": "ヘロー。マイ ネーム イズ ケン。",
+      "baseTranslation": "こんにちは。私の名前はケンです。"
+    },
+    {
+      "targetText": "How are you?",
+      "transliteration": "ハウ アー ユー？",
+      "baseTranslation": "お元気ですか？"
+    },
+    {
+      "targetText": "Nice to meet you.",
+      "transliteration": "ナイス トゥ ミート ユー。",
+      "baseTranslation": "はじめまして。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 10,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Greeting (Hello/Hi)",
+      "Stating name (My name is / I am)",
+      "Asking how they are (How are you)",
+      "Saying nice to meet you"
+    ],
+    "requiredKeywords": [
+      "Hello",
+      "name",
+      "How",
+      "meet"
+    ],
+    "acceptableParaphrases": [
+      "Hi. I am [Name]. How are you doing? Nice meeting you."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Content",
+          "weight": 40,
+          "description": "Did the user say all the required phrases?"
+        },
+        {
+          "name": "Pronunciation (Fluency)",
+          "weight": 30,
+          "description": "Was the pronunciation clear? Did they avoid heavy Katakana English?"
+        },
+        {
+          "name": "Vocabulary",
+          "weight": 20,
+          "description": "Correct use of greeting words."
+        },
+        {
+          "name": "Grammar",
+          "weight": 10,
+          "description": "Correct sentence structure."
+        }
+      ]
+    },
+    "sampleAnswer": "Hello. My name is [Name]. How are you? Nice to meet you.",
+    "minimumContentCoverage": 75
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent speaking! You sounded natural and polite.",
+    "onFail": "Please try again. Remember to say 'Hello', 'My name is', 'How are you', and 'Nice to meet you'.",
+    "onPartial": "Good job! Focus on making your pronunciation smoother, avoiding stopping between every word."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B1_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M1B1_speaking_sample.mp3",
+    "slowAudio": "path/to/M1B1_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Hello. My name is...",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "greetings",
+    "introductions",
+    "conversation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Speak naturally! Don't pronounce each word individually like a robot. Connect the sounds: 'Nice to meet_you'.",
+  "commonMistakes": [
+    "Saying 'My name is...' and forgetting to ask 'How are you?'.",
+    "Pronouncing 'Hello' with a flat 'Ha-ro'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

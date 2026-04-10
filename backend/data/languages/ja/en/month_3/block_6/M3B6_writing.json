@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M3B6_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Past, Present, and Future",
+  "learningGoal": "Write a cohesive paragraph combining past, present, and future tenses to describe experiences and plans.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "en_ja_M3B6_reading_3"
+  ],
+  "instructions": "これまでの集大成として、過去・現在・未来の3つの時制を使った文章を書きましょう。(Write 3-4 sentences using the past, present, and future tenses.)\n以下の内容をすべて含めてください：\n1. 去年、どこに旅行したか（過去形：Last year, I traveled to...）\n2. 現在、何を学んでいるか（現在進行形：Currently, I am studying...）\n3. 来年、何をするつもりか（未来形：Next year, I am going to... または I will...）",
+  "writingPrompt": "Write a short paragraph about your life. 1. State where you traveled last year. 2. State what you are studying currently. 3. State what you are going to do next year.",
+  "promptGoal": "To actively construct sentences using three distinct grammatical tenses, demonstrating a comprehensive understanding of time markers.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "Last year",
+      "transliteration": "ラスト イヤー",
+      "baseTranslation": "昨年",
+      "partOfSpeech": "noun phrase"
+    },
+    {
+      "targetText": "I traveled to",
+      "transliteration": "アイ トラベルド トゥ",
+      "baseTranslation": "私は〜に旅行した",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "Currently",
+      "transliteration": "カレントリー",
+      "baseTranslation": "現在",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "targetText": "I am studying",
+      "transliteration": "アイ アム スタディイング",
+      "baseTranslation": "私は〜を勉強している",
+      "partOfSpeech": "verb phrase"
+    },
+    {
+      "targetText": "Next year",
+      "transliteration": "ネクスト イヤー",
+      "baseTranslation": "来年",
+      "partOfSpeech": "noun phrase"
+    },
+    {
+      "targetText": "I am going to",
+      "transliteration": "アイ アム ゴーイング トゥ",
+      "baseTranslation": "私は〜するつもりだ",
+      "partOfSpeech": "verb phrase"
+    }
+  ],
+  "referenceHints": [
+    "時制を間違えないように注意しましょう：",
+    "過去：Last year, I traveled...",
+    "現在進行：Currently, I am studying...",
+    "未来：Next year, I am going to..."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Last year, I traveled to Hawaii with my family. Currently, I am studying English every day. Next year, I am going to work in America.",
+      "transliteration": "ラスト イヤー、アイ トラベルド トゥ ハワイ ウィズ マイ ファミリー。カレントリー、アイ アム スタディイング イングリッシュ エヴリー デイ。ネクスト イヤー、アイ アム ゴーイング トゥ ワーク イン アメリカ。",
+      "baseTranslation": "昨年、私は家族とハワイに旅行しました。現在、私は毎日英語を勉強しています。来年、私はアメリカで働くつもりです。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect integration of the three requested tenses with clear time markers."
+    },
+    {
+      "targetText": "Last year I traveled to London. Currently I am studying business. Next year I will start my own company.",
+      "transliteration": "ラスト イヤー アイ トラベルド トゥ ロンドン。カレントリー アイ アム スタディイング ビジネス。ネクスト イヤー アイ ウィル スタート マイ オウン カンパニー。",
+      "baseTranslation": "昨年、私はロンドンに旅行しました。現在、私はビジネスを勉強しています。来年、私は自分の会社を立ち上げます。",
+      "qualityLevel": "good",
+      "annotation": "Very good. 'will' is also a perfectly acceptable future tense marker."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Past Tense",
+      "weight": 35,
+      "description": "Did the user use the past tense (e.g., traveled, went) for last year?"
+    },
+    {
+      "criterion": "Present Continuous",
+      "weight": 35,
+      "description": "Did the user use the present continuous (am studying) for currently?"
+    },
+    {
+      "criterion": "Future Tense",
+      "weight": 30,
+      "description": "Did the user use a future tense (am going to / will) for next year?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 60,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Last year, I traveled to Hawaii. Currently, I am studying English. Next year, I am going to find a new job.",
+    "acceptableAlternates": [
+      "Last year I went to Paris. Currently I am studying computer science. Next year I will graduate."
+    ],
+    "requiredKeywords": [
+      "Last",
+      "Currently",
+      "am",
+      "studying",
+      "Next"
+    ],
+    "grammarBaseline": "Must demonstrate accurate switching between past, present continuous, and future tenses.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Tense Accuracy",
+          "weight": 80,
+          "description": "All three time frames must have the correct grammatical structure."
+        },
+        {
+          "name": "Vocabulary Use",
+          "weight": 20,
+          "description": "Uses correct prepositions and vocabulary words."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic! You have shown that you can clearly communicate in the past, present, and future.",
+    "onFail": "Please check your verbs. Remember: Last year = traveled (past). Currently = am studying (present continuous). Next year = am going to / will (future).",
+    "onPartial": "Good try. Check your spelling and make sure you used 'am' before 'studying'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "review",
+    "tenses",
+    "past",
+    "present_continuous",
+    "future"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure to write three separate sentences with the correct verbs.",
+  "commonMistakes": [
+    "Writing 'Currently I study' instead of 'Currently I AM studyING'.",
+    "Writing 'Next year I go to' instead of 'Next year I am going to'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

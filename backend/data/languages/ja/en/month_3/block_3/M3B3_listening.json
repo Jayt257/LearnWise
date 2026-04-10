@@ -1,0 +1,198 @@
+{
+  "activityId": "en_ja_M3B3_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Don't Give Up!",
+  "learningGoal": "Listen to a conversation and identify phrasal verbs and idioms used in a natural context.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B3_writing_4"
+  ],
+  "instructions": "家具を組み立てようとしている二人の会話を聞いてください。彼らが使っている句動詞（figure out, give upなど）やイディオムに注意して、質問に答えてください。(Listen to two people trying to assemble furniture. Pay attention to the phrasal verbs and idioms they use.)",
+  "listeningGoal": "To recognize and understand the meaning of separable phrasal verbs and idioms in fast, spoken English.",
+  "audioScenario": "Two friends are trying to build a new bookshelf.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "This is so difficult. I can't figure it out.",
+      "transliteration": "ディス イズ ソー ディフィカルト。アイ キャント フィギュア イット アウト。",
+      "baseTranslation": "これ難しすぎる。どうやればいいのか全くわからないよ（解決できない）。"
+    },
+    {
+      "targetText": "Let me see the instructions. It looks like a piece of cake.",
+      "transliteration": "レット ミー シー ジ インストラクションズ。イット ルックス ライク ア ピース オヴ ケイク。",
+      "baseTranslation": "説明書を見せて。すごく簡単そうだよ（朝飯前だ）。"
+    },
+    {
+      "targetText": "A piece of cake? I have tried for an hour. I want to give up.",
+      "transliteration": "ア ピース オヴ ケイク？ アイ ハヴ トライド フォー アン アワー。アイ ウォント トゥ ギヴ アップ。",
+      "baseTranslation": "簡単だって？1時間も頑張ったんだよ。もうあきらめたい。"
+    },
+    {
+      "targetText": "Don't give up! We can do it.",
+      "transliteration": "ドント ギヴ アップ！ ウィー キャン ドゥー イット。",
+      "baseTranslation": "あきらめないで！私たちならできるよ。"
+    },
+    {
+      "targetText": "Okay. What should I do first?",
+      "transliteration": "オーケー。ホワット シュッド アイ ドゥー ファースト？",
+      "baseTranslation": "わかった。まず何をすればいい？"
+    },
+    {
+      "targetText": "First, take off the plastic cover. Take it off carefully.",
+      "transliteration": "ファースト、テイク オフ ザ プラスティック カバー。テイク イット オフ ケアフリー。",
+      "baseTranslation": "まず、プラスチックのカバーを外して。慎重に外すんだよ。"
+    },
+    {
+      "targetText": "Done. Now what?",
+      "transliteration": "ダン。ナウ ホワット？",
+      "baseTranslation": "やったよ。次は？"
+    },
+    {
+      "targetText": "Put on this piece of wood here. Yes, put it on top.",
+      "transliteration": "プット オン ディス ピース オヴ ウッド ヒア。イエス、プット イット オン トップ。",
+      "baseTranslation": "この木の板をここに乗せて（つけて）。そう、一番上に乗せて。"
+    },
+    {
+      "targetText": "Like this? Wow, it's starting to look like a bookshelf.",
+      "transliteration": "ライク ディス？ ワオ、イッツ スターティング トゥ ルック ライク ア ブックシェルフ。",
+      "baseTranslation": "こんな感じ？うわあ、本棚みたいになってきた。"
+    },
+    {
+      "targetText": "See? I told you we could figure it out.",
+      "transliteration": "シー？ アイ トールド ユー ウィー クド フィギュア イット アウト。",
+      "baseTranslation": "ほらね？解決できる（理解できる）って言ったでしょ。"
+    }
+  ],
+  "audioTranscriptFull": "Person A: This is so difficult. I can't figure it out.\nPerson B: Let me see the instructions. It looks like a piece of cake.\nPerson A: A piece of cake? I have tried for an hour. I want to give up.\nPerson B: Don't give up! We can do it.\nPerson A: Okay. What should I do first?\nPerson B: First, take off the plastic cover. Take it off carefully.\nPerson A: Done. Now what?\nPerson B: Put on this piece of wood here. Yes, put it on top.\nPerson A: Like this? Wow, it's starting to look like a bookshelf.\nPerson B: See? I told you we could figure it out.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "Person Aが「I can't figure it out」と言ったのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "数字の計算ができなかったから。",
+        "本棚の組み立て方がわからなかったから。",
+        "英語が話せなかったから。",
+        "暗くて見えなかったから。"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Person Bが「It looks like a piece of cake」と言ったのは、どういう意味ですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "It looks very difficult.",
+        "It looks very delicious.",
+        "It looks very easy.",
+        "It looks like a real cake."
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Person Aは「give up（あきらめる）」前に、どれくらいの間頑張りましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "10 minutes",
+        "Half an hour",
+        "An hour (1時間)",
+        "Two hours"
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Person Bは、プラスチックのカバーをどうしろと言いましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Put it on (つける)",
+        "Take it off (外す)",
+        "Turn it on (電源を入れる)",
+        "Throw it away (捨てる)"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「Take it off」の「it」が指しているものは何ですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "The piece of wood",
+        "The bookshelf",
+        "The instructions",
+        "The plastic cover"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "本棚の組み立て方がわからなかったから。",
+      "q2": "It looks very easy.",
+      "q3": "An hour (1時間)",
+      "q4": "Take it off (外す)",
+      "q5": "The plastic cover"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great listening! You caught all the idioms and phrasal verbs.",
+    "onFail": "Listen again closely. Pay attention to 'figure it out' and 'piece of cake'.",
+    "onPartial": "Good effort. Review what the pronouns 'it' refer to in phrases like 'take it off'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B3_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B3_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: This is so difficult. I can't figure it out. Person B: Let me see...",
+    "audioLanguage": "en",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "phrasal_verbs",
+    "idioms",
+    "pronouns"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for the words 'give up', 'take off', and 'figure out'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

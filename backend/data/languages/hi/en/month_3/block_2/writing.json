@@ -1,0 +1,145 @@
+{
+  "activityId": "en_hi_M3B2_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "Upgrade the Action",
+  "learningGoal": "The learner will successfully upgrade base subject-verb verb clauses into Present Perfect declarative statements by accurately deploying the 'Have/Has' auxiliary and converting the base verb to its V3 participle form.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B2_reading_001"],
+  "instructions": "A beginner student wrote three very boring, simple sentences about what is happening right now: 'I wash the car.' 'He eats the apple.' 'They go home.' Your job is to UPGRADE them! Turn them into the Present Perfect tense to show the tasks are 'ALREADY FINISHED'.",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Remember to choose Have or Has carefully! Then, you must change the verb to Verb 3 (washed, eaten, gone)."
+    }
+  ],
+  "writingPrompt": "Change these 3 sentences into Present Perfect: 1. I wash the car. 2. He eats the apple. 3. They go home.",
+  "promptGoal": "Test independent morphological conversion of base verbs to V3 participles and the correct alignment of Have/Has auxiliaries with subject pronouns.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Have",
+      "transliteration": "हैव",
+      "baseTranslation": "(I/You/We/They के लिए सहायक क्रिया)",
+      "partOfSpeech": "Auxiliary Verb"
+    },
+    {
+      "targetText": "Has",
+      "transliteration": "हैज़",
+      "baseTranslation": "(He/She/It के लिए सहायक क्रिया)",
+      "partOfSpeech": "Auxiliary Verb"
+    },
+    {
+      "targetText": "Washed",
+      "transliteration": "वॉशड",
+      "baseTranslation": "धो लिया",
+      "partOfSpeech": "Verb (V3)"
+    },
+    {
+      "targetText": "Eaten",
+      "transliteration": "ईटन",
+      "baseTranslation": "खा लिया",
+      "partOfSpeech": "Verb (V3)"
+    },
+    {
+      "targetText": "Gone",
+      "transliteration": "गॉन",
+      "baseTranslation": "गए / जा चुके",
+      "partOfSpeech": "Verb (V3)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: I [have/has] washed the car.",
+    "Sentence 2: He [have/has] eaten the apple.",
+    "Sentence 3: They [have/has] gone home."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I have washed the car. He has eaten the apple. They have gone home.",
+      "transliteration": "आई हैव वॉशड द कार। ही हैज़ ईटन द ऐपल। दे हैव गॉन होम।",
+      "baseTranslation": "मैंने कार धो ली है। उसने सेब खा लिया है। वे घर जा चुके हैं।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully matched the subjects to their respective auxiliaries (I have, He has, They have) and generated the V3 forms (washed, eaten, gone)."
+    },
+    {
+      "targetText": "I have wash the car. He have eat the apple. They has go home.",
+      "transliteration": "आई हैव वॉश द कार। ही हैव ईट द ऐपल। दे हैज़ गो होम।",
+      "baseTranslation": "व्याकरण की गंभीर गलतियाँ।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Massive morphological errors. Failure to use V3 ('have wash'), failure to match 3rd person singular ('He have'), and auxiliary mismatch on plural ('They has')."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Auxiliary Matching",
+      "weight": 40,
+      "description": "Did the user definitively choose 'have' for I/They, and 'has' for He?"
+    },
+    {
+      "criterion": "V3 Participle Conversion",
+      "weight": 40,
+      "description": "Did the user successfully modify the base verbs to washed, eaten, and gone? (Heavy penalization for leaving them in base/V1 form)."
+    },
+    {
+      "criterion": "Target Completion",
+      "weight": 20,
+      "description": "Were all 3 sentences modified correctly?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 45,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I have washed the car. He has eaten the apple. They have gone home.",
+    "acceptableAlternates": [
+      "I've washed the car. He's eaten the apple. They've gone home."
+    ],
+    "requiredKeywords": ["have washed", "has eaten", "have gone"],
+    "grammarBaseline": "Absolute zero tolerance for base verb retention. 'I have wash' instantly fails over 50% of the rubric.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "Used Have/Has Correctly": "40%",
+      "Used V3 Verbs (Washed/Eaten/Gone)": "40%",
+      "Finished all 3 sentences": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You successfully upgraded the sentences! You perfectly matched 'He' with 'Has', and you proved you know the V3 irregular verbs (Eaten, Gone)!",
+    "onFail": "Please review your writing. Two rules are critical: 1. 'He/She/It' gets HAS. The others get HAVE. 2. You MUST use Verb 3. You cannot say 'He has eat'. You must say 'He has eaten'.",
+    "onPartial": "Good start! Double check Sentence 2 and Sentence 3. 'Eat' turns into 'Eaten'. 'Go' turns into 'Gone'!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b2/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b2/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b2/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m3/b2/writing/prompt.mp3",
+    "audioTranscript": "Change the sentences to Present Perfect. I wash the car. He eats the apple. They go home.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "present_perfect", "have", "has", "past_participle", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b2/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Match the pronoun: I [have], He [has], They [have]. Then change the verbs: wash->washed, eat->eaten, go->gone.",
+  "commonMistakes": [
+    "Writing 'He have eaten' (L1 speakers often generalize 'have' across all pronouns).",
+    "Writing 'They have went' (mixing Simple Past V2 with Past Participle V3)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B2_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

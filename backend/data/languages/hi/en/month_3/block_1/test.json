@@ -1,0 +1,386 @@
+{
+  "activityId": "en_hi_M3B1_test_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "test",
+  "title": "Block 1 Mega Assessment: Modals of Power",
+  "learningGoal": "The learner will demonstrate absolute mastery over modal syntactic structures (bare infinitive complementation) and accurately navigate the semantic stratifications of English obligation and ability.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "en_hi_M3B1_lesson_001",
+    "en_hi_M3B1_pronunciation_001",
+    "en_hi_M3B1_reading_001",
+    "en_hi_M3B1_writing_001",
+    "en_hi_M3B1_listening_001",
+    "en_hi_M3B1_vocabulary_001",
+    "en_hi_M3B1_speaking_001"
+  ],
+  "instructions": "This is your Mega Test for Block 1. It contains 20 questions evaluating your ability to use Can, Should, and Must. If you use the word 'To' after any of these words in this test, you will fail! Keep your action verbs clean!",
+  "testTitle": "Block 1 Mega Assessment",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar: The Bare Infinitive",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "Fill in the blank: She can ________ fast.",
+          "questionType": "multiple_choice",
+          "options": ["run", "to run", "runs", "running"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "Which sentence means 'तुम्हें रुकना ही होगा' (Strict rule)?",
+          "questionType": "multiple_choice",
+          "options": ["You should stop.", "You can stop.", "You must stop.", "You must stopping."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "Find the massive grammatical error:",
+          "questionType": "multiple_choice",
+          "options": ["I must sleep.", "I must to sleep.", "I should sleep.", "I can sleep."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "True or False: 'Should' is used for giving advice, not for giving strict orders.",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "How would you translate 'वह तैर सकती है'? Note: She is a female.",
+          "questionType": "multiple_choice",
+          "options": ["She can swims.", "She can to swim.", "She can swim.", "She cans swim."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Health & Actions",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "What word means 'दवा'?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Medicine",
+            "transliteration": "मेडिसिन",
+            "baseTranslation": "दवा"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "If your body is hot and you are sick, you have a _____.",
+          "questionType": "multiple_choice",
+          "options": ["Pain", "Medicine", "Fever", "Healthy"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Write the exact English word for 'व्यायाम करना'.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "Exercise",
+            "transliteration": "एक्सरसाइज़",
+            "baseTranslation": "व्यायाम करना"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "What is the opposite of 'Sick'?",
+          "questionType": "multiple_choice",
+          "options": ["Pain", "Healthy", "Doctor", "Run"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "What does 'Rest' mean?",
+          "questionType": "multiple_choice",
+          "options": ["दवा", "चिकित्सक", "दर्द", "आराम करना"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_reading_structures",
+      "sectionTitle": "Modal Logic",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "If a sign says 'You must not enter', does it mean it is a bad idea, or is it absolutely forbidden?",
+          "questionType": "multiple_choice",
+          "options": ["It is a bad idea", "It is absolutely forbidden", "You can go inside"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "If a doctor says 'You should sleep more', this is _____.",
+          "questionType": "multiple_choice",
+          "options": ["A police law", "Permission", "Good advice"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "Find the phonetic mistake. When spelling or saying 'Should', which letter is totally silent?",
+          "questionType": "multiple_choice",
+          "options": ["S", "H", "L", "D"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "If the sentence is 'I can play guitar', does this mean ability (क्षमता) or obligation (ज़रूरी)?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Which phrase is correct?",
+          "questionType": "multiple_choice",
+          "options": ["Mustn't", "Must not to", "Must to not"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_writing_dictation",
+      "sectionTitle": "Writing: Translating Power",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मैं जा सकता हूँ।' (Write the full English sentence)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "I can go.",
+            "transliteration": "आई कैन गो।",
+            "baseTranslation": "मैं जा सकता हूँ।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'तुम्हें दवा लेनी चाहिए।' (ADVICE)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "You should take medicine.",
+            "transliteration": "यू शुड टेक मेडिसिन।",
+            "baseTranslation": "तुम्हें दवा लेनी चाहिए।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 'उसे (लड़का) रुकना ही होगा।' (STRICT RULE)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "He must stop.",
+            "transliteration": "ही मस्ट स्टॉप।",
+            "baseTranslation": "उसे (ज़रूर) रुकना चाहिए।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate: 'हम नहीं जा सकते।' (Failure of ability)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "We cannot go.",
+            "transliteration": "वी कैनॉट गो।",
+            "baseTranslation": "हम नहीं जा सकते।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Translate: 'तुम्हें दौड़ना नहीं चाहिए।' (ADVICE NOT TO DO IT)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "You should not run.",
+            "transliteration": "यू शुड नॉट रन।",
+            "baseTranslation": "तुम्हें दौड़ना नहीं चाहिए।"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 25,
+    "writing": 25,
+    "listening": 0,
+    "vocabulary": 25,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "run",
+      "q002": "You must stop.",
+      "q003": "I must to sleep.",
+      "q004": "True",
+      "q005": "She can swim.",
+      "q006": "Medicine",
+      "q007": "Fever",
+      "q008": "Exercise",
+      "q009": "Healthy",
+      "q010": "आराम करना",
+      "q011": "It is absolutely forbidden",
+      "q012": "Good advice",
+      "q013": "L",
+      "q014": "Ability",
+      "q015": "Mustn't",
+      "q016": "I can go.",
+      "q017": "You should take medicine.",
+      "q018": "He must stop.",
+      "q019": "We cannot go.",
+      "q020": "You should not run."
+    },
+    "scoringRubric": {
+      "q016": "Minus 5 points immediately if 'to' is used before 'go'."
+    },
+    "partialCreditRules": {
+      "q019": "Give full credit for 'We can't go' as well."
+    },
+    "alternateValidAnswers": {
+      "q006": ["medicine", "MEDICINE"],
+      "q008": ["exercise", "EXERCISE"],
+      "q014": ["ability", "Ability", "ABILITY"],
+      "q016": ["i can go", "I can go"],
+      "q017": ["you should take medicine", "You should take medicine"],
+      "q018": ["he must stop", "He must stop"],
+      "q019": ["we cannot go", "We cannot go", "We can't go"],
+      "q020": ["you should not run", "You should not run", "You shouldn't run"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 15,
+      "sec_vocab": 15,
+      "sec_reading_structures": 15,
+      "sec_writing_dictation": 15
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Phenomenal! You successfully mastered the powerful Modal verbs! You proved you understand the difference between good advice and strict laws. And your verbs are super clean!",
+    "onFail": "Please review the absolute most important rule: NO 'TO' ALLOWED! If you see 'Can', 'Should', or 'Must', the next word MUST be an action. 'Must go'. 'Should eat'. Never 'Must to go'!",
+    "onPartial": "Good effort! Watch out for the 'S' trap. Even if you say 'He' or 'She', do not add an S. It is 'She can swim', NEVER 'She can swims'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b1/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test covers modals: can, should, and must.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "block1", "modals", "can", "should", "must", "intermediate", "assessment"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B2_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

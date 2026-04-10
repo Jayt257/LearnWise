@@ -1,0 +1,180 @@
+{
+  "activityId": "en_ja_M1B6_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "Where is the party?",
+  "learningGoal": "Listen to a conversation to identify specific times, days, and locations using prepositions (on, at, next to).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B6_writing_4"
+  ],
+  "instructions": "パーティーの予定について話している２人の会話を聞いてください。パーティーがいつ（何曜日・何時）あるのか、そしてどこ（どんな場所の隣）にあるのかを聞き取り、質問に答えてください。(Listen to two people talking about a party. Identify when (day and time) and where (next to what) it is, and answer the questions.)",
+  "listeningGoal": "To extract time and location details marked by prepositions in a spoken dialogue.",
+  "audioScenario": "Two friends are discussing the details of an upcoming birthday party.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Hey, when is Ken's birthday party?",
+      "transliteration": "ヘイ、ウェン イズ ケンズ バースデイ パーティー？",
+      "baseTranslation": "ねえ、ケンの誕生日パーティーはいつ？"
+    },
+    {
+      "targetText": "It is on Friday.",
+      "transliteration": "イット イズ オン フライデイ",
+      "baseTranslation": "金曜日だよ。"
+    },
+    {
+      "targetText": "Friday? At what time?",
+      "transliteration": "フライデイ？ アット ホワット タイム？",
+      "baseTranslation": "金曜日？何時に？"
+    },
+    {
+      "targetText": "At 8:00 at night.",
+      "transliteration": "アット エイト オクロック アット ナイト",
+      "baseTranslation": "夜の8時だよ。"
+    },
+    {
+      "targetText": "Okay. And where is it?",
+      "transliteration": "オーケー。アンド ホウェア イズ イット？",
+      "baseTranslation": "わかった。それで、どこでやるの？"
+    },
+    {
+      "targetText": "It is at Luigi's Restaurant.",
+      "transliteration": "イット イズ アット ルイージズ レストラン",
+      "baseTranslation": "ルイージ・レストランだよ。"
+    },
+    {
+      "targetText": "Where is that?",
+      "transliteration": "ホウェア イズ ザット？",
+      "baseTranslation": "それはどこ？"
+    },
+    {
+      "targetText": "It is next to the station.",
+      "transliteration": "イット イズ ネクスト トゥ ザ ステーション",
+      "baseTranslation": "駅の隣だよ。"
+    },
+    {
+      "targetText": "Great! See you on Friday.",
+      "transliteration": "グレイト！ シー ユー オン フライデイ",
+      "baseTranslation": "いいね！金曜日に会おう。"
+    }
+  ],
+  "audioTranscriptFull": "Person A: Hey, when is Ken's birthday party?\nPerson B: It is on Friday.\nPerson A: Friday? At what time?\nPerson B: At 8:00 at night.\nPerson A: Okay. And where is it?\nPerson B: It is at Luigi's Restaurant.\nPerson A: Where is that?\nPerson B: It is next to the station.\nPerson A: Great! See you on Friday.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "パーティーは何曜日ですか？ (What day is the party?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "パーティーは何時ですか？ (What time is the party?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "8:00 in the morning",
+        "8:00 at night",
+        "9:00 at night",
+        "7:00 at night"
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "パーティーはどこで行われますか？ (Where is the party?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "At Ken's house",
+        "At the station",
+        "At Luigi's Restaurant",
+        "At the university"
+      ],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "そのレストランはどこにありますか？ (Where is the restaurant?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "In the station",
+        "Next to the station",
+        "Behind the station",
+        "In front of Ken's house"
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Friday",
+      "q2": "8:00 at night",
+      "q3": "At Luigi's Restaurant",
+      "q4": "Next to the station"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Excellent listening! You caught all the important details.",
+    "onFail": "Listen again carefully. Pay attention to the prepositions 'on', 'at', and 'next to' as they give clues to the answers.",
+    "onPartial": "Good effort. Be careful not to confuse 'at the station' with 'next to the station'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B6_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B6_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: Hey, when is Ken's birthday party? Person B: It is on Friday...",
+    "audioLanguage": "en",
+    "audioDuration": 20,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "prepositions",
+    "place",
+    "time",
+    "party"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Notice how 'at' is used for both a specific time (at 8:00) and a specific place (at the restaurant).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B6_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

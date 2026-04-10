@@ -1,0 +1,190 @@
+{
+  "activityId": "hi_en_M1B5_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Speaking: Describing and Addressing",
+  "learningGoal": "Use correct pronouns and verbs in spoken sentences, effectively describing objects using gendered adjectives.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B5_vocabulary_6",
+    "hi_en_M1B5_listening_5"
+  ],
+  "instructions": "In this exercise, you will practice navigating formality levels and describing things. You will speak to a shopkeeper (formal) and then to your friend (informal). Pay close attention to your verb endings (hain vs ho).",
+  "speakingPrompt": "Respond to the prompts using full, grammatically correct Hindi sentences.",
+  "scenario": "You are at a shop with a friend, talking to the shopkeeper.",
+  "role": "Customer",
+  "conversationPartner": "Shopkeeper (Elder) and Friend (Same age)",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "You walk into the shop. Greet the elder shopkeeper and ask formally: 'How are you?'",
+      "expectedSpeakingPoints": [
+        "Namaste",
+        "Aap",
+        "kaise hain"
+      ],
+      "sampleResponse": {
+        "targetText": "नमस्ते। आप कैसे हैं?",
+        "transliteration": "Namaste. Aap kaise hain?",
+        "baseTranslation": "Hello. How are you? (Formal)"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "The shopkeeper asks who you are with. Point to your friend and say: 'This is my friend.'",
+      "expectedSpeakingPoints": [
+        "Yeh",
+        "mera dost",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "यह मेरा दोस्त है।",
+        "transliteration": "Yeh mera dost hai.",
+        "baseTranslation": "This is my friend."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "You look at the shop. Tell the shopkeeper: 'The shop is big.' (Shop = Dukan, feminine).",
+      "expectedSpeakingPoints": [
+        "Dukan",
+        "badi",
+        "hai"
+      ],
+      "sampleResponse": {
+        "targetText": "दुकान बड़ी है।",
+        "transliteration": "Dukan badi hai.",
+        "baseTranslation": "The shop is big."
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Now turn to your friend. Ask him informally: 'How are you?'",
+      "expectedSpeakingPoints": [
+        "Tum",
+        "kaise",
+        "ho"
+      ],
+      "sampleResponse": {
+        "targetText": "तुम कैसे हो?",
+        "transliteration": "Tum kaise ho?",
+        "baseTranslation": "How are you? (Informal)"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप दुकान में हैं।",
+    "transliteration": "Aap dukan mein hain.",
+    "baseTranslation": "You are in the shop."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। आप कैसे हैं?",
+      "transliteration": "Namaste. Aap kaise hain?",
+      "baseTranslation": "Hello. How are you?"
+    },
+    {
+      "targetText": "यह मेरा दोस्त है।",
+      "transliteration": "Yeh mera dost hai.",
+      "baseTranslation": "This is my friend."
+    },
+    {
+      "targetText": "दुकान बड़ी है।",
+      "transliteration": "Dukan badi hai.",
+      "baseTranslation": "The shop is big."
+    },
+    {
+      "targetText": "तुम कैसे हो?",
+      "transliteration": "Tum kaise ho?",
+      "baseTranslation": "How are you (informal)?"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Aap kaise hain",
+      "Yeh mera dost hai",
+      "Dukan badi hai",
+      "Tum kaise ho"
+    ],
+    "requiredKeywords": [
+      "आप",
+      "हैं",
+      "दोस्त",
+      "बड़ी",
+      "तुम",
+      "हो"
+    ],
+    "acceptableParaphrases": [
+      "Using 'Dukan bahut badi hai' (The shop is very big) is acceptable."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Formality Switching",
+          "weight": 50,
+          "description": "Must successfully use 'Aap...hain' for the shopkeeper and 'Tum...ho' for the friend."
+        },
+        {
+          "name": "Feminine Adjective",
+          "weight": 50,
+          "description": "Must use 'badi' instead of 'bada' because Dukan is feminine."
+        }
+      ]
+    },
+    "sampleAnswer": "Namaste. Aap kaise hain? Yeh mera dost hai. Dukan badi hai. Tum kaise ho?",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You are navigating Hindi social registers flawlessly.",
+    "onFail": "Review the 'You' pronouns. Aap takes 'hain'. Tum takes 'ho'.",
+    "onPartial": "Good effort. Watch your adjective endings! Dukan is feminine, so it must be 'badi'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "नमस्ते। आप कैसे हैं? यह मेरा दोस्त है। दुकान बड़ी है। तुम कैसे हो?",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "pronouns",
+    "aap_tum",
+    "adjectives",
+    "roleplay"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you clearly pronounce the 'n' in 'hain' when talking to the shopkeeper.",
+  "commonMistakes": [
+    "Saying 'Tum kaise hain' or 'Aap kaise ho'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B5_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

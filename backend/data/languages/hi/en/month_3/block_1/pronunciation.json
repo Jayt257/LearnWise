@@ -1,0 +1,238 @@
+{
+  "activityId": "en_hi_M3B1_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Silent Letters and Weak Words",
+  "learningGoal": "The learner will accurately produce the weak form of 'can' (/kən/) versus the negative 'can't' (/kænt/ or /kɑːnt/), and suppress the phonological realization of the 'L' in 'should' (/ʃʊd/).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B1_lesson_001"],
+  "instructions": "Modals have a few tricky sounds! First, NEVER say the 'L' in the word 'Should'. It is completely silent. Second, the word 'Can' is usually spoken very weakly and quickly like 'k'n', so that the real action verb sounds louder!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "SH-UH-D. Do not put an 'L' sound in Should! Your tongue should not touch the top of your mouth for the L."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "Should",
+      "transliteration": "शुड",
+      "baseTranslation": "चाहिए",
+      "phoneticHint": "The L is completely silent! Rhymes with 'good' or 'wood'. Sh-uh-d.",
+      "syllableSplit": "SHUD",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing the L (Sh-u-ld)"
+    },
+    {
+      "itemId": "p02",
+      "targetText": "Should not",
+      "transliteration": "शुड नॉट",
+      "baseTranslation": "नहीं चाहिए",
+      "phoneticHint": "Two separate words. Still no L! 'SHUD NOT'.",
+      "syllableSplit": "SHUD not",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p03",
+      "targetText": "Shouldn't",
+      "transliteration": "शुडन्ट",
+      "baseTranslation": "नहीं चाहिए (संक्षिप्त)",
+      "phoneticHint": "Squish 'should not' together. Shudd-int.",
+      "syllableSplit": "SHUD-int",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Should-not-ent'."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "I can go",
+      "transliteration": "आई कैन गो",
+      "baseTranslation": "मैं जा सकता हूँ",
+      "phoneticHint": "Fast 'can', heavy 'Go'. It sounds like 'I k'n GO'. Native speakers squish 'can'.",
+      "syllableSplit": "I k'n GO",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Stressing 'CAN' heavily, making it sound robotic."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "I cannot go",
+      "transliteration": "आई कैनॉट गो",
+      "baseTranslation": "मैं नहीं जा सकता",
+      "phoneticHint": "One word. 'Can-not'.",
+      "syllableSplit": "I CAN-not go",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p06",
+      "targetText": "I can't go",
+      "transliteration": "आई कांट गो",
+      "baseTranslation": "मैं नहीं जा सकता (संक्षिप्त)",
+      "phoneticHint": "Hard 'T' stop at the end! KAA-NT. (or CAN-T in American). It must have a 'T'.",
+      "syllableSplit": "I CANT go",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Forgetting the 'T', making it sound exactly like positive 'I can go'."
+    },
+    {
+      "itemId": "p07",
+      "targetText": "You must stop",
+      "transliteration": "यू मस्ट स्टॉप",
+      "baseTranslation": "तुम्हें रुकना ही होगा",
+      "phoneticHint": "Heavy emphasis on MUST. It is a powerful word.",
+      "syllableSplit": "You MUST stop",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Must not",
+      "transliteration": "मस्ट नॉट",
+      "baseTranslation": "बिल्कुल नहीं करना है",
+      "phoneticHint": "Must NOT. Strong command.",
+      "syllableSplit": "MUST not",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p09",
+      "targetText": "Mustn't",
+      "transliteration": "मसन्ट",
+      "baseTranslation": "बिल्कुल नहीं करना है (संक्षिप्त)",
+      "phoneticHint": "VERY tricky! The first 'T' is totally silent! Muss-int.",
+      "syllableSplit": "MUSS-int",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'MUST-ent'. The middle T disappears!"
+    },
+    {
+      "itemId": "p10",
+      "targetText": "You shouldn't run",
+      "transliteration": "यू शुडन्ट रन",
+      "baseTranslation": "तुम्हें नहीं दौड़ना चाहिए",
+      "phoneticHint": "Silent L. You shudd-int run.",
+      "syllableSplit": "You SHUD-int run",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p11",
+      "targetText": "We can help",
+      "transliteration": "वी कैन हेल्प",
+      "baseTranslation": "हम मदद कर सकते हैं",
+      "phoneticHint": "Weak can. 'We k'n HELP'.",
+      "syllableSplit": "We k'n HELP",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p12",
+      "targetText": "We can't help",
+      "transliteration": "वी कांट हेल्प",
+      "baseTranslation": "हम मदद नहीं कर सकते",
+      "phoneticHint": "Strong T! We CANT help.",
+      "syllableSplit": "We CANT help",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p13",
+      "targetText": "They must listen",
+      "transliteration": "दे मस्ट लिसन",
+      "baseTranslation": "उन्हें (ज़रूर) सुनना चाहिए",
+      "phoneticHint": "Clear 'T' on Must. Silent 'T' on listen!",
+      "syllableSplit": "They MUST liss-in",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p14",
+      "targetText": "He shouldn't yell",
+      "transliteration": "ही शुडन्ट येल",
+      "baseTranslation": "उसे नहीं चिल्लाना चाहिए",
+      "phoneticHint": "He shudd-int yell.",
+      "syllableSplit": "He SHUD-int yell",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p15",
+      "targetText": "She can read",
+      "transliteration": "शी कैन रीड",
+      "baseTranslation": "वह पढ़ सकती है",
+      "phoneticHint": "Weak can + Strong read. She k'n READ.",
+      "syllableSplit": "She k'n READ",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Should Shouldn't I can go I can't go",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Awesome! You conquered the tricky silences. Your 'Should' perfectly dropped the L, and your negative 'Can't' had a great, clear 'T' sound!",
+    "onFail": "Keep practicing! Two major rules to remember: NEVER wrap your tongue on the roof of your mouth for 'Should'. It is 'Shud'. And make sure your 'Can't' has a powerful 'T' at the end so people know you are saying NO!",
+    "onPartial": "Good effort! Watch out for 'Mustn't'. It is 'Muss-int'. Do not say the first T!"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "should should not shouldn't i can go i cannot go i can't go you must stop must not mustn't you shouldn't run we can help we can't help they must listen he shouldn't yell she can read",
+    "acceptedVariants": [
+      "should should not shouldn't i can go i cannot go i cant go you must stop must not mustn't you shouldn't run we can help we cant help they must listen he shouldn't yell she can read",
+      "should should not shouldn't i can go i can not go i can't go you must stop must not mustn't you shouldn't run we can help we can't help they must listen he shouldn't yell she can read"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Requires active suppression of /l/ realization in /ʃʊd/ and targeted articulation of voiceless alveolar block /t/ in negated modals to ensure semantic disambiguation between can/can't.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m3/b1/pronunciation/native_modals.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m3/b1/pronunciation/slow_modals.mp3",
+    "normalAudio": "audio/en_hi/m3/b1/pronunciation/native_modals.mp3",
+    "audioTranscript": "Should. Should not. Shouldn't...",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "modals", "silent_letters", "should", "can", "intermediate"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b1/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make the correct 'Can't' sound, bite your teeth together sharply and spit a tiny bit of air at the very end to make the 'T' pop!",
+  "commonMistakes": [
+    "Saying 'Should' with a heavy L.",
+    "Blurring 'Can' and 'Can't' together so listeners cannot tell if it is positive or negative."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B1_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

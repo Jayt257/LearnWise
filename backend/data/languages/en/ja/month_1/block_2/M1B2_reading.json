@@ -1,0 +1,232 @@
+{
+  "activityId": "ja_en_M1B2_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "International Students Introduction",
+  "learningGoal": "The learner will read a short text to identify names, nationalities, and occupations of three different people using the 'A wa B desu' pattern.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B2_lesson_001",
+    "ja_en_M1B2_pronunciation_001"
+  ],
+  "instructions": "Read the short passage below about three international students introducing themselves in a Japanese class. Use the glossary if you get stuck. After reading, answer the comprehension questions to test your understanding.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "This reading focuses heavily on the 'A wa B desu' sentence structure. You will also see nationalities and occupations."
+    }
+  ],
+  "readingTitle": "International Student Class (りゅうがくせいの クラス)",
+  "readingText": "はじめまして。わたしは マイクです。アメリカじんです。だいがくせいです。よろしく おねがいします。\n\nはじめまして。わたしは マリアです。メキシコじんです。がくせいです。よろしく おねがいします。\n\nはじめまして。わたしは 田中(たなか)です。にほんじんです。せんせいです。よろしく おねがいします。",
+  "textInTargetLanguage": "はじめまして。わたしは マイクです。アメリカじんです。だいがくせいです。よろしく おねがいします。\n\nはじめまして。わたしは マリアです。メキシコじんです。がくせいです。よろしく おねがいします。\n\nはじめまして。わたしは 田中(たなか)です。にほんじんです。せんせいです。よろしく おねがいします。",
+  "baseLanguageSupportText": "Nice to meet you. I am Mike. I am American. I am a university student. Please to meet you. Nice to meet you. I am Maria. I am Mexican. I am a student. Please to meet you. Nice to meet you. I am Tanaka. I am Japanese. I am a teacher. Please to meet you.",
+  "glossary": [
+    {
+      "targetText": "はじめまして",
+      "transliteration": "Hajimemashite",
+      "baseTranslation": "Nice to meet you / How do you do?",
+      "exampleSentence": {
+        "targetText": "はじめまして。わたしは マイクです。",
+        "transliteration": "Hajimemashite. Watashi wa Maiku desu.",
+        "baseTranslation": "Nice to meet you. I am Mike."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "アメリカじん",
+      "transliteration": "Amerika-jin",
+      "baseTranslation": "American (person)",
+      "exampleSentence": {
+        "targetText": "マイクさんは アメリカじんです。",
+        "transliteration": "Maiku-san wa Amerika-jin desu.",
+        "baseTranslation": "Mike is American."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "だいがくせい",
+      "transliteration": "Daigakusei",
+      "baseTranslation": "University student",
+      "exampleSentence": {
+        "targetText": "わたしは だいがくせいです。",
+        "transliteration": "Watashi wa daigakusei desu.",
+        "baseTranslation": "I am a university student."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "メキシコじん",
+      "transliteration": "Mekishiko-jin",
+      "baseTranslation": "Mexican (person)",
+      "exampleSentence": {
+        "targetText": "マリアさんは メキシコじんです。",
+        "transliteration": "Maria-san wa Mekishiko-jin desu.",
+        "baseTranslation": "Maria is Mexican."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "にほんじん",
+      "transliteration": "Nihon-jin",
+      "baseTranslation": "Japanese (person)",
+      "exampleSentence": {
+        "targetText": "たなかさんは にほんじんです。",
+        "transliteration": "Tanaka-san wa Nihon-jin desu.",
+        "baseTranslation": "Tanaka is Japanese."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "よろしく おねがいします",
+      "transliteration": "Yoroshiku onegaishimasu",
+      "baseTranslation": "Please treat me well / Nice to meet you",
+      "exampleSentence": {
+        "targetText": "たなかです。よろしく おねがいします。",
+        "transliteration": "Tanaka desu. Yoroshiku onegaishimasu.",
+        "baseTranslation": "I'm Tanaka. Nice to meet you."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "わたしは マイクです。アメリカじんです。",
+      "transliteration": "Watashi wa Maiku desu. Amerika-jin desu.",
+      "baseTranslation": "I am Mike. I am American."
+    },
+    {
+      "targetText": "わたしは 田中(たなか)です。にほんじんです。せんせいです。",
+      "transliteration": "Watashi wa Tanaka desu. Nihon-jin desu. Sensei desu.",
+      "baseTranslation": "I am Tanaka. I am Japanese. I am a teacher."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "What is Mike's nationality?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Japanese",
+        "Mexican",
+        "American",
+        "Canadian"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is Maria's occupation?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Teacher",
+        "Student",
+        "Doctor",
+        "Engineer"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Who is the teacher in this passage?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Mike",
+        "Maria",
+        "Tanaka",
+        "John"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What does Mike say his specific occupation is?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Teacher",
+        "Student",
+        "University student",
+        "High school student"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Which phrase is used at the end of each person's introduction to mean 'Please treat me well'?",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "American",
+      "q002": "Student",
+      "q003": "Tanaka",
+      "q004": "University student",
+      "q005": "よろしく おねがいします"
+    },
+    "acceptableParaphrases": {
+      "q005": [
+        "Yoroshiku onegaishimasu",
+        "yoroshiku onegaishimasu",
+        "よろしくおねがいします"
+      ]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Mike is an American university student.",
+      "Maria is a Mexican student.",
+      "Tanaka is a Japanese teacher."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading comprehension! You easily understood basic self-introductions in Japanese.",
+    "onFail": "Review the text and the glossary. Pay close attention to who is speaking and what 'jin' (nationality) they belong to.",
+    "onPartial": "Almost perfect! Check the glossary to see if you mixed up any occupations or nationalities."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b2/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b2/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b2/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m1/b2/reading/normal_reading.mp3",
+    "audioTranscript": "はじめまして。わたしは マイクです。アメリカじんです。だいがくせいです。よろしく おねがいします。はじめまして。わたしは マリアです。メキシコじんです。がくせいです。よろしく おねがいします。はじめまして。わたしは たなかです。にほんじんです。せんせいです。よろしく おねがいします。",
+    "audioLanguage": "ja",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "introductions",
+    "nationalities",
+    "occupations",
+    "beginner",
+    "month1",
+    "block2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look for the word 'jin' to find the nationality, and 'desu' at the end of the sentence to show 'is/am'.",
+  "commonMistakes": [
+    "Confusing だいがくせい (daigakusei - university student) with がくせい (gakusei - student)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B2_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

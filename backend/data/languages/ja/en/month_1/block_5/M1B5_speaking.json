@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M1B5_speaking_7",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "Talking About a Friend",
+  "learningGoal": "Speak fluently about someone else's daily routine, correctly applying the third-person 's' and the negative 'doesn't'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B5_vocabulary_6"
+  ],
+  "instructions": "友達のケンについての質問に答えてください。マイクに向かって、「彼は7時に起きます。彼は朝食を食べません。彼は仕事に行きます」と英語で答えてください。動詞の形（wakes, doesn't, goes）に注意しましょう。(Answer a question about your friend Ken. Speak into the microphone and say: 'He wakes up at 7:00. He doesn't eat breakfast. He goes to work.' Pay attention to the verb forms.)",
+  "speakingPrompt": "Say: 'He wakes up at 7:00. He doesn't eat breakfast. He goes to work.'",
+  "scenario": "A coworker asks you about your roommate's morning routine.",
+  "role": "You",
+  "conversationPartner": "Coworker",
+  "subTasks": [
+    {
+      "subTaskId": "s1",
+      "prompt": "Say he wakes up at 7:00. (He wakes up at 7:00.)",
+      "expectedSpeakingPoints": [
+        "He wakes up",
+        "at 7:00"
+      ],
+      "sampleResponse": {
+        "targetText": "He wakes up at seven o'clock.",
+        "transliteration": "ヒー ウェイクス アップ アット セヴン オクロック。",
+        "baseTranslation": "彼は7時に起きます。"
+      }
+    },
+    {
+      "subTaskId": "s2",
+      "prompt": "Say he does not eat breakfast. (He doesn't eat breakfast.)",
+      "expectedSpeakingPoints": [
+        "He doesn't eat",
+        "breakfast"
+      ],
+      "sampleResponse": {
+        "targetText": "He doesn't eat breakfast.",
+        "transliteration": "ヒー ダズント イート ブレックファースト。",
+        "baseTranslation": "彼は朝食を食べません。"
+      }
+    },
+    {
+      "subTaskId": "s3",
+      "prompt": "Say he goes to work. (He goes to work.)",
+      "expectedSpeakingPoints": [
+        "He goes",
+        "to work"
+      ],
+      "sampleResponse": {
+        "targetText": "He goes to work.",
+        "transliteration": "ヒー ゴーズ トゥ ワーク。",
+        "baseTranslation": "彼は仕事に行きます。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "What does your roommate Ken do in the morning?",
+    "transliteration": "ホワット ダズ ユア ルームメイト ケン ドゥ イン ザ モーニング？",
+    "baseTranslation": "あなたのルームメイトのケンは朝何をしますか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "He wakes up at seven o'clock.",
+      "transliteration": "ヒー ウェイクス アップ アット セヴン オクロック。",
+      "baseTranslation": "彼は7時に起きます。"
+    },
+    {
+      "targetText": "He doesn't eat breakfast.",
+      "transliteration": "ヒー ダズント イート ブレックファースト。",
+      "baseTranslation": "彼は朝食を食べません。"
+    },
+    {
+      "targetText": "He goes to work.",
+      "transliteration": "ヒー ゴーズ トゥ ワーク。",
+      "baseTranslation": "彼は仕事に行きます。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Pronouncing the 's' on wakes",
+      "Using doesn't and returning eat to the base form",
+      "Pronouncing the 'es' on goes (/z/ sound)"
+    ],
+    "requiredKeywords": [
+      "He",
+      "wakes",
+      "up",
+      "doesn't",
+      "eat",
+      "goes",
+      "work"
+    ],
+    "acceptableParaphrases": [
+      "He wakes up at 7. He doesn't have breakfast. He goes to work."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Grammar (Third-Person S)",
+          "weight": 50,
+          "description": "Critical use of wakes, doesn't eat, goes."
+        },
+        {
+          "name": "Pronunciation",
+          "weight": 20,
+          "description": "Clear pronunciation of the 's' sounds and 'doesn't'."
+        },
+        {
+          "name": "Content",
+          "weight": 30,
+          "description": "All three sentences completed."
+        }
+      ]
+    },
+    "sampleAnswer": "He wakes up at 7. He doesn't eat breakfast. He goes to work.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic speaking! You perfectly controlled the third-person verb forms in real-time.",
+    "onFail": "Please try again. Focus intensely on the verbs: 'wakes', 'doesn't eat' (no 's' on eat!), and 'goes'.",
+    "onPartial": "Good effort! Make sure you clearly pronounce the 'z' sound at the end of 'goes'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B5_speaking_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": "path/to/M1B5_speaking_sample.mp3",
+    "slowAudio": "path/to/M1B5_speaking_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "He wakes up at 7:00. He doesn't eat breakfast. He goes to work.",
+    "audioLanguage": "en",
+    "audioDuration": 15,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "daily_routine",
+    "third_person_singular",
+    "negation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Remember, after 'doesn't', the verb goes back to normal. So say 'doesn't eat', NOT 'doesn't eats'.",
+  "commonMistakes": [
+    "Saying 'He doesn't eats'.",
+    "Saying 'He go to work'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B5_test_8"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

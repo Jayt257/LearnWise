@@ -1,0 +1,444 @@
+{
+  "activityId": "ja_en_M2B6_test_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Block 6 Final Test — Directions & Navigation",
+  "learningGoal": "The learner will demonstrate mastery over spatial vocabulary, navigational particles, and Te-form movement instructions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_en_M2B6_lesson_001",
+    "ja_en_M2B6_pronunciation_001",
+    "ja_en_M2B6_reading_001",
+    "ja_en_M2B6_writing_001",
+    "ja_en_M2B6_listening_001",
+    "ja_en_M2B6_vocabulary_001",
+    "ja_en_M2B6_speaking_001"
+  ],
+  "instructions": "This test evaluates your ability to understand and give directions. Pay close attention to the particles 'wo' and 'ni' when turning, and the Te-form of verbs.",
+  "testTitle": "Block 6 Final Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "testInstructions": "Complete all sections. Remember: You cross/turn AT 'wo', and head TOWARD 'ni'.",
+  "questionSections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Navigation Vocabulary",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "What does まっすぐ (Massugu) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Right", "Left", "Straight", "Corner"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "What does しんごう (Shingou) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Traffic light", "Bridge", "Corner", "Bank"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "What does となり (Tonari) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Next to", "Behind", "Front", "Near"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "What does はし (Hashi) mean?",
+          "questionType": "multiple_choice",
+          "options": ["Street", "Bridge", "Corner", "Left"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar1",
+      "sectionTitle": "Directions & Te-forms",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q005",
+          "questionText": "How do you ask 'How do I go?'",
+          "questionType": "multiple_choice",
+          "options": [
+            "どうやって いきますか",
+            "どこで いきますか",
+            "だれと いきますか",
+            "どうして いきますか"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "How do you say 'Please go straight'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "まっすぐ いって ください",
+            "まっすぐ まがって ください",
+            "まっすぐ きて ください",
+            "まっすぐ して ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "How do you say 'Please cross the bridge'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "はしに まがって ください",
+            "はしを まがって ください",
+            "はしを わたって ください",
+            "はしに わたって ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "How do you say 'Please turn left at the corner'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "かどを ひだりに まがって ください",
+            "かどに ひだりを まがって ください",
+            "かどで ひだりを まがって ください",
+            "かどを ひだりを まがって ください"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_grammar2",
+      "sectionTitle": "Relative Locations",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q009",
+          "questionText": "Translate: 'The bank is in front of the station.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ぎんこうは えきの まえに あります",
+            "ぎんこうは えきの うしろに あります",
+            "ぎんこうは えきの となりに あります",
+            "ぎんこうは えきの ちかくに あります"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Translate: 'The hotel is behind the bank.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ホテルは ぎんこうの となりに あります",
+            "ホテルは ぎんこうの うしろに あります",
+            "ホテルは ぎんこうの まえに あります",
+            "ホテルは ぎんこうの ひだりに あります"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "Translate: 'The post office is near the station.'",
+          "questionType": "multiple_choice",
+          "options": [
+            "ゆうびんきょくは えきの ちかくに あります",
+            "ゆうびんきょくは えきの まえに あります",
+            "ゆうびんきょくは えきの うしろに あります",
+            "ゆうびんきょくは えきの みぎに あります"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "What does まえ (Mae) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Front",
+            "Back",
+            "Right",
+            "Left"
+          ],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_listening_writing",
+      "sectionTitle": "Listening & Writing Integration",
+      "activityTypeRef": "listening",
+      "questions": [
+        {
+          "questionId": "q013",
+          "questionText": "Listen to the audio. What is the first instruction?",
+          "questionType": "multiple_choice",
+          "options": ["Go straight", "Turn right", "Turn left", "Stop"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q013",
+          "questionHints": {
+            "targetText": "まっすぐ いって ください。",
+            "transliteration": "Massugu itte kudasai.",
+            "baseTranslation": "Please go straight."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "Listen to the audio. Where should they turn?",
+          "questionType": "multiple_choice",
+          "options": ["At the corner", "At the bridge", "At the traffic light", "At the station"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q014",
+          "questionHints": {
+            "targetText": "しんごうを ひだりに まがって ください。",
+            "transliteration": "Shingou wo hidari ni magatte kudasai.",
+            "baseTranslation": "Please turn left at the traffic light."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "Listen to the audio. Where is the bank?",
+          "questionType": "multiple_choice",
+          "options": ["In front of the post office", "Next to the hotel", "Behind the station", "Next to the post office"],
+          "marks": 5,
+          "audioRef": "audioAssets.sampleAudio_q015",
+          "questionHints": {
+            "targetText": "ぎんこうは ゆうびんきょくの となりに あります。",
+            "transliteration": "Ginkou wa yuubinkyoku no tonari ni arimasu.",
+            "baseTranslation": "The bank is next to the post office."
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        },
+        {
+          "questionId": "q016",
+          "questionText": "Write 'Please turn' in Romaji. (Verb = Magarimasu)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "まがって ください",
+            "transliteration": "magatte kudasai",
+            "baseTranslation": "Please turn"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Write 'Please cross' in Romaji. (Verb = Watarimasu)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "わたって ください",
+            "transliteration": "watatte kudasai",
+            "baseTranslation": "Please cross"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Write 'Right' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "みぎ",
+            "transliteration": "migi",
+            "baseTranslation": "Right"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Write 'Traffic light' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "しんごう",
+            "transliteration": "shingou",
+            "baseTranslation": "Traffic light"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "Write 'How do you go?' in Romaji.",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": {
+            "targetText": "どうやって いきますか",
+            "transliteration": "dou yatte ikimasu ka",
+            "baseTranslation": "How do you go?"
+          },
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 40,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 15,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 15,
+    "listening": 20,
+    "vocabulary": 35,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 75,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Straight",
+      "q002": "Traffic light",
+      "q003": "Next to",
+      "q004": "Bridge",
+      "q005": "どうやって いきますか",
+      "q006": "まっすぐ いって ください",
+      "q007": "はしを わたって ください",
+      "q008": "かどを ひだりに まがって ください",
+      "q009": "ぎんこうは えきの まえに あります",
+      "q010": "ホテルは ぎんこうの うしろに あります",
+      "q011": "ゆうびんきょくは えきの ちかくに あります",
+      "q012": "Front",
+      "q013": "Go straight",
+      "q014": "At the traffic light",
+      "q015": "Next to the post office",
+      "q016": "magatte kudasai",
+      "q017": "watatte kudasai",
+      "q018": "migi",
+      "q019": "shingou",
+      "q020": "dou yatte ikimasu ka"
+    },
+    "scoringRubric": {
+      "q016": "Accept Romaji variations.",
+      "q017": "Accept Romaji variations.",
+      "q018": "Accept Romaji variations.",
+      "q019": "Accept Romaji variations.",
+      "q020": "Accept Romaji variations."
+    },
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q016": ["Magatte kudasai"],
+      "q017": ["Watatte kudasai"],
+      "q018": ["Migi"],
+      "q019": ["Shingou"],
+      "q020": ["Dou yatte ikimasu ka"]
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 10,
+      "sec_grammar1": 10,
+      "sec_grammar2": 10,
+      "sec_listening_writing": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Outstanding! You are fully prepared to navigate the streets of Japan.",
+    "onFail": "Review the particles for turning: '[Place] WO [Direction] NI magatte kudasai'.",
+    "onPartial": "Almost there. Double-check your directional vocabulary: Mae = Front, Ushiro = Back, Migi = Right, Hidari = Left."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "test",
+    "block6",
+    "directions",
+    "te-form",
+    "intermediate",
+    "month2"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B1_lesson_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

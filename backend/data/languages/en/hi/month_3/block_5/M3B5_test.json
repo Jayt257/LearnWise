@@ -1,0 +1,470 @@
+{
+  "activityId": "hi_en_M3B5_test_8",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 Test: Handling Emergencies",
+  "learningGoal": "Evaluate your ability to handle medical and legal emergencies in Hindi.",
+  "difficultyLevel": "pre-intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M3B5_speaking_7"
+  ],
+  "instructions": "This test covers the vocabulary, grammar, and situations related to medical emergencies and police reports. You must score at least 80% to pass this block.",
+  "testTitle": "Emergency Survival Test",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Vocabulary: Medical & Legal Terms",
+      "questions": [
+        {
+          "questionId": "q1",
+          "questionText": "What is the Hindi word for 'Hospital'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "पुलिस (Police)",
+            "अस्पताल (Aspataal)",
+            "दवा (Dawa)",
+            "मदद (Madad)"
+          ],
+          "questionHints": {
+            "targetText": "अस्पताल",
+            "transliteration": "Aspataal",
+            "baseTranslation": "Hospital"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q1"
+        },
+        {
+          "questionId": "q2",
+          "questionText": "What does 'चक्कर' (Chakkar) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Fever",
+            "Pain",
+            "Dizziness / Spin",
+            "Accident"
+          ],
+          "questionHints": {
+            "targetText": "चक्कर",
+            "transliteration": "Chakkar",
+            "baseTranslation": "Dizziness / Spin"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q2"
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Choose the correct translation for 'Complaint':",
+          "questionType": "multiple_choice",
+          "options": [
+            "चोरी (Chori)",
+            "शिकायत (Shikayat)",
+            "दुर्घटना (Durghatna)",
+            "चोर (Chor)"
+          ],
+          "questionHints": {
+            "targetText": "शिकायत",
+            "transliteration": "Shikayat",
+            "baseTranslation": "Complaint"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q3"
+        },
+        {
+          "questionId": "q4",
+          "questionText": "What does 'बटुआ' (Batua) mean?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Bag",
+            "Wallet",
+            "Passport",
+            "Ticket"
+          ],
+          "questionHints": {
+            "targetText": "बटुआ",
+            "transliteration": "Batua",
+            "baseTranslation": "Wallet"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q4"
+        },
+        {
+          "questionId": "q5",
+          "questionText": "Which word means 'Accident'?",
+          "questionType": "multiple_choice",
+          "options": [
+            "चोट (Chot)",
+            "दुर्घटना (Durghatna)",
+            "खून (Khoon)",
+            "सुरक्षित (Surakshit)"
+          ],
+          "questionHints": {
+            "targetText": "दुर्घटना",
+            "transliteration": "Durghatna",
+            "baseTranslation": "Accident"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar & Structure: Describing Symptoms and Incidents",
+      "questions": [
+        {
+          "questionId": "q6",
+          "questionText": "Fill in the blank: _____ बहुत तेज़ सिरदर्द है। (I have a very severe headache.)",
+          "questionType": "multiple_choice",
+          "options": [
+            "मैं (Main)",
+            "मुझे (Mujhe)",
+            "मेरा (Mera)",
+            "मुझसे (Mujhse)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q6"
+        },
+        {
+          "questionId": "q7",
+          "questionText": "How do you say 'My bag has been stolen' using the passive voice?",
+          "questionType": "multiple_choice",
+          "options": [
+            "मैंने बैग चोरी किया। (Maine bag chori kiya.)",
+            "मेरा बैग चोरी हो गया है। (Mera bag chori ho gaya hai.)",
+            "बैग चोरी है। (Bag chori hai.)",
+            "मुझे बैग चोरी है। (Mujhe bag chori hai.)"
+          ],
+          "questionHints": {
+            "targetText": "मेरा बैग चोरी हो गया है।",
+            "transliteration": "Mera bag chori ho gaya hai.",
+            "baseTranslation": "My bag has been stolen."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q7"
+        },
+        {
+          "questionId": "q8",
+          "questionText": "Fill in the blank: मेरे पेट ___ दर्द है। (I have pain in my stomach.)",
+          "questionType": "multiple_choice",
+          "options": [
+            "पर (par)",
+            "से (se)",
+            "में (mein)",
+            "को (ko)"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q8"
+        },
+        {
+          "questionId": "q9",
+          "questionText": "Which is the correct way to ask a doctor about the medicine dosage?",
+          "questionType": "multiple_choice",
+          "options": [
+            "दवा कितनी बार खानी चाहिए? (Dawa kitni baar khaani chahiye?)",
+            "दवा कहाँ है? (Dawa kahan hai?)",
+            "दवा कौन है? (Dawa kaun hai?)",
+            "दवा क्यों है? (Dawa kyon hai?)"
+          ],
+          "questionHints": {
+            "targetText": "दवा कितनी बार खानी चाहिए?",
+            "transliteration": "Dawa kitni baar khaani chahiye?",
+            "baseTranslation": "How many times should the medicine be taken?"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q9"
+        },
+        {
+          "questionId": "q10",
+          "questionText": "What verb means 'to register / file' (as in a complaint)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "मदद करना (Madad karna)",
+            "दर्ज करना (Darj karna)",
+            "चोरी करना (Chori karna)",
+            "बुलाना (Bulana)"
+          ],
+          "questionHints": {
+            "targetText": "दर्ज करना",
+            "transliteration": "Darj karna",
+            "baseTranslation": "To register / file"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q10"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_situations",
+      "sectionTitle": "Situational Responses",
+      "questions": [
+        {
+          "questionId": "q11",
+          "questionText": "If you witness an accident and want to call an ambulance, what should you say?",
+          "questionType": "multiple_choice",
+          "options": [
+            "मुझे अस्पताल जाना है। (Mujhe aspataal jaana hai.)",
+            "जल्दी एम्बुलेंस बुलाइए! (Jaldi ambulance bulaiye!)",
+            "मेरा बैग चोरी हो गया है। (Mera bag chori ho gaya hai.)",
+            "डॉक्टर कहाँ है? (Doctor kahan hai?)"
+          ],
+          "questionHints": {
+            "targetText": "जल्दी एम्बुलेंस बुलाइए!",
+            "transliteration": "Jaldi ambulance bulaiye!",
+            "baseTranslation": "Call an ambulance quickly!"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q11"
+        },
+        {
+          "questionId": "q12",
+          "questionText": "At the police station, what number do you dial in India for police assistance?",
+          "questionType": "multiple_choice",
+          "options": [
+            "911",
+            "112 or 100",
+            "999",
+            "108"
+          ],
+          "questionHints": null,
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q12"
+        },
+        {
+          "questionId": "q13",
+          "questionText": "You want to say 'Please help me, I am lost.' Which translation is correct?",
+          "questionType": "multiple_choice",
+          "options": [
+            "कृपया मेरी मदद कीजिए, मैं बीमार हूँ। (Kripya meri madad kijiye, main beemar hoon.)",
+            "कृपया मेरी मदद कीजिए, मैं खो गया हूँ। (Kripya meri madad kijiye, main kho gaya hoon.)",
+            "कृपया मुझे पानी दीजिए। (Kripya mujhe paani dijiye.)",
+            "मैं घर जाना चाहता हूँ। (Main ghar jaana chahta hoon.)"
+          ],
+          "questionHints": {
+            "targetText": "कृपया मेरी मदद कीजिए, मैं खो गया हूँ।",
+            "transliteration": "Kripya meri madad kijiye, main kho gaya hoon.",
+            "baseTranslation": "Please help me, I am lost."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q13"
+        },
+        {
+          "questionId": "q14",
+          "questionText": "How do you tell a doctor you've had a fever since yesterday?",
+          "questionType": "multiple_choice",
+          "options": [
+            "मुझे कल बुखार था। (Mujhe kal bukhar tha.)",
+            "मुझे कल रात से बुखार है। (Mujhe kal raat se bukhar hai.)",
+            "मुझे बुखार नहीं है। (Mujhe bukhar nahi hai.)",
+            "मेरा बुखार ठीक है। (Mera bukhar theek hai.)"
+          ],
+          "questionHints": {
+            "targetText": "मुझे कल रात से बुखार है।",
+            "transliteration": "Mujhe kal raat se bukhar hai.",
+            "baseTranslation": "I have a fever since last night."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q14"
+        },
+        {
+          "questionId": "q15",
+          "questionText": "If someone asks 'क्या हुआ आपके साथ?' (What happened with you?), and your wallet was stolen, you reply:",
+          "questionType": "multiple_choice",
+          "options": [
+            "मेरा बटुआ चोरी हो गया है। (Mera batua chori ho gaya hai.)",
+            "मुझे चक्कर आ रहे हैं। (Mujhe chakkar aa rahe hain.)",
+            "मैं खो गया हूँ। (Main kho gaya hoon.)",
+            "मुझे पुलिस पसंद है। (Mujhe police pasand hai.)"
+          ],
+          "questionHints": {
+            "targetText": "मेरा बटुआ चोरी हो गया है।",
+            "transliteration": "Mera batua chori ho gaya hai.",
+            "baseTranslation": "My wallet has been stolen."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q15"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_reading",
+      "sectionTitle": "Reading Comprehension",
+      "questions": [
+        {
+          "questionId": "q16",
+          "questionText": "Read: 'स्टेशन पर बहुत भीड़ थी। अचानक, मैंने देखा कि मेरा बैग गायब था।' What happened?",
+          "questionType": "multiple_choice",
+          "options": [
+            "The person missed the train.",
+            "The person found a bag in the crowd.",
+            "The person noticed their bag was missing in the crowd.",
+            "The person was waiting for a friend."
+          ],
+          "questionHints": {
+            "targetText": "स्टेशन पर बहुत भीड़ थी। अचानक, मैंने देखा कि मेरा बैग गायब था।",
+            "transliteration": "Station par bahut bheed thi. Achanak, maine dekha ki mera bag gaayab tha.",
+            "baseTranslation": "There was a lot of crowd at the station. Suddenly, I saw that my bag was missing."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q16"
+        },
+        {
+          "questionId": "q17",
+          "questionText": "Read: 'डॉक्टर ने कहा: यह गोली दिन में दो बार खाइए।' What is the doctor's instruction?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Take the pill once a day.",
+            "Take the pill twice a day.",
+            "Eat food twice a day.",
+            "Drink water twice a day."
+          ],
+          "questionHints": {
+            "targetText": "डॉक्टर ने कहा: यह गोली दिन में दो बार खाइए।",
+            "transliteration": "Doctor ne kaha: Yeh goli din mein do baar khaiye.",
+            "baseTranslation": "The doctor said: Take this pill twice a day."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q17"
+        },
+        {
+          "questionId": "q18",
+          "questionText": "Read: 'तनाव के कारण उसे तेज़ सिरदर्द होने लगा।' Why did the person get a headache?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Due to stress (Tanaav)",
+            "Due to hunger",
+            "Due to an accident",
+            "Due to loud noise"
+          ],
+          "questionHints": {
+            "targetText": "तनाव के कारण उसे तेज़ सिरदर्द होने लगा।",
+            "transliteration": "Tanaav ke kaaran use tez sirdard hone laga.",
+            "baseTranslation": "Due to stress, he started having a severe headache."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q18"
+        },
+        {
+          "questionId": "q19",
+          "questionText": "Read: 'मैंने पुलिस स्टेशन में एफ.आई.आर. (F.I.R.) दर्ज की।' What did the person do?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Called the police.",
+            "Ran away from the police.",
+            "Filed an FIR at the police station.",
+            "Asked the police for directions."
+          ],
+          "questionHints": {
+            "targetText": "मैंने पुलिस स्टेशन में एफ.आई.आर. (F.I.R.) दर्ज की।",
+            "transliteration": "Maine police station mein F.I.R. darj ki.",
+            "baseTranslation": "I filed an F.I.R. at the police station."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q19"
+        },
+        {
+          "questionId": "q20",
+          "questionText": "Translate this sentence to English: 'मेरे बटुए में मेरा पहचान पत्र था।' (Mere batue mein mera pehchaan patra tha.)",
+          "questionType": "multiple_choice",
+          "options": [
+            "There was money in my wallet.",
+            "My identity card was in my wallet.",
+            "My passport was in my wallet.",
+            "My wallet was lost."
+          ],
+          "questionHints": {
+            "targetText": "मेरे बटुए में मेरा पहचान पत्र था।",
+            "transliteration": "Mere batue mein mera pehchaan patra tha.",
+            "baseTranslation": "My identity card was in my wallet."
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q20"
+        }
+      ]
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q1": "अस्पताल (Aspataal)",
+      "q2": "Dizziness / Spin",
+      "q3": "शिकायत (Shikayat)",
+      "q4": "Wallet",
+      "q5": "दुर्घटना (Durghatna)",
+      "q6": "मुझे (Mujhe)",
+      "q7": "मेरा बैग चोरी हो गया है। (Mera bag chori ho gaya hai.)",
+      "q8": "में (mein)",
+      "q9": "दवा कितनी बार खानी चाहिए? (Dawa kitni baar khaani chahiye?)",
+      "q10": "दर्ज करना (Darj karna)",
+      "q11": "जल्दी एम्बुलेंस बुलाइए! (Jaldi ambulance bulaiye!)",
+      "q12": "112 or 100",
+      "q13": "कृपया मेरी मदद कीजिए, मैं खो गया हूँ। (Kripya meri madad kijiye, main kho gaya hoon.)",
+      "q14": "मुझे कल रात से बुखार है। (Mujhe kal raat se bukhar hai.)",
+      "q15": "मेरा बटुआ चोरी हो गया है। (Mera batua chori ho gaya hai.)",
+      "q16": "The person noticed their bag was missing in the crowd.",
+      "q17": "Take the pill twice a day.",
+      "q18": "Due to stress (Tanaav)",
+      "q19": "Filed an FIR at the police station.",
+      "q20": "My identity card was in my wallet."
+    },
+    "sectionPassMarks": {
+      "sec_vocab": 15,
+      "sec_grammar": 15,
+      "sec_situations": 15,
+      "sec_reading": 15
+    },
+    "overallPassMark": 80
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Congratulations! You have successfully completed Block 5. You are now prepared to handle emergencies in India.",
+    "onFail": "You scored below 80%. Please review the block materials, especially the vocabulary for medical and legal situations.",
+    "onPartial": "You are almost there. Review your mistakes and try the test again."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "evaluation",
+    "emergencies",
+    "police",
+    "hospital"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the questions carefully and remember the 'Mujhe + Symptom' rule.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B6_lesson_1"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,246 @@
+{
+  "activityId": "hi_en_M2B5_lesson_1",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "Modals and Compulsion: Can, Should, and Have To",
+  "learningGoal": "Master the grammatical structures to express ability (can), advice (should), and compulsion (have to/must).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 150,
+  "prerequisites": [
+    "hi_en_M2B4_test_8"
+  ],
+  "instructions": "In this lesson, you will learn how to bend verbs to express modality. Hindi handles 'should' and 'have to' very differently from English. Pay close attention to how the subjects change (Main vs Mujhe).",
+  "conceptTitle": "Sakna, Chahiye, and Padega",
+  "lessonContent": [
+    {
+      "sectionId": "sec_1",
+      "sectionTitle": "1. Expressing Ability: Can (Sakna)",
+      "bodyText": "To say 'I can do something', Hindi uses the helper verb 'Sakna' (सकना). \n\nHow to construct it:\n1. Take the dictionary verb (e.g., Jaana - to go).\n2. Remove the 'na', leaving the root (Jaa).\n3. Add 'sakta' (masculine), 'sakti' (feminine), or 'sakte' (plural) depending on who is speaking.\n4. End with the present tense marker (hoon, hai, hain).\n\nFormula: Subject + Verb Root + Sakta/Sakti/Sakte + Hoon/Hai/Hain.\n\nExamples:\n- Male: Main jaa sakta hoon. (मैं जा सकता हूँ।) - I can go.\n- Female: Main jaa sakti hoon. (मैं जा सकती हूँ।) - I can go.\n- Formal/Plural: Aap jaa sakte hain. (आप जा सकते हैं।) - You can go.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं हिंदी बोल सकता हूँ।",
+          "transliteration": "Main Hindi bol sakta hoon.",
+          "baseTranslation": "I can speak Hindi. (Male speaker)",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "क्या तुम तैर सकती हो?",
+          "transliteration": "Kya tum tair sakti ho?",
+          "baseTranslation": "Can you swim? (Asking a female friend)",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_2",
+      "sectionTitle": "2. Inability: Cannot (Nahi Sakta)",
+      "bodyText": "To say you CANNOT do something, simply insert 'nahi' (नहीं) before the verb root or before 'sakta'.\n\nExample: Main nahi jaa sakta. OR Main jaa nahi sakta. (I cannot go.)\n\nA very common phrase in India is 'Main nahi kar sakta' (I cannot do it). If a shopkeeper tells you 'Nahi ho sakta' (It cannot happen), you know negotiation is over.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "वह नहीं आ सकता।",
+          "transliteration": "Woh nahi aa sakta.",
+          "baseTranslation": "He cannot come.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "मैं यह नहीं खा सकती।",
+          "transliteration": "Main yeh nahi kha sakti.",
+          "baseTranslation": "I cannot eat this. (Female speaker)",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_3",
+      "sectionTitle": "3. Advice: Should (Chahiye)",
+      "bodyText": "Remember in Month 2 Block 1, we learned that 'Chahiye' means 'to want' an object (Mujhe paani chahiye - I want water). \n\nHowever, if you put a VERB in front of 'chahiye', it changes its meaning entirely to 'SHOULD'.\n\nRules for 'Should':\n1. The subject MUST take the 'ko' particle (Main -> Mujhe, Tum -> Tumhein, Aap -> Aapko, Hum -> Humein).\n2. The main verb remains in its FULL dictionary form (ending in 'na').\n3. Add 'chahiye' at the very end.\n\nExample: I should go.\n1. I -> Mujhe\n2. to go -> jaana\n3. should -> chahiye\nResult: Mujhe jaana chahiye. (मुझे जाना चाहिए।)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "आपको सोना चाहिए।",
+          "transliteration": "Aapko sona chahiye.",
+          "baseTranslation": "You should sleep.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "हमें अब चलना चाहिए।",
+          "transliteration": "Humein ab chalna chahiye.",
+          "baseTranslation": "We should leave now.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_4",
+      "sectionTitle": "4. Advanced Advice: Object Gender Matching",
+      "bodyText": "When using 'Chahiye' for advice, if there is a feminine object involved, the dictionary verb 'na' changes to 'ni'.\n\nExample: I should read a book.\n- Book (kitaab) is feminine.\n- Read (padhna) -> padhni.\nResult: Mujhe kitaab padhni chahiye. (मुझे किताब पढ़नी चाहिए।)\n\nExample: I should eat an apple.\n- Apple (seb) is masculine.\n- Eat (khaana) remains khaana.\nResult: Mujhe seb khaana chahiye. (मुझे सेब खाना चाहिए।)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "तुम्हें चाय पीनी चाहिए।",
+          "transliteration": "Tumhein chai peeni chahiye.",
+          "baseTranslation": "You should drink tea. (Chai is feminine, so peena becomes peeni).",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_5",
+      "sectionTitle": "5. Compulsion: Have To / Must (Padega / Padta hai)",
+      "bodyText": "When 'should' isn't strong enough and you 'HAVE TO' or 'MUST' do something, Hindi uses the verb 'Padna' (To fall/To happen).\n\nStructure is exactly like 'Chahiye' (Subject gets 'ko', verb keeps 'na'), but the ending changes based on the timeline:\n\n1. Future Compulsion (I will have to): Use 'padega' (पड़ेगा).\n- Example: Mujhe jaana padega. (I will have to go.)\n\n2. Present Compulsion (I have to [habitually]): Use 'padta hai' (पड़ता है).\n- Example: Mujhe roz kaam karna padta hai. (I have to work every day.)\n\n3. Immediate Compulsion (I have to right now): Simply drop the 'chahiye' and say 'Mujhe jaana hai' (I have to go [now]).",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझे आज रात काम करना पड़ेगा।",
+          "transliteration": "Mujhe aaj raat kaam karna padega.",
+          "baseTranslation": "I will have to work tonight.",
+          "audioRef": "dummy_audio.mp3"
+        },
+        {
+          "targetText": "आपको यह दवा खानी पड़ेगी।",
+          "transliteration": "Aapko yeh dawa khaani padegi.",
+          "baseTranslation": "You will have to take (eat) this medicine. (Dawa is feminine, so padega becomes padegi).",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_6",
+      "sectionTitle": "6. Putting it all together (The Modal Matrix)",
+      "bodyText": "Let's summarize the verb 'to go' (jaana) with the subject 'I':\n\n- Present: Main jaata hoon. (I go.)\n- Continuous: Main jaa raha hoon. (I am going.)\n- Future: Main jaunga. (I will go.)\n- Past: Main gaya. (I went.)\n- Ability (Can): Main jaa sakta hoon. (I can go.)\n- Advice (Should): Mujhe jaana chahiye. (I should go.)\n- Immediate Compulsion (Have to now): Mujhe jaana hai. (I have to go.)\n- Future Compulsion (Will have to): Mujhe jaana padega. (I will have to go.)\n\nNotice how the 'Should' and 'Have to' states force the subject 'Main' to become 'Mujhe'. This is known as the Dative Construction.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं नहीं कर सकता। मुझे घर जाना है।",
+          "transliteration": "Main nahi kar sakta. Mujhe ghar jaana hai.",
+          "baseTranslation": "I cannot do it. I have to go home.",
+          "audioRef": "dummy_audio.mp3"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "The learner will accurately construct sentences expressing ability (sakna), advice (chahiye), and compulsion (padega), applying the dative pronoun shift where necessary.",
+  "examples": [
+    {
+      "targetText": "हम आपकी मदद कर सकते हैं।",
+      "transliteration": "Hum aapki madad kar sakte hain.",
+      "baseTranslation": "We can help you.",
+      "explanation": "'Hum' is plural, so 'sakna' becomes 'sakte'. Madad karna = to help."
+    },
+    {
+      "targetText": "उसे डॉक्टर के पास जाना चाहिए।",
+      "transliteration": "Use doctor ke paas jaana chahiye.",
+      "baseTranslation": "He/she should go to the doctor.",
+      "explanation": "Woh + ko = Use (To him/her). It is required for 'should'."
+    },
+    {
+      "targetText": "मुझे हिंदी सीखनी पड़ेगी।",
+      "transliteration": "Mujhe Hindi seekhni padegi.",
+      "baseTranslation": "I will have to learn Hindi.",
+      "explanation": "Hindi is a feminine language name, so 'seekhna padega' becomes 'seekhni padegi'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "When using 'Can' (Sakna), the subject remains normal (Main, Tum, Aap). When using 'Should' (Chahiye) or 'Have to' (Padega), the subject MUST become Dative (Mujhe, Tumhein, Aapko).",
+      "exceptionNotes": "Saying 'Main jaana chahiye' is a massive grammatical error. It must be 'Mujhe jaana chahiye'."
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "If the sentence contains a feminine object, the dictionary verb (na -> ni) and the compulsion verb (padega -> padegi) both change to feminine.",
+      "exceptionNotes": "Roti khaani padegi. Chai peeni chahiye."
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "Indians frequently use 'Mujhe jaana hai' (Immediate compulsion) to excuse themselves from gatherings. It is a polite but firm way to say 'I must leave now'. The word 'Padega' is often used to emphasize inevitable struggle, e.g., 'Mehnat karni padegi' (Hard work will have to be done).",
+    "dosList": [
+      "Use 'Aapko aana chahiye' (You should come) as a polite way to invite someone."
+    ],
+    "dontsList": [
+      "Don't use 'Aapko aana padega' unless you are very close friends or have authority, as it means 'You MUST come'."
+    ]
+  },
+  "summary": "You can now express a wide range of emotions and requirements. 'Sakta' shows your ability. 'Chahiye' is for advice. 'Padega' is for inevitable obligations. And you now know when to use 'Main' versus 'Mujhe' with these modals.",
+  "checkpointQuestions": [
+    {
+      "questionId": "cq_1",
+      "questionText": "How does a female say 'I can speak'?",
+      "expectedAnswer": "Main bol sakti hoon. ('sakti' for female)."
+    },
+    {
+      "questionId": "cq_2",
+      "questionText": "What is wrong with the sentence 'Main Hindi seekhna chahiye'?",
+      "expectedAnswer": "It uses 'Main' instead of 'Mujhe'. Also, Hindi is feminine, so it should be 'Mujhe Hindi seekhni chahiye'."
+    },
+    {
+      "questionId": "cq_3",
+      "questionText": "If someone says 'Aapko jaana padega', what are they telling you?",
+      "expectedAnswer": "You will have to go. (It is an obligation)."
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Sakna (Can) -> Subject is normal (Main/Tum/Aap). Verb is Root + sakta.",
+      "Chahiye (Should) -> Subject is Dative (Mujhe/Tumhein). Verb is Full (Jaana).",
+      "Padega (Have to) -> Subject is Dative. Verb is Full.",
+      "Feminine objects force 'na' to 'ni' (Khaani chahiye)."
+    ],
+    "conceptSummary": "Mastery of Hindi Modals and the resulting Dative Subject shifts.",
+    "importantFacts": [
+      "'Mujhe jaana hai' means 'I have to go (right now)'."
+    ],
+    "checkpointAnswers": {
+      "cq_1": "Main bol sakti hoon.",
+      "cq_2": "Must use Mujhe. Must use seekhni.",
+      "cq_3": "You will have to go."
+    },
+    "expectedUnderstanding": "Learners can switch between Main and Mujhe depending on the modal verb used."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Fantastic! You easily navigated the Dative Trap and applied the correct modals.",
+    "onFail": "Review Section 1 and 3. Notice the difference in the first word: MAIN jaa sakta hoon vs MUJHE jaana chahiye.",
+    "onPartial": "Good progress. Don't forget that if the object is feminine (like tea or book), 'chahiye' forces the main verb to end in 'i' (peeni chahiye)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "मैं हिंदी बोल सकता हूँ। क्या तुम तैर सकती हो? वह नहीं आ सकता। मैं यह नहीं खा सकती। आपको सोना चाहिए। हमें अब चलना चाहिए। तुम्हें चाय पीनी चाहिए। मुझे आज रात काम करना पड़ेगा। आपको यह दवा खानी पड़ेगी।",
+    "audioLanguage": "hi",
+    "audioDuration": 350,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "lesson",
+    "grammar",
+    "modals",
+    "sakna",
+    "chahiye",
+    "padega",
+    "advanced"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Always look at the ending of the sentence to determine the first word. If it ends in 'sakta', use Main. If it ends in 'chahiye', use Mujhe.",
+  "commonMistakes": [
+    "Saying 'Main jaana chahiye'.",
+    "Saying 'Mujhe jaa sakta hoon'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B5_pronunciation_2"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

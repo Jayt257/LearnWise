@@ -1,0 +1,181 @@
+{
+  "activityId": "hi_en_M3B3_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "Listening: The Missing Cake",
+  "learningGoal": "Aurally identify vector verbs indicating completion, self-benefit, and sudden emotional reactions.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B3_lesson_1"
+  ],
+  "instructions": "Listen to a frantic argument between roommates over a missing cake. Track exactly what happened to the cake, who arrived, and how people reacted.",
+  "listeningGoal": "Distinguish between 'ate' and 'ate up', and recognize the suddenness vectors.",
+  "audioScenario": "Ria comes home to find her birthday cake missing. Amit tries to explain.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "रिया: अमित, मेरा केक कहाँ है? मैं उसे फ्रिज में रख गई थी।",
+      "transliteration": "Ria: Amit, mera cake kahan hai? Main use fridge mein rakh gayi thi.",
+      "baseTranslation": "Ria: Amit, where is my cake? I had kept it in the fridge."
+    },
+    {
+      "targetText": "अमित: रिया, मुझे माफ़ कर दो। तुम्हारा भाई आ गया था।",
+      "transliteration": "Amit: Ria, mujhe maaf kar do. Tumhara bhai aa gaya tha.",
+      "baseTranslation": "Amit: Ria, please forgive me. Your brother had arrived."
+    },
+    {
+      "targetText": "रिया: तो? क्या उसने मेरा केक खा लिया?",
+      "transliteration": "Ria: Toh? Kya usne mera cake kha liya?",
+      "baseTranslation": "Ria: So? Did he eat up my cake?"
+    },
+    {
+      "targetText": "अमित: हाँ, वह बहुत भूखा था। उसने सारा केक खा लिया और सारा जूस पी लिया।",
+      "transliteration": "Amit: Haan, woh bahut bhookha tha. Usne saara cake kha liya aur saara juice pee liya.",
+      "baseTranslation": "Amit: Yes, he was very hungry. He ate up the whole cake and drank up all the juice."
+    },
+    {
+      "targetText": "रिया: यह सुनकर रिया ज़ोर से रो पड़ी। 'यह मेरा बर्थडे केक था!'",
+      "transliteration": "Ria: Yeh sun kar Ria zor se ro padi. 'Yeh mera birthday cake tha!'",
+      "baseTranslation": "Ria: Hearing this, Ria suddenly burst into tears. 'This was my birthday cake!'"
+    },
+    {
+      "targetText": "अमित: शांत हो जाओ। मैं तुम्हारे लिए एक नया केक ले आऊँगा।",
+      "transliteration": "Amit: Shaant ho jao. Main tumhare liye ek naya cake le aaunga.",
+      "baseTranslation": "Amit: Calm down. I will bring a new cake for you."
+    },
+    {
+      "targetText": "रिया: नहीं! मैं तुम्हारी बात नहीं सुनूँगी।",
+      "transliteration": "Ria: Nahi! Main tumhari baat nahi sunungi.",
+      "baseTranslation": "Ria: No! I will not listen to you."
+    }
+  ],
+  "audioTranscriptFull": "रिया: अमित, मेरा केक कहाँ है? मैं उसे फ्रिज में रख गई थी। अमित: रिया, मुझे माफ़ कर दो। तुम्हारा भाई आ गया था। रिया: तो? क्या उसने मेरा केक खा लिया? अमित: हाँ, वह बहुत भूखा था। उसने सारा केक खा लिया और सारा जूस पी लिया। रिया: यह सुनकर रिया ज़ोर से रो पड़ी। 'यह मेरा बर्थडे केक था!' अमित: शांत हो जाओ। मैं तुम्हारे लिए एक नया केक ले आऊँगा। रिया: नहीं! मैं तुम्हारी बात नहीं सुनूँगी।",
+  "questionSet": [
+    {
+      "questionId": "lq_1",
+      "questionText": "What does 'Rakh gayi thi' mean?",
+      "questionType": "multiple_choice",
+      "options": [
+        "She had completely kept it / put it away (Rakh + Jaana).",
+        "She took it with her.",
+        "She forgot it."
+      ],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_1"
+    },
+    {
+      "questionId": "lq_2",
+      "questionText": "When Amit says 'Bhai aa gaya tha', what nuance does 'gaya' add?",
+      "questionType": "multiple_choice",
+      "options": [
+        "It emphasizes the completed transition of his arrival (He had arrived).",
+        "It means the brother went away.",
+        "It means the brother is singing."
+      ],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_2"
+    },
+    {
+      "questionId": "lq_3",
+      "questionText": "Why do they say 'Kha liya' and 'Pee liya' instead of just 'Khaya' and 'Piya'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "To show that he greedily consumed it for his own benefit (taking the action inward).",
+        "Because it is past tense.",
+        "Because he fed it to someone else."
+      ],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_3"
+    },
+    {
+      "questionId": "lq_4",
+      "questionText": "What does Ria do after hearing the news?",
+      "questionType": "multiple_choice",
+      "options": [
+        "She bursts into tears suddenly (Ro padi).",
+        "She hits Amit.",
+        "She goes to sleep."
+      ],
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_4"
+    },
+    {
+      "questionId": "lq_5",
+      "questionText": "In her final sentence ('Main tumhari baat nahi sunungi'), why does Ria NOT use a compound verb?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because it is a negative sentence ('nahi').",
+        "Because it is in the future tense.",
+        "Because she is angry."
+      ],
+      "audioTimestamp": "00:28",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.lq_5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "lq_1": "She had completely kept it / put it away (Rakh + Jaana).",
+      "lq_2": "It emphasizes the completed transition of his arrival (He had arrived).",
+      "lq_3": "To show that he greedily consumed it for his own benefit (taking the action inward).",
+      "lq_4": "She bursts into tears suddenly (Ro padi).",
+      "lq_5": "Because it is a negative sentence ('nahi')."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Magnificent listening! You easily tracked the nuances of who took what, who arrived, and who burst out crying.",
+    "onFail": "Listen to the verbs at the end of the sentences: 'gaya', 'liya', 'padi'. These are the vectors.",
+    "onPartial": "Good attempt. Pay special attention to 'Nahi sunungi' at the end. Notice how there is no vector verb there because it's a negative statement."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "रिया: अमित, मेरा केक कहाँ है? मैं उसे फ्रिज में रख गई थी। अमित: रिया, मुझे माफ़ कर दो। तुम्हारा भाई आ गया था। रिया: तो? क्या उसने मेरा केक खा लिया? अमित: हाँ, वह बहुत भूखा था। उसने सारा केक खा लिया और सारा जूस पी लिया। रिया: यह सुनकर रिया ज़ोर से रो पड़ी। 'यह मेरा बर्थडे केक था!' अमित: शांत हो जाओ। मैं तुम्हारे लिए एक नया केक ले आऊँगा। रिया: नहीं! मैं तुम्हारी बात नहीं सुनूँगी।",
+    "audioLanguage": "hi",
+    "audioDuration": 85,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "compound_verbs",
+    "vector_verbs",
+    "nuance",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Whenever food or drink is completely consumed, Hindi speakers almost always use 'Lena' (Kha liya, Pee liya) or 'Jaana' (Kha gaya, Pee gaya).",
+  "commonMistakes": [
+    "Assuming 'Aa gaya' means 'came and went'. It just means 'Arrived completely'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B3_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

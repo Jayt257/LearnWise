@@ -1,0 +1,162 @@
+{
+  "activityId": "en_ja_M1B1_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Mastering Japanese Vowels",
+  "learningGoal": "Accurately pronounce the five core Japanese vowels and basic greetings without an English accent.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 30,
+  "prerequisites": [
+    "en_ja_M1B1_lesson_1"
+  ],
+  "instructions": "Listen to the native audio and repeat the words. Focus on keeping the vowel sounds short and crisp, without drawing them out like in English.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "あ",
+      "transliteration": "a",
+      "baseTranslation": "Ah",
+      "phoneticHint": "Like the 'ah' in 'father', but much shorter.",
+      "syllableSplit": "a",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ay' as in 'day'."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "い",
+      "transliteration": "i",
+      "baseTranslation": "Ee",
+      "phoneticHint": "Like the 'ee' in 'meet', but shorter.",
+      "syllableSplit": "i",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'eye'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "う",
+      "transliteration": "u",
+      "baseTranslation": "Oo",
+      "phoneticHint": "Like the 'oo' in 'boot', but don't push your lips forward.",
+      "syllableSplit": "u",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'you'."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "え",
+      "transliteration": "e",
+      "baseTranslation": "Eh",
+      "phoneticHint": "Like the 'e' in 'pet'.",
+      "syllableSplit": "e",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ee'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "お",
+      "transliteration": "o",
+      "baseTranslation": "Oh",
+      "phoneticHint": "Like the 'o' in 'bone', but shorter. Don't add a 'w' sound at the end.",
+      "syllableSplit": "o",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'oh-w'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "おはよう",
+      "transliteration": "Ohayou",
+      "baseTranslation": "Good morning (casual)",
+      "phoneticHint": "O-ha-yo-o. Hold the 'o' at the end for two beats.",
+      "syllableSplit": "o-ha-yo-u",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Ohio' like the US state."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "こんにちは",
+      "transliteration": "Konnichiwa",
+      "baseTranslation": "Hello",
+      "phoneticHint": "Kon-ni-chi-wa. Make sure to pronounce the 'n' clearly before the 'ni'.",
+      "syllableSplit": "ko-n-ni-chi-wa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Koneecheewa'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "すし",
+      "transliteration": "Sushi",
+      "baseTranslation": "Sushi",
+      "phoneticHint": "Su-shi. The 'u' in 'su' is very short, almost whispered.",
+      "syllableSplit": "su-shi",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'soo-shee' with long vowels."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "あ い う え お おはよう こんにちは すし",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! Your vowels sound natural and clear.",
+    "onFail": "Keep practicing. Don't stretch the vowels out. Japanese vowels are very short.",
+    "onPartial": "Good effort! Make sure 'u' and 'e' don't sound like English 'you' and 'ee'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "あ い う え お おはよう こんにちは すし",
+    "acceptedVariants": [
+      "a i u e o ohayou konnichiwa sushi"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "あ い う え お おはよう こんにちは すし",
+    "transliteration": "a i u e o ohayou konnichiwa sushi",
+    "strictnessLevel": "moderate"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B1_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B1_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "あ, い, う, え, お, おはよう, こんにちは, すし",
+    "audioLanguage": "ja",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "vowels",
+    "hiragana",
+    "greetings"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Smile slightly when saying 'i' and 'e'. Relax your lips for 'u'.",
+  "commonMistakes": [
+    "Using English diphthongs (two sounds) instead of pure Japanese vowels."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B1_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

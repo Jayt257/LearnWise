@@ -1,0 +1,184 @@
+{
+  "activityId": "en_ja_M1B2_listening_5",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "The Interrogation Room",
+  "learningGoal": "Understand rapid-fire questions and statements using 'be' verbs and pronouns.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B2_writing_4"
+  ],
+  "instructions": "あなたは取調室にいます。警察官が次々と質問をしてきます。内容をよく聞いて、正しい答えを選んでください。疑問文の主語と動詞の順番に注意してください。(You are in an interrogation room. A police officer is asking rapid-fire questions. Listen carefully and choose the correct answers. Pay attention to the order of subjects and verbs in questions.)",
+  "listeningGoal": "To quickly comprehend yes/no questions and negative statements using 'am', 'is', 'are'.",
+  "audioScenario": "A police officer is questioning a witness about a group of people.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "Are you Ken?",
+      "transliteration": "アー ユー ケン？",
+      "baseTranslation": "あなたはケンですか？"
+    },
+    {
+      "targetText": "Yes, I am.",
+      "transliteration": "イエス、アイ アム",
+      "baseTranslation": "はい、そうです。"
+    },
+    {
+      "targetText": "Are you from Japan?",
+      "transliteration": "アー ユー フロム ジャパン？",
+      "baseTranslation": "あなたは日本出身ですか？"
+    },
+    {
+      "targetText": "No, I am not. I am from Canada.",
+      "transliteration": "ノー、アイ アム ノット。アイ アム フロム カナダ。",
+      "baseTranslation": "いいえ、違います。私はカナダ出身です。"
+    },
+    {
+      "targetText": "Okay. Is he your friend?",
+      "transliteration": "オーケー。イズ ヒー ユア フレンド？",
+      "baseTranslation": "わかりました。彼はあなたの友達ですか？"
+    },
+    {
+      "targetText": "Yes, he is. His name is Tom.",
+      "transliteration": "イエス、ヒー イズ。ヒズ ネーム イズ トム。",
+      "baseTranslation": "はい、そうです。彼の名前はトムです。"
+    },
+    {
+      "targetText": "Is Tom a doctor?",
+      "transliteration": "イズ トム ア ドクター？",
+      "baseTranslation": "トムは医者ですか？"
+    },
+    {
+      "targetText": "No, he is not. He is a teacher.",
+      "transliteration": "ノー、ヒー イズ ノット。ヒー イズ ア ティーチャー。",
+      "baseTranslation": "いいえ、違います。彼は先生です。"
+    },
+    {
+      "targetText": "Are they from America?",
+      "transliteration": "アー ゼイ フロム アメリカ？",
+      "baseTranslation": "彼らはアメリカ出身ですか？"
+    },
+    {
+      "targetText": "No, they are not. They are from Japan.",
+      "transliteration": "ノー、ゼイ アー ノット。ゼイ アー フロム ジャパン。",
+      "baseTranslation": "いいえ、違います。彼らは日本出身です。"
+    }
+  ],
+  "audioTranscriptFull": "Officer: Are you Ken?\nWitness: Yes, I am.\nOfficer: Are you from Japan?\nWitness: No, I am not. I am from Canada.\nOfficer: Okay. Is he your friend?\nWitness: Yes, he is. His name is Tom.\nOfficer: Is Tom a doctor?\nWitness: No, he is not. He is a teacher.\nOfficer: Are they from America?\nWitness: No, they are not. They are from Japan.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "証人（Witness）はどこから来ましたか？ (Where is the witness from?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Japan",
+        "Canada",
+        "America",
+        "Unknown"
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "トム（Tom）の職業は何ですか？ (What is Tom's job?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "Doctor",
+        "Student",
+        "Teacher",
+        "Police Officer"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「彼ら（They）」はどこから来ましたか？ (Where are 'They' from?)",
+      "questionType": "multiple_choice",
+      "options": [
+        "America",
+        "Japan",
+        "Canada",
+        "London"
+      ],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "証人が「Are you from Japan?」と聞かれた時、なんと答えましたか？ (How did the witness answer 'Are you from Japan?')",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, I am.",
+        "No, he is not.",
+        "No, I am not.",
+        "Yes, they are."
+      ],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 25,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Canada",
+      "q2": "Teacher",
+      "q3": "Japan",
+      "q4": "No, I am not."
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great listening! You caught the negative statements (I am not, He is not) perfectly.",
+    "onFail": "Listen again carefully. Pay attention to the words 'No' and 'not'.",
+    "onPartial": "Good effort. Try using the slow audio to hear the exact questions the officer asks."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B2_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B2_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Officer: Are you Ken? Witness: Yes, I am...",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "be_verb",
+    "questions",
+    "negatives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the short answers (Yes, I am / No, he is not).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B2_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

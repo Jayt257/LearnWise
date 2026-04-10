@@ -1,0 +1,179 @@
+{
+  "activityId": "en_ja_M1B6_writing_4",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Where is it?",
+  "learningGoal": "Write sentences accurately describing the location of objects using prepositions of place.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M1B6_reading_3"
+  ],
+  "instructions": "あなたの部屋を見回して、物がどこにあるかを英語で書いてください。(Look around your room and write where things are in English.)\n以下の3つの条件を含めてください。\n1. 「on（〜の上に/表面に）」を使う\n2. 「in（〜の中に）」を使う\n3. 「under（〜の下に）」または「next to（〜の隣に）」を使う",
+  "writingPrompt": "Write 3 sentences describing where things are in your room. Use 'on', 'in', and either 'under' or 'next to'. Start your sentences with 'The [item] is...'",
+  "promptGoal": "To construct simple sentences (Subject + be verb + prepositional phrase) to describe spatial relationships.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "is",
+      "transliteration": "イズ",
+      "baseTranslation": "あります、います",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "on the desk",
+      "transliteration": "オン ザ デスク",
+      "baseTranslation": "机の上に",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "in the bag",
+      "transliteration": "イン ザ バッグ",
+      "baseTranslation": "カバンの中に",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "under the bed",
+      "transliteration": "アンダー ザ ベッド",
+      "baseTranslation": "ベッドの下に",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "next to the door",
+      "transliteration": "ネクスト トゥ ザ ドア",
+      "baseTranslation": "ドアの隣に",
+      "partOfSpeech": "phrase"
+    },
+    {
+      "targetText": "behind",
+      "transliteration": "ビハインド",
+      "baseTranslation": "〜の後ろに",
+      "partOfSpeech": "preposition"
+    }
+  ],
+  "referenceHints": [
+    "「〜は...にあります」は、「The [物] is [前置詞] the [場所].」の形で作ります。",
+    "「〜の上に」は on、「〜の中に」は in です。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "The computer is on the desk. My pen is in the bag. The bag is next to the chair.",
+      "transliteration": "ザ コンピューター イズ オン ザ デスク。マイ ペン イズ イン ザ バッグ。ザ バッグ イズ ネクスト トゥ ザ チェア。",
+      "baseTranslation": "コンピューターは机の上にあります。私のペンはカバンの中にあります。カバンは椅子の隣にあります。",
+      "qualityLevel": "excellent",
+      "annotation": "Uses 'on', 'in', and 'next to' correctly with proper sentence structure."
+    },
+    {
+      "targetText": "The book is on the table. The water is in the glass. My shoes are under the bed.",
+      "transliteration": "ザ ブック イズ オン ザ テーブル。ザ ウォーター イズ イン ザ グラス。マイ シューズ アー アンダー ザ ベッド。",
+      "baseTranslation": "本はテーブルの上にあります。水はグラスの中にあります。私の靴はベッドの下にあります。",
+      "qualityLevel": "excellent",
+      "annotation": "Correctly uses 'are' for the plural noun 'shoes', and perfectly uses 'on', 'in', and 'under'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Preposition 'on'",
+      "weight": 30,
+      "description": "Is 'on' used correctly to describe a surface relationship?"
+    },
+    {
+      "criterion": "Preposition 'in'",
+      "weight": 30,
+      "description": "Is 'in' used correctly to describe an enclosed relationship?"
+    },
+    {
+      "criterion": "Other Preposition",
+      "weight": 30,
+      "description": "Is 'under' or 'next to' used correctly?"
+    },
+    {
+      "criterion": "Sentence Structure",
+      "weight": 10,
+      "description": "Is the basic Subject + be verb + location structure followed?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "The [item] is on the [place]. The [item] is in the [place]. The [item] is under/next to the [place].",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "is",
+      "on",
+      "in"
+    ],
+    "grammarBaseline": "Must use 'is' or 'are' correctly with nouns, followed by a preposition.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Use of ON",
+          "weight": 30,
+          "description": "Uses 'on' for a surface."
+        },
+        {
+          "name": "Use of IN",
+          "weight": 30,
+          "description": "Uses 'in' for an enclosure."
+        },
+        {
+          "name": "Use of UNDER/NEXT TO",
+          "weight": 30,
+          "description": "Uses a third preposition."
+        },
+        {
+          "name": "Verb Agreement",
+          "weight": 10,
+          "description": "Uses is/are correctly."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! You clearly described the locations using the correct prepositions.",
+    "onFail": "Please check your sentences. Did you use 'in', 'on', and either 'under' or 'next to'?",
+    "onPartial": "Good effort. Make sure you don't forget the 'the' before the place (e.g., 'on the desk', not 'on desk')."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "prepositions",
+    "place",
+    "in_on_under"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If you are describing a plural item (like keys or shoes), use 'are' instead of 'is' (e.g., My shoes are under the bed).",
+  "commonMistakes": [
+    "Writing 'The pen in the bag.' (Missing the verb 'is').",
+    "Writing 'The book is on desk.' (Missing 'the')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B6_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

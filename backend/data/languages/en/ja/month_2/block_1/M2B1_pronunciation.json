@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_en_M2B1_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Adjectives and Existent Locations",
+  "learningGoal": "The learner will correctly pronounce long descriptive phrases, focusing on the negative conjugations of i-adjectives and complex positional phrases.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M2B1_lesson_001",
+    "ja_en_M2B1_vocabulary_001"
+  ],
+  "instructions": "Month 2 pronunciation gets harder. You will be tested on dropping the 'i' for negative adjectives, and stringing together multi-part location sentences. Listen closely to the rhythm of the native speaker.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "When making an i-adjective negative (e.g. Takaku arimasen), make sure the 'ku' is pronounced clearly."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p001",
+      "targetText": "おいしいです",
+      "transliteration": "Oishii desu",
+      "baseTranslation": "It is delicious",
+      "phoneticHint": "oh-ee-shee-ee des",
+      "syllableSplit": "o-i-shi-i de-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p001",
+      "slowAudioRef": "audioAssets.slowAudio_p001",
+      "commonMispronunciation": "Swallowing the double 'i' sound at the end of oishii."
+    },
+    {
+      "itemId": "p002",
+      "targetText": "おいしくありません",
+      "transliteration": "Oishiku arimasen",
+      "baseTranslation": "It is NOT delicious",
+      "phoneticHint": "oh-ee-shee-koo ah-ree-mah-sen",
+      "syllableSplit": "o-i-shi-ku a-ri-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p002",
+      "slowAudioRef": "audioAssets.slowAudio_p002",
+      "commonMispronunciation": "Saying 'Oishiiku arimasen' (forgetting to drop the final i before adding ku)."
+    },
+    {
+      "itemId": "p003",
+      "targetText": "きれいな ひと",
+      "transliteration": "Kirei na hito",
+      "baseTranslation": "A beautiful person",
+      "phoneticHint": "kee-ray nah hee-toh",
+      "syllableSplit": "ki-re-i na hi-to",
+      "nativeAudioRef": "audioAssets.nativeAudio_p003",
+      "slowAudioRef": "audioAssets.slowAudio_p003",
+      "commonMispronunciation": "Saying 'Kirei hito' without adding the 'na'."
+    },
+    {
+      "itemId": "p004",
+      "targetText": "きれいじゃありません",
+      "transliteration": "Kirei ja arimasen",
+      "baseTranslation": "It is NOT beautiful/clean",
+      "phoneticHint": "kee-ray jah ah-ree-mah-sen",
+      "syllableSplit": "ki-re-i ja a-ri-ma-se-n",
+      "nativeAudioRef": "audioAssets.nativeAudio_p004",
+      "slowAudioRef": "audioAssets.slowAudio_p004",
+      "commonMispronunciation": "Saying 'Kireiku arimasen'. It is a na-adjective exception."
+    },
+    {
+      "itemId": "p005",
+      "targetText": "ねこが います",
+      "transliteration": "Neko ga imasu",
+      "baseTranslation": "There is a cat",
+      "phoneticHint": "neh-koh gah ee-mahs",
+      "syllableSplit": "ne-ko ga i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p005",
+      "slowAudioRef": "audioAssets.slowAudio_p005",
+      "commonMispronunciation": "Saying 'Neko wa imasu'. When introducing new existence, use 'ga'."
+    },
+    {
+      "itemId": "p006",
+      "targetText": "つくえの うえ",
+      "transliteration": "Tsukue no ue",
+      "baseTranslation": "Top of the desk",
+      "phoneticHint": "tsoo-koo-eh noh oo-eh",
+      "syllableSplit": "tsu-ku-e no u-e",
+      "nativeAudioRef": "audioAssets.nativeAudio_p006",
+      "slowAudioRef": "audioAssets.slowAudio_p006",
+      "commonMispronunciation": "Pausing between tsukue and no."
+    },
+    {
+      "itemId": "p007",
+      "targetText": "きの したに います",
+      "transliteration": "Ki no shita ni imasu",
+      "baseTranslation": "(Someone/animal) is under the tree",
+      "phoneticHint": "kee noh shee-tah nee ee-mahs",
+      "syllableSplit": "ki no shi-ta ni i-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p007",
+      "slowAudioRef": "audioAssets.slowAudio_p007",
+      "commonMispronunciation": "Pronouncing 'shita' heavily. The 'i' in shita often gets devoiced (sh'ta)."
+    },
+    {
+      "itemId": "p008",
+      "targetText": "はこの なかに あります",
+      "transliteration": "Hako no naka ni arimasu",
+      "baseTranslation": "(An object) is inside the box",
+      "phoneticHint": "hah-koh noh nah-kah nee ah-ree-mahs",
+      "syllableSplit": "ha-ko no na-ka ni a-ri-ma-su",
+      "nativeAudioRef": "audioAssets.nativeAudio_p008",
+      "slowAudioRef": "audioAssets.slowAudio_p008",
+      "commonMispronunciation": "Saying 'Hako naka' and forgetting the 'no' particle that links the two nouns."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "おいしいです おいしくありません きれいなひと きれいじゃありません ねこがいます つくえのうえ きのしたにいます はこのなかにあります",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic! You successfully navigated complex adjective conjugations and positional phrases.",
+    "onFail": "Keep practicing! Focus heavily on 'Oishiku arimasen' and 'Kirei ja arimasen'. Don't mix up the negative rules.",
+    "onPartial": "Good effort. Try to speak the positional phrases (Hako no naka ni) as one continuous thought without pausing at the particles."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "おいしいです おいしくありません きれいなひと きれいじゃありません ねこがいます つくえのうえ きのしたにいます はこのなかにあります",
+    "acceptedVariants": [
+      "おいしいです おいしく ありません きれいな ひと きれいじゃ ありません ねこが います つくえの うえ きの したに います はこの なかに あります"
+    ],
+    "syllableSplitReference": "o-i-shi-i-de-su o-i-shi-ku-a-ri-ma-se-n ki-re-i-na-hi-to ki-re-i-ja-a-ri-ma-se-n ne-ko-ga-i-ma-su tsu-ku-e-no-u-e ki-no-shi-ta-ni-i-ma-su ha-ko-no-na-ka-ni-a-ri-ma-su",
+    "phoneticApproximation": "oishiidesu oishikuarimasen kireinahito kireijaarimasen nekogaimasu tsukueno ue kinoshitani imasu hakononakani arimasu",
+    "nativeScriptReference": "おいしいです おいしくありません きれいなひと きれいじゃありません ねこがいます つくえのうえ きのしたにいます はこのなかにあります",
+    "transliteration": "Oishii desu Oishiku arimasen Kirei na hito Kirei ja arimasen Neko ga imasu Tsukue no ue Ki no shita ni imasu Hako no naka ni arimasu",
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "manual",
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b1/pronunciation/prompt.mp3",
+    "nativeAudio": "audio/ja_en/m2/b1/pronunciation/native_all.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b1/pronunciation/slow_all.mp3",
+    "normalAudio": null,
+    "audioTranscript": "おいしいです。おいしくありません。きれいな ひと。きれいじゃありません。ねこが います。つくえの うえ。きの したに います。はこの なかに あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "adjectives",
+    "existence",
+    "intermediate",
+    "month2",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Rhythm is key. 'Hako no naka ni arimasu' flows together in a steady 1-2-3 beat.",
+  "commonMistakes": [
+    "Saying 'Kireiku arimasen'. The speech engine will mark this wrong. It must be 'Kirei ja arimasen'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_reading_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

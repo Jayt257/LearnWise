@@ -1,0 +1,237 @@
+{
+  "activityId": "en_hi_M2B5_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "The Buzzing 'TH' and Sneaky 'S'",
+  "learningGoal": "The learner will master the voiced dental fricative (/ð/) in demonstratives (preventing 'dis/dat' substitutions) and accurately distinguish between the short /ɪ/ in 'this' and the long /i:/ in 'these'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B5_lesson_001"],
+  "instructions": "This lesson attacks two hard sounds. First, the 'TH' in This/That/These/Those. It is NOT a 'D' sound. You must buzz your tongue on your top teeth like a bee! Second, the difference between This and These. 'This' is short and fast. 'These' is long and ends in a 'Z' sound like a bee!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL: Do not say 'Dis is my pen'. Put the tip of your tongue slightly UNDER your top teeth and blow air to make the buzzing TH sound."
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "This",
+      "transliteration": "दिस",
+      "baseTranslation": "यह",
+      "phoneticHint": "Buzzing TH. Short vowel. Fast S. 'TH-i-ss'. Do NOT say 'Dis'.",
+      "syllableSplit": "THIS",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Dis' or stretching the 'i' to sound like 'Thees'."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "These",
+      "transliteration": "दीज़",
+      "baseTranslation": "ये",
+      "phoneticHint": "Buzzing TH. Long 'EE' sound. Ends in a Z. 'TH-ee-zz'.",
+      "syllableSplit": "THEEZ",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Dees' or 'This'."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "That",
+      "transliteration": "दैट",
+      "baseTranslation": "वह",
+      "phoneticHint": "Buzzing TH. Sharp 'A'. 'TH-a-t'.",
+      "syllableSplit": "THAT",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Dat'."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "Those",
+      "transliteration": "दोज़",
+      "baseTranslation": "वे",
+      "phoneticHint": "Buzzing TH. Long 'O'. Ends in Z. 'TH-oh-zz'.",
+      "syllableSplit": "THOZ",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Dose'."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "This pen",
+      "transliteration": "दिस पेन",
+      "baseTranslation": "यह पेन",
+      "phoneticHint": "Short and fast 'This'.",
+      "syllableSplit": "THIS pen",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p06",
+      "targetText": "These pens",
+      "transliteration": "दीज़ पेन्ज़",
+      "baseTranslation": "ये पेन",
+      "phoneticHint": "Long 'THEEZ' and long 'PENZ'. Both end in Z!",
+      "syllableSplit": "THEEZ penz",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'This pens'."
+    },
+    {
+      "itemId": "p07",
+      "targetText": "That car",
+      "transliteration": "दैट कार",
+      "baseTranslation": "वह कार",
+      "phoneticHint": "'THAT car'. Buzz the tongue.",
+      "syllableSplit": "THAT car",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p08",
+      "targetText": "Those cars",
+      "transliteration": "दोज़ कार्ज़",
+      "baseTranslation": "वे कारें",
+      "phoneticHint": "'THOZ carz'. Both end in Z!",
+      "syllableSplit": "THOZ carz",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p09",
+      "targetText": "Ram's dog",
+      "transliteration": "राम'स डॉग",
+      "baseTranslation": "राम का कुत्ता",
+      "phoneticHint": "The 'S' belongs to Ram. Attach it directly to his name. 'Ramz dog'.",
+      "syllableSplit": "RAMZ dog",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pausing between Ram and the S."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "My sister's bag",
+      "transliteration": "माई सिस्टर'स बैग",
+      "baseTranslation": "मेरी बहन का बैग",
+      "phoneticHint": "'Sisterz bag'. Notice the Z sound again.",
+      "syllableSplit": "My SISTERZ bag",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p11",
+      "targetText": "This is Amit's book",
+      "transliteration": "दिस इज़ अमित'स बुक",
+      "baseTranslation": "यह अमित की किताब है",
+      "phoneticHint": "Combine the rules! Short 'This', buzzing TH, and an 'S' at the end of Amit.",
+      "syllableSplit": "THIS iz A-MIT'S book",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p12",
+      "targetText": "These are my shoes",
+      "transliteration": "दीज़ आर माई शूज",
+      "baseTranslation": "ये मेरे जूते हैं",
+      "phoneticHint": "'THEEZ are my shoez'.",
+      "syllableSplit": "THEEZ are my shoez",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Dis are my shoe'."
+    },
+    {
+      "itemId": "p13",
+      "targetText": "John's brother",
+      "transliteration": "जॉन'स ब्रदर",
+      "baseTranslation": "जॉन का भाई",
+      "phoneticHint": "'Johnz bruh-thur'. Two buzzing TH sounds in one phrase!",
+      "syllableSplit": "JOHNZ bruh-thur",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p14",
+      "targetText": "That boy's hat",
+      "transliteration": "दैट बॉय'स हैट",
+      "baseTranslation": "उस लड़के की टोपी",
+      "phoneticHint": "'THAT boyz hat'.",
+      "syllableSplit": "THAT boyz hat",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    },
+    {
+      "itemId": "p15",
+      "targetText": "Those girls' bags",
+      "transliteration": "दोज़ गर्ल्स बैग्स",
+      "baseTranslation": "उन लड़कियों के बैग",
+      "phoneticHint": "Very hard! The Z on Girls acts as the plural AND possessive. Just say 'Girlz'.",
+      "syllableSplit": "THOZ girlz bagz",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": ""
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "This These That Those",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Awesome! You successfully tamed the buzzing 'TH' sound, and didn't fall into the 'Dis/Dat' trap. Your 'This' and 'These' sound distinct!",
+    "onFail": "Keep practicing! You must separate 'This' (fast, ends in an 'ss' snake sound) from 'These' (long, ends in a 'zz' bee sound). Look in a mirror and make sure your tongue touches your teeth for the TH!",
+    "onPartial": "Good effort! Watch out for the 's' on names. Attach it directly! Say 'Johnz', do not pause between John and the S."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "this these that those this pen these pens that car those cars ram's dog my sister's bag this is amit's book these are my shoes john's brother that boy's hat those girls' bags",
+    "acceptedVariants": [
+      "this these that those this pen these pens that car those cars ram's dog my sister's bag this is amit's book these are my shoes john's brother that boy's hat those girls bags"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Demonstrative voiced dental fricatives /ð/ must not undergo alveolar stop substitution /d/. Terminal alveolar fricatives must voice to /z/ on plurals/possessives.",
+    "nativeScriptReference": null,
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/en_hi/m2/b5/pronunciation/native_voiced_th.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/en_hi/m2/b5/pronunciation/slow_voiced_th.mp3",
+    "normalAudio": "audio/en_hi/m2/b5/pronunciation/native_voiced_th.mp3",
+    "audioTranscript": "This. These. That. Those...",
+    "audioLanguage": "en",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "voiced_th", "demonstratives", "possessives", "beginner"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b5/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To make 'TH', gently bite the tip of your tongue and blow air out!",
+  "commonMistakes": [
+    "Saying 'Dis/Dat/Des/Dose'.",
+    "Pronouncing 'These' as 'This'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B5_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

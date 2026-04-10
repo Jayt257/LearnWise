@@ -1,0 +1,181 @@
+{
+  "activityId": "en_hi_M1B4_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Meeting a New Colleague",
+  "learningGoal": "The learner will formulate questions using inverted Subject-Verb syntax on-the-fly, correctly deploy WH question words, and verbally respond with structured temporal and numerical data.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M1B4_vocabulary_001"],
+  "instructions": "In this exercise, you are meeting a new colleague at your office. The colleague is asking you questions, and you must answer them aloud. Then, YOU must ask the colleague questions based on the Hindi prompts. Remember to FLIP the verb when you ask your questions!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "When you say a WH word (Like Where or What), make your lips into a small circle (like an 'O'). Do not let your teeth touch your lips."
+    }
+  ],
+  "speakingPrompt": "Answer your colleague's questions, and then ask the questions prompted in Hindi.",
+  "scenario": "You are sitting in the office breakroom. A new colleague named John walks in and introduces himself.",
+  "role": "New Employee",
+  "conversationPartner": "John (Your Colleague)",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "जॉन पूछता है, 'Hello! What is your name?' (नमस्ते! तुम्हारा नाम क्या है?)। अपना नाम बताएं (I am... का उपयोग करें)। (मान लें कि आपका नाम रोहन है)।",
+      "expectedSpeakingPoints": ["I am", "Rohan"],
+      "sampleResponse": {
+        "targetText": "I am Rohan.",
+        "transliteration": "आई एम रोहन।",
+        "baseTranslation": "मैं रोहन हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "जॉन पूछता है, 'Nice to meet you. How old are you?' (तुमसे मिलकर अच्छा लगा। तुम्हारी उम्र क्या है?)। यह कहने के लिए अंग्रेजी का प्रयोग करें कि आप 'पच्चीस' (25) के हैं।",
+      "expectedSpeakingPoints": ["I am", "twenty-five", "years old"],
+      "sampleResponse": {
+        "targetText": "I am twenty-five years old.",
+        "transliteration": "आई एम ट्वेंटी-फाइव इयर्स ओल्ड।",
+        "baseTranslation": "मैं पच्चीस वर्ष का हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "अब आपकी बारी है। आपको पूछना है, 'तुम कहाँ से हो?' (Where / are / you / from)।",
+      "expectedSpeakingPoints": ["Where", "are you", "from"],
+      "sampleResponse": {
+        "targetText": "Where are you from?",
+        "transliteration": "वेयर आर यू फ्रॉम?",
+        "baseTranslation": "तुम कहाँ से हो?"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "जॉन उत्तर देता है, 'I am from London. It is a big city. What day is it today?' (मैं लंदन से हूँ। यह एक बड़ा शहर है। आज कौन सा दिन है?)। उत्तर दें कि 'आज सोमवार है'।",
+      "expectedSpeakingPoints": ["Today is", "Monday"],
+      "sampleResponse": {
+        "targetText": "Today is Monday.",
+        "transliteration": "टुडे इज़ मंडे।",
+        "baseTranslation": "आज सोमवार है।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "अंतिम प्रश्न। जॉन से पूछें, 'पार्क कहाँ है?' (Where / is / the park)।",
+      "expectedSpeakingPoints": ["Where", "is the park"],
+      "sampleResponse": {
+        "targetText": "Where is the park?",
+        "transliteration": "वेयर इज़ द पार्क?",
+        "baseTranslation": "पार्क कहाँ है?"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "Hello! I am John.",
+    "transliteration": "हेलो! आई एम जॉन।",
+    "baseTranslation": "हेलो! मैं जॉन हूँ।"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "I am Rohan.",
+      "transliteration": "आई एम रोहन।",
+      "baseTranslation": "मैं रोहन हूँ।"
+    },
+    {
+      "targetText": "I am twenty-five years old.",
+      "transliteration": "आई एम ट्वेंटी-फाइव इयर्स ओल्ड।",
+      "baseTranslation": "मैं पच्चीस वर्ष का हूँ।"
+    },
+    {
+      "targetText": "Where are you from?",
+      "transliteration": "वेयर आर यू फ्रॉम?",
+      "baseTranslation": "तुम कहाँ से हो?"
+    },
+    {
+      "targetText": "Today is Monday.",
+      "transliteration": "टुडे इज़ मंडे।",
+      "baseTranslation": "आज सोमवार है।"
+    },
+    {
+      "targetText": "Where is the park?",
+      "transliteration": "वेयर इज़ द पार्क?",
+      "baseTranslation": "पार्क कहाँ है?"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 35,
+    "grammarWeight": 25,
+    "vocabularyWeight": 15
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "I am",
+      "twenty-five",
+      "years old",
+      "Where are you",
+      "Today is Monday",
+      "Where is the park"
+    ],
+    "requiredKeywords": [
+      "twenty-five",
+      "twenty",
+      "Where",
+      "are",
+      "Monday",
+      "is",
+      "park"
+    ],
+    "acceptableParaphrases": [
+      "My name is Rohan",
+      "I'm twenty five",
+      "Where you from?",
+      "It is Monday today"
+    ],
+    "scoringRubric": {
+      "Inversion Check": "Did the user correctly invert the verb to ask 'Where ARE YOU from?' and 'Where IS THE park'?",
+      "WH Phonetics": "Did the user use round lips to say 'Where', or did they incorrectly bite their lip (Ver)?"
+    },
+    "sampleAnswer": "I am Rohan. I am twenty-five years old. Where are you from? Today is Monday. Where is the park?",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Astounding! You were able to successfully form English questions on the fly by flipping the subject and the verb.",
+    "onFail": "Keep practicing! Listen to how you asked your questions. Did you say 'Where you are from'? That is wrong. You must say 'Where ARE YOU from'.",
+    "onPartial": "Good try! You answered the questions well. Make sure your pronunciation of 'Twenty' is clear, and don't forget to raise your voice pitch at the end of a question."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b4/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m1/b4/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b4/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m1/b4/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m1/b4/speaking/full_dialogue.mp3",
+    "audioTranscript": "John: Hello! What is your name?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "questions", "numbers", "dates", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b4/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To ask 'Where are you from', remember that 'Are' (the verb) comes BEFORE 'You' (the subject). Questions flip the order!",
+  "commonMistakes": [
+    "Asking 'Where you from?' (Missing the verb).",
+    "Answering 'I have twenty-five years' instead of 'I am twenty-five years old'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B4_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

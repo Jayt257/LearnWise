@@ -1,0 +1,218 @@
+{
+  "activityId": "ja_en_M3B6_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "reading",
+  "title": "My 3 Months in Japan",
+  "learningGoal": "The learner will read a comprehensive narrative that combines multiple grammar points (potential form, keigo, receiving favors) to evaluate full reading comprehension.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B6_lesson_001",
+    "ja_en_M3B6_vocabulary_001"
+  ],
+  "instructions": "Read this diary entry reflecting on someone's three months in Japan. Identify the changing abilities of the speaker and the interactions they had with their boss.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "This reading tests your ability to parse long sentences with embedded clauses and Keigo."
+    }
+  ],
+  "readingTitle": "A Journey to Fluency",
+  "readingText": "わたしは さんかげつ まえに にほんに きました。\nはじめは、にほんごが はなせませんでした。\nでも、たくさん べんきょうして、いまは はなせます。\nきのう、ぶちょうが 「よく できましたね」と おっしゃいました。\nそして、ぶちょうに おすしを ごちそうして いただきました。\nこれからも、にほんで がんばる つもりです。",
+  "textInTargetLanguage": "わたしは さんかげつ まえに にほんに きました。\nはじめは、にほんごが はなせませんでした。\nでも、たくさん べんきょうして、いまは はなせます。\nきのう、ぶちょうが 「よく できましたね」と おっしゃいました。\nそして、ぶちょうに おすしを ごちそうして いただきました。\nこれからも、にほんで がんばる つもりです。",
+  "baseLanguageSupportText": "I came to Japan three months ago. At first, I could not speak Japanese. But, having studied a lot, now I can speak. Yesterday, the boss said 'You did very well.' And, I humbly received the boss treating me to sushi. From now on, I intend to do my best in Japan.",
+  "glossary": [
+    {
+      "targetText": "さんかげつ まえに",
+      "transliteration": "Sankagetsu mae ni",
+      "baseTranslation": "Three months ago",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "はじめは",
+      "transliteration": "Hajime wa",
+      "baseTranslation": "At first / In the beginning",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "はなせませんでした",
+      "transliteration": "Hanasemasen deshita",
+      "baseTranslation": "Could not speak (Potential past negative)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "べんきょうして",
+      "transliteration": "Benkyou shite",
+      "baseTranslation": "Having studied (Te-form connecting actions)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "おっしゃいました",
+      "transliteration": "Osshaimashita",
+      "baseTranslation": "Said (Respectful Sonkeigo of Iu)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ごちそうして いただきました",
+      "transliteration": "Gochisou shite itadakimashita",
+      "baseTranslation": "Humbly received being treated to a meal (Te-form + Itadaku)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "これからも",
+      "transliteration": "Kore kara mo",
+      "baseTranslation": "From now on as well",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "がんばる つもりです",
+      "transliteration": "Ganbaru tsumori desu",
+      "baseTranslation": "Intend to do my best (Plain form + tsumori)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "ぶちょうが 「よく できましたね」と おっしゃいました。",
+      "transliteration": "Buchou ga 'Yoku dekimashita ne' to osshaimashita.",
+      "baseTranslation": "The boss said 'You did very well'."
+    },
+    {
+      "targetText": "ぶちょうに おすしを ごちそうして いただきました。",
+      "transliteration": "Buchou ni osushi wo gochisou shite itadakimashita.",
+      "baseTranslation": "I humbly received the boss treating me to sushi."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "When did the speaker come to Japan?",
+      "questionType": "multiple_choice",
+      "options": [
+        "1 month ago",
+        "2 months ago",
+        "3 months ago",
+        "Last year"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Could the speaker speak Japanese in the beginning?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, perfectly.",
+        "A little bit.",
+        "No, they could not.",
+        "They did not want to."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What verb is used to say the boss 'said' something?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Iimashita",
+        "Hanasemashita",
+        "Osshaimashita",
+        "Moushimashita"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "What grammar structure is used to express that the speaker was treated to sushi by the boss?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Te-form + Kudasai",
+        "Te-form + Kuremashita",
+        "Te-form + Agemashita",
+        "Te-form + Itadakimashita"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the phrase meaning 'intend to do my best'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "3 months ago",
+      "q002": "No, they could not.",
+      "q003": "Osshaimashita",
+      "q004": "Te-form + Itadakimashita",
+      "q005": "ganbaru tsumori desu"
+    },
+    "acceptableParaphrases": {
+      "q005": ["ganbaru tsumori desu", "Ganbaru tsumori desu", "ganbaru tsumori"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Speaker improved their Japanese over 3 months.",
+      "Speaker used Sonkeigo to describe the boss talking.",
+      "Speaker used Kenjougo (itadaku) to receive a favor from the boss.",
+      "Speaker intends (tsumori) to keep trying."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent reading comprehension! You have synthesized multiple advanced grammar points.",
+    "onFail": "Review the passage. Pay attention to verb endings: 'hanasemasen' (cannot speak), 'itadakimashita' (received).",
+    "onPartial": "Good effort. Note how 'itadakimashita' means you received the action (treating to a meal) from someone higher ranking."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m3/b6/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b6/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m3/b6/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m3/b6/reading/normal_reading.mp3",
+    "audioTranscript": "わたしは さんかげつ まえに にほんに きました。はじめは、にほんごが はなせませんでした。でも、たくさん べんきょうして、いまは はなせます。きのう、ぶちょうが 「よく できましたね」と おっしゃいました。そして、ぶちょうに おすしを ごちそうして いただきました。これからも、にほんで がんばる つもりです。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "review",
+    "comprehensive",
+    "advanced",
+    "month3",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the verbs carefully. They tell you who is doing the action, and if they can or intend to do it.",
+  "commonMistakes": [
+    "Thinking the boss humbly received the sushi."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B6_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,183 @@
+{
+  "activityId": "en_ja_M2B3_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "Linking Polite Phrases",
+  "learningGoal": "Master the linked pronunciation of common polite phrases (Could you, Would you, Can I) and contractions (I'd like, wanna).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M2B3_lesson_1"
+  ],
+  "instructions": "Could you や Would you のようなフレーズは、単語がつながって発音されます（リンキング）。ネイティブのようにスムーズに言えるように練習しましょう。マイクに向かってリピートしてください。(Practice linking the words in polite phrases. Repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "Could you",
+      "transliteration": "クジュー",
+      "baseTranslation": "〜していただけますか",
+      "phoneticHint": "The 'd' in Could and the 'y' in you link together to make a 'j' sound. Cuh-joo.",
+      "syllableSplit": "could you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Kudo yuu' distinctly."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "Would you",
+      "transliteration": "ウジュー",
+      "baseTranslation": "〜していただけますか",
+      "phoneticHint": "Similar to Could you, the 'd' and 'y' blend to a 'j' sound. Wuh-joo.",
+      "syllableSplit": "would you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Uddo yuu'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "Can I",
+      "transliteration": "キャナイ",
+      "baseTranslation": "〜してもいいですか",
+      "phoneticHint": "The 'n' and 'I' link together. Ca-nai.",
+      "syllableSplit": "can I",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Kyan Ai' with a pause in the middle."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "Can you",
+      "transliteration": "キャニュー",
+      "baseTranslation": "〜してくれますか",
+      "phoneticHint": "The 'n' and 'y' link together. Ca-nyoo.",
+      "syllableSplit": "can you",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Kyan yuu'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "May I",
+      "transliteration": "メイ アイ",
+      "baseTranslation": "〜してもよろしいでしょうか",
+      "phoneticHint": "Link the 'y' sound smoothly into the 'I'. May-yai.",
+      "syllableSplit": "may I",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Mei Ai' sharply."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "I'd like",
+      "transliteration": "アイドライク",
+      "baseTranslation": "〜が欲しいです（I would like の短縮）",
+      "phoneticHint": "The 'd' is very soft. I-d-like.",
+      "syllableSplit": "I'd like",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Aido raiku'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "I would like",
+      "transliteration": "アイ ウッド ライク",
+      "baseTranslation": "〜が欲しいです",
+      "phoneticHint": "Try not to put an 'o' at the end of would. I wud like.",
+      "syllableSplit": "I would like",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Ai uddo raiku'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "Would you like",
+      "transliteration": "ウジュー ライク",
+      "baseTranslation": "〜はいかがですか",
+      "phoneticHint": "Wuh-joo-like.",
+      "syllableSplit": "would you like",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Uddo yuu raiku'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "wanna",
+      "transliteration": "ワナ",
+      "baseTranslation": "〜したい（want to のカジュアルな発音）",
+      "phoneticHint": "Wa-nuh. This is very casual, so use it with friends, not in polite situations!",
+      "syllableSplit": "wan-na",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying it as 'wan-to'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "please",
+      "transliteration": "プリーズ",
+      "baseTranslation": "お願いします",
+      "phoneticHint": "Make sure the 's' at the end sounds like a 'z'. Plee-z.",
+      "syllableSplit": "please",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'puriisu' with an 's' sound."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Could you Would you Can I Can you May I I'd like I would like Would you like wanna please",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! Your linking sounds very natural, just like a native speaker.",
+    "onFail": "Please try again. Focus on blending the words together (like Cuh-joo). Don't pause between them.",
+    "onPartial": "Good effort! Remember to make the 's' in 'please' sound like a 'z'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Could you Would you Can I Can you May I I'd like I would like Would you like wanna please",
+    "acceptedVariants": [
+      "Could you Would you Can I Can you May I I would like I would like Would you like wanna please",
+      "could you would you can i can you may i i'd like i would like would you like want to please"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "Could you Would you Can I Can you May I I'd like I would like Would you like wanna please",
+    "transliteration": "cuhjoo wuhjoo caneye cannyoo mayeye idelike eyewudlike wuhjoolike wunuh pleez",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M2B3_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M2B3_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Could you, Would you, Can I, Can you, May I, I'd like, I would like, Would you like, wanna, please",
+    "audioLanguage": "en",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "politeness",
+    "linking",
+    "modals"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Try to say 'Could you' as one word, not two separate words.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B3_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

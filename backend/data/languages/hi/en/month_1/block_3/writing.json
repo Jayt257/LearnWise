@@ -1,0 +1,167 @@
+{
+  "activityId": "en_hi_M1B3_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "Describing Objects Around You",
+  "learningGoal": "The learner will generate a 40-120 word paragraph correctly inserting indefinite articles (a/an) before singular common nouns and omitting them before pluralized variants.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 40,
+  "prerequisites": ["en_hi_M1B3_reading_001"],
+  "instructions": "Look around your room or imagine a classroom. Write a paragraph describing at least 5 things you see. You MUST use 'a' or 'an' for single things (like 'a book', 'an apple'). You MUST use plural words with '-s' or '-es' for multiple things (like 'two pens', 'buses').",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Remember the golden rule: Do not write 'a books' or 'an apples'. 'A' and 'An' mean ONE."
+    }
+  ],
+  "writingPrompt": "Describe what you see. Include at least two singular objects using A/An, and at least two plural objects using -s or -es.",
+  "promptGoal": "Demonstrate the ability to structure English nouns correctly, attaching mandatory articles to singulars while generating proper suffixes for plurals.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "Book / Books",
+      "transliteration": "बुक / बुक्स",
+      "baseTranslation": "किताब / किताबें",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Pen / Pens",
+      "transliteration": "पेन / पेन्स",
+      "baseTranslation": "कलम / कलमें",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Apple / Apples",
+      "transliteration": "ऐपल / ऐपल्स",
+      "baseTranslation": "सेब / सेब (बहुवचन)",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Box / Boxes",
+      "transliteration": "बॉक्स / बॉक्सेस",
+      "baseTranslation": "डिब्बा / डिब्बे",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Bus / Buses",
+      "transliteration": "बस / बसेस",
+      "baseTranslation": "बस / बसें",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Cat / Cats",
+      "transliteration": "कैट / कैट्स",
+      "baseTranslation": "बिल्ली / बिल्लियाँ",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Dog / Dogs",
+      "transliteration": "डॉग / डॉग्स",
+      "baseTranslation": "कुत्ता / कुत्ते",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "Umbrella",
+      "transliteration": "अम्ब्रेला",
+      "baseTranslation": "छाता",
+      "partOfSpeech": "Noun"
+    }
+  ],
+  "referenceHints": [
+    "Use A before consonant sounds (A dog, A cat).",
+    "Use An before vowel sounds (An apple, An umbrella).",
+    "A box -> Two boxes.",
+    "A cat -> Two cats."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I am in my room. I see a bed. I see an apple on the table. It is a red apple. I have a cat. I also have two dogs. The dogs are fast. I see a book. My brother has three books. He has two boxes. We are happy.",
+      "transliteration": "आई एम इन माई रूम। आई सी अ बेड। आई सी ऐन ऐपल ऑन द टेबल। इट इज़ अ रेड ऐपल। आई हैव अ कैट। आई ऑल्सो हैव टू डॉग्स। द डॉग्स आर फास्ट। आई सी अ बुक। माई ब्रदर हैज़ थ्री बुक्स। ही हैज़ टू बॉक्सेस। वी आर हैप्पी।",
+      "baseTranslation": "मैं अपने कमरे में हूँ। मैं एक बिस्तर देखता हूँ। मैं मेज पर एक सेब देखता हूँ। यह एक लाल सेब है। मेरे पास एक बिल्ली है। मेरे पास दो कुत्ते भी हैं। कुत्ते तेज हैं। मैं एक किताब देखता हूँ। मेरे भाई के पास तीन किताबें हैं। उसके पास दो डिब्बे हैं। हम खुश हैं।",
+      "qualityLevel": "excellent",
+      "annotation": "Excellent answer. The writer uses 'an apple' (vowel), 'a bed' (consonant), 'three books' (basic plural), and 'two boxes' (es plural)."
+    },
+    {
+      "targetText": "I see a dog and a cat. I eat an apple. I have two pens and boxes.",
+      "transliteration": "आई सी अ डॉग एंड अ कैट। आई ईट ऐन ऐपल। आई हैव टू पेन्स एंड बॉक्सेस।",
+      "baseTranslation": "मैं एक कुत्ता और एक बिल्ली देखता हूँ। मैं एक सेब खाता हूँ। मेरे पास दो पेन और डिब्बे हैं।",
+      "qualityLevel": "acceptable",
+      "annotation": "Acceptable. Fulfills the minimum requirements for singular A/An and plural words."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Article Placement (A/An)",
+      "weight": 40,
+      "description": "Did the user use A/An correctly before singular common nouns? (e.g., 'a cat', 'an apple')"
+    },
+    {
+      "criterion": "Plural Formation",
+      "weight": 40,
+      "description": "Are plurals formed correctly with '-s' or '-es' and without 'A/An'?"
+    },
+    {
+      "criterion": "SVO Order & Capitalization",
+      "weight": 20,
+      "description": "Are sentences in correct SVO order? Does it start with capital letters?"
+    }
+  ],
+  "minimumWordCount": 30,
+  "maximumWordCount": 150,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "Hello, I am in my room. I see a book and a pen. I see an orange on the desk. Outside, I see two buses. I have three boxes.",
+    "acceptableAlternates": [
+      "I see a cat. I see an apple. My friend has two cats. He has three boxes."
+    ],
+    "requiredKeywords": [
+      "a",
+      "an"
+    ],
+    "grammarBaseline": "Must include at least one noun preceded by 'a', one preceded by 'an', and one pluralized noun.",
+    "lengthExpectation": "30 to 150 words",
+    "scoringRubric": {
+      "Articles": "40%",
+      "Plurals": "40%",
+      "Mechanics": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "Fantastic! You are mastering the foundational differences between English and Hindi regarding mandatory articles and plural structures.",
+    "onFail": "Keep trying! Remember, you CANNOT write 'I am a boys' or 'I see an cars'. A/An strictly means 'One'. Try again.",
+    "onPartial": "Good start! You may have missed an 'es' suffix (e.g., writing 'boxs' instead of 'boxes') or missed the 'an' before a vowel. Review the hints!"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m1/b3/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m1/b3/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m1/b3/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Describe what you see using 'A', 'An', and plural plurals.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "nouns", "articles", "plurals", "descriptions", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m1/b3/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Plural nouns like 'books' do not need an article. You can just say 'I see books'.",
+  "commonMistakes": [
+    "Writing 'A apples' instead of 'Apples'.",
+    "Writing 'He is a Amit' (Proper nouns NEVER take articles)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M1B3_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

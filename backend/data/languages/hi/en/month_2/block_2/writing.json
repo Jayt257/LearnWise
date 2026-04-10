@@ -1,0 +1,153 @@
+{
+  "activityId": "en_hi_M2B2_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "What Are You Doing?",
+  "learningGoal": "The learner will actively synthesize sentences in the Present Continuous tense (e.g. 'I am watching'), proving their ability to combine a Subject, an Auxiliary Verb, and a Present Participle.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B2_reading_001"],
+  "instructions": "Imagine you are talking to your friend on the phone right now. They ask, 'What are you doing?' Write 3 sentences exactly describing what you are doing, what your friend is doing, and what your dog is doing right now. Do not forget the helper verbs (am/is/are) or the 'ing'!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: DO NOT WRITE 'I eating'. You must write 'I AM eating'."
+    }
+  ],
+  "writingPrompt": "Write 3 sentences in the present continuous tense describing actions happening right now involving yourself, your friend, and a dog.",
+  "promptGoal": "Test strict adherence to the complete gerund formula: Subject + Auxiliary To Be + Root + ING.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "Am",
+      "transliteration": "एम",
+      "baseTranslation": "हूँ",
+      "partOfSpeech": "Help Verb"
+    },
+    {
+      "targetText": "Is",
+      "transliteration": "इज़",
+      "baseTranslation": "है",
+      "partOfSpeech": "Help Verb"
+    },
+    {
+      "targetText": "Are",
+      "transliteration": "आर",
+      "baseTranslation": "हैं / हो",
+      "partOfSpeech": "Help Verb"
+    },
+    {
+      "targetText": "Reading",
+      "transliteration": "रीडिंग",
+      "baseTranslation": "पढ़ रहा/रही",
+      "partOfSpeech": "Action"
+    },
+    {
+      "targetText": "Watching",
+      "transliteration": "वाचिंग",
+      "baseTranslation": "देख रहा/रही",
+      "partOfSpeech": "Action"
+    },
+    {
+      "targetText": "Sleeping",
+      "transliteration": "स्लीपिंग",
+      "baseTranslation": "सो रहा/रही",
+      "partOfSpeech": "Action"
+    }
+  ],
+  "referenceHints": [
+    "Hindi: मैं टीवी देख रहा हूँ। => English: I am watching TV.",
+    "Do NOT write: 'I watching TV' or 'I am watch TV'.",
+    "Sentence 1 (Me): I am...",
+    "Sentence 2 (Friend): He/She is...",
+    "Sentence 3 (Dog): The dog is..."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I am studying English right now. My friend is reading a book. The dog is sleeping on the floor.",
+      "transliteration": "आई एम स्टडींग इंग्लिश राइट नाउ। माई फ्रेंड इज़ रीडिंग अ बुक। द डॉग इज़ स्लीपिंग ऑन द फ्लोर।",
+      "baseTranslation": "मैं अभी अंग्रेजी पढ़ रहा हूँ। मेरा दोस्त एक किताब पढ़ रहा है। कुत्ता फर्श पर सो रहा है।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully deployed the full auxiliary + ing structure for all three subjects without skipping components."
+    },
+    {
+      "targetText": "I eating. My friend is read. The dog sleeping.",
+      "transliteration": "आई ईटिंग। माई फ्रेंड इज़ रीड। द डॉग स्लीपिंग।",
+      "baseTranslation": "मैं खा रहा हूँ। मेरा दोस्त पढ़ रहा है। कुत्ता सो रहा है।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Dropped 'am' in the first sentence. Dropped 'ing' in the second. Dropped 'is' in the third. Review required."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Auxiliary Verb Presence",
+      "weight": 50,
+      "description": "Did the user use Am/Is/Are before the action verb?"
+    },
+    {
+      "criterion": "ING Suffix Presence",
+      "weight": 30,
+      "description": "Did the user append 'ing' to the action verb?"
+    },
+    {
+      "criterion": "Target Completion",
+      "weight": 20,
+      "description": "Were there 3 distinct sentences covering the requested subjects?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I am learning English right now. My friend is talking on the phone. The dog is running in the park.",
+    "acceptableAlternates": [
+      "I am eating an apple. She is going to work. My dog is sleeping."
+    ],
+    "requiredKeywords": [],
+    "grammarBaseline": "Every sentence MUST contain an auxiliary 'To Be' verb preceding an 'ing' present participle.",
+    "lengthExpectation": "3 sentences, roughly 15-20 words total.",
+    "scoringRubric": {
+      "Auxiliary Used": "50%",
+      "ING Used": "30%",
+      "Content Complete": "20%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You flawlessly combined both halves of the Present Continuous. You didn't drop the helper verb, and you didn't drop the 'ing'!",
+    "onFail": "Keep practicing! A sentence like 'I eating' is broken. It is a car without an engine. You MUST have 'Is, Am, or Are' to make it go: 'I AM eating'.",
+    "onPartial": "Good start! Check your verbs carefully. Make sure every single action word has an 'ing' on the end of it, and a helper verb in front of it."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b2/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b2/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b2/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "Write three sentences about what you, your friend, and a dog are doing exactly right now.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "present_continuous", "verbs", "ing", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b2/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Don't forget the sandwich! Subject + IS/AM/ARE + Action-ING.",
+  "commonMistakes": [
+    "Writing 'I am play'.",
+    "Writing 'He running'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B2_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

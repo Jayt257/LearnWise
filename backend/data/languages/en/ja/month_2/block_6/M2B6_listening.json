@@ -1,0 +1,188 @@
+{
+  "activityId": "ja_en_M2B6_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "Asking for Directions",
+  "learningGoal": "The learner will listen to a conversational dialogue to comprehend real-world directions involving traffic lights, turns, and landmarks.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B6_lesson_001",
+    "ja_en_M2B6_vocabulary_001"
+  ],
+  "instructions": "Listen to a tourist asking a local for directions to the post office. Track the instructions mentally.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen for the words 'Massugu' (straight) and 'Hidari' (left)."
+    }
+  ],
+  "listeningGoal": "Identify the exact sequence of movements the tourist must make to find the post office.",
+  "audioScenario": "A tourist speaking with a local on the street.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "すみません。ゆうびんきょくは どこですか。",
+      "transliteration": "Sumimasen. Yuubinkyoku wa doko desu ka.",
+      "baseTranslation": "Excuse me. Where is the post office?"
+    },
+    {
+      "targetText": "ゆうびんきょくですか。まっすぐ いってください。",
+      "transliteration": "Yuubinkyoku desu ka. Massugu itte kudasai.",
+      "baseTranslation": "The post office? Please go straight."
+    },
+    {
+      "targetText": "はい、まっすぐですね。",
+      "transliteration": "Hai, massugu desu ne.",
+      "baseTranslation": "Yes, straight, right."
+    },
+    {
+      "targetText": "そして、しんごうを ひだりに まがってください。",
+      "transliteration": "Soshite, shingou wo hidari ni magatte kudasai.",
+      "baseTranslation": "And then, please turn left at the traffic light."
+    },
+    {
+      "targetText": "ゆうびんきょくは ぎんこうの まえに あります。",
+      "transliteration": "Yuubinkyoku wa ginkou no mae ni arimasu.",
+      "baseTranslation": "The post office is in front of the bank."
+    },
+    {
+      "targetText": "わかりました。ありがとうございます。",
+      "transliteration": "Wakarimashita. Arigatou gozaimasu.",
+      "baseTranslation": "I understood. Thank you very much."
+    }
+  ],
+  "audioTranscriptFull": "（観光客）すみません。ゆうびんきょくは どこですか。\n（地元の人）ゆうびんきょくですか。まっすぐ いってください。\n（観光客）はい、まっすぐですね。\n（地元の人）そして、しんごうを ひだりに まがってください。ゆうびんきょくは ぎんこうの まえに あります。\n（観光客）わかりました。ありがとうございます。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What place is the tourist looking for?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The bank",
+        "The post office",
+        "The station",
+        "The hospital"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is the first instruction the local gives?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Turn right",
+        "Turn left",
+        "Go straight",
+        "Stop"
+      ],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Where should the tourist turn?",
+      "questionType": "multiple_choice",
+      "options": [
+        "At the corner",
+        "At the bridge",
+        "At the traffic light",
+        "At the station"
+      ],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Which direction should they turn?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Right",
+        "Left",
+        "They shouldn't turn"
+      ],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Where is the post office located relative to the bank?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Behind it",
+        "Next to it",
+        "In front of it",
+        "Inside it"
+      ],
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "The post office",
+      "q002": "Go straight",
+      "q003": "At the traffic light",
+      "q004": "Left",
+      "q005": "In front of it"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully tracked the route to the post office.",
+    "onFail": "Listen again carefully. 'Massugu' = straight. 'Shingou' = traffic light. 'Hidari' = left.",
+    "onPartial": "Good effort. Review the word 'Mae', which means 'front'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b6/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b6/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m2/b6/listening/native_dialogue.mp3",
+    "audioTranscript": "すみません。ゆうびんきょくは どこですか。ゆうびんきょくですか。まっすぐ いってください。はい、まっすぐですね。そして、しんごうを ひだりに まがってください。ゆうびんきょくは ぎんこうの まえに あります。わかりました。ありがとうございます。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "directions",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'Shingou' (traffic light).",
+  "commonMistakes": [
+    "Confusing 'Migi' (Right) and 'Hidari' (Left) while listening."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

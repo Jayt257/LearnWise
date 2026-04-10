@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_en_M2B4_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "Asking the Nurse",
+  "learningGoal": "The learner will listen to a conversational dialogue to comprehend requests for permission and soft/hard refusals in a formal setting.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B4_lesson_001",
+    "ja_en_M2B4_vocabulary_001"
+  ],
+  "instructions": "Listen to a visitor speaking with a nurse at a hospital. Pay attention to what the visitor asks to do, and whether the nurse allows it.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Listen carefully for the word 'Dame desu' (Not allowed) and 'ikemasen' (Must not)."
+    }
+  ],
+  "listeningGoal": "Identify what is permitted and what is prohibited inside the hospital.",
+  "audioScenario": "A visitor at a hospital front desk.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "すみません。はいっても いいですか。",
+      "transliteration": "Sumimasen. Haitte mo ii desu ka.",
+      "baseTranslation": "Excuse me. May I enter?"
+    },
+    {
+      "targetText": "はい、いいですよ。どうぞ。",
+      "transliteration": "Hai, ii desu yo. Douzo.",
+      "baseTranslation": "Yes, it's fine. Please."
+    },
+    {
+      "targetText": "ここで けいたいでんわを つかっても いいですか。",
+      "transliteration": "Koko de keitai denwa wo tsukatte mo ii desu ka.",
+      "baseTranslation": "May I use a mobile phone here?"
+    },
+    {
+      "targetText": "すみません、だめです。",
+      "transliteration": "Sumimasen, dame desu.",
+      "baseTranslation": "Sorry, it's not allowed."
+    },
+    {
+      "targetText": "びょういんで けいたいでんわを つかってはいけません。",
+      "transliteration": "Byouin de keitai denwa wo tsukatte wa ikemasen.",
+      "baseTranslation": "You must not use a mobile phone in the hospital."
+    }
+  ],
+  "audioTranscriptFull": "（来客）すみません。はいっても いいですか。\n（看護師）はい、いいですよ。どうぞ。\n（来客）ここで けいたいでんわを つかっても いいですか。\n（看護師）すみません、だめです。びょういんで けいたいでんわを つかってはいけません。",
+  "questionSet": [
+    {
+      "questionId": "q001",
+      "questionText": "What does the visitor ask to do first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Take a photo",
+        "Use a phone",
+        "Enter",
+        "Sit down"
+      ],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Does the nurse allow the first request?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Yes, she says 'ii desu yo'.",
+        "No, she says 'dame desu'.",
+        "She asks them to wait."
+      ],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "What is the second thing the visitor asks to do?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Smoke a cigarette",
+        "Take a photo",
+        "Use a mobile phone",
+        "Run"
+      ],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Why does the nurse refuse the second request?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Because it is a museum.",
+        "Because it is a hospital.",
+        "Because it is a library."
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "What strict grammar phrase does the nurse use at the very end?",
+      "questionType": "multiple_choice",
+      "options": [
+        "~te mo ii desu ka",
+        "~te kudasai",
+        "~te wa ikemasen",
+        "~te imasu"
+      ],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Enter",
+      "q002": "Yes, she says 'ii desu yo'.",
+      "q003": "Use a mobile phone",
+      "q004": "Because it is a hospital.",
+      "q005": "~te wa ikemasen"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Perfect listening! You successfully tracked the permissions and rules.",
+    "onFail": "Listen again carefully. 'Haitte' means enter. 'Tsukatte' means use.",
+    "onPartial": "Good effort. Review the word 'Byouin', which means hospital."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b4/listening/native_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b4/listening/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_en/m2/b4/listening/native_dialogue.mp3",
+    "audioTranscript": "すみません。はいっても いいですか。はい、いいですよ。どうぞ。ここで けいたいでんわを つかっても いいですか。すみません、だめです。びょういんで けいたいでんわを つかってはいけません。",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "permission",
+    "prohibition",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'Dame desu' (Not allowed).",
+  "commonMistakes": [
+    "Confusing 'Haitte' (enter) with 'Hashitte' (run)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B4_speaking_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

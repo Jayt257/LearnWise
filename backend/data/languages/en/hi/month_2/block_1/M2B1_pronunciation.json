@@ -1,0 +1,161 @@
+{
+  "activityId": "hi_en_M2B1_pronunciation_2",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Aspirated Sounds and Nasal Mergers",
+  "learningGoal": "Accurately pronounce the aspirated 'chh' in 'Chahiye' and the nasalized 'm'/'n' in dative pronouns.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M2B1_lesson_1"
+  ],
+  "instructions": "This block introduces highly frequent words with complex sounds. 'Chahiye' has an aspirated 'chh'. Words like 'Mahanga' (expensive) and 'Thanda' (cold) have internal nasal sounds. Practice these until they flow smoothly.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "चाहिए",
+      "transliteration": "Chahiye",
+      "baseTranslation": "is needed / want",
+      "phoneticHint": "chaa-hee-yay",
+      "syllableSplit": "chaa-hi-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'chai-yay' (like the tea). It must be three distinct syllables: chaa - hi - ye."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "to me",
+      "phoneticHint": "muh-jhay (aspirated jh)",
+      "syllableSplit": "mu-jhe",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'moo-jay'. The 'jh' needs a strong puff of air, and the 'u' is short."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "आपको",
+      "transliteration": "Aapko",
+      "baseTranslation": "to you (formal)",
+      "phoneticHint": "aap-ko",
+      "syllableSplit": "aap-ko",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Separating it into two words 'Aap ko'. It should flow as one continuous word."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "महँगा",
+      "transliteration": "Mahanga",
+      "baseTranslation": "expensive",
+      "phoneticHint": "muh-hung-gaa (nasal middle)",
+      "syllableSplit": "ma-han-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'ma-han-ga' with a hard 'n'. The 'n' is nasalized, bleeding into the 'g'."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "ठंडा",
+      "transliteration": "Thanda",
+      "baseTranslation": "cold",
+      "phoneticHint": "thun-daa (aspirated retroflex t)",
+      "syllableSplit": "than-da",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Using an English soft 't'. The tongue must curl back (retroflex) and push out air."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "गरम",
+      "transliteration": "Garam",
+      "baseTranslation": "hot",
+      "phoneticHint": "guh-rum",
+      "syllableSplit": "ga-ram",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'ga-ram' with long vowels. Both 'a's are short schwas (like 'u' in 'up')."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "हमें",
+      "transliteration": "Hamein",
+      "baseTranslation": "to us",
+      "phoneticHint": "huh-may-n (nasalize end)",
+      "syllableSplit": "ha-mein",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing a hard 'n' at the end. It should be a nasal vowel."
+    },
+    {
+      "itemId": "p_8",
+      "targetText": "क्या चाहिए?",
+      "transliteration": "Kya chahiye?",
+      "baseTranslation": "What do you want?",
+      "phoneticHint": "kyaa chaa-hee-yay",
+      "syllableSplit": "kya chaa-hi-ye",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Blending it all together as 'kya-chaiye'."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Clear aspiration on 'jh' in 'Mujhe' and 'chh' in 'Chahiye'. Correct nasalization on internal vowels.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Flawless! Your pronunciation of the 'Chahiye' construction sounds native.",
+    "onFail": "Listen closely to 'Chahiye'. It has three distinct beats: Chaa - hi - ye. Do not rush it.",
+    "onPartial": "Good effort. Focus on the aspirated 'jh' in 'Mujhe'. Push air out from your chest."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "chahiye",
+    "dative",
+    "adjectives",
+    "aspiration"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pay attention to the retroflex 'Th' in Thanda (cold). Curl your tongue back towards the roof of your mouth.",
+  "commonMistakes": [
+    "Pronouncing the 'u' in 'Mujhe' as a long 'oo'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M2B1_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

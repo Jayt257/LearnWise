@@ -1,0 +1,230 @@
+{
+  "activityId": "ja_en_M2B6_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "reading",
+  "title": "Finding the Hotel",
+  "learningGoal": "The learner will read a short set of directions to identify sequential movements and the relative location of a destination.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B6_lesson_001",
+    "ja_en_M2B6_vocabulary_001"
+  ],
+  "instructions": "Read the following message from a friend giving you directions to their hotel. Trace the path mentally to answer the questions.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Pay close attention to words like 'migi' (right) and 'hidari' (left)."
+    }
+  ],
+  "readingTitle": "Directions from the Station",
+  "readingText": "ここは えきです。ホテルは えきの ちかくに あります。まず、まっすぐ いってください。そして、しんごうを みぎに まがってください。はしを わたってください。ホテルは ぎんこうの となりに あります。",
+  "textInTargetLanguage": "ここは えきです。ホテルは えきの ちかくに あります。まず、まっすぐ いってください。そして、しんごうを みぎに まがってください。はしを わたってください。ホテルは ぎんこうの となりに あります。",
+  "baseLanguageSupportText": "This is the station. The hotel is near the station. First, please go straight. And then, please turn right at the traffic light. Please cross the bridge. The hotel is next to the bank.",
+  "glossary": [
+    {
+      "targetText": "えき",
+      "transliteration": "Eki",
+      "baseTranslation": "Station",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ちかく",
+      "transliteration": "Chikaku",
+      "baseTranslation": "Near",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "まず",
+      "transliteration": "Mazu",
+      "baseTranslation": "First",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "いってください",
+      "transliteration": "Itte kudasai",
+      "baseTranslation": "Please go",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "しんごう",
+      "transliteration": "Shingou",
+      "baseTranslation": "Traffic light",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "まがってください",
+      "transliteration": "Magatte kudasai",
+      "baseTranslation": "Please turn",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "はし",
+      "transliteration": "Hashi",
+      "baseTranslation": "Bridge",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "わたってください",
+      "transliteration": "Watatte kudasai",
+      "baseTranslation": "Please cross",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "となり",
+      "transliteration": "Tonari",
+      "baseTranslation": "Next to",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "ホテルは えきの ちかくに あります。",
+      "transliteration": "Hoteru wa eki no chikaku ni arimasu.",
+      "baseTranslation": "The hotel is near the station."
+    },
+    {
+      "targetText": "しんごうを みぎに まがってください。",
+      "transliteration": "Shingou wo migi ni magatte kudasai.",
+      "baseTranslation": "Please turn right at the traffic light."
+    },
+    {
+      "targetText": "ホテルは ぎんこうの となりに あります。",
+      "transliteration": "Hoteru wa ginkou no tonari ni arimasu.",
+      "baseTranslation": "The hotel is next to the bank."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "Where does the journey start?",
+      "questionType": "multiple_choice",
+      "options": [
+        "At the hotel",
+        "At the station",
+        "At the bank",
+        "At the bridge"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "What is the first instruction?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Turn right",
+        "Cross the bridge",
+        "Go straight",
+        "Turn left"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "Which direction should the person turn at the traffic light?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Left",
+        "Right",
+        "They shouldn't turn",
+        "Straight"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Where is the hotel located?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Behind the bank",
+        "In front of the station",
+        "Next to the bank",
+        "Next to the bridge"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Write the romaji for the word meaning 'traffic light'.",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "At the station",
+      "q002": "Go straight",
+      "q003": "Right",
+      "q004": "Next to the bank",
+      "q005": "shingou"
+    },
+    "acceptableParaphrases": {
+      "q005": ["shingou", "Shingou"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The start is the station.",
+      "Go straight, turn right at the traffic light.",
+      "Cross the bridge.",
+      "The hotel is next to the bank."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You successfully followed the map in Japanese.",
+    "onFail": "Review the directional words. Migi = Right. Hidari = Left. Massugu = Straight.",
+    "onPartial": "Good effort. Pay attention to 'Hashi wo watatte kudasai' (Cross the bridge)."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m2/b6/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b6/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m2/b6/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m2/b6/reading/normal_reading.mp3",
+    "audioTranscript": "ここは えきです。ホテルは えきの ちかくに あります。まず、まっすぐ いってください。そして、しんごうを みぎに まがってください。はしを わたってください。ホテルは ぎんこうの となりに あります。",
+    "audioLanguage": "ja",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "directions",
+    "te-form",
+    "intermediate",
+    "month2",
+    "block6"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the word 'Migi'. Does it mean left or right?",
+  "commonMistakes": [
+    "Confusing 'Migi' (Right) with 'Hidari' (Left)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B6_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

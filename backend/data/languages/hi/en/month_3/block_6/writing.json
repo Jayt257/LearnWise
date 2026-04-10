@@ -1,0 +1,139 @@
+{
+  "activityId": "en_hi_M3B6_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "The Graduation Speech",
+  "learningGoal": "The learner will generate a 4-sentence composition actively utilizing multiple tenses (Present Perfect, Future) and strict SVO syntax to describe personal progress, devoid of L1 mechanical translation.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M3B6_reading_001"],
+  "instructions": "This is your final writing test! Write a 4-sentence paragraph about your English journey. You must tell me what you have done, how you feel now, and what you will do in the future. Show off your grammar!",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "CRITICAL RULE: Write exactly 4 sentences. Follow the hints perfectly to prove you know how English verbs change!"
+    }
+  ],
+  "writingPrompt": "Write your 4-sentence speech: 1. I have studied... (Present Perfect). 2. I feel... (Present). 3. I can speak... (Modal of Ability). 4. I will... (Future).",
+  "promptGoal": "Evaluate independent generative capability across multiple verb dimensions (perfect, present, modal, future).",
+  "expectedWritingType": "short_essay",
+  "wordBank": [
+    {
+      "targetText": "Have studied",
+      "transliteration": "हैव स्टडीड",
+      "baseTranslation": "अध्ययन किया है (Present Perfect)",
+      "partOfSpeech": "Verb phrase"
+    },
+    {
+      "targetText": "Can",
+      "transliteration": "कैन",
+      "baseTranslation": "सकना (क्षमता)",
+      "partOfSpeech": "Modal Verb"
+    },
+    {
+      "targetText": "Will",
+      "transliteration": "विल",
+      "baseTranslation": "गा/गी/गे (भविष्य)",
+      "partOfSpeech": "Auxiliary Verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Start with 'I have studied English...'",
+    "Sentence 2: Tell me an emotion. 'I feel happy/confident/smart.'",
+    "Sentence 3: Make a claim. 'I can speak to people / I can speak well.'",
+    "Sentence 4: Predict the future. 'I will travel the world / I will get a new job.'"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "I have studied English for three months. I feel very confident. I can speak to my boss now. I will travel to London next year.",
+      "transliteration": "आई हैव स्टडीड इंग्लिश फॉर थ्री मंथ्स। आई फील वेरी कॉन्फिडेंट। आई कैन स्पीक टू माई बॉस नाउ। आई विल ट्रैवल टू लंदन नेक्स्ट ईयर।",
+      "baseTranslation": "मैंने तीन महीने तक अंग्रेजी का अध्ययन किया है। मैं बहुत आत्मविश्वासी महसूस करता हूँ। मैं अब अपने बॉस से बात कर सकता हूँ। मैं अगले साल लंदन की यात्रा करूँगा।",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully traversed four completely different grammatical realities (Perfect, Simple Present, Modal Ability, Simple Future) without structural failure."
+    },
+    {
+      "targetText": "I study English. I feeling good. I speak english. I go to London.",
+      "transliteration": "आई स्टडी इंग्लिश। आई फीलिंग गुड। आई स्पीक इंग्लिश। आई गो टू लंदन।",
+      "baseTranslation": "व्याकरण की गंभीर गलतियाँ। टेंस का कोई प्रयोग नहीं।",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. They failed to use the 'Have/Has' structure, failed to use 'Can', and failed to use 'Will'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Present Perfect Control",
+      "weight": 30,
+      "description": "Did the user correctly deploy 'I have studied'?"
+    },
+    {
+      "criterion": "Modal Accuracy",
+      "weight": 30,
+      "description": "Did the user use 'I can' to express ability?"
+    },
+    {
+      "criterion": "Future Synthesization",
+      "weight": 30,
+      "description": "Did the user definitively use 'Will' to express future plans?"
+    },
+    {
+      "criterion": "SVO Integrity",
+      "weight": 10,
+      "description": "Are all sentences Subject-Verb-Object?"
+    }
+  ],
+  "minimumWordCount": 15,
+  "maximumWordCount": 60,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "I have studied English for 90 days. I feel happy. I can speak very fast. I will travel to America.",
+    "acceptableAlternates": [
+      "I have studied English a lot. I feel great. I can speak to people. I will watch movies."
+    ],
+    "requiredKeywords": ["have", "studied", "feel", "can", "speak", "will"],
+    "grammarBaseline": "Zero tolerance for missing auxiliaries. The absence of 'have', 'can', or 'will' directly penalizes the associated scoring bracket.",
+    "lengthExpectation": "Exactly 4 sentences.",
+    "scoringRubric": {
+      "Uses Have Studied": "30%",
+      "Uses Can": "30%",
+      "Uses Will": "30%",
+      "Overall SVO syntax": "10%"
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You wrote a beautiful graduation speech! You successfully shifted your verbs from the past, to the present, and to the future! This is true English fluency.",
+    "onFail": "Please review your writing! Did you use the heavy verbs we learned? You must use 'HAVE studied', 'CAN speak', and 'WILL travel'. Try again to prove your grammar is perfect!",
+    "onPartial": "Good start! Double check your Future sentence. If it happens tomorrow or next year, you must add the 'Will' helper! 'I WILL travel'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m3/b6/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m3/b6/writing/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m3/b6/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/en_hi/m3/b6/writing/prompt.mp3",
+    "audioTranscript": "Write a 4-sentence graduation speech about your English journey using different tenses.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "final_exam", "tenses", "future", "present_perfect", "modals", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m3/b6/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Follow the verbs: HAVE, CAN, and WILL.",
+  "commonMistakes": [
+    "Dropping 'Have' and 'Will' due to simple present L1 baseline habits."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M3B6_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

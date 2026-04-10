@@ -1,0 +1,198 @@
+{
+  "activityId": "en_ja_M3B2_listening_5",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "Have You Ever...?",
+  "learningGoal": "Listen to a conversation about travel experiences and identify present perfect questions and answers.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M3B2_writing_4"
+  ],
+  "instructions": "二人の旅行についての会話を聞いてください。「今までに〜したことがありますか？（Have you ever...?）」という質問と、それに対する答え方に注意して聞き取りましょう。(Listen to the conversation about travel experiences. Pay attention to 'Have you ever...?' questions and how they are answered.)",
+  "listeningGoal": "To recognize 'Have you ever' questions and understand how to answer them with 'Yes, I have' or 'No, I haven't'.",
+  "audioScenario": "Two colleagues are talking about their travel experiences during a lunch break.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "This pizza is really good.",
+      "transliteration": "ディス ピザ イズ リアリー グッド。",
+      "baseTranslation": "このピザ、本当に美味しいね。"
+    },
+    {
+      "targetText": "Yes, it is. Have you ever been to Italy?",
+      "transliteration": "イエス、イット イズ。ハヴ ユー エヴァー ビーン トゥ イタリー？",
+      "baseTranslation": "そうだね。あなたは今までにイタリアに行ったことがある？"
+    },
+    {
+      "targetText": "No, I haven't. I want to go there someday.",
+      "transliteration": "ノー、アイ ハヴント。アイ ウォント トゥ ゴー ゼア サムデイ。",
+      "baseTranslation": "ううん、ないよ。いつか行ってみたいな。"
+    },
+    {
+      "targetText": "I went to Rome last year. It was amazing.",
+      "transliteration": "アイ ウェント トゥ ローマ ラスト イヤー。イット ワズ アメイジング。",
+      "baseTranslation": "私は去年ローマに行ったんだ。素晴らしかったよ。"
+    },
+    {
+      "targetText": "Wow! Have you ever eaten real Italian pizza?",
+      "transliteration": "ワオ！ハヴ ユー エヴァー イートン リアル イタリアン ピザ？",
+      "baseTranslation": "うわあ！本物のイタリアのピザを食べたことはある？"
+    },
+    {
+      "targetText": "Yes, I have. It was made in a traditional oven.",
+      "transliteration": "イエス、アイ ハヴ。イット ワズ メイド イン ア トラディショナル オーブン。",
+      "baseTranslation": "うん、あるよ。伝統的なオーブンで作られていたんだ。"
+    },
+    {
+      "targetText": "That sounds delicious. How about Asia? Have you been to Japan?",
+      "transliteration": "ザット サウンズ デリシャス。ハウ アバウト エイジア？ ハヴ ユー ビーン トゥ ジャパン？",
+      "baseTranslation": "美味しそうだね。アジアはどう？日本には行ったことある？"
+    },
+    {
+      "targetText": "Yes, I've been to Tokyo twice.",
+      "transliteration": "イエス、アイヴ ビーン トゥ トーキョー トゥワイス。",
+      "baseTranslation": "うん、東京には2回行ったことがあるよ。"
+    },
+    {
+      "targetText": "Really? I have lived in Tokyo for two years.",
+      "transliteration": "リアリー？ アイ ハヴ リヴド イン トーキョー フォー トゥー イヤーズ。",
+      "baseTranslation": "本当？私は東京に2年間住んでいたことがあるよ。"
+    },
+    {
+      "targetText": "Oh, I didn't know that!",
+      "transliteration": "オー、アイ ディドント ノウ ザット！",
+      "baseTranslation": "えっ、それは知らなかった！"
+    }
+  ],
+  "audioTranscriptFull": "Person A: This pizza is really good.\nPerson B: Yes, it is. Have you ever been to Italy?\nPerson A: No, I haven't. I want to go there someday.\nPerson B: I went to Rome last year. It was amazing.\nPerson A: Wow! Have you ever eaten real Italian pizza?\nPerson B: Yes, I have. It was made in a traditional oven.\nPerson A: That sounds delicious. How about Asia? Have you been to Japan?\nPerson B: Yes, I've been to Tokyo twice.\nPerson A: Really? I have lived in Tokyo for two years.\nPerson B: Oh, I didn't know that!",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "イタリアに行ったことがあるのはどちらですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Person A",
+        "Person B",
+        "Both of them",
+        "Neither of them"
+      ],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Person Bがローマに行ったのはいつですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "This year",
+        "Last year",
+        "Two years ago",
+        "Twice"
+      ],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Person Bが食べた本物のイタリアンピザは、どのように作られましたか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "It was made by Person A.",
+        "It was made in a traditional oven.",
+        "It was made in Tokyo.",
+        "It was made with a machine."
+      ],
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Person Bは「何回（how many times）」東京に行ったことがありますか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Never"
+      ],
+      "audioTimestamp": "00:28",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "東京に2年間住んでいたのはどちらですか？",
+      "questionType": "multiple_choice",
+      "options": [
+        "Person A",
+        "Person B",
+        "Both of them",
+        "Neither of them"
+      ],
+      "audioTimestamp": "00:33",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Person B",
+      "q2": "Last year",
+      "q3": "It was made in a traditional oven.",
+      "q4": "Twice",
+      "q5": "Person A"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent! You perfectly understood who has done what.",
+    "onFail": "Listen again closely. Pay attention to who says 'Yes, I have' and who says 'No, I haven't'.",
+    "onPartial": "Good effort. Notice how Person B switches from Present Perfect ('Have you ever...?') to Simple Past ('I went last year') when talking about a specific time."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M3B2_listening_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M3B2_listening_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "Person A: This pizza is really good. Person B: Yes, it is...",
+    "audioLanguage": "en",
+    "audioDuration": 45,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "listening",
+    "present_perfect",
+    "have_you_ever",
+    "experiences"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Listen for 'Have you ever' (今までに〜した？) and the answers 'Yes, I have' / 'No, I haven't'.",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M3B2_vocabulary_6"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,181 @@
+{
+  "activityId": "en_hi_M2B2_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "The Nosy Parent",
+  "learningGoal": "The learner will verbally construct inverted 'WH-Questions' and full Present Continuous responses, enforcing the phonetic execution of auxiliary verbs ('is/are') and the '-ing' suffix in real-time.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "hi",
+  "targetLanguage": "en",
+  "estimatedTime": 45,
+  "prerequisites": ["en_hi_M2B2_vocabulary_001"],
+  "instructions": "You are playing the role of a very nosy parent making sure the kids are doing their homework. You will ask them questions using 'What' and 'Where', and you will also answer their questions using 'I am'. Do not forget your helper verbs (is/am/are)!",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Speak clearly. The microphone is listening to make sure you say the helper verb. Do not say 'What you doing?'. Say 'What ARE you doing?'"
+    }
+  ],
+  "speakingPrompt": "Respond to the Hindi prompts aloud.",
+  "scenario": "You are a parent trying to find out what your teenage children are up to.",
+  "role": "The Parent",
+  "conversationPartner": "Your son and daughter",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "अपने बेटे से पूछें: 'तुम क्या कर रहे हो?' (What...)",
+      "expectedSpeakingPoints": ["What", "are you", "doing"],
+      "sampleResponse": {
+        "targetText": "What are you doing?",
+        "transliteration": "वॉट आर यू डूइंग?",
+        "baseTranslation": "तुम क्या कर रहे हो?"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "बेटा कहता है: 'मैं जा रहा हूँ।' (I am going)। उससे पूछें: 'तुम कहाँ जा रहे हो?' (Where...)",
+      "expectedSpeakingPoints": ["Where", "are you", "going"],
+      "sampleResponse": {
+        "targetText": "Where are you going?",
+        "transliteration": "वेयर आर यू गोइंग?",
+        "baseTranslation": "तुम कहाँ जा रहे हो?"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "बेटा चला जाता है। अब बेटी से पूछें: 'तुम क्यों हँस रही हो?' (Why...)",
+      "expectedSpeakingPoints": ["Why", "are you", "laughing"],
+      "sampleResponse": {
+        "targetText": "Why are you laughing?",
+        "transliteration": "वाय आर यू लाफिंग?",
+        "baseTranslation": "तुम क्यों हँस रही हो?"
+      }
+    },
+    {
+      "subTaskId": "t4",
+      "prompt": "बेटी कहती है: 'I am laughing at a video.' (मैं एक वीडियो पर हँस रही हूँ)। फिर वह आपसे पूछती है कि आप क्या कर रहे हैं। उसे बताएं: 'मैं काम कर रहा हूँ।' (I am...)",
+      "expectedSpeakingPoints": ["I am", "working"],
+      "sampleResponse": {
+        "targetText": "I am working.",
+        "transliteration": "आई एम वर्किंग।",
+        "baseTranslation": "मैं काम कर रहा हूँ।"
+      }
+    },
+    {
+      "subTaskId": "t5",
+      "prompt": "बेटी वापस फोन देखने लगती है। उसे आदेश दें: 'तुम पढ़ नहीं रही हो!' (You are not...)",
+      "expectedSpeakingPoints": ["You are", "not reading"],
+      "sampleResponse": {
+        "targetText": "You are not reading!",
+        "transliteration": "यू आर नॉट रीडिंग!",
+        "baseTranslation": "तुम पढ़ नहीं रही हो!"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "What are you doing?",
+    "transliteration": "वॉट आर यू डूइंग?",
+    "baseTranslation": "तुम क्या कर रहे हो?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "What are you doing?",
+      "transliteration": "वॉट आर यू डूइंग?",
+      "baseTranslation": "तुम क्या कर रहे हो?"
+    },
+    {
+      "targetText": "Where are you going?",
+      "transliteration": "वेयर आर यू गोइंग?",
+      "baseTranslation": "तुम कहाँ जा रहे हो?"
+    },
+    {
+      "targetText": "Why are you laughing?",
+      "transliteration": "वाय आर यू लाफिंग?",
+      "baseTranslation": "तुम क्यों हँस रही हो?"
+    },
+    {
+      "targetText": "I am working.",
+      "transliteration": "आई एम वर्किंग।",
+      "baseTranslation": "मैं काम कर रहा हूँ।"
+    },
+    {
+      "targetText": "You are not reading!",
+      "transliteration": "यू आर नॉट रीडिंग!",
+      "baseTranslation": "तुम पढ़ नहीं रही हो!"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "What are you doing",
+      "Where are you going",
+      "Why are you laughing",
+      "I am working",
+      "You are not reading"
+    ],
+    "requiredKeywords": [
+      "What",
+      "Where",
+      "Why",
+      "are",
+      "am",
+      "doing",
+      "going",
+      "laughing",
+      "working",
+      "reading"
+    ],
+    "acceptableParaphrases": [
+      "Why are you laughing right now",
+      "I am working right now"
+    ],
+    "scoringRubric": {
+      "Inversion": "Did the user say 'What are you doing' instead of 'What you are doing'?",
+      "Auxiliary": "Did the user successfully include 'am/are' in their statements?"
+    },
+    "sampleAnswer": "What are you doing? Where are you going? Why are you laughing? I am working. You are not reading!",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Magnificent! You flawlessly formed English questions by moving 'are' in front of 'you' (e.g. What ARE you doing), which is a very hard habit to build!",
+    "onFail": "Keep practicing! A very common mistake is saying 'What you doing?'. In English, you MUST use the helper verb: 'What ARE you doing?'",
+    "onPartial": "Good try! Make sure you don't drop the 'ing' sound. It is 'I am working', not 'I am work'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/en_hi/m2/b2/speaking/prompts.mp3",
+    "nativeAudio": "audio/en_hi/m2/b2/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/en_hi/m2/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/en_hi/m2/b2/speaking/sample_responses.mp3",
+    "slowAudio": "audio/en_hi/m2/b2/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/en_hi/m2/b2/speaking/full_dialogue.mp3",
+    "audioTranscript": "Parent: What are you doing?",
+    "audioLanguage": "en",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "present_continuous", "wh_questions", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/en_hi/m2/b2/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "In a question, the helper verb comes BEFORE the person. '[WH-word] + [is/are] + [You/He/They] + [Verbing]'.",
+  "commonMistakes": [
+    "Saying 'What you are doing?'",
+    "Saying 'I am work' instead of 'I am working'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["en_hi_M2B2_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

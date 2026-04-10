@@ -1,0 +1,213 @@
+{
+  "activityId": "ja_en_M1B5_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "Touring the Campus",
+  "learningGoal": "The learner will read a short descriptive paragraph utilizing Ko-So-A-Do demonstratives and the 'mo' particle to identify objects and places.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M1B5_lesson_001",
+    "ja_en_M1B5_vocabulary_001"
+  ],
+  "instructions": "Read the short paragraph written by a university guide showing a new student around the campus. Pay attention to the demonstrative words (This, That, Here, There) to understand the physical layout of the tour.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember that 'Koko' means here, and 'Asoko' means over there. 'Watashi no' means 'my'."
+    }
+  ],
+  "readingTitle": "The Campus Tour",
+  "readingText": "ここは だいがくです。あそこは カフェです。それは わたしの ほんです。これも わたしの ほんです。あの くるまは ジョンさんの くるまです。",
+  "textInTargetLanguage": "ここは だいがくです。あそこは カフェです。それは わたしの ほんです。これも わたしの ほんです。あの くるまは ジョンさんの くるまです。",
+  "baseLanguageSupportText": "Here is the university. Over there is the cafe. That (near you) is my book. This is ALSO my book. That car over there is John's car.",
+  "glossary": [
+    {
+      "targetText": "ここ",
+      "transliteration": "Koko",
+      "baseTranslation": "Here",
+      "exampleSentence": {
+        "targetText": "ここは だいがくです。",
+        "transliteration": "Koko wa daigaku desu.",
+        "baseTranslation": "Here is the university."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あそこ",
+      "transliteration": "Asoko",
+      "baseTranslation": "Over there",
+      "exampleSentence": {
+        "targetText": "あそこは カフェです。",
+        "transliteration": "Asoko wa kafe desu.",
+        "baseTranslation": "Over there is the cafe."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "それ",
+      "transliteration": "Sore",
+      "baseTranslation": "That (near you)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "これも",
+      "transliteration": "Kore mo",
+      "baseTranslation": "This also",
+      "exampleSentence": {
+        "targetText": "これも わたしの ほんです。",
+        "transliteration": "Kore mo watashi no hon desu.",
+        "baseTranslation": "This is also my book."
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "あの くるま",
+      "transliteration": "Ano kuruma",
+      "baseTranslation": "That car over there",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "ここは だいがくです。あそこは カフェです。",
+      "transliteration": "Koko wa daigaku desu. Asoko wa kafe desu.",
+      "baseTranslation": "Here is the university. Over there is the cafe."
+    },
+    {
+      "targetText": "それは わたしの ほんです。これも わたしの ほんです。",
+      "transliteration": "Sore wa watashi no hon desu. Kore mo watashi no hon desu.",
+      "baseTranslation": "That is my book. This is also my book."
+    },
+    {
+      "targetText": "あの くるまは ジョンさんの くるまです。",
+      "transliteration": "Ano kuruma wa Jon-san no kuruma desu.",
+      "baseTranslation": "That car over there is John's car."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q001",
+      "questionText": "Where is the cafe located relative to the speaker?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Right here",
+        "Near the listener",
+        "Over there (far away)",
+        "Inside the book"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
+    },
+    {
+      "questionId": "q002",
+      "questionText": "Who does the 'Sore' (That) book belong to?",
+      "questionType": "multiple_choice",
+      "options": [
+        "John",
+        "The speaker (me)",
+        "The cafe owner",
+        "The listener"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
+    },
+    {
+      "questionId": "q003",
+      "questionText": "How does the speaker say 'This is ALSO my book'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Kore wa watashi no hon desu.",
+        "Kore mo watashi no hon desu.",
+        "Sore mo watashi no hon desu.",
+        "Are mo watashi no hon desu."
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
+    },
+    {
+      "questionId": "q004",
+      "questionText": "Who does the car over there belong to?",
+      "questionType": "multiple_choice",
+      "options": [
+        "The speaker",
+        "The university",
+        "John",
+        "The listener"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
+    },
+    {
+      "questionId": "q005",
+      "questionText": "Which adjective demonstrative is used to point to the car?",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
+    }
+  ],
+  "readAloudMode": false,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q001": "Over there (far away)",
+      "q002": "The speaker (me)",
+      "q003": "Kore mo watashi no hon desu.",
+      "q004": "John",
+      "q005": "あの"
+    },
+    "acceptableParaphrases": {
+      "q005": ["Ano", "ano", "あの"]
+    },
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "The speaker points out the university here and the cafe over there.",
+      "The speaker claims ownership of two books (that one and this one too).",
+      "The speaker points out John's car over there."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You successfully interpreted the distance of the objects.",
+    "onFail": "Review the Ko-So-A-Do rules. 'Koko' is here, 'Soko' is there, 'Asoko' is over there.",
+    "onPartial": "Almost perfect! Remember that 'Kore mo' means 'This also'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_en/m1/b5/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b5/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_en/m1/b5/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_en/m1/b5/reading/normal_reading.mp3",
+    "audioTranscript": "ここは だいがくです。あそこは カフェです。それは わたしの ほんです。これも わたしの ほんです。あの くるまは ジョンさんの くるまです。",
+    "audioLanguage": "ja",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "demonstratives",
+    "particles",
+    "beginner",
+    "month1",
+    "block5"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the particle 'mo'. It completely replaces 'wa' to mean 'also'.",
+  "commonMistakes": [
+    "Thinking 'Ano kuruma' means 'This car'. 'Ano' is for things far away."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B5_writing_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

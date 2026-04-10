@@ -1,0 +1,169 @@
+{
+  "activityId": "en_ja_M2B1_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "Comparing Favorites",
+  "learningGoal": "Write comparative sentences using '-er than', 'more ... than', and irregular forms like 'better than'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B1_reading_3"
+  ],
+  "instructions": "あなたの好きな２つのもの（犬と猫、コーヒーと紅茶、２つの映画など）を比較する文章を英語で書いてください。(Write sentences comparing two things you like.)\n以下の３つの条件を含めてください。\n1. 短い単語の比較級（例：older, bigger, faster）を使う\n2. 長い単語の比較級（例：more beautiful, more expensive）を使う\n3. 不規則な比較級（better または worse）を使う\n必ず「than」を忘れないように！",
+  "writingPrompt": "Compare two things you like. Write 3 sentences. Use a short comparative (like bigger), a long comparative (like more beautiful), and 'better' or 'worse'. Don't forget 'than'!",
+  "promptGoal": "To construct comparative sentences combining subjects, be-verbs, comparatives, and 'than'.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "than",
+      "transliteration": "ザン",
+      "baseTranslation": "〜より",
+      "partOfSpeech": "preposition/conjunction"
+    },
+    {
+      "targetText": "older",
+      "transliteration": "オールダー",
+      "baseTranslation": "より古い",
+      "partOfSpeech": "adjective (comparative)"
+    },
+    {
+      "targetText": "bigger",
+      "transliteration": "ビガー",
+      "baseTranslation": "より大きい",
+      "partOfSpeech": "adjective (comparative)"
+    },
+    {
+      "targetText": "more interesting",
+      "transliteration": "モア インタレスティング",
+      "baseTranslation": "より面白い",
+      "partOfSpeech": "adjective phrase (comparative)"
+    },
+    {
+      "targetText": "more beautiful",
+      "transliteration": "モア ビューティフル",
+      "baseTranslation": "より美しい",
+      "partOfSpeech": "adjective phrase (comparative)"
+    },
+    {
+      "targetText": "better",
+      "transliteration": "ベター",
+      "baseTranslation": "より良い",
+      "partOfSpeech": "adjective (irregular comparative)"
+    }
+  ],
+  "referenceHints": [
+    "「AはBより大きい」は、「A is bigger than B.」の語順になります。",
+    "beautiful のような長い単語には er をつけず、前に more を置きます。",
+    "gooder という言葉はありません。better を使います。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "Dogs are bigger than cats. Dogs are more energetic than cats. I think dogs are better than cats.",
+      "transliteration": "ドッグス アー ビガー ザン キャッツ。ドッグス アー モア エナジェティック ザン キャッツ。アイ シンク ドッグス アー ベター ザン キャッツ。",
+      "baseTranslation": "犬は猫より大きいです。犬は猫よりエネルギッシュです。私は犬は猫より良い（好きだ）と思います。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfectly includes -er (bigger), more (more energetic), and irregular (better), along with 'than'."
+    },
+    {
+      "targetText": "Coffee is darker than tea. Coffee is more expensive than tea. Coffee is better than tea in the morning.",
+      "transliteration": "コーヒー イズ ダーカー ザン ティー。コーヒー イズ モア エクスペンシヴ ザン ティー。コーヒー イズ ベター ザン ティー イン ザ モーニング。",
+      "baseTranslation": "コーヒーは紅茶より色が濃いです。コーヒーは紅茶より値段が高いです。朝はコーヒーの方が紅茶より良いです。",
+      "qualityLevel": "excellent",
+      "annotation": "Great use of 'darker', 'more expensive', and 'better'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Short Comparative (-er)",
+      "weight": 25,
+      "description": "Is an '-er' comparative used correctly?"
+    },
+    {
+      "criterion": "Long Comparative (more)",
+      "weight": 25,
+      "description": "Is 'more + adjective' used correctly?"
+    },
+    {
+      "criterion": "Irregular Comparative (better/worse)",
+      "weight": 25,
+      "description": "Is 'better' or 'worse' used correctly?"
+    },
+    {
+      "criterion": "Use of 'than'",
+      "weight": 25,
+      "description": "Is the word 'than' used to connect the two subjects being compared?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 50,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "[A] is [comparative] than [B]. [A] is more [adjective] than [B]. [A] is better than [B].",
+    "acceptableAlternates": [],
+    "requiredKeywords": [
+      "than",
+      "more"
+    ],
+    "grammarBaseline": "Must use 'than' for comparisons. Must not use 'more' with short adjectives (e.g. no 'more big').",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Comparatives",
+          "weight": 50,
+          "description": "Uses -er, more, and better correctly."
+        },
+        {
+          "name": "Syntax",
+          "weight": 50,
+          "description": "Uses 'than' correctly (not 'that' or 'then')."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Fantastic writing! You used the three types of comparatives perfectly.",
+    "onFail": "Please check your sentences. Did you remember to use 'than' to compare the two things? Also ensure you used 'more' and 'better'.",
+    "onPartial": "Good try! Make sure you don't say 'more bigger' — just 'bigger' is enough!"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "comparatives",
+    "adjectives"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Make sure you spell 'than' with an 'a', not an 'e' ('then' means something different!).",
+  "commonMistakes": [
+    "Using 'then' instead of 'than'.",
+    "Saying 'more tall' instead of 'taller'.",
+    "Saying 'gooder' instead of 'better'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B1_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

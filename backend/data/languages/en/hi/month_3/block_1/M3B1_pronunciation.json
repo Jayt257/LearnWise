@@ -1,0 +1,151 @@
+{
+  "activityId": "hi_en_M3B1_pronunciation_2",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "Pronunciation: Emphasizing the Pivot (Toh)",
+  "learningGoal": "Master the intonation contour of conditional sentences, specifically pausing and emphasizing the connecting word 'Toh'.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M3B1_lesson_1"
+  ],
+  "instructions": "In a conditional sentence, the voice rises during the 'Agar' clause, pauses at 'Toh', and then falls during the result clause. Practice these rhythmic sentences.",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p_1",
+      "targetText": "अगर तुम आओगे,",
+      "transliteration": "Agar tum aaoge,",
+      "baseTranslation": "If you come,",
+      "phoneticHint": "uh-gur toom aa-oh-gay",
+      "syllableSplit": "a-gar tum aa-o-ge",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'Ah-gar' with a long A. It is a short, sharp schwa: uh-gar."
+    },
+    {
+      "itemId": "p_2",
+      "targetText": "तो मैं जाऊँगा।",
+      "transliteration": "toh main jaunga.",
+      "baseTranslation": "then I will go.",
+      "phoneticHint": "toh may(n) jaa-oon-gaa",
+      "syllableSplit": "toh main ja-un-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Pronouncing 'Toh' as 'Two'. It rhymes with 'Go' or 'So'."
+    },
+    {
+      "itemId": "p_3",
+      "targetText": "अगर मेरे पास पैसे होते,",
+      "transliteration": "Agar mere paas paise hote,",
+      "baseTranslation": "If I had money,",
+      "phoneticHint": "uh-gur may-ray paas pay-say ho-tay",
+      "syllableSplit": "a-gar me-re paas pai-se ho-te",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Failing to raise the pitch at the end of the clause ('hote'). The rising pitch signals that the sentence is not over."
+    },
+    {
+      "itemId": "p_4",
+      "targetText": "तो मैं खरीदता।",
+      "transliteration": "toh main khareedta.",
+      "baseTranslation": "then I would buy.",
+      "phoneticHint": "toh may(n) khuh-reed-taa",
+      "syllableSplit": "toh main kha-reed-ta",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'kha-rid-ta' with a soft D. The 'r' is tapped, and the 'd' is a soft dental D (tongue touching teeth)."
+    },
+    {
+      "itemId": "p_5",
+      "targetText": "अगर बारिश हुई भी,",
+      "transliteration": "Agar baarish hui bhi,",
+      "baseTranslation": "Even if it rained,",
+      "phoneticHint": "uh-gur baa-rish hoo-ee bhee",
+      "syllableSplit": "a-gar baa-rish hu-i bhi",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Failing to aspirate the 'bh' in 'bhi'. It must be a breathy B."
+    },
+    {
+      "itemId": "p_6",
+      "targetText": "फिर भी मैं आऊँगा।",
+      "transliteration": "phir bhi main aaunga.",
+      "baseTranslation": "even then I will come.",
+      "phoneticHint": "feer bhee may(n) aa-oon-gaa",
+      "syllableSplit": "phir bhi main aa-un-ga",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'fir'. While 'fir' is common in casual Hindi, the standard pronunciation is an aspirated P: 'phir'."
+    },
+    {
+      "itemId": "p_7",
+      "targetText": "वक्त मिला, तो",
+      "transliteration": "Waqt mila, toh",
+      "baseTranslation": "[If] time is found, then",
+      "phoneticHint": "vukt mi-laa, toh",
+      "syllableSplit": "waqt mi-la toh",
+      "nativeAudioRef": "dummy_audio.mp3",
+      "slowAudioRef": "dummy_slow_audio.mp3",
+      "commonMispronunciation": "Saying 'wah-kut'. The 'q' and 't' are clustered together: waqt."
+    }
+  ],
+  "userInputMode": "both",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Correct intonation rise on the conditional clause, distinct pronunciation of 'Toh', and sharp cutoffs for hypothetical verbs.",
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "Various",
+    "acceptedVariants": [],
+    "syllableSplitReference": "See specific phrases",
+    "phoneticApproximation": "See specific phrases",
+    "nativeScriptReference": null,
+    "transliteration": null,
+    "strictnessLevel": "high"
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Brilliant! Your pacing and intonation sound exactly like a native speaker.",
+    "onFail": "Focus on the rhythm. Say the first half, pause slightly at the comma, hit 'Toh' strongly, and then finish.",
+    "onPartial": "Good effort. Make sure 'Toh' rhymes with 'Go'. Do not pronounce it like the English word 'To'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "conditionals",
+    "agar",
+    "toh",
+    "intonation",
+    "rhythm"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Think of the sentence as a roller coaster. You climb up the hill during the 'Agar' part, pause at 'Toh' at the top, and slide down the 'Result' part.",
+  "commonMistakes": [
+    "Speaking the whole sentence in a flat, monotone voice."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B1_reading_3"
+  ],
+  "attemptLimit": 5,
+  "metadata": {}
+}

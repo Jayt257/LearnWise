@@ -1,0 +1,220 @@
+{
+  "activityId": "hi_en_M1B1_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "Reading: Meeting a Friend",
+  "learningGoal": "Read a very simple Hindi greeting exchange and identify vowel sounds.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "hi_en_M1B1_pronunciation_2"
+  ],
+  "instructions": "Read this short dialogue between two people meeting for the first time. Use the transliteration to help you read the Devanagari script. Focus on identifying the shapes of the vowels we just learned.",
+  "readingTitle": "नमस्ते (Namaste)",
+  "readingText": "राहुल: नमस्ते।\nअंजलि: नमस्ते।\nराहुल: आप कैसे हैं?\nअंजलि: मैं ठीक हूँ।",
+  "textInTargetLanguage": "राहुल: नमस्ते।\nअंजलि: नमस्ते।\nराहुल: आप कैसे हैं?\nअंजलि: मैं ठीक हूँ।",
+  "baseLanguageSupportText": "Rahul: Hello.\nAnjali: Hello.\nRahul: How are you?\nAnjali: I am fine.",
+  "glossary": [
+    {
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "Hello",
+      "exampleSentence": {
+        "targetText": "नमस्ते!",
+        "transliteration": "Namaste!",
+        "baseTranslation": "Hello!"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "You (formal)",
+      "exampleSentence": {
+        "targetText": "आप कैसे हैं?",
+        "transliteration": "Aap kaise hain?",
+        "baseTranslation": "How are you?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "कैसे",
+      "transliteration": "kaise",
+      "baseTranslation": "how",
+      "exampleSentence": {
+        "targetText": "आप कैसे हैं?",
+        "transliteration": "Aap kaise hain?",
+        "baseTranslation": "How are you?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "hain",
+      "baseTranslation": "are",
+      "exampleSentence": {
+        "targetText": "आप कैसे हैं?",
+        "transliteration": "Aap kaise hain?",
+        "baseTranslation": "How are you?"
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "main",
+      "baseTranslation": "I",
+      "exampleSentence": {
+        "targetText": "मैं ठीक हूँ।",
+        "transliteration": "Main theek hoon.",
+        "baseTranslation": "I am fine."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "ठीक",
+      "transliteration": "theek",
+      "baseTranslation": "fine / okay",
+      "exampleSentence": {
+        "targetText": "मैं ठीक हूँ।",
+        "transliteration": "Main theek hoon.",
+        "baseTranslation": "I am fine."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "hoon",
+      "baseTranslation": "am",
+      "exampleSentence": {
+        "targetText": "मैं ठीक हूँ।",
+        "transliteration": "Main theek hoon.",
+        "baseTranslation": "I am fine."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "नमस्ते।",
+      "transliteration": "Namaste.",
+      "baseTranslation": "Hello."
+    },
+    {
+      "targetText": "आप कैसे हैं?",
+      "transliteration": "Aap kaise hain?",
+      "baseTranslation": "How are you?"
+    },
+    {
+      "targetText": "मैं ठीक हूँ।",
+      "transliteration": "Main theek hoon.",
+      "baseTranslation": "I am fine."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "What does Rahul say first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Namaste (नमस्ते)",
+        "Theek (ठीक)",
+        "Main (मैं)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "How does Rahul ask 'How are you?'",
+      "questionType": "multiple_choice",
+      "options": [
+        "Aap kaise hain? (आप कैसे हैं?)",
+        "Main theek hoon. (मैं ठीक हूँ।)",
+        "Namaste. (नमस्ते।)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "What does Anjali reply to 'How are you?'",
+      "questionType": "multiple_choice",
+      "options": [
+        "Main theek hoon. (मैं ठीक हूँ।)",
+        "Namaste. (नमस्ते।)",
+        "Aap (आप)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "Look at the word 'आप' (Aap). Which vowel does it start with?",
+      "questionType": "multiple_choice",
+      "options": [
+        "आ (aa)",
+        "अ (a)",
+        "इ (i)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Namaste (नमस्ते)",
+      "rq_2": "Aap kaise hain? (आप कैसे हैं?)",
+      "rq_3": "Main theek hoon. (मैं ठीक हूँ।)",
+      "rq_4": "आ (aa)"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Identify Namaste as a greeting.",
+      "Understand Aap kaise hain means How are you.",
+      "Recognize the letter 'aa' in the word Aap."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great reading! You can now identify basic Hindi greetings in written form.",
+    "onFail": "Review the glossary. 'Aap kaise hain' is a phrase you will use every day.",
+    "onPartial": "Good effort! Make sure you link the Hindi words (Aap, theek) to their English meanings."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "राहुल: नमस्ते। अंजलि: नमस्ते। राहुल: आप कैसे हैं? अंजलि: मैं ठीक हूँ।",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "greetings",
+    "namaste",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the English transliteration side-by-side with the Hindi to learn the shapes of the words.",
+  "commonMistakes": [
+    "Not recognizing the 'aa' (आ) in 'Aap'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B1_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

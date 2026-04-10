@@ -1,0 +1,178 @@
+{
+  "activityId": "ja_en_M2B1_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "The Antique Shop Clerk",
+  "learningGoal": "The learner will verbally formulate sentences describing spatial locations, negative adjectives, and animate/inanimate existence in a conversational setting.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 40,
+  "prerequisites": [
+    "ja_en_M2B1_lesson_001",
+    "ja_en_M2B1_vocabulary_001"
+  ],
+  "instructions": "In this roleplay, you are a clerk at an antique shop. A customer asks you about items in the store. Reply verbally in Japanese based on the English prompts. Pay attention to verb choices (Arimasu vs Imasu) and adjective endings.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Speak clearly. When you say an adjective is NOT something (e.g. not expensive), focus on the 'ku arimasen' ending."
+    }
+  ],
+  "speakingPrompt": "Translate: 1) The book is on top of the desk. 2) It is not expensive. 3) The cat is under the tree.",
+  "scenario": "A customer is looking around your shop and asking questions.",
+  "role": "Shop Clerk",
+  "conversationPartner": "Customer",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "The customer asks where the book is. Say: 'The book is on top of the desk.'",
+      "expectedSpeakingPoints": [
+        "Use hon wa",
+        "Use tsukue no ue ni",
+        "Use arimasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ほんは つくえの うえに あります。",
+        "transliteration": "Hon wa tsukue no ue ni arimasu.",
+        "baseTranslation": "The book is on top of the desk."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "The customer asks if the book is expensive. Say: 'No, it is not expensive.'",
+      "expectedSpeakingPoints": [
+        "Use iie",
+        "Use takaku arimasen"
+      ],
+      "sampleResponse": {
+        "targetText": "いいえ、たかくありません。",
+        "transliteration": "Iie, takaku arimasen.",
+        "baseTranslation": "No, it is not expensive."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "The customer sees an animal outside. Clarify by saying: 'The cat is under the tree.'",
+      "expectedSpeakingPoints": [
+        "Use neko wa (or ga)",
+        "Use ki no shita ni",
+        "Use imasu"
+      ],
+      "sampleResponse": {
+        "targetText": "ねこは きの したに います。",
+        "transliteration": "Neko wa ki no shita ni imasu.",
+        "baseTranslation": "The cat is under the tree."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "あの ほんは どこですか。",
+    "transliteration": "Ano hon wa doko desu ka.",
+    "baseTranslation": "Where is that book?"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "ほんは つくえの うえに あります。",
+      "transliteration": "Hon wa tsukue no ue ni arimasu.",
+      "baseTranslation": "The book is on top of the desk."
+    },
+    {
+      "targetText": "いいえ、たかくありません。",
+      "transliteration": "Iie, takaku arimasen.",
+      "baseTranslation": "No, it is not expensive."
+    },
+    {
+      "targetText": "ねこは きの したに います。",
+      "transliteration": "Neko wa ki no shita ni imasu.",
+      "baseTranslation": "The cat is under the tree."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 40,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Hon wa tsukue no ue ni arimasu",
+      "Say Iie, takaku arimasen",
+      "Say Neko wa ki no shita ni imasu"
+    ],
+    "requiredKeywords": [
+      "うえに",
+      "あります",
+      "たかくありません",
+      "したに",
+      "います"
+    ],
+    "acceptableParaphrases": [
+      "Using 'ga' instead of 'wa' is perfectly acceptable (e.g. Neko ga...).",
+      "Dropping 'Iie' in the second sentence is fine as long as 'takaku arimasen' is used."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Existence Verb Accuracy",
+          "weight": 50,
+          "description": "Did the learner use 'arimasu' for the book and 'imasu' for the cat?"
+        },
+        {
+          "name": "Negative i-Adjective",
+          "weight": 50,
+          "description": "Did the learner correctly conjugate 'takai' to 'takaku arimasen'?"
+        }
+      ]
+    },
+    "sampleAnswer": "ほんは つくえの うえに あります。いいえ、たかくありません。ねこは きの したに います。",
+    "minimumContentCoverage": 100
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Excellent roleplay! You flawlessly handled the existence verbs and adjective conjugations.",
+    "onFail": "Make sure you used 'Imasu' for the cat. Cats are alive, so they cannot use 'Arimasu'.",
+    "onPartial": "Good try! Remember that to make 'Takai' negative, you must drop the 'i' and say 'Takaku arimasen'."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m2/b1/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m2/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m2/b1/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "あの ほんは どこですか。ほんは つくえの うえに あります。いいえ、たかくありません。ねこは きの したに います。",
+    "audioLanguage": "ja",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "locations",
+    "existence",
+    "adjectives",
+    "roleplay",
+    "intermediate",
+    "month2",
+    "block1"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Focus on the endings: u-e-ni a-ri-ma-su. shi-ta-ni i-ma-su.",
+  "commonMistakes": [
+    "Saying 'Takaiku arimasen' instead of 'Takaku arimasen'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M2B1_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

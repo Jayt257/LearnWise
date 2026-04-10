@@ -1,0 +1,190 @@
+{
+  "activityId": "hi_en_M3B4_speaking_7",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "Speaking: The Formal Interview",
+  "learningGoal": "Speak using highly formal Sanskritized vocabulary and the subjunctive mood to demonstrate respect and professionalism.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B4_vocabulary_6",
+    "hi_en_M3B4_listening_5"
+  ],
+  "instructions": "You are in a formal job interview at a government office. You must not use any English words (no 'Question', 'Problem', 'Wait'). You must use pure Hindi (Shuddh Hindi) and the polite subjunctive mood when asking for permission.",
+  "speakingPrompt": "Respond to the interviewer using highly formal Hindi.",
+  "scenario": "A formal government interview.",
+  "role": "Candidate",
+  "conversationPartner": "Interviewer",
+  "subTasks": [
+    {
+      "subTaskId": "st_1",
+      "prompt": "Interviewer is looking at papers. Ask politely: 'May I come in?' (May I = Kya main, Come = Aaun - Subjunctive)",
+      "expectedSpeakingPoints": [
+        "Kya main",
+        "andar",
+        "aaun"
+      ],
+      "sampleResponse": {
+        "targetText": "क्या मैं अंदर आऊँ?",
+        "transliteration": "Kya main andar aaun?",
+        "baseTranslation": "May I come in?"
+      }
+    },
+    {
+      "subTaskId": "st_2",
+      "prompt": "Interviewer: 'Do you have any questions?' Reply: 'Yes, I have one question.' (Question = Prashna)",
+      "expectedSpeakingPoints": [
+        "Mera",
+        "ek",
+        "prashna hai"
+      ],
+      "sampleResponse": {
+        "targetText": "हाँ, मेरा एक प्रश्न है।",
+        "transliteration": "Haan, mera ek prashna hai.",
+        "baseTranslation": "Yes, I have one question."
+      }
+    },
+    {
+      "subTaskId": "st_3",
+      "prompt": "Interviewer: 'We have a problem with your application.' Reply: 'What is the solution to this problem?' (Problem = Samasya, Solution = Samadhan)",
+      "expectedSpeakingPoints": [
+        "Is samasya",
+        "ka samadhan",
+        "kya hai"
+      ],
+      "sampleResponse": {
+        "targetText": "इस समस्या का समाधान क्या है?",
+        "transliteration": "Is samasya ka samadhan kya hai?",
+        "baseTranslation": "What is the solution to this problem?"
+      }
+    },
+    {
+      "subTaskId": "st_4",
+      "prompt": "Interviewer: 'You will have to wait.' Reply: 'I will wait.' (Wait = Pratiksha, I will do = Main karunga)",
+      "expectedSpeakingPoints": [
+        "Main",
+        "pratiksha",
+        "karunga"
+      ],
+      "sampleResponse": {
+        "targetText": "मैं प्रतीक्षा करूँगा।",
+        "transliteration": "Main pratiksha karunga.",
+        "baseTranslation": "I will wait."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "आप एक साक्षात्कार (interview) में हैं।",
+    "transliteration": "Aap ek sakshatkar (interview) mein hain.",
+    "baseTranslation": "You are in an interview."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "क्या मैं अंदर आऊँ?",
+      "transliteration": "Kya main andar aaun?",
+      "baseTranslation": "May I come in?"
+    },
+    {
+      "targetText": "हाँ, मेरा एक प्रश्न है।",
+      "transliteration": "Haan, mera ek prashna hai.",
+      "baseTranslation": "Yes, I have one question."
+    },
+    {
+      "targetText": "इस समस्या का समाधान क्या है?",
+      "transliteration": "Is samasya ka samadhan kya hai?",
+      "baseTranslation": "What is the solution to this problem?"
+    },
+    {
+      "targetText": "मैं प्रतीक्षा करूँगा।",
+      "transliteration": "Main pratiksha karunga.",
+      "baseTranslation": "I will wait."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 20,
+    "contentWeight": 30,
+    "grammarWeight": 40,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "kya main aaun",
+      "ek prashna hai",
+      "samasya",
+      "samadhan",
+      "pratiksha"
+    ],
+    "requiredKeywords": [
+      "आऊँ",
+      "प्रश्न",
+      "समस्या",
+      "समाधान",
+      "प्रतीक्षा"
+    ],
+    "acceptableParaphrases": [
+      "Saying 'Pratiksha karungi' is correct if the user is female."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Casual Vocabulary Penalty",
+          "weight": 100,
+          "description": "If user says 'Sawaal', 'Pareshani', 'Hal', or 'Intezaar', deduct points. This is a test of formal Shuddh Hindi."
+        },
+        {
+          "name": "Subjunctive Failure",
+          "weight": 50,
+          "description": "If user asks 'Kya main andar aa sakta hoon?', deduct points. They must use 'aaun'."
+        }
+      ]
+    },
+    "sampleAnswer": "Kya main andar aaun? Haan, mera ek prashna hai. Is samasya ka samadhan kya hai? Main pratiksha karunga.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Magnificent! You sound highly educated and extremely polite.",
+    "onFail": "Review the vocabulary list. Do not use Urdu or English words. Intezaar becomes Pratiksha. Sawaal becomes Prashna.",
+    "onPartial": "Good effort. When asking 'May I?', always drop the 'ga' from the future tense. 'Aaunga' becomes 'Aaun'."
+  },
+  "audioAssets": {
+    "promptAudio": "dummy_audio.mp3",
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": "dummy_audio.mp3",
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": "dummy_audio.mp3",
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "क्या मैं अंदर आऊँ? हाँ, मेरा एक प्रश्न है। इस समस्या का समाधान क्या है? मैं प्रतीक्षा करूँगा।",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "formal_hindi",
+    "shuddh_hindi",
+    "interview",
+    "subjunctive"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To ask permission politely, cut the end off the future tense. Main karunga -> Main karun.",
+  "commonMistakes": [
+    "Using 'Sawaal' and 'Intezaar' out of habit."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B4_test_8"
+  ],
+  "attemptLimit": 3,
+  "metadata": {}
+}

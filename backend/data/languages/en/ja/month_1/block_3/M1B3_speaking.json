@@ -1,0 +1,190 @@
+{
+  "activityId": "ja_en_M1B3_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "Ordering at a Coffee Shop",
+  "learningGoal": "The learner will verbally order items at a cafe using Katakana loan words and the polite request phrase 'onegaishimasu'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 35,
+  "prerequisites": [
+    "ja_en_M1B3_lesson_001",
+    "ja_en_M1B3_vocabulary_001"
+  ],
+  "instructions": "In this speaking activity, you are ordering at a Japanese cafe. You will be prompted to order different items from the menu. Speak clearly, pronounce the Katakana words with a Japanese rhythm (not an English accent), and use polite phrases.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember to use 'Sumimasen' to get the staff's attention before you order."
+    }
+  ],
+  "speakingPrompt": "Follow the prompts and place your order verbally.",
+  "scenario": "You walk up to the counter at Cafe Sakura. The staff greets you. You are ready to order.",
+  "role": "Customer",
+  "conversationPartner": "Cafe Staff",
+  "subTasks": [
+    {
+      "subTaskId": "st001",
+      "prompt": "Get the staff's attention by saying 'Excuse me'.",
+      "expectedSpeakingPoints": [
+        "Say 'Sumimasen'"
+      ],
+      "sampleResponse": {
+        "targetText": "すみません。",
+        "transliteration": "Sumimasen.",
+        "baseTranslation": "Excuse me."
+      }
+    },
+    {
+      "subTaskId": "st002",
+      "prompt": "Order a coffee politely.",
+      "expectedSpeakingPoints": [
+        "Say 'Koohii, onegaishimasu'"
+      ],
+      "sampleResponse": {
+        "targetText": "コーヒー、おねがいします。",
+        "transliteration": "Koohii, onegaishimasu.",
+        "baseTranslation": "Coffee, please."
+      }
+    },
+    {
+      "subTaskId": "st003",
+      "prompt": "Change your mind and order a sandwich instead.",
+      "expectedSpeakingPoints": [
+        "Say 'Sandoitchi, onegaishimasu'"
+      ],
+      "sampleResponse": {
+        "targetText": "サンドイッチ、おねがいします。",
+        "transliteration": "Sandoitchi, onegaishimasu.",
+        "baseTranslation": "Sandwich, please."
+      }
+    },
+    {
+      "subTaskId": "st004",
+      "prompt": "The staff hands you your order and says 'Hai, douzo'. Thank them.",
+      "expectedSpeakingPoints": [
+        "Say 'Arigatou gozaimasu' or 'Arigatou'"
+      ],
+      "sampleResponse": {
+        "targetText": "ありがとうございます。",
+        "transliteration": "Arigatou gozaimasu.",
+        "baseTranslation": "Thank you very much."
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "いらっしゃいませ。",
+    "transliteration": "Irasshaimase.",
+    "baseTranslation": "Welcome (to our store)."
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "すみません。",
+      "transliteration": "Sumimasen.",
+      "baseTranslation": "Excuse me."
+    },
+    {
+      "targetText": "コーヒー、おねがいします。",
+      "transliteration": "Koohii, onegaishimasu.",
+      "baseTranslation": "Coffee, please."
+    },
+    {
+      "targetText": "サンドイッチ、おねがいします。",
+      "transliteration": "Sandoitchi, onegaishimasu.",
+      "baseTranslation": "Sandwich, please."
+    },
+    {
+      "targetText": "ありがとうございます。",
+      "transliteration": "Arigatou gozaimasu.",
+      "baseTranslation": "Thank you very much."
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 10,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Say Sumimasen",
+      "Say Koohii onegaishimasu",
+      "Say Sandoitchi onegaishimasu",
+      "Say Arigatou gozaimasu"
+    ],
+    "requiredKeywords": [
+      "すみません",
+      "コーヒー",
+      "おねがいします",
+      "サンドイッチ",
+      "ありがとうございます"
+    ],
+    "acceptableParaphrases": [
+      "For st004, just 'Arigatou' is acceptable but less polite."
+    ],
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Katakana Pronunciation",
+          "weight": 50,
+          "description": "Did the learner pronounce 'Coffee' and 'Sandwich' using Japanese phonetics?"
+        },
+        {
+          "name": "Politeness",
+          "weight": 50,
+          "description": "Did they use 'onegaishimasu' and 'sumimasen' correctly?"
+        }
+      ]
+    },
+    "sampleAnswer": "すみません。コーヒー、おねがいします。サンドイッチ、おねがいします。ありがとうございます。",
+    "minimumContentCoverage": 75
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! Your cafe ordering skills are perfect.",
+    "onFail": "Please try again. Ensure you are using 'onegaishimasu' after the item you want to order.",
+    "onPartial": "Good effort! Work on pronouncing Katakana words without your native English accent."
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_en/m1/b3/speaking/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m1/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_en/m1/b3/speaking/sample_response.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "いらっしゃいませ。すみません。コーヒー、おねがいします。サンドイッチ、おねがいします。ありがとうございます。",
+    "audioLanguage": "ja",
+    "audioDuration": 40,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "speaking",
+    "ordering",
+    "cafe",
+    "katakana",
+    "beginner",
+    "month1",
+    "block3"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Elongate the 'o' and 'i' sounds when saying Koohii.",
+  "commonMistakes": [
+    "Saying 'Coffee, please' in English.",
+    "Pronouncing Koohii with a short English 'o'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M1B3_test_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

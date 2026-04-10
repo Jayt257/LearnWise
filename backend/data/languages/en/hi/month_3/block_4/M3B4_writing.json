@@ -1,0 +1,162 @@
+{
+  "activityId": "hi_en_M3B4_writing_4",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Writing: Elevating the Register",
+  "learningGoal": "Translate casual, colloquial sentences into highly formal, Sanskritized Hindi (Shuddh Hindi) using appropriate vocabulary and the subjunctive mood.",
+  "difficultyLevel": "expert",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "hi_en_M3B4_lesson_1"
+  ],
+  "instructions": "You will be given sentences in English. You must translate them directly into FORMAL Hindi. Do not use Urdu or English loan words like 'Sawaal', 'Jawaab', 'Problem', or 'Time'. Use the subjunctive mood where requested.",
+  "writingPrompt": "Translate the following into Formal Shuddh Hindi:\n1. Formal Question: 'What is the answer to this question?' (Question = Prashna, Answer = Uttar)\n2. Formal Request: 'I have a request.' (Request = Anurodh)\n3. Formal Permission (Subjunctive): 'May I come in?' (Come = Aaun)\n4. Formal Purpose (Subjunctive): 'Study so that you may pass.' (Study = Padhai karo, So that = Taaki, Pass = Pass ho / Safal ho)",
+  "promptGoal": "Demonstrate vocabulary replacement and correct subjunctive verb endings.",
+  "expectedWritingType": "sentences",
+  "wordBank": [
+    {
+      "targetText": "प्रश्न",
+      "transliteration": "prashna",
+      "baseTranslation": "question"
+    },
+    {
+      "targetText": "उत्तर",
+      "transliteration": "uttar",
+      "baseTranslation": "answer"
+    },
+    {
+      "targetText": "अनुरोध",
+      "transliteration": "anurodh",
+      "baseTranslation": "request"
+    },
+    {
+      "targetText": "क्या मैं",
+      "transliteration": "kya main",
+      "baseTranslation": "may I / shall I"
+    },
+    {
+      "targetText": "आऊँ",
+      "transliteration": "aaun",
+      "baseTranslation": "come (subjunctive)"
+    },
+    {
+      "targetText": "ताकि",
+      "transliteration": "taaki",
+      "baseTranslation": "so that"
+    },
+    {
+      "targetText": "सफल हों",
+      "transliteration": "safal hon",
+      "baseTranslation": "may succeed (subjunctive)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Is prashna ka uttar kya hai?",
+    "Sentence 2: Mera ek anurodh hai.",
+    "Sentence 3: Kya main andar aaun?",
+    "Sentence 4: Padhai karo taaki tum safal ho."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "इस प्रश्न का उत्तर क्या है? मेरा एक अनुरोध है। क्या मैं अंदर आऊँ? पढ़ाई करो ताकि तुम सफल हो।",
+      "transliteration": "Is prashna ka uttar kya hai? Mera ek anurodh hai. Kya main andar aaun? Padhai karo taaki tum safal ho.",
+      "baseTranslation": "What is the answer to this question? I have a request. May I come in? Study so that you may succeed.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect use of Sanskrit vocabulary and the subjunctive 'aaun' and 'ho'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Vocabulary: Question/Answer",
+      "weight": 25,
+      "description": "Sentence 1 must use 'Prashna' and 'Uttar'. If 'Sawaal' or 'Jawaab' are used, deduct points."
+    },
+    {
+      "criterion": "Vocabulary: Request",
+      "weight": 25,
+      "description": "Sentence 2 must use 'Anurodh'."
+    },
+    {
+      "criterion": "Subjunctive: Permission",
+      "weight": 25,
+      "description": "Sentence 3 must use 'aaun' or 'aayun'. If it uses 'aaunga' or 'aa sakta hoon', deduct points."
+    },
+    {
+      "criterion": "Subjunctive: Purpose",
+      "weight": 25,
+      "description": "Sentence 4 must use 'Taaki' followed by a subjunctive verb like 'ho' or 'sako'."
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "इस प्रश्न का उत्तर क्या है? मेरा एक अनुरोध है। क्या मैं अंदर आऊँ? पढ़ाई करो ताकि तुम सफल हो।",
+    "acceptableAlternates": [
+      "Is prashna ka uttar kya hai? Mera ek anurodh hai. Kya main andar aaun? Padhai karo taaki tum pass ho sako."
+    ],
+    "requiredKeywords": [
+      "prashna",
+      "uttar",
+      "anurodh",
+      "aaun",
+      "taaki"
+    ],
+    "grammarBaseline": "Accepts transliteration. Strict check on Subjunctive forms (dropping the ga/ge/gi).",
+    "lengthExpectation": "Four formal sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Casual Vocabulary Penalty",
+          "weight": 100,
+          "description": "If user writes 'Is sawaal ka jawaab kya hai' or 'Meri ek guzarish hai', score drops massively. The goal is to evaluate Shuddh Hindi."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "Magnificent! Your Hindi is highly cultured and respectful.",
+    "onFail": "Review Section 2 for the vocabulary replacements. Remember, we are not using street Hindi here. We need 'Prashna', not 'Sawaal'.",
+    "onPartial": "Good effort. Pay close attention to sentence 3. Never say 'Kya main aa sakta hoon?' when asking permission from an elder. Use the polite subjunctive: 'Kya main aaun?'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "formal_hindi",
+    "shuddh_hindi",
+    "subjunctive",
+    "expert"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "For sentence 3, take 'Aaunga', cut off the 'ga', and make the 'u' nasal: Aaun.",
+  "commonMistakes": [
+    "Using 'Sakta hoon' (Can I) instead of the subjunctive for asking permission."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M3B4_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

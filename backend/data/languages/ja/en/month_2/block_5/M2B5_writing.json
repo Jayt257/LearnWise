@@ -1,0 +1,172 @@
+{
+  "activityId": "en_ja_M2B5_writing_4",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "Classroom Rules",
+  "learningGoal": "Write sentences expressing rules and lack of obligation using 'must', 'must not', and 'don't have to'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 25,
+  "prerequisites": [
+    "en_ja_M2B5_reading_3"
+  ],
+  "instructions": "あなたが学校の先生になったと想像してください。生徒たちのために、教室のルールを英語で3つ書いてください。(Imagine you are a teacher. Write 3 rules for your classroom in English.)\n以下の条件を満たしてください。\n1. 【must】を使って、絶対にしなければならないことを書く\n2. 【must not】を使って、絶対にやってはいけないことを書く\n3. 【don't have to】を使って、やらなくてもよいこと（自由なこと）を書く",
+  "writingPrompt": "Write 3 rules for your classroom. 1: Use 'must'. 2: Use 'must not'. 3: Use 'don't have to'.",
+  "promptGoal": "To actively apply the semantic differences between must, must not, and don't have to in a practical context.",
+  "expectedWritingType": "short_text",
+  "wordBank": [
+    {
+      "targetText": "must",
+      "transliteration": "マスト",
+      "baseTranslation": "〜しなければならない",
+      "partOfSpeech": "auxiliary verb"
+    },
+    {
+      "targetText": "must not",
+      "transliteration": "マス ノット",
+      "baseTranslation": "〜してはいけない",
+      "partOfSpeech": "auxiliary verb"
+    },
+    {
+      "targetText": "don't have to",
+      "transliteration": "ドント ハフ トゥ",
+      "baseTranslation": "〜しなくてもよい",
+      "partOfSpeech": "auxiliary verb phrase"
+    },
+    {
+      "targetText": "listen to",
+      "transliteration": "リスン トゥ",
+      "baseTranslation": "〜の言うことを聞く",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "run",
+      "transliteration": "ラン",
+      "baseTranslation": "走る",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "wear a uniform",
+      "transliteration": "ウェア ア ユニフォーム",
+      "baseTranslation": "制服を着る",
+      "partOfSpeech": "verb phrase"
+    }
+  ],
+  "referenceHints": [
+    "助動詞（must, don't have to）の後ろの動詞は必ず原形にします。",
+    "must not を mustn't と省略しても構いません。"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "You must listen to the teacher. You must not run in the classroom. You don't have to wear a uniform.",
+      "transliteration": "ユー マスト リスン トゥ ザ ティーチャー。ユー マス ノット ラン イン ザ クラスルーム。ユー ドント ハフ トゥ ウェア ア ユニフォーム。",
+      "baseTranslation": "先生の言うことを聞かなければなりません。教室で走ってはいけません。制服を着る必要はありません。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect grammar and clear understanding of the difference between the three modal phrases."
+    },
+    {
+      "targetText": "Students must do their homework. You must not use your phone. You don't have to stay after school.",
+      "transliteration": "スチューデンツ マスト ドゥー ゼア ホームワーク。ユー マス ノット ユーズ ユア フォン。ユー ドント ハフ トゥ ステイ アフター スクール。",
+      "baseTranslation": "生徒は宿題をしなければなりません。電話を使ってはいけません。放課後残る必要はありません。",
+      "qualityLevel": "excellent",
+      "annotation": "Very natural rules using correct sentence structure."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Use of Must",
+      "weight": 30,
+      "description": "Did the user write a correct sentence with 'must' + base verb?"
+    },
+    {
+      "criterion": "Use of Must Not",
+      "weight": 30,
+      "description": "Did the user write a correct sentence with 'must not' + base verb?"
+    },
+    {
+      "criterion": "Use of Don't Have To",
+      "weight": 30,
+      "description": "Did the user write a correct sentence with 'don't have to' + base verb?"
+    },
+    {
+      "criterion": "Logic and Context",
+      "weight": 10,
+      "description": "Do the rules make logical sense for a classroom?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "You must [verb]. You must not [verb]. You don't have to [verb].",
+    "acceptableAlternates": [
+      "We must...",
+      "Students must..."
+    ],
+    "requiredKeywords": [
+      "must",
+      "must not",
+      "don't have to"
+    ],
+    "grammarBaseline": "Verbs following modals must be in base form. Must not confuse must not and don't have to.",
+    "lengthExpectation": "3 sentences.",
+    "scoringRubric": {
+      "criteria": [
+        {
+          "name": "Modal Usage",
+          "weight": 70,
+          "description": "Successfully uses all three target modals correctly."
+        },
+        {
+          "name": "Verb Form",
+          "weight": 30,
+          "description": "Uses base verbs after modals."
+        }
+      ]
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "Great job! Your rules are very clear, and you used the grammar perfectly.",
+    "onFail": "Please try again. Make sure you have three separate rules. Did you use the base verb (no -s, no -ing) after the modals?",
+    "onPartial": "Good try. Double-check your use of 'don't have to'. Remember, it means something is optional, not prohibited."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "en",
+    "audioDuration": null,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "writing",
+    "modals",
+    "rules",
+    "obligation"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Keep it simple! Start your sentences with 'You' or 'Students'.",
+  "commonMistakes": [
+    "Writing 'You must to listen' (adding 'to' after must).",
+    "Writing 'You don't have to run' when they actually mean 'You must not run'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M2B5_listening_5"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

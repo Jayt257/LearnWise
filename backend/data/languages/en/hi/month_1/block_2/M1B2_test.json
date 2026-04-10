@@ -1,0 +1,184 @@
+{
+  "activityId": "hi_en_M1B2_test_8",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 Test: Consonants & Origins",
+  "learningGoal": "Evaluate understanding of the first 15 Hindi consonants and basic sentence structures for introductions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B2_lesson_1",
+    "hi_en_M1B2_pronunciation_2",
+    "hi_en_M1B2_reading_3",
+    "hi_en_M1B2_writing_4",
+    "hi_en_M1B2_listening_5",
+    "hi_en_M1B2_vocabulary_6",
+    "hi_en_M1B2_speaking_7"
+  ],
+  "instructions": "This block test will check your understanding of the K, Ch, and T vargas (consonants), as well as your ability to use the postposition 'se' to describe where someone is from.",
+  "testTitle": "Consonants & Introductions Check",
+  "testScope": "block_test",
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing",
+    "listening"
+  ],
+  "sections": [
+    {
+      "sectionId": "sec_consonants",
+      "sectionTitle": "Understanding Consonants",
+      "questions": [
+        {
+          "questionId": "tq_1",
+          "questionText": "Which of these letters is the hard, retroflex 'ta' (where you curl your tongue back)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "ट",
+            "त",
+            "क"
+          ],
+          "questionHints": {
+            "targetText": "ट",
+            "transliteration": "ta",
+            "baseTranslation": "Retroflex 'ta'"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_1"
+        },
+        {
+          "questionId": "tq_2",
+          "questionText": "What does it mean if a Hindi consonant is 'aspirated' (like ख or छ)?",
+          "questionType": "multiple_choice",
+          "options": [
+            "You must push a strong puff of air out of your mouth.",
+            "You must curl your tongue backwards.",
+            "You must whisper the sound."
+          ],
+          "questionHints": {
+            "targetText": "You must push a strong puff of air out of your mouth.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Grammar & Sentence Structure",
+      "questions": [
+        {
+          "questionId": "tq_3",
+          "questionText": "Translate to English: मैं भारत से हूँ। (Main Bharat se hoon.)",
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "I am from India.",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+        },
+        {
+          "questionId": "tq_4",
+          "questionText": "Which word is missing in this question: 'Aap kahan ____ hain?' (Where are you from?)",
+          "questionType": "multiple_choice",
+          "options": [
+            "se (से)",
+            "mein (में)",
+            "aur (और)"
+          ],
+          "questionHints": {
+            "targetText": "se (से)",
+            "transliteration": "se",
+            "baseTranslation": "from"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_4"
+        },
+        {
+          "questionId": "tq_5",
+          "questionText": "Match the correct verb: 'Yeh Maria ______' (This is Maria).",
+          "questionType": "multiple_choice",
+          "options": [
+            "hai (है)",
+            "hoon (हूँ)",
+            "hain (हैं)"
+          ],
+          "questionHints": {
+            "targetText": "hai (है)",
+            "transliteration": "hai",
+            "baseTranslation": "is"
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_5"
+        }
+      ]
+    }
+  ],
+  "totalMarks": 25,
+  "passMarks": 20,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "tq_1": "ट",
+      "tq_2": "You must push a strong puff of air out of your mouth.",
+      "tq_3": "I am from India.",
+      "tq_4": "se (से)",
+      "tq_5": "hai (है)"
+    },
+    "partialCreditRules": {
+      "tq_3": "Accept 'I am from India' or 'I am from Bharat' for full marks. 'I India from am' gets 2 marks."
+    },
+    "sectionRubric": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant! You've mastered the first 15 consonants and basic origin statements.",
+    "onFail": "Review the lesson. Make sure you understand how the postposition 'se' works.",
+    "onPartial": "Good job! Remember that 'hai' means 'is' and 'hoon' means 'am'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "hi",
+    "audioDuration": 0,
+    "audioRepeatAllowed": false
+  },
+  "tags": [
+    "test",
+    "block2",
+    "consonants",
+    "countries",
+    "beginner"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Read the questions carefully. The word 'se' follows the noun it modifies.",
+  "commonMistakes": [
+    "Thinking 'hain' is the verb for 'This' (Yeh). 'hain' is only for 'You' (Aap) or plural 'They'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B3_lesson_1"
+  ],
+  "attemptLimit": 1,
+  "metadata": {}
+}

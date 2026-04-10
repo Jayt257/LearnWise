@@ -1,0 +1,173 @@
+{
+  "activityId": "ja_en_M3B4_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "Respectful vs Humble Writing",
+  "learningGoal": "The learner will construct sentences distinguishing between the actions of a superior (requiring Sonkeigo) and their own actions (requiring Kenjougo).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "en",
+  "targetLanguage": "ja",
+  "estimatedTime": 45,
+  "prerequisites": [
+    "ja_en_M3B4_lesson_001",
+    "ja_en_M3B4_reading_001"
+  ],
+  "instructions": "Write four Japanese sentences based on the English prompts. Select the correct Keigo verb based on whether the subject is the Boss/Customer, or You.",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "Remember: Elevate them, lower yourself."
+    }
+  ],
+  "writingPrompt": "Translate: 1) The president will go. 2) I will go. 3) The customer ate. 4) I ate (received).",
+  "promptGoal": "To construct grammatically accurate sentences applying Sonkeigo and Kenjougo appropriately.",
+  "expectedWritingType": "paragraph",
+  "wordBank": [
+    {
+      "targetText": "しゃちょう",
+      "transliteration": "Shachou",
+      "baseTranslation": "President",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "いらっしゃいます",
+      "transliteration": "Irasshaimasu",
+      "baseTranslation": "Will go (Respectful)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "わたくし",
+      "transliteration": "Watakushi",
+      "baseTranslation": "I (Formal)",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "まいります",
+      "transliteration": "Mairimasu",
+      "baseTranslation": "Will go (Humble)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "きゃく",
+      "transliteration": "Kyaku",
+      "baseTranslation": "Customer",
+      "partOfSpeech": "noun"
+    },
+    {
+      "targetText": "めしあがりました",
+      "transliteration": "Meshiagarimashita",
+      "baseTranslation": "Ate (Respectful past)",
+      "partOfSpeech": "verb"
+    },
+    {
+      "targetText": "いただきました",
+      "transliteration": "Itadakimashita",
+      "baseTranslation": "Ate/received (Humble past)",
+      "partOfSpeech": "verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: [President] wa [Will go - Respectful].",
+    "Sentence 2: [I - Formal] ga [Will go - Humble].",
+    "Sentence 3: [Customer] wa [Ate - Respectful].",
+    "Sentence 4: [I - Formal] wa [Ate/received - Humble]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "しゃちょうは いらっしゃいます。わたくしが まいります。きゃくは めしあがりました。わたくしは いただきました。",
+      "transliteration": "Shachou wa irasshaimasu. Watakushi ga mairimasu. Kyaku wa meshiagarimashita. Watakushi wa itadakimashita.",
+      "baseTranslation": "The president will go. I will go. The customer ate. I ate.",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect selection of Sonkeigo for superiors and Kenjougo for oneself."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Sonkeigo for Iku",
+      "weight": 25,
+      "description": "Did the learner write 'irasshaimasu' for the president?"
+    },
+    {
+      "criterion": "Kenjougo for Iku",
+      "weight": 25,
+      "description": "Did the learner write 'mairimasu' for themselves?"
+    },
+    {
+      "criterion": "Sonkeigo for Taberu",
+      "weight": 25,
+      "description": "Did the learner write 'meshiagarimashita' for the customer?"
+    },
+    {
+      "criterion": "Kenjougo for Taberu",
+      "weight": 25,
+      "description": "Did the learner write 'itadakimashita' for themselves?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 40,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "しゃちょうは いらっしゃいます。わたくしが まいります。きゃくは めしあがりました。わたくしは いただきました。",
+    "acceptableAlternates": [
+      "しゃちょうが いらっしゃいます。わたくしは まいります。きゃくが めしあがりました。わたしは いただきました。"
+    ],
+    "requiredKeywords": [
+      "いらっしゃいます",
+      "まいります",
+      "めしあがりました",
+      "いただきました"
+    ],
+    "grammarBaseline": "Mastery of Keigo vocabulary pairs.",
+    "lengthExpectation": "Four sentences.",
+    "scoringRubric": {
+      "sentence_1": 25,
+      "sentence_2": 25,
+      "sentence_3": 25,
+      "sentence_4": 25
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Brilliant writing! You correctly applied the rules of respect.",
+    "onFail": "Review the Keigo pairs. You CANNOT use 'meshiagarimasu' for yourself.",
+    "onPartial": "Good try! Make sure you used past tense for the second set of sentences ('meshiagarimashita')."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_en/m3/b4/writing/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": null,
+    "audioLanguage": "ja",
+    "audioDuration": 0,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "writing",
+    "keigo",
+    "business",
+    "advanced",
+    "month3",
+    "block4"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "If the sentence is about YOU, use Kenjougo (Mairu, Itadaku).",
+  "commonMistakes": [
+    "Using standard forms ('ikimasu', 'tabemashita') instead of Keigo."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "ja_en_M3B4_listening_001"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

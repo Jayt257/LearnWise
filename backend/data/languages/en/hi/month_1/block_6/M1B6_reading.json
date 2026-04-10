@@ -1,0 +1,233 @@
+{
+  "activityId": "hi_en_M1B6_reading_3",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "reading",
+  "title": "Reading: Following Instructions",
+  "learningGoal": "Read short passages containing commands and postpositions, understanding where objects are and what actions are required.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "en",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "hi_en_M1B6_pronunciation_2"
+  ],
+  "instructions": "Read the following dialogue between a mother and her son. Notice how she gives instructions using the informal 'Tum' command (-o) and how she tells him where things are using postpositions.",
+  "readingTitle": "माँ और बेटा (Mother and Son)",
+  "readingText": "माँ: राहुल, तुम अंदर आओ।\nराहुल: नमस्ते माँ।\nमाँ: पानी पियो। पानी मेज़ पर है।\nराहुल: ठीक है। और खाना?\nमाँ: खाना रसोई में है। जाओ और खाना खाओ।\nराहुल: मैं जाता हूँ।\nमाँ: राहुल, यह किताब लो और पढ़ो।\nराहुल: ठीक है माँ।",
+  "textInTargetLanguage": "माँ: राहुल, तुम अंदर आओ।\nराहुल: नमस्ते माँ।\nमाँ: पानी पियो। पानी मेज़ पर है।\nराहुल: ठीक है। और खाना?\nमाँ: खाना रसोई में है। जाओ और खाना खाओ।\nराहुल: मैं जाता हूँ।\nमाँ: राहुल, यह किताब लो और पढ़ो।\nराहुल: ठीक है माँ।",
+  "baseLanguageSupportText": "Mother: Rahul, you come inside.\nRahul: Hello Mother.\nMother: Drink water. Water is on the table.\nRahul: Okay. And food?\nMother: Food is in the kitchen. Go and eat food.\nRahul: I go.\nMother: Rahul, take this book and read.\nRahul: Okay Mother.",
+  "glossary": [
+    {
+      "targetText": "अंदर",
+      "transliteration": "andar",
+      "baseTranslation": "inside",
+      "exampleSentence": {
+        "targetText": "तुम अंदर आओ।",
+        "transliteration": "Tum andar aao.",
+        "baseTranslation": "You come inside."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "पियो",
+      "transliteration": "piyo",
+      "baseTranslation": "drink (informal command)",
+      "exampleSentence": {
+        "targetText": "पानी पियो।",
+        "transliteration": "Paani piyo.",
+        "baseTranslation": "Drink water."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "पर",
+      "transliteration": "par",
+      "baseTranslation": "on / at",
+      "exampleSentence": {
+        "targetText": "पानी मेज़ पर है।",
+        "transliteration": "Paani mez par hai.",
+        "baseTranslation": "Water is on the table."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "रसोई",
+      "transliteration": "rasoi",
+      "baseTranslation": "kitchen",
+      "exampleSentence": {
+        "targetText": "खाना रसोई में है।",
+        "transliteration": "Khaana rasoi mein hai.",
+        "baseTranslation": "Food is in the kitchen."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "में",
+      "transliteration": "mein",
+      "baseTranslation": "in",
+      "exampleSentence": {
+        "targetText": "खाना रसोई में है।",
+        "transliteration": "Khaana rasoi mein hai.",
+        "baseTranslation": "Food is in the kitchen."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "लो",
+      "transliteration": "lo",
+      "baseTranslation": "take (informal command)",
+      "exampleSentence": {
+        "targetText": "यह किताब लो।",
+        "transliteration": "Yeh kitaab lo.",
+        "baseTranslation": "Take this book."
+      },
+      "audioRef": "dummy_audio.mp3"
+    },
+    {
+      "targetText": "पढ़ो",
+      "transliteration": "padho",
+      "baseTranslation": "read (informal command)",
+      "exampleSentence": {
+        "targetText": "किताब पढ़ो।",
+        "transliteration": "Kitaab padho.",
+        "baseTranslation": "Read the book."
+      },
+      "audioRef": "dummy_audio.mp3"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "पानी मेज़ पर है।",
+      "transliteration": "Paani mez par hai.",
+      "baseTranslation": "Water is on the table."
+    },
+    {
+      "targetText": "जाओ और खाना खाओ।",
+      "transliteration": "Jaao aur khaana khaao.",
+      "baseTranslation": "Go and eat food."
+    },
+    {
+      "targetText": "यह किताब लो और पढ़ो।",
+      "transliteration": "Yeh kitaab lo aur padho.",
+      "baseTranslation": "Take this book and read."
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "rq_1",
+      "questionText": "What does Rahul's mother tell him to do first?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Come inside (Andar aao)",
+        "Read a book (Padho)",
+        "Go to the kitchen (Rasoi mein jaao)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_1"
+    },
+    {
+      "questionId": "rq_2",
+      "questionText": "Where is the water?",
+      "questionType": "multiple_choice",
+      "options": [
+        "On the table (Mez par)",
+        "In the kitchen (Rasoi mein)",
+        "In the house (Ghar mein)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_2"
+    },
+    {
+      "questionId": "rq_3",
+      "questionText": "Where is the food?",
+      "questionType": "multiple_choice",
+      "options": [
+        "In the kitchen (Rasoi mein)",
+        "On the table (Mez par)",
+        "Outside (Bahar)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_3"
+    },
+    {
+      "questionId": "rq_4",
+      "questionText": "When the mother says 'Khaao' (eat) and 'Padho' (read), what level of formality is she using with her son?",
+      "questionType": "multiple_choice",
+      "options": [
+        "Informal (Tum - ending in 'o')",
+        "Formal (Aap - ending in 'iye')",
+        "Intimate (Tu - verb root only)"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_4"
+    },
+    {
+      "questionId": "rq_5",
+      "questionText": "What does the word 'aur' (और) mean in the sentence 'Jaao aur khaana khaao'?",
+      "questionType": "multiple_choice",
+      "options": [
+        "and",
+        "or",
+        "then"
+      ],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.rq_5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "rq_1": "Come inside (Andar aao)",
+      "rq_2": "On the table (Mez par)",
+      "rq_3": "In the kitchen (Rasoi mein)",
+      "rq_4": "Informal (Tum - ending in 'o')",
+      "rq_5": "and"
+    },
+    "acceptableParaphrases": {},
+    "keywordScoringRules": {},
+    "expectedSummaryPoints": [
+      "Understand the location postpositions 'par' (on) and 'mein' (in).",
+      "Identify the informal command verbs ending in 'o'.",
+      "Recognize common nouns like food, water, table, kitchen."
+    ]
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Superb reading! You successfully understood commands and locations in context.",
+    "onFail": "Review the postpositions. Remember that 'mein' means IN and 'par' means ON.",
+    "onPartial": "Good effort! Note that parents usually use 'Tum' with their children, hence the verbs ending in 'o'."
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "dummy_audio.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "dummy_audio.mp3",
+    "sampleAudio": null,
+    "slowAudio": "dummy_slow_audio.mp3",
+    "normalAudio": "dummy_audio.mp3",
+    "audioTranscript": "माँ: राहुल, तुम अंदर आओ। राहुल: नमस्ते माँ। माँ: पानी पियो। पानी मेज़ पर है। राहुल: ठीक है। और खाना? माँ: खाना रसोई में है। जाओ और खाना खाओ। राहुल: मैं जाता हूँ। माँ: राहुल, यह किताब लो और पढ़ो। राहुल: ठीक है माँ।",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "reading",
+    "commands",
+    "postpositions",
+    "locations",
+    "family"
+  ],
+  "status": "draft",
+  "createdAt": "2026-06-01T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Look closely at the word before the postposition to figure out where things are.",
+  "commonMistakes": [
+    "Translating 'Mez par' as 'In the table' instead of 'On the table'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "hi_en_M1B6_writing_4"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}

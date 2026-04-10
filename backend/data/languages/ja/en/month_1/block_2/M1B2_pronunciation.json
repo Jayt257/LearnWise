@@ -1,0 +1,182 @@
+{
+  "activityId": "en_ja_M1B2_pronunciation_2",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronouncing Pronouns and Contractions",
+  "learningGoal": "Accurately pronounce personal pronouns and the natural contracted forms of 'be' verbs.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "en",
+  "estimatedTime": 20,
+  "prerequisites": [
+    "en_ja_M1B2_lesson_1"
+  ],
+  "instructions": "代名詞とbe動詞、そしてネイティブがよく使う「短縮形」の発音練習です。音声を聞いて、マイクに向かってリピートしてください。(Practice pronouncing pronouns, 'be' verbs, and their contracted forms. Listen to the audio and repeat into the microphone.)",
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p1",
+      "targetText": "I am",
+      "transliteration": "アイ アム",
+      "baseTranslation": "私は～です",
+      "phoneticHint": "Pronounce both words clearly: ai am.",
+      "syllableSplit": "I am",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'ai amu' with a heavy 'u' sound at the end."
+    },
+    {
+      "itemId": "p2",
+      "targetText": "I'm",
+      "transliteration": "アイム",
+      "baseTranslation": "私は～です（短縮形）",
+      "phoneticHint": "Close your lips at the end for the 'm' sound.",
+      "syllableSplit": "I'm",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Pronouncing it like two syllables: 'ai-mu'."
+    },
+    {
+      "itemId": "p3",
+      "targetText": "You are",
+      "transliteration": "ユー アー",
+      "baseTranslation": "あなたは～です",
+      "phoneticHint": "Connect the words smoothly: yoo-wahr.",
+      "syllableSplit": "you are",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'yu aa' without the English 'r' sound."
+    },
+    {
+      "itemId": "p4",
+      "targetText": "You're",
+      "transliteration": "ユア (yor)",
+      "baseTranslation": "あなたは～です（短縮形）",
+      "phoneticHint": "Sounds very similar to 'your'. Pull your tongue back for the 'r'.",
+      "syllableSplit": "you're",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'yu-a' ignoring the 'r'."
+    },
+    {
+      "itemId": "p5",
+      "targetText": "He is",
+      "transliteration": "ヒー イズ",
+      "baseTranslation": "彼は～です",
+      "phoneticHint": "Pronounce clearly: hee iz.",
+      "syllableSplit": "he is",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hi izu'."
+    },
+    {
+      "itemId": "p6",
+      "targetText": "He's",
+      "transliteration": "ヒーズ",
+      "baseTranslation": "彼は～です（短縮形）",
+      "phoneticHint": "Make it one syllable with a buzzing 'z' sound at the end.",
+      "syllableSplit": "he's",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'hi-zu' instead of a sharp 'heez'."
+    },
+    {
+      "itemId": "p7",
+      "targetText": "She is",
+      "transliteration": "シー イズ",
+      "baseTranslation": "彼女は～です",
+      "phoneticHint": "The 'sh' sound is sharp, like telling someone to be quiet.",
+      "syllableSplit": "she is",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shi izu'."
+    },
+    {
+      "itemId": "p8",
+      "targetText": "She's",
+      "transliteration": "シーズ",
+      "baseTranslation": "彼女は～です（短縮形）",
+      "phoneticHint": "One smooth syllable: sheez.",
+      "syllableSplit": "she's",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'shi-zu'."
+    },
+    {
+      "itemId": "p9",
+      "targetText": "They are",
+      "transliteration": "ゼイ アー (th-ey ar)",
+      "baseTranslation": "彼らは～です",
+      "phoneticHint": "Put your tongue between your teeth for 'They'.",
+      "syllableSplit": "they are",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Zei aa' like the Japanese 'za zi zu ze zo'."
+    },
+    {
+      "itemId": "p10",
+      "targetText": "They're",
+      "transliteration": "ゼア (th-er)",
+      "baseTranslation": "彼らは～です（短縮形）",
+      "phoneticHint": "Sounds exactly like 'their' and 'there'. Tongue between teeth, then pull back for 'r'.",
+      "syllableSplit": "they're",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saying 'Zea' without the TH sound or the R sound."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "I am I'm You are You're He is He's She is She's They are They're",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "Great job! You pronounced the contractions very naturally.",
+    "onFail": "Keep practicing! Don't add extra vowel sounds at the end of words (e.g. say 'I'm', not 'I-mu').",
+    "onPartial": "Good effort! Make sure you are using your teeth for the 'TH' in 'They'."
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "I am I'm You are You're He is He's She is She's They are They're",
+    "acceptedVariants": [
+      "i am i'm you are you're he is he's she is she's they are they're"
+    ],
+    "syllableSplitReference": "See syllable splits in items",
+    "phoneticApproximation": "See phonetic hints in items",
+    "nativeScriptReference": "I am I'm You are You're He is He's She is She's They are They're",
+    "transliteration": "ai am aim yu ar yor hi iz hiz shi iz shiz they ar ther",
+    "strictnessLevel": "strict"
+  },
+  "evaluationMode": "groq_comparison",
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "path/to/M1B2_pronunciation_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": "path/to/M1B2_pronunciation_slow.mp3",
+    "normalAudio": null,
+    "audioTranscript": "I am, I'm, You are, You're, He is, He's, She is, She's, They are, They're",
+    "audioLanguage": "en",
+    "audioDuration": 35,
+    "audioRepeatAllowed": true
+  },
+  "tags": [
+    "pronunciation",
+    "pronouns",
+    "be_verb",
+    "contractions"
+  ],
+  "status": "published",
+  "createdAt": "2026-04-18T10:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "In spoken English, native speakers almost always use the short forms (I'm, You're, He's).",
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [
+    "en_ja_M1B2_reading_3"
+  ],
+  "attemptLimit": null,
+  "metadata": {}
+}
