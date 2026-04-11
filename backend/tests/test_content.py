@@ -6,10 +6,10 @@ check missing activity returns 404 (not crash), check endpoint.
 import pytest
 
 PAIR_ID = "hi-ja"
-LESSON_FILE = "month_1/block_1/lesson.json"
-VOCAB_FILE = "month_1/block_1/vocabulary.json"
-TEST_FILE = "month_1/block_1/test.json"
-MISSING_FILE = "month_1/block_99/lesson.json"
+LESSON_FILE = "month_1/block_1/M1B1_lesson.json"
+VOCAB_FILE = "month_1/block_1/M1B1_vocabulary.json"
+TEST_FILE = "month_1/block_1/M1B1_test.json"
+MISSING_FILE = "month_1/block_99/M99B99_lesson.json"
 
 
 def test_list_pairs(client):

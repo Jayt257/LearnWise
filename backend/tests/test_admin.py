@@ -73,14 +73,14 @@ def test_list_content(client, admin_headers):
 
 
 def test_get_content_file(client, admin_headers):
-    resp = client.get("/api/admin/content/hi-ja/file", params={"file": "month_1/block_1/lesson.json"}, headers=admin_headers)
+    resp = client.get("/api/admin/content/hi-ja/file", params={"file": "month_1/block_1/M1B1_lesson.json"}, headers=admin_headers)
     assert resp.status_code == 200
     data = resp.json()
     assert data["activityType"] == "lesson"
 
 
 def test_get_content_file_missing(client, admin_headers):
-    resp = client.get("/api/admin/content/hi-ja/file", params={"file": "month_99/block_99/lesson.json"}, headers=admin_headers)
+    resp = client.get("/api/admin/content/hi-ja/file", params={"file": "month_99/block_99/M99B99_lesson.json"}, headers=admin_headers)
     assert resp.status_code == 404
 
 
@@ -151,3 +151,101 @@ def test_create_duplicate_pair_rejected(client, admin_headers):
         "source_lang_flag": "🇮🇳", "target_lang_flag": "🇯🇵",
     })
     assert resp.status_code == 409
+
+
+def test_activate_user(client, admin_headers, db):
+    from app.models.user import User, UserRole
+    from passlib.context import CryptContext
+    _hash = lambda pw: CryptContext(schemes=["bcrypt"], deprecated="auto").hash(pw[:72])
+    u = User(username="activateme", email="activate@test.com",
+             password_hash=_hash("pass"), role=UserRole.user, is_active=False, native_lang="hi")
+    db.add(u)
+    db.commit()
+    db.refresh(u)
+
+    # First activation
+    resp = client.put(f"/api/admin/users/{u.id}/activate", headers=admin_headers)
+    assert resp.status_code == 200
+
+    # Second activation (already active)
+    resp = client.put(f"/api/admin/users/{u.id}/activate", headers=admin_headers)
+    assert resp.status_code == 200
+
+    db.refresh(u)
+    assert u.is_active is True
+
+
+def test_update_content(client, admin_headers):
+    # Try updating with dummy content
+    resp = client.put("/api/admin/content/hi-ja", headers=admin_headers, json={
+        "file_path": "month_1/block_1/dummy_update.json",
+        "content": {"activityType": "lesson"}
+    })
+    assert resp.status_code == 200
+
+
+def test_update_meta(client, admin_headers):
+    # Just update the existing meta
+    meta_resp = client.get("/api/content/hi-ja/meta")
+    meta = meta_resp.json()
+    resp = client.put("/api/admin/content/hi-ja/meta", headers=admin_headers, json={
+        "file_path": "meta.json",
+        "content": meta
+    })
+    assert resp.status_code == 200
+
+
+def test_add_and_delete_activity(client, admin_headers):
+    # Add new activity
+    resp = client.post("/api/admin/content/hi-ja/activity", headers=admin_headers, json={
+        "file_path": "month_1/block_1/M1B1_newact.json",
+        "content": {"activityType": "test"}
+    })
+    assert resp.status_code == 201
+    
+    # Try adding again (conflict)
+    resp = client.post("/api/admin/content/hi-ja/activity", headers=admin_headers, json={
+        "file_path": "month_1/block_1/M1B1_newact.json",
+        "content": {"activityType": "test"}
+    })
+    assert resp.status_code == 409
+
+    # Delete it
+    resp = client.delete("/api/admin/content/hi-ja/activity", params={"file": "month_1/block_1/M1B1_newact.json"}, headers=admin_headers)
+    assert resp.status_code == 200
+
+    # Delete missing
+    resp = client.delete("/api/admin/content/hi-ja/activity", params={"file": "month_1/block_1/M1B1_newact.json"}, headers=admin_headers)
+    assert resp.status_code == 404
+
+    # Delete meta (should fail)
+    resp = client.delete("/api/admin/content/hi-ja/activity", params={"file": "meta.json"}, headers=admin_headers)
+    assert resp.status_code == 400
+
+
+def test_admin_content_month_block_crud(client, admin_headers):
+    # Create language pair to test on so we don't mess up hi-ja
+    client.post("/api/admin/languages", headers=admin_headers, json={
+         "source_lang_id": "hi", "target_lang_id": "zh",
+         "source_lang_name": "Hindi", "target_lang_name": "Chinese",
+         "source_lang_flag": "🇮🇳", "target_lang_flag": "🇨🇳",
+    })
+    
+    # Add block
+    resp = client.post("/api/admin/content/hi-zh/month/1/block", headers=admin_headers)
+    assert resp.status_code == 201
+    
+    # Add month
+    resp = client.post("/api/admin/content/hi-zh/month", headers=admin_headers)
+    assert resp.status_code == 201
+
+    # Delete block
+    resp = client.delete("/api/admin/content/hi-zh/month/1/block/1", headers=admin_headers)
+    assert resp.status_code == 200
+
+    # Delete month
+    resp = client.delete("/api/admin/content/hi-zh/month/1", headers=admin_headers)
+    assert resp.status_code == 200
+    
+    # Cleanup
+    client.delete("/api/admin/languages/hi-zh", headers=admin_headers)

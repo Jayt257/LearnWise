@@ -679,11 +679,6 @@ def add_block(pair_id: str, month: int, admin: User = Depends(require_admin)):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@router.get("/activity-types")
-def get_activity_types(admin: User = Depends(require_admin)):
-    """Return the list of valid activity types and empty templates for the admin UI."""
-    templates = {t: _make_template(t, "hi-ja", 1, 1) for t in ACTIVITY_TYPES}
-    return {"types": ACTIVITY_TYPES, "templates": templates}
 
 
 @router.get("/activity-template/{activity_type}")

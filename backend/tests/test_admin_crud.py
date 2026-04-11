@@ -10,8 +10,9 @@ from pathlib import Path
 from app.services import content_service
 
 PAIR_ID = "fr-en"
-BASE_DATA = Path("backend/data/languages")
-PAIRS_JSON = Path("backend/data/language_pairs.json")
+BASE_DIR = Path(__file__).parent.parent
+BASE_DATA = BASE_DIR / "data" / "languages"
+PAIRS_JSON = BASE_DIR / "data" / "language_pairs.json"
 
 def cleanup():
     """Remove test pair and restore state."""
