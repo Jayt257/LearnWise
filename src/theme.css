@@ -1,0 +1,251 @@
+/**
+ * src/theme.css
+ * LearnWise — Dual-theme design tokens.
+ * Dark  = deep black + silver/gray palette. Zero purple or blue.
+ * Light = warm muted slate (medium gray tones, not bright white).
+ */
+
+/* ── Dark Theme ──────────────────────────────────────────── */
+:root,
+[data-theme="dark"] {
+  --bg:             #080808;
+  --bg-2:           #0E0E0E;
+  --surface:        #111111;
+  --surface-2:      #181818;
+  --surface-3:      #222222;
+  --border:         rgba(255, 255, 255, 0.07);
+  --border-strong:  rgba(255, 255, 255, 0.14);
+  --border-glow:    rgba(255, 255, 255, 0.25);
+
+  /* Primary = near-white silver */
+  --primary:        #D8D8D8;
+  --primary-rgb:    216, 216, 216;
+  --primary-light:  #FFFFFF;
+  --primary-dark:   #A0A0A0;
+  --primary-glow:   rgba(255, 255, 255, 0.10);
+
+  /* Accent — warm amber gold (only non-gray used sparingly) */
+  --amber:          #C8963C;
+  --amber-light:    #E8B558;
+  --amber-glow:     rgba(200, 150, 60, 0.20);
+
+  /* Semantic with muted tones */
+  --success:        #5A9E6F;
+  --success-light:  #7DC497;
+  --success-glow:   rgba(90, 158, 111, 0.20);
+  --danger:         #B84C4C;
+  --danger-light:   #D97070;
+  --danger-glow:    rgba(184, 76, 76, 0.20);
+  --warning:        #C8963C;
+  --warning-glow:   rgba(200, 150, 60, 0.20);
+
+  /* Text */
+  --text:           #E4E4E4;
+  --text-muted:     #888888;
+  --text-dim:       #444444;
+
+  /* Aurora (sidebar bar) — grayscale sweep */
+  --aurora-1:       #555555;
+  --aurora-2:       #888888;
+  --aurora-3:       #AAAAAA;
+  --aurora-4:       #666666;
+
+  /* Glass — STRONG frosted appearance */
+  --glass-bg:        rgba(10, 10, 10, 0.65);
+  --glass-bg-strong: rgba(14, 14, 14, 0.85);
+  --glass-blur:      40px;
+  /* Very light border in dark mode */
+  --glass-border:    rgba(255, 255, 255, 0.20);
+  --glass-highlight: rgba(255, 255, 255, 0.10);
+
+  /* Shadows */
+  --shadow-sm:  0 1px 4px rgba(0,0,0,0.7);
+  --shadow-md:  0 4px 20px rgba(0,0,0,0.8);
+  --shadow-lg:  0 12px 48px rgba(0,0,0,0.9);
+  --shadow-glow: 0 0 32px rgba(255,255,255,0.12);
+
+  /* Nebula particle colours */
+  --nebula-particle: rgba(255, 255, 255, 0.90);
+  --nebula-line:     rgba(220, 220, 220, 1);
+
+  color-scheme: dark;
+}
+
+/* ── Light Theme — muted warm slate ─────────────────────── */
+[data-theme="light"] {
+  --bg:             #C8C4BC;
+  --bg-2:           #C0BCB4;
+  --surface:        #D8D4CC;
+  --surface-2:      #C4C0B8;
+  --surface-3:      #B8B4AC;
+  --border:         rgba(0, 0, 0, 0.15);
+  --border-strong:  rgba(200, 100, 50, 0.35); /* Claude orange border base */
+  --border-glow:    rgba(215, 110, 60, 0.50);
+
+  /* Primary = dark charcoal */
+  --primary:        #2A2A2A;
+  --primary-rgb:    42, 42, 42;
+  --primary-light:  #111111;
+  --primary-dark:   #444444;
+  --primary-glow:   rgba(200, 100, 50, 0.20);
+
+  /* Accent */
+  --amber:          #a66c28;
+  --amber-light:    #c48a44;
+  --amber-glow:     rgba(166, 108, 40, 0.20);
+
+  /* Semantic */
+  --success:        #3A7A50;
+  --success-light:  #52A06C;
+  --success-glow:   rgba(58, 122, 80, 0.18);
+  --danger:         #963838;
+  --danger-light:   #B85050;
+  --danger-glow:    rgba(150, 56, 56, 0.18);
+  --warning:        #a66c28;
+  --warning-glow:   rgba(166, 108, 40, 0.18);
+
+  /* Text */
+  --text:           #111111;
+  --text-muted:     #4A4A4A;
+  --text-dim:       #666666;
+
+  /* Aurora */
+  --aurora-1:       #888888;
+  --aurora-2:       #d48f6c; /* Claude warm tint */
+  --aurora-3:       #AAAAAA;
+  --aurora-4:       #b37554;
+
+  /* Glass — frosted stone appearance */
+  --glass-bg:        rgba(215, 212, 206, 0.65);
+  --glass-bg-strong: rgba(225, 222, 216, 0.85);
+  --glass-blur:      36px;
+  /* Claude orange border in light mode */
+  --glass-border:    rgba(215, 110, 60, 0.45);
+  --glass-highlight: rgba(255, 255, 255, 0.50);
+
+  /* Shadows */
+  --shadow-sm:  0 1px 4px rgba(0,0,0,0.15);
+  --shadow-md:  0 4px 20px rgba(0,0,0,0.18);
+  --shadow-lg:  0 12px 48px rgba(0,0,0,0.22);
+  --shadow-glow: 0 0 32px rgba(215, 110, 60, 0.20);
+
+  /* Nebula particles — dark on light bg */
+  --nebula-particle: rgba(30, 30, 30, 0.50);
+  --nebula-line:     rgba(40, 40, 40, 1);
+
+  color-scheme: light;
+}
+
+/* ── Shared Tokens ─────────────────────────────────────── */
+:root {
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
+
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   18px;
+  --radius-xl:   26px;
+  --radius-2xl:  36px;
+  --radius-full: 9999px;
+
+  --transition:        200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 350ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ══════════════════════════════════════════════
+   KEYFRAMES
+══════════════════════════════════════════════ */
+
+/* Aurora shift */
+@keyframes aurora {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Typing cursor blink */
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* Fade in + lift */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Button shimmer */
+@keyframes shimmer {
+  from { left: -100%; }
+  to   { left: 200%; }
+}
+
+/* XP confetti */
+@keyframes confettiBurst {
+  0%   { transform: translate(0,0) scale(1); opacity: 1; }
+  100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+}
+
+/* Pulse glow */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 8px var(--primary-glow); }
+  50%       { box-shadow: 0 0 24px var(--primary-glow); }
+}
+
+/* Skill node pulse */
+@keyframes nodeCurrentPulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--primary-glow); }
+  50%       { box-shadow: 0 0 0 8px transparent; }
+}
+
+/* Spin */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Float */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+/* Record pulse */
+@keyframes recordPulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--danger-glow); }
+  50%       { box-shadow: 0 0 0 10px transparent; }
+}
+
+/* XP bar shimmer */
+@keyframes xpShimmer {
+  from { background-position: -200px 0; }
+  to   { background-position: 200px 0; }
+}
+
+/* Skeleton wave */
+@keyframes skeletonWave {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+/* Score ring draw */
+@keyframes ringDraw {
+  from { stroke-dashoffset: 251.2; }
+}
+
+/* Ripple */
+@keyframes ripple {
+  from { transform: scale(0); opacity: 0.5; }
+  to   { transform: scale(4); opacity: 0; }
+}
