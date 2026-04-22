@@ -1,0 +1,185 @@
+⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠼ Generating mutants⠴ Generating mutants⠦ Generating mutants⠧ Generating mutants⠇ Generating mutants⠏ Generating mutants⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠼ Generating mutants⠴ Generating mutants⠦ Generating mutants⠧ Generating mutants⠇ Generating mutants⠏ Generating mutants⠋ Generating mutants⠙ Generating mutants⠹ Generating mutants⠸ Generating mutants⠼ Generating mutants⠴ Generating mutants⠦ Generating mutants
+    done in 42ms (0 files mutated, 0 ignored, 1 unmodified)
+⠴ Running stats     ⠦ Running stats⠧ Running stats⠇ Running stats⠏ Running stats⠋ Running stats⠙ Running stats⠹ Running stats⠸ Running stats⠼ Running stats⠴ Running stats⠦ Running stats⠧ Running stats⠇ Running stats⠏ Running stats⠋ Running stats⠙ Running stats⠹ Running stats⠸ Running stats⠼ Running stats
+......                                                                   [100%]
+=============================== warnings summary ===============================
+tests/test_scoring_mutmut.py::test_calculate_score_zero_max_xp
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/app/core/database.py:29: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    Base = declarative_base()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+6 passed, 1 warning in 0.78s
+Stopping early, because we could not find any test case for any mutant. It seems that the selected tests do not cover any code that we mutated.
+You can set debug=true to see the executed test names in the output above.
+You can use mutmut browse to check which parts of the source code we mutated.
+If some of the mutated code should be covered by the executed tests, consider opening an issue (with a MRE if possible).
+
+    app.services.scoring_service.x_calculate_score__mutmut_1: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_2: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_3: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_4: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_5: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_6: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_7: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_8: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_9: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_10: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_11: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_12: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_13: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_14: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_15: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_16: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_17: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_18: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_19: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_20: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_21: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_22: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_23: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_24: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_25: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_26: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_27: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_28: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_29: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_30: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_31: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_32: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_33: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_34: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_35: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_36: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_37: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_38: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_39: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_40: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_41: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_42: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_43: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_44: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_45: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_46: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_47: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_48: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_49: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_50: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_51: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_52: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_53: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_54: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_55: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_56: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_57: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_58: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_59: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_60: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_61: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_62: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_63: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_64: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_65: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_66: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_67: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_68: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_69: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_70: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_71: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_72: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_73: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_74: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_75: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_76: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_77: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_78: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_79: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_80: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_81: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_82: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_83: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_84: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_85: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_86: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_87: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_88: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_89: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_90: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_91: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_92: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_93: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_94: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_95: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_96: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_97: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_98: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_99: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_100: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_101: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_102: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_103: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_104: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_105: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_106: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_107: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_108: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_109: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_110: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_111: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_112: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_113: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_114: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_115: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_116: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_117: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_118: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_119: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_120: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_121: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_122: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_123: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_124: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_125: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_126: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_127: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_128: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_129: not checked
+    app.services.scoring_service.x_calculate_score__mutmut_130: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_1: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_2: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_3: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_4: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_5: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_6: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_7: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_8: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_9: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_10: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_11: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_12: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_13: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_14: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_15: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_16: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_17: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_18: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_19: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_20: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_21: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_22: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_23: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_24: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_25: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_26: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_27: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_28: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_29: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_30: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_31: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_32: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_33: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_34: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_35: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_36: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_37: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_38: not checked
+    app.services.scoring_service.x_score_mcq_locally__mutmut_39: not checked
