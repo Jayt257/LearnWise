@@ -5,6 +5,9 @@ Key fix: patch app.main.SessionLocal so the startup seed_admin()
 uses our SQLite test DB instead of PostgreSQL.
 """
 import pytest
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from unittest.mock import patch
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
