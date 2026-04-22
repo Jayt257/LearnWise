@@ -1,0 +1,261 @@
+============================= test session starts ==============================
+collecting ... collected 144 items
+
+tests/test_admin.py::test_admin_stats_requires_admin PASSED              [  0%]
+tests/test_admin.py::test_admin_stats PASSED                             [  1%]
+tests/test_admin.py::test_list_users PASSED                              [  2%]
+tests/test_admin.py::test_list_users_with_search PASSED                  [  2%]
+tests/test_admin.py::test_get_activity_types PASSED                      [  3%]
+tests/test_admin.py::test_get_activity_template PASSED                   [  4%]
+tests/test_admin.py::test_get_activity_template_unknown_type PASSED      [  4%]
+tests/test_admin.py::test_list_languages PASSED                          [  5%]
+tests/test_admin.py::test_list_content FAILED                            [  6%]
+tests/test_admin.py::test_get_content_file PASSED                        [  6%]
+tests/test_admin.py::test_get_content_file_missing PASSED                [  7%]
+tests/test_admin.py::test_get_analytics PASSED                           [  8%]
+tests/test_admin.py::test_update_user_role PASSED                        [  9%]
+tests/test_admin.py::test_deactivate_user PASSED                         [  9%]
+tests/test_admin.py::test_create_new_language_pair PASSED                [ 10%]
+tests/test_admin.py::test_create_duplicate_pair_rejected PASSED          [ 11%]
+tests/test_admin.py::test_activate_user PASSED                           [ 11%]
+tests/test_admin.py::test_update_content PASSED                          [ 12%]
+tests/test_admin.py::test_update_meta PASSED                             [ 13%]
+tests/test_admin.py::test_add_and_delete_activity PASSED                 [ 13%]
+tests/test_admin.py::test_admin_content_month_block_crud PASSED          [ 14%]
+tests/test_admin_crud.py::test_create_pair_creates_all_json_files PASSED [ 15%]
+tests/test_admin_crud.py::test_add_month_creates_json_files PASSED       [ 15%]
+tests/test_admin_crud.py::test_add_block_creates_json_files PASSED       [ 16%]
+tests/test_admin_crud.py::test_meta_filenames_use_correct_prefix PASSED  [ 17%]
+tests/test_admin_crud.py::test_backend_pairs_api_returns_new_pair PASSED [ 18%]
+tests/test_admin_crud.py::test_delete_pair_removes_source_folder_if_empty PASSED [ 18%]
+tests/test_admin_crud.py::test_delete_pair_keeps_source_if_other_targets_exist PASSED [ 19%]
+tests/test_auth.py::test_register_new_user PASSED                        [ 20%]
+tests/test_auth.py::test_register_duplicate_email PASSED                 [ 20%]
+tests/test_auth.py::test_login_success PASSED                            [ 21%]
+tests/test_auth.py::test_login_wrong_password PASSED                     [ 22%]
+tests/test_auth.py::test_login_unknown_email PASSED                      [ 22%]
+tests/test_auth.py::test_get_profile PASSED                              [ 23%]
+tests/test_auth.py::test_get_profile_no_token PASSED                     [ 24%]
+tests/test_auth.py::test_get_profile_bad_token PASSED                    [ 25%]
+tests/test_content.py::test_list_pairs PASSED                            [ 25%]
+tests/test_content.py::test_get_meta PASSED                              [ 26%]
+tests/test_content.py::test_get_lesson_activity PASSED                   [ 27%]
+tests/test_content.py::test_get_vocabulary_activity PASSED               [ 27%]
+tests/test_content.py::test_get_test_activity PASSED                     [ 28%]
+tests/test_content.py::test_missing_activity_returns_404 PASSED          [ 29%]
+tests/test_content.py::test_check_existing_activity PASSED               [ 29%]
+tests/test_content.py::test_check_missing_activity PASSED                [ 30%]
+tests/test_content.py::test_path_traversal_blocked PASSED                [ 31%]
+tests/test_content.py::test_meta_has_source_and_target PASSED            [ 31%]
+tests/test_content.py::test_meta_activity_ids_are_sequential PASSED      [ 32%]
+tests/test_core.py::test_get_db_coverage PASSED                          [ 33%]
+tests/test_core.py::test_sqlite_engine_init PASSED                       [ 34%]
+tests/test_core.py::test_dependencies PASSED                             [ 34%]
+tests/test_core.py::test_security_functions PASSED                       [ 35%]
+tests/test_core.py::test_database_create_tables PASSED                   [ 36%]
+tests/test_friends.py::TestFriendsList::test_friends_empty PASSED        [ 36%]
+tests/test_friends.py::TestFriendsList::test_friends_unauthenticated PASSED [ 37%]
+tests/test_friends.py::TestFriendRequests::test_get_incoming_requests_empty PASSED [ 38%]
+tests/test_friends.py::TestFriendRequests::test_send_friend_request PASSED [ 38%]
+tests/test_friends.py::TestFriendRequests::test_cannot_send_request_to_self PASSED [ 39%]
+tests/test_friends.py::TestFriendRequests::test_cannot_send_duplicate_request PASSED [ 40%]
+tests/test_friends.py::TestFriendRequests::test_request_appears_in_incoming PASSED [ 40%]
+tests/test_friends.py::TestFriendRequests::test_send_request_to_nonexistent_user PASSED [ 41%]
+tests/test_friends.py::TestAcceptDeclineRequest::test_accept_request PASSED [ 42%]
+tests/test_friends.py::TestAcceptDeclineRequest::test_decline_request PASSED [ 43%]
+tests/test_friends.py::TestAcceptDeclineRequest::test_sender_cannot_accept_own_request PASSED [ 43%]
+tests/test_friends.py::TestRemoveFriend::test_remove_friend PASSED       [ 44%]
+tests/test_friends.py::TestRemoveFriend::test_remove_nonexistent_friend PASSED [ 45%]
+tests/test_groq.py::test_groq_extract_json_markdown PASSED               [ 45%]
+tests/test_groq.py::test_groq_clamp_score_invalid_type PASSED            [ 46%]
+tests/test_groq.py::test_groq_build_prompt_sample_answer PASSED          [ 47%]
+tests/test_groq.py::test_groq_validate_activity_broad_exception PASSED   [ 47%]
+tests/test_groq.py::test_groq_generate_tier_feedback_exception PASSED    [ 48%]
+tests/test_groq.py::test_groq_determine_feedback_tier PASSED             [ 49%]
+tests/test_groq.py::test_groq_validate_activity_success_and_jsonerror PASSED [ 50%]
+tests/test_groq.py::test_groq_get_client PASSED                          [ 50%]
+tests/test_health.py::test_health_ok PASSED                              [ 51%]
+tests/test_leaderboard.py::TestGlobalLeaderboard::test_leaderboard_empty PASSED [ 52%]
+tests/test_leaderboard.py::TestGlobalLeaderboard::test_leaderboard_shows_user_after_progress PASSED [ 52%]
+tests/test_leaderboard.py::TestGlobalLeaderboard::test_leaderboard_schema PASSED [ 53%]
+tests/test_leaderboard.py::TestGlobalLeaderboard::test_leaderboard_sorted_by_xp PASSED [ 54%]
+tests/test_leaderboard.py::TestGlobalLeaderboard::test_leaderboard_unauthenticated PASSED [ 54%]
+tests/test_leaderboard.py::TestFriendsLeaderboard::test_friends_leaderboard_returns_list PASSED [ 55%]
+tests/test_leaderboard.py::TestFriendsLeaderboard::test_friends_leaderboard_includes_self PASSED [ 56%]
+tests/test_leaderboard.py::TestFriendsLeaderboard::test_friends_leaderboard_unauthenticated PASSED [ 56%]
+tests/test_progress.py::test_start_pair PASSED                           [ 57%]
+tests/test_progress.py::test_start_pair_idempotent PASSED                [ 58%]
+tests/test_progress.py::test_get_pair_progress PASSED                    [ 59%]
+tests/test_progress.py::test_get_all_progress PASSED                     [ 59%]
+tests/test_progress.py::test_complete_activity_advances_position PASSED  [ 60%]
+tests/test_progress.py::test_complete_activity_does_not_advance_past_current PASSED [ 61%]
+tests/test_progress.py::test_xp_accumulates PASSED                       [ 61%]
+tests/test_progress.py::test_get_completions PASSED                      [ 62%]
+tests/test_progress.py::test_completions_have_block_number PASSED        [ 63%]
+tests/test_progress.py::test_progress_unauthenticated PASSED             [ 63%]
+tests/test_speech.py::test_stt_endpoint_requires_auth PASSED             [ 64%]
+tests/test_speech.py::test_stt_missing_file PASSED                       [ 65%]
+tests/test_speech.py::test_stt_wrong_method PASSED                       [ 65%]
+tests/test_speech.py::test_stt_rejects_non_audio_text_plain PASSED       [ 66%]
+tests/test_speech.py::test_stt_rejects_image_content_type PASSED         [ 67%]
+tests/test_speech.py::test_stt_accepts_wav PASSED                        [ 68%]
+tests/test_speech.py::test_stt_accepts_webm PASSED                       [ 68%]
+tests/test_speech.py::test_stt_accepts_webm_with_codec_suffix PASSED     [ 69%]
+tests/test_speech.py::test_stt_accepts_mp3 PASSED                        [ 70%]
+tests/test_speech.py::test_stt_accepts_octet_stream PASSED               [ 70%]
+tests/test_speech.py::test_stt_rejects_too_small_file PASSED             [ 71%]
+tests/test_speech.py::test_stt_response_has_text_field_not_transcript PASSED [ 72%]
+tests/test_speech.py::test_stt_response_schema_complete PASSED           [ 72%]
+tests/test_speech.py::test_stt_response_text_is_string PASSED            [ 73%]
+tests/test_speech.py::test_stt_response_is_mock_is_bool PASSED           [ 74%]
+tests/test_speech.py::test_stt_real_wav_whisper_processes FAILED         [ 75%]
+tests/test_speech.py::test_stt_real_wav_detects_language PASSED          [ 75%]
+tests/test_speech.py::test_stt_real_wav_confidence_is_valid PASSED       [ 76%]
+tests/test_speech.py::test_stt_whisper_service_returns_text_key PASSED   [ 77%]
+tests/test_speech.py::test_stt_whisper_service_handles_invalid_bytes PASSED [ 77%]
+tests/test_speech.py::test_stt_whisper_service_not_mock_when_installed FAILED [ 78%]
+tests/test_users.py::TestUserProfile::test_get_my_profile PASSED         [ 79%]
+tests/test_users.py::TestUserProfile::test_get_my_profile_unauthenticated PASSED [ 79%]
+tests/test_users.py::TestUserProfile::test_update_profile_display_name PASSED [ 80%]
+tests/test_users.py::TestUserProfile::test_update_profile_native_lang PASSED [ 81%]
+tests/test_users.py::TestUserProfile::test_update_profile_avatar_url PASSED [ 81%]
+tests/test_users.py::TestUserProfile::test_update_profile_unauthenticated PASSED [ 82%]
+tests/test_users.py::TestUserSearch::test_search_users_found PASSED      [ 83%]
+tests/test_users.py::TestUserSearch::test_search_users_empty_result PASSED [ 84%]
+tests/test_users.py::TestUserSearch::test_search_requires_query PASSED   [ 84%]
+tests/test_users.py::TestUserSearch::test_search_unauthenticated PASSED  [ 85%]
+tests/test_users.py::TestPublicUserProfile::test_get_existing_user PASSED [ 86%]
+tests/test_users.py::TestPublicUserProfile::test_get_nonexistent_user PASSED [ 86%]
+tests/test_users.py::TestPublicUserProfile::test_get_user_progress_public PASSED [ 87%]
+tests/test_validate.py::test_validate_requires_auth PASSED               [ 88%]
+tests/test_validate.py::test_validate_lesson PASSED                      [ 88%]
+tests/test_validate.py::test_validate_vocabulary PASSED                  [ 89%]
+tests/test_validate.py::test_validate_writing PASSED                     [ 90%]
+tests/test_validate.py::test_validate_pronunciation PASSED               [ 90%]
+tests/test_validate.py::test_validate_listening PASSED                   [ 91%]
+tests/test_validate.py::test_validate_speaking PASSED                    [ 92%]
+tests/test_validate.py::test_validate_reading PASSED                     [ 93%]
+tests/test_validate.py::test_validate_test_mcq_local PASSED              [ 93%]
+tests/test_validate.py::test_validate_empty_questions_rejected PASSED    [ 94%]
+tests/test_validate.py::test_validate_unknown_type_rejected PASSED       [ 95%]
+tests/test_validate.py::test_validate_response_structure PASSED          [ 95%]
+tests/test_validate_activity_fixes.py::test_vocab_block_type_multiple_choice_is_accepted PASSED [ 96%]
+tests/test_validate_activity_fixes.py::test_groq_temperature_is_deterministic PASSED [ 97%]
+tests/test_validate_activity_fixes.py::test_romanization_context_included_in_prompt PASSED [ 97%]
+tests/test_validate_activity_fixes.py::test_lesson_comprehension_rubric_included PASSED [ 98%]
+tests/test_validate_activity_fixes.py::test_pronunciation_partial_credit_rubric_included PASSED [ 99%]
+tests/test_validate_activity_fixes.py::test_speaking_object_sample_response_no_500 PASSED [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_list_content _______________________________
+tests/test_admin.py:72: in test_list_content
+    assert data["total"] == 144
+E   assert 145 == 144
+_____________________ test_stt_real_wav_whisper_processes ______________________
+tests/test_speech.py:245: in test_stt_real_wav_whisper_processes
+    assert data["is_mock"] is False, "Whisper is installed — is_mock must be False"
+E   AssertionError: Whisper is installed — is_mock must be False
+E   assert True is False
+------------------------------ Captured log call -------------------------------
+WARNING  app.services.whisper_service:whisper_service.py:65 Whisper unavailable — returning mock transcription with is_mock=True
+_______________ test_stt_whisper_service_not_mock_when_installed _______________
+tests/test_speech.py:313: in test_stt_whisper_service_not_mock_when_installed
+    assert result["is_mock"] is False, (
+E   AssertionError: Whisper is installed — is_mock must be False. If True, Whisper failed to load — check whisper install and ffmpeg.
+E   assert True is False
+------------------------------ Captured log call -------------------------------
+WARNING  app.services.whisper_service:whisper_service.py:65 Whisper unavailable — returning mock transcription with is_mock=True
+=============================== warnings summary ===============================
+app/core/database.py:29
+tests/test_core.py::test_sqlite_engine_init
+tests/test_core.py::test_sqlite_engine_init
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/tests/../app/core/database.py:29: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    Base = declarative_base()
+
+tests/test_admin_crud.py::test_create_pair_creates_all_json_files
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_create_pair_creates_all_json_files returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+tests/test_admin_crud.py::test_add_month_creates_json_files
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_add_month_creates_json_files returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+tests/test_admin_crud.py::test_add_block_creates_json_files
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_add_block_creates_json_files returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+tests/test_admin_crud.py::test_meta_filenames_use_correct_prefix
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_meta_filenames_use_correct_prefix returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+tests/test_admin_crud.py::test_backend_pairs_api_returns_new_pair
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_backend_pairs_api_returns_new_pair returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+tests/test_admin_crud.py::test_delete_pair_removes_source_folder_if_empty
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_delete_pair_removes_source_folder_if_empty returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+tests/test_admin_crud.py::test_delete_pair_keeps_source_if_other_targets_exist
+  /home/jeel/Downloads/learnwise-react_till_now_6/learnwise-react/backend/venv/lib/python3.10/site-packages/_pytest/python.py:170: PytestReturnNotNoneWarning: Test functions should return None, but tests/test_admin_crud.py::test_delete_pair_keeps_source_if_other_targets_exist returned <class 'bool'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.20-final-0 _______________
+
+Name                              Stmts   Miss  Cover   Missing
+---------------------------------------------------------------
+app/__init__.py                       0      0   100%
+app/core/__init__.py                  0      0   100%
+app/core/config.py                   29      0   100%
+app/core/database.py                 24      0   100%
+app/core/dependencies.py             34      0   100%
+app/core/security.py                 21      0   100%
+app/main.py                          55      3    95%   46-48
+app/models/__init__.py                3      0   100%
+app/models/friends.py                24      1    96%   40
+app/models/progress.py               42      2    95%   40, 71
+app/models/user.py                   29      1    97%   57
+app/routers/__init__.py               0      0   100%
+app/routers/admin.py                263     52    80%   371-373, 462, 476, 479-480, 489, 491, 501, 519-520, 557, 576-577, 585-588, 596-597, 610-613, 623-624, 638-641, 658-661, 674-679, 705, 708, 721-724, 734, 748-751
+app/routers/auth.py                  44      3    93%   42, 67, 81
+app/routers/content.py               38     10    74%   22-23, 34-37, 59-60, 78-79
+app/routers/friends.py               64      1    98%   90
+app/routers/leaderboard.py           26      3    88%   77-80
+app/routers/progress.py              82      8    90%   56, 97, 138-146, 161-163, 169
+app/routers/speech.py                27      2    93%   39, 80
+app/routers/users.py                 42      1    98%   91
+app/routers/validate.py              36      2    94%   87-88
+app/schemas/__init__.py               0      0   100%
+app/schemas/activity.py              71      4    94%   34, 44, 62, 71
+app/schemas/admin.py                 45      0   100%
+app/schemas/auth.py                  45      3    93%   24, 26, 33
+app/schemas/progress.py              58      0   100%
+app/schemas/user.py                  35      0   100%
+app/services/__init__.py              0      0   100%
+app/services/content_service.py     185      8    96%   113, 123, 151, 160, 183-185, 352
+app/services/groq_service.py        106      2    98%   319-320
+app/services/scoring_service.py      30      3    90%   29, 54, 89
+app/services/whisper_service.py      81     59    27%   30-35, 73-127, 140-175
+---------------------------------------------------------------
+TOTAL                              1539    168    89%
+=========================== short test summary info ============================
+FAILED tests/test_admin.py::test_list_content - assert 145 == 144
+FAILED tests/test_speech.py::test_stt_real_wav_whisper_processes - AssertionE...
+FAILED tests/test_speech.py::test_stt_whisper_service_not_mock_when_installed
+================= 3 failed, 141 passed, 10 warnings in 35.01s ==================

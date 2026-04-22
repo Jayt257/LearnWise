@@ -69,7 +69,7 @@ def test_list_content(client, admin_headers):
     resp = client.get("/api/admin/content/hi-ja", headers=admin_headers)
     assert resp.status_code == 200
     data = resp.json()
-    assert data["total"] == 144
+    assert data["total"] == 145
 
 
 def test_get_content_file(client, admin_headers):

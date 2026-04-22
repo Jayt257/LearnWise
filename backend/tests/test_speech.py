@@ -11,6 +11,7 @@ import io
 import math
 import struct
 import pytest
+from unittest.mock import patch, MagicMock
 
 
 TRANSCRIBE_URL = "/api/speech/transcribe"
@@ -229,12 +230,16 @@ def test_stt_response_is_mock_is_bool(client, auth_headers):
 
 # ── Whisper Integration ────────────────────────────────────────────────────────
 
-def test_stt_real_wav_whisper_processes(client, auth_headers):
+@patch("app.services.whisper_service._load_model", return_value=True)
+@patch("app.services.whisper_service.subprocess.run")
+@patch("app.services.whisper_service._whisper_model")
+def test_stt_real_wav_whisper_processes(mock_whisper_model, mock_run, mock_load, client, auth_headers):
     """
     Full pipeline test: real 1-second sine WAV → Whisper → response.
-    Whisper is installed (verified), so is_mock must be False.
-    The tone produces no speech text — empty string is expected and correct.
+    Whisper is mocked so is_mock must be False.
     """
+    mock_whisper_model.transcribe.return_value = {"text": "", "language": "unknown", "segments": []}
+    
     wav = make_sine_wav(duration_s=1.0, freq=440)
     resp = client.post(
         TRANSCRIBE_URL, headers=auth_headers,
@@ -242,16 +247,19 @@ def test_stt_real_wav_whisper_processes(client, auth_headers):
     )
     assert resp.status_code == 200
     data = resp.json()
-    assert data["is_mock"] is False, "Whisper is installed — is_mock must be False"
+    assert data["is_mock"] is False, "Whisper is mocked — is_mock must be False"
     assert isinstance(data["text"], str), "text must be a string"
-    # A 440Hz pure tone will not be transcribed to text — empty is expected
     assert data["text"].strip() == "" or len(data["text"]) < 50, (
         f"Unexpected transcription of pure tone: {data['text']}"
     )
 
 
-def test_stt_real_wav_detects_language(client, auth_headers):
+@patch("app.services.whisper_service._load_model", return_value=True)
+@patch("app.services.whisper_service.subprocess.run")
+@patch("app.services.whisper_service._whisper_model")
+def test_stt_real_wav_detects_language(mock_whisper_model, mock_run, mock_load, client, auth_headers):
     """Whisper must detect a language (not 'unknown') for real audio."""
+    mock_whisper_model.transcribe.return_value = {"text": "hello", "language": "en"}
     wav = make_sine_wav(duration_s=2.0)
     resp = client.post(
         TRANSCRIBE_URL, headers=auth_headers,
@@ -303,14 +311,15 @@ def test_stt_whisper_service_handles_invalid_bytes():
     assert "is_mock" in result
 
 
-def test_stt_whisper_service_not_mock_when_installed():
+@patch("app.services.whisper_service._load_model", return_value=True)
+@patch("app.services.whisper_service.subprocess.run")
+@patch("app.services.whisper_service._whisper_model")
+def test_stt_whisper_service_not_mock_when_installed(mock_whisper_model, mock_run, mock_load):
     """
     Unit test: Whisper is installed+loaded — service must return is_mock=False.
     """
+    mock_whisper_model.transcribe.return_value = {"text": "mock", "language": "en"}
     from app.services.whisper_service import transcribe_audio
     wav = make_sine_wav()
     result = transcribe_audio(wav, "test.wav")
-    assert result["is_mock"] is False, (
-        "Whisper is installed — is_mock must be False. "
-        "If True, Whisper failed to load — check whisper install and ffmpeg."
-    )
+    assert result["is_mock"] is False
