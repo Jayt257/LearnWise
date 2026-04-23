@@ -13,8 +13,8 @@
   --surface:        #111111;
   --surface-2:      #181818;
   --surface-3:      #222222;
-  --border:         rgba(255, 255, 255, 0.07);
-  --border-strong:  rgba(255, 255, 255, 0.14);
+  --border:         rgba(255, 255, 255, 0.10);
+  --border-strong:  rgba(255, 255, 255, 0.18);
   --border-glow:    rgba(255, 255, 255, 0.25);
 
   /* Primary = near-white silver */
@@ -248,4 +248,31 @@
 @keyframes ripple {
   from { transform: scale(0); opacity: 0.5; }
   to   { transform: scale(4); opacity: 0; }
+}
+/* ── Backward-compat aliases (--color-* → new tokens) ──────── */
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --color-primary:       var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-glow:  var(--primary-glow);
+  --color-surface:       var(--surface);
+  --color-surface-2:     var(--surface-2);
+  --color-surface-3:     var(--surface-3);
+  --color-border:        var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text:          var(--text);
+  --color-text-muted:    var(--text-muted);
+  --color-text-dim:      var(--text-dim);
+  --color-success:       var(--success);
+  --color-success-light: var(--success-light);
+  --color-success-glow:  var(--success-glow);
+  --color-danger:        var(--danger);
+  --color-danger-light:  var(--danger-light);
+  --color-danger-glow:   var(--danger-glow);
+  --color-accent:        var(--amber);
+  --color-accent-light:  var(--amber-light);
+  --color-accent-glow:   var(--amber-glow);
+  --color-warning:       var(--warning);
+  --color-warning-glow:  var(--warning-glow);
 }
