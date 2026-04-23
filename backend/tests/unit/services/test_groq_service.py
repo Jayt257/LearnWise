@@ -83,6 +83,12 @@ def test_groq_determine_feedback_tier():
     assert _determine_feedback_tier(60.0, 1) == "lesson"
     assert _determine_feedback_tier(40.0, 2) == "hint"
     assert _determine_feedback_tier(40.0, 1) == "lesson"
+    # Boundary: 55% is in the lesson band (>=50 and <80).
+    # Mutation raises threshold to 60, so 55% falls to else → returns "hint" for >=2 attempts.
+    # This assertion kills that mutant.
+    assert _determine_feedback_tier(55.0, 1) == "lesson"
+    assert _determine_feedback_tier(55.0, 2) == "lesson"  # NOT hint — still in lesson band
+    assert _determine_feedback_tier(50.0, 2) == "lesson"  # exact boundary: >=50 → lesson
 
 def test_groq_validate_activity_success_and_jsonerror(monkeypatch):
     import app.services.groq_service as gs

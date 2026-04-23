@@ -4,15 +4,15 @@ Integration tests for all 7 admin bug fixes.
 Run with: backend/venv/bin/python backend/tests/test_admin_crud.py
 """
 import sys, os, json, shutil
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
 from pathlib import Path
 from app.services import content_service
 
 PAIR_ID = "fr-en"
-BASE_DIR = Path(__file__).parent.parent
-BASE_DATA = BASE_DIR / "data" / "languages"
-PAIRS_JSON = BASE_DIR / "data" / "language_pairs.json"
+# Anchor to the backend root via the app package location, not __file__
+BACKEND_DIR = Path(content_service.__file__).parent.parent.parent
+BASE_DATA = BACKEND_DIR / "data" / "languages"
+PAIRS_JSON = BACKEND_DIR / "data" / "language_pairs.json"
+
 
 def cleanup():
     """Remove test pair and restore state."""
