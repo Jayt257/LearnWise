@@ -80,10 +80,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Static file serving for uploaded audio ────────────────────
+# ── Static file serving for uploaded audio and curriculum assets ──
 uploads_path = str(Path(settings.data_path).parent / "uploads")
+languages_path = str(Path(settings.data_path) / "languages")
 os.makedirs(uploads_path, exist_ok=True)
+os.makedirs(languages_path, exist_ok=True)
 app.mount("/uploads", StaticFiles(directory=uploads_path), name="uploads")
+app.mount("/static", StaticFiles(directory=languages_path), name="static")
 
 # ── Register routers ──────────────────────────────────────────
 from app.routers import auth, content, progress, validate, speech, leaderboard, friends, admin, users
