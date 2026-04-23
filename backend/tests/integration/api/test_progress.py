@@ -86,21 +86,27 @@ def test_complete_activity_does_not_advance_past_current(client, auth_headers):
 
 
 def test_xp_accumulates(client, auth_headers):
-    """Completing activities adds XP to total."""
+    """Completing activities adds XP to total — strict checks kill the -= mutation."""
     client.post(f"/api/progress/{PAIR_ID}/start", headers=auth_headers)
     prog_before = client.get(f"/api/progress/{PAIR_ID}", headers=auth_headers).json()
     xp_before = prog_before["total_xp"]
 
+    score = 45
     client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
         "activity_seq_id": 1,
         "activity_type": "lesson",
         "lang_pair_id": PAIR_ID,
-        "score_earned": 45,
+        "score_earned": score,
         "max_score": 50,
         "passed": True,
     })
     prog_after = client.get(f"/api/progress/{PAIR_ID}", headers=auth_headers).json()
-    assert prog_after["total_xp"] >= xp_before  # XP never decreases
+    xp_after = prog_after["total_xp"]
+
+    # XP must go UP — not down (kills total_xp -= xp_delta mutation)
+    assert xp_after > xp_before, f"XP did not increase: before={xp_before}, after={xp_after}"
+    # XP must be non-negative — double protection
+    assert xp_after >= 0, f"XP went negative ({xp_after}) — accumulation is broken"
 
 
 def test_get_completions(client, auth_headers):
