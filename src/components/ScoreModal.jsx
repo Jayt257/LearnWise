@@ -51,7 +51,12 @@ export default function ScoreModal({ result, maxXP, onNext, onRetry, activityTyp
             {passed ? '🎉 Passed!' : '📚 Keep Practicing'}
           </div>
           <div style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '0.5rem' }}>
-            {ACTIVITY_PRAISE[activityType] || 'Activity completed!'}
+            {passed
+              ? (ACTIVITY_PRAISE[activityType] || 'Activity completed! 🎉')
+              : percent >= 50
+                ? 'So close! Review the feedback and try again. 💪'
+                : 'Score 50% or more to unlock the next activity. 📚'
+            }
           </div>
           <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', flexWrap: 'wrap' }}>
             <span style={{ background: 'var(--color-accent-glow)', border: '1px solid var(--color-accent)', color: 'var(--color-accent-light)', borderRadius: 'var(--radius-full)', padding: '0.2rem 0.625rem', fontSize: '0.8rem', fontWeight: 700 }}>

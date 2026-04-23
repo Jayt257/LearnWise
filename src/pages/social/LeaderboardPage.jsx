@@ -58,33 +58,49 @@ function PodiumCard({ entry, medalIdx, isMe }) {
   };
 
   return (
-    <div
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      style={{
-        position: 'relative',
-        overflow: 'hidden',
-        width: 160,
-        height: m.height,
-        borderRadius: 'var(--radius-lg)',
-        border: `2px solid ${m.border}`,
-        background: m.bg,
-        backdropFilter: 'blur(20px)',
-        WebkitBackdropFilter: 'blur(20px)',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '0.5rem',
-        cursor: 'default',
-        transition: 'transform 0.2s, box-shadow 0.2s',
-        boxShadow: isMe
-          ? `0 0 0 2px var(--primary), 0 8px 32px ${m.border}44`
-          : `0 8px 32px ${m.border}33`,
-        transform: medalIdx === 0 ? 'translateY(-16px)' : 'none',
-      }}
-    >
-      {/* Metallic shine — sweeps once on JS class toggle */}
+    <div style={{ position: 'relative', display: 'inline-flex', flexDirection: 'column', alignItems: 'center' }}>
+      {/* Crown OUTSIDE the card — top-right, tilted, fully visible */}
+      {medalIdx === 0 && (
+        <div style={{
+          position: 'absolute',
+          top: -32,
+          right: -16,
+          fontSize: '2rem',
+          transform: 'rotate(20deg)',
+          animation: 'float 2.2s ease-in-out infinite',
+          zIndex: 10,
+          filter: 'drop-shadow(0 2px 8px rgba(212,175,55,0.7))',
+          pointerEvents: 'none',
+        }}>👑</div>
+      )}
+
+      <div
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{
+          position: 'relative',
+          overflow: 'hidden',
+          width: 160,
+          height: m.height,
+          borderRadius: 'var(--radius-lg)',
+          border: `2px solid ${m.border}`,
+          background: m.bg,
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: '0.5rem',
+          cursor: 'default',
+          transition: 'transform 0.2s, box-shadow 0.2s',
+          boxShadow: isMe
+            ? `0 0 0 2px var(--primary), 0 8px 32px ${m.border}44`
+            : `0 8px 32px ${m.border}33`,
+          transform: medalIdx === 0 ? 'translateY(-16px)' : 'none',
+        }}
+      >
+      {/* Metallic shine sweeps once on hover */}
       <div style={{
         position: 'absolute',
         inset: 0,
@@ -94,19 +110,6 @@ function PodiumCard({ entry, medalIdx, isMe }) {
         pointerEvents: 'none',
         zIndex: 2,
       }} />
-
-      {/* Crown — only on #1 */}
-      {medalIdx === 0 && (
-        <div style={{
-          position: 'absolute',
-          top: -28,
-          left: '50%',
-          transform: 'translateX(-50%)',
-          fontSize: '1.6rem',
-          animation: 'float 2.2s ease-in-out infinite',
-          zIndex: 3,
-        }}>👑</div>
-      )}
 
       {/* Medal badge — #2 and #3 */}
       {m.badge && (
@@ -154,6 +157,7 @@ function PodiumCard({ entry, medalIdx, isMe }) {
       {/* Rank label */}
       <div style={{ fontSize: '0.65rem', fontWeight: 700, letterSpacing: '0.1em', color: m.border, zIndex: 1, position: 'relative' }}>
         #{m.rank} · {m.label}
+      </div>
       </div>
     </div>
   );
