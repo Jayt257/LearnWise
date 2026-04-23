@@ -61,9 +61,9 @@ def validate_activity(
         suggestion = groq_result.get("suggestion", "Keep practicing!")
         question_results = result["question_results"]
 
-    # Apply global score threshold override for testing (SCORE_THRESHOLD_OVERRIDE=0)
+    # Apply global score threshold override only when explicitly set to a positive value
     effective_passed = result["passed"]
-    if settings.SCORE_THRESHOLD_OVERRIDE >= 0:
+    if settings.SCORE_THRESHOLD_OVERRIDE > 0:
         effective_passed = result["total_score"] >= settings.SCORE_THRESHOLD_OVERRIDE
 
     # Calculate feedback tier

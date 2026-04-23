@@ -110,15 +110,16 @@ def complete_activity(
 ):
     """
     Record an activity completion and update user XP.
-    - Uses SCORE_THRESHOLD_OVERRIDE=0 from settings for testing (auto-pass).
+    - SCORE_THRESHOLD_OVERRIDE > 0: enforce a minimum raw score to count as passed.
+    - SCORE_THRESHOLD_OVERRIDE = -1 (default): use the passed flag from the validate endpoint.
     - If user already completed this activity, updates if new score is better.
     - Only adds XP for the improvement over the previous best score.
     - Advances position when activity passed and it's exactly the current one.
     """
-    # Apply global score threshold override for testing
+    # Apply global score threshold override only when explicitly set to a positive value
     effective_passed = req.passed
-    if settings.SCORE_THRESHOLD_OVERRIDE >= 0:
-        # Any score >= override threshold counts as passed (0 = always pass)
+    if settings.SCORE_THRESHOLD_OVERRIDE > 0:
+        # Positive override: require minimum raw score
         effective_passed = req.score_earned >= settings.SCORE_THRESHOLD_OVERRIDE
 
     # Derive month/block from seq ID if not provided
