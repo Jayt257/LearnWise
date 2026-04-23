@@ -92,10 +92,14 @@ def test_xp_accumulates(client, auth_headers):
     xp_before = prog_before["total_xp"]
 
     score = 45
+    # Use activity 99 (unique to this test) so it's always a first attempt
+    # regardless of what other tests have completed. Guarantees xp_delta = score.
     client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
-        "activity_seq_id": 1,
+        "activity_seq_id": 99,
         "activity_type": "lesson",
         "lang_pair_id": PAIR_ID,
+        "month_number": 3,
+        "block_number": 1,
         "score_earned": score,
         "max_score": 50,
         "passed": True,
@@ -107,6 +111,36 @@ def test_xp_accumulates(client, auth_headers):
     assert xp_after > xp_before, f"XP did not increase: before={xp_before}, after={xp_after}"
     # XP must be non-negative — double protection
     assert xp_after >= 0, f"XP went negative ({xp_after}) — accumulation is broken"
+
+    # Now complete it again with a lower score (this should NOT change XP)
+    # Kills the req.score_earned > existing.score_earned flipped to < mutation
+    client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
+        "activity_seq_id": 99,
+        "activity_type": "lesson",
+        "lang_pair_id": PAIR_ID,
+        "month_number": 3,
+        "block_number": 1,
+        "score_earned": score - 20,
+        "max_score": 50,
+        "passed": True,
+    })
+    prog_after_lower = client.get(f"/api/progress/{PAIR_ID}", headers=auth_headers).json()
+    assert prog_after_lower["total_xp"] == xp_after  # no change
+
+    # Complete it again with a higher score (this SHOULD increase XP by the delta)
+    client.post(f"/api/progress/{PAIR_ID}/complete", headers=auth_headers, json={
+        "activity_seq_id": 99,
+        "activity_type": "lesson",
+        "lang_pair_id": PAIR_ID,
+        "month_number": 3,
+        "block_number": 1,
+        "score_earned": score + 5,
+        "max_score": 50,
+        "passed": True,
+    })
+    prog_after_higher = client.get(f"/api/progress/{PAIR_ID}", headers=auth_headers).json()
+    assert prog_after_higher["total_xp"] == xp_after + 5  # increased by exactly 5
+
 
 
 def test_get_completions(client, auth_headers):
