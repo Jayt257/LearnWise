@@ -23,6 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Root-level data/ folder (canonical data lives in backend/data/ only)
+/data/
+
 # Python and Backend
 __pycache__/
 *.py[cod]
