@@ -43,54 +43,27 @@ export default function LessonPage({ pairId, activityFile, activitySeqId, activi
       return;
     }
 
-    // Score locally — exact/normalised string match.
-    // We do NOT send lesson MCQ/short-answer to Groq because:
-    //   a) Groq gives inconsistent marks even for correct answers
-    //   b) Groq hallucinates partial scores (32%) for empty submissions
-    const perQ = Math.round(maxXP / checkpointQs.length);
-    let totalScore = 0;
-    const qResults = checkpointQs.map((q, i) => {
-      const correctRaw = String(q.expectedAnswer || q.correctAnswer || q.options?.[q.correct] || '').trim().toLowerCase();
-      const userRaw    = typeof answers[i] === 'number'
-        ? String(q.options?.[answers[i]] || answers[i] || '').trim().toLowerCase()
-        : String(answers[i] || '').trim().toLowerCase();
-
-      // Empty answer → 0, no partial credit
-      const correct = userRaw.length > 0 && (
-        userRaw === correctRaw ||
-        // Accept answer contains correct key word (for open-ended where user types a subset)
-        (correctRaw.length > 0 && userRaw.includes(correctRaw))
-      );
-      const score = correct ? perQ : 0;
-      totalScore += score;
+    // Send checkpoint questions through Groq AI for relaxed semantic evaluation
+    const questions = checkpointQs.map((q, i) => {
+      const qid = q.questionId || `cq_${i}`;
+      const userAns = answers[i];
+      let answerText = '';
+      if (typeof userAns === 'number') {
+        answerText = q.options?.[userAns] || String(userAns);
+      } else {
+        answerText = userAns || '';
+      }
+      const correctAns = q.expectedAnswer || q.correctAnswer || q.options?.[q.correct] || '';
       return {
-        question_id: q.questionId || `cq_${i}`,
-        correct,
-        score,
-        feedback: correct
-          ? '✅ Correct!'
-          : userRaw.length === 0
-            ? '❌ No answer provided'
-            : `❌ Incorrect — the correct answer was: "${q.expectedAnswer || q.correctAnswer || q.options?.[q.correct] || '(see lesson)'}"`,
+        question_id: qid,
+        block_type: q.questionType || q.type || 'short_answer',
+        user_answer: answerText,
+        correct_answer: correctAns,
+        prompt: q.questionText || '',
       };
     });
 
-    const pct = Math.round((totalScore / maxXP) * 100);
-    const passed = pct >= 50;
-
-    await submitAnswers([], {
-      total_score: totalScore,
-      max_score: maxXP,
-      percentage: pct,
-      passed,
-      feedback: passed
-        ? `Great work! You scored ${pct}% on the checkpoint. 📖`
-        : `You scored ${pct}%. Review the lesson content and try again.`,
-      suggestion: passed
-        ? 'Move on to the next activity or revisit for deeper understanding.'
-        : 'Read each section again and pay attention to the examples.',
-      question_results: qResults,
-    });
+    await submitAnswers(questions);
   };
 
   return (

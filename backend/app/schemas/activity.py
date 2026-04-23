@@ -85,6 +85,8 @@ class QuestionResult(BaseModel):
     correct: bool
     score: int
     feedback: Optional[str] = None
+    user_answer: Optional[Any] = None      # what the student actually answered
+    correct_answer: Optional[Any] = None   # the expected correct answer
 
 
 class ValidateResponse(BaseModel):

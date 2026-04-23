@@ -336,6 +336,8 @@ def _fallback_result(questions: List[QuestionSubmission], max_xp: int) -> dict:
             "question_id": q.question_id,
             "score": per_q if correct else round(per_q * 0.3),
             "correct": correct,
+            "user_answer": q.user_answer,
+            "correct_answer": q.correct_answer,
             "feedback": "Correct!" if correct else "Good try! Keep practicing.",
         })
     return {

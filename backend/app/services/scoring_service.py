@@ -61,6 +61,8 @@ def calculate_score(
                 correct=bool(q.get("correct", False)),
                 score=clamped,
                 feedback=q.get("feedback"),
+                user_answer=q.get("user_answer"),
+                correct_answer=q.get("correct_answer"),
             )
         )
 
@@ -102,8 +104,11 @@ def score_mcq_locally(
             "question_id": q.question_id,
             "score": per_question_xp if correct else 0,
             "correct": correct,
+            "user_answer": q.user_answer,
+            "correct_answer": q.correct_answer,
             "feedback": (
-                "Correct!" if correct
+                "Correct!"
+                if correct
                 else f"The correct answer was option {q.correct_answer}."
             ),
         })
