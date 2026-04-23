@@ -46,7 +46,8 @@ def get_client() -> Groq:
 
 
 SYSTEM_PROMPT = """You are LearnWise, an expert multilingual language evaluator.
-You evaluate student answers fairly, considering romanization equivalence for CJK scripts.
+You evaluate student answers fairly. NEVER require the student's answer to be an exact, word-for-word copy of the correct answer.
+If the student's answer is semantically equivalent, implies the correct meaning, or has minor typographical errors but is conceptually correct, you MUST award full marks or generous partial credit.
 You MUST respond ONLY with valid JSON — no markdown, no extra text, no code fences.
 Be encouraging but honest. Give partial credit where deserved.
 For Japanese/Chinese/Korean: treat romanized answers (e.g. 'ohayou') as equivalent to
@@ -117,23 +118,23 @@ def _build_prompt(
     per_q_max = round(max_xp / num_questions) if num_questions else max_xp
 
     activity_instructions = {
-        "lesson": "Evaluate comprehension answers. Accept paraphrases and romanized versions of target-language answers. Full credit for correct meaning.",
-        "vocab":  "Evaluate vocabulary: translations, matching, usage. Accept romanized equivalents (e.g. 'inu' = 'いぬ' = dog). Partial credit for close answers.",
-        "reading": "Evaluate reading comprehension MCQ, true/false, gap-fill. Be strict on factual accuracy but accept romanized target text.",
-        "writing": "Evaluate free-writing and translation. Score: accuracy of meaning (50%), grammar (30%), vocabulary (20%). Award generous partial credit.",
-        "listening": "Evaluate listening comprehension gap-fill and true/false. Accept romanized equivalents.",
+        "lesson": "Evaluate comprehension answers. Accept paraphrases, synonyms, and romanized versions. Full credit for correct semantic meaning.",
+        "vocab":  "Evaluate vocabulary: translations, matching, usage. Accept romanized equivalents (e.g. 'inu' = 'いぬ' = dog) and slight spelling variations. Full credit for correct meaning.",
+        "reading": "Evaluate reading comprehension. Focus on semantic accuracy of the student's answer; generously accept synonymous phrasing and paraphrasing over exact textual matches.",
+        "writing": "Evaluate free-writing and translation. Score: accuracy of semantic meaning (50%), grammar (30%), vocabulary (20%). Generously accept alternate wordings.",
+        "listening": "Evaluate listening comprehension. Accept synonyms, romanized equivalents, and answers that capture the conceptual meaning of the audio.",
         "speaking": (
             "The student's speech was transcribed by Whisper (may have minor recognition errors). "
             "Evaluate whether they conveyed the correct meaning. For Japanese/CJK: romanized transcription "
-            "is equivalent to native script. Award partial credit for good attempts with minor errors."
+            "is equivalent to native script. Award partial credit for good attempts. Ignore minor typos."
         ),
         "pronunciation": (
             "The student's speech was transcribed by Whisper (romanized). "
             "Compare the transcribed romanization to the target romanization — treat close phonetic "
-            "matches as correct (e.g. 'ohayou' ≈ 'ohayou gozaimasu' is partial credit). "
-            "Do NOT penalise Whisper's inability to output native CJK characters."
+            "matches as correct (e.g. 'ohayou' ≈ 'ohayou gozaimasu' gets full or high partial credit). "
+            "Do NOT penalise Whisper's inability to output native characters."
         ),
-        "test": "Formal test. Score strictly. Only award full marks for clearly correct answers.",
+        "test": "Formal test. Focus on understanding and conceptual accuracy. Award full marks to any answer that conveys the correct semantic meaning, even if it is not an exact textual match.",
     }
 
     instruction = activity_instructions.get(activity_type, "Evaluate the student's answer fairly, accepting romanized equivalents for CJK scripts.")
