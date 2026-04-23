@@ -5,7 +5,7 @@ Creates all tables on startup via Base.metadata.create_all().
 """
 
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from typing import Generator
 from .config import settings

@@ -120,10 +120,10 @@ export default function DashboardPage() {
           <div style={{ marginTop: '1rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '0.375rem' }}>
               <span>Month {currentProgress.current_month}, Block {currentProgress.current_block}</span>
-              <span>{completedSeqIds.size} / {currentActivityId - 1} activities completed</span>
+              <span>{completedSeqIds.size} / {Math.max(currentActivityId - 1, 0)} activities done</span>
             </div>
             <div className="xp-bar-container">
-              <div className="xp-bar-fill" style={{ width: `${Math.min((currentProgress.current_activity_id / 144) * 100, 100)}%` }} />
+              <div className="xp-bar-fill" style={{ width: `${Math.max(Math.min((currentProgress.current_activity_id / 144) * 100, 100), 1)}%` }} />
             </div>
           </div>
         )}

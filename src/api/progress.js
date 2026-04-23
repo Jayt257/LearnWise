@@ -19,4 +19,6 @@ export const completeActivity = (pairId, payload) => client.post(`/progress/${pa
 
 export const validateActivity = (payload) => client.post('/validate', payload);
 
-export const getLeaderboard = (pairId) => client.get(`/social/leaderboard?pair_id=${pairId}`);
+// NOTE: getLeaderboard was removed from here — it was pointing to a
+// non-existent /social/leaderboard route. Use getLeaderboard from users.js
+// which calls the correct /leaderboard/{pairId} endpoint.

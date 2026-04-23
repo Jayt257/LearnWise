@@ -106,6 +106,18 @@ export default function LessonPage({ pairId, activityFile, activitySeqId, activi
 
       {/* Lesson sections */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+        {/* Draft content warning — shown when admin has not yet published lesson content */}
+        {sections.length === 0 && (
+          <div style={{ background: 'rgba(245,158,11,0.08)', border: '1px solid rgba(245,158,11,0.35)', borderRadius: 'var(--radius-md)', padding: '1.25rem 1.5rem', display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+            <span style={{ fontSize: '1.4rem', flexShrink: 0 }}>📝</span>
+            <div>
+              <div style={{ fontWeight: 700, color: 'var(--color-accent-light)', marginBottom: '0.25rem', fontSize: '0.9rem' }}>Content Coming Soon</div>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '0.85rem', margin: 0, lineHeight: 1.6 }}>
+                The admin hasn't published the lesson content for this activity yet. You can still mark it as complete to unlock the next activity, or check back later for the full lesson.
+              </p>
+            </div>
+          </div>
+        )}
         {sections.map((sec, idx) => (
           <div key={sec.sectionId || idx} className="card">
             <h3 className="heading-sm" style={{ marginBottom: '0.75rem', color: 'var(--color-primary-light)' }}>{sec.sectionTitle}</h3>
