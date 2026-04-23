@@ -1,17 +1,18 @@
 {
-  "_comment": "Hindi → Japanese language pair — 3 months × 6 blocks × 8 activities = 144 activities",
+  "_comment": "English → Hindi language pair — 3 months × 6 blocks × 8 activities = 144 activities",
   "_version": "4.0",
   "pairId": "en-hi",
   "source": {
-    "id": "hi",
-    "name": "Hindi",
-    "flag": "🇮🇳"
+    "id": "en",
+    "name": "English",
+    "nativeName": "English",
+    "flag": "🇺🇸"
   },
   "target": {
-    "id": "ja",
-    "name": "Japanese",
-    "native": "日本語",
-    "flag": "🇯🇵"
+    "id": "hi",
+    "name": "Hindi",
+    "nativeName": "हिन्दी",
+    "flag": "🇮🇳"
   },
   "totalMonths": 3,
   "status": "active",
