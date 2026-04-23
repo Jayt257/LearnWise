@@ -11,7 +11,7 @@ out-of-range values.
 from typing import List
 from app.schemas.activity import QuestionSubmission, QuestionResult
 
-PASS_THRESHOLD = 0.0   # 0%
+PASS_THRESHOLD = 0.5   # 50% — must score at least half to pass
 
 
 def calculate_score(

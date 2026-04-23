@@ -45,13 +45,19 @@ def get_client() -> Groq:
     return _client
 
 
-SYSTEM_PROMPT = """You are LearnWise, an expert multilingual language evaluator.
-You evaluate student answers fairly. NEVER require the student's answer to be an exact, word-for-word copy of the correct answer.
-If the student's answer is semantically equivalent, implies the correct meaning, or has minor typographical errors but is conceptually correct, you MUST award full marks or generous partial credit.
-You MUST respond ONLY with valid JSON — no markdown, no extra text, no code fences.
-Be encouraging but honest. Give partial credit where deserved.
-For Japanese/Chinese/Korean: treat romanized answers (e.g. 'ohayou') as equivalent to
-native script (e.g. 'おはよう') when evaluating pronunciation and vocab."""
+SYSTEM_PROMPT = """You are LearnWise, a generous and encouraging multilingual language evaluator.
+Your primary goal is to REWARD effort and understanding, not penalize imperfection.
+
+CRITICAL RULES — follow these strictly:
+1. NEVER require an exact word-for-word copy of the correct answer.
+2. If the student's answer conveys the correct MEANING — even if phrased differently, with minor spelling errors, or in a mix of languages — award FULL MARKS.
+3. Phonetic near-matches and romanized equivalents (e.g. 'kese' ≈ 'kaise', 'ohayou' = 'おはよう') MUST be treated as fully correct.
+4. Award `"correct": true` whenever the student's score is 60% or more of the per-question maximum.
+5. Only give 0 marks if the student's answer is blank, completely nonsensical, or entirely unrelated to the question.
+6. Give generous partial credit (at least 50%) for answers that show partial understanding.
+7. You MUST respond ONLY with valid JSON — no markdown, no extra text, no code fences.
+
+For CJK scripts: romanized equivalents are ALWAYS acceptable."""
 
 
 def _determine_feedback_tier(percentage: float, attempt_count: int) -> str:
@@ -149,7 +155,7 @@ def _build_prompt(
     )
 
     prompt = f"""Activity Type: {activity_type}
- Native Language: {user_lang} | Learning: {target_lang}
+Native Language: {user_lang} | Learning: {target_lang}
 Total Max XP: {max_xp} | Per-question max: {per_q_max} XP
 Number of questions: {num_questions}
 
@@ -158,6 +164,12 @@ Number of questions: {num_questions}
 Evaluation Instructions: {instruction}
 
 Feedback Style ({feedback_tier.upper()} tier): {tier_instruction}
+
+SCORING RULE — VERY IMPORTANT:
+- A student's answer does NOT need to be an exact copy of the correct answer.
+- If the student's answer is semantically equivalent, roughly correct, or phonetically close, award FULL marks.
+- Set `"correct": true` in your response if the question score is {round(per_q_max * 0.6)} or more (i.e. >= 60% of {per_q_max}).
+- Be GENEROUS. When in doubt, give the student benefit of the doubt.
 
 --- STUDENT ANSWERS ---
 {questions_block}
@@ -168,7 +180,7 @@ Respond with ONLY this exact JSON (no markdown, no code fences):
     {{
       "question_id": "<id>",
       "score": <integer 0 to {per_q_max}>,
-      "correct": <true|false>,
+      "correct": <true if score >= {round(per_q_max * 0.6)}, else false>,
       "feedback": "<brief specific feedback>"
     }}
   ],
@@ -206,16 +218,22 @@ def _extract_json(raw: str) -> dict:
 
 def _clamp_scores(question_results: list, per_q_max: int) -> list:
     """
-    Bug Fix #14: Clamp each per-question score to [0, per_q_max].
-    Groq sometimes returns scores > max — this prevents total > max_xp.
+    Clamp each per-question score to [0, per_q_max].
+    Also: if score >= 60% of per_q_max, force correct=True.
+    This ensures students who score 60%+ are always marked correct.
     """
+    threshold = round(per_q_max * 0.6)
     clamped = []
     for q in question_results:
         score = q.get("score", 0)
         if not isinstance(score, (int, float)):
             score = 0
         score = max(0, min(int(score), per_q_max))
-        clamped.append({**q, "score": score})
+        # Force correct=True when score meets or exceeds the 60% threshold
+        correct = q.get("correct", False)
+        if score >= threshold:
+            correct = True
+        clamped.append({**q, "score": score, "correct": correct})
     return clamped
 
 
@@ -265,10 +283,19 @@ def validate_activity(
         result = _extract_json(raw)
         logger.info(f"[GROQ PARSED] question_results={result.get('question_results')} per_q_max={per_q_max}")
 
-        # Clamp scores (Bug Fix #14)
+        # Clamp scores and enforce 60% = correct
         if "question_results" in result:
             result["question_results"] = _clamp_scores(result["question_results"], per_q_max)
         logger.info(f"[GROQ CLAMPED] {result.get('question_results')}")
+
+        # Merge user_answer/correct_answer from original submissions into Groq results
+        # Groq only returns score/feedback — it never echoes back what the student typed.
+        q_map = {q.question_id: q for q in questions}
+        for qr in result.get("question_results", []):
+            orig = q_map.get(qr.get("question_id"))
+            if orig:
+                qr["user_answer"] = orig.user_answer
+                qr["correct_answer"] = orig.correct_answer
 
         return result
 
