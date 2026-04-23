@@ -34,7 +34,7 @@ def _load_model():
         _whisper_available = True
         logger.info("Whisper model loaded successfully")
     except Exception as e:
-        logger.warning(f"Whisper not available: {e}. Using mock transcription.")
+        logger.info(f"Whisper not available: {e}. Using mock transcription.")
         _whisper_available = False
 
     return _whisper_available
@@ -62,7 +62,7 @@ def transcribe_audio(audio_bytes: bytes, filename: str = "audio.webm") -> dict:
         # Bug Fix #9: Return is_mock=True so the frontend knows transcription
         # did not actually happen. The text is intentionally empty — the frontend
         # should block submission when is_mock is True.
-        logger.warning("Whisper unavailable — returning mock transcription with is_mock=True")
+        logger.info("Whisper unavailable — returning mock transcription with is_mock=True")
         return {
             "text": "",
             "language": "unknown",
