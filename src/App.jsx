@@ -26,17 +26,24 @@ import SearchFriendsPage from './pages/social/SearchFriendsPage.jsx';
 // Admin Page
 import AdminDashboard from './pages/admin/AdminDashboard.jsx';
 
+import NebulaWeb from './components/NebulaWeb.jsx';
+import { useTheme } from './hooks/useTheme.js';
+
 // Layout component with sidebar
-const MainLayout = () => (
-  <div className="app-shell">
-    <Sidebar />
-    <main className="main-content">
-      <div style={{ maxWidth: 1000, margin: '0 auto', width: '100%' }}>
-        <Outlet />
-      </div>
-    </main>
-  </div>
-);
+const MainLayout = () => {
+  useTheme(); // ensure data-theme is applied on <html>
+  return (
+    <div className="app-shell">
+      <NebulaWeb />
+      <Sidebar />
+      <main className="main-content">
+        <div style={{ maxWidth: 1000, margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }}>
+          <Outlet />
+        </div>
+      </main>
+    </div>
+  );
+};
 
 export default function App() {
   return (
