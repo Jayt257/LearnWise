@@ -12,11 +12,12 @@ from unittest.mock import patch
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.pool import StaticPool
 from passlib.context import CryptContext
 
 # ── Test DB setup ─────────────────────────────────────────────────
-TEST_DB_URL = "sqlite:///./test_learnwise.db"
-test_engine = create_engine(TEST_DB_URL, connect_args={"check_same_thread": False})
+TEST_DB_URL = "sqlite:///:memory:"
+test_engine = create_engine(TEST_DB_URL, connect_args={"check_same_thread": False}, poolclass=StaticPool)
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=test_engine)
 
 pwd_ctx = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -71,14 +72,7 @@ def setup_test_db():
             db.close()
 
     yield
-
-    # Cleanup
-    import os
-    if os.path.exists("./test_learnwise.db"):
-        try:
-            os.remove("./test_learnwise.db")
-        except Exception:
-            pass
+    # No file cleanup needed for in-memory database
 
 
 # ── Function-scoped: fresh session per test ───────────────────────

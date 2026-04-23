@@ -23,10 +23,11 @@ class LearnwiseUser(HttpUser):
     @task(1)
     def view_leaderboard(self):
         """Simulate viewing the public leaderboard"""
-        self.client.get("/api/leaderboard/")
+        if hasattr(self, "headers") and self.headers:
+            self.client.get("/api/leaderboard/hi-en", headers=self.headers)
 
     @task(2)
     def get_user_progress(self):
         """Simulate an authenticated user fetching their progress"""
-        if self.headers:
-            self.client.get("/api/progress/", headers=self.headers)
+        if hasattr(self, "headers") and self.headers:
+            self.client.get("/api/progress", headers=self.headers)

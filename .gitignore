@@ -31,3 +31,20 @@ backend/venv/
 backend/env/
 .pytest_cache/
 .env
+
+# Auto-generated test & build artifacts (never commit these)
+*.txt
+!backend/requirements.txt
+backend/.coverage
+backend/htmlcov/
+backend/mutants/
+backend/learnwise_backend.egg-info/
+backend/.mutmut-cache
+playwright-report/
+
+# Old superseded scripts
+run_all_tests.sh
+run_coverage.sh
+
+# Misc debug dumps
+allfiles.txt
