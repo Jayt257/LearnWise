@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M3B2_writing_001"],
+  "prerequisites": [
+    "en_hi_M3B2_writing_001"
+  ],
   "instructions": "Listen to a boss checking on her workers in an office. They are speaking very quickly using 'Contractions' (I've instead of I have). Listen closely to what jobs they have already finished. Answer the 8 questions.",
   "contentItems": [
     {
@@ -72,7 +74,11 @@
       "questionId": "q1",
       "questionText": "What does Amit say he has done with the report?",
       "questionType": "multiple_choice",
-      "options": ["He threw it away", "He is writing it now", "He's sent it to her email"],
+      "options": [
+        "He threw it away",
+        "He is writing it now",
+        "He's sent it to her email"
+      ],
       "audioTimestamp": "00:06",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -80,7 +86,10 @@
       "questionId": "q2",
       "questionText": "Listen closely: Does Amit say 'I have finished it' or 'I've finished it'?",
       "questionType": "multiple_choice",
-      "options": ["I have finished it (Slow)", "I've finished it (Fast)"],
+      "options": [
+        "I have finished it (Slow)",
+        "I've finished it (Fast)"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -88,7 +97,11 @@
       "questionId": "q3",
       "questionText": "Where is John currently?",
       "questionType": "multiple_choice",
-      "options": ["At his desk", "He's gone to the bank", "He's sleeping"],
+      "options": [
+        "At his desk",
+        "He's gone to the bank",
+        "He's sleeping"
+      ],
       "audioTimestamp": "00:12",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -96,7 +109,11 @@
       "questionId": "q4",
       "questionText": "When Amit says 'He's gone', what two words is he squishing together into 'He's'?",
       "questionType": "multiple_choice",
-      "options": ["He is", "He has", "He was"],
+      "options": [
+        "He is",
+        "He has",
+        "He was"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -112,7 +129,11 @@
       "questionId": "q6",
       "questionText": "When Amit talks about the computers arriving, he says '_____ arrived!'.",
       "questionType": "multiple_choice",
-      "options": ["They've", "They has", "Them have"],
+      "options": [
+        "They've",
+        "They has",
+        "Them have"
+      ],
       "audioTimestamp": "00:19",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -128,7 +149,11 @@
       "questionId": "q8",
       "questionText": "When the boss says 'we've completed everything', what does 'we've' mean?",
       "questionType": "multiple_choice",
-      "options": ["We are", "We have", "We will"],
+      "options": [
+        "We are",
+        "We have",
+        "We will"
+      ],
       "audioTimestamp": "00:24",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -152,13 +177,27 @@
       "q8": "We have"
     },
     "acceptedShortAnswers": {
-      "q5": ["computers", "Computers", "new computers", "the new computers"],
-      "q7": ["meeting room", "the meeting room", "In the meeting room"]
+      "q5": [
+        "computers",
+        "Computers",
+        "new computers",
+        "the new computers"
+      ],
+      "q7": [
+        "meeting room",
+        "the meeting room",
+        "In the meeting room"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["computer"],
-      "q7": ["meeting", "room"]
+      "q5": [
+        "computer"
+      ],
+      "q7": [
+        "meeting",
+        "room"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -171,18 +210,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b2/listening/office_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b2/listening/office_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b2/listening/office_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Boss: Good afternoon, everyone. Let's check our progress... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "present_perfect", "contractions", "have", "has", "intermediate", "month3", "block2"],
+  "tags": [
+    "listening",
+    "present_perfect",
+    "contractions",
+    "have",
+    "has",
+    "intermediate",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -194,7 +242,9 @@
     "Hearing 'He's left' and assuming it means 'He is left' (passive/adjective state) rather than Present Perfect 'He has left'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

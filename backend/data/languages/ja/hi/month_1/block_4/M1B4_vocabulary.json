@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B4_listening_001"],
+  "prerequisites": [
+    "ja_hi_M1B4_listening_001"
+  ],
   "instructions": "今回は「どこ？」といった質問の言葉や、場所に関する単語を覚えます。もっとも重要な「中」「上」「から」を示す３つの助詞（Postpositions）もここで確実に記憶しましょう！",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its Japanese equivalent: Mein (में)",
       "questionType": "matching",
-      "options": ["〜から", "〜の中に"],
+      "options": [
+        "〜から",
+        "〜の中に"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the word to its Japanese equivalent: Kahaan (कहाँ)",
       "questionType": "matching",
-      "options": ["どこ", "ここ"],
+      "options": [
+        "どこ",
+        "ここ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the word to its Japanese equivalent: Mez (मेज़)",
       "questionType": "matching",
-      "options": ["棚", "机"],
+      "options": [
+        "棚",
+        "机"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its Japanese equivalent: Se (से)",
       "questionType": "matching",
-      "options": ["〜の上に", "〜から"],
+      "options": [
+        "〜の上に",
+        "〜から"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Match the word to its Japanese equivalent: Par (पर)",
       "questionType": "matching",
-      "options": ["〜の上に", "〜の中に"],
+      "options": [
+        "〜の上に",
+        "〜の中に"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,9 +211,20 @@
       "w10": "家"
     },
     "acceptedTranslations": {
-      "w04": ["〜の中に", "に", "中"],
-      "w05": ["〜の上に", "上に", "上"],
-      "w06": ["から", "〜から"]
+      "w04": [
+        "〜の中に",
+        "に",
+        "中"
+      ],
+      "w05": [
+        "〜の上に",
+        "上に",
+        "上"
+      ],
+      "w06": [
+        "から",
+        "〜から"
+      ]
     },
     "matchingKey": {
       "q1": "〜の中に",
@@ -217,18 +245,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b4/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b4/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b4/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b4/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b4/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Kahaan. Yahaan. Vahaan. Mein. Par. Se. Mez. Kursee. Almaaree. Ghar.",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "locations", "postpositions", "particles", "furniture", "month1", "block4"],
+  "tags": [
+    "vocabulary",
+    "locations",
+    "postpositions",
+    "particles",
+    "furniture",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -240,7 +276,9 @@
     "Confusing Yahaan (here) with Kahaan (where)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B4_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B4_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

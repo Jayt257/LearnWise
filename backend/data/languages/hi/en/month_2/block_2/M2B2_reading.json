@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B2_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M2B2_pronunciation_001"
+  ],
   "instructions": "Read the story about a busy park. Focus on what everyone is doing RIGHT NOW. Notice how every single action has two parts: The helper verb (is/are) and the action verb ending in '-ing'. Answer the 8 questions below.",
   "contentItems": [
     {
@@ -116,28 +118,46 @@
       "questionId": "q1",
       "questionText": "What is the tall man doing right now?",
       "questionType": "multiple_choice",
-      "options": ["He is sleeping", "He is reading", "He is running", "He is drinking"],
+      "options": [
+        "He is sleeping",
+        "He is reading",
+        "He is running",
+        "He is drinking"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "True or False: The text says 'The children playing'. (No 'are').",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What is the woman under the tree doing?",
       "questionType": "multiple_choice",
-      "options": ["She is talking", "She is sleeping", "She is reading", "She is eating"],
+      "options": [
+        "She is talking",
+        "She is sleeping",
+        "She is reading",
+        "She is eating"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "What is the dog doing?",
       "questionType": "multiple_choice",
-      "options": ["Sleeping", "Running after a boy", "Running after a bird", "Drinking water"],
+      "options": [
+        "Sleeping",
+        "Running after a boy",
+        "Running after a bird",
+        "Drinking water"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -158,7 +178,12 @@
       "questionId": "q7",
       "questionText": "At the end of the story, what does the woman do?",
       "questionType": "multiple_choice",
-      "options": ["She is opening her book", "She is closing her book", "She is jumping", "She is walking"],
+      "options": [
+        "She is opening her book",
+        "She is closing her book",
+        "She is jumping",
+        "She is walking"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
@@ -182,14 +207,36 @@
       "q8": "To his car"
     },
     "acceptableParaphrases": {
-      "q5": ["Water", "water", "cold water", "Cold water"],
-      "q6": ["Is", "is", "It is", "it is"],
-      "q8": ["Car", "car", "to the car", "his car", "my car"]
+      "q5": [
+        "Water",
+        "water",
+        "cold water",
+        "Cold water"
+      ],
+      "q6": [
+        "Is",
+        "is",
+        "It is",
+        "it is"
+      ],
+      "q8": [
+        "Car",
+        "car",
+        "to the car",
+        "his car",
+        "my car"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["water"],
-      "q6": ["is"],
-      "q8": ["car"]
+      "q5": [
+        "water"
+      ],
+      "q6": [
+        "is"
+      ],
+      "q8": [
+        "car"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes the 'To be + verb-ing' formula for ongoing actions.",
@@ -205,18 +252,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m2/b2/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "It is Sunday afternoon. I am sitting in the big park in the city... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "present_continuous", "verbs", "ing", "month2", "block2"],
+  "tags": [
+    "reading",
+    "present_continuous",
+    "verbs",
+    "ing",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -228,7 +282,9 @@
     "Thinking 'The children playing' is a correct sentence in English. It always needs 'The children ARE playing'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

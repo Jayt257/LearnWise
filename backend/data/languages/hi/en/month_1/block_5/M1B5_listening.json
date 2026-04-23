@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B5_writing_001"],
+  "prerequisites": [
+    "en_hi_M1B5_writing_001"
+  ],
   "instructions": "Listen to a young woman, Priya, talking about her daily routine and her dog's daily routine. Listen very carefully to the Verbs (action words). When she talks about herself, hear how clean the verb ends. When she talks about her dog ('It'), listen for the buzzing 'Z' or sharp 'S'. Answer the 8 questions.",
   "contentItems": [
     {
@@ -82,7 +84,12 @@
       "questionId": "q1",
       "questionText": "What exact phrase does Priya use when she talks about waking up?",
       "questionType": "multiple_choice",
-      "options": ["I wakes up", "I wake up", "I am wake up", "I waking up"],
+      "options": [
+        "I wakes up",
+        "I wake up",
+        "I am wake up",
+        "I waking up"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -90,7 +97,12 @@
       "questionId": "q2",
       "questionText": "What exact phrase does Priya use for her dog waking up?",
       "questionType": "multiple_choice",
-      "options": ["My dog wake up", "My dog wakes up", "My dog is wake up", "My dog waking up"],
+      "options": [
+        "My dog wake up",
+        "My dog wakes up",
+        "My dog is wake up",
+        "My dog waking up"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -98,7 +110,10 @@
       "questionId": "q3",
       "questionText": "Did Priya say 'I drink water' or 'I drinks water'?",
       "questionType": "multiple_choice",
-      "options": ["I drink water", "I drinks water"],
+      "options": [
+        "I drink water",
+        "I drinks water"
+      ],
       "audioTimestamp": "00:06",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -114,7 +129,11 @@
       "questionId": "q5",
       "questionText": "How does she say Max goes output? Does she say 'Max go' or 'Max goes'?",
       "questionType": "multiple_choice",
-      "options": ["Max go", "Max goes", "Max going"],
+      "options": [
+        "Max go",
+        "Max goes",
+        "Max going"
+      ],
       "audioTimestamp": "00:12",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -130,7 +149,10 @@
       "questionId": "q7",
       "questionText": "Does she say 'I wash my face' (1 syllable for wash) or 'I washes my face' (2 syllables)?",
       "questionType": "multiple_choice",
-      "options": ["I wash my face", "I washes my face"],
+      "options": [
+        "I wash my face",
+        "I washes my face"
+      ],
       "audioTimestamp": "00:20",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -162,15 +184,36 @@
       "q8": "He sleeps"
     },
     "acceptedShortAnswers": {
-      "q4": ["Door", "door", "To the door", "the door"],
-      "q6": ["Egg", "egg", "an egg"],
-      "q8": ["Sleep", "sleeps", "Sleeps on the bed", "sleep"]
+      "q4": [
+        "Door",
+        "door",
+        "To the door",
+        "the door"
+      ],
+      "q6": [
+        "Egg",
+        "egg",
+        "an egg"
+      ],
+      "q8": [
+        "Sleep",
+        "sleeps",
+        "Sleeps on the bed",
+        "sleep"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["door"],
-      "q6": ["egg"],
-      "q8": ["sleep", "sleeps"]
+      "q4": [
+        "door"
+      ],
+      "q6": [
+        "egg"
+      ],
+      "q8": [
+        "sleep",
+        "sleeps"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -183,18 +226,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b5/listening/habits_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b5/listening/habits_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b5/listening/habits_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Priya: Hi everyone. My name is Priya... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "verbs", "s-suffix", "routines", "beginner", "month1", "block5"],
+  "tags": [
+    "listening",
+    "verbs",
+    "s-suffix",
+    "routines",
+    "beginner",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -207,7 +258,9 @@
     "Missing the 'z' sound at the end of 'plays'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B5_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M1B5_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

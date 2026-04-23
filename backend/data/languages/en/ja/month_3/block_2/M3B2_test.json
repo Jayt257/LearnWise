@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does かす (Kasu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To borrow", "To lend", "To pay", "To teach"],
+          "options": [
+            "To borrow",
+            "To lend",
+            "To pay",
+            "To teach"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does かりる (Kariru) mean?",
           "questionType": "multiple_choice",
-          "options": ["To lend", "To pay", "To borrow", "To help"],
+          "options": [
+            "To lend",
+            "To pay",
+            "To borrow",
+            "To help"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does おしえる (Oshieru) mean?",
           "questionType": "multiple_choice",
-          "options": ["To teach", "To learn", "To write", "To read"],
+          "options": [
+            "To teach",
+            "To learn",
+            "To write",
+            "To read"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does はらう (Harau) mean?",
           "questionType": "multiple_choice",
-          "options": ["To buy", "To sell", "To pay", "To cost"],
+          "options": [
+            "To buy",
+            "To sell",
+            "To pay",
+            "To cost"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. Who gave the umbrella?",
           "questionType": "multiple_choice",
-          "options": ["A friend", "A teacher", "The speaker", "A stranger"],
+          "options": [
+            "A friend",
+            "A teacher",
+            "The speaker",
+            "A stranger"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. What verb describes what the friend actually did?",
           "questionType": "multiple_choice",
-          "options": ["Lent (Kashite)", "Sold (Utte)", "Gave permanently (Agete)", "Found (Mitsukete)"],
+          "options": [
+            "Lent (Kashite)",
+            "Sold (Utte)",
+            "Gave permanently (Agete)",
+            "Found (Mitsukete)"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. Why did the friend lend it?",
           "questionType": "multiple_choice",
-          "options": ["Because it rained", "Because it broke", "Because it was cold", "Because it was sunny"],
+          "options": [
+            "Because it rained",
+            "Because it broke",
+            "Because it was cold",
+            "Because it was sunny"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,21 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Kuremashita"],
-      "q017": ["Moraimashita"],
-      "q018": ["Kashite"],
-      "q019": ["Oshiete"],
-      "q020": ["Tetsudatte"]
+      "q016": [
+        "Kuremashita"
+      ],
+      "q017": [
+        "Moraimashita"
+      ],
+      "q018": [
+        "Kashite"
+      ],
+      "q019": [
+        "Oshiete"
+      ],
+      "q020": [
+        "Tetsudatte"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B5_reading_001"],
+  "prerequisites": [
+    "ja_hi_M2B5_reading_001"
+  ],
   "instructions": "目上の人（Aap）に対する丁寧なお願いと、「〜しないでください」という禁止の文を作りましょう！「Karnaa(する)」は「Keejiye(キージエ)」になる特別な変化に気をつけてください。",
   "contentItems": [
     {
@@ -138,7 +140,18 @@
       "aap yahaan baiṭhiye aap ghar mein kaam mat keejiye tum chaay piyo",
       "yahaan baithiye ghar mein kaam mat kijiye tum chaay piyo"
     ],
-    "requiredKeywords": ["यहाँ", "बैठिए", "घर", "में", "काम", "मत", "कीजिए", "तुम", "चाय", "पियो"],
+    "requiredKeywords": [
+      "यहाँ",
+      "बैठिए",
+      "घर",
+      "में",
+      "काम",
+      "मत",
+      "कीजिए",
+      "तुम",
+      "चाय",
+      "पियो"
+    ],
     "grammarBaseline": "Crucial requirement: 'mat keejiye' - using 'nahin' is a fail. 'Kariye' is a fail. Sentences must omit copulas.",
     "lengthExpectation": "3 distinct imperative sentences.",
     "scoringRubric": {
@@ -153,19 +166,27 @@
     "onPartial": "惜しいところがあります。第2文で「Kariye」を使っていませんか？Karnaa(する)の丁寧語は、少し形が崩れて「Keejiye(キージエ)」になります。Peenaa が Peejiye になるのと同じルールです。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b5/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b5/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b5/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m2/b5/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 imperative sentences alternating between formal requests, negative formal requests, and informal commands.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "imperative", "negation", "politeness", "month2", "block5"],
+  "tags": [
+    "writing",
+    "grammar",
+    "imperative",
+    "negation",
+    "politeness",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -177,7 +198,9 @@
     "Writing 'Nahin keejiye' matching the English 'Do not do'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B5_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B5_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "Delicious", "Expensive / High", "Cheap", "Big / Large", "Small", 
-    "New", "Old (for things, not people)", "Good", "Beautiful / Clean (Exception)", 
-    "Famous (Exception)", "Quiet", "Lively / Busy", "Healthy / Energetic", 
-    "There is / I have (Inanimate)", "There is / I have (Animate)", "There is not (Animate)", 
-    "Top / Above", "Bottom / Under", "Inside", "Outside", "Next to / Next door", 
-    "Front / Before", "Behind / Back", "Dog", "Cat", "Tree", "Desk", "Chair", "Box", "Subject particle"
+    "Delicious",
+    "Expensive / High",
+    "Cheap",
+    "Big / Large",
+    "Small",
+    "New",
+    "Old (for things, not people)",
+    "Good",
+    "Beautiful / Clean (Exception)",
+    "Famous (Exception)",
+    "Quiet",
+    "Lively / Busy",
+    "Healthy / Energetic",
+    "There is / I have (Inanimate)",
+    "There is / I have (Animate)",
+    "There is not (Animate)",
+    "Top / Above",
+    "Bottom / Under",
+    "Inside",
+    "Outside",
+    "Next to / Next door",
+    "Front / Before",
+    "Behind / Back",
+    "Dog",
+    "Cat",
+    "Tree",
+    "Desk",
+    "Chair",
+    "Box",
+    "Subject particle"
   ],
   "exampleSentences": [
     {
@@ -332,35 +356,58 @@
       "questionId": "q001",
       "questionText": "What does おいしい (Oishii) mean?",
       "questionType": "multiple_choice",
-      "options": ["Beautiful", "Expensive", "Delicious", "Big"],
+      "options": [
+        "Beautiful",
+        "Expensive",
+        "Delicious",
+        "Big"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "Which adjective means 'Cheap'?",
       "questionType": "multiple_choice",
-      "options": ["たかい (Takai)", "やすい (Yasui)", "ふるい (Furui)", "おおきい (Ookii)"],
+      "options": [
+        "たかい (Takai)",
+        "やすい (Yasui)",
+        "ふるい (Furui)",
+        "おおきい (Ookii)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "Is きれい (Kirei) an i-adjective or a na-adjective?",
       "questionType": "multiple_choice",
-      "options": ["i-adjective", "na-adjective"],
+      "options": [
+        "i-adjective",
+        "na-adjective"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "Which verb is used to say 'There is a dog'?",
       "questionType": "multiple_choice",
-      "options": ["あります (Arimasu)", "います (Imasu)", "ありません (Arimasen)", "いきます (Ikimasu)"],
+      "options": [
+        "あります (Arimasu)",
+        "います (Imasu)",
+        "ありません (Arimasen)",
+        "いきます (Ikimasu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does した (Shita) mean?",
       "questionType": "multiple_choice",
-      "options": ["Inside", "Outside", "Top / Above", "Bottom / Under"],
+      "options": [
+        "Inside",
+        "Outside",
+        "Top / Above",
+        "Bottom / Under"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
@@ -379,28 +426,48 @@
       "questionId": "q007",
       "questionText": "What does しずか (Shizuka) mean?",
       "questionType": "multiple_choice",
-      "options": ["Lively", "Quiet", "Famous", "Healthy"],
+      "options": [
+        "Lively",
+        "Quiet",
+        "Famous",
+        "Healthy"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What is the Japanese word for 'Cat'?",
       "questionType": "multiple_choice",
-      "options": ["いぬ (Inu)", "き (Ki)", "ねこ (Neko)", "いす (Isu)"],
+      "options": [
+        "いぬ (Inu)",
+        "き (Ki)",
+        "ねこ (Neko)",
+        "いす (Isu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "How do you say 'Desk'?",
       "questionType": "multiple_choice",
-      "options": ["つくえ (Tsukue)", "いす (Isu)", "はこ (Hako)", "き (Ki)"],
+      "options": [
+        "つくえ (Tsukue)",
+        "いす (Isu)",
+        "はこ (Hako)",
+        "き (Ki)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "Which verb is used to say 'There is a tree'?",
       "questionType": "multiple_choice",
-      "options": ["います (Imasu)", "あります (Arimasu)", "いません (Imasen)", "きます (Kimasu)"],
+      "options": [
+        "います (Imasu)",
+        "あります (Arimasu)",
+        "いません (Imasen)",
+        "きます (Kimasu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -438,10 +505,26 @@
       "w030": "Subject particle (used with existence)"
     },
     "acceptedTranslations": {
-      "w002": ["Expensive", "High", "Tall"],
-      "w009": ["Beautiful", "Clean", "Pretty"],
-      "w014": ["There is", "It exists", "I have (things)"],
-      "w015": ["There is", "It exists (alive)", "I have (pets)"]
+      "w002": [
+        "Expensive",
+        "High",
+        "Tall"
+      ],
+      "w009": [
+        "Beautiful",
+        "Clean",
+        "Pretty"
+      ],
+      "w014": [
+        "There is",
+        "It exists",
+        "I have (things)"
+      ],
+      "w015": [
+        "There is",
+        "It exists (alive)",
+        "I have (pets)"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -469,12 +552,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b1/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b1/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b1/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m2/b1/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "おいしい。たかい。やすい。おおきい。ちいさい。あたらしい。ふるい。いい。きれい。ゆうめい。しずか。にぎやか。げんき。あります。います。いません。うえ。した。なか。そと。となり。まえ。うしろ。いぬ。ねこ。き。つくえ。いす。はこ。が。",
     "audioLanguage": "ja",
     "audioDuration": 360,

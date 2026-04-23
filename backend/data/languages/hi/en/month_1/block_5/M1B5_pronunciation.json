@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B5_lesson_001"],
+  "prerequisites": [
+    "en_hi_M1B5_lesson_001"
+  ],
   "instructions": "When we add 's' to verbs for He/She/It, we use the EXACT same sound rules we used for Plurals! It can make a sharp snake S, a buzzing bee Z, or an extra syllable IZ. Listen and repeat these 15 third-person verbs perfectly.",
   "contentItems": [
     {
@@ -206,19 +208,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b5/pronunciation/native_verbs.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b5/pronunciation/slow_verbs.mp3",
-    "normalAudio": "audio/en_hi/m1/b5/pronunciation/native_verbs.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "He runs. She goes. He eats. She sleeps...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "verbs", "routines", "actions", "phonetics", "beginner"],
+  "tags": [
+    "pronunciation",
+    "verbs",
+    "routines",
+    "actions",
+    "phonetics",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +240,9 @@
     "Swallowing the 'IZ' syllable for words ending in CH/SH."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B5_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M1B5_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

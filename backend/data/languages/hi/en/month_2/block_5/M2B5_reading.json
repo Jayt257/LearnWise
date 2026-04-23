@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B5_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M2B5_pronunciation_001"
+  ],
   "instructions": "Read the story about a teacher looking at lost items in her school. Pay very close attention to HOW she talks about who owns what. Look for the apostrophe 'S' attached to names, and notice when she uses 'This' versus 'These'. Answer the 8 questions below.",
   "contentItems": [
     {
@@ -116,21 +118,33 @@
       "questionId": "q1",
       "questionText": "Who owns the red jacket?",
       "questionType": "multiple_choice",
-      "options": ["Neha", "Rahul", "Amit", "The principal"],
+      "options": [
+        "Neha",
+        "Rahul",
+        "Amit",
+        "The principal"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Why does she say 'These are the girls' bags' instead of 'This are the girls' bags'?",
       "questionType": "multiple_choice",
-      "options": ["Because they are blue", "Because there is more than one bag", "Because they are far away"],
+      "options": [
+        "Because they are blue",
+        "Because there is more than one bag",
+        "Because they are far away"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Find the description of the bicycle. Does the text say 'The bicycle's tire' or 'The tire of the bicycle'?",
       "questionType": "multiple_choice",
-      "options": ["The bicycle's tire", "The tire of the bicycle"],
+      "options": [
+        "The bicycle's tire",
+        "The tire of the bicycle"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
@@ -144,14 +158,24 @@
       "questionId": "q5",
       "questionText": "What word does she use to point at the five umbrellas far away?",
       "questionType": "multiple_choice",
-      "options": ["This", "That", "These", "Those"],
+      "options": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
       "questionId": "q6",
       "questionText": "Who owns the umbrellas?",
       "questionType": "multiple_choice",
-      "options": ["The teachers", "The principal", "Rahul", "Amit"],
+      "options": [
+        "The teachers",
+        "The principal",
+        "Rahul",
+        "Amit"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
@@ -182,14 +206,36 @@
       "q8": "The principal"
     },
     "acceptableParaphrases": {
-      "q4": ["Rahul", "rahul", "Rahul's"],
-      "q7": ["door of the", "Door of the", "door of room", "door of the room"],
-      "q8": ["principal", "Principal", "the principal", "The principal", "principal's"]
+      "q4": [
+        "Rahul",
+        "rahul",
+        "Rahul's"
+      ],
+      "q7": [
+        "door of the",
+        "Door of the",
+        "door of room",
+        "door of the room"
+      ],
+      "q8": [
+        "principal",
+        "Principal",
+        "the principal",
+        "The principal",
+        "principal's"
+      ]
     },
     "keywordScoringRules": {
-      "q4": ["Rahul"],
-      "q7": ["door", "of"],
-      "q8": ["principal"]
+      "q4": [
+        "Rahul"
+      ],
+      "q7": [
+        "door",
+        "of"
+      ],
+      "q8": [
+        "principal"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner correlates the apostrophe 'S' to human/animate ownership (Amit's jacket, principal's dog).",
@@ -205,18 +251,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m2/b5/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mrs. Sharma is a teacher... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "possessives", "demonstratives", "apostrophe", "beginner", "month2", "block5"],
+  "tags": [
+    "reading",
+    "possessives",
+    "demonstratives",
+    "apostrophe",
+    "beginner",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -228,7 +282,9 @@
     "Thinking 'girls'' means one girl, failing to notice the apostrophe after the S."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B5_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M2B5_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

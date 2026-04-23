@@ -76,15 +76,15 @@
         {
           "questionId": "tq_3",
           "questionText": "Translate to English: नमस्ते (Namaste)",
-        "questionType": "short_answer",
-        "options": null,
-        "questionHints": {
-          "targetText": "Hello",
-          "transliteration": null,
-          "baseTranslation": null
-        },
-        "marks": 5,
-        "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
+          "questionType": "short_answer",
+          "options": null,
+          "questionHints": {
+            "targetText": "Hello",
+            "transliteration": null,
+            "baseTranslation": null
+          },
+          "marks": 5,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.tq_3"
         },
         {
           "questionId": "tq_4",
@@ -155,7 +155,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "dummy_audio.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

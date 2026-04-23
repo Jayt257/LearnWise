@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B6_reading_001"],
+  "prerequisites": [
+    "en_hi_M3B6_reading_001"
+  ],
   "instructions": "This is your final writing test! Write a 4-sentence paragraph about your English journey. You must tell me what you have done, how you feel now, and what you will do in the future. Show off your grammar!",
   "contentItems": [
     {
@@ -91,7 +93,14 @@
     "acceptableAlternates": [
       "I have studied English a lot. I feel great. I can speak to people. I will watch movies."
     ],
-    "requiredKeywords": ["have", "studied", "feel", "can", "speak", "will"],
+    "requiredKeywords": [
+      "have",
+      "studied",
+      "feel",
+      "can",
+      "speak",
+      "will"
+    ],
     "grammarBaseline": "Zero tolerance for missing auxiliaries. The absence of 'have', 'can', or 'will' directly penalizes the associated scoring bracket.",
     "lengthExpectation": "Exactly 4 sentences.",
     "scoringRubric": {
@@ -109,19 +118,27 @@
     "onPartial": "Good start! Double check your Future sentence. If it happens tomorrow or next year, you must add the 'Will' helper! 'I WILL travel'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b6/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b6/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b6/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m3/b6/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write a 4-sentence graduation speech about your English journey using different tenses.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "final_exam", "tenses", "future", "present_perfect", "modals", "block6"],
+  "tags": [
+    "writing",
+    "final_exam",
+    "tenses",
+    "future",
+    "present_perfect",
+    "modals",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -133,7 +150,9 @@
     "Dropping 'Have' and 'Will' due to simple present L1 baseline habits."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

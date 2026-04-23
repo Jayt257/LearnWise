@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B5_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M1B5_lesson_001"
+  ],
   "instructions": "発音練習です！自分（主語）の性別によって変わる Taa（ター：男性）、Tee（ティー：女性）、Te（テー：あなたに）をハッキリと発音し分けましょう。語尾の母音を変えるだけで意味が変わってしまいます！",
   "contentItems": [
     {
@@ -107,19 +109,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b5/pronunciation/native_verbs.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b5/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b5/pronunciation/slow_verbs.mp3",
-    "normalAudio": "audio/ja_hi/m1/b5/pronunciation/native_verbs.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Khaataa hoon. Khaatee hoon. Jaataa hoon. Jaatee hoon. Khaate hain. Jaate hain.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "verbs", "current_tense", "vowels", "month1", "block5"],
+  "tags": [
+    "pronunciation",
+    "verbs",
+    "current_tense",
+    "vowels",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -131,7 +140,9 @@
     "Pronouncing 'Tee' as 'Chee' (Japanese affrication of /t/ before /i/)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B5_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B5_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M1B2_writing_001"],
+  "prerequisites": [
+    "ja_hi_M1B2_writing_001"
+  ],
   "instructions": "音声を聞いてみましょう！ケンがインドで新しい友達に自分ともう一人の日本人の友達を紹介しています。「Hai（です）」と「Hain（です：尊敬）」の違いをしっかり聞き分けてください。",
   "contentItems": [
     {
@@ -57,7 +59,11 @@
       "questionId": "q1",
       "questionText": "ラージがケンに挨拶したとき、動詞は何を使いましたか？",
       "questionType": "multiple_choice",
-      "options": ["hai (है)", "hoon (हूँ)", "hain (हैं)"],
+      "options": [
+        "hai (है)",
+        "hoon (हूँ)",
+        "hain (हैं)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -65,7 +71,11 @@
       "questionId": "q2",
       "questionText": "ケンはアミトを紹介するとき、「彼は私の友達です（Vah mera dost...）」と言いました。最後に来る言葉は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["hoon", "hai", "hain"],
+      "options": [
+        "hoon",
+        "hai",
+        "hain"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -73,7 +83,11 @@
       "questionId": "q3",
       "questionText": "ラージはアミトに何と尋ねましたか？",
       "questionType": "multiple_choice",
-      "options": ["あなたはインド人ですか？", "あなたは学生ですか？", "あなたは元気ですか？"],
+      "options": [
+        "あなたはインド人ですか？",
+        "あなたは学生ですか？",
+        "あなたは元気ですか？"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -81,7 +95,10 @@
       "questionId": "q4",
       "questionText": "アミトは最後に「はい、私は学生です」と言います。この文の最後にある「Hoon」の発音はどうなっていましたか？",
       "questionType": "multiple_choice",
-      "options": ["鼻から息が抜ける鼻音だった", "「ン」がハッキリと聞こえた"],
+      "options": [
+        "鼻から息が抜ける鼻音だった",
+        "「ン」がハッキリと聞こえた"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -89,7 +106,11 @@
       "questionId": "q5",
       "questionText": "アミトの国籍は何ですか？(ヒント: ラージのセリフ)",
       "questionType": "multiple_choice",
-      "options": ["インド人", "アメリカ人", "日本人"],
+      "options": [
+        "インド人",
+        "アメリカ人",
+        "日本人"
+      ],
       "audioTimestamp": "00:14",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -123,18 +144,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b2/listening/friends_native.mp3",
+    "nativeAudio": "month_1/block_2/M1B2_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b2/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b2/listening/friends_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b2/listening/friends_native.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_2/M1B2_audio.wav",
     "audioTranscript": "Raaj: Namaste Ken! Aap kaise hain?...",
     "audioLanguage": "hi",
     "audioDuration": 80,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "pronouns", "to_be", "nasal_sounds", "month1", "block2"],
+  "tags": [
+    "listening",
+    "pronouns",
+    "to_be",
+    "nasal_sounds",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -146,7 +174,9 @@
     "Failing to hear the nasal 'n' in 'Hain' due to its unarticulated auditory footprint compared to Japanese 'ん'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B2_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B2_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

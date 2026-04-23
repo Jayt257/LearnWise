@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B5_reading_001"],
+  "prerequisites": [
+    "ja_hi_M1B5_reading_001"
+  ],
   "instructions": "文法パズルに挑戦しましょう！今回は「アクション（動詞）」を組み立てます。主語（誰がするのか）に合わせて、動詞のパーツを正しく選んで合体させてください。",
   "contentItems": [
     {
@@ -130,7 +132,17 @@
       "main seb khata hoon main seb khati hoon aap japan jate hain",
       "मैं सेब खाता हूँ मैं सेब खाती हूँ आप जापान जाते हैं"
     ],
-    "requiredKeywords": ["मैं", "सेब", "खाता", "खती", "हूँ", "आप", "जापान", "जाते", "हैं"],
+    "requiredKeywords": [
+      "मैं",
+      "सेब",
+      "खाता",
+      "खती",
+      "हूँ",
+      "आप",
+      "जापान",
+      "जाते",
+      "हैं"
+    ],
     "grammarBaseline": "Zero tolerance for gender mismatch or missing copula. 'Main khaatee hai' is an instant fail.",
     "lengthExpectation": "Exactly 3 distinct sentences.",
     "scoringRubric": {
@@ -145,19 +157,27 @@
     "onPartial": "文法が少し崩れています。「食べる」と「行く」が文の最後（Hoonの前）に来る日本語と同じ語順(SOV)を守っていますか？"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b5/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b5/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b5/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m1/b5/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 sentences applying present tense verbal logic.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "verbs", "gender", "sov", "month1", "block5"],
+  "tags": [
+    "writing",
+    "grammar",
+    "verbs",
+    "gender",
+    "sov",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -169,7 +189,9 @@
     "Writing 'Main seb khaata hai' applying the copula 'hai' universally."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B5_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B5_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

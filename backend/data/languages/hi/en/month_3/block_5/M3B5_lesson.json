@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B4_test_001"],
+  "prerequisites": [
+    "en_hi_M3B4_test_001"
+  ],
   "instructions": "In an emergency, you need to speak clearly and correctly. Today we learn how to talk to doctors and police officers. You will learn the exact English phrases to describe pain, sickness, and accidents.",
   "contentItems": [
     {
@@ -45,18 +47,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b5/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m3/b5/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b5/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m3/b5/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I have a headache. My arm hurts. I need to see a doctor.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["health", "emergencies", "medical", "hospital", "police", "month3", "block5"],
+  "tags": [
+    "health",
+    "emergencies",
+    "medical",
+    "hospital",
+    "police",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +79,9 @@
     "Saying 'I am suffering from fever' (too formal for daily spoken English)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Medical & Emergency Syntax",
@@ -173,8 +185,13 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "In hospitals in Western countries, nurses will ask 'On a scale of 1 to 10, how much does it hurt?'. You must be able to describe your pain clearly using 'hurt' and 'ache'.",
-    "dosList": ["Use 'I have a...' for internal illnesses.", "Use 'My [part] hurts' for physical injuries."],
-    "dontsList": ["Never use 'is paining'."]
+    "dosList": [
+      "Use 'I have a...' for internal illnesses.",
+      "Use 'My [part] hurts' for physical injuries."
+    ],
+    "dontsList": [
+      "Never use 'is paining'."
+    ]
   },
   "summary": "To talk about health, remove the word 'paining' from your vocabulary. For illness and head/stomach/tooth pain, use 'I have a...'. For body injuries, say 'My [body part] hurts'.",
   "checkpointQuestions": [

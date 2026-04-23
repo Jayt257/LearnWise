@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B4_reading_001"],
+  "prerequisites": [
+    "ja_hi_M3B4_reading_001"
+  ],
   "instructions": "実戦で使える文章を組み立てましょう！行き先を告げる「私は〜へ行きたい(私に)」の形と、値段を聞く時の「〜の(Kaa)」の使い方に注意してください。",
   "contentItems": [
     {
@@ -123,7 +125,14 @@
       "mujhe airport jaanaa hai yah kitne kaa hai seedhe jaaiye",
       "mujhe airpot jana hai ye kitne ka hai sidhe jaiye"
     ],
-    "requiredKeywords": ["मुझे", "जाना", "कितने", "का", "सीधे", "जाइए"],
+    "requiredKeywords": [
+      "मुझे",
+      "जाना",
+      "कितने",
+      "का",
+      "सीधे",
+      "जाइए"
+    ],
     "grammarBaseline": "'Mujhe' must be used for sentence 1. 'Kaa' must immediately follow 'kitne'. 'Jaaiye' must be the verb resolving the spatial command.",
     "lengthExpectation": "3 short survival sentences.",
     "scoringRubric": {
@@ -138,19 +147,27 @@
     "onPartial": "惜しいところがあります。第3文の指示で「Jaao(行け)」と友達に対する命令形を使っていませんか？運転手や見知らぬ人には必ず「Jaaiye(行ってください)」と丁寧に伝えましょう。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b4/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b4/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m3/b4/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate sentences involving travel destinations, requesting prices, and conveying spatial directons.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "survival", "travel", "shopping", "imperatives", "month3", "block4"],
+  "tags": [
+    "writing",
+    "survival",
+    "travel",
+    "shopping",
+    "imperatives",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -162,7 +179,9 @@
     "Writing 'Main airport jaanaa hai' confusing the nominative and dative pronouns."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B4_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B4_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

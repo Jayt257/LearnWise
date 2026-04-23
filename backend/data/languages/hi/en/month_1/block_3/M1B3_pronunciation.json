@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B3_lesson_001"],
+  "prerequisites": [
+    "en_hi_M1B3_lesson_001"
+  ],
   "instructions": "In English, adding 's' to the end of a word makes 3 different sounds depending on the word. Sometimes it sounds like a snake 'S' (स). Sometimes it buzzes like a bee 'Z' (ज़). Sometimes it adds a whole new syllable 'IZ' (इज़). Listen closely and repeat these 15 words.",
   "contentItems": [
     {
@@ -206,19 +208,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b3/pronunciation/native_plurals.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b3/pronunciation/slow_plurals.mp3",
-    "normalAudio": "audio/en_hi/m1/b3/pronunciation/native_plurals.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Cats. Books. Cups... (matches target list)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "plurals", "nouns", "phonetics", "beginner"],
+  "tags": [
+    "pronunciation",
+    "plurals",
+    "nouns",
+    "phonetics",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +239,9 @@
     "Not creating a new syllable for '-es'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B3_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M2B3_pronunciation_001"
+  ],
   "instructions": "ラージ（男性）が書いた、今週末の予定を読んでみましょう。誰が何をする予定なのか、文末にある特有の『ガー・ギー・ゲー』の音を頼りに読み解いてください。",
   "contentItems": [
     {
@@ -109,28 +111,43 @@
       "questionId": "q1",
       "questionText": "ラージ（この文章を書いている私）は、今週末何をしますか？",
       "questionType": "multiple_choice",
-      "options": ["日本へ行く (Jaaoongaa)", "仕事を休んでリラックスする (Aaraam karoongaa)", "日本食を食べる (Khaaoongaa)"],
+      "options": [
+        "日本へ行く (Jaaoongaa)",
+        "仕事を休んでリラックスする (Aaraam karoongaa)",
+        "日本食を食べる (Khaaoongaa)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「アニタは日本へ行きます」という文で、行く(Jaa)の語幹の後ろについている未来形の音はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["oongaa (私男のルール)", "eegee (彼女のルール)", "egaa (彼のルール)"],
+      "options": [
+        "oongaa (私男のルール)",
+        "eegee (彼女のルール)",
+        "egaa (彼のルール)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "アニタは日本に到着した後、「そこで (vahaan)」何をしますか？",
       "questionType": "multiple_choice",
-      "options": ["仕事をする (Kaam karegee)", "日本食を食べる (Khaanaa khaaeegee)"],
+      "options": [
+        "仕事をする (Kaam karegee)",
+        "日本食を食べる (Khaanaa khaaeegee)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "「来月 (Agle maheene)会う予定だ」と言っている主語は誰ですか？動詞が Milenge (エの音) になっていることから推測してください。",
       "questionType": "multiple_choice",
-      "options": ["私とアニタ (私たち：Hum)", "ラージ一人 (私：Main)", "アニタ一人 (彼女：Vah)"],
+      "options": [
+        "私とアニタ (私たち：Hum)",
+        "ラージ一人 (私：Main)",
+        "アニタ一人 (彼女：Vah)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -151,10 +168,20 @@
       "q5": "Nahin"
     },
     "acceptableParaphrases": {
-      "q5": ["Nahin", "nahin", "nahi", "Nahi", "ナヒーン"]
+      "q5": [
+        "Nahin",
+        "nahin",
+        "nahi",
+        "Nahi",
+        "ナヒーン"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["nahi", "nahin", "nahiin"]
+      "q5": [
+        "nahi",
+        "nahin",
+        "nahiin"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner successfully identifies the future suffixes '-oongaa' and '-eegee' tracking them to their respective subjects (Main and Aneeta).",
@@ -170,18 +197,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m2/b3/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Is saptaahaant main kaam nahin karoongaa... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "tags": [
+    "reading",
+    "verbs",
+    "future_tense",
+    "conjugation",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -193,7 +227,9 @@
     "Thinking 'Milenge' means Raj is talking to Anita formally (Aap), instead of meaning 'We' (Hum)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B3_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B3_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

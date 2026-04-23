@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "Right", "Left", "Front / Before", "Back / Behind", "Next to", 
-    "Near / Nearby", "Straight", "Train Station", "Street / Road", "Corner", 
-    "Traffic light", "Bridge", "Intersection", "Bank", "Post office", 
-    "Hotel", "Convenience store", "How / In what way", "To turn", "To cross", 
-    "To stop", "Turn (Te-form)", "Cross (Te-form)", "Stop (Te-form)", "Go (Te-form)", 
-    "Subway", "Train", "Bus", "Taxi", "On foot / Walking"
+    "Right",
+    "Left",
+    "Front / Before",
+    "Back / Behind",
+    "Next to",
+    "Near / Nearby",
+    "Straight",
+    "Train Station",
+    "Street / Road",
+    "Corner",
+    "Traffic light",
+    "Bridge",
+    "Intersection",
+    "Bank",
+    "Post office",
+    "Hotel",
+    "Convenience store",
+    "How / In what way",
+    "To turn",
+    "To cross",
+    "To stop",
+    "Turn (Te-form)",
+    "Cross (Te-form)",
+    "Stop (Te-form)",
+    "Go (Te-form)",
+    "Subway",
+    "Train",
+    "Bus",
+    "Taxi",
+    "On foot / Walking"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does みぎ (Migi) mean?",
       "questionType": "multiple_choice",
-      "options": ["Left", "Right", "Straight", "Back"],
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does まっすぐ (Massugu) mean?",
       "questionType": "multiple_choice",
-      "options": ["Straight", "Turn", "Cross", "Right"],
+      "options": [
+        "Straight",
+        "Turn",
+        "Cross",
+        "Right"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "How do you say 'Traffic light'?",
       "questionType": "multiple_choice",
-      "options": ["かど (Kado)", "みち (Michi)", "しんごう (Shingou)", "はし (Hashi)"],
+      "options": [
+        "かど (Kado)",
+        "みち (Michi)",
+        "しんごう (Shingou)",
+        "はし (Hashi)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What does わたって (Watatte) mean?",
       "questionType": "multiple_choice",
-      "options": ["Turn", "Stop", "Go", "Cross"],
+      "options": [
+        "Turn",
+        "Stop",
+        "Go",
+        "Cross"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does うしろ (Ushiro) mean?",
       "questionType": "multiple_choice",
-      "options": ["Front", "Back / Behind", "Next to", "Left"],
+      "options": [
+        "Front",
+        "Back / Behind",
+        "Next to",
+        "Left"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "How do you ask 'How / In what way?'",
       "questionType": "multiple_choice",
-      "options": ["どこ (Doko)", "どう (Dou)", "どうやって (Dou yatte)", "なぜ (Naze)"],
+      "options": [
+        "どこ (Doko)",
+        "どう (Dou)",
+        "どうやって (Dou yatte)",
+        "なぜ (Naze)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What does ぎんこう (Ginkou) mean?",
       "questionType": "multiple_choice",
-      "options": ["Post office", "Bank", "Hotel", "Hospital"],
+      "options": [
+        "Post office",
+        "Bank",
+        "Hotel",
+        "Hospital"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does となり (Tonari) mean?",
       "questionType": "multiple_choice",
-      "options": ["Next to", "Behind", "Near", "Front"],
+      "options": [
+        "Next to",
+        "Behind",
+        "Near",
+        "Front"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does かど (Kado) mean?",
       "questionType": "multiple_choice",
-      "options": ["Corner", "Bridge", "Intersection", "Street"],
+      "options": [
+        "Corner",
+        "Bridge",
+        "Intersection",
+        "Street"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does あるいて (Aruite) mean?",
       "questionType": "multiple_choice",
-      "options": ["By train", "On foot / Walking", "By bus", "By taxi"],
+      "options": [
+        "By train",
+        "On foot / Walking",
+        "By bus",
+        "By taxi"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,14 @@
       "w030": "On foot / Walking"
     },
     "acceptedTranslations": {
-      "w003": ["Front", "Before"],
-      "w004": ["Back", "Behind"]
+      "w003": [
+        "Front",
+        "Before"
+      ],
+      "w004": [
+        "Back",
+        "Behind"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b6/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b6/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b6/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m2/b6/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "みぎ。ひだり。まえ。うしろ。となり。ちかく。まっすぐ。えき。みち。かど。しんごう。はし。こうさてん。ぎんこう。ゆうびんきょく。ホテル。コンビニ。どうやって。まがる。わたる。とまる。まがって。わたって。とまって。いって。ちかてつ。でんしゃ。バス。タクシー。あるいて。",
     "audioLanguage": "ja",
     "audioDuration": 360,

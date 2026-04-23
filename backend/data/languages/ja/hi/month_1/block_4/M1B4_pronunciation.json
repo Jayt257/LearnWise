@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B4_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M1B4_lesson_001"
+  ],
   "instructions": "発音の練習です！日本語で「とうきょうに」と言うとき、「とうきょう」と「に」を区切らずに滑らかに発音しますよね。ヒンディー語の「Tokyo-mein」も同じように、名詞と助詞を一つの言葉のように滑らかにつなげて発音します。",
   "contentItems": [
     {
@@ -107,19 +109,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b4/pronunciation/native_particles.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b4/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b4/pronunciation/slow_particles.mp3",
-    "normalAudio": "audio/ja_hi/m1/b4/pronunciation/native_particles.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mein. Par. Se. Ghar mein. Jaapaan se. Tokyo mein.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "postpositions", "particles", "nasalization", "month1", "block4"],
+  "tags": [
+    "pronunciation",
+    "postpositions",
+    "particles",
+    "nasalization",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -131,7 +140,9 @@
     "Pronouncing 'Ghar mein' with a distinct stop 'Gharu... Men'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B4_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B4_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

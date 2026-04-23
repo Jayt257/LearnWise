@@ -212,70 +212,120 @@
       "questionId": "q001",
       "questionText": "What does コーヒー mean?",
       "questionType": "multiple_choice",
-      "options": ["Tea", "Coffee", "Juice", "Cola"],
+      "options": [
+        "Tea",
+        "Coffee",
+        "Juice",
+        "Cola"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "How do you say 'Television' in Japanese?",
       "questionType": "multiple_choice",
-      "options": ["カメラ (Kamera)", "タクシー (Takushii)", "テレビ (Terebi)", "バス (Basu)"],
+      "options": [
+        "カメラ (Kamera)",
+        "タクシー (Takushii)",
+        "テレビ (Terebi)",
+        "バス (Basu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What does ホテル mean?",
       "questionType": "multiple_choice",
-      "options": ["Hospital", "Hotel", "Hostel", "House"],
+      "options": [
+        "Hospital",
+        "Hotel",
+        "Hostel",
+        "House"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "How do you say 'United Kingdom'?",
       "questionType": "multiple_choice",
-      "options": ["アメリカ", "カナダ", "イギリス", "にほん"],
+      "options": [
+        "アメリカ",
+        "カナダ",
+        "イギリス",
+        "にほん"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What is the Japanese loan word for 'Sandwich'?",
       "questionType": "multiple_choice",
-      "options": ["サンド (Sando)", "サンドイッチ (Sandoitchi)", "サンドウ (Sandou)", "ケーキ (Keeki)"],
+      "options": [
+        "サンド (Sando)",
+        "サンドイッチ (Sandoitchi)",
+        "サンドウ (Sandou)",
+        "ケーキ (Keeki)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What does トイレ mean?",
       "questionType": "multiple_choice",
-      "options": ["Toy", "Train", "Toilet / Restroom", "Tree"],
+      "options": [
+        "Toy",
+        "Train",
+        "Toilet / Restroom",
+        "Tree"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "Which word has an elongation mark (ー) in it?",
       "questionType": "multiple_choice",
-      "options": ["テレビ (Terebi)", "バス (Basu)", "カメラ (Kamera)", "ジュース (Juusu)"],
+      "options": [
+        "テレビ (Terebi)",
+        "バス (Basu)",
+        "カメラ (Kamera)",
+        "ジュース (Juusu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does アイスクリーム mean?",
       "questionType": "multiple_choice",
-      "options": ["Ice Cube", "Ice Cream", "Iced Tea", "Iced Coffee"],
+      "options": [
+        "Ice Cube",
+        "Ice Cream",
+        "Iced Tea",
+        "Iced Coffee"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "How do you say 'Taxi'?",
       "questionType": "multiple_choice",
-      "options": ["バス", "タクシー", "ホテル", "カメラ"],
+      "options": [
+        "バス",
+        "タクシー",
+        "ホテル",
+        "カメラ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does コンピューター mean?",
       "questionType": "multiple_choice",
-      "options": ["Calculator", "Computer", "Commuter", "Camera"],
+      "options": [
+        "Calculator",
+        "Computer",
+        "Commuter",
+        "Camera"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -298,21 +348,61 @@
       "w015": "Canada"
     },
     "acceptedTranslations": {
-      "w001": ["Coffee"],
-      "w002": ["Juice"],
-      "w003": ["Cake"],
-      "w004": ["Sandwich"],
-      "w005": ["Ice Cream"],
-      "w006": ["Hotel"],
-      "w007": ["Taxi", "Cab"],
-      "w008": ["Bus"],
-      "w009": ["Toilet", "Restroom", "Bathroom", "Washroom"],
-      "w010": ["Computer", "PC"],
-      "w011": ["Television", "TV"],
-      "w012": ["Camera"],
-      "w013": ["America", "USA"],
-      "w014": ["United Kingdom", "UK", "Britain", "England"],
-      "w015": ["Canada"]
+      "w001": [
+        "Coffee"
+      ],
+      "w002": [
+        "Juice"
+      ],
+      "w003": [
+        "Cake"
+      ],
+      "w004": [
+        "Sandwich"
+      ],
+      "w005": [
+        "Ice Cream"
+      ],
+      "w006": [
+        "Hotel"
+      ],
+      "w007": [
+        "Taxi",
+        "Cab"
+      ],
+      "w008": [
+        "Bus"
+      ],
+      "w009": [
+        "Toilet",
+        "Restroom",
+        "Bathroom",
+        "Washroom"
+      ],
+      "w010": [
+        "Computer",
+        "PC"
+      ],
+      "w011": [
+        "Television",
+        "TV"
+      ],
+      "w012": [
+        "Camera"
+      ],
+      "w013": [
+        "America",
+        "USA"
+      ],
+      "w014": [
+        "United Kingdom",
+        "UK",
+        "Britain",
+        "England"
+      ],
+      "w015": [
+        "Canada"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -356,12 +446,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b3/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b3/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b3/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m1/b3/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "コーヒー。ジュース。ケーキ。サンドイッチ。アイスクリーム。ホテル。タクシー。バス。トイレ。コンピューター。テレビ。カメラ。アメリカ。イギリス。カナダ。",
     "audioLanguage": "ja",
     "audioDuration": 200,

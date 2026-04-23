@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B3_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M1B3_pronunciation_001"
+  ],
   "instructions": "ラージが自分の持ち物について話しています。登場する2つのモノ（家と車）の「性別」が何であるかを意識しながら、前の言葉がどう変化しているか（Mera -> Meriなど）を読み取ってください。",
   "contentItems": [
     {
@@ -122,14 +124,21 @@
       "questionId": "q1",
       "questionText": "文章で「車 (Gaaḍee)」は男性名詞ですか？それとも女性名詞ですか？（ヒント：『私の〜』の部分に注目）",
       "questionType": "multiple_choice",
-      "options": ["女性名詞 (Feminine)", "男性名詞 (Masculine)"],
+      "options": [
+        "女性名詞 (Feminine)",
+        "男性名詞 (Masculine)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「私の家 (Mera ghar)」と言うとき、家 (Ghar) が男性名詞であるため、「大きい」も男性形になっています。本文中の「私の一番大きい家」を表す形容詞はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["बड़ी (baḍee)", "बड़ा (baḍaa)", "बहुत (bahut)"],
+      "options": [
+        "बड़ी (baḍee)",
+        "बड़ा (baḍaa)",
+        "बहुत (bahut)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -143,14 +152,21 @@
       "questionId": "q4",
       "questionText": "「とても (very)」を意味するヒンディー語の単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["ठीक (ṭheek)", "बहुत (bahut)", "और (aur)"],
+      "options": [
+        "ठीक (ṭheek)",
+        "बहुत (bahut)",
+        "और (aur)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: 男性であるラージが「車」について話す場合、彼自身が男性なので「Mera (男性用)」を使わなければならない。",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -172,12 +188,27 @@
       "q6": "aur"
     },
     "acceptableParaphrases": {
-      "q3": ["bhi", "bhee", "bī", "भी"],
-      "q6": ["aur", "Aur", "और"]
+      "q3": [
+        "bhi",
+        "bhee",
+        "bī",
+        "भी"
+      ],
+      "q6": [
+        "aur",
+        "Aur",
+        "और"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["bhee", "भी"],
-      "q6": ["aur", "और"]
+      "q3": [
+        "bhee",
+        "भी"
+      ],
+      "q6": [
+        "aur",
+        "और"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner can trace the forward dependency of noun gender onto preceding possessives (meri) and adjectives (badi).",
@@ -193,18 +224,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m1/b3/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Yah mera ghar hai... (matches full target text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "gender", "adjectives", "possessives", "month1", "block3"],
+  "tags": [
+    "reading",
+    "gender",
+    "adjectives",
+    "possessives",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -216,7 +254,9 @@
     "Thinking that 'Mera' refers to Raj's gender instead of the house."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

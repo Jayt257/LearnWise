@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 5. It contains 20 questions evaluating your mastery of Action Verbs. If you are ever confused, look for the Subject: Is it 'I', or is it 'He'? Does it need an 's'?",
   "testTitle": "Block 5 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: 'I eat' is correct. 'I am eat' is incorrect.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: I _____ an apple every morning.",
           "questionType": "multiple_choice",
-          "options": ["eats", "eat", "am eat", "eating"],
+          "options": [
+            "eats",
+            "eat",
+            "am eat",
+            "eating"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Fill in the blank: She _____ to school.",
           "questionType": "multiple_choice",
-          "options": ["go", "gos", "goes", "is go"],
+          "options": [
+            "go",
+            "gos",
+            "goes",
+            "is go"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,11 @@
           "questionId": "q003",
           "questionText": "Which is the correct sentence?",
           "questionType": "multiple_choice",
-          "options": ["They plays in the park.", "They play in the park.", "They is play in the park."],
+          "options": [
+            "They plays in the park.",
+            "They play in the park.",
+            "They is play in the park."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -81,7 +100,10 @@
           "questionId": "q005",
           "questionText": "True or False: 'He sleeps' means 'वह सोता है'. The 's' has nothing to do with plural objects; it is just a grammar rule for 'He'.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -114,7 +136,12 @@
           "questionId": "q007",
           "questionText": "What does 'Read' mean in Hindi?",
           "questionType": "multiple_choice",
-          "options": ["देखना", "दौड़ना", "पढ़ना", "लिखना"],
+          "options": [
+            "देखना",
+            "दौड़ना",
+            "पढ़ना",
+            "लिखना"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -142,7 +169,12 @@
           "questionId": "q009",
           "questionText": "Which verb means 'दौड़ना'?",
           "questionType": "multiple_choice",
-          "options": ["Play", "Go", "Sleep", "Run"],
+          "options": [
+            "Play",
+            "Go",
+            "Sleep",
+            "Run"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -152,7 +184,10 @@
           "questionId": "q010",
           "questionText": "True or False: English verbs change depending on whether it is a man or a woman (लड़का या लड़की).",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +206,11 @@
           "questionId": "q011",
           "questionText": "Find the mistake: 'I am go to the park.'",
           "questionType": "multiple_choice",
-          "options": ["'go' should be 'goes'", "'am' must be removed", "There is no mistake"],
+          "options": [
+            "'go' should be 'goes'",
+            "'am' must be removed",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -185,7 +224,11 @@
           "questionId": "q012",
           "questionText": "Find the mistake: 'He read a book.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'He reads a book.'", "It should be 'He am read a book.'", "There is no mistake"],
+          "options": [
+            "It should be 'He reads a book.'",
+            "It should be 'He am read a book.'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -199,7 +242,11 @@
           "questionId": "q013",
           "questionText": "Find the mistake: 'The dogs runs.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'The dog runs' or 'The dogs run'.", "It should be 'The dogs runns'.", "There is no mistake"],
+          "options": [
+            "It should be 'The dog runs' or 'The dogs run'.",
+            "It should be 'The dogs runns'.",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -213,7 +260,11 @@
           "questionId": "q014",
           "questionText": "What does 'We' (हम) do to the verb?",
           "questionType": "multiple_choice",
-          "options": ["It adds an 's'", "It leaves the verb normal (no 's')", "It adds an 'es'"],
+          "options": [
+            "It adds an 's'",
+            "It leaves the verb normal (no 's')",
+            "It adds an 'es'"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -223,7 +274,11 @@
           "questionId": "q015",
           "questionText": "If a word ends in 'sh' (like wash), what do you add for 'He' or 'She'?",
           "questionType": "multiple_choice",
-          "options": ["'es'", "'s'", "Nothing"],
+          "options": [
+            "'es'",
+            "'s'",
+            "Nothing"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -358,14 +413,39 @@
       "q017": "Give 3 marks if written 'He go to school' without the 'es'."
     },
     "alternateValidAnswers": {
-      "q004": ["watches", "WATCHES"],
-      "q006": ["drink", "DRINK"],
-      "q008": ["wash", "WASH"],
-      "q016": ["i eat an apple", "I eat an apple", "I eat a apple (partial - check hinting engine)"],
-      "q017": ["he goes to school", "He goes to school"],
-      "q018": ["we play", "We play"],
-      "q019": ["my sister sleeps", "My sister sleeps"],
-      "q020": ["i drink water", "I drink water"]
+      "q004": [
+        "watches",
+        "WATCHES"
+      ],
+      "q006": [
+        "drink",
+        "DRINK"
+      ],
+      "q008": [
+        "wash",
+        "WASH"
+      ],
+      "q016": [
+        "i eat an apple",
+        "I eat an apple",
+        "I eat a apple (partial - check hinting engine)"
+      ],
+      "q017": [
+        "he goes to school",
+        "He goes to school"
+      ],
+      "q018": [
+        "we play",
+        "We play"
+      ],
+      "q019": [
+        "my sister sleeps",
+        "My sister sleeps"
+      ],
+      "q020": [
+        "i drink water",
+        "I drink water"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -385,7 +465,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -394,7 +474,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block5", "verbs", "routines", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block5",
+    "verbs",
+    "routines",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -404,7 +491,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

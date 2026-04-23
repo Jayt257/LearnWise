@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M2B1_test_001"],
+  "prerequisites": [
+    "ja_hi_M2B1_test_001"
+  ],
   "instructions": "ヒンディー語で最も有名で、最も面白い文法ルール「Ne（ネ）」の登場です！日本人にとって、ある意味では「〜が」の助詞に似ていますが、動詞のターゲットが完全に逆転するという魔法のルールです。",
   "contentItems": [
     {
@@ -44,18 +46,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b2/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b2/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b2/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m2/b2/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Maine seb khaayaa. Maine kitaab paḍhee. Main gayaa.",
     "audioLanguage": "hi",
     "audioDuration": 300,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "tags": [
+    "grammar",
+    "verbs",
+    "past_tense",
+    "ergative",
+    "ne",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -67,7 +77,9 @@
     "Saying 'Maine seb khaayaa' and believing it's masculine because THEY are masculine, setting them up for failure when they say 'Maine kitaab paḍhaa' (wrong, it must be paḍhee)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B2_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B2_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "逆転の魔法「Ne (ネ)」",

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B1_test_001"],
+  "prerequisites": [
+    "en_hi_M2B1_test_001"
+  ],
   "instructions": "In Month 1, we taught you to NEVER say 'I am eat'. You learned to say 'I eat'. But what if you are eating right now at this exact second? That is when we use the '-ING' ending! Read this lesson to learn the 'रहा हूँ' tense.",
   "contentItems": [
     {
@@ -45,18 +47,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b2/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m2/b2/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b2/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m2/b2/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I am eating. You are sleeping. He is running.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "tenses", "present_continuous", "verbs", "month2", "block2"],
+  "tags": [
+    "grammar",
+    "tenses",
+    "present_continuous",
+    "verbs",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +78,9 @@
     "Saying 'I am eat' (Forgetting the 'ing')."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "The Present Continuous Tense",

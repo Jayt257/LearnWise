@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B6_listening_001"],
+  "prerequisites": [
+    "en_hi_M1B6_listening_001"
+  ],
   "instructions": "Study these 15 vocabulary words. Notice how the prepositions (In, On, Under) are used with the objects (Bed, Table, Box). Try to memoize the English words for common household items. Then, answer the 10 quiz questions.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What is the English word for 'नीचे'?",
       "questionType": "multiple_choice",
-      "options": ["In", "On", "Near", "Under"],
+      "options": [
+        "In",
+        "On",
+        "Near",
+        "Under"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which word is the English translation of 'फर्श'?",
       "questionType": "multiple_choice",
-      "options": ["Door", "Floor", "Window", "Table"],
+      "options": [
+        "Door",
+        "Floor",
+        "Window",
+        "Table"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: If you are standing 'Near' the door, you are touching it or on top of it.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Fill in the blank with logic: You sleep in a _____.",
       "questionType": "multiple_choice",
-      "options": ["Window", "Table", "Bed", "Door"],
+      "options": [
+        "Window",
+        "Table",
+        "Bed",
+        "Door"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,48 @@
       "questionId": "q7",
       "questionText": "If you put your book down on the surface of a desk, what preposition do you use?",
       "questionType": "multiple_choice",
-      "options": ["In", "On", "Under", "Near"],
+      "options": [
+        "In",
+        "On",
+        "Under",
+        "Near"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Where do you cook food?",
       "questionType": "multiple_choice",
-      "options": ["Kitchen", "Bed", "Door", "Box"],
+      "options": [
+        "Kitchen",
+        "Bed",
+        "Door",
+        "Box"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "If a ball rolls beneath a table into darkness, what preposition describes its location?",
       "questionType": "multiple_choice",
-      "options": ["In", "On", "Near", "Under"],
+      "options": [
+        "In",
+        "On",
+        "Near",
+        "Under"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'मेज़' to English.",
       "questionType": "multiple_choice",
-      "options": ["Chair", "Table", "Bed", "Window"],
+      "options": [
+        "Chair",
+        "Table",
+        "Bed",
+        "Window"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +330,14 @@
       "w15": "रसोई"
     },
     "acceptedTranslations": {
-      "w02": ["in", "In"],
-      "w08": ["chair", "Chair"]
+      "w02": [
+        "in",
+        "In"
+      ],
+      "w08": [
+        "chair",
+        "Chair"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +363,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b6/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b6/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b6/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b6/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "In. On. Under. Near. House. Room...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "prepositions", "locations", "house", "month1", "block6"],
+  "tags": [
+    "vocabulary",
+    "prepositions",
+    "locations",
+    "house",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +394,9 @@
     "Mixing up Floor and Door."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

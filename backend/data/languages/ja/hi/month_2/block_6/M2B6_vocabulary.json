@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B6_listening_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_listening_001"
+  ],
   "instructions": "誰かの家を訪問したり、会話を弾まませるためによく使う単語（時間・天気・挨拶）を学びます。単語を並べるだけで、Month 2 で学んだ文法が一気に豊かになります。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its translation: Phir (फिर)",
       "questionType": "matching",
-      "options": ["再び/また", "だから"],
+      "options": [
+        "再び/また",
+        "だから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the word to its state/weather condition: Garmee (गर्मी)",
       "questionType": "matching",
-      "options": ["暑さ", "寒さ"],
+      "options": [
+        "暑さ",
+        "寒さ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "If someone is hesitating to eat your food, what do you tell them not to do? (संकोच)",
       "questionType": "matching",
-      "options": ["遠慮", "休息"],
+      "options": [
+        "遠慮",
+        "休息"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the conjunction to its meaning: Isliye (इसलिए)",
       "questionType": "matching",
-      "options": ["だから(Therefore)", "今(Now)"],
+      "options": [
+        "だから(Therefore)",
+        "今(Now)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Instead of saying goodbye, what is the 'Ab' in 'Ab main jaaoongaa' used for?",
       "questionType": "matching",
-      "options": ["もう/今(そろそろ)", "夕方に"],
+      "options": [
+        "もう/今(そろそろ)",
+        "夕方に"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,7 +211,11 @@
       "w10": "だから / そのため"
     },
     "acceptedTranslations": {
-      "w01": ["また", "再び", "アゲイン"]
+      "w01": [
+        "また",
+        "再び",
+        "アゲイン"
+      ]
     },
     "matchingKey": {
       "q1": "再び/また",
@@ -215,18 +236,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b6/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b6/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b6/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b6/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b6/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Phir. Ab. Aaj. Shaam. Garmee. Ṭhanḍ. Swaagat. Sankoch. Aaraam. Isliye.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "time", "adverbs", "interactions", "month2", "block6"],
+  "tags": [
+    "vocabulary",
+    "time",
+    "adverbs",
+    "interactions",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -238,7 +266,9 @@
     "Thinking 'Ab' means 'Yes' due to similarly sounding particles in other languages."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B6_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B6_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

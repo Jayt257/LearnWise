@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M2B2_writing_001"],
+  "prerequisites": [
+    "en_hi_M2B2_writing_001"
+  ],
   "instructions": "Listen to a phone call between Rahul and his mother. His mother asks him a lot of questions about what he is doing RIGHT NOW. Listen carefully to the 'WH' question words (What, Where, Who) and Rahul's '-ing' answers. Answer the 8 questions.",
   "contentItems": [
     {
@@ -92,7 +94,12 @@
       "questionId": "q1",
       "questionText": "What is the very first question the mother asks?",
       "questionType": "multiple_choice",
-      "options": ["Where are you going?", "Who are you?", "What are you doing?", "Why are you walking?"],
+      "options": [
+        "Where are you going?",
+        "Who are you?",
+        "What are you doing?",
+        "Why are you walking?"
+      ],
       "audioTimestamp": "00:02",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -100,7 +107,11 @@
       "questionId": "q2",
       "questionText": "Where is Rahul going right now?",
       "questionType": "multiple_choice",
-      "options": ["He is going to work", "He is going to the park", "He is going home"],
+      "options": [
+        "He is going to work",
+        "He is going to the park",
+        "He is going home"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -124,7 +135,12 @@
       "questionId": "q5",
       "questionText": "What is Amit doing at the park?",
       "questionType": "multiple_choice",
-      "options": ["He is sleeping", "He is walking", "He is playing football", "He is laughing"],
+      "options": [
+        "He is sleeping",
+        "He is walking",
+        "He is playing football",
+        "He is laughing"
+      ],
       "audioTimestamp": "00:23",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -132,7 +148,12 @@
       "questionId": "q6",
       "questionText": "Why is Rahul laughing at the end of the call?",
       "questionType": "multiple_choice",
-      "options": ["Because Amit fell down", "Because a dog is running after the ball", "Because he is happy", "Because the mother made a joke"],
+      "options": [
+        "Because Amit fell down",
+        "Because a dog is running after the ball",
+        "Because he is happy",
+        "Because the mother made a joke"
+      ],
       "audioTimestamp": "00:30",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -140,7 +161,10 @@
       "questionId": "q7",
       "questionText": "Listen to the mother's question: 'Why are you laughing?'. Did she put the word 'are' BEFORE or AFTER the word 'you'?",
       "questionType": "multiple_choice",
-      "options": ["Before 'you'", "After 'you'"],
+      "options": [
+        "Before 'you'",
+        "After 'you'"
+      ],
       "audioTimestamp": "00:27",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -148,7 +172,10 @@
       "questionId": "q8",
       "questionText": "True or False: Rahul is working today.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -172,13 +199,26 @@
       "q8": "False"
     },
     "acceptedShortAnswers": {
-      "q3": ["sleeping", "He is sleeping", "Sleeping", "sleeping at home"],
-      "q4": ["Amit", "amit", "he is meeting Amit"]
+      "q3": [
+        "sleeping",
+        "He is sleeping",
+        "Sleeping",
+        "sleeping at home"
+      ],
+      "q4": [
+        "Amit",
+        "amit",
+        "he is meeting Amit"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["sleep"],
-      "q4": ["amit"]
+      "q3": [
+        "sleep"
+      ],
+      "q4": [
+        "amit"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -191,18 +231,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b2/listening/phone_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b2/listening/phone_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b2/listening/phone_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mother: Hello, Rahul. What are you doing?... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "present_continuous", "wh_questions", "beginner", "month2", "block2"],
+  "tags": [
+    "listening",
+    "present_continuous",
+    "wh_questions",
+    "beginner",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -215,7 +262,9 @@
     "Thinking Amit was sleeping."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

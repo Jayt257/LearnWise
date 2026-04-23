@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "To go / come / be (Respectful)", "To go / come (Humble)", "To be (Humble for Iru)", "To eat / drink (Respectful)", "To eat / drink / receive (Humble)", 
-    "To say (Respectful)", "To say (Humble)", "To see / look (Respectful)", "To see / look (Humble)", "To do (Respectful)", 
-    "To do (Humble)", "To know (Respectful)", "To know (Humble)", "To meet (Humble)", "Honorific language", 
-    "Respectful language", "Humble language", "Customer / Guest", "Company President", "Teacher / Doctor", 
-    "I (Very formal)", "Today (Formal for kyou)", "Tomorrow (Formal for ashita)", "This way / This person / Here", "That way / Your company", 
-    "That way over there", "Go/come/be (Respectful Polite)", "Go/come (Humble Polite)", "Eat/drink (Respectful Polite)", "Eat/drink/receive (Humble Polite)"
+    "To go / come / be (Respectful)",
+    "To go / come (Humble)",
+    "To be (Humble for Iru)",
+    "To eat / drink (Respectful)",
+    "To eat / drink / receive (Humble)",
+    "To say (Respectful)",
+    "To say (Humble)",
+    "To see / look (Respectful)",
+    "To see / look (Humble)",
+    "To do (Respectful)",
+    "To do (Humble)",
+    "To know (Respectful)",
+    "To know (Humble)",
+    "To meet (Humble)",
+    "Honorific language",
+    "Respectful language",
+    "Humble language",
+    "Customer / Guest",
+    "Company President",
+    "Teacher / Doctor",
+    "I (Very formal)",
+    "Today (Formal for kyou)",
+    "Tomorrow (Formal for ashita)",
+    "This way / This person / Here",
+    "That way / Your company",
+    "That way over there",
+    "Go/come/be (Respectful Polite)",
+    "Go/come (Humble Polite)",
+    "Eat/drink (Respectful Polite)",
+    "Eat/drink/receive (Humble Polite)"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does いらっしゃる (Irassharu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To eat", "To see", "To go / come / be (Respectful)", "To go (Humble)"],
+      "options": [
+        "To eat",
+        "To see",
+        "To go / come / be (Respectful)",
+        "To go (Humble)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does まいる (Mairu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To go / come (Humble)", "To go / come / be (Respectful)", "To see", "To say"],
+      "options": [
+        "To go / come (Humble)",
+        "To go / come / be (Respectful)",
+        "To see",
+        "To say"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "Which verb means 'To eat' in Humble language?",
       "questionType": "multiple_choice",
-      "options": ["めしあがる (Meshiagaru)", "いただく (Itadaku)", "もうす (Mousu)", "いたす (Itasu)"],
+      "options": [
+        "めしあがる (Meshiagaru)",
+        "いただく (Itadaku)",
+        "もうす (Mousu)",
+        "いたす (Itasu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "Which verb means 'To say' in Respectful language?",
       "questionType": "multiple_choice",
-      "options": ["おっしゃる (Ossharu)", "もうす (Mousu)", "いらっしゃる (Irassharu)", "なさる (Nasaru)"],
+      "options": [
+        "おっしゃる (Ossharu)",
+        "もうす (Mousu)",
+        "いらっしゃる (Irassharu)",
+        "なさる (Nasaru)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does はいけんする (Haiken suru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To go", "To say", "To do", "To see / look (Humble)"],
+      "options": [
+        "To go",
+        "To say",
+        "To do",
+        "To see / look (Humble)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What is the formal word for 'I'?",
       "questionType": "multiple_choice",
-      "options": ["おれ (Ore)", "ぼく (Boku)", "わたくし (Watakushi)", "あなた (Anata)"],
+      "options": [
+        "おれ (Ore)",
+        "ぼく (Boku)",
+        "わたくし (Watakushi)",
+        "あなた (Anata)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What is the formal word for 'Today'?",
       "questionType": "multiple_choice",
-      "options": ["きょう (Kyou)", "あす (Asu)", "ほんじつ (Honjitsu)", "きのう (Kinou)"],
+      "options": [
+        "きょう (Kyou)",
+        "あす (Asu)",
+        "ほんじつ (Honjitsu)",
+        "きのう (Kinou)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "If the President is doing an action, which form should you use?",
       "questionType": "multiple_choice",
-      "options": ["けんじょうご (Kenjougo - Humble)", "そんけいご (Sonkeigo - Respectful)", "Casual form", "Dictionary form"],
+      "options": [
+        "けんじょうご (Kenjougo - Humble)",
+        "そんけいご (Sonkeigo - Respectful)",
+        "Casual form",
+        "Dictionary form"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "If YOU are meeting a client, which verb should you use?",
       "questionType": "multiple_choice",
-      "options": ["いらっしゃる (Irassharu)", "おめにかかる (O-me ni kakaru)", "めしあがる (Meshiagaru)", "ごらんになる (Goran ni naru)"],
+      "options": [
+        "いらっしゃる (Irassharu)",
+        "おめにかかる (O-me ni kakaru)",
+        "めしあがる (Meshiagaru)",
+        "ごらんになる (Goran ni naru)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does なさる (Nasaru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To do (Respectful)", "To do (Humble)", "To say (Respectful)", "To know (Humble)"],
+      "options": [
+        "To do (Respectful)",
+        "To do (Humble)",
+        "To say (Respectful)",
+        "To know (Humble)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,14 @@
       "w030": "Eat/drink/receive (Humble Polite)"
     },
     "acceptedTranslations": {
-      "w018": ["Customer", "Guest", "Client"],
-      "w022": ["Today"]
+      "w018": [
+        "Customer",
+        "Guest",
+        "Client"
+      ],
+      "w022": [
+        "Today"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m3/b4/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b4/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m3/b4/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m3/b4/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "いらっしゃる。まいる。おる。めしあがる。いただく。おっしゃる。もうす。ごらんになる。はいけんする。なさる。いたす。ごぞんじだ。ぞんじておる。おめにかかる。けいご。そんけいご。けんじょうご。きゃく。しゃちょう。せんせい。わたくし。ほんじつ。あす。こちら。そちら。あちら。いらっしゃいます。まいります。めしあがります。いただきます。",
     "audioLanguage": "ja",
     "audioDuration": 360,

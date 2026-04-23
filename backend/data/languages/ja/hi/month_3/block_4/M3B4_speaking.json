@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B4_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M3B4_vocabulary_001"
+  ],
   "instructions": "実戦スピーキングタームです！あなたが実際にインドの市場にいて、オートリキシャの運転手やお店の人と話しているつもりで発音してください。値段を聞く、安くさせる、道を指示する、というサバイバル表現を口に出しましょう。",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "状況: お店でカバンを見つけました。　指示：「お兄さん(Bhaiyaa)、これはいくらですか(Yah kitne kaa hai)？」",
-      "expectedSpeakingPoints": ["Bhaiyaa", "yah kitne kaa hai"],
+      "expectedSpeakingPoints": [
+        "Bhaiyaa",
+        "yah kitne kaa hai"
+      ],
       "sampleResponse": {
         "targetText": "भैया, यह कितने का है?",
         "transliteration": "Bhaiyaa, yah kitne kaa hai?",
@@ -35,7 +40,10 @@
     {
       "subTaskId": "t2",
       "prompt": "状況: 言われた値段が高すぎました。　指示：「これはとても高いです(Mahangaa hai)。少し安くしてください(Thoḍaa sastaa deejiye)。」",
-      "expectedSpeakingPoints": ["Yah bahut mahangaa hai", "thoḍaa sastaa deejiye"],
+      "expectedSpeakingPoints": [
+        "Yah bahut mahangaa hai",
+        "thoḍaa sastaa deejiye"
+      ],
       "sampleResponse": {
         "targetText": "यह बहुत महँगा है। थोड़ा सस्ता दीजिए।",
         "transliteration": "Yah bahut mahangaa hai. Thoḍaa sastaa deejiye.",
@@ -45,7 +53,10 @@
     {
       "subTaskId": "t3",
       "prompt": "状況: オートリキシャに乗って運転手に指示します。　指示：「私(Mujhe)はホテルに行きたい(hoṭal jaanaa hai)。まっすぐ行ってください(Seedhe jaaiye)。」",
-      "expectedSpeakingPoints": ["Mujhe hoṭal jaanaa hai", "seedhe jaaiye"],
+      "expectedSpeakingPoints": [
+        "Mujhe hoṭal jaanaa hai",
+        "seedhe jaaiye"
+      ],
       "sampleResponse": {
         "targetText": "मुझे होटल जाना है। सीधे जाइए।",
         "transliteration": "Mujhe hoṭal jaanaa hai. Seedhe jaaiye.",
@@ -91,7 +102,18 @@
       "seedhe jaaiye"
     ],
     "requiredKeywords": [
-      "bhaiyaa", "yah", "kitne", "kaa", "hai", "bahut", "mahangaa", "sastaa", "mujhe", "jaanaa", "seedhe", "jaaiye"
+      "bhaiyaa",
+      "yah",
+      "kitne",
+      "kaa",
+      "hai",
+      "bahut",
+      "mahangaa",
+      "sastaa",
+      "mujhe",
+      "jaanaa",
+      "seedhe",
+      "jaaiye"
     ],
     "acceptableParaphrases": [
       "bhayya yeh kitne ka hai bahut sasta de dijiye thik hai bhaiya mujhe hotel jana hai sidhe jaiye"
@@ -110,19 +132,26 @@
     "onPartial": "よくお話しできています。「Mahangaa(高い)」の「ン」の部分を、口を開けたまま鼻に抜くように発音(鼻母音)できると、よりネイティブの話す言葉に近くなります！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b4/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m3/b4/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b4/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m3/b4/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m3/b4/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Learner: Bhaiyaa, yah kitne kaa hai? Yah bahut mahangaa hai... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 90,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "survival", "travel", "shopping", "month3", "block4"],
+  "tags": [
+    "speaking",
+    "survival",
+    "travel",
+    "shopping",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -134,7 +163,9 @@
     "Saying 'Main hotel jaanaa hai' instead of 'Mujhe hotel jaanaa hai'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B4_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B4_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

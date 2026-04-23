@@ -267,70 +267,120 @@
       "questionId": "q001",
       "questionText": "What does こんにちは mean?",
       "questionType": "multiple_choice",
-      "options": ["Good morning", "Goodbye", "Hello / Good afternoon", "Thank you"],
+      "options": [
+        "Good morning",
+        "Goodbye",
+        "Hello / Good afternoon",
+        "Thank you"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "Which word is the formal way to say 'Good morning'?",
       "questionType": "multiple_choice",
-      "options": ["おはよう", "おはようございます", "こんにちは", "こんばんは"],
+      "options": [
+        "おはよう",
+        "おはようございます",
+        "こんにちは",
+        "こんばんは"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What is the Japanese word for 'Teacher'?",
       "questionType": "multiple_choice",
-      "options": ["わたし", "あなた", "がくせい", "せんせい"],
+      "options": [
+        "わたし",
+        "あなた",
+        "がくせい",
+        "せんせい"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "How do you say 'Thank you very much (formal)'?",
       "questionType": "multiple_choice",
-      "options": ["ありがとう", "ありがとうございます", "すみません", "おねがいします"],
+      "options": [
+        "ありがとう",
+        "ありがとうございます",
+        "すみません",
+        "おねがいします"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does すみません mean?",
       "questionType": "multiple_choice",
-      "options": ["Yes", "No", "Excuse me / I'm sorry", "Here you go"],
+      "options": [
+        "Yes",
+        "No",
+        "Excuse me / I'm sorry",
+        "Here you go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "Which of these means 'Yes'?",
       "questionType": "multiple_choice",
-      "options": ["いいえ", "はい", "どうぞ", "あの"],
+      "options": [
+        "いいえ",
+        "はい",
+        "どうぞ",
+        "あの"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "How do you say 'Japan'?",
       "questionType": "multiple_choice",
-      "options": ["にほんご", "にほん", "わたし", "あなた"],
+      "options": [
+        "にほんご",
+        "にほん",
+        "わたし",
+        "あなた"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "If you hand something to someone, what should you say?",
       "questionType": "multiple_choice",
-      "options": ["おねがいします", "さようなら", "どうぞ", "はい"],
+      "options": [
+        "おねがいします",
+        "さようなら",
+        "どうぞ",
+        "はい"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does わたし mean?",
       "questionType": "multiple_choice",
-      "options": ["You", "Teacher", "Student", "I / me"],
+      "options": [
+        "You",
+        "Teacher",
+        "Student",
+        "I / me"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "Which word is the informal way to say 'Thank you'?",
       "questionType": "multiple_choice",
-      "options": ["ありがとう", "ありがとうございます", "すみません", "どうも"],
+      "options": [
+        "ありがとう",
+        "ありがとうございます",
+        "すみません",
+        "どうも"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -356,24 +406,77 @@
       "w018": "Japanese language"
     },
     "acceptedTranslations": {
-      "w001": ["Good morning", "Morning"],
-      "w002": ["Good morning"],
-      "w003": ["Hello", "Good afternoon", "Hi"],
-      "w004": ["Good evening"],
-      "w005": ["Thank you", "Thanks"],
-      "w006": ["Thank you very much", "Thank you"],
-      "w007": ["Excuse me", "Sorry", "I'm sorry"],
-      "w008": ["Yes", "Yeah"],
-      "w009": ["No", "Nope"],
-      "w010": ["I", "Me"],
-      "w011": ["You"],
-      "w012": ["Teacher", "Professor", "Instructor"],
-      "w013": ["Student", "Pupil"],
-      "w014": ["Goodbye", "Bye"],
-      "w015": ["Please"],
-      "w016": ["Here you go", "After you", "Please go ahead"],
-      "w017": ["Japan"],
-      "w018": ["Japanese", "Japanese language"]
+      "w001": [
+        "Good morning",
+        "Morning"
+      ],
+      "w002": [
+        "Good morning"
+      ],
+      "w003": [
+        "Hello",
+        "Good afternoon",
+        "Hi"
+      ],
+      "w004": [
+        "Good evening"
+      ],
+      "w005": [
+        "Thank you",
+        "Thanks"
+      ],
+      "w006": [
+        "Thank you very much",
+        "Thank you"
+      ],
+      "w007": [
+        "Excuse me",
+        "Sorry",
+        "I'm sorry"
+      ],
+      "w008": [
+        "Yes",
+        "Yeah"
+      ],
+      "w009": [
+        "No",
+        "Nope"
+      ],
+      "w010": [
+        "I",
+        "Me"
+      ],
+      "w011": [
+        "You"
+      ],
+      "w012": [
+        "Teacher",
+        "Professor",
+        "Instructor"
+      ],
+      "w013": [
+        "Student",
+        "Pupil"
+      ],
+      "w014": [
+        "Goodbye",
+        "Bye"
+      ],
+      "w015": [
+        "Please"
+      ],
+      "w016": [
+        "Here you go",
+        "After you",
+        "Please go ahead"
+      ],
+      "w017": [
+        "Japan"
+      ],
+      "w018": [
+        "Japanese",
+        "Japanese language"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -420,12 +523,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b1/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_en/m1/b1/vocab/sample_sentences.mp3",
-    "slowAudio": "audio/ja_en/m1/b1/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m1/b1/vocab/normal_words.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "おはよう。おはようございます。こんにちは。こんばんは。ありがとう。ありがとうございます。すみません。はい。いいえ。わたし。あなた。せんせい。がくせい。さようなら。おねがいします。どうぞ。にほん。にほんご。",
     "audioLanguage": "ja",
     "audioDuration": 180,

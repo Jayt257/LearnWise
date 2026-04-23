@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B1_listening_001"],
+  "prerequisites": [
+    "en_hi_M1B1_listening_001"
+  ],
   "instructions": "Memorize these 15 core English words. Listen to the audio for each word. Note that English adjectives like 'Good' do not change based on whether they describe a male or female. Then, complete the 10-question mixed quiz below.",
   "contentItems": [
     {
@@ -204,35 +206,58 @@
       "questionId": "q1",
       "questionText": "What does 'Evening' mean?",
       "questionType": "multiple_choice",
-      "options": ["सुबह", "शाम", "दोपहर", "रात"],
+      "options": [
+        "सुबह",
+        "शाम",
+        "दोपहर",
+        "रात"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "If someone gives you a gift, what should you say?",
       "questionType": "multiple_choice",
-      "options": ["Please", "Goodbye", "Thank you", "Student"],
+      "options": [
+        "Please",
+        "Goodbye",
+        "Thank you",
+        "Student"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Translate to English: 'खुश'",
       "questionType": "multiple_choice",
-      "options": ["Fine", "Happy", "Good", "Welcome"],
+      "options": [
+        "Fine",
+        "Happy",
+        "Good",
+        "Welcome"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: The word 'Good' changes spelling for a boy vs a girl in English.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Which word is an academic title?",
       "questionType": "multiple_choice",
-      "options": ["Student", "Hello", "Teacher", "Night"],
+      "options": [
+        "Student",
+        "Hello",
+        "Teacher",
+        "Night"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -253,21 +278,36 @@
       "questionId": "q8",
       "questionText": "Which is a farewell (विदा लेना) word?",
       "questionType": "multiple_choice",
-      "options": ["Hello", "Goodbye", "Please", "Morning"],
+      "options": [
+        "Hello",
+        "Goodbye",
+        "Please",
+        "Morning"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What word is missing? 'How are you? I am ____.'",
       "questionType": "multiple_choice",
-      "options": ["Name", "Morning", "Fine", "Please"],
+      "options": [
+        "Name",
+        "Morning",
+        "Fine",
+        "Please"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'कृपया' to English.",
       "questionType": "multiple_choice",
-      "options": ["Thank you", "Please", "Welcome", "Hello"],
+      "options": [
+        "Thank you",
+        "Please",
+        "Welcome",
+        "Hello"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +330,13 @@
       "v15": "अलविदा"
     },
     "acceptedTranslations": {
-      "v06": ["Name"],
-      "v07": ["Student", "Pupil"]
+      "v06": [
+        "Name"
+      ],
+      "v07": [
+        "Student",
+        "Pupil"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +362,24 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b1/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b1/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b1/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b1/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Good. Morning. Afternoon. Evening. Night. Name. Student. Teacher. Happy. Fine. Thank you. Please. Welcome. Hello. Goodbye.",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "core", "greetings", "nouns", "adjectives"],
+  "tags": [
+    "vocabulary",
+    "core",
+    "greetings",
+    "nouns",
+    "adjectives"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +392,9 @@
     "Confusing Please and Thank you"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

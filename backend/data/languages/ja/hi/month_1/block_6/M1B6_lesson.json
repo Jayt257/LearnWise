@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B5_test_001"],
+  "prerequisites": [
+    "ja_hi_M1B5_test_001"
+  ],
   "instructions": "Month 1 の集大成です！あなたはたった1ヶ月で、ヒンディー語の基礎的な骨組みをすべて手に入れました。日本語と同じ語順のまま、ヒンディー語を当てはめる「最強の翻訳回路」を完成させましょう。",
   "contentItems": [
     {
@@ -44,18 +46,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b6/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b6/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b6/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b6/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m1/b6/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main kamre mein seb khaataa hoon. Main kamre mein seb khaatee hoon.",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "review", "synthesis", "sov", "gender", "month1", "block6"],
+  "tags": [
+    "grammar",
+    "review",
+    "synthesis",
+    "sov",
+    "gender",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -68,7 +78,9 @@
     "Forgetting the terminal copula (hoon/hai)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B6_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B6_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Month 1 魔法の数式 (The Month 1 Equation)",

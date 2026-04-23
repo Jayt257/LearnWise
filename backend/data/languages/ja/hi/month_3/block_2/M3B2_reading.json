@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B2_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_pronunciation_001"
+  ],
   "instructions": "ラージがケンにメッセージを送っています。動詞が2つ連続で並んでいる「複合動詞」を発見し、後ろの動詞(V2)が『行く・あげる・もらう』という元の意味を持たず、ただのニュアンス(飾りの言葉)になっている感覚を掴んでください。",
   "contentItems": [
     {
@@ -119,28 +121,40 @@
       "questionId": "q1",
       "questionText": "ラージが「Aa jaao」と言った時、後ろについている「Jaao(行け)」は文字通り「行け」という意味を持っていますか？",
       "questionType": "multiple_choice",
-      "options": ["持っていない (ただ完了や勢いのニュアンスを足している)", "持っている (来て、そして行けという意味)"],
+      "options": [
+        "持っていない (ただ完了や勢いのニュアンスを足している)",
+        "持っている (来て、そして行けという意味)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「本を『読んでおいて』(Paḍh lo)」という文で、後ろのサポート動詞として「あげる(Denaa)」ではなく「もらう(Lenaa)」が使われているのはなぜですか？",
       "questionType": "multiple_choice",
-      "options": ["本を読む行為が、読んだ本人の内的(自分自身)のためになる行動だから。", "本を読む行為が、外側(相手)へ影響を及ぼす行動だから。"],
+      "options": [
+        "本を読む行為が、読んだ本人の内的(自分自身)のためになる行動だから。",
+        "本を読む行為が、外側(相手)へ影響を及ぼす行動だから。"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "「明日私に『返して』(Vaapas de denaa)」という文で、最初の De は「渡す(あげる)」という意味の語幹です。では、後ろの Denaa(あげる) はどんなニュアンスを足していますか？",
       "questionType": "multiple_choice",
-      "options": ["自分の内に取り込むニュアンス", "外側・他者へ向かって行動を放つニュアンス"],
+      "options": [
+        "自分の内に取り込むニュアンス",
+        "外側・他者へ向かって行動を放つニュアンス"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "最後の文でラージは「僕が教えて『あげる』(Bataa doongaa)」と言います。この文末の「doongaa」は、誰がその行動を行う未来形かを示す音ですか？",
       "questionType": "multiple_choice",
-      "options": ["男性", "女性"],
+      "options": [
+        "男性",
+        "女性"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -161,10 +175,17 @@
       "q5": "agar"
     },
     "acceptableParaphrases": {
-      "q5": ["agar", "Agar", "AGAR", "アガル"]
+      "q5": [
+        "agar",
+        "Agar",
+        "AGAR",
+        "アガル"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["agar"]
+      "q5": [
+        "agar"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes 'Aa jaao' conceptually as mere 'Come' rather than 'Come Go'.",
@@ -180,18 +201,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m3/b2/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste Ken! ... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "compounds", "directionality", "nuance", "month3", "block2"],
+  "tags": [
+    "reading",
+    "compounds",
+    "directionality",
+    "nuance",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -203,7 +231,9 @@
     "Thinking 'Aa jaao' is contradictory ('come go') and getting confused."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -21,7 +21,12 @@
   "instructions": "Block 2 の確認テストです！このテストでは、ヒンディー語の「私・あなた・彼」による動詞の変化（Hoon, Hain, Hai）が完璧に理解できているかをテストします。頑張りましょう！",
   "testTitle": "Block 2 確認テスト (SOV & To Be Verbs)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: मैं विद्यार्थी ____ (Main vidyaarthee ____)",
           "questionType": "multiple_choice",
-          "options": ["है (hai)", "हूँ (hoon)", "हैं (hain)"],
+          "options": [
+            "है (hai)",
+            "हूँ (hoon)",
+            "हैं (hain)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "Fill in the blank: वह मेरा दोस्त ____ (Vah mera dost ____)",
           "questionType": "multiple_choice",
-          "options": ["है (hai)", "हूँ (hoon)", "हैं (hain)"],
+          "options": [
+            "है (hai)",
+            "हूँ (hoon)",
+            "हैं (hain)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "Fill in the blank: आप जापानी ____ (Aap Jaapaanee ____)",
           "questionType": "multiple_choice",
-          "options": ["है (hai)", "हूँ (hoon)", "हैं (hain)"],
+          "options": [
+            "है (hai)",
+            "हूँ (hoon)",
+            "हैं (hain)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,11 @@
           "questionId": "q004",
           "questionText": "「私はアキラです」の正しいヒンディー語はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Mera naam Akira hoon.", "Main Akira hoon.", "Main Akira hai."],
+          "options": [
+            "Mera naam Akira hoon.",
+            "Main Akira hoon.",
+            "Main Akira hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +94,10 @@
           "questionId": "q005",
           "questionText": "True or False: ヒンディー語では、日本語のようにすべての文を同じ「です」で終わらせることができる。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -102,7 +126,11 @@
           "questionId": "q007",
           "questionText": "「あなた (尊敬)」を意味する単語はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["हम (Ham)", "आप (Aap)", "वह (Vah)"],
+          "options": [
+            "हम (Ham)",
+            "आप (Aap)",
+            "वह (Vah)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +140,11 @@
           "questionId": "q008",
           "questionText": "「Vidyaarthee (学生)」の正しい対義語（職業ペア）はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Dost (友達)", "Jaapaanee (日本人)", "Adhyaapak (先生)"],
+          "options": [
+            "Dost (友達)",
+            "Jaapaanee (日本人)",
+            "Adhyaapak (先生)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -122,7 +154,11 @@
           "questionId": "q009",
           "questionText": "「क्या (Kyaa)」を文の最初に置くと、どのような効果がありますか？",
           "questionType": "multiple_choice",
-          "options": ["否定文になる", "「〜ですか？」という疑問文になる", "主語が複数形になる"],
+          "options": [
+            "否定文になる",
+            "「〜ですか？」という疑問文になる",
+            "主語が複数形になる"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -132,7 +168,11 @@
           "questionId": "q010",
           "questionText": "Translate: 'वह कौन है?'",
           "questionType": "multiple_choice",
-          "options": ["彼は日本人ですか？", "彼は誰ですか？", "私は学生ですか？"],
+          "options": [
+            "彼は日本人ですか？",
+            "彼は誰ですか？",
+            "私は学生ですか？"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +191,11 @@
           "questionId": "q011",
           "questionText": "Hoon (हूँ) や Hain (हैं) の上にある点（ビンドゥ）は、どう発音しろという指示ですか？",
           "questionType": "multiple_choice",
-          "options": ["舌を上あごにくっつけて「ン」と鳴らす", "息を強く吐き出す", "舌を浮かせたまま、鼻から息を抜いて鳴らす"],
+          "options": [
+            "舌を上あごにくっつけて「ン」と鳴らす",
+            "息を強く吐き出す",
+            "舌を浮かせたまま、鼻から息を抜いて鳴らす"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +205,11 @@
           "questionId": "q012",
           "questionText": "「Main」を発音するとき、間違った日本人のクセ（L1 Interference）はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Men（メン）と言って舌を口の上にくっつけてしまう", "Mai（マイ）と言う", "Mo（モ）と言う"],
+          "options": [
+            "Men（メン）と言って舌を口の上にくっつけてしまう",
+            "Mai（マイ）と言う",
+            "Mo（モ）と言う"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +219,10 @@
           "questionId": "q013",
           "questionText": "Vah (वह) の「V」の部分は、どのように発音するのが一番自然ですか？",
           "questionType": "multiple_choice",
-          "options": ["両方の唇をピッタリ閉じて「バ」と出す", "上の歯で下唇を軽くかんで「ヴァ」に近く出す"],
+          "options": [
+            "両方の唇をピッタリ閉じて「バ」と出す",
+            "上の歯で下唇を軽くかんで「ヴァ」に近く出す"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -181,7 +232,10 @@
           "questionId": "q014",
           "questionText": "「Aap (आप)」の最後はどのように終わるべきですか？",
           "questionType": "multiple_choice",
-          "options": ["Pで唇を閉じた後、ウ(u)の母音を付けない", "Aapu（アープ）とウの母音をハッキリ付ける"],
+          "options": [
+            "Pで唇を閉じた後、ウ(u)の母音を付けない",
+            "Aapu（アープ）とウの母音をハッキリ付ける"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +264,11 @@
           "questionId": "q016",
           "questionText": "次の文章をヒンディー語の正しい語順に並び替えてください：[ जापानी / हूँ / मैं ] (Jaapaanee / hoon / Main)",
           "questionType": "multiple_choice",
-          "options": ["Main hoon Jaapaanee", "Hoon Main Jaapaanee", "Main Jaapaanee hoon"],
+          "options": [
+            "Main hoon Jaapaanee",
+            "Hoon Main Jaapaanee",
+            "Main Jaapaanee hoon"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +278,11 @@
           "questionId": "q017",
           "questionText": "Translate: 'आप अध्यापक हैं।' (Aap adhyaapak hain.)",
           "questionType": "multiple_choice",
-          "options": ["彼は先生です。", "あなたは友達です。", "あなたは先生です。"],
+          "options": [
+            "彼は先生です。",
+            "あなたは友達です。",
+            "あなたは先生です。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +292,11 @@
           "questionId": "q018",
           "questionText": "Translate: 'क्या वह भारतीय है?' (Kyaa vah Bhaarateey hai?)",
           "questionType": "multiple_choice",
-          "options": ["彼は誰ですか？", "彼はインド人ですか？", "あなたは日本人ですか？"],
+          "options": [
+            "彼は誰ですか？",
+            "彼はインド人ですか？",
+            "あなたは日本人ですか？"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -240,7 +306,11 @@
           "questionId": "q019",
           "questionText": "Fix the error: 'Main dost hai.'",
           "questionType": "multiple_choice",
-          "options": ["Dost main hai.", "Main dost hain.", "Main dost hoon."],
+          "options": [
+            "Dost main hai.",
+            "Main dost hain.",
+            "Main dost hoon."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -250,7 +320,10 @@
           "questionId": "q020",
           "questionText": "True or False: 日本語もヒンディー語も、動詞は必ず文の一番最後（S-O-V）に来る。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,8 +375,14 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q006": ["vah", "Vah"],
-      "q015": ["わたしたち", "私たち"]
+      "q006": [
+        "vah",
+        "Vah"
+      ],
+      "q015": [
+        "わたしたち",
+        "私たち"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 20,
@@ -323,7 +402,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -332,7 +411,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "grammar", "sov", "subject_verb_agreement", "nasalization", "month1", "block2"],
+  "tags": [
+    "test",
+    "grammar",
+    "sov",
+    "subject_verb_agreement",
+    "nasalization",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -342,7 +429,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

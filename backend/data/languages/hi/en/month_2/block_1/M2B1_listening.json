@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M2B1_writing_001"],
+  "prerequisites": [
+    "en_hi_M2B1_writing_001"
+  ],
   "instructions": "Listen to a customer buying a car and a dog at a store. They have very specific tastes! Pay close attention to the describing words (Adjectives) they use. Does the customer want a BIG car or a SMALL car? Answer all 8 questions.",
   "contentItems": [
     {
@@ -92,7 +94,12 @@
       "questionId": "q1",
       "questionText": "What size of car does the customer originally say they DO NOT want?",
       "questionType": "multiple_choice",
-      "options": ["A green car", "A small car", "A big car", "A flat car"],
+      "options": [
+        "A green car",
+        "A small car",
+        "A big car",
+        "A flat car"
+      ],
       "audioTimestamp": "00:06",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -100,7 +107,11 @@
       "questionId": "q2",
       "questionText": "Why does the customer want a smaller car?",
       "questionType": "multiple_choice",
-      "options": ["Because he is a small man", "Because he lives in a small house", "Because small cars are cheap"],
+      "options": [
+        "Because he is a small man",
+        "Because he lives in a small house",
+        "Because small cars are cheap"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -116,7 +127,10 @@
       "questionId": "q4",
       "questionText": "Is the car they finally agree on new or old?",
       "questionType": "multiple_choice",
-      "options": ["New", "Old"],
+      "options": [
+        "New",
+        "Old"
+      ],
       "audioTimestamp": "00:22",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -124,7 +138,12 @@
       "questionId": "q5",
       "questionText": "What color is the fast, small car?",
       "questionType": "multiple_choice",
-      "options": ["Blue", "Red", "Black", "White"],
+      "options": [
+        "Blue",
+        "Red",
+        "Black",
+        "White"
+      ],
       "audioTimestamp": "00:19",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -148,7 +167,10 @@
       "questionId": "q8",
       "questionText": "True or False: The customer says the loud dog is 'bad news'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:42",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -172,15 +194,35 @@
       "q8": "True"
     },
     "acceptedShortAnswers": {
-      "q3": ["fast", "Fast", "a fast driver"],
-      "q6": ["A happy dog", "happy", "Happy dog", "happy dog"],
-      "q7": ["A loud dog", "Loud", "loud", "loud dog"]
+      "q3": [
+        "fast",
+        "Fast",
+        "a fast driver"
+      ],
+      "q6": [
+        "A happy dog",
+        "happy",
+        "Happy dog",
+        "happy dog"
+      ],
+      "q7": [
+        "A loud dog",
+        "Loud",
+        "loud",
+        "loud dog"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["fast"],
-      "q6": ["happy"],
-      "q7": ["loud"]
+      "q3": [
+        "fast"
+      ],
+      "q6": [
+        "happy"
+      ],
+      "q7": [
+        "loud"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -193,18 +235,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b1/listening/shopping_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b1/listening/shopping_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b1/listening/shopping_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Customer: Hello, I want to buy a car... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "adjectives", "descriptions", "shopping", "beginner", "month2", "block1"],
+  "tags": [
+    "listening",
+    "adjectives",
+    "descriptions",
+    "shopping",
+    "beginner",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -217,7 +267,9 @@
     "Thinking the dog was sad."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

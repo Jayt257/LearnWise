@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B5_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M2B5_lesson_001"
+  ],
   "instructions": "誰かに丁寧なお願いをする時の「〜してください (Iye / Jiye)」の発音を練習しましょう。滑らかな繋がりが上品なヒンディー語の鍵です。",
   "contentItems": [
     {
@@ -96,19 +98,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b5/pronunciation/native_imp.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b5/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b5/pronunciation/slow_imp.mp3",
-    "normalAudio": "audio/ja_hi/m2/b5/pronunciation/native_imp.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Jaaiye. Khaaiye. Keejiye. Deejiye. Mat jaaiye.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "politeness", "imperative", "vowels", "month2", "block5"],
+  "tags": [
+    "pronunciation",
+    "politeness",
+    "imperative",
+    "vowels",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -120,7 +129,9 @@
     "Pronouncing 'Mat' like 'Mutt' resulting in a heavier D or T sound."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B5_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B5_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

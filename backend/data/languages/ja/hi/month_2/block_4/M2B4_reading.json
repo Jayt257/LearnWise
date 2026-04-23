@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B4_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_pronunciation_001"
+  ],
   "instructions": "ラージが自分の家族と、日本の友達の家族について書いています。「Meraa / Meree」や「Kaa / Kee / Ke」が誰と誰をつないでいるのか、名詞の性別と尊敬のルールに注意しながら読んでください。",
   "contentItems": [
     {
@@ -105,28 +107,41 @@
       "questionId": "q1",
       "questionText": "「私の妹(Meree bahan)」は今どこにいますか？",
       "questionType": "multiple_choice",
-      "options": ["日本", "インド"],
+      "options": [
+        "日本",
+        "インド"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "ケンジの「妹(Bahan)」について言及する時、ラージは「Kenjee ___ bahan」とどの助詞を使っていますか？",
       "questionType": "multiple_choice",
-      "options": ["Kaa (男用)", "Kee (女用)", "Ke (尊敬・複数)"],
+      "options": [
+        "Kaa (男用)",
+        "Kee (女用)",
+        "Ke (尊敬・複数)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "ケンジの妹の職業は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["学生", "先生"],
+      "options": [
+        "学生",
+        "先生"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "ラージのお父さんは「私のお父さん＝ Mere pitaa jee」と表記されています。「Meraa pitaa」とならない最大の理由は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["父親が２人以上いるから", "肉親の目上の男性には『敬意』を表すため、文法を複数形（エー）にする必要があるから"],
+      "options": [
+        "父親が２人以上いるから",
+        "肉親の目上の男性には『敬意』を表すため、文法を複数形（エー）にする必要があるから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -147,10 +162,20 @@
       "q5": "pitaa jee"
     },
     "acceptableParaphrases": {
-      "q5": ["pitaa jee", "Pitaa jee", "pita jee", "Pita ji"]
+      "q5": [
+        "pitaa jee",
+        "Pitaa jee",
+        "pita jee",
+        "Pita ji"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["pitaa", "pita", "jee", "ji"]
+      "q5": [
+        "pitaa",
+        "pita",
+        "jee",
+        "ji"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes 'Meree' and 'Kee' are dictated by the feminine noun 'Bahan'.",
@@ -166,18 +191,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b4/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b4/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b4/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m2/b4/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Yah meraa parivaar hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "possession", "pronouns", "particles", "family", "month2", "block4"],
+  "tags": [
+    "reading",
+    "possession",
+    "pronouns",
+    "particles",
+    "family",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -189,7 +222,9 @@
     "Translating 'Kenjee kee bahan' as 'Kenji is a sister' by confusing 'kee' with a copula."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B4_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B4_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

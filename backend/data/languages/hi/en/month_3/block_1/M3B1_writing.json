@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B1_reading_001"],
+  "prerequisites": [
+    "en_hi_M3B1_reading_001"
+  ],
   "instructions": "You are the manager of a Library! Write 3 rules for the people reading books. Sentence 1: Tell them something they are ALLOWED to do using 'You can'. Sentence 2: Give them ADVICE using 'You should'. Sentence 3: Tell them a STRICT RULE of what is forbidden, using 'You must not'.",
   "contentItems": [
     {
@@ -97,7 +99,11 @@
     "acceptableAlternates": [
       "Can sit here. Should be quiet. Must not sleep."
     ],
-    "requiredKeywords": ["can", "should", "must"],
+    "requiredKeywords": [
+      "can",
+      "should",
+      "must"
+    ],
     "grammarBaseline": "Absolute zero tolerance for 'to' verbs. 'I can to swim' instantly fails.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -114,19 +120,26 @@
     "onPartial": "Good start! Double check the difference between Should and Must. Must is for things that will get you kicked out of the library! Should is just friendly advice."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b1/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b1/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b1/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m3/b1/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write library rules. One sentence with Can. One with Should. One with Must Not.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "modals", "can", "should", "must", "block1"],
+  "tags": [
+    "writing",
+    "modals",
+    "can",
+    "should",
+    "must",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -139,7 +152,9 @@
     "Writing 'You should whispering'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B1_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M3B1_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

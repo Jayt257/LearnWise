@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B2_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M1B2_vocabulary_001"
+  ],
   "instructions": "In this exercise, you are showing a family photograph to your English teacher. The teacher will ask you about the people in the picture. You must reply verbally using the correct pronoun (He, She, They) and 'To Be' verb.",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "शिक्षक तस्वीर में एक आदमी की ओर इशारा करते हैं और पूछते हैं, 'Who is he?' (वह कौन है?)। बताएं कि वह आपका भाई है (He is... का उपयोग करें)।",
-      "expectedSpeakingPoints": ["Use He is or He's", "Say my brother"],
+      "expectedSpeakingPoints": [
+        "Use He is or He's",
+        "Say my brother"
+      ],
       "sampleResponse": {
         "targetText": "He is my brother.",
         "transliteration": "ही इज़ माई ब्रदर।",
@@ -35,7 +40,10 @@
     {
       "subTaskId": "t2",
       "prompt": "शिक्षक कहते हैं, 'Is he a student?' (क्या वह एक छात्र है?)। उन्हें बताएं कि नहीं, वह एक डॉक्टर है (नकारात्मक वाक्य का उपयोग करें: He is not...)।",
-      "expectedSpeakingPoints": ["Say He is not or He's not", "Use doctor"],
+      "expectedSpeakingPoints": [
+        "Say He is not or He's not",
+        "Use doctor"
+      ],
       "sampleResponse": {
         "targetText": "No, he is not a student. He is a doctor.",
         "transliteration": "नो, ही इज़ नॉट अ स्टूडेंट। ही इज़ अ डॉक्टर।",
@@ -45,7 +53,10 @@
     {
       "subTaskId": "t3",
       "prompt": "शिक्षक तस्वीर में एक महिला की ओर इशारा करते हैं और पूछते हैं, 'Who is she?' (वह कौन है?)। बताएं कि वह आपकी बहन है।",
-      "expectedSpeakingPoints": ["Use She is or She's", "Say my sister"],
+      "expectedSpeakingPoints": [
+        "Use She is or She's",
+        "Say my sister"
+      ],
       "sampleResponse": {
         "targetText": "She is my sister.",
         "transliteration": "शी इज़ माई सिस्टर।",
@@ -55,7 +66,10 @@
     {
       "subTaskId": "t4",
       "prompt": "शिक्षक पूछते हैं, 'Are they your friends in the back?' (क्या पीछे वाले आपके दोस्त हैं?)। पुष्टि करें कि हाँ, वे मेरे दोस्त हैं।",
-      "expectedSpeakingPoints": ["Use They are or They're", "Say my friends"],
+      "expectedSpeakingPoints": [
+        "Use They are or They're",
+        "Say my friends"
+      ],
       "sampleResponse": {
         "targetText": "Yes, they are my friends.",
         "transliteration": "येस, दे आर माई फ्रेंड्स।",
@@ -65,7 +79,10 @@
     {
       "subTaskId": "t5",
       "prompt": "शिक्षक कहते हैं, 'It is a very nice photo.' (यह बहुत अच्छी तस्वीर है।)। उन्हें बताएं कि आप सभी (हम) खुश हैं। (We are... का उपयोग करें)।",
-      "expectedSpeakingPoints": ["Use We are or We're", "Say happy"],
+      "expectedSpeakingPoints": [
+        "Use We are or We're",
+        "Say happy"
+      ],
       "sampleResponse": {
         "targetText": "Thank you. We are very happy.",
         "transliteration": "थैंक यू। वी आर वेरी हैप्पी।",
@@ -153,19 +170,26 @@
     "onPartial": "Good try! Ensure you clearly differentiate between 'He' for your brother and 'She' for your sister!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b2/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m1/b2/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b2/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m1/b2/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m1/b2/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Teacher: This is a great photo. Who is he?",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "pronouns", "to-be-verbs", "descriptions", "block2"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "pronouns",
+    "to-be-verbs",
+    "descriptions",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -178,7 +202,9 @@
     "Saying 'They is my friends'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_test_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

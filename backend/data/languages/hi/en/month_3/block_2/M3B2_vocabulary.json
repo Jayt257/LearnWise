@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B2_listening_001"],
+  "prerequisites": [
+    "en_hi_M3B2_listening_001"
+  ],
   "instructions": "To use the Present Perfect tense, you MUST know your V3 verbs! Many verbs just add '-ed' (Play -> Played). But some of the most important verbs in English are IRREGULAR. They completely change their spelling! Memorize these 15 irregular V3 words.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What is the V3 (third form) of the verb 'Go'?",
       "questionType": "multiple_choice",
-      "options": ["Goed", "Gone", "Went", "Going"],
+      "options": [
+        "Goed",
+        "Gone",
+        "Went",
+        "Going"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which word is the V3 form of 'See'?",
       "questionType": "multiple_choice",
-      "options": ["Saw", "Seed", "Seen", "Seeing"],
+      "options": [
+        "Saw",
+        "Seed",
+        "Seen",
+        "Seeing"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: The V3 form of 'Write' is 'Wrote'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What is the V3 form of 'Do'?",
       "questionType": "multiple_choice",
-      "options": ["Did", "Done", "Doed", "Doing"],
+      "options": [
+        "Did",
+        "Done",
+        "Doed",
+        "Doing"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,45 @@
       "questionId": "q7",
       "questionText": "If you misplace your phone, you say 'I have ____ my phone'.",
       "questionType": "multiple_choice",
-      "options": ["Lose", "Losed", "Lost"],
+      "options": [
+        "Lose",
+        "Losed",
+        "Lost"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Translate: 'दे दिया है' (V3 form of Give).",
       "questionType": "multiple_choice",
-      "options": ["Give", "Gave", "Given"],
+      "options": [
+        "Give",
+        "Gave",
+        "Given"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What is the V3 form of 'Speak'?",
       "questionType": "multiple_choice",
-      "options": ["Spoke", "Speaked", "Spoken", "Speak"],
+      "options": [
+        "Spoke",
+        "Speaked",
+        "Spoken",
+        "Speak"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'बना लिया है' to the correct V3 form of 'Make'.",
       "questionType": "multiple_choice",
-      "options": ["Make", "Maked", "Made"],
+      "options": [
+        "Make",
+        "Maked",
+        "Made"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +327,14 @@
       "w15": "खो दिया है"
     },
     "acceptedTranslations": {
-      "w02": ["eaten", "Eaten"],
-      "w13": ["bought", "Bought"]
+      "w02": [
+        "eaten",
+        "Eaten"
+      ],
+      "w13": [
+        "bought",
+        "Bought"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +360,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b2/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b2/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b2/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b2/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Go, gone. Eat, eaten. See, seen...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "irregular_verbs", "v3", "past_participle", "present_perfect", "month3", "block2"],
+  "tags": [
+    "vocabulary",
+    "irregular_verbs",
+    "v3",
+    "past_participle",
+    "present_perfect",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +391,9 @@
     "Thinking 'Wrote' is the V3 of Write, instead of 'Written'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

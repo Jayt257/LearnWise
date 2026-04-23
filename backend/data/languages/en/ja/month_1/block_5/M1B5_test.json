@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "How do you say 'Book' in Japanese?",
           "questionType": "multiple_choice",
-          "options": ["かばん", "ほん", "かさ", "くつ"],
+          "options": [
+            "かばん",
+            "ほん",
+            "かさ",
+            "くつ"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "How do you say 'Umbrella'?",
           "questionType": "multiple_choice",
-          "options": ["とけい", "くるま", "かさ", "かばん"],
+          "options": [
+            "とけい",
+            "くるま",
+            "かさ",
+            "かばん"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does とけい (Tokei) mean?",
           "questionType": "multiple_choice",
-          "options": ["Car", "Clock/Watch", "Bag", "Shoes"],
+          "options": [
+            "Car",
+            "Clock/Watch",
+            "Bag",
+            "Shoes"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does くつ (Kutsu) mean?",
           "questionType": "multiple_choice",
-          "options": ["Shoes", "Socks", "Pants", "Shirt"],
+          "options": [
+            "Shoes",
+            "Socks",
+            "Pants",
+            "Shirt"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -88,7 +108,12 @@
           "questionId": "q005",
           "questionText": "If an object is far away from both you and your friend, which word do you use for 'That over there'?",
           "questionType": "multiple_choice",
-          "options": ["これ (Kore)", "それ (Sore)", "あれ (Are)", "どれ (Dore)"],
+          "options": [
+            "これ (Kore)",
+            "それ (Sore)",
+            "あれ (Are)",
+            "どれ (Dore)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -98,7 +123,12 @@
           "questionId": "q006",
           "questionText": "If you are holding an object, which word do you use?",
           "questionType": "multiple_choice",
-          "options": ["これ (Kore)", "それ (Sore)", "あれ (Are)", "どれ (Dore)"],
+          "options": [
+            "これ (Kore)",
+            "それ (Sore)",
+            "あれ (Are)",
+            "どれ (Dore)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -108,7 +138,12 @@
           "questionId": "q007",
           "questionText": "What is the correct word for the place 'Over there'?",
           "questionType": "multiple_choice",
-          "options": ["あこ (Ako)", "あそこ (Asoko)", "あろこ (Aroko)", "どこ (Doko)"],
+          "options": [
+            "あこ (Ako)",
+            "あそこ (Asoko)",
+            "あろこ (Aroko)",
+            "どこ (Doko)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -118,7 +153,12 @@
           "questionId": "q008",
           "questionText": "Which demonstrative MUST be attached directly to a noun (e.g., '____ book')?",
           "questionType": "multiple_choice",
-          "options": ["これ (Kore)", "ここ (Koko)", "この (Kono)", "どれ (Dore)"],
+          "options": [
+            "これ (Kore)",
+            "ここ (Koko)",
+            "この (Kono)",
+            "どれ (Dore)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -206,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What object is the speaker talking about?",
           "questionType": "multiple_choice",
-          "options": ["Car", "Bag", "Book", "Shoes"],
+          "options": [
+            "Car",
+            "Bag",
+            "Book",
+            "Shoes"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -220,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. Where is the cafe?",
           "questionType": "multiple_choice",
-          "options": ["Here", "There (near listener)", "Over there (far)", "Where"],
+          "options": [
+            "Here",
+            "There (near listener)",
+            "Over there (far)",
+            "Where"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -234,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. What does the speaker ask?",
           "questionType": "multiple_choice",
-          "options": ["What is this?", "Where is the book?", "Which one is the book?", "Is that a book?"],
+          "options": [
+            "What is this?",
+            "Where is the book?",
+            "Which one is the book?",
+            "Is that a book?"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -368,7 +423,10 @@
       "q020": "Half points if they wrote 'Kore wa mo kaban desu'."
     },
     "alternateValidAnswers": {
-      "q018": ["Kasa", "kasa"],
+      "q018": [
+        "Kasa",
+        "kasa"
+      ],
       "q020": [
         "Kore mo kaban desu",
         "kore mo kaban desu.",
@@ -394,7 +452,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

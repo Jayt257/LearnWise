@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B1_lesson_001"],
+  "prerequisites": [
+    "en_hi_M1B1_lesson_001"
+  ],
   "instructions": "In this extensive pronunciation trainer, you will practice the most difficult sounds for Hindi speakers. Listen to the native audio, pay attention to the phonetic lip placement hints, and record your voice trying to precisely mimic the native speaker. Aim for 80% accuracy to pass.",
   "contentItems": [
     {
@@ -219,19 +221,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b1/pronunciation/native_mix.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b1/pronunciation/slow_mix.mp3",
-    "normalAudio": "audio/en_hi/m1/b1/pronunciation/normal_mix.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Van. Very. Water. Welcome. Think. Thank you. That. The. Good morning. Good afternoon. Good evening. Good night. Hello. How are you. I am fine. Goodbye.",
     "audioLanguage": "en",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "v-w-sounds", "th-sound", "greetings", "beginner"],
+  "tags": [
+    "pronunciation",
+    "v-w-sounds",
+    "th-sound",
+    "greetings",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -244,7 +252,9 @@
     "Pronouncing 'th' as a hard 'T' or 'D'"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_reading_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

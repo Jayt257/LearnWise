@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B6_writing_001"],
+  "prerequisites": [
+    "en_hi_M1B6_writing_001"
+  ],
   "instructions": "Listen to Amit and his sister packing for a trip. His sister is telling him exactly WHERE to put things. Pay close attention to 'In', 'On', and 'Under'! Try to picture where the items are going. Answer the 8 questions.",
   "contentItems": [
     {
@@ -92,7 +94,12 @@
       "questionId": "q1",
       "questionText": "Where were the shirts initially located before packing?",
       "questionType": "multiple_choice",
-      "options": ["In the bag", "Under the bed", "On the bed", "On the table"],
+      "options": [
+        "In the bag",
+        "Under the bed",
+        "On the bed",
+        "On the table"
+      ],
       "audioTimestamp": "00:05",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -100,7 +107,12 @@
       "questionId": "q2",
       "questionText": "What does Amit's sister tell him to do with the shirts?",
       "questionType": "multiple_choice",
-      "options": ["Put them on the bag", "Put them in the bag", "Put them under the bag", "Put them in the box"],
+      "options": [
+        "Put them on the bag",
+        "Put them in the bag",
+        "Put them under the bag",
+        "Put them in the box"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -116,7 +128,12 @@
       "questionId": "q4",
       "questionText": "Where is the box located?",
       "questionType": "multiple_choice",
-      "options": ["On the desk", "In the desk", "Under the desk", "Under the bed"],
+      "options": [
+        "On the desk",
+        "In the desk",
+        "Under the desk",
+        "Under the bed"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -124,7 +141,12 @@
       "questionId": "q5",
       "questionText": "Where does the sister tell Amit to put the camera?",
       "questionType": "multiple_choice",
-      "options": ["In the bag", "In the box", "On the table", "Under the table"],
+      "options": [
+        "In the bag",
+        "In the box",
+        "On the table",
+        "Under the table"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -140,7 +162,12 @@
       "questionId": "q7",
       "questionText": "What exactly was UNDER the phone?",
       "questionType": "multiple_choice",
-      "options": ["The purse", "The tickets", "The camera", "The bag"],
+      "options": [
+        "The purse",
+        "The tickets",
+        "The camera",
+        "The bag"
+      ],
       "audioTimestamp": "00:30",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -148,7 +175,10 @@
       "questionId": "q8",
       "questionText": "True or False: The camera ultimately went INSIDE the bag.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -172,13 +202,26 @@
       "q8": "False"
     },
     "acceptedShortAnswers": {
-      "q3": ["In the box", "box", "in box"],
-      "q6": ["On the chair", "chair", "in the living room", "on a chair"]
+      "q3": [
+        "In the box",
+        "box",
+        "in box"
+      ],
+      "q6": [
+        "On the chair",
+        "chair",
+        "in the living room",
+        "on a chair"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["box"],
-      "q6": ["chair"]
+      "q3": [
+        "box"
+      ],
+      "q6": [
+        "chair"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -191,18 +234,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b6/listening/packing_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b6/listening/packing_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b6/listening/packing_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Sister: Amit, please pack the bag... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "prepositions", "in_on_under", "directions", "beginner", "month1", "block6"],
+  "tags": [
+    "listening",
+    "prepositions",
+    "in_on_under",
+    "directions",
+    "beginner",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -215,7 +266,9 @@
     "Thinking the Box was IN the desk instead of UNDER."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

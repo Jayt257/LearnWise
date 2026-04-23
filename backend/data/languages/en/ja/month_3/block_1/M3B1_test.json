@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does おす (Osu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To pull", "To push", "To turn", "To touch"],
+          "options": [
+            "To pull",
+            "To push",
+            "To turn",
+            "To touch"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does まわす (Mawasu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To turn / rotate", "To push", "To pull", "To stop"],
+          "options": [
+            "To turn / rotate",
+            "To push",
+            "To pull",
+            "To stop"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does きかい (Kikai) mean?",
           "questionType": "multiple_choice",
-          "options": ["Earthquake", "Machine", "Button", "Trouble"],
+          "options": [
+            "Earthquake",
+            "Machine",
+            "Button",
+            "Trouble"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does じしん (Jishin) mean?",
           "questionType": "multiple_choice",
-          "options": ["Fire", "Trouble", "Earthquake", "Machine"],
+          "options": [
+            "Fire",
+            "Trouble",
+            "Earthquake",
+            "Machine"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What happens if you push the button?",
           "questionType": "multiple_choice",
-          "options": ["The ticket comes out", "The door opens", "Change comes out", "Nothing"],
+          "options": [
+            "The ticket comes out",
+            "The door opens",
+            "Change comes out",
+            "Nothing"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. What is the condition mentioned?",
           "questionType": "multiple_choice",
-          "options": ["If you don't understand", "If you understand", "If you have time", "If it is cheap"],
+          "options": [
+            "If you don't understand",
+            "If you understand",
+            "If you have time",
+            "If it is cheap"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. What happens if you go straight?",
           "questionType": "multiple_choice",
-          "options": ["There is a station", "There is a bank", "You turn left", "You stop"],
+          "options": [
+            "There is a station",
+            "There is a bank",
+            "You turn left",
+            "You stop"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,21 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Osu to"],
-      "q017": ["Takakattara"],
-      "q018": ["Hima dattara"],
-      "q019": ["Ame ga futtara"],
-      "q020": ["Osu"]
+      "q016": [
+        "Osu to"
+      ],
+      "q017": [
+        "Takakattara"
+      ],
+      "q018": [
+        "Hima dattara"
+      ],
+      "q019": [
+        "Ame ga futtara"
+      ],
+      "q020": [
+        "Osu"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b1/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

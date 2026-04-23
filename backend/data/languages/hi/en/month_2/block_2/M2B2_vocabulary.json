@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B2_listening_001"],
+  "prerequisites": [
+    "en_hi_M2B2_listening_001"
+  ],
   "instructions": "Study these 15 vocabulary words. First, learn the 'WH' question words—these are very important! Then, learn common action words ending in '-ing'. Answer the 10 quiz questions below.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "Fill in the exact WH word based on logic: '_____ are you crying?' -> 'Because I am sad.'",
       "questionType": "multiple_choice",
-      "options": ["Who", "Why", "When", "What"],
+      "options": [
+        "Who",
+        "Why",
+        "When",
+        "What"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which verb matches 'इंतज़ार कर रहा'?",
       "questionType": "multiple_choice",
-      "options": ["Sitting", "Working", "Waiting", "Laughing"],
+      "options": [
+        "Sitting",
+        "Working",
+        "Waiting",
+        "Laughing"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: 'Who' is used when asking about a place.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Fill in the blank: '_____ are my keys?' -> 'They are on the table.'",
       "questionType": "multiple_choice",
-      "options": ["Who", "What", "When", "Where"],
+      "options": [
+        "Who",
+        "What",
+        "When",
+        "Where"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,48 @@
       "questionId": "q7",
       "questionText": "If someone is 'Laughing', they are _____.",
       "questionType": "multiple_choice",
-      "options": ["रो रहा", "हंस रहा", "खेल रहा", "सुन रहा"],
+      "options": [
+        "रो रहा",
+        "हंस रहा",
+        "खेल रहा",
+        "सुन रहा"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Fill in the blank with logic: '_____ is that man?' -> 'He is my brother.'",
       "questionType": "multiple_choice",
-      "options": ["What", "Where", "Who", "Why"],
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "Why"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What word means 'कैसे'?",
       "questionType": "multiple_choice",
-      "options": ["Who", "Why", "How", "When"],
+      "options": [
+        "Who",
+        "Why",
+        "How",
+        "When"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'देख रहा' to English.",
       "questionType": "multiple_choice",
-      "options": ["Watching", "Listening", "Sitting", "Standing"],
+      "options": [
+        "Watching",
+        "Listening",
+        "Sitting",
+        "Standing"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +330,14 @@
       "w15": "खड़ा हुआ"
     },
     "acceptedTranslations": {
-      "w02": ["what", "What"],
-      "w05": ["why", "Why"]
+      "w02": [
+        "what",
+        "What"
+      ],
+      "w05": [
+        "why",
+        "Why"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +363,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b2/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b2/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b2/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b2/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Who. What. Where. When. Why. How...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "wh_questions", "present_continuous", "verbs", "month2", "block2"],
+  "tags": [
+    "vocabulary",
+    "wh_questions",
+    "present_continuous",
+    "verbs",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +394,9 @@
     "Forgetting the 'H' in What/When/Where."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

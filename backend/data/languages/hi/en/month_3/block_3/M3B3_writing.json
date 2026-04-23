@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B3_reading_001"],
+  "prerequisites": [
+    "en_hi_M3B3_reading_001"
+  ],
   "instructions": "Oh no! A robot has translated 3 Hindi sentences directly into English word-for-word. It sounds terrible! 1. I open the TV. 2. I close the light. 3. I wear my shoes (to get dressed). Rewrite these sentences replacing the bad verbs with natural Phrasal Verbs!",
   "contentItems": [
     {
@@ -91,7 +93,11 @@
     "acceptableAlternates": [
       "I turn the TV on. I turn the light off. I put my shoes on."
     ],
-    "requiredKeywords": ["turn on", "turn off", "put on"],
+    "requiredKeywords": [
+      "turn on",
+      "turn off",
+      "put on"
+    ],
     "grammarBaseline": "Absolute zero tolerance for 'open/close' applied to machinery or electronics.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -108,19 +114,25 @@
     "onPartial": "Good start! Double check Sentence 3. 'Wear' means the shoe is already on your foot. The action of taking the shoe and putting it on your foot is 'Put on'!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b3/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b3/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b3/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m3/b3/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Fix the sentences: I open the TV. I close the light. I wear my shoes.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "phrasal_verbs", "turn_on", "put_on", "block3"],
+  "tags": [
+    "writing",
+    "phrasal_verbs",
+    "turn_on",
+    "put_on",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -133,7 +145,9 @@
     "Leaving the word 'wear' in place due to stubborn L1 mapping."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B3_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M3B3_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

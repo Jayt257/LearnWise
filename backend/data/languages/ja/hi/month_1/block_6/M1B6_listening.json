@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M1B6_writing_001"],
+  "prerequisites": [
+    "ja_hi_M1B6_writing_001"
+  ],
   "instructions": "ラージとアニタの長い会話を聴きます。これまで「単語」で区切って聞いていたものを、文脈や前後関係でスムーズに理解する Month 1 最後のリスニング・テストです。",
   "contentItems": [
     {
@@ -52,7 +54,11 @@
       "questionId": "q1",
       "questionText": "ラージの「男」としての自己認識ではなく、「本(Kitaab)」が女性名詞であることは最初の文のどこに表れていますか？",
       "questionType": "multiple_choice",
-      "options": ["Meri (メリー) になっている", "Kahaan (カハーン) になっている", "Hai (ハィ) になっている"],
+      "options": [
+        "Meri (メリー) になっている",
+        "Kahaan (カハーン) になっている",
+        "Hai (ハィ) になっている"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +66,10 @@
       "questionId": "q2",
       "questionText": "アニタによると、本はどこにありましたか？",
       "questionType": "multiple_choice",
-      "options": ["車の中 (Gaaḍee mein)", "部屋の机の上 (Kamre mein. Mez par.)"],
+      "options": [
+        "車の中 (Gaaḍee mein)",
+        "部屋の机の上 (Kamre mein. Mez par.)"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +77,10 @@
       "questionId": "q3",
       "questionText": "アニタは何かの中に入って外出します。「〜の中に」に当たる助詞が使われている単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["Gaaḍee mein", "Baahar"],
+      "options": [
+        "Gaaḍee mein",
+        "Baahar"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -84,7 +96,10 @@
       "questionId": "q5",
       "questionText": "ラージが文の最後で読む(paḍh)と言った時、アニタとの違い（ターかティーか）ははっきりと聞こえましたか？男性用の音はどちらですか？",
       "questionType": "multiple_choice",
-      "options": ["Paḍhtee", "Paḍhtaa"],
+      "options": [
+        "Paḍhtee",
+        "Paḍhtaa"
+      ],
       "audioTimestamp": "00:21",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -105,11 +120,20 @@
       "q5": "Paḍhtaa"
     },
     "acceptedShortAnswers": {
-      "q4": ["家", "Ghar", "ghar", "いえ", "家の中"]
+      "q4": [
+        "家",
+        "Ghar",
+        "ghar",
+        "いえ",
+        "家の中"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["家", "ghar"]
+      "q4": [
+        "家",
+        "ghar"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +146,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b6/listening/review_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b6/listening/review_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b6/listening/review_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, meri kitaab kahaan hai?...\n(Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 65,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "review", "synthesis", "comprehensive", "month1", "block6"],
+  "tags": [
+    "listening",
+    "review",
+    "synthesis",
+    "comprehensive",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +176,9 @@
     "Thinking 'Meri kitaab' means the speaker is female instead of the book being grammatically feminine."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B6_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B6_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

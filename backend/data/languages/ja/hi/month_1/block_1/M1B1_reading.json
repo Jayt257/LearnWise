@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B1_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M1B1_pronunciation_001"
+  ],
   "instructions": "初めての読解（リーディング）に挑戦しましょう！ゆっくりで大丈夫です。インドの基本的な挨拶についての短い文章を読みます。",
   "contentItems": [
     {
@@ -89,21 +91,32 @@
       "questionId": "q1",
       "questionText": "文章を書いている人の名前は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["राहुल (Rahul)", "राम (Ram)", "राज (Raj)"],
+      "options": [
+        "राहुल (Rahul)",
+        "राम (Ram)",
+        "राज (Raj)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "インド（Bhaarat）では、挨拶として何と言いますか？",
       "questionType": "multiple_choice",
-      "options": ["धन्यवाद (Dhanyavaad)", "नमस्ते (Namaste)"],
+      "options": [
+        "धन्यवाद (Dhanyavaad)",
+        "नमस्ते (Namaste)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "「ありがとう」を意味するヒンディー語の単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["परंपरा (Paramparaa)", "ठीक (Ṭheek)", "धन्यवाद (Dhanyavaad)"],
+      "options": [
+        "परंपरा (Paramparaa)",
+        "ठीक (Ṭheek)",
+        "धन्यवाद (Dhanyavaad)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
@@ -117,14 +130,20 @@
       "questionId": "q5",
       "questionText": "True or False: インドの挨拶の言葉（ナマステ）は「良い伝統（achchhee paramparaa）」だと書かれている。",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
       "questionId": "q6",
       "questionText": "「私の名前」をヒンディー語で何と言いますか？",
       "questionType": "multiple_choice",
-      "options": ["मेरा नाम (Mera naam)", "मैं ठीक (Main ṭheek)"],
+      "options": [
+        "मेरा नाम (Mera naam)",
+        "मैं ठीक (Main ṭheek)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     }
   ],
@@ -139,10 +158,18 @@
       "q6": "मेरा नाम (Mera naam)"
     },
     "acceptableParaphrases": {
-      "q4": ["ṭheek", "theek", "ठीक"]
+      "q4": [
+        "ṭheek",
+        "theek",
+        "ठीक"
+      ]
     },
     "keywordScoringRules": {
-      "q4": ["theek", "ṭheek", "ठीक"]
+      "q4": [
+        "theek",
+        "ṭheek",
+        "ठीक"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner can identify the core greeting 'Namaste' natively in Devanagari.",
@@ -158,18 +185,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b1/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b1/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m1/b1/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Mera naam Raaj hai... (matches full target text)",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "devanagari", "greetings", "introduction", "month1", "block1"],
+  "tags": [
+    "reading",
+    "devanagari",
+    "greetings",
+    "introduction",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -181,7 +215,9 @@
     "Thinking 'ṭheek' means 'name' instead of 'naam'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

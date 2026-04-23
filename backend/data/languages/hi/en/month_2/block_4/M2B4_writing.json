@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B4_reading_001"],
+  "prerequisites": [
+    "en_hi_M2B4_reading_001"
+  ],
   "instructions": "Think about what you will do tomorrow. Write 3 short sentences promising what you will do, what a friend will do, and what you both are 'going to' do together. REMEMBER THE CLEAN VERB RULE: Do not put 'ing', 'ed', or 's' after 'Will'!",
   "contentItems": [
     {
@@ -97,7 +99,10 @@
     "acceptableAlternates": [
       "I will eat breakfast. She will sleep. We are going to play football."
     ],
-    "requiredKeywords": ["will", "going to"],
+    "requiredKeywords": [
+      "will",
+      "going to"
+    ],
     "grammarBaseline": "Absolute zero tolerance for suffixation on verbs following modal 'will'.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -114,19 +119,25 @@
     "onPartial": "Good start! Don't let the word 'He' trick you. Yes, usually we say 'He plays'. But if 'Will' is there, the 's' is destroyed! It must be 'He will play'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b4/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b4/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b4/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m2/b4/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write three promises for tomorrow. I will. He will. We are going to.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "future_tense", "will", "going_to", "block4"],
+  "tags": [
+    "writing",
+    "future_tense",
+    "will",
+    "going_to",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -139,7 +150,9 @@
     "Writing 'I will going'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B4_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M2B4_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

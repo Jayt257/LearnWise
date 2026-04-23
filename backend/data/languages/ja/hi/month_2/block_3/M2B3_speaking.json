@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B3_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M2B3_vocabulary_001"
+  ],
   "instructions": "明日の予定について質問されますので、ヒンディー語で答えてください！今回は、あなたが「女性」であると仮定して答える問題と、「彼」について答える問題が混ざっています。To be 動詞 (Hoon等) を使わずに、語尾の形でパシッと言い切る練習です。",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "友達: 'तुम कल क्या करोगी?' (君[女]は明日何をするつもり？) 答え：「私[女性]は明日、仕事をします(Kar)。」",
-      "expectedSpeakingPoints": ["Main kal", "kaam", "karoongee"],
+      "expectedSpeakingPoints": [
+        "Main kal",
+        "kaam",
+        "karoongee"
+      ],
       "sampleResponse": {
         "targetText": "मैं कल काम करूँगी।",
         "transliteration": "Main kal kaam karoongee.",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "友達: 'क्या तुम जापान जाओगी?' (君[女]は日本へ行くの？) 答え：「はい、私は日本へ行きます(Jaa)。」",
-      "expectedSpeakingPoints": ["Haan", "main Jaapaan", "jaaoongee"],
+      "expectedSpeakingPoints": [
+        "Haan",
+        "main Jaapaan",
+        "jaaoongee"
+      ],
       "sampleResponse": {
         "targetText": "हाँ, मैं जापान जाऊँगी।",
         "transliteration": "Haan, main Jaapaan jaaoongee.",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "友達: 'और तुम्हारा भाई क्या करेगा?' (そして君の弟は何をするの？) 答え：「彼(Vah)は、家で休みます(Aaraam kar)。」",
-      "expectedSpeakingPoints": ["Vah", "ghar mein", "aaraam karegaa"],
+      "expectedSpeakingPoints": [
+        "Vah",
+        "ghar mein",
+        "aaraam karegaa"
+      ],
       "sampleResponse": {
         "targetText": "वह घर में आराम करेगा।",
         "transliteration": "Vah ghar mein aaraam karegaa.",
@@ -88,7 +102,17 @@
       "karegaa"
     ],
     "requiredKeywords": [
-      "main", "kal", "kaam", "karoongee", "haan", "jaapaan", "jaaoongee", "vah", "ghar", "aaraam", "karegaa"
+      "main",
+      "kal",
+      "kaam",
+      "karoongee",
+      "haan",
+      "jaapaan",
+      "jaaoongee",
+      "vah",
+      "ghar",
+      "aaraam",
+      "karegaa"
     ],
     "acceptableParaphrases": [
       "main kal ghar mein aaraam karoongaa"
@@ -108,19 +132,26 @@
     "onPartial": "よくお話しできています。第3文で「Vah aaraam karegee(エーギー)」と言ってませんでしたか？弟（男）について話しているので「Karegaa(エガー)」にする必要があります。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b3/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m2/b3/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b3/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b3/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m2/b3/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m2/b3/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Friend: Tum kal kyaa karogee?\nLearner: Main kal kaam karoongee...\n(Matches full dialogue)",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "tags": [
+    "speaking",
+    "verbs",
+    "future_tense",
+    "conjugation",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -132,7 +163,9 @@
     "Retaining the Month 1 habitual marker and saying 'Karoongaa hoon'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B3_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B3_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

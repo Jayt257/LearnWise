@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B4_reading_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_reading_001"
+  ],
   "instructions": "ライティングです！ヒンディー語では「私」の性別はどうでもよく、「持っているモノ」の性別が全てを決めるというルール（過去形 Ne と同じ感覚）を使って文を作りましょう。",
   "contentItems": [
     {
@@ -137,7 +139,22 @@
     "acceptableAlternates": [
       "yah meree kitaab hai aapkaa ghar kahaan hai aneeta ke pitaa jee kamre mein hain"
     ],
-    "requiredKeywords": ["यह", "मेरी", "किताब", "है", "आपका", "घर", "कहाँ", "अनीता", "के", "पिता", "जी", "कमरे", "में", "हैं"],
+    "requiredKeywords": [
+      "यह",
+      "मेरी",
+      "किताब",
+      "है",
+      "आपका",
+      "घर",
+      "कहाँ",
+      "अनीता",
+      "के",
+      "पिता",
+      "जी",
+      "कमरे",
+      "में",
+      "हैं"
+    ],
     "grammarBaseline": "Crucial requirement: 'Aneeta ke' (not kee). The father requires respect. The final verb must be 'Hain' (not Hai) for respect.",
     "lengthExpectation": "Exactly 3 distinct sentences applying possessive declensions.",
     "scoringRubric": {
@@ -152,19 +169,26 @@
     "onPartial": "惜しいところがあります。第3文で、お父さんに対する尊敬の「Ke」は使えていましたが、文末の To be 動詞が「Hai」になっていませんか？お父さんは複数形扱いになるので、ンが入る「Hain」にする必要があります！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b4/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b4/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b4/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m2/b4/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 sentences demonstrating object-driven possessive declensions and respectful pluralization.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "possession", "declensions", "month2", "block4"],
+  "tags": [
+    "writing",
+    "grammar",
+    "possession",
+    "declensions",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -176,7 +200,9 @@
     "Writing 'Aapkee ghar' assuming the person they are speaking to is a woman."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B4_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B4_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

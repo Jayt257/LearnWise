@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B5_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M3B5_pronunciation_001"
+  ],
   "instructions": "ケンがインドの薬局で自分の体調を説明しています。「私に〜がある（Mujhe... hai）」の形を使って症状を伝えている部分と、薬剤師からの指示を読み解いてください。",
   "contentItems": [
     {
@@ -114,21 +116,30 @@
       "questionId": "q1",
       "questionText": "ケンが自分の体調の「悪さ」を表現する時に使った形容詞(Kharaab)の意味として近いものはどれですか？",
       "questionType": "multiple_choice",
-      "options": ["熱い", "悪い / 壊れた"],
+      "options": [
+        "熱い",
+        "悪い / 壊れた"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「Mujhe bahut tez bukhaar hai.」 この文でケンが患っている一番の症状(Bukhaar)は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["咳 (せき)", "熱"],
+      "options": [
+        "咳 (せき)",
+        "熱"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "薬剤師は「Aapko kyaa huaa? (あなたに何が起きましたか？)」と聞きました。Aap(あなた) という単語の後ろについている言葉(〜に)は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["ko", "mein"],
+      "options": [
+        "ko",
+        "mein"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
@@ -142,7 +153,10 @@
       "questionId": "q5",
       "questionText": "最後にケンは「医者を呼ぶべきか」と尋ねました。誰かに何かを『してほしい(呼んでほしい)』とお願いする命令形ではなく、(私が)『〜するべきだ』という願望/義務の形を作る単語を使っています。それはどれですか？",
       "questionType": "multiple_choice",
-      "options": ["chaahiye (チャーヒエ)", "bulaaiye (ブラーイエ)"],
+      "options": [
+        "chaahiye (チャーヒエ)",
+        "bulaaiye (ブラーイエ)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
   ],
@@ -156,10 +170,16 @@
       "q5": "chaahiye (チャーヒエ)"
     },
     "acceptableParaphrases": {
-      "q4": ["dard", "Dard", "DARD"]
+      "q4": [
+        "dard",
+        "Dard",
+        "DARD"
+      ]
     },
     "keywordScoringRules": {
-      "q4": ["dard"]
+      "q4": [
+        "dard"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner successfully identifies 'dard' and 'bukhaar' as entities possessed by the dative subject (mujhe).",
@@ -175,18 +195,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m3/b5/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Ken: Madad keejiye. Meree tabeeyat kharaab hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "health", "emergencies", "symptoms", "month3", "block5"],
+  "tags": [
+    "reading",
+    "health",
+    "emergencies",
+    "symptoms",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -198,7 +225,9 @@
     "Thinking 'sir mein dard hai' means 'Sir (the person/teacher) is in pain' instead of 'Sir' meaning 'Head'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B5_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B5_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

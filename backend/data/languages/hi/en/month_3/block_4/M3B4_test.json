@@ -21,7 +21,12 @@
   "instructions": "This is it! The Final Test of the Beginner Course! It evaluates everything you have learned about Survival English. Do you know how to order food politely? Do you know the vocabulary for the airport? Let's prove you are ready to travel the world!",
   "testTitle": "Month 3 Final Assessment",
   "testScope": "month_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 80/100 to pass this final test.",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "Which phrase is the most POLITE way to stop a stranger on the street?",
           "questionType": "multiple_choice",
-          "options": ["Hey you", "Excuse me", "Stop there, please"],
+          "options": [
+            "Hey you",
+            "Excuse me",
+            "Stop there, please"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "You are sitting in a restaurant. What is the correct way to order water?",
           "questionType": "multiple_choice",
-          "options": ["Give me water.", "I want water.", "I would like some water, please."],
+          "options": [
+            "Give me water.",
+            "I want water.",
+            "I would like some water, please."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "Someone is attacking you! What should you shout?",
           "questionType": "multiple_choice",
-          "options": ["Excuse me, could you call the police?", "Call the police!", "I would like the police."],
+          "options": [
+            "Excuse me, could you call the police?",
+            "Call the police!",
+            "I would like the police."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,10 @@
           "questionId": "q004",
           "questionText": "True or False: Asking 'What is the price?' in a shop is exactly how native speakers talk.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +93,11 @@
           "questionId": "q005",
           "questionText": "Which is the correct way to ask for the check after eating?",
           "questionType": "multiple_choice",
-          "options": ["Give me the check.", "What is my cost?", "Can I have the bill, please?"],
+          "options": [
+            "Give me the check.",
+            "What is my cost?",
+            "Can I have the bill, please?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -106,7 +130,11 @@
           "questionId": "q007",
           "questionText": "If your plane is 'Delayed', it means...",
           "questionType": "multiple_choice",
-          "options": ["It is not coming at all.", "It is late.", "It is early."],
+          "options": [
+            "It is not coming at all.",
+            "It is late.",
+            "It is early."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -130,7 +158,11 @@
           "questionId": "q009",
           "questionText": "What does a waiter give you so you can choose food?",
           "questionType": "multiple_choice",
-          "options": ["Receipt", "Passport", "Menu"],
+          "options": [
+            "Receipt",
+            "Passport",
+            "Menu"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -140,7 +172,12 @@
           "questionId": "q010",
           "questionText": "Which word means 'रसीद' (the paper you get after buying something)?",
           "questionType": "multiple_choice",
-          "options": ["Ticket", "Receipt", "Menu", "Luggage"],
+          "options": [
+            "Ticket",
+            "Receipt",
+            "Menu",
+            "Luggage"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -159,7 +196,11 @@
           "questionId": "q011",
           "questionText": "If a sign says 'Departures', what is happening there?",
           "questionType": "multiple_choice",
-          "options": ["Planes are landing (arriving).", "Planes are leaving.", "People are eating."],
+          "options": [
+            "Planes are landing (arriving).",
+            "Planes are leaving.",
+            "People are eating."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -169,7 +210,11 @@
           "questionId": "q012",
           "questionText": "You cannot find your child. You tell a police officer: 'My child is _____'.",
           "questionType": "multiple_choice",
-          "options": ["Lost", "Stolen", "Delayed"],
+          "options": [
+            "Lost",
+            "Stolen",
+            "Delayed"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -179,7 +224,11 @@
           "questionId": "q013",
           "questionText": "Someone takes your bag. You tell the police: 'My bag was _____'.",
           "questionType": "multiple_choice",
-          "options": ["Lost", "Stolen", "Delayed"],
+          "options": [
+            "Lost",
+            "Stolen",
+            "Delayed"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -189,7 +238,10 @@
           "questionId": "q014",
           "questionText": "True or False: Saying 'I want food' to a waiter might make them angry because it is impolite.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -333,14 +385,38 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q006": ["emergency", "EMERGENCY"],
-      "q008": ["pharmacy", "PHARMACY"],
-      "q015": ["how much is this", "how much is it"],
-      "q016": ["excuse me could you help me", "Excuse me, can you help me?"],
-      "q017": ["i would like a coffee please", "I would like coffee, please."],
-      "q018": ["how much is this", "How much is it?"],
-      "q019": ["call the police", "Call police!"],
-      "q020": ["can i have the bill please", "Can I get the check, please?"]
+      "q006": [
+        "emergency",
+        "EMERGENCY"
+      ],
+      "q008": [
+        "pharmacy",
+        "PHARMACY"
+      ],
+      "q015": [
+        "how much is this",
+        "how much is it"
+      ],
+      "q016": [
+        "excuse me could you help me",
+        "Excuse me, can you help me?"
+      ],
+      "q017": [
+        "i would like a coffee please",
+        "I would like coffee, please."
+      ],
+      "q018": [
+        "how much is this",
+        "How much is it?"
+      ],
+      "q019": [
+        "call the police",
+        "Call police!"
+      ],
+      "q020": [
+        "can i have the bill please",
+        "Can I get the check, please?"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -360,7 +436,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -369,7 +445,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "final_assessment", "survival_english", "politeness", "capstone", "month3", "block4"],
+  "tags": [
+    "test",
+    "final_assessment",
+    "survival_english",
+    "politeness",
+    "capstone",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -379,7 +463,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["graduation"],
+  "nextActivityIds": [
+    "graduation"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

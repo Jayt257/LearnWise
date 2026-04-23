@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B1_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M3B1_lesson_001"
+  ],
   "instructions": "「Saktaa(できる)」と「Chaahtaa(したい)」の発音練習です。特に「Chaahtaa」は、日本語にはない「強い息吐き(Ch)」と「ため息(h)」が混ざった難しい音なので、しっかり練習しましょう！",
   "contentItems": [
     {
@@ -97,19 +99,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b1/pronunciation/native_modals.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b1/pronunciation/slow_modals.mp3",
-    "normalAudio": "audio/ja_hi/m3/b1/pronunciation/native_modals.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Saktaa. Saktee. Chaahtaa. Chaahtee. Jaanaa chaahtaa hoon.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "modals", "aspirations", "month3", "block1"],
+  "tags": [
+    "pronunciation",
+    "modals",
+    "aspirations",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -121,7 +129,9 @@
     "Pronouncing 'Chaahtaa' as 'Cha-tar' like an English speaker."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B1_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B1_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "Hospital", "Museum", "Park", "Library", "Mobile phone", 
-    "Cigarette / Tobacco", "Photo", "To take (photo)", "To smoke", "To use", 
-    "To enter", "To leave / exit", "To run", "To sit", "To stand", 
-    "To teach / To tell", "To forget", "Dangerous", "No good / Forbidden", "Okay / Fine", 
-    "Here", "There", "Over there", "Good / Fine", "Must not", 
-    "To hold / carry", "To open", "To close", "Car", "Bicycle"
+    "Hospital",
+    "Museum",
+    "Park",
+    "Library",
+    "Mobile phone",
+    "Cigarette / Tobacco",
+    "Photo",
+    "To take (photo)",
+    "To smoke",
+    "To use",
+    "To enter",
+    "To leave / exit",
+    "To run",
+    "To sit",
+    "To stand",
+    "To teach / To tell",
+    "To forget",
+    "Dangerous",
+    "No good / Forbidden",
+    "Okay / Fine",
+    "Here",
+    "There",
+    "Over there",
+    "Good / Fine",
+    "Must not",
+    "To hold / carry",
+    "To open",
+    "To close",
+    "Car",
+    "Bicycle"
   ],
   "exampleSentences": [
     {
@@ -332,49 +356,84 @@
       "questionId": "q001",
       "questionText": "What does びょういん (Byouin) mean?",
       "questionType": "multiple_choice",
-      "options": ["Hospital", "Museum", "Library", "Park"],
+      "options": [
+        "Hospital",
+        "Museum",
+        "Library",
+        "Park"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What is the Te-form of すいます (Suimasu / to smoke)?",
       "questionType": "multiple_choice",
-      "options": ["すって (Sutte)", "すいて (Suite)", "すんで (Sunde)", "すいてて (Suitete)"],
+      "options": [
+        "すって (Sutte)",
+        "すいて (Suite)",
+        "すんで (Sunde)",
+        "すいてて (Suitete)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What does だめ (Dame) mean?",
       "questionType": "multiple_choice",
-      "options": ["Okay / Fine", "Dangerous", "No good / Forbidden", "Good"],
+      "options": [
+        "Okay / Fine",
+        "Dangerous",
+        "No good / Forbidden",
+        "Good"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What is the Te-form of はいります (Hairimasu / to enter)?",
       "questionType": "multiple_choice",
-      "options": ["はいいて (Haiite)", "はいって (Haitte)", "はいんで (Hainde)", "はいして (Haishite)"],
+      "options": [
+        "はいいて (Haiite)",
+        "はいって (Haitte)",
+        "はいんで (Hainde)",
+        "はいして (Haishite)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "How do you say 'Mobile phone'?",
       "questionType": "multiple_choice",
-      "options": ["しゃしん (Shashin)", "けいたいでんわ (Keitai denwa)", "くるま (Kuruma)", "としょかん (Toshokan)"],
+      "options": [
+        "しゃしん (Shashin)",
+        "けいたいでんわ (Keitai denwa)",
+        "くるま (Kuruma)",
+        "としょかん (Toshokan)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What does あぶない (Abunai) mean?",
       "questionType": "multiple_choice",
-      "options": ["Okay", "Good", "Forbidden", "Dangerous"],
+      "options": [
+        "Okay",
+        "Good",
+        "Forbidden",
+        "Dangerous"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What is the Te-form of つかいます (Tsukaimasu / to use)?",
       "questionType": "multiple_choice",
-      "options": ["つかいて (Tsukaite)", "つかんで (Tsukande)", "つかって (Tsukatte)", "つかして (Tsukashite)"],
+      "options": [
+        "つかいて (Tsukaite)",
+        "つかんで (Tsukande)",
+        "つかって (Tsukatte)",
+        "つかして (Tsukashite)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
@@ -393,14 +452,24 @@
       "questionId": "q009",
       "questionText": "What does だいじょうぶ (Daijoubu) mean?",
       "questionType": "multiple_choice",
-      "options": ["Okay / Fine", "Dangerous", "Forbidden", "Hospital"],
+      "options": [
+        "Okay / Fine",
+        "Dangerous",
+        "Forbidden",
+        "Hospital"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does びじゅつかん (Bijutsukan) mean?",
       "questionType": "multiple_choice",
-      "options": ["Library", "Park", "Hospital", "Museum"],
+      "options": [
+        "Library",
+        "Park",
+        "Hospital",
+        "Museum"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -438,8 +507,14 @@
       "w030": "Bicycle"
     },
     "acceptedTranslations": {
-      "w002": ["Museum", "Art Museum"],
-      "w006": ["Cigarette", "Tobacco"]
+      "w002": [
+        "Museum",
+        "Art Museum"
+      ],
+      "w006": [
+        "Cigarette",
+        "Tobacco"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -467,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b4/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b4/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b4/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m2/b4/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "びょういん。びじゅつかん。こうえん。としょかん。けいたいでんわ。たばこ。しゃしん。とります。すいます。つかいます。はいります。でます。はしります。すわります。たちます。おしえます。わすれます。あぶない。だめ。だいじょうぶ。ここ。そこ。あそこ。いい。いけません。もちます。あけます。しめます。くるま。じてんしゃ。",
     "audioLanguage": "ja",
     "audioDuration": 360,

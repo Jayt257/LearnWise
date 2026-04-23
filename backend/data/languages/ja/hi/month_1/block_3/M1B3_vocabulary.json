@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B3_listening_001"],
+  "prerequisites": [
+    "ja_hi_M1B3_listening_001"
+  ],
   "instructions": "今回は「性別のある名詞」と「変化する形容詞」をセットで覚えます！名詞を覚える時は必ず「これは男性」「これは女性」と意識して記憶してください。",
   "contentItems": [
     {
@@ -148,35 +150,51 @@
       "questionId": "q1",
       "questionText": "この単語は男性名詞ですか、女性名詞ですか？: Gaaḍee (車)",
       "questionType": "multiple_choice",
-      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "options": [
+        "男性 (Masculine)",
+        "女性 (Feminine)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "この単語は男性名詞ですか、女性名詞ですか？: Kamraa (部屋)",
       "questionType": "multiple_choice",
-      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "options": [
+        "男性 (Masculine)",
+        "女性 (Feminine)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "「本 (Kitaab)」は例外的な単語です。これは男性ですか、女性ですか？",
       "questionType": "multiple_choice",
-      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "options": [
+        "男性 (Masculine)",
+        "女性 (Feminine)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "「犬 (Kuttaa)」は『アー』で終わります。これは男性名詞ですか、女性名詞ですか？",
       "questionType": "multiple_choice",
-      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "options": [
+        "男性 (Masculine)",
+        "女性 (Feminine)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "「車 (Gaaḍee)」に「小さい」という形容詞を付けます。正しい組み合わせはどれですか？",
       "questionType": "multiple_choice",
-      "options": ["Chhoṭaa gaaḍee", "Chhoṭee gaaḍee", "Chhoṭu gaaḍee"],
+      "options": [
+        "Chhoṭaa gaaḍee",
+        "Chhoṭee gaaḍee",
+        "Chhoṭu gaaḍee"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     }
   ],
@@ -213,18 +231,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b3/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b3/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b3/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b3/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b3/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Betaa. Beṭee. Kamraa. Gaaḍee. Kitaab. Kuttaa. Baḍaa. Baḍee. Chhoṭaa. Chhoṭee.",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "gender", "adjectives", "nouns", "month1", "block3"],
+  "tags": [
+    "vocabulary",
+    "gender",
+    "adjectives",
+    "nouns",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -236,7 +261,9 @@
     "Applying masculine modifiers to 'kitaab' because it lacks a feminine 'ee' ending."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

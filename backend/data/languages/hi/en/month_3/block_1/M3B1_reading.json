@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B1_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M3B1_pronunciation_001"
+  ],
   "instructions": "Read the story about Amit visiting a public swimming pool. Pay attention to the rules! Notice the difference in power between words like 'Can' (Allowed), 'Should' (a good idea), and 'Must' (a strong rule). Answer the 8 questions below.",
   "contentItems": [
     {
@@ -94,35 +96,56 @@
       "questionId": "q1",
       "questionText": "What does the sign mean when it says 'You can swim from 9 AM'?",
       "questionType": "multiple_choice",
-      "options": ["You are forced to swim", "You are allowed to swim", "You should not swim"],
+      "options": [
+        "You are forced to swim",
+        "You are allowed to swim",
+        "You should not swim"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "The lifeguard says 'You should wear a hat.' This means:",
       "questionType": "multiple_choice",
-      "options": ["It is a good idea, but not a strong rule.", "It is the law of the pool.", "You are not allowed to wear a hat."],
+      "options": [
+        "It is a good idea, but not a strong rule.",
+        "It is the law of the pool.",
+        "You are not allowed to wear a hat."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What is the absolute strongest rule the lifeguard says you MUST NOT do?",
       "questionType": "multiple_choice",
-      "options": ["Drink water", "Swim", "Run near the water"],
+      "options": [
+        "Drink water",
+        "Swim",
+        "Run near the water"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Why must you not run?",
       "questionType": "multiple_choice",
-      "options": ["Because the water is cold", "Because the floor is wet and you will fall", "Because hats fly off"],
+      "options": [
+        "Because the water is cold",
+        "Because the floor is wet and you will fall",
+        "Because hats fly off"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Look closely at the grammar of this sentence from the story: 'Children must stay in the shallow water.' Which word is completely MISSING, proving the grammar rule?",
       "questionType": "multiple_choice",
-      "options": ["to", "the", "in", "water"],
+      "options": [
+        "to",
+        "the",
+        "in",
+        "water"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -143,7 +166,11 @@
       "questionId": "q8",
       "questionText": "If Amit broke the rule and started running, the lifeguard would likely say: 'You _____ stop running now!'",
       "questionType": "multiple_choice",
-      "options": ["can", "should", "must"],
+      "options": [
+        "can",
+        "should",
+        "must"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -160,12 +187,26 @@
       "q8": "must"
     },
     "acceptableParaphrases": {
-      "q6": ["take a shower", "shower", "Take a shower", "They must shower"],
-      "q7": ["can swim", "can swim very fast", "Can swim very fast"]
+      "q6": [
+        "take a shower",
+        "shower",
+        "Take a shower",
+        "They must shower"
+      ],
+      "q7": [
+        "can swim",
+        "can swim very fast",
+        "Can swim very fast"
+      ]
     },
     "keywordScoringRules": {
-      "q6": ["shower"],
-      "q7": ["can", "swim"]
+      "q6": [
+        "shower"
+      ],
+      "q7": [
+        "can",
+        "swim"
+      ]
     },
     "expectedSummaryPoints": [
       "Learners differentiate 'Must' as absolute obligation vs 'Should' as mere advice.",
@@ -181,18 +222,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b1/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b1/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b1/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m3/b1/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Amit wants to swim... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "modals", "can", "should", "must", "intermediate", "month3", "block1"],
+  "tags": [
+    "reading",
+    "modals",
+    "can",
+    "should",
+    "must",
+    "intermediate",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -204,7 +254,9 @@
     "Thinking 'Should' is a strong rule, when it is just polite advice."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B1_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M3B1_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B3_listening_001"],
+  "prerequisites": [
+    "ja_hi_M2B3_listening_001"
+  ],
   "instructions": "未来の話をするために欠かせない「時」と「場所」の単語をマスターしましょう！『来月(Agle maheene)』や『そこで(Vahaan)』などの言葉は、日本語と同じように使える便利なブロックです。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its Japanese equivalent: Agle maheene (अगले महीने)",
       "questionType": "matching",
-      "options": ["来週", "来月"],
+      "options": [
+        "来週",
+        "来月"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the word to its meaning based on the sentence logic 'Main ___ jaaoongaa': Kal (कल)",
       "questionType": "matching",
-      "options": ["昨日", "明日"],
+      "options": [
+        "昨日",
+        "明日"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the location word to its meaning: Vahaan (वहाँ)",
       "questionType": "matching",
-      "options": ["そこで", "ここで"],
+      "options": [
+        "そこで",
+        "ここで"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the Hindi pronoun to its Japanese equivalent: Hum (हम)",
       "questionType": "matching",
-      "options": ["私たちは", "彼らは"],
+      "options": [
+        "私たちは",
+        "彼らは"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Match the verb to its meaning: Milnaa (मिलना)",
       "questionType": "matching",
-      "options": ["会う", "行く"],
+      "options": [
+        "会う",
+        "行く"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,7 +211,11 @@
       "w10": "友達"
     },
     "acceptedTranslations": {
-      "w08": ["あの人", "彼ら", "お父さん(などの尊敬)"]
+      "w08": [
+        "あの人",
+        "彼ら",
+        "お父さん(などの尊敬)"
+      ]
     },
     "matchingKey": {
       "q1": "来月",
@@ -215,18 +236,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b3/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b3/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b3/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b3/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b3/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Agle maheene. Agle hafte. Kal. Yahaan. Vahaan. Milnaa. Hum. Ve. Bhaarat. Dost.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "time", "locations", "future_tense", "month2", "block3"],
+  "tags": [
+    "vocabulary",
+    "time",
+    "locations",
+    "future_tense",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -238,7 +266,9 @@
     "Confusing Yahaan (Here) and Vahaan (There)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B3_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B3_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

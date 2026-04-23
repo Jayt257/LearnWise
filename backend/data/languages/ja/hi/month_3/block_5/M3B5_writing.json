@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B5_reading_001"],
+  "prerequisites": [
+    "ja_hi_M3B5_reading_001"
+  ],
   "instructions": "サバイバル表現を自分で書き出しましょう！「私は熱がある」という文を作る時、ヒンディー語では「私に熱がある」という構造になることを絶対に忘れないでください。",
   "contentItems": [
     {
@@ -118,7 +120,15 @@
       "mujhe bukhaar hai madad keejiye daktar ko bulaaiye",
       "mujhe bukhar he madad kijiye doctor ko bulaiye"
     ],
-    "requiredKeywords": ["मुझे", "बुख़ार", "मदद", "कीजिए", "डॉक्टर", "को", "बुलाइए"],
+    "requiredKeywords": [
+      "मुझे",
+      "बुख़ार",
+      "मदद",
+      "कीजिए",
+      "डॉक्टर",
+      "को",
+      "बुलाइए"
+    ],
     "grammarBaseline": "'Mujhe' must anchor the first sentence. 'Keejiye' and 'Bulaaiye' must be used for safety/politeness ratios in emergencies. 'Ko' is strictly required after Doctor.",
     "lengthExpectation": "3 short emergency mandates.",
     "scoringRubric": {
@@ -133,19 +143,27 @@
     "onPartial": "惜しいところがあります。医者を呼んで！と言う時に「Ḍaakṭar ko (医者を)」の『ko』が抜けていませんか？人に対してアクションを起こす時は ko が必要になります。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b5/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b5/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m3/b5/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate emergency medical phrases requiring dative boundaries and imperative SOS calls.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "health", "emergencies", "sos", "imperatives", "month3", "block5"],
+  "tags": [
+    "writing",
+    "health",
+    "emergencies",
+    "sos",
+    "imperatives",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -157,7 +175,9 @@
     "Writing 'Madad hai' instead of 'Madad keejiye', which just means 'Help exists' rather than 'Do help'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B5_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B5_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

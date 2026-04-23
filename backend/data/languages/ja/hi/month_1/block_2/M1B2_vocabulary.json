@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B2_listening_001"],
+  "prerequisites": [
+    "ja_hi_M1B2_listening_001"
+  ],
   "instructions": "自己紹介でよく使われる10個の単語を覚えましょう！「彼」「これ」といった代名詞や、「学生」「先生」といった身分に関する言葉が含まれています。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its Japanese equivalent: Kaun",
       "questionType": "matching",
-      "options": ["誰", "何"],
+      "options": [
+        "誰",
+        "何"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the word to its Japanese equivalent: Aap",
       "questionType": "matching",
-      "options": ["あなた", "私たち"],
+      "options": [
+        "あなた",
+        "私たち"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the word to its Japanese equivalent: Vidyaarthee",
       "questionType": "matching",
-      "options": ["先生", "学生"],
+      "options": [
+        "先生",
+        "学生"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its Japanese equivalent: Yah",
       "questionType": "matching",
-      "options": ["彼 / 彼女 (遠く)", "これ / この人 (近く)"],
+      "options": [
+        "彼 / 彼女 (遠く)",
+        "これ / この人 (近く)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Match the word to its Japanese equivalent: Kyaa",
       "questionType": "matching",
-      "options": ["誰", "何 / 〜ですか"],
+      "options": [
+        "誰",
+        "何 / 〜ですか"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,9 +211,21 @@
       "w10": "日本人"
     },
     "acceptedTranslations": {
-      "w02": ["彼", "彼女", "それ"],
-      "w05": ["だれ", "誰"],
-      "w06": ["なん", "なに", "何", "ですか"]
+      "w02": [
+        "彼",
+        "彼女",
+        "それ"
+      ],
+      "w05": [
+        "だれ",
+        "誰"
+      ],
+      "w06": [
+        "なん",
+        "なに",
+        "何",
+        "ですか"
+      ]
     },
     "matchingKey": {
       "q1": "誰",
@@ -217,18 +246,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b2/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b2/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b2/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b2/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b2/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Aap. Vah. Yah. Ham. Kaun. Kyaa. Dost. Vidyaarthee. Adhyaapak. Jaapaanee.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "pronouns", "identity", "professions", "questions", "month1", "block2"],
+  "tags": [
+    "vocabulary",
+    "pronouns",
+    "identity",
+    "professions",
+    "questions",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -240,7 +277,9 @@
     "Confusing Kaun (Who) and Kyaa (What)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B2_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B2_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

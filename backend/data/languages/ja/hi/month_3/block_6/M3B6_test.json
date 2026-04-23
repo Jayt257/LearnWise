@@ -21,7 +21,13 @@
   "instructions": "ついに最終テストです！第1日目の『Main(私)・Hoon(です)』から始まり、動詞の性別変化、空間を表すMeinやSe、感情と義務を支配するMujhe、未来と『できる(Saknaa)』の助動詞、そして最終関門『もし〜なら』までの全ての扉を開く鍵があなたにあるかを確認します。",
   "testTitle": "3ヶ月制覇・メガ修了試験 (The 3-Month Hindi Mastery Assessment)",
   "testScope": "month_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "これまでの全ての月(Month 1〜3)で学んだ知識が必要です。合格には85点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +39,11 @@
           "questionId": "q001",
           "questionText": "「私は行きます (Main ______ )」 という現在形の文を作る時、あなたが【女性】なら以下のどれを選びますか？",
           "questionType": "multiple_choice",
-          "options": ["jaataa hoon", "jaatee hoon", "jaate hain"],
+          "options": [
+            "jaataa hoon",
+            "jaatee hoon",
+            "jaate hain"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +63,10 @@
           "questionId": "q003",
           "questionText": "「Kamraa (部屋)」などの -aa で終わる男性名詞に、後ろから Mein や Par などの『接着剤(後置詞)』がくっつくと、語尾はどう変化しますか？",
           "questionType": "multiple_choice",
-          "options": ["-aa のまま変わらない", "-e に変化する (Kamre mein)"],
+          "options": [
+            "-aa のまま変わらない",
+            "-e に変化する (Kamre mein)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -72,7 +85,10 @@
           "questionId": "q004",
           "questionText": "「私はお茶が好きです (私にお茶が好ましい)」 という Dative の文の先頭はどれから始めますか？",
           "questionType": "multiple_choice",
-          "options": ["Main", "Mujhe"],
+          "options": [
+            "Main",
+            "Mujhe"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -82,7 +98,11 @@
           "questionId": "q005",
           "questionText": "「私は明日病院へ行くつもりです」 (男性) と未来の話をする時、正しい動詞はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["jaataa hoon", "jaaoongaa", "gayaa"],
+          "options": [
+            "jaataa hoon",
+            "jaaoongaa",
+            "gayaa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -92,7 +112,10 @@
           "questionId": "q006",
           "questionText": "「行ってください (Jaanaaの尊敬命令)」 を示す、丁寧な語尾の命令形はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaao", "Jaaiye"],
+          "options": [
+            "Jaao",
+            "Jaaiye"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -119,9 +142,13 @@
       "questions": [
         {
           "questionId": "q008",
-          "questionText": "「私は行く『ことができる』 (Main \u005f\u005f\u005f\u005f hoon)」と言う時、空欄に入る動詞のペアとして正しいものはどれですか？ (男性)",
+          "questionText": "「私は行く『ことができる』 (Main ____ hoon)」と言う時、空欄に入る動詞のペアとして正しいものはどれですか？ (男性)",
           "questionType": "multiple_choice",
-          "options": ["jaanaa saktaa", "jaa saktaa", "jaa chaahtaa"],
+          "options": [
+            "jaanaa saktaa",
+            "jaa saktaa",
+            "jaa chaahtaa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -131,7 +158,11 @@
           "questionId": "q009",
           "questionText": "「彼が悪かった『ということ(That)』を私は知っている。」 この「〜だということ」を示す接続詞はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["aur", "ki", "par"],
+          "options": [
+            "aur",
+            "ki",
+            "par"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +182,10 @@
           "questionId": "q011",
           "questionText": "病気について話す時、「私には熱(Bukhaar)がある」と正しい文法で表現しているものはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main bukhaar hoon", "Mujhe bukhaar hai"],
+          "options": [
+            "Main bukhaar hoon",
+            "Mujhe bukhaar hai"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -170,7 +204,11 @@
           "questionId": "q012",
           "questionText": "サバイバル表現「これ(yah) は いくら(kitne) ですか？」に欠けている「の(〜の物)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["se", "kaa", "mein"],
+          "options": [
+            "se",
+            "kaa",
+            "mein"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -190,7 +228,10 @@
           "questionId": "q014",
           "questionText": "「今日 (Today)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Kal", "Aaj"],
+          "options": [
+            "Kal",
+            "Aaj"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -200,7 +241,10 @@
           "questionId": "q015",
           "questionText": "「水 (Water)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Paanee", "Chaay"],
+          "options": [
+            "Paanee",
+            "Chaay"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -219,7 +263,10 @@
           "questionId": "q016",
           "questionText": "Translate [M1]: \"I am Japanese(Jaapaanee).\"",
           "questionType": "multiple_choice",
-          "options": ["Main Jaapaanee hoon.", "Mujhe Jaapaanee hai."],
+          "options": [
+            "Main Jaapaanee hoon.",
+            "Mujhe Jaapaanee hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -229,7 +276,10 @@
           "questionId": "q017",
           "questionText": "Translate [M2]: \"I want to go to Delhi(Dillee). / (To me, going to Delhi is an obligation)\"",
           "questionType": "multiple_choice",
-          "options": ["Main Dillee jaaoongaa.", "Mujhe Dillee jaanaa hai."],
+          "options": [
+            "Main Dillee jaaoongaa.",
+            "Mujhe Dillee jaanaa hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -239,7 +289,10 @@
           "questionId": "q018",
           "questionText": "Translate [M3]: \"If you come(aaoge), then I will go(jaaoongaa).\"",
           "questionType": "multiple_choice",
-          "options": ["Agar tum aaoge, mujhe jaanaa hai.", "Agar tum aaoge, to main jaaoongaa."],
+          "options": [
+            "Agar tum aaoge, mujhe jaanaa hai.",
+            "Agar tum aaoge, to main jaaoongaa."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -249,7 +302,10 @@
           "questionId": "q019",
           "questionText": "Translate [Survival]: \"Please call(bulaaiye) the police(pulis).\"",
           "questionType": "multiple_choice",
-          "options": ["Pulis bulaao.", "Pulis ko bulaaiye."],
+          "options": [
+            "Pulis bulaao.",
+            "Pulis ko bulaaiye."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -259,7 +315,10 @@
           "questionId": "q020",
           "questionText": "最終問題: ヒンディー語では「主語の性別により動詞が変化」し、「状態や感情はMujheに行き着き」、「名詞は後置詞の前で変身」します。この法則を示す「真」か「偽」か？",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -311,10 +370,27 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q002": ["hoon", "Hoon", "HOON"],
-      "q007": ["use", "Use", "USE"],
-      "q010": ["to", "To", "TO", "toh"],
-      "q013": ["madad", "Madad", "MADAD"]
+      "q002": [
+        "hoon",
+        "Hoon",
+        "HOON"
+      ],
+      "q007": [
+        "use",
+        "Use",
+        "USE"
+      ],
+      "q010": [
+        "to",
+        "To",
+        "TO",
+        "toh"
+      ],
+      "q013": [
+        "madad",
+        "Madad",
+        "MADAD"
+      ]
     },
     "sectionPassMarks": {
       "sec_m1_identity": 10,
@@ -335,7 +411,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b6/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -344,7 +420,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "review", "comprehensive", "exam", "month3", "block6", "graduation"],
+  "tags": [
+    "test",
+    "review",
+    "comprehensive",
+    "exam",
+    "month3",
+    "block6",
+    "graduation"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",

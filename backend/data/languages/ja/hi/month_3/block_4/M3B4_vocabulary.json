@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B4_listening_001"],
+  "prerequisites": [
+    "ja_hi_M3B4_listening_001"
+  ],
   "instructions": "インドの街へ出かけましょう！「真っ直ぐ」「前」「右」「左」という方向を示す言葉と、「高い」「安い」という買い物の言葉の詰め合わせです。これを覚えないと買い物ができません！",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the direction to its meaning: Daaen (दाएँ)",
       "questionType": "matching",
-      "options": ["右へ", "前へ/手前へ"],
+      "options": [
+        "右へ",
+        "前へ/手前へ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the direction to its meaning: Seedhe (सीधे)",
       "questionType": "matching",
-      "options": ["左へ", "まっすぐ/直進"],
+      "options": [
+        "左へ",
+        "まっすぐ/直進"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the adjective to its translation: Mahangaa (महँगा)",
       "questionType": "matching",
-      "options": ["高い/高価な", "安い"],
+      "options": [
+        "高い/高価な",
+        "安い"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "How do you ask 'Where' in Hindi?",
       "questionType": "matching",
-      "options": ["Kahaan", "Kitne"],
+      "options": [
+        "Kahaan",
+        "Kitne"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What number does 'Sau' represent?",
       "questionType": "matching",
-      "options": ["百 (100)", "ルピー"],
+      "options": [
+        "百 (100)",
+        "ルピー"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,9 +211,18 @@
       "w10": "どこ (Where)"
     },
     "acceptedTranslations": {
-      "w01": ["直進", "まっすぐ"],
-      "w05": ["高い", "高価な"],
-      "w06": ["安い", "廉価な"]
+      "w01": [
+        "直進",
+        "まっすぐ"
+      ],
+      "w05": [
+        "高い",
+        "高価な"
+      ],
+      "w06": [
+        "安い",
+        "廉価な"
+      ]
     },
     "matchingKey": {
       "q1": "右へ",
@@ -217,18 +243,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b4/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b4/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b4/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b4/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Seedhe. Aage. Daaen. Baaen. Mahangaa. Sastaa. Kitne. Rupayaa. Sau. Kahaan.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "travel", "directions", "shopping", "month3", "block4"],
+  "tags": [
+    "vocabulary",
+    "travel",
+    "directions",
+    "shopping",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -240,7 +273,9 @@
     "Thinking 'Kitne' (How much) alone is enough to ask for the price, forgetting the required 'Kaa' in practical usage."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B4_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B4_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

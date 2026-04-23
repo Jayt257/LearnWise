@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M2B6_test_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_test_001"
+  ],
   "instructions": "Month 3 へようこそ！ここでは「〜できる(Can)」「〜したい(Want)」といった、気持ちや能力を表す表現を学びます。日本語の「食べ・られる」「行き・たい」のように、動詞の後ろにパーツをくっつける感覚で簡単に作れます。",
   "contentItems": [
     {
@@ -43,18 +45,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b1/lesson/native_modals.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b1/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b1/lesson/slow_modals.mp3",
-    "normalAudio": "audio/ja_hi/m3/b1/lesson/native_modals.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main jaa saktaa hoon. Main jaanaa chaahtee hoon.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "verbs", "modals", "ability", "desire", "month3", "block1"],
+  "tags": [
+    "grammar",
+    "verbs",
+    "modals",
+    "ability",
+    "desire",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -66,7 +76,9 @@
     "Saying 'Main jaanaa saktaa hoon' (I can 'to go') applying the infinitive rule incorrectly to ability modals."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B1_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B1_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "「できる」と「したい」の法則",

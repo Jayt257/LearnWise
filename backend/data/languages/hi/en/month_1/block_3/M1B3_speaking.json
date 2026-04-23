@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B3_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M1B3_vocabulary_001"
+  ],
   "instructions": "In this exercise, you are walking in a park with your English teacher. Your teacher will ask you what you see. You must reply verbally using 'I see...'. Remember to use 'A' or 'An' for single things, and NO article for multiple things. Say the plural 'S' sounds clearly.",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "शिक्षक कहते हैं, 'Look over there. What do you see?' (वहाँ देखो। तुम क्या देखते हो?)। उन्हें बताएं कि आप एक बिल्ली देखते हैं। (I see... का उपयोग करें)।",
-      "expectedSpeakingPoints": ["Use I see", "Use a cat"],
+      "expectedSpeakingPoints": [
+        "Use I see",
+        "Use a cat"
+      ],
       "sampleResponse": {
         "targetText": "I see a cat.",
         "transliteration": "आई सी अ कैट।",
@@ -35,7 +40,11 @@
     {
       "subTaskId": "t2",
       "prompt": "शिक्षक कहते हैं, 'Oh yes. And what is next to the tree?' (पेड़ के बगल में क्या है?)। उन्हें बताएं कि आप 'दो कुत्ते' देखते हैं।",
-      "expectedSpeakingPoints": ["Use I see", "Use two dogs", "Do not use 'a'"],
+      "expectedSpeakingPoints": [
+        "Use I see",
+        "Use two dogs",
+        "Do not use 'a'"
+      ],
       "sampleResponse": {
         "targetText": "I see two dogs.",
         "transliteration": "आई सी टू डॉग्स।",
@@ -45,7 +54,11 @@
     {
       "subTaskId": "t3",
       "prompt": "शिक्षक कहते हैं, 'Are you hungry? Look at the bench.' (क्या तुम भूखे हो? बेंच पर देखो।)। उन्हें बताएं कि आप 'एक सेब' देखते हैं।",
-      "expectedSpeakingPoints": ["Use I see", "Use an apple", "Do not use 'a apple'"],
+      "expectedSpeakingPoints": [
+        "Use I see",
+        "Use an apple",
+        "Do not use 'a apple'"
+      ],
       "sampleResponse": {
         "targetText": "I see an apple.",
         "transliteration": "आई सी ऐन ऐपल।",
@@ -55,7 +68,11 @@
     {
       "subTaskId": "t4",
       "prompt": "शिक्षक कहते हैं, 'Look at the road. What do you see?' (सड़क की ओर देखो। तुम क्या देखते हो?)। उन्हें बताएं कि आप 'तीन बसें' देखते हैं। (-es ध्वनि पर ध्यान दें)।",
-      "expectedSpeakingPoints": ["Use I see", "Use three buses", "Pronounce bus-iz"],
+      "expectedSpeakingPoints": [
+        "Use I see",
+        "Use three buses",
+        "Pronounce bus-iz"
+      ],
       "sampleResponse": {
         "targetText": "I see three buses.",
         "transliteration": "आई सी थ्री बसेस।",
@@ -65,7 +82,10 @@
     {
       "subTaskId": "t5",
       "prompt": "शिक्षक कहते हैं, 'It is time to go. Let us get your bags.' (जाने का समय हो गया है। चलो तुम्हारे थैले लेते हैं।)। उन्हें बताएं कि आप 'अपना डिब्बा' (one box) भी देखते हैं।",
-      "expectedSpeakingPoints": ["Use I see", "Use a box"],
+      "expectedSpeakingPoints": [
+        "Use I see",
+        "Use a box"
+      ],
       "sampleResponse": {
         "targetText": "I see a box.",
         "transliteration": "आई सी अ बॉक्स।",
@@ -148,19 +168,27 @@
     "onPartial": "Good try! You missed a few plural rules. Make sure you clearly pronounce the 'iz' at the end of 'buses'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b3/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m1/b3/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b3/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m1/b3/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m1/b3/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Teacher: Look over there. What do you see?",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "articles", "plurals", "objects", "month1", "block3"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "articles",
+    "plurals",
+    "objects",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -173,7 +201,9 @@
     "Saying 'I see a apple'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_test_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 2. It contains 20 questions evaluating your ability to describe actions happening RIGHT NOW. Remember: if it is happening now, you need BOTH a helper verb (is/am/are) AND an '-ing'. One without the other is completely wrong.",
   "testTitle": "Block 2 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: He ________ sleeping right now.",
           "questionType": "multiple_choice",
-          "options": ["am", "is", "are", "do"],
+          "options": [
+            "am",
+            "is",
+            "are",
+            "do"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Which sentence means 'मैं खा रहा हूँ'?",
           "questionType": "multiple_choice",
-          "options": ["I am eat.", "I eating.", "I am eating.", "I am eats."],
+          "options": [
+            "I am eat.",
+            "I eating.",
+            "I am eating.",
+            "I am eats."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,12 @@
           "questionId": "q003",
           "questionText": "Choose the correct English question:",
           "questionType": "multiple_choice",
-          "options": ["Where you are going?", "Where are you going?", "Who you going?", "You where are going?"],
+          "options": [
+            "Where you are going?",
+            "Where are you going?",
+            "Who you going?",
+            "You where are going?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -67,7 +87,12 @@
           "questionId": "q004",
           "questionText": "Fill in the blank: The boys ____ playing football.",
           "questionType": "multiple_choice",
-          "options": ["am", "is", "are", "does"],
+          "options": [
+            "am",
+            "is",
+            "are",
+            "does"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -77,7 +102,10 @@
           "questionId": "q005",
           "questionText": "True or False: Saying 'They watching TV' is perfectly correct English.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -110,7 +138,12 @@
           "questionId": "q007",
           "questionText": "What does 'Where' mean in Hindi?",
           "questionType": "multiple_choice",
-          "options": ["क्या", "कैसे", "कहाँ", "कौन"],
+          "options": [
+            "क्या",
+            "कैसे",
+            "कहाँ",
+            "कौन"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -134,7 +167,12 @@
           "questionId": "q009",
           "questionText": "If someone is 'Laughing', what are they doing?",
           "questionType": "multiple_choice",
-          "options": ["रो रहा", "हंस रहा", "देख रहा", "खेल रहा"],
+          "options": [
+            "रो रहा",
+            "हंस रहा",
+            "देख रहा",
+            "खेल रहा"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -144,7 +182,10 @@
           "questionId": "q010",
           "questionText": "True or False: The word 'Waiting' means 'इंतज़ार कर रहा'.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -163,7 +204,11 @@
           "questionId": "q011",
           "questionText": "Find the mistake: 'I am read a book.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'I am reading a book.'", "It should be 'I reading a book.'", "There is no mistake"],
+          "options": [
+            "It should be 'I am reading a book.'",
+            "It should be 'I reading a book.'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -177,7 +222,11 @@
           "questionId": "q012",
           "questionText": "Find the mistake: 'What he is doing?'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'What doing is he?'", "It should be 'What is he doing?'", "There is no mistake"],
+          "options": [
+            "It should be 'What doing is he?'",
+            "It should be 'What is he doing?'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -187,7 +236,12 @@
           "questionId": "q013",
           "questionText": "If someone asks 'Who is sleeping?', what kind of answer do they want?",
           "questionType": "multiple_choice",
-          "options": ["The name of a place", "The reason why", "The name of a person", "The time"],
+          "options": [
+            "The name of a place",
+            "The reason why",
+            "The name of a person",
+            "The time"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -207,7 +261,12 @@
           "questionId": "q015",
           "questionText": "Which means 'वह रो रही है'?",
           "questionType": "multiple_choice",
-          "options": ["She is laughing", "She is crying", "She crying", "She am crying"],
+          "options": [
+            "She is laughing",
+            "She is crying",
+            "She crying",
+            "She am crying"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -342,14 +401,41 @@
       "q017": "Give 2 marks if written 'What you are doing?' (Missing inversion)."
     },
     "alternateValidAnswers": {
-      "q006": ["why", "WHY"],
-      "q008": ["who", "WHO"],
-      "q014": ["are", "ARE"],
-      "q016": ["i am working", "I am working", "I am working right now"],
-      "q017": ["what are you doing", "what are you doing?", "What are you doing?"],
-      "q018": ["he is watching tv", "He is watching TV"],
-      "q019": ["the dog is running", "The dog is running", "a dog is running"],
-      "q020": ["we are waiting", "We are waiting"]
+      "q006": [
+        "why",
+        "WHY"
+      ],
+      "q008": [
+        "who",
+        "WHO"
+      ],
+      "q014": [
+        "are",
+        "ARE"
+      ],
+      "q016": [
+        "i am working",
+        "I am working",
+        "I am working right now"
+      ],
+      "q017": [
+        "what are you doing",
+        "what are you doing?",
+        "What are you doing?"
+      ],
+      "q018": [
+        "he is watching tv",
+        "He is watching TV"
+      ],
+      "q019": [
+        "the dog is running",
+        "The dog is running",
+        "a dog is running"
+      ],
+      "q020": [
+        "we are waiting",
+        "We are waiting"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -369,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -378,7 +464,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block2", "present_continuous", "wh_questions", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block2",
+    "present_continuous",
+    "wh_questions",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -388,7 +481,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

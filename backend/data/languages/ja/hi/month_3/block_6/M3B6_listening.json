@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M3B6_writing_001"],
+  "prerequisites": [
+    "ja_hi_M3B6_writing_001"
+  ],
   "instructions": "最後のリスニングテストです。インド特有の超高速の会話が流れます。「時間(明日＝kal)」「条件(もし＝agar)」「値段」「症状」という全ての情報が一気に押し寄せてきますが、これまで鍛えた耳なら聞き取れます。集中してください！",
   "contentItems": [
     {
@@ -57,7 +59,10 @@
       "questionId": "q1",
       "questionText": "アニタは「明日、〜に行かないといけない(Mujhe _____ jaanaa hai)」と言っています。どこですか？",
       "questionType": "multiple_choice",
-      "options": ["ニューデリー (Naee Dillee)", "駅 (Station)"],
+      "options": [
+        "ニューデリー (Naee Dillee)",
+        "駅 (Station)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -65,7 +70,10 @@
       "questionId": "q2",
       "questionText": "ラージはチケットの値段を聞きました。アニタはいくら(数字＋sau)だと答えましたか？",
       "questionType": "multiple_choice",
-      "options": ["100ルピー (Sau)", "500ルピー (Paanch sau)"],
+      "options": [
+        "100ルピー (Sau)",
+        "500ルピー (Paanch sau)"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -73,7 +81,10 @@
       "questionId": "q3",
       "questionText": "アニタは「Lekin मुझे लगता है कि... (Lekin mujhe lagtaa hai ki...)」と言って、ある予測を伝えました。どうなると言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["行けないと思う", "高すぎると思う"],
+      "options": [
+        "行けないと思う",
+        "高すぎると思う"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -81,7 +92,10 @@
       "questionId": "q4",
       "questionText": "アニタが「なぜなら(Kyonki)」の後に語った、行けない理由は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["道が分からないから", "熱(bukhaar)があるから"],
+      "options": [
+        "道が分からないから",
+        "熱(bukhaar)があるから"
+      ],
       "audioTimestamp": "00:22",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -110,11 +124,17 @@
       "q5": "baarish"
     },
     "acceptedShortAnswers": {
-      "q5": ["baarish", "Baarish", "BAARISH"]
+      "q5": [
+        "baarish",
+        "Baarish",
+        "BAARISH"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["baarish"]
+      "q5": [
+        "baarish"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -127,18 +147,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b6/listening/review_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b6/listening/review_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b6/listening/review_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, kal tum kyaa karogee?... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "review", "comprehensive", "future", "conditionals", "symptoms", "month3", "block6"],
+  "tags": [
+    "listening",
+    "review",
+    "comprehensive",
+    "future",
+    "conditionals",
+    "symptoms",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -150,7 +179,9 @@
     "Thinking 'Kyaa karogee' means 'What happened' instead of 'What will you do', missing the future tense ending."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B6_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B6_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

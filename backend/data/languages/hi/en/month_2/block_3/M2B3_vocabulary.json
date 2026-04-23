@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B3_listening_001"],
+  "prerequisites": [
+    "en_hi_M2B3_listening_001"
+  ],
   "instructions": "Welcome to the hardest part of English! Some action words do NOT accept the '-ed' ending. If you say 'Eated', people will not understand you. You must memorize these 15 'Rule Breaker' words. You have to learn them like completely new words.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What is the correct English translation for 'मैं गया'?",
       "questionType": "multiple_choice",
-      "options": ["I goed", "I went", "I go", "I was go"],
+      "options": [
+        "I goed",
+        "I went",
+        "I go",
+        "I was go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which is the correct past tense of 'Take' (लेना)?",
       "questionType": "multiple_choice",
-      "options": ["Taked", "Took", "Thought", "Take"],
+      "options": [
+        "Taked",
+        "Took",
+        "Thought",
+        "Take"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: The past tense of 'Make' (बनाना) is 'Maked'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Fill in the blank: I was thirsty, so I _____ cold water.",
       "questionType": "multiple_choice",
-      "options": ["Drink", "Drank", "Drinked", "Ate"],
+      "options": [
+        "Drink",
+        "Drank",
+        "Drinked",
+        "Ate"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,48 @@
       "questionId": "q7",
       "questionText": "If someone gave something to you ('दिया'), the English word is _____.",
       "questionType": "multiple_choice",
-      "options": ["Give", "Get", "Gave", "Gived"],
+      "options": [
+        "Give",
+        "Get",
+        "Gave",
+        "Gived"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Fill in the blank: They _____ a ball. ('पकड़ा')",
       "questionType": "multiple_choice",
-      "options": ["Catched", "Caught", "Bought", "See"],
+      "options": [
+        "Catched",
+        "Caught",
+        "Bought",
+        "See"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What word means 'सोचा'?",
       "questionType": "multiple_choice",
-      "options": ["Think", "Thinked", "Thought", "Bought"],
+      "options": [
+        "Think",
+        "Thinked",
+        "Thought",
+        "Bought"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'खाया' to English.",
       "questionType": "multiple_choice",
-      "options": ["Eat", "Eated", "Ated", "Ate"],
+      "options": [
+        "Eat",
+        "Eated",
+        "Ated",
+        "Ate"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +330,14 @@
       "w15": "छोड़ दिया"
     },
     "acceptedTranslations": {
-      "w02": ["bought", "Bought"],
-      "w06": ["saw", "Saw"]
+      "w02": [
+        "bought",
+        "Bought"
+      ],
+      "w06": [
+        "saw",
+        "Saw"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +363,24 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b3/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b3/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b3/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b3/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Go, went. Eat, ate. See, saw...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "simple_past", "irregular_verbs", "month2", "block3"],
+  "tags": [
+    "vocabulary",
+    "simple_past",
+    "irregular_verbs",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +392,9 @@
     "Adding '-ed' to everything. Make sure to catch yourself before you say 'Buyed' or 'Thinked'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

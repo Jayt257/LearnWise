@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B2_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_vocabulary_001"
+  ],
   "instructions": "複合動詞を使って日本語のニュアンスを表現するスピーキングテストです！「〜しちゃう」「〜してあげる」「〜しておく」という感覚を、Jaa / De / Le のサポート動詞を使って声に乗せてください。",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "状況: 全て食べきる宣言。　指示：「私(男)は全部(Sab)食べて『しまいます』。」",
-      "expectedSpeakingPoints": ["Main sab", "khaa", "jaaoongaa"],
+      "expectedSpeakingPoints": [
+        "Main sab",
+        "khaa",
+        "jaaoongaa"
+      ],
       "sampleResponse": {
         "targetText": "मैं सब खा जाऊँगा।",
         "transliteration": "Main sab khaa jaaoongaa.",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "状況: 相手への情報提供。　指示：「私(男)が話(Baat)を教え『てあげるよ』。」",
-      "expectedSpeakingPoints": ["Main", "baat", "bataa doongaa"],
+      "expectedSpeakingPoints": [
+        "Main",
+        "baat",
+        "bataa doongaa"
+      ],
       "sampleResponse": {
         "targetText": "मैं बात बता दूँगा।",
         "transliteration": "Main baat bataa doongaa.",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "状況: 相手への依頼（読書の推奨）。　指示：「本(Kitaab)を読ん『でおいて(Tum命令)』。」",
-      "expectedSpeakingPoints": ["Kitaab", "paḍh", "lo"],
+      "expectedSpeakingPoints": [
+        "Kitaab",
+        "paḍh",
+        "lo"
+      ],
       "sampleResponse": {
         "targetText": "किताब पढ़ लो।",
         "transliteration": "Kitaab paḍh lo.",
@@ -88,7 +102,16 @@
       "paḍh lo"
     ],
     "requiredKeywords": [
-      "main", "sab", "khaa", "jaaoongaa", "baat", "bataa", "doongaa", "kitaab", "paḍh", "lo"
+      "main",
+      "sab",
+      "khaa",
+      "jaaoongaa",
+      "baat",
+      "bataa",
+      "doongaa",
+      "kitaab",
+      "paḍh",
+      "lo"
     ],
     "acceptableParaphrases": [
       "main sab kha jaenge",
@@ -108,19 +131,26 @@
     "onPartial": "よくお話しできています。第3文で「Paḍh do」と言っていませんか？自分が本を読んで知識を得ることは、自分に向けたアクション(もらう:Lenaa)のニュアンスを持つので「Paḍh lo(読んでおく)」になります。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b2/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m3/b2/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b2/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m3/b2/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m3/b2/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Learner: Main sab khaa jaaoongaa... Main baat bataa doongaa... Kitaab paḍh lo.",
     "audioLanguage": "hi",
     "audioDuration": 90,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "compounds", "directionality", "fluency", "month3", "block2"],
+  "tags": [
+    "speaking",
+    "compounds",
+    "directionality",
+    "fluency",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -132,7 +162,9 @@
     "Saying 'Main sab khaa' and stopping, forgetting the required V2 intensifier."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

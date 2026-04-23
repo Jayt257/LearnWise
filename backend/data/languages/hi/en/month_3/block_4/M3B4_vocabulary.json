@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B4_listening_001"],
+  "prerequisites": [
+    "en_hi_M3B4_listening_001"
+  ],
   "instructions": "This is the final vocabulary list of the beginner course! These are the 15 'Survival Words'. Whether you are buying medicine, looking for your terminal, or reporting a crime, you MUST know these words perfectly.",
   "contentItems": [
     {
@@ -204,21 +206,33 @@
       "questionId": "q1",
       "questionText": "If you are sick in another country and need to buy medicine, you look for a...?",
       "questionType": "multiple_choice",
-      "options": ["Restaurant", "Pharmacy", "Police"],
+      "options": [
+        "Restaurant",
+        "Pharmacy",
+        "Police"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "When checking the airport screen for when a plane is *leaving*, you look for the word...",
       "questionType": "multiple_choice",
-      "options": ["Arrival", "Delayed", "Departure"],
+      "options": [
+        "Arrival",
+        "Delayed",
+        "Departure"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What does 'Delayed' mean?",
       "questionType": "multiple_choice",
-      "options": ["रद्द", "देरी से", "चोरी हो गया"],
+      "options": [
+        "रद्द",
+        "देरी से",
+        "चोरी हो गया"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
@@ -232,7 +246,10 @@
       "questionId": "q5",
       "questionText": "True or False: If a flight is 'Cancelled', it means you just have to wait a few more hours.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +263,46 @@
       "questionId": "q7",
       "questionText": "Pronunciation warning! In the word 'Receipt', which letter is totally silent?",
       "questionType": "multiple_choice",
-      "options": ["R", "E", "P", "T"],
+      "options": [
+        "R",
+        "E",
+        "P",
+        "T"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "If your phone is missing, you say 'My phone is _____'.",
       "questionType": "multiple_choice",
-      "options": ["Lost", "Luggage", "Delayed"],
+      "options": [
+        "Lost",
+        "Luggage",
+        "Delayed"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What is the English word for 'आपातकाल'?",
       "questionType": "multiple_choice",
-      "options": ["Stolen", "Departure", "Emergency", "Arrival"],
+      "options": [
+        "Stolen",
+        "Departure",
+        "Emergency",
+        "Arrival"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "If someone takes your bag, you must tell the police it was...",
       "questionType": "multiple_choice",
-      "options": ["Delayed", "Stolen", "A Menu"],
+      "options": [
+        "Delayed",
+        "Stolen",
+        "A Menu"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +325,14 @@
       "w15": "खो गया / गुम हो गया"
     },
     "acceptedTranslations": {
-      "w11": ["receipt", "Receipt"],
-      "w14": ["luggage", "Luggage"]
+      "w11": [
+        "receipt",
+        "Receipt"
+      ],
+      "w14": [
+        "luggage",
+        "Luggage"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +358,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b4/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b4/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b4/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b4/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Emergency. Pharmacy. Hospital...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "survival", "travel", "emergency", "airport", "capstone", "month3", "block4"],
+  "tags": [
+    "vocabulary",
+    "survival",
+    "travel",
+    "emergency",
+    "airport",
+    "capstone",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +391,9 @@
     "Confusing 'Delayed' with 'Cancelled'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B3_writing_001"],
+  "prerequisites": [
+    "en_hi_M1B3_writing_001"
+  ],
   "instructions": "Listen to a mother (Kavita) and her son (Rahul) packing for a trip. They are checking their list. Listen very closely to whether they say 'A bag' (one) or 'Bags' (many). Answer the 8 questions below.",
   "contentItems": [
     {
@@ -82,7 +84,12 @@
       "questionId": "q1",
       "questionText": "Where are Kavita and Rahul going?",
       "questionType": "multiple_choice",
-      "options": ["Mumbai", "Delhi", "London", "A store"],
+      "options": [
+        "Mumbai",
+        "Delhi",
+        "London",
+        "A store"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -90,7 +97,11 @@
       "questionId": "q2",
       "questionText": "Initially, how many bags did Rahul say he had: 'A bag' or 'Two bags'?",
       "questionType": "multiple_choice",
-      "options": ["A bag", "Two bags", "Three bags"],
+      "options": [
+        "A bag",
+        "Two bags",
+        "Three bags"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -106,7 +117,11 @@
       "questionId": "q4",
       "questionText": "Did Rahul pack 'An orange' or 'Oranges'?",
       "questionType": "multiple_choice",
-      "options": ["An orange", "Oranges", "Neither"],
+      "options": [
+        "An orange",
+        "Oranges",
+        "Neither"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -114,7 +129,12 @@
       "questionId": "q5",
       "questionText": "According to the audio, what weather is happening?",
       "questionType": "multiple_choice",
-      "options": ["It is sunny", "It is raining", "It is snowing", "It is night"],
+      "options": [
+        "It is sunny",
+        "It is raining",
+        "It is snowing",
+        "It is night"
+      ],
       "audioTimestamp": "00:23",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -138,7 +158,12 @@
       "questionId": "q8",
       "questionText": "What vehicle are they waiting for at the end of the tape?",
       "questionType": "multiple_choice",
-      "options": ["Cars", "A bus", "Buses", "Trains"],
+      "options": [
+        "Cars",
+        "A bus",
+        "Buses",
+        "Trains"
+      ],
       "audioTimestamp": "00:36",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -162,15 +187,31 @@
       "q8": "Buses"
     },
     "acceptedShortAnswers": {
-      "q3": ["3", "Three apples"],
-      "q6": ["Boxes", "boxes"],
-      "q7": ["Books", "His books"]
+      "q3": [
+        "3",
+        "Three apples"
+      ],
+      "q6": [
+        "Boxes",
+        "boxes"
+      ],
+      "q7": [
+        "Books",
+        "His books"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["3", "three"],
-      "q6": ["boxes"],
-      "q7": ["books"]
+      "q3": [
+        "3",
+        "three"
+      ],
+      "q6": [
+        "boxes"
+      ],
+      "q7": [
+        "books"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -183,18 +224,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b3/listening/dialogue_native.mp3",
+    "nativeAudio": "month_1/block_3/M1B3_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b3/listening/dialogue_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b3/listening/dialogue_native.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_3/M1B3_audio.wav",
     "audioTranscript": "Kavita: Rahul, are we ready for the trip to Delhi? ... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "plurals", "articles", "nouns", "trip", "beginner", "month1", "block3"],
+  "tags": [
+    "listening",
+    "plurals",
+    "articles",
+    "nouns",
+    "trip",
+    "beginner",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -207,7 +257,9 @@
     "Thinking 'An orange' was plural."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

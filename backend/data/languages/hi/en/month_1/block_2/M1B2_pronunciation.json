@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B2_lesson_001"],
+  "prerequisites": [
+    "en_hi_M1B2_lesson_001"
+  ],
   "instructions": "In natural spoken English, words are often mashed together into contractions. Listen closely to the difference between 'I am' and 'I'm'. You will practice 16 different phrases. Use your microphone to mirror the native speaker exactly.",
   "contentItems": [
     {
@@ -218,19 +220,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b2/pronunciation/native_pronouns.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b2/pronunciation/slow_pronouns.mp3",
-    "normalAudio": "audio/en_hi/m1/b2/pronunciation/native_pronouns.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I am, I'm, He is, He's... (matches target list)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "contractions", "pronouns", "beginner", "drills"],
+  "tags": [
+    "pronunciation",
+    "contractions",
+    "pronouns",
+    "beginner",
+    "drills"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -243,7 +251,9 @@
     "Failing to make contractions fluid and breaking them back into 2 words"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

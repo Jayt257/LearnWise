@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B1_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M1B1_vocabulary_001"
+  ],
   "instructions": "In this guided roleplay, you are entering your new English classroom in the morning. You will talk to your teacher. Read the scenario, listen to the teacher's prompts, and record your spoken English response. Try to match the sample audio's rhythm.",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "शिक्षक आपकी ओर देखते हैं। उन्हें 'शुभ प्रभात' (सुबह 9 बजे) कहें और सर कहें।",
-      "expectedSpeakingPoints": ["Say Good morning", "Address him as sir"],
+      "expectedSpeakingPoints": [
+        "Say Good morning",
+        "Address him as sir"
+      ],
       "sampleResponse": {
         "targetText": "Good morning, sir.",
         "transliteration": "गुड मॉर्निंग, सर।",
@@ -35,7 +40,10 @@
     {
       "subTaskId": "t2",
       "prompt": "शिक्षक कहते हैं, 'Good morning! Welcome to the class. What is your name?' अपना नाम बताएं (My name is... का उपयोग करके)।",
-      "expectedSpeakingPoints": ["Use My name is", "State your name clearly"],
+      "expectedSpeakingPoints": [
+        "Use My name is",
+        "State your name clearly"
+      ],
       "sampleResponse": {
         "targetText": "My name is Amit.",
         "transliteration": "माई नेम इज़ अमित।",
@@ -45,7 +53,10 @@
     {
       "subTaskId": "t3",
       "prompt": "शिक्षक कहते हैं, 'Nice to meet you, Amit. How are you today?' उन्हें बताएं कि आप ठीक हैं और धन्यवाद दें।",
-      "expectedSpeakingPoints": ["Say I am fine", "Say Thank you"],
+      "expectedSpeakingPoints": [
+        "Say I am fine",
+        "Say Thank you"
+      ],
       "sampleResponse": {
         "targetText": "I am fine, thank you.",
         "transliteration": "आई एम फाइन, थैंक यू।",
@@ -55,7 +66,9 @@
     {
       "subTaskId": "t4",
       "prompt": "शिक्षक कहते हैं, 'Please sit down. The class will start now.' शांति से उन्हें धन्यवाद दें।",
-      "expectedSpeakingPoints": ["Say Thank you, sir"],
+      "expectedSpeakingPoints": [
+        "Say Thank you, sir"
+      ],
       "sampleResponse": {
         "targetText": "Thank you, sir.",
         "transliteration": "थैंक यू, सर।",
@@ -130,19 +143,25 @@
     "onPartial": "Good attempt! You missed a few politeness markers like 'Thank you' or your pronunciation of 'morning' was difficult to understand."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b1/speaking/scenario_prompts.mp3",
-    "nativeAudio": "audio/en_hi/m1/b1/speaking/full_native_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b1/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m1/b1/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m1/b1/speaking/full_native_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Teacher: Good morning! Welcome to the class. What is your name? ...",
     "audioLanguage": "en",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "introductions", "greetings", "beginner"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "introductions",
+    "greetings",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -155,7 +174,9 @@
     "Forgetting to say Thank you when asked 'How are you?'"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_test_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

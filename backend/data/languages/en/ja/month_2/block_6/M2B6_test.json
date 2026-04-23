@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does まっすぐ (Massugu) mean?",
           "questionType": "multiple_choice",
-          "options": ["Right", "Left", "Straight", "Corner"],
+          "options": [
+            "Right",
+            "Left",
+            "Straight",
+            "Corner"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does しんごう (Shingou) mean?",
           "questionType": "multiple_choice",
-          "options": ["Traffic light", "Bridge", "Corner", "Bank"],
+          "options": [
+            "Traffic light",
+            "Bridge",
+            "Corner",
+            "Bank"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does となり (Tonari) mean?",
           "questionType": "multiple_choice",
-          "options": ["Next to", "Behind", "Front", "Near"],
+          "options": [
+            "Next to",
+            "Behind",
+            "Front",
+            "Near"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does はし (Hashi) mean?",
           "questionType": "multiple_choice",
-          "options": ["Street", "Bridge", "Corner", "Left"],
+          "options": [
+            "Street",
+            "Bridge",
+            "Corner",
+            "Left"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What is the first instruction?",
           "questionType": "multiple_choice",
-          "options": ["Go straight", "Turn right", "Turn left", "Stop"],
+          "options": [
+            "Go straight",
+            "Turn right",
+            "Turn left",
+            "Stop"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. Where should they turn?",
           "questionType": "multiple_choice",
-          "options": ["At the corner", "At the bridge", "At the traffic light", "At the station"],
+          "options": [
+            "At the corner",
+            "At the bridge",
+            "At the traffic light",
+            "At the station"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. Where is the bank?",
           "questionType": "multiple_choice",
-          "options": ["In front of the post office", "Next to the hotel", "Behind the station", "Next to the post office"],
+          "options": [
+            "In front of the post office",
+            "Next to the hotel",
+            "Behind the station",
+            "Next to the post office"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,21 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Magatte kudasai"],
-      "q017": ["Watatte kudasai"],
-      "q018": ["Migi"],
-      "q019": ["Shingou"],
-      "q020": ["Dou yatte ikimasu ka"]
+      "q016": [
+        "Magatte kudasai"
+      ],
+      "q017": [
+        "Watatte kudasai"
+      ],
+      "q018": [
+        "Migi"
+      ],
+      "q019": [
+        "Shingou"
+      ],
+      "q020": [
+        "Dou yatte ikimasu ka"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b6/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does いらっしゃる (Irassharu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To eat (Respectful)", "To go/come/be (Respectful)", "To go/come (Humble)", "To say (Humble)"],
+          "options": [
+            "To eat (Respectful)",
+            "To go/come/be (Respectful)",
+            "To go/come (Humble)",
+            "To say (Humble)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does いただく (Itadaku) mean?",
           "questionType": "multiple_choice",
-          "options": ["To go (Humble)", "To eat/drink/receive (Humble)", "To eat/drink (Respectful)", "To see (Respectful)"],
+          "options": [
+            "To go (Humble)",
+            "To eat/drink/receive (Humble)",
+            "To eat/drink (Respectful)",
+            "To see (Respectful)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does もうす (Mousu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To say (Humble)", "To say (Respectful)", "To do (Humble)", "To know (Humble)"],
+          "options": [
+            "To say (Humble)",
+            "To say (Respectful)",
+            "To do (Humble)",
+            "To know (Humble)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What is the very formal word for 'Today'?",
           "questionType": "multiple_choice",
-          "options": ["きょう (Kyou)", "あす (Asu)", "ほんじつ (Honjitsu)", "こちら (Kochira)"],
+          "options": [
+            "きょう (Kyou)",
+            "あす (Asu)",
+            "ほんじつ (Honjitsu)",
+            "こちら (Kochira)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What does the staff member say to welcome the customer?",
           "questionType": "multiple_choice",
-          "options": ["Konnichiwa", "Irasshaimase", "Ojamashimasu", "O-machi kudasai"],
+          "options": [
+            "Konnichiwa",
+            "Irasshaimase",
+            "Ojamashimasu",
+            "O-machi kudasai"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. What verb does the staff use to ask the customer about eating?",
           "questionType": "multiple_choice",
-          "options": ["Tabemasu ka", "Itadakimasu ka", "Meshiagarimasu ka", "Nomimasu ka"],
+          "options": [
+            "Tabemasu ka",
+            "Itadakimasu ka",
+            "Meshiagarimasu ka",
+            "Nomimasu ka"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. What verb does the customer use for themselves?",
           "questionType": "multiple_choice",
-          "options": ["Tabemasu", "Meshiagarimasu", "Itadakimasu", "Itashimasu"],
+          "options": [
+            "Tabemasu",
+            "Meshiagarimasu",
+            "Itadakimasu",
+            "Itashimasu"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,21 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Watakushi"],
-      "q017": ["Mairimasu"],
-      "q018": ["Meshiagarimasu"],
-      "q019": ["Moushiwake gozaimasen"],
-      "q020": ["Kashikomarimashita"]
+      "q016": [
+        "Watakushi"
+      ],
+      "q017": [
+        "Mairimasu"
+      ],
+      "q018": [
+        "Meshiagarimasu"
+      ],
+      "q019": [
+        "Moushiwake gozaimasen"
+      ],
+      "q020": [
+        "Kashikomarimashita"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b4/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

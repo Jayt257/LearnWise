@@ -21,7 +21,13 @@
   "instructions": "Block 1 の確認テストです！「Saktaa(できる)」と「Chaahtaa(したい)」の前に来る動詞の形の違いを完璧に理解できているかが試されます。",
   "testTitle": "Block 1 確認テスト (Modals of Ability & Desire)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +39,11 @@
           "questionId": "q001",
           "questionText": "女性が「私は話すことができます」という時、正しい文はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main bolnaa saktee hoon.", "Main bol saktee hoon.", "Main bol saktaa hoon."],
+          "options": [
+            "Main bolnaa saktee hoon.",
+            "Main bol saktee hoon.",
+            "Main bol saktaa hoon."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,11 @@
           "questionId": "q002",
           "questionText": "男性が「私は行きたいです」という時、正しい文はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main jaa chaahtaa hoon.", "Main jaanaa chaahtaa hoon.", "Main jaanaa saktaa hoon."],
+          "options": [
+            "Main jaa chaahtaa hoon.",
+            "Main jaanaa chaahtaa hoon.",
+            "Main jaanaa saktaa hoon."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +67,10 @@
           "questionId": "q003",
           "questionText": "「Saktaa(できる)」の前に来るメインの動詞は、どのような形で置かれますか？",
           "questionType": "multiple_choice",
-          "options": ["Naa を外した『語幹』の形 (例: Khaa)", "Naa を残した『原形』の形 (例: Khaanaa)"],
+          "options": [
+            "Naa を外した『語幹』の形 (例: Khaa)",
+            "Naa を残した『原形』の形 (例: Khaanaa)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,10 @@
           "questionId": "q004",
           "questionText": "「Chaahtee(したい)」の前に来るメインの動詞は、どのような形で置かれますか？",
           "questionType": "multiple_choice",
-          "options": ["Naa を外した『語幹』の形 (例: Jaa)", "Naa を残した『原形』の形 (例: Jaanaa)"],
+          "options": [
+            "Naa を外した『語幹』の形 (例: Jaa)",
+            "Naa を残した『原形』の形 (例: Jaanaa)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +93,11 @@
           "questionId": "q005",
           "questionText": "「私は行けません（能力の否定）」という時、正しい語順はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main jaa nahin saktaa.", "Main nahin jaa saktaa.", "Main jaanaa nahin saktaa."],
+          "options": [
+            "Main jaa nahin saktaa.",
+            "Main nahin jaa saktaa.",
+            "Main jaanaa nahin saktaa."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -92,7 +116,10 @@
           "questionId": "q006",
           "questionText": "「仕事をする」は Kaam karnaa。では、「仕事をしたい(男)」はどうなりますか？",
           "questionType": "multiple_choice",
-          "options": ["Kaam kar chaahtaa hoon", "Kaam karnaa chaahtaa hoon"],
+          "options": [
+            "Kaam kar chaahtaa hoon",
+            "Kaam karnaa chaahtaa hoon"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +139,10 @@
           "questionId": "q008",
           "questionText": "「車(Gaaḍee)を運転する/走らせる」という時に使われる動詞は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Banaanaa", "Chalaanaa"],
+          "options": [
+            "Banaanaa",
+            "Chalaanaa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -122,7 +152,10 @@
           "questionId": "q009",
           "questionText": "「読む / 勉強する」という意味の動詞は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Paḍhnaa", "Likhnaa"],
+          "options": [
+            "Paḍhnaa",
+            "Likhnaa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +184,10 @@
           "questionId": "q011",
           "questionText": "「Main 일본(Ilbon) jaanaa chaahtaa hoon.」が意味することとして正しいのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["私は日本に行けます（能力）", "私は日本に行きたいです（願望）"],
+          "options": [
+            "私は日本に行けます（能力）",
+            "私は日本に行きたいです（願望）"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +197,10 @@
           "questionId": "q012",
           "questionText": "「Main gaaḍee nahin chalaa saktee.」と言っている人は男性ですか？女性ですか？",
           "questionType": "multiple_choice",
-          "options": ["男性", "女性"],
+          "options": [
+            "男性",
+            "女性"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +210,10 @@
           "questionId": "q013",
           "questionText": "「Vah kaam nahin karnaa chaahtaa.」の正しい意味はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["彼は仕事ができない(能力)", "彼は仕事をしたくない(願望)"],
+          "options": [
+            "彼は仕事ができない(能力)",
+            "彼は仕事をしたくない(願望)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -191,7 +233,10 @@
           "questionId": "q015",
           "questionText": "True or False: Saktaa や Chaahtaa のような補語を使っても、文の最後には Hoon や Hai など To be 動詞を置くのが基本ルールである。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +255,11 @@
           "questionId": "q016",
           "questionText": "Translate: \"I can read.\" (If you are Male)",
           "questionType": "multiple_choice",
-          "options": ["Main paḍhnaa saktaa hoon.", "Main paḍhnaa chaahtaa hoon.", "Main paḍh saktaa hoon."],
+          "options": [
+            "Main paḍhnaa saktaa hoon.",
+            "Main paḍhnaa chaahtaa hoon.",
+            "Main paḍh saktaa hoon."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +269,11 @@
           "questionId": "q017",
           "questionText": "Translate: \"I want to eat.\" (If you are Female)",
           "questionType": "multiple_choice",
-          "options": ["Main khaanaa chaahtee hoon.", "Main khaanaa saktee hoon.", "Main khaa chaahtee hoon."],
+          "options": [
+            "Main khaanaa chaahtee hoon.",
+            "Main khaanaa saktee hoon.",
+            "Main khaa chaahtee hoon."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +283,11 @@
           "questionId": "q018",
           "questionText": "Translate: \"I cannot go.\" (If you are Male)",
           "questionType": "multiple_choice",
-          "options": ["Main nahin jaanaa saktaa.", "Main nahin jaa saktaa.", "Main jaa nahin chaahtaa."],
+          "options": [
+            "Main nahin jaanaa saktaa.",
+            "Main nahin jaa saktaa.",
+            "Main jaa nahin chaahtaa."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,11 +359,30 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q007": ["seekhnaa", "Seekhnaa"],
-      "q010": ["kyonki", "Kyonki"],
-      "q014": ["te", "Te", "て", "テ"],
-      "q019": ["seekh", "Seekh"],
-      "q020": ["want", "want to", "I want", "Want"]
+      "q007": [
+        "seekhnaa",
+        "Seekhnaa"
+      ],
+      "q010": [
+        "kyonki",
+        "Kyonki"
+      ],
+      "q014": [
+        "te",
+        "Te",
+        "て",
+        "テ"
+      ],
+      "q019": [
+        "seekh",
+        "Seekh"
+      ],
+      "q020": [
+        "want",
+        "want to",
+        "I want",
+        "Want"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 20,
@@ -326,7 +402,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -335,7 +411,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "modals", "ability", "desire", "month3", "block1"],
+  "tags": [
+    "test",
+    "modals",
+    "ability",
+    "desire",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -345,7 +428,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

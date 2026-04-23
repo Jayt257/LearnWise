@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B6_reading_001"],
+  "prerequisites": [
+    "ja_hi_M1B6_reading_001"
+  ],
   "instructions": "Month 1 の最終ライティング試験です！今回あなたが書く文章は、英語圏の学習者なら数ヶ月かかるレベルの長文です。でも、日本人であるあなたなら「完全に日本語の語順のまま単語を置き換えるだけ」で解けます！",
   "contentItems": [
     {
@@ -143,7 +145,21 @@
       "namaste main jaapaan se hoon mera ghar badaa hai main roz kamre mein kitaab padhtee hoon",
       "नमस्ते मैं जापान से हूँ मेरा घर बड़ा है मैं रोज़ कमरे में किताब पढ़ती हूँ"
     ],
-    "requiredKeywords": ["मैं", "जापान", "से", "हूँ", "मेरा", "घर", "बड़ा", "है", "रोज़", "कमरे", "में", "किताब", "पढ़ती"],
+    "requiredKeywords": [
+      "मैं",
+      "जापान",
+      "से",
+      "हूँ",
+      "मेरा",
+      "घर",
+      "बड़ा",
+      "है",
+      "रोज़",
+      "कमरे",
+      "में",
+      "किताब",
+      "पढ़ती"
+    ],
     "grammarBaseline": "Extremely strict on 'Mera ghar badaa' (Masculine rules) vs 'Main... padhtee' (Feminine rules) in the same paragraph.",
     "lengthExpectation": "Exactly 4 distinct sentences/concepts.",
     "scoringRubric": {
@@ -158,19 +174,27 @@
     "onPartial": "惜しい！語順は完璧です！日本語と全く同じであることに成功しています。ただ、性別（Taa / Tee / Aa / Ee）のどこかでズレが生じました。女性になりきれているか、家(Ghar)を男として扱えているか確認してください。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b6/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b6/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b6/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m1/b6/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate the full synthesis paragraph applying all Month 1 rules.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "review", "synthesis", "comprehensive", "grammar_capstone", "month1", "block6"],
+  "tags": [
+    "writing",
+    "review",
+    "synthesis",
+    "comprehensive",
+    "grammar_capstone",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -182,7 +206,9 @@
     "Writing 'Meri ghar baḍee hai' because they think 'I' am female so everything becomes female (failing to separate biological from grammatical gender)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B6_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B6_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B4_lesson_001"],
+  "prerequisites": [
+    "en_hi_M2B4_lesson_001"
+  ],
   "instructions": "In English, people speak very fast! They almost never say 'I will'. They smash the two words together to make 'I'll'. This is called a contraction. Listen carefully to how the 'L' sound attaches to the person's name, and practice these 15 future phrases.",
   "contentItems": [
     {
@@ -207,19 +209,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b4/pronunciation/native_contractions.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b4/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b4/pronunciation/slow_contractions.mp3",
-    "normalAudio": "audio/en_hi/m2/b4/pronunciation/native_contractions.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I'll, He'll, She'll...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "contractions", "future_tense", "fluency", "beginner"],
+  "tags": [
+    "pronunciation",
+    "contractions",
+    "future_tense",
+    "fluency",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -232,7 +240,9 @@
     "Saying 'I-uh-ul' instead of 'Ayl'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B4_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M2B4_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

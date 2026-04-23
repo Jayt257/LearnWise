@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 2! It contains 20 questions evaluating your mastery of the Present Perfect tense. Do you know when to use Have? Do you know when to use Has? Do you have your V3 verbs memorized? Let's find out!",
   "testTitle": "Block 2 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: The cat _____ eaten the fish.",
           "questionType": "multiple_choice",
-          "options": ["have", "has", "can"],
+          "options": [
+            "have",
+            "has",
+            "can"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "Fill in the blank: They _____ finished everything.",
           "questionType": "multiple_choice",
-          "options": ["have", "has", "is"],
+          "options": [
+            "have",
+            "has",
+            "is"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "Translate 'मैंने... लिया है' (I have).",
           "questionType": "multiple_choice",
-          "options": ["I has", "He have", "I have"],
+          "options": [
+            "I has",
+            "He have",
+            "I have"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,10 @@
           "questionId": "q004",
           "questionText": "True or False: We use 'has' for 'You'. (Example: You has gone).",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +93,11 @@
           "questionId": "q005",
           "questionText": "Which sentence is grammatically PERFECT?",
           "questionType": "multiple_choice",
-          "options": ["She have played.", "They has played.", "He has played."],
+          "options": [
+            "She have played.",
+            "They has played.",
+            "He has played."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -106,7 +130,12 @@
           "questionId": "q007",
           "questionText": "What is the English V3 form of 'जा चुके हैं' (Go)?",
           "questionType": "multiple_choice",
-          "options": ["Went", "Gone", "Goed", "Going"],
+          "options": [
+            "Went",
+            "Gone",
+            "Goed",
+            "Going"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -130,7 +159,12 @@
           "questionId": "q009",
           "questionText": "Identify the V3 form of 'Take'.",
           "questionType": "multiple_choice",
-          "options": ["Took", "Taked", "Taken", "Take"],
+          "options": [
+            "Took",
+            "Taked",
+            "Taken",
+            "Take"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -140,7 +174,12 @@
           "questionId": "q010",
           "questionText": "What does 'Eaten' mean?",
           "questionType": "multiple_choice",
-          "options": ["दे दिया है", "ले लिया है", "कर लिया है", "खा लिया है"],
+          "options": [
+            "दे दिया है",
+            "ले लिया है",
+            "कर लिया है",
+            "खा लिया है"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -159,7 +198,11 @@
           "questionId": "q011",
           "questionText": "If a person writes 'I've gone', what does 'I've' mean?",
           "questionType": "multiple_choice",
-          "options": ["I have", "I am", "I will"],
+          "options": [
+            "I have",
+            "I am",
+            "I will"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -169,7 +212,11 @@
           "questionId": "q012",
           "questionText": "Look at this sentence: 'He's forgotten his keys.' What does 'He's' mean here?",
           "questionType": "multiple_choice",
-          "options": ["He is", "He has", "He was"],
+          "options": [
+            "He is",
+            "He has",
+            "He was"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -179,7 +226,11 @@
           "questionId": "q013",
           "questionText": "Find the massive V1 mistake:",
           "questionType": "multiple_choice",
-          "options": ["We have give the money.", "We have given the money.", "We gave the money."],
+          "options": [
+            "We have give the money.",
+            "We have given the money.",
+            "We gave the money."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -189,7 +240,11 @@
           "questionId": "q014",
           "questionText": "If an action was completed in the past, but the result is still important right now, we use the _____ tense.",
           "questionType": "multiple_choice",
-          "options": ["Present Perfect", "Present Continuous", "Simple Future"],
+          "options": [
+            "Present Perfect",
+            "Present Continuous",
+            "Simple Future"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -199,7 +254,11 @@
           "questionId": "q015",
           "questionText": "Which contraction represents 'They have'?",
           "questionType": "multiple_choice",
-          "options": ["They're", "They'll", "They've"],
+          "options": [
+            "They're",
+            "They'll",
+            "They've"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -333,13 +392,34 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q006": ["seen", "SEEN"],
-      "q008": ["written", "WRITTEN"],
-      "q016": ["i have washed the car", "I've washed the car"],
-      "q017": ["she has eaten the food", "She's eaten the food"],
-      "q018": ["he has gone home", "He's gone home"],
-      "q019": ["we have done the work", "We've done the work"],
-      "q020": ["i have bought a book", "I've bought a book"]
+      "q006": [
+        "seen",
+        "SEEN"
+      ],
+      "q008": [
+        "written",
+        "WRITTEN"
+      ],
+      "q016": [
+        "i have washed the car",
+        "I've washed the car"
+      ],
+      "q017": [
+        "she has eaten the food",
+        "She's eaten the food"
+      ],
+      "q018": [
+        "he has gone home",
+        "He's gone home"
+      ],
+      "q019": [
+        "we have done the work",
+        "We've done the work"
+      ],
+      "q020": [
+        "i have bought a book",
+        "I've bought a book"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -359,7 +439,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -368,7 +448,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block2", "present_perfect", "have", "has", "past_participle", "assessment"],
+  "tags": [
+    "test",
+    "block2",
+    "present_perfect",
+    "have",
+    "has",
+    "past_participle",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -378,7 +466,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B3_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M3B3_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

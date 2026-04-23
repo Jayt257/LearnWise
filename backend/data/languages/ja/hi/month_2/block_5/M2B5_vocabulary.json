@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B5_listening_001"],
+  "prerequisites": [
+    "ja_hi_M2B5_listening_001"
+  ],
   "instructions": "誰かに何かをお願いする時、頻繁に使うアクション動詞を集めました。辞書にある「〜naa (すること)」という形から、語幹（前半分）だけを取り出して「〜o (Tum用)」や「〜iye (Aap用)」をつける準備をしましょう。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the verb to its meaning: Dekhnaa (देखना)",
       "questionType": "matching",
-      "options": ["座る", "見る"],
+      "options": [
+        "座る",
+        "見る"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the verb to its polite command form (Aap): Peenaa (पीना)",
       "questionType": "matching",
-      "options": ["Peeye", "Peejiye"],
+      "options": [
+        "Peeye",
+        "Peejiye"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the verb to its meaning: Sunnaa (सुनना)",
       "questionType": "matching",
-      "options": ["聞く", "話す"],
+      "options": [
+        "聞く",
+        "話す"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its Hindi translation: 中に (Inside)",
       "questionType": "matching",
-      "options": ["Baahar", "Andar"],
+      "options": [
+        "Baahar",
+        "Andar"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Match 'Please give' (Denaa) to its correct irregular polite form:",
       "questionType": "matching",
-      "options": ["Deejiye", "Deniye"],
+      "options": [
+        "Deejiye",
+        "Deniye"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,8 +211,14 @@
       "w10": "中に"
     },
     "acceptedTranslations": {
-      "w01": ["来る", "入る"],
-      "w05": ["聞く", "聴く"]
+      "w01": [
+        "来る",
+        "入る"
+      ],
+      "w05": [
+        "聞く",
+        "聴く"
+      ]
     },
     "matchingKey": {
       "q1": "見る",
@@ -216,18 +239,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b5/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b5/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b5/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b5/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b5/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Aanaa. Jaanaa. Baiṭhnaa. Dekhnaa. Sunnaa. Bolnaa. Peenaa. Denaa. Lenaa. Andar.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "verbs", "action", "imperative", "month2", "block5"],
+  "tags": [
+    "vocabulary",
+    "verbs",
+    "action",
+    "imperative",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +269,9 @@
     "Thinking 'Peenaa' becomes 'Peeniye' instead of 'Peejiye'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B5_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B5_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

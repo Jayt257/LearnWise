@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B2_reading_001"],
+  "prerequisites": [
+    "ja_hi_M2B2_reading_001"
+  ],
   "instructions": "究極の脳トレライティングです！過去のこと（〜した）を書く時、自分自身の性別は捨ててください。あなたが書く『動詞』は、直前にある『名詞（食べたモノ・見たモノ）』が何であるかによって決定されます。",
   "contentItems": [
     {
@@ -122,7 +124,17 @@
     "acceptableAlternates": [
       "maine seb khaayaa aapne chaay pee usne kaam kiyaa"
     ],
-    "requiredKeywords": ["मैंने", "सेब", "खाया", "आपने", "चाय", "पी", "उसने", "काम", "किया"],
+    "requiredKeywords": [
+      "मैंने",
+      "सेब",
+      "खाया",
+      "आपने",
+      "चाय",
+      "पी",
+      "उसने",
+      "काम",
+      "किया"
+    ],
     "grammarBaseline": "Crucial requirement: 'Aapne chaay pee', NOT 'piyaa'. 'Usne kaam kiyaa', NOT 'kee' (despite subject being female, work is male).",
     "lengthExpectation": "Exactly 3 distinct short sentences.",
     "scoringRubric": {
@@ -138,19 +150,28 @@
     "onPartial": "惜しいところがあります。Aapne（あなたが）お茶を飲んだ時、「Aap が男だからPiyaaだ！」と考えませんでしたか？ここではAapは無視！お茶(Chaay)が女性名詞なので「Pee」が正解です！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b2/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b2/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m2/b2/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 sentences applying the ergative Ne rule forcing object-verb agreement.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "tags": [
+    "writing",
+    "grammar",
+    "verbs",
+    "past_tense",
+    "ergative",
+    "ne",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -162,7 +183,9 @@
     "Writing 'Usne kaam kee' assuming because the prompt said 'SHE', the verb must be female."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B2_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B2_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

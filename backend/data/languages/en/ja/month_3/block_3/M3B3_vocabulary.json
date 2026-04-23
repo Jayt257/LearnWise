@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "To eat", "To make/let eat (Causative)", "To be forced to eat (Causative-Passive)", "To drink", "To make/let drink (Causative)", 
-    "To be forced to drink (Causative-Passive)", "To go", "To make/let go (Causative)", "To be forced to go (Causative-Passive)", "To do", 
-    "To make/let do (Causative)", "To be forced to do (Causative-Passive)", "To come", "To make/let come (Causative)", "To be forced to come (Causative-Passive)", 
-    "Mother (my own)", "Father (my own)", "Department Head / Boss", "Company President", "Child", 
-    "Work / Job", "Overtime work", "Homework", "Vegetables", "Medicine", 
-    "Unpleasant / Dislike", "Impossible / Unreasonable", "Made (someone) do (Polite past)", "Was forced to do (Polite past)", "To be forced to write (Kaku -> Kakasareru)"
+    "To eat",
+    "To make/let eat (Causative)",
+    "To be forced to eat (Causative-Passive)",
+    "To drink",
+    "To make/let drink (Causative)",
+    "To be forced to drink (Causative-Passive)",
+    "To go",
+    "To make/let go (Causative)",
+    "To be forced to go (Causative-Passive)",
+    "To do",
+    "To make/let do (Causative)",
+    "To be forced to do (Causative-Passive)",
+    "To come",
+    "To make/let come (Causative)",
+    "To be forced to come (Causative-Passive)",
+    "Mother (my own)",
+    "Father (my own)",
+    "Department Head / Boss",
+    "Company President",
+    "Child",
+    "Work / Job",
+    "Overtime work",
+    "Homework",
+    "Vegetables",
+    "Medicine",
+    "Unpleasant / Dislike",
+    "Impossible / Unreasonable",
+    "Made (someone) do (Polite past)",
+    "Was forced to do (Polite past)",
+    "To be forced to write (Kaku -> Kakasareru)"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does のませる (Nomaseru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To drink", "To make/let drink", "To be forced to drink", "To eat"],
+      "options": [
+        "To drink",
+        "To make/let drink",
+        "To be forced to drink",
+        "To eat"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does のまされる (Nomasareru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To be forced to drink", "To drink", "To make/let drink", "To be forced to eat"],
+      "options": [
+        "To be forced to drink",
+        "To drink",
+        "To make/let drink",
+        "To be forced to eat"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "How do you say 'Overtime work' in Japanese?",
       "questionType": "multiple_choice",
-      "options": ["しゅくだい (Shukudai)", "ざんぎょう (Zangyou)", "しごと (Shigoto)", "やさい (Yasai)"],
+      "options": [
+        "しゅくだい (Shukudai)",
+        "ざんぎょう (Zangyou)",
+        "しごと (Shigoto)",
+        "やさい (Yasai)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What is the causative form of 'Suru' (to do)?",
       "questionType": "multiple_choice",
-      "options": ["すらせる (Suraseru)", "させる (Saseru)", "させられる (Saserareru)", "すさせられる (Susaserareru)"],
+      "options": [
+        "すらせる (Suraseru)",
+        "させる (Saseru)",
+        "させられる (Saserareru)",
+        "すさせられる (Susaserareru)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does ぶちょう (Buchou) mean?",
       "questionType": "multiple_choice",
-      "options": ["Mother", "Child", "Department Head / Boss", "Company President"],
+      "options": [
+        "Mother",
+        "Child",
+        "Department Head / Boss",
+        "Company President"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What does やさい (Yasai) mean?",
       "questionType": "multiple_choice",
-      "options": ["Medicine", "Homework", "Overtime", "Vegetables"],
+      "options": [
+        "Medicine",
+        "Homework",
+        "Overtime",
+        "Vegetables"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What does いかされる (Ikasareru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To make go", "To be forced to go", "To go", "To come"],
+      "options": [
+        "To make go",
+        "To be forced to go",
+        "To go",
+        "To come"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does こさせる (Kosaseru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To make/let come", "To be forced to come", "To come", "To make/let go"],
+      "options": [
+        "To make/let come",
+        "To be forced to come",
+        "To come",
+        "To make/let go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does むり (Muri) mean?",
       "questionType": "multiple_choice",
-      "options": ["Unpleasant", "Impossible / Unreasonable", "Overtime", "Work"],
+      "options": [
+        "Unpleasant",
+        "Impossible / Unreasonable",
+        "Overtime",
+        "Work"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "Which form indicates that someone was FORCED to do something against their will?",
       "questionType": "multiple_choice",
-      "options": ["たべました (Tabemashita)", "たべさせました (Tabesasemashita)", "たべさせられました (Tabesaseraremashita)", "たべられました (Taberaremashita)"],
+      "options": [
+        "たべました (Tabemashita)",
+        "たべさせました (Tabesasemashita)",
+        "たべさせられました (Tabesaseraremashita)",
+        "たべられました (Taberaremashita)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,14 @@
       "w030": "To be forced to write (Kaku -> Kakasareru)"
     },
     "acceptedTranslations": {
-      "w018": ["Boss", "Department Head"],
-      "w021": ["Work", "Job"]
+      "w018": [
+        "Boss",
+        "Department Head"
+      ],
+      "w021": [
+        "Work",
+        "Job"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m3/b3/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b3/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m3/b3/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m3/b3/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "たべる。たべさせる。たべさせられる。のむ。のませる。のまされる。いく。いかせる。いかされる。する。させる。させられる。くる。こさせる。こさせられる。はは。ちち。ぶちょう。しゃちょう。こども。しごと。ざんぎょう。しゅくだい。やさい。くすり。いや。むり。させました。させられました。かかされる。",
     "audioLanguage": "ja",
     "audioDuration": 360,

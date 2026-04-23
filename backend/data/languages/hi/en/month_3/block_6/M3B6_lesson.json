@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 60,
-  "prerequisites": ["en_hi_M3B5_test_001"],
+  "prerequisites": [
+    "en_hi_M3B5_test_001"
+  ],
   "instructions": "Welcome to the Final Block! Over the last 90 days, you have restructured how your brain processes language. This masterclass is a giant review of the most important rules you learned. Read the rules carefully to prepare for your final exams!",
   "contentItems": [
     {
@@ -45,18 +47,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b6/lesson/native_review.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b6/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m3/b6/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b6/lesson/slow_review.mp3",
-    "normalAudio": "audio/en_hi/m3/b6/lesson/native_review.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Rule 1: Always put the verb in the middle...",
     "audioLanguage": "en",
     "audioDuration": 350,
     "audioRepeatAllowed": true
   },
-  "tags": ["review", "capstone", "grammar", "tenses", "svo", "month3", "block6"],
+  "tags": [
+    "review",
+    "capstone",
+    "grammar",
+    "tenses",
+    "svo",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -68,7 +78,9 @@
     "Reverting to L1 grammar structures due to stress during a review phase."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "The Ultimate Grammar Recap",

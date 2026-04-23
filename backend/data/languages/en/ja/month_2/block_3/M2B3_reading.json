@@ -158,7 +158,12 @@
       "q005": "samukatta desu"
     },
     "acceptableParaphrases": {
-      "q005": ["samukatta desu", "samukatta", "Samukatta desu", "Samukatta"]
+      "q005": [
+        "samukatta desu",
+        "samukatta",
+        "Samukatta desu",
+        "Samukatta"
+      ]
     },
     "keywordScoringRules": {},
     "expectedSummaryPoints": [
@@ -177,12 +182,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_en/m2/b3/reading/normal_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "きのう、きょうとへ いきました。きょうとは とても きれいでした。でも、てんきは さむかったです。おいしい すしを たべました。たのしかったです。あしたも いきたいです。",
     "audioLanguage": "ja",
     "audioDuration": 50,

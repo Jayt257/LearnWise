@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B4_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M1B4_vocabulary_001"
+  ],
   "instructions": "In this exercise, you are meeting a new colleague at your office. The colleague is asking you questions, and you must answer them aloud. Then, YOU must ask the colleague questions based on the Hindi prompts. Remember to FLIP the verb when you ask your questions!",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "जॉन पूछता है, 'Hello! What is your name?' (नमस्ते! तुम्हारा नाम क्या है?)। अपना नाम बताएं (I am... का उपयोग करें)। (मान लें कि आपका नाम रोहन है)।",
-      "expectedSpeakingPoints": ["I am", "Rohan"],
+      "expectedSpeakingPoints": [
+        "I am",
+        "Rohan"
+      ],
       "sampleResponse": {
         "targetText": "I am Rohan.",
         "transliteration": "आई एम रोहन।",
@@ -35,7 +40,11 @@
     {
       "subTaskId": "t2",
       "prompt": "जॉन पूछता है, 'Nice to meet you. How old are you?' (तुमसे मिलकर अच्छा लगा। तुम्हारी उम्र क्या है?)। यह कहने के लिए अंग्रेजी का प्रयोग करें कि आप 'पच्चीस' (25) के हैं।",
-      "expectedSpeakingPoints": ["I am", "twenty-five", "years old"],
+      "expectedSpeakingPoints": [
+        "I am",
+        "twenty-five",
+        "years old"
+      ],
       "sampleResponse": {
         "targetText": "I am twenty-five years old.",
         "transliteration": "आई एम ट्वेंटी-फाइव इयर्स ओल्ड।",
@@ -45,7 +54,11 @@
     {
       "subTaskId": "t3",
       "prompt": "अब आपकी बारी है। आपको पूछना है, 'तुम कहाँ से हो?' (Where / are / you / from)।",
-      "expectedSpeakingPoints": ["Where", "are you", "from"],
+      "expectedSpeakingPoints": [
+        "Where",
+        "are you",
+        "from"
+      ],
       "sampleResponse": {
         "targetText": "Where are you from?",
         "transliteration": "वेयर आर यू फ्रॉम?",
@@ -55,7 +68,10 @@
     {
       "subTaskId": "t4",
       "prompt": "जॉन उत्तर देता है, 'I am from London. It is a big city. What day is it today?' (मैं लंदन से हूँ। यह एक बड़ा शहर है। आज कौन सा दिन है?)। उत्तर दें कि 'आज सोमवार है'।",
-      "expectedSpeakingPoints": ["Today is", "Monday"],
+      "expectedSpeakingPoints": [
+        "Today is",
+        "Monday"
+      ],
       "sampleResponse": {
         "targetText": "Today is Monday.",
         "transliteration": "टुडे इज़ मंडे।",
@@ -65,7 +81,10 @@
     {
       "subTaskId": "t5",
       "prompt": "अंतिम प्रश्न। जॉन से पूछें, 'पार्क कहाँ है?' (Where / is / the park)।",
-      "expectedSpeakingPoints": ["Where", "is the park"],
+      "expectedSpeakingPoints": [
+        "Where",
+        "is the park"
+      ],
       "sampleResponse": {
         "targetText": "Where is the park?",
         "transliteration": "वेयर इज़ द पार्क?",
@@ -150,19 +169,27 @@
     "onPartial": "Good try! You answered the questions well. Make sure your pronunciation of 'Twenty' is clear, and don't forget to raise your voice pitch at the end of a question."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b4/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m1/b4/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b4/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m1/b4/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m1/b4/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "John: Hello! What is your name?",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "questions", "numbers", "dates", "month1", "block4"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "questions",
+    "numbers",
+    "dates",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -175,7 +202,9 @@
     "Answering 'I have twenty-five years' instead of 'I am twenty-five years old'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_test_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

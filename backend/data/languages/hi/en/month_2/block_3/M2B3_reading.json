@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B3_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M2B3_pronunciation_001"
+  ],
   "instructions": "Read this story about a very bad day. Notice that because everything happened YESTERDAY, almost every action word ends in '-ed' or completely changes its shape (like Go -> Went). There are no 'Is' or 'Am' words here! Answer the 8 questions below.",
   "contentItems": [
     {
@@ -134,21 +136,33 @@
       "questionId": "q2",
       "questionText": "Why did the writer walk to work?",
       "questionType": "multiple_choice",
-      "options": ["Because he likes walking", "Because he missed the bus", "Because his car was broken"],
+      "options": [
+        "Because he likes walking",
+        "Because he missed the bus",
+        "Because his car was broken"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Find the irregular verb phrase in the text: Did the writer say 'I eated a sandwich' or 'I ate a sandwich'?",
       "questionType": "multiple_choice",
-      "options": ["I eated a sandwich", "I ate a sandwich"],
+      "options": [
+        "I eated a sandwich",
+        "I ate a sandwich"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "What happened in the afternoon on his walk home?",
       "questionType": "multiple_choice",
-      "options": ["It snowed", "It rained", "A dog chased him", "He found money"],
+      "options": [
+        "It snowed",
+        "It rained",
+        "A dog chased him",
+        "He found money"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -162,7 +176,10 @@
       "questionId": "q6",
       "questionText": "Does the text say 'I am watched television' or 'I watched television'?",
       "questionType": "multiple_choice",
-      "options": ["I am watched television", "I watched television"],
+      "options": [
+        "I am watched television",
+        "I watched television"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
@@ -176,7 +193,10 @@
       "questionId": "q8",
       "questionText": "True or False: The text says 'I gone home' rather than 'I went home'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -193,14 +213,33 @@
       "q8": "False"
     },
     "acceptableParaphrases": {
-      "q1": ["Ran", "ran"],
-      "q5": ["six", "Six", "6"],
-      "q7": ["twelve", "Twelve", "12"]
+      "q1": [
+        "Ran",
+        "ran"
+      ],
+      "q5": [
+        "six",
+        "Six",
+        "6"
+      ],
+      "q7": [
+        "twelve",
+        "Twelve",
+        "12"
+      ]
     },
     "keywordScoringRules": {
-      "q1": ["ran"],
-      "q5": ["6", "six"],
-      "q7": ["12", "twelve"]
+      "q1": [
+        "ran"
+      ],
+      "q5": [
+        "6",
+        "six"
+      ],
+      "q7": [
+        "12",
+        "twelve"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner correlates the narrative timeline shift to the pervasive '-ed' suffix.",
@@ -216,18 +255,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m2/b3/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Yesterday was a very bad day... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "simple_past", "verbs", "irregular_verbs", "month2", "block3"],
+  "tags": [
+    "reading",
+    "simple_past",
+    "verbs",
+    "irregular_verbs",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +285,9 @@
     "Thinking 'slept' means something else because it doesn't end in 'ed'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

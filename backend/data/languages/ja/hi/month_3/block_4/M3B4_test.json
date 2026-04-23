@@ -21,7 +21,13 @@
   "instructions": "Block 4 の確認テストです！買い物で絶対に使う「〜はいくらですか？(Kaaの法則)」「高い・安い」と、移動で必須の「〜に行きたい(Mujhe)」「方向の命令形(Iye)」が完璧になっているかを試します。",
   "testTitle": "Block 4 確認テスト (Travel & Shopping)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +39,11 @@
           "questionId": "q001",
           "questionText": "「これはいくらですか？」と正しく聞いている文章はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Yah kitne hai?", "Yah kitne kaa hai?", "Yah kitne mein hai?"],
+          "options": [
+            "Yah kitne hai?",
+            "Yah kitne kaa hai?",
+            "Yah kitne mein hai?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,10 @@
           "questionId": "q002",
           "questionText": "値段を聞く時、なぜ「Kaa (の)」がくっついているのですか？",
           "questionType": "multiple_choice",
-          "options": ["『いくら の もの』と、『の(所有格)』の形を使って表現するため", "『Kaa』自体が『お金』という意味だから"],
+          "options": [
+            "『いくら の もの』と、『の(所有格)』の形を使って表現するため",
+            "『Kaa』自体が『お金』という意味だから"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,10 @@
           "questionId": "q003",
           "questionText": "「私はホテルに行きたい(行く用がある)」という時、文の正しいスタートはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main (私は)", "Mujhe (私に)"],
+          "options": [
+            "Main (私は)",
+            "Mujhe (私に)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +79,11 @@
           "questionId": "q004",
           "questionText": "初対面の運転手に対して「まっすぐ行って」と丁寧にお願いする時、正しい動詞の形はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaanaa", "Jaao", "Jaaiye"],
+          "options": [
+            "Jaanaa",
+            "Jaao",
+            "Jaaiye"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +93,10 @@
           "questionId": "q005",
           "questionText": "True or False: オートリキシャに乗る時「右に曲がって(曲がる: Muḍnaa)」と丁寧にお願いする時は「Muḍiye」を使う。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -102,7 +125,10 @@
           "questionId": "q007",
           "questionText": "「安い (Cheap)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Mahangaa", "Sastaa"],
+          "options": [
+            "Mahangaa",
+            "Sastaa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +138,11 @@
           "questionId": "q008",
           "questionText": "「前へ (Ahead)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Aage", "Peechhe", "Seedhe"],
+          "options": [
+            "Aage",
+            "Peechhe",
+            "Seedhe"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -122,7 +152,10 @@
           "questionId": "q009",
           "questionText": "「まっすぐ (Straight)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Seedhe", "Aage"],
+          "options": [
+            "Seedhe",
+            "Aage"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +184,10 @@
           "questionId": "q011",
           "questionText": "「Bhaiyaa, mujhe station jaanaa hai.」 これを言っている人は何を伝えていますか？",
           "questionType": "multiple_choice",
-          "options": ["自分が今駅にいること", "自分が(これから)駅に行きたいということ"],
+          "options": [
+            "自分が今駅にいること",
+            "自分が(これから)駅に行きたいということ"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +197,10 @@
           "questionId": "q012",
           "questionText": "「Yah baig do sau rupaye kaa hai.」 バッグの値段はいくらだと言っていますか？",
           "questionType": "multiple_choice",
-          "options": ["200ルピー", "100ルピー"],
+          "options": [
+            "200ルピー",
+            "100ルピー"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +210,10 @@
           "questionId": "q013",
           "questionText": "「Aage jaaiye, phir baaen muḍiye.」 と指示されました。どう進みますか？",
           "questionType": "multiple_choice",
-          "options": ["前に進み、右に曲がる", "前に進み、左に曲がる"],
+          "options": [
+            "前に進み、右に曲がる",
+            "前に進み、左に曲がる"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -181,7 +223,10 @@
           "questionId": "q014",
           "questionText": "値段を言われて「Bahut mahangaa hai!」と叫びました。この後、続けて言うべき自然なフレーズはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Aage jaaiye.", "Thoḍaa sastaa deejiye."],
+          "options": [
+            "Aage jaaiye.",
+            "Thoḍaa sastaa deejiye."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -191,7 +236,10 @@
           "questionId": "q015",
           "questionText": "文脈問題: 日本語の「私『は』」につられて、移動したい時に「Main...」と始めてしまうと文法がおかしくなります。なぜなら移動目的を語る時は『ーーーに用事がある』という形を取るからです。この仕組みで使われる代名詞はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Mujhe", "Meraa"],
+          "options": [
+            "Mujhe",
+            "Meraa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +258,11 @@
           "questionId": "q016",
           "questionText": "Translate: \"How much is this?\"",
           "questionType": "multiple_choice",
-          "options": ["Yah kitne hai?", "Yah kitne kaa hai?", "Yah kahaan hai?"],
+          "options": [
+            "Yah kitne hai?",
+            "Yah kitne kaa hai?",
+            "Yah kahaan hai?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +272,11 @@
           "questionId": "q017",
           "questionText": "Translate: \"I want to go to the station.\"",
           "questionType": "multiple_choice",
-          "options": ["Main station jaaoongaa.", "Mujhe station jaanaa hai.", "Main station jaanaa hai."],
+          "options": [
+            "Main station jaaoongaa.",
+            "Mujhe station jaanaa hai.",
+            "Main station jaanaa hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +286,11 @@
           "questionId": "q018",
           "questionText": "Translate: \"Please go straight.\"",
           "questionType": "multiple_choice",
-          "options": ["Sastaa jaaiye.", "Seedhe jaaiye.", "Seedhe jaao."],
+          "options": [
+            "Sastaa jaaiye.",
+            "Seedhe jaaiye.",
+            "Seedhe jaao."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,10 +362,25 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q006": ["mahangaa", "Mahangaa", "mahanga"],
-      "q010": ["sau", "Sau", "SAU"],
-      "q019": ["daaen", "Daaen", "dayen"],
-      "q020": ["sastaa", "Sastaa"]
+      "q006": [
+        "mahangaa",
+        "Mahangaa",
+        "mahanga"
+      ],
+      "q010": [
+        "sau",
+        "Sau",
+        "SAU"
+      ],
+      "q019": [
+        "daaen",
+        "Daaen",
+        "dayen"
+      ],
+      "q020": [
+        "sastaa",
+        "Sastaa"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 20,
@@ -325,7 +400,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -334,7 +409,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "survival", "travel", "shopping", "month3", "block4"],
+  "tags": [
+    "test",
+    "survival",
+    "travel",
+    "shopping",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -344,7 +426,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

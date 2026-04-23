@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B3_lesson_001"],
+  "prerequisites": [
+    "en_hi_M3B3_lesson_001"
+  ],
   "instructions": "In English, when a word ends in a hard letter (like N or P) and the next word starts with a soft vowel letter (like O or U), native speakers squish them together into ONE SOUND! Listen and copy this 'linking' sound.",
   "contentItems": [
     {
@@ -206,19 +208,24 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b3/pronunciation/native_linked.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b3/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b3/pronunciation/slow_linked.mp3",
-    "normalAudio": "audio/en_hi/m3/b3/pronunciation/native_linked.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Wake up. Turn on...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "linking", "phrasal_verbs", "intermediate"],
+  "tags": [
+    "pronunciation",
+    "linking",
+    "phrasal_verbs",
+    "intermediate"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -230,7 +237,9 @@
     "Inserting a glottal stop (a tiny pause) between 'Turn' and 'On'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B3_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M3B3_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

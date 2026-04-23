@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B1_reading_001"],
+  "prerequisites": [
+    "ja_hi_M3B1_reading_001"
+  ],
   "instructions": "あなたが「男性」であると仮定して、自分の能力(できる)と願望(したい)についてヒンディー語で書いてみましょう。メインの動詞の形（根っこにするか、ナーをつけるか）を間違えないように注意してください！",
   "contentItems": [
     {
@@ -138,7 +140,14 @@
       "main hindee bol saktaa hoon main bhaarat jaa nahin saktaa main kaam karnaa chaahtaa hoon",
       "main hindi bol sakta hu main bharat nahi ja sakta hu main kaam karna chahta hu"
     ],
-    "requiredKeywords": ["बोल", "सकता", "जा", "नहीं", "करना", "चाहता"],
+    "requiredKeywords": [
+      "बोल",
+      "सकता",
+      "जा",
+      "नहीं",
+      "करना",
+      "चाहता"
+    ],
     "grammarBaseline": "Crucial exact-matches: 'bol saktaa' (not bolnaa saktaa), 'jaa saktaa' (not jaanaa saktaa), and 'karnaa chaahtaa' (not kar chaahtaa). Affirmative sentences must end in 'hoon'. Negative sentence can end in 'saktaa' or 'saktaa hoon'.",
     "lengthExpectation": "3 distinct sentences.",
     "scoringRubric": {
@@ -154,19 +163,27 @@
     "onPartial": "惜しいところがあります。第2文の否定文で「Nahin」を入れる位置ですが、動詞の塊（Jaa saktaa）を崩さずに、その直前に置くのが一番自然です(Nahin jaa saktaa)。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b1/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b1/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m3/b1/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate three sentences outlining ability and desire using appropriate roots and infinitives.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "modals", "ability", "desire", "month3", "block1"],
+  "tags": [
+    "writing",
+    "grammar",
+    "modals",
+    "ability",
+    "desire",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -178,7 +195,9 @@
     "Writing 'Main kaam kar chaahtaa hoon' dropping the necessary '-naa' for the desire modal."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B1_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B1_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

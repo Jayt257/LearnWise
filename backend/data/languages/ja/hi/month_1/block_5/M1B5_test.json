@@ -21,7 +21,12 @@
   "instructions": "Block 5 の確認テストです！ヒンディー語の「動詞の組み立て（語幹 ＋ 性別 ＋ です）」の文法パズルを完璧に解けるかをテストします。",
   "testTitle": "Block 5 確認テスト (Verbs & Gender Conjugation)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "辞書に載っているヒンディー語の動詞（原形）は、どのような音で終わりますか？",
           "questionType": "multiple_choice",
-          "options": ["〜ナー (naa)", "〜ター (taa)", "〜テー (te)"],
+          "options": [
+            "〜ナー (naa)",
+            "〜ター (taa)",
+            "〜テー (te)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "「Khaanaa（食べる）」の『語幹（パーツを繋げる時に使う部分）』はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Khaan-", "Khaa-", "Khaanaa-"],
+          "options": [
+            "Khaan-",
+            "Khaa-",
+            "Khaanaa-"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "「Jaanaa（行く）」の『語幹』はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaan-", "Jaa-", "Jaa-naa"],
+          "options": [
+            "Jaan-",
+            "Jaa-",
+            "Jaa-naa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +90,10 @@
           "questionId": "q005",
           "questionText": "True or False: 日本語のように、ヒンディー語も「Khaanaa」という辞書形をそのまま文の最後で使うことができる（例: Main seb khaanaa.）",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -92,7 +112,11 @@
           "questionId": "q006",
           "questionText": "男性が「私は食べます」と言う時、正しいのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Khaatee (खाती)", "Khaataa (खाता)", "Khaate (खाते)"],
+          "options": [
+            "Khaatee (खाती)",
+            "Khaataa (खाता)",
+            "Khaate (खाते)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -102,7 +126,11 @@
           "questionId": "q007",
           "questionText": "女性が「私は行きます」と言う時、正しいのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaataa (जाता)", "Jaatee (जाती)", "Jaate (जाते)"],
+          "options": [
+            "Jaataa (जाता)",
+            "Jaatee (जाती)",
+            "Jaate (जाते)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +140,11 @@
           "questionId": "q008",
           "questionText": "Aap（あなた）に対して「行きますか？」と聞く時、正しいのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaataa (जाता)", "Jaatee (जाती)", "Jaate (जाते)"],
+          "options": [
+            "Jaataa (जाता)",
+            "Jaatee (जाती)",
+            "Jaate (जाते)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -122,7 +154,11 @@
           "questionId": "q009",
           "questionText": "女性の私が「水を飲む」と言う時の文の終わり方で正しいのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["peetee hoon.", "peetaa hoon.", "peetee hai."],
+          "options": [
+            "peetee hoon.",
+            "peetaa hoon.",
+            "peetee hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -132,7 +168,11 @@
           "questionId": "q010",
           "questionText": "Aap（あなた）が行くという時の文の終わり方で正しいのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["jaate hoon.", "jaate hain.", "jaatee hai."],
+          "options": [
+            "jaate hoon.",
+            "jaate hain.",
+            "jaatee hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +191,10 @@
           "questionId": "q011",
           "questionText": "「Main kitaab paḍhtaa hoon.（私は本を読みます）」と言っている人は、男性ですか？女性ですか？",
           "questionType": "multiple_choice",
-          "options": ["男性 (Masculine)", "女性 (Feminine)"],
+          "options": [
+            "男性 (Masculine)",
+            "女性 (Feminine)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +204,10 @@
           "questionId": "q012",
           "questionText": "「Main seb khaatee hoon.（りんごを食べます）」と言っている人は、男性ですか？女性ですか？",
           "questionType": "multiple_choice",
-          "options": ["男性 (Masculine)", "女性 (Feminine)"],
+          "options": [
+            "男性 (Masculine)",
+            "女性 (Feminine)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +217,10 @@
           "questionId": "q013",
           "questionText": "「彼は行きます」という文では『Hai (है)』で終わります。「彼 (Vah)」の場合、動詞はどうなりますか？",
           "questionType": "multiple_choice",
-          "options": ["Jaatee hai (彼が「男」のままでもJaateeになる)", "Jaataa hai (彼が男なのでJaataaになる)"],
+          "options": [
+            "Jaatee hai (彼が「男」のままでもJaateeになる)",
+            "Jaataa hai (彼が男なのでJaataaになる)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +259,11 @@
           "questionId": "q016",
           "questionText": "Translate: 'मैं रोज़ पानी पीता हूँ।' (Main roz paanee peetaa hoon.) ※男性が話している",
           "questionType": "multiple_choice",
-          "options": ["私は毎日りんごを食べます。", "私は毎日水を飲みます。", "私は日本へ行きます。"],
+          "options": [
+            "私は毎日りんごを食べます。",
+            "私は毎日水を飲みます。",
+            "私は日本へ行きます。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +273,11 @@
           "questionId": "q017",
           "questionText": "Translate: 'आप क्या करते हैं?' (Aap kyaa karte hain?)",
           "questionType": "multiple_choice",
-          "options": ["あなたは何をしますか？", "あなたはどこを見ますか？", "誰が水を飲みますか？"],
+          "options": [
+            "あなたは何をしますか？",
+            "あなたはどこを見ますか？",
+            "誰が水を飲みますか？"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +287,11 @@
           "questionId": "q018",
           "questionText": "Fix the error (Female speaker): 'Main Jaapaan jaataa hai.'",
           "questionType": "multiple_choice",
-          "options": ["Main Jaapaan jaatee hoon.", "Main Jaapaan jaataa hoon.", "Aap Jaapaan jaatee hai."],
+          "options": [
+            "Main Jaapaan jaatee hoon.",
+            "Main Jaapaan jaataa hoon.",
+            "Aap Jaapaan jaatee hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -240,7 +301,10 @@
           "questionId": "q019",
           "questionText": "True or False: 日本語の『食べ(る)』や『飲み(ます)』にあたる、ヒンディー語の『Khaa』や『Pee』の部分は、話者が男性でも女性でも変化しない。（変化するのはその後ろのTaa/Teeの部分である）",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,10 +366,24 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q004": ["peenaa", "Peenaa"],
-      "q014": ["roz", "Roz", "roj"],
-      "q015": ["paanee", "Paanee"],
-      "q020": ["みる", "ミル", "見る"]
+      "q004": [
+        "peenaa",
+        "Peenaa"
+      ],
+      "q014": [
+        "roz",
+        "Roz",
+        "roj"
+      ],
+      "q015": [
+        "paanee",
+        "Paanee"
+      ],
+      "q020": [
+        "みる",
+        "ミル",
+        "見る"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 20,
@@ -325,7 +403,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -334,7 +412,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "grammar", "verbs", "gender", "conjugation", "month1", "block5"],
+  "tags": [
+    "test",
+    "grammar",
+    "verbs",
+    "gender",
+    "conjugation",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -344,7 +430,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B6_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B6_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

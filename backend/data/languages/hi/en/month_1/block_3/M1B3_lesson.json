@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B2_test_001"],
+  "prerequisites": [
+    "en_hi_M1B2_test_001"
+  ],
   "instructions": "In this lesson, you will learn why English requires small words like 'A' or 'An' in front of nouns, and how to change one thing into many things. Read through the rules carefully, listen to the target language examples, and test your knowledge at the bottom.",
   "contentItems": [
     {
@@ -46,18 +48,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b3/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m1/b3/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b3/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m1/b3/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "A cat. An apple. Boys. Boxes.",
     "audioLanguage": "en",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "nouns", "articles", "plurals", "beginner", "month1", "block3"],
+  "tags": [
+    "grammar",
+    "nouns",
+    "articles",
+    "plurals",
+    "beginner",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -70,7 +80,9 @@
     "Saying 'They are a students'. (Plurals DO NOT take A/An)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Nouns, Plurals & Articles",

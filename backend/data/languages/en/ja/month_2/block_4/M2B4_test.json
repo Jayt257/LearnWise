@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does びょういん (Byouin) mean?",
           "questionType": "multiple_choice",
-          "options": ["Hospital", "Museum", "Park", "Library"],
+          "options": [
+            "Hospital",
+            "Museum",
+            "Park",
+            "Library"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does びじゅつかん (Bijutsukan) mean?",
           "questionType": "multiple_choice",
-          "options": ["Hospital", "Library", "Museum", "Park"],
+          "options": [
+            "Hospital",
+            "Library",
+            "Museum",
+            "Park"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does はしります (Hashirimasu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To walk", "To run", "To sit", "To stand"],
+          "options": [
+            "To walk",
+            "To run",
+            "To sit",
+            "To stand"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does すわります (Suwarimasu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To smoke", "To run", "To sit", "To use"],
+          "options": [
+            "To smoke",
+            "To run",
+            "To sit",
+            "To use"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What is the speaker asking permission to do?",
           "questionType": "multiple_choice",
-          "options": ["To smoke tobacco", "To take a photo", "To sit here", "To enter"],
+          "options": [
+            "To smoke tobacco",
+            "To take a photo",
+            "To sit here",
+            "To enter"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. What is the strict rule stated?",
           "questionType": "multiple_choice",
-          "options": ["You must not use a phone", "You must not run", "You must not smoke", "You must not enter"],
+          "options": [
+            "You must not use a phone",
+            "You must not run",
+            "You must not smoke",
+            "You must not enter"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,11 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. Is the speaker allowed to sit?",
           "questionType": "multiple_choice",
-          "options": ["Yes", "No", "They didn't ask"],
+          "options": [
+            "Yes",
+            "No",
+            "They didn't ask"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +420,22 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Totte wa ikemasen"],
-      "q017": ["Tsukatte mo ii desu ka"],
-      "q018": ["Byouin", "byouin"],
-      "q019": ["Hashitte wa ikemasen"],
-      "q020": ["Haitte mo ii desu ka"]
+      "q016": [
+        "Totte wa ikemasen"
+      ],
+      "q017": [
+        "Tsukatte mo ii desu ka"
+      ],
+      "q018": [
+        "Byouin",
+        "byouin"
+      ],
+      "q019": [
+        "Hashitte wa ikemasen"
+      ],
+      "q020": [
+        "Haitte mo ii desu ka"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b4/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B6_listening_001"],
+  "prerequisites": [
+    "en_hi_M2B6_listening_001"
+  ],
   "instructions": "Here are 15 important action words and polite words. You will need these to make 'Could you' sentences! Memorize them nicely. Answer the 10 questions.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What word means 'प्रतीक्षा करना' in English?",
       "questionType": "multiple_choice",
-      "options": ["Move", "Open", "Wait", "Tell"],
+      "options": [
+        "Move",
+        "Open",
+        "Wait",
+        "Tell"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which is the English translation for 'खोलना'?",
       "questionType": "multiple_choice",
-      "options": ["Close", "Move", "Open", "Give"],
+      "options": [
+        "Close",
+        "Move",
+        "Open",
+        "Give"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: 'Weather' means 'मौसम'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "If you didn't hear someone, you should ask them to _____.",
       "questionType": "multiple_choice",
-      "options": ["Close", "Repeat", "Give", "Move"],
+      "options": [
+        "Close",
+        "Repeat",
+        "Give",
+        "Move"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,48 @@
       "questionId": "q7",
       "questionText": "If someone says 'Thank you', you should say 'You are ____'.",
       "questionType": "multiple_choice",
-      "options": ["Sorry", "Fine", "Welcome", "Day"],
+      "options": [
+        "Sorry",
+        "Fine",
+        "Welcome",
+        "Day"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What does 'Tell' mean?",
       "questionType": "multiple_choice",
-      "options": ["खोलना", "देना", "बताना", "बंद करना"],
+      "options": [
+        "खोलना",
+        "देना",
+        "बताना",
+        "बंद करना"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What word means 'हटाना / खिसकाना'?",
       "questionType": "multiple_choice",
-      "options": ["Speak", "Move", "Help", "Wait"],
+      "options": [
+        "Speak",
+        "Move",
+        "Help",
+        "Wait"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'मुझे खेद है' to English.",
       "questionType": "multiple_choice",
-      "options": ["I am fine", "I am welcome", "I am sorry", "I am slowly"],
+      "options": [
+        "I am fine",
+        "I am welcome",
+        "I am sorry",
+        "I am slowly"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,7 +330,10 @@
       "w15": "धीरे से"
     },
     "acceptedTranslations": {
-      "w14": ["fine", "Fine"]
+      "w14": [
+        "fine",
+        "Fine"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -316,18 +359,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b6/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b6/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b6/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b6/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Open. Close. Wait. Move...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "verbs", "politeness", "small_talk", "month2", "block6"],
+  "tags": [
+    "vocabulary",
+    "verbs",
+    "politeness",
+    "small_talk",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -339,7 +389,9 @@
     "Thinking 'Sorry' always implies deep regret, when it is heavily used as a casual apology for minor inconveniences."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

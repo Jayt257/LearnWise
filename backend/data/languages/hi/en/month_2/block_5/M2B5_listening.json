@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M2B5_writing_001"],
+  "prerequisites": [
+    "en_hi_M2B5_writing_001"
+  ],
   "instructions": "Listen to a husband and wife packing boxes to move to a new house. They speak quickly! Listen closely to hear WHO owns the items, and pay special attention to the difference between 'This' and 'These'. Answer the 8 questions.",
   "contentItems": [
     {
@@ -92,7 +94,11 @@
       "questionId": "q1",
       "questionText": "Where is the box the wife wants? It is near the ____.",
       "questionType": "multiple_choice",
-      "options": ["door of the bedroom", "door of the kitchen", "back of the kitchen"],
+      "options": [
+        "door of the bedroom",
+        "door of the kitchen",
+        "back of the kitchen"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -100,7 +106,11 @@
       "questionId": "q2",
       "questionText": "What are they putting in the big box?",
       "questionType": "multiple_choice",
-      "options": ["The children's books", "The mother's plates", "The children's toys"],
+      "options": [
+        "The children's books",
+        "The mother's plates",
+        "The children's toys"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -108,7 +118,11 @@
       "questionId": "q3",
       "questionText": "Who owns the cars that Amit is holding in his hands? (Listen carefully to the name with the 'S)",
       "questionType": "multiple_choice",
-      "options": ["Rahul", "Neha", "Amit"],
+      "options": [
+        "Rahul",
+        "Neha",
+        "Amit"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -124,7 +138,10 @@
       "questionId": "q5",
       "questionText": "Did Amit ask about 'This blue book' or 'These blue book'?",
       "questionType": "multiple_choice",
-      "options": ["This blue book", "These blue book"],
+      "options": [
+        "This blue book",
+        "These blue book"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -132,7 +149,11 @@
       "questionId": "q6",
       "questionText": "The wife says 'The cover ___ the book' is torn. Fill in the blank.",
       "questionType": "multiple_choice",
-      "options": ["of", "'s", "for"],
+      "options": [
+        "of",
+        "'s",
+        "for"
+      ],
       "audioTimestamp": "00:19",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -140,7 +161,11 @@
       "questionId": "q7",
       "questionText": "Who owns the big plates?",
       "questionType": "multiple_choice",
-      "options": ["The wife", "Rahul", "The mother"],
+      "options": [
+        "The wife",
+        "Rahul",
+        "The mother"
+      ],
       "audioTimestamp": "00:27",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -148,7 +173,10 @@
       "questionId": "q8",
       "questionText": "When Amit asks about the plates far away on the table, does he say 'These plates' or 'Those plates'?",
       "questionType": "multiple_choice",
-      "options": ["These", "Those"],
+      "options": [
+        "These",
+        "Those"
+      ],
       "audioTimestamp": "00:25",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -172,11 +200,17 @@
       "q8": "Those"
     },
     "acceptedShortAnswers": {
-      "q4": ["red", "Red", "they are red"]
+      "q4": [
+        "red",
+        "Red",
+        "they are red"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["red"]
+      "q4": [
+        "red"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -189,18 +223,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b5/listening/moving_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b5/listening/moving_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b5/listening/moving_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Wife: Okay, Amit. Bring me that big box... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "possessives", "demonstratives", "apostrophe", "beginner", "month2", "block5"],
+  "tags": [
+    "listening",
+    "possessives",
+    "demonstratives",
+    "apostrophe",
+    "beginner",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -212,7 +254,9 @@
     "Thinking 'children's' means the children are doing something, rather than owning something."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B5_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M2B5_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

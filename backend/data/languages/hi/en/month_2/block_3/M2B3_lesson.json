@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B2_test_001"],
+  "prerequisites": [
+    "en_hi_M2B2_test_001"
+  ],
   "instructions": "Now we are going back in time! If something happened yesterday, we use the Simple Past verb. Read this lesson to learn how to add '-ed' to action words, and learn why some words completely change their shape!",
   "contentItems": [
     {
@@ -45,18 +47,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b3/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m2/b3/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b3/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m2/b3/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I played. I went. I ate.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "tenses", "simple_past", "verbs", "irregular_verbs", "month2", "block3"],
+  "tags": [
+    "grammar",
+    "tenses",
+    "simple_past",
+    "verbs",
+    "irregular_verbs",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +79,9 @@
     "Saying 'He was go to the store'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "How to Talk About Yesterday",

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B6_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M1B6_lesson_001"
+  ],
   "instructions": "総復習の発音練習です！これまで学んだ複数のブロック（主語、場所、動詞）を組み合わせた長い文を、途中で途切れるロボットのようにならないように、滑らかに発音しましょう。",
   "contentItems": [
     {
@@ -96,19 +98,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b6/pronunciation/native_review.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b6/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b6/pronunciation/slow_review.mp3",
-    "normalAudio": "audio/ja_hi/m1/b6/pronunciation/native_review.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main Jaapaan se hoon... (Matches all items).",
     "audioLanguage": "hi",
     "audioDuration": 180,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "review", "fluency", "prosody", "month1", "block6"],
+  "tags": [
+    "pronunciation",
+    "review",
+    "fluency",
+    "prosody",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -120,7 +129,9 @@
     "Cognitive stuttering (pausing before 'mein' or 'par' to think of the translation)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B6_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B6_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

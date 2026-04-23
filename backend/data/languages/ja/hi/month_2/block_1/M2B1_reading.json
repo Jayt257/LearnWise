@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B1_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M2B1_pronunciation_001"
+  ],
   "instructions": "ラージの家族が休日の朝にそれぞれ何をしているのか、彼の日記を読んでみましょう。「〜する（習慣）」と「〜している（今）」の違いに注目してください。",
   "contentItems": [
     {
@@ -110,7 +112,11 @@
       "questionId": "q1",
       "questionText": "ラージ（私）は「今」何をしていますか？",
       "questionType": "multiple_choice",
-      "options": ["休んでいる (Aaraam kar rahaa)", "本を読んでいる (Paḍh rahaa)", "話している (Baat kar rahaa)"],
+      "options": [
+        "休んでいる (Aaraam kar rahaa)",
+        "本を読んでいる (Paḍh rahaa)",
+        "話している (Baat kar rahaa)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
@@ -124,14 +130,20 @@
       "questionId": "q3",
       "questionText": "お姉さん（Bahan）がお茶を飲む時、「飲んでいる」という動詞はどうなっていますか（性別による変化に注目）？",
       "questionType": "multiple_choice",
-      "options": ["pee rahaa hai", "pee rahee hai"],
+      "options": [
+        "pee rahaa hai",
+        "pee rahee hai"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "お父さん（Pitaa jee）の動作の最後に「Rahe (ラヘー)」が使われているのはなぜですか？",
       "questionType": "multiple_choice",
-      "options": ["お父さんが男性だから", "お父さんに対して尊敬(丁寧)のルールが適用されているから"],
+      "options": [
+        "お父さんが男性だから",
+        "お父さんに対して尊敬(丁寧)のルールが適用されているから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -152,12 +164,30 @@
       "q5": "英語"
     },
     "acceptableParaphrases": {
-      "q2": ["兄", "お兄さん", "Bhaaii", "bhaaii", "弟"],
-      "q5": ["英語", "えいご", "Angrezee", "angrezee"]
+      "q2": [
+        "兄",
+        "お兄さん",
+        "Bhaaii",
+        "bhaaii",
+        "弟"
+      ],
+      "q5": [
+        "英語",
+        "えいご",
+        "Angrezee",
+        "angrezee"
+      ]
     },
     "keywordScoringRules": {
-      "q2": ["兄", "弟", "bhaaii"],
-      "q5": ["英語", "angrezee"]
+      "q2": [
+        "兄",
+        "弟",
+        "bhaaii"
+      ],
+      "q5": [
+        "英語",
+        "angrezee"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner successfully identifies the progressive auxiliary 'Rahaa' distinguishing it from Month 1's habitual 'Taa'.",
@@ -173,18 +203,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b1/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b1/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b1/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m2/b1/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Aaj ravivaar hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "verbs", "present_continuous", "family", "respect", "month2", "block1"],
+  "tags": [
+    "reading",
+    "verbs",
+    "present_continuous",
+    "family",
+    "respect",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -196,7 +234,9 @@
     "Thinking 'baat kar rahe' means talking to multiple people instead of a single respected figure (Pitaa/Father)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B1_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B1_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

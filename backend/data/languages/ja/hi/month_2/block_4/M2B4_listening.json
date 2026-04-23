@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M2B4_writing_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_writing_001"
+  ],
   "instructions": "ラージとアニタがスマートフォンの写真を見せ合っています。「私の(Meraa/Meree)」や「〜の(Kaa/Kee/Ke)」という言葉が、誰の性別・尊敬に合わせて変化しているかを聞き取ってください。",
   "contentItems": [
     {
@@ -52,7 +54,10 @@
       "questionId": "q1",
       "questionText": "アニタが最初に見せた写真に写っていたのは誰ですか？",
       "questionType": "multiple_choice",
-      "options": ["友達", "妹 (Bahan)"],
+      "options": [
+        "友達",
+        "妹 (Bahan)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +65,10 @@
       "questionId": "q2",
       "questionText": "ラージは「これ(彼)はあなたのお父さんですか？」と聞く時、「Tumhaaree」ではなく「Tumhaare」を使いました。なぜですか？",
       "questionType": "multiple_choice",
-      "options": ["お父さん（Pitaa jee）を尊敬表現(エの音)で扱うため", "アニタが女性だから"],
+      "options": [
+        "お父さん（Pitaa jee）を尊敬表現(エの音)で扱うため",
+        "アニタが女性だから"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +76,10 @@
       "questionId": "q3",
       "questionText": "写真に写っていた大人の男性は誰でしたか？",
       "questionType": "multiple_choice",
-      "options": ["アニタの友達", "アニタの友達のお父さん"],
+      "options": [
+        "アニタの友達",
+        "アニタの友達のお父さん"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -76,7 +87,10 @@
       "questionId": "q4",
       "questionText": "最後の文で、ラージは友達の「何」がどこにあるかを聞きましたか？",
       "questionType": "multiple_choice",
-      "options": ["学校", "家 (Ghar)"],
+      "options": [
+        "学校",
+        "家 (Ghar)"
+      ],
       "audioTimestamp": "00:16",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -84,7 +98,10 @@
       "questionId": "q5",
       "questionText": "友達(Dost)の『家(Ghar)』と言う時、「〜の」にあたる助詞は何の音になっていましたか？",
       "questionType": "multiple_choice",
-      "options": ["Kee (キー)", "Kaa (カー)"],
+      "options": [
+        "Kee (キー)",
+        "Kaa (カー)"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -118,18 +135,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b4/listening/photo_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b4/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b4/listening/photo_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b4/listening/photo_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, yah kaun hai?...\n(Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 55,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "possession", "family", "pronouns", "particles", "month2", "block4"],
+  "tags": [
+    "listening",
+    "possession",
+    "family",
+    "pronouns",
+    "particles",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -141,7 +166,9 @@
     "Thinking 'Tumhaare pitaa jee' implies Anita has multiple fathers."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B4_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B4_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

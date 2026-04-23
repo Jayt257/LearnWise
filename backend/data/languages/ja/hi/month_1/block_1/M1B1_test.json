@@ -21,7 +21,12 @@
   "instructions": "Block 1 の確認テストです！このテストでは、ヒンディー語の「音のルール」と「挨拶・自己紹介」がしっかり身についているかをチェックします！全20問です。頑張りましょう！",
   "testTitle": "Block 1 確認テスト",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には75点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "ヒンディー語を書くための文字の名前は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["漢字 (Kanji)", "デーヴァナーガリー (Devanagari)", "ハングル (Hangul)"],
+          "options": [
+            "漢字 (Kanji)",
+            "デーヴァナーガリー (Devanagari)",
+            "ハングル (Hangul)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "ヒンディー語の『K (क)』と『Kh (ख)』の決定的な違いは何ですか？",
           "questionType": "multiple_choice",
-          "options": ["息を強く吐くか吐かないか (Aspiration)", "舌を歯に当てるかどうか", "ピッチ（音の高さ）"],
+          "options": [
+            "息を強く吐くか吐かないか (Aspiration)",
+            "舌を歯に当てるかどうか",
+            "ピッチ（音の高さ）"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,10 @@
           "questionId": "q003",
           "questionText": "舌を大きく丸めて口蓋（上あご）を弾いて出す音（例：Ṭamaaṭar トマト）を何と呼びますか？",
           "questionType": "multiple_choice",
-          "options": ["歯音 (Dental)", "反り舌音 (Retroflex)"],
+          "options": [
+            "歯音 (Dental)",
+            "反り舌音 (Retroflex)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +79,10 @@
           "questionId": "q004",
           "questionText": "True or False: ヒンディー語の単語の最後に、日本語のようないつも母音（ウやオ）を付けて発音してよい。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -96,7 +115,11 @@
           "questionId": "q006",
           "questionText": "「ありがとう」を意味するヒンディー語の言葉はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["मेरा (Mera)", "धन्यवाद (Dhanyavaad)", "है (Hai)"],
+          "options": [
+            "मेरा (Mera)",
+            "धन्यवाद (Dhanyavaad)",
+            "है (Hai)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -106,7 +129,11 @@
           "questionId": "q007",
           "questionText": "「はい (Yes)」をヒンディー語で何と言いますか？",
           "questionType": "multiple_choice",
-          "options": ["हाँ (Haan)", "नहीं (Nahin)", "मैं (Main)"],
+          "options": [
+            "हाँ (Haan)",
+            "नहीं (Nahin)",
+            "मैं (Main)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -116,7 +143,11 @@
           "questionId": "q008",
           "questionText": "文の最後に来る、日本語の「です」と同じ働きをする単語はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["राम (Raam)", "है (Hai)", "मेरा (Mera)"],
+          "options": [
+            "राम (Raam)",
+            "है (Hai)",
+            "मेरा (Mera)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -126,7 +157,11 @@
           "questionId": "q009",
           "questionText": "「私の」という意味のヒンディー語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["नाम (Naam)", "मैं (Main)", "मेरा (Mera)"],
+          "options": [
+            "नाम (Naam)",
+            "मैं (Main)",
+            "मेरा (Mera)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -155,7 +190,11 @@
           "questionId": "q011",
           "questionText": "「私の名前はアキラです」という文を作る正しい語順はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Mera hai naam Akira.", "Mera naam Akira hai.", "Hai mera naam Akira."],
+          "options": [
+            "Mera hai naam Akira.",
+            "Mera naam Akira hai.",
+            "Hai mera naam Akira."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -165,7 +204,10 @@
           "questionId": "q012",
           "questionText": "True or False: ヒンディー語と日本語の基本語順（S-O-V）は全く違う。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -175,7 +217,11 @@
           "questionId": "q013",
           "questionText": "「私は元気です / 大丈夫です」を正しく表現しているのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main ṭheek hoon.", "Main hoon ṭheek.", "Ṭheek main hai."],
+          "options": [
+            "Main ṭheek hoon.",
+            "Main hoon ṭheek.",
+            "Ṭheek main hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -185,7 +231,10 @@
           "questionId": "q014",
           "questionText": "「Main」を主語にする場合、文の終わりの単語（動詞）は何を使う必要がありますか？",
           "questionType": "multiple_choice",
-          "options": ["Hai (है)", "Hoon (हूँ)"],
+          "options": [
+            "Hai (है)",
+            "Hoon (हूँ)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -195,7 +244,11 @@
           "questionId": "q015",
           "questionText": "「いいえ」を正確に綴ったものはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["नहीं (Nahin)", "नाही (Naahi)", "नही (Nahi)"],
+          "options": [
+            "नहीं (Nahin)",
+            "नाही (Naahi)",
+            "नही (Nahi)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -214,7 +267,11 @@
           "questionId": "q016",
           "questionText": "Translate: 'मेरा नाम केन है।'",
           "questionType": "multiple_choice",
-          "options": ["こんにちは私です。", "私の名前はケンです。", "私の車はここです。"],
+          "options": [
+            "こんにちは私です。",
+            "私の名前はケンです。",
+            "私の車はここです。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -224,7 +281,11 @@
           "questionId": "q017",
           "questionText": "Translate: 'नमस्ते। मैं ठीक हूँ।'",
           "questionType": "multiple_choice",
-          "options": ["こんにちは。私は元気です。", "ありがとう。私はケンです。", "こんにちは。私の名前です。"],
+          "options": [
+            "こんにちは。私は元気です。",
+            "ありがとう。私はケンです。",
+            "こんにちは。私の名前です。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -234,7 +295,11 @@
           "questionId": "q018",
           "questionText": "文章を書くときに使うデーヴァナーガリー特有の「文字の上に引く直線」を何と呼びますか？(ヒント: レッスン2などで触れています)",
           "questionType": "multiple_choice",
-          "options": ["シローレーカー", "アンダースコア", "ハイフン"],
+          "options": [
+            "シローレーカー",
+            "アンダースコア",
+            "ハイフン"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -244,7 +309,10 @@
           "questionId": "q019",
           "questionText": "日本語の「カ」をヒンディー語で発音しようとする場合、日本人は通常（無意識に）どちらの音を出してしまいますか？",
           "questionType": "multiple_choice",
-          "options": ["息を吐かない無気音のK", "息を強く吐く有気音のKh"],
+          "options": [
+            "息を吐かない無気音のK",
+            "息を強く吐く有気音のKh"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -306,9 +374,18 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q005": ["namaste", "Namaste"],
-      "q010": ["Naam", "naam"],
-      "q020": ["Naam", "naam"]
+      "q005": [
+        "namaste",
+        "Namaste"
+      ],
+      "q010": [
+        "Naam",
+        "naam"
+      ],
+      "q020": [
+        "Naam",
+        "naam"
+      ]
     },
     "sectionPassMarks": {
       "sec_phonetics": 15,
@@ -328,7 +405,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -337,7 +414,15 @@
     "audioDuration": 20,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "basics", "phonetics", "sov", "devanagari", "month1", "block1"],
+  "tags": [
+    "test",
+    "basics",
+    "phonetics",
+    "sov",
+    "devanagari",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -347,7 +432,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B2_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B2_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

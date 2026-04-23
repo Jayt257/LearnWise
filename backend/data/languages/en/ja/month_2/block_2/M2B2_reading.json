@@ -150,7 +150,11 @@
       "q005": "kaerimasu"
     },
     "acceptableParaphrases": {
-      "q005": ["kaerimasu", "Kaerimasu", "かえります"]
+      "q005": [
+        "kaerimasu",
+        "Kaerimasu",
+        "かえります"
+      ]
     },
     "keywordScoringRules": {},
     "expectedSummaryPoints": [
@@ -168,12 +172,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_en/m2/b2/reading/normal_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "こんにちは。いま、わたしは カフェで コーヒーを のんで います。ともだちは プールで およいで います。あとで、ともだちと えいがを みます。それから、うちへ かえります。はやく かえって ください。はい、わかりました。",
     "audioLanguage": "ja",
     "audioDuration": 55,

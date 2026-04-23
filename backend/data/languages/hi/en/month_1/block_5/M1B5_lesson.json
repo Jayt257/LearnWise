@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B4_test_001"],
+  "prerequisites": [
+    "en_hi_M1B4_test_001"
+  ],
   "instructions": "In this lesson, we leave 'am/is/are' behind. You will learn how to talk about actions you do every day (eating, running, sleeping). Read the rules very carefully: English has ONE very important rule for verbs when talking about 'He' or 'She'.",
   "contentItems": [
     {
@@ -46,18 +48,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b5/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m1/b5/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b5/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m1/b5/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I eat. You run. He sleeps. She goes. They play.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "verbs", "present_simple", "routines", "beginner", "month1", "block5"],
+  "tags": [
+    "grammar",
+    "verbs",
+    "present_simple",
+    "routines",
+    "beginner",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -70,7 +80,9 @@
     "Saying 'He eat an apple' instead of 'He eats an apple'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B5_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M1B5_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Action Verbs & Routines",

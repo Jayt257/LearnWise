@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B3_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M3B3_pronunciation_001"
+  ],
   "instructions": "Read the story about Amit getting ready for work. Look closely at the Phrasal Verbs (two words glued together). Notice how he 'turns off' his alarm and 'puts on' his clothes. Answer the 8 questions below.",
   "contentItems": [
     {
@@ -94,14 +96,22 @@
       "questionId": "q1",
       "questionText": "What does Amit do to the alarm at 7:00 AM?",
       "questionType": "multiple_choice",
-      "options": ["He wakes up", "He turns it off", "He puts it on"],
+      "options": [
+        "He wakes up",
+        "He turns it off",
+        "He puts it on"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Look closely at the story. What is the difference between 'Waking up' and 'Getting up'?",
       "questionType": "multiple_choice",
-      "options": ["They mean exactly the same thing.", "Waking up is opening your eyes. Getting up is physically moving out of bed.", "Getting up means sleeping."],
+      "options": [
+        "They mean exactly the same thing.",
+        "Waking up is opening your eyes. Getting up is physically moving out of bed.",
+        "Getting up means sleeping."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -115,21 +125,32 @@
       "questionId": "q4",
       "questionText": "What phrasal verb means 'कपड़े पहनना' in this story?",
       "questionType": "multiple_choice",
-      "options": ["Take off", "Put on", "Turn on"],
+      "options": [
+        "Take off",
+        "Put on",
+        "Turn on"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "The story says 'He puts his shoes on'. Is this exactly the same meaning as 'He puts on his shoes'?",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
       "questionId": "q6",
       "questionText": "What does he do with his slippers?",
       "questionType": "multiple_choice",
-      "options": ["He turns them off", "He takes them off", "He sits them down"],
+      "options": [
+        "He turns them off",
+        "He takes them off",
+        "He sits them down"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
@@ -143,7 +164,10 @@
       "questionId": "q8",
       "questionText": "As he leaves his house, does he say 'I will close the lights' or 'I will turn the lights off'?",
       "questionType": "multiple_choice",
-      "options": ["Close the lights", "Turn the lights off"],
+      "options": [
+        "Close the lights",
+        "Turn the lights off"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -160,12 +184,25 @@
       "q8": "Turn the lights off"
     },
     "acceptableParaphrases": {
-      "q3": ["On", "ON"],
-      "q7": ["picks up", "he picks it up", "Picks it up", "picks up his bag"]
+      "q3": [
+        "On",
+        "ON"
+      ],
+      "q7": [
+        "picks up",
+        "he picks it up",
+        "Picks it up",
+        "picks up his bag"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["on"],
-      "q7": ["pick", "up"]
+      "q3": [
+        "on"
+      ],
+      "q7": [
+        "pick",
+        "up"
+      ]
     },
     "expectedSummaryPoints": [
       "Learner correctly differentiates semantic nuances between 'wake up' (neurological arousal) and 'get up' (physical elevation).",
@@ -181,18 +218,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m3/b3/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "The sun is shining. Amit's alarm rings at 7:00 AM... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "phrasal_verbs", "turn_on", "put_on", "intermediate", "month3", "block3"],
+  "tags": [
+    "reading",
+    "phrasal_verbs",
+    "turn_on",
+    "put_on",
+    "intermediate",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -204,7 +249,9 @@
     "Thinking 'He puts his shoes on' is grammatically incorrect because the object splits the verb (very common in L1 speakers resisting splittable phrasals)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B3_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M3B3_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

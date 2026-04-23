@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B5_listening_001"],
+  "prerequisites": [
+    "en_hi_M3B5_listening_001"
+  ],
   "instructions": "If you get sick in an English-speaking country, you need these words! Memorize the words for different pains, medicines, and injuries.",
   "contentItems": [
     {
@@ -204,14 +206,22 @@
       "questionId": "q1",
       "questionText": "What does a doctor write on a piece of paper so you can buy medicine?",
       "questionType": "multiple_choice",
-      "options": ["Pills", "Prescription", "Symptom"],
+      "options": [
+        "Pills",
+        "Prescription",
+        "Symptom"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "If your body is very hot, you probably have a _____. (बुखार)",
       "questionType": "multiple_choice",
-      "options": ["Cough", "Headache", "Fever"],
+      "options": [
+        "Cough",
+        "Headache",
+        "Fever"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
@@ -232,42 +242,65 @@
       "questionId": "q5",
       "questionText": "True or False: 'Pharmacy' and 'Hospital' are the exact same thing.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
       "questionId": "q6",
       "questionText": "If you are cut with a knife, what will happen? (खून बहना)",
       "questionType": "multiple_choice",
-      "options": ["Bleeding", "Coughing", "Prescription"],
+      "options": [
+        "Bleeding",
+        "Coughing",
+        "Prescription"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q6"
     },
     {
       "questionId": "q7",
       "questionText": "What kind of vehicle takes hurt people to the hospital?",
       "questionType": "multiple_choice",
-      "options": ["Pharmacy", "Ambulance", "Medicine"],
+      "options": [
+        "Pharmacy",
+        "Ambulance",
+        "Medicine"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "If cars crash into each other, it is called an...?",
       "questionType": "multiple_choice",
-      "options": ["Ache", "Accident", "Emergency"],
+      "options": [
+        "Ache",
+        "Accident",
+        "Emergency"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What word means 'लक्षण' (the signs that show you are sick, like a cough or fever)?",
       "questionType": "multiple_choice",
-      "options": ["Prescription", "Symptom", "Pills"],
+      "options": [
+        "Prescription",
+        "Symptom",
+        "Pills"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Instead of drinking liquid medicine, a doctor might give you small ____ to swallow. (गोलियां)",
       "questionType": "multiple_choice",
-      "options": ["Pills", "Coughs", "Aches"],
+      "options": [
+        "Pills",
+        "Coughs",
+        "Aches"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +323,15 @@
       "w15": "बीमार"
     },
     "acceptedTranslations": {
-      "w05": ["cold", "Cold"],
-      "w11": ["hurts", "Hurts", "hurt"]
+      "w05": [
+        "cold",
+        "Cold"
+      ],
+      "w11": [
+        "hurts",
+        "Hurts",
+        "hurt"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +357,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b5/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b5/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b5/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b5/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Headache. Stomachache. Fever...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "health", "hospital", "illness", "emergency", "month3", "block5"],
+  "tags": [
+    "vocabulary",
+    "health",
+    "hospital",
+    "illness",
+    "emergency",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +388,9 @@
     "Thinking 'Cold' only means 'temperature' and not the illness (जुकाम)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

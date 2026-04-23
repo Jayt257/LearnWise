@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B4_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M1B4_pronunciation_001"
+  ],
   "instructions": "Read the following diary entry. Notice how the writer uses capital letters for days and months. Pay special attention to the numbers: 'fourteen' (14) vs 'forty' (40). Lastly, notice how the subject and verb flip when asking a question (e.g., 'Where am I?'). Answer the 8 questions below.",
   "contentItems": [
     {
@@ -187,14 +189,24 @@
       "questionId": "q1",
       "questionText": "Based on the text, how old is the sister?",
       "questionType": "multiple_choice",
-      "options": ["Forty", "Fourteen", "Forty-five", "Five"],
+      "options": [
+        "Forty",
+        "Fourteen",
+        "Forty-five",
+        "Five"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "How many books are in the writer's bag?",
       "questionType": "multiple_choice",
-      "options": ["Five", "Fifteen", "Fifty", "Forty"],
+      "options": [
+        "Five",
+        "Fifteen",
+        "Fifty",
+        "Forty"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -208,14 +220,22 @@
       "questionId": "q4",
       "questionText": "True or False: According to the text, 'Are you happy?' is a correct question format.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What happens on Wednesday?",
       "questionType": "multiple_choice",
-      "options": ["Going to the park", "An English test", "Meeting Amit", "Mother goes to the market"],
+      "options": [
+        "Going to the park",
+        "An English test",
+        "Meeting Amit",
+        "Mother goes to the market"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -229,14 +249,24 @@
       "questionId": "q7",
       "questionText": "How old is Amit?",
       "questionType": "multiple_choice",
-      "options": ["Thirty", "Thirteen", "Twelve", "Ten"],
+      "options": [
+        "Thirty",
+        "Thirteen",
+        "Twelve",
+        "Ten"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What does the writer use at the start of a question to ask about time? ('____ are you coming to my house?')",
       "questionType": "multiple_choice",
-      "options": ["Who", "What", "When", "Where"],
+      "options": [
+        "Who",
+        "What",
+        "When",
+        "Where"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -253,12 +283,22 @@
       "q8": "When"
     },
     "acceptableParaphrases": {
-      "q3": ["Where", "where"],
-      "q6": ["August", "august"]
+      "q3": [
+        "Where",
+        "where"
+      ],
+      "q6": [
+        "August",
+        "august"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["where"],
-      "q6": ["august"]
+      "q3": [
+        "where"
+      ],
+      "q6": [
+        "august"
+      ]
     },
     "expectedSummaryPoints": [
       "The writer uses 'When', 'Where', 'Who', and 'What' effectively.",
@@ -276,18 +316,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b4/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b4/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m1/b4/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Today is Monday, October twelve... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "numbers", "dates", "wh-words", "diary", "month1", "block4"],
+  "tags": [
+    "reading",
+    "numbers",
+    "dates",
+    "wh-words",
+    "diary",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -300,7 +348,9 @@
     "Thinking 'When' means 'कहाँ'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

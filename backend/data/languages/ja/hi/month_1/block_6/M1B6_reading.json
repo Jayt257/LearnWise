@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B6_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M1B6_pronunciation_001"
+  ],
   "instructions": "ラージのプロフィールを読んでみましょう。これまで習った「家(Ghar)」の性別や「助詞(Mein, Se)」「動詞の違い(Taa/Tee)」など、1ヶ月の全てが詰まっています。",
   "contentItems": [
     {
@@ -106,14 +108,22 @@
       "questionId": "q1",
       "questionText": "ラージの「家 (ghar)」と「車 (gaaḍee)」のサイズについて、正しい組み合わせはどれですか？",
       "questionType": "multiple_choice",
-      "options": ["家は小さい、車は大きい", "家も車も大きい", "家は大きい、車は小さい"],
+      "options": [
+        "家は小さい、車は大きい",
+        "家も車も大きい",
+        "家は大きい、車は小さい"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "ラージは毎日「どこに（助詞）」いて、何を「読み（動詞）」ますか？",
       "questionType": "multiple_choice",
-      "options": ["机の上にいて(Par)、りんごを読む", "部屋の中にいて(Mein)、本を読む", "日本にいて(Mein)、手紙を読む"],
+      "options": [
+        "机の上にいて(Par)、りんごを読む",
+        "部屋の中にいて(Mein)、本を読む",
+        "日本にいて(Mein)、手紙を読む"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -127,14 +137,21 @@
       "questionId": "q4",
       "questionText": "最後の文の「वह (Vah = 彼/彼女)」は誰を指していますか？",
       "questionType": "multiple_choice",
-      "options": ["アニタ", "ラージ"],
+      "options": [
+        "アニタ",
+        "ラージ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "その「वह (Vah)」が女性（アニタ）を指しているという証拠は、文末のどこにありますか？",
       "questionType": "multiple_choice",
-      "options": ["khaatee となっているから", "hai となっているから", "khaanaa となっているから"],
+      "options": [
+        "khaatee となっているから",
+        "hai となっているから",
+        "khaanaa となっているから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
   ],
@@ -148,10 +165,19 @@
       "q5": "khaatee となっているから"
     },
     "acceptableParaphrases": {
-      "q3": ["アニタ", "あにた", "Aneeta", "anita"]
+      "q3": [
+        "アニタ",
+        "あにた",
+        "Aneeta",
+        "anita"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["アニタ", "anita", "aneeta"]
+      "q3": [
+        "アニタ",
+        "anita",
+        "aneeta"
+      ]
     },
     "expectedSummaryPoints": [
       "Learner extracts layered information spanning grammatical gender mutations (Bada/Chhoti, Taa/Tee) and postpositional phrasing (Kamre mein, Bhaarat se)."
@@ -166,18 +192,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b6/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b6/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b6/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m1/b6/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Mera naam Raaj hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "review", "synthesis", "comprehensive", "month1", "block6"],
+  "tags": [
+    "reading",
+    "review",
+    "synthesis",
+    "comprehensive",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -189,7 +222,9 @@
     "Getting lost in the length of the paragraph and forgetting that the sentence order strictly follows Japanese."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B6_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B6_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

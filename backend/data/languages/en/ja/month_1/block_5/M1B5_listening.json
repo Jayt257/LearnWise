@@ -50,7 +50,12 @@
       "questionId": "q001",
       "questionText": "Where does the tourist *think* the toilet is initially?",
       "questionType": "multiple_choice",
-      "options": ["Right here", "Over there", "Near the guide", "At the cafe"],
+      "options": [
+        "Right here",
+        "Over there",
+        "Near the guide",
+        "At the cafe"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
     },
@@ -58,7 +63,12 @@
       "questionId": "q002",
       "questionText": "Where is the toilet *actually* located?",
       "questionType": "multiple_choice",
-      "options": ["Right here (Koko)", "Over there (Asoko)", "Next door (Soko)", "In the bag"],
+      "options": [
+        "Right here (Koko)",
+        "Over there (Asoko)",
+        "Next door (Soko)",
+        "In the bag"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
     },
@@ -66,7 +76,12 @@
       "questionId": "q003",
       "questionText": "What building is 'over there' (Asoko)?",
       "questionType": "multiple_choice",
-      "options": ["Hotel", "Toilet", "Cafe", "University"],
+      "options": [
+        "Hotel",
+        "Toilet",
+        "Cafe",
+        "University"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
     },
@@ -108,7 +123,13 @@
       "q005": "かばん"
     },
     "acceptedShortAnswers": {
-      "q005": ["kaban", "Kaban", "かばん", "bag", "Bag"]
+      "q005": [
+        "kaban",
+        "Kaban",
+        "かばん",
+        "bag",
+        "Bag"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {},
@@ -123,12 +144,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b5/listening/native_dialogue.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b5/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b5/listening/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_en/m1/b5/listening/native_dialogue.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "すみません。あそこは トイレですか。いいえ。ここは トイレです。あそこは カフェです。そうですか。あの かばんは あなたの ですか。はい。これも わたしの かばんです。",
     "audioLanguage": "ja",
     "audioDuration": 25,

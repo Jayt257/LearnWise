@@ -45,7 +45,12 @@
       "questionId": "q001",
       "questionText": "Listen to the first sentence. Which particle is used after 'Cafe'?",
       "questionType": "multiple_choice",
-      "options": ["に (ni)", "を (wo)", "で (de)", "は (wa)"],
+      "options": [
+        "に (ni)",
+        "を (wo)",
+        "で (de)",
+        "は (wa)"
+      ],
       "audioTimestamp": "00:02",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
     },
@@ -53,7 +58,12 @@
       "questionId": "q002",
       "questionText": "In the first sentence, what is the speaker drinking?",
       "questionType": "multiple_choice",
-      "options": ["Water", "Coffee", "Tea", "Juice"],
+      "options": [
+        "Water",
+        "Coffee",
+        "Tea",
+        "Juice"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
     },
@@ -61,7 +71,12 @@
       "questionId": "q003",
       "questionText": "Listen to the second sentence. What time do they return home?",
       "questionType": "multiple_choice",
-      "options": ["8 o'clock", "9 o'clock", "10 o'clock", "4 o'clock"],
+      "options": [
+        "8 o'clock",
+        "9 o'clock",
+        "10 o'clock",
+        "4 o'clock"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
     },
@@ -69,7 +84,12 @@
       "questionId": "q004",
       "questionText": "In the third sentence, which particle is used after 'Hashi' (chopsticks)?",
       "questionType": "multiple_choice",
-      "options": ["を (wo)", "に (ni)", "は (wa)", "で (de)"],
+      "options": [
+        "を (wo)",
+        "に (ni)",
+        "は (wa)",
+        "で (de)"
+      ],
       "audioTimestamp": "00:11",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
     },
@@ -116,12 +136,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b6/listening/native_dialogue.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b6/listening/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_en/m1/b6/listening/native_dialogue.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "わたしは カフェで コーヒーを のみます。わたしは じゅうじに うちに かえります。わたしは はしで ごはんを たべます。",
     "audioLanguage": "ja",
     "audioDuration": 20,

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B3_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_vocabulary_001"
+  ],
   "instructions": "自分の意見や条件を相手に伝えるスピーキングテストです。Ki で文と思考を繋ぎ、Agar(もし) で始めた文を To(その時) でキャッチするリズムを声に乗せてください。",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "予測: 「私には、明日[Kal]雨が降る[baarish hogee]と(Ki)思える(Lagtaa hai)。」",
-      "expectedSpeakingPoints": ["Mujhe lagtaa hai ki", "kal baarish hogee"],
+      "expectedSpeakingPoints": [
+        "Mujhe lagtaa hai ki",
+        "kal baarish hogee"
+      ],
       "sampleResponse": {
         "targetText": "मुझे लगता है कि कल बारिश होगी।",
         "transliteration": "Mujhe lagtaa hai ki kal baarish hogee.",
@@ -35,7 +40,11 @@
     {
       "subTaskId": "t2",
       "prompt": "条件: 「もし(Agar)雨が降るなら、その時(To)私(男)は行かない(Nahin jaaoongaa)。」",
-      "expectedSpeakingPoints": ["Agar baarish hogee", "to", "main nahin jaaoongaa"],
+      "expectedSpeakingPoints": [
+        "Agar baarish hogee",
+        "to",
+        "main nahin jaaoongaa"
+      ],
       "sampleResponse": {
         "targetText": "अगर बारिश होगी, तो मैं नहीं जाऊँगा।",
         "transliteration": "Agar baarish hogee, to main nahin jaaoongaa.",
@@ -45,7 +54,11 @@
     {
       "subTaskId": "t3",
       "prompt": "理由と結果: 「なぜなら(Kyonki)私は疲れている(Thakaa hoon)から。だから(Isliye)私は眠るよ(Soo-oongaa / So jaaoongaa)。」",
-      "expectedSpeakingPoints": ["Kyonki main thakaa hoon", "Isliye", "so jaaoongaa"],
+      "expectedSpeakingPoints": [
+        "Kyonki main thakaa hoon",
+        "Isliye",
+        "so jaaoongaa"
+      ],
       "sampleResponse": {
         "targetText": "क्योंकि मैं थका हूँ। इसलिए मैं सो जाऊँगा।",
         "transliteration": "Kyonki main thakaa hoon. Isliye main so jaaoongaa.",
@@ -90,7 +103,23 @@
       "isliye"
     ],
     "requiredKeywords": [
-      "mujhe", "lagtaa", "hai", "ki", "kal", "baarish", "hogee", "agar", "to", "main", "nahin", "jaaoongaa", "kyonki", "thakaa", "hoon", "isliye", "so"
+      "mujhe",
+      "lagtaa",
+      "hai",
+      "ki",
+      "kal",
+      "baarish",
+      "hogee",
+      "agar",
+      "to",
+      "main",
+      "nahin",
+      "jaaoongaa",
+      "kyonki",
+      "thakaa",
+      "hoon",
+      "isliye",
+      "so"
     ],
     "acceptableParaphrases": [
       "mujhe lagta hai kal baarish hogi agar baarish hogi to me nahi jaunga kyonki main thak gaya hu isliye so jaunga"
@@ -109,19 +138,26 @@
     "onPartial": "よくお話しできています。「Mujhe lagtaa hai(私は思う)」と「Ki(ということ)」の間に不自然な間が空いていませんか？「lagtaa hai ki ...」と一息で繋ぐと一気にネイティブらしくなります！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b3/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m3/b3/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b3/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m3/b3/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m3/b3/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Learner: Mujhe lagtaa hai ki kal baarish hogee. Agar baarish hogee, to main nahin jaaoongaa...",
     "audioLanguage": "hi",
     "audioDuration": 90,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "conjunctions", "logic", "conditions", "month3", "block3"],
+  "tags": [
+    "speaking",
+    "conjunctions",
+    "logic",
+    "conditions",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -133,7 +169,9 @@
     "Saying 'Agar baarish hogee, main nahin jaaoongaa' completely dropping the 'to'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

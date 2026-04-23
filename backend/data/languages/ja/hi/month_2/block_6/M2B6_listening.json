@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M2B6_writing_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_writing_001"
+  ],
   "instructions": "ラージの家からケンが帰国する時の会話です。お母さんの「〜してください(Iye)」という言葉と、ケンの「明日〜する(Oongaa)」という言葉が交差しています。文末がどう終わっているかに全神経を集中させて聞いてください。",
   "contentItems": [
     {
@@ -52,7 +54,10 @@
       "questionId": "q1",
       "questionText": "ケンが「もう行きます(帰ります)」と言った時、文末はどんな音でしたか？",
       "questionType": "multiple_choice",
-      "options": ["Jaaoongaa (ウーンガー)", "Jaaiye (イエ)"],
+      "options": [
+        "Jaaoongaa (ウーンガー)",
+        "Jaaiye (イエ)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +65,10 @@
       "questionId": "q2",
       "questionText": "お母さんがケンに「遠慮しないで」と伝えた時、Karnaa(する)の命令形としてどの音を使いましたか？",
       "questionType": "multiple_choice",
-      "options": ["Karo (カロ)", "Keejiye (キージエ)"],
+      "options": [
+        "Karo (カロ)",
+        "Keejiye (キージエ)"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +76,10 @@
       "questionId": "q3",
       "questionText": "お母さんは「また来てください」とお願いし、それに対してケンは「また来ます」と約束しました。ケンの「来ます（未来）」はどちらの音でしたか？",
       "questionType": "multiple_choice",
-      "options": ["Aaoongaa", "Aaiye"],
+      "options": [
+        "Aaoongaa",
+        "Aaiye"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -76,7 +87,10 @@
       "questionId": "q4",
       "questionText": "お母さんが言った「私たちはまた会うでしょう(Hum phir milenge)」の Milenge(ミレンゲー)は、誰の動作を表すルール(複数形/Aap用)の音ですか？",
       "questionType": "multiple_choice",
-      "options": ["私(一人)", "私たち(複数)"],
+      "options": [
+        "私(一人)",
+        "私たち(複数)"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -105,11 +119,18 @@
       "q5": "kal"
     },
     "acceptedShortAnswers": {
-      "q5": ["kal", "Kal", "KAL", "カル"]
+      "q5": [
+        "kal",
+        "Kal",
+        "KAL",
+        "カル"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["kal"]
+      "q5": [
+        "kal"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +143,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b6/listening/farewell_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b6/listening/farewell_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b6/listening/farewell_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Ken: Aanṭee jee, ab main jaaoongaa... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "synthesis", "future", "imperative", "hospitality", "month2", "block6"],
+  "tags": [
+    "listening",
+    "synthesis",
+    "future",
+    "imperative",
+    "hospitality",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +174,9 @@
     "Confusing 'aaiye' (please come) with 'aaoongaa' (I will come) due to the similar 'aa' root."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B6_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B6_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

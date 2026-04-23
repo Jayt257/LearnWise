@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B1_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M1B1_pronunciation_001"
+  ],
   "instructions": "Read the following story slowly. You can use the sentence translations for help if you don't understand a sentence. After reading, study the glossary words. Finally, answer the 8 comprehension questions at the bottom of the page.",
   "contentItems": [
     {
@@ -180,21 +182,36 @@
       "questionId": "q1",
       "questionText": "Where is Amit from?",
       "questionType": "multiple_choice",
-      "options": ["Mumbai", "Delhi", "London", "New York"],
+      "options": [
+        "Mumbai",
+        "Delhi",
+        "London",
+        "New York"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Who does Amit meet in the classroom first?",
       "questionType": "multiple_choice",
-      "options": ["His Father", "His Mother", "His Teacher", "His Sister"],
+      "options": [
+        "His Father",
+        "His Mother",
+        "His Teacher",
+        "His Sister"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What greeting does Amit use when the sun is very bright at noon?",
       "questionType": "multiple_choice",
-      "options": ["Good morning", "Good afternoon", "Good night", "Hello"],
+      "options": [
+        "Good morning",
+        "Good afternoon",
+        "Good night",
+        "Hello"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
@@ -215,21 +232,34 @@
       "questionId": "q6",
       "questionText": "How many letters are in the English alphabet?",
       "questionType": "multiple_choice",
-      "options": ["20", "26", "52", "21"],
+      "options": [
+        "20",
+        "26",
+        "52",
+        "21"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
       "questionId": "q7",
       "questionText": "True or False: The letter W requires your teeth to touch your lip.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What are A, E, I, O, U called?",
       "questionType": "multiple_choice",
-      "options": ["Consonants", "Vowels", "Greetings", "Alphabet"],
+      "options": [
+        "Consonants",
+        "Vowels",
+        "Greetings",
+        "Alphabet"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -246,12 +276,30 @@
       "q8": "Vowels"
     },
     "acceptableParaphrases": {
-      "q4": ["At night before sleeping", "When we sleep", "Before sleeping", "At bedtime"],
-      "q5": ["Respect", "Politeness", "Good manners", "Polite culture"]
+      "q4": [
+        "At night before sleeping",
+        "When we sleep",
+        "Before sleeping",
+        "At bedtime"
+      ],
+      "q5": [
+        "Respect",
+        "Politeness",
+        "Good manners",
+        "Polite culture"
+      ]
     },
     "keywordScoringRules": {
-      "q4": ["sleep", "night", "before", "bed"],
-      "q5": ["politeness", "respect"]
+      "q4": [
+        "sleep",
+        "night",
+        "before",
+        "bed"
+      ],
+      "q5": [
+        "politeness",
+        "respect"
+      ]
     },
     "expectedSummaryPoints": [
       "Amit arrives at school and meets his teacher and a new friend, Rahul.",
@@ -269,18 +317,24 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b1/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b1/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m1/b1/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Good morning! My name is Amit... (full reading text provided in readingText field)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "greetings", "beginner", "svo", "comprehension"],
+  "tags": [
+    "reading",
+    "greetings",
+    "beginner",
+    "svo",
+    "comprehension"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -293,7 +347,9 @@
     "Confusing vowels and consonants."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

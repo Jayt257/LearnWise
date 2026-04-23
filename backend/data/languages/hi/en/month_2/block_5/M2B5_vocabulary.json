@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B5_listening_001"],
+  "prerequisites": [
+    "en_hi_M2B5_listening_001"
+  ],
   "instructions": "To practice who owns what, you need things to own! Here are 15 important words for things around your house and in your pockets. Remember: Pockets and Humans get an 'S. Things made of wood or metal get OF. Answer the 10 questions.",
   "contentItems": [
     {
@@ -204,7 +206,11 @@
       "questionId": "q1",
       "questionText": "What is the perfect English translation for 'रसोई का दरवाज़ा'?",
       "questionType": "multiple_choice",
-      "options": ["The kitchen's door", "The door of the kitchen", "The door of kitchen's"],
+      "options": [
+        "The kitchen's door",
+        "The door of the kitchen",
+        "The door of kitchen's"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +224,34 @@
       "questionId": "q3",
       "questionText": "If you say 'फ़ोन की स्क्रीन', you should say: The _____ of the ____.",
       "questionType": "multiple_choice",
-      "options": ["phone of the screen", "cover of the phone", "screen of the phone", "screen of the glass"],
+      "options": [
+        "phone of the screen",
+        "cover of the phone",
+        "screen of the phone",
+        "screen of the glass"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: Using 's to say 'The car's tire' is good standard English.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What word means 'बटुआ'?",
       "questionType": "multiple_choice",
-      "options": ["Keys", "Bag", "Wallet", "Cover"],
+      "options": [
+        "Keys",
+        "Bag",
+        "Wallet",
+        "Cover"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +265,48 @@
       "questionId": "q7",
       "questionText": "If you are standing in a house, looking up at the top, you are looking at the _____.",
       "questionType": "multiple_choice",
-      "options": ["Floor", "Roof", "Door", "Wallet"],
+      "options": [
+        "Floor",
+        "Roof",
+        "Door",
+        "Wallet"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "If you are standing on it, it is the _____.",
       "questionType": "multiple_choice",
-      "options": ["Floor", "Roof", "Wall", "Cover"],
+      "options": [
+        "Floor",
+        "Roof",
+        "Wall",
+        "Cover"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "Translate 'अमित का थैला'.",
       "questionType": "multiple_choice",
-      "options": ["The bag of Amit", "Amit's bag", "Amit bag's", "Amits bag"],
+      "options": [
+        "The bag of Amit",
+        "Amit's bag",
+        "Amit bag's",
+        "Amits bag"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "What does 'Window' mean?",
       "questionType": "multiple_choice",
-      "options": ["दरवाज़ा", "दीवार", "काँच", "खिड़की"],
+      "options": [
+        "दरवाज़ा",
+        "दीवार",
+        "काँच",
+        "खिड़की"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +329,14 @@
       "w15": "ढक्कन"
     },
     "acceptedTranslations": {
-      "w02": ["wall", "Wall"],
-      "w06": ["keys", "Keys"]
+      "w02": [
+        "wall",
+        "Wall"
+      ],
+      "w06": [
+        "keys",
+        "Keys"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +362,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b5/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b5/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b5/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b5/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Roof. Floor. Wall. Window...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "household", "objects", "possessives", "month2", "block5"],
+  "tags": [
+    "vocabulary",
+    "household",
+    "objects",
+    "possessives",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +392,9 @@
     "Saying 'The room's door'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B5_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M2B5_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

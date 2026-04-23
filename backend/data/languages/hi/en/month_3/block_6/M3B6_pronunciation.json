@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B6_lesson_001"],
+  "prerequisites": [
+    "en_hi_M3B6_lesson_001"
+  ],
   "instructions": "This is your final Pronunciation Test! Over the past 3 months, we studied many sounds that do not exist in the Hindi language. Speak clearly into the microphone. Let's see if you remember the 'Th' sound, the 'V' sound, and the rules of fast speaking (Word Glue)! You must score 80% to pass.",
   "contentItems": [
     {
@@ -151,19 +153,28 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b6/pronunciation/native_final.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b6/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b6/pronunciation/slow_final.mp3",
-    "normalAudio": "audio/en_hi/m3/b6/pronunciation/native_final.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Thank you very much. Water and vegetables...",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "final_exam", "phonetics", "th_sound", "v_w_sounds", "catenation", "month3", "block6"],
+  "tags": [
+    "pronunciation",
+    "final_exam",
+    "phonetics",
+    "th_sound",
+    "v_w_sounds",
+    "catenation",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -175,7 +186,9 @@
     "Reverting to L1 phonetics rapidly due to the high density of stress-tests in a single module."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

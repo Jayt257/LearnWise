@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "To buy", "To wait", "To return", "To drink", "To read", 
-    "To play / Hang out", "To listen / Ask", "To write", "To swim", "To speak", 
-    "To go", "To eat", "To see / watch", "To wake up", "To sleep", 
-    "To do", "To come", "To study", "Photo / Picture", "Letter", 
-    "Pool", "English language", "Japanese language", "Friend", "Now", 
-    "A little", "Please (go ahead)", "Please (do for me)", "Quickly / Early", "With / And"
+    "To buy",
+    "To wait",
+    "To return",
+    "To drink",
+    "To read",
+    "To play / Hang out",
+    "To listen / Ask",
+    "To write",
+    "To swim",
+    "To speak",
+    "To go",
+    "To eat",
+    "To see / watch",
+    "To wake up",
+    "To sleep",
+    "To do",
+    "To come",
+    "To study",
+    "Photo / Picture",
+    "Letter",
+    "Pool",
+    "English language",
+    "Japanese language",
+    "Friend",
+    "Now",
+    "A little",
+    "Please (go ahead)",
+    "Please (do for me)",
+    "Quickly / Early",
+    "With / And"
   ],
   "exampleSentences": [
     {
@@ -332,21 +356,36 @@
       "questionId": "q001",
       "questionText": "What is the Te-form of かいます (Kaimasu / buy)?",
       "questionType": "multiple_choice",
-      "options": ["かって (Katte)", "かいて (Kaite)", "かんで (Kande)", "かいって (Kaitte)"],
+      "options": [
+        "かって (Katte)",
+        "かいて (Kaite)",
+        "かんで (Kande)",
+        "かいって (Kaitte)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What is the Te-form of よみます (Yomimasu / read)?",
       "questionType": "multiple_choice",
-      "options": ["よって (Yotte)", "よんで (Yonde)", "よいて (Yoite)", "よみって (Yomitte)"],
+      "options": [
+        "よって (Yotte)",
+        "よんで (Yonde)",
+        "よいて (Yoite)",
+        "よみって (Yomitte)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What does ちょっと (Chotto) mean?",
       "questionType": "multiple_choice",
-      "options": ["Quickly", "Now", "A little", "Please"],
+      "options": [
+        "Quickly",
+        "Now",
+        "A little",
+        "Please"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
@@ -365,42 +404,72 @@
       "questionId": "q005",
       "questionText": "What does いま (Ima) mean?",
       "questionType": "multiple_choice",
-      "options": ["Friend", "English", "Now", "A little"],
+      "options": [
+        "Friend",
+        "English",
+        "Now",
+        "A little"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "Translate: はなして ください (Hanashite kudasai).",
       "questionType": "multiple_choice",
-      "options": ["Please listen", "Please speak", "Please wait", "Please write"],
+      "options": [
+        "Please listen",
+        "Please speak",
+        "Please wait",
+        "Please write"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What is the Te-form of およぎます (Oyogimasu / swim)?",
       "questionType": "multiple_choice",
-      "options": ["およんで (Oyonde)", "およいて (Oyoite)", "およいで (Oyoide)", "およって (Oyotte)"],
+      "options": [
+        "およんで (Oyonde)",
+        "およいて (Oyoite)",
+        "およいで (Oyoide)",
+        "およって (Oyotte)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does しゃしん (Shashin) mean?",
       "questionType": "multiple_choice",
-      "options": ["Letter", "Photo / Picture", "Book", "Music"],
+      "options": [
+        "Letter",
+        "Photo / Picture",
+        "Book",
+        "Music"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does ともだち (Tomodachi) mean?",
       "questionType": "multiple_choice",
-      "options": ["Teacher", "Student", "Friend", "Family"],
+      "options": [
+        "Teacher",
+        "Student",
+        "Friend",
+        "Family"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What is the EXCEPTION Te-form of いきます (Ikimasu / go)?",
       "questionType": "multiple_choice",
-      "options": ["いきって (Ikitte)", "いいて (Iite)", "いって (Itte)", "いんで (Inde)"],
+      "options": [
+        "いきって (Ikitte)",
+        "いいて (Iite)",
+        "いって (Itte)",
+        "いんで (Inde)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -438,8 +507,15 @@
       "w030": "With / And"
     },
     "acceptedTranslations": {
-      "w006": ["To play", "To hang out"],
-      "w019": ["Photo", "Picture", "Photograph"]
+      "w006": [
+        "To play",
+        "To hang out"
+      ],
+      "w019": [
+        "Photo",
+        "Picture",
+        "Photograph"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -467,12 +543,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b2/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b2/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b2/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m2/b2/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "かいます。まちます。かえります。のみます。よみます。あそびます。ききます。かきます。およぎます。はなします。いきます。たべます。みます。おきます。ねます。します。きます。べんきょうします。しゃしん。てがみ。プール。えいご。にほんご。ともだち。いま。ちょっと。どうぞ。ください。はやく。と。",
     "audioLanguage": "ja",
     "audioDuration": 360,

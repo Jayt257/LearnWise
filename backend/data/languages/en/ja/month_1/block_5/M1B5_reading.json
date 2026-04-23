@@ -157,7 +157,11 @@
       "q005": "あの"
     },
     "acceptableParaphrases": {
-      "q005": ["Ano", "ano", "あの"]
+      "q005": [
+        "Ano",
+        "ano",
+        "あの"
+      ]
     },
     "keywordScoringRules": {},
     "expectedSummaryPoints": [
@@ -175,12 +179,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_en/m1/b5/reading/normal_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "ここは だいがくです。あそこは カフェです。それは わたしの ほんです。これも わたしの ほんです。あの くるまは ジョンさんの くるまです。",
     "audioLanguage": "ja",
     "audioDuration": 40,

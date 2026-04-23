@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B1_listening_001"],
+  "prerequisites": [
+    "en_hi_M2B1_listening_001"
+  ],
   "instructions": "Here are 15 of the most common adjectives in English. The easiest way to learn describing words is by learning them in pairs of OPPOSITES (Big vs Small). Memorize these pairs and answer the 10 quiz questions.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What is the EXACT opposite of 'Fast'?",
       "questionType": "multiple_choice",
-      "options": ["Slow", "Hot", "Sad", "Bad"],
+      "options": [
+        "Slow",
+        "Hot",
+        "Sad",
+        "Bad"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which word is the English translation of 'सुंदर'?",
       "questionType": "multiple_choice",
-      "options": ["Beautiful", "Cold", "Happy", "Good"],
+      "options": [
+        "Beautiful",
+        "Cold",
+        "Happy",
+        "Good"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: The word 'Old' means 'पुराना' (like an old car) AND 'बूढ़ा' (like an old man).",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What is the opposite of 'Hot'?",
       "questionType": "multiple_choice",
-      "options": ["Cold", "Clean", "Slow", "Sad"],
+      "options": [
+        "Cold",
+        "Clean",
+        "Slow",
+        "Sad"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,46 @@
       "questionId": "q7",
       "questionText": "If something is 'बुरा', what is the English word?",
       "questionType": "multiple_choice",
-      "options": ["Bad", "Good", "Sad", "Small"],
+      "options": [
+        "Bad",
+        "Good",
+        "Sad",
+        "Small"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What is the opposite of 'Big'?",
       "questionType": "multiple_choice",
-      "options": ["Hot", "Small", "Clean", "Old"],
+      "options": [
+        "Hot",
+        "Small",
+        "Clean",
+        "Old"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "True or False: 'अच्छा' and 'अच्छी' share the exact same English word: 'Good'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'नया' to English.",
       "questionType": "multiple_choice",
-      "options": ["New", "Fast", "Clean", "Small"],
+      "options": [
+        "New",
+        "Fast",
+        "Clean",
+        "Small"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +328,14 @@
       "w15": "सुंदर"
     },
     "acceptedTranslations": {
-      "w02": ["clean", "Clean"],
-      "w06": ["dirty", "Dirty"]
+      "w02": [
+        "clean",
+        "Clean"
+      ],
+      "w06": [
+        "dirty",
+        "Dirty"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +361,24 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b1/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b1/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b1/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b1/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Big. Small. Hot. Cold...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "adjectives", "opposites", "month2", "block1"],
+  "tags": [
+    "vocabulary",
+    "adjectives",
+    "opposites",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +390,9 @@
     "Thinking 'Old' can only be used for people, not cars."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

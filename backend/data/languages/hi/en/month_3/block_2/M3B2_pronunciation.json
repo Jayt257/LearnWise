@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B2_lesson_001"],
+  "prerequisites": [
+    "en_hi_M3B2_lesson_001"
+  ],
   "instructions": "In English, we rarely say 'I have eaten'. We squish the words together to speak faster: 'I've eaten'. This lesson will train you to make those native contraction sounds! Listen and copy the audio.",
   "contentItems": [
     {
@@ -207,19 +209,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b2/pronunciation/native_contractions.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b2/pronunciation/slow_contractions.mp3",
-    "normalAudio": "audio/en_hi/m3/b2/pronunciation/native_contractions.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I've... I've eaten...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "contractions", "present_perfect", "have", "intermediate"],
+  "tags": [
+    "pronunciation",
+    "contractions",
+    "present_perfect",
+    "have",
+    "intermediate"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +239,9 @@
     "Over-enunciating 'have' instead of reducing it to the labiodental fricative /v/."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

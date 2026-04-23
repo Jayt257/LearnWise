@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does しゅうまつ (Shuumatsu) mean?",
           "questionType": "multiple_choice",
-          "options": ["Weekend", "Yesterday", "Tomorrow", "Movie"],
+          "options": [
+            "Weekend",
+            "Yesterday",
+            "Tomorrow",
+            "Movie"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does さむい (Samui) mean?",
           "questionType": "multiple_choice",
-          "options": ["Hot", "Difficult", "Cold (weather)", "Boring"],
+          "options": [
+            "Hot",
+            "Difficult",
+            "Cold (weather)",
+            "Boring"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does おんせん (Onsen) mean?",
           "questionType": "multiple_choice",
-          "options": ["Hot spring", "Movie", "Job", "Test"],
+          "options": [
+            "Hot spring",
+            "Movie",
+            "Job",
+            "Test"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "Which of these is a na-adjective?",
           "questionType": "multiple_choice",
-          "options": ["むずかしい (Muzukashii)", "たのしい (Tanoshii)", "ひま (Hima)", "おいしい (Oishii)"],
+          "options": [
+            "むずかしい (Muzukashii)",
+            "たのしい (Tanoshii)",
+            "ひま (Hima)",
+            "おいしい (Oishii)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. How does the speaker describe the trip?",
           "questionType": "multiple_choice",
-          "options": ["It was difficult", "It was fun", "It was boring", "It was cold"],
+          "options": [
+            "It was difficult",
+            "It was fun",
+            "It was boring",
+            "It was cold"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. What does the speaker want to do?",
           "questionType": "multiple_choice",
-          "options": ["Eat sushi", "Go to Japan", "Drink coffee", "Watch a movie"],
+          "options": [
+            "Eat sushi",
+            "Go to Japan",
+            "Drink coffee",
+            "Watch a movie"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. Was the movie fun?",
           "questionType": "multiple_choice",
-          "options": ["Yes, it was fun.", "No, it was not fun.", "It was scary.", "They didn't watch a movie."],
+          "options": [
+            "Yes, it was fun.",
+            "No, it was not fun.",
+            "It was scary.",
+            "They didn't watch a movie."
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,27 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Tanoshikatta", "tanoshikatta desu", "Tanoshikatta desu"],
-      "q017": ["Tabetai", "tabetai desu", "Tabetai desu"],
-      "q018": ["Ikimashita"],
-      "q019": ["Kinou"],
-      "q020": ["Muzukashikatta", "muzukashikatta desu", "Muzukashikatta desu"]
+      "q016": [
+        "Tanoshikatta",
+        "tanoshikatta desu",
+        "Tanoshikatta desu"
+      ],
+      "q017": [
+        "Tabetai",
+        "tabetai desu",
+        "Tabetai desu"
+      ],
+      "q018": [
+        "Ikimashita"
+      ],
+      "q019": [
+        "Kinou"
+      ],
+      "q020": [
+        "Muzukashikatta",
+        "muzukashikatta desu",
+        "Muzukashikatta desu"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +461,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b3/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B2_reading_001"],
+  "prerequisites": [
+    "en_hi_M3B2_reading_001"
+  ],
   "instructions": "A beginner student wrote three very boring, simple sentences about what is happening right now: 'I wash the car.' 'He eats the apple.' 'They go home.' Your job is to UPGRADE them! Turn them into the Present Perfect tense to show the tasks are 'ALREADY FINISHED'.",
   "contentItems": [
     {
@@ -97,7 +99,11 @@
     "acceptableAlternates": [
       "I've washed the car. He's eaten the apple. They've gone home."
     ],
-    "requiredKeywords": ["have washed", "has eaten", "have gone"],
+    "requiredKeywords": [
+      "have washed",
+      "has eaten",
+      "have gone"
+    ],
     "grammarBaseline": "Absolute zero tolerance for base verb retention. 'I have wash' instantly fails over 50% of the rubric.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -114,19 +120,26 @@
     "onPartial": "Good start! Double check Sentence 2 and Sentence 3. 'Eat' turns into 'Eaten'. 'Go' turns into 'Gone'!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b2/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b2/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m3/b2/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Change the sentences to Present Perfect. I wash the car. He eats the apple. They go home.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "present_perfect", "have", "has", "past_participle", "block2"],
+  "tags": [
+    "writing",
+    "present_perfect",
+    "have",
+    "has",
+    "past_participle",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -139,7 +152,9 @@
     "Writing 'They have went' (mixing Simple Past V2 with Past Participle V3)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B1_test_001"],
+  "prerequisites": [
+    "en_hi_M1B1_test_001"
+  ],
   "instructions": "This lesson forms the absolute core of English sentence building. You will learn how to say 'I am', 'He is', and 'They are' in the correct order. Read the rules, listen to the examples multiple times, and study the checkpoint questions.",
   "contentItems": [
     {
@@ -45,18 +47,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b2/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m1/b2/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b2/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m1/b2/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Subject, Verb, Object. I am. You are. He is...",
     "audioLanguage": "en",
     "audioDuration": 360,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "svo", "pronouns", "to-be-verbs", "beginner", "month1", "block2"],
+  "tags": [
+    "grammar",
+    "svo",
+    "pronouns",
+    "to-be-verbs",
+    "beginner",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +79,9 @@
     "Translating literally to SOV: 'I student am'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Pronouns & To Be Verbs",

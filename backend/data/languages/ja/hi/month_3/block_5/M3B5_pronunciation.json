@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B5_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M3B5_lesson_001"
+  ],
   "instructions": "緊急時に「通じない」という事態を防ぐための特訓です！痛みを伝える時の重い響き(D)や、助けを求める時の鋭いアクセントを練習しましょう。",
   "contentItems": [
     {
@@ -96,19 +98,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b5/pronunciation/native_emerg_pron.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b5/pronunciation/slow_emerg_pron.mp3",
-    "normalAudio": "audio/ja_hi/m3/b5/pronunciation/native_emerg_pron.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Madad keejiye. Dard hai. Mujhe bukhaar hai. Pulis ko bulaaiye. Bachaao!",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "emergencies", "health", "sos", "month3", "block5"],
+  "tags": [
+    "pronunciation",
+    "emergencies",
+    "health",
+    "sos",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -120,7 +129,9 @@
     "Pronouncing the final 'D' in 'Madad' with a vowel sound (Ma-da-da), making it hard to understand in an emergency."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B5_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B5_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

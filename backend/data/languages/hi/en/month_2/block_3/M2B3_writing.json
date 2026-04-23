@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B3_reading_001"],
+  "prerequisites": [
+    "en_hi_M2B3_reading_001"
+  ],
   "instructions": "Think about what you did yesterday. Write 3 short sentences about it. You must use the words 'Went', 'Ate', and one word ending in '-ed' (like Played, Walked, or Watched). REMEMBER THE GOLDEN RULE: Do not use Is, Am, or Are! Just 'I went', 'I ate'!",
   "contentItems": [
     {
@@ -97,7 +99,10 @@
     "acceptableAlternates": [
       "Yesterday I went to school. I ate my lunch. I played with my friends."
     ],
-    "requiredKeywords": ["went", "ate"],
+    "requiredKeywords": [
+      "went",
+      "ate"
+    ],
     "grammarBaseline": "Absolute zero tolerance for 'I am [past verb]'. Absolute zero tolerance for 'goed' or 'eated'.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -114,11 +119,11 @@
     "onPartial": "Good start! Double check your spelling. Remember, 'Go' and 'Eat' are rule-breakers. You cannot write 'Goed' or 'Eated'. It must be 'Went' and 'Ate'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b3/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b3/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write three sentences about yesterday. Use Went, Ate, and one word ending in ED. Do not use 'Am'.",
@@ -126,7 +131,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "simple_past", "verbs", "irregular_verbs", "block3"],
+  "tags": [
+    "writing",
+    "simple_past",
+    "verbs",
+    "irregular_verbs",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -139,7 +150,9 @@
     "Writing 'I eated'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

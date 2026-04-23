@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B1_reading_001"],
+  "prerequisites": [
+    "ja_hi_M1B1_reading_001"
+  ],
   "instructions": "ヒンディー語で自分の名前を書く練習をしましょう！日本語の「私の名前は〇〇です」という構造（S-O-V）は、驚くべきことにヒンディー語と全く同じ語順です！",
   "contentItems": [
     {
@@ -104,7 +106,13 @@
       "नमस्ते। मेरा नाम राज है। धन्यवाद।",
       "नमस्ते मेरा नाम अमित है धन्यवाद"
     ],
-    "requiredKeywords": ["नमस्ते", "मेरा", "नाम", "है", "धन्यवाद"],
+    "requiredKeywords": [
+      "नमस्ते",
+      "मेरा",
+      "नाम",
+      "है",
+      "धन्यवाद"
+    ],
     "grammarBaseline": "The SOV parallel between Japanese and Hindi must be absolute here. 'hai' (desu) must terminate the clause.",
     "lengthExpectation": "About 6-7 words total.",
     "scoringRubric": {
@@ -119,19 +127,26 @@
     "onPartial": "惜しいです！『hai (है)』の位置を確認してください。日本語の「です」と同じように、文の最後に置くのが正解です。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b1/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b1/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m1/b1/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write a greeting, your name, and a thank you.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "devanagari", "sov", "introduction", "month1", "block1"],
+  "tags": [
+    "writing",
+    "devanagari",
+    "sov",
+    "introduction",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -143,7 +158,9 @@
     "Overthinking the grammar, assuming a foreign language like Hindi must have a different word order from Japanese. (Moving the verb away from the end)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

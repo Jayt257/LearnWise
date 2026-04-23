@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B4_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M2B4_vocabulary_001"
+  ],
   "instructions": "You are planning a big party with your friend Sam. Sam is asking you what you will do to help. Reply ALOUD to his questions. Use 'I will' or 'I am going to'. Remember: Do NOT use any 'ing' or 'ed' endings after WILL!",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "सैम: 'We need food for the party.' (पार्टी के लिए हमें खाने की ज़रूरत है।) जवाब दें: 'मैं पिज़्ज़ा खरीदूँगा।' (I will...)",
-      "expectedSpeakingPoints": ["I will buy", "I'll buy", "pizza"],
+      "expectedSpeakingPoints": [
+        "I will buy",
+        "I'll buy",
+        "pizza"
+      ],
       "sampleResponse": {
         "targetText": "I will buy pizza.",
         "transliteration": "आई विल बाय पिज़्ज़ा।",
@@ -35,7 +41,10 @@
     {
       "subTaskId": "t2",
       "prompt": "सैम: 'And what about drinks?' (और पीने के लिए क्या?) जवाब दें: 'मेरा भाई पानी लाएगा।' (My brother will...)",
-      "expectedSpeakingPoints": ["My brother will", "bring water"],
+      "expectedSpeakingPoints": [
+        "My brother will",
+        "bring water"
+      ],
       "sampleResponse": {
         "targetText": "My brother will bring water.",
         "transliteration": "माई ब्रदर विल ब्रिंग वाटर।",
@@ -45,7 +54,10 @@
     {
       "subTaskId": "t3",
       "prompt": "सैम: 'Who is going to clean the house?' (घर की सफाई कौन करने वाला है?) जवाब दें: 'हम घर साफ करने वाले हैं।' (We are going to...)",
-      "expectedSpeakingPoints": ["We are going to", "clean the house"],
+      "expectedSpeakingPoints": [
+        "We are going to",
+        "clean the house"
+      ],
       "sampleResponse": {
         "targetText": "We are going to clean the house.",
         "transliteration": "वी आर गोइंग टू क्लीन द हाउस।",
@@ -55,7 +67,11 @@
     {
       "subTaskId": "t4",
       "prompt": "सैम: 'Will it rain tomorrow?' (क्या कल बारिश होगी?) जवाब दें: 'नहीं, धूप होगी।' (No, it will...)",
-      "expectedSpeakingPoints": ["No", "it will be", "sunny"],
+      "expectedSpeakingPoints": [
+        "No",
+        "it will be",
+        "sunny"
+      ],
       "sampleResponse": {
         "targetText": "No, it will be sunny.",
         "transliteration": "नो, इट विल बी सनी।",
@@ -65,7 +81,11 @@
     {
       "subTaskId": "t5",
       "prompt": "सैम: 'Great. It is going to be fun!' (बढ़िया। बहुत मज़ा आने वाला है!) जवाब दें: 'हाँ, हम मज़ा करेंगे!' (Yes, we will...)",
-      "expectedSpeakingPoints": ["Yes", "we will have", "fun"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "we will have",
+        "fun"
+      ],
       "sampleResponse": {
         "targetText": "Yes, we will have fun!",
         "transliteration": "येस, वी विल हैव फन!",
@@ -145,19 +165,27 @@
     "onPartial": "Good try! Make sure you don't add 's' to the verb. Even if it is 'My brother', you DO NOT say 'My brother will brings'. It must be 'My brother will bring'!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b4/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m2/b4/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b4/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b4/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m2/b4/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m2/b4/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Sam: We need food for the party...",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "future_tense", "will", "going_to", "month2", "block4"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "future_tense",
+    "will",
+    "going_to",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -170,7 +198,9 @@
     "Saying 'We are going clean' (forgetting the 'to')."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B4_test_001"],
+  "nextActivityIds": [
+    "en_hi_M2B4_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

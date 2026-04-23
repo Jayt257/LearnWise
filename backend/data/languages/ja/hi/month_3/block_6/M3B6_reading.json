@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 90,
-  "prerequisites": ["ja_hi_M3B6_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M3B6_pronunciation_001"
+  ],
   "instructions": "3ヶ月の集大成です！ケンがインドを旅行している日記を読み解きましょう。これまでに学んだ全ての文法ルール（語尾の変化、Mujhe、Agar/Toなど）が散りばめられています。ゆっくりでいいので、一文ずつ構造を分解してください。",
   "contentItems": [
     {
@@ -96,14 +98,20 @@
       "questionId": "q1",
       "questionText": "M1知識: 最初の文「Main Ken hoon और(aur) main Dilli mein hoon.」で、2つの文を繋いでいる「और(aur)」の意味は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["そして (And)", "しかし (But)"],
+      "options": [
+        "そして (And)",
+        "しかし (But)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "M2知識: ケンは「Mujhe station jaanaa hai (私は駅へ行きたい/用事がある)」と言っています。「私」を表す単語が「Mujhe」になっているのはなぜですか？",
       "questionType": "multiple_choice",
-      "options": ["行くことが「義務・必要性」であり、自発的な行動ではないから", "「駅」が女性名詞だから"],
+      "options": [
+        "行くことが「義務・必要性」であり、自発的な行動ではないから",
+        "「駅」が女性名詞だから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -117,14 +125,20 @@
       "questionId": "q4",
       "questionText": "M3知識: ケンは駅に着いた時(Jab...tabの文)に自分の体に何が起きたと言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["熱が出た (Bukhaar huaa)", "お腹が空いた (Bhookh lagee)"],
+      "options": [
+        "熱が出た (Bukhaar huaa)",
+        "お腹が空いた (Bhookh lagee)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "総合: 「Main kal ghar vaapas jaaoongaa.」ケンは明日家に帰ると言っています。ケンが『男』だということは、この文のどの単語の形から判断できますか？",
       "questionType": "multiple_choice",
-      "options": ["Jaaoongaa (の長音 -aa)", "Ghar (家)"],
+      "options": [
+        "Jaaoongaa (の長音 -aa)",
+        "Ghar (家)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
   ],
@@ -138,10 +152,16 @@
       "q5": "Jaaoongaa (の長音 -aa)"
     },
     "acceptableParaphrases": {
-      "q3": ["ki", "Ki", "KI"]
+      "q3": [
+        "ki",
+        "Ki",
+        "KI"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["ki"]
+      "q3": [
+        "ki"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner isolates all multi-clause conjunctions (aur, lekin, ki, agar/to, jab/tab).",
@@ -158,18 +178,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b6/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b6/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b6/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m3/b6/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Main Ken hoon aur main Dilli mein hoon. Yah shahar bahut baḍaa hai... (matches full text)",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "review", "comprehensive", "grammar", "month3", "block6"],
+  "tags": [
+    "reading",
+    "review",
+    "comprehensive",
+    "grammar",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -181,7 +208,9 @@
     "Failing to recognize 'Tumhein' as the dative form of Tum, mistaking it for a completely new unfathomable word."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B6_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B6_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B2_reading_001"],
+  "prerequisites": [
+    "ja_hi_M1B2_reading_001"
+  ],
   "instructions": "文法パズルに挑戦しましょう！与えられたヒンディー語の単語を並べ替えて、正しい文を作ってください。一番のポイントは、主語に合った正しい「です（動詞）」を最後に置くことです！",
   "contentItems": [
     {
@@ -116,7 +118,14 @@
       "main ken hoon aap dost hain vah bhaarateey hai",
       "मैं केन हूँ आप दोस्त हैं वह भारतीय है"
     ],
-    "requiredKeywords": ["मैं", "हूँ", "आप", "हैं", "वह", "है"],
+    "requiredKeywords": [
+      "मैं",
+      "हूँ",
+      "आप",
+      "हैं",
+      "वह",
+      "है"
+    ],
     "grammarBaseline": "Absolute zero tolerance for verb mismatch. If 'Main' is used with 'hai', fail the specific clause. If 'Aap' is used with 'hai', fail the clause.",
     "lengthExpectation": "Exactly 3 short sentences.",
     "scoringRubric": {
@@ -131,19 +140,26 @@
     "onPartial": "惜しい！どこかの文で「です」の使い分けを間違えています。「Aap」には「Hain（点がついている方）」を使いましたか？確認してください。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b2/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b2/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b2/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m1/b2/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 sentences applying Hoon, Hain, and Hai correctly.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "subject_verb_agreement", "to_be", "month1", "block2"],
+  "tags": [
+    "writing",
+    "grammar",
+    "subject_verb_agreement",
+    "to_be",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -155,7 +171,9 @@
     "Writing 'Main Ken hai' because of Japanese grammatical inertia."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B2_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B2_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

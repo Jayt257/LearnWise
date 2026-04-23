@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B6_test_001"],
+  "prerequisites": [
+    "ja_hi_M1B6_test_001"
+  ],
   "instructions": "Month 2 へようこそ！ここでは「今まさに〜しているところです」という『現在進行形』を学びます。日本語の「〜て いる」という形とヒンディー語の形は、驚くほどそっくりです！",
   "contentItems": [
     {
@@ -43,18 +45,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b1/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b1/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b1/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b1/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m2/b1/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main jaa rahaa hoon. Main jaa rahee hoon. Aap jaa rahe hain.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "verbs", "present_continuous", "gender", "month2", "block1"],
+  "tags": [
+    "grammar",
+    "verbs",
+    "present_continuous",
+    "gender",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -67,7 +76,9 @@
     "Saying 'Main khaa rahaa' and forgetting the terminal '-hoon' copula."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B1_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B1_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "今していること (Current Actions)",

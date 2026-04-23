@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M3B3_test_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_test_001"
+  ],
   "instructions": "いよいよ実践編です！これまで学んだ「〜してください(命令形)」「〜したい(願望)」などの型をフル活用して、インドでの買い物(値段交渉)と、道案内(方向指示)の表現をマスターしましょう。",
   "contentItems": [
     {
@@ -44,18 +46,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b4/lesson/native_travel.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b4/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b4/lesson/slow_travel.mp3",
-    "normalAudio": "audio/ja_hi/m3/b4/lesson/native_travel.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Yah kitne kaa hai? Bahut mahangaa hai. Station kahaan hai? Seedhe jaaiye, phir baaen muḍiye.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "vocabulary", "travel", "shopping", "practical", "month3", "block4"],
+  "tags": [
+    "grammar",
+    "vocabulary",
+    "travel",
+    "shopping",
+    "practical",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -67,7 +77,9 @@
     "Asking 'Kitna hai?' which just means 'How much quantity is it?' instead of 'Kitne kaa hai?' (Of what price is it?)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B4_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B4_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "サバイバル・ヒンディー",
@@ -148,7 +160,9 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インドでは定価がない店やリキシャ（三輪タクシー）が多く、値段交渉は日常茶飯事です。最初に言われた値段の半分程度からスタートし「Bahut mahangaa hai! (高すぎる！)」と交渉するのが一つのコミュニケーションです。",
-    "dosList": ["Use 'Bhaiyaa' (brother) to politely but casually address drivers and shopkeepers."],
+    "dosList": [
+      "Use 'Bhaiyaa' (brother) to politely but casually address drivers and shopkeepers."
+    ],
     "dontsList": []
   },
   "summary": "【買い物】Kitne kaa hai? (いくら？) / Mahangaa hai! (高い！)\n【移動】Mujhe [場所] jaanaa hai (私に[場所]に行く用がある)\n【方向】Seedhe(真っ直ぐ) / Baaen(左) / Daaen(右)",

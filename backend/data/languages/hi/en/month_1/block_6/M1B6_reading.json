@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B6_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M1B6_pronunciation_001"
+  ],
   "instructions": "Read the story about Amit looking for his lost keys. Notice how the location words (in, on, under) always come BEFORE the thing he is looking at ('in the bag', not 'the bag in'). Answer the 8 questions below.",
   "contentItems": [
     {
@@ -116,21 +118,36 @@
       "questionId": "q1",
       "questionText": "What does Amit find INSIDE his bag? ('in the bag')",
       "questionType": "multiple_choice",
-      "options": ["Keys", "An apple", "A book", "A pen"],
+      "options": [
+        "Keys",
+        "An apple",
+        "A book",
+        "A pen"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What things were ON the table?",
       "questionType": "multiple_choice",
-      "options": ["A bag and keys", "Books and a pen", "An apple and books", "Keys and books"],
+      "options": [
+        "A bag and keys",
+        "Books and a pen",
+        "An apple and books",
+        "Keys and books"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What was located UNDER the bed?",
       "questionType": "multiple_choice",
-      "options": ["The dog", "The keys", "A heavy box", "A book"],
+      "options": [
+        "The dog",
+        "The keys",
+        "A heavy box",
+        "A book"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
@@ -144,14 +161,24 @@
       "questionId": "q5",
       "questionText": "Where does the sister sit?",
       "questionType": "multiple_choice",
-      "options": ["In the sofa", "On the sofa", "Under the sofa", "On the table"],
+      "options": [
+        "In the sofa",
+        "On the sofa",
+        "Under the sofa",
+        "On the table"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
       "questionId": "q6",
       "questionText": "Where is Max (the dog) sleeping?",
       "questionType": "multiple_choice",
-      "options": ["In the kitchen", "On the fridge", "On the floor", "Under the bed"],
+      "options": [
+        "In the kitchen",
+        "On the fridge",
+        "On the floor",
+        "Under the bed"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
@@ -165,7 +192,10 @@
       "questionId": "q8",
       "questionText": "True or False: The text says 'The dog under keys are'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -182,12 +212,26 @@
       "q8": "False"
     },
     "acceptableParaphrases": {
-      "q4": ["Kitchen", "in kitchen", "In the kitchen"],
-      "q7": ["Under dog", "Under Max", "under the dog"]
+      "q4": [
+        "Kitchen",
+        "in kitchen",
+        "In the kitchen"
+      ],
+      "q7": [
+        "Under dog",
+        "Under Max",
+        "under the dog"
+      ]
     },
     "keywordScoringRules": {
-      "q4": ["kitchen"],
-      "q7": ["under", "dog", "max"]
+      "q4": [
+        "kitchen"
+      ],
+      "q7": [
+        "under",
+        "dog",
+        "max"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner can distinguish between container prepositions (in) and surface prepositions (on).",
@@ -203,18 +247,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b6/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b6/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m1/b6/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Today is Monday. I am very late for work. Where are my keys... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "prepositions", "locations", "in_on_under", "month1", "block6"],
+  "tags": [
+    "reading",
+    "prepositions",
+    "locations",
+    "in_on_under",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -227,7 +278,9 @@
     "Thinking the Keys are IN the fridge."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

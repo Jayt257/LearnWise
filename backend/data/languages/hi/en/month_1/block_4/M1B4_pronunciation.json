@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B4_lesson_001"],
+  "prerequisites": [
+    "en_hi_M1B4_lesson_001"
+  ],
   "instructions": "In English, 13 and 30 sound very similar, but they have a different 'stress' (accentuation). Listen to how the native speaker emphasizes the end of Thir-TEEN, and the beginning of THIR-ty. Replicate this with your microphone.",
   "contentItems": [
     {
@@ -147,19 +149,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b4/pronunciation/native_numbers.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b4/pronunciation/slow_numbers.mp3",
-    "normalAudio": "audio/en_hi/m1/b4/pronunciation/native_numbers.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Three. Thirteen. Thirty...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "numbers", "wh-words", "phonetics", "beginner"],
+  "tags": [
+    "pronunciation",
+    "numbers",
+    "wh-words",
+    "phonetics",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -172,7 +180,9 @@
     "Saying 'Hoo-hoo' for Who."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

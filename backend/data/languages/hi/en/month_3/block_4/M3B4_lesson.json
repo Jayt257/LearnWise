@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B3_test_001"],
+  "prerequisites": [
+    "en_hi_M3B3_test_001"
+  ],
   "instructions": "Congratulations! You have reached the final block! It is time to leave the classroom and step into the real world. In this lesson, we will focus purely on 'Survival English'. You will learn the exact phrases you need if you are lost in an airport, ordering food, or facing an emergency.",
   "contentItems": [
     {
@@ -45,18 +47,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b4/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m3/b4/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b4/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m3/b4/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Excuse me, where is the bathroom? I would like the chicken. Call the police!",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["survival", "travel", "restaurant", "emergency", "phrases", "capstone", "month3", "block4"],
+  "tags": [
+    "survival",
+    "travel",
+    "restaurant",
+    "emergency",
+    "phrases",
+    "capstone",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +80,9 @@
     "Asking 'What is the price?' instead of 'How much?'"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Navigating English Reality",
@@ -173,8 +186,12 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "Customer service in Western countries relies heavily on polite modals. Waiters and shop assistants expect to be treated with 'Could', 'Would', and 'Please'. If you speak to them using imperatives ('Give me...'), they will consider you incredibly rude.",
-    "dosList": ["Always start with 'Excuse me' before asking a stranger a question."],
-    "dontsList": ["Never click your fingers or shout 'Hey' to get a waiter's attention (very offensive)."]
+    "dosList": [
+      "Always start with 'Excuse me' before asking a stranger a question."
+    ],
+    "dontsList": [
+      "Never click your fingers or shout 'Hey' to get a waiter's attention (very offensive)."
+    ]
   },
   "summary": "To survive in daily English: Ask for prices with 'How much'. Ask for food with 'I would like'. Ask for directions with 'Excuse me'. In emergencies, be fast and loud!",
   "checkpointQuestions": [

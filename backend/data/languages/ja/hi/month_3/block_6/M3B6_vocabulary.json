@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B6_listening_001"],
+  "prerequisites": [
+    "ja_hi_M3B6_listening_001"
+  ],
   "instructions": "数ある単語の中でも、ヒンディー語の『骨格』を作るために絶対に忘れてはならない超重要単語の総復習です！これさえ覚えていれば、身振り手振りを交えてインドのどこでも生きていけます。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the essential pronoun to its meaning: Mujhe (मुझे)",
       "questionType": "matching",
-      "options": ["私に", "行く"],
+      "options": [
+        "私に",
+        "行く"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the modal verb to its meaning: Chaahiye (चाहिए)",
       "questionType": "matching",
-      "options": ["できる", "欲しい / 〜すべきだ"],
+      "options": [
+        "できる",
+        "欲しい / 〜すべきだ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the modal verb to its meaning: Saknaa (सकना)",
       "questionType": "matching",
-      "options": ["欲しい / 〜すべきだ", "できる"],
+      "options": [
+        "欲しい / 〜すべきだ",
+        "できる"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "What does the conjunction 'Ki' (कि) do?",
       "questionType": "matching",
-      "options": ["〜ということ (That)", "もし (If)"],
+      "options": [
+        "〜ということ (That)",
+        "もし (If)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "If you use 'Agar' (もし) to start a condition, what must follow to mean 'Then'?",
       "questionType": "matching",
-      "options": ["To", "Par"],
+      "options": [
+        "To",
+        "Par"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,8 +211,13 @@
       "w10": "〜ない"
     },
     "acceptedTranslations": {
-      "w01": ["私に"],
-      "w04": ["欲しい", "〜すべきだ"]
+      "w01": [
+        "私に"
+      ],
+      "w04": [
+        "欲しい",
+        "〜すべきだ"
+      ]
     },
     "matchingKey": {
       "q1": "私に",
@@ -216,18 +238,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b6/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b6/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b6/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b6/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b6/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mujhe. Hai. Jaanaa. Chaahiye. Saknaa. Agar. To. Ki. Par. Nahin.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "review", "comprehensive", "grammar_markers", "month3", "block6"],
+  "tags": [
+    "vocabulary",
+    "review",
+    "comprehensive",
+    "grammar_markers",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +268,9 @@
     "Thinking 'Mujhe' and 'Main' are interchangeable, when they serve entirely different syntactical domains."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B6_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B6_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

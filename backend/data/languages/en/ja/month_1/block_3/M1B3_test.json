@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does コーヒー mean?",
           "questionType": "multiple_choice",
-          "options": ["Tea", "Coffee", "Juice", "Water"],
+          "options": [
+            "Tea",
+            "Coffee",
+            "Juice",
+            "Water"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -53,7 +58,12 @@
           "questionId": "q002",
           "questionText": "How do you say 'Taxi' in Katakana?",
           "questionType": "multiple_choice",
-          "options": ["バス", "タクシー", "ホテル", "トイレ"],
+          "options": [
+            "バス",
+            "タクシー",
+            "ホテル",
+            "トイレ"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -67,7 +77,12 @@
           "questionId": "q003",
           "questionText": "What does アイスクリーム mean?",
           "questionType": "multiple_choice",
-          "options": ["Ice Cream", "Iced Tea", "Ice Cube", "Cake"],
+          "options": [
+            "Ice Cream",
+            "Iced Tea",
+            "Ice Cube",
+            "Cake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -81,7 +96,12 @@
           "questionId": "q004",
           "questionText": "Which of these means 'Computer'?",
           "questionType": "multiple_choice",
-          "options": ["カメラ", "テレビ", "コンピューター", "ジュース"],
+          "options": [
+            "カメラ",
+            "テレビ",
+            "コンピューター",
+            "ジュース"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -95,7 +115,12 @@
           "questionId": "q005",
           "questionText": "How do you say 'America'?",
           "questionType": "multiple_choice",
-          "options": ["イギリス", "アメリカ", "カナダ", "にほん"],
+          "options": [
+            "イギリス",
+            "アメリカ",
+            "カナダ",
+            "にほん"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -167,7 +192,10 @@
           "questionId": "q009",
           "questionText": "True or False: Japanese has no 'V' sound, so it is often replaced with a 'B' sound in Katakana loan words.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -186,7 +214,12 @@
           "questionId": "q010",
           "questionText": "Listen to the audio. What did the customer order?",
           "questionType": "multiple_choice",
-          "options": ["Coffee", "Sandwich", "Juice", "Cake"],
+          "options": [
+            "Coffee",
+            "Sandwich",
+            "Juice",
+            "Cake"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q010",
           "questionHints": {
@@ -200,7 +233,12 @@
           "questionId": "q011",
           "questionText": "Listen to the audio. What is the speaker looking for?",
           "questionType": "multiple_choice",
-          "options": ["A taxi", "A bus", "A hotel", "A toilet"],
+          "options": [
+            "A taxi",
+            "A bus",
+            "A hotel",
+            "A toilet"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q011",
           "questionHints": {
@@ -214,7 +252,12 @@
           "questionId": "q012",
           "questionText": "Listen to the audio. Which country did the speaker mention?",
           "questionType": "multiple_choice",
-          "options": ["America", "Canada", "Britain", "Japan"],
+          "options": [
+            "America",
+            "Canada",
+            "Britain",
+            "Japan"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q012",
           "questionHints": {
@@ -228,7 +271,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. How does the staff respond to the customer's order?",
           "questionType": "multiple_choice",
-          "options": ["Arigatou gozaimasu", "Hai, douzo", "Sumimasen", "Onegaishimasu"],
+          "options": [
+            "Arigatou gozaimasu",
+            "Hai, douzo",
+            "Sumimasen",
+            "Onegaishimasu"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -293,7 +341,12 @@
           "questionId": "q017",
           "questionText": "Which is the correct way to write 'Juice' in Katakana?",
           "questionType": "multiple_choice",
-          "options": ["ジュース", "ジュス", "ジューース", "ジュイス"],
+          "options": [
+            "ジュース",
+            "ジュス",
+            "ジューース",
+            "ジュイス"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -307,7 +360,12 @@
           "questionId": "q018",
           "questionText": "Which is the correct way to write 'Hotel' in Katakana?",
           "questionType": "multiple_choice",
-          "options": ["ホテール", "ホテル", "ホッテル", "ホテロ"],
+          "options": [
+            "ホテール",
+            "ホテル",
+            "ホッテル",
+            "ホテロ"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -321,7 +379,12 @@
           "questionId": "q019",
           "questionText": "What word is this: イギリス?",
           "questionType": "multiple_choice",
-          "options": ["America", "Canada", "Japan", "Britain/UK"],
+          "options": [
+            "America",
+            "Canada",
+            "Japan",
+            "Britain/UK"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -380,9 +443,21 @@
       "q016": "Award 5 points for Koohii, onegaishimasu"
     },
     "alternateValidAnswers": {
-      "q014": ["sandwich", "a sandwich", "Sandwich"],
-      "q015": ["camera", "a camera", "Camera"],
-      "q016": ["コーヒーおねがいします", "コーヒー、おねがいします。", "Koohii, onegaishimasu"]
+      "q014": [
+        "sandwich",
+        "a sandwich",
+        "Sandwich"
+      ],
+      "q015": [
+        "camera",
+        "a camera",
+        "Camera"
+      ],
+      "q016": [
+        "コーヒーおねがいします",
+        "コーヒー、おねがいします。",
+        "Koohii, onegaishimasu"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 15,
@@ -402,7 +477,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b3/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B2_writing_001"],
+  "prerequisites": [
+    "en_hi_M1B2_writing_001"
+  ],
   "instructions": "Listen to the audio of two girls, Riya and Aditi, looking at an old high school photo album. They speak quickly using English contractions like 'She's' instead of 'She is'. Pay close attention to who is a student and who is NOT a student. Then, answer the 8 comprehension questions.",
   "contentItems": [
     {
@@ -82,7 +84,12 @@
       "questionId": "q1",
       "questionText": "What does Riya say about the photo album?",
       "questionType": "multiple_choice",
-      "options": ["It is new", "It is old", "It is expensive", "It is heavy"],
+      "options": [
+        "It is new",
+        "It is old",
+        "It is expensive",
+        "It is heavy"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -90,7 +97,12 @@
       "questionId": "q2",
       "questionText": "Who is Rohan?",
       "questionType": "multiple_choice",
-      "options": ["Riya's father", "Riya's friend", "Riya's brother", "Aditi's brother"],
+      "options": [
+        "Riya's father",
+        "Riya's friend",
+        "Riya's brother",
+        "Aditi's brother"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -130,7 +142,12 @@
       "questionId": "q7",
       "questionText": "What contraction does Aditi use to say 'I am so happy'?",
       "questionType": "multiple_choice",
-      "options": ["Am so happy", "I'm so happy", "I are happy", "I am happy"],
+      "options": [
+        "Am so happy",
+        "I'm so happy",
+        "I are happy",
+        "I am happy"
+      ],
       "audioTimestamp": "00:33",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -138,7 +155,12 @@
       "questionId": "q8",
       "questionText": "What does Riya mean when she says 'You're very lucky'?",
       "questionType": "multiple_choice",
-      "options": ["He is very lucky", "She (Aditi) is very lucky", "I am very lucky", "They are very lucky"],
+      "options": [
+        "He is very lucky",
+        "She (Aditi) is very lucky",
+        "I am very lucky",
+        "They are very lucky"
+      ],
       "audioTimestamp": "00:38",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -162,13 +184,27 @@
       "q8": "She (Aditi) is very lucky"
     },
     "acceptedShortAnswers": {
-      "q3": ["He's not", "He is not", "No, he is not"],
-      "q6": ["From Mumbai", "They are not from Mumbai", "They're not from Mumbai", "Mumbai"]
+      "q3": [
+        "He's not",
+        "He is not",
+        "No, he is not"
+      ],
+      "q6": [
+        "From Mumbai",
+        "They are not from Mumbai",
+        "They're not from Mumbai",
+        "Mumbai"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["tall"],
-      "q5": ["They're", "they're"]
+      "q4": [
+        "tall"
+      ],
+      "q5": [
+        "They're",
+        "they're"
+      ]
     },
     "partialCreditRules": {
       "q5": "5 points for writing 'They are' instead of the exact spoken word 'They're'."
@@ -183,18 +219,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b2/listening/dialogue_native.mp3",
+    "nativeAudio": "month_1/block_2/M1B2_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b2/listening/dialogue_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b2/listening/dialogue_native.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_2/M1B2_audio.wav",
     "audioTranscript": "Riya: Look at this photo, Aditi. It's very old... (see transcript array)",
     "audioLanguage": "en",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "contractions", "to-be-verbs", "pronouns", "beginner", "month1", "block2"],
+  "tags": [
+    "listening",
+    "contractions",
+    "to-be-verbs",
+    "pronouns",
+    "beginner",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -207,7 +251,9 @@
     "Writing out 'They are' when the speaker clearly said 'They're'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

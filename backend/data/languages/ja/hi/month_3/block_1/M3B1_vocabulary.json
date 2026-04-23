@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B1_listening_001"],
+  "prerequisites": [
+    "ja_hi_M3B1_listening_001"
+  ],
   "instructions": "「できる」と「したい」という表現を使って、自分の趣味やスキルを語るための単語を学びましょう！Saktaa(できる)の時は、最後の 'naa' を取って使うことを忘れないでくださいね。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the verb to its meaning: Seekhnaa (सीखना)",
       "questionType": "matching",
-      "options": ["習う/学ぶ", "書く"],
+      "options": [
+        "習う/学ぶ",
+        "書く"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the noun to its meaning: Gaaḍee (गाड़ी)",
       "questionType": "matching",
-      "options": ["言語", "車/乗り物"],
+      "options": [
+        "言語",
+        "車/乗り物"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What verb is used heavily alongside 'Gaaḍee' to mean 'to drive/operate'?",
       "questionType": "matching",
-      "options": ["Chalaanaa", "Banaanaa"],
+      "options": [
+        "Chalaanaa",
+        "Banaanaa"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its translation: 조금 / 少し (A little)",
       "questionType": "matching",
-      "options": ["Thoḍaa", "Madad"],
+      "options": [
+        "Thoḍaa",
+        "Madad"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "If you want to 'write' a language, which verb do you use?",
       "questionType": "matching",
-      "options": ["Paḍhnaa", "Likhnaa"],
+      "options": [
+        "Paḍhnaa",
+        "Likhnaa"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,7 +211,11 @@
       "w10": "少し (A little)"
     },
     "acceptedTranslations": {
-      "w01": ["習う", "学ぶ", "勉強する"]
+      "w01": [
+        "習う",
+        "学ぶ",
+        "勉強する"
+      ]
     },
     "matchingKey": {
       "q1": "習う/学ぶ",
@@ -215,18 +236,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b1/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b1/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b1/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b1/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Seekhnaa. Chalaanaa. Paḍhnaa. Likhnaa. Banaanaa. Madad. Bhaashaa. Gaaḍee. Khaanaa. Thoḍaa.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "skills", "verbs", "languages", "month3", "block1"],
+  "tags": [
+    "vocabulary",
+    "skills",
+    "verbs",
+    "languages",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -238,7 +266,9 @@
     "Thinking 'Khaanaa' only means 'food' and forgetting it is also the infinitive verb 'to eat'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B1_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B1_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

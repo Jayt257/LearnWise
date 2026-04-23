@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B3_listening_001"],
+  "prerequisites": [
+    "en_hi_M1B3_listening_001"
+  ],
   "instructions": "Study these 15 common nouns. Look carefully at whether they take 'A' or 'An', and look at how their spelling changes when they become plural. Then complete the 10-question quiz.",
   "contentItems": [
     {
@@ -204,35 +206,56 @@
       "questionId": "q1",
       "questionText": "Should you write 'A apple' or 'An apple'?",
       "questionType": "multiple_choice",
-      "options": ["A apple", "An apple"],
+      "options": [
+        "A apple",
+        "An apple"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What is the correct English translation for 'घड़ी'?",
       "questionType": "multiple_choice",
-      "options": ["Box", "Watch", "Brush", "Car"],
+      "options": [
+        "Box",
+        "Watch",
+        "Brush",
+        "Car"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What is the plural of 'Bus'?",
       "questionType": "multiple_choice",
-      "options": ["Buss", "Buses", "Bus's", "Bussies"],
+      "options": [
+        "Buss",
+        "Buses",
+        "Bus's",
+        "Bussies"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Which is correct?",
       "questionType": "multiple_choice",
-      "options": ["An boy", "A boy", "An dogs", "A egg"],
+      "options": [
+        "An boy",
+        "A boy",
+        "An dogs",
+        "A egg"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: The plural of 'Orange' is 'Oranges'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -253,21 +276,35 @@
       "questionId": "q8",
       "questionText": "If a word starts with an 'E' sound (like Egg), what article does it use?",
       "questionType": "multiple_choice",
-      "options": ["A", "An", "Two", "He"],
+      "options": [
+        "A",
+        "An",
+        "Two",
+        "He"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "Find the correct sentence.",
       "questionType": "multiple_choice",
-      "options": ["It is a cars.", "They are a cars.", "They are cars."],
+      "options": [
+        "It is a cars.",
+        "They are a cars.",
+        "They are cars."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "What is the plural of 'Class'?",
       "questionType": "multiple_choice",
-      "options": ["Class", "Classs", "Classes", "Class's"],
+      "options": [
+        "Class",
+        "Classs",
+        "Classes",
+        "Class's"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +327,13 @@
       "w15": "लड़की"
     },
     "acceptedTranslations": {
-      "w12": ["Umbrella"],
-      "w07": ["box", "boxes"]
+      "w12": [
+        "Umbrella"
+      ],
+      "w07": [
+        "box",
+        "boxes"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +359,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b3/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b3/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b3/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b3/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Book. Apple. Car. Dog. Cat. Bus. Box. Watch. Brush. Egg. Orange. Umbrella. Class. Boy. Girl.",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "nouns", "articles", "plurals", "objects", "month1", "block3"],
+  "tags": [
+    "vocabulary",
+    "nouns",
+    "articles",
+    "plurals",
+    "objects",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +391,9 @@
     "Writing 'A egg' instead of 'An egg'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

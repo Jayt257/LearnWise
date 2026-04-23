@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B4_reading_001"],
+  "prerequisites": [
+    "ja_hi_M1B4_reading_001"
+  ],
   "instructions": "文法パズルに挑戦しましょう！今回は「〜に」「〜の上に」といったヒンディー語の『助詞（Postpositions）』を使います。日本語と全く同じように、名詞の「後ろ」にくっつけてください。",
   "contentItems": [
     {
@@ -123,7 +125,14 @@
       "kitaab mez par hai vah gaadee mein hai main jaapaan se hoon",
       "किताब मेज़ पर है वह गाड़ी में है मैं जापान से हूँ"
     ],
-    "requiredKeywords": ["मेज़", "पर", "गाड़ी", "में", "जापान", "से"],
+    "requiredKeywords": [
+      "मेज़",
+      "पर",
+      "गाड़ी",
+      "में",
+      "जापान",
+      "से"
+    ],
     "grammarBaseline": "Zero tolerance for inverted prepositions (e.g., 'Par mez'). Hindi mimics Japanese exactly here.",
     "lengthExpectation": "Exactly 3 distinct sentences.",
     "scoringRubric": {
@@ -138,19 +147,26 @@
     "onPartial": "文法が少し崩れています。助詞（Mein, Par, Se）は正しい位置にありますが、第3の文で「Main (私)」に対応する動詞「Hoon」を使えていますか？前回学んだルールも忘れないでください！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b4/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b4/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b4/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m1/b4/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 sentences applying Postpositions correctly.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "postpositions", "particles", "month1", "block4"],
+  "tags": [
+    "writing",
+    "grammar",
+    "postpositions",
+    "particles",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -162,7 +178,9 @@
     "Writing 'Par mez' influenced by English prepositional structures."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B4_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B4_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

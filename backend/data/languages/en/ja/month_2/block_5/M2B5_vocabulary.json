@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "To think", "To say", "To eat", "To drink", "To go", 
-    "To come (Irregular)", "To do (Irregular)", "To exist / To have (inanimate)", "To exist / To be (animate)", "To write", 
-    "To listen / To ask", "To speak", "To read", "To wait", "To understand", 
-    "Truth / Really", "Lie", "Culture", "Town / City", "Country", 
-    "Prices / Cost of living", "Rain", "Snow", "To fall (rain/snow)", "Probably / Maybe", 
-    "Surely / Definitely", "Does not exist", "Do not go", "Do not eat", "Do not do"
+    "To think",
+    "To say",
+    "To eat",
+    "To drink",
+    "To go",
+    "To come (Irregular)",
+    "To do (Irregular)",
+    "To exist / To have (inanimate)",
+    "To exist / To be (animate)",
+    "To write",
+    "To listen / To ask",
+    "To speak",
+    "To read",
+    "To wait",
+    "To understand",
+    "Truth / Really",
+    "Lie",
+    "Culture",
+    "Town / City",
+    "Country",
+    "Prices / Cost of living",
+    "Rain",
+    "Snow",
+    "To fall (rain/snow)",
+    "Probably / Maybe",
+    "Surely / Definitely",
+    "Does not exist",
+    "Do not go",
+    "Do not eat",
+    "Do not do"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What is the dictionary form of 'Ikimasu' (to go)?",
       "questionType": "multiple_choice",
-      "options": ["いく (Iku)", "いか (Ika)", "いって (Itte)", "いる (Iru)"],
+      "options": [
+        "いく (Iku)",
+        "いか (Ika)",
+        "いって (Itte)",
+        "いる (Iru)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does おもう (Omou) mean?",
       "questionType": "multiple_choice",
-      "options": ["To think", "To say", "To run", "To wait"],
+      "options": [
+        "To think",
+        "To say",
+        "To run",
+        "To wait"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What is the plain negative form (Nai-form) of 'Tabemasen'?",
       "questionType": "multiple_choice",
-      "options": ["たべない (Tabenai)", "たばない (Tabanai)", "たべらない (Taberanai)", "たべませんない (Tabemasennai)"],
+      "options": [
+        "たべない (Tabenai)",
+        "たばない (Tabanai)",
+        "たべらない (Taberanai)",
+        "たべませんない (Tabemasennai)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What does ほんとう (Hontou) mean?",
       "questionType": "multiple_choice",
-      "options": ["Lie", "Town", "Culture", "Truth / Really"],
+      "options": [
+        "Lie",
+        "Town",
+        "Culture",
+        "Truth / Really"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What is the dictionary form of 'Shimasu' (to do)?",
       "questionType": "multiple_choice",
-      "options": ["する (Suru)", "すく (Suku)", "して (Shite)", "すむ (Sumu)"],
+      "options": [
+        "する (Suru)",
+        "すく (Suku)",
+        "して (Shite)",
+        "すむ (Sumu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What does うそ (Uso) mean?",
       "questionType": "multiple_choice",
-      "options": ["Lie", "Truth", "Snow", "Rain"],
+      "options": [
+        "Lie",
+        "Truth",
+        "Snow",
+        "Rain"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "How do you say 'Probably / Maybe'?",
       "questionType": "multiple_choice",
-      "options": ["たぶん (Tabun)", "きっと (Kitto)", "ほんとう (Hontou)", "まち (Machi)"],
+      "options": [
+        "たぶん (Tabun)",
+        "きっと (Kitto)",
+        "ほんとう (Hontou)",
+        "まち (Machi)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What is the dictionary form of 'Kimasu' (to come)?",
       "questionType": "multiple_choice",
-      "options": ["くる (Kuru)", "きく (Kiku)", "いる (Iru)", "きる (Kiru)"],
+      "options": [
+        "くる (Kuru)",
+        "きく (Kiku)",
+        "いる (Iru)",
+        "きる (Kiru)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does ふる (Furu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To fall (rain/snow)", "To wait", "To say", "To go"],
+      "options": [
+        "To fall (rain/snow)",
+        "To wait",
+        "To say",
+        "To go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What is the plain negative form (Nai-form) of 'Shimasen' (do not do)?",
       "questionType": "multiple_choice",
-      "options": ["さない (Sanai)", "しない (Shinai)", "すらない (Suranai)", "きない (Kinai)"],
+      "options": [
+        "さない (Sanai)",
+        "しない (Shinai)",
+        "すらない (Suranai)",
+        "きない (Kinai)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,14 @@
       "w030": "Do not do"
     },
     "acceptedTranslations": {
-      "w008": ["To exist", "To have"],
-      "w016": ["Truth", "Really"]
+      "w008": [
+        "To exist",
+        "To have"
+      ],
+      "w016": [
+        "Truth",
+        "Really"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b5/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b5/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b5/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m2/b5/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "おもう。いう。たべる。のむ。いく。くる。する。ある。いる。かく。きく。はなす。よむ。まつ。わかる。ほんとう。うそ。ぶんか。まち。くに。ぶっか。あめ。ゆき。ふる。たぶん。きっと。ない。いかない。たべない。しない。",
     "audioLanguage": "ja",
     "audioDuration": 360,

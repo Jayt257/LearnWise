@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B6_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_lesson_001"
+  ],
   "instructions": "客人をもてなす時の決まり文句の練習です。これまで個別に練習してきた「変化する音」を、一息でスムーズに発音できるようにしましょう。",
   "contentItems": [
     {
@@ -96,19 +98,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b6/pronunciation/native_capstone.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b6/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b6/pronunciation/slow_capstone.mp3",
-    "normalAudio": "audio/ja_hi/m2/b6/pronunciation/native_capstone.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Andar aaiye. Meraa ghar aapkaa ghar hai. Sankoch mat keejiye. Hum phir milenge. Main kal aaoongaa.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "capstone", "synthesis", "fluency", "month2", "block6"],
+  "tags": [
+    "pronunciation",
+    "capstone",
+    "synthesis",
+    "fluency",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -120,7 +129,9 @@
     "Pronouncing the 'D' in 'Andar' hard like the English 'Under', instead of the soft dental Hindi 'd'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B6_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B6_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

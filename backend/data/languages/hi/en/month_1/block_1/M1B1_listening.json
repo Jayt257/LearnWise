@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B1_writing_001"],
+  "prerequisites": [
+    "en_hi_M1B1_writing_001"
+  ],
   "instructions": "Listen to the audio of a teacher welcoming students on their first day of class. Do not look at the transcript unless you are completely lost. Try to hear the difference between 'V' and 'W' when the teacher says 'Very' and 'Welcome'. Answer the 8 questions that follow.",
   "contentItems": [
     {
@@ -87,7 +89,12 @@
       "questionId": "q1",
       "questionText": "What time of day is it according to the greetings?",
       "questionType": "multiple_choice",
-      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -95,7 +102,12 @@
       "questionId": "q2",
       "questionText": "What is the teacher's full name?",
       "questionType": "multiple_choice",
-      "options": ["John Clark", "Amit Clark", "John Smith", "Mr. Priya"],
+      "options": [
+        "John Clark",
+        "Amit Clark",
+        "John Smith",
+        "Mr. Priya"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -127,7 +139,12 @@
       "questionId": "q6",
       "questionText": "What does Amit say after saying he is fine?",
       "questionType": "multiple_choice",
-      "options": ["Goodbye", "Thank you. How are you?", "Nice to meet you.", "Hello Mr. Clark."],
+      "options": [
+        "Goodbye",
+        "Thank you. How are you?",
+        "Nice to meet you.",
+        "Hello Mr. Clark."
+      ],
       "audioTimestamp": "00:20",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -143,7 +160,10 @@
       "questionId": "q8",
       "questionText": "Is Mr. Clark speaking formal or informal English by saying 'Good morning' instead of 'Hey'?",
       "questionType": "multiple_choice",
-      "options": ["Formal", "Informal"],
+      "options": [
+        "Formal",
+        "Informal"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -167,14 +187,30 @@
       "q8": "Formal"
     },
     "acceptedShortAnswers": {
-      "q3": ["He is very happy", "Happy", "Very happy"],
-      "q4": ["Priya", "A new student named Priya"],
-      "q5": ["Welcome"],
-      "q7": ["V and W", "V, W", "The V and W sounds"]
+      "q3": [
+        "He is very happy",
+        "Happy",
+        "Very happy"
+      ],
+      "q4": [
+        "Priya",
+        "A new student named Priya"
+      ],
+      "q5": [
+        "Welcome"
+      ],
+      "q7": [
+        "V and W",
+        "V, W",
+        "The V and W sounds"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q7": ["v", "w"]
+      "q7": [
+        "v",
+        "w"
+      ]
     },
     "partialCreditRules": {
       "q4": "5 points for saying 'a new student' without the name."
@@ -189,18 +225,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b1/listening/dialogue_native.mp3",
+    "nativeAudio": "month_1/block_1/M1B1_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b1/listening/dialogue_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b1/listening/dialogue_native.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_1/M1B1_audio.wav",
     "audioTranscript": "Teacher: Good morning, class! Students: Good morning, Mr. Clark... (full transcript in text block)",
     "audioLanguage": "en",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "class", "introductions", "svo", "greetings", "beginner"],
+  "tags": [
+    "listening",
+    "class",
+    "introductions",
+    "svo",
+    "greetings",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -213,7 +256,9 @@
     "Missing 'Thank you' as part of the formal 'How are you' response."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

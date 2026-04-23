@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 1. It contains 20 questions evaluating your ability to use Can, Should, and Must. If you use the word 'To' after any of these words in this test, you will fail! Keep your action verbs clean!",
   "testTitle": "Block 1 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: She can ________ fast.",
           "questionType": "multiple_choice",
-          "options": ["run", "to run", "runs", "running"],
+          "options": [
+            "run",
+            "to run",
+            "runs",
+            "running"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Which sentence means 'तुम्हें रुकना ही होगा' (Strict rule)?",
           "questionType": "multiple_choice",
-          "options": ["You should stop.", "You can stop.", "You must stop.", "You must stopping."],
+          "options": [
+            "You should stop.",
+            "You can stop.",
+            "You must stop.",
+            "You must stopping."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,12 @@
           "questionId": "q003",
           "questionText": "Find the massive grammatical error:",
           "questionType": "multiple_choice",
-          "options": ["I must sleep.", "I must to sleep.", "I should sleep.", "I can sleep."],
+          "options": [
+            "I must sleep.",
+            "I must to sleep.",
+            "I should sleep.",
+            "I can sleep."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +83,10 @@
           "questionId": "q004",
           "questionText": "True or False: 'Should' is used for giving advice, not for giving strict orders.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +96,12 @@
           "questionId": "q005",
           "questionText": "How would you translate 'वह तैर सकती है'? Note: She is a female.",
           "questionType": "multiple_choice",
-          "options": ["She can swims.", "She can to swim.", "She can swim.", "She cans swim."],
+          "options": [
+            "She can swims.",
+            "She can to swim.",
+            "She can swim.",
+            "She cans swim."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -106,7 +134,12 @@
           "questionId": "q007",
           "questionText": "If your body is hot and you are sick, you have a _____.",
           "questionType": "multiple_choice",
-          "options": ["Pain", "Medicine", "Fever", "Healthy"],
+          "options": [
+            "Pain",
+            "Medicine",
+            "Fever",
+            "Healthy"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -130,7 +163,12 @@
           "questionId": "q009",
           "questionText": "What is the opposite of 'Sick'?",
           "questionType": "multiple_choice",
-          "options": ["Pain", "Healthy", "Doctor", "Run"],
+          "options": [
+            "Pain",
+            "Healthy",
+            "Doctor",
+            "Run"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -140,7 +178,12 @@
           "questionId": "q010",
           "questionText": "What does 'Rest' mean?",
           "questionType": "multiple_choice",
-          "options": ["दवा", "चिकित्सक", "दर्द", "आराम करना"],
+          "options": [
+            "दवा",
+            "चिकित्सक",
+            "दर्द",
+            "आराम करना"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -159,7 +202,11 @@
           "questionId": "q011",
           "questionText": "If a sign says 'You must not enter', does it mean it is a bad idea, or is it absolutely forbidden?",
           "questionType": "multiple_choice",
-          "options": ["It is a bad idea", "It is absolutely forbidden", "You can go inside"],
+          "options": [
+            "It is a bad idea",
+            "It is absolutely forbidden",
+            "You can go inside"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -169,7 +216,11 @@
           "questionId": "q012",
           "questionText": "If a doctor says 'You should sleep more', this is _____.",
           "questionType": "multiple_choice",
-          "options": ["A police law", "Permission", "Good advice"],
+          "options": [
+            "A police law",
+            "Permission",
+            "Good advice"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -179,7 +230,12 @@
           "questionId": "q013",
           "questionText": "Find the phonetic mistake. When spelling or saying 'Should', which letter is totally silent?",
           "questionType": "multiple_choice",
-          "options": ["S", "H", "L", "D"],
+          "options": [
+            "S",
+            "H",
+            "L",
+            "D"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -199,7 +255,11 @@
           "questionId": "q015",
           "questionText": "Which phrase is correct?",
           "questionType": "multiple_choice",
-          "options": ["Mustn't", "Must not to", "Must to not"],
+          "options": [
+            "Mustn't",
+            "Must not to",
+            "Must to not"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -334,14 +394,41 @@
       "q019": "Give full credit for 'We can't go' as well."
     },
     "alternateValidAnswers": {
-      "q006": ["medicine", "MEDICINE"],
-      "q008": ["exercise", "EXERCISE"],
-      "q014": ["ability", "Ability", "ABILITY"],
-      "q016": ["i can go", "I can go"],
-      "q017": ["you should take medicine", "You should take medicine"],
-      "q018": ["he must stop", "He must stop"],
-      "q019": ["we cannot go", "We cannot go", "We can't go"],
-      "q020": ["you should not run", "You should not run", "You shouldn't run"]
+      "q006": [
+        "medicine",
+        "MEDICINE"
+      ],
+      "q008": [
+        "exercise",
+        "EXERCISE"
+      ],
+      "q014": [
+        "ability",
+        "Ability",
+        "ABILITY"
+      ],
+      "q016": [
+        "i can go",
+        "I can go"
+      ],
+      "q017": [
+        "you should take medicine",
+        "You should take medicine"
+      ],
+      "q018": [
+        "he must stop",
+        "He must stop"
+      ],
+      "q019": [
+        "we cannot go",
+        "We cannot go",
+        "We can't go"
+      ],
+      "q020": [
+        "you should not run",
+        "You should not run",
+        "You shouldn't run"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -361,7 +448,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b1/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -370,7 +457,16 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block1", "modals", "can", "should", "must", "intermediate", "assessment"],
+  "tags": [
+    "test",
+    "block1",
+    "modals",
+    "can",
+    "should",
+    "must",
+    "intermediate",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -380,7 +476,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

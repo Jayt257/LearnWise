@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B6_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M2B6_pronunciation_001"
+  ],
   "instructions": "Read this story about a man visiting London. Notice how he talks to strangers. He never gives them orders. He always starts by saying 'Excuse me' to get their attention, and 'Could you' to ask a question. Answer the 8 questions below.",
   "contentItems": [
     {
@@ -94,14 +96,24 @@
       "questionId": "q1",
       "questionText": "What word does Amit use to comfortably grab the tall man's attention?",
       "questionType": "multiple_choice",
-      "options": ["Hey", "Excuse me", "Hello", "Move"],
+      "options": [
+        "Hey",
+        "Excuse me",
+        "Hello",
+        "Move"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Instead of ordering 'Tell me where the station is', what magic phrase does Amit use?",
       "questionType": "multiple_choice",
-      "options": ["Could you", "Do it", "I am want", "Will you"],
+      "options": [
+        "Could you",
+        "Do it",
+        "I am want",
+        "Will you"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -122,28 +134,43 @@
       "questionId": "q5",
       "questionText": "True or False: Saying 'Give me a bottle of water' is polite English.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
       "questionId": "q6",
       "questionText": "What word does Amit add to the end of his request for water to make it extra polite?",
       "questionType": "multiple_choice",
-      "options": ["Quickly", "Now", "Please"],
+      "options": [
+        "Quickly",
+        "Now",
+        "Please"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
       "questionId": "q7",
       "questionText": "When the lady asks which water he wants, how does Amit reply?",
       "questionType": "multiple_choice",
-      "options": ["Cold water, please", "Cold water", "Give cold"],
+      "options": [
+        "Cold water, please",
+        "Cold water",
+        "Give cold"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Why is everyone happy to help Amit?",
       "questionType": "multiple_choice",
-      "options": ["Because he is rich", "Because he is a polite traveler", "Because he is tall"],
+      "options": [
+        "Because he is rich",
+        "Because he is a polite traveler",
+        "Because he is tall"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -160,12 +187,25 @@
       "q8": "Because he is a polite traveler"
     },
     "acceptableParaphrases": {
-      "q3": ["rude", "Rude", "RUDE"],
-      "q4": ["I am fine", "I'm fine", "fine thank you"]
+      "q3": [
+        "rude",
+        "Rude",
+        "RUDE"
+      ],
+      "q4": [
+        "I am fine",
+        "I'm fine",
+        "fine thank you"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["rude"],
-      "q4": ["fine", "thank"]
+      "q3": [
+        "rude"
+      ],
+      "q4": [
+        "fine",
+        "thank"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes 'Excuse me' as the primary interlocutor disruption mechanism.",
@@ -181,18 +221,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b6/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b6/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m2/b6/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Amit is visiting London for the first time... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "politeness", "culture", "could_you", "month2", "block6"],
+  "tags": [
+    "reading",
+    "politeness",
+    "culture",
+    "could_you",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -204,7 +251,9 @@
     "Assuming 'I am fine' is sufficient, forgetting the mandatory 'thank you' appendage in polite discourse."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

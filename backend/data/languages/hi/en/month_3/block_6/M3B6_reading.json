@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B6_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M3B6_pronunciation_001"
+  ],
   "instructions": "This reading test contains every Grammar rule you have learned! You will see the Past, the Present, the Future, and Phrasal Verbs all mixed together! Read the story of Ravi going to a job interview.",
   "contentItems": [
     {
@@ -89,14 +91,21 @@
       "questionId": "q1",
       "questionText": "What grammar tense is used in the first sentence: 'Ravi has studied English for three months'?",
       "questionType": "multiple_choice",
-      "options": ["Simple Past", "Present Perfect", "Future"],
+      "options": [
+        "Simple Past",
+        "Present Perfect",
+        "Future"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "The story says he 'drank' coffee and 'woke' up. Are these regular or irregular verbs?",
       "questionType": "multiple_choice",
-      "options": ["Regular verbs (ending in ED)", "Irregular verbs"],
+      "options": [
+        "Regular verbs (ending in ED)",
+        "Irregular verbs"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -117,7 +126,11 @@
       "questionId": "q5",
       "questionText": "When checking where the interview is, what polite phrase does Ravi use to get the secretary's attention?",
       "questionType": "multiple_choice",
-      "options": ["Hey you", "Where is it?", "Excuse me"],
+      "options": [
+        "Hey you",
+        "Where is it?",
+        "Excuse me"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -131,14 +144,21 @@
       "questionId": "q7",
       "questionText": "The manager uses 'Have you...?' to ask about Ravi's past. Why?",
       "questionType": "multiple_choice",
-      "options": ["He is asking about a daily habit.", "He is asking about life experiences (Present Perfect)."],
+      "options": [
+        "He is asking about a daily habit.",
+        "He is asking about life experiences (Present Perfect)."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What grammar tense does the manager use in the last sentence: 'We will hire you!'?",
       "questionType": "multiple_choice",
-      "options": ["Simple Past", "Future Tense", "Present Continuous"],
+      "options": [
+        "Simple Past",
+        "Future Tense",
+        "Present Continuous"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -155,14 +175,31 @@
       "q8": "Future Tense"
     },
     "acceptableParaphrases": {
-      "q3": ["put on", "Put on"],
-      "q4": ["must", "Must"],
-      "q6": ["Sit down", "sit down"]
+      "q3": [
+        "put on",
+        "Put on"
+      ],
+      "q4": [
+        "must",
+        "Must"
+      ],
+      "q6": [
+        "Sit down",
+        "sit down"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["put", "on"],
-      "q4": ["must"],
-      "q6": ["sit", "down"]
+      "q3": [
+        "put",
+        "on"
+      ],
+      "q4": [
+        "must"
+      ],
+      "q6": [
+        "sit",
+        "down"
+      ]
     },
     "expectedSummaryPoints": [
       "Learner correctly identifies Present Perfect (Has studied) versus Simple Past (drank, woke).",
@@ -178,18 +215,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b6/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b6/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b6/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m3/b6/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Ravi has studied English for three months... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "final_exam", "tenses", "phrasal_verbs", "modals", "month3", "block6"],
+  "tags": [
+    "reading",
+    "final_exam",
+    "tenses",
+    "phrasal_verbs",
+    "modals",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -201,7 +246,9 @@
     "Failing to recognize 'drank' and 'woke' as irregular past tense markers."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

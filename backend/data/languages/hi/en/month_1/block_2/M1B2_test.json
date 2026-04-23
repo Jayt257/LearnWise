@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 2. It contains 20 questions across Grammar, Vocabulary, Reading, and Writing/Structures. You must know your I/You/He/She/It/We/They rules to pass.",
   "testTitle": "Block 2 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: Subject + Verb + Object.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: I _____ a student.",
           "questionType": "multiple_choice",
-          "options": ["is", "am", "are", "be"],
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Fill in the blank: They _____ from Delhi.",
           "questionType": "multiple_choice",
-          "options": ["am", "is", "are", "was"],
+          "options": [
+            "am",
+            "is",
+            "are",
+            "was"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,12 @@
           "questionId": "q003",
           "questionText": "If you are pointing to a dog, what sentence is correct?",
           "questionType": "multiple_choice",
-          "options": ["He is a dog.", "It is a dog.", "She is a dog.", "We are a dog."],
+          "options": [
+            "He is a dog.",
+            "It is a dog.",
+            "She is a dog.",
+            "We are a dog."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -67,7 +87,12 @@
           "questionId": "q004",
           "questionText": "How do you make 'She is happy' negative?",
           "questionType": "multiple_choice",
-          "options": ["She not is happy.", "Not she is happy.", "She is not happy.", "She is happy not."],
+          "options": [
+            "She not is happy.",
+            "Not she is happy.",
+            "She is not happy.",
+            "She is happy not."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -81,7 +106,12 @@
           "questionId": "q005",
           "questionText": "What does the contraction 'They're' mean in long form?",
           "questionType": "multiple_choice",
-          "options": ["They am", "They is", "They are", "They not"],
+          "options": [
+            "They am",
+            "They is",
+            "They are",
+            "They not"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -114,7 +144,12 @@
           "questionId": "q007",
           "questionText": "What is the meaning of 'Smart'?",
           "questionType": "multiple_choice",
-          "options": ["छोटा", "लंबा", "होशियार", "दयालु"],
+          "options": [
+            "छोटा",
+            "लंबा",
+            "होशियार",
+            "दयालु"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -128,7 +163,12 @@
           "questionId": "q008",
           "questionText": "Which pronoun is used exclusively for women/girls?",
           "questionType": "multiple_choice",
-          "options": ["He", "She", "It", "They"],
+          "options": [
+            "He",
+            "She",
+            "It",
+            "They"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -152,7 +192,12 @@
           "questionId": "q010",
           "questionText": "Which English word means 'हम'?",
           "questionType": "multiple_choice",
-          "options": ["We", "You", "They", "He"],
+          "options": [
+            "We",
+            "You",
+            "They",
+            "He"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +216,11 @@
           "questionId": "q011",
           "questionText": "Read the sentence and find the mistake: 'I is a doctor.'",
           "questionType": "multiple_choice",
-          "options": ["The mistake is 'I'. It should be 'Me is a doctor'.", "The mistake is 'is'. It should be 'I am a doctor'.", "There is no mistake."],
+          "options": [
+            "The mistake is 'I'. It should be 'Me is a doctor'.",
+            "The mistake is 'is'. It should be 'I am a doctor'.",
+            "There is no mistake."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -185,7 +234,10 @@
           "questionId": "q012",
           "questionText": "True or False: If you are talking to one single person, you should say 'You is'.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -209,7 +261,11 @@
           "questionId": "q014",
           "questionText": "Find the correct sentence.",
           "questionType": "multiple_choice",
-          "options": ["We are not students.", "We not are students.", "Not we are students."],
+          "options": [
+            "We are not students.",
+            "We not are students.",
+            "Not we are students."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -223,7 +279,12 @@
           "questionId": "q015",
           "questionText": "Which is the correct contraction for 'I am'?",
           "questionType": "multiple_choice",
-          "options": ["I'm", "Iam'", "Im'", "I'am"],
+          "options": [
+            "I'm",
+            "Iam'",
+            "Im'",
+            "I'am"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -298,7 +359,10 @@
           "questionId": "q020",
           "questionText": "True or False: In English, 'You' is always followed by 'are', even if you are talking to one person.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -354,13 +418,35 @@
       "q016": "Give 3 marks if 'she is my sister' (no capitals)."
     },
     "alternateValidAnswers": {
-      "q006": ["tall"],
-      "q009": ["brother"],
-      "q013": ["he"],
-      "q016": ["she is my sister", "She's my sister.", "She is my sister"],
-      "q017": ["they are happy", "They're happy.", "They are happy"],
-      "q018": ["i am not a doctor", "I'm not a doctor.", "I am not a doctor"],
-      "q019": ["we are friends", "We're friends.", "We are friends"]
+      "q006": [
+        "tall"
+      ],
+      "q009": [
+        "brother"
+      ],
+      "q013": [
+        "he"
+      ],
+      "q016": [
+        "she is my sister",
+        "She's my sister.",
+        "She is my sister"
+      ],
+      "q017": [
+        "they are happy",
+        "They're happy.",
+        "They are happy"
+      ],
+      "q018": [
+        "i am not a doctor",
+        "I'm not a doctor.",
+        "I am not a doctor"
+      ],
+      "q019": [
+        "we are friends",
+        "We're friends.",
+        "We are friends"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -380,7 +466,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -389,7 +475,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block2", "svo", "to-be", "pronouns", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block2",
+    "svo",
+    "to-be",
+    "pronouns",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -399,7 +493,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B6_reading_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_reading_001"
+  ],
   "instructions": "Month 2 の総仕上げの作文です！「私の〜(Meraa/Meree)」「〜しないでください(Mat〜iye)」「私たちは〜でしょう(Hum〜enge)」という３つの異なる文法パズルを、To be動詞の助けを借りずに組み立ててください。",
   "contentItems": [
     {
@@ -135,7 +137,18 @@
       "mere ghar mein aaiye sankoch mat keejiye hum kal phir milenge",
       "meraa ghar mein aaiye sankoch mat kijiye hum kal fir milenge"
     ],
-    "requiredKeywords": ["घर", "में", "आइए", "संकोच", "मत", "कीजिए", "हम", "कल", "फिर", "मिलेंगे"],
+    "requiredKeywords": [
+      "घर",
+      "में",
+      "आइए",
+      "संकोच",
+      "मत",
+      "कीजिए",
+      "हम",
+      "कल",
+      "फिर",
+      "मिलेंगे"
+    ],
     "grammarBaseline": "Accept 'Meraa' or 'Mere' before 'ghar mein' (oblique case not strictly graded yet). The verb endings 'aaiye', 'keejiye', and 'milenge' MUST NOT be followed by 'hai' or 'hain' under any circumstance.",
     "lengthExpectation": "Exactly 3 sentences.",
     "scoringRubric": {
@@ -150,19 +163,26 @@
     "onPartial": "惜しいところがあります。第3文で「Hum...Milenge」となるところが「Milengaa」等になっていませんか？私たちは複数人なので、Aap用と同じく『エー(Enge)』の音に変化します。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b6/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b6/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b6/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m2/b6/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate three sentences applying possessive, imperative, and future frameworks.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "capstone", "synthesis", "grammar", "month2", "block6"],
+  "tags": [
+    "writing",
+    "capstone",
+    "synthesis",
+    "grammar",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -174,7 +194,9 @@
     "Writing 'Hum kal phir milenge hain' habitually attaching copulas to all sentences."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B6_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B6_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

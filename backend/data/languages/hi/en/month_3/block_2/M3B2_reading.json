@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B2_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M3B2_pronunciation_001"
+  ],
   "instructions": "Read the story about a family preparing for a big party. Notice how they use 'have' and 'has' to talk about the jobs they recently finished. Pay close attention to how the action verbs change into their 3rd form (V3)!",
   "contentItems": [
     {
@@ -94,14 +96,22 @@
       "questionId": "q1",
       "questionText": "What has the mother done in the kitchen?",
       "questionType": "multiple_choice",
-      "options": ["She has cleaned the house", "She has baked the cake", "She has ruined the floor"],
+      "options": [
+        "She has cleaned the house",
+        "She has baked the cake",
+        "She has ruined the floor"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Fill in the blank: The father says, 'I _____ cleaned the house.'",
       "questionType": "multiple_choice",
-      "options": ["have", "has", "can"],
+      "options": [
+        "have",
+        "has",
+        "can"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -115,14 +125,21 @@
       "questionId": "q4",
       "questionText": "Look exactly at the text. Does Amit say 'The pizza man have arrived' or 'The pizza man has arrived'?",
       "questionType": "multiple_choice",
-      "options": ["have arrived", "has arrived"],
+      "options": [
+        "have arrived",
+        "has arrived"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Why does the pizza man take 'has' instead of 'have'?",
       "questionType": "multiple_choice",
-      "options": ["Because he is a single person (He/She/It rule)", "Because pizza is singular", "Because 'I' takes 'has'"],
+      "options": [
+        "Because he is a single person (He/She/It rule)",
+        "Because pizza is singular",
+        "Because 'I' takes 'has'"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -136,14 +153,21 @@
       "questionId": "q7",
       "questionText": "Which phrase proves that the family finished an action (Verb 3 of 'Do')?",
       "questionType": "multiple_choice",
-      "options": ["has done", "have do", "has did"],
+      "options": [
+        "has done",
+        "have do",
+        "has did"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "True or False: The text uses 'I have cooked', ending the verb in '-ed'. That means 'cooked' is the V3 firm.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -160,12 +184,26 @@
       "q8": "True"
     },
     "acceptableParaphrases": {
-      "q3": ["She has called the guests", "called the guests", "called all the guests"],
-      "q6": ["He has ruined the floor", "ruined the floor", "mud on the floor"]
+      "q3": [
+        "She has called the guests",
+        "called the guests",
+        "called all the guests"
+      ],
+      "q6": [
+        "He has ruined the floor",
+        "ruined the floor",
+        "mud on the floor"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["called", "guests"],
-      "q6": ["ruined", "floor"]
+      "q3": [
+        "called",
+        "guests"
+      ],
+      "q6": [
+        "ruined",
+        "floor"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner correlates the Present Perfect (Have/Has + V3) to task completion.",
@@ -181,18 +219,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m3/b2/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Today is Amit's birthday. His family is preparing for a big party... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "present_perfect", "have", "has", "v3", "intermediate", "month3", "block2"],
+  "tags": [
+    "reading",
+    "present_perfect",
+    "have",
+    "has",
+    "v3",
+    "intermediate",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -204,7 +251,9 @@
     "Thinking 'The pizza man' takes 'Have' because they are confused about third-person singular rules."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

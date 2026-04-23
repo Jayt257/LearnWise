@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B5_reading_001"],
+  "prerequisites": [
+    "en_hi_M2B5_reading_001"
+  ],
   "instructions": "Look at the people and things around you. Write 3 sentences. One sentence must show a person owning something (using 'S). One sentence must describe a piece of an object (using OF). One sentence must point at many things far away (using THOSE).",
   "contentItems": [
     {
@@ -97,7 +99,10 @@
     "acceptableAlternates": [
       "Here is Amit's dog. The glass of the window is clean. Those are birds."
     ],
-    "requiredKeywords": ["of", "those"],
+    "requiredKeywords": [
+      "of",
+      "those"
+    ],
     "grammarBaseline": "Zero tolerance for 'That are' or 'Those is'. Strong penalty for 'The book of John'.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -114,19 +119,25 @@
     "onPartial": "Good start! Double check your pointing words. 'Those' ALWAYS means more than one thing. You must say 'Those ARE dogs', never 'Those IS dog'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b5/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b5/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m2/b5/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write three sentences. One about a person's item. One about a piece of an object. One pointing at many things.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "possessives", "demonstratives", "apostrophe", "block5"],
+  "tags": [
+    "writing",
+    "possessives",
+    "demonstratives",
+    "apostrophe",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -139,7 +150,9 @@
     "Writing 'The car of Amit'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B5_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M2B5_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B4_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_vocabulary_001"
+  ],
   "instructions": "自分の持ち物や家族について紹介してください！話す時、あなたが男性か女性かは完全に無視し、次に発音する「モノ・人」の性別を先読みして『メラー』と『メリー』を切り替える反射神経の訓練です。",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "友達: 'यह क्या है?' (これは何？) 答え：「これは、私[の男]、家(男)です。」",
-      "expectedSpeakingPoints": ["Yah", "meraa", "ghar hai"],
+      "expectedSpeakingPoints": [
+        "Yah",
+        "meraa",
+        "ghar hai"
+      ],
       "sampleResponse": {
         "targetText": "यह मेरा घर है।",
         "transliteration": "Yah meraa ghar hai.",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "友達: 'क्या यह तुम्हारी किताब है?' (これは君[の女]本(女)なの？) 答え：「はい、これは私[の女]、本(女)です。」",
-      "expectedSpeakingPoints": ["Haan", "yah meree", "kitaab hai"],
+      "expectedSpeakingPoints": [
+        "Haan",
+        "yah meree",
+        "kitaab hai"
+      ],
       "sampleResponse": {
         "targetText": "हाँ, यह मेरी किताब है।",
         "transliteration": "Haan, yah meree kitaab hai.",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "友達: 'और यह कौन है?' (この人は誰？) 答え：「これ(この人)は、私[の男(複数・尊敬)]、お父さんです。」",
-      "expectedSpeakingPoints": ["Yah", "mere", "pitaa jee hain"],
+      "expectedSpeakingPoints": [
+        "Yah",
+        "mere",
+        "pitaa jee hain"
+      ],
       "sampleResponse": {
         "targetText": "यह मेरे पिता जी हैं।",
         "transliteration": "Yah mere pitaa jee hain.",
@@ -88,7 +102,16 @@
       "mere pitaa jee"
     ],
     "requiredKeywords": [
-      "yah", "meraa", "ghar", "haan", "meree", "kitaab", "mere", "pitaa", "jee", "hain"
+      "yah",
+      "meraa",
+      "ghar",
+      "haan",
+      "meree",
+      "kitaab",
+      "mere",
+      "pitaa",
+      "jee",
+      "hain"
     ],
     "acceptableParaphrases": [
       "haan yah meree kitaab hai"
@@ -108,19 +131,26 @@
     "onPartial": "よくお話しできています。動詞の最後の Hai と Hain（ン）の違いまで意識できましたか？お父さん（Pitaa jee）の時は、Mere(尊敬)になるのに加えて、最後の To be 動詞も Hain になります！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b4/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m2/b4/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b4/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b4/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m2/b4/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m2/b4/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Friend: Yah kyaa hai?\nLearner: Yah meraa ghar hai...\n(Matches full dialogue)",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "possession", "pronouns", "declensions", "month2", "block4"],
+  "tags": [
+    "speaking",
+    "possession",
+    "pronouns",
+    "declensions",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -132,7 +162,9 @@
     "Saying 'Meree ghar hai' because the speaker happens to be a woman."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B4_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B4_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

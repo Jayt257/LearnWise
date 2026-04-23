@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 3! It contains 20 questions evaluating your knowledge of Phrasal Verbs. Have you stopped translating word-for-word? Let's see if you can use the glue words like a native speaker!",
   "testTitle": "Block 3 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "A student says: 'Please open the fan.' This is wrong. What is the correct English phrasing?",
           "questionType": "multiple_choice",
-          "options": ["Start the fan", "Turn on the fan", "Open up the fan"],
+          "options": [
+            "Start the fan",
+            "Turn on the fan",
+            "Open up the fan"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "Fill in the exact phrase: If you are too hot, you should _____ your jacket.",
           "questionType": "multiple_choice",
-          "options": ["take off", "turn off", "put out"],
+          "options": [
+            "take off",
+            "turn off",
+            "put out"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "Which of these sentences is grammatically correct?",
           "questionType": "multiple_choice",
-          "options": ["Turn off it.", "Turn it off.", "Off the TV."],
+          "options": [
+            "Turn off it.",
+            "Turn it off.",
+            "Off the TV."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,10 @@
           "questionId": "q004",
           "questionText": "True or False: 'Turn on the TV' and 'Turn the TV on' are both correct.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +93,11 @@
           "questionId": "q005",
           "questionText": "Translate 'कपड़े पहन लो' using the phrasal verb.",
           "questionType": "multiple_choice",
-          "options": ["Wear your clothes", "Put on your clothes", "Put in your clothes"],
+          "options": [
+            "Wear your clothes",
+            "Put on your clothes",
+            "Put in your clothes"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -92,7 +116,11 @@
           "questionId": "q006",
           "questionText": "What phrasal verb means 'to search for' (खोजना)?",
           "questionType": "multiple_choice",
-          "options": ["Look for", "Look at", "Find out"],
+          "options": [
+            "Look for",
+            "Look at",
+            "Find out"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -126,7 +154,11 @@
           "questionId": "q009",
           "questionText": "What does 'Hold on' mean in a conversation?",
           "questionType": "multiple_choice",
-          "options": ["पकड़ना", "रुकना / प्रतीक्षा करना", "पीछे मुड़ना"],
+          "options": [
+            "पकड़ना",
+            "रुकना / प्रतीक्षा करना",
+            "पीछे मुड़ना"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -136,7 +168,12 @@
           "questionId": "q010",
           "questionText": "Identify the phrasal verb meaning 'हल निकालना / समझना'.",
           "questionType": "multiple_choice",
-          "options": ["Figure out", "Fill out", "Take out", "Give back"],
+          "options": [
+            "Figure out",
+            "Fill out",
+            "Take out",
+            "Give back"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -155,7 +192,11 @@
           "questionId": "q011",
           "questionText": "If the pen is on the floor, you should '_____'.",
           "questionType": "multiple_choice",
-          "options": ["Pick up it", "Pick it up", "Pick up down"],
+          "options": [
+            "Pick up it",
+            "Pick it up",
+            "Pick up down"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -165,7 +206,11 @@
           "questionId": "q012",
           "questionText": "Find the major grammar mistake in this sentence: 'I am taking off them.'",
           "questionType": "multiple_choice",
-          "options": ["taking off is wrong", "the pronoun 'them' must be in the middle", "there is no mistake"],
+          "options": [
+            "taking off is wrong",
+            "the pronoun 'them' must be in the middle",
+            "there is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -175,7 +220,11 @@
           "questionId": "q013",
           "questionText": "When a native speaker says 'Clee-NUP', which two words are glued together?",
           "questionType": "multiple_choice",
-          "options": ["Clean up", "Close up", "Come up"],
+          "options": [
+            "Clean up",
+            "Close up",
+            "Come up"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -185,7 +234,10 @@
           "questionId": "q014",
           "questionText": "True or False: Phrasal verbs show that English speakers like to use two small words instead of one big formal word.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -329,14 +381,41 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q007": ["wake up", "WAKE UP"],
-      "q008": ["throw away", "throw", "Throw away"],
-      "q015": ["stand up", "Stand up"],
-      "q016": ["turn off the machine", "Turn the machine off."],
-      "q017": ["turn on the ac", "Turn the AC on.", "Turn on the AC"],
-      "q018": ["please pick it up", "Please pick it up"],
-      "q019": ["put on your shoes", "put your shoes on", "Put your shoes on."],
-      "q020": ["i am looking for my car", "I'm looking for my car."]
+      "q007": [
+        "wake up",
+        "WAKE UP"
+      ],
+      "q008": [
+        "throw away",
+        "throw",
+        "Throw away"
+      ],
+      "q015": [
+        "stand up",
+        "Stand up"
+      ],
+      "q016": [
+        "turn off the machine",
+        "Turn the machine off."
+      ],
+      "q017": [
+        "turn on the ac",
+        "Turn the AC on.",
+        "Turn on the AC"
+      ],
+      "q018": [
+        "please pick it up",
+        "Please pick it up"
+      ],
+      "q019": [
+        "put on your shoes",
+        "put your shoes on",
+        "Put your shoes on."
+      ],
+      "q020": [
+        "i am looking for my car",
+        "I'm looking for my car."
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -356,7 +435,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b3/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -365,7 +444,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block3", "phrasal_verbs", "turn_on", "put_on", "assessment"],
+  "tags": [
+    "test",
+    "block3",
+    "phrasal_verbs",
+    "turn_on",
+    "put_on",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -375,7 +461,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

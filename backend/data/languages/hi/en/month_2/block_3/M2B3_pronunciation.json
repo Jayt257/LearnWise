@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B3_lesson_001"],
+  "prerequisites": [
+    "en_hi_M2B3_lesson_001"
+  ],
   "instructions": "In English, the letters '-ED' at the end of a past word can trick you! It DOES NOT always sound like 'एड' (-ed). Sometimes it sounds like a sharp 'T' (Walk-T). Sometimes it sounds like a soft 'D' (Play-D). It only sounds like an extra syllable 'ID' if the word already ends in a T or D! Listen carefully.",
   "contentItems": [
     {
@@ -206,19 +208,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b3/pronunciation/native_past.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b3/pronunciation/slow_past.mp3",
-    "normalAudio": "audio/en_hi/m2/b3/pronunciation/native_past.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I play-d. He walk-t. I want-id.",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "simple_past", "ed_suffix", "irregular_verbs", "beginner"],
+  "tags": [
+    "pronunciation",
+    "simple_past",
+    "ed_suffix",
+    "irregular_verbs",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +239,9 @@
     "Over-syllabifying (I work-ed yesterday)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

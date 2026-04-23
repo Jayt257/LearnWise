@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B6_listening_001"],
+  "prerequisites": [
+    "en_hi_M3B6_listening_001"
+  ],
   "instructions": "This is your Final Vocabulary Review! We have selected the 15 most important English words and phrases from the entire 3-month course. If you know these words, you can survive in any English-speaking country!",
   "contentItems": [
     {
@@ -204,14 +206,22 @@
       "questionId": "q1",
       "questionText": "What native English verb is used as the exact opposite of 'Turn off' (चालू करना)?",
       "questionType": "multiple_choice",
-      "options": ["Open", "Turn on", "Start up"],
+      "options": [
+        "Open",
+        "Turn on",
+        "Start up"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Fill in the blank with the polite request word: '____ you help me find my bag?'",
       "questionType": "multiple_choice",
-      "options": ["Can", "Could", "Give"],
+      "options": [
+        "Can",
+        "Could",
+        "Give"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
@@ -225,21 +235,32 @@
       "questionId": "q4",
       "questionText": "What is the past tense of 'Go'?",
       "questionType": "multiple_choice",
-      "options": ["Goed", "Gone", "Went"],
+      "options": [
+        "Goed",
+        "Gone",
+        "Went"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: 'I would like' is a highly polite way to say 'I want'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
       "questionId": "q6",
       "questionText": "Where do you take a Prescription?",
       "questionType": "multiple_choice",
-      "options": ["The Police Station", "The Pharmacy", "The Restaurant"],
+      "options": [
+        "The Police Station",
+        "The Pharmacy",
+        "The Restaurant"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q6"
     },
     {
@@ -253,21 +274,33 @@
       "questionId": "q8",
       "questionText": "Which Modal Verb means you have zero choice and absolutely 100% must do it?",
       "questionType": "multiple_choice",
-      "options": ["Should", "Can", "Must"],
+      "options": [
+        "Should",
+        "Can",
+        "Must"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What is the past tense of 'Eat'?",
       "questionType": "multiple_choice",
-      "options": ["Eated", "Ate", "Eaten"],
+      "options": [
+        "Eated",
+        "Ate",
+        "Eaten"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "If the food is entirely perfect, you say it is '_______'. (स्वादिष्ट)",
       "questionType": "multiple_choice",
-      "options": ["Luggage", "Straight", "Delicious"],
+      "options": [
+        "Luggage",
+        "Straight",
+        "Delicious"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +323,14 @@
       "w15": "सीधे"
     },
     "acceptedTranslations": {
-      "w04": ["turn on", "Turn on"],
-      "w05": ["break down", "Break down"]
+      "w04": [
+        "turn on",
+        "Turn on"
+      ],
+      "w05": [
+        "break down",
+        "Break down"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +356,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b6/vocab/master_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b6/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b6/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b6/vocab/master_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b6/vocab/master_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Could you. I would like. Luggage...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "final_exam", "phrasal_verbs", "irregular_verbs", "politeness", "block6"],
+  "tags": [
+    "vocabulary",
+    "final_exam",
+    "phrasal_verbs",
+    "irregular_verbs",
+    "politeness",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +386,9 @@
     "Using 'open the light' instead of 'turn on'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

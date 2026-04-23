@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B5_listening_001"],
+  "prerequisites": [
+    "ja_hi_M3B5_listening_001"
+  ],
   "instructions": "この単語帳の言葉は、いざという時に必ずあなたの助けになります。痛みや熱といった体の症状、そして助けを呼ぶための表現を体に染み込ませてください。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its meaning: Dard (दर्द)",
       "questionType": "matching",
-      "options": ["痛み", "熱/発熱"],
+      "options": [
+        "痛み",
+        "熱/発熱"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the word to its meaning: Bukhaar (बुख़ार)",
       "questionType": "matching",
-      "options": ["熱/発熱", "薬"],
+      "options": [
+        "熱/発熱",
+        "薬"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Which word translates to 'Help/Support'?",
       "questionType": "matching",
-      "options": ["Madad", "Jaldee"],
+      "options": [
+        "Madad",
+        "Jaldee"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Where is the 'Peṭ' (पेट) located?",
       "questionType": "matching",
-      "options": ["お腹 / 胃", "頭"],
+      "options": [
+        "お腹 / 胃",
+        "頭"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Which word means 'Quickly / Hurry'?",
       "questionType": "matching",
-      "options": ["Jaldee", "Kharaab"],
+      "options": [
+        "Jaldee",
+        "Kharaab"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,8 +211,14 @@
       "w10": "早く / 急いで"
     },
     "acceptedTranslations": {
-      "w05": ["体調", "健康状態"],
-      "w06": ["悪い", "具合が悪い"]
+      "w05": [
+        "体調",
+        "健康状態"
+      ],
+      "w06": [
+        "悪い",
+        "具合が悪い"
+      ]
     },
     "matchingKey": {
       "q1": "痛み",
@@ -216,18 +239,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b5/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b5/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b5/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b5/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Madad. Bachaao. Dard. Bukhaar. Tabeeyat. Kharaab. Sir. Peṭ. Davaa. Jaldee.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "health", "emergencies", "symptoms", "biology", "month3", "block5"],
+  "tags": [
+    "vocabulary",
+    "health",
+    "emergencies",
+    "symptoms",
+    "biology",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +270,9 @@
     "Thinking 'Sir' means a respected person, leading to confusion when saying 'Sir mein dard hai' (Pain in the head)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B5_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B5_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

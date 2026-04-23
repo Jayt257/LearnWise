@@ -216,70 +216,120 @@
       "questionId": "q001",
       "questionText": "How do you say 'Monday' in Japanese?",
       "questionType": "multiple_choice",
-      "options": ["げつようび", "かようび", "きんようび", "にちようび"],
+      "options": [
+        "げつようび",
+        "かようび",
+        "きんようび",
+        "にちようび"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does はたち mean?",
       "questionType": "multiple_choice",
-      "options": ["8 years old", "20 years old", "10 years old", "1 year old"],
+      "options": [
+        "8 years old",
+        "20 years old",
+        "10 years old",
+        "1 year old"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "How do you say '4 o'clock'?",
       "questionType": "multiple_choice",
-      "options": ["よんじ", "しじ", "よじ", "ごじ"],
+      "options": [
+        "よんじ",
+        "しじ",
+        "よじ",
+        "ごじ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What does いま mean?",
       "questionType": "multiple_choice",
-      "options": ["Time", "Clock", "Now", "Today"],
+      "options": [
+        "Time",
+        "Clock",
+        "Now",
+        "Today"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "How do you say 'Friday' in Japanese?",
       "questionType": "multiple_choice",
-      "options": ["もくようび", "どようび", "すいようび", "きんようび"],
+      "options": [
+        "もくようび",
+        "どようび",
+        "すいようび",
+        "きんようび"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "Which number is 'Kyuu'?",
       "questionType": "multiple_choice",
-      "options": ["7", "8", "9", "10"],
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "How do you say 'What time is it'?",
       "questionType": "multiple_choice",
-      "options": ["なんさいですか", "なんじですか", "いまですか", "よじですか"],
+      "options": [
+        "なんさいですか",
+        "なんじですか",
+        "いまですか",
+        "よじですか"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does にちようび mean?",
       "questionType": "multiple_choice",
-      "options": ["Monday", "Saturday", "Sunday", "Thursday"],
+      "options": [
+        "Monday",
+        "Saturday",
+        "Sunday",
+        "Thursday"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "Which word is the counter for age?",
       "questionType": "multiple_choice",
-      "options": ["じ (ji)", "さい (sai)", "ようび (youbi)", "です (desu)"],
+      "options": [
+        "じ (ji)",
+        "さい (sai)",
+        "ようび (youbi)",
+        "です (desu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "How do you say 9 o'clock?",
       "questionType": "multiple_choice",
-      "options": ["きゅうじ", "くじ", "ななじ", "じゅうじ"],
+      "options": [
+        "きゅうじ",
+        "くじ",
+        "ななじ",
+        "じゅうじ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -303,22 +353,58 @@
       "w016": "Sunday"
     },
     "acceptedTranslations": {
-      "w001": ["1, 2, 3"],
-      "w002": ["4, 5, 6"],
-      "w003": ["7, 8, 9, 10"],
-      "w004": ["Now"],
-      "w005": ["What time"],
-      "w006": ["4 o'clock", "4:00"],
-      "w007": ["9 o'clock", "9:00"],
-      "w008": ["Years old", "Age counter"],
-      "w009": ["20 years old", "Twenty years old"],
-      "w010": ["Monday"],
-      "w011": ["Tuesday"],
-      "w012": ["Wednesday"],
-      "w013": ["Thursday"],
-      "w014": ["Friday"],
-      "w015": ["Saturday"],
-      "w016": ["Sunday"]
+      "w001": [
+        "1, 2, 3"
+      ],
+      "w002": [
+        "4, 5, 6"
+      ],
+      "w003": [
+        "7, 8, 9, 10"
+      ],
+      "w004": [
+        "Now"
+      ],
+      "w005": [
+        "What time"
+      ],
+      "w006": [
+        "4 o'clock",
+        "4:00"
+      ],
+      "w007": [
+        "9 o'clock",
+        "9:00"
+      ],
+      "w008": [
+        "Years old",
+        "Age counter"
+      ],
+      "w009": [
+        "20 years old",
+        "Twenty years old"
+      ],
+      "w010": [
+        "Monday"
+      ],
+      "w011": [
+        "Tuesday"
+      ],
+      "w012": [
+        "Wednesday"
+      ],
+      "w013": [
+        "Thursday"
+      ],
+      "w014": [
+        "Friday"
+      ],
+      "w015": [
+        "Saturday"
+      ],
+      "w016": [
+        "Sunday"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -346,12 +432,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b4/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b4/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b4/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m1/b4/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "いち。に。さん。よん。ご。ろく。なな。はち。きゅう。じゅう。いま。なんじ。よじ。くじ。さい。はたち。げつようび。かようび。すいようび。もくようび。きんようび。どようび。にちようび。",
     "audioLanguage": "ja",
     "audioDuration": 240,

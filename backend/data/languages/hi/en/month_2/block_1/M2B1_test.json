@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 1. It contains 20 questions evaluating your ability to describe the world. Remember the Two Golden Rules: Description comes first (Big Car), and Descriptions NEVER change (they have no plural 's', and no male/female forms).",
   "testTitle": "Block 1 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: She drives a _____ car.",
           "questionType": "multiple_choice",
-          "options": ["fast", "fasts", "car fast", "fasting"],
+          "options": [
+            "fast",
+            "fasts",
+            "car fast",
+            "fasting"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Which phrase is correct?",
           "questionType": "multiple_choice",
-          "options": ["Two smalls dogs", "Two small dogs", "Dogs small two", "Small two dogs"],
+          "options": [
+            "Two smalls dogs",
+            "Two small dogs",
+            "Dogs small two",
+            "Small two dogs"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,11 @@
           "questionId": "q003",
           "questionText": "Which is the structurally correct English sentence?",
           "questionType": "multiple_choice",
-          "options": ["It is a beautiful house.", "It is a house beautiful.", "Beautiful is a house it."],
+          "options": [
+            "It is a beautiful house.",
+            "It is a house beautiful.",
+            "Beautiful is a house it."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -81,7 +100,10 @@
           "questionId": "q005",
           "questionText": "True or False: English adjectives MUST get an 's' at the end if you have many of the items (e.g., Red -> Reds).",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -114,7 +136,12 @@
           "questionId": "q007",
           "questionText": "What does 'Old' mean in Hindi?",
           "questionType": "multiple_choice",
-          "options": ["छोटा", "तेज़", "पुराना / बूढ़ा", "नया"],
+          "options": [
+            "छोटा",
+            "तेज़",
+            "पुराना / बूढ़ा",
+            "नया"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -138,7 +165,12 @@
           "questionId": "q009",
           "questionText": "Which adjective is the opposite of 'Hot'?",
           "questionType": "multiple_choice",
-          "options": ["Cold", "Clean", "Loud", "Fast"],
+          "options": [
+            "Cold",
+            "Clean",
+            "Loud",
+            "Fast"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -148,7 +180,10 @@
           "questionId": "q010",
           "questionText": "True or False: The word for 'सुंदर' is 'Beautiful'.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -167,7 +202,11 @@
           "questionId": "q011",
           "questionText": "Find the mistake: 'I have a car old.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'I have an old car.'", "It should be 'I have an olds car.'", "There is no mistake"],
+          "options": [
+            "It should be 'I have an old car.'",
+            "It should be 'I have an olds car.'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -181,7 +220,11 @@
           "questionId": "q012",
           "questionText": "Find the mistake: 'They are cleans streets.'",
           "questionType": "multiple_choice",
-          "options": ["'cleans' should just be 'clean'", "'streets' shouldn't have an 's'", "There is no mistake"],
+          "options": [
+            "'cleans' should just be 'clean'",
+            "'streets' shouldn't have an 's'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -191,7 +234,11 @@
           "questionId": "q013",
           "questionText": "Find the mistake: 'The dog is happys.'",
           "questionType": "multiple_choice",
-          "options": ["'happys' should be 'happy'", "It should be 'The happys dog is'", "There is no mistake"],
+          "options": [
+            "'happys' should be 'happy'",
+            "It should be 'The happys dog is'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -201,7 +248,11 @@
           "questionId": "q014",
           "questionText": "What word is missing in this sentence: 'It is ____ hot day.'",
           "questionType": "multiple_choice",
-          "options": ["is", "a", "the"],
+          "options": [
+            "is",
+            "a",
+            "the"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -211,7 +262,11 @@
           "questionId": "q015",
           "questionText": "Which is correct to say?",
           "questionType": "multiple_choice",
-          "options": ["The man is fast", "The fast is man", "Man is the fast"],
+          "options": [
+            "The man is fast",
+            "The fast is man",
+            "Man is the fast"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -347,14 +402,40 @@
       "q016": "Give 3 marks if written 'She is good girl' (missing 'a')."
     },
     "alternateValidAnswers": {
-      "q004": ["good", "GOOD"],
-      "q006": ["fast", "FAST"],
-      "q008": ["quiet", "QUIET"],
-      "q016": ["she is a good girl", "She is a good girl"],
-      "q017": ["they are very happy", "They are very happy"],
-      "q018": ["it is a fast car", "It is a fast car"],
-      "q019": ["i have a big box", "I have a big box"],
-      "q020": ["the tea is hot", "The tea is hot", "Tea is hot", "tea is hot"]
+      "q004": [
+        "good",
+        "GOOD"
+      ],
+      "q006": [
+        "fast",
+        "FAST"
+      ],
+      "q008": [
+        "quiet",
+        "QUIET"
+      ],
+      "q016": [
+        "she is a good girl",
+        "She is a good girl"
+      ],
+      "q017": [
+        "they are very happy",
+        "They are very happy"
+      ],
+      "q018": [
+        "it is a fast car",
+        "It is a fast car"
+      ],
+      "q019": [
+        "i have a big box",
+        "I have a big box"
+      ],
+      "q020": [
+        "the tea is hot",
+        "The tea is hot",
+        "Tea is hot",
+        "tea is hot"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -374,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -383,7 +464,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block1", "adjectives", "descriptions", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block1",
+    "adjectives",
+    "descriptions",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -393,7 +481,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

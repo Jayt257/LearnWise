@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 4. It contains 20 questions evaluating your ability to ask questions, spell numbers, and use the calendar. Think carefully about where the WH word goes, and where the Verb is placed in a question.",
   "testTitle": "Block 4 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: Question = Verb before Subject.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank to make a correct question: '_____ _____ happy?'",
           "questionType": "multiple_choice",
-          "options": ["You are", "Are you", "Is you", "You is"],
+          "options": [
+            "You are",
+            "Are you",
+            "Is you",
+            "You is"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Fill in the blank to make a correct question: 'Where _____ _____ from?'",
           "questionType": "multiple_choice",
-          "options": ["you are", "are you", "is you", "from you"],
+          "options": [
+            "you are",
+            "are you",
+            "is you",
+            "from you"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,11 @@
           "questionId": "q003",
           "questionText": "Which is the correct question format?",
           "questionType": "multiple_choice",
-          "options": ["What is your name?", "What your name is?", "Is your name what?"],
+          "options": [
+            "What is your name?",
+            "What your name is?",
+            "Is your name what?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -67,7 +86,12 @@
           "questionId": "q004",
           "questionText": "Which is the correct question format for 'वह कहाँ है?'",
           "questionType": "multiple_choice",
-          "options": ["Where he is?", "Is he where?", "Where is he?", "He is where?"],
+          "options": [
+            "Where he is?",
+            "Is he where?",
+            "Where is he?",
+            "He is where?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -81,7 +105,10 @@
           "questionId": "q005",
           "questionText": "True or False: In English, a statement is 'You are' and a question is 'Are you'.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -114,7 +141,12 @@
           "questionId": "q007",
           "questionText": "What is the day AFTER Thursday?",
           "questionType": "multiple_choice",
-          "options": ["Wednesday", "Friday", "Tuesday", "Saturday"],
+          "options": [
+            "Wednesday",
+            "Friday",
+            "Tuesday",
+            "Saturday"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -124,7 +156,12 @@
           "questionId": "q008",
           "questionText": "Which word translates to 'कब'?",
           "questionType": "multiple_choice",
-          "options": ["Who", "Why", "When", "What"],
+          "options": [
+            "Who",
+            "Why",
+            "When",
+            "What"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -148,7 +185,12 @@
           "questionId": "q010",
           "questionText": "What WH word do you use to ask about a Person (कौन)?",
           "questionType": "multiple_choice",
-          "options": ["When", "Who", "Where", "How"],
+          "options": [
+            "When",
+            "Who",
+            "Where",
+            "How"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -167,7 +209,11 @@
           "questionId": "q011",
           "questionText": "Find the mistake: 'Today is friday.'",
           "questionType": "multiple_choice",
-          "options": ["'Today' should be small", "'friday' needs a capital F", "There is no mistake"],
+          "options": [
+            "'Today' should be small",
+            "'friday' needs a capital F",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -181,7 +227,12 @@
           "questionId": "q012",
           "questionText": "Which of these words is a Month?",
           "questionType": "multiple_choice",
-          "options": ["Wednesday", "April", "Twenty", "Who"],
+          "options": [
+            "Wednesday",
+            "April",
+            "Twenty",
+            "Who"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -205,7 +256,10 @@
           "questionId": "q014",
           "questionText": "True or False: 'When is he coming?' is medically correct English.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -215,7 +269,12 @@
           "questionId": "q015",
           "questionText": "Select the correct translation for: 'तुम्हारा नाम क्या है?'",
           "questionType": "multiple_choice",
-          "options": ["What your name is?", "Who is your name?", "What is your name?", "When is your name?"],
+          "options": [
+            "What your name is?",
+            "Who is your name?",
+            "What is your name?",
+            "When is your name?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -350,14 +409,39 @@
       "q016": "Give 3 marks if written 'today is monday'."
     },
     "alternateValidAnswers": {
-      "q006": ["forty"],
-      "q009": ["thirteen"],
-      "q013": ["fifty"],
-      "q016": ["today is monday", "Today is monday."],
-      "q017": ["where are you", "Where are you"],
-      "q018": ["i am twenty years old", "I'm twenty years old", "I am 20 years old."],
-      "q019": ["is she a doctor", "Is she a doctor?", "is he a doctor", "Is he a doctor?"],
-      "q020": ["where is the dog", "Where is the dog?", "Where is dog?"]
+      "q006": [
+        "forty"
+      ],
+      "q009": [
+        "thirteen"
+      ],
+      "q013": [
+        "fifty"
+      ],
+      "q016": [
+        "today is monday",
+        "Today is monday."
+      ],
+      "q017": [
+        "where are you",
+        "Where are you"
+      ],
+      "q018": [
+        "i am twenty years old",
+        "I'm twenty years old",
+        "I am 20 years old."
+      ],
+      "q019": [
+        "is she a doctor",
+        "Is she a doctor?",
+        "is he a doctor",
+        "Is he a doctor?"
+      ],
+      "q020": [
+        "where is the dog",
+        "Where is the dog?",
+        "Where is dog?"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -377,7 +461,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -386,7 +470,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block4", "questions", "numbers", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block4",
+    "questions",
+    "numbers",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -396,7 +487,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

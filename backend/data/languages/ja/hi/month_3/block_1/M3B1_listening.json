@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M3B1_writing_001"],
+  "prerequisites": [
+    "ja_hi_M3B1_writing_001"
+  ],
   "instructions": "ラージとアニタが「できること」と「やりたいこと」について話しています。「Saktaa / Saktee」の音が出た瞬間に『能力』、「Chaahtaa / Chaahtee」の音が出た瞬間に『願望』であることを瞬時に聞き分けましょう。",
   "contentItems": [
     {
@@ -52,7 +54,10 @@
       "questionId": "q1",
       "questionText": "ラージは最初にアニタに「君は能力的に＿＿＿ことができますか？」と質問しました。何を質問しましたか？",
       "questionType": "multiple_choice",
-      "options": ["ヒンディー語を話す", "車を運転する"],
+      "options": [
+        "ヒンディー語を話す",
+        "車を運転する"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +65,10 @@
       "questionId": "q2",
       "questionText": "アニタが「運転できない」と答えた時、Chalaa(運転する語幹)の直後に続いた単語は何でしたか？",
       "questionType": "multiple_choice",
-      "options": ["Saktee", "Chaahtee"],
+      "options": [
+        "Saktee",
+        "Chaahtee"
+      ],
       "audioTimestamp": "00:06",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +76,10 @@
       "questionId": "q3",
       "questionText": "「君は習い(Seekhnaa)＿＿＿？」とラージが聞いた時の語尾の音はどう聞こえましたか？",
       "questionType": "multiple_choice",
-      "options": ["Saktee ho (できる？)", "Chaahtee ho (したい？)"],
+      "options": [
+        "Saktee ho (できる？)",
+        "Chaahtee ho (したい？)"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -76,7 +87,10 @@
       "questionId": "q4",
       "questionText": "アニタは「車の運転を習いたい」と答えました。この文で Chaahtee(したい) の前に置かれている「習う」という動詞は、どのような形で置かれていますか？",
       "questionType": "multiple_choice",
-      "options": ["naa が外された Seekh の形", "naa がついたSeekhnaa の形"],
+      "options": [
+        "naa が外された Seekh の形",
+        "naa がついたSeekhnaa の形"
+      ],
       "audioTimestamp": "00:14",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -84,7 +98,10 @@
       "questionId": "q5",
       "questionText": "最後にラージは「僕が君を助けられるよ」と言います。この場合、ラージ(男)が自分の能力をアピールしているので、最後は Saktaa(サクター) の音で終わっています。〇か✕か？",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -118,18 +135,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b1/listening/drive_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b1/listening/drive_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b1/listening/drive_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, kyaa tum gaaḍee chalaa saktee ho... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "modals", "ability", "desire", "month3", "block1"],
+  "tags": [
+    "listening",
+    "modals",
+    "ability",
+    "desire",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -141,7 +165,9 @@
     "Hearing 'Seekhnaa chaahtee' and thinking it's one long word, rather than recognizing 'to learn' + 'want'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B1_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B1_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

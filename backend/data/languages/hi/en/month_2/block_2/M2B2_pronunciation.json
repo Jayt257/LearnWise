@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B2_lesson_001"],
+  "prerequisites": [
+    "en_hi_M2B2_lesson_001"
+  ],
   "instructions": "In English, the '-ing' sound is nasal. It happens in the back of your nose. DO NOT say a hard 'G' at the end. It is not 'Cook-inGuh!'. It is a soft 'Cook-ing'. Listen carefully to the audio and repeat these 15 action phrases.",
   "contentItems": [
     {
@@ -206,19 +208,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b2/pronunciation/native_ing.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b2/pronunciation/slow_ing.mp3",
-    "normalAudio": "audio/en_hi/m2/b2/pronunciation/native_ing.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I am eating. He is playing...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "gerund", "participle", "ing_suffix", "verbs", "beginner"],
+  "tags": [
+    "pronunciation",
+    "gerund",
+    "participle",
+    "ing_suffix",
+    "verbs",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +240,9 @@
     "Using a hard G at the end of ING."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M3B1_writing_001"],
+  "prerequisites": [
+    "en_hi_M3B1_writing_001"
+  ],
   "instructions": "Listen to a doctor talking to a sick patient. The doctor speaks very quickly! Listen closely to hear the difference between friendly advice (Should) and strict rules (Must). Answer the 8 questions.",
   "contentItems": [
     {
@@ -82,7 +84,11 @@
       "questionId": "q1",
       "questionText": "What does the doctor say is a STRICT RULE regarding the medicine?",
       "questionType": "multiple_choice",
-      "options": ["You should take it", "You must take it", "You can take it"],
+      "options": [
+        "You should take it",
+        "You must take it",
+        "You can take it"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -90,7 +96,11 @@
       "questionId": "q2",
       "questionText": "What does Amit ask permission to do?",
       "questionType": "multiple_choice",
-      "options": ["Can I drink tea?", "Can I eat soup?", "Can I go to work?"],
+      "options": [
+        "Can I drink tea?",
+        "Can I eat soup?",
+        "Can I go to work?"
+      ],
       "audioTimestamp": "00:12",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -98,7 +108,11 @@
       "questionId": "q3",
       "questionText": "What is the doctor's absolute rule about staying at home?",
       "questionType": "multiple_choice",
-      "options": ["You must rest", "You should rest", "You can rest"],
+      "options": [
+        "You must rest",
+        "You should rest",
+        "You can rest"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -106,7 +120,11 @@
       "questionId": "q4",
       "questionText": "Listen to the word 'shouldn't' when the doctor talks about working. Which letter is completely silent?",
       "questionType": "multiple_choice",
-      "options": ["S", "N", "L"],
+      "options": [
+        "S",
+        "N",
+        "L"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -122,7 +140,10 @@
       "questionId": "q6",
       "questionText": "Can Amit drink hot tea?",
       "questionType": "multiple_choice",
-      "options": ["Yes, he can", "No, he cannot"],
+      "options": [
+        "Yes, he can",
+        "No, he cannot"
+      ],
       "audioTimestamp": "00:23",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -138,7 +159,10 @@
       "questionId": "q8",
       "questionText": "Did the doctor ever use the word 'to' after Can, Should, or Must in the entire conversation?",
       "questionType": "true_false",
-      "options": ["Yes", "No"],
+      "options": [
+        "Yes",
+        "No"
+      ],
       "audioTimestamp": "00:30",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -162,13 +186,24 @@
       "q8": "No"
     },
     "acceptedShortAnswers": {
-      "q5": ["should", "Should"],
-      "q7": ["must not", "Must not"]
+      "q5": [
+        "should",
+        "Should"
+      ],
+      "q7": [
+        "must not",
+        "Must not"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["should"],
-      "q7": ["must", "not"]
+      "q5": [
+        "should"
+      ],
+      "q7": [
+        "must",
+        "not"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -181,18 +216,28 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b1/listening/doctor_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b1/listening/doctor_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b1/listening/doctor_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Doctor: Good morning, Amit. How are you feeling today?... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "modals", "can", "should", "must", "health", "intermediate", "month3", "block1"],
+  "tags": [
+    "listening",
+    "modals",
+    "can",
+    "should",
+    "must",
+    "health",
+    "intermediate",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -204,7 +249,9 @@
     "Failing to hear 'mustn't' due to the complete elision of the internal 't'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B1_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M3B1_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

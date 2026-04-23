@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B5_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M2B5_pronunciation_001"
+  ],
   "instructions": "ラージが、日本から来たばかりの友達(Tum)に向けて、インドの家でのくつろぎ方を説明しています。誰に対して話しているかによって「〜してね（ア・オ）」と「〜してください（イ・エ）」がどう混ざっているかを読み解いてください。",
   "contentItems": [
     {
@@ -116,14 +118,20 @@
       "questionId": "q1",
       "questionText": "ラージは友達のケン(Tum)に対して全体的にどのような語尾で話しかけていますか？",
       "questionType": "multiple_choice",
-      "options": ["Oの音（Jaao, Karo, Baiṭho）", "Iyeの音（Jaaiye, Keejiye）"],
+      "options": [
+        "Oの音（Jaao, Karo, Baiṭho）",
+        "Iyeの音（Jaaiye, Keejiye）"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「Baahar bahut garmee hai (外はとても暑い)」。このため、ラージはケンに何を『しないように(mat)』お願いしましたか？",
       "questionType": "multiple_choice",
-      "options": ["外に行くこと", "お茶を飲むこと"],
+      "options": [
+        "外に行くこと",
+        "お茶を飲むこと"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -137,14 +145,20 @@
       "questionId": "q4",
       "questionText": "もしケンではなく、目上の人(Aap)に「座ってください」とお願いする場合、Baiṭho ではなく何になるはずですか？",
       "questionType": "multiple_choice",
-      "options": ["Baiṭhiye", "Baiṭh"],
+      "options": [
+        "Baiṭhiye",
+        "Baiṭh"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "文中で現在進行形（〜している）が使われているのは誰の行動についてですか？",
       "questionType": "multiple_choice",
-      "options": ["お父さん (Pitaa jee)", "ケン (Ken)"],
+      "options": [
+        "お父さん (Pitaa jee)",
+        "ケン (Ken)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
   ],
@@ -158,10 +172,17 @@
       "q5": "お父さん (Pitaa jee)"
     },
     "acceptableParaphrases": {
-      "q3": ["mat", "Mat", "MAT", "マト"]
+      "q3": [
+        "mat",
+        "Mat",
+        "MAT",
+        "マト"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["mat"]
+      "q3": [
+        "mat"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes '-o' suffixes as informal imperatives directed at a peer ('Tum').",
@@ -177,18 +198,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m2/b5/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Ken, tum yahaan baiṭho... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "imperative", "commands", "negation", "month2", "block5"],
+  "tags": [
+    "reading",
+    "imperative",
+    "commands",
+    "negation",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -200,7 +228,9 @@
     "Translating 'Mat jaao' as 'Wait and go'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B5_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B5_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

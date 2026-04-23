@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does きゅうきゅうしゃ (Kyuukyuusha) mean?",
           "questionType": "multiple_choice",
-          "options": ["Police", "Hospital", "Ambulance", "Doctor"],
+          "options": [
+            "Police",
+            "Hospital",
+            "Ambulance",
+            "Doctor"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does けいさつ (Keisatsu) mean?",
           "questionType": "multiple_choice",
-          "options": ["Police", "Thief", "Wallet", "Ambulance"],
+          "options": [
+            "Police",
+            "Thief",
+            "Wallet",
+            "Ambulance"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does なくす (Nakusu) mean?",
           "questionType": "multiple_choice",
-          "options": ["To steal", "To find", "To drop", "To lose (something)"],
+          "options": [
+            "To steal",
+            "To find",
+            "To drop",
+            "To lose (something)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does ねつ (Netsu) mean?",
           "questionType": "multiple_choice",
-          "options": ["Pain", "Fever", "Cough", "Cold"],
+          "options": [
+            "Pain",
+            "Fever",
+            "Cough",
+            "Cold"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What is the patient's first symptom?",
           "questionType": "multiple_choice",
-          "options": ["Headache", "Stomach ache", "Fever", "Cough"],
+          "options": [
+            "Headache",
+            "Stomach ache",
+            "Fever",
+            "Cough"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. What is the patient's second symptom?",
           "questionType": "multiple_choice",
-          "options": ["Bleeding", "Pain", "Fever", "Cough"],
+          "options": [
+            "Bleeding",
+            "Pain",
+            "Fever",
+            "Cough"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. What does the doctor say the patient has?",
           "questionType": "multiple_choice",
-          "options": ["A cold (Kaze)", "Flu (Infuruenza)", "An injury (Kega)", "A broken bone"],
+          "options": [
+            "A cold (Kaze)",
+            "Flu (Infuruenza)",
+            "An injury (Kega)",
+            "A broken bone"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,21 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Keisatsu"],
-      "q017": ["Kyuukyuusha"],
-      "q018": ["Nusumaremashita"],
-      "q019": ["Ga"],
-      "q020": ["Tasukete"]
+      "q016": [
+        "Keisatsu"
+      ],
+      "q017": [
+        "Kyuukyuusha"
+      ],
+      "q018": [
+        "Nusumaremashita"
+      ],
+      "q019": [
+        "Ga"
+      ],
+      "q020": [
+        "Tasukete"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

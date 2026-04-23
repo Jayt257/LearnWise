@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B6_test_001"],
+  "prerequisites": [
+    "en_hi_M2B6_test_001"
+  ],
   "instructions": "Welcome to Month 3! We are going to learn three of the most powerful words in English: Can, Should, and Must. Just like the word 'Will', these three words act like a SHIELD. Action verbs stay perfectly clean after them. No 'ing'. No 'ed'. No 's'. Read the rules carefully!",
   "contentItems": [
     {
@@ -46,18 +48,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b1/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b1/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m3/b1/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b1/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m3/b1/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I can swim. You should sleep. We must stop.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "modals", "can", "should", "must", "month3", "block1"],
+  "tags": [
+    "grammar",
+    "modals",
+    "can",
+    "should",
+    "must",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -71,7 +81,9 @@
     "Confusing 'chahiye' (should) with wanting an object ('I should water' instead of 'I want water')."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B1_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M3B1_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "The Power Words: Modals",
@@ -175,8 +187,12 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "Using 'Must' on a stranger is considered very aggressive in English culture because it sounds like you are acting as their boss or the police. Use 'Should' to give advice politely.",
-    "dosList": ["Use 'Should' when giving friendly advice to coworkers."],
-    "dontsList": ["Do not tell coworkers 'You must do this' unless there is a fire or a real law being broken."]
+    "dosList": [
+      "Use 'Should' when giving friendly advice to coworkers."
+    ],
+    "dontsList": [
+      "Do not tell coworkers 'You must do this' unless there is a fire or a real law being broken."
+    ]
   },
   "summary": "Use CAN when you have the power to do it. Use SHOULD when it is a good idea. Use MUST when it is the law. And ALWAYS keep the action verb right after them 100% clean!",
   "checkpointQuestions": [

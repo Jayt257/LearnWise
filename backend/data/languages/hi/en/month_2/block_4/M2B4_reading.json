@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B4_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M2B4_pronunciation_001"
+  ],
   "instructions": "Read this story about a family planning a big vacation for tomorrow. Look carefully at how they talk about the future. They use the word 'WILL'. Notice that after 'WILL', the action word is completely clean! No '-ing'! Answer the 8 questions.",
   "contentItems": [
     {
@@ -116,14 +118,22 @@
       "questionId": "q1",
       "questionText": "Look at the sentence: 'I will pack my bag.' Are there any '-ed' or '-ing' letters after the word 'pack'?",
       "questionType": "multiple_choice",
-      "options": ["Yes", "No"],
+      "options": [
+        "Yes",
+        "No"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What time is the family going to arrive at the airport?",
       "questionType": "multiple_choice",
-      "options": ["Five o'clock", "Six o'clock", "Ten o'clock", "Twelve o'clock"],
+      "options": [
+        "Five o'clock",
+        "Six o'clock",
+        "Ten o'clock",
+        "Twelve o'clock"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -137,14 +147,22 @@
       "questionId": "q4",
       "questionText": "Where will the writer sit on the airplane?",
       "questionType": "multiple_choice",
-      "options": ["In the back", "Near the window", "Near the door", "With his brother"],
+      "options": [
+        "In the back",
+        "Near the window",
+        "Near the door",
+        "With his brother"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: The text says 'My father will drives the car.' (With an 's' on drive).",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -158,7 +176,12 @@
       "questionId": "q7",
       "questionText": "The text says the brother 'will probably _____'. What is the clean verb?",
       "questionType": "multiple_choice",
-      "options": ["Sleeping", "Sleep", "Slept", "Sleeps"],
+      "options": [
+        "Sleeping",
+        "Sleep",
+        "Slept",
+        "Sleeps"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
@@ -182,14 +205,37 @@
       "q8": "Photographs"
     },
     "acceptableParaphrases": {
-      "q3": ["drink", "Drink", "drink coffee"],
-      "q6": ["New coat", "new coat", "coat", "his coat"],
-      "q8": ["Photographs", "photographs", "photos", "pictures", "many photographs"]
+      "q3": [
+        "drink",
+        "Drink",
+        "drink coffee"
+      ],
+      "q6": [
+        "New coat",
+        "new coat",
+        "coat",
+        "his coat"
+      ],
+      "q8": [
+        "Photographs",
+        "photographs",
+        "photos",
+        "pictures",
+        "many photographs"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["drink"],
-      "q6": ["coat"],
-      "q8": ["photograph", "photo", "picture"]
+      "q3": [
+        "drink"
+      ],
+      "q6": [
+        "coat"
+      ],
+      "q8": [
+        "photograph",
+        "photo",
+        "picture"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner correlates anticipation of the future with the modal 'will'.",
@@ -205,18 +251,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b4/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b4/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b4/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m2/b4/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Tomorrow is a very big day... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "future_tense", "will", "going_to", "month2", "block4"],
+  "tags": [
+    "reading",
+    "future_tense",
+    "will",
+    "going_to",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -228,7 +281,9 @@
     "Adding 's' to third-person singular verbs after 'will'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B4_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M2B4_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

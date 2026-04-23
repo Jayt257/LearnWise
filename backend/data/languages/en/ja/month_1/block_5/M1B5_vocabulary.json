@@ -236,70 +236,120 @@
       "questionId": "q001",
       "questionText": "What does これ (Kore) mean?",
       "questionType": "multiple_choice",
-      "options": ["That (near you)", "This (near me)", "That over there", "Which one"],
+      "options": [
+        "That (near you)",
+        "This (near me)",
+        "That over there",
+        "Which one"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "How do you say 'Car'?",
       "questionType": "multiple_choice",
-      "options": ["かさ", "かばん", "くるま", "とけい"],
+      "options": [
+        "かさ",
+        "かばん",
+        "くるま",
+        "とけい"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "Which word means 'Where'?",
       "questionType": "multiple_choice",
-      "options": ["どれ (Dore)", "どの (Dono)", "そこ (Soko)", "どこ (Doko)"],
+      "options": [
+        "どれ (Dore)",
+        "どの (Dono)",
+        "そこ (Soko)",
+        "どこ (Doko)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What is the correct word for 'Over there'?",
       "questionType": "multiple_choice",
-      "options": ["あそこ (Asoko)", "あの (Ano)", "あれ (Are)", "あこ (Ako)"],
+      "options": [
+        "あそこ (Asoko)",
+        "あの (Ano)",
+        "あれ (Are)",
+        "あこ (Ako)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does かばん (Kaban) mean?",
       "questionType": "multiple_choice",
-      "options": ["Book", "Shoes", "Umbrella", "Bag"],
+      "options": [
+        "Book",
+        "Shoes",
+        "Umbrella",
+        "Bag"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "Which word MUST be attached to a noun (like '____ book')?",
       "questionType": "multiple_choice",
-      "options": ["これ (Kore)", "この (Kono)", "ここ (Koko)", "どれ (Dore)"],
+      "options": [
+        "これ (Kore)",
+        "この (Kono)",
+        "ここ (Koko)",
+        "どれ (Dore)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "How do you say 'Clock / Watch'?",
       "questionType": "multiple_choice",
-      "options": ["とけい", "ほん", "くつ", "かさ"],
+      "options": [
+        "とけい",
+        "ほん",
+        "くつ",
+        "かさ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "If you are pointing at something in your friend's hand, which word do you use for 'That'?",
       "questionType": "multiple_choice",
-      "options": ["これ (Kore)", "それ (Sore)", "あれ (Are)", "どれ (Dore)"],
+      "options": [
+        "これ (Kore)",
+        "それ (Sore)",
+        "あれ (Are)",
+        "どれ (Dore)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does くつ (Kutsu) mean?",
       "questionType": "multiple_choice",
-      "options": ["Socks", "Shoes", "Pants", "Shirt"],
+      "options": [
+        "Socks",
+        "Shoes",
+        "Pants",
+        "Shirt"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "Translate: 'あの かさ' (Ano kasa)",
       "questionType": "multiple_choice",
-      "options": ["This umbrella", "That umbrella (near you)", "That umbrella over there", "Which umbrella"],
+      "options": [
+        "This umbrella",
+        "That umbrella (near you)",
+        "That umbrella over there",
+        "Which umbrella"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -325,9 +375,19 @@
       "w018": "Clock / Watch"
     },
     "acceptedTranslations": {
-      "w007": ["Over there"],
-      "w015": ["Bag", "Purse", "Backpack"],
-      "w018": ["Clock", "Watch", "Timepiece"]
+      "w007": [
+        "Over there"
+      ],
+      "w015": [
+        "Bag",
+        "Purse",
+        "Backpack"
+      ],
+      "w018": [
+        "Clock",
+        "Watch",
+        "Timepiece"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -355,12 +415,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b5/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b5/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b5/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m1/b5/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "これ。それ。あれ。どれ。ここ。そこ。あそこ。どこ。この。その。あの。どの。ほん。くるま。かばん。かさ。くつ。とけい。",
     "audioLanguage": "ja",
     "audioDuration": 240,

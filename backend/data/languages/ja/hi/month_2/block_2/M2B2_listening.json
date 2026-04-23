@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M2B2_writing_001"],
+  "prerequisites": [
+    "ja_hi_M2B2_writing_001"
+  ],
   "instructions": "警察の刑事が、事件のあった「昨日(Kal)」何をしたかについて尋問しています。「トゥムネ」「ウスネ」という音を正確に聞き分け、『誰が』『何を』したのかを整理してください。",
   "contentItems": [
     {
@@ -52,7 +54,11 @@
       "questionId": "q1",
       "questionText": "警察が最初にラージに投じた質問「Kal tumne kyaa kiyaa?」の文で、行動した『主語』になる単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["Kal", "Tumne", "kyaa"],
+      "options": [
+        "Kal",
+        "Tumne",
+        "kyaa"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -68,7 +74,11 @@
       "questionId": "q3",
       "questionText": "警察がアニタについて「彼女は昨日何をした？」と尋ねる時に使った単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["Aaapne kyaa kiyaa", "Tumne kyaa kiyaa", "Usne kyaa kiyaa"],
+      "options": [
+        "Aaapne kyaa kiyaa",
+        "Tumne kyaa kiyaa",
+        "Usne kyaa kiyaa"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -76,7 +86,10 @@
       "questionId": "q4",
       "questionText": "警察によると、アニタは昨日「何」をしましたか？",
       "questionType": "multiple_choice",
-      "options": ["テレビを見た (ṭeevee dekhaa)", "本を読んだ (kitaab paḍhee)"],
+      "options": [
+        "テレビを見た (ṭeevee dekhaa)",
+        "本を読んだ (kitaab paḍhee)"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -84,7 +97,10 @@
       "questionId": "q5",
       "questionText": "最後の文でアニタ(女性)が本を読んだことについて、警察は動詞を「Paḍhee (女性形)」で発音していました。なぜそう発音したのですか？",
       "questionType": "multiple_choice",
-      "options": ["『本(Kitaab)』が女性名詞だったから", "アニタが女性だから"],
+      "options": [
+        "『本(Kitaab)』が女性名詞だったから",
+        "アニタが女性だから"
+      ],
       "audioTimestamp": "00:16",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -105,11 +121,21 @@
       "q5": "『本(Kitaab)』が女性名詞だったから"
     },
     "acceptedShortAnswers": {
-      "q2": ["家", "家の中", "Ghar", "ghar", "いえ", "うち"]
+      "q2": [
+        "家",
+        "家の中",
+        "Ghar",
+        "ghar",
+        "いえ",
+        "うち"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q2": ["家", "ghar"]
+      "q2": [
+        "家",
+        "ghar"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +148,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b2/listening/detective_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b2/listening/detective_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b2/listening/detective_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Pulis: Kal tumne kyaa kiyaa?...\n(Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "past_tense", "ergative", "particles", "pronouns", "ne", "month2", "block2"],
+  "tags": [
+    "listening",
+    "past_tense",
+    "ergative",
+    "particles",
+    "pronouns",
+    "ne",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +180,9 @@
     "Hearing 'Tumne' and thinking it means 'To you' instead of 'You (subject)'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B2_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B2_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

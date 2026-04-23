@@ -21,7 +21,12 @@
   "instructions": "This is your Block 5 Assessment! It contains 20 questions evaluating your knowledge of Health and Emergencies. Let's see if you can talk to doctors and police officers accurately!",
   "testTitle": "Block 5 Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,11 @@
           "questionId": "q001",
           "questionText": "A student says: 'My head is paining.' This is wrong. What is the correct English phrasing?",
           "questionType": "multiple_choice",
-          "options": ["My head is taking pain", "I have a headache", "I doing headache"],
+          "options": [
+            "My head is taking pain",
+            "I have a headache",
+            "I doing headache"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +52,11 @@
           "questionId": "q002",
           "questionText": "Fill in the blank for physical injuries: 'My arm _______.'",
           "questionType": "multiple_choice",
-          "options": ["pains", "hurts", "aches"],
+          "options": [
+            "pains",
+            "hurts",
+            "aches"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "Which of these sentences is grammatically correct?",
           "questionType": "multiple_choice",
-          "options": ["I have cold.", "I am having cold.", "I have a cold."],
+          "options": [
+            "I have cold.",
+            "I am having cold.",
+            "I have a cold."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,10 @@
           "questionId": "q004",
           "questionText": "True or False: 'Ache' is a word part that means pain, like in Stomachache.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +93,11 @@
           "questionId": "q005",
           "questionText": "Translate 'मुझे डॉक्टर को दिखाने की ज़रूरत है' perfectly.",
           "questionType": "multiple_choice",
-          "options": ["I need doctor.", "I need to see a doctor.", "I want a doctor see."],
+          "options": [
+            "I need doctor.",
+            "I need to see a doctor.",
+            "I want a doctor see."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -92,7 +116,11 @@
           "questionId": "q006",
           "questionText": "What word means 'दवाखाना' (where you buy medicine)?",
           "questionType": "multiple_choice",
-          "options": ["Hospital", "Prescription", "Pharmacy"],
+          "options": [
+            "Hospital",
+            "Prescription",
+            "Pharmacy"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -126,7 +154,11 @@
           "questionId": "q009",
           "questionText": "If cars crash together, you tell the police you saw an...",
           "questionType": "multiple_choice",
-          "options": ["Ambulance", "Accident", "Emergency"],
+          "options": [
+            "Ambulance",
+            "Accident",
+            "Emergency"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -136,7 +168,11 @@
           "questionId": "q010",
           "questionText": "Identify the English word for 'लक्षण' (signs of being sick).",
           "questionType": "multiple_choice",
-          "options": ["Pills", "Fever", "Symptom"],
+          "options": [
+            "Pills",
+            "Fever",
+            "Symptom"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -155,7 +191,11 @@
           "questionId": "q011",
           "questionText": "You go to the doctor. The doctor writes a ____, and you take it to the ____.",
           "questionType": "multiple_choice",
-          "options": ["Prescription / Pharmacy", "Medicine / Hospital", "Pill / Symptom"],
+          "options": [
+            "Prescription / Pharmacy",
+            "Medicine / Hospital",
+            "Pill / Symptom"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -165,7 +205,11 @@
           "questionId": "q012",
           "questionText": "If someone is bleeding heavily on the street, what vehicle should you call?",
           "questionType": "multiple_choice",
-          "options": ["Police", "Ambulance", "Doctor"],
+          "options": [
+            "Police",
+            "Ambulance",
+            "Doctor"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -175,7 +219,11 @@
           "questionId": "q013",
           "questionText": "Pronunciation question: How is 'C-H' pronounced in the word 'Stomachache'?",
           "questionType": "multiple_choice",
-          "options": ["Like 'CH' in Cheese", "Like 'K' in Kite", "It is silent"],
+          "options": [
+            "Like 'CH' in Cheese",
+            "Like 'K' in Kite",
+            "It is silent"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -185,7 +233,10 @@
           "questionId": "q014",
           "questionText": "True or False: 'Sick' is a verb.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -316,14 +367,39 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q007": ["bleeding", "BLEEDING"],
-      "q008": ["prescription", "PRESCRIPTION"],
-      "q015": ["i have a cold", "I've got a cold"],
-      "q016": ["my stomach hurts", "i have a stomachache", "I have a stomachache."],
-      "q017": ["my arm hurts", "My arm hurts"],
-      "q018": ["i need to see a doctor", "I need to see a doctor."],
-      "q019": ["i have a fever", "I have a fever"],
-      "q020": ["ambulance", "Ambulance"]
+      "q007": [
+        "bleeding",
+        "BLEEDING"
+      ],
+      "q008": [
+        "prescription",
+        "PRESCRIPTION"
+      ],
+      "q015": [
+        "i have a cold",
+        "I've got a cold"
+      ],
+      "q016": [
+        "my stomach hurts",
+        "i have a stomachache",
+        "I have a stomachache."
+      ],
+      "q017": [
+        "my arm hurts",
+        "My arm hurts"
+      ],
+      "q018": [
+        "i need to see a doctor",
+        "I need to see a doctor."
+      ],
+      "q019": [
+        "i have a fever",
+        "I have a fever"
+      ],
+      "q020": [
+        "ambulance",
+        "Ambulance"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -343,7 +419,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -352,7 +428,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block5", "health", "hospital", "assessment"],
+  "tags": [
+    "test",
+    "block5",
+    "health",
+    "hospital",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -362,7 +444,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

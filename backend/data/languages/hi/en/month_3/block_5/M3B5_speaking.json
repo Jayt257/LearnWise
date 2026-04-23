@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B5_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M3B5_vocabulary_001"
+  ],
   "instructions": "You are very sick, and you have to go to an English pharmacy! Speak ALOUD to the Pharmacist. You must explain exactly what is wrong with your body so they can give you the right medicine.",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "फार्मासिस्ट: 'Hello, how can I help you today?' जवाब दें: 'मुझे मदद की ज़रूरत है। मैं बीमार हूँ।' (I...)",
-      "expectedSpeakingPoints": ["I need help", "I am sick"],
+      "expectedSpeakingPoints": [
+        "I need help",
+        "I am sick"
+      ],
       "sampleResponse": {
         "targetText": "I need help. I am sick.",
         "transliteration": "आई नीड हेल्प। आई एम सिक।",
@@ -35,7 +40,10 @@
     {
       "subTaskId": "t2",
       "prompt": "फार्मासिस्ट: 'Oh no. What are your symptoms?' जवाब दें: 'मुझे बुखार है और बहुत खाँसी है।' (I have...)",
-      "expectedSpeakingPoints": ["I have a fever", "and a bad cough"],
+      "expectedSpeakingPoints": [
+        "I have a fever",
+        "and a bad cough"
+      ],
       "sampleResponse": {
         "targetText": "I have a fever and a bad cough.",
         "transliteration": "आई हैव अ फीवर एंड अ बैड कॉफ।",
@@ -45,7 +53,10 @@
     {
       "subTaskId": "t3",
       "prompt": "फार्मासिस्ट: 'Do you have any pain?' जवाब दें: 'हाँ। मेरे सिर में दर्द है।' (Yes. I have...)",
-      "expectedSpeakingPoints": ["Yes", "I have a headache"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "I have a headache"
+      ],
       "sampleResponse": {
         "targetText": "Yes. I have a headache.",
         "transliteration": "येस। आई हैव अ हेडेक।",
@@ -55,7 +66,9 @@
     {
       "subTaskId": "t4",
       "prompt": "फार्मासिस्ट: 'Did you get hurt?' जवाब दें: 'हाँ, मैं गिर गया था। मेरे पैर में दर्द है (चोट लगी है)!' (Yes, I fell down. My leg...)",
-      "expectedSpeakingPoints": ["My leg hurts"],
+      "expectedSpeakingPoints": [
+        "My leg hurts"
+      ],
       "sampleResponse": {
         "targetText": "Yes, I fell down. My leg hurts!",
         "transliteration": "येस, आई फेल डाउन। माई लेग हर्ट्स!",
@@ -65,7 +78,10 @@
     {
       "subTaskId": "t5",
       "prompt": "फार्मासिस्ट: 'Here are some pills. You look very bad.' जवाब दें: 'धन्यवाद। मुझे डॉक्टर को दिखाने की ज़रूरत है।' (Thank you. I need...)",
-      "expectedSpeakingPoints": ["Thank you", "I need to see a doctor"],
+      "expectedSpeakingPoints": [
+        "Thank you",
+        "I need to see a doctor"
+      ],
       "sampleResponse": {
         "targetText": "Thank you. I need to see a doctor.",
         "transliteration": "थैंक यू। आई नीड टू सी अ डॉक्टर।",
@@ -147,19 +163,26 @@
     "onPartial": "Good try! Watch out for Task 5. Because 'Doctor' is a noun, you cannot say 'I need doctor'. You must use the verb phrase 'I need TO SEE a doctor'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b5/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m3/b5/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b5/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m3/b5/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m3/b5/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Pharmacist: Hello... (full dialogue)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "health", "pharmacy", "medical", "block5"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "health",
+    "pharmacy",
+    "medical",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -172,7 +195,9 @@
     "Saying 'I want a doctor' instead of 'I need to see a doctor.'"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_test_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

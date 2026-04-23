@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M1B3_writing_001"],
+  "prerequisites": [
+    "ja_hi_M1B3_writing_001"
+  ],
   "instructions": "音声を聞いてみましょう！家族の写真を見ながら、二人のインド人が会話をしています。「Mera / Meri」、「Bada / Badi」の違いに耳を澄ませてください。",
   "contentItems": [
     {
@@ -57,7 +59,11 @@
       "questionId": "q1",
       "questionText": "ラーフルが「息子 (beṭaa)」を紹介した時、直前に使った「私の」という単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["Meri (मेरी)", "Mera (मेरा)", "Mujhe (मुझे)"],
+      "options": [
+        "Meri (मेरी)",
+        "Mera (मेरा)",
+        "Mujhe (मुझे)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -65,7 +71,10 @@
       "questionId": "q2",
       "questionText": "息子の大きさについて、ラーフルは何と言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["小さい (chhoṭaa)", "大きい (baḍaa)"],
+      "options": [
+        "小さい (chhoṭaa)",
+        "大きい (baḍaa)"
+      ],
       "audioTimestamp": "00:05",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -73,7 +82,10 @@
       "questionId": "q3",
       "questionText": "ラーフルが「娘 (beṭee)」を紹介した時、形容詞（大きさ）はどのように音を変えましたか？",
       "questionType": "multiple_choice",
-      "options": ["chhoṭaa（チョーター）から chhootu（チョートゥ）へ", "chhoṭaa（チョーター）から chhoṭee（チョーティー）へ"],
+      "options": [
+        "chhoṭaa（チョーター）から chhootu（チョートゥ）へ",
+        "chhoṭaa（チョーター）から chhoṭee（チョーティー）へ"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -81,7 +93,10 @@
       "questionId": "q4",
       "questionText": "写真に写っている犬 (kuttaa) は、文法的に男性名詞ですか？女性名詞ですか？",
       "questionType": "multiple_choice",
-      "options": ["男性名詞 (Mera kuttaa と言っているため)", "女性名詞 (Meri kuttaa と言っているため)"],
+      "options": [
+        "男性名詞 (Mera kuttaa と言っているため)",
+        "女性名詞 (Meri kuttaa と言っているため)"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -110,11 +125,17 @@
       "q5": "Meri Kuttee"
     },
     "acceptedShortAnswers": {
-      "q5": ["meri kuttee", "Meri kuttee", "meri kutiyaa"]
+      "q5": [
+        "meri kuttee",
+        "Meri kuttee",
+        "meri kutiyaa"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["meri"]
+      "q5": [
+        "meri"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -127,18 +148,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b3/listening/family_native.mp3",
+    "nativeAudio": "month_1/block_3/M1B3_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b3/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b3/listening/family_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b3/listening/family_native.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_3/M1B3_audio.wav",
     "audioTranscript": "Rohan: Namaste Raahul. Yah kaun hai?\n... (Matches exact transcript)",
     "audioLanguage": "hi",
     "audioDuration": 50,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "gender", "vowels", "adjectives", "month1", "block3"],
+  "tags": [
+    "listening",
+    "gender",
+    "vowels",
+    "adjectives",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -150,7 +178,9 @@
     "Missing the subtle phonetic distinction between Mera and Meri at native speed."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

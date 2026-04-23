@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B3_test_001"],
+  "prerequisites": [
+    "en_hi_M1B3_test_001"
+  ],
   "instructions": "In this lesson, you will learn essential survival words: numbers and time. You will also learn how to ask questions. In English, asking a question usually means flipping the subject and the verb. Read through the examples and complete the check questions.",
   "contentItems": [
     {
@@ -45,18 +47,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b4/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m1/b4/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b4/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m1/b4/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "One, Two, Three. Monday. Tuesday. Who, What, Where.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "numbers", "questions", "dates", "beginner", "month1", "block4"],
+  "tags": [
+    "grammar",
+    "numbers",
+    "questions",
+    "dates",
+    "beginner",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +79,9 @@
     "Mispronouncing Thirty as Thirteen."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Numbers, Dates, and Questions",

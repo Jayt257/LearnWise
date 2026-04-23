@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B3_listening_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_listening_001"
+  ],
   "instructions": "今回の単語は論理的な会話をするための『骨組み』になります！条件を表すペア(Agar-To, Jab-Tab)、理由を表す言葉(Kyonki, Isliye)、そして自分の思考を伝える表現をまとめて覚えましょう。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its meaning: Sochnaa (सोचना)",
       "questionType": "matching",
-      "options": ["考える/悩む", "本当"],
+      "options": [
+        "考える/悩む",
+        "本当"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What word means 'Because'?",
       "questionType": "matching",
-      "options": ["Isliye", "Kyonki"],
+      "options": [
+        "Isliye",
+        "Kyonki"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What word means 'Therefore / So'?",
       "questionType": "matching",
-      "options": ["Isliye", "Kyonki"],
+      "options": [
+        "Isliye",
+        "Kyonki"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "When setting up a timeframe 'When', you use 'Jab'. What word must be used for 'Then'?",
       "questionType": "matching",
-      "options": ["To", "Tab"],
+      "options": [
+        "To",
+        "Tab"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "If you want to say something is 'True / The truth', which word do you use?",
       "questionType": "matching",
-      "options": ["Sach", "Baat"],
+      "options": [
+        "Sach",
+        "Baat"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,8 +211,14 @@
       "w10": "本当 / 真実"
     },
     "acceptedTranslations": {
-      "w02": ["思う", "感じる"],
-      "w03": ["知っている", "わかる"]
+      "w02": [
+        "思う",
+        "感じる"
+      ],
+      "w03": [
+        "知っている",
+        "わかる"
+      ]
     },
     "matchingKey": {
       "q1": "考える/悩む",
@@ -216,18 +239,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b3/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b3/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b3/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b3/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Sochnaa. Lagtaa hai. Maaloom. Ki. Agar. Jab. Tab. Kyonki. Isliye. Sach.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "logic", "conjunctions", "reasoning", "month3", "block3"],
+  "tags": [
+    "vocabulary",
+    "logic",
+    "conjunctions",
+    "reasoning",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +269,9 @@
     "Thinking 'Lagtaa hai' means 'I am attached' literally, rather than 'It seems to me'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

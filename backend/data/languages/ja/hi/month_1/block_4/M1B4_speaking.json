@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B4_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M1B4_vocabulary_001"
+  ],
   "instructions": "今度はあなたが答える番です！相手に「どこ？」と聞かれたら、習ったばかりの助詞（Mein, Par, Se）を単語の後ろにくっつけて答えてください。",
   "contentItems": [
     {
@@ -25,7 +27,12 @@
     {
       "subTaskId": "t1",
       "prompt": "マネージャー: 'नमस्ते। आप कहाँ से हैं?' (こんにちは。あなたはどこから来ましたか？) 答え：「こんにちは。私は日本からです。」",
-      "expectedSpeakingPoints": ["Namaste", "Main", "Jaapaan se", "hoon"],
+      "expectedSpeakingPoints": [
+        "Namaste",
+        "Main",
+        "Jaapaan se",
+        "hoon"
+      ],
       "sampleResponse": {
         "targetText": "नमस्ते। मैं जापान से हूँ।",
         "transliteration": "Namaste. Main Jaapaan se hoon.",
@@ -35,7 +42,11 @@
     {
       "subTaskId": "t2",
       "prompt": "マネージャー: 'आपकी किताब कहाँ है?' (あなたの本はどこにありますか？) 答え：「私の本は部屋の中にあります。」",
-      "expectedSpeakingPoints": ["Meri kitaab", "kamre mein", "hai"],
+      "expectedSpeakingPoints": [
+        "Meri kitaab",
+        "kamre mein",
+        "hai"
+      ],
       "sampleResponse": {
         "targetText": "मेरी किताब कमरे में है।",
         "transliteration": "Meri kitaab kamre mein hai.",
@@ -45,7 +56,10 @@
     {
       "subTaskId": "t3",
       "prompt": "マネージャー: 'ठीक है। और मेज़ कहाँ है?' (わかりました。そして机はどこですか？) 答え：「机はあそこにあります。」",
-      "expectedSpeakingPoints": ["Mez", "vahaan hai"],
+      "expectedSpeakingPoints": [
+        "Mez",
+        "vahaan hai"
+      ],
       "sampleResponse": {
         "targetText": "मेज़ वहाँ है।",
         "transliteration": "Mez vahaan hai.",
@@ -88,7 +102,11 @@
       "vahaan hai"
     ],
     "requiredKeywords": [
-      "jaapaan", "se", "kamre", "mein", "vahaan"
+      "jaapaan",
+      "se",
+      "kamre",
+      "mein",
+      "vahaan"
     ],
     "acceptableParaphrases": [
       "kitaab kamre mein hai"
@@ -107,19 +125,27 @@
     "onPartial": "よく通じています！「あそこに (vahaan)」や「ここに (yahaan)」は、Mein などの助詞を使わずにそのまま「vahaan hai」と言えばOKです。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b4/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m1/b4/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b4/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b4/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m1/b4/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m1/b4/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Manager: Namaste. Aap kahaan se hain?\nLearner: Namaste. Main Jaapaan se hoon...\n(Matches full dialogue)",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "postpositions", "particles", "locations", "roleplay", "month1", "block4"],
+  "tags": [
+    "speaking",
+    "postpositions",
+    "particles",
+    "locations",
+    "roleplay",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -131,7 +157,9 @@
     "Saying 'Se Jaapaan' (From Japan) instead of 'Jaapaan se'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B4_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B4_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

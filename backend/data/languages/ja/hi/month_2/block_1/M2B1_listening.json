@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M2B1_writing_001"],
+  "prerequisites": [
+    "ja_hi_M2B1_writing_001"
+  ],
   "instructions": "ラージがアニタに電話をかけています。彼らが『今まさに』何をしているのか、連続する「ラハー (Rahaa) / ラヒー (Rahee)」のリズムに耳を澄ませて聞き取ってください。",
   "contentItems": [
     {
@@ -52,7 +54,11 @@
       "questionId": "q1",
       "questionText": "アニタは今、何を見て(Dekh rahee)いますか？",
       "questionType": "multiple_choice",
-      "options": ["本 (Kitaab)", "テレビ (Ṭeevee)", "時計"],
+      "options": [
+        "本 (Kitaab)",
+        "テレビ (Ṭeevee)",
+        "時計"
+      ],
       "audioTimestamp": "00:05",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +66,10 @@
       "questionId": "q2",
       "questionText": "ラージは「お茶(chaay)を飲んでいる？」と聞きましたが、アニタは実際に何を飲んでいましたか？",
       "questionType": "multiple_choice",
-      "options": ["お茶 (Chaay)", "水 (Paanee)"],
+      "options": [
+        "お茶 (Chaay)",
+        "水 (Paanee)"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +77,10 @@
       "questionId": "q3",
       "questionText": "「Tum kyaa kar rahe ho? (あなたは何をしているの？)」とアニタが聞き返した相手（ラージ）は男性ですが、使われている音は rahaa/rahee/rahe のどれですか？",
       "questionType": "multiple_choice",
-      "options": ["rahe (Tumという少し丁寧な呼び方にはraheを使う)", "rahaa (男だからrahaaになるはず)"],
+      "options": [
+        "rahe (Tumという少し丁寧な呼び方にはraheを使う)",
+        "rahaa (男だからrahaaになるはず)"
+      ],
       "audioTimestamp": "00:12",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -84,7 +96,10 @@
       "questionId": "q5",
       "questionText": "ラージは自分が話す時（最後の文）に、Kar(する)に何をつけていましたか？（男性形）",
       "questionType": "multiple_choice",
-      "options": ["rahee hoon", "rahaa hoon"],
+      "options": [
+        "rahee hoon",
+        "rahaa hoon"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -105,11 +120,22 @@
       "q5": "rahaa hoon"
     },
     "acceptedShortAnswers": {
-      "q4": ["休んでいる", "リラックスしている", "休む", "休憩している", "aaraam", "Aaraam"]
+      "q4": [
+        "休んでいる",
+        "リラックスしている",
+        "休む",
+        "休憩している",
+        "aaraam",
+        "Aaraam"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["休", "リラックス", "aaraam"]
+      "q4": [
+        "休",
+        "リラックス",
+        "aaraam"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +148,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b1/listening/phone_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b1/listening/phone_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b1/listening/phone_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Helo Aneeta, tum abhee kyaa kar rahee ho?...\n(Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 65,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "verbs", "present_continuous", "phone_call", "month2", "block1"],
+  "tags": [
+    "listening",
+    "verbs",
+    "present_continuous",
+    "phone_call",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +178,9 @@
     "Misinterpreting 'kyaa kar rahe ho' as plural instead of the polite/second-person continuous."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B1_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B1_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

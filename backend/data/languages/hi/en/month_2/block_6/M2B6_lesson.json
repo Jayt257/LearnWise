@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B5_test_001"],
+  "prerequisites": [
+    "en_hi_M2B5_test_001"
+  ],
   "instructions": "In this special lesson, we will talk about English Culture. English is different from Hindi. In Hindi, if you want to be polite, you use the word 'आप'. In English, everyone is 'You'! So, how do we show respect? Read the lesson to find out.",
   "contentItems": [
     {
@@ -45,18 +47,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b6/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m2/b6/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b6/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m2/b6/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Could you help me? Excuse me. Please.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["culture", "politeness", "could_you", "excuse_me", "pragmatics", "month2", "block6"],
+  "tags": [
+    "culture",
+    "politeness",
+    "could_you",
+    "excuse_me",
+    "pragmatics",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +79,9 @@
     "Saying 'Move' instead of 'Excuse me'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "How to Be Polite in English",
@@ -167,8 +179,14 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "In Western culture, directness can be seen as aggressive. Because English does not have an 'Aap' (formal You), the entire weight of politeness falls on words like 'Please', 'Could you', and 'Excuse me'. Overusing them is better than underusing them.",
-    "dosList": ["Do say 'Please' when asking for things.", "Do use 'Could you' instead of giving orders."],
-    "dontsList": ["Don't tell people 'Give me that'.", "Don't tap strangers on the shoulder; say 'Excuse me' first."]
+    "dosList": [
+      "Do say 'Please' when asking for things.",
+      "Do use 'Could you' instead of giving orders."
+    ],
+    "dontsList": [
+      "Don't tell people 'Give me that'.",
+      "Don't tap strangers on the shoulder; say 'Excuse me' first."
+    ]
   },
   "summary": "To show the respect of 'Aap' in English, you must soften your words. Say 'Excuse me' to get attention. Ask 'Could you...?' instead of telling people what to do. And always answer offers with 'Yes, please' or 'No, thank you'!",
   "checkpointQuestions": [

@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 3. It contains 20 questions evaluating your understanding of Articles (A/An) and Plurals. Pay very close attention to whether a word starts with a Vowel Sound, and whether it ends in 's' or 'x'.",
   "testTitle": "Block 3 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: 'A' and 'An' mean 'One'.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: I eat _____ apple every day.",
           "questionType": "multiple_choice",
-          "options": ["a", "an", "the", "two"],
+          "options": [
+            "a",
+            "an",
+            "the",
+            "two"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Fill in the blank: She has _____ dog.",
           "questionType": "multiple_choice",
-          "options": ["a", "an", "two", "the"],
+          "options": [
+            "a",
+            "an",
+            "two",
+            "the"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,12 @@
           "questionId": "q003",
           "questionText": "What is the correct English plural for 'Bus'?",
           "questionType": "multiple_choice",
-          "options": ["Buss", "Buses", "Bus's", "Bussies"],
+          "options": [
+            "Buss",
+            "Buses",
+            "Bus's",
+            "Bussies"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -77,7 +97,10 @@
           "questionId": "q005",
           "questionText": "True or False: The word 'Mumbai' needs an 'A' before it (e.g., 'I live in a Mumbai').",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -110,7 +133,12 @@
           "questionId": "q007",
           "questionText": "What is the meaning of 'Watch' in Hindi (Noun)?",
           "questionType": "multiple_choice",
-          "options": ["डिब्बा", "गाड़ी", "घड़ी", "किताब"],
+          "options": [
+            "डिब्बा",
+            "गाड़ी",
+            "घड़ी",
+            "किताब"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -124,7 +152,12 @@
           "questionId": "q008",
           "questionText": "Which is the plural of 'Boy'?",
           "questionType": "multiple_choice",
-          "options": ["Boys", "Boyes", "Boi", "Boy's"],
+          "options": [
+            "Boys",
+            "Boyes",
+            "Boi",
+            "Boy's"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -167,7 +200,11 @@
           "questionId": "q011",
           "questionText": "Find the mistake: 'I have a oranges.'",
           "questionType": "multiple_choice",
-          "options": ["'oranges' should be 'orange' OR 'a' should be removed.", "It should be 'an oranges'.", "There is no mistake."],
+          "options": [
+            "'oranges' should be 'orange' OR 'a' should be removed.",
+            "It should be 'an oranges'.",
+            "There is no mistake."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -181,7 +218,10 @@
           "questionId": "q012",
           "questionText": "True or False: 'He is doctor.' is a perfectly correct English sentence.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -205,7 +245,11 @@
           "questionId": "q014",
           "questionText": "Find the correct sentence.",
           "questionType": "multiple_choice",
-          "options": ["They are a students.", "They is students.", "They are students."],
+          "options": [
+            "They are a students.",
+            "They is students.",
+            "They are students."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -219,7 +263,11 @@
           "questionId": "q015",
           "questionText": "Which sound does the 's' in 'Dogs' make?",
           "questionType": "multiple_choice",
-          "options": ["Sharp S (स)", "Buzzing Z (ज़)", "IZ (इज़)"],
+          "options": [
+            "Sharp S (स)",
+            "Buzzing Z (ज़)",
+            "IZ (इज़)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -355,16 +403,43 @@
       "q016": "Give 0 marks if translated as 'I am student'."
     },
     "alternateValidAnswers": {
-      "q004": ["boxes"],
-      "q006": ["umbrella"],
-      "q009": ["orange"],
-      "q010": ["an", "AN"],
-      "q013": ["A book", "a Book"],
-      "q016": ["i am a student", "I'm a student."],
-      "q017": ["they are dogs", "They're dogs."],
-      "q018": ["it is a watch", "It's a watch."],
-      "q019": ["they are buses", "They're buses."],
-      "q020": ["it is an apple", "It's an apple."]
+      "q004": [
+        "boxes"
+      ],
+      "q006": [
+        "umbrella"
+      ],
+      "q009": [
+        "orange"
+      ],
+      "q010": [
+        "an",
+        "AN"
+      ],
+      "q013": [
+        "A book",
+        "a Book"
+      ],
+      "q016": [
+        "i am a student",
+        "I'm a student."
+      ],
+      "q017": [
+        "they are dogs",
+        "They're dogs."
+      ],
+      "q018": [
+        "it is a watch",
+        "It's a watch."
+      ],
+      "q019": [
+        "they are buses",
+        "They're buses."
+      ],
+      "q020": [
+        "it is an apple",
+        "It's an apple."
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -381,10 +456,10 @@
     "onPartial": "Good try! You missed just a few points. Review your wrong answers, especially the '-es' plurals."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b3/test/grammar_audio.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -393,7 +468,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block3", "nouns", "plurals", "articles", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block3",
+    "nouns",
+    "plurals",
+    "articles",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -403,7 +486,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

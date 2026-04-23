@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B1_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M3B1_pronunciation_001"
+  ],
   "instructions": "アニタが自分の能力と将来の夢について書いています。「できること（Sak）」と「したいこと（Chaah）」の違いに注意して読んでください。また、アニタが女性であるために文末がどう変化しているかにも着目しましょう。",
   "contentItems": [
     {
@@ -119,28 +121,40 @@
       "questionId": "q1",
       "questionText": "アニタが日本語を話す「能力(できる)」について述べている時、自分自身を女性として表現するために、Saktaaの後半はどのように変化していますか？",
       "questionType": "multiple_choice",
-      "options": ["Saktee (ティー)", "Sakte (テー)"],
+      "options": [
+        "Saktee (ティー)",
+        "Sakte (テー)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「料理ができる(banaa saktee hoon)」という文で、banaanaa(作る)という動詞はどのような形で配置されていますか？",
       "questionType": "multiple_choice",
-      "options": ["naa を残した原形のまま配置されている", "naa を外した語幹(banaa)の状態で配置されている"],
+      "options": [
+        "naa を残した原形のまま配置されている",
+        "naa を外した語幹(banaa)の状態で配置されている"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "アニタは今すぐ日本に行けますか？行けない場合はその理由を教えてください。",
       "questionType": "multiple_choice",
-      "options": ["行ける", "行けない。なぜなら(Kyonki)お金がないから。"],
+      "options": [
+        "行ける",
+        "行けない。なぜなら(Kyonki)お金がないから。"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "「来年、彼女は東京へ行き『たい』」。この願望を示す文では、Jaanaa(行く)という単語はどのように配置されていますか？",
       "questionType": "multiple_choice",
-      "options": ["naa を残した原形のまま配置されている", "naa を外した語幹(jaa)の状態で配置されている"],
+      "options": [
+        "naa を残した原形のまま配置されている",
+        "naa を外した語幹(jaa)の状態で配置されている"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -161,10 +175,18 @@
       "q5": "したい"
     },
     "acceptableParaphrases": {
-      "q5": ["したい", "〜したい", "望む", "want to"]
+      "q5": [
+        "したい",
+        "〜したい",
+        "望む",
+        "want to"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["したい", "望む"]
+      "q5": [
+        "したい",
+        "望む"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes the visual boundary between a bare root ('bol') followed by 'saktee' vs a full infinitive ('jaanaa') followed by 'chaahtee'.",
@@ -180,18 +202,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b1/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b1/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b1/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m3/b1/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Main Aneeta hoon... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "modals", "ability", "desire", "reasons", "month3", "block1"],
+  "tags": [
+    "reading",
+    "modals",
+    "ability",
+    "desire",
+    "reasons",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -203,7 +233,9 @@
     "Reading 'bol saktee' and thinking 'bol' is a separate word from the modal ability structure."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B1_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B1_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

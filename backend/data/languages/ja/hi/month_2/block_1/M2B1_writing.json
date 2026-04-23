@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B1_reading_001"],
+  "prerequisites": [
+    "ja_hi_M2B1_reading_001"
+  ],
   "instructions": "文法パズルです！Month 1 で学んだ「〜ター (Taa)」の代わりに、今回は「〜ている (Rahaa/Rahee)」を使って文を作ります。",
   "contentItems": [
     {
@@ -143,7 +145,23 @@
       "main seb khaa raha hoon vah tokyo ja rahi hai aap kya kar rahe hain",
       "मैं सेब खा रहा हूँ वह टोक्यो जा रही है आप क्या कर रहे हैं"
     ],
-    "requiredKeywords": ["मैं", "सेब", "खा", "रहा", "हूँ", "वह", "टोक्यो", "जा", "रही", "है", "आप", "क्या", "कर", "रहे", "हैं"],
+    "requiredKeywords": [
+      "मैं",
+      "सेब",
+      "खा",
+      "रहा",
+      "हूँ",
+      "वह",
+      "टोक्यो",
+      "जा",
+      "रही",
+      "है",
+      "आप",
+      "क्या",
+      "कर",
+      "रहे",
+      "हैं"
+    ],
     "grammarBaseline": "Crucial requirement: 'Khaa rahaa' not 'Khaataa rahaa'. The root must stand alone.",
     "lengthExpectation": "Exactly 3 distinct sentences.",
     "scoringRubric": {
@@ -158,19 +176,27 @@
     "onPartial": "惜しいところがあります。第3文の Aap の対応を忘れていませんか？Aap の時は尊敬の「Rahe（テーに対応）」と「Hain（ハイン）」を使います。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b1/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b1/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b1/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m2/b1/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 sentences applying present continuous grammatical logic.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "verbs", "present_continuous", "sov", "month2", "block1"],
+  "tags": [
+    "writing",
+    "grammar",
+    "verbs",
+    "present_continuous",
+    "sov",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -182,7 +208,9 @@
     "Writing 'Khaataa rahaa' instead of isolating the root."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B1_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B1_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

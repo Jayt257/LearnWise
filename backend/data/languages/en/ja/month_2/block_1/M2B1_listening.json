@@ -55,7 +55,12 @@
       "questionId": "q001",
       "questionText": "What animal are the speakers looking for?",
       "questionType": "multiple_choice",
-      "options": ["A dog", "A bird", "A cat", "A tree"],
+      "options": [
+        "A dog",
+        "A bird",
+        "A cat",
+        "A tree"
+      ],
       "audioTimestamp": "00:02",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
     },
@@ -140,12 +145,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b1/listening/native_dialogue.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b1/listening/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_en/m2/b1/listening/native_dialogue.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "すみません。ねこが いますか。はい。はこの なかに います。いいえ、はこの なかに いません。あ、きの したに います。はい、あの おおきい きの したですね。",
     "audioLanguage": "ja",
     "audioDuration": 25,

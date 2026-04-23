@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B4_listening_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_listening_001"
+  ],
   "instructions": "家族の名前や、身近な所有物の単語を覚えましょう。これらの単語を使う時、「私の(Meraa/Meree)」がどのように変化するかもセットで記憶に入れると完璧です。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its Japanese equivalent: Bahan (बहन)",
       "questionType": "matching",
-      "options": ["兄弟", "姉妹"],
+      "options": [
+        "兄弟",
+        "姉妹"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Because 'Parivaar' (家族) is a masculine noun, what should 'My family' be?",
       "questionType": "matching",
-      "options": ["Meree parivaar", "Meraa parivaar"],
+      "options": [
+        "Meree parivaar",
+        "Meraa parivaar"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the word to its meaning: Naam (नाम)",
       "questionType": "matching",
-      "options": ["家族", "名前"],
+      "options": [
+        "家族",
+        "名前"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its meaning: Gaadee (गाड़ी)",
       "questionType": "matching",
-      "options": ["車 (女性)", "犬 (男性)"],
+      "options": [
+        "車 (女性)",
+        "犬 (男性)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Because 'Pitaa jee' (お父さん) commands respect, what should 'My father' be?",
       "questionType": "matching",
-      "options": ["Meraa pitaa jee", "Mere pitaa jee"],
+      "options": [
+        "Meraa pitaa jee",
+        "Mere pitaa jee"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,8 +211,14 @@
       "w10": "家族 (男)"
     },
     "acceptedTranslations": {
-      "w03": ["兄", "弟"],
-      "w04": ["姉", "妹"]
+      "w03": [
+        "兄",
+        "弟"
+      ],
+      "w04": [
+        "姉",
+        "妹"
+      ]
     },
     "matchingKey": {
       "q1": "姉妹",
@@ -216,18 +239,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b4/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b4/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b4/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b4/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b4/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Pitaa jee. Maataa jee. Bhaaii. Bahan. Dost. Naam. Kuttaa. Billee. Gaadee. Parivaar.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "family", "possession", "nouns", "month2", "block4"],
+  "tags": [
+    "vocabulary",
+    "family",
+    "possession",
+    "nouns",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +269,9 @@
     "Assuming 'Maataa jee' (Mother) needs 'Mere' because of respect, but feminine nouns take 'Meree' regardless of respect."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B4_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B4_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

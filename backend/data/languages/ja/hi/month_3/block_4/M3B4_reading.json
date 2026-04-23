@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B4_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M3B4_pronunciation_001"
+  ],
   "instructions": "ケンがインド名物の三輪タクシー（オートリキシャ）に乗って目的地へ向かい、値段の交渉をしています。「〜へ行きたい」という『自分(Mujhe)』から始まる文の形や、値段を聞く時の表現に注目して読んでください。",
   "contentItems": [
     {
@@ -121,28 +123,40 @@
       "questionId": "q1",
       "questionText": "ケンが「私は駅に行きたい」と言う時、「私に」を意味するどの言葉から文章を始めていますか？",
       "questionType": "multiple_choice",
-      "options": ["Mujhe (私に)", "Main (私は)"],
+      "options": [
+        "Mujhe (私に)",
+        "Main (私は)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "ケンは運転手にどう道案内しましたか？",
       "questionType": "multiple_choice",
-      "options": ["まっすぐ行って、左(Baaen)に曲がる", "まっすぐ行って、右(Daaen)に曲がる"],
+      "options": [
+        "まっすぐ行って、左(Baaen)に曲がる",
+        "まっすぐ行って、右(Daaen)に曲がる"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "値段を聞き、運転手は「〇〇 ルピーだよ(〜のものです)」と答えました。Do(2) ＋ Sau(100) で、いくらだと言いましたか？",
       "questionType": "multiple_choice",
-      "options": ["100ルピー", "200ルピー"],
+      "options": [
+        "100ルピー",
+        "200ルピー"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "ケンは値段に対してどう反応しましたか？",
       "questionType": "multiple_choice",
-      "options": ["高い(Mahangaa)と文句を言った", "安い(Sastaa)と喜んだ"],
+      "options": [
+        "高い(Mahangaa)と文句を言った",
+        "安い(Sastaa)と喜んだ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -163,10 +177,18 @@
       "q5": "kitne kaa"
     },
     "acceptableParaphrases": {
-      "q5": ["kitne kaa", "Kitne kaa", "Kitne kaa hai", "kitne kaa hai"]
+      "q5": [
+        "kitne kaa",
+        "Kitne kaa",
+        "Kitne kaa hai",
+        "kitne kaa hai"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["kitne", "kaa"]
+      "q5": [
+        "kitne",
+        "kaa"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes 'mujhe' starting the sentence translates conceptually to 'I want to/must go'.",
@@ -182,18 +204,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b4/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b4/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m3/b4/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Draivar: Bhaiyaa, aapko kahaan jaanaa hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "travel", "shopping", "bargaining", "directions", "month3", "block4"],
+  "tags": [
+    "reading",
+    "travel",
+    "shopping",
+    "bargaining",
+    "directions",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -205,7 +235,9 @@
     "Thinking 'Mujhe station jaanaa hai' means 'Give me to the station' because of the literal 'To me' translation."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B4_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B4_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

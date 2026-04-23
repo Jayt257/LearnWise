@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B4_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M3B4_pronunciation_001"
+  ],
   "instructions": "Read the story of Raj arriving in London. He faces three survival situations: asking for directions, ordering food, and an emergency! Pay close attention to HOW he talks to people in each situation.",
   "contentItems": [
     {
@@ -94,14 +96,21 @@
       "questionId": "q1",
       "questionText": "What does Raj say to the security guard BEFORE he asks his question?",
       "questionType": "multiple_choice",
-      "options": ["Hey you", "Excuse me", "Give me directions"],
+      "options": [
+        "Hey you",
+        "Excuse me",
+        "Give me directions"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Does Raj say 'I want the chicken sandwich' or 'I would like the chicken sandwich'?",
       "questionType": "multiple_choice",
-      "options": ["I want", "I would like"],
+      "options": [
+        "I want",
+        "I would like"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -115,14 +124,22 @@
       "questionId": "q4",
       "questionText": "Why doesn't Raj say 'Excuse me, could you call the police, please?' when the man takes his bag?",
       "questionType": "multiple_choice",
-      "options": ["Because he forgot the English word.", "Because it is an emergency and politeness makes you too slow.", "Because he is angry at the woman."],
+      "options": [
+        "Because he forgot the English word.",
+        "Because it is an emergency and politeness makes you too slow.",
+        "Because he is angry at the woman."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Fill in the blank from his emergency shout: '_____ me!'",
       "questionType": "multiple_choice",
-      "options": ["Stop", "See", "Help"],
+      "options": [
+        "Stop",
+        "See",
+        "Help"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -136,14 +153,21 @@
       "questionId": "q7",
       "questionText": "According to the story, what does the woman do at the very end to help him?",
       "questionType": "multiple_choice",
-      "options": ["She runs after the thief.", "She gives him money.", "She takes out her phone."],
+      "options": [
+        "She runs after the thief.",
+        "She gives him money.",
+        "She takes out her phone."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "True or False: Raj successfully changed his 'tone' depending on if he was paying a waiter or dealing with a thief.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -160,12 +184,28 @@
       "q8": "True"
     },
     "acceptableParaphrases": {
-      "q3": ["Can I have the bill", "Can I have the bill please", "the bill please"],
-      "q6": ["Stole", "steal", "took"]
+      "q3": [
+        "Can I have the bill",
+        "Can I have the bill please",
+        "the bill please"
+      ],
+      "q6": [
+        "Stole",
+        "steal",
+        "took"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["bill", "can", "have"],
-      "q6": ["stol", "took", "take"]
+      "q3": [
+        "bill",
+        "can",
+        "have"
+      ],
+      "q6": [
+        "stol",
+        "took",
+        "take"
+      ]
     },
     "expectedSummaryPoints": [
       "Learner correctly identifies 'Excuse me' as the mandatory preamble for stranger interactions.",
@@ -181,18 +221,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b4/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b4/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m3/b4/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raj arrives at the airport in London... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "survival_english", "politeness", "emergency", "capstone", "month3", "block4"],
+  "tags": [
+    "reading",
+    "survival_english",
+    "politeness",
+    "emergency",
+    "capstone",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -204,7 +252,9 @@
     "Thinking 'I want' is acceptable in formal service contexts due to direct Hindi translation."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

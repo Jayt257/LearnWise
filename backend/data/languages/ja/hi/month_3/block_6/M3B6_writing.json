@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M3B6_reading_001"],
+  "prerequisites": [
+    "ja_hi_M3B6_reading_001"
+  ],
   "instructions": "3ヶ月の文章構成テストです！これまで学んだ知識を総動員して、3つの難解な日本語をヒンディー語に変換してください。「私」をMainにするべきかMujheにするべきか、動詞の形はどう変わるべきかを考え抜きましょう。",
   "contentItems": [
     {
@@ -147,7 +149,22 @@
     "acceptableAlternates": [
       "main bhaarat jaaoongaa mujhe chaay pasand hai agar baarish hogee to main nahin jaa sakoongaa"
     ],
-    "requiredKeywords": ["मैं", "भारत", "जाऊँगा", "मुझे", "चाय", "पसंद", "है", "अगर", "बारिश", "होगी", "तो", "नहीं", "जा", "सकूँगा"],
+    "requiredKeywords": [
+      "मैं",
+      "भारत",
+      "जाऊँगा",
+      "मुझे",
+      "चाय",
+      "पसंद",
+      "है",
+      "अगर",
+      "बारिश",
+      "होगी",
+      "तो",
+      "नहीं",
+      "जा",
+      "सकूँगा"
+    ],
     "grammarBaseline": "Sentence 1 requires Main + jaaoongaa. Sentence 2 requires Mujhe + pasand hai. Sentence 3 requires Agar ... To ... Main + jaa sakoongaa.",
     "lengthExpectation": "3 high-complexity synthesized sentences.",
     "scoringRubric": {
@@ -162,19 +179,26 @@
     "onPartial": "あと一歩です！条件文の「To (その時は)」が抜けていませんか？あるいは、自分の性別(男)の指定を忘れて Jaaoongee や Sakooongee を選んでいませんか？落ち着いて確認しましょう。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b6/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b6/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b6/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m3/b6/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate three ultimate test sentences combining datives, futures, conditionals and modals.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "synthesis", "review", "grammar", "month3", "block6"],
+  "tags": [
+    "writing",
+    "synthesis",
+    "review",
+    "grammar",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -186,7 +210,9 @@
     "Writing 'Main chaay pasand hoon' meaning 'I am the tea liking entity'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B6_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B6_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

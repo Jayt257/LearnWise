@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B4_writing_001"],
+  "prerequisites": [
+    "en_hi_M1B4_writing_001"
+  ],
   "instructions": "Listen to a receptionist talking to a new patient at a clinic. Pay very close attention to the questions she asks (What, When, How old) and the numbers the patient says. Is he saying 14 or 40? Listen carefully and answer the 8 questions.",
   "contentItems": [
     {
@@ -102,7 +104,12 @@
       "questionId": "q1",
       "questionText": "What WH-word does the receptionist use to ask Rohan about his name?",
       "questionType": "multiple_choice",
-      "options": ["Who", "Where", "What", "When"],
+      "options": [
+        "Who",
+        "Where",
+        "What",
+        "When"
+      ],
       "audioTimestamp": "00:02",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -110,7 +117,12 @@
       "questionId": "q2",
       "questionText": "How old is Rohan?",
       "questionType": "multiple_choice",
-      "options": ["Forty (40)", "Fourteen (14)", "Four (4)", "Four hundred (400)"],
+      "options": [
+        "Forty (40)",
+        "Fourteen (14)",
+        "Four (4)",
+        "Four hundred (400)"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -126,7 +138,12 @@
       "questionId": "q4",
       "questionText": "What day of the week is his appointment?",
       "questionType": "multiple_choice",
-      "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
       "audioTimestamp": "00:20",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -142,7 +159,12 @@
       "questionId": "q6",
       "questionText": "What WH-word does the receptionist use to ask about his address (____ do you live)?",
       "questionType": "multiple_choice",
-      "options": ["Who", "When", "What", "Where"],
+      "options": [
+        "Who",
+        "When",
+        "What",
+        "Where"
+      ],
       "audioTimestamp": "00:25",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -150,7 +172,12 @@
       "questionId": "q7",
       "questionText": "What is Rohan's house number? Listen carefully to the 'TY' vs 'TEEN'.",
       "questionType": "multiple_choice",
-      "options": ["Fifteen (15)", "Fifty (50)", "Five (5)", "Fifty-five (55)"],
+      "options": [
+        "Fifteen (15)",
+        "Fifty (50)",
+        "Five (5)",
+        "Fifty-five (55)"
+      ],
       "audioTimestamp": "00:30",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -158,7 +185,10 @@
       "questionId": "q8",
       "questionText": "True or False: The receptionist perfectly heard all his numbers the first time without asking him to clarify.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:32",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -182,13 +212,26 @@
       "q8": "False"
     },
     "acceptedShortAnswers": {
-      "q3": ["August", "august"],
-      "q5": ["Ten", "10", "ten", "August 10"]
+      "q3": [
+        "August",
+        "august"
+      ],
+      "q5": [
+        "Ten",
+        "10",
+        "ten",
+        "August 10"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["august"],
-      "q5": ["10", "ten"]
+      "q3": [
+        "august"
+      ],
+      "q5": [
+        "10",
+        "ten"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -201,18 +244,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b4/listening/clinic_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b4/listening/clinic_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b4/listening/clinic_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Receptionist: Hello. What is your name? ... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "numbers", "dates", "wh-words", "beginner", "month1", "block4"],
+  "tags": [
+    "listening",
+    "numbers",
+    "dates",
+    "wh-words",
+    "beginner",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -225,7 +276,9 @@
     "Hearing Rohan say 15 instead of 50."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

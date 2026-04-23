@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M2B3_writing_001"],
+  "prerequisites": [
+    "en_hi_M2B3_writing_001"
+  ],
   "instructions": "Listen to a police officer interviewing a woman about a crime she saw yesterday. Because everything happened in the past, almost every action word is a rule-breaker (Irregular)! Listen closely for words like 'saw', 'ran', and 'went'. Answer the 8 questions.",
   "contentItems": [
     {
@@ -97,7 +99,12 @@
       "questionId": "q1",
       "questionText": "What time did the woman go to the park?",
       "questionType": "multiple_choice",
-      "options": ["Four o'clock", "Five o'clock", "Six o'clock", "Nine o'clock"],
+      "options": [
+        "Four o'clock",
+        "Five o'clock",
+        "Six o'clock",
+        "Nine o'clock"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -113,7 +120,12 @@
       "questionId": "q3",
       "questionText": "What word did she use to say 'मैंने देखा' a tall man?",
       "questionType": "multiple_choice",
-      "options": ["I seed", "I saw", "I see", "I seeing"],
+      "options": [
+        "I seed",
+        "I saw",
+        "I see",
+        "I seeing"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -121,7 +133,12 @@
       "questionId": "q4",
       "questionText": "What color was the coat the man wore?",
       "questionType": "multiple_choice",
-      "options": ["Blue", "Black", "Red", "Green"],
+      "options": [
+        "Blue",
+        "Black",
+        "Red",
+        "Green"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -137,7 +154,10 @@
       "questionId": "q6",
       "questionText": "Did the man talk to the old woman?",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:26",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -145,7 +165,12 @@
       "questionId": "q7",
       "questionText": "What word did she use to say the man 'लिया' (took) the bag?",
       "questionType": "multiple_choice",
-      "options": ["He taked", "He tooked", "He took", "He take"],
+      "options": [
+        "He taked",
+        "He tooked",
+        "He took",
+        "He take"
+      ],
       "audioTimestamp": "00:28",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -177,15 +202,34 @@
       "q8": "A black car"
     },
     "acceptedShortAnswers": {
-      "q2": ["apple", "Apple", "an apple"],
-      "q5": ["blue", "Blue", "a blue bag"],
-      "q8": ["black car", "Black car", "a black car", "car"]
+      "q2": [
+        "apple",
+        "Apple",
+        "an apple"
+      ],
+      "q5": [
+        "blue",
+        "Blue",
+        "a blue bag"
+      ],
+      "q8": [
+        "black car",
+        "Black car",
+        "a black car",
+        "car"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q2": ["apple"],
-      "q5": ["blue"],
-      "q8": ["car"]
+      "q2": [
+        "apple"
+      ],
+      "q5": [
+        "blue"
+      ],
+      "q8": [
+        "car"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -198,18 +242,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b3/listening/police_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b3/listening/police_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b3/listening/police_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Woman: Officer, I saw everything!... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "simple_past", "irregular_verbs", "beginner", "month2", "block3"],
+  "tags": [
+    "listening",
+    "simple_past",
+    "irregular_verbs",
+    "beginner",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -221,7 +272,9 @@
     "Misinterpreting 'saw' as the tool used for cutting wood, instead of the past tense of 'see'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M2B3_writing_001"],
+  "prerequisites": [
+    "ja_hi_M2B3_writing_001"
+  ],
   "instructions": "ラージとアニタが旅行の計画について話しています。動詞の最後の音（ガー、ギー、ゲー）を聞き分けて、「誰が」その行動をする予定なのかをキャッチしてください。",
   "contentItems": [
     {
@@ -52,7 +54,11 @@
       "questionId": "q1",
       "questionText": "アニタは来月、どこに行く予定ですか？",
       "questionType": "multiple_choice",
-      "options": ["日本 (Jaapaan)", "インド (Bhaarat)", "家 (Ghar)"],
+      "options": [
+        "日本 (Jaapaan)",
+        "インド (Bhaarat)",
+        "家 (Ghar)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +66,11 @@
       "questionId": "q2",
       "questionText": "アニタが「行く」と答えた時、動詞の語尾の音はどうなっていましたか？（女性の自分の動作）",
       "questionType": "multiple_choice",
-      "options": ["Jaaoongaa", "Jaaoongee", "Jaaegaa"],
+      "options": [
+        "Jaaoongaa",
+        "Jaaoongee",
+        "Jaaegaa"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +78,10 @@
       "questionId": "q3",
       "questionText": "お父さん(Pitaa jee)の予定を聞かれたアニタは、Ve(彼)という言葉を使い「Aaraam karenge(休むでしょう)」と答えました。なぜEgaa(エガー)ではなくEnge(エンゲー)を使ったのですか？",
       "questionType": "multiple_choice",
-      "options": ["お父さんが複数人いるから", "お父さんに対して尊敬を表すため(Aapと同じルール)"],
+      "options": [
+        "お父さんが複数人いるから",
+        "お父さんに対して尊敬を表すため(Aapと同じルール)"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -84,7 +97,10 @@
       "questionId": "q5",
       "questionText": "最後の文で「私たちは『そこで(Vahaan)』会おう」と言っていました。このVahaanは会話の流れ上、どの国を指していますか？",
       "questionType": "multiple_choice",
-      "options": ["インド", "日本"],
+      "options": [
+        "インド",
+        "日本"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -105,11 +121,23 @@
       "q5": "日本"
     },
     "acceptedShortAnswers": {
-      "q4": ["aa", "gaa", "a", "ga", "ガー", "アー", "jaaoongaa", "Jaaoongaa"]
+      "q4": [
+        "aa",
+        "gaa",
+        "a",
+        "ga",
+        "ガー",
+        "アー",
+        "jaaoongaa",
+        "Jaaoongaa"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["aa", "gaa"]
+      "q4": [
+        "aa",
+        "gaa"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +150,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b3/listening/travel_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b3/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b3/listening/travel_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b3/listening/travel_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, tum agle maheene kahaan jaaogee?...\n(Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "future_tense", "conjugation", "polite", "month2", "block3"],
+  "tags": [
+    "listening",
+    "future_tense",
+    "conjugation",
+    "polite",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +180,9 @@
     "Hearing 'Karenge' and assuming it means multiple people instead of one respected father."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B3_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B3_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

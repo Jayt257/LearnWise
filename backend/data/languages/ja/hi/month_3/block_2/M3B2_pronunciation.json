@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B2_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_lesson_001"
+  ],
   "instructions": "複合動詞の練習です。Khaa (食べる) と Jaao (行け) という別々の2語として発音するのではなく、Khaa-jaao と一つの単語のように滑らかに繋げてみましょう。",
   "contentItems": [
     {
@@ -96,19 +98,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b2/pronunciation/native_comp_pron.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b2/pronunciation/slow_comp_pron.mp3",
-    "normalAudio": "audio/ja_hi/m3/b2/pronunciation/native_comp_pron.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Aa jaaiye. Khaa jaaoongaa. Bataa do. Paḍh leejiye. De do.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "compounds", "rhythm", "fluency", "month3", "block2"],
+  "tags": [
+    "pronunciation",
+    "compounds",
+    "rhythm",
+    "fluency",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -120,7 +129,9 @@
     "Pronouncing the first verb heavily (with falling intonation) before starting the second verb."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -44,18 +44,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b1/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b1/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b1/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m1/b1/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main jaataa hoon. Main jaatee hoon. Main khaataa hoon. Main khaatee hoon.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "gender", "verbs", "basics", "month1", "block1"],
+  "tags": [
+    "grammar",
+    "gender",
+    "verbs",
+    "basics",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -68,7 +75,9 @@
     "Females using the male '-aa' ending because it is often presented first in dictionaries."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "最初の壁：私は〇〇です",
@@ -144,7 +153,9 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インドでは、電話相手の性別が分からない時に、相手の動詞の語尾（-aa か -ee か）を聞いて男性か女性かを判断することがよくあります。",
-    "dosList": ["Always modify the verb based on YOUR gender in the first person."],
+    "dosList": [
+      "Always modify the verb based on YOUR gender in the first person."
+    ],
     "dontsList": []
   },
   "summary": "【文の骨組み】 Main (私) ...... Hoon (です)\n【男性の動詞】 ...-aa (例: jaataa ＝行く等)\n【女性の動詞】 ...-ee (例: jaatee ＝行く等)",

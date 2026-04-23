@@ -222,70 +222,120 @@
       "questionId": "q001",
       "questionText": "What does かいしゃいん mean?",
       "questionType": "multiple_choice",
-      "options": ["Doctor", "Teacher", "Student", "Office worker"],
+      "options": [
+        "Doctor",
+        "Teacher",
+        "Student",
+        "Office worker"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "How do you say 'British person'?",
       "questionType": "multiple_choice",
-      "options": ["アメリカじん", "イギリスじん", "にほんじん", "カナダじん"],
+      "options": [
+        "アメリカじん",
+        "イギリスじん",
+        "にほんじん",
+        "カナダじん"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What is the Japanese word for 'Water'?",
       "questionType": "multiple_choice",
-      "options": ["はな", "やま", "みず", "ほん"],
+      "options": [
+        "はな",
+        "やま",
+        "みず",
+        "ほん"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What does だいがくせい mean?",
       "questionType": "multiple_choice",
-      "options": ["High school student", "University student", "Teacher", "Doctor"],
+      "options": [
+        "High school student",
+        "University student",
+        "Teacher",
+        "Doctor"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "How do you say 'Apple' in Japanese?",
       "questionType": "multiple_choice",
-      "options": ["りんご", "えんぴつ", "ぼうし", "かぜ"],
+      "options": [
+        "りんご",
+        "えんぴつ",
+        "ぼうし",
+        "かぜ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "Which of these means 'Nice to meet you (for the first time)'?",
       "questionType": "multiple_choice",
-      "options": ["よろしく おねがいします", "はじめまして", "おはよう", "ありがとう"],
+      "options": [
+        "よろしく おねがいします",
+        "はじめまして",
+        "おはよう",
+        "ありがとう"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What does いしゃ mean?",
       "questionType": "multiple_choice",
-      "options": ["Teacher", "Doctor", "Office worker", "Student"],
+      "options": [
+        "Teacher",
+        "Doctor",
+        "Office worker",
+        "Student"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What is the Japanese word for 'Book'?",
       "questionType": "multiple_choice",
-      "options": ["みず", "ほん", "やま", "はな"],
+      "options": [
+        "みず",
+        "ほん",
+        "やま",
+        "はな"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "Which word is used to express 'Please treat me well' at the end of an introduction?",
       "questionType": "multiple_choice",
-      "options": ["はじめまして", "よろしく おねがいします", "すみません", "さようなら"],
+      "options": [
+        "はじめまして",
+        "よろしく おねがいします",
+        "すみません",
+        "さようなら"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does えんぴつ mean?",
       "questionType": "multiple_choice",
-      "options": ["Pen", "Pencil", "Eraser", "Book"],
+      "options": [
+        "Pen",
+        "Pencil",
+        "Eraser",
+        "Book"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -309,22 +359,60 @@
       "w016": "Pencil"
     },
     "acceptedTranslations": {
-      "w001": ["American"],
-      "w002": ["British"],
-      "w003": ["Japanese"],
-      "w004": ["College student"],
-      "w005": ["Doctor"],
-      "w006": ["Office worker", "Employee", "Company worker"],
-      "w007": ["Nice to meet you", "How do you do"],
-      "w008": ["Nice to meet you too", "Please take care of me"],
-      "w009": ["Flower"],
-      "w010": ["Mountain"],
-      "w011": ["Water"],
-      "w012": ["Book"],
-      "w013": ["Wind", "Cold", "Illness"],
-      "w014": ["Hat"],
-      "w015": ["Apple"],
-      "w016": ["Pencil"]
+      "w001": [
+        "American"
+      ],
+      "w002": [
+        "British"
+      ],
+      "w003": [
+        "Japanese"
+      ],
+      "w004": [
+        "College student"
+      ],
+      "w005": [
+        "Doctor"
+      ],
+      "w006": [
+        "Office worker",
+        "Employee",
+        "Company worker"
+      ],
+      "w007": [
+        "Nice to meet you",
+        "How do you do"
+      ],
+      "w008": [
+        "Nice to meet you too",
+        "Please take care of me"
+      ],
+      "w009": [
+        "Flower"
+      ],
+      "w010": [
+        "Mountain"
+      ],
+      "w011": [
+        "Water"
+      ],
+      "w012": [
+        "Book"
+      ],
+      "w013": [
+        "Wind",
+        "Cold",
+        "Illness"
+      ],
+      "w014": [
+        "Hat"
+      ],
+      "w015": [
+        "Apple"
+      ],
+      "w016": [
+        "Pencil"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -369,12 +457,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b2/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b2/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b2/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m1/b2/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "アメリカじん。イギリスじん。にほんじん。だいがくせい。いしゃ。かいしゃいん。はじめまして。よろしくおねがいします。はな。やま。みず。ほん。かぜ。ぼうし。りんご。えんぴつ。",
     "audioLanguage": "ja",
     "audioDuration": 200,

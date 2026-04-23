@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M2B4_test_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_test_001"
+  ],
   "instructions": "「食べて」「見てください」のような、相手に行動を促す形（命令形・依頼形）を学びます！話す相手が「友達(Tum)」なのか「目上の人(Aap)」なのかによって、動詞の語尾を変えるだけで丁寧さが劇的に変わります。",
   "contentItems": [
     {
@@ -44,18 +46,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b5/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b5/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b5/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b5/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m2/b5/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Aap jaaiye. Tum jaao. Mat jaao. Kaam keejiye. Paanee peejiye.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "verbs", "imperative", "politeness", "commands", "month2", "block5"],
+  "tags": [
+    "grammar",
+    "verbs",
+    "imperative",
+    "politeness",
+    "commands",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -67,7 +77,9 @@
     "Using 'Nahin' for 'Don't' (e.g. Nahin jaao) instead of the correct prohibitive 'Mat jaao'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B5_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B5_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "願いを伝える語尾 (The Request Endings)",
@@ -154,7 +166,9 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インド社会では、年齢・立場による「目上・目下」の区別が日本語と同じくらい厳密です。見知らぬ人や年上の人に「〜o (Tum用)」を使ってしまうと、非常に失礼にあたる可能性があるので「〜iye (Aap用)」を初期設定にしましょう。",
-    "dosList": ["When in doubt, always use the '-iye' form to avoid offending anyone."],
+    "dosList": [
+      "When in doubt, always use the '-iye' form to avoid offending anyone."
+    ],
     "dontsList": []
   },
   "summary": "【命令・お願い】\n友達(Tum)へ: 動詞 ＋ O (〜して)\n目上(Aap)へ: 動詞 ＋ Iye (〜してください)\n否定: 直前に Mat を置く",

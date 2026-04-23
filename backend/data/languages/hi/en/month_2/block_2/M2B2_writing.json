@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B2_reading_001"],
+  "prerequisites": [
+    "en_hi_M2B2_reading_001"
+  ],
   "instructions": "Imagine you are talking to your friend on the phone right now. They ask, 'What are you doing?' Write 3 sentences exactly describing what you are doing, what your friend is doing, and what your dog is doing right now. Do not forget the helper verbs (am/is/are) or the 'ing'!",
   "contentItems": [
     {
@@ -122,11 +124,11 @@
     "onPartial": "Good start! Check your verbs carefully. Make sure every single action word has an 'ing' on the end of it, and a helper verb in front of it."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b2/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b2/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write three sentences about what you, your friend, and a dog are doing exactly right now.",
@@ -134,7 +136,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "present_continuous", "verbs", "ing", "block2"],
+  "tags": [
+    "writing",
+    "present_continuous",
+    "verbs",
+    "ing",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -147,7 +155,9 @@
     "Writing 'He running'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -236,70 +236,120 @@
       "questionId": "q001",
       "questionText": "What does たべます (Tabemasu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To drink", "To eat", "To sleep", "To go"],
+      "options": [
+        "To drink",
+        "To eat",
+        "To sleep",
+        "To go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "Which verb means 'To go'?",
       "questionType": "multiple_choice",
-      "options": ["いきます (Ikimasu)", "きます (Kimasu)", "みます (Mimasu)", "ねます (Nemasu)"],
+      "options": [
+        "いきます (Ikimasu)",
+        "きます (Kimasu)",
+        "みます (Mimasu)",
+        "ねます (Nemasu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What is the Japanese word for 'Music'?",
       "questionType": "multiple_choice",
-      "options": ["えいが (Eiga)", "みず (Mizu)", "おんがく (Ongaku)", "しんぶん (Shinbun)"],
+      "options": [
+        "えいが (Eiga)",
+        "みず (Mizu)",
+        "おんがく (Ongaku)",
+        "しんぶん (Shinbun)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What action pairs best with えいが (Movie)?",
       "questionType": "multiple_choice",
-      "options": ["たべます (Eat)", "のみます (Drink)", "みます (Watch)", "ききます (Listen)"],
+      "options": [
+        "たべます (Eat)",
+        "のみます (Drink)",
+        "みます (Watch)",
+        "ききます (Listen)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does かえります (Kaerimasu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To wake up", "To read", "To return home", "To come"],
+      "options": [
+        "To wake up",
+        "To read",
+        "To return home",
+        "To come"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "How do you say 'Water'?",
       "questionType": "multiple_choice",
-      "options": ["みず (Mizu)", "ごはん (Gohan)", "うち (Uchi)", "はし (Hashi)"],
+      "options": [
+        "みず (Mizu)",
+        "ごはん (Gohan)",
+        "うち (Uchi)",
+        "はし (Hashi)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "Which action pairs best with しんぶん (Newspaper)?",
       "questionType": "multiple_choice",
-      "options": ["ききます (Listen)", "よみます (Read)", "おきます (Wake up)", "いきます (Go)"],
+      "options": [
+        "ききます (Listen)",
+        "よみます (Read)",
+        "おきます (Wake up)",
+        "いきます (Go)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does がっこう (Gakkou) mean?",
       "questionType": "multiple_choice",
-      "options": ["Hospital", "School", "Home", "Cafe"],
+      "options": [
+        "Hospital",
+        "School",
+        "Home",
+        "Cafe"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What verb means 'To listen'?",
       "questionType": "multiple_choice",
-      "options": ["ききます (Kikimasu)", "みます (Mimasu)", "のみます (Nomimasu)", "ねます (Nemasu)"],
+      "options": [
+        "ききます (Kikimasu)",
+        "みます (Mimasu)",
+        "のみます (Nomimasu)",
+        "ねます (Nemasu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does はし (Hashi) mean?",
       "questionType": "multiple_choice",
-      "options": ["Spoon", "Chopsticks", "Plate", "Cup"],
+      "options": [
+        "Spoon",
+        "Chopsticks",
+        "Plate",
+        "Cup"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -325,8 +375,15 @@
       "w018": "Chopsticks"
     },
     "acceptedTranslations": {
-      "w011": ["Rice", "Meal", "Food"],
-      "w014": ["Home", "House"]
+      "w011": [
+        "Rice",
+        "Meal",
+        "Food"
+      ],
+      "w014": [
+        "Home",
+        "House"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -354,12 +411,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b6/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b6/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b6/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m1/b6/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "たべます。のみます。いきます。きます。かえります。みます。ききます。よみます。おきます。ねます。ごはん。みず。がっこう。うち。えいが。おんがく。しんぶん。はし。",
     "audioLanguage": "ja",
     "audioDuration": 240,

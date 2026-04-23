@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M3B2_test_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_test_001"
+  ],
   "instructions": "Month 3 の醍醐味！「もし〜なら〜だ」「〜した時、〜だ」「〜だと思う」のように、2つの短い文を1つの長い文にくっつけるための魔法の言葉（接続詞）を覚えましょう。",
   "contentItems": [
     {
@@ -43,18 +45,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b3/lesson/native_conj.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b3/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b3/lesson/slow_conj.mp3",
-    "normalAudio": "audio/ja_hi/m3/b3/lesson/native_conj.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mujhe lagtaa hai ki... Agar tum aaoge to... Jab main jaaoongaa tab...",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "conjunctions", "complex_sentences", "fluency", "month3", "block3"],
+  "tags": [
+    "grammar",
+    "conjunctions",
+    "complex_sentences",
+    "fluency",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -66,7 +75,9 @@
     "Translating English 'I know THAT' as Hindi 'Vah' instead of 'Ki'. 'Vah' is the pronoun that, 'Ki' is the conjunction that."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "文章をくっつける魔法の接着剤",
@@ -147,7 +158,9 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インドでは「Mujhe lagtaa hai ki... (私は〜と思う・感じがする)」が非常によく使われます。直接的な断言を避け、自分の感覚(フィーリング)であることを伝える控えめで丁寧な表現です。",
-    "dosList": ["Use 'Mujhe lagtaa hai ki' to soften your opinions."],
+    "dosList": [
+      "Use 'Mujhe lagtaa hai ki' to soften your opinions."
+    ],
     "dontsList": []
   },
   "summary": "【英語のThat 】文 ＋ ki(〜ということ) ＋ 文\n【もし〜なら】Agar ＋ 条件文 ＋ to(その時は) ＋ 結果\n【〜の時】Jab ＋ 状況 ＋ tab(その時に) ＋ 結果",

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B1_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M2B1_vocabulary_001"
+  ],
   "instructions": "You are a salesman trying to sell a house to a family! They will ask you questions about the house. You must answer them by describing the house and the neighborhood using adjectives. Put a little extra energy into the describing words!",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "ग्राहक: 'Is this a small house?' (क्या यह एक छोटा घर है?)। जवाब दें: 'नहीं, यह एक बड़ा घर है।' (A big house).",
-      "expectedSpeakingPoints": ["No", "it is", "a big house"],
+      "expectedSpeakingPoints": [
+        "No",
+        "it is",
+        "a big house"
+      ],
       "sampleResponse": {
         "targetText": "No, it is a big house.",
         "transliteration": "नो, इट इज़ अ बिग हाउस।",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "ग्राहक: 'What about the kitchen?' (रसोई के बारे में क्या?)। जवाब दें: 'रसोई साफ और सुंदर है।' (clean and beautiful).",
-      "expectedSpeakingPoints": ["The kitchen is", "clean", "beautiful"],
+      "expectedSpeakingPoints": [
+        "The kitchen is",
+        "clean",
+        "beautiful"
+      ],
       "sampleResponse": {
         "targetText": "The kitchen is clean and beautiful.",
         "transliteration": "द किचन इज़ क्लीन एंड ब्यूटीफुल।",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "ग्राहक: 'Is the street loud?' (क्या सड़क पर शोर है?)। जवाब दें: 'नहीं, यह एक शांत सड़क है।' (A quiet street).",
-      "expectedSpeakingPoints": ["No", "it is", "a quiet street"],
+      "expectedSpeakingPoints": [
+        "No",
+        "it is",
+        "a quiet street"
+      ],
       "sampleResponse": {
         "targetText": "No, it is a quiet street.",
         "transliteration": "नो, इट इज़ अ क्वाइट स्ट्रीट।",
@@ -55,7 +69,11 @@
     {
       "subTaskId": "t4",
       "prompt": "ग्राहक: 'Are the schools bad?' (क्या स्कूल बुरे हैं?)। जवाब दें: 'नहीं, वे अच्छे स्कूल हैं!' (Good schools - No 's' on good!)",
-      "expectedSpeakingPoints": ["No", "they are", "good schools"],
+      "expectedSpeakingPoints": [
+        "No",
+        "they are",
+        "good schools"
+      ],
       "sampleResponse": {
         "targetText": "No, they are good schools.",
         "transliteration": "नो, दे आर गुड स्कूल्स।",
@@ -65,7 +83,11 @@
     {
       "subTaskId": "t5",
       "prompt": "ग्राहक: 'I like it. I am very happy.' (मुझे यह पसंद है। मैं बहुत खुश हूँ।)। जवाब दें: 'मैं भी खुश हूँ!' (I am... too).",
-      "expectedSpeakingPoints": ["I am", "happy", "too"],
+      "expectedSpeakingPoints": [
+        "I am",
+        "happy",
+        "too"
+      ],
       "sampleResponse": {
         "targetText": "I am happy too!",
         "transliteration": "आई एम हैप्पी टू!",
@@ -147,19 +169,26 @@
     "onPartial": "Good try! Remember, when talking about multiple things (Schools), the noun gets an 'S', but the describing word (Good) NEVER gets an 's'!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b1/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m2/b1/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b1/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m2/b1/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m2/b1/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Customer: Is this a small house?",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "adjectives", "sales", "month2", "block1"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "adjectives",
+    "sales",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -172,7 +201,9 @@
     "Saying 'Goods schools'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_test_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

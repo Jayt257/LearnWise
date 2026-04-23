@@ -21,7 +21,13 @@
   "instructions": "Block 5 の確認テストです！「病気や熱は、あなたがなるものではなく、あなた『に』あるもの」というヒンディー語の絶対原則(Mujhe...)が身に付いているかを試します。",
   "testTitle": "Block 5 確認テスト (Health & Emergencies)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +39,11 @@
           "questionId": "q001",
           "questionText": "「私は熱がある」とヒンディー語で正しく伝えているのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Main bukhaar hoon.", "Mujhe bukhaar hai.", "Meraa bukhaar hai."],
+          "options": [
+            "Main bukhaar hoon.",
+            "Mujhe bukhaar hai.",
+            "Meraa bukhaar hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,10 @@
           "questionId": "q002",
           "questionText": "体の症状を語る時、なぜ Mujhe (私に) を使うのですか？",
           "questionType": "multiple_choice",
-          "options": ["病気や痛みは、自分の意思ではなく「自分に付着している状態(〜にある)」と捉えるから", "Mujhe は「病気」専用の主語だから"],
+          "options": [
+            "病気や痛みは、自分の意思ではなく「自分に付着している状態(〜にある)」と捉えるから",
+            "Mujhe は「病気」専用の主語だから"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,10 @@
           "questionId": "q003",
           "questionText": "「医者を呼んでください」と周囲の人にお願いする時、正しい表現はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Ḍaakṭar ko bulaaiye", "Ḍaakṭar kaa bulaaiye"],
+          "options": [
+            "Ḍaakṭar ko bulaaiye",
+            "Ḍaakṭar kaa bulaaiye"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +79,10 @@
           "questionId": "q004",
           "questionText": "医者を呼んで、と言う際になぜ「ko (を)」が必要なのですか？",
           "questionType": "multiple_choice",
-          "options": ["誰(対象)に対して行動を起こすのかをハッキリ明示するため", "ko には「急いで」という意味があるため"],
+          "options": [
+            "誰(対象)に対して行動を起こすのかをハッキリ明示するため",
+            "ko には「急いで」という意味があるため"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +92,10 @@
           "questionId": "q005",
           "questionText": "True or False: ヒンディー語では「痛い(形容詞)」ではなく「痛み(名詞)がある」という文章構造を作る。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -102,7 +124,10 @@
           "questionId": "q007",
           "questionText": "「痛み (Pain)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Kharaab", "Dard"],
+          "options": [
+            "Kharaab",
+            "Dard"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +137,11 @@
           "questionId": "q008",
           "questionText": "「熱 (Fever)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Bukhaar", "Jaldee", "Tabeeyat"],
+          "options": [
+            "Bukhaar",
+            "Jaldee",
+            "Tabeeyat"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -122,7 +151,10 @@
           "questionId": "q009",
           "questionText": "「体調 (Health condition)」を意味する単語は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Kharaab", "Tabeeyat"],
+          "options": [
+            "Kharaab",
+            "Tabeeyat"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +183,10 @@
           "questionId": "q011",
           "questionText": "「Meree tabeeyat kharaab hai.」 この文は何を伝えていますか？",
           "questionType": "multiple_choice",
-          "options": ["私の体調が悪い(壊れている)。", "これは私の薬ではありません。"],
+          "options": [
+            "私の体調が悪い(壊れている)。",
+            "これは私の薬ではありません。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +196,10 @@
           "questionId": "q012",
           "questionText": "「Mujhe sir mein dard hai.」 この人は体のどこに不調を感じていますか？",
           "questionType": "multiple_choice",
-          "options": ["お腹 (Peṭ)", "頭 (Sir)"],
+          "options": [
+            "お腹 (Peṭ)",
+            "頭 (Sir)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +209,10 @@
           "questionId": "q013",
           "questionText": "「Bachaao!」 これはどんな時に使う単語ですか？",
           "questionType": "multiple_choice",
-          "options": ["丁寧に物を頼む時", "身に危険が迫って必死に助けを求める時"],
+          "options": [
+            "丁寧に物を頼む時",
+            "身に危険が迫って必死に助けを求める時"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -181,7 +222,10 @@
           "questionId": "q014",
           "questionText": "「Pulis ko bulaaiye.」 を日本語に正しく訳したものはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["警察を呼んでください(丁寧な命令)", "私が警察を呼びます"],
+          "options": [
+            "警察を呼んでください(丁寧な命令)",
+            "私が警察を呼びます"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -191,7 +235,10 @@
           "questionId": "q015",
           "questionText": "文脈問題: 『Mujhe tez bukhaar hai. (私には強い熱がある)』と言った人が、これに続けて言う行動として【文法的に間違っている】ものはどちらですか？",
           "questionType": "multiple_choice",
-          "options": ["Main dawaa loongaa. (私は薬を飲みます: 未来形)", "Mujhe dawaa loongaa. (私に薬を飲みます: 崩壊文)"],
+          "options": [
+            "Main dawaa loongaa. (私は薬を飲みます: 未来形)",
+            "Mujhe dawaa loongaa. (私に薬を飲みます: 崩壊文)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +257,11 @@
           "questionId": "q016",
           "questionText": "Translate: \"I have a fever.\"",
           "questionType": "multiple_choice",
-          "options": ["Main bukhaar hoon.", "Mujhe bukhaar hai.", "Meraa bukhaar hai."],
+          "options": [
+            "Main bukhaar hoon.",
+            "Mujhe bukhaar hai.",
+            "Meraa bukhaar hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +271,11 @@
           "questionId": "q017",
           "questionText": "Translate: \"Please help!\" (Using Madad)",
           "questionType": "multiple_choice",
-          "options": ["Madad deejiye.", "Madad keejiye.", "Madad hai."],
+          "options": [
+            "Madad deejiye.",
+            "Madad keejiye.",
+            "Madad hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +285,11 @@
           "questionId": "q018",
           "questionText": "Translate: \"I have pain in my stomach.\"",
           "questionType": "multiple_choice",
-          "options": ["Main peṭ mein dard hai.", "Mujhe sir mein dard hai.", "Mujhe peṭ mein dard hai."],
+          "options": [
+            "Main peṭ mein dard hai.",
+            "Mujhe sir mein dard hai.",
+            "Mujhe peṭ mein dard hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,10 +361,26 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q006": ["madad", "Madad", "MADAD"],
-      "q010": ["davaa", "Davaa", "dawa"],
-      "q019": ["ko", "Ko", "KO"],
-      "q020": ["jaldee", "Jaldee", "jaldi"]
+      "q006": [
+        "madad",
+        "Madad",
+        "MADAD"
+      ],
+      "q010": [
+        "davaa",
+        "Davaa",
+        "dawa"
+      ],
+      "q019": [
+        "ko",
+        "Ko",
+        "KO"
+      ],
+      "q020": [
+        "jaldee",
+        "Jaldee",
+        "jaldi"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 20,
@@ -325,7 +400,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -334,7 +409,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "survival", "health", "emergencies", "month3", "block5"],
+  "tags": [
+    "test",
+    "survival",
+    "health",
+    "emergencies",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -344,7 +426,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B6_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B6_test_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

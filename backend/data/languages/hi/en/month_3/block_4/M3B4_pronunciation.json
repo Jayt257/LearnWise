@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B4_lesson_001"],
+  "prerequisites": [
+    "en_hi_M3B4_lesson_001"
+  ],
   "instructions": "In this final pronunciation class, we are not focusing on single letters. We are focusing on your 'Tune' (Intonation). How you say something changes its meaning! Make your voice go UP to be polite. Make your voice loud and heavy to report an emergency.",
   "contentItems": [
     {
@@ -206,19 +208,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b4/pronunciation/native_survival.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b4/pronunciation/slow_survival.mp3",
-    "normalAudio": "audio/en_hi/m3/b4/pronunciation/native_survival.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Excuse me? Could you help me...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "intonation", "pitch", "capstone", "survival_english"],
+  "tags": [
+    "pronunciation",
+    "intonation",
+    "pitch",
+    "capstone",
+    "survival_english"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -230,7 +238,9 @@
     "Using flat declarative intonation on polite interrogatives, resulting in an aggressive sonic footprint."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

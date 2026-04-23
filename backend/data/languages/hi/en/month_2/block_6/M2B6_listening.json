@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M2B6_writing_001"],
+  "prerequisites": [
+    "en_hi_M2B6_writing_001"
+  ],
   "instructions": "Listen to a man trying to sit down next to a woman on a bus. Notice how polite he is. He doesn't order her to move her bag! Then, notice how they make 'small talk' (talking about the weather so they don't sit in silence). Answer the 8 questions.",
   "contentItems": [
     {
@@ -77,7 +79,11 @@
       "questionId": "q1",
       "questionText": "What does the man say before asking if the seat is empty?",
       "questionType": "multiple_choice",
-      "options": ["Move over", "Excuse me", "Hello"],
+      "options": [
+        "Move over",
+        "Excuse me",
+        "Hello"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -85,7 +91,11 @@
       "questionId": "q2",
       "questionText": "Why cannot the man sit down at first?",
       "questionType": "multiple_choice",
-      "options": ["The woman is sleeping", "The woman's bag is on the seat", "The seat is broken"],
+      "options": [
+        "The woman is sleeping",
+        "The woman's bag is on the seat",
+        "The seat is broken"
+      ],
       "audioTimestamp": "00:06",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -93,7 +103,11 @@
       "questionId": "q3",
       "questionText": "How does he politely ask her to get her bag out of the way?",
       "questionType": "multiple_choice",
-      "options": ["Could you move your bag, please?", "Move your bag", "Take your bag"],
+      "options": [
+        "Could you move your bag, please?",
+        "Move your bag",
+        "Take your bag"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -101,7 +115,11 @@
       "questionId": "q4",
       "questionText": "What topic does the man mention to start making 'small talk'?",
       "questionType": "multiple_choice",
-      "options": ["The bus", "The hospital", "The weather"],
+      "options": [
+        "The bus",
+        "The hospital",
+        "The weather"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -117,7 +135,11 @@
       "questionId": "q6",
       "questionText": "What does the man say when the woman leaves?",
       "questionType": "multiple_choice",
-      "options": ["Goodbye", "Have a good day!", "See you"],
+      "options": [
+        "Goodbye",
+        "Have a good day!",
+        "See you"
+      ],
       "audioTimestamp": "00:26",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -125,7 +147,11 @@
       "questionId": "q7",
       "questionText": "If the pitch of his voice had FALLEN at the end of 'Could you move your bag', how would he sound?",
       "questionType": "multiple_choice",
-      "options": ["Polite", "Angry or irritated", "Happy"],
+      "options": [
+        "Polite",
+        "Angry or irritated",
+        "Happy"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -157,13 +183,27 @@
       "q8": "I'm sorry"
     },
     "acceptedShortAnswers": {
-      "q5": ["work", "Work", "to work", "To work", "she is going to work"],
-      "q8": ["sorry", "I'm sorry", "I am sorry"]
+      "q5": [
+        "work",
+        "Work",
+        "to work",
+        "To work",
+        "she is going to work"
+      ],
+      "q8": [
+        "sorry",
+        "I'm sorry",
+        "I am sorry"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["work"],
-      "q8": ["sorry"]
+      "q5": [
+        "work"
+      ],
+      "q8": [
+        "sorry"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -176,18 +216,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b6/listening/bus_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b6/listening/bus_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b6/listening/bus_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Man: Excuse me, is this seat empty?... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "politeness", "could_you", "small_talk", "beginner", "month2", "block6"],
+  "tags": [
+    "listening",
+    "politeness",
+    "could_you",
+    "small_talk",
+    "beginner",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -199,7 +247,9 @@
     "Thinking 'small talk' implies a serious conversation, rather than a polite acknowledgement."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

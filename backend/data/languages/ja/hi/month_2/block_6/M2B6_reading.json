@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B6_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_pronunciation_001"
+  ],
   "instructions": "ラージの家に招かれた時の様子を読んでみましょう。これまで学んだ文法（私の〇〇、〜してください、明日〜します）が全てつながって、一つのストーリーになっています。",
   "contentItems": [
     {
@@ -112,28 +114,40 @@
       "questionId": "q1",
       "questionText": "文章を書いているケンは、自分が男性であることを示すために「行くつもりだ」の最後をどの音で終わらせていますか？",
       "questionType": "multiple_choice",
-      "options": ["Oongaa (ウーンガー)", "Oongee (ウーンギー)"],
+      "options": [
+        "Oongaa (ウーンガー)",
+        "Oongee (ウーンギー)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「ラージのお母さん (Raaj kee maan)」というフレーズで、なぜ「Kaa」ではなく「Kee」が使われているのですか？",
       "questionType": "multiple_choice",
-      "options": ["ラージが男だから", "お母さんが女性だから"],
+      "options": [
+        "ラージが男だから",
+        "お母さんが女性だから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "お母さんが「遠慮しないで(Sankoch mat keejiye)」と言う時、ケンに対してTumのように親しく話しているでしょうか？それともAapのように敬意と礼儀を持って話しているでしょうか？",
       "questionType": "multiple_choice",
-      "options": ["Tumとして親しく話している(Oの音)", "客人としてAapの礼儀で話している(Iyeの音)"],
+      "options": [
+        "Tumとして親しく話している(Oの音)",
+        "客人としてAapの礼儀で話している(Iyeの音)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "「私たちはお茶を飲みます(Hum chaay piyenge)」。この未来形が Oongaa ではなく Enge(エー) になっているのはなぜですか？",
       "questionType": "multiple_choice",
-      "options": ["私たち(複数) だから", "お茶が女性名詞だから"],
+      "options": [
+        "私たち(複数) だから",
+        "お茶が女性名詞だから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -154,10 +168,18 @@
       "q5": "明日"
     },
     "acceptableParaphrases": {
-      "q5": ["明日", "あした", "みょうにち", "tomorrow"]
+      "q5": [
+        "明日",
+        "あした",
+        "みょうにち",
+        "tomorrow"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["明日", "あした"]
+      "q5": [
+        "明日",
+        "あした"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner successfully tracks gendered possessives ('Raaj kee maan') despite the owner being male.",
@@ -173,18 +195,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b6/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b6/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b6/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m2/b6/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Meraa naam Ken hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "capstone", "synthesis", "culture", "month2", "block6"],
+  "tags": [
+    "reading",
+    "capstone",
+    "synthesis",
+    "culture",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -196,7 +225,9 @@
     "Translating 'Kal phir aaoongaa' as 'I came yesterday' because 'Kal' also means yesterday, ignoring the future suffix '-oongaa'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B6_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B6_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

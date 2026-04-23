@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B3_reading_001"],
+  "prerequisites": [
+    "en_hi_M1B3_reading_001"
+  ],
   "instructions": "Look around your room or imagine a classroom. Write a paragraph describing at least 5 things you see. You MUST use 'a' or 'an' for single things (like 'a book', 'an apple'). You MUST use plural words with '-s' or '-es' for multiple things (like 'two pens', 'buses').",
   "contentItems": [
     {
@@ -136,11 +138,11 @@
     "onPartial": "Good start! You may have missed an 'es' suffix (e.g., writing 'boxs' instead of 'boxes') or missed the 'an' before a vowel. Review the hints!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b3/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b3/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Describe what you see using 'A', 'An', and plural plurals.",
@@ -148,7 +150,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "nouns", "articles", "plurals", "descriptions", "block3"],
+  "tags": [
+    "writing",
+    "nouns",
+    "articles",
+    "plurals",
+    "descriptions",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -161,7 +170,9 @@
     "Writing 'He is a Amit' (Proper nouns NEVER take articles)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

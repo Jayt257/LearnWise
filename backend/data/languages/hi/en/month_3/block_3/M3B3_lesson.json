@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B2_test_001"],
+  "prerequisites": [
+    "en_hi_M3B2_test_001"
+  ],
   "instructions": "Welcome to Month 3, Block 3! You already know lots of action words. But in spoken English, native speakers love to glue TWO small words together to make a brand-new action! These are called Phrasal Verbs. Let's learn the most common ones.",
   "contentItems": [
     {
@@ -45,18 +47,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b3/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b3/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m3/b3/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b3/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m3/b3/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Wake up. Sit down. Turn on the light. Put on your shoes.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "phrasal_verbs", "vocabulary", "intermediate", "month3", "block3"],
+  "tags": [
+    "grammar",
+    "phrasal_verbs",
+    "vocabulary",
+    "intermediate",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -69,7 +78,9 @@
     "Translating 'Wear the shirt' as the action of getting dressed, instead of the phrasal verb 'Put on'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B3_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M3B3_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "The Glue Words",
@@ -173,8 +184,12 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "Native speakers use Phrasal Verbs naturally in almost every sentence. A non-native speaker might say 'Extinguish the fire', but a native speaker will say 'Put out the fire'. Learning these 2-word pairs is the secret to sounding fluent.",
-    "dosList": ["Use 'Turn on' and 'Turn off' for all electronics."],
-    "dontsList": ["Do not say 'Open the computer'."]
+    "dosList": [
+      "Use 'Turn on' and 'Turn off' for all electronics."
+    ],
+    "dontsList": [
+      "Do not say 'Open the computer'."
+    ]
   },
   "summary": "English speakers glue words together to make Phrasal verbs. 'Turn on' (machines), 'Put on' (clothes), 'Wake up' (sleeping). Remember: Never translate the small word by itself! Treat them as one big action block.",
   "checkpointQuestions": [

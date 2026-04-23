@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 6. It contains 20 questions evaluating your ability to locate items using English Prepositions. Remember the Golden Rule: the location word (In/On/Under) must ALWAYS come BEFORE the noun.",
   "testTitle": "Block 6 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass. Remember: 'On the table' is correct. 'The table on' is completely wrong.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "If a ball is inside a closed box, which is correct?",
           "questionType": "multiple_choice",
-          "options": ["On the box", "Under the box", "In the box", "The box in"],
+          "options": [
+            "On the box",
+            "Under the box",
+            "In the box",
+            "The box in"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "If a cat is resting on the flat surface of a bed, which is correct?",
           "questionType": "multiple_choice",
-          "options": ["On the bed", "The bed on", "In the bed", "Under the bed"],
+          "options": [
+            "On the bed",
+            "The bed on",
+            "In the bed",
+            "Under the bed"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,11 @@
           "questionId": "q003",
           "questionText": "Which is the structurally correct English sentence?",
           "questionType": "multiple_choice",
-          "options": ["The pen is bag in.", "The pen is in the bag.", "The pen in bag is."],
+          "options": [
+            "The pen is bag in.",
+            "The pen is in the bag.",
+            "The pen in bag is."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -81,7 +100,10 @@
           "questionId": "q005",
           "questionText": "True or False: English uses POST-positions. You put 'In' at the end of the sentence.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -114,7 +136,12 @@
           "questionId": "q007",
           "questionText": "What does 'Kitchen' mean in Hindi?",
           "questionType": "multiple_choice",
-          "options": ["कमरा", "रसोई", "डिब्बा", "छत"],
+          "options": [
+            "कमरा",
+            "रसोई",
+            "डिब्बा",
+            "छत"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -142,7 +169,12 @@
           "questionId": "q009",
           "questionText": "Which noun means 'कुर्सी'?",
           "questionType": "multiple_choice",
-          "options": ["Table", "Bed", "Chair", "Box"],
+          "options": [
+            "Table",
+            "Bed",
+            "Chair",
+            "Box"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -152,7 +184,10 @@
           "questionId": "q010",
           "questionText": "True or False: 'Near' means directly underneath.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +206,11 @@
           "questionId": "q011",
           "questionText": "Find the mistake: 'The dog is table under.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'The dog is under the table.'", "It should be 'Under dog is table.'", "There is no mistake"],
+          "options": [
+            "It should be 'The dog is under the table.'",
+            "It should be 'Under dog is table.'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -185,7 +224,11 @@
           "questionId": "q012",
           "questionText": "Find the mistake: 'I put the keys the fridge on.'",
           "questionType": "multiple_choice",
-          "options": ["'on' must move before 'the fridge'", "'put' is misspelled", "There is no mistake"],
+          "options": [
+            "'on' must move before 'the fridge'",
+            "'put' is misspelled",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": {
@@ -199,7 +242,11 @@
           "questionId": "q013",
           "questionText": "Find the mistake: 'The book is in roof.'",
           "questionType": "multiple_choice",
-          "options": ["Books stay on surfaces, it should be 'on the roof'", "It should be 'roof in'", "There is no mistake"],
+          "options": [
+            "Books stay on surfaces, it should be 'on the roof'",
+            "It should be 'roof in'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -209,7 +256,11 @@
           "questionId": "q014",
           "questionText": "What word is missing in this sentence: 'The cat is under bed.'",
           "questionType": "multiple_choice",
-          "options": ["is", "the", "on"],
+          "options": [
+            "is",
+            "the",
+            "on"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -219,7 +270,11 @@
           "questionId": "q015",
           "questionText": "Which is the missing word: A picture is ___ the wall.",
           "questionType": "multiple_choice",
-          "options": ["in", "under", "on"],
+          "options": [
+            "in",
+            "under",
+            "on"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -355,14 +410,40 @@
       "q016": "Give 3 marks if written 'Book is on table'."
     },
     "alternateValidAnswers": {
-      "q004": ["under", "UNDER"],
-      "q006": ["floor", "FLOOR"],
-      "q008": ["window", "WINDOW"],
-      "q016": ["the book is on the table", "The book is on the table"],
-      "q017": ["the apple is in the box", "The apple is in the box", "An apple is in the box.", "An apple is in a box."],
-      "q018": ["the dog is under the bed", "The dog is under the bed"],
-      "q019": ["the chair is near the window", "The chair is near the window"],
-      "q020": ["rahul is in the room", "Rahul is in the room"]
+      "q004": [
+        "under",
+        "UNDER"
+      ],
+      "q006": [
+        "floor",
+        "FLOOR"
+      ],
+      "q008": [
+        "window",
+        "WINDOW"
+      ],
+      "q016": [
+        "the book is on the table",
+        "The book is on the table"
+      ],
+      "q017": [
+        "the apple is in the box",
+        "The apple is in the box",
+        "An apple is in the box.",
+        "An apple is in a box."
+      ],
+      "q018": [
+        "the dog is under the bed",
+        "The dog is under the bed"
+      ],
+      "q019": [
+        "the chair is near the window",
+        "The chair is near the window"
+      ],
+      "q020": [
+        "rahul is in the room",
+        "Rahul is in the room"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -382,7 +463,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -391,7 +472,14 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block6", "prepositions", "locations", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block6",
+    "prepositions",
+    "locations",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -401,7 +489,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

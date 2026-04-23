@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B2_listening_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_listening_001"
+  ],
   "instructions": "複合動詞の「前の部分(V1)」によく使われる単語を集めました！これらの単語は、Jaa(行っちゃう)・De(あげる)・Le(もらう) を強力に引き寄せる性質があります。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the verb to its meaning: Samajhnaa (समझना)",
       "questionType": "matching",
-      "options": ["理解する/わかる", "教える"],
+      "options": [
+        "理解する/わかる",
+        "教える"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the verb to its meaning: Bataanaa (बताना)",
       "questionType": "matching",
-      "options": ["置く", "教える/告げる"],
+      "options": [
+        "置く",
+        "教える/告げる"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What word is used to express 'To return / give back' when combined with Denaa?",
       "questionType": "matching",
-      "options": ["Vaapas", "Sab"],
+      "options": [
+        "Vaapas",
+        "Sab"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its translation: Agar (अगर)",
       "questionType": "matching",
-      "options": ["もし〜(If)", "話/事柄"],
+      "options": [
+        "もし〜(If)",
+        "話/事柄"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "If 'Agar' is 'If', what goes with it to mean 'Then'?",
       "questionType": "matching",
-      "options": ["To", "Sab"],
+      "options": [
+        "To",
+        "Sab"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,7 +211,11 @@
       "w10": "全部 / すべて"
     },
     "acceptedTranslations": {
-      "w01": ["理解する", "わかる", "分かる"]
+      "w01": [
+        "理解する",
+        "わかる",
+        "分かる"
+      ]
     },
     "matchingKey": {
       "q1": "理解する/わかる",
@@ -215,18 +236,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b2/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b2/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b2/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b2/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Samajhnaa. Bataanaa. Rakhnaa. Sonaa. Film. Baat. Vaapas. Agar. To. Sab.",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "communication", "compounds", "conditionals", "month3", "block2"],
+  "tags": [
+    "vocabulary",
+    "communication",
+    "compounds",
+    "conditionals",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -238,7 +266,9 @@
     "Thinking 'Bataanaa' means 'to ask' instead of 'to tell'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

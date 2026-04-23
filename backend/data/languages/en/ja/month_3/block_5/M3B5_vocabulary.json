@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "Head", "Stomach", "Throat", "Tooth", "Painful / Hurts", 
-    "Fever", "Cough", "Cold (illness)", "Illness / Sick", "Medicine", 
-    "Doctor", "Hospital", "Injury", "Blood", "Ambulance", 
-    "Police", "Police box", "Accident", "Thief / Robber", "Wallet", 
-    "Passport", "Bag", "To lose (something)", "Lost (polite past)", "To steal", 
-    "Was stolen (passive polite past)", "To fall down", "Fell down (polite past)", "Help me!", "Unfortunately did (suffix)"
+    "Head",
+    "Stomach",
+    "Throat",
+    "Tooth",
+    "Painful / Hurts",
+    "Fever",
+    "Cough",
+    "Cold (illness)",
+    "Illness / Sick",
+    "Medicine",
+    "Doctor",
+    "Hospital",
+    "Injury",
+    "Blood",
+    "Ambulance",
+    "Police",
+    "Police box",
+    "Accident",
+    "Thief / Robber",
+    "Wallet",
+    "Passport",
+    "Bag",
+    "To lose (something)",
+    "Lost (polite past)",
+    "To steal",
+    "Was stolen (passive polite past)",
+    "To fall down",
+    "Fell down (polite past)",
+    "Help me!",
+    "Unfortunately did (suffix)"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does いたい (Itai) mean?",
       "questionType": "multiple_choice",
-      "options": ["Hot", "Cold", "Painful / Hurts", "Sleepy"],
+      "options": [
+        "Hot",
+        "Cold",
+        "Painful / Hurts",
+        "Sleepy"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What is the word for 'Ambulance'?",
       "questionType": "multiple_choice",
-      "options": ["けいさつ (Keisatsu)", "きゅうきゅうしゃ (Kyuukyuusha)", "びょういん (Byouin)", "いしゃ (Isha)"],
+      "options": [
+        "けいさつ (Keisatsu)",
+        "きゅうきゅうしゃ (Kyuukyuusha)",
+        "びょういん (Byouin)",
+        "いしゃ (Isha)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What does なくす (Nakusu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To steal", "To find", "To drop", "To lose (something)"],
+      "options": [
+        "To steal",
+        "To find",
+        "To drop",
+        "To lose (something)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "How do you say 'Wallet'?",
       "questionType": "multiple_choice",
-      "options": ["かばん (Kaban)", "さいふ (Saifu)", "パスポート (Pasupooto)", "お金 (Okane)"],
+      "options": [
+        "かばん (Kaban)",
+        "さいふ (Saifu)",
+        "パスポート (Pasupooto)",
+        "お金 (Okane)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does ぬすまれました (Nusumaremashita) mean?",
       "questionType": "multiple_choice",
-      "options": ["I stole", "Was stolen", "I lost", "Was found"],
+      "options": [
+        "I stole",
+        "Was stolen",
+        "I lost",
+        "Was found"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What is the word for 'Fever'?",
       "questionType": "multiple_choice",
-      "options": ["せき (Seki)", "ねつ (Netsu)", "かぜ (Kaze)", "ち (Chi)"],
+      "options": [
+        "せき (Seki)",
+        "ねつ (Netsu)",
+        "かぜ (Kaze)",
+        "ち (Chi)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What does けいさつ (Keisatsu) mean?",
       "questionType": "multiple_choice",
-      "options": ["Hospital", "Ambulance", "Police", "Thief"],
+      "options": [
+        "Hospital",
+        "Ambulance",
+        "Police",
+        "Thief"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What do you yell to ask for help?",
       "questionType": "multiple_choice",
-      "options": ["やめて (Yamete)", "たすけて (Tasukete)", "まって (Matte)", "だめ (Dame)"],
+      "options": [
+        "やめて (Yamete)",
+        "たすけて (Tasukete)",
+        "まって (Matte)",
+        "だめ (Dame)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does しまいました (Shimaimashita) mean when added to a verb?",
       "questionType": "multiple_choice",
-      "options": ["Did it perfectly", "Will do it tomorrow", "Unfortunately did / Accidentally did", "Did it on purpose"],
+      "options": [
+        "Did it perfectly",
+        "Will do it tomorrow",
+        "Unfortunately did / Accidentally did",
+        "Did it on purpose"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "How do you say 'Stomach'?",
       "questionType": "multiple_choice",
-      "options": ["あたま (Atama)", "のど (Nodo)", "は (Ha)", "おなか (Onaka)"],
+      "options": [
+        "あたま (Atama)",
+        "のど (Nodo)",
+        "は (Ha)",
+        "おなか (Onaka)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,16 @@
       "w030": "Unfortunately did (suffix)"
     },
     "acceptedTranslations": {
-      "w019": ["Thief", "Robber", "Burglar"],
-      "w005": ["Painful", "Hurts", "Sore"]
+      "w019": [
+        "Thief",
+        "Robber",
+        "Burglar"
+      ],
+      "w005": [
+        "Painful",
+        "Hurts",
+        "Sore"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +544,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m3/b5/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b5/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m3/b5/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m3/b5/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "あたま。おなか。のど。は。いたい。ねつ。せき。かぜ。びょうき。くすり。いしゃ。びょういん。けが。ち。きゅうきゅうしゃ。けいさつ。こうばん。じこ。どろぼう。さいふ。パスポート。かばん。なくす。なくしました。ぬすむ。ぬすまれました。ころぶ。ころびました。たすけて。しまいました。",
     "audioLanguage": "ja",
     "audioDuration": 360,

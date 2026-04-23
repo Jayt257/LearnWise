@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B2_reading_001"],
+  "prerequisites": [
+    "en_hi_M1B2_reading_001"
+  ],
   "instructions": "Write a short paragraph about yourself and two other people (a friend, brother, or sister). Use 'I am' to describe yourself. Use 'He is' or 'She is' to describe them. Use 'We are' to talk about you together. You MUST include at least one negative sentence (e.g., He is not...).",
   "contentItems": [
     {
@@ -138,11 +140,11 @@
     "onPartial": "Good sentences, but you may have forgotten to include the negative ('not') sentence or you used an incorrect pronoun ('He am'). Please review the hints."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b2/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b2/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write a short paragraph about yourself and two other people. Include a negative statement.",
@@ -150,7 +152,14 @@
     "audioDuration": 20,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "pronouns", "svo", "negative-sentences", "descriptions", "block2"],
+  "tags": [
+    "writing",
+    "pronouns",
+    "svo",
+    "negative-sentences",
+    "descriptions",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -163,7 +172,9 @@
     "Using 'We is' instead of 'We are'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

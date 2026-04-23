@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B1_listening_001"],
+  "prerequisites": [
+    "ja_hi_M2B1_listening_001"
+  ],
   "instructions": "現在形や進行形をさらに豊かに表現するための新しい単語を覚えましょう！「今日(Aaj)」や「今すぐ(Abhee)」といった時間を表す言葉は、いつでも文の初めの方に置けます。",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the word to its Japanese equivalent: Abhee (अभी)",
       "questionType": "matching",
-      "options": ["今日", "今"],
+      "options": [
+        "今日",
+        "今"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the word to its Japanese equivalent: Aaj (आज)",
       "questionType": "matching",
-      "options": ["今日", "毎日 (Roz)"],
+      "options": [
+        "今日",
+        "毎日 (Roz)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Match the word to its Japanese equivalent: Karnaa (करना)",
       "questionType": "matching",
-      "options": ["する", "眠る"],
+      "options": [
+        "する",
+        "眠る"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Match the word to its Japanese equivalent: Sonaa (सोना)",
       "questionType": "matching",
-      "options": ["休む", "眠る"],
+      "options": [
+        "休む",
+        "眠る"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Match the word to its Japanese equivalent: Bhaaii (भाई)",
       "questionType": "matching",
-      "options": ["姉/妹", "兄/弟"],
+      "options": [
+        "姉/妹",
+        "兄/弟"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -194,8 +211,15 @@
       "w10": "兄 / 弟"
     },
     "acceptedTranslations": {
-      "w05": ["仕事する", "働く"],
-      "w06": ["休息する", "休む", "リラックスする"]
+      "w05": [
+        "仕事する",
+        "働く"
+      ],
+      "w06": [
+        "休息する",
+        "休む",
+        "リラックスする"
+      ]
     },
     "matchingKey": {
       "q1": "今",
@@ -216,18 +240,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b1/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b1/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b1/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b1/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Aaj. Abhee. Bas. Sonaa. Kaam karnaa. Aaraam karnaa. Baat karnaa. Pitaa jee. Bahan. Bhaaii.",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "time", "family", "compound_verbs", "month2", "block1"],
+  "tags": [
+    "vocabulary",
+    "time",
+    "family",
+    "compound_verbs",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -239,7 +270,9 @@
     "Thinking 'Aaraam karnaa' is two separate conjugated verbs, instead of treating 'Aaraam' as a noun and conjugating only 'Karnaa'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B1_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B1_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

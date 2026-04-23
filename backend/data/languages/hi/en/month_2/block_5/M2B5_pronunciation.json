@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B5_lesson_001"],
+  "prerequisites": [
+    "en_hi_M2B5_lesson_001"
+  ],
   "instructions": "This lesson attacks two hard sounds. First, the 'TH' in This/That/These/Those. It is NOT a 'D' sound. You must buzz your tongue on your top teeth like a bee! Second, the difference between This and These. 'This' is short and fast. 'These' is long and ends in a 'Z' sound like a bee!",
   "contentItems": [
     {
@@ -206,19 +208,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b5/pronunciation/native_voiced_th.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b5/pronunciation/slow_voiced_th.mp3",
-    "normalAudio": "audio/en_hi/m2/b5/pronunciation/native_voiced_th.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "This. These. That. Those...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "voiced_th", "demonstratives", "possessives", "beginner"],
+  "tags": [
+    "pronunciation",
+    "voiced_th",
+    "demonstratives",
+    "possessives",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +239,9 @@
     "Pronouncing 'These' as 'This'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B5_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M2B5_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B5_reading_001"],
+  "prerequisites": [
+    "en_hi_M3B5_reading_001"
+  ],
   "instructions": "You woke up feeling very sick! You need to write a short message to your boss explaining that you cannot come to work today. You must describe your symptoms correctly using English medical rules.",
   "contentItems": [
     {
@@ -91,7 +93,14 @@
     "acceptableAlternates": [
       "I am very sick today. I have a bad headache and a fever. I need to see the doctor."
     ],
-    "requiredKeywords": ["sick", "have", "headache", "fever", "see", "doctor"],
+    "requiredKeywords": [
+      "sick",
+      "have",
+      "headache",
+      "fever",
+      "see",
+      "doctor"
+    ],
     "grammarBaseline": "Absolute zero tolerance for 'is paining' or 'suffering from' (unless perfectly idiomatic). Expectation is pure SVO possessive (I have a + noun).",
     "lengthExpectation": "3 short sentences.",
     "scoringRubric": {
@@ -108,19 +117,26 @@
     "onPartial": "Good start! Double check Sentence 3. 'Doctor' is a noun, so it needs action words in front of it. You can't just say 'I need doctor'. You must say 'I need TO SEE a doctor'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b5/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b5/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m3/b5/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write a message to your boss about being sick with a headache and fever.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "health", "sickness", "work_email", "headache", "block5"],
+  "tags": [
+    "writing",
+    "health",
+    "sickness",
+    "work_email",
+    "headache",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -133,7 +149,9 @@
     "Writing 'I have a fever and headache' (dropping the article 'a' before headache)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

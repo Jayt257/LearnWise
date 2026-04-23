@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B6_reading_001"],
+  "prerequisites": [
+    "en_hi_M2B6_reading_001"
+  ],
   "instructions": "Oh no! A robot translated some Hindi sentences directly into English. It sounds very rude! 'Give me the menu.' 'Help me.' 'Open the window.' Your job is to rewrite these 3 sentences to make them polite. Start them with 'Could you' and end them with 'please'.",
   "contentItems": [
     {
@@ -97,7 +99,10 @@
     "acceptableAlternates": [
       "Could you please give me the menu? Could you please help me? Could you please open the window?"
     ],
-    "requiredKeywords": ["could you", "please"],
+    "requiredKeywords": [
+      "could you",
+      "please"
+    ],
     "grammarBaseline": "Zero tolerance for unmodified imperative structures. 'Please give me water' is a failure; it must be a modal question.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -114,19 +119,25 @@
     "onPartial": "Good start! Don't forget 'Could you'. It is the single most important polite phrase in the English language."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b6/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b6/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m2/b6/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Change these commands: Give me the menu. Help me. Open the window. Make them polite.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "politeness", "could_you", "sentences", "block6"],
+  "tags": [
+    "writing",
+    "politeness",
+    "could_you",
+    "sentences",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -138,7 +149,9 @@
     "Thinking that merely saying 'Please help me' is sufficient for a stranger."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

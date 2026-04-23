@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B2_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M2B2_vocabulary_001"
+  ],
   "instructions": "You are playing the role of a very nosy parent making sure the kids are doing their homework. You will ask them questions using 'What' and 'Where', and you will also answer their questions using 'I am'. Do not forget your helper verbs (is/am/are)!",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "अपने बेटे से पूछें: 'तुम क्या कर रहे हो?' (What...)",
-      "expectedSpeakingPoints": ["What", "are you", "doing"],
+      "expectedSpeakingPoints": [
+        "What",
+        "are you",
+        "doing"
+      ],
       "sampleResponse": {
         "targetText": "What are you doing?",
         "transliteration": "वॉट आर यू डूइंग?",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "बेटा कहता है: 'मैं जा रहा हूँ।' (I am going)। उससे पूछें: 'तुम कहाँ जा रहे हो?' (Where...)",
-      "expectedSpeakingPoints": ["Where", "are you", "going"],
+      "expectedSpeakingPoints": [
+        "Where",
+        "are you",
+        "going"
+      ],
       "sampleResponse": {
         "targetText": "Where are you going?",
         "transliteration": "वेयर आर यू गोइंग?",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "बेटा चला जाता है। अब बेटी से पूछें: 'तुम क्यों हँस रही हो?' (Why...)",
-      "expectedSpeakingPoints": ["Why", "are you", "laughing"],
+      "expectedSpeakingPoints": [
+        "Why",
+        "are you",
+        "laughing"
+      ],
       "sampleResponse": {
         "targetText": "Why are you laughing?",
         "transliteration": "वाय आर यू लाफिंग?",
@@ -55,7 +69,10 @@
     {
       "subTaskId": "t4",
       "prompt": "बेटी कहती है: 'I am laughing at a video.' (मैं एक वीडियो पर हँस रही हूँ)। फिर वह आपसे पूछती है कि आप क्या कर रहे हैं। उसे बताएं: 'मैं काम कर रहा हूँ।' (I am...)",
-      "expectedSpeakingPoints": ["I am", "working"],
+      "expectedSpeakingPoints": [
+        "I am",
+        "working"
+      ],
       "sampleResponse": {
         "targetText": "I am working.",
         "transliteration": "आई एम वर्किंग।",
@@ -65,7 +82,10 @@
     {
       "subTaskId": "t5",
       "prompt": "बेटी वापस फोन देखने लगती है। उसे आदेश दें: 'तुम पढ़ नहीं रही हो!' (You are not...)",
-      "expectedSpeakingPoints": ["You are", "not reading"],
+      "expectedSpeakingPoints": [
+        "You are",
+        "not reading"
+      ],
       "sampleResponse": {
         "targetText": "You are not reading!",
         "transliteration": "यू आर नॉट रीडिंग!",
@@ -150,19 +170,26 @@
     "onPartial": "Good try! Make sure you don't drop the 'ing' sound. It is 'I am working', not 'I am work'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b2/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m2/b2/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b2/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b2/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m2/b2/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m2/b2/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Parent: What are you doing?",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "present_continuous", "wh_questions", "month2", "block2"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "present_continuous",
+    "wh_questions",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -175,7 +202,9 @@
     "Saying 'I am work' instead of 'I am working'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B2_test_001"],
+  "nextActivityIds": [
+    "en_hi_M2B2_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

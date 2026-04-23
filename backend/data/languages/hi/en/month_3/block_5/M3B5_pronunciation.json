@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B5_lesson_001"],
+  "prerequisites": [
+    "en_hi_M3B5_lesson_001"
+  ],
   "instructions": "Medical words in English often have very strange spelling! The letters 'C-H' usually make a 'CH' sound, but in medical words, they make a 'K' sound. Practice saying these words perfectly so a doctor can understand you.",
   "contentItems": [
     {
@@ -173,19 +175,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b5/pronunciation/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b5/pronunciation/slow_words.mp3",
-    "normalAudio": "audio/en_hi/m3/b5/pronunciation/native_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Ache. Headache. Stomachache...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "health", "irregular_spelling", "ache", "hospital", "month3", "block5"],
+  "tags": [
+    "pronunciation",
+    "health",
+    "irregular_spelling",
+    "ache",
+    "hospital",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -197,7 +207,9 @@
     "Applying standard English phonics to Greek-origin medical roots (e.g. pronouncing stomach as stomatch)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

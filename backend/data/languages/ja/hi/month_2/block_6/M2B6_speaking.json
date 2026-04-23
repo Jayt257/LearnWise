@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B6_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M2B6_vocabulary_001"
+  ],
   "instructions": "あなたがインドの家を訪問し、帰るまでの挨拶を声に出しましょう！ホスト（相手）とゲスト（あなた）の両方の視点から、月間で学んだ文法を全てつなぎ合わせて話してください。",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "状況: 客を迎え入れるホストとして。　指示：「中に入ってください(Aa)。私[共通]の家(男)は、あなた[尊敬]の家(男)です。」",
-      "expectedSpeakingPoints": ["Andar aaiye", "meraa ghar", "aapkaa ghar hai"],
+      "expectedSpeakingPoints": [
+        "Andar aaiye",
+        "meraa ghar",
+        "aapkaa ghar hai"
+      ],
       "sampleResponse": {
         "targetText": "अंदर आइए। मेरा घर आपका घर है।",
         "transliteration": "Andar aaiye. Meraa ghar aapkaa ghar hai.",
@@ -35,7 +41,10 @@
     {
       "subTaskId": "t2",
       "prompt": "状況: 客に食事を勧めるホストとして。　指示：「遠慮しないでください(Sankoch + Kar 不規則)。お茶を飲んでください(Pee 不規則)。」",
-      "expectedSpeakingPoints": ["Sankoch mat keejiye", "chaay peejiye"],
+      "expectedSpeakingPoints": [
+        "Sankoch mat keejiye",
+        "chaay peejiye"
+      ],
       "sampleResponse": {
         "targetText": "संकोच मत कीजिए। चाय पीजिए।",
         "transliteration": "Sankoch mat keejiye. Chaay peejiye.",
@@ -45,7 +54,10 @@
     {
       "subTaskId": "t3",
       "prompt": "状況: 帰る客として(男性と仮定)。　指示：「私は明日、再び(Phir)来ます(Aa)。」",
-      "expectedSpeakingPoints": ["Main kal phir", "aaoongaa"],
+      "expectedSpeakingPoints": [
+        "Main kal phir",
+        "aaoongaa"
+      ],
       "sampleResponse": {
         "targetText": "मैं कल फिर आऊँगा।",
         "transliteration": "Main kal phir aaoongaa.",
@@ -90,7 +102,20 @@
       "aaoongaa"
     ],
     "requiredKeywords": [
-      "andar", "aaiye", "meraa", "ghar", "aapkaa", "sankoch", "mat", "keejiye", "chaay", "peejiye", "main", "kal", "phir", "aaoongaa"
+      "andar",
+      "aaiye",
+      "meraa",
+      "ghar",
+      "aapkaa",
+      "sankoch",
+      "mat",
+      "keejiye",
+      "chaay",
+      "peejiye",
+      "main",
+      "kal",
+      "phir",
+      "aaoongaa"
     ],
     "acceptableParaphrases": [
       "main kal phir aaoongee",
@@ -110,19 +135,26 @@
     "onPartial": "とてもよくお話しできています。ですが第2文で「Kariye(カリイェ)」と言っていませんでしたか？また Peenaa も「Peeye(ピーイェ)」と言っていませんでしたか？不規則動詞は Keejiye と Peejiye になります！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b6/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m2/b6/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b6/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b6/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m2/b6/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m2/b6/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Learner: Andar aaiye... Meraa ghar... Sankoch mat keejiye... Main kal phir aaoongaa.",
     "audioLanguage": "hi",
     "audioDuration": 90,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "capstone", "synthesis", "culture", "month2", "block6"],
+  "tags": [
+    "speaking",
+    "capstone",
+    "synthesis",
+    "culture",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -134,7 +166,9 @@
     "Saying 'Main kal phir aaiye' conflating the polite 'please come' imperative with the 1st person 'I will come' future."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B6_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B6_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

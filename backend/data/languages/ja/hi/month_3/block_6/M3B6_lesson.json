@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 90,
-  "prerequisites": ["ja_hi_M3B5_test_001"],
+  "prerequisites": [
+    "ja_hi_M3B5_test_001"
+  ],
   "instructions": "おめでとうございます！ヒンディー語の基礎を築く3ヶ月コースの最終ブロックです。これまでに学んだ「言葉の組み立て方」の総復習をしましょう。",
   "contentItems": [
     {
@@ -43,18 +45,24 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b6/lesson/native_review.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b6/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b6/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b6/lesson/slow_review.mp3",
-    "normalAudio": "audio/ja_hi/m3/b6/lesson/native_review.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main jaataa hoon. Mujhe jaanaa hai. Agar tum aaoge to main jaaoongaa.",
     "audioLanguage": "hi",
     "audioDuration": 300,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "review", "summary", "month3", "block6"],
+  "tags": [
+    "grammar",
+    "review",
+    "summary",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -66,7 +74,9 @@
     "Forgetting that verbs must match the gender of the subject in present/future tenses."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B6_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B6_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "文法の黄金ルールまとめ",

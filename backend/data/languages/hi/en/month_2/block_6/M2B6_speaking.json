@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B6_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M2B6_vocabulary_001"
+  ],
   "instructions": "You are a customer in a café. The worker is speaking to you. Remember what you learned about English culture! You must NOT give her orders. Reply ALOUD to her warmly, asking questions instead of giving commands.",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "वर्कर: 'Hello, how are you today?' (नमस्ते, आज आप कैसे हैं?) जवाब दें: 'मैं ठीक हूँ, धन्यवाद।' (I am fine...)",
-      "expectedSpeakingPoints": ["I am fine", "thank you"],
+      "expectedSpeakingPoints": [
+        "I am fine",
+        "thank you"
+      ],
       "sampleResponse": {
         "targetText": "I am fine, thank you.",
         "transliteration": "आई एम फाइन, थैंक यू।",
@@ -35,7 +40,11 @@
     {
       "subTaskId": "t2",
       "prompt": "वर्कर: 'What can I get for you?' (मैं आपके लिए क्या ला सकती हूँ?) जवाब दें: 'क्या आप मुझे चाय दे सकती हैं, कृपया?' (Could you...)",
-      "expectedSpeakingPoints": ["Could you", "give me tea", "please"],
+      "expectedSpeakingPoints": [
+        "Could you",
+        "give me tea",
+        "please"
+      ],
       "sampleResponse": {
         "targetText": "Could you give me tea, please?",
         "transliteration": "कुड यू गिव मी टी, प्लीज़?",
@@ -45,7 +54,10 @@
     {
       "subTaskId": "t3",
       "prompt": "वर्कर: 'I'm sorry, we don't have tea right now. Would you like coffee?' (मुझे खेद है, अभी हमारे पास चाय नहीं है। क्या आप कॉफी लेना चाहेंगे?) जवाब दें: 'हाँ, कृपया।' (Yes...)",
-      "expectedSpeakingPoints": ["Yes", "please"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "please"
+      ],
       "sampleResponse": {
         "targetText": "Yes, please.",
         "transliteration": "येस, प्लीज़।",
@@ -55,7 +67,10 @@
     {
       "subTaskId": "t4",
       "prompt": "वर्कर: 'Here is your coffee. That is 5 dollars.' (यह रही आपकी कॉफी। 5 डॉलर हुए।) जवाब दें: 'धन्यवाद। क्या आप मुझे पानी दे सकती हैं?' (Thank you. Could you...)",
-      "expectedSpeakingPoints": ["Thank you", "Could you give me water"],
+      "expectedSpeakingPoints": [
+        "Thank you",
+        "Could you give me water"
+      ],
       "sampleResponse": {
         "targetText": "Thank you. Could you give me water?",
         "transliteration": "थैंक यू। कुड यू गिव मी वाटर?",
@@ -65,7 +80,9 @@
     {
       "subTaskId": "t5",
       "prompt": "वर्कर: 'Yes, of course. Have a good day!' (हाँ, बिलकुल। आपका दिन शुभ हो!) जवाब दें: 'आपका भी!' (You...)",
-      "expectedSpeakingPoints": ["You too"],
+      "expectedSpeakingPoints": [
+        "You too"
+      ],
       "sampleResponse": {
         "targetText": "You too!",
         "transliteration": "यू टू!",
@@ -145,19 +162,27 @@
     "onPartial": "Good try! Make sure you add 'Please' and 'Thank you' to your answers. Saying just 'Yes' to a waiter sounds aggressive."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b6/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m2/b6/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b6/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m2/b6/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m2/b6/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Worker: Hello, how are you today?... (full dialogue)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "culture", "could_you", "politeness", "month2", "block6"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "culture",
+    "could_you",
+    "politeness",
+    "month2",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -169,7 +194,9 @@
     "Falling into L1 translation and saying 'Give me water'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_test_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

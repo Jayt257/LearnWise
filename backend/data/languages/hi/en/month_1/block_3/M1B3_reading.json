@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B3_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M1B3_pronunciation_001"
+  ],
   "instructions": "Read the story slowly. Notice how the writer uses 'A' and 'An' for single objects, but removes them when talking about multiple things (plurals). Notice the words that use capital letters. Then answer the 8 questions.",
   "contentItems": [
     {
@@ -187,7 +189,12 @@
       "questionId": "q1",
       "questionText": "Why does the writer use 'an' for 'an apple' but not for 'a book'?",
       "questionType": "multiple_choice",
-      "options": ["Because Apple is a fruit", "Because Apple starts with a vowel sound (A)", "Because Book is heavier", "Because Apple is a proper noun"],
+      "options": [
+        "Because Apple is a fruit",
+        "Because Apple starts with a vowel sound (A)",
+        "Because Book is heavier",
+        "Because Apple is a proper noun"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
@@ -201,42 +208,68 @@
       "questionId": "q3",
       "questionText": "Fill in the blank from the story: Mumbai is a ____ noun.",
       "questionType": "multiple_choice",
-      "options": ["Common", "Proper", "Plural", "Heavy"],
+      "options": [
+        "Common",
+        "Proper",
+        "Plural",
+        "Heavy"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "What does the plural of 'Box' look like in the story?",
       "questionType": "multiple_choice",
-      "options": ["Boxs", "Boxes", "Box's", "A boxes"],
+      "options": [
+        "Boxs",
+        "Boxes",
+        "Box's",
+        "A boxes"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: The writer bought 'a oranges'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
       "questionId": "q6",
       "questionText": "What word is used before 'eraser'?",
       "questionType": "multiple_choice",
-      "options": ["A", "An", "Two", "Three"],
+      "options": [
+        "A",
+        "An",
+        "Two",
+        "Three"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
       "questionId": "q7",
       "questionText": "What word is used to describe the red bus?",
       "questionType": "multiple_choice",
-      "options": ["Empty", "Full", "Small", "Fast"],
+      "options": [
+        "Empty",
+        "Full",
+        "Small",
+        "Fast"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Does the writer mention 'an elephant' at the end of the text?",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -253,10 +286,17 @@
       "q8": "True"
     },
     "acceptableParaphrases": {
-      "q2": ["2", "Two bags", "two"]
+      "q2": [
+        "2",
+        "Two bags",
+        "two"
+      ]
     },
     "keywordScoringRules": {
-      "q2": ["two", "2"]
+      "q2": [
+        "two",
+        "2"
+      ]
     },
     "expectedSummaryPoints": [
       "The text uses A and An for singular objects depending on their vowel sounds.",
@@ -274,18 +314,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m1/b3/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Today is Saturday. I am in Mumbai... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "nouns", "articles", "plurals", "market", "month1", "block3"],
+  "tags": [
+    "reading",
+    "nouns",
+    "articles",
+    "plurals",
+    "market",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -298,7 +346,9 @@
     "Forgetting that 'A' is used for consonants."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B3_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M1B3_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

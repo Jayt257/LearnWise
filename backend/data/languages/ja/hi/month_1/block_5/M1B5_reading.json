@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B5_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M1B5_pronunciation_001"
+  ],
   "instructions": "誰かの日記を読んでいます。書いてある内容（特に動詞の形！）に注目して、文章を書いている人が「男性」なのか「女性」なのかを推理してください。",
   "contentItems": [
     {
@@ -122,14 +124,21 @@
       "questionId": "q1",
       "questionText": "この「日記」を書いている人（私＝Main）の性別はどちらですか？（ヒント：動詞の形に注目！）",
       "questionType": "multiple_choice",
-      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "options": [
+        "男性 (Masculine)",
+        "女性 (Feminine)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "書いている人は「どこへ」行くと言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["日本 (Jaapaan)", "インド (Bhaarat)", "家 (Ghar)"],
+      "options": [
+        "日本 (Jaapaan)",
+        "インド (Bhaarat)",
+        "家 (Ghar)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -143,14 +152,21 @@
       "questionId": "q4",
       "questionText": "お兄さん（Bhaaii）が「食べる」ときの動詞は、どう変化していますか？",
       "questionType": "multiple_choice",
-      "options": ["Khaatee になっている", "Khaataa になっている", "Khaate になっている"],
+      "options": [
+        "Khaatee になっている",
+        "Khaataa になっている",
+        "Khaate になっている"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "「Bhaaii (兄)」の前に「Mera」が付いているのはなぜですか？",
       "questionType": "multiple_choice",
-      "options": ["兄（Bhaaii）が男性名詞だから", "日記を書いている人が女性だから"],
+      "options": [
+        "兄（Bhaaii）が男性名詞だから",
+        "日記を書いている人が女性だから"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
   ],
@@ -164,10 +180,18 @@
       "q5": "兄（Bhaaii）が男性名詞だから"
     },
     "acceptableParaphrases": {
-      "q3": ["あに", "お兄さん", "Bhaaii", "bhaaii"]
+      "q3": [
+        "あに",
+        "お兄さん",
+        "Bhaaii",
+        "bhaaii"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["兄", "bhaaii"]
+      "q3": [
+        "兄",
+        "bhaaii"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner successfully infers that 'Main... khaatee' implies a female speaker.",
@@ -183,18 +207,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m1/b5/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Main roz seb khaatee hoon... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "verbs", "gender", "present_tense", "month1", "block5"],
+  "tags": [
+    "reading",
+    "verbs",
+    "gender",
+    "present_tense",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -206,7 +237,9 @@
     "Assuming the speaker is male because 'Mera' is used for the brother."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B5_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B5_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

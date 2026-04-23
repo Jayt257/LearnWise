@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M2B4_writing_001"],
+  "prerequisites": [
+    "en_hi_M2B4_writing_001"
+  ],
   "instructions": "Listen to a radio weather report and a man talking to his wife about their weekend plans. They speak very fast! Listen closely for the squished words: 'It'll', 'I'll', and 'We'll'. Answer the 8 questions.",
   "contentItems": [
     {
@@ -87,7 +89,11 @@
       "questionId": "q1",
       "questionText": "What will the weather be like in the morning tomorrow?",
       "questionType": "multiple_choice",
-      "options": ["Cold and raining", "Sunny and hot", "Dark and cold"],
+      "options": [
+        "Cold and raining",
+        "Sunny and hot",
+        "Dark and cold"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -95,7 +101,12 @@
       "questionId": "q2",
       "questionText": "What does Amit say he will do in the morning?",
       "questionType": "multiple_choice",
-      "options": ["He'll read a book", "He'll play a game", "He'll wash the car", "He'll drink tea"],
+      "options": [
+        "He'll read a book",
+        "He'll play a game",
+        "He'll wash the car",
+        "He'll drink tea"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -103,7 +114,12 @@
       "questionId": "q3",
       "questionText": "Listen to the radio announcer. Fill in the missing word exactly as he says it: '____ be very sunny.'",
       "questionType": "multiple_choice",
-      "options": ["It will", "It'll", "It is", "It am"],
+      "options": [
+        "It will",
+        "It'll",
+        "It is",
+        "It am"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -119,7 +135,11 @@
       "questionId": "q5",
       "questionText": "What will they do in the afternoon instead?",
       "questionType": "multiple_choice",
-      "options": ["We'll go to the shop", "We'll stay inside", "We'll walk outside"],
+      "options": [
+        "We'll go to the shop",
+        "We'll stay inside",
+        "We'll walk outside"
+      ],
       "audioTimestamp": "00:20",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -135,7 +155,11 @@
       "questionId": "q7",
       "questionText": "How does Amit reply when she asks him to play?",
       "questionType": "multiple_choice",
-      "options": ["No, I'll sleep", "Yes, I'll play a game", "Yes, I will played a game"],
+      "options": [
+        "No, I'll sleep",
+        "Yes, I'll play a game",
+        "Yes, I will played a game"
+      ],
       "audioTimestamp": "00:25",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -167,15 +191,34 @@
       "q8": "Hot tea"
     },
     "acceptedShortAnswers": {
-      "q4": ["park", "Park", "the park"],
-      "q6": ["play", "Play", "play a game"],
-      "q8": ["tea", "Tea", "hot tea", "Hot tea"]
+      "q4": [
+        "park",
+        "Park",
+        "the park"
+      ],
+      "q6": [
+        "play",
+        "Play",
+        "play a game"
+      ],
+      "q8": [
+        "tea",
+        "Tea",
+        "hot tea",
+        "Hot tea"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["park"],
-      "q6": ["play"],
-      "q8": ["tea"]
+      "q4": [
+        "park"
+      ],
+      "q6": [
+        "play"
+      ],
+      "q8": [
+        "tea"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -188,18 +231,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b4/listening/forecast_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b4/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b4/listening/forecast_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b4/listening/forecast_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Radio: Good evening! Here is the weather for tomorrow... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "future_tense", "contractions", "weather", "beginner", "month2", "block4"],
+  "tags": [
+    "listening",
+    "future_tense",
+    "contractions",
+    "weather",
+    "beginner",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -211,7 +262,9 @@
     "Thinking 'It'll' is entirely new vocabulary, rather than 'It will'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B4_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M2B4_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

@@ -21,7 +21,13 @@
   "instructions": "Block 2 の確認テストです！「〜しちゃう(Jaanaa)」「〜してあげる(Denaa)」「〜しておく(Lenaa)」という、複合動詞の使い分けが完璧にできるか試されます。",
   "testTitle": "Block 2 確認テスト (Compound Verbs)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "reading",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +39,11 @@
           "questionId": "q001",
           "questionText": "複合動詞において、メインの意味を持つ一番最初の動詞(V1)はどの形で置かれますか？",
           "questionType": "multiple_choice",
-          "options": ["naa のついた原形", "命令形", "naa を外した語幹(短い形)"],
+          "options": [
+            "naa のついた原形",
+            "命令形",
+            "naa を外した語幹(短い形)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,10 @@
           "questionId": "q002",
           "questionText": "複合動詞において、「私は〜します(未来形)」のように、文の時制や性別を担当して変化するのはどの部分ですか？",
           "questionType": "multiple_choice",
-          "options": ["前の動詞 (V1)", "後ろの動詞 (サポート動詞 V2)"],
+          "options": [
+            "前の動詞 (V1)",
+            "後ろの動詞 (サポート動詞 V2)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +66,11 @@
           "questionId": "q003",
           "questionText": "完全に終わらせる・行動が完了するという「〜してしまう」というニュアンスを足すサポート動詞は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaanaa (行く)", "Denaa (あげる)", "Lenaa (もらう)"],
+          "options": [
+            "Jaanaa (行く)",
+            "Denaa (あげる)",
+            "Lenaa (もらう)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +80,11 @@
           "questionId": "q004",
           "questionText": "相手に向かってアクションを放つ「〜してあげる・言い放つ」というニュアンスを足すサポート動詞は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaanaa (行く)", "Denaa (あげる)", "Lenaa (もらう)"],
+          "options": [
+            "Jaanaa (行く)",
+            "Denaa (あげる)",
+            "Lenaa (もらう)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +94,11 @@
           "questionId": "q005",
           "questionText": "自分のために行動を取り込む「〜しておく」というニュアンスを足すサポート動詞は何ですか？",
           "questionType": "multiple_choice",
-          "options": ["Jaanaa (行く)", "Denaa (あげる)", "Lenaa (もらう)"],
+          "options": [
+            "Jaanaa (行く)",
+            "Denaa (あげる)",
+            "Lenaa (もらう)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -102,7 +127,10 @@
           "questionId": "q007",
           "questionText": "「Bataanaa (教える)」という動詞は、誰かに知識を伝えるため『外・相手』に向かいます。どのサポート動詞とペアになるのが自然ですか？",
           "questionType": "multiple_choice",
-          "options": ["Bataa + Lenaa", "Bataa + Denaa"],
+          "options": [
+            "Bataa + Lenaa",
+            "Bataa + Denaa"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +140,10 @@
           "questionId": "q008",
           "questionText": "「Samajhnaa (理解する)」という動詞が完了したことを表す「すっかり分かっちゃったよ」と言う場合、どのサポート動詞とペアになりますか？",
           "questionType": "multiple_choice",
-          "options": ["Samajh jaanaa (行く)", "Samajh denaa (あげる)"],
+          "options": [
+            "Samajh jaanaa (行く)",
+            "Samajh denaa (あげる)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -132,7 +163,11 @@
           "questionId": "q010",
           "questionText": "「全部 / すべて」を意味する単語はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Sab", "Ab", "Agar"],
+          "options": [
+            "Sab",
+            "Ab",
+            "Agar"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +186,10 @@
           "questionId": "q011",
           "questionText": "「Andar aa jaao.」の意味として最も適切なのはどれですか？",
           "questionType": "multiple_choice",
-          "options": ["中に入ってきてから、別の場所へ行け。", "中に入ってきちゃいなよ(促し・完了)。"],
+          "options": [
+            "中に入ってきてから、別の場所へ行け。",
+            "中に入ってきちゃいなよ(促し・完了)。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +199,10 @@
           "questionId": "q012",
           "questionText": "「Main sab khaa jaaoongaa.」と言っている人は男性ですか、女性ですか？",
           "questionType": "multiple_choice",
-          "options": ["男性", "女性"],
+          "options": [
+            "男性",
+            "女性"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +212,10 @@
           "questionId": "q013",
           "questionText": "「Mujhe bataa do.」の『do (あげる)』は、この文の中でどのような役割を果たしていますか？",
           "questionType": "multiple_choice",
-          "options": ["私に「物をあげる」よう要求している。", "「（私に向かって）教えてあげる」という外向きのアクションであることを示している。"],
+          "options": [
+            "私に「物をあげる」よう要求している。",
+            "「（私に向かって）教えてあげる」という外向きのアクションであることを示している。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -181,7 +225,10 @@
           "questionId": "q014",
           "questionText": "True or False: 否定文(Nahin)を作る時は、複合動詞のままにするのが一般的である。（例: Main nahin bataa doongaa.）",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -191,7 +238,10 @@
           "questionId": "q015",
           "questionText": "文脈問題: ラージが「Kitaab paḍh lo.」と言いました。この『lo (もらう)』が使われているのはなぜですか？",
           "questionType": "multiple_choice",
-          "options": ["ラージが本を返してもらうため。", "相手が自分のために本を読んで、自分の知識として取り込む(もらう)行為だから。"],
+          "options": [
+            "ラージが本を返してもらうため。",
+            "相手が自分のために本を読んで、自分の知識として取り込む(もらう)行為だから。"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +260,11 @@
           "questionId": "q016",
           "questionText": "Translate using a compound verb: \"I will eat it all.\" (Male speaker)",
           "questionType": "multiple_choice",
-          "options": ["Main sab khaaoongaa.", "Main sab khaa jaaoongaa.", "Main sab khaa doongaa."],
+          "options": [
+            "Main sab khaaoongaa.",
+            "Main sab khaa jaaoongaa.",
+            "Main sab khaa doongaa."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +274,11 @@
           "questionId": "q017",
           "questionText": "Translate using a compound verb: \"Tell me.\" (Informal 'Tum' command to tell outward)",
           "questionType": "multiple_choice",
-          "options": ["Mujhe bataao.", "Mujhe bataa do.", "Mujhe bataa lo."],
+          "options": [
+            "Mujhe bataao.",
+            "Mujhe bataa do.",
+            "Mujhe bataa lo."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +288,11 @@
           "questionId": "q018",
           "questionText": "Translate using a compound verb: \"Read the book (for yourself).\" (Informal 'Tum' command)",
           "questionType": "multiple_choice",
-          "options": ["Kitaab paḍh lo.", "Kitaab paḍh do.", "Kitaab paḍho."],
+          "options": [
+            "Kitaab paḍh lo.",
+            "Kitaab paḍh do.",
+            "Kitaab paḍho."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,10 +364,28 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q006": ["agar", "Agar", "AGAR"],
-      "q009": ["vaapas", "Vaapas", "VAAPAS"],
-      "q019": ["bataa", "Bataa", "BATAA"],
-      "q020": ["give", "Give", "GIVE", "to give", "To give"]
+      "q006": [
+        "agar",
+        "Agar",
+        "AGAR"
+      ],
+      "q009": [
+        "vaapas",
+        "Vaapas",
+        "VAAPAS"
+      ],
+      "q019": [
+        "bataa",
+        "Bataa",
+        "BATAA"
+      ],
+      "q020": [
+        "give",
+        "Give",
+        "GIVE",
+        "to give",
+        "To give"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 20,
@@ -325,7 +405,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -334,7 +414,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "compounds", "directionality", "month3", "block2"],
+  "tags": [
+    "test",
+    "compounds",
+    "directionality",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -344,7 +430,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

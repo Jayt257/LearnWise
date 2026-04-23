@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B6_test_001"],
+  "prerequisites": [
+    "en_hi_M1B6_test_001"
+  ],
   "instructions": "Welcome to Month 2! Now we will learn how to describe things: big, small, red, fast. English adjectives are incredibly easy for Hindi speakers because they work almost exactly the same way, but with ONE amazing shortcut: they have no gender!",
   "contentItems": [
     {
@@ -46,18 +48,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b1/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m2/b1/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b1/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m2/b1/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "A big car. A good boy. Good dogs.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "adjectives", "descriptions", "beginner", "month2", "block1"],
+  "tags": [
+    "grammar",
+    "adjectives",
+    "descriptions",
+    "beginner",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -70,7 +79,9 @@
     "Worrying about male/female versions of a word. There is only ONE version!"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "The Rules of Adjectives",

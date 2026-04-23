@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B3_test_001"],
+  "prerequisites": [
+    "ja_hi_M1B3_test_001"
+  ],
   "instructions": "日本人にとって最高のボーナスステージに到着しました！英語の「in」や「on」は言葉の「前」につきますが、ヒンディー語は日本語と全く同じで、言葉の「後ろ（助詞）」につきます。",
   "contentItems": [
     {
@@ -44,18 +46,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b4/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b4/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b4/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b4/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m1/b4/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Ghar mein. Mez par. Jaapaan se. Main Jaapaan se hoon.",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "postpositions", "particles", "locations", "month1", "block4"],
+  "tags": [
+    "grammar",
+    "postpositions",
+    "particles",
+    "locations",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -67,7 +76,9 @@
     "Placing the postposition before the noun like an English preposition (e.g. 'Mein ghar' instead of 'Ghar mein')."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B4_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B4_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "助詞の魔法 (The Magic of Postpositions)",

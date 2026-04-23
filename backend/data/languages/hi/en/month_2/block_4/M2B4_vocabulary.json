@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B4_listening_001"],
+  "prerequisites": [
+    "en_hi_M2B4_listening_001"
+  ],
   "instructions": "If you are using the word 'Will', you are talking about the future. Therefore, you need to know HOW to talk about the future! Here are 15 important words about Time (Tomorrow, Next week) and Weather (Rain, Sunny) that you will predict. Answer the 10 questions.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What word means 'कल (आने वाला)' in English?",
       "questionType": "multiple_choice",
-      "options": ["Today", "Yesterday", "Tomorrow", "Later"],
+      "options": [
+        "Today",
+        "Yesterday",
+        "Tomorrow",
+        "Later"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which is the English parsing for 'जल्द ही'?",
       "questionType": "multiple_choice",
-      "options": ["Soon", "Later", "Tomorrow", "Next week"],
+      "options": [
+        "Soon",
+        "Later",
+        "Tomorrow",
+        "Next week"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: If it is 'Rain', water is falling. If it is 'Snow', ice is falling.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What does 'Travel' mean?",
       "questionType": "multiple_choice",
-      "options": ["रुकना", "बदलना", "यात्रा करना", "योजना"],
+      "options": [
+        "रुकना",
+        "बदलना",
+        "यात्रा करना",
+        "योजना"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,48 @@
       "questionId": "q7",
       "questionText": "If the weather is 'धूप वाला', it is _____.",
       "questionType": "multiple_choice",
-      "options": ["Sunny", "Cloudy", "Windy", "Rain"],
+      "options": [
+        "Sunny",
+        "Cloudy",
+        "Windy",
+        "Rain"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What does 'Stay' mean?",
       "questionType": "multiple_choice",
-      "options": ["जाना", "रुकना", "बदलना", "खेलना"],
+      "options": [
+        "जाना",
+        "रुकना",
+        "बदलना",
+        "खेलना"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What word means 'बाद में'?",
       "questionType": "multiple_choice",
-      "options": ["Soon", "Next week", "Later", "Tomorrow"],
+      "options": [
+        "Soon",
+        "Next week",
+        "Later",
+        "Tomorrow"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Translate 'योजना' to English.",
       "questionType": "multiple_choice",
-      "options": ["Plan", "Change", "Travel", "Stay"],
+      "options": [
+        "Plan",
+        "Change",
+        "Travel",
+        "Stay"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +330,14 @@
       "w15": "बदलना"
     },
     "acceptedTranslations": {
-      "w02": ["cloudy", "Cloudy"],
-      "w06": ["tonight", "Tonight"]
+      "w02": [
+        "cloudy",
+        "Cloudy"
+      ],
+      "w06": [
+        "tonight",
+        "Tonight"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +363,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b4/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b4/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b4/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m2/b4/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m2/b4/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Tomorrow. Tonight. Soon. Later...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "time", "weather", "future_tense", "month2", "block4"],
+  "tags": [
+    "vocabulary",
+    "time",
+    "weather",
+    "future_tense",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +393,9 @@
     "Mixing up Tomorrow and Yesterday."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B4_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M2B4_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

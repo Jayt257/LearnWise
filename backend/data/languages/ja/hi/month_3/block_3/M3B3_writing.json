@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B3_reading_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_reading_001"
+  ],
   "instructions": "バラバラの2つの短い文章を、接続詞を使って「1つの長い文章」に合体させるミッションです！「もし(Agar) 〜 なら(To)」と「〜だと思う(〜hai ki ...)」の構造を使いこなしてください。",
   "contentItems": [
     {
@@ -127,7 +129,18 @@
       "mujhe lagtaa hai ki vah jaaegaa agar tum jaaoge to main bhee jaaoongaa",
       "mujhe lagta hai ki vah jayega agar tum jaoge to main bhi jaunga"
     ],
-    "requiredKeywords": ["मुझे", "लगता", "है", "कि", "जाएगा", "अगर", "जाओगे", "तो", "भी", "जाऊँगा"],
+    "requiredKeywords": [
+      "मुझे",
+      "लगता",
+      "है",
+      "कि",
+      "जाएगा",
+      "अगर",
+      "जाओगे",
+      "तो",
+      "भी",
+      "जाऊँगा"
+    ],
     "grammarBaseline": "'ki' must be present before 'vah'. 'agar' must be at the start of the second sentence, and 'to' MUST precede 'main bhee jaaoongaa'. Vah jaaegaa and Main jaaoongaa must remain structurally intact.",
     "lengthExpectation": "2 distinct complex sentences.",
     "scoringRubric": {
@@ -142,19 +155,26 @@
     "onPartial": "惜しいところがあります。第1文の「Ki」が抜けていませんか？「彼が行く」という事実と、「私はそう思う」という感情の間には、必ず接着剤の「Ki (〜ということ)」が必要です。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b3/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b3/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m3/b3/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Translate 'I think that he will go' and 'If you will go then I also will go'.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "conjunctions", "complex_sentences", "month3", "block3"],
+  "tags": [
+    "writing",
+    "grammar",
+    "conjunctions",
+    "complex_sentences",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -166,7 +186,9 @@
     "Translating 'I think' as 'Main sochtaa hoon' instead of the more native indirect 'Mujhe lagtaa hai ki'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

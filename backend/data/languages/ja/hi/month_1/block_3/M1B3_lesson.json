@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B2_test_001"],
+  "prerequisites": [
+    "ja_hi_M1B2_test_001"
+  ],
   "instructions": "ヒンディー語最大の壁にようこそ！実はヒンディー語では、生き物だけでなく「本」や「車」や「りんご」といった全てのモノに「男性」か「女性」の性別があります。このレッスンで性別のルールを学びましょう！",
   "contentItems": [
     {
@@ -45,18 +47,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b3/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b3/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b3/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b3/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m1/b3/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mera beta. Meri beti. Yeh mera kamra hai. Yeh meri gaadi hai.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "gender", "adjectives", "possessives", "month1", "block3"],
+  "tags": [
+    "grammar",
+    "gender",
+    "adjectives",
+    "possessives",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -68,7 +77,9 @@
     "A female speaker saying 'Meri naam' instead of 'Mera naam' because she thinks gender depends on the speaker."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "文法的な性別 (Grammatical Gender)",
@@ -177,8 +188,12 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インドの言葉の多くにはこのように文法的な性別があります。これをマスターすると、自然なヒンディー語に聞こえます。",
-    "dosList": ["モノの単語を覚える時に「女性か男性か」をセットで覚える。"],
-    "dontsList": ["自分が女性だからといって「Meri naam」と言わない（名前は男性名詞です）。"]
+    "dosList": [
+      "モノの単語を覚える時に「女性か男性か」をセットで覚える。"
+    ],
+    "dontsList": [
+      "自分が女性だからといって「Meri naam」と言わない（名前は男性名詞です）。"
+    ]
   },
   "summary": "ヒンディー語への挑戦です！すべての名詞には男性か女性の「性別」があります。名詞が男性なら「Mera (私の)」「Bada (大きい)」、女性なら「Meri (私の)」「Badi (大きい)」というように、周りの言葉の形もそれに合わせて変化します！",
   "checkpointQuestions": [

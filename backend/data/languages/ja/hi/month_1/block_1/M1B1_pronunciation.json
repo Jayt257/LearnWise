@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B1_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M1B1_lesson_001"
+  ],
   "instructions": "発音の基礎中の基礎です。「短い音」と「長く伸ばす音」をしっかり区別しないと、ヒンディー語では全く別の意味になってしまったり、性別が変わってしまいます。",
   "contentItems": [
     {
@@ -97,19 +99,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b1/pronunciation/native_pron.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b1/pronunciation/slow_pron.mp3",
-    "normalAudio": "audio/ja_hi/m1/b1/pronunciation/native_pron.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main. Hoon. Jaataa. Jaatee. Hai.",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "vowels", "gender", "basics", "month1", "block1"],
+  "tags": [
+    "pronunciation",
+    "vowels",
+    "gender",
+    "basics",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -121,7 +130,9 @@
     "Pronouncing 'Jaataa' as 'Jata', erasing the gender markers and making it incomprehensible."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

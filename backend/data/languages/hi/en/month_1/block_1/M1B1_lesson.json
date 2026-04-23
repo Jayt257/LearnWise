@@ -46,18 +46,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b1/lesson/native_lesson_full.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m1/b1/lesson/sample_greetings.mp3",
-    "slowAudio": "audio/en_hi/m1/b1/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m1/b1/lesson/normal_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "A, B, C, D... Good morning. How are you? Have a good day.",
     "audioLanguage": "en",
     "audioDuration": 420,
     "audioRepeatAllowed": true
   },
-  "tags": ["alphabet", "phonics", "greetings", "beginner", "month1", "block1", "svo"],
+  "tags": [
+    "alphabet",
+    "phonics",
+    "greetings",
+    "beginner",
+    "month1",
+    "block1",
+    "svo"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -71,7 +79,9 @@
     "Forgetting to capitalize the first letter of a sentence."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "The English Alphabet & Core Greetings",

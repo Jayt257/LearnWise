@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B6_writing_001"],
+  "prerequisites": [
+    "en_hi_M3B6_writing_001"
+  ],
   "instructions": "This is the hardest Listening Test of the entire course! You will hear THREE native speakers talking in an office. They are speaking very fast, using Phrasal Verbs, and talking about the Past and the Future. Listen closely!",
   "contentItems": [
     {
@@ -67,7 +69,11 @@
       "questionId": "q1",
       "questionText": "What city did John visit in the past?",
       "questionType": "multiple_choice",
-      "options": ["Paris", "London", "New York"],
+      "options": [
+        "Paris",
+        "London",
+        "New York"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -75,7 +81,11 @@
       "questionId": "q2",
       "questionText": "John uses the Present Perfect ('I have never been there before'). What does this mean?",
       "questionType": "multiple_choice",
-      "options": ["He does not want to go.", "He has zero lifetime experience going there.", "He will go there tomorrow."],
+      "options": [
+        "He does not want to go.",
+        "He has zero lifetime experience going there.",
+        "He will go there tomorrow."
+      ],
       "audioTimestamp": "00:05",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -91,7 +101,11 @@
       "questionId": "q4",
       "questionText": "What bad thing happened to John's car using a Phrasal Verb? (It ______ ________).",
       "questionType": "multiple_choice",
-      "options": ["Turned on", "Put on", "Broke down"],
+      "options": [
+        "Turned on",
+        "Put on",
+        "Broke down"
+      ],
       "audioTimestamp": "00:11",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -99,7 +113,10 @@
       "questionId": "q5",
       "questionText": "Did John fix the car himself?",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:16",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -107,7 +124,11 @@
       "questionId": "q6",
       "questionText": "What Phrasal verb does John use to say the mechanic lifted the car away? (He _____ it ___).",
       "questionType": "multiple_choice",
-      "options": ["Picked it up", "Put it on", "Gave it up"],
+      "options": [
+        "Picked it up",
+        "Put it on",
+        "Gave it up"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
@@ -115,7 +136,11 @@
       "questionId": "q7",
       "questionText": "Why is Sarah staying home next weekend?",
       "questionType": "multiple_choice",
-      "options": ["She is tired.", "She has a headache.", "She has a cold."],
+      "options": [
+        "She is tired.",
+        "She has a headache.",
+        "She has a cold."
+      ],
       "audioTimestamp": "00:23",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -147,13 +172,23 @@
       "q8": "must"
     },
     "acceptedShortAnswers": {
-      "q3": ["met", "Met"],
-      "q8": ["must", "Must"]
+      "q3": [
+        "met",
+        "Met"
+      ],
+      "q8": [
+        "must",
+        "Must"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["met"],
-      "q8": ["must"]
+      "q3": [
+        "met"
+      ],
+      "q8": [
+        "must"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -166,18 +201,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b6/listening/office_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b6/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b6/listening/office_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b6/listening/office_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Emma: Hey John! Did you have a good weekend... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "final_exam", "tenses", "phrasal_verbs", "office", "month3", "block6"],
+  "tags": [
+    "listening",
+    "final_exam",
+    "tenses",
+    "phrasal_verbs",
+    "office",
+    "month3",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -189,7 +232,9 @@
     "Unable to process 'I have never been there' due to literal mapping into L1 simple past."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B6_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M3B6_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B3_listening_001"],
+  "prerequisites": [
+    "en_hi_M3B3_listening_001"
+  ],
   "instructions": "Now that you know how Phrasal Verbs work, let's learn some new ones! Native speakers almost never use big dictionary words for everyday actions. They use these small 2-word combinations instead. Memorize these 15 essential Phrasal Verbs.",
   "contentItems": [
     {
@@ -204,21 +206,34 @@
       "questionId": "q1",
       "questionText": "Instead of saying 'Wait', native speakers often say...?",
       "questionType": "multiple_choice",
-      "options": ["Find out", "Hold on", "Go away", "Turn around"],
+      "options": [
+        "Find out",
+        "Hold on",
+        "Go away",
+        "Turn around"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "If you are trying to search for your lost phone, you are _____ your phone.",
       "questionType": "multiple_choice",
-      "options": ["looking for", "finding out", "giving back"],
+      "options": [
+        "looking for",
+        "finding out",
+        "giving back"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What does 'Throw away' mean?",
       "questionType": "multiple_choice",
-      "options": ["ऊपर फेंकना", "कचरे में फेंक देना", "पीछे मुड़ना"],
+      "options": [
+        "ऊपर फेंकना",
+        "कचरे में फेंक देना",
+        "पीछे मुड़ना"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
@@ -232,7 +247,10 @@
       "questionId": "q5",
       "questionText": "True or False: 'Put down' is the opposite of 'Pick up'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +264,45 @@
       "questionId": "q7",
       "questionText": "If the bank asks you to complete a document, they will tell you to _____ the form.",
       "questionType": "multiple_choice",
-      "options": ["fill out", "take out", "clean up"],
+      "options": [
+        "fill out",
+        "take out",
+        "clean up"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "If you have a difficult math problem, you need to _____ the answer. (पता लगाना / हल निकालना)",
       "questionType": "multiple_choice",
-      "options": ["Throw away", "Turn around", "Figure out"],
+      "options": [
+        "Throw away",
+        "Turn around",
+        "Figure out"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "What is the English phrase for 'पीछे मुड़ना'?",
       "questionType": "multiple_choice",
-      "options": ["Turn on", "Turn around", "Go away", "Come back"],
+      "options": [
+        "Turn on",
+        "Turn around",
+        "Go away",
+        "Come back"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "If someone is bothering you and you want them to leave, you say...",
       "questionType": "multiple_choice",
-      "options": ["Come back!", "Hold on!", "Go away!"],
+      "options": [
+        "Come back!",
+        "Hold on!",
+        "Go away!"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +325,15 @@
       "w15": "फॉर्म भरना"
     },
     "acceptedTranslations": {
-      "w12": ["hurry up", "Hurry up", "hurry"],
-      "w05": ["give back", "Give back"]
+      "w12": [
+        "hurry up",
+        "Hurry up",
+        "hurry"
+      ],
+      "w05": [
+        "give back",
+        "Give back"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +359,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b3/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b3/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b3/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b3/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b3/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Look for. Find out. Throw away...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "phrasal_verbs", "everyday_english", "intermediate", "month3", "block3"],
+  "tags": [
+    "vocabulary",
+    "phrasal_verbs",
+    "everyday_english",
+    "intermediate",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +389,9 @@
     "Translating 'Search' as the only word for finding things, ignoring the highly prevalent 'Look for'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B3_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M3B3_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

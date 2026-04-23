@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B1_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M2B1_pronunciation_001"
+  ],
   "instructions": "Read the story comparing two very different cities. Notice how the writer describes things using adjectives. Pay close attention to how 'big buildings' never becomes 'bigs buildings'. Adjectives never take an 's'! Answer the 8 questions below.",
   "contentItems": [
     {
@@ -160,14 +162,22 @@
       "questionId": "q1",
       "questionText": "Look at the text: Does the writer say 'The talls buildings' or 'The tall buildings'?",
       "questionType": "multiple_choice",
-      "options": ["The talls buildings", "The tall buildings"],
+      "options": [
+        "The talls buildings",
+        "The tall buildings"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What word is used to describe the food in New York?",
       "questionType": "multiple_choice",
-      "options": ["Old and cheap", "Hot and cheap", "Good and expensive", "Cold and bad"],
+      "options": [
+        "Old and cheap",
+        "Hot and cheap",
+        "Good and expensive",
+        "Cold and bad"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -181,7 +191,10 @@
       "questionId": "q4",
       "questionText": "True or False: The text says 'I have good friends in both cities.' The word 'good' does not have an 's', even though friends is plural.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -195,14 +208,24 @@
       "questionId": "q6",
       "questionText": "What adjective is used to describe both friends at the very end of the story?",
       "questionType": "multiple_choice",
-      "options": ["Fast", "Loud", "Happy", "Sad"],
+      "options": [
+        "Fast",
+        "Loud",
+        "Happy",
+        "Sad"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
       "questionId": "q7",
       "questionText": "What are beautiful in Kyoto?",
       "questionType": "multiple_choice",
-      "options": ["The fast cars", "The old temples", "The tall buildings", "The cold snow"],
+      "options": [
+        "The fast cars",
+        "The old temples",
+        "The tall buildings",
+        "The cold snow"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
@@ -226,14 +249,30 @@
       "q8": "short"
     },
     "acceptableParaphrases": {
-      "q3": ["New York", "new york", "New york"],
-      "q5": ["Fast", "fast"],
-      "q8": ["Short", "short"]
+      "q3": [
+        "New York",
+        "new york",
+        "New york"
+      ],
+      "q5": [
+        "Fast",
+        "fast"
+      ],
+      "q8": [
+        "Short",
+        "short"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["york"],
-      "q5": ["fast"],
-      "q8": ["short"]
+      "q3": [
+        "york"
+      ],
+      "q5": [
+        "fast"
+      ],
+      "q8": [
+        "short"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes the syntax of Adjective + Noun.",
@@ -250,18 +289,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b1/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b1/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m2/b1/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I travel a lot. I have two favorite cities... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "adjectives", "descriptions", "opposites", "month2", "block1"],
+  "tags": [
+    "reading",
+    "adjectives",
+    "descriptions",
+    "opposites",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -274,7 +320,9 @@
     "Trying to make adjectives plural."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

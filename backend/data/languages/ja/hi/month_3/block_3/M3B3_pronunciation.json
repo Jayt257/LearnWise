@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B3_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_lesson_001"
+  ],
   "instructions": "接続詞の読み方には「メロディー」があります。「もし雨が降るなら〜？」のように前半(Agar)の最後は音を少し上げ、後半の接着剤(To)の出だしでカチッと音を落とす練習をしましょう。",
   "contentItems": [
     {
@@ -96,19 +98,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b3/pronunciation/native_conj_pron.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b3/pronunciation/slow_conj_pron.mp3",
-    "normalAudio": "audio/ja_hi/m3/b3/pronunciation/native_conj_pron.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mujhe lagtaa hai ki... Agar tum aaoge, to main bhee jaaoongaa. Jab main free hoongaa, tab mujhe phone karnaa.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "conjunctions", "intonation", "month3", "block3"],
+  "tags": [
+    "pronunciation",
+    "conjunctions",
+    "intonation",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -120,7 +128,9 @@
     "Pronouncing 'Ki' as 'Kee', making it sound like the possessive 'of' rather than the conjunction 'that'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

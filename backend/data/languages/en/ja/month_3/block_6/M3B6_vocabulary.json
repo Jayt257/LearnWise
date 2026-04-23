@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "Topic particle", "Subject particle", "Direct object particle", "Target / Time particle", "Context / Tool particle", 
-    "To eat (Ru-verb)", "To drink (U-verb)", "To go (U-verb)", "To come (Irregular)", "To do (Irregular)", 
-    "Please do (with Te-form)", "Because", "If / When (Conditional)", "Might / Probably", "Intend to", 
-    "To give (outward)", "To receive", "To give (inward to me)", "To go/come (Respectful)", "To go/come (Humble)", 
-    "To eat/drink (Respectful)", "To eat/drink/receive (Humble)", "Ambulance", "Police", "To be stolen", 
-    "To lose", "To make someone do (Causative Suru)", "To be done to (Passive Suru)", "To be forced to do (Causative-Passive Suru)", "To do completely / unfortunately"
+    "Topic particle",
+    "Subject particle",
+    "Direct object particle",
+    "Target / Time particle",
+    "Context / Tool particle",
+    "To eat (Ru-verb)",
+    "To drink (U-verb)",
+    "To go (U-verb)",
+    "To come (Irregular)",
+    "To do (Irregular)",
+    "Please do (with Te-form)",
+    "Because",
+    "If / When (Conditional)",
+    "Might / Probably",
+    "Intend to",
+    "To give (outward)",
+    "To receive",
+    "To give (inward to me)",
+    "To go/come (Respectful)",
+    "To go/come (Humble)",
+    "To eat/drink (Respectful)",
+    "To eat/drink/receive (Humble)",
+    "Ambulance",
+    "Police",
+    "To be stolen",
+    "To lose",
+    "To make someone do (Causative Suru)",
+    "To be done to (Passive Suru)",
+    "To be forced to do (Causative-Passive Suru)",
+    "To do completely / unfortunately"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does いらっしゃる (Irassharu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To eat (Respectful)", "To go/come (Humble)", "To go/come (Respectful)", "To do"],
+      "options": [
+        "To eat (Respectful)",
+        "To go/come (Humble)",
+        "To go/come (Respectful)",
+        "To do"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "Which particle marks the direct object (the thing being acted upon)?",
       "questionType": "multiple_choice",
-      "options": ["は (Wa)", "が (Ga)", "に (Ni)", "を (Wo)"],
+      "options": [
+        "は (Wa)",
+        "が (Ga)",
+        "に (Ni)",
+        "を (Wo)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What does くれる (Kureru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To receive", "To give (outward)", "To give (inward to me)", "To steal"],
+      "options": [
+        "To receive",
+        "To give (outward)",
+        "To give (inward to me)",
+        "To steal"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "What is the Causative-Passive form of Suru (To be forced to do)?",
       "questionType": "multiple_choice",
-      "options": ["させる (Saseru)", "される (Sareru)", "させられる (Saserareru)", "します (Shimasu)"],
+      "options": [
+        "させる (Saseru)",
+        "される (Sareru)",
+        "させられる (Saserareru)",
+        "します (Shimasu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does いただく (Itadaku) mean?",
       "questionType": "multiple_choice",
-      "options": ["To go (Humble)", "To eat/drink/receive (Humble)", "To see", "To give"],
+      "options": [
+        "To go (Humble)",
+        "To eat/drink/receive (Humble)",
+        "To see",
+        "To give"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "Which phrase means 'Intend to'?",
       "questionType": "multiple_choice",
-      "options": ["から (Kara)", "つもり (Tsumori)", "かもしれない (Kamo shirenai)", "たら (Tara)"],
+      "options": [
+        "から (Kara)",
+        "つもり (Tsumori)",
+        "かもしれない (Kamo shirenai)",
+        "たら (Tara)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "Which particle marks the Tool used to do an action?",
       "questionType": "multiple_choice",
-      "options": ["は (Wa)", "で (De)", "に (Ni)", "を (Wo)"],
+      "options": [
+        "は (Wa)",
+        "で (De)",
+        "に (Ni)",
+        "を (Wo)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What is the word for 'Ambulance'?",
       "questionType": "multiple_choice",
-      "options": ["けいさつ (Keisatsu)", "きゅうきゅうしゃ (Kyuukyuusha)", "びょういん (Byouin)", "さいふ (Saifu)"],
+      "options": [
+        "けいさつ (Keisatsu)",
+        "きゅうきゅうしゃ (Kyuukyuusha)",
+        "びょういん (Byouin)",
+        "さいふ (Saifu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does ぬすまれる (Nusumareru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To lose", "To find", "To steal", "To be stolen"],
+      "options": [
+        "To lose",
+        "To find",
+        "To steal",
+        "To be stolen"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does たら (Tara) mean attached to a verb?",
       "questionType": "multiple_choice",
-      "options": ["Because", "Must", "If / When", "Intend to"],
+      "options": [
+        "Because",
+        "Must",
+        "If / When",
+        "Intend to"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -459,12 +533,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m3/b6/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b6/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m3/b6/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m3/b6/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "は。が。を。に。で。たべる。のむ。いく。くる。する。ください。から。たら。かもしれない。つもり。あげる。もらう。くれる。いらっしゃる。まいる。めしあがる。いただく。きゅうきゅうしゃ。けいさつ。ぬすまれる。なくす。させる。される。させられる。しまう。",
     "audioLanguage": "ja",
     "audioDuration": 360,

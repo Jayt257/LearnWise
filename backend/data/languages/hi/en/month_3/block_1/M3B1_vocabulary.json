@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B1_listening_001"],
+  "prerequisites": [
+    "en_hi_M3B1_listening_001"
+  ],
   "instructions": "Here are 15 important words about health and the human body. To practice our spelling, answer the 10 questions below. Remember, when you build sentences with these action words, use 'Should' for good health advice!",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What word means 'स्वस्थ' (not sick) in English?",
       "questionType": "multiple_choice",
-      "options": ["Sick", "Healthy", "Doctor", "Fever"],
+      "options": [
+        "Sick",
+        "Healthy",
+        "Doctor",
+        "Fever"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which is the correct English word for 'दवा'?",
       "questionType": "multiple_choice",
-      "options": ["Pain", "Doctor", "Medicine", "Rest"],
+      "options": [
+        "Pain",
+        "Doctor",
+        "Medicine",
+        "Rest"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: Saying 'You must eating' is perfectly correct.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "If a person is 'Sick', they should go to the _____.",
       "questionType": "multiple_choice",
-      "options": ["Walk", "Exercise", "Hospital", "Run"],
+      "options": [
+        "Walk",
+        "Exercise",
+        "Hospital",
+        "Run"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,47 @@
       "questionId": "q7",
       "questionText": "If someone is very tired, you give them advice: 'You should ____.'",
       "questionType": "multiple_choice",
-      "options": ["Run", "Rest", "Sick", "Pain"],
+      "options": [
+        "Run",
+        "Rest",
+        "Sick",
+        "Pain"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What does 'Pain' mean?",
       "questionType": "multiple_choice",
-      "options": ["बुखार", "दवा", "दर्द", "सोना"],
+      "options": [
+        "बुखार",
+        "दवा",
+        "दर्द",
+        "सोना"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "Translate this rule: 'तुम्हें रुकना ही होगा'.",
       "questionType": "multiple_choice",
-      "options": ["You can stop", "You should stop", "You must stop"],
+      "options": [
+        "You can stop",
+        "You should stop",
+        "You must stop"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "What does 'Sleep' mean?",
       "questionType": "multiple_choice",
-      "options": ["सोना", "पीना", "दौड़ना", "खाना"],
+      "options": [
+        "सोना",
+        "पीना",
+        "दौड़ना",
+        "खाना"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +329,14 @@
       "w15": "रुकना"
     },
     "acceptedTranslations": {
-      "w04": ["fever", "Fever"],
-      "w12": ["exercise", "Exercise"]
+      "w04": [
+        "fever",
+        "Fever"
+      ],
+      "w12": [
+        "exercise",
+        "Exercise"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +362,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b1/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b1/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b1/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b1/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Sick. Healthy. Medicine...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "health", "verbs", "modals", "month3", "block1"],
+  "tags": [
+    "vocabulary",
+    "health",
+    "verbs",
+    "modals",
+    "month3",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -340,7 +392,9 @@
     "Misspelling 'Medicine' or confusing 'Fever' with 'Pain'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B1_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M3B1_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

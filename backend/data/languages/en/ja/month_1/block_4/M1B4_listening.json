@@ -60,7 +60,12 @@
       "questionId": "q001",
       "questionText": "What time is it in the dialogue?",
       "questionType": "multiple_choice",
-      "options": ["4 o'clock", "8 o'clock", "9 o'clock", "12 o'clock"],
+      "options": [
+        "4 o'clock",
+        "8 o'clock",
+        "9 o'clock",
+        "12 o'clock"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
     },
@@ -68,7 +73,12 @@
       "questionId": "q002",
       "questionText": "How old is the person answering the questions?",
       "questionType": "multiple_choice",
-      "options": ["20 years old", "24 years old", "25 years old", "35 years old"],
+      "options": [
+        "20 years old",
+        "24 years old",
+        "25 years old",
+        "35 years old"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
     },
@@ -76,7 +86,12 @@
       "questionId": "q003",
       "questionText": "What day of the week does Person A *guess* that it is?",
       "questionType": "multiple_choice",
-      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
       "audioTimestamp": "00:14",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
     },
@@ -84,7 +99,12 @@
       "questionId": "q004",
       "questionText": "What day of the week is it *actually*?",
       "questionType": "multiple_choice",
-      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q004"
     },
@@ -113,7 +133,12 @@
       "q005": "いいえ"
     },
     "acceptedShortAnswers": {
-      "q005": ["iie", "Iie", "いいえ", "no"]
+      "q005": [
+        "iie",
+        "Iie",
+        "いいえ",
+        "no"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {},
@@ -128,12 +153,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b4/listening/native_dialogue.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b4/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b4/listening/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_en/m1/b4/listening/native_dialogue.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "いま、なんじですか。よじです。なんさいですか。わたしは にじゅうごさいです。きょうは かようびですか。いいえ、すいようびです。",
     "audioLanguage": "ja",
     "audioDuration": 25,

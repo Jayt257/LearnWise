@@ -60,7 +60,12 @@
       "questionId": "q001",
       "questionText": "What does Customer 1 order?",
       "questionType": "multiple_choice",
-      "options": ["Coffee", "Juice", "Cake", "Sandwich"],
+      "options": [
+        "Coffee",
+        "Juice",
+        "Cake",
+        "Sandwich"
+      ],
       "audioTimestamp": "00:02",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q001"
     },
@@ -68,7 +73,12 @@
       "questionId": "q002",
       "questionText": "What does Customer 2 order?",
       "questionType": "multiple_choice",
-      "options": ["Ice Cream", "Juice", "Coffee", "Cake"],
+      "options": [
+        "Ice Cream",
+        "Juice",
+        "Coffee",
+        "Cake"
+      ],
       "audioTimestamp": "00:10",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q002"
     },
@@ -76,7 +86,12 @@
       "questionId": "q003",
       "questionText": "What does Customer 3 order?",
       "questionType": "multiple_choice",
-      "options": ["Cake", "Ice Cream", "Sandwich", "Coffee"],
+      "options": [
+        "Cake",
+        "Ice Cream",
+        "Sandwich",
+        "Coffee"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q003"
     },
@@ -97,7 +112,10 @@
       "questionId": "q005",
       "questionText": "Did anyone order a 'Juice'?",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": null,
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q005"
     }
@@ -131,12 +149,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m1/b3/listening/native_dialogue.mp3",
+    "nativeAudio": "month_1/block_3/M1B3_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m1/b3/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m1/b3/listening/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_en/m1/b3/listening/native_dialogue.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_3/M1B3_audio.wav",
     "audioTranscript": "すみません。コーヒー、おねがいします。はい、どうぞ。すみません。アイスクリーム、おねがいします。はい、どうぞ。すみません。サンドイッチ、おねがいします。はい、どうぞ。",
     "audioLanguage": "ja",
     "audioDuration": 35,

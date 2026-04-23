@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B5_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M1B5_vocabulary_001"
+  ],
   "instructions": "あなたの「毎日の習慣」についてヒンディー語で答えてください！今回は、あなたが設定した性別（男性か女性か）の言葉で答える必要があります。",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "友達: 'तुम रोज़ क्या पीती हो?' (あなたは毎日何を飲みますか？) 答え：「私は水を飲みます。」",
-      "expectedSpeakingPoints": ["Main", "paanee", "peetee hoon"],
+      "expectedSpeakingPoints": [
+        "Main",
+        "paanee",
+        "peetee hoon"
+      ],
       "sampleResponse": {
         "targetText": "मैं पानी पीती हूँ।",
         "transliteration": "Main paanee peetee hoon.",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "友達: 'अच्छा। और तुम क्या करती हो?' (なるほど。そして何をして[Do]いますか？) 答え：「私は本を読みます[勉強します]。」",
-      "expectedSpeakingPoints": ["Main", "kitaab", "padhtee hoon"],
+      "expectedSpeakingPoints": [
+        "Main",
+        "kitaab",
+        "padhtee hoon"
+      ],
       "sampleResponse": {
         "targetText": "मैं किताब पढ़ती हूँ।",
         "transliteration": "Main kitaab padhtee hoon.",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "友達: 'क्या तुम जापान जाती हो?' (あなたは日本へ行きますか？) 答え：「はい、私は日本へ行きます。」",
-      "expectedSpeakingPoints": ["Haan", "main Jaapaan", "jaatee hoon"],
+      "expectedSpeakingPoints": [
+        "Haan",
+        "main Jaapaan",
+        "jaatee hoon"
+      ],
       "sampleResponse": {
         "targetText": "हाँ, मैं जापान जाती हूँ।",
         "transliteration": "Haan, main Jaapaan jaatee hoon.",
@@ -88,7 +102,15 @@
       "jaatee hoon"
     ],
     "requiredKeywords": [
-      "main", "paanee", "peetee", "hoon", "kitaab", "padhtee", "haan", "jaapaan", "jaatee"
+      "main",
+      "paanee",
+      "peetee",
+      "hoon",
+      "kitaab",
+      "padhtee",
+      "haan",
+      "jaapaan",
+      "jaatee"
     ],
     "acceptableParaphrases": [
       "main paanee peeti hoon",
@@ -108,19 +130,27 @@
     "onPartial": "よくお話しできています。「飲む(Pee)」や「読む(Padh)」といった語幹の後ろには、必ず Taa か Tee が挟まります。そのまま Peenahoon とは言えないので注意してください！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b5/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m1/b5/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b5/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b5/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m1/b5/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m1/b5/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Friend: Tum roz kyaa peetee ho?\nLearner: Main paanee peetee hoon...\n(Matches full dialogue)",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "verbs", "gender", "conjugation", "roleplay", "month1", "block5"],
+  "tags": [
+    "speaking",
+    "verbs",
+    "gender",
+    "conjugation",
+    "roleplay",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -133,7 +163,9 @@
     "Failing to remove the infinitive suffix 'naa' before conjugating (e.g. peenaatee hoon)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B5_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B5_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

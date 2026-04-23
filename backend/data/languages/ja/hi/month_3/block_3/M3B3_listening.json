@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M3B3_writing_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_writing_001"
+  ],
   "instructions": "ラージとアニタが旅行の計画を立てています。「もし〜なら、その時は…」「〜の時、その時に…」という条件の会話を正しく聞き分けましょう。Agar/Jab が聞こえたら、脳内で To/Tab を待つ準備をしてください。",
   "contentItems": [
     {
@@ -52,7 +54,10 @@
       "questionId": "q1",
       "questionText": "ラージは最初に「僕たちは市場に行くべきだ、と＿＿＿」と言いました。何を付け加えましたか？",
       "questionType": "multiple_choice",
-      "options": ["私は知っている(Maaloom hai ki)", "私は思う(Lagtaa hai ki)"],
+      "options": [
+        "私は知っている(Maaloom hai ki)",
+        "私は思う(Lagtaa hai ki)"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +65,10 @@
       "questionId": "q2",
       "questionText": "アニタが明日行きたくない理由は「明日は〇〇になること(Ki)を知っている(Maaloom hai)から」です。〇〇とは何ですか？",
       "questionType": "multiple_choice",
-      "options": ["雨(Baarish)が降る", "準備(Taiyaar)ができる"],
+      "options": [
+        "雨(Baarish)が降る",
+        "準備(Taiyaar)ができる"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +76,10 @@
       "questionId": "q3",
       "questionText": "ラージは「Agar baarish hogee, _____ hum nahin jaaenge.」と返します。_____には何という短い接着剤(単語)が入っていましたか？",
       "questionType": "multiple_choice",
-      "options": ["to (トー)", "tab (タブ)"],
+      "options": [
+        "to (トー)",
+        "tab (タブ)"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -76,7 +87,10 @@
       "questionId": "q4",
       "questionText": "アニタは市場に行くのを「今日」に変更したいと言います。その理由を説明する直前に発せられた「Kyonki」という単語の意味は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["だから(Therefore)", "なぜなら(Because)"],
+      "options": [
+        "だから(Therefore)",
+        "なぜなら(Because)"
+      ],
       "audioTimestamp": "00:18",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -105,11 +119,18 @@
       "q5": "jab tab"
     },
     "acceptedShortAnswers": {
-      "q5": ["jab tab", "Jab Tab", "jab, tab"]
+      "q5": [
+        "jab tab",
+        "Jab Tab",
+        "jab, tab"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["jab", "tab"]
+      "q5": [
+        "jab",
+        "tab"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +143,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b3/listening/plan_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b3/listening/plan_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b3/listening/plan_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, mujhe lagtaa hai ki... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "conjunctions", "conditions", "planning", "month3", "block3"],
+  "tags": [
+    "listening",
+    "conjunctions",
+    "conditions",
+    "planning",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +173,9 @@
     "Mixing up Kyonki (Reason/Because) with Isliye (Result/Therefore) which reverses the intended logic."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

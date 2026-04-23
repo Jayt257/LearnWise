@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M3B4_writing_001"],
+  "prerequisites": [
+    "en_hi_M3B4_writing_001"
+  ],
   "instructions": "Listen to a traveler arguing with an airport ticket agent. He is very stressed! He has lost his passport, and his flight might be leaving soon. Listen closely to the exact words the agent uses to direct him to the police.",
   "contentItems": [
     {
@@ -77,7 +79,11 @@
       "questionId": "q1",
       "questionText": "What does the traveler say first to get the agent's attention politely?",
       "questionType": "multiple_choice",
-      "options": ["Hey you", "Excuse me", "Help me"],
+      "options": [
+        "Hey you",
+        "Excuse me",
+        "Help me"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -85,7 +91,11 @@
       "questionId": "q2",
       "questionText": "What number is the man's Flight Gate?",
       "questionType": "multiple_choice",
-      "options": ["Gate 2", "Gate 4", "Gate 5"],
+      "options": [
+        "Gate 2",
+        "Gate 4",
+        "Gate 5"
+      ],
       "audioTimestamp": "00:08",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -101,7 +111,11 @@
       "questionId": "q4",
       "questionText": "What happened to the man's bag?",
       "questionType": "multiple_choice",
-      "options": ["He left it at home.", "Someone stole it.", "The agent has it."],
+      "options": [
+        "He left it at home.",
+        "Someone stole it.",
+        "The agent has it."
+      ],
       "audioTimestamp": "00:11",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -109,7 +123,11 @@
       "questionId": "q5",
       "questionText": "The agent says the flight is 'delayed'. What does this mean?",
       "questionType": "multiple_choice",
-      "options": ["The flight is leaving very early.", "The flight is cancelled.", "The flight is late (he has more time)."],
+      "options": [
+        "The flight is leaving very early.",
+        "The flight is cancelled.",
+        "The flight is late (he has more time)."
+      ],
       "audioTimestamp": "00:14",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -125,7 +143,11 @@
       "questionId": "q7",
       "questionText": "Fill in the blank for the directions: Go ____ down this hall. Turn left at the exit.",
       "questionType": "multiple_choice",
-      "options": ["straight", "back", "right"],
+      "options": [
+        "straight",
+        "back",
+        "right"
+      ],
       "audioTimestamp": "00:23",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -133,7 +155,10 @@
       "questionId": "q8",
       "questionText": "When the man says 'Thank you so much', his voice is...",
       "questionType": "multiple_choice",
-      "options": ["Angry and loud", "Polite and grateful (rising tune)"],
+      "options": [
+        "Angry and loud",
+        "Polite and grateful (rising tune)"
+      ],
       "audioTimestamp": "00:27",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -157,13 +182,25 @@
       "q8": "Polite and grateful (rising tune)"
     },
     "acceptedShortAnswers": {
-      "q3": ["passport", "Passport", "his passport"],
-      "q6": ["police", "Police", "the police"]
+      "q3": [
+        "passport",
+        "Passport",
+        "his passport"
+      ],
+      "q6": [
+        "police",
+        "Police",
+        "the police"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q3": ["pass"],
-      "q6": ["police"]
+      "q3": [
+        "pass"
+      ],
+      "q6": [
+        "police"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -176,18 +213,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b4/listening/airport_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b4/listening/airport_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b4/listening/airport_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Traveler: Excuse me, I need help! It's an emergency... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "survival_english", "airport", "emergency", "capstone", "month3", "block4"],
+  "tags": [
+    "listening",
+    "survival_english",
+    "airport",
+    "emergency",
+    "capstone",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -199,7 +244,9 @@
     "Misinterpreting 'Delayed' as 'Cancelled'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

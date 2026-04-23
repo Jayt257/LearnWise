@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B3_reading_001"],
+  "prerequisites": [
+    "ja_hi_M1B3_reading_001"
+  ],
   "instructions": "文法パズルに挑戦しましょう！今回は「名詞の性別」というルールが加わります。与えられた「家（男性）」と「車（女性）」を正しく描写してください。",
   "contentItems": [
     {
@@ -97,7 +99,15 @@
       "mera ghar bada hai meri gaaḍee baḍee hai",
       "मेरा घर बड़ा है मेरी गाड़ी बड़ी है"
     ],
-    "requiredKeywords": ["मेरा", "घर", "बड़ा", "मेरी", "गाड़ी", "बड़ी", "है"],
+    "requiredKeywords": [
+      "मेरा",
+      "घर",
+      "बड़ा",
+      "मेरी",
+      "गाड़ी",
+      "बड़ी",
+      "है"
+    ],
     "grammarBaseline": "Zero tolerance for mismatched gender parity. 'Mera gaadee' is an instant fail. 'Meri ghar' is an instant fail.",
     "lengthExpectation": "Exactly 8 words (2 sentences).",
     "scoringRubric": {
@@ -112,19 +122,26 @@
     "onPartial": "文法が少し崩れています。「です（Hai）」の位置は合っていますが、Mera/Meri や Bada/Badi が名詞の性別と一致しているか確認してください。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m1/b3/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b3/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b3/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m1/b3/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write two sentences testing grammatical gender agreement.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "gender", "adjectives", "month1", "block3"],
+  "tags": [
+    "writing",
+    "grammar",
+    "gender",
+    "adjectives",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -136,7 +153,9 @@
     "Writing 'Mera gaadee bada hai' ignoring the implicit gender."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

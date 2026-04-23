@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B3_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M2B3_vocabulary_001"
+  ],
   "instructions": "You are talking to a coworker on Monday morning. They ask you what you did over the weekend. Answer their questions out loud. Make sure you use the PAST words (Went, Ate, Saw, Walked). And remember, NO 'Is' or 'Am' helper words!",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "साराह: 'How was your weekend?' (तुम्हारा सप्ताहांत कैसा था?)। जवाब दें: 'यह अच्छा था। मैं पार्क गया।' (It was good... I went...)",
-      "expectedSpeakingPoints": ["It was good", "I went", "to the park"],
+      "expectedSpeakingPoints": [
+        "It was good",
+        "I went",
+        "to the park"
+      ],
       "sampleResponse": {
         "targetText": "It was good. I went to the park.",
         "transliteration": "इट वाज़ गुड। आई वेंट टू द पार्क।",
@@ -35,7 +41,9 @@
     {
       "subTaskId": "t2",
       "prompt": "साराह: 'Did you walk or drive?' (क्या तुम पैदल गए या ड्राइव किया?)। जवाब दें: 'मैं चलकर गया।' (I walked).",
-      "expectedSpeakingPoints": ["I walked"],
+      "expectedSpeakingPoints": [
+        "I walked"
+      ],
       "sampleResponse": {
         "targetText": "I walked.",
         "transliteration": "आई वाक्ड।",
@@ -45,7 +53,11 @@
     {
       "subTaskId": "t3",
       "prompt": "साराह: 'Did you see anyone?' (क्या तुमने किसी को देखा?)। जवाब दें: 'हाँ, मैंने एक कुत्ता देखा!' (I saw...)",
-      "expectedSpeakingPoints": ["Yes", "I saw", "a dog"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "I saw",
+        "a dog"
+      ],
       "sampleResponse": {
         "targetText": "Yes, I saw a dog!",
         "transliteration": "येस, आई सॉ अ डॉग!",
@@ -55,7 +67,11 @@
     {
       "subTaskId": "t4",
       "prompt": "साराह: 'Did you eat lunch there?' (क्या तुमने वहाँ लंच किया?)। जवाब दें: 'हाँ, मैंने एक सेब खाया।' (I ate...)",
-      "expectedSpeakingPoints": ["Yes", "I ate", "an apple"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "I ate",
+        "an apple"
+      ],
       "sampleResponse": {
         "targetText": "Yes, I ate an apple.",
         "transliteration": "येस, आई एट ऐन ऐपल।",
@@ -65,7 +81,11 @@
     {
       "subTaskId": "t5",
       "prompt": "साराह: 'That sounds nice.' (यह अच्छा लगता है)। उसे बताएं: 'फिर मैं घर आया।' (Then, I came...)",
-      "expectedSpeakingPoints": ["Then", "I came", "home"],
+      "expectedSpeakingPoints": [
+        "Then",
+        "I came",
+        "home"
+      ],
       "sampleResponse": {
         "targetText": "Then, I came home.",
         "transliteration": "देन, आई केम होम।",
@@ -146,19 +166,26 @@
     "onPartial": "Good try! Make sure you don't say 'Walk-ed'. Remember, the ED usually makes a sharp T or D sound. 'Wawkt'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b3/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m2/b3/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b3/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b3/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m2/b3/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m2/b3/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Sarah: How was your weekend?...",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "simple_past", "irregular_verbs", "month2", "block3"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "simple_past",
+    "irregular_verbs",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -171,7 +198,9 @@
     "Saying 'I see a dog' instead of 'I saw a dog'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B3_test_001"],
+  "nextActivityIds": [
+    "en_hi_M2B3_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

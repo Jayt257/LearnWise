@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B1_reading_001"],
+  "prerequisites": [
+    "en_hi_M2B1_reading_001"
+  ],
   "instructions": "Write a paragraph describing your dream life! Talk about your dream house, your dream car, and your dogs. You MUST use at least 4 adjectives to describe things (like Big, Fast, Beautiful, Happy, Loud, Quiet). Remember: adjectives always stay singular, even if you have many dogs!",
   "contentItems": [
     {
@@ -126,11 +128,11 @@
     "onPartial": "Good start! You placed the words in the right order. However, make sure you never put an 'S' on a description. 'Happys dogs' is incorrect. It is just 'Happy dogs'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b1/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b1/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write about your dream house and car. Remember, descriptions come first and have no plurals.",
@@ -138,7 +140,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "adjectives", "syntax", "descriptions", "block1"],
+  "tags": [
+    "writing",
+    "adjectives",
+    "syntax",
+    "descriptions",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -151,7 +159,9 @@
     "Writing 'I have smalls cats'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B2_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M1B2_pronunciation_001"
+  ],
   "instructions": "短い文章を読んで、登場人物が誰のことを話しているのかを理解しましょう。文の最後の「です（hai, hoon, hain）」が、主語によってどう変化しているかに注目してください！",
   "contentItems": [
     {
@@ -111,14 +113,21 @@
       "questionId": "q1",
       "questionText": "文章を書いている人（ケン）の国籍は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["インド人 (Bhaarateey)", "日本人 (Jaapaanee)"],
+      "options": [
+        "インド人 (Bhaarateey)",
+        "日本人 (Jaapaanee)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "「आप भारतीय हैं (Aap Bhaarateey hain)」という文の主語である「あなた」の名前は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["राज (Raaj)", "अमित (Amit)", "केन (Ken)"],
+      "options": [
+        "राज (Raaj)",
+        "अमित (Amit)",
+        "केन (Ken)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -132,14 +141,22 @@
       "questionId": "q4",
       "questionText": "「Aap (あなた)」が主語の時、動詞（です）は何になっていますか？",
       "questionType": "multiple_choice",
-      "options": ["हूँ (hoon)", "है (hai)", "हैं (hain)"],
+      "options": [
+        "हूँ (hoon)",
+        "है (hai)",
+        "हैं (hain)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "「彼 / 彼女」を意味するヒンディー語の代名詞はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["वह (Vah)", "हम (Ham)", "मैं (Main)"],
+      "options": [
+        "वह (Vah)",
+        "हम (Ham)",
+        "मैं (Main)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -161,12 +178,26 @@
       "q6": "हम (Ham)"
     },
     "acceptableParaphrases": {
-      "q3": ["amit", "Amit", "अमित"],
-      "q6": ["ham", "Ham", "हम"]
+      "q3": [
+        "amit",
+        "Amit",
+        "अमित"
+      ],
+      "q6": [
+        "ham",
+        "Ham",
+        "हम"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["amit", "अमित"],
-      "q6": ["ham", "हम"]
+      "q3": [
+        "amit",
+        "अमित"
+      ],
+      "q6": [
+        "ham",
+        "हम"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner correlates specific pronoun inputs (Main, Aap, Vah) with distinct copular outputs (Hoon, Hain, Hai) inside the text.",
@@ -182,18 +213,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m1/b2/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Main Jaapaanee hoon. Mera naam Ken hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "pronouns", "to_be", "sov", "month1", "block2"],
+  "tags": [
+    "reading",
+    "pronouns",
+    "to_be",
+    "sov",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -205,7 +243,9 @@
     "Matching 'Aap' (You) with 'Hai' instead of 'Hain'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B2_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B2_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

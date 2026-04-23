@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M1B5_writing_001"],
+  "prerequisites": [
+    "ja_hi_M1B5_writing_001"
+  ],
   "instructions": "ラージと彼の妻、アニタが朝の会話をしています。誰が何を食べているのか、動詞の音（ター / ティー）を手掛かりにして聴き取ってください。",
   "contentItems": [
     {
@@ -52,7 +54,10 @@
       "questionId": "q1",
       "questionText": "ラージ（男性）は「僕はりんごを食べる」と言う時、どのように発音していますか？",
       "questionType": "multiple_choice",
-      "options": ["seb khaatee hoon", "seb khaataa hoon"],
+      "options": [
+        "seb khaatee hoon",
+        "seb khaataa hoon"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -60,7 +65,10 @@
       "questionId": "q2",
       "questionText": "アニタ（女性）が「私はインド料理を食べる」と言う時、動詞はどうなっていますか？",
       "questionType": "multiple_choice",
-      "options": ["khaatee hoon (カーティーフーン)", "khaataa hoon (カーターフーン)"],
+      "options": [
+        "khaatee hoon (カーティーフーン)",
+        "khaataa hoon (カーターフーン)"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -68,7 +76,10 @@
       "questionId": "q3",
       "questionText": "男性が「行く」と言う時の音は Jaataa ですか、それとも Jaatee ですか？",
       "questionType": "multiple_choice",
-      "options": ["Jaatee (ジャーティー)", "Jaataa (ジャーター)"],
+      "options": [
+        "Jaatee (ジャーティー)",
+        "Jaataa (ジャーター)"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -84,7 +95,10 @@
       "questionId": "q5",
       "questionText": "アニタは「りんご(seb)」を食べますか？(ヒント: nahin)",
       "questionType": "true_false",
-      "options": ["食べない", "食べる"],
+      "options": [
+        "食べない",
+        "食べる"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
@@ -105,11 +119,17 @@
       "q5": "食べない"
     },
     "acceptedShortAnswers": {
-      "q4": ["bhee", "bhi", "भी"]
+      "q4": [
+        "bhee",
+        "bhi",
+        "भी"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["bhee"]
+      "q4": [
+        "bhee"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -122,18 +142,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b5/listening/morning_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b5/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b5/listening/morning_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b5/listening/morning_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Aneeta: Raaj, tum kyaa khaate ho?\n... (Matches exact transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "verbs", "gender", "present_tense", "month1", "block5"],
+  "tags": [
+    "listening",
+    "verbs",
+    "gender",
+    "present_tense",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -145,7 +172,9 @@
     "Failing to perceive the vowel shift between khaataa and khaatee at conversational speed."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B5_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B5_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

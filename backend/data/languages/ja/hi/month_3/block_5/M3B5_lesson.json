@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 60,
-  "prerequisites": ["ja_hi_M3B4_test_001"],
+  "prerequisites": [
+    "ja_hi_M3B4_test_001"
+  ],
   "instructions": "いざという時に命を守るためのサバイバル表現です！「助けて！」「医者を呼んで！」といった緊急フレーズと、「熱がある」「痛い」といった体の不調を伝えるための文法(私『に』〇〇がある)を学びましょう。",
   "contentItems": [
     {
@@ -43,18 +45,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b5/lesson/native_emergency.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b5/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m3/b5/lesson/slow_emergency.mp3",
-    "normalAudio": "audio/ja_hi/m3/b5/lesson/native_emergency.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Mujhe bukhaar hai. Peṭ mein dard hai. Madad keejiye! Ḍaakṭar ko bulaaiye.",
     "audioLanguage": "hi",
     "audioDuration": 240,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "vocabulary", "emergencies", "health", "practical", "month3", "block5"],
+  "tags": [
+    "grammar",
+    "vocabulary",
+    "emergencies",
+    "health",
+    "practical",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -66,7 +76,9 @@
     "Saying 'Main dard hoon' (I am pain) instead of 'Mujhe dard hai' (To me pain is)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B5_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B5_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "トラブル対応と身体の不調",
@@ -147,7 +159,9 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インドの薬局では、Mujhe bukhaar hai (熱がある) と症状を言うだけで、適切な薬をその場で選んで出してくれることが多いです（軽い症状の場合）。",
-    "dosList": ["Memorize 'Mujhe dard hai' (I have pain) as it is universally understood."],
+    "dosList": [
+      "Memorize 'Mujhe dard hai' (I have pain) as it is universally understood."
+    ],
     "dontsList": []
   },
   "summary": "【体調】Mujhe (症状) hai = 私に〇〇がある\n【痛み】Dard (痛み)\n【助け】Madad keejiye = 助けてください\n【呼ぶ】(人) ko bulaaiye = 〇〇を呼んでください",

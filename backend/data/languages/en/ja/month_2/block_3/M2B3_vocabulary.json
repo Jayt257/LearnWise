@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "Yesterday", "Today", "Tomorrow", "Weekend", "Trip / Travel", 
-    "Hot spring", "Movie", "Difficult", "Easy / Kind", "Fun / Enjoyable", 
-    "Boring", "Hot (weather/things)", "Cold (weather)", "Cold (things to touch)", "Busy", 
-    "Free (not busy)", "Healthy / Energetic", "Test / Exam", "Job / Work", "Very", 
-    "Not very", "Not at all", "Delicious", "Disgusting / Bad tasting", "Was fun", 
-    "Want to go", "Want to eat", "Want to see / watch", "How?", "Was (Past)"
+    "Yesterday",
+    "Today",
+    "Tomorrow",
+    "Weekend",
+    "Trip / Travel",
+    "Hot spring",
+    "Movie",
+    "Difficult",
+    "Easy / Kind",
+    "Fun / Enjoyable",
+    "Boring",
+    "Hot (weather/things)",
+    "Cold (weather)",
+    "Cold (things to touch)",
+    "Busy",
+    "Free (not busy)",
+    "Healthy / Energetic",
+    "Test / Exam",
+    "Job / Work",
+    "Very",
+    "Not very",
+    "Not at all",
+    "Delicious",
+    "Disgusting / Bad tasting",
+    "Was fun",
+    "Want to go",
+    "Want to eat",
+    "Want to see / watch",
+    "How?",
+    "Was (Past)"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does きのう (Kinou) mean?",
       "questionType": "multiple_choice",
-      "options": ["Today", "Tomorrow", "Yesterday", "Weekend"],
+      "options": [
+        "Today",
+        "Tomorrow",
+        "Yesterday",
+        "Weekend"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does むずかしい (Muzukashii) mean?",
       "questionType": "multiple_choice",
-      "options": ["Easy", "Difficult", "Fun", "Boring"],
+      "options": [
+        "Easy",
+        "Difficult",
+        "Fun",
+        "Boring"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "Which word means 'Cold (for weather)'?",
       "questionType": "multiple_choice",
-      "options": ["あつい (Atsui)", "さむい (Samui)", "つめたい (Tsumetai)", "ひま (Hima)"],
+      "options": [
+        "あつい (Atsui)",
+        "さむい (Samui)",
+        "つめたい (Tsumetai)",
+        "ひま (Hima)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "How do you say 'Want to eat'?",
       "questionType": "multiple_choice",
-      "options": ["たべたい (Tabetai)", "いきたい (Ikitai)", "みたい (Mitai)", "たべた (Tabeta)"],
+      "options": [
+        "たべたい (Tabetai)",
+        "いきたい (Ikitai)",
+        "みたい (Mitai)",
+        "たべた (Tabeta)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does あまり (Amari) mean?",
       "questionType": "multiple_choice",
-      "options": ["Very", "Not very", "Not at all", "Quickly"],
+      "options": [
+        "Very",
+        "Not very",
+        "Not at all",
+        "Quickly"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What is the past tense of 'Tanoshii' (Fun)?",
       "questionType": "multiple_choice",
-      "options": ["たのしかったです (Tanoshikatta desu)", "たのしいでした (Tanoshii deshita)", "たのしくなかったです (Tanoshikunakatta desu)", "たのしかったです (Tanoshii desu)"],
+      "options": [
+        "たのしかったです (Tanoshikatta desu)",
+        "たのしいでした (Tanoshii deshita)",
+        "たのしくなかったです (Tanoshikunakatta desu)",
+        "たのしかったです (Tanoshii desu)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What does ひま (Hima) mean?",
       "questionType": "multiple_choice",
-      "options": ["Busy", "Fun", "Free (not busy)", "Difficult"],
+      "options": [
+        "Busy",
+        "Fun",
+        "Free (not busy)",
+        "Difficult"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "Translate: 'Want to see/watch'.",
       "questionType": "multiple_choice",
-      "options": ["たべたい (Tabetai)", "いきたい (Ikitai)", "みたい (Mitai)", "のみたい (Nomitai)"],
+      "options": [
+        "たべたい (Tabetai)",
+        "いきたい (Ikitai)",
+        "みたい (Mitai)",
+        "のみたい (Nomitai)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "Which word is a na-adjective?",
       "questionType": "multiple_choice",
-      "options": ["むずかしい (Muzukashii)", "たのしい (Tanoshii)", "げんき (Genki)", "あつい (Atsui)"],
+      "options": [
+        "むずかしい (Muzukashii)",
+        "たのしい (Tanoshii)",
+        "げんき (Genki)",
+        "あつい (Atsui)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "What does つまらない (Tsumaranai) mean?",
       "questionType": "multiple_choice",
-      "options": ["Fun", "Difficult", "Boring", "Cold"],
+      "options": [
+        "Fun",
+        "Difficult",
+        "Boring",
+        "Cold"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,14 @@
       "w030": "Was (Past)"
     },
     "acceptedTranslations": {
-      "w009": ["Easy", "Kind"],
-      "w010": ["Fun", "Enjoyable"]
+      "w009": [
+        "Easy",
+        "Kind"
+      ],
+      "w010": [
+        "Fun",
+        "Enjoyable"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m2/b3/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m2/b3/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m2/b3/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m2/b3/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "きのう。きょう。あした。しゅうまつ。りょこう。おんせん。えいが。むずかしい。やさしい。たのしい。つまらない。あつい。さむい。つめたい。いそがしい。ひま。げんき。テスト。しごと。とても。あまり。ぜんぜん。おいしい。まずい。たのしかった。いきたい。たべたい。みたい。どう。でした。",
     "audioLanguage": "ja",
     "audioDuration": 360,

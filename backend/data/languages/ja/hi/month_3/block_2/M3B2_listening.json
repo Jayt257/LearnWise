@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M3B2_writing_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_writing_001"
+  ],
   "instructions": "ラージのお母さんが、家族にいろいろな指示や会話をしています。流れるような早口の中で「2つくっついた動詞」を聞き取り、前の動詞が『メインの意味』、後ろの動詞が『ニュアンスと文型』であることを体感してください。",
   "contentItems": [
     {
@@ -57,7 +59,10 @@
       "questionId": "q1",
       "questionText": "お母さんがケンに「中へ入って」と促す時、Aa (来る) の後に聞こえたサポート動詞(V2)は何でしたか？",
       "questionType": "multiple_choice",
-      "options": ["jaao (行け ※完了のニュアンス)", "do (あげて)"],
+      "options": [
+        "jaao (行け ※完了のニュアンス)",
+        "do (あげて)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -65,7 +70,10 @@
       "questionId": "q2",
       "questionText": "お母さんがラージに「本を読んで」と言う時、「Paḍh + 〇〇」と言います。〇〇は何の音でしたか？",
       "questionType": "multiple_choice",
-      "options": ["lo", "do"],
+      "options": [
+        "lo",
+        "do"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -73,7 +81,10 @@
       "questionId": "q3",
       "questionText": "ラージは「明日読むよ」と返します。自分が読むので最後は男性形未来(oongaa)になりますが、「Paḍh」と「oongaa」の間にはどのサポート動詞の根っこが挟まっていましたか？",
       "questionType": "multiple_choice",
-      "options": ["l (lenaaから来て loongaa となる)", "j (jaanaaから来て jaaoongaa となる)"],
+      "options": [
+        "l (lenaaから来て loongaa となる)",
+        "j (jaanaaから来て jaaoongaa となる)"
+      ],
       "audioTimestamp": "00:13",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -81,7 +92,10 @@
       "questionId": "q4",
       "questionText": "お母さんが「アニタにあの話を教えてあげてね」と言う時、Bataa (教える) の後ろに聞こえたのは、Denaa / Lenaa どちらのサポート動詞系の音でしたか？",
       "questionType": "multiple_choice",
-      "options": ["Denaa (デナー) 系", "Lenaa (レナー) 系"],
+      "options": [
+        "Denaa (デナー) 系",
+        "Lenaa (レナー) 系"
+      ],
       "audioTimestamp": "00:17",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -110,11 +124,21 @@
       "q5": "男性用"
     },
     "acceptedShortAnswers": {
-      "q5": ["男性用", "男", "男性", "Male", "male"]
+      "q5": [
+        "男性用",
+        "男",
+        "男性",
+        "Male",
+        "male"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["男", "Male", "male"]
+      "q5": [
+        "男",
+        "Male",
+        "male"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -127,18 +151,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b2/listening/dialogue_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b2/listening/dialogue_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b2/listening/dialogue_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj kee maan: Ken beṭaa, andar aa jaao. Yahaan baiṭh jaao... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "compounds", "directionality", "nuance", "month3", "block2"],
+  "tags": [
+    "listening",
+    "compounds",
+    "directionality",
+    "nuance",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -150,7 +181,9 @@
     "Thinking 'doongaa' is a completely newly learned verb rather than the future tense of 'denaa'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

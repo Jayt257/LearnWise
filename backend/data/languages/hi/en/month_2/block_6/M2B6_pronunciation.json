@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B6_lesson_001"],
+  "prerequisites": [
+    "en_hi_M2B6_lesson_001"
+  ],
   "instructions": "In English, HOW you say something is just as important as what you say. If your voice is flat and loud, you sound angry! When you ask a polite question ('Could you...'), your voice should go UP at the end of the sentence. Listen to the audio and copy the joyful, rising pitch!",
   "contentItems": [
     {
@@ -206,19 +208,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b6/pronunciation/native_polite.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b6/pronunciation/slow_polite.mp3",
-    "normalAudio": "audio/en_hi/m2/b6/pronunciation/native_polite.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Could you help me? Excuse me...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "intonation", "pitch", "politeness", "beginner"],
+  "tags": [
+    "pronunciation",
+    "intonation",
+    "pitch",
+    "politeness",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -230,7 +238,9 @@
     "Using a flat, descending tone for requests, which encodes aggression in English."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

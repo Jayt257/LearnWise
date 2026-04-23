@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M1B1_reading_001"],
+  "prerequisites": [
+    "en_hi_M1B1_reading_001"
+  ],
   "instructions": "Now it is your turn to write! Imagine you are meeting a new English pen-pal on the internet. Write a short paragraph introducing yourself. You must say hello, state your name, state where you are from, mention how you are feeling, and say goodbye. You must write at least 80 words. Use the Word Bank for help with spelling.",
   "contentItems": [
     {
@@ -133,11 +135,11 @@
     "onPartial": "Good! However, you may have missed some punctuation rules or used a slightly awkward translated sentence. Review the Model Output and try once more."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b1/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b1/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b1/writing/sample_answer.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write a self-introduction paragraph meeting a new pen-pal.",
@@ -145,7 +147,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "introduction", "svo", "capitalization", "greetings"],
+  "tags": [
+    "writing",
+    "introduction",
+    "svo",
+    "capitalization",
+    "greetings"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -158,7 +166,9 @@
     "Forgetting to put a space after periods."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B1_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M1B1_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

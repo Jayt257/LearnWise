@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B4_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M2B4_lesson_001"
+  ],
   "instructions": "誰のものかを表す言葉の発音練習です！特に「Tumhaaraa (君の)」は、真ん中にある「H (ハ)」の息の音を出すのが最初は少し難しく感じるかもしれません。",
   "contentItems": [
     {
@@ -97,19 +99,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b4/pronunciation/native_possess.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b4/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b4/pronunciation/slow_possess.mp3",
-    "normalAudio": "audio/ja_hi/m2/b4/pronunciation/native_possess.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Meraa. Meree. Tumhaaraa. Aapkee gaadee. Mere pitaa jee.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "possession", "vowels", "declensions", "month2", "block4"],
+  "tags": [
+    "pronunciation",
+    "possession",
+    "vowels",
+    "declensions",
+    "month2",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -121,7 +130,9 @@
     "Pronouncing 'Tumhaaraa' as 'Toom-haa-raa' instead of 'Toom' with a quick transition to 'H'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B4_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B4_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B4_reading_001"],
+  "prerequisites": [
+    "en_hi_M3B4_reading_001"
+  ],
   "instructions": "A tourist from another country is trying to speak English, but he is directly translating his native language. Because of this, he sounds VERY rude and aggressive to the locals! Rewrite his 3 sentences to make him sound like a polite, fluent English speaker.",
   "contentItems": [
     {
@@ -85,7 +87,11 @@
     "acceptableAlternates": [
       "Excuse me, where is the hotel? I will have tea. How much is this?"
     ],
-    "requiredKeywords": ["excuse me", "would like", "how much"],
+    "requiredKeywords": [
+      "excuse me",
+      "would like",
+      "how much"
+    ],
     "grammarBaseline": "Absolute zero tolerance for 'I want' in a service context or 'Hey' applied to an unacquainted stranger.",
     "lengthExpectation": "3 sentences.",
     "scoringRubric": {
@@ -102,19 +108,25 @@
     "onPartial": "Good start! Double check Sentence 3. Asking 'What is the price/cost' is not technically wrong, but it sounds very strange and robotic. A native speaker will ALWAYS ask 'How much is this?'"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b4/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b4/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b4/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/en_hi/m3/b4/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Fix the Rude Tourist's sentences: Hey you, where is the hotel? I want tea. What is the price of this?",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "survival_english", "polite_requests", "capstone", "block4"],
+  "tags": [
+    "writing",
+    "survival_english",
+    "polite_requests",
+    "capstone",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -126,7 +138,9 @@
     "Retaining 'Give me' or 'I want' due to literal Hindi 'मुझे चाय चाहिए' translations."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B4_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M3B4_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

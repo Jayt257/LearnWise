@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B4_listening_001"],
+  "prerequisites": [
+    "en_hi_M1B4_listening_001"
+  ],
   "instructions": "Study these 15 vocabulary words. Focus heavily on learning WHICH question word to use for people, places, and things. Notice that every day of the week must be Capitalized. Once comfortable, complete the 10 questions below.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "If you want to know a person's name, which word do you use?",
       "questionType": "multiple_choice",
-      "options": ["What", "Where", "Who", "When"],
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "When"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Fill in the blank: '____ are you from?'",
       "questionType": "multiple_choice",
-      "options": ["Who", "Why", "When", "Where"],
+      "options": [
+        "Who",
+        "Why",
+        "When",
+        "Where"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Which English word means '40'?",
       "questionType": "multiple_choice",
-      "options": ["Fourteen", "Four", "Forty", "Fourty"],
+      "options": [
+        "Fourteen",
+        "Four",
+        "Forty",
+        "Fourty"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: Days of the week in English do NOT need a capital letter.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,48 @@
       "questionId": "q7",
       "questionText": "What comes after Tuesday?",
       "questionType": "multiple_choice",
-      "options": ["Monday", "Wednesday", "Thursday", "Sunday"],
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Sunday"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Translate 'तीस' to English.",
       "questionType": "multiple_choice",
-      "options": ["Thirteen", "Three", "Thirty", "Thirtin"],
+      "options": [
+        "Thirteen",
+        "Three",
+        "Thirty",
+        "Thirtin"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "Which word do you use to ask about a time or date?",
       "questionType": "multiple_choice",
-      "options": ["Who", "What", "When", "Where"],
+      "options": [
+        "Who",
+        "What",
+        "When",
+        "Where"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "How do you spell Thursday?",
       "questionType": "multiple_choice",
-      "options": ["Tursday", "Thirsday", "Thursday", "Thuresday"],
+      "options": [
+        "Tursday",
+        "Thirsday",
+        "Thursday",
+        "Thuresday"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +330,14 @@
       "w15": "चालीस"
     },
     "acceptedTranslations": {
-      "w07": ["Wednesday", "wednesday"],
-      "w04": ["When", "when"]
+      "w07": [
+        "Wednesday",
+        "wednesday"
+      ],
+      "w04": [
+        "When",
+        "when"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +363,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b4/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b4/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b4/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b4/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b4/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Who. What. Where. When. Monday...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "questions", "numbers", "calendar", "month1", "block4"],
+  "tags": [
+    "vocabulary",
+    "questions",
+    "numbers",
+    "calendar",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +394,9 @@
     "Using Who to ask about an object instead of What."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B4_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M1B4_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B1_lesson_001"],
+  "prerequisites": [
+    "en_hi_M2B1_lesson_001"
+  ],
   "instructions": "When we describe something in English, we want to make the description obvious! We usually put a little more force (stress) on the ADJECTIVE than the noun. Listen to how the speaker says 'A BIG car', not 'a big CAR'. Repeat these 15 common descriptions.",
   "contentItems": [
     {
@@ -206,19 +208,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m2/b1/pronunciation/native_adjectives.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b1/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m2/b1/pronunciation/slow_adjectives.mp3",
-    "normalAudio": "audio/en_hi/m2/b1/pronunciation/native_adjectives.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "A BIG car. A SMALL dog...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "adjectives", "stress", "intonation", "beginner"],
+  "tags": [
+    "pronunciation",
+    "adjectives",
+    "stress",
+    "intonation",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +239,9 @@
     "Stressing the Noun instead of the Adjective (e.g. A big CAR)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B1_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M2B1_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

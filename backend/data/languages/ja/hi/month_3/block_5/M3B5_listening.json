@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M3B5_writing_001"],
+  "prerequisites": [
+    "ja_hi_M3B5_writing_001"
+  ],
   "instructions": "パニック状態の会話を聞き取ります。「どこが痛いのか(Dard)」と「誰を呼んでほしいのか(Bulaaiye)」という情報を瞬時に引き出してください。",
   "contentItems": [
     {
@@ -57,7 +59,10 @@
       "questionId": "q1",
       "questionText": "ラージは最初に何と言ってアニタに助けを求めましたか？(〇〇 keejiye!)",
       "questionType": "multiple_choice",
-      "options": ["Maaf (許し)", "Madad (助け)"],
+      "options": [
+        "Maaf (許し)",
+        "Madad (助け)"
+      ],
       "audioTimestamp": "00:03",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -65,7 +70,10 @@
       "questionId": "q2",
       "questionText": "アニタが「ここはどこ？」と聞いたあと、ラージは高熱(tez bukhaar)があると答えました。彼はどこにいますか？",
       "questionType": "multiple_choice",
-      "options": ["ホテル (hoṭal)", "駅 (station)"],
+      "options": [
+        "ホテル (hoṭal)",
+        "駅 (station)"
+      ],
       "audioTimestamp": "00:07",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -73,7 +81,10 @@
       "questionId": "q3",
       "questionText": "「どこか痛い？」と聞かれたラージは、自分のどこに痛み(dard)があると言いましたか？",
       "questionType": "multiple_choice",
-      "options": ["お腹 (peṭ)", "頭 (sir)"],
+      "options": [
+        "お腹 (peṭ)",
+        "頭 (sir)"
+      ],
       "audioTimestamp": "00:12",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -81,7 +92,10 @@
       "questionId": "q4",
       "questionText": "ラージは最後に「Jaldee (早く) 〇〇を呼んで(Bulaaiye)！」と必死に頼みます。誰を呼んでほしいと言いましたか？",
       "questionType": "multiple_choice",
-      "options": ["警察 (Pulis)", "医者 (Ḍaakṭar)"],
+      "options": [
+        "警察 (Pulis)",
+        "医者 (Ḍaakṭar)"
+      ],
       "audioTimestamp": "00:15",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
@@ -110,11 +124,17 @@
       "q5": "dard"
     },
     "acceptedShortAnswers": {
-      "q5": ["dard", "Dard", "DARD"]
+      "q5": [
+        "dard",
+        "Dard",
+        "DARD"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q5": ["dard"]
+      "q5": [
+        "dard"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -127,18 +147,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b5/listening/sos_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b5/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b5/listening/sos_slow.mp3",
-    "normalAudio": "audio/ja_hi/m3/b5/listening/sos_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Raaj: Aneeta, madad keejiye! Meree tabeeyat bahut kharaab hai... (Matches full transcript)",
     "audioLanguage": "hi",
     "audioDuration": 60,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "health", "emergencies", "sos", "month3", "block5"],
+  "tags": [
+    "listening",
+    "health",
+    "emergencies",
+    "sos",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -150,7 +177,9 @@
     "Mishearing 'Sir' (Head) as the English title 'Sir', completely changing the meaning of the symptom."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B5_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B5_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

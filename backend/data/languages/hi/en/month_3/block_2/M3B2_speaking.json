@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B2_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M3B2_vocabulary_001"
+  ],
   "instructions": "You are talking to your roommate, Amit. You are checking off a list of chores. Answer him ALOUD. Make sure you use the 'Present Perfect' tense (Have/Has + V3) to talk about the things you have already finished!",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "अमित: 'Have you cleaned the room?' (क्या तुमने कमरा साफ कर लिया है?) जवाब दें: 'हाँ, मैंने कमरा साफ कर लिया है।' (Yes, I have...)",
-      "expectedSpeakingPoints": ["Yes", "I have cleaned", "the room"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "I have cleaned",
+        "the room"
+      ],
       "sampleResponse": {
         "targetText": "Yes, I have cleaned the room.",
         "transliteration": "येस, आई हैव क्लीन्ड द रूम।",
@@ -35,7 +41,10 @@
     {
       "subTaskId": "t2",
       "prompt": "अमित: 'Great. And what about your homework? Did you do it?' (बढ़िया। और तुम्हारे होमवर्क के बारे में क्या? क्या तुमने इसे किया?) जवाब दें: 'मैंने अपना होमवर्क कर लिया है।' (I have... done)",
-      "expectedSpeakingPoints": ["I have done", "my homework"],
+      "expectedSpeakingPoints": [
+        "I have done",
+        "my homework"
+      ],
       "sampleResponse": {
         "targetText": "I have done my homework.",
         "transliteration": "आई हैव डन माई होमवर्क।",
@@ -45,7 +54,10 @@
     {
       "subTaskId": "t3",
       "prompt": "अमित: 'Where is John? Is he here?' (जॉन कहाँ है? क्या वह यहाँ है?) जवाब दें: 'नहीं, वह जा चुका है।' (No, he has... gone)",
-      "expectedSpeakingPoints": ["No", "he has gone"],
+      "expectedSpeakingPoints": [
+        "No",
+        "he has gone"
+      ],
       "sampleResponse": {
         "targetText": "No, he has gone.",
         "transliteration": "नो, ही हैज़ गॉन।",
@@ -55,7 +67,11 @@
     {
       "subTaskId": "t4",
       "prompt": "अमित: 'Did John eat his food before he went?' (क्या जॉन ने जाने से पहले अपना खाना खाया था?) जवाब दें: 'हाँ, उसने अपना खाना खा लिया है।' (Yes, he has... eaten)",
-      "expectedSpeakingPoints": ["Yes", "he has eaten", "his food"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "he has eaten",
+        "his food"
+      ],
       "sampleResponse": {
         "targetText": "Yes, he has eaten his food.",
         "transliteration": "येस, ही हैज़ ईटन हिज़ फूड।",
@@ -65,7 +81,11 @@
     {
       "subTaskId": "t5",
       "prompt": "अमित: 'Okay, what about the emails? Did you write them?' (ठीक है, ईमेल के बारे में क्या? क्या तुमने उन्हें लिखा?) जवाब दें: 'हाँ, मैंने ईमेल लिख लिए हैं।' (Yes, I have... written)",
-      "expectedSpeakingPoints": ["Yes", "I have written", "the emails"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "I have written",
+        "the emails"
+      ],
       "sampleResponse": {
         "targetText": "Yes, I have written the emails.",
         "transliteration": "येस, आई हैव रिटन द ईमेल्स।",
@@ -150,19 +170,27 @@
     "onPartial": "Good try! You did great with 'I have', but watch out for 'He'. When talking about John, you MUST say 'He HAS gone', never 'He have gone'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m3/b2/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m3/b2/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m3/b2/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m3/b2/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m3/b2/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Amit: Have you cleaned the room?... (full dialogue)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "present_perfect", "have", "has", "irregular_verbs", "block2"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "present_perfect",
+    "have",
+    "has",
+    "irregular_verbs",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -175,7 +203,9 @@
     "Failing to shift to 'has' for the third person singular 'He'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_test_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

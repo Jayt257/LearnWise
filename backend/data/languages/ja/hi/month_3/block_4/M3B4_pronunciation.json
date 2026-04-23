@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B4_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M3B4_lesson_001"
+  ],
   "instructions": "方向や場所を表す単語の中には、鼻にかけて「〜ン」と伸ばす音（鼻母音）が含まれています。はっきりと「ン」と発音するのではなく、口から息を抜きながら鼻を響かせる練習をしましょう。",
   "contentItems": [
     {
@@ -97,19 +99,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b4/pronunciation/native_travel_pron.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b4/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b4/pronunciation/slow_travel_pron.mp3",
-    "normalAudio": "audio/ja_hi/m3/b4/pronunciation/native_travel_pron.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Kahaan. Baaen. Daaen. Seedhe jaaiye. Mahangaa.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "travel", "nasals", "directions", "month3", "block4"],
+  "tags": [
+    "pronunciation",
+    "travel",
+    "nasals",
+    "directions",
+    "month3",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -121,7 +130,9 @@
     "Pronouncing 'Mahangaa' heavily with a hard 'ng' like 'Man-go'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B4_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B4_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

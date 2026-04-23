@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B3_reading_001"],
+  "prerequisites": [
+    "ja_hi_M2B3_reading_001"
+  ],
   "instructions": "未来への約束を書く時間です！Month 1 の習慣（Taa/Tee）は捨て、To be動詞（Hoon/Hai など）も捨てて、動詞の語幹と特別な語尾を合体させましょう。",
   "contentItems": [
     {
@@ -123,7 +125,19 @@
       "main kal kaam karoongee vah kitaab padhegaa kyaa aap jaapaan jaaenge",
       "मैं कल काम करूँगी वह किताब पढ़ेगा क्या आप जापान जाएँगे"
     ],
-    "requiredKeywords": ["मैं", "कल", "काम", "करूँगी", "वह", "किताब", "पढ़ेगा", "क्या", "आप", "जापान", "जाएँगे"],
+    "requiredKeywords": [
+      "मैं",
+      "कल",
+      "काम",
+      "करूँगी",
+      "वह",
+      "किताब",
+      "पढ़ेगा",
+      "क्या",
+      "आप",
+      "जापान",
+      "जाएँगे"
+    ],
     "grammarBaseline": "Copula rejection is the absolute strictest criteria here. 'Hoon', 'Hai', and 'Hain' must be completely absent.",
     "lengthExpectation": "Exactly 3 concise synthetic sentences.",
     "scoringRubric": {
@@ -138,19 +152,27 @@
     "onPartial": "惜しいところがあります。第1文の「Karoongee (私が女性の場合)」と、第2文の「Padhegaa (彼が男性の場合)」で、Oongaa 系と Egaa 系の違いを正しく使えていますか？誰が主語かによって形が少し違います。"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b3/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b3/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b3/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m2/b3/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Write 3 future tense sentences applying differing synthetic conjugations based on the subject.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "tags": [
+    "writing",
+    "grammar",
+    "verbs",
+    "future_tense",
+    "conjugation",
+    "month2",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -162,7 +184,9 @@
     "Writing 'Aap kyaa Jaapaan jaaenge?' placing Kyaa in the middle, which changes the meaning to 'What Japan will you go to?' instead of 'Will you go to Japan?'"
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B3_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B3_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

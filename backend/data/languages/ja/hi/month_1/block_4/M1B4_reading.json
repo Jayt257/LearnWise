@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B4_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M1B4_pronunciation_001"
+  ],
   "instructions": "ラージが部屋の中で探し物をしています。どこに何があるのか、ヒンディー語の「助詞（〜の中で、〜の上で）」を手がかりに読み解いてください。",
   "contentItems": [
     {
@@ -111,14 +113,21 @@
       "questionId": "q1",
       "questionText": "ラージの本 (Kitaab) はどこにありますか？",
       "questionType": "multiple_choice",
-      "options": ["家の中 (Ghar mein)", "机の上 (Mez par)", "日本 (Jaapaan)"],
+      "options": [
+        "家の中 (Ghar mein)",
+        "机の上 (Mez par)",
+        "日本 (Jaapaan)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "犬 (Kuttaa) はどこにいますか？",
       "questionType": "multiple_choice",
-      "options": ["机の上 (Mez par)", "家の中 (Ghar mein)"],
+      "options": [
+        "机の上 (Mez par)",
+        "家の中 (Ghar mein)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
@@ -132,14 +141,21 @@
       "questionId": "q4",
       "questionText": "友達は「今(Abhee)」、どの都市の「中に(Mein)」いますか？",
       "questionType": "multiple_choice",
-      "options": ["東京 (Tokyo)", "日本 (Jaapaan)"],
+      "options": [
+        "東京 (Tokyo)",
+        "日本 (Jaapaan)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "ヒンディー語の 'par' は、日本語の何にあたりますか？",
       "questionType": "multiple_choice",
-      "options": ["〜の中に", "〜の上に", "〜から"],
+      "options": [
+        "〜の中に",
+        "〜の上に",
+        "〜から"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     }
   ],
@@ -153,10 +169,17 @@
       "q5": "〜の上に"
     },
     "acceptableParaphrases": {
-      "q3": ["Jaapaan", "jaapaan", "ジャパン", "にほん"]
+      "q3": [
+        "Jaapaan",
+        "jaapaan",
+        "ジャパン",
+        "にほん"
+      ]
     },
     "keywordScoringRules": {
-      "q3": ["日本"]
+      "q3": [
+        "日本"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner correlates postpositions (mein, par, se) directly to Japanese locational particles to extract meaning."
@@ -171,18 +194,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b4/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b4/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b4/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m1/b4/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Yah mera kamraa hai. Meri kitaab mez par hai... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 180,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "postpositions", "locations", "particles", "month1", "block4"],
+  "tags": [
+    "reading",
+    "postpositions",
+    "locations",
+    "particles",
+    "month1",
+    "block4"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -194,7 +224,9 @@
     "Translating 'Tokyo mein' as 'From Tokyo' instead of 'In Tokyo'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B4_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B4_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

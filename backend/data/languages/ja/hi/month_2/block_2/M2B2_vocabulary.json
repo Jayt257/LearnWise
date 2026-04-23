@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B2_listening_001"],
+  "prerequisites": [
+    "ja_hi_M2B2_listening_001"
+  ],
   "instructions": "超重要単語リストです。ヒンディー語で過去形を使う時、動詞が「〜を (対象物)」を必要とする場合は『ネ(Ne)』がつきます。対象物が存在しない動詞には『ネ』がつきません。これを見分けましょう！",
   "contentItems": [
     {
@@ -148,35 +150,50 @@
       "questionId": "q1",
       "questionText": "Match the Hindi past tense verb to its meaning: Kiyaa (किया)",
       "questionType": "matching",
-      "options": ["見た", "した"],
+      "options": [
+        "見た",
+        "した"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Match the Hindi pronoun to its Japanese equivalent: Maine (मैंने)",
       "questionType": "matching",
-      "options": ["彼が", "私が"],
+      "options": [
+        "彼が",
+        "私が"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Does the verb 'Gayaa / Gayee (行った)' require the 'Ne' particle?",
       "questionType": "matching",
-      "options": ["Ne は必要ない (Intransitive)", "Ne が必要 (Transitive)"],
+      "options": [
+        "Ne は必要ない (Intransitive)",
+        "Ne が必要 (Transitive)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "Does the action 'Dekhaa (見た)' require the 'Ne' particle?",
       "questionType": "matching",
-      "options": ["Ne は必要ない", "Ne が必要 (テレビ『を』見る)"],
+      "options": [
+        "Ne は必要ない",
+        "Ne が必要 (テレビ『を』見る)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "Match the Hindi past tense verb to its meaning: Pee (पी)",
       "questionType": "matching",
-      "options": ["飲んだ", "読んだ"],
+      "options": [
+        "飲んだ",
+        "読んだ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
     }
   ],
@@ -213,18 +230,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b2/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b2/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m2/b2/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m2/b2/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Kiyaa. Dekhaa. Khaayaa. Paḍhee. Pee. Gayaa. Gayee. Soyaa. Maine. Usne.",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "past_tense", "ergative", "transitive", "intransitive", "month2", "block2"],
+  "tags": [
+    "vocabulary",
+    "past_tense",
+    "ergative",
+    "transitive",
+    "intransitive",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -236,7 +261,9 @@
     "Attaching 'Ne' to the Intransitive 'Gayaa' resulting in the non-sensical 'Maine Gayaa' (I-ne went)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B2_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B2_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

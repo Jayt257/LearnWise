@@ -21,7 +21,12 @@
   "instructions": "Block 2 の確認テストです！ヒンディー語で最も難しい「Ne (ネ) の壁」を超えられたかを試します。自分が男性か女性かは忘れ、対象物（りんご、本）によって動詞を変化させましょう。",
   "testTitle": "Block 2 確認テスト (The Ergative Shift)",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "coveredActivityTypes": [
+    "lesson",
+    "pronunciation",
+    "writing",
+    "vocabulary"
+  ],
   "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
   "questionSections": [
     {
@@ -33,7 +38,10 @@
           "questionId": "q001",
           "questionText": "次の中で「Ne」の助詞が必要になるのはどの動詞の時ですか？",
           "questionType": "multiple_choice",
-          "options": ["行く / Jaanaa (対象物なし)", "食べる / Khaanaa (『〜を』などの対象物が必要)"],
+          "options": [
+            "行く / Jaanaa (対象物なし)",
+            "食べる / Khaanaa (『〜を』などの対象物が必要)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +51,10 @@
           "questionId": "q002",
           "questionText": "主語に「Ne」がついた時、動詞の性別（男性形にするか女性形にするか）はどうやって決まりますか？",
           "questionType": "multiple_choice",
-          "options": ["動詞の直前にある『行動の対象となるモノ』の性別で決まる", "話している本人の性別で決まる"],
+          "options": [
+            "動詞の直前にある『行動の対象となるモノ』の性別で決まる",
+            "話している本人の性別で決まる"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +64,11 @@
           "questionId": "q003",
           "questionText": "「Main(私)」と「Ne(が)」を組み合わせた正しい単語はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["Mein (メイン)", "Maine (メンネ)", "Main ne (メイン・ネ)"],
+          "options": [
+            "Mein (メイン)",
+            "Maine (メンネ)",
+            "Main ne (メイン・ネ)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +78,11 @@
           "questionId": "q004",
           "questionText": "男性が「私は日本へ行きました」と言う時、正しいのはどれですか？（行く=Jaanaa, 行った[男]=Gayaa）",
           "questionType": "multiple_choice",
-          "options": ["Main Jaapaan gayaa.", "Maine Jaapaan gayaa.", "Maine Jaapaan gayaa hai."],
+          "options": [
+            "Main Jaapaan gayaa.",
+            "Maine Jaapaan gayaa.",
+            "Maine Jaapaan gayaa hai."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +92,10 @@
           "questionId": "q005",
           "questionText": "True or False: 『Ne』を使って過去のできごとを話す時は、To Be動詞（Hoon・Hai・Hain）をつけずに動詞（Khaayaa等）で終わるのが普通である。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -92,7 +114,10 @@
           "questionId": "q006",
           "questionText": "Match the meaning: Kiyaa (किया)",
           "questionType": "multiple_choice",
-          "options": ["した (するの過去)", "見た (見るの過去)"],
+          "options": [
+            "した (するの過去)",
+            "見た (見るの過去)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -102,7 +127,10 @@
           "questionId": "q007",
           "questionText": "Match the meaning: Paḍhee (पढ़ी)",
           "questionType": "multiple_choice",
-          "options": ["読んだ (読むの過去・女性形)", "書いた (書くの過去・女性形)"],
+          "options": [
+            "読んだ (読むの過去・女性形)",
+            "書いた (書くの過去・女性形)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -112,7 +140,10 @@
           "questionId": "q008",
           "questionText": "「昨日」を意味する単語はどれですか？",
           "questionType": "multiple_choice",
-          "options": ["आज (Aaj)", "कल (Kal)"],
+          "options": [
+            "आज (Aaj)",
+            "कल (Kal)"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -122,7 +153,11 @@
           "questionId": "q009",
           "questionText": "「Vah (彼女)」に「Ne」がつくと、どういう単語に変化しますか？",
           "questionType": "multiple_choice",
-          "options": ["Vahne", "Usne", "Oosne"],
+          "options": [
+            "Vahne",
+            "Usne",
+            "Oosne"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -151,7 +186,10 @@
           "questionId": "q011",
           "questionText": "「Maine ek kitaab paḍhee. (私は本を読んだ)」 話し手が女性であっても男性であっても、なぜ『Paḍhee（読んだ・女性形）』になるのですか？",
           "questionType": "multiple_choice",
-          "options": ["私が女性だから", "対象物である「本(Kitaab)」が女性名詞だから"],
+          "options": [
+            "私が女性だから",
+            "対象物である「本(Kitaab)」が女性名詞だから"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -161,7 +199,10 @@
           "questionId": "q012",
           "questionText": "「Tumne seb khaayaa. (君はりんごを食べた)」 『Khaayaa（食べた・男性形）』が選ばれているのは、りんご(Seb)が何名詞だからですか？",
           "questionType": "multiple_choice",
-          "options": ["男性名詞", "女性名詞"],
+          "options": [
+            "男性名詞",
+            "女性名詞"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -171,7 +212,10 @@
           "questionId": "q013",
           "questionText": "「Maine Kaam kiyaa. (私は仕事をした)」 仕事(Kaam)は男性名詞です。もしKaamが女性名詞だったとしたら、動詞はどう変化するはずですか？",
           "questionType": "multiple_choice",
-          "options": ["kiyaa", "kee"],
+          "options": [
+            "kiyaa",
+            "kee"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -191,7 +235,10 @@
           "questionId": "q015",
           "questionText": "True or False: 『Ne (ネ)』を使う文では、対象物の性別（本か、りんごか）さえ分かっていれば、会話相手が男性でも女性でも同じ動詞を使えば良い。",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -210,7 +257,11 @@
           "questionId": "q016",
           "questionText": "Translate: 「私はお茶(女)を飲みました。」",
           "questionType": "multiple_choice",
-          "options": ["Maine chaay pee.", "Main chaay peetee hoon.", "Maine chaay piyaa."],
+          "options": [
+            "Maine chaay pee.",
+            "Main chaay peetee hoon.",
+            "Maine chaay piyaa."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -220,7 +271,11 @@
           "questionId": "q017",
           "questionText": "Translate: 「彼(Vah)はテレビ(男)を見ました。」",
           "questionType": "multiple_choice",
-          "options": ["Usne ṭeevee dekhaa.", "Vah ṭeevee dekhaa.", "Usne ṭeevee dekhee."],
+          "options": [
+            "Usne ṭeevee dekhaa.",
+            "Vah ṭeevee dekhaa.",
+            "Usne ṭeevee dekhee."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -230,7 +285,11 @@
           "questionId": "q018",
           "questionText": "Translate: 「彼女は仕事(男)をしました。」 ※仕事をする=Kaam karnaa. 引っかけ注意！",
           "questionType": "multiple_choice",
-          "options": ["Usne kaam kee.", "Usne kaam kiyaa.", "Vah kaam kiyaa."],
+          "options": [
+            "Usne kaam kee.",
+            "Usne kaam kiyaa.",
+            "Vah kaam kiyaa."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -240,7 +299,11 @@
           "questionId": "q019",
           "questionText": "Fix the error (Masculine speaker): 'Maine Jaapaan gayaa.'",
           "questionType": "multiple_choice",
-          "options": ["Maine Jaapaan gayaa.", "Main Jaapaan gayaa.", "Main Jaapaan gayee."],
+          "options": [
+            "Maine Jaapaan gayaa.",
+            "Main Jaapaan gayaa.",
+            "Main Jaapaan gayee."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -302,9 +365,22 @@
     "scoringRubric": {},
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q010": ["pee", "Pee", "ピー"],
-      "q014": ["gayee", "Gayee", "gayi", "Gayi"],
-      "q020": ["昨日", "きのう", "yesterday"]
+      "q010": [
+        "pee",
+        "Pee",
+        "ピー"
+      ],
+      "q014": [
+        "gayee",
+        "Gayee",
+        "gayi",
+        "Gayi"
+      ],
+      "q020": [
+        "昨日",
+        "きのう",
+        "yesterday"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 20,
@@ -324,7 +400,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -333,7 +409,16 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "grammar", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "tags": [
+    "test",
+    "grammar",
+    "verbs",
+    "past_tense",
+    "ergative",
+    "ne",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -343,7 +428,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B3_lesson_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B3_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

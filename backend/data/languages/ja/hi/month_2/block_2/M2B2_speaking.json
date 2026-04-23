@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B2_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M2B2_vocabulary_001"
+  ],
   "instructions": "究極のスピーキングテストです！友達に「昨日何をしたか」を聞かれるので答えてください。話すとき、自分が男か女かは完全に忘れること。あなたが話す動詞は、直前にある『モノの性別』に支配されます！",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "友達: 'तुमने कल क्या खाया?' (君は昨日何を食べた？) 答え：「私[が]は、りんご(男)を食べた。」",
-      "expectedSpeakingPoints": ["Maine", "seb", "khaayaa"],
+      "expectedSpeakingPoints": [
+        "Maine",
+        "seb",
+        "khaayaa"
+      ],
       "sampleResponse": {
         "targetText": "मैंने सेब खाया।",
         "transliteration": "Maine seb khaayaa.",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "友達: 'क्या तुमने किताब पढ़ी?' (君は本(女)を読んだ？) 答え：「はい、私[が]は、本(女)を読んだ。」",
-      "expectedSpeakingPoints": ["Haan", "maine kitaab", "padhee"],
+      "expectedSpeakingPoints": [
+        "Haan",
+        "maine kitaab",
+        "padhee"
+      ],
       "sampleResponse": {
         "targetText": "हाँ, मैंने किताब पढ़ी।",
         "transliteration": "Haan, maine kitaab paḍhee.",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "友達: 'और तुमने क्या किया?' (そして君は何(男)をした？) 答え：「私[が]は、仕事(男)をした。」",
-      "expectedSpeakingPoints": ["Maine", "kaam", "kiyaa"],
+      "expectedSpeakingPoints": [
+        "Maine",
+        "kaam",
+        "kiyaa"
+      ],
       "sampleResponse": {
         "targetText": "मैंने काम किया।",
         "transliteration": "Maine kaam kiyaa.",
@@ -88,7 +102,14 @@
       "Maine kaam kiyaa"
     ],
     "requiredKeywords": [
-      "maine", "seb", "khaayaa", "haan", "kitaab", "padhee", "kaam", "kiyaa"
+      "maine",
+      "seb",
+      "khaayaa",
+      "haan",
+      "kitaab",
+      "padhee",
+      "kaam",
+      "kiyaa"
     ],
     "acceptableParaphrases": [
       "maine kal seb khaayaa"
@@ -107,19 +128,27 @@
     "onPartial": "よくお話しできています。動詞の変化（Khaayaa/Padhee）は合っていましたが、「Main」に「Ne」をくっつけた「Maine」の音が少し離れて（メン、ネ）になっています。一息で言いましょう！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b2/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m2/b2/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b2/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m2/b2/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m2/b2/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Friend: Tumne kal kyaa khaayaa?\nLearner: Maine seb khaayaa...\n(Matches full dialogue)",
     "audioLanguage": "hi",
     "audioDuration": 130,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "tags": [
+    "speaking",
+    "verbs",
+    "past_tense",
+    "ergative",
+    "ne",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -131,7 +160,9 @@
     "Reverting to Month 1 habit and saying 'Maine kitaab paḍhtaa hoon' combining all tenses together."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B2_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B2_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

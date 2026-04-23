@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B3_lesson_001"],
+  "prerequisites": [
+    "ja_hi_M1B3_lesson_001"
+  ],
   "instructions": "発音の練習です！ヒンディー語では、語尾の母音が「アー (aa)」であるか「イー (ee)」であるかが文法上非常に重要です。この母音を聞き間違えるだけで、名詞の「性別」が変わってしまいます。大きく口を動かして発音しましょう！",
   "contentItems": [
     {
@@ -107,19 +109,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b3/pronunciation/native_gender.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b3/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b3/pronunciation/slow_gender.mp3",
-    "normalAudio": "audio/ja_hi/m1/b3/pronunciation/native_gender.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Meraa. Meree. Kamraa. Gaaḍee. Baḍaa kamraa. Baḍee gaaḍee.",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "gender", "vowels", "adjectives", "month1", "block3"],
+  "tags": [
+    "pronunciation",
+    "gender",
+    "vowels",
+    "adjectives",
+    "month1",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -131,7 +140,9 @@
     "Shortening the final vowel so it is grammatically ambiguous (e.g. saying 'mere' instead of 'meraa/meree')."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B3_reading_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B3_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

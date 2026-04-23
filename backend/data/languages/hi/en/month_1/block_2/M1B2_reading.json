@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B2_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M1B2_pronunciation_001"
+  ],
   "instructions": "Read the story slowly. Notice how the writer uses 'I am', 'He is', 'She is', and 'They are' to describe different people. Also notice when the word 'not' is used. Answer the 8 questions at the bottom of the page.",
   "contentItems": [
     {
@@ -235,35 +237,58 @@
       "questionId": "q1",
       "questionText": "What does Rohan's father do?",
       "questionType": "multiple_choice",
-      "options": ["Teacher", "Doctor", "Engineer", "Student"],
+      "options": [
+        "Teacher",
+        "Doctor",
+        "Engineer",
+        "Student"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What pronoun is used to talk about Sunita (the mother)?",
       "questionType": "multiple_choice",
-      "options": ["He", "She", "It", "They"],
+      "options": [
+        "He",
+        "She",
+        "It",
+        "They"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "Fill in the blank: Amit is tall. _____ is not a doctor.",
       "questionType": "multiple_choice",
-      "options": ["He", "She", "It", "We"],
+      "options": [
+        "He",
+        "She",
+        "It",
+        "We"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: Priya is an engineer.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
       "questionId": "q5",
       "questionText": "What pronoun does the writer use to talk about the dog?",
       "questionType": "multiple_choice",
-      "options": ["He", "She", "It", "They"],
+      "options": [
+        "He",
+        "She",
+        "It",
+        "They"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
     {
@@ -277,14 +302,21 @@
       "questionId": "q7",
       "questionText": "According to the story, is learning English difficult?",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "What verb directly follows 'We' in this story?",
       "questionType": "multiple_choice",
-      "options": ["am", "is", "are"],
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -301,10 +333,19 @@
       "q8": "are"
     },
     "acceptableParaphrases": {
-      "q6": ["Amit and Priya", "They", "His friends", "Rohan's friends"]
+      "q6": [
+        "Amit and Priya",
+        "They",
+        "His friends",
+        "Rohan's friends"
+      ]
     },
     "keywordScoringRules": {
-      "q6": ["Amit", "Priya", "friends"]
+      "q6": [
+        "Amit",
+        "Priya",
+        "friends"
+      ]
     },
     "expectedSummaryPoints": [
       "Rohan describes his parents using He is and She is.",
@@ -322,18 +363,27 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m1/b2/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Hello! Good morning. My name is Rohan... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "pronouns", "to-be-verbs", "svo", "family", "friends", "month1", "block2"],
+  "tags": [
+    "reading",
+    "pronouns",
+    "to-be-verbs",
+    "svo",
+    "family",
+    "friends",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -346,7 +396,9 @@
     "Forgetting the negative 'not' when answering true/false questions."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

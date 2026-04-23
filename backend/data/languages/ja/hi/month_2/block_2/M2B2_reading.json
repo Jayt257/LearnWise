@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B2_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M2B2_pronunciation_001"
+  ],
   "instructions": "ラージ（男性）が、昨日アニタ（女性）と一緒に何をしたかを日記に書いています。ラージが書いているのに、動詞が「女性の形」になっていたり、その逆になっていたりする不思議な現象の謎（Neのルール）を解き明かしながら読んでください。",
   "contentItems": [
     {
@@ -116,28 +118,40 @@
       "questionId": "q1",
       "questionText": "ラージは男性なのに「本を読んだ (paḍhee)」という『女性形』の動詞を使っています。なぜですか？",
       "questionType": "multiple_choice",
-      "options": ["Maineの「Ne」のせいで、読んだ対象（本）が女性名詞であることに動詞が引きずられたから。", "ラージ自身の性別を間違えて書いているから。"],
+      "options": [
+        "Maineの「Ne」のせいで、読んだ対象（本）が女性名詞であることに動詞が引きずられたから。",
+        "ラージ自身の性別を間違えて書いているから。"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "アニタはお茶を「飲みました (pee)」。お茶(Chaay)は男性名詞ですか？女性名詞ですか？",
       "questionType": "multiple_choice",
-      "options": ["男性名詞", "女性名詞"],
+      "options": [
+        "男性名詞",
+        "女性名詞"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "「Usne ṭeevee dekhaa (彼女はテレビを見た)」。ここではアニタについて話していますが、動詞は「dekhaa (男性形)」になっています。それはテレビ(Teevee)が何名詞だからですか？",
       "questionType": "multiple_choice",
-      "options": ["男性名詞", "女性名詞"],
+      "options": [
+        "男性名詞",
+        "女性名詞"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "最初の文「アニタが家に来ました(aaee)」には、「ネ(ne)」がついていません。「行く(jaa)」「来る(aa)」「眠る(so)」のような動詞に「ネ」がつかないのはなぜですか？",
       "questionType": "multiple_choice",
-      "options": ["『〜を』という対象物（りんご、本など）が存在しない動詞だから。", "アニタが女性だから。"],
+      "options": [
+        "『〜を』という対象物（りんご、本など）が存在しない動詞だから。",
+        "アニタが女性だから。"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -158,10 +172,15 @@
       "q5": "Kal"
     },
     "acceptableParaphrases": {
-      "q5": ["Kal", "kal"]
+      "q5": [
+        "Kal",
+        "kal"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["kal"]
+      "q5": [
+        "kal"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner recognizes the object-verb agreement triggered by 'ne' (Kitaab -> Padhee, Teevee -> Dekhaa).",
@@ -177,18 +196,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m2/b2/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b2/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m2/b2/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m2/b2/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Kal Aneeta mere ghar aaee... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "grammar", "past_tense", "ergative", "ne", "month2", "block2"],
+  "tags": [
+    "reading",
+    "grammar",
+    "past_tense",
+    "ergative",
+    "ne",
+    "month2",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -200,7 +227,9 @@
     "Thinking 'Raj is using female verbs because he's talking to Anita' instead of realizing the Objects (book, tea) are grammatically feminine."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B2_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B2_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B5_listening_001"],
+  "prerequisites": [
+    "en_hi_M1B5_listening_001"
+  ],
   "instructions": "Study these 15 action verbs. Look carefully at how they are spelled. Pay very close attention to verbs that end in O, SH, or CH. They must get an '-es' for 'He/She/It'. Answer the 10 quiz questions.",
   "contentItems": [
     {
@@ -204,7 +206,12 @@
       "questionId": "q1",
       "questionText": "What is the third-person (He/She) spelling for the verb 'Go'?",
       "questionType": "multiple_choice",
-      "options": ["Gos", "Goes", "Go's", "Go"],
+      "options": [
+        "Gos",
+        "Goes",
+        "Go's",
+        "Go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
@@ -218,21 +225,34 @@
       "questionId": "q3",
       "questionText": "Which verb means to consume a liquid (पीना)?",
       "questionType": "multiple_choice",
-      "options": ["Eat", "Drink", "Walk", "Wash"],
+      "options": [
+        "Eat",
+        "Drink",
+        "Walk",
+        "Wash"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "What is the third-person (He/She) spelling for the verb 'Watch'?",
       "questionType": "multiple_choice",
-      "options": ["Watchs", "Watches", "Watch", "Watch's"],
+      "options": [
+        "Watchs",
+        "Watches",
+        "Watch",
+        "Watch's"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "True or False: If the subject is 'We' (हम), you must add an 's' to the verb (We eats).",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     },
     {
@@ -246,28 +266,46 @@
       "questionId": "q7",
       "questionText": "What is the English word for 'पढ़ना'?",
       "questionType": "multiple_choice",
-      "options": ["Write", "Read", "Teach", "Look"],
+      "options": [
+        "Write",
+        "Read",
+        "Teach",
+        "Look"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q7"
     },
     {
       "questionId": "q8",
       "questionText": "Select the correct sentence.",
       "questionType": "multiple_choice",
-      "options": ["Amit sleep.", "Amit sleeps.", "I am sleeps."],
+      "options": [
+        "Amit sleep.",
+        "Amit sleeps.",
+        "I am sleeps."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "Which English verb means 'दौड़ना'?",
       "questionType": "multiple_choice",
-      "options": ["Run", "Walk", "Play", "Go"],
+      "options": [
+        "Run",
+        "Walk",
+        "Play",
+        "Go"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
       "questionId": "q10",
       "questionText": "Select the correct sentence.",
       "questionType": "multiple_choice",
-      "options": ["I eat an apple.", "I eats an apple.", "I is eat an apple."],
+      "options": [
+        "I eat an apple.",
+        "I eats an apple.",
+        "I is eat an apple."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q10"
     }
   ],
@@ -290,8 +328,14 @@
       "w15": "पढ़ाना"
     },
     "acceptedTranslations": {
-      "w01": ["Wake up", "wake up"],
-      "w03": ["Washes", "washes"]
+      "w01": [
+        "Wake up",
+        "wake up"
+      ],
+      "w03": [
+        "Washes",
+        "washes"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +361,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b5/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b5/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b5/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b5/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Wake up. Brush. Wash. Eat. Drink...",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "verbs", "routines", "actions", "month1", "block5"],
+  "tags": [
+    "vocabulary",
+    "verbs",
+    "routines",
+    "actions",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +392,9 @@
     "Thinking 'I' gets an 's' (I eats)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B5_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M1B5_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 40,
-  "prerequisites": ["ja_hi_M1B1_writing_001"],
+  "prerequisites": [
+    "ja_hi_M1B1_writing_001"
+  ],
   "instructions": "音声を聞いてみましょう！インディラ・ガンディー国際空港（ニューデリー）に到着した日本人旅行者が、インド人のドライバーと初めて会話をしています。「ナマステ」と「名前」に集中して聞いてください。",
   "contentItems": [
     {
@@ -47,7 +49,11 @@
       "questionId": "q1",
       "questionText": "ドライバーが最初に言った挨拶は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["Aapka swaagat hai (ようこそ)", "Namaste (こんにちは)", "Dhanyavaad (ありがとう)"],
+      "options": [
+        "Aapka swaagat hai (ようこそ)",
+        "Namaste (こんにちは)",
+        "Dhanyavaad (ありがとう)"
+      ],
       "audioTimestamp": "00:01",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -55,7 +61,11 @@
       "questionId": "q2",
       "questionText": "ヒロシは「はい、私の名前はヒロシです」と答えます。ヒンディー語の「はい」は何と言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["हाँ (Haan)", "नहीं (Nahin)", "मेरा (Mera)"],
+      "options": [
+        "हाँ (Haan)",
+        "नहीं (Nahin)",
+        "मेरा (Mera)"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -63,7 +73,11 @@
       "questionId": "q3",
       "questionText": "「私の名前はヒロシです (Mera naam Hiroshi hai)」という文で、日本語の「です」に当たる言葉はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["Mera", "naam", "hai"],
+      "options": [
+        "Mera",
+        "naam",
+        "hai"
+      ],
       "audioTimestamp": "00:05",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -79,7 +93,11 @@
       "questionId": "q5",
       "questionText": "ヒロシは最後に「ありがとう」と言います。これはヒンディー語で何ですか？",
       "questionType": "multiple_choice",
-      "options": ["नमस्ते (Namaste)", "धन्यवाद (Dhanyavaad)", "ठीक (Ṭheek)"],
+      "options": [
+        "नमस्ते (Namaste)",
+        "धन्यवाद (Dhanyavaad)",
+        "ठीक (Ṭheek)"
+      ],
       "audioTimestamp": "00:12",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -87,7 +105,10 @@
       "questionId": "q6",
       "questionText": "True or False: ヒロシは自分の体調について「元気ではない (sick)」と答えている。",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:14",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     }
@@ -109,11 +130,19 @@
       "q6": "False"
     },
     "acceptedShortAnswers": {
-      "q4": ["Raaj", "Raj", "raaj", "raj"]
+      "q4": [
+        "Raaj",
+        "Raj",
+        "raaj",
+        "raj"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["raj", "raaj"]
+      "q4": [
+        "raj",
+        "raaj"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -126,18 +155,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b1/listening/airport_native.mp3",
+    "nativeAudio": "month_1/block_1/M1B1_audio.wav",
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m1/b1/listening/airport_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b1/listening/airport_native.mp3",
+    "slowAudio": null,
+    "normalAudio": "month_1/block_1/M1B1_audio.wav",
     "audioTranscript": "Driver: Namaste! Kyaa aap Hiroshi hain...\n(Matches exact transcript)",
     "audioLanguage": "hi",
     "audioDuration": 50,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "greetings", "airport", "introduction", "month1", "block1"],
+  "tags": [
+    "listening",
+    "greetings",
+    "airport",
+    "introduction",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -149,7 +185,9 @@
     "Failing to hear 'haan' as 'yes' due to nasalization fading in natural speech."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_vocabulary_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_vocabulary_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

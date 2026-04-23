@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B6_lesson_001"],
+  "prerequisites": [
+    "en_hi_M1B6_lesson_001"
+  ],
   "instructions": "Native English speakers do not speak like robots. Instead of saying 'In ... A ... Box', they link the words together so it sounds like 'I-nuh box'. The consonant at the end of 'In' jumps over to the vowel 'A'. Listen to how smooth it sounds and repeat after the audio.",
   "contentItems": [
     {
@@ -206,19 +208,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b6/pronunciation/native_linking.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/pronunciation/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b6/pronunciation/slow_linking.mp3",
-    "normalAudio": "audio/en_hi/m1/b6/pronunciation/native_linking.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "In a box... In a bag... In a room...",
     "audioLanguage": "en",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
   "evaluationMode": "groq_comparison",
-  "tags": ["pronunciation", "connected_speech", "prepositions", "articles", "fluency", "beginner"],
+  "tags": [
+    "pronunciation",
+    "connected_speech",
+    "prepositions",
+    "articles",
+    "fluency",
+    "beginner"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -231,7 +240,9 @@
     "Stress-timing the article instead of the noun."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_reading_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_reading_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

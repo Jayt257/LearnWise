@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B5_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M3B5_pronunciation_001"
+  ],
   "instructions": "Read the story about Amit's bad day. He is very sick! Notice how he describes his pain to the doctor. He never uses the word 'Paining'!",
   "contentItems": [
     {
@@ -89,21 +91,32 @@
       "questionId": "q1",
       "questionText": "Why cannot Amit go to work today?",
       "questionType": "multiple_choice",
-      "options": ["He is on holiday.", "He is sick.", "He has no car."],
+      "options": [
+        "He is on holiday.",
+        "He is sick.",
+        "He has no car."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "What exact phrase does Amit use when talking to his office?",
       "questionType": "multiple_choice",
-      "options": ["I need a doctor.", "I need to see a doctor.", "My head is paining."],
+      "options": [
+        "I need a doctor.",
+        "I need to see a doctor.",
+        "My head is paining."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "True or False: Amit says 'My stomach is paining' to the nurse.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
@@ -124,14 +137,22 @@
       "questionId": "q6",
       "questionText": "The doctor gives him a piece of paper. What is the English word for this paper?",
       "questionType": "multiple_choice",
-      "options": ["Receipt", "Ticket", "Prescription"],
+      "options": [
+        "Receipt",
+        "Ticket",
+        "Prescription"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
     },
     {
       "questionId": "q7",
       "questionText": "Where does Amit take the piece of paper to get his medicine?",
       "questionType": "multiple_choice",
-      "options": ["The Office", "The Pharmacy", "The Police"],
+      "options": [
+        "The Office",
+        "The Pharmacy",
+        "The Police"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
@@ -155,13 +176,28 @@
       "q8": "water"
     },
     "acceptableParaphrases": {
-      "q4": ["hurts", "HURTS", "hurt"],
-      "q5": ["the flu", "Flu", "flu"],
-      "q8": ["water", "Water"]
+      "q4": [
+        "hurts",
+        "HURTS",
+        "hurt"
+      ],
+      "q5": [
+        "the flu",
+        "Flu",
+        "flu"
+      ],
+      "q8": [
+        "water",
+        "Water"
+      ]
     },
     "keywordScoringRules": {
-      "q4": ["hurt"],
-      "q5": ["flu"]
+      "q4": [
+        "hurt"
+      ],
+      "q5": [
+        "flu"
+      ]
     },
     "expectedSummaryPoints": [
       "Learner correctly identifies 'hurts' as the proper verb for localized pain, recognizing the absence of 'is paining'.",
@@ -177,18 +213,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m3/b5/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Amit wakes up in the morning and feels terrible... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "hospital", "health", "symptoms", "prescription", "month3", "block5"],
+  "tags": [
+    "reading",
+    "hospital",
+    "health",
+    "symptoms",
+    "prescription",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -200,7 +244,9 @@
     "Thinking a prescription is the same as medicine, rather than the permission slip for the medicine."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

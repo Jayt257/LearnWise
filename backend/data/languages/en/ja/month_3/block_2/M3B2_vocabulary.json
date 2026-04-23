@@ -293,12 +293,36 @@
     }
   ],
   "meaningList": [
-    "To give (to someone else)", "To receive (from someone)", "To give (to me)", "To help / assist", "To help (Te-form)", 
-    "To teach / To tell", "To teach (Te-form)", "To lend", "To lend (Te-form)", "To borrow", 
-    "To borrow (Te-form)", "To pay", "To pay (Te-form)", "To put / To place", "To put / To place (Te-form)", 
-    "Present / Gift", "Money", "Bicycle", "Umbrella", "Luggage / Package", 
-    "Letter", "Book", "Friend", "Teacher", "Family", 
-    "To give to me (Dictionary form)", "Received (Polite past)", "Gave (Polite past)", "Gave to me (Polite past)", "Who"
+    "To give (to someone else)",
+    "To receive (from someone)",
+    "To give (to me)",
+    "To help / assist",
+    "To help (Te-form)",
+    "To teach / To tell",
+    "To teach (Te-form)",
+    "To lend",
+    "To lend (Te-form)",
+    "To borrow",
+    "To borrow (Te-form)",
+    "To pay",
+    "To pay (Te-form)",
+    "To put / To place",
+    "To put / To place (Te-form)",
+    "Present / Gift",
+    "Money",
+    "Bicycle",
+    "Umbrella",
+    "Luggage / Package",
+    "Letter",
+    "Book",
+    "Friend",
+    "Teacher",
+    "Family",
+    "To give to me (Dictionary form)",
+    "Received (Polite past)",
+    "Gave (Polite past)",
+    "Gave to me (Polite past)",
+    "Who"
   ],
   "exampleSentences": [
     {
@@ -332,70 +356,120 @@
       "questionId": "q001",
       "questionText": "What does あげる (Ageru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To receive", "To give (to me)", "To borrow", "To give (to someone else)"],
+      "options": [
+        "To receive",
+        "To give (to me)",
+        "To borrow",
+        "To give (to someone else)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q001"
     },
     {
       "questionId": "q002",
       "questionText": "What does くれる (Kureru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To lend", "To help", "To give (to someone else)", "To give (to me)"],
+      "options": [
+        "To lend",
+        "To help",
+        "To give (to someone else)",
+        "To give (to me)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q002"
     },
     {
       "questionId": "q003",
       "questionText": "What does もらう (Morau) mean?",
       "questionType": "multiple_choice",
-      "options": ["To give", "To receive", "To teach", "To pay"],
+      "options": [
+        "To give",
+        "To receive",
+        "To teach",
+        "To pay"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q003"
     },
     {
       "questionId": "q004",
       "questionText": "How do you say 'To teach' in the Te-form?",
       "questionType": "multiple_choice",
-      "options": ["おしえて (Oshiete)", "おして (Oshite)", "おしって (Oshitte)", "てつだって (Tetsudatte)"],
+      "options": [
+        "おしえて (Oshiete)",
+        "おして (Oshite)",
+        "おしって (Oshitte)",
+        "てつだって (Tetsudatte)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q004"
     },
     {
       "questionId": "q005",
       "questionText": "What does かす (Kasu) mean?",
       "questionType": "multiple_choice",
-      "options": ["To borrow", "To give", "To pay", "To lend"],
+      "options": [
+        "To borrow",
+        "To give",
+        "To pay",
+        "To lend"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q005"
     },
     {
       "questionId": "q006",
       "questionText": "What does てがみ (Tegami) mean?",
       "questionType": "multiple_choice",
-      "options": ["Present", "Luggage", "Letter", "Book"],
+      "options": [
+        "Present",
+        "Luggage",
+        "Letter",
+        "Book"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q006"
     },
     {
       "questionId": "q007",
       "questionText": "What is the Te-form of 'To help' (Tetsudau)?",
       "questionType": "multiple_choice",
-      "options": ["てつだて (Tetsudate)", "てつだって (Tetsudatte)", "てつだいて (Tetsudaite)", "てつだんで (Tetsudande)"],
+      "options": [
+        "てつだて (Tetsudate)",
+        "てつだって (Tetsudatte)",
+        "てつだいて (Tetsudaite)",
+        "てつだんで (Tetsudande)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q007"
     },
     {
       "questionId": "q008",
       "questionText": "What does にもつ (Nimotsu) mean?",
       "questionType": "multiple_choice",
-      "options": ["Luggage / Package", "Bicycle", "Money", "Umbrella"],
+      "options": [
+        "Luggage / Package",
+        "Bicycle",
+        "Money",
+        "Umbrella"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q008"
     },
     {
       "questionId": "q009",
       "questionText": "What does かりる (Kariru) mean?",
       "questionType": "multiple_choice",
-      "options": ["To lend", "To borrow", "To buy", "To teach"],
+      "options": [
+        "To lend",
+        "To borrow",
+        "To buy",
+        "To teach"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q009"
     },
     {
       "questionId": "q010",
       "questionText": "If someone gave something to YOU, which verb must be used?",
       "questionType": "multiple_choice",
-      "options": ["あげました (Agemashita)", "くれました (Kuremashita)", "かしました (Kashimashita)", "てつだいました (Tetsudaimashita)"],
+      "options": [
+        "あげました (Agemashita)",
+        "くれました (Kuremashita)",
+        "かしました (Kashimashita)",
+        "てつだいました (Tetsudaimashita)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q010"
     }
   ],
@@ -433,8 +507,14 @@
       "w030": "Who"
     },
     "acceptedTranslations": {
-      "w006": ["To teach", "To tell"],
-      "w020": ["Luggage", "Package"]
+      "w006": [
+        "To teach",
+        "To tell"
+      ],
+      "w020": [
+        "Luggage",
+        "Package"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -462,12 +542,12 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_en/m3/b2/vocab/native_words.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b2/vocab/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_en/m3/b2/vocab/slow_words.mp3",
-    "normalAudio": "audio/ja_en/m3/b2/vocab/normal_words.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "あげる。もらう。くれる。てつだう。てつだって。おしえる。おしえて。かす。かして。かりる。かりて。はらう。はらって。おく。おいて。プレゼント。おかね。じてんしゃ。かさ。にもつ。てがみ。ほん。ともだち。せんせい。かぞく。くれる。もらいました。あげました。くれました。だれ。",
     "audioLanguage": "ja",
     "audioDuration": 360,

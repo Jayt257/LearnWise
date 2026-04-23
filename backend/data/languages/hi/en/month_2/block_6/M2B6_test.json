@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 6! It contains 20 questions evaluating your understanding of English culture. Remember: There is no 'Aap'. You must build politeness using your sentence structures!",
   "testTitle": "Block 6 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank to make this polite: _____ give me the book?",
           "questionType": "multiple_choice",
-          "options": ["Could you", "Do it", "You will", "Are you"],
+          "options": [
+            "Could you",
+            "Do it",
+            "You will",
+            "Are you"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,11 @@
           "questionId": "q002",
           "questionText": "Which sentence is RUDE?",
           "questionType": "multiple_choice",
-          "options": ["Could you help me?", "Help me now.", "Excuse me, could you help me?"],
+          "options": [
+            "Could you help me?",
+            "Help me now.",
+            "Excuse me, could you help me?"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +67,12 @@
           "questionId": "q003",
           "questionText": "If someone asks 'Would you like tea?', how do you politely say yes?",
           "questionType": "multiple_choice",
-          "options": ["Yes.", "Give it.", "Yes, please.", "I want."],
+          "options": [
+            "Yes.",
+            "Give it.",
+            "Yes, please.",
+            "I want."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +82,10 @@
           "questionId": "q004",
           "questionText": "True or False: English has a special word like 'आप' to show respect to adults.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +95,12 @@
           "questionId": "q005",
           "questionText": "If you want to walk past someone in a narrow hallway, you say:",
           "questionType": "multiple_choice",
-          "options": ["Move.", "Excuse me.", "Sorry for you.", "Hello."],
+          "options": [
+            "Move.",
+            "Excuse me.",
+            "Sorry for you.",
+            "Hello."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -106,7 +133,12 @@
           "questionId": "q007",
           "questionText": "If someone talks too fast, you say 'Could you speak _____?'",
           "questionType": "multiple_choice",
-          "options": ["Slowly", "Fast", "Wait", "Tell"],
+          "options": [
+            "Slowly",
+            "Fast",
+            "Wait",
+            "Tell"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -130,7 +162,12 @@
           "questionId": "q009",
           "questionText": "If you want someone to say something again, you ask them to _____.",
           "questionType": "multiple_choice",
-          "options": ["Move", "Open", "Repeat", "Help"],
+          "options": [
+            "Move",
+            "Open",
+            "Repeat",
+            "Help"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -140,7 +177,12 @@
           "questionId": "q010",
           "questionText": "What does 'Move' mean?",
           "questionType": "multiple_choice",
-          "options": ["हटाना / खिसकाना", "खोलना", "देना", "मदद करना"],
+          "options": [
+            "हटाना / खिसकाना",
+            "खोलना",
+            "देना",
+            "मदद करना"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -159,7 +201,11 @@
           "questionId": "q011",
           "questionText": "What is the very first thing you say when you approach a stranger to ask a question?",
           "questionType": "multiple_choice",
-          "options": ["Excuse me", "Listen to me", "Hey you"],
+          "options": [
+            "Excuse me",
+            "Listen to me",
+            "Hey you"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -169,7 +215,11 @@
           "questionId": "q012",
           "questionText": "How do you politely reply when someone says 'How are you?'",
           "questionType": "multiple_choice",
-          "options": ["Good.", "I am fine, thank you.", "I exist."],
+          "options": [
+            "Good.",
+            "I am fine, thank you.",
+            "I exist."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -179,7 +229,11 @@
           "questionId": "q013",
           "questionText": "Find the mistake: 'Give me your bag, please.'",
           "questionType": "multiple_choice",
-          "options": ["It is not a question using 'Could you'.", "It forgot 'Excuse me'.", "There is no mistake."],
+          "options": [
+            "It is not a question using 'Could you'.",
+            "It forgot 'Excuse me'.",
+            "There is no mistake."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -199,7 +253,11 @@
           "questionId": "q015",
           "questionText": "When saying goodbye, what is the polite phrase?",
           "questionType": "multiple_choice",
-          "options": ["Have a good day", "Go away", "Be good"],
+          "options": [
+            "Have a good day",
+            "Go away",
+            "Be good"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -335,14 +393,45 @@
       "q017": "Give 3 marks if they wrote 'Could you help me' but forgot 'Excuse me'."
     },
     "alternateValidAnswers": {
-      "q006": ["wait", "WAIT"],
-      "q008": ["weather", "WEATHER", "the weather"],
-      "q014": ["the weather", "weather", "Weather"],
-      "q016": ["could you open the door", "Could you open the door?", "Could you open the door please"],
-      "q017": ["excuse me could you help me", "Excuse me, could you help me", "Excuse me could you help me?"],
-      "q018": ["no thank you", "No thank you", "No, thank you"],
-      "q019": ["i am fine thank you", "I am fine, thank you.", "I'm fine thank you"],
-      "q020": ["could you wait", "Could you wait?", "Could you wait please?"]
+      "q006": [
+        "wait",
+        "WAIT"
+      ],
+      "q008": [
+        "weather",
+        "WEATHER",
+        "the weather"
+      ],
+      "q014": [
+        "the weather",
+        "weather",
+        "Weather"
+      ],
+      "q016": [
+        "could you open the door",
+        "Could you open the door?",
+        "Could you open the door please"
+      ],
+      "q017": [
+        "excuse me could you help me",
+        "Excuse me, could you help me",
+        "Excuse me could you help me?"
+      ],
+      "q018": [
+        "no thank you",
+        "No thank you",
+        "No, thank you"
+      ],
+      "q019": [
+        "i am fine thank you",
+        "I am fine, thank you.",
+        "I'm fine thank you"
+      ],
+      "q020": [
+        "could you wait",
+        "Could you wait?",
+        "Could you wait please?"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -362,7 +451,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b6/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -371,7 +460,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block6", "politeness", "culture", "could_you", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block6",
+    "politeness",
+    "culture",
+    "could_you",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -381,7 +478,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B1_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M3B1_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

@@ -21,7 +21,12 @@
   "instructions": "This is your Mega Test for Block 5. It contains 20 questions evaluating your ability to show who owns what, and your ability to point at objects far and near. DO NOT mix up the 'Of' rule with the 's rule!",
   "testTitle": "Block 5 Mega Assessment",
   "testScope": "block_test",
-  "coveredActivityTypes": ["lesson", "vocabulary", "reading", "writing"],
+  "coveredActivityTypes": [
+    "lesson",
+    "vocabulary",
+    "reading",
+    "writing"
+  ],
   "testInstructions": "Complete all 4 sections. You need a total of 75/100 to pass.",
   "questionSections": [
     {
@@ -33,7 +38,12 @@
           "questionId": "q001",
           "questionText": "Fill in the blank: That is ________ book.",
           "questionType": "multiple_choice",
-          "options": ["the book of Sarah", "Sarah's", "Sarah book's", "Sarahs"],
+          "options": [
+            "the book of Sarah",
+            "Sarah's",
+            "Sarah book's",
+            "Sarahs"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -43,7 +53,12 @@
           "questionId": "q002",
           "questionText": "Which sentence means 'घर का दरवाज़ा'?",
           "questionType": "multiple_choice",
-          "options": ["The house's door.", "The door of the house.", "The door house.", "The house of door."],
+          "options": [
+            "The house's door.",
+            "The door of the house.",
+            "The door house.",
+            "The house of door."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -53,7 +68,12 @@
           "questionId": "q003",
           "questionText": "Choose the correct pointing word for many things far away:",
           "questionType": "multiple_choice",
-          "options": ["This", "That", "These", "Those"],
+          "options": [
+            "This",
+            "That",
+            "These",
+            "Those"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -63,7 +83,10 @@
           "questionId": "q004",
           "questionText": "True or False: Saying 'These is my car' is grammatically correct.",
           "questionType": "true_false",
-          "options": ["True", "False"],
+          "options": [
+            "True",
+            "False"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -73,7 +96,12 @@
           "questionId": "q005",
           "questionText": "How would you correctly translate 'कुत्ते का खिलौना'?",
           "questionType": "multiple_choice",
-          "options": ["The toy of the dog", "The dog toys", "The dog's toy", "Dog is toy"],
+          "options": [
+            "The toy of the dog",
+            "The dog toys",
+            "The dog's toy",
+            "Dog is toy"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -106,7 +134,12 @@
           "questionId": "q007",
           "questionText": "If you look up inside a house, you see the _____.",
           "questionType": "multiple_choice",
-          "options": ["Floor", "Door", "Roof", "Keys"],
+          "options": [
+            "Floor",
+            "Door",
+            "Roof",
+            "Keys"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -130,7 +163,12 @@
           "questionId": "q009",
           "questionText": "The _____ is used to enter a house.",
           "questionType": "multiple_choice",
-          "options": ["Window", "Door", "Screen", "Wallet"],
+          "options": [
+            "Window",
+            "Door",
+            "Screen",
+            "Wallet"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -140,7 +178,12 @@
           "questionId": "q010",
           "questionText": "What does 'Floor' mean?",
           "questionType": "multiple_choice",
-          "options": ["दीवार", "काँच", "फर्श", "छत"],
+          "options": [
+            "दीवार",
+            "काँच",
+            "फर्श",
+            "छत"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -159,7 +202,11 @@
           "questionId": "q011",
           "questionText": "Find the massive mistake: 'Those is a big birds.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'Those are big birds.'", "It should be 'That are big birds.'", "There is no mistake"],
+          "options": [
+            "It should be 'Those are big birds.'",
+            "It should be 'That are big birds.'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -169,7 +216,11 @@
           "questionId": "q012",
           "questionText": "Why is 'The car of Amit is fast' weird English?",
           "questionType": "multiple_choice",
-          "options": ["Because Amit is a human and should get an apostrophe 'S'.", "Because cars don't belong to humans.", "It is not weird."],
+          "options": [
+            "Because Amit is a human and should get an apostrophe 'S'.",
+            "Because cars don't belong to humans.",
+            "It is not weird."
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -179,7 +230,11 @@
           "questionId": "q013",
           "questionText": "Find the mistake: 'This girls are my friends.'",
           "questionType": "multiple_choice",
-          "options": ["It should be 'These girls are my friends.'", "It should be 'That girls are my friends.'", "There is no mistake"],
+          "options": [
+            "It should be 'These girls are my friends.'",
+            "It should be 'That girls are my friends.'",
+            "There is no mistake"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -199,7 +254,12 @@
           "questionId": "q015",
           "questionText": "Which means 'कार का पहिया'?",
           "questionType": "multiple_choice",
-          "options": ["The tire of the car", "The car's tire", "The tire car's", "The of tire car"],
+          "options": [
+            "The tire of the car",
+            "The car's tire",
+            "The tire car's",
+            "The of tire car"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -334,14 +394,43 @@
       "q018": "Give 5 marks if written 'roof of the house' or 'Roof of house'."
     },
     "alternateValidAnswers": {
-      "q006": ["wallet", "WALLET"],
-      "q008": ["keys", "KEYS"],
-      "q014": ["this", "THIS", "this one"],
-      "q016": ["this is rahul's book", "This is Rahul's book", "This is Rahuls book"],
-      "q017": ["those are my keys", "Those are my keys"],
-      "q018": ["the roof of the house", "The roof of the house", "Roof of the house"],
-      "q019": ["these dogs", "These dogs", "These dogs."],
-      "q020": ["that is sarah's car", "That is Sarah's car", "That is Sarahs car"]
+      "q006": [
+        "wallet",
+        "WALLET"
+      ],
+      "q008": [
+        "keys",
+        "KEYS"
+      ],
+      "q014": [
+        "this",
+        "THIS",
+        "this one"
+      ],
+      "q016": [
+        "this is rahul's book",
+        "This is Rahul's book",
+        "This is Rahuls book"
+      ],
+      "q017": [
+        "those are my keys",
+        "Those are my keys"
+      ],
+      "q018": [
+        "the roof of the house",
+        "The roof of the house",
+        "Roof of the house"
+      ],
+      "q019": [
+        "these dogs",
+        "These dogs",
+        "These dogs."
+      ],
+      "q020": [
+        "that is sarah's car",
+        "That is Sarah's car",
+        "That is Sarahs car"
+      ]
     },
     "sectionPassMarks": {
       "sec_grammar": 15,
@@ -361,7 +450,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
@@ -370,7 +459,15 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["test", "block5", "possessives", "demonstratives", "apostrophe", "beginner", "assessment"],
+  "tags": [
+    "test",
+    "block5",
+    "possessives",
+    "demonstratives",
+    "apostrophe",
+    "beginner",
+    "assessment"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -380,7 +477,9 @@
   "hintText": null,
   "commonMistakes": [],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B6_lesson_001"],
+  "nextActivityIds": [
+    "en_hi_M2B6_lesson_001"
+  ],
   "attemptLimit": null,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B5_reading_001"],
+  "prerequisites": [
+    "en_hi_M1B5_reading_001"
+  ],
   "instructions": "Write a paragraph describing your morning routine, and the routine of a friend or family member. Use the words 'I' and 'He' (or 'She'). You must list at least 3 actions YOU do, and 3 actions THEY do. Remember: Add 's' or 'es' to the verbs for 'He' and 'She'!",
   "contentItems": [
     {
@@ -127,11 +129,11 @@
     "onPartial": "Good start! You might have missed an 'es' (like writing 'He brushs' instead of 'He brushes'), or forgotten the 's' for one sentence."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b5/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b5/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write about your morning and your friend's morning. Remember the 'S' for your friend.",
@@ -139,7 +141,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "verbs", "s-suffix", "routines", "block5"],
+  "tags": [
+    "writing",
+    "verbs",
+    "s-suffix",
+    "routines",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -153,7 +161,9 @@
     "Writing: 'She sleep'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B5_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M1B5_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B2_reading_001"],
+  "prerequisites": [
+    "ja_hi_M3B2_reading_001"
+  ],
   "instructions": "複合動詞の作文です！メインの動詞は「語幹(短い形)」で固定し、文の形（未来形や命令形）はすべて後ろのサポート動詞に担当させてください！",
   "contentItems": [
     {
@@ -127,7 +129,14 @@
     "acceptableAlternates": [
       "main sab khaa jaunga mujhe bataa do kitaab padh lo"
     ],
-    "requiredKeywords": ["खा", "जाऊँगा", "बता", "दो", "पढ़", "लो"],
+    "requiredKeywords": [
+      "खा",
+      "जाऊँगा",
+      "बता",
+      "दो",
+      "पढ़",
+      "लो"
+    ],
     "grammarBaseline": "Must see explicit separation forming compounds: khaa followed by jaaoongaa. Bataa followed by do. padh followed by lo.",
     "lengthExpectation": "3 sentences demonstrating compound morphology.",
     "scoringRubric": {
@@ -142,19 +151,26 @@
     "onPartial": "惜しいところがあります。第3文で「Paḍh do(読んであげる)」としていませんか？自分が本を読むことは自分の中に知識を取り入れる(もらう)行為なので、「Paḍh lo」が自然です！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m3/b2/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b2/writing/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m3/b2/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
-    "normalAudio": "audio/ja_hi/m3/b2/writing/prompt.mp3",
+    "normalAudio": null,
     "audioTranscript": "Construct three sentences using the core intensifiers: jaanaa, denaa, and lenaa.",
     "audioLanguage": "en",
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "grammar", "compounds", "directionality", "month3", "block2"],
+  "tags": [
+    "writing",
+    "grammar",
+    "compounds",
+    "directionality",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -166,7 +182,9 @@
     "Writing 'Bataao do' inflecting V1 instead of keeping it as a bare root 'Bataa'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B2_listening_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B2_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B6_reading_001"],
+  "prerequisites": [
+    "en_hi_M1B6_reading_001"
+  ],
   "instructions": "Write three sentences about where a mischievous cat is hiding in a room. You must use 'In' for one sentence, 'On' for one sentence, and 'Under' for one sentence. Do NOT forget the word 'The' after your preposition!",
   "contentItems": [
     {
@@ -138,11 +140,11 @@
     "onPartial": "Good start! You placed the words in the right order. However, don't forget to use the word 'The'. Try saying 'In the box' rather than 'In box'."
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m1/b6/writing/prompt.mp3",
+    "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/writing/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b6/writing/sample_output.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,
     "audioTranscript": "Write where the cat is hiding: in a box, on a table, and under a bed.",
@@ -150,7 +152,13 @@
     "audioDuration": 25,
     "audioRepeatAllowed": true
   },
-  "tags": ["writing", "prepositions", "locations", "in_on_under", "block6"],
+  "tags": [
+    "writing",
+    "prepositions",
+    "locations",
+    "in_on_under",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -163,7 +171,9 @@
     "Writing 'The cat is table on'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_listening_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_listening_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

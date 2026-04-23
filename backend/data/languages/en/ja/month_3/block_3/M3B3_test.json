@@ -39,7 +39,12 @@
           "questionId": "q001",
           "questionText": "What does ぶちょう (Buchou) mean?",
           "questionType": "multiple_choice",
-          "options": ["Mother", "Child", "Department Head / Boss", "Friend"],
+          "options": [
+            "Mother",
+            "Child",
+            "Department Head / Boss",
+            "Friend"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -49,7 +54,12 @@
           "questionId": "q002",
           "questionText": "What does ざんぎょう (Zangyou) mean?",
           "questionType": "multiple_choice",
-          "options": ["Homework", "Vegetables", "Overtime work", "Medicine"],
+          "options": [
+            "Homework",
+            "Vegetables",
+            "Overtime work",
+            "Medicine"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -59,7 +69,12 @@
           "questionId": "q003",
           "questionText": "What does むり (Muri) mean?",
           "questionType": "multiple_choice",
-          "options": ["Impossible / Unreasonable", "Unpleasant", "Tired", "Difficult"],
+          "options": [
+            "Impossible / Unreasonable",
+            "Unpleasant",
+            "Tired",
+            "Difficult"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -69,7 +84,12 @@
           "questionId": "q004",
           "questionText": "What does くすり (Kusuri) mean?",
           "questionType": "multiple_choice",
-          "options": ["Vegetables", "Medicine", "Homework", "Job"],
+          "options": [
+            "Vegetables",
+            "Medicine",
+            "Homework",
+            "Job"
+          ],
           "marks": 5,
           "audioRef": null,
           "questionHints": null,
@@ -226,7 +246,12 @@
           "questionId": "q013",
           "questionText": "Listen to the audio. What was the speaker forced to do?",
           "questionType": "multiple_choice",
-          "options": ["Do overtime", "Drink alcohol", "Eat vegetables", "Go to the bank"],
+          "options": [
+            "Do overtime",
+            "Drink alcohol",
+            "Eat vegetables",
+            "Go to the bank"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q013",
           "questionHints": {
@@ -240,7 +265,12 @@
           "questionId": "q014",
           "questionText": "Listen to the audio. Who forced them to do it?",
           "questionType": "multiple_choice",
-          "options": ["The boss", "A friend", "Their mother", "The child"],
+          "options": [
+            "The boss",
+            "A friend",
+            "Their mother",
+            "The child"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q014",
           "questionHints": {
@@ -254,7 +284,12 @@
           "questionId": "q015",
           "questionText": "Listen to the audio. What else were they forced to do?",
           "questionType": "multiple_choice",
-          "options": ["Drink alcohol", "Pay money", "Sing", "Work"],
+          "options": [
+            "Drink alcohol",
+            "Pay money",
+            "Sing",
+            "Work"
+          ],
           "marks": 5,
           "audioRef": "audioAssets.sampleAudio_q015",
           "questionHints": {
@@ -386,11 +421,21 @@
     },
     "partialCreditRules": {},
     "alternateValidAnswers": {
-      "q016": ["Saseraremashita"],
-      "q017": ["Nomasaremashita"],
-      "q018": ["Ikasaremashita"],
-      "q019": ["Tabesasemashita"],
-      "q020": ["Zangyou"]
+      "q016": [
+        "Saseraremashita"
+      ],
+      "q017": [
+        "Nomasaremashita"
+      ],
+      "q018": [
+        "Ikasaremashita"
+      ],
+      "q019": [
+        "Tabesasemashita"
+      ],
+      "q020": [
+        "Zangyou"
+      ]
     },
     "sectionPassMarks": {
       "sec_vocab": 10,
@@ -410,7 +455,7 @@
     "promptAudio": null,
     "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_en/m3/b3/test/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
     "slowAudio": null,
     "normalAudio": null,

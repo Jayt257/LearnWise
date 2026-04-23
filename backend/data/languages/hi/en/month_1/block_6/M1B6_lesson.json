@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B5_test_001"],
+  "prerequisites": [
+    "en_hi_M1B5_test_001"
+  ],
   "instructions": "In Hindi, you put the location word at the end: 'कार में' (Car IN). But in English, these are called PRE-positions. 'Pre' means 'Before'. You MUST put the location word BEFORE the noun. Read the rules to learn how to place things!",
   "contentItems": [
     {
@@ -46,18 +48,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b6/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b6/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m1/b6/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b6/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m1/b6/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "In the box. On the table. Under the bed.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "prepositions", "locations", "in_on_under", "beginner", "month1", "block6"],
+  "tags": [
+    "grammar",
+    "prepositions",
+    "locations",
+    "in_on_under",
+    "beginner",
+    "month1",
+    "block6"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -70,7 +80,9 @@
     "Confusing 'In' and 'On' for vehicles (We will learn vehicle exceptions later, stick to boxes and tables for now!)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B6_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M1B6_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "In, On, and Under",

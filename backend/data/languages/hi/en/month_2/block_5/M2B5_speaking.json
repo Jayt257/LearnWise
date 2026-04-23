@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M2B5_vocabulary_001"],
+  "prerequisites": [
+    "en_hi_M2B5_vocabulary_001"
+  ],
   "instructions": "You found some items left in the office meeting room. Your coworker is asking you who owns them. Reply ALOUD to her questions. Make sure to use the 'S for people's names! And use This/That/These/Those correctly based on her questions.",
   "contentItems": [
     {
@@ -25,7 +27,10 @@
     {
       "subTaskId": "t1",
       "prompt": "प्रिया: 'Whose bag is this?' (यह किसका बैग है?) जवाब दें: 'यह अमित का बैग है।' (This is...)",
-      "expectedSpeakingPoints": ["This is", "Amit's bag"],
+      "expectedSpeakingPoints": [
+        "This is",
+        "Amit's bag"
+      ],
       "sampleResponse": {
         "targetText": "This is Amit's bag.",
         "transliteration": "दिस इज़ अमित'स बैग।",
@@ -35,7 +40,10 @@
     {
       "subTaskId": "t2",
       "prompt": "प्रिया: 'Oh, you are right. And whose phone is that on the table?' (और मेज पर वह फोन किसका है?) जवाब दें: 'वह राहुल का फोन है।' (That is...)",
-      "expectedSpeakingPoints": ["That is", "Rahul's phone"],
+      "expectedSpeakingPoints": [
+        "That is",
+        "Rahul's phone"
+      ],
       "sampleResponse": {
         "targetText": "That is Rahul's phone.",
         "transliteration": "दैट इज़ राहुल'स फोन।",
@@ -45,7 +53,11 @@
     {
       "subTaskId": "t3",
       "prompt": "प्रिया: 'It looks broken.' (यह टूटा हुआ लग रहा है।) जवाब दें: 'हाँ। फोन की स्क्रीन टूट गई है।' (Yes. The screen of the phone...)",
-      "expectedSpeakingPoints": ["Yes", "The screen of the phone", "is broken"],
+      "expectedSpeakingPoints": [
+        "Yes",
+        "The screen of the phone",
+        "is broken"
+      ],
       "sampleResponse": {
         "targetText": "Yes. The screen of the phone is broken.",
         "transliteration": "येस। द स्क्रीन ऑफ द फोन इज़ ब्रोकन।",
@@ -55,7 +67,11 @@
     {
       "subTaskId": "t4",
       "prompt": "प्रिया: 'Are these your keys?' (क्या ये तुम्हारी चाबियां हैं?) जवाब दें: 'नहीं, ये मेरी चाबियां नहीं हैं। ये सारा की चाबियां हैं।' (No, these are...)",
-      "expectedSpeakingPoints": ["No", "these are not my keys", "These are Sarah's keys"],
+      "expectedSpeakingPoints": [
+        "No",
+        "these are not my keys",
+        "These are Sarah's keys"
+      ],
       "sampleResponse": {
         "targetText": "No, these are not my keys. These are Sarah's keys.",
         "transliteration": "नो, दीज़ आर नॉट माई कीज़। दीज़ आर सारा'स कीज़।",
@@ -65,7 +81,10 @@
     {
       "subTaskId": "t5",
       "prompt": "प्रिया: 'Okay, I will give them to her.' (ठीक है, मैं उन्हें दे दूंगी।) जवाब दें: 'धन्यवाद, प्रिया।' (Thank you...)",
-      "expectedSpeakingPoints": ["Thank you", "Priya"],
+      "expectedSpeakingPoints": [
+        "Thank you",
+        "Priya"
+      ],
       "sampleResponse": {
         "targetText": "Thank you, Priya.",
         "transliteration": "थैंक यू, प्रिया।",
@@ -148,19 +167,26 @@
     "onPartial": "Good try! Make sure you don't say 'The bag of Amit'. While technically understandable, native English speakers never talk like that. Always use the Apostrophe 'S' for people!"
   },
   "audioAssets": {
-    "promptAudio": "audio/en_hi/m2/b5/speaking/prompts.mp3",
-    "nativeAudio": "audio/en_hi/m2/b5/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m2/b5/speaking/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m2/b5/speaking/sample_responses.mp3",
-    "slowAudio": "audio/en_hi/m2/b5/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/en_hi/m2/b5/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Priya: Whose bag is this?...",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "roleplay", "possessives", "demonstratives", "month2", "block5"],
+  "tags": [
+    "speaking",
+    "roleplay",
+    "possessives",
+    "demonstratives",
+    "month2",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -173,7 +199,9 @@
     "Using 'This is Sarah's keys' instead of 'These are'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M2B5_test_001"],
+  "nextActivityIds": [
+    "en_hi_M2B5_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

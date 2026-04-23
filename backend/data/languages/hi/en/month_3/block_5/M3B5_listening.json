@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 40,
-  "prerequisites": ["en_hi_M3B5_writing_001"],
+  "prerequisites": [
+    "en_hi_M3B5_writing_001"
+  ],
   "instructions": "In an emergency, you have to speak fast and listen carefully! Listen to a man calling the emergency number (911) after a car accident. Listen to how he describes the injuries.",
   "contentItems": [
     {
@@ -72,7 +74,11 @@
       "questionId": "q1",
       "questionText": "What does the operator say exactly when she answers the phone?",
       "questionType": "multiple_choice",
-      "options": ["Hello?", "911, what is your emergency?", "How can I help you?"],
+      "options": [
+        "Hello?",
+        "911, what is your emergency?",
+        "How can I help you?"
+      ],
       "audioTimestamp": "00:01",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
@@ -80,7 +86,11 @@
       "questionId": "q2",
       "questionText": "What kind of accident happened?",
       "questionType": "multiple_choice",
-      "options": ["A fire", "A train accident", "A car accident"],
+      "options": [
+        "A fire",
+        "A train accident",
+        "A car accident"
+      ],
       "audioTimestamp": "00:04",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
@@ -88,7 +98,10 @@
       "questionId": "q3",
       "questionText": "True or False: The man making the phone call is seriously injured.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "audioTimestamp": "00:09",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
@@ -104,7 +117,11 @@
       "questionId": "q5",
       "questionText": "How does the caller describe the other man's injury? (What is his exact phrase?)",
       "questionType": "multiple_choice",
-      "options": ["His leg is paining.", "He broke his leg.", "His leg hurts!"],
+      "options": [
+        "His leg is paining.",
+        "He broke his leg.",
+        "His leg hurts!"
+      ],
       "audioTimestamp": "00:20",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
     },
@@ -120,7 +137,11 @@
       "questionId": "q7",
       "questionText": "What 'Ache' word does the caller use to confirm the man's head is fine?",
       "questionType": "multiple_choice",
-      "options": ["Headache", "Stomachache", "Toothache"],
+      "options": [
+        "Headache",
+        "Stomachache",
+        "Toothache"
+      ],
       "audioTimestamp": "00:27",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
@@ -128,7 +149,11 @@
       "questionId": "q8",
       "questionText": "How many minutes until the vehicle arrives?",
       "questionType": "multiple_choice",
-      "options": ["Two minutes", "Ten minutes", "Twenty minutes"],
+      "options": [
+        "Two minutes",
+        "Ten minutes",
+        "Twenty minutes"
+      ],
       "audioTimestamp": "00:32",
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
@@ -152,13 +177,24 @@
       "q8": "Two minutes"
     },
     "acceptedShortAnswers": {
-      "q4": ["ambulance", "Ambulance", "an ambulance"],
-      "q6": ["bleeding", "Bleeding"]
+      "q4": [
+        "ambulance",
+        "Ambulance",
+        "an ambulance"
+      ],
+      "q6": [
+        "bleeding",
+        "Bleeding"
+      ]
     },
     "acceptedLongAnswers": {},
     "scoringKeywords": {
-      "q4": ["ambulance"],
-      "q6": ["bleed"]
+      "q4": [
+        "ambulance"
+      ],
+      "q6": [
+        "bleed"
+      ]
     },
     "partialCreditRules": {}
   },
@@ -171,18 +207,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b5/listening/911_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b5/listening/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m3/b5/listening/911_slow.mp3",
-    "normalAudio": "audio/en_hi/m3/b5/listening/911_native.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Operator: 911, what is your emergency... (matches full transcript)",
     "audioLanguage": "en",
     "audioDuration": 150,
     "audioRepeatAllowed": true
   },
-  "tags": ["listening", "emergency", "health", "car_accident", "ambulance", "month3", "block5"],
+  "tags": [
+    "listening",
+    "emergency",
+    "health",
+    "car_accident",
+    "ambulance",
+    "month3",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -194,7 +238,9 @@
     "Thinking the caller is the one who is hurt."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B5_vocabulary_001"],
+  "nextActivityIds": [
+    "en_hi_M3B5_vocabulary_001"
+  ],
   "attemptLimit": 4,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B2_listening_001"],
+  "prerequisites": [
+    "en_hi_M1B2_listening_001"
+  ],
   "instructions": "Study these 15 critical English words. In Hindi, 'वह' works for everyone, but in English, you must separate men (He), women (She), and objects (It). Then complete the massive 10-question quiz.",
   "contentItems": [
     {
@@ -204,28 +206,46 @@
       "questionId": "q1",
       "questionText": "If you are pointing at your mother, which pronoun do you use?",
       "questionType": "multiple_choice",
-      "options": ["He", "It", "She", "They"],
+      "options": [
+        "He",
+        "It",
+        "She",
+        "They"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Translate to English: 'मजाकिया'",
       "questionType": "multiple_choice",
-      "options": ["Kind", "Funny", "Smart", "Happy"],
+      "options": [
+        "Kind",
+        "Funny",
+        "Smart",
+        "Happy"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "True or False: The word 'It' can be used to talk about your brother.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "What does the word 'They' mean?",
       "questionType": "multiple_choice",
-      "options": ["हम", "वे", "वह", "मैं"],
+      "options": [
+        "हम",
+        "वे",
+        "वह",
+        "मैं"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
@@ -239,7 +259,12 @@
       "questionId": "q6",
       "questionText": "If someone is very intelligent, what adjective describes them?",
       "questionType": "multiple_choice",
-      "options": ["Tall", "Funny", "Smart", "Short"],
+      "options": [
+        "Tall",
+        "Funny",
+        "Smart",
+        "Short"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q6"
     },
     {
@@ -253,14 +278,23 @@
       "questionId": "q8",
       "questionText": "Which is the opposite of 'Tall'?",
       "questionType": "multiple_choice",
-      "options": ["Smart", "Kind", "Short", "Funny"],
+      "options": [
+        "Smart",
+        "Kind",
+        "Short",
+        "Funny"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q8"
     },
     {
       "questionId": "q9",
       "questionText": "Choose the correct sentence.",
       "questionType": "multiple_choice",
-      "options": ["It is a boy.", "It is a dog.", "It is my mom."],
+      "options": [
+        "It is a boy.",
+        "It is a dog.",
+        "It is my mom."
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q9"
     },
     {
@@ -290,8 +324,13 @@
       "p15": "नहीं"
     },
     "acceptedTranslations": {
-      "p12": ["Brother"],
-      "p13": ["Sister", "Sis"]
+      "p12": [
+        "Brother"
+      ],
+      "p13": [
+        "Sister",
+        "Sis"
+      ]
     },
     "matchingKey": {},
     "mcqAnswerKey": {
@@ -317,18 +356,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b2/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b2/vocab/instructions.mp3",
-    "sampleAudio": "audio/en_hi/m1/b2/vocab/examples.mp3",
-    "slowAudio": "audio/en_hi/m1/b2/vocab/words_slow.mp3",
-    "normalAudio": "audio/en_hi/m1/b2/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "He. She. It. We. They. Tall. Short. Funny. Kind. Smart. Family. Brother. Sister. Dog. Not.",
     "audioLanguage": "en",
     "audioDuration": 200,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "pronouns", "adjectives", "people", "attributes", "month1", "block2"],
+  "tags": [
+    "vocabulary",
+    "pronouns",
+    "adjectives",
+    "people",
+    "attributes",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -341,7 +388,9 @@
     "Using 'It' to address humans."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B2_speaking_001"],
+  "nextActivityIds": [
+    "en_hi_M1B2_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

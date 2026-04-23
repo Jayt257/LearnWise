@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M3B1_test_001"],
+  "prerequisites": [
+    "en_hi_M3B1_test_001"
+  ],
   "instructions": "Welcome to Month 3, Block 2! We are now learning one of the most important tenses in English: The Present Perfect tense. Read this lesson to learn how to talk about actions that happened in the past, but are still important right now!",
   "contentItems": [
     {
@@ -46,18 +48,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m3/b2/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m3/b2/lesson/instruction.mp3",
-    "sampleAudio": "audio/en_hi/m3/b2/lesson/examples.mp3",
-    "slowAudio": "audio/en_hi/m3/b2/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/en_hi/m3/b2/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "I have finished. She has eaten. They have gone.",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "present_perfect", "have", "has", "past_participle", "month3", "block2"],
+  "tags": [
+    "grammar",
+    "present_perfect",
+    "have",
+    "has",
+    "past_participle",
+    "month3",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -70,7 +80,9 @@
     "Using 'Have' with 'He' (e.g. He have gone)."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M3B2_pronunciation_001"],
+  "nextActivityIds": [
+    "en_hi_M3B2_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "Connecting Past and Present",
@@ -174,7 +186,9 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "Native speakers use the Present Perfect constantly in business settings to give updates. For example: 'I have sent the email.' It is much more professional than simply saying 'I sent it'.",
-    "dosList": ["Use Present Perfect to update someone on a task you just finished."],
+    "dosList": [
+      "Use Present Perfect to update someone on a task you just finished."
+    ],
     "dontsList": []
   },
   "summary": "To talk about things you have 'already done', use Have or Has with the heavy third form of the verb (V3). He/She/It get HAS. Everything else gets HAVE!",

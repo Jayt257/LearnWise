@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M2B1_vocabulary_001"],
+  "prerequisites": [
+    "ja_hi_M2B1_vocabulary_001"
+  ],
   "instructions": "あなたが今、まさにしている行動についてヒンディー語で答えてください！「動詞の語幹 ＋ ラハー/ラヒー ＋ フーン」のリズムで口を動かしましょう。",
   "contentItems": [
     {
@@ -25,7 +27,11 @@
     {
       "subTaskId": "t1",
       "prompt": "ルームメイト: 'तुम अभी क्या कर रहे हो?' (君は今、何をしているの？) 答え：「私は今、本を読んでいます(Paḍh)。」",
-      "expectedSpeakingPoints": ["Main abhee", "kitaab", "padh rahaa hoon"],
+      "expectedSpeakingPoints": [
+        "Main abhee",
+        "kitaab",
+        "padh rahaa hoon"
+      ],
       "sampleResponse": {
         "targetText": "मैं अभी किताब पढ़ रहा हूँ।",
         "transliteration": "Main abhee kitaab paḍh rahaa hoon.",
@@ -35,7 +41,11 @@
     {
       "subTaskId": "t2",
       "prompt": "ルームメイト: 'अच्छा। क्या तुम चाय पी रहे हो?' (なるほど。お茶は飲んでいる？) 答え：「いいえ、私は水を飲んでいます(Pee)。」",
-      "expectedSpeakingPoints": ["Nahin", "main paanee", "pee rahaa hoon"],
+      "expectedSpeakingPoints": [
+        "Nahin",
+        "main paanee",
+        "pee rahaa hoon"
+      ],
       "sampleResponse": {
         "targetText": "नहीं, मैं पानी पी रहा हूँ।",
         "transliteration": "Nahin, main paanee pee rahaa hoon.",
@@ -45,7 +55,11 @@
     {
       "subTaskId": "t3",
       "prompt": "ルームメイト: 'क्या तुम बाहर जा रहे हो?' (君は外へ行くところなの？) 答え：「はい、私は仕事へ行っています[向かっています](Jaa)。」",
-      "expectedSpeakingPoints": ["Haan", "main kaam par", "jaa rahaa hoon"],
+      "expectedSpeakingPoints": [
+        "Haan",
+        "main kaam par",
+        "jaa rahaa hoon"
+      ],
       "sampleResponse": {
         "targetText": "हाँ, मैं काम पर जा रहा हूँ।",
         "transliteration": "Haan, main kaam par jaa rahaa hoon.",
@@ -88,7 +102,15 @@
       "jaa rahaa hoon"
     ],
     "requiredKeywords": [
-      "main", "kitaab", "padh", "rahaa", "hoon", "paanee", "pee", "kaam", "jaa"
+      "main",
+      "kitaab",
+      "padh",
+      "rahaa",
+      "hoon",
+      "paanee",
+      "pee",
+      "kaam",
+      "jaa"
     ],
     "acceptableParaphrases": [
       "main kitaab padh rahaa hoon"
@@ -107,19 +129,26 @@
     "onPartial": "よくお話しできています。少しRahaa の「R」の発音が日本語の「L(ラ)」に近づいています。舌を弾いてRを響かせるとよりネイティブに聞こえます！"
   },
   "audioAssets": {
-    "promptAudio": "audio/ja_hi/m2/b1/speaking/prompts.mp3",
-    "nativeAudio": "audio/ja_hi/m2/b1/speaking/full_dialogue.mp3",
+    "promptAudio": null,
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m2/b1/speaking/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m2/b1/speaking/sample_responses.mp3",
-    "slowAudio": "audio/ja_hi/m2/b1/speaking/slow_dialogue.mp3",
-    "normalAudio": "audio/ja_hi/m2/b1/speaking/full_dialogue.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Roommate: Tum abhee kyaa kar rahe ho?\nLearner: Main abhee kitaab paḍh rahaa hoon...\n(Matches full dialogue)",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["speaking", "verbs", "present_continuous", "roleplay", "month2", "block1"],
+  "tags": [
+    "speaking",
+    "verbs",
+    "present_continuous",
+    "roleplay",
+    "month2",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -131,7 +160,9 @@
     "Retaining the Month 1 habitual marker and saying 'PeeTAA rahaa hoon'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M2B1_test_001"],
+  "nextActivityIds": [
+    "ja_hi_M2B1_test_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }

@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M3B3_pronunciation_001"],
+  "prerequisites": [
+    "ja_hi_M3B3_pronunciation_001"
+  ],
   "instructions": "ラージがケンにインド訪問についてメッセージを送っています。文が長くなっていますが、パニックにならないでください！「Ki(〜ということ)」や「To(その時は)」「Tab(その時に)」という接着剤を見つけることで、文章をブロックごとに分解して読むことができます。",
   "contentItems": [
     {
@@ -125,28 +127,41 @@
       "questionId": "q1",
       "questionText": "「Mujhe lagtaa hai (私は思う)」の後ろに置かれている、思考の内容を繋ぐ短い接着剤(こと/That)の単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["To", "Ki", "Tab"],
+      "options": [
+        "To",
+        "Ki",
+        "Tab"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "ラージは「タージマハルを見に行こう」と提案していますが、何という『条件』が満たされたらそうすると言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["ケンが来る時 (いつ来るかは決まっていない)", "もし(Agar)ケンが来年(来たら) (To)"],
+      "options": [
+        "ケンが来る時 (いつ来るかは決まっていない)",
+        "もし(Agar)ケンが来年(来たら) (To)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "ラージがケンに美味しいご飯を食べさせてあげるのは「いつ」だと約束していますか？",
       "questionType": "multiple_choice",
-      "options": ["もし(Agar)お金があったら", "君がここにいる時 (Jab ... tab)"],
+      "options": [
+        "もし(Agar)お金があったら",
+        "君がここにいる時 (Jab ... tab)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "最後の文で「Mujhe maaloom hai (知っている)」の中身として、ラージはケンについて何を知っていると言っていますか？",
       "questionType": "multiple_choice",
-      "options": ["彼がタージマハルを好きだということ", "彼がスパイシーなご飯(masaaledaar khaanaa)を好きだということ"],
+      "options": [
+        "彼がタージマハルを好きだということ",
+        "彼がスパイシーなご飯(masaaledaar khaanaa)を好きだということ"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -167,10 +182,18 @@
       "q5": "agar jab"
     },
     "acceptableParaphrases": {
-      "q5": ["agar jab", "Agar Jab", "agar, jab", "Agar, Jab"]
+      "q5": [
+        "agar jab",
+        "Agar Jab",
+        "agar, jab",
+        "Agar, Jab"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["agar", "jab"]
+      "q5": [
+        "agar",
+        "jab"
+      ]
     },
     "expectedSummaryPoints": [
       "The learner identifies 'ki' as the hinge between the mental state 'Mujhe maaloom hai' and the factual reality clause.",
@@ -186,18 +209,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m3/b3/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m3/b3/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/ja_hi/m3/b3/reading/slow_reading.mp3",
-    "normalAudio": "audio/ja_hi/m3/b3/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste Ken. Mujhe lagtaa hai ki... (matches full reading text)",
     "audioLanguage": "hi",
     "audioDuration": 210,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "conjunctions", "complex_sentences", "agar_to", "jab_tab", "month3", "block3"],
+  "tags": [
+    "reading",
+    "conjunctions",
+    "complex_sentences",
+    "agar_to",
+    "jab_tab",
+    "month3",
+    "block3"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -209,7 +240,9 @@
     "Reading straight through 'to' and 'tab' without recognizing them as the start of the main consequent clause."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M3B3_writing_001"],
+  "nextActivityIds": [
+    "ja_hi_M3B3_writing_001"
+  ],
   "attemptLimit": 5,
   "metadata": {}
 }

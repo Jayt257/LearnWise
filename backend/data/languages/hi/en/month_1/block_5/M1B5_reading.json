@@ -9,7 +9,9 @@
   "baseLanguage": "hi",
   "targetLanguage": "en",
   "estimatedTime": 45,
-  "prerequisites": ["en_hi_M1B5_pronunciation_001"],
+  "prerequisites": [
+    "en_hi_M1B5_pronunciation_001"
+  ],
   "instructions": "Read the story slowly. Notice the verbs. When the writer says 'I', the verb has no 's' (I wake up). When they talk about their brother Amit ('He'), the verb always gets an 's' or 'es' (He wakes up, He watches). Then answer the 8 questions.",
   "contentItems": [
     {
@@ -176,28 +178,42 @@
       "questionId": "q1",
       "questionText": "Look at the text: Does the writer say 'I drink' or 'I drinks'?",
       "questionType": "multiple_choice",
-      "options": ["I drink", "I drinks"],
+      "options": [
+        "I drink",
+        "I drinks"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
     },
     {
       "questionId": "q2",
       "questionText": "Does the text say 'Amit drink tea' or 'Amit drinks tea'?",
       "questionType": "multiple_choice",
-      "options": ["Amit drink tea", "Amit drinks tea"],
+      "options": [
+        "Amit drink tea",
+        "Amit drinks tea"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
     },
     {
       "questionId": "q3",
       "questionText": "What does Amit do in the morning instead of going to the park?",
       "questionType": "multiple_choice",
-      "options": ["He runs fast", "He brushes his hair", "He watches television", "He walks to school"],
+      "options": [
+        "He runs fast",
+        "He brushes his hair",
+        "He watches television",
+        "He walks to school"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
     },
     {
       "questionId": "q4",
       "questionText": "True or False: According to the text, 'They walk to school'. The verb 'walk' has no 's' because 'They' is plural.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
     },
     {
@@ -218,14 +234,22 @@
       "questionId": "q7",
       "questionText": "What does Rahul do with English words in his book?",
       "questionType": "multiple_choice",
-      "options": ["He look", "He write", "He writes", "He looks"],
+      "options": [
+        "He look",
+        "He write",
+        "He writes",
+        "He looks"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q7"
     },
     {
       "questionId": "q8",
       "questionText": "True or False: The text says 'I am eat an apple'.",
       "questionType": "true_false",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q8"
     }
   ],
@@ -242,12 +266,24 @@
       "q8": "False"
     },
     "acceptableParaphrases": {
-      "q5": ["Brushes", "BRUSHES"],
-      "q6": ["amit", "AMIT", "His brother", "He"]
+      "q5": [
+        "Brushes",
+        "BRUSHES"
+      ],
+      "q6": [
+        "amit",
+        "AMIT",
+        "His brother",
+        "He"
+      ]
     },
     "keywordScoringRules": {
-      "q5": ["brushes"],
-      "q6": ["amit"]
+      "q5": [
+        "brushes"
+      ],
+      "q6": [
+        "amit"
+      ]
     },
     "expectedSummaryPoints": [
       "No auxiliary 'to be' verbs are used throughout the text for action verbs.",
@@ -265,18 +301,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/en_hi/m1/b5/reading/native_reading.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/en_hi/m1/b5/reading/instructions.mp3",
+    "instructionAudio": null,
     "sampleAudio": null,
-    "slowAudio": "audio/en_hi/m1/b5/reading/slow_reading.mp3",
-    "normalAudio": "audio/en_hi/m1/b5/reading/native_reading.mp3",
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Hello! My name is Rahul. I wake up early every day... (full transcript provided in text)",
     "audioLanguage": "en",
     "audioDuration": 250,
     "audioRepeatAllowed": true
   },
-  "tags": ["reading", "verbs", "routines", "grammar", "month1", "block5"],
+  "tags": [
+    "reading",
+    "verbs",
+    "routines",
+    "grammar",
+    "month1",
+    "block5"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -289,7 +332,9 @@
     "Thinking 'He wash' is correct."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["en_hi_M1B5_writing_001"],
+  "nextActivityIds": [
+    "en_hi_M1B5_writing_001"
+  ],
   "attemptLimit": 3,
   "metadata": {}
 }

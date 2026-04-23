@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B1_test_001"],
+  "prerequisites": [
+    "ja_hi_M1B1_test_001"
+  ],
   "instructions": "日本人にとって、ヒンディー語の文法は世界一簡単です！なぜなら、日本語とヒンディー語の語順（主語・目的語・動詞）は全く同じだからです。このレッスンで、その「魔法」を体験しましょう。",
   "contentItems": [
     {
@@ -44,18 +46,25 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b2/lesson/native_lesson.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b2/lesson/instruction.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b2/lesson/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b2/lesson/slow_lesson.mp3",
-    "normalAudio": "audio/ja_hi/m1/b2/lesson/native_lesson.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Main Ken hoon. Aap kaun hain? Vah Rahul hai.",
     "audioLanguage": "hi",
     "audioDuration": 300,
     "audioRepeatAllowed": true
   },
-  "tags": ["grammar", "sov", "pronouns", "to_be_verbs", "month1", "block2"],
+  "tags": [
+    "grammar",
+    "sov",
+    "pronouns",
+    "to_be_verbs",
+    "month1",
+    "block2"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -67,7 +76,9 @@
     "Using 'Main... hai' because 'desu' never changes in Japanese."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B2_pronunciation_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B2_pronunciation_001"
+  ],
   "attemptLimit": null,
   "metadata": {},
   "conceptTitle": "SOVの魔法と「です」の変化",
@@ -166,8 +177,12 @@
   "cultureContext": {
     "isApplicable": true,
     "contextText": "インドでは目上の人や初めて会う人には必ず「Aap（あなた）」を使います。",
-    "dosList": ["旅行中に出会う人には「Aap」を使う。"],
-    "dontsList": ["初対面の人に友達言葉を使わない（後のレッスンで学びます）。"]
+    "dosList": [
+      "旅行中に出会う人には「Aap」を使う。"
+    ],
+    "dontsList": [
+      "初対面の人に友達言葉を使わない（後のレッスンで学びます）。"
+    ]
   },
   "summary": "日本語の強力な武器「S-O-V（主語・目的語・動詞）」の語順をそのまま使えます！ただし、日本語の「です」にあたる言葉は、「Main」なら「hoon」、「Vah」なら「hai」、「Aap」なら「hain」に変わることを覚えてください。",
   "checkpointQuestions": [

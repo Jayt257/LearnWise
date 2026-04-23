@@ -9,7 +9,9 @@
   "baseLanguage": "ja",
   "targetLanguage": "hi",
   "estimatedTime": 45,
-  "prerequisites": ["ja_hi_M1B1_listening_001"],
+  "prerequisites": [
+    "ja_hi_M1B1_listening_001"
+  ],
   "instructions": "ヒンディー語で最も重要な最初の10個の単語を覚えましょう！これらの単語さえ知っていれば、自己紹介をして基本の返事をすることができます。",
   "contentItems": [
     {
@@ -148,35 +150,55 @@
       "questionId": "q1",
       "questionText": "「ありがとう」をヒンディー語で何と言いますか？",
       "questionType": "multiple_choice",
-      "options": ["नाम (Naam)", "धन्यवाद (Dhanyavaad)", "हाँ (Haan)"],
+      "options": [
+        "नाम (Naam)",
+        "धन्यवाद (Dhanyavaad)",
+        "हाँ (Haan)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
     },
     {
       "questionId": "q2",
       "questionText": "日本語の「です」に当たる、文の最後に置く言葉はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["मेरा (Mera)", "है (Hai)", "नहीं (Nahin)"],
+      "options": [
+        "मेरा (Mera)",
+        "है (Hai)",
+        "नहीं (Nahin)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
     },
     {
       "questionId": "q3",
       "questionText": "「私の名前」という意味にするために、「मेरा (Mera)」の後ろに入る単語は何ですか？",
       "questionType": "multiple_choice",
-      "options": ["हाँ (Haan)", "ठीक (Ṭheek)", "नाम (Naam)"],
+      "options": [
+        "हाँ (Haan)",
+        "ठीक (Ṭheek)",
+        "नाम (Naam)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
     },
     {
       "questionId": "q4",
       "questionText": "誰かに「元気ですか？」と聞かれて「はい、元気です（大丈夫です）」と答える時、何と言いますか？",
       "questionType": "multiple_choice",
-      "options": ["मैं ठीक हूँ (Main ṭheek hoon)", "मैं नाम हूँ (Main naam hoon)", "मेरा धन्यवाद (Mera dhanyavaad)"],
+      "options": [
+        "मैं ठीक हूँ (Main ṭheek hoon)",
+        "मैं नाम हूँ (Main naam hoon)",
+        "मेरा धन्यवाद (Mera dhanyavaad)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
     },
     {
       "questionId": "q5",
       "questionText": "「いいえ」を意味する単語はどれですか？",
       "questionType": "multiple_choice",
-      "options": ["नहीं (Nahin)", "हाँ (Haan)", "नमस्ते (Namaste)"],
+      "options": [
+        "नहीं (Nahin)",
+        "हाँ (Haan)",
+        "नमस्ते (Namaste)"
+      ],
       "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
     }
   ],
@@ -213,18 +235,26 @@
   },
   "audioAssets": {
     "promptAudio": null,
-    "nativeAudio": "audio/ja_hi/m1/b1/vocab/words_native.mp3",
+    "nativeAudio": null,
     "referenceAudio": null,
-    "instructionAudio": "audio/ja_hi/m1/b1/vocab/instructions.mp3",
-    "sampleAudio": "audio/ja_hi/m1/b1/vocab/examples.mp3",
-    "slowAudio": "audio/ja_hi/m1/b1/vocab/words_slow.mp3",
-    "normalAudio": "audio/ja_hi/m1/b1/vocab/words_native.mp3",
+    "instructionAudio": null,
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
     "audioTranscript": "Namaste. Main. Mera. Naam...",
     "audioLanguage": "hi",
     "audioDuration": 120,
     "audioRepeatAllowed": true
   },
-  "tags": ["vocabulary", "basics", "greetings", "pronouns", "hindi", "month1", "block1"],
+  "tags": [
+    "vocabulary",
+    "basics",
+    "greetings",
+    "pronouns",
+    "hindi",
+    "month1",
+    "block1"
+  ],
   "status": "published",
   "createdAt": "2026-04-18T00:00:00Z",
   "version": "1.0.0",
@@ -236,7 +266,9 @@
     "Using 'Main... hai' instead of 'Main... hoon'."
   ],
   "reviewLinks": [],
-  "nextActivityIds": ["ja_hi_M1B1_speaking_001"],
+  "nextActivityIds": [
+    "ja_hi_M1B1_speaking_001"
+  ],
   "attemptLimit": 10,
   "metadata": {}
 }
