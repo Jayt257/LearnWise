@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M2B1_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "今、〜しています (Present Continuous)",
+  "learningGoal": "The learner will master the Present Continuous tense by mapping the Japanese '~te iru' structure to the Hindi 'Root + rahaa/rahee/rahe + copula' structure, managing gender agreement on the continuous marker.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B6_test_001"],
+  "instructions": "Month 2 へようこそ！ここでは「今まさに〜しているところです」という『現在進行形』を学びます。日本語の「〜て いる」という形とヒンディー語の形は、驚くほどそっくりです！",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "日本語では「食べ + ている」のように『語幹＋付加語』で作ります。ヒンディー語も全く同じで「Khaa(食べ) + Rahaa(ている)」で作ります！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Present continuous is formed by: Verb Root + Rahaa/Rahee/Rahe + To Be Copula.",
+      "The 'Rahaa' marker mutates based on the SPEAKER's biological gender (Rahaa=Male, Rahee=Female, Rahe=Polite/Aap), NOT the main verb root.",
+      "Structurally, it maps 1:1 with Japanese: [Root] + [te iru]. e.g., [Khaa] + [rahaa hoon]."
+    ],
+    "conceptSummary": "Introducing the present continuous logic which overrides the present habitual (-taa/-tee) markers from Month 1, substituting them for the continuous auxiliary markers (-rahaa/-rahee) while keeping the same SOV flow.",
+    "importantFacts": [
+      "The actual verb root (e.g., Khaa, Jaa, Pee) NEVER changes here. Only the 'Rahaa' word changes gender."
+    ],
+    "checkpointAnswers": {
+      "q1": "Rahaa (रहा)",
+      "q2": "Rahee (रही)",
+      "q3": "動詞の語幹 (Jaa) と To Be動詞 (Hoon) の間"
+    },
+    "expectedUnderstanding": "Learners will seamlessly transition from Habitual (Khaataa hoon) to Continuous (Khaa rahaa hoon) by recognizing it as a direct parallel to the Japanese transition from 'Tabemasu' to 'Tabete imasu'."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！ヒンディー語の進行形（〜している）は、日本語の『〜ている』ブロックと全く同じ場所に置かれるという法則を理解しましたね！",
+    "onFail": "もう一度確認しましょう。月1で学んだ「〜ター (Taa)」を取り払い、代わりに「〜ラハー (Rahaa)」をドロップするだけです！",
+    "onPartial": "惜しい！自分が女性の場合、「ラハー(Rahaa)」ではなく「ラヒー(Rahee)」になることを忘れないでください！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b1/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b1/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b1/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m2/b1/lesson/native_lesson.mp3",
+    "audioTranscript": "Main jaa rahaa hoon. Main jaa rahee hoon. Aap jaa rahe hain.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "present_continuous", "gender", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「食べる (Khaa)」の部分は一切変化しません。変化するのはその直後に置く「Rahaa/Rahee」という単語です。",
+  "commonMistakes": [
+    "Saying 'Khaataa rahaa hoon', improperly keeping the habitual '-taa' marker on the root verb.",
+    "Saying 'Main khaa rahaa' and forgetting the terminal '-hoon' copula."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "今していること (Current Actions)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "「ている」＝ राहा (Rahaa)",
+      "bodyText": "Month 1 では「私は（毎日）りんごを食べます = Khaataa hoon」という『習慣』を学びました。今回は「私はいま、りんごを食べているところです」という話し方です。動詞の語幹（Khaa）に、『Rahaa（ラハー）』という言葉を足すだけです！",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं खा रहा हूँ।",
+          "transliteration": "Main khaa rahaa hoon.",
+          "baseTranslation": "私は食べています。(私が男性の場合)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "もちろん、ここでも「性別」が変わります",
+      "bodyText": "ヒンディー語の絶対ルール「話す人の性別で言葉が変わる」はここでも適用されます。変更するのは『Rahaa』の部分です。\n男性：Rahaa (ラハー)\n女性：Rahee (ラヒー)\n丁寧(あなた)：Rahe (ラヘー)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं जा रही हूँ।",
+          "transliteration": "Main jaa rahee hoon.",
+          "baseTranslation": "私は行っています。[向かっています] (私が女性の場合)"
+        },
+        {
+          "targetText": "आप क्या कर रहे हैं?",
+          "transliteration": "Aap kyaa kar rahe hain?",
+          "baseTranslation": "あなたは何をしていますか？ (あなた＝Aap なので Rahe)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "日本語との完全一致構造",
+      "bodyText": "言葉の組み合わせ方を日本語と比べてみましょう。完全に同じブロック構造になっています。\n【日】私・は ＋(りんご)＋ 食べ ＋ ている ＋ です\n【ヒ】Main ＋(seb)＋ khaa ＋ rahaa ＋ hoon",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं किताब पढ़ रहा हूँ।",
+          "transliteration": "Main kitaab paḍh rahaa hoon.",
+          "baseTranslation": "私は本を読んでいます。(男性)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will extract verbal roots and append the gender-matched continuous auxiliary (rahaa/rahee) effectively, terminating the structure with correct copulas.",
+  "examples": [
+    {
+      "targetText": "मेरा भाई सो रहा है।",
+      "transliteration": "Mera bhaaii so rahaa hai.",
+      "baseTranslation": "私の兄は寝ています。",
+      "explanation": "So(Sleep) + rahaa(because brother is male) + hai(Target is 3rd person)."
+    },
+    {
+      "targetText": "वह पानी पी रही है।",
+      "transliteration": "Vah paanee pee rahee hai.",
+      "baseTranslation": "彼女は水を飲んでいます。",
+      "explanation": "Pee(Drink) + rahee(because Vah refers to a female) + hai."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「食べる (Khaa)」「飲む (Pee)」などの動詞の語幹そのものは、全く変化しません！",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "文の最後は必ず Hoon / Hain / Hai といったTo be動詞で終わらせてください。Rahaa で言い切ってはいけません。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【現在進行形】語幹(Khaa) ＋ Rahaa/Rahee/Rahe ＋ Hoon/Hain/Hai の3段コンボです。日本語の「食べ・ている・です」というブロック構造そのまま使えます！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "男性が「いま読んでいる」と言う時、語幹（Padh）の次に来る単語は何ですか？",
+      "expectedAnswer": "Rahaa (रहा)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "女性が「いま〜している」と言う時、Rahaa は何に変わりますか？",
+      "expectedAnswer": "Rahee (रही)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Rahaa/Rahee は、文の中のどこに置かれますか？（ヒント：『行く』(Jaanaa)の文で考えましょう）",
+      "expectedAnswer": "動詞の語幹 (Jaa) と To Be動詞 (Hoon) の間"
+    }
+  ]
+}

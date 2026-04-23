@@ -1,0 +1,351 @@
+{
+  "activityId": "ja_hi_M2B5_test_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 確認テスト (Block 5 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of Hindi imperative forms, proving accurate deployment of formal/informal affixes, prohibitive negation ('mat'), and command irregulars.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B5_lesson_001",
+    "ja_hi_M2B5_pronunciation_001",
+    "ja_hi_M2B5_reading_001",
+    "ja_hi_M2B5_writing_001",
+    "ja_hi_M2B5_listening_001",
+    "ja_hi_M2B5_vocabulary_001",
+    "ja_hi_M2B5_speaking_001"
+  ],
+  "instructions": "Block 5 の確認テストです！「〜してね(Tum用)」と「〜してください(Aap用)」のルール、そして禁止の Mat を正確に使いこなせるか確認しましょう。",
+  "testTitle": "Block 5 確認テスト (Imperatives & Politeness)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 語尾の変化 (Ending Changes)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "友達(Tum)に「中に入って (Aanaa)」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Aaiye", "Aao", "Aa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "目上の人(Aap)に「座ってください (Baiṭhnaa)」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Baiṭhiye", "Baiṭho"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「する／仕事をする(Karnaa)」を目上の人(Aap)に丁寧にお願いする時、正しい形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Kariye", "Keejiye", "Karniye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "「〜しないで」とお願い・命令する時に使う単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Namaste", "Nahin", "Mat"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: 命令形（O や Iye）で終わる文には、最後に必ず Hai や Hain をつけて文を終わらせなければならない。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 動詞の意味 (Verb Meanings)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「Bolnaa」の意味は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["話す", "聞く"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「Peenaa (Peejiye)」の意味は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["食べる", "飲む"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「外 (Outside)」を意味する単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Yahaan", "Baahar"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「見る」を意味する Dekhnaa を友達(Tum)へ命令形にした時、「Dekh_____」となります。空白に入る文字は何ですか？",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「Denaa (あげる)」の丁寧なお願い(Aap)の形は何ですか？ (ローマ字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 意味の識別 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Chaay peejiye.」という発言から分かることは何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["話し手は聞き手を友達のように扱っている", "話し手は聞き手を自分より目上、または客として丁寧に扱っている"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Andar mat aao.」の正しい意味はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["中に入って", "中に入らないで"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Keejiye」と「Kariye」はどちらも丁寧語を作る規則に則っているように見えますが、実際に使われる正しい形はどちらですか？",
+          "questionType": "multiple_choice",
+          "options": ["Keejiye", "Kariye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「話を『聞いて』」とお願いする時、Sunnaa(聞く) のTum形は何になりますか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "True or False: 日本語のように「どうかお願いします(Please)」に当たる単語を文頭につけなくても、動詞に「Iye」をつけるだけで十分丁寧な依頼になる。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 総合作文 (Full Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 「ここに座ってください(Aap)。」",
+          "questionType": "multiple_choice",
+          "options": ["Yahaan baiṭho.", "Yahaan baiṭhiye.", "Yahaan baiṭhiye hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 「仕事をしないでください(Aap)。」",
+          "questionType": "multiple_choice",
+          "options": ["Kaam nahin keejiye.", "Kaam mat keejiye.", "Kaam mat karo."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 「外に行って(Tum)。」",
+          "questionType": "multiple_choice",
+          "options": ["Baahar jaao.", "Baahar jaaiye.", "Baahar mat jaao."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「Peenaa (飲む)」をAap用のお願いにした時の形は何ですか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "What does 'मत (Mat)' mean in English?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 10,
+    "writing": 50,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Aao",
+      "q002": "Baiṭhiye",
+      "q003": "Keejiye",
+      "q004": "Mat",
+      "q005": "False",
+      "q006": "話す",
+      "q007": "飲む",
+      "q008": "Baahar",
+      "q009": "o",
+      "q010": "Deejiye",
+      "q011": "話し手は聞き手を自分より目上、または客として丁寧に扱っている",
+      "q012": "中に入らないで",
+      "q013": "Keejiye",
+      "q014": "suno",
+      "q015": "True",
+      "q016": "Yahaan baiṭhiye.",
+      "q017": "Kaam mat keejiye.",
+      "q018": "Baahar jaao.",
+      "q019": "peejiye",
+      "q020": "Don't"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q009": ["o", "O"],
+      "q010": ["deejiye", "Deejiye"],
+      "q014": ["suno", "Suno"],
+      "q019": ["peejiye", "Peejiye"],
+      "q020": ["Don't", "don't", "Do not", "do not"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! ヒンディー語の『お願い・命令 (Imperatives)』のルールを完全にマスターしました！「Iye」と「O」の使い分けや、厄介な不規則動詞「Keejiye」「Peejiye」も完璧です！",
+    "onFail": "残念！もう一度復習が必要です。「しないでください」と言う時に Nahin を使っていませんか？命令の否定には「Mat」を使い、そして最後は「〜Iye」で結ぶことを忘れないでください！",
+    "onPartial": "惜しいところがあります。Mat(禁止)の使い方は理解できていますが、Peejiye(飲んでください) と Keejiye(してください) の不規則な変化に少し引っかかっています。この2つは非常によく使うので丸暗記しましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test measures understanding of Hindi formal and informal command structures and prohibitive negations.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "grammar", "commands", "imperative", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M1B5_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "朝の習慣 (Morning Habits)",
+  "learningGoal": "The learner will aurally parse the difference between masculine (-taa) and feminine (-tee) verbal conjugations at conversational speed to correctly identify the actor.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M1B5_writing_001"],
+  "instructions": "ラージと彼の妻、アニタが朝の会話をしています。誰が何を食べているのか、動詞の音（ター / ティー）を手掛かりにして聴き取ってください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Khaataa か Khaatee か。たった一文字の違いで、誰が主語かが決まります！"
+    }
+  ],
+  "listeningGoal": "Identify the biological gender of the subject by parsing the terminal vowel of the verb root before the copula.",
+  "audioScenario": "A husband and wife discussing what they eat for breakfast before going out.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "अनीता: राज, तुम क्या खाते हो?",
+      "transliteration": "Aneeta: Raaj, tum kyaa khaate ho?",
+      "baseTranslation": "アニタ：ラージ、あなたは何を食べるの？ (※ここでは少し親しい 'tum' を使っています)"
+    },
+    {
+      "targetText": "राज: मैं सेब खाता हूँ। और तुम?",
+      "transliteration": "Raaj: Main seb khaataa hoon. Aur tum?",
+      "baseTranslation": "ラージ：僕はりんごを食べるよ。君は？"
+    },
+    {
+      "targetText": "अनीता: मैं सेब नहीं खाती। मैं भारतीय खाना खाती हूँ।",
+      "transliteration": "Aneeta: Main seb nahin khaatee. Main Bhaarateey khaanaa khaatee hoon.",
+      "baseTranslation": "アニタ：私はりんごは食べないわ。私はインド料理を食べるわ。"
+    },
+    {
+      "targetText": "राज: ठीक है। मैं अब काम पर जाता हूँ।",
+      "transliteration": "Raaj: Ṭheek hai. Main ab kaam par jaataa hoon.",
+      "baseTranslation": "ラージ：わかった。僕はもう仕事に行くよ。"
+    },
+    {
+      "targetText": "अनीता: मैं भी जाती हूँ।",
+      "transliteration": "Aneeta: Main bhee jaatee hoon.",
+      "baseTranslation": "アニタ：私も行くわ。"
+    }
+  ],
+  "audioTranscriptFull": "Aneeta: Raaj, tum kyaa khaate ho?\nRaaj: Main seb khaataa hoon. Aur tum?\nAneeta: Main seb nahin khaatee. Main Bhaarateey khaanaa khaatee hoon.\nRaaj: Ṭheek hai. Main ab kaam par jaataa hoon.\nAneeta: Main bhee jaatee hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージ（男性）は「僕はりんごを食べる」と言う時、どのように発音していますか？",
+      "questionType": "multiple_choice",
+      "options": ["seb khaatee hoon", "seb khaataa hoon"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタ（女性）が「私はインド料理を食べる」と言う時、動詞はどうなっていますか？",
+      "questionType": "multiple_choice",
+      "options": ["khaatee hoon (カーティーフーン)", "khaataa hoon (カーターフーン)"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "男性が「行く」と言う時の音は Jaataa ですか、それとも Jaatee ですか？",
+      "questionType": "multiple_choice",
+      "options": ["Jaatee (ジャーティー)", "Jaataa (ジャーター)"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最後にアニタは「私も行く」と言っています。「私『も』(also)」を意味する単語は何ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "アニタは「りんご(seb)」を食べますか？(ヒント: nahin)",
+      "questionType": "true_false",
+      "options": ["食べない", "食べる"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "seb khaataa hoon",
+      "q2": "khaatee hoon (カーティーフーン)",
+      "q3": "Jaataa (ジャーター)",
+      "q4": "bhee",
+      "q5": "食べない"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["bhee", "bhi", "भी"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["bhee"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい耳しています！Taa と Tee の響きの違いを聞き分け、誰が話しているかを完全に理解できました。",
+    "onFail": "もう一度ゆっくり再生して聞いてください。男性のラージが話す時は必ず「ター（Taa）」、女性のアニタが話す時は必ず「ティー（Tee）」の音が入っています！",
+    "onPartial": "よく聞き取れています！「Bhee (〜も)」や「Nahin (いいえ/〜ない)」といった頻出単語も音声の中に隠れているので、注意深く聞いてみてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b5/listening/morning_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b5/listening/morning_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b5/listening/morning_native.mp3",
+    "audioTranscript": "Aneeta: Raaj, tum kyaa khaate ho?\n... (Matches exact transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "verbs", "gender", "present_tense", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "男ならTaa、女ならTee、という法則は「食べる」でも「行く」でも全く同じです。",
+  "commonMistakes": [
+    "Failing to perceive the vowel shift between khaataa and khaatee at conversational speed."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,211 @@
+{
+  "activityId": "ja_hi_M1B2_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "私は誰？ (Who Am I?)",
+  "learningGoal": "The learner will accurately decode simple Devanagari sentences, successfully tracking the subject-verb agreement (Main + hoon, Vah + hai, Aap + hain) within an established SOV structure.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B2_pronunciation_001"],
+  "instructions": "短い文章を読んで、登場人物が誰のことを話しているのかを理解しましょう。文の最後の「です（hai, hoon, hain）」が、主語によってどう変化しているかに注目してください！",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Main（私）の時は hoon、Vah（彼・彼女）の時は hai、Aap（あなた）の時は hain が使われていることを目で手掛かりとして使います。"
+    }
+  ],
+  "readingTitle": "मैं, आप और वह (Me, You, and He/She)",
+  "readingText": "नमस्ते। मैं जापानी हूँ। मेरा नाम केन है। आप भारतीय हैं। आपका नाम राज है। वह मेरा दोस्त है। उसका नाम अमित है। हम ठीक हैं।",
+  "textInTargetLanguage": "नमस्ते। मैं जापानी हूँ। मेरा नाम केन है। आप भारतीय हैं। आपका नाम राज है। वह मेरा दोस्त है। उसका नाम अमित है। हम ठीक हैं。",
+  "baseLanguageSupportText": "こんにちは。私は日本人です。私の名前はケンです。あなたはインド人です。あなたの名前はラージです。彼は私の友達です。彼の名前はアミトです。私たちは元気です。",
+  "glossary": [
+    {
+      "targetText": "जापानी",
+      "transliteration": "Jaapaanee",
+      "baseTranslation": "日本人",
+      "exampleSentence": {
+        "targetText": "मैं जापानी हूँ।",
+        "transliteration": "Main Jaapaanee hoon.",
+        "baseTranslation": "私は日本人です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "भारतीय",
+      "transliteration": "Bhaarateey",
+      "baseTranslation": "インド人",
+      "exampleSentence": {
+        "targetText": "आप भारतीय हैं।",
+        "transliteration": "Aap Bhaarateey hain.",
+        "baseTranslation": "あなたはインド人です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "आपका नाम",
+      "transliteration": "Aapka naam",
+      "baseTranslation": "あなたの名前",
+      "exampleSentence": {
+        "targetText": "आपका नाम क्या है?",
+        "transliteration": "Aapka naam kyaa hai?",
+        "baseTranslation": "あなたの名前は何ですか？"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "दोस्त",
+      "transliteration": "Dost",
+      "baseTranslation": "友達",
+      "exampleSentence": {
+        "targetText": "वह मेरा दोस्त है।",
+        "transliteration": "Vah mera dost hai.",
+        "baseTranslation": "彼は私の友達です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "उसका",
+      "transliteration": "Uska",
+      "baseTranslation": "彼の / 彼女の",
+      "exampleSentence": {
+        "targetText": "उसका नाम अमित है।",
+        "transliteration": "Uska naam Amit hai.",
+        "baseTranslation": "彼の名前はアミトです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "हम",
+      "transliteration": "Ham",
+      "baseTranslation": "私たち",
+      "exampleSentence": {
+        "targetText": "हम ठीक हैं।",
+        "transliteration": "Ham ṭheek hain.",
+        "baseTranslation": "私たちは元気です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं जापानी हूँ।",
+      "transliteration": "Main Jaapaanee hoon.",
+      "baseTranslation": "私は日本人です。"
+    },
+    {
+      "targetText": "आप भारतीय हैं।",
+      "transliteration": "Aap Bhaarateey hain.",
+      "baseTranslation": "あなたはインド人です。"
+    },
+    {
+      "targetText": "वह मेरा दोस्त है।",
+      "transliteration": "Vah mera dost hai.",
+      "baseTranslation": "彼は私の友達です。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "文章を書いている人（ケン）の国籍は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["インド人 (Bhaarateey)", "日本人 (Jaapaanee)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「आप भारतीय हैं (Aap Bhaarateey hain)」という文の主語である「あなた」の名前は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["राज (Raaj)", "अमित (Amit)", "केन (Ken)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ケンの友達（Dost）の名前は何ですか？(ヒント: Vah mera dost hai...)",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「Aap (あなた)」が主語の時、動詞（です）は何になっていますか？",
+      "questionType": "multiple_choice",
+      "options": ["हूँ (hoon)", "है (hai)", "हैं (hain)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「彼 / 彼女」を意味するヒンディー語の代名詞はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["वह (Vah)", "हम (Ham)", "मैं (Main)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "「私たちは元気です」という文の中で、「私たち」を意味する言葉は何ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "日本人 (Jaapaanee)",
+      "q2": "राज (Raaj)",
+      "q3": "अमित (Amit)",
+      "q4": "हैं (hain)",
+      "q5": "वह (Vah)",
+      "q6": "हम (Ham)"
+    },
+    "acceptableParaphrases": {
+      "q3": ["amit", "Amit", "अमित"],
+      "q6": ["ham", "Ham", "हम"]
+    },
+    "keywordScoringRules": {
+      "q3": ["amit", "अमित"],
+      "q6": ["ham", "हम"]
+    },
+    "expectedSummaryPoints": [
+      "The learner correlates specific pronoun inputs (Main, Aap, Vah) with distinct copular outputs (Hoon, Hain, Hai) inside the text.",
+      "The learner distinguishes target relationships (Raaj = You, Amit = He/Friend)."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "パーフェクト！主語によって動詞（です）が変わるルールを文章の中でしっかり見つけることができました。",
+    "onFail": "もう一度読んでみましょう。Vah（彼）と Aap（あなた）の違いをサポートテキストを読みながら整理してみてください。",
+    "onPartial": "よくできました！いくつか間違いがあります。「私たち（Ham）」は複数形なので、Aapと同じように動詞は「Hain（हैं）」になることもチェックしてください！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b2/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b2/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m1/b2/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Main Jaapaanee hoon. Mera naam Ken hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "pronouns", "to_be", "sov", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "主語が変わると、文の最後の単語（hoon, hai, hain）も変わることに注目して読んでみてください。",
+  "commonMistakes": [
+    "Matching 'Aap' (You) with 'Hai' instead of 'Hain'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

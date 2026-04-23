@@ -1,0 +1,155 @@
+{
+  "activityId": "ja_hi_M1B1_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "空港での出会い (At the Airport)",
+  "learningGoal": "The learner will parse basic introductory Hindi auditory input, identifying greetings, names, and the 'Mera naam... hai' SOV structure, mapping it directly to Japanese equivalent phrases.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M1B1_writing_001"],
+  "instructions": "音声を聞いてみましょう！インディラ・ガンディー国際空港（ニューデリー）に到着した日本人旅行者が、インド人のドライバーと初めて会話をしています。「ナマステ」と「名前」に集中して聞いてください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "インド人の名前は「ラージ (Raaj)」。日本人の名前は「ヒロシ (Hiroshi)」です。"
+    }
+  ],
+  "listeningGoal": "Extract the self-identification sequence and the reciprocal greetings from early-stage auditory input.",
+  "audioScenario": "A Japanese tourist meeting their assigned driver at an Indian airport.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "ड्राइवर: नमस्ते! क्या आप हिरोशी हैं?",
+      "transliteration": "Driver: Namaste! Kyaa aap Hiroshi hain?",
+      "baseTranslation": "ドライバー：こんにちは！あなたはヒロシさんですか？"
+    },
+    {
+      "targetText": "हिरोशी: नमस्ते। हाँ, मेरा नाम हिरोशी है।",
+      "transliteration": "Hiroshi: Namaste. Haan, mera naam Hiroshi hai.",
+      "baseTranslation": "ヒロシ：こんにちは。はい、私の名前はヒロシです。"
+    },
+    {
+      "targetText": "ड्राइवर: आपका स्वागत है! मेरा नाम राज है।",
+      "transliteration": "Driver: Aapka swaagat hai! Mera naam Raaj hai.",
+      "baseTranslation": "ドライバー：歓迎します（ようこそ）！私の名前はラージです。"
+    },
+    {
+      "targetText": "हिरोशी: धन्यवाद राज। मैं ठीक हूँ।",
+      "transliteration": "Hiroshi: Dhanyavaad Raaj. Main ṭheek hoon.",
+      "baseTranslation": "ヒロシ：ありがとうラージ。私は元気です。"
+    }
+  ],
+  "audioTranscriptFull": "Driver: Namaste! Kyaa aap Hiroshi hain?\nHiroshi: Namaste. Haan, mera naam Hiroshi hai.\nDriver: Aapka swaagat hai! Mera naam Raaj hai.\nHiroshi: Dhanyavaad Raaj. Main ṭheek hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ドライバーが最初に言った挨拶は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["Aapka swaagat hai (ようこそ)", "Namaste (こんにちは)", "Dhanyavaad (ありがとう)"],
+      "audioTimestamp": "00:01",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ヒロシは「はい、私の名前はヒロシです」と答えます。ヒンディー語の「はい」は何と言っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["हाँ (Haan)", "नहीं (Nahin)", "मेरा (Mera)"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「私の名前はヒロシです (Mera naam Hiroshi hai)」という文で、日本語の「です」に当たる言葉はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["Mera", "naam", "hai"],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ドライバーの名前は何ですか？(ローマ字で入力)",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ヒロシは最後に「ありがとう」と言います。これはヒンディー語で何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["नमस्ते (Namaste)", "धन्यवाद (Dhanyavaad)", "ठीक (Ṭheek)"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "True or False: ヒロシは自分の体調について「元気ではない (sick)」と答えている。",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 16,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Namaste (こんにちは)",
+      "q2": "हाँ (Haan)",
+      "q3": "hai",
+      "q4": "Raaj",
+      "q5": "धन्यवाद (Dhanyavaad)",
+      "q6": "False"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["Raaj", "Raj", "raaj", "raj"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["raj", "raaj"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の音声を聞き取り、挨拶や自己紹介のフレーズ（Mera naam X hai）を正確に理解できました。",
+    "onFail": "もう一度ゆっくり聞いてみましょう。特に「Mera naam（私の名前）」と言う部分に注目してください。",
+    "onPartial": "よくできました！いくつか間違いがあります。「ठीक (ṭheek)」は「大丈夫／元気」という意味なので、False が正解です！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b1/listening/airport_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b1/listening/airport_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b1/listening/airport_native.mp3",
+    "audioTranscript": "Driver: Namaste! Kyaa aap Hiroshi hain...\n(Matches exact transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "greetings", "airport", "introduction", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "ドライバーの「Mera naam Raaj hai」と、ヒロシの「Mera naam Hiroshi hai」の部分を比較してみてください。",
+  "commonMistakes": [
+    "Failing to hear 'haan' as 'yes' due to nasalization fading in natural speech."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

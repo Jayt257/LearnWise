@@ -1,0 +1,246 @@
+{
+  "activityId": "ja_hi_M1B4_vocabulary_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "vocabulary",
+  "title": "場所と助詞 (Places and Particles)",
+  "learningGoal": "The learner will master 10 foundational vocabulary items focusing on interrogatives of place, specific locational nouns, and the primary three locational postpositions (Mein, Par, Se).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B4_listening_001"],
+  "instructions": "今回は「どこ？」といった質問の言葉や、場所に関する単語を覚えます。もっとも重要な「中」「上」「から」を示す３つの助詞（Postpositions）もここで確実に記憶しましょう！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Kahaan（どこ）、Yahaan（ここ）、Vahaan（そこ）。この３つはセットで覚えると簡単です！"
+    }
+  ],
+  "vocabTheme": "Locations & Postpositions",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "कहाँ",
+      "transliteration": "Kahaan",
+      "baseTranslation": "どこ",
+      "partOfSpeech": "Interrogative",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "यहाँ",
+      "transliteration": "Yahaan",
+      "baseTranslation": "ここ",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "वहाँ",
+      "transliteration": "Vahaan",
+      "baseTranslation": "そこ / あそこ",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "में",
+      "transliteration": "Mein",
+      "baseTranslation": "〜に / 〜の中に",
+      "partOfSpeech": "Postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "पर",
+      "transliteration": "Par",
+      "baseTranslation": "〜の上に",
+      "partOfSpeech": "Postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "से",
+      "transliteration": "Se",
+      "baseTranslation": "〜から",
+      "partOfSpeech": "Postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "मेज़",
+      "transliteration": "Mez",
+      "baseTranslation": "机 / テーブル (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "कुर्सी",
+      "transliteration": "Kursee",
+      "baseTranslation": "椅子 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "अलमारी",
+      "transliteration": "Almaaree",
+      "baseTranslation": "棚 / クローゼット (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "家 (男性名詞)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "どこ",
+    "ここ",
+    "そこ/あそこ",
+    "〜の中に",
+    "〜の上に",
+    "〜から",
+    "机",
+    "椅子",
+    "棚",
+    "家"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "आप कहाँ से हैं?",
+      "transliteration": "Aap kahaan se hain?",
+      "baseTranslation": "あなたはどこから来ましたか？ (どこ＋から)"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "वह घर में है।",
+      "transliteration": "Vah ghar mein hai.",
+      "baseTranslation": "彼は家の中にいます。"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "कुर्सी यहाँ है।",
+      "transliteration": "Kursee yahaan hai.",
+      "baseTranslation": "椅子はここにあります。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its Japanese equivalent: Mein (में)",
+      "questionType": "matching",
+      "options": ["〜から", "〜の中に"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its Japanese equivalent: Kahaan (कहाँ)",
+      "questionType": "matching",
+      "options": ["どこ", "ここ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the word to its Japanese equivalent: Mez (मेज़)",
+      "questionType": "matching",
+      "options": ["棚", "机"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its Japanese equivalent: Se (से)",
+      "questionType": "matching",
+      "options": ["〜の上に", "〜から"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match the word to its Japanese equivalent: Par (पर)",
+      "questionType": "matching",
+      "options": ["〜の上に", "〜の中に"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "どこ",
+      "w02": "ここ",
+      "w03": "そこ/あそこ",
+      "w04": "〜の中に",
+      "w05": "〜の上に",
+      "w06": "〜から",
+      "w07": "机",
+      "w08": "椅子",
+      "w09": "棚",
+      "w10": "家"
+    },
+    "acceptedTranslations": {
+      "w04": ["〜の中に", "に", "中"],
+      "w05": ["〜の上に", "上に", "上"],
+      "w06": ["から", "〜から"]
+    },
+    "matchingKey": {
+      "q1": "〜の中に",
+      "q2": "どこ",
+      "q3": "机",
+      "q4": "〜から",
+      "q5": "〜の上に"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！これで「どこ（Kahaan）」と「机の上（Mez par）」などの場所を示す言葉をマスターしました。",
+    "onFail": "もう一度復習しましょう！特に、Mein(に), Par(上に), Se(から) の３つの助詞はこれからも無限に出てきます。ここで確実に覚えてください。",
+    "onPartial": "よくできました！Kahaan(どこ)、Yahaan(ここ)、Vahaan(そこ) のように韻を踏んでいる単語セットに気付けましたか？まとめて覚えておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b4/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b4/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b4/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b4/vocab/words_native.mp3",
+    "audioTranscript": "Kahaan. Yahaan. Vahaan. Mein. Par. Se. Mez. Kursee. Almaaree. Ghar.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "locations", "postpositions", "particles", "furniture", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Kahaan (どこ) に Se (から) をつなげると、「Kahaan se (どこから)」になります。",
+  "commonMistakes": [
+    "Confusing Yahaan (here) with Kahaan (where)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

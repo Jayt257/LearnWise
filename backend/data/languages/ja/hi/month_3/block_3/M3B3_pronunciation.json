@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M3B3_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "文と文の架け橋（Conjunction Intonation）",
+  "learningGoal": "The learner will accurately produce rising intonation on the antecedent clauses (Agar/Jab) indicating an incomplete thought, followed by a falling/resolved intonation on the consequent clauses (To/Tab).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B3_lesson_001"],
+  "instructions": "接続詞の読み方には「メロディー」があります。「もし雨が降るなら〜？」のように前半(Agar)の最後は音を少し上げ、後半の接着剤(To)の出だしでカチッと音を落とす練習をしましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Ki (キ) は非常に素早く、息を吐き捨てるように短く発音します。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मुझे लगता है कि ...",
+      "transliteration": "Mujhe lagtaa hai ki ...",
+      "baseTranslation": "私は〜と思う",
+      "phoneticHint": "ムジェ・ラグター・ハェ・キ。...hai ki までを一息で言い切り、そこで少しだけ間を置きます。",
+      "syllableSplit": "Mu-jhe lag-taa hai-ki",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Hai. Kee(伸ばす)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "अगर तुम आओगे, तो ...",
+      "transliteration": "Agar tum aaoge, to ...",
+      "baseTranslation": "もし君が来るなら、その時は…",
+      "phoneticHint": "アガル・トゥム・アーオゲー（↑少し上がる）、トー（↓落とす）。",
+      "syllableSplit": "A-gar tum aa-o-ge, to",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Flat intonation across the whole sentence."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "तो मैं भी जाऊँगा।",
+      "transliteration": "To main bhee jaaoongaa.",
+      "baseTranslation": "その時は、私も行くよ。",
+      "phoneticHint": "トー・マェン・ビー・ジャーウーンガー。Toをハッキリ強く発音して、「だからこうするんだ！」という結論を際立たせます。",
+      "syllableSplit": "To main bhee jaa-oon-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "To. (long pause). Main bhee..."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "जब मैं फ्री हूँगा, तब ...",
+      "transliteration": "Jab main free hoongaa, tab ...",
+      "baseTranslation": "僕が暇な時、その時に…",
+      "phoneticHint": "ジャブ・マェン・フリー・フーンガー（↑）、タブ（↓）。",
+      "syllableSplit": "Jab main free hoon-gaa, tab",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaba main..."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "तब मुझे फ़ोन करना।",
+      "transliteration": "Tab mujhe phone karnaa.",
+      "baseTranslation": "その時に僕に電話して。",
+      "phoneticHint": "タブ・ムジェ・フォン・カルナー。",
+      "syllableSplit": "Tab mu-jhe phone kar-naa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Tab (soft, mumbled)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Mujhe lagtaa hai ki Agar tum aaoge to main bhee jaaoongaa Jab main free hoongaa tab mujhe phone karnaa",
+  "scoreThreshold": 70,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「To (トー)」や「Tab (タブ)」という接続詞にしっかりアクセントを掛け、結論を導くネイティブ特有の波（イントネーション）を見事に表現できています！",
+    "onFail": "もう一度！「hai ki (〜と思う)」のKiを「キー」と伸ばして発音していませんか？Ki の綴りは短い「i」です。「ハェ・キッ」と素早く切るのがコツです。",
+    "onPartial": "よくお話しできています。「Agar tum aaoge(もし来たら)」の部分をもっと平坦にせず、語尾を少し疑問文のように上げると、その後に続く「To(なら)」がもっと自然に聞こえますよ！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "mujhe lagta hai ki agar tum aaoge to main bhi jaunga jab main free hunga tab mujhe phone karna",
+    "acceptedVariants": [
+      "mujhe lagta he ki agar tum aoge to main bhi jaunga jab main free hoonga tab mujhe phone karnaa"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the strict shortness of 'ki' avoiding long 'kee', and the prosodic stress on correlatives 'to' and 'tab'.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "medium"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b3/pronunciation/native_conj_pron.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b3/pronunciation/slow_conj_pron.mp3",
+    "normalAudio": "audio/ja_hi/m3/b3/pronunciation/native_conj_pron.mp3",
+    "audioTranscript": "Mujhe lagtaa hai ki... Agar tum aaoge, to main bhee jaaoongaa. Jab main free hoongaa, tab mujhe phone karnaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "conjunctions", "intonation", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b3/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To（その時は）と Tab（その時に）の出だしの子音(T)は、舌を歯の裏に当てて強く弾きます。",
+  "commonMistakes": [
+    "Pronouncing 'Ki' as 'Kee', making it sound like the possessive 'of' rather than the conjunction 'that'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

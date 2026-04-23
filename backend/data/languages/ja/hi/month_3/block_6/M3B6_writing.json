@@ -1,0 +1,192 @@
+{
+  "activityId": "ja_hi_M3B6_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "究極の英訳・文法分解 (The Final Translation Test)",
+  "learningGoal": "The learner will manually construct sentences representing the pinnacle of the 3-month curriculum, selecting the exact subject cases (Nominative vs Dative), verb endings (gender/number), and correlative wrappers necessary for semantic accuracy.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M3B6_reading_001"],
+  "instructions": "3ヶ月の文章構成テストです！これまで学んだ知識を総動員して、3つの難解な日本語をヒンディー語に変換してください。「私」をMainにするべきかMujheにするべきか、動詞の形はどう変わるべきかを考え抜きましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 提供されたWord Bankの中から『使わない』単語を手裏剣のように見極めて避ける能力が必要です。"
+    }
+  ],
+  "writingPrompt": "以下の3文をヒンディー語に翻訳してください。\n1. 私はインドに行きます(未来形・男)。 →[M1性別 + M2未来形の知識]\n2. 私はお茶が好きです。 →[M2: 私『に』好ましいの知識]\n3. もし雨が降るなら、私は行けません(Saknaa使用・男)。 →[M3: Agar/To + Root+Saknaaの知識]",
+  "promptGoal": "Force structural synthesis of M1 baseline identity, M2 dative abstraction, and M3 conditional-modal combinations.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私は (Nominative)"
+    },
+    {
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "私に (Dative)"
+    },
+    {
+      "targetText": "भारत",
+      "transliteration": "Bhaarat",
+      "baseTranslation": "インド"
+    },
+    {
+      "targetText": "जाऊँगा",
+      "transliteration": "Jaaoongaa",
+      "baseTranslation": "行くつもりだ(男)"
+    },
+    {
+      "targetText": "चाय",
+      "transliteration": "Chaay",
+      "baseTranslation": "お茶"
+    },
+    {
+      "targetText": "पसंद",
+      "transliteration": "Pasand",
+      "baseTranslation": "好き"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です/ある"
+    },
+    {
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし(If)"
+    },
+    {
+      "targetText": "बारिश",
+      "transliteration": "Baarish",
+      "baseTranslation": "雨"
+    },
+    {
+      "targetText": "होगी",
+      "transliteration": "Hogee",
+      "baseTranslation": "降るだろう"
+    },
+    {
+      "targetText": "तो",
+      "transliteration": "To",
+      "baseTranslation": "その時は"
+    },
+    {
+      "targetText": "नहीं",
+      "transliteration": "Nahin",
+      "baseTranslation": "〜ない"
+    },
+    {
+      "targetText": "जा",
+      "transliteration": "Jaa",
+      "baseTranslation": "行く(語幹 Root)"
+    },
+    {
+      "targetText": "सकूँगा",
+      "transliteration": "Sakoongaa",
+      "baseTranslation": "〜できる(Saknaa)の未来形・男"
+    },
+    {
+      "targetText": "जाऊँगी",
+      "transliteration": "Jaaoongee",
+      "baseTranslation": "行くつもりだ(女) ※罠"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "私は〜です ※罠"
+    }
+  ],
+  "referenceHints": [
+    "1: I [Main] India [Bhaarat] will go(male) [jaaoongaa].",
+    "2: To me [Mujhe] tea [chaay] pleasing [pasand] is [hai].",
+    "3: If [Agar] rain will happen [baarish hogee], then [to] I [main] not [nahin] go(root) [jaa] can-will(male) [sakoongaa]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं भारत जाऊँगा। मुझे चाय पसंद है। अगर बारिश होगी तो मैं नहीं जा सकूँगा।",
+      "transliteration": "Main Bhaarat jaaoongaa. Mujhe chaay pasand hai. Agar baarish hogee to main nahin jaa sakoongaa.",
+      "baseTranslation": "私はインドへ行くつもりです。私は紅茶が好きです。もし雨が降るなら、私は行くことができないでしょう。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Chose Main for action, Mujhe for feeling. Formulated the future correctly (male). Used the Agar->To bridge seamlessly, and used the correct root 'jaa' with 'sakoongaa'."
+    },
+    {
+      "targetText": "मैं भारत जाऊँगी। मैं चाय पसंद हूँ। अगर बारिश होगी मैं नहीं जाना सकूँगा।",
+      "transliteration": "Main Bhaarat jaaoongee. Main chaay pasand hoon. Agar baarish hogee main nahin jaanaa sakoongaa.",
+      "baseTranslation": "I(female) will go India. I am tea pleasing. If rain happens I not to-go can.",
+      "qualityLevel": "bad",
+      "annotation": "Failure. Picked female future instead of requested male. Used 'Main' for liking tea instead of 'Mujhe', meaning 'I am the tea liking monster'. Dropped 'to' in the conditional. Used infinitive 'jaanaa' instead of root 'jaa' with the saknaa modal."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Nominative vs Dative Case Selection",
+      "weight": 40,
+      "description": "Did the user correctly use 'Main' for sentences 1 and 3, but 'Mujhe' for sentence 2?"
+    },
+    {
+      "criterion": "Modal Architecture (Root vs Infinitive)",
+      "weight": 30,
+      "description": "Did the user use the raw root 'Jaa' with the modal 'Sakoongaa' instead of the full infinitive?"
+    },
+    {
+      "criterion": "Conditional Framing",
+      "weight": 30,
+      "description": "Were 'agar' and 'to' utilized correctly to frame the condition and consequence?"
+    }
+  ],
+  "minimumWordCount": 14,
+  "maximumWordCount": 18,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं भारत जाऊँगा। मुझे चाय पसंद है। अगर बारिश होगी तो मैं नहीं जा सकूँगा।",
+    "acceptableAlternates": [
+      "main bhaarat jaaoongaa mujhe chaay pasand hai agar baarish hogee to main nahin jaa sakoongaa"
+    ],
+    "requiredKeywords": ["मैं", "भारत", "जाऊँगा", "मुझे", "चाय", "पसंद", "है", "अगर", "बारिश", "होगी", "तो", "नहीं", "जा", "सकूँगा"],
+    "grammarBaseline": "Sentence 1 requires Main + jaaoongaa. Sentence 2 requires Mujhe + pasand hai. Sentence 3 requires Agar ... To ... Main + jaa sakoongaa.",
+    "lengthExpectation": "3 high-complexity synthesized sentences.",
+    "scoringRubric": {
+      "Saknaa Rule Failure": "Penalize heavily if 'jaanaa sakoongaa' is written instead of 'jaa sakoongaa'."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "歴史的快挙！3ヶ月間に渡って学んだ「自発行動(Main)と無自覚状態(Mujhe)の違い」「未来形」「条件文」「そして助動詞Sakna(原形接続)」のすべてを完璧に書き出しました！あなたはヒンディー語のプログラミングを完了しました！",
+    "onFail": "ストップ！すべての要素が絡み合っています。「お茶が好き」は「私『に』好き」だから Mujhe です。「行くことができない」の Sakna(できる) の前は動詞の尻尾(naa)を切って Jaa(行く)だけにしなければなりません。1つずつ見直しましょう。",
+    "onPartial": "あと一歩です！条件文の「To (その時は)」が抜けていませんか？あるいは、自分の性別(男)の指定を忘れて Jaaoongee や Sakooongee を選んでいませんか？落ち着いて確認しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b6/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b6/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m3/b6/writing/prompt.mp3",
+    "audioTranscript": "Translate three ultimate test sentences combining datives, futures, conditionals and modals.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "synthesis", "review", "grammar", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b6/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「私は行けない」＝「私(Main) 行く(Jaa) できないだろう(sakoongaa)」と配置します。",
+  "commonMistakes": [
+    "Writing 'Main chaay pasand hoon' meaning 'I am the tea liking entity'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

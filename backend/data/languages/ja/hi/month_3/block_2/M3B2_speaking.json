@@ -1,0 +1,138 @@
+{
+  "activityId": "ja_hi_M3B2_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "ニュアンスを声に乗せる (Directional Speaking)",
+  "learningGoal": "The learner will spontaneously construct three forms of compound verbs in Hindi, applying the correct V1 root and shifting all tense, polarity, and gender conjugations onto the directional V2 intensifier in real-time.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B2_vocabulary_001"],
+  "instructions": "複合動詞を使って日本語のニュアンスを表現するスピーキングテストです！「〜しちゃう」「〜してあげる」「〜しておく」という感覚を、Jaa / De / Le のサポート動詞を使って声に乗せてください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 「私は〜(未来)」の文は、自分が男性であると仮定して話してください。"
+    }
+  ],
+  "speakingPrompt": "指定された状況に合わせて、正しい複合動詞の文を声に出して話しなさい。（男性形・未来形 を使用）",
+  "scenario": "You are making everyday promises and requests to a friend, ensuring your intentions are clear using compound verbs.",
+  "role": "A Communicative Friend",
+  "conversationPartner": "Ken",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "状況: 全て食べきる宣言。　指示：「私(男)は全部(Sab)食べて『しまいます』。」",
+      "expectedSpeakingPoints": ["Main sab", "khaa", "jaaoongaa"],
+      "sampleResponse": {
+        "targetText": "मैं सब खा जाऊँगा।",
+        "transliteration": "Main sab khaa jaaoongaa.",
+        "baseTranslation": "私は全部食べてしまいます。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "状況: 相手への情報提供。　指示：「私(男)が話(Baat)を教え『てあげるよ』。」",
+      "expectedSpeakingPoints": ["Main", "baat", "bataa doongaa"],
+      "sampleResponse": {
+        "targetText": "मैं बात बता दूँगा।",
+        "transliteration": "Main baat bataa doongaa.",
+        "baseTranslation": "私が話を教えてあげるよ。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "状況: 相手への依頼（読書の推奨）。　指示：「本(Kitaab)を読ん『でおいて(Tum命令)』。」",
+      "expectedSpeakingPoints": ["Kitaab", "paḍh", "lo"],
+      "sampleResponse": {
+        "targetText": "किताब पढ़ लो।",
+        "transliteration": "Kitaab paḍh lo.",
+        "baseTranslation": "本を読んでおいて。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "तुम बहुत समझदार हो।",
+    "transliteration": "Tum bahut samajhdaar ho.",
+    "baseTranslation": "君はとても物分かりがいいね。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं सब खा जाऊँगा।",
+      "transliteration": "Main sab khaa jaaoongaa.",
+      "baseTranslation": "私は全部食べてしまいます。"
+    },
+    {
+      "targetText": "मैं बात बता दूँगा।",
+      "transliteration": "Main baat bataa doongaa.",
+      "baseTranslation": "私が話を教えてあげるよ。"
+    },
+    {
+      "targetText": "किताब पढ़ लो।",
+      "transliteration": "Kitaab paḍh lo.",
+      "baseTranslation": "本を読んでおいて。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "khaa jaaoongaa",
+      "bataa doongaa",
+      "paḍh lo"
+    ],
+    "requiredKeywords": [
+      "main", "sab", "khaa", "jaaoongaa", "baat", "bataa", "doongaa", "kitaab", "paḍh", "lo"
+    ],
+    "acceptableParaphrases": [
+      "main sab kha jaenge",
+      "mujhe baat bata dunga"
+    ],
+    "scoringRubric": {
+      "Compound Validation": "Must hear clear two-verb sequences: 'khaa jaaoongaa' (not khaaoongaa), 'bataa doongaa' (not bataaoongaa), and 'paḍh lo' (not paḍho). V1 must remain an uninflected root."
+    },
+    "sampleAnswer": "Main sab khaa jaaoongaa. Main baat bataa doongaa. Kitaab paḍh lo.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Khaa jaaoongaa(食べてしまう)」「Bataa doongaa(教えてあげる)」といった、2つの動詞を滑らかに融合させるネイティブ特有のリズムを完全に再現できています！",
+    "onFail": "ここは非常に重要です！「私があ教える」という時、「Bataaoongaa」のように1つの動詞にしてしまっていませんか？この課題では、ヒンディー語の魂である「〜してあげる(Bataa doongaa)」という複合形を作ってください！",
+    "onPartial": "よくお話しできています。第3文で「Paḍh do」と言っていませんか？自分が本を読んで知識を得ることは、自分に向けたアクション(もらう:Lenaa)のニュアンスを持つので「Paḍh lo(読んでおく)」になります。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b2/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m3/b2/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b2/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m3/b2/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m3/b2/speaking/full_dialogue.mp3",
+    "audioTranscript": "Learner: Main sab khaa jaaoongaa... Main baat bataa doongaa... Kitaab paḍh lo.",
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "compounds", "directionality", "fluency", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "教えてあげる＝Bataa(教える)＋De(あげる) の組み合わせです。私(男)の話なので De を Doongaaに変えます。",
+  "commonMistakes": [
+    "Saying 'Main sab khaa' and stopping, forgetting the required V2 intensifier."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

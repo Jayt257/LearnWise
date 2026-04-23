@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M2B4_vocabulary_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "vocabulary",
+  "title": "家族と所有物 (Family & Belongings)",
+  "learningGoal": "The learner will memorize essential nouns related to family and property, explicitly pairing each with its inherent grammatical gender to prepare for possessive declensions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B4_listening_001"],
+  "instructions": "家族の名前や、身近な所有物の単語を覚えましょう。これらの単語を使う時、「私の(Meraa/Meree)」がどのように変化するかもセットで記憶に入れると完璧です。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Pitaa jee(お父さん) と Maataa jee(お母さん) には、必ず「Jee」をつけて尊敬の意を表すのがヒンディー語のカルチャーです。"
+    }
+  ],
+  "vocabTheme": "Family and Possessions",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "पिता जी",
+      "transliteration": "Pitaa jee",
+      "baseTranslation": "お父さん",
+      "partOfSpeech": "Noun (Masculine Respectful)",
+      "formalityLevel": "respectful",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "माता जी",
+      "transliteration": "Maataa jee",
+      "baseTranslation": "お母さん",
+      "partOfSpeech": "Noun (Feminine Respectful)",
+      "formalityLevel": "respectful",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "भाई",
+      "transliteration": "Bhaaii",
+      "baseTranslation": "兄 / 弟",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "बहन",
+      "transliteration": "Bahan",
+      "baseTranslation": "姉 / 妹",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "दोस्त",
+      "transliteration": "Dost",
+      "baseTranslation": "友達",
+      "partOfSpeech": "Noun (Masc/Fem depending on referring person)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "नाम",
+      "transliteration": "Naam",
+      "baseTranslation": "名前",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "कुत्ता",
+      "transliteration": "Kuttaa",
+      "baseTranslation": "犬",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "बिल्ली",
+      "transliteration": "Billee",
+      "baseTranslation": "猫",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "गाड़ी",
+      "transliteration": "Gaadee",
+      "baseTranslation": "車",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "परिवार",
+      "transliteration": "Parivaar",
+      "baseTranslation": "家族",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "お父さん",
+    "お母さん",
+    "兄弟",
+    "姉妹",
+    "友達",
+    "名前 (男)",
+    "犬 (男)",
+    "猫 (女)",
+    "車 (女)",
+    "家族 (男)"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w06",
+      "targetText": "मेरा नाम राज है।",
+      "transliteration": "Meraa naam Raaj hai.",
+      "baseTranslation": "私の名前はラージです。(Naamが男性名詞なのでMeraa)"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "आपकी गाड़ी कहाँ है?",
+      "transliteration": "Aapkee gaadee kahaan hai?",
+      "baseTranslation": "あなたの車はどこですか？(Gaadeeが女性名詞なのでAapkee)"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "यह मेरा परिवार है।",
+      "transliteration": "Yah meraa parivaar hai.",
+      "baseTranslation": "これは私の家族です。(Parivaarが男性名詞なのでMeraa)"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its Japanese equivalent: Bahan (बहन)",
+      "questionType": "matching",
+      "options": ["兄弟", "姉妹"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Because 'Parivaar' (家族) is a masculine noun, what should 'My family' be?",
+      "questionType": "matching",
+      "options": ["Meree parivaar", "Meraa parivaar"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the word to its meaning: Naam (नाम)",
+      "questionType": "matching",
+      "options": ["家族", "名前"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its meaning: Gaadee (गाड़ी)",
+      "questionType": "matching",
+      "options": ["車 (女性)", "犬 (男性)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Because 'Pitaa jee' (お父さん) commands respect, what should 'My father' be?",
+      "questionType": "matching",
+      "options": ["Meraa pitaa jee", "Mere pitaa jee"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "お父さん",
+      "w02": "お母さん",
+      "w03": "兄弟",
+      "w04": "姉妹",
+      "w05": "友達",
+      "w06": "名前 (男)",
+      "w07": "犬 (男)",
+      "w08": "猫 (女)",
+      "w09": "車 (女)",
+      "w10": "家族 (男)"
+    },
+    "acceptedTranslations": {
+      "w03": ["兄", "弟"],
+      "w04": ["姉", "妹"]
+    },
+    "matchingKey": {
+      "q1": "姉妹",
+      "q2": "Meraa parivaar",
+      "q3": "名前",
+      "q4": "車 (女性)",
+      "q5": "Mere pitaa jee"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！名詞の意味だけでなく、Meraa や Aapkee などの所有代名詞を決定づける「性別のタグ」と一緒に記憶できています！",
+    "onFail": "もう一度復習しましょう！「Kuttaa(アーの音)」は男、「Billee(イーの音)」「Gaadee(イーの音)」は女、というように音の響きで大体の性別が判断できます。",
+    "onPartial": "よくできました！Naam (名前) や Parivaar (家族) が男性名詞であることは、よく使うのでしっかり覚えておきましょう。「メラー・ナーム〜(私の名前は〜)」というフレーズで丸暗記するのがオススメです。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b4/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b4/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b4/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b4/vocab/words_native.mp3",
+    "audioTranscript": "Pitaa jee. Maataa jee. Bhaaii. Bahan. Dost. Naam. Kuttaa. Billee. Gaadee. Parivaar.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "family", "possession", "nouns", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Naam (名前) は男性名詞です。だから、女性が自己紹介する時も Meree naam ではなく Meraa naam になります。",
+  "commonMistakes": [
+    "Assuming 'Maataa jee' (Mother) needs 'Mere' because of respect, but feminine nouns take 'Meree' regardless of respect."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

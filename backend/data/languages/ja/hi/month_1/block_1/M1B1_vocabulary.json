@@ -1,0 +1,242 @@
+{
+  "activityId": "ja_hi_M1B1_vocabulary_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "vocabulary",
+  "title": "最初の10単語 (First 10 Words)",
+  "learningGoal": "The learner will master 10 foundational Hindi nouns, pronouns, and verbs, while explicitly mapping the 'hai' verbal copula to the Japanese 'desu' equivalent.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B1_listening_001"],
+  "instructions": "ヒンディー語で最も重要な最初の10個の単語を覚えましょう！これらの単語さえ知っていれば、自己紹介をして基本の返事をすることができます。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「है (Hai)」は日本語の「です」と完全に同じ働きをします。これを覚えるだけで文章が作れます！"
+    }
+  ],
+  "vocabTheme": "Basic Survival & Greetings",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "こんにちは",
+      "partOfSpeech": "Greeting",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "मेरा",
+      "transliteration": "Mera",
+      "baseTranslation": "私の",
+      "partOfSpeech": "Pronoun (Possessive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "नाम",
+      "transliteration": "Naam",
+      "baseTranslation": "名前",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です (To Be)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です（「私」に付くバージョン）",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "हाँ",
+      "transliteration": "Haan",
+      "baseTranslation": "はい",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "नहीं",
+      "transliteration": "Nahin",
+      "baseTranslation": "いいえ",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "ठीक",
+      "transliteration": "Ṭheek",
+      "baseTranslation": "大丈夫 / 良い / 元気",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "धन्यवाद",
+      "transliteration": "Dhanyavaad",
+      "baseTranslation": "ありがとう",
+      "partOfSpeech": "Noun/Exclamation",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "こんにちは",
+    "私",
+    "私の",
+    "名前",
+    "です",
+    "です（私）",
+    "はい",
+    "いいえ",
+    "大丈夫 / 元気",
+    "ありがとう"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w03",
+      "targetText": "मेरा नाम केन है।",
+      "transliteration": "Mera naam Ken hai.",
+      "baseTranslation": "私の名前はケンです。"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "मैं ठीक हूँ।",
+      "transliteration": "Main ṭheek hoon.",
+      "baseTranslation": "私は元気です。"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "नहीं, मैं राम नहीं हूँ।",
+      "transliteration": "Nahin, main Raam nahin hoon.",
+      "baseTranslation": "いいえ、私はラームではありません。"
+    }
+  ],
+  "quizType": "multiple_choice",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「ありがとう」をヒンディー語で何と言いますか？",
+      "questionType": "multiple_choice",
+      "options": ["नाम (Naam)", "धन्यवाद (Dhanyavaad)", "हाँ (Haan)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "日本語の「です」に当たる、文の最後に置く言葉はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["मेरा (Mera)", "है (Hai)", "नहीं (Nahin)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「私の名前」という意味にするために、「मेरा (Mera)」の後ろに入る単語は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["हाँ (Haan)", "ठीक (Ṭheek)", "नाम (Naam)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "誰かに「元気ですか？」と聞かれて「はい、元気です（大丈夫です）」と答える時、何と言いますか？",
+      "questionType": "multiple_choice",
+      "options": ["मैं ठीक हूँ (Main ṭheek hoon)", "मैं नाम हूँ (Main naam hoon)", "मेरा धन्यवाद (Mera dhanyavaad)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「いいえ」を意味する単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["नहीं (Nahin)", "हाँ (Haan)", "नमस्ते (Namaste)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "こんにちは",
+      "w02": "私",
+      "w03": "私の",
+      "w04": "名前",
+      "w05": "です",
+      "w06": "です（「私」に付くバージョン）",
+      "w07": "はい",
+      "w08": "いいえ",
+      "w09": "大丈夫 / 良い / 元気",
+      "w10": "ありがとう"
+    },
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "धन्यवाद (Dhanyavaad)",
+      "q2": "है (Hai)",
+      "q3": "नाम (Naam)",
+      "q4": "मैं ठीक हूँ (Main ṭheek hoon)",
+      "q5": "नहीं (Nahin)"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の基礎となる最も重要な10個の単語をマスターしました！これでもうインドで自己紹介ができますね。",
+    "onFail": "もう一度復習しましょう！特に「はい（Haan）」と「いいえ（Nahin）」、そして日本語の「です」と同じ働きをする「है（Hai）」は絶対に覚えてください。",
+    "onPartial": "よくできました！いくつか惜しい間違いがあります。単語の意味をもう一度チェックしてから進みましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b1/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b1/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b1/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b1/vocab/words_native.mp3",
+    "audioTranscript": "Namaste. Main. Mera. Naam...",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "basics", "greetings", "pronouns", "hindi", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Main（私は）と言うときは、最後に Hai ではなく Hoon を使います。Mera naam（私の名前は）のときは Hai を使います。",
+  "commonMistakes": [
+    "Using 'Main... hai' instead of 'Main... hoon'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

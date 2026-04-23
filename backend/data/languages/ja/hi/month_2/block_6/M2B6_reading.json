@@ -1,0 +1,202 @@
+{
+  "activityId": "ja_hi_M2B6_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "reading",
+  "title": "ラージの家を訪問 (Visiting Raj's House)",
+  "learningGoal": "The learner will decode a complex narrative integrating polite imperatives, object-driven possessives, and synthetic future conjugations, accurately assigning agent rules across the clauses.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B6_pronunciation_001"],
+  "instructions": "ラージの家に招かれた時の様子を読んでみましょう。これまで学んだ文法（私の〇〇、〜してください、明日〜します）が全てつながって、一つのストーリーになっています。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "最後のTo be 動詞（Haiなど）がない文もたくさん出てきます。それが『未来形』なのか『お願い』なのかを語尾の形で判断してください。"
+    }
+  ],
+  "readingTitle": "अतिथि देवो भव (Guest is God)",
+  "readingText": "नमस्ते। मेरा नाम केन है। आज शाम मैं राज के घर जाऊँगा। राज की माँ बहुत अच्छी हैं। वे कहेंगी, 'अंदर आइए, मेरा घर आपका घर है। संकोच मत कीजिए।' हम चाय पिएंगे। मैं कल फिर आऊँगा।",
+  "textInTargetLanguage": "नमस्ते। मेरा नाम केन है। आज शाम मैं राज के घर जाऊँगा। राज की माँ बहुत अच्छी हैं। वे कहेंगी, 'अंदर आइए, मेरा घर आपका घर है। संकोच मत कीजिए।' हम चाय पिएंगे। मैं कल फिर आऊँगा।",
+  "baseLanguageSupportText": "こんにちは。私の名前はケンです。今日の夕方、私はラージの家へ行くつもりです。ラージのお母さんはとても良い人です。彼女は言うでしょう、『中へ入ってください、私の家はあなたの家です。遠慮しないでください』と。私たちはお茶を飲む予定です。私は明日また来るつもりです。",
+  "glossary": [
+    {
+      "targetText": "आज शाम",
+      "transliteration": "Aaj shaam",
+      "baseTranslation": "今日の夕方 (Shaam=夕方)",
+      "exampleSentence": {
+        "targetText": "आज शाम मैं जाऊँगा।",
+        "transliteration": "Aaj shaam main jaaoongaa.",
+        "baseTranslation": "今日の夕方、彼(私)は行く予定だ。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "राज के घर",
+      "transliteration": "Raaj ke ghar",
+      "baseTranslation": "ラージの家(の中)に (※移動先としてのKe)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "राज की माँ",
+      "transliteration": "Raaj kee maan",
+      "baseTranslation": "ラージのお母さん (Maan=母 は女性名詞)",
+      "exampleSentence": {
+        "targetText": "राज की माँ बहुत अच्छी हैं।",
+        "transliteration": "Raaj kee maan bahut achchhee hain.",
+        "baseTranslation": "ラージのお母さんはとても良い人です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "कहेंगी",
+      "transliteration": "Kahengee",
+      "baseTranslation": "言うでしょう (Kahnaaの尊敬の未来形)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मेरा घर आपका घर है",
+      "transliteration": "Meraa ghar aapkaa ghar hai",
+      "baseTranslation": "私の家はあなたの家です",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "संकोच",
+      "transliteration": "Sankoch",
+      "baseTranslation": "遠慮 / 躊躇",
+      "exampleSentence": {
+        "targetText": "संकोच मत कीजिए।",
+        "transliteration": "Sankoch mat keejiye.",
+        "baseTranslation": "遠慮しないでください。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पिएंगे (पीना)",
+      "transliteration": "Piyenge (Peenaa)",
+      "baseTranslation": "飲む予定だ (飲む+enge Hum/Aap用)",
+      "exampleSentence": {
+        "targetText": "हम चाय पिएंगे।",
+        "transliteration": "Hum chaay piyenge.",
+        "baseTranslation": "私たちはお茶を飲む予定だ。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "फिर",
+      "transliteration": "Phir",
+      "baseTranslation": "再び / また (Again)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "आज शाम मैं राज के घर जाऊँगा।",
+      "transliteration": "Aaj shaam main Raaj ke ghar jaaoongaa.",
+      "baseTranslation": "今日の夕方、私はラージの家へ行きます。（ケン(男)が話しているので Oongaa）"
+    },
+    {
+      "targetText": "मैं कल फिर आऊँगा।",
+      "transliteration": "Main kal phir aaoongaa.",
+      "baseTranslation": "私は明日また来ます。（Kal ＋ Oongaa なので『昨日』ではなく『明日』になる）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "文章を書いているケンは、自分が男性であることを示すために「行くつもりだ」の最後をどの音で終わらせていますか？",
+      "questionType": "multiple_choice",
+      "options": ["Oongaa (ウーンガー)", "Oongee (ウーンギー)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「ラージのお母さん (Raaj kee maan)」というフレーズで、なぜ「Kaa」ではなく「Kee」が使われているのですか？",
+      "questionType": "multiple_choice",
+      "options": ["ラージが男だから", "お母さんが女性だから"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "お母さんが「遠慮しないで(Sankoch mat keejiye)」と言う時、ケンに対してTumのように親しく話しているでしょうか？それともAapのように敬意と礼儀を持って話しているでしょうか？",
+      "questionType": "multiple_choice",
+      "options": ["Tumとして親しく話している(Oの音)", "客人としてAapの礼儀で話している(Iyeの音)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「私たちはお茶を飲みます(Hum chaay piyenge)」。この未来形が Oongaa ではなく Enge(エー) になっているのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["私たち(複数) だから", "お茶が女性名詞だから"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後の文で、ケンは「また(Phir)」来る約束をしています。いつ来る約束をしましたか？Kal(カル)が未来形と共に使われていることに注意して、漢字で答えてください。",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Oongaa (ウーンガー)",
+      "q2": "お母さんが女性だから",
+      "q3": "客人としてAapの礼儀で話している(Iyeの音)",
+      "q4": "私たち(複数) だから",
+      "q5": "明日"
+    },
+    "acceptableParaphrases": {
+      "q5": ["明日", "あした", "みょうにち", "tomorrow"]
+    },
+    "keywordScoringRules": {
+      "q5": ["明日", "あした"]
+    },
+    "expectedSummaryPoints": [
+      "The learner successfully tracks gendered possessives ('Raaj kee maan') despite the owner being male.",
+      "The learner distinguishes between Oongaa (1st person future) and Iye (polite imperative) in the same paragraph."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Moth 2の全ての文法（未来形・所有・命令）が一つの文章に入っていましたが、記号のようにカチリと意味を分解して読み解くことができました！",
+    "onFail": "一息ついて！「Jaaoongaa(アー)」や「Aaiye(イエ)」など、文の最後の音だけで「自分の未来の予定」なのか「相手へのお願い」なのかを判断する訓練です！",
+    "onPartial": "よく読めて読めています！Q3のようにお母さんが客人であるケンに対して丁寧語（Iye/Jiye）を使うのは、インドの「おもてなしの精神」を体現しています。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b6/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b6/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m2/b6/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Meraa naam Ken hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "capstone", "synthesis", "culture", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b6/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「Hum(私たち)」が動詞にくっつくと、尊敬の「Aap」と同じように常に『エ(enge)』の音になります。",
+  "commonMistakes": [
+    "Translating 'Kal phir aaoongaa' as 'I came yesterday' because 'Kal' also means yesterday, ignoring the future suffix '-oongaa'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

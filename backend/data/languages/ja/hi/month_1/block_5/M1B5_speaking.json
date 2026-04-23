@@ -1,0 +1,139 @@
+{
+  "activityId": "ja_hi_M1B5_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "習慣を話す (Speaking about Habits)",
+  "learningGoal": "The learner will accurately produce Subject-Verb agreement natively by conjugating verbs dynamically based on their biological gender, overriding the L1 Japanese static conjugation habit.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B5_vocabulary_001"],
+  "instructions": "あなたの「毎日の習慣」についてヒンディー語で答えてください！今回は、あなたが設定した性別（男性か女性か）の言葉で答える必要があります。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※この問題では、あなたが「女性」であると仮定して全ての文を話してください！動詞の最後は全て「ティー (tee)」になります。"
+    }
+  ],
+  "speakingPrompt": "すべての質問に対し、「自分は女性である」と仮定して、正しい動詞の形で答えてください。",
+  "scenario": "A new acquaintance is asking about your daily routines.",
+  "role": "The Japanese Female Expat",
+  "conversationPartner": "The Indian Friend",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "友達: 'तुम रोज़ क्या पीती हो?' (あなたは毎日何を飲みますか？) 答え：「私は水を飲みます。」",
+      "expectedSpeakingPoints": ["Main", "paanee", "peetee hoon"],
+      "sampleResponse": {
+        "targetText": "मैं पानी पीती हूँ।",
+        "transliteration": "Main paanee peetee hoon.",
+        "baseTranslation": "私は水を飲みます。(女性の言い方)"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "友達: 'अच्छा। और तुम क्या करती हो?' (なるほど。そして何をして[Do]いますか？) 答え：「私は本を読みます[勉強します]。」",
+      "expectedSpeakingPoints": ["Main", "kitaab", "padhtee hoon"],
+      "sampleResponse": {
+        "targetText": "मैं किताब पढ़ती हूँ।",
+        "transliteration": "Main kitaab padhtee hoon.",
+        "baseTranslation": "私は本を読みます。(女性の言い方)"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "友達: 'क्या तुम जापान जाती हो?' (あなたは日本へ行きますか？) 答え：「はい、私は日本へ行きます。」",
+      "expectedSpeakingPoints": ["Haan", "main Jaapaan", "jaatee hoon"],
+      "sampleResponse": {
+        "targetText": "हाँ, मैं जापान जाती हूँ।",
+        "transliteration": "Haan, main Jaapaan jaatee hoon.",
+        "baseTranslation": "はい、私は日本へ行きます。(女性の言い方)"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "तुम रोज़ क्या पीती हो?",
+    "transliteration": "Tum roz kyaa peetee ho?",
+    "baseTranslation": "あなたは毎日何を飲みますか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं पानी पीती हूँ।",
+      "transliteration": "Main paanee peetee hoon.",
+      "baseTranslation": "私は水を飲みます。(女性の言い方)"
+    },
+    {
+      "targetText": "मैं किताब पढ़ती हूँ।",
+      "transliteration": "Main kitaab padhtee hoon.",
+      "baseTranslation": "私は本を読みます。(女性の言い方)"
+    },
+    {
+      "targetText": "हाँ, मैं जापान जाती हूँ।",
+      "transliteration": "Haan, main Jaapaan jaatee hoon.",
+      "baseTranslation": "はい、私は日本へ行きます。(女性の言い方)"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 25,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "peetee hoon",
+      "padhtee hoon",
+      "jaatee hoon"
+    ],
+    "requiredKeywords": [
+      "main", "paanee", "peetee", "hoon", "kitaab", "padhtee", "haan", "jaapaan", "jaatee"
+    ],
+    "acceptableParaphrases": [
+      "main paanee peeti hoon",
+      "haan main roz jaapaan jaatee hoon"
+    ],
+    "scoringRubric": {
+      "Gender Consistency Penalty": "If the user uses 'peetaa/padhtaa/jaataa', fail the grammatical check explicitly, as the prompt forced feminine conjugation."
+    },
+    "sampleAnswer": "Main paanee peetee hoon. Main kitaab padhtee hoon. Haan, main Jaapaan jaatee hoon.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！女性になりきって、全ての動詞に「ティー (Tee)」を適用することができました！",
+    "onFail": "もう一度練習しましょう！指示にある通り、すべての文で「女性(Tee)」の形を使わなければなりません。PeeTAA hoon ではなく PeeTEE hoon です！",
+    "onPartial": "よくお話しできています。「飲む(Pee)」や「読む(Padh)」といった語幹の後ろには、必ず Taa か Tee が挟まります。そのまま Peenahoon とは言えないので注意してください！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b5/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m1/b5/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b5/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m1/b5/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m1/b5/speaking/full_dialogue.mp3",
+    "audioTranscript": "Friend: Tum roz kyaa peetee ho?\nLearner: Main paanee peetee hoon...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "verbs", "gender", "conjugation", "roleplay", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後の言葉は、すべて「ティー・フーン (tee hoon)」という音が連続します。",
+  "commonMistakes": [
+    "Defaulting to 'taa' because the actual user is male, ignoring the roleplay constraints.",
+    "Failing to remove the infinitive suffix 'naa' before conjugating (e.g. peenaatee hoon)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

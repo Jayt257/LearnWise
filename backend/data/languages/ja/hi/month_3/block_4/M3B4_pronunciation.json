@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M3B4_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "鼻音の方向指示 (Nasal Directions)",
+  "learningGoal": "The learner will accurately produce the nasalized vowels terminating spatial directions (baaen, daaen) and interrogatives (kahaan), ensuring they do not drop the nasalization which distinguishes standard pronunciation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B4_lesson_001"],
+  "instructions": "方向や場所を表す単語の中には、鼻にかけて「〜ン」と伸ばす音（鼻母音）が含まれています。はっきりと「ン」と発音するのではなく、口から息を抜きながら鼻を響かせる練習をしましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Baaen(左) と Daaen(右) は、最後の「エ〜ン」の音が重要です。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "कहाँ",
+      "transliteration": "Kahaan",
+      "baseTranslation": "どこ",
+      "phoneticHint": "カハーン。終わりの「ーン」は、口を閉じて「ン」と言うのではなく、口を開けたまま鼻から息を抜きます。",
+      "syllableSplit": "Ka-haan",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kahan (with a hard English 'N')."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "बाएँ",
+      "transliteration": "Baaen",
+      "baseTranslation": "左へ",
+      "phoneticHint": "バーエン。最後のエンも鼻抜きの音です。",
+      "syllableSplit": "Baa-en",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bayen (Hard N)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "दाएँ",
+      "transliteration": "Daaen",
+      "baseTranslation": "右へ",
+      "phoneticHint": "ダーエン。「右(Daaen)」です。Baaenと間違えないようにしましょう。",
+      "syllableSplit": "Daa-en",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Daayen."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "सीधे जाइए",
+      "transliteration": "Seedhe jaaiye",
+      "baseTranslation": "まっすぐ行ってください",
+      "phoneticHint": "シーデー・ジャーイエ。Seedhe の D は英語のDよりも舌を少し後ろに引いて「デー」と重く発音します。",
+      "syllableSplit": "See-dhe jaa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Siday jaiye."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "महँगा",
+      "transliteration": "Mahangaa",
+      "baseTranslation": "高い",
+      "phoneticHint": "マハンガー。真ん中の「ハン」で息を吐きながら鼻を鳴らします。",
+      "syllableSplit": "Ma-han-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Manga (dropping the H) or Ma-han-ga (dropping aspiration)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Kahaan Baaen Daaen Seedhe jaaiye Mahangaa",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語特有の「鼻に抜ける母音」を完璧にマスターしました！Kahaan? 等の疑問詞がよりネイティブらしく響いています。",
+    "onFail": "もう一度！「Baaen (左)」や「Daaen (右)」を言う時、最後に口をきゅっと閉じて「エンッ」と言っていませんか？口は開けたままで、鼻の中だけで響かせるイメージです。",
+    "onPartial": "よくお話しできています！「Seedhe (まっすぐ)」の音は、日本語の「シーデー」よりも少し息っぽく発音するとさらに完璧になります！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "kahan bayen dayen sidhe jaiye mahanga",
+    "acceptedVariants": [
+      "kaha baen daen seedhe jaaiye mehenga",
+      "kahaan bayan dayan seedhe jaaiye mahangaa"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the execution of the nasal bindu/chandrabindu in directional locatives and the aspiration in mahangaa.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "medium"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b4/pronunciation/native_travel_pron.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b4/pronunciation/slow_travel_pron.mp3",
+    "normalAudio": "audio/ja_hi/m3/b4/pronunciation/native_travel_pron.mp3",
+    "audioTranscript": "Kahaan. Baaen. Daaen. Seedhe jaaiye. Mahangaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "travel", "nasals", "directions", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b4/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Daaen(右) と Baaen(左) はインドへ行くなら命綱になる単語です。ジェスチャーつきで覚えましょう。",
+  "commonMistakes": [
+    "Pronouncing 'Mahangaa' heavily with a hard 'ng' like 'Man-go'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

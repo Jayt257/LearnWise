@@ -1,0 +1,200 @@
+{
+  "activityId": "ja_hi_M1B4_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "どこにありますか？ (Where is it?)",
+  "learningGoal": "The learner will accurately decode Devanagari sentences containing locative postpositions (Mein, Par, Se), capitalizing on Japanese/Hindi structural parity.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B4_pronunciation_001"],
+  "instructions": "ラージが部屋の中で探し物をしています。どこに何があるのか、ヒンディー語の「助詞（〜の中で、〜の上で）」を手がかりに読み解いてください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Mein (में) は「中・に」、Par (पर) は「上」、Se (से) は「から」です。"
+    }
+  ],
+  "readingTitle": "कमरे में (In the Room)",
+  "readingText": "यह मेरा कमरा है। मेरी किताब मेज़ पर है। मेरा कुत्ता घर में है। मेरा दोस्त जापान से है। वह अभी टोक्यो में है।",
+  "textInTargetLanguage": "यह मेरा कमरा है। मेरी किताब मेज़ पर है। मेरा कुत्ता घर में है। मेरा दोस्त जापान से है। वह अभी टोक्यो में है。",
+  "baseLanguageSupportText": "これは私の部屋です。私の本は机の上にあります。私の犬は家の中にいます。私の友達は日本から（来て）います。彼は今、東京にいます。",
+  "glossary": [
+    {
+      "targetText": "कमरा",
+      "transliteration": "Kamraa",
+      "baseTranslation": "部屋",
+      "exampleSentence": {
+        "targetText": "यह मेरा कमरा है।",
+        "transliteration": "Yah mera kamraa hai.",
+        "baseTranslation": "これは私の部屋です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "कमरे में",
+      "transliteration": "Kamre mein",
+      "baseTranslation": "部屋の中に",
+      "exampleSentence": {
+        "targetText": "मैं कमरे में हूँ।",
+        "transliteration": "Main kamre mein hoon.",
+        "baseTranslation": "私は部屋の中にいます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मेज़",
+      "transliteration": "Mez",
+      "baseTranslation": "机 / テーブル",
+      "exampleSentence": {
+        "targetText": "किताब मेज़ पर है।",
+        "transliteration": "Kitaab mez par hai.",
+        "baseTranslation": "本は机の上にあります。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पर",
+      "transliteration": "Par",
+      "baseTranslation": "〜の上に",
+      "exampleSentence": {
+        "targetText": "मेज़ पर",
+        "transliteration": "Mez par",
+        "baseTranslation": "机の上に"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "से",
+      "transliteration": "Se",
+      "baseTranslation": "〜から",
+      "exampleSentence": {
+        "targetText": "जापान से",
+        "transliteration": "Jaapaan se",
+        "baseTranslation": "日本から"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "अभी",
+      "transliteration": "Abhee",
+      "baseTranslation": "今 / 現在",
+      "exampleSentence": {
+        "targetText": "वह अभी टोक्यो में है।",
+        "transliteration": "Vah abhee Tokyo mein hai.",
+        "baseTranslation": "彼は今、東京にいます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मेरी किताब मेज़ पर है।",
+      "transliteration": "Meri kitaab mez par hai.",
+      "baseTranslation": "私の本は机の上にあります。"
+    },
+    {
+      "targetText": "मेरा कुत्ता घर में है।",
+      "transliteration": "Mera kuttaa ghar mein hai.",
+      "baseTranslation": "私の犬は家の中にいます。"
+    },
+    {
+      "targetText": "मेरा दोस्त जापान से है।",
+      "transliteration": "Mera dost Jaapaan se hai.",
+      "baseTranslation": "私の友達は日本から（来て）います。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージの本 (Kitaab) はどこにありますか？",
+      "questionType": "multiple_choice",
+      "options": ["家の中 (Ghar mein)", "机の上 (Mez par)", "日本 (Jaapaan)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "犬 (Kuttaa) はどこにいますか？",
+      "questionType": "multiple_choice",
+      "options": ["机の上 (Mez par)", "家の中 (Ghar mein)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージの友達が「出身」である国はどこですか？(ヒント: 〜から＝se)",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "友達は「今(Abhee)」、どの都市の「中に(Mein)」いますか？",
+      "questionType": "multiple_choice",
+      "options": ["東京 (Tokyo)", "日本 (Jaapaan)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ヒンディー語の 'par' は、日本語の何にあたりますか？",
+      "questionType": "multiple_choice",
+      "options": ["〜の中に", "〜の上に", "〜から"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "机の上 (Mez par)",
+      "q2": "家の中 (Ghar mein)",
+      "q3": "日本",
+      "q4": "東京 (Tokyo)",
+      "q5": "〜の上に"
+    },
+    "acceptableParaphrases": {
+      "q3": ["Jaapaan", "jaapaan", "ジャパン", "にほん"]
+    },
+    "keywordScoringRules": {
+      "q3": ["日本"]
+    },
+    "expectedSummaryPoints": [
+      "The learner correlates postpositions (mein, par, se) directly to Japanese locational particles to extract meaning."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「〜の上(par)」「〜の中(mein)」といったヒンディー語の『助詞』を使って、モノの場所を完璧に特定できました。",
+    "onFail": "もう一度読み込んでみましょう。Mein, Par, Se の違いに注目します。Mez（机）の後ろにあるのは Par（上）です！",
+    "onPartial": "よく読めています！「出身（〜から）」を表す Se と、「中（にいる）」の Mein を混同しないように復習しましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b4/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b4/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m1/b4/reading/native_reading.mp3",
+    "audioTranscript": "Yah mera kamraa hai. Meri kitaab mez par hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 180,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "postpositions", "locations", "particles", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の助詞と全く同じ位置（言葉の後ろ）にあることに気づけば、簡単に訳せます。",
+  "commonMistakes": [
+    "Translating 'Tokyo mein' as 'From Tokyo' instead of 'In Tokyo'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

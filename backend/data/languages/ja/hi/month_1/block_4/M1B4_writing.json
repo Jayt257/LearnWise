@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M1B4_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "助詞を差し込む (Inserting Particles)",
+  "learningGoal": "The learner will capitalize on L1 syntactical framing by successfully placing Hindi postpositions immediately following the target noun, countering global prepositional habits.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B4_reading_001"],
+  "instructions": "文法パズルに挑戦しましょう！今回は「〜に」「〜の上に」といったヒンディー語の『助詞（Postpositions）』を使います。日本語と全く同じように、名詞の「後ろ」にくっつけてください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "ルール：対象の単語（例：机）の『後ろ』に助詞（パー）を置きます。（英語のように 'on the desk' と先回りしてはいけません。）"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. 本は机の上にあります。\n2. 彼は車の中にいます。\n3. 私は日本から（来ました）です。",
+  "promptGoal": "Force generative deployment of postpositions mimicking Japanese particle structure.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "किताब",
+      "transliteration": "Kitaab",
+      "baseTranslation": "本"
+    },
+    {
+      "targetText": "मेज़",
+      "transliteration": "Mez",
+      "baseTranslation": "机"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "Gaaḍee",
+      "baseTranslation": "車"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私"
+    },
+    {
+      "targetText": "जापान",
+      "transliteration": "Jaapaan",
+      "baseTranslation": "日本"
+    },
+    {
+      "targetText": "में",
+      "transliteration": "Mein",
+      "baseTranslation": "〜に / の中に"
+    },
+    {
+      "targetText": "पर",
+      "transliteration": "Par",
+      "baseTranslation": "〜の上に"
+    },
+    {
+      "targetText": "से",
+      "transliteration": "Se",
+      "baseTranslation": "〜から"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です / あります (彼・それ用)"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です / います (私用)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: Book [Kitaab] Desk [Mez] on [par] is [hai].",
+    "Sentence 2: He [Vah] Car [Gaaḍee] in [mein] is [hai].",
+    "Sentence 3: I [Main] Japan [Jaapaan] from [se] am [hoon]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "किताब मेज़ पर है। वह गाड़ी में है। मैं जापान से हूँ।",
+      "transliteration": "Kitaab mez par hai. Vah gaaḍee mein hai. Main Jaapaan se hoon.",
+      "baseTranslation": "本は机の上にあります。彼は車の中にいます。私は日本からです。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Postpositions perfectly track nouns, and Subject-Verb agreement (Main->hoon) is maintained."
+    },
+    {
+      "targetText": "किताब पर मेज़ है। वह में गाड़ी है। मैं जापानी से है।",
+      "transliteration": "Kitaab par mez hai. Vah mein gaaḍee hai. Main Jaapaanee se hai.",
+      "baseTranslation": "本の上に机があります[エラー]。彼の中に車があります[エラー]。",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Placed prepositions backwards (English style) or mismatched subject/verb."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Postposition Placement Par",
+      "weight": 33,
+      "description": "Did the user definitively place 'Par' AFTER 'Mez'?"
+    },
+    {
+      "criterion": "Postposition Placement Mein",
+      "weight": 33,
+      "description": "Did the user definitively place 'Mein' AFTER 'Gaadee'?"
+    },
+    {
+      "criterion": "Postposition Placement Se",
+      "weight": 34,
+      "description": "Did the user definitively place 'Se' AFTER 'Jaapaan' and cap the sentence with 'hoon'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 18,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "किताब मेज़ पर है। वह गाड़ी में है। मैं जापान से हूँ।",
+    "acceptableAlternates": [
+      "kitaab mez par hai vah gaadee mein hai main jaapaan se hoon",
+      "किताब मेज़ पर है वह गाड़ी में है मैं जापान से हूँ"
+    ],
+    "requiredKeywords": ["मेज़", "पर", "गाड़ी", "में", "जापान", "से"],
+    "grammarBaseline": "Zero tolerance for inverted prepositions (e.g., 'Par mez'). Hindi mimics Japanese exactly here.",
+    "lengthExpectation": "Exactly 3 distinct sentences.",
+    "scoringRubric": {
+      "Adhesion Rule": "The postposition MUST follow the noun it modifies."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "あっぱれ！日本語と同じ語順で、「名詞＋助詞（Postposition）」を完璧に組み立てることができました！",
+    "onFail": "もう一度並びを変えてみましょう。英語のように「In the car」と言うことはできません。日本語と同じ「車(Gaadee)・の中に(mein)」という順番で並べます！",
+    "onPartial": "文法が少し崩れています。助詞（Mein, Par, Se）は正しい位置にありますが、第3の文で「Main (私)」に対応する動詞「Hoon」を使えていますか？前回学んだルールも忘れないでください！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b4/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b4/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m1/b4/writing/prompt.mp3",
+    "audioTranscript": "Write 3 sentences applying Postpositions correctly.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "postpositions", "particles", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "英語の文法は一旦忘れて、日本語で話す時の単語の順番「そのまま」で並べてください。",
+  "commonMistakes": [
+    "Writing 'Par mez' influenced by English prepositional structures."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

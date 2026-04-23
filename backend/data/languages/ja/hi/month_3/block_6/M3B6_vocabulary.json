@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M3B6_vocabulary_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "vocabulary",
+  "title": "3ヶ月を制覇する超重要20単語 (The Top 20 Lifeline Verbs & Markers)",
+  "learningGoal": "The learner will solidify the absolute most critical, high-frequency grammatical markers, verbs, and particles accumulated over three months that dictate Hindi sentence structure.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B6_listening_001"],
+  "instructions": "数ある単語の中でも、ヒンディー語の『骨格』を作るために絶対に忘れてはならない超重要単語の総復習です！これさえ覚えていれば、身振り手振りを交えてインドのどこでも生きていけます。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 品詞の役割（動詞なのか、単語をつなげる接着剤なのか）を明確に意識してください。"
+    }
+  ],
+  "vocabTheme": "Mega Master List - The Core Structural Pillars",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "私に (Dative Subject/Object)",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です / ある (The Copula)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "जाना",
+      "transliteration": "Jaanaa",
+      "baseTranslation": "行く (Verb Infinitive)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "चाहिए",
+      "transliteration": "Chaahiye",
+      "baseTranslation": "欲しい / 〜すべきだ (Modal of Necessity)",
+      "partOfSpeech": "Modal Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "सकना",
+      "transliteration": "Saknaa",
+      "baseTranslation": "できる (Modal of Ability)",
+      "partOfSpeech": "Modal Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし (Conditional 'If')",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "तो",
+      "transliteration": "To",
+      "baseTranslation": "その時は (Correlative 'Then')",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "कि",
+      "transliteration": "Ki",
+      "baseTranslation": "〜ということ (Subordinator 'That')",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "पर",
+      "transliteration": "Par",
+      "baseTranslation": "上に / 〜で (Postposition)",
+      "partOfSpeech": "Postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "नहीं",
+      "transliteration": "Nahin",
+      "baseTranslation": "〜ない (Negation)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "私に",
+    "です / ある",
+    "行く",
+    "欲しい / 〜すべきだ",
+    "できる",
+    "もし",
+    "その時は",
+    "〜ということ (That)",
+    "上に / 〜で",
+    "〜ない"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "मुझे जाना है।",
+      "transliteration": "Mujhe jaanaa hai.",
+      "baseTranslation": "私は行きたい(用事がある)。"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "मैं जा सकता हूँ।",
+      "transliteration": "Main jaa saktaa hoon.",
+      "baseTranslation": "私は行くことができる。"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "अगर तुम आओगे, तो...",
+      "transliteration": "Agar tum aaoge, to...",
+      "baseTranslation": "もし君が来るなら、その時は..."
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the essential pronoun to its meaning: Mujhe (मुझे)",
+      "questionType": "matching",
+      "options": ["私に", "行く"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the modal verb to its meaning: Chaahiye (चाहिए)",
+      "questionType": "matching",
+      "options": ["できる", "欲しい / 〜すべきだ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the modal verb to its meaning: Saknaa (सकना)",
+      "questionType": "matching",
+      "options": ["欲しい / 〜すべきだ", "できる"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "What does the conjunction 'Ki' (कि) do?",
+      "questionType": "matching",
+      "options": ["〜ということ (That)", "もし (If)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "If you use 'Agar' (もし) to start a condition, what must follow to mean 'Then'?",
+      "questionType": "matching",
+      "options": ["To", "Par"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "私に",
+      "w02": "です / ある",
+      "w03": "行く",
+      "w04": "欲しい / 〜すべきだ",
+      "w05": "できる",
+      "w06": "もし",
+      "w07": "その時は",
+      "w08": "〜ということ (That)",
+      "w09": "上に / 〜で",
+      "w10": "〜ない"
+    },
+    "acceptedTranslations": {
+      "w01": ["私に"],
+      "w04": ["欲しい", "〜すべきだ"]
+    },
+    "matchingKey": {
+      "q1": "私に",
+      "q2": "欲しい / 〜すべきだ",
+      "q3": "できる",
+      "q4": "〜ということ (That)",
+      "q5": "To"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！ヒンディー語の全文章を支える『骨格』となる10個の超重要パーツを完全に自分のものにしました。これらが繋ぎ合わさって、あなたの言語世界が形作られています。",
+    "onFail": "もう一度！新しい名詞を覚えるよりも、まずはこうした「文章を変化させ、繋ぎ合わせる」ための文法機能を持つ骨格単語を絶対に落とさないでください！",
+    "onPartial": "よくおぼえています！「Par(〜の上に)」や「Ki(だということ)」は非常に短くて見落としがちですが、文章の構造と意味を決定づける命綱です。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b6/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b6/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b6/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b6/vocab/words_native.mp3",
+    "audioTranscript": "Mujhe. Hai. Jaanaa. Chaahiye. Saknaa. Agar. To. Ki. Par. Nahin.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "review", "comprehensive", "grammar_markers", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b6/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "これらの単語だけで、意思、否定、可能、条件、場所の全てをカバーできます。",
+  "commonMistakes": [
+    "Thinking 'Mujhe' and 'Main' are interchangeable, when they serve entirely different syntactical domains."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

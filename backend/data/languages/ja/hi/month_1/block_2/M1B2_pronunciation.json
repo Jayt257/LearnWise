@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M1B2_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "鼻へ抜ける音 (Nasal Sounds)",
+  "learningGoal": "The learner will master Hindi nasalization (Anusvara), producing a velar/nasal resonance without a hard alveolar 'N' consonant, distinguishing it from the Japanese moraic nasal 'ん'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B2_lesson_001"],
+  "instructions": "発音の練習です！今回は「鼻音（鼻から抜く音）」に挑戦します。文字の上にある「点（ビンドゥ）」が見えたら、フランス語のように鼻から息を抜いて発音します。日本語のしっかりした「ン」とは少し違います！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "日本語の「ン」を言う時、舌が上あごにくっつきます。しかし、ヒンディー語の鼻音（HoonやHain）では、舌を口のどこにもくっつけません！空中に浮かせたまま鼻から音を出します。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私",
+      "phoneticHint": "「メン」ではありません。「メェ〜」と言いながら鼻から息を抜きます。舌はどこにも触れません。",
+      "syllableSplit": "Main",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Men (Closing the tongue on the alveolar ridge like a Japanese 'ん')."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です (私)",
+      "phoneticHint": "「フーン」。これも口をすぼめて「フゥ〜」と言いながら鼻から息を出します。最後の「N」で舌を上に行かせないでください。",
+      "syllableSplit": "Hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Huun (Strong N consonant)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "हैं",
+      "transliteration": "Hain",
+      "baseTranslation": "です (あなた・複数)",
+      "phoneticHint": "「ハイン」。少し口を開けて「ハァイ〜」と鼻から抜きます。これも舌はリラックスさせたままです。",
+      "syllableSplit": "Hain",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Hain (Articulating a clear 'N')."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた",
+      "phoneticHint": "「アープ」。最後の「P」の後に「ウ (u)」を入れたり、「プ」を大きく発声したりしないでください。唇を軽く閉じて終わります。",
+      "syllableSplit": "Aap",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Aapu."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼 / 彼女 / それ",
+      "phoneticHint": "「ヴァハ」または会話では「ヴォ」のように発音されることもあります。「V」は上の歯で下唇を軽く噛みます。「B」ではありません！",
+      "syllableSplit": "Vah",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Baha (Replacing V with B)."
+    },
+    {
+      "itemId": "p06",
+      "targetText": "मैं विद्यार्थी हूँ",
+      "transliteration": "Main vidyaarthee hoon",
+      "baseTranslation": "私は学生です",
+      "phoneticHint": "「V」で下唇をかみ、MainとHoonの2回、鼻から音を抜きます。",
+      "syllableSplit": "Main vid-yaar-thee hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Men bidiyaati huun."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Main Hoon Hain Aap Vah Main vidyaarthee hoon",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "パーフェクト！鼻から抜ける音（Nasalization）がとても綺麗に出ています。舌をくっつけないコツを掴みましたね！",
+    "onFail": "もう一度練習しましょう。「ン」を言う時に、舌が上の歯茎の裏にくっついていませんか？舌は下アゴに置いたまま、鼻から息だけを出してください！",
+    "onPartial": "よくできています！「Vah (彼/彼女)」の「V」の発音に気をつけてください。B（バ行）ではなく、前歯で下唇を少し噛むVの発音です。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "main hoon hain aap vah main vidyaarthee hoon",
+    "acceptedVariants": [
+      "me hoon hain aap vo main vidyarthi hoon"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates absence of alveolar contact on word-final nasalized vowels (anusvara) compared to L1 Japanese 'ん'.",
+    "nativeScriptReference": "मैं हूँ हैं आप वह मैं विद्यार्थी हूँ",
+    "transliteration": "See item objects",
+    "strictnessLevel": "moderate"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b2/pronunciation/native_nasal.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b2/pronunciation/slow_nasal.mp3",
+    "normalAudio": "audio/ja_hi/m1/b2/pronunciation/native_nasal.mp3",
+    "audioTranscript": "Main. Hoon. Hain. Aap. Vah. Main vidyaarthee hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "nasalization", "anusvara", "pronouns", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "フランス語の「ボンジュール（Bon）」の時のように、鼻の奥に音を響かせてみてください。",
+  "commonMistakes": [
+    "Saying 'Men' instead of nasalized 'Main' due to Japanese L1 moraic nasal rules."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

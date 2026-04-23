@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M3B1_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "面接と自己アピール (Interview & Self-Intro)",
+  "learningGoal": "The learner will spontaneously generate accurate verbal configurations for ability (root + sak) and desire (infinitive + chaah) in a continuous spoken sequence, correctly factoring their own gender into the auxiliary.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B1_vocabulary_001"],
+  "instructions": "あなたは新しい職場で自己紹介をしています。日本語の指示に従い、自分の「できること（能力）」と「やりたいこと（願望）」を声に出してアピールしてください！",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 音声認識はあなたが「男性」であると仮定して採点します。（女性のTee hoonで発音しても正解になりますが、画面の表示はTaa hoonになります）"
+    }
+  ],
+  "speakingPrompt": "指定された能力と願望をヒンディー語で声に出して話しなさい。（男性形 Taa hoon を使用すること）",
+  "scenario": "You are introducing yourself to new colleagues, explaining what you can do and what you want to learn.",
+  "role": "The New Employee (Male)",
+  "conversationPartner": "Colleagues",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "能力：「私は少し(Thoḍee)ヒンディー語を話すことができます(Bol)。」",
+      "expectedSpeakingPoints": ["thoḍee hindee", "bol saktaa hoon"],
+      "sampleResponse": {
+        "targetText": "मैं थोड़ी हिंदी बोल सकता हूँ।",
+        "transliteration": "Main thoḍee hindee bol saktaa hoon.",
+        "baseTranslation": "私は少しヒンディー語を話すことができます。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "能力の否定：「しかし(Lekin)、私は車を(Gaaḍee)運転できません(Chalaa)。」",
+      "expectedSpeakingPoints": ["Lekin", "gaaḍee nahin chalaa saktaa"],
+      "sampleResponse": {
+        "targetText": "लेकिन मैं गाड़ी नहीं चला सकता।",
+        "transliteration": "Lekin main gaaḍee nahin chalaa saktaa.",
+        "baseTranslation": "しかし私は車を運転できません。（hoonは省略可能）"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "願望：「私は車の運転を(Gaaḍee chalaanaa)習いたいです(Seekh)。」 ※習うの前も〜naaになることに注意！",
+      "expectedSpeakingPoints": ["gaaḍee chalaanaa", "seekhnaa chaahtaa hoon"],
+      "sampleResponse": {
+        "targetText": "मैं गाड़ी चलाना सीखना चाहता हूँ。",
+        "transliteration": "Main gaaḍee chalaanaa seekhnaa chaahtaa hoon.",
+        "baseTranslation": "私は車の運転を習いたいです。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते। मेरा नाम केन है।",
+    "transliteration": "Namaste. Meraa naam Ken hai.",
+    "baseTranslation": "こんにちは、私の名前はケンです。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं थोड़ी हिंदी बोल सकता हूँ।",
+      "transliteration": "Main thoḍee hindee bol saktaa hoon.",
+      "baseTranslation": "私は少しヒンディー語を話すことができます。"
+    },
+    {
+      "targetText": "लेकिन मैं गाड़ी नहीं चला सकता।",
+      "transliteration": "Lekin main gaaḍee nahin chalaa saktaa.",
+      "baseTranslation": "しかし私は車を運転できません。"
+    },
+    {
+      "targetText": "मैं गाड़ी चलाना सीखना चाहता हूँ。",
+      "transliteration": "Main gaaḍee chalaanaa seekhnaa chaahtaa hoon.",
+      "baseTranslation": "私は車の運転を習いたいです。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "bol saktaa",
+      "chalaa saktaa",
+      "seekhnaa chaahtaa"
+    ],
+    "requiredKeywords": [
+      "main", "thoḍee", "hindee", "bol", "saktaa", "lekin", "gaaḍee", "nahin", "chalaa", "seekhnaa", "chaahtaa", "hoon"
+    ],
+    "acceptableParaphrases": [
+      "main thoḍee hindi bol saktee hoon lekin main gadi nahi chala saktee hoon main gadi chalana sikhna chahti hu"
+    ],
+    "scoringRubric": {
+      "Root vs Infinitive Focus": "Must hear 'bol' (not bolnaa) for speak. Must hear 'chalaa' (not chalaanaa) before the negative saktaa. Must hear 'seekhnaa' (not seekh) before chaahtaa."
+    },
+    "sampleAnswer": "Main thoḍee hindee bol saktaa hoon. Lekin main gaaḍee nahin chalaa saktaa hoon. Main gaaḍee chalaanaa seekhnaa chaahtaa hoon.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "パーフェクト！Bol saktaa(話せる)という「語幹＋Saktaa」のリズムと、Seekhnaa chaahtaa(習いたい)という「Naa＋Chaahtaa」のリズムを自分の口で完璧にコントロールできています！",
+    "onFail": "一息つきましょう！願望の「〜したい」と言う時、動詞に Naa がついていますか？「Seekh chaahtaa」では通じません。英語の to みたいに、Naa を残して「Seekhnaa chaahtaa」と言わなければなりません！",
+    "onPartial": "よくお話しできています。第2文で「Nahin saktaa chalaa」と語順が逆になっていませんか？否定の Nahin は動詞のセット(chalaa saktaa)の直前に「nahin chalaa saktaa」という順番で置きます。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b1/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m3/b1/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b1/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m3/b1/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m3/b1/speaking/full_dialogue.mp3",
+    "audioTranscript": "Learner: Main thoḍee hindi bol saktaa hoon. Lekin gaaḍee nahin chalaa saktaa. Main gaaḍee chalaanaa seekhnaa chaahtaa hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "modals", "ability", "desire", "interview", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b1/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "女性の場合は、Saktaa を Saktee に、Chaahtaa を Chaahtee に変えて読んでもシステムは正解と判断します。",
+  "commonMistakes": [
+    "Saying 'bolnaa saktaa hoon' adding an infinitive where a root is required."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

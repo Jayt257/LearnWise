@@ -1,0 +1,246 @@
+{
+  "activityId": "ja_hi_M1B2_vocabulary_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "vocabulary",
+  "title": "誰・何・身分 (Pronouns & Identities)",
+  "learningGoal": "The learner will master 10 foundational vocabulary items relating to third-person pronouns, interrogatives, and basic human identities, building on perfectly aligned S-O-V structural knowledge.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B2_listening_001"],
+  "instructions": "自己紹介でよく使われる10個の単語を覚えましょう！「彼」「これ」といった代名詞や、「学生」「先生」といった身分に関する言葉が含まれています。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「 Kyaa (何) 」という単語を文の最初に置くだけで、日本語の「〜ですか？」と同じ疑問文が作れます！"
+    }
+  ],
+  "vocabTheme": "Identity & Pronouns",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた（尊敬）",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼 / 彼女 / それ (遠くのもの)",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "यह",
+      "transliteration": "Yah",
+      "baseTranslation": "これ / この人 (近くのもの)",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "हम",
+      "transliteration": "Ham",
+      "baseTranslation": "私たち",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "कौन",
+      "transliteration": "Kaun",
+      "baseTranslation": "誰",
+      "partOfSpeech": "Interrogative",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "क्या",
+      "transliteration": "Kyaa",
+      "baseTranslation": "何 / 〜ですか？(文頭の場合)",
+      "partOfSpeech": "Interrogative",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "दोस्त",
+      "transliteration": "Dost",
+      "baseTranslation": "友達",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "विद्यार्थी",
+      "transliteration": "Vidyaarthee",
+      "baseTranslation": "学生",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "अध्यापक",
+      "transliteration": "Adhyaapak",
+      "baseTranslation": "先生 / 教師",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "जापानी",
+      "transliteration": "Jaapaanee",
+      "baseTranslation": "日本人 / 日本の",
+      "partOfSpeech": "Noun/Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "あなた",
+    "彼/彼女/それ",
+    "これ",
+    "私たち",
+    "誰",
+    "何",
+    "友達",
+    "学生",
+    "先生",
+    "日本人"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w02",
+      "targetText": "वह कौन है?",
+      "transliteration": "Vah kaun hai?",
+      "baseTranslation": "彼は誰ですか？"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "क्या आप जापानी हैं?",
+      "transliteration": "Kyaa aap Jaapaanee hain?",
+      "baseTranslation": "あなたは日本人ですか？"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "मैं अध्यापक हूँ।",
+      "transliteration": "Main adhyaapak hoon.",
+      "baseTranslation": "私は先生です。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its Japanese equivalent: Kaun",
+      "questionType": "matching",
+      "options": ["誰", "何"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its Japanese equivalent: Aap",
+      "questionType": "matching",
+      "options": ["あなた", "私たち"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the word to its Japanese equivalent: Vidyaarthee",
+      "questionType": "matching",
+      "options": ["先生", "学生"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its Japanese equivalent: Yah",
+      "questionType": "matching",
+      "options": ["彼 / 彼女 (遠く)", "これ / この人 (近く)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match the word to its Japanese equivalent: Kyaa",
+      "questionType": "matching",
+      "options": ["誰", "何 / 〜ですか"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "あなた",
+      "w02": "彼/彼女/それ",
+      "w03": "これ",
+      "w04": "私たち",
+      "w05": "誰",
+      "w06": "何",
+      "w07": "友達",
+      "w08": "学生",
+      "w09": "先生",
+      "w10": "日本人"
+    },
+    "acceptedTranslations": {
+      "w02": ["彼", "彼女", "それ"],
+      "w05": ["だれ", "誰"],
+      "w06": ["なん", "なに", "何", "ですか"]
+    },
+    "matchingKey": {
+      "q1": "誰",
+      "q2": "あなた",
+      "q3": "学生",
+      "q4": "これ / この人 (近く)",
+      "q5": "何 / 〜ですか"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！代名詞と身分を表す単語を完璧に覚えました！これで「あなたは誰ですか？」といった質問ができるようになります。",
+    "onFail": "もう一度復習しましょう。尤其是「Kyaa（何）」と「Kaun（誰）」、そして近くを指す「Yah」と遠くを指す「Vah」の違いをしっかり確認してください。",
+    "onPartial": "よくできました！いくつか間違いがあります。「Vidyaarthee」は学生、「Adhyaapak」は先生です。単語の意味をもう一度チェックしてください！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b2/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b2/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b2/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b2/vocab/words_native.mp3",
+    "audioTranscript": "Aap. Vah. Yah. Ham. Kaun. Kyaa. Dost. Vidyaarthee. Adhyaapak. Jaapaanee.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "pronouns", "identity", "professions", "questions", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「Kyaa」を文の頭に置くと「あなたは日本人ですか？（Kyaa aap Jaapaanee hain?）」のような疑問文になります。",
+  "commonMistakes": [
+    "Confusing Kaun (Who) and Kyaa (What)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

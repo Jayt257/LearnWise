@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M3B3_vocabulary_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "vocabulary",
+  "title": "接着と論理の言葉 (Logic & Conjunctions)",
+  "learningGoal": "The learner will master the vocabulary required to construct logical arguments, linking beliefs to realities (lagtaa, sochnaa, ki) and causes to effects (kyonki, isliye).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B3_listening_001"],
+  "instructions": "今回の単語は論理的な会話をするための『骨組み』になります！条件を表すペア(Agar-To, Jab-Tab)、理由を表す言葉(Kyonki, Isliye)、そして自分の思考を伝える表現をまとめて覚えましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "これらの単語は、文の最初や文と文の間に置かれることが多い「接着剤」です。"
+    }
+  ],
+  "vocabTheme": "Logic, Thoughts & Conjunctions",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "सोचना",
+      "transliteration": "Sochnaa",
+      "baseTranslation": "考える / 悩む (Verb)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "लगता है",
+      "transliteration": "Lagtaa hai",
+      "baseTranslation": "〜と思う / 〜と感じる (Phrase: Mujhe + lagtaa hai)",
+      "partOfSpeech": "Phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "मालूम",
+      "transliteration": "Maaloom",
+      "baseTranslation": "知っていること / 知識 (Adjective/Noun used as state)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "कि",
+      "transliteration": "Ki",
+      "baseTranslation": "〜ということ (That)",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし〜 (If)",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "जब",
+      "transliteration": "Jab",
+      "baseTranslation": "〜の時 (When)",
+      "partOfSpeech": "Conjunction/Relative Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "तब",
+      "transliteration": "Tab",
+      "baseTranslation": "その時に (Then) ※Jabの相棒",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "क्योंकि",
+      "transliteration": "Kyonki",
+      "baseTranslation": "なぜなら (Because)",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "इसलिए",
+      "transliteration": "Isliye",
+      "baseTranslation": "だから / そのため (Therefore)",
+      "partOfSpeech": "Conjunction/Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "सच",
+      "transliteration": "Sach",
+      "baseTranslation": "本当 / 真実",
+      "partOfSpeech": "Noun/Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "考える / 悩む",
+    "〜と思う / 〜と感じる",
+    "知っていること / 知識",
+    "〜ということ (That)",
+    "もし〜 (If)",
+    "〜の時 (When)",
+    "その時に (Then)",
+    "なぜなら (Because)",
+    "だから / そのため",
+    "本当 / 真実"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "मैं सोच रहा हूँ।",
+      "transliteration": "Main soch rahaa hoon.",
+      "baseTranslation": "私は考えています(思考中)。"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "वह नहीं आया क्योंकि बारिश हो रही थी।",
+      "transliteration": "Vah nahin aayaa kyonki baarish ho rahee thee.",
+      "baseTranslation": "彼は来なかった、なぜなら雨が降っていたから。"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "यह सच है।",
+      "transliteration": "Yah sach hai.",
+      "baseTranslation": "これは本当だ。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its meaning: Sochnaa (सोचना)",
+      "questionType": "matching",
+      "options": ["考える/悩む", "本当"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "What word means 'Because'?",
+      "questionType": "matching",
+      "options": ["Isliye", "Kyonki"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What word means 'Therefore / So'?",
+      "questionType": "matching",
+      "options": ["Isliye", "Kyonki"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "When setting up a timeframe 'When', you use 'Jab'. What word must be used for 'Then'?",
+      "questionType": "matching",
+      "options": ["To", "Tab"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "If you want to say something is 'True / The truth', which word do you use?",
+      "questionType": "matching",
+      "options": ["Sach", "Baat"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "考える / 悩む",
+      "w02": "〜と思う / 〜と感じる",
+      "w03": "知っていること / 知識",
+      "w04": "〜ということ (That)",
+      "w05": "もし〜 (If)",
+      "w06": "〜の時 (When)",
+      "w07": "その時に (Then)",
+      "w08": "なぜなら (Because)",
+      "w09": "だから / そのため",
+      "w10": "本当 / 真実"
+    },
+    "acceptedTranslations": {
+      "w02": ["思う", "感じる"],
+      "w03": ["知っている", "わかる"]
+    },
+    "matchingKey": {
+      "q1": "考える/悩む",
+      "q2": "Kyonki",
+      "q3": "Isliye",
+      "q4": "Tab",
+      "q5": "Sach"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Kyonki(なぜなら)」「Isliye(だから)」などの理由付け表現と、思考を表す表現を完璧にマスターしました。大人らしい説明ができるようになります。",
+    "onFail": "もう一度！Kyonki(なぜなら) と Isliye(だから) を逆に覚えてしまうと、原因と結果が逆になってしまいます。セットでしっかり区別しましょう。",
+    "onPartial": "よくできました！Sochnaa は頭の中で考えている・悩んでいるアクション。Lagtaa hai は感覚的に「〜な気がする」というフィーリング。この2つの違いを意識できると上級者です。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b3/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b3/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b3/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b3/vocab/words_native.mp3",
+    "audioTranscript": "Sochnaa. Lagtaa hai. Maaloom. Ki. Agar. Jab. Tab. Kyonki. Isliye. Sach.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "logic", "conjunctions", "reasoning", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b3/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Kyonki と Isliye はどちらも日常会話の「理由付け」で必須です。",
+  "commonMistakes": [
+    "Thinking 'Lagtaa hai' means 'I am attached' literally, rather than 'It seems to me'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

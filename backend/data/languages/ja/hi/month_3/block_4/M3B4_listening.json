@@ -1,0 +1,152 @@
+{
+  "activityId": "ja_hi_M3B4_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "雑踏での交渉 (Market Bargaining)",
+  "learningGoal": "The learner will aurally parse survival Hindi in a noisy context, extracting precise numerical values, directionality, and price dissatisfaction statements.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M3B4_writing_001"],
+  "instructions": "市場での激しいやり取りを聞き取ります。「高い(Mahangaa)」「安い(Sastaa)」という値段の会話と、「前(Aage)」「右(Daaen)」といった場所の指示を瞬時に日本語に変換する感覚を養いましょう。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "店員が提示する数字「Do sau = 200」が聞き取れるかがポイントです。"
+    }
+  ],
+  "listeningGoal": "Extract cost, quality judgments, and spatial directions from a shopkeeper-customer interaction.",
+  "audioScenario": "Anita is buying a bag at a street market and asking for directions to the station.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "अनीता: भैया, यह बैग कितने का है?",
+      "transliteration": "Aneeta: Bhaiyaa, yah baig kitne kaa hai?",
+      "baseTranslation": "アニタ：お兄さん、このバッグはいくらですか？"
+    },
+    {
+      "targetText": "दुकानदार: यह दो सौ रुपये का है, मैडम।",
+      "transliteration": "Dukaandaar: Yah do sau rupaye kaa hai, maidaam.",
+      "baseTranslation": "店員：これは200ルピーです、マダム。"
+    },
+    {
+      "targetText": "अनीता: नहीं भैया, यह बहुत महँगा है। सौ रुपये में दीजिए।",
+      "transliteration": "Aneeta: Nahin bhaiyaa, yah bahut mahangaa hai. Sau rupaye mein deejiye.",
+      "baseTranslation": "アニタ：いやお兄さん、これはとても高いわ。100ルピーでちょうだい。"
+    },
+    {
+      "targetText": "दुकानदार: ठीक है, ले लीजिए।",
+      "transliteration": "Dukaandaar: Ṭheek hai, le leejiye.",
+      "baseTranslation": "店員：分かったよ、持っていって(買って)。"
+    },
+    {
+      "targetText": "अनीता: शुक्रिया। भैया, यहाँ से स्टेशन कहाँ है?",
+      "transliteration": "Aneeta: Shukriyaa. Bhaiyaa, yahaan se station kahaan hai?",
+      "baseTranslation": "アニタ：ありがとう。お兄さん、ここから(yahaan se)駅はどこですか？"
+    },
+    {
+      "targetText": "दुकानदार: आगे जाइए, फिर दाएँ मुड़िए।",
+      "transliteration": "Dukaandaar: Aage jaaiye, phir daaen muḍiye.",
+      "baseTranslation": "店員：前(Aage)に行ってください。それから、右(Daaen)に曲がってください。"
+    }
+  ],
+  "audioTranscriptFull": "Aneeta: Bhaiyaa, yah baig kitne kaa hai?\nDukaandaar: Yah do sau rupaye kaa hai, maidaam.\nAneeta: Nahin bhaiyaa, yah bahut mahangaa hai. Sau rupaye mein deejiye.\nDukaandaar: Ṭheek hai, le leejiye.\nAneeta: Shukriyaa. Bhaiyaa, yahaan se station kahaan hai?\nDukaandaar: Aage jaaiye, phir daaen muḍiye.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "アニタは何かを指して「これはいくらですか？」と聞いています。何に値段を聞きましたか？",
+      "questionType": "multiple_choice",
+      "options": ["食べ物 (khaanaa)", "バッグ (baig)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "店員が提示した最初の金額はいくらでしたか？",
+      "questionType": "multiple_choice",
+      "options": ["100 (sau)", "200 (do sau)"],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "アニタはその値段に対してどう感じ、何と言いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["安い(Sastaa)と言った", "（とても）高い(Mahangaa)と言った"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "アニタは「ここから駅は कहाँ(カハーン)ですか？」と聞きました。カハーンの意味は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["どうやって (How)", "どこ (Where)"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後に店員は「前に進んでから、曲がってください」と指示しました。左右どちらに曲がるよう言いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["左 (Baaen)", "右 (Daaen)"],
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "バッグ (baig)",
+      "q2": "200 (do sau)",
+      "q3": "（とても）高い(Mahangaa)と言った",
+      "q4": "どこ (Where)",
+      "q5": "右 (Daaen)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしいリスニング力です！金額の聞き取りと、Mahangaa(高い)という交渉フレーズ、そしてAage(前)とDaaen(右)の方向指示まで、実生活で必要な情報を完璧に拾えています！",
+    "onFail": "一息つきましょう！ネイティブの会話は速いですが、ヒントになる「Do sau(200)」や「Daaen(右)」というキーワードだけを拾う練習をしてください。",
+    "onPartial": "よく聞き取れています！「Le leejiye (持っていって)」は、お店の人が「どうぞこれに(この値段で)しますよ」と承諾する時によく使われる複合動詞表現です！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b4/listening/market_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b4/listening/market_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b4/listening/market_native.mp3",
+    "audioTranscript": "Aneeta: Bhaiyaa, yah baig kitne kaa hai?... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "travel", "shopping", "bargaining", "directions", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b4/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Daaen(右へ) は D から始まる音、Baaen(左へ) は B から始まる音です。間違えると全然違う場所に着いてしまいます！",
+  "commonMistakes": [
+    "Confusing Daaen and Baaen due to similar phonetic endings."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

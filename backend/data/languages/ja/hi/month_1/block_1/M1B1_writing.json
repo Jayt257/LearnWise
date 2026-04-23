@@ -1,0 +1,149 @@
+{
+  "activityId": "ja_hi_M1B1_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "ヒンディー語で自己紹介 (Writing a Self-Introduction)",
+  "learningGoal": "The learner will successfully construct a very basic introductory SVO-equivalent sentence using the provided Devanagari components, mapping 'My name is X' via the Hindi structure 'Mera naam X hai'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B1_reading_001"],
+  "instructions": "ヒンディー語で自分の名前を書く練習をしましょう！日本語の「私の名前は〇〇です」という構造（S-O-V）は、驚くべきことにヒンディー語と全く同じ語順です！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "語順の魔法：[私の (mera)] [名前は (naam)] [アミト (Amit)] [です (hai)]。日本語と同じ順番で単語を並べるだけで完璧なヒンディー語になります！"
+    }
+  ],
+  "writingPrompt": "あなたの名前（または仮の名前）を使って、「こんにちは。私の名前はアミトです。ありがとう。」という3つの文（またはフレーズ）をヒンディー語で書いてください。",
+  "promptGoal": "Test initial syntactic alignment by mapping Japanese S-O-V to Hindi S-O-V, utilizing core introductory vocabulary.",
+  "expectedWritingType": "message",
+  "wordBank": [
+    {
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "こんにちは",
+      "partOfSpeech": "Greeting"
+    },
+    {
+      "targetText": "मेरा",
+      "transliteration": "Mera",
+      "baseTranslation": "私の",
+      "partOfSpeech": "Pronoun (Possessive)"
+    },
+    {
+      "targetText": "नाम",
+      "transliteration": "Naam",
+      "baseTranslation": "名前",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "अमित",
+      "transliteration": "Amit",
+      "baseTranslation": "アミト（名前）",
+      "partOfSpeech": "Noun (Proper)"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です (To Be)",
+      "partOfSpeech": "Verb"
+    },
+    {
+      "targetText": "धन्यवाद",
+      "transliteration": "Dhanyavaad",
+      "baseTranslation": "ありがとう",
+      "partOfSpeech": "Noun/Exclamation"
+    }
+  ],
+  "referenceHints": [
+    "Phrase 1: Greeting.",
+    "Sentence 2: [Mera] + [naam] + [Your Name] + [hai].",
+    "Phrase 3: Thank you."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "नमस्ते। मेरा नाम अमित है। धन्यवाद।",
+      "transliteration": "Namaste. Mera naam Amit hai. Dhanyavaad.",
+      "baseTranslation": "こんにちは。私の名前はアミトです。あちがとう。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully mapped the SOV structure exactly corresponding to Japanese without altering word order."
+    },
+    {
+      "targetText": "मेरा नाम है अमित।",
+      "transliteration": "Mera naam hai Amit.",
+      "baseTranslation": "私の名前ですアミト。",
+      "qualityLevel": "bad",
+      "annotation": "Structural failure. The learner placed the verb 'hai' before the object/name, breaking the SOV rule that identically matches Japanese 'desu' at the end."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Verb Position (S-O-V)",
+      "weight": 50,
+      "description": "Did the user definitively place 'hai' (です) at the very end of the sentence, matching Japanese grammar?"
+    },
+    {
+      "criterion": "Greeting Usage",
+      "weight": 25,
+      "description": "Did the user include 'Namaste'?"
+    },
+    {
+      "criterion": "Appropriate Noun Ownership",
+      "weight": 25,
+      "description": "Did the user correctly pair 'Mera' (My) with 'naam' (Name)?"
+    }
+  ],
+  "minimumWordCount": 5,
+  "maximumWordCount": 15,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "नमस्ते। मेरा नाम अमित है। धन्यवाद।",
+    "acceptableAlternates": [
+      "नमस्ते। मेरा नाम राज है। धन्यवाद।",
+      "नमस्ते मेरा नाम अमित है धन्यवाद"
+    ],
+    "requiredKeywords": ["नमस्ते", "मेरा", "नाम", "है", "धन्यवाद"],
+    "grammarBaseline": "The SOV parallel between Japanese and Hindi must be absolute here. 'hai' (desu) must terminate the clause.",
+    "lengthExpectation": "About 6-7 words total.",
+    "scoringRubric": {
+      "S-O-V rule": "Verbs at the end. Like Japanese 'desu'."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語で完璧な自己紹介が書けました！日本語とヒンディー語は語順が同じなので、動詞を最後に置く（desu = hai）だけで、このように簡単に文が作れるのです！",
+    "onFail": "もう一度挑戦してください！日本語の文法を思い出してください。「私の(Mera)」「名前は(naam)」「アミト(Amit)」「です(hai)」。この順番を絶対に崩さないでください！",
+    "onPartial": "惜しいです！『hai (है)』の位置を確認してください。日本語の「です」と同じように、文の最後に置くのが正解です。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b1/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b1/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m1/b1/writing/prompt.mp3",
+    "audioTranscript": "Write a greeting, your name, and a thank you.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "devanagari", "sov", "introduction", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Word Bank（単語帳）をコピーして貼り付けて文章を作りましょう。",
+  "commonMistakes": [
+    "Overthinking the grammar, assuming a foreign language like Hindi must have a different word order from Japanese. (Moving the verb away from the end)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

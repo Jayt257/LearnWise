@@ -1,0 +1,212 @@
+{
+  "activityId": "ja_hi_M1B5_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "誰が話している？ (Who is Speaking?)",
+  "learningGoal": "The learner will decode Devanagari texts to infer the biological gender of the speaker and subjects by analyzing the terminal verbal modifications (taa vs tee).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B5_pronunciation_001"],
+  "instructions": "誰かの日記を読んでいます。書いてある内容（特に動詞の形！）に注目して、文章を書いている人が「男性」なのか「女性」なのかを推理してください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "動詞が Taa (ता) で終わっていれば男性、Tee (ती) で終わっていれば女性です。"
+    }
+  ],
+  "readingTitle": "मेरा दिन (My Day)",
+  "readingText": "नमस्ते। मैं रोज़ सेब खाती हूँ। मैं जापान जाती हूँ। मेरा भाई भारतीय खाना खाता है। वह भारत जाता है। हम दोनों खुश हैं।",
+  "textInTargetLanguage": "नमस्ते। मैं रोज़ सेब खाती हूँ। मैं जापान जाती हूँ। मेरा भाई भारतीय खाना खाता है। वह भारत जाता है। हम दोनों खुश हैं。",
+  "baseLanguageSupportText": "こんにちは。私は毎日りんごを食べます。私は日本へ行きます。私の兄はインド料理を食べます。彼はインドへ行きます。私たちは両方とも幸せです。",
+  "glossary": [
+    {
+      "targetText": "रोज़",
+      "transliteration": "Roz",
+      "baseTranslation": "毎日",
+      "exampleSentence": {
+        "targetText": "मैं रोज़ सेब खाती हूँ।",
+        "transliteration": "Main roz seb khaatee hoon.",
+        "baseTranslation": "私は毎日りんごを食べます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "सेब",
+      "transliteration": "Seb",
+      "baseTranslation": "りんご",
+      "exampleSentence": {
+        "targetText": "सेब खाती हूँ।",
+        "transliteration": "Seb khaatee hoon.",
+        "baseTranslation": "りんごを食べます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "खाती (खाना)",
+      "transliteration": "Khaatee (Khaanaa)",
+      "baseTranslation": "食べます (女性が主語)",
+      "exampleSentence": {
+        "targetText": "मैं खाती हूँ।",
+        "transliteration": "Main khaatee hoon.",
+        "baseTranslation": "私は食べます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "जाती (जाना)",
+      "transliteration": "Jaatee (Jaanaa)",
+      "baseTranslation": "行きます (女性が主語)",
+      "exampleSentence": {
+        "targetText": "मैं जापान जाती हूँ।",
+        "transliteration": "Main Jaapaan jaatee hoon.",
+        "baseTranslation": "私は日本へ行きます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "भाई",
+      "transliteration": "Bhaaii",
+      "baseTranslation": "兄 / 弟",
+      "exampleSentence": {
+        "targetText": "मेरा भाई",
+        "transliteration": "Mera bhaaii",
+        "baseTranslation": "私の兄"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "खाना",
+      "transliteration": "Khaanaa",
+      "baseTranslation": "食べ物 / 料理",
+      "exampleSentence": {
+        "targetText": "भारतीय खाना",
+        "transliteration": "Bhaarateey khaanaa",
+        "baseTranslation": "インド料理"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "खुश",
+      "transliteration": "Khush",
+      "baseTranslation": "嬉しい / 幸せ",
+      "exampleSentence": {
+        "targetText": "हम दोनों खुश हैं।",
+        "transliteration": "Ham donon khush hain.",
+        "baseTranslation": "私たちは両方とも幸せ（嬉しい）です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं रोज़ सेब खाती हूँ।",
+      "transliteration": "Main roz seb khaatee hoon.",
+      "baseTranslation": "私は毎日りんごを食べます。"
+    },
+    {
+      "targetText": "मेरा भाई भारतीय खाना खाता है।",
+      "transliteration": "Mera bhaaii Bhaarateey khaanaa khaataa hai.",
+      "baseTranslation": "私の兄はインド料理を食べます。"
+    },
+    {
+      "targetText": "वह भारत जाता है।",
+      "transliteration": "Vah Bhaarat jaataa hai.",
+      "baseTranslation": "彼はインドへ行きます。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "この「日記」を書いている人（私＝Main）の性別はどちらですか？（ヒント：動詞の形に注目！）",
+      "questionType": "multiple_choice",
+      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "書いている人は「どこへ」行くと言っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["日本 (Jaapaan)", "インド (Bhaarat)", "家 (Ghar)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「インド(Bhaarat)」に行くのは誰ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "お兄さん（Bhaaii）が「食べる」ときの動詞は、どう変化していますか？",
+      "questionType": "multiple_choice",
+      "options": ["Khaatee になっている", "Khaataa になっている", "Khaate になっている"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「Bhaaii (兄)」の前に「Mera」が付いているのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["兄（Bhaaii）が男性名詞だから", "日記を書いている人が女性だから"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "女性 (Feminine)",
+      "q2": "日本 (Jaapaan)",
+      "q3": "兄",
+      "q4": "Khaataa になっている",
+      "q5": "兄（Bhaaii）が男性名詞だから"
+    },
+    "acceptableParaphrases": {
+      "q3": ["あに", "お兄さん", "Bhaaii", "bhaaii"]
+    },
+    "keywordScoringRules": {
+      "q3": ["兄", "bhaaii"]
+    },
+    "expectedSummaryPoints": [
+      "The learner successfully infers that 'Main... khaatee' implies a female speaker.",
+      "The learner correlates 'bhaaii' (brother) to the masculine conjugation 'khaataa' and 'jaataa'."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい推察力です！動詞が「Tee (ティー)」で終わっていることから、これを発言しているのが女性だと一発で見抜きましたね！",
+    "onFail": "もう一度読み込んでみましょう。Main（私）の文の最後を見ると、Khaataa (男) ではなく Khaatee (女) になっています。つまり、これを書いているのは女性です！",
+    "onPartial": "よく読めています！少し注意が必要なのは Q5 です。前回のレッスンを思い出してください。「Mera（私の）」になる理由は、「後ろの単語（兄）」が男だからです！書いている人の性別ではありません。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b5/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b5/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m1/b5/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Main roz seb khaatee hoon... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "verbs", "gender", "present_tense", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「食べる (Khaa)」に何がくっついているか（Taa か Teeか）に注目してください。",
+  "commonMistakes": [
+    "Assuming the speaker is male because 'Mera' is used for the brother."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

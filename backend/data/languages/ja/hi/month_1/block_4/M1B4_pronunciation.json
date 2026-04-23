@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M1B4_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "助詞をくっつけて読む (Linking Particles)",
+  "learningGoal": "The learner will master the phonetic linking of nouns to postpositions, ensuring that 'Mein' is properly nasalized and that Japanese glottal stops are not inserted between the noun and the particle.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B4_lesson_001"],
+  "instructions": "発音の練習です！日本語で「とうきょうに」と言うとき、「とうきょう」と「に」を区切らずに滑らかに発音しますよね。ヒンディー語の「Tokyo-mein」も同じように、名詞と助詞を一つの言葉のように滑らかにつなげて発音します。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「Main（私）」と「Mein（〜に/中）」は文字は少し違いますが、発音は同じ「メェ〜（鼻音）」です。文の発端にあるか、名詞の後ろに付いているかで判断します！"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "में",
+      "transliteration": "Mein",
+      "baseTranslation": "〜に / 〜の中に",
+      "phoneticHint": "「メン」と혀をくっつけず、鼻から息を抜くAnusvara（アヌスヴァーラ）の音です。",
+      "syllableSplit": "Mein",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Men (Solid N closure on roof of mouth)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "पर",
+      "transliteration": "Par",
+      "baseTranslation": "〜の上に",
+      "phoneticHint": "「パル」。Rを発音する時に舌を上に少し当てて弾きます。「パルゥ」と最後にウを足さないでください。",
+      "syllableSplit": "Par",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Paru."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "से",
+      "transliteration": "Se",
+      "baseTranslation": "〜から",
+      "phoneticHint": "「セー」。口を横に引いて少し長めに発音します。「セ」と短く切らないでください。",
+      "syllableSplit": "Se",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Se (Too brief, lacking Hindi vowel length)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "घर में",
+      "transliteration": "Ghar mein",
+      "baseTranslation": "家の中に",
+      "phoneticHint": "ガルとメインを一息で。「ガル・メイン」と切らずに、「ガルメイン」と繋げます。",
+      "syllableSplit": "Ghar-mein",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Garu mein (Epenthetic U insertion)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "जापान से",
+      "transliteration": "Jaapaan se",
+      "baseTranslation": "日本から",
+      "phoneticHint": "ジャパン・セー。この「セー」は引っ掛かりなくスムーズにつなぎます。",
+      "syllableSplit": "Jaa-paan se",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaapaan se (Clipping the 'se' too quickly without intonation support)."
+    },
+    {
+      "itemId": "p06",
+      "targetText": "टोक्यो में",
+      "transliteration": "Tokyo mein",
+      "baseTranslation": "東京に / で",
+      "phoneticHint": "トーキョー・メイン。「メイン」の最後はしっかり鼻音で抜きます。",
+      "syllableSplit": "To-kyo mein",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Tokyo men."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Mein Par Se Ghar mein Jaapaan se Tokyo mein",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "パーフェクト！名詞と助詞をとてもスムーズに繋げて発音できています。Mein（の中に）の鼻音も完璧です。",
+    "onFail": "もう一度練習しましょう。単語と単語の間でプツッと息を止めないでください（Ghar... Meinではなく、Gharmein）。「Par」の最後には「ウ」を入れないでください！",
+    "onPartial": "よく聞き取れる発音です！Se（から）という時、日本語の「セ」よりも少し長めに「セー」と言うとよりネイティブに近づきます。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "mein par se ghar mein jaapaan se tokyo mein",
+    "acceptedVariants": [
+      "me par se ghar me japan se tokyo me"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates fluid connection between noun boundary and postposition boundary without glottal stops. Evaluates nasalization on 'mein'.",
+    "nativeScriptReference": "में पर से घर में जापान से टोक्यो में",
+    "transliteration": "See item objects",
+    "strictnessLevel": "moderate"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b4/pronunciation/native_particles.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b4/pronunciation/slow_particles.mp3",
+    "normalAudio": "audio/ja_hi/m1/b4/pronunciation/native_particles.mp3",
+    "audioTranscript": "Mein. Par. Se. Ghar mein. Jaapaan se. Tokyo mein.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "postpositions", "particles", "nasalization", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「家の中（Ghar-mein）」と言う時、まるで「Gharmein」という一つの文字のように一息で言い切ってみましょう。",
+  "commonMistakes": [
+    "Pronouncing 'Ghar mein' with a distinct stop 'Gharu... Men'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

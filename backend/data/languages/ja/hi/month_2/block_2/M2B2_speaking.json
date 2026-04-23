@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M2B2_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "昨日何をした？ (What did you do yesterday?)",
+  "learningGoal": "The learner will speak aloud past tense sentences applying ergative-absolutive alignment ('ne'), consciously shifting the verb's gender agreement to the direct object during real-time speech generation.",
+  "difficultyLevel": "hard",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B2_vocabulary_001"],
+  "instructions": "究極のスピーキングテストです！友達に「昨日何をしたか」を聞かれるので答えてください。話すとき、自分が男か女かは完全に忘れること。あなたが話す動詞は、直前にある『モノの性別』に支配されます！",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ To be動詞 (Hoon / Hai) は一切使いません。Maine seb khaayaa. と言い切ってください。"
+    }
+  ],
+  "speakingPrompt": "自分の性別を無視し、対象物の性別に合わせて過去形の文を話しなさい。",
+  "scenario": "A friend is asking you what you did yesterday.",
+  "role": "The Japanese Expat (Gender doesn't matter)",
+  "conversationPartner": "The Friend",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "友達: 'तुमने कल क्या खाया?' (君は昨日何を食べた？) 答え：「私[が]は、りんご(男)を食べた。」",
+      "expectedSpeakingPoints": ["Maine", "seb", "khaayaa"],
+      "sampleResponse": {
+        "targetText": "मैंने सेब खाया।",
+        "transliteration": "Maine seb khaayaa.",
+        "baseTranslation": "私はりんごを食べた。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "友達: 'क्या तुमने किताब पढ़ी?' (君は本(女)を読んだ？) 答え：「はい、私[が]は、本(女)を読んだ。」",
+      "expectedSpeakingPoints": ["Haan", "maine kitaab", "padhee"],
+      "sampleResponse": {
+        "targetText": "हाँ, मैंने किताब पढ़ी।",
+        "transliteration": "Haan, maine kitaab paḍhee.",
+        "baseTranslation": "はい、私は本を読んだ。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "友達: 'और तुमने क्या किया?' (そして君は何(男)をした？) 答え：「私[が]は、仕事(男)をした。」",
+      "expectedSpeakingPoints": ["Maine", "kaam", "kiyaa"],
+      "sampleResponse": {
+        "targetText": "मैंने काम किया।",
+        "transliteration": "Maine kaam kiyaa.",
+        "baseTranslation": "私は仕事をした。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "तुमने कल क्या किया?",
+    "transliteration": "Tumne kal kyaa kiyaa?",
+    "baseTranslation": "君は昨日何をした？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैंने सेब खाया।",
+      "transliteration": "Maine seb khaayaa.",
+      "baseTranslation": "私はりんごを食べた。"
+    },
+    {
+      "targetText": "हाँ, मैंने किताब पढ़ी।",
+      "transliteration": "Haan, maine kitaab paḍhee.",
+      "baseTranslation": "はい、私は本を読んだ。"
+    },
+    {
+      "targetText": "मैंने काम किया。",
+      "transliteration": "Maine kaam kiyaa.",
+      "baseTranslation": "私は仕事をした。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Maine seb khaayaa",
+      "maine kitaab paḍhee",
+      "Maine kaam kiyaa"
+    ],
+    "requiredKeywords": [
+      "maine", "seb", "khaayaa", "haan", "kitaab", "padhee", "kaam", "kiyaa"
+    ],
+    "acceptableParaphrases": [
+      "maine kal seb khaayaa"
+    ],
+    "scoringRubric": {
+      "Ergative Strictness": "Fail the user if they say 'Main seb khaayaa' (missing ne) OR 'Maine kitaab paḍhaa' (missing object agreement)."
+    },
+    "sampleAnswer": "Maine seb khaayaa. Haan, maine kitaab paḍhee. Maine kaam kiyaa.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "凄まじい脳の切り替えです！自分自身の性別をシステムから切り離し、「直前にある対象物(りんご/本/仕事)」に動詞を直結させることができました！ヒンディー語の達人への第一歩です。",
+    "onFail": "ここは最も言語の壁が高い部分です！あなたが女性であっても「Maine seb khaayaa (食べた・男声)」と言うし、あなたが男性であっても「Maine kitaab paḍhee (読んだ・女声)」になります。ルールは『モノ』が持っています！",
+    "onPartial": "よくお話しできています。動詞の変化（Khaayaa/Padhee）は合っていましたが、「Main」に「Ne」をくっつけた「Maine」の音が少し離れて（メン、ネ）になっています。一息で言いましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b2/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m2/b2/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b2/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m2/b2/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m2/b2/speaking/full_dialogue.mp3",
+    "audioTranscript": "Friend: Tumne kal kyaa khaayaa?\nLearner: Maine seb khaayaa...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後の文（Hoon や Hai）は不要です。日本人が日記を書くときのように、「〜食べた。」と言い切ります。",
+  "commonMistakes": [
+    "Reverting to Month 1 habit and saying 'Maine kitaab paḍhtaa hoon' combining all tenses together."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

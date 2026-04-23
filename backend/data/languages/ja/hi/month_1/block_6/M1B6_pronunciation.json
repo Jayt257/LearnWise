@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M1B6_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "長文を一息で読む (Fluid Sentence Delivery)",
+  "learningGoal": "The learner will master the prosody and intonation of a complete, multi-block Hindi sentence, maintaining fluidity across locational postpositions and ensuring correct execution of terminal nasalization.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B6_lesson_001"],
+  "instructions": "総復習の発音練習です！これまで学んだ複数のブロック（主語、場所、動詞）を組み合わせた長い文を、途中で途切れるロボットのようにならないように、滑らかに発音しましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「Main」から「hoon」まで、日本語の文を読み上げるように自然な抑揚をつけてください。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मैं जापान से हूँ।",
+      "transliteration": "Main Jaapaan se hoon.",
+      "baseTranslation": "私は日本からです。",
+      "phoneticHint": "メン・ジャパン・セー・フーン。ジャパンセーを一体化させて発音します。",
+      "syllableSplit": "Main Jaa-paan-se hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Main Jaapaan ... se hoon."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "मेरा घर बड़ा है।",
+      "transliteration": "Mera ghar baḍaa hai.",
+      "baseTranslation": "私の家は大きいです。",
+      "phoneticHint": "メラー・ガル・バラー・ハィ。単語の間でブレスを取らず、一気に言い切ります。",
+      "syllableSplit": "Me-raa ghar ba-ḍaa hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Meraa ga-ru bada hai."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "मेरी गाड़ी छोटी है।",
+      "transliteration": "Meri gaaḍee chhoṭee hai.",
+      "baseTranslation": "私の車は小さいです。",
+      "phoneticHint": "メリー・ガーリー・チョーティー・ハィ。イーの音（女性名詞の連続）を意識して口を横に引きます。",
+      "syllableSplit": "Me-ree gaa-ḍee chho-ṭee hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mera gadi..."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "मैं कमरे में सेब खाता हूँ।",
+      "transliteration": "Main kamre mein seb khaataa hoon.",
+      "baseTranslation": "私は部屋でりんごを食べます。(男性)",
+      "phoneticHint": "流れるように。カムレ・メイン のメインから、セブのSへ滑らかにつなぎます。",
+      "syllableSplit": "Main kam-re mein seb khaa-taa hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Main kamre meinnnnn seb kata hun."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "मैं कमरे में सेब खाती हूँ।",
+      "transliteration": "Main kamre mein seb khaatee hoon.",
+      "baseTranslation": "私は部屋でりんごを食べます。(女性)",
+      "phoneticHint": "カーティー・フーンのところで、イーから鼻音へスムーズに移行します。",
+      "syllableSplit": "Main kam-re mein seb khaa-tee hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kata hun (forgetting female conjugation)"
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Main Jaapaan se hoon Mera ghar baḍaa hai Meri gaaḍee chhoṭee hai Main kamre mein seb khaataa hoon Main kamre mein seb khaatee hoon",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！一つひとつの単語が独立したロボットのような発音ではなく、ネイティブレベルの滑らかさがあります。",
+    "onFail": "もう一度！単語と単語の間で息継ぎをしすぎです。日本語で「わたしは 　へやで　 りんごを...」と区切らないのと同じです。一息で言い切りましょう！",
+    "onPartial": "よくお話しできています。長文になると、最後の hoon の鼻音が普通の「ン(N)」に戻ってしまいがちです。最後まで気を抜かずに！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "main jaapaan se hoon mera ghar baḍaa hai meri gaaḍee chhoṭee hai main kamre mein seb khaataa hoon main kamre mein seb khaatee hoon",
+    "acceptedVariants": [
+      "me japan se hu mera ghar bada hy meri gadi choti hy main kamre me seb khata hu main kamre me seb khati hu"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates full-sentence prosody, lack of glottal stops, maintenance of retroflex/aspirations under cognitive load of longer sentences.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b6/pronunciation/native_review.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b6/pronunciation/slow_review.mp3",
+    "normalAudio": "audio/ja_hi/m1/b6/pronunciation/native_review.mp3",
+    "audioTranscript": "Main Jaapaan se hoon... (Matches all items).",
+    "audioLanguage": "hi",
+    "audioDuration": 180,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "review", "fluency", "prosody", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b6/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "文章を読むリズムは、日本のニュースキャスターが原稿を読む時のリズム（滑らかな一定速度）とそっくりです。",
+  "commonMistakes": [
+    "Cognitive stuttering (pausing before 'mein' or 'par' to think of the translation)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B6_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

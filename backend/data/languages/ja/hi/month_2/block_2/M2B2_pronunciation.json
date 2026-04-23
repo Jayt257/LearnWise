@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M2B2_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "Pronoun + \"Ne\" の融合 (Fusing the Pronouns)",
+  "learningGoal": "The learner will master the fluid, un-stuttered phonetic fusion of Hindi pronouns with the ergative 'Ne' particle, eliminating the L1 Japanese habit of inserting pauses before particles.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B2_lesson_001"],
+  "instructions": "発音練習です！「Main (私)」「Tum (君)」「Aap (あなた)」に「Ne (ネ)」がくっついたとき、完全に１つの単語として滑らかに発音する訓練をします。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "日本語の「わたし、が」のように助詞の前で一呼吸置いて考えてしまうクセをなくしましょう。（メン・ネ）と一息で発音します。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मैंने",
+      "transliteration": "Maine",
+      "baseTranslation": "私が (Main + Ne)",
+      "phoneticHint": "メンネ。メンの発音の最後の「ン」が口を閉じる前に「ネ」にシームレスに移行します。",
+      "syllableSplit": "Mai-ne",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Main ... ne. (Pausing to think)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "तुमने",
+      "transliteration": "Tumne",
+      "baseTranslation": "君が (Tum + Ne)",
+      "phoneticHint": "トゥムネ。「ム」で唇を閉じた後、すぐに「ネ」で舌を弾きます。トゥム（一息）ネ、ではありません。",
+      "syllableSplit": "Tum-ne",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Tumu-ne."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "आपने",
+      "transliteration": "Aapne",
+      "baseTranslation": "あなたが (Aap + Ne)",
+      "phoneticHint": "アープネ。「プ」の破裂音が強すぎないように。アープと言い終わる前にネに繋げます。",
+      "syllableSplit": "Aap-ne",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Aapu-ne. (Inserting U)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "उसने",
+      "transliteration": "Usne",
+      "baseTranslation": "彼/彼女が (Vah + Ne は Usne に変化します)",
+      "phoneticHint": "ウスネ。「ス」は無声（Zにならないように）で、すぐに「ネ」につなぎます。",
+      "syllableSplit": "Us-ne",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Usu-ne."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "मैंने सेब खाया।",
+      "transliteration": "Maine seb khaayaa.",
+      "baseTranslation": "私はりんごを食べました。",
+      "phoneticHint": "「メンネ」と一息で発音し、続く「セブ」へスムーズに流れます。Khaa-yaa の H の息の音も強調します。",
+      "syllableSplit": "Mai-ne seb khaa-yaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Main ne seb khaataa... (Using habitual tense accidentally)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Maine Tumne Aapne Usne Maine seb khaayaa",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "パーフェクト！「Maine」や「Aapne」が完全にひとつの単語として発音できており、間に無駄な母音（ウなど）が入っていません！",
+    "onFail": "もう一度！「Main(メン)」のあとに考え込むように「...Ne（ネ）」と間が空いています。考える暇を与えずにアープネ！ウスネ！と一気に言い放ちましょう。",
+    "onPartial": "よくお話しできています。Tumne や Aapne の時に「トゥム『ゥ』ネ」のように、間に小さなUの音が入って日本語なまりになっています。唇の動きに気をつけてください！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "maine tumne aapne usne maine seb khaayaa",
+    "acceptedVariants": [
+      "mene tumne apne usne mene seb khaya"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates fluid integration of particle 'ne' with the proceeding pronoun without epenthetic vowel insertions (e.g. Aap-u-ne).",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b2/pronunciation/native_erg.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b2/pronunciation/slow_erg.mp3",
+    "normalAudio": "audio/ja_hi/m2/b2/pronunciation/native_erg.mp3",
+    "audioTranscript": "Maine. Tumne. Aapne. Usne. Maine seb khaayaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "past_tense", "ergative", "particles", "clitics", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の「〜が」と同じように名詞とくっつけますが、ヒンディー語のほうがより強力に融合して1つの単語になります。",
+  "commonMistakes": [
+    "Saying 'Vah-ne' instead of 'Usne'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

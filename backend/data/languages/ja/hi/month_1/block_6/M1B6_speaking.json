@@ -1,0 +1,138 @@
+{
+  "activityId": "ja_hi_M1B6_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "自己紹介をしよう (Full Self-Introduction)",
+  "learningGoal": "The learner will fluidly speak a multi-clause self-introduction, dynamically assigning L2 biological and grammatical genders over a sustained period of speech while maintaining an intact SOV sentence framework.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B6_vocabulary_001"],
+  "instructions": "いよいよあなたの番です！インド人の友達に、あなたの自己紹介をしてください。「出身地」「家の大きさ」、そして「毎日何をしているか」をヒンディー語で伝えます。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※今回は、あなたが『男性である』と仮定して全ての文を話してください。最後の動詞は Taa（ター）になります。"
+    }
+  ],
+  "speakingPrompt": "「男性である」と仮定して、自己紹介をしてください。",
+  "scenario": "Meeting a new friend and introducing yourself, your house, and your routine.",
+  "role": "The Japanese Man",
+  "conversationPartner": "The Indian Friend",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "友達: 'नमस्ते। तुम कहाँ से हो?' (こんにちは。あなたはどこから来たの？) 答え：「こんにちは。私は日本からです。」",
+      "expectedSpeakingPoints": ["Namaste", "Main", "Jaapaan se", "hoon"],
+      "sampleResponse": {
+        "targetText": "नमस्ते। मैं जापान से हूँ।",
+        "transliteration": "Namaste. Main Jaapaan se hoon.",
+        "baseTranslation": "こんにちは。私は日本からです。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "友達: 'तुम्हारा घर कैसा है?' (あなたの家はどうですか？[大きいですか？]) 答え：「私の家は大きいです。」",
+      "expectedSpeakingPoints": ["Mera ghar", "baḍaa hai"],
+      "sampleResponse": {
+        "targetText": "मेरा घर बड़ा है।",
+        "transliteration": "Mera ghar baḍaa hai.",
+        "baseTranslation": "私の家は大きいです。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "友達: 'तुम रोज़ क्या करते हो?' (あなたは毎日何をしていますか？) 答え：「私は毎日、部屋の中で本を読みます。(男性の言葉で)」",
+      "expectedSpeakingPoints": ["Main roz", "kamre mein", "kitaab", "padhtaa hoon"],
+      "sampleResponse": {
+        "targetText": "मैं रोज़ कमरे में किताब पढ़ता हूँ।",
+        "transliteration": "Main roz kamre mein kitaab paḍhtaa hoon.",
+        "baseTranslation": "私は毎日部屋の中で本を読みます。(男性)"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते। तुम कहाँ से हो?",
+    "transliteration": "Namaste. Tum kahaan se ho?",
+    "baseTranslation": "こんにちは。あなたはどこから来たの？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। मैं जापान से हूँ।",
+      "transliteration": "Namaste. Main Jaapaan se hoon.",
+      "baseTranslation": "こんにちは。私は日本からです。"
+    },
+    {
+      "targetText": "मेरा घर बड़ा है।",
+      "transliteration": "Mera ghar baḍaa hai.",
+      "baseTranslation": "私の家は大きいです。"
+    },
+    {
+      "targetText": "मैं रोज़ कमरे में किताब पढ़ता हूँ।",
+      "transliteration": "Main roz kamre mein kitaab paḍhtaa hoon.",
+      "baseTranslation": "私は毎日部屋の中で本を読みます。(男性)"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Jaapaan se hoon",
+      "Mera ghar baḍaa hai",
+      "kamre mein",
+      "paḍhtaa hoon"
+    ],
+    "requiredKeywords": [
+      "main", "jaapaan", "se", "hoon", "mera", "ghar", "badaa", "hai", "kamre", "mein", "kitaab", "padhtaa"
+    ],
+    "acceptableParaphrases": [
+      "main kamre mein kitaab padhtaa hoon"
+    ],
+    "scoringRubric": {
+      "Dual Gender Tracking": "Fail immediately if the user says 'Meri ghar' (failing object gender) OR 'padhtee hoon' (failing subject gender constraint block)."
+    },
+    "sampleAnswer": "Namaste. Main Jaapaan se hoon. Mera ghar baḍaa hai. Main roz kamre mein kitaab paḍhtaa hoon.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい上達です！自分自身の性別と、モノの性別を同時に切り替えながら、完璧な語順で話すことができました！",
+    "onFail": "もう一度落ち着いて挑みましょう。「家 (Ghar)」は男言葉を使う。そして「読む (Padhtaa)」も自分が男性だと思って言う。この2つを意識してください。",
+    "onPartial": "よくお話しできています！文の最後の言葉（HoonやらHaiやら）が適当になっていませんか？『私』の話をしている時は必ず Hoon (フーン) です！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b6/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m1/b6/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b6/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m1/b6/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m1/b6/speaking/full_dialogue.mp3",
+    "audioTranscript": "Friend: Namaste. Tum kahaan se ho?\nLearner: Namaste. Main Jaapaan se hoon...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "review", "synthesis", "roleplay", "gender", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b6/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の順番のまま声に出せばOKです。最後の文は「Paḍhtaa hoon(パルターフーン)」で終わります。",
+  "commonMistakes": [
+    "Saying 'Padhtee' because the learner forgets they are supposed to be roleplaying as a male."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B6_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

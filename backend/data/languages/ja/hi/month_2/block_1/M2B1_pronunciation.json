@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M2B1_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "巻き舌とリズム (The 'R' and the Rhythm)",
+  "learningGoal": "The learner will accurately articulate the alveolar trill/tap of the Hindi 'R' in the continuous marker (rahaa), contrasting it explicitly against the L1 Japanese lateral postalveolar flap (r/l confusion).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B1_lesson_001"],
+  "instructions": "発音の壁です！「Rahaa (ラハー)」の「R」は、日本語の「ラリルレロ」とは少し違います。舌を少し前に出して、軽く弾く（あるいは巻く）ようにして発音しましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "英語の R（口をすぼめる）ではなく、スペイン語やイタリア語の軽い巻き舌のイメージに近いです。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "रहा",
+      "transliteration": "Rahaa",
+      "baseTranslation": "〜している (男性用)",
+      "phoneticHint": "ラハー。Lの音（La）にならないよう、舌の先を上の歯茎の裏に軽く当てて弾きます。",
+      "syllableSplit": "Ra-haa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Lahaa (Using Japanese alveolar lateral flap)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "रही",
+      "transliteration": "Rahee",
+      "baseTranslation": "〜している (女性用)",
+      "phoneticHint": "ラヒー。「ヒー」で口を横に引きますが、最初のRはしっかり弾いてください。",
+      "syllableSplit": "Ra-hee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Lahee."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "रहे",
+      "transliteration": "Rahe",
+      "baseTranslation": "〜している (あなた用/複数)",
+      "phoneticHint": "ラヘー。「ヘー」は少し伸ばします。",
+      "syllableSplit": "Ra-he",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Lahe."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "कर रहा हूँ",
+      "transliteration": "Kar rahaa hoon",
+      "baseTranslation": "しています (しているところです・男)",
+      "phoneticHint": "カル・ラハー・フーン。「Kar」のRから「Rahaa」のRへ、Rの発音が連続するため注意です。",
+      "syllableSplit": "Kar ra-haa hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kalu lahaa hun."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "जा रही हूँ",
+      "transliteration": "Jaa rahee hoon",
+      "baseTranslation": "行っています (女)",
+      "phoneticHint": "ジャー・ラヒー・フーン。動詞の語幹（Jaa）と（Rahee）の間に、一呼吸置かずにスムーズに繋げます。",
+      "syllableSplit": "Jaa ra-hee hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaa... lahee hun (Glottal stop insertion)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Rahaa Rahee Rahe Kar rahaa hoon Jaa rahee hoon",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！日本語の曖昧な「ラ」ではなく、はっきりとした舌の弾き（R）を持つヒンディー語の音が表現できています。",
+    "onFail": "もう一度練習しましょう。日本語の「ラ」ではなく、舌の先を上の歯茎の付け根に当てて、少しだけ強く「ルルッ」と弾くイメージを持ってください。",
+    "onPartial": "よくお話しできています。Rの音は良いですが、続く「Haa（ハー）」の部分で息をスッと吐き出す（気音）ことを忘れないでください！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "rahaa rahee rahe kar rahaa hoon jaa rahee hoon",
+    "acceptedVariants": [
+      "raha rahi rahe kar raha hoon ja rahi hoon",
+      "rahaa rahee rahe kar rahaa hu jaa rahee hu"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the execution of the alveolar tap/trill /r/ avoiding lateral approximations /l/ common in Japanese L1.",
+    "nativeScriptReference": "रहा रही रहे कर रहा हूँ जा रही हूँ",
+    "transliteration": "See item objects",
+    "strictnessLevel": "moderate"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b1/pronunciation/native_cont.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b1/pronunciation/slow_cont.mp3",
+    "normalAudio": "audio/ja_hi/m2/b1/pronunciation/native_cont.mp3",
+    "audioTranscript": "Rahaa. Rahee. Rahe. Kar rahaa hoon. Jaa rahee hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "verbs", "current_continuous", "phonetics", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「ラハ〜」よりも「ルァハ〜」のイメージで、舌先を弾かせてみてください。",
+  "commonMistakes": [
+    "Pronouncing the R as a Japanese L/R hybrid, stripping it of its Hindi clarity."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

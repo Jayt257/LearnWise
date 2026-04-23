@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M1B4_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "どこにありますか？ (Saying Where It Is)",
+  "learningGoal": "The learner will accurately produce postpositional phrases in real-time conversation, attaching Mein, Par, and Se directly to the end of noun subjects in an SOV frame.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B4_vocabulary_001"],
+  "instructions": "今度はあなたが答える番です！相手に「どこ？」と聞かれたら、習ったばかりの助詞（Mein, Par, Se）を単語の後ろにくっつけて答えてください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "「イン・ザ・ハウス」ではなく「ハウス・イン（Ghar mein）」です。日本語の語順を信じて話しましょう！"
+    }
+  ],
+  "speakingPrompt": "質問に対して、正しい場所の単語と助詞を使って答えてください。",
+  "scenario": "Answering questions from a hotel manager about your belongings and origins.",
+  "role": "The Japanese Guest",
+  "conversationPartner": "The Hotel Manager",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "マネージャー: 'नमस्ते। आप कहाँ से हैं?' (こんにちは。あなたはどこから来ましたか？) 答え：「こんにちは。私は日本からです。」",
+      "expectedSpeakingPoints": ["Namaste", "Main", "Jaapaan se", "hoon"],
+      "sampleResponse": {
+        "targetText": "नमस्ते। मैं जापान से हूँ।",
+        "transliteration": "Namaste. Main Jaapaan se hoon.",
+        "baseTranslation": "こんにちは。私は日本からです。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "マネージャー: 'आपकी किताब कहाँ है?' (あなたの本はどこにありますか？) 答え：「私の本は部屋の中にあります。」",
+      "expectedSpeakingPoints": ["Meri kitaab", "kamre mein", "hai"],
+      "sampleResponse": {
+        "targetText": "मेरी किताब कमरे में है।",
+        "transliteration": "Meri kitaab kamre mein hai.",
+        "baseTranslation": "私の本は部屋の中にあります。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "マネージャー: 'ठीक है। और मेज़ कहाँ है?' (わかりました。そして机はどこですか？) 答え：「机はあそこにあります。」",
+      "expectedSpeakingPoints": ["Mez", "vahaan hai"],
+      "sampleResponse": {
+        "targetText": "मेज़ वहाँ है।",
+        "transliteration": "Mez vahaan hai.",
+        "baseTranslation": "机はあそこにあります。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते। आप कहाँ से हैं?",
+    "transliteration": "Namaste. Aap kahaan se hain?",
+    "baseTranslation": "こんにちは。あなたはどこから来ましたか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। मैं जापान से हूँ।",
+      "transliteration": "Namaste. Main Jaapaan se hoon.",
+      "baseTranslation": "こんにちは。私は日本からです。"
+    },
+    {
+      "targetText": "मेरी किताब कमरे में है।",
+      "transliteration": "Meri kitaab kamre mein hai.",
+      "baseTranslation": "私の本は部屋の中にあります。"
+    },
+    {
+      "targetText": "मेज़ वहाँ है।",
+      "transliteration": "Mez vahaan hai.",
+      "baseTranslation": "机はあそこにあります。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 25,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Jaapaan se",
+      "kamre mein",
+      "vahaan hai"
+    ],
+    "requiredKeywords": [
+      "jaapaan", "se", "kamre", "mein", "vahaan"
+    ],
+    "acceptableParaphrases": [
+      "kitaab kamre mein hai"
+    ],
+    "scoringRubric": {
+      "Postposition Adhesion": "Fail if the user says 'Mein kamre hai' instead of 'Kamre mein hai'."
+    },
+    "sampleAnswer": "Namaste. Main Jaapaan se hoon. Meri kitaab kamre mein hai. Mez vahaan hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！「日本から（Jaapaan se）」、「部屋の中に（Kamre mein）」と、名詞の直後に助詞を置くルールを完全にマスターしています！",
+    "onFail": "もう一度！英語に引っ張られていませんか？プレポジション（前置詞）ではなく、ポストポジション（後置詞）です。日本語の「東京・に」と同じ順番で「Tokyo・Mein」です！",
+    "onPartial": "よく通じています！「あそこに (vahaan)」や「ここに (yahaan)」は、Mein などの助詞を使わずにそのまま「vahaan hai」と言えばOKです。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b4/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m1/b4/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b4/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m1/b4/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m1/b4/speaking/full_dialogue.mp3",
+    "audioTranscript": "Manager: Namaste. Aap kahaan se hain?\nLearner: Namaste. Main Jaapaan se hoon...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "postpositions", "particles", "locations", "roleplay", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「日本（から）」「部屋（の中に）」という日本語の語順をそのまま声に出してください。",
+  "commonMistakes": [
+    "Saying 'Se Jaapaan' (From Japan) instead of 'Jaapaan se'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

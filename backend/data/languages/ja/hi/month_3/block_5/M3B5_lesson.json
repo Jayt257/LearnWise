@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_hi_M3B5_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "健康と緊急事態 (Health & Emergencies)",
+  "learningGoal": "The learner will acquire critical emergency vocabulary and properly deploy the Dative case (mujhe ____ hai) to express internal physical states such as pain, illness, and hunger.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M3B4_test_001"],
+  "instructions": "いざという時に命を守るためのサバイバル表現です！「助けて！」「医者を呼んで！」といった緊急フレーズと、「熱がある」「痛い」といった体の不調を伝えるための文法(私『に』〇〇がある)を学びましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "ヒンディー語では、病気や感情は「私が持っている」のではなく、「私『に』くっついている」と表現します。そのため、主語は Main(私) ではなく Mujhe(私に) になります。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The Dative Subject for states: 'Mujhe bukhaar hai' (To me fever is). Sickness happens *to* you in Hindi syntax.",
+      "Expressing Pain: 'Dard hai' (Pain is) / 'Sir mein dard hai' (In the head, pain is).",
+      "Emergency Imperatives: 'Madad keejiye' (Please do help), 'Daktar ko bulaaiye' (To the doctor, please call)."
+    ],
+    "conceptSummary": "Introduces high-stakes vocabulary while reinforcing the Dative subject case for involuntary physiological states.",
+    "importantFacts": [
+      "Saying 'Main bukhaar hoon' literally means 'I am a fever entity'. It is highly incorrect. You must use 'Mujhe bukhaar hai'."
+    ],
+    "checkpointAnswers": {
+      "q1": "Mujhe (मुझे)",
+      "q2": "Dard (दर्द)",
+      "q3": "Bulaaiye (बुलाइए)"
+    },
+    "expectedUnderstanding": "Learners will automatically default to the 'Mujhe' prefix when discussing internal feelings, pains, or hunger."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Mujhe (私に)」を使った身体状態の表現と、緊急時の必須フレーズを完全に理解できました！旅行の安全確保に直結する重要な知識です。",
+    "onFail": "一息つきましょう。「私は熱がある」を英語の I have a fever につられて Main(私)から始めていませんか？ヒンディー語では病気は「私『に』ある」ものなので、必ず Mujhe(私に) から始めます！",
+    "onPartial": "よく理解しています！痛みを表す Dard(ダルド) は、その前に「Sir mein (頭の中に)」「Peṭ mein (お腹の中に)」のように場所を指定することで、どこが痛いかを正確に伝えることができます！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b5/lesson/native_emergency.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b5/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b5/lesson/slow_emergency.mp3",
+    "normalAudio": "audio/ja_hi/m3/b5/lesson/native_emergency.mp3",
+    "audioTranscript": "Mujhe bukhaar hai. Peṭ mein dard hai. Madad keejiye! Ḍaakṭar ko bulaaiye.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "vocabulary", "emergencies", "health", "practical", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「痛い」という形容詞ではなく、「痛み(Dard)というモノがある(Hai)」と表現するのがヒンディー流です。",
+  "commonMistakes": [
+    "Saying 'Main dard hoon' (I am pain) instead of 'Mujhe dard hai' (To me pain is)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "トラブル対応と身体の不調",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "病気と痛みを伝える",
+      "bodyText": "「熱(bukhaar)」や「空腹(bhookh)」は、自分から進んでなったわけではなく外からやってきた状態です。そのため Main(私) ではなく、Mujhe(私に) を使って「私に熱がくっついている」と表現します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझे बुख़ार है।",
+          "transliteration": "Mujhe bukhaar hai.",
+          "baseTranslation": "私は熱があります。 [私に(Mujhe) 熱(bukhaar)が ある(hai)]"
+        },
+        {
+          "targetText": "मुझे सिर में दर्द है।",
+          "transliteration": "Mujhe sir mein dard hai.",
+          "baseTranslation": "私は頭痛がします。 [私に 頭(sir)の中に(mein) 痛み(dard)が ある(hai)]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "緊急事態（SOS）",
+      "bodyText": "困った時や危ない時は「Madad (助け)」という名詞を使って呼びかけます。「助けてください」は直訳すると「助けをしてください」になります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मदद कीजिए!",
+          "transliteration": "Madad keejiye!",
+          "baseTranslation": "助けてください！ [助け(madad)を なさってください(keejiye:Karnaaの尊敬命令)]"
+        },
+        {
+          "targetText": "बचाओ!",
+          "transliteration": "Bachaao!",
+          "baseTranslation": "助けろ！/ 逃がして！ (本当に危ない時の叫び声。Bachnaa命令形)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "人を呼ぶ",
+      "bodyText": "医者や警察を呼んでほしい時は、「呼ぶ (Bulaanaa)」という動詞に「〜してください (Iye)」をつけてお願いします。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "डॉक्टर को बुलाइए।",
+          "transliteration": "Ḍaakṭar ko bulaaiye.",
+          "baseTranslation": "医者を呼んでください。 [医者(Ḍaakṭar) を(ko) 呼んでください(bulaaiye)]"
+        },
+        {
+          "targetText": "पुलिस को बुलाइए।",
+          "transliteration": "Pulis ko bulaaiye.",
+          "baseTranslation": "警察を呼んでください。"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map physiological constraints directly to the Dative subject case (Mujhe) and practice high-stress imperative phrasing for securing medical or authoritative aid.",
+  "examples": [
+    {
+      "targetText": "भैया, मदद कीजिए! मुझे बहुत दर्द है। डॉक्टर को बुलाइए!",
+      "transliteration": "Bhaiyaa, madad keejiye! Mujhe bahut dard hai. Ḍaakṭar ko bulaaiye!",
+      "baseTranslation": "お兄さん、助けて！ 深刻な痛みがあります。医者を呼んで！",
+      "explanation": "Master level emergency block chaining an SOS, a dative symptom, and a directional command."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "自分の体調を語る主語は絶対に「Main (私)」ではなく「Mujhe (私に)」！",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "「誰々 を 呼ぶ」と言う時は、人に影響を与えるため必ず「ko (を)」をつけて「Ḍaakṭar ko...」とします。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドの薬局では、Mujhe bukhaar hai (熱がある) と症状を言うだけで、適切な薬をその場で選んで出してくれることが多いです（軽い症状の場合）。",
+    "dosList": ["Memorize 'Mujhe dard hai' (I have pain) as it is universally understood."],
+    "dontsList": []
+  },
+  "summary": "【体調】Mujhe (症状) hai = 私に〇〇がある\n【痛み】Dard (痛み)\n【助け】Madad keejiye = 助けてください\n【呼ぶ】(人) ko bulaaiye = 〇〇を呼んでください",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「（私に）熱がある」と言う時の、文の最初の言葉をローマ字で答えてください。",
+      "expectedAnswer": "Mujhe (मुझे)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「痛み」を意味する単語は何ですか？",
+      "expectedAnswer": "Dard (दर्द)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「呼んでください(Bulaanaaの尊敬命令)」は何ですか？",
+      "expectedAnswer": "Bulaaiye (बुलाइए)"
+    }
+  ]
+}

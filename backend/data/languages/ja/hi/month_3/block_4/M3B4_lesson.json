@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_hi_M3B4_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "旅行と買い物のサバイバル (Travel & Shopping)",
+  "learningGoal": "The learner will synthesize accumulated grammar (imperatives, possessives, conditionals, and modals) to navigate practical survival scenarios in Hindi, specifically focusing on price negotiation and spatial directions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M3B3_test_001"],
+  "instructions": "いよいよ実践編です！これまで学んだ「〜してください(命令形)」「〜したい(願望)」などの型をフル活用して、インドでの買い物(値段交渉)と、道案内(方向指示)の表現をマスターしましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "インドの街では「これはいくら？」「高すぎるよ！」「まっすぐ行って」といった言葉を一日に何十回も使います。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Pricing: 'Kitne kaa hai?' (Of how much is it?) using the possessive 'kaa'.",
+      "Bargaining: 'Bahut mahangaa hai, sastaa deejiye' (It's too expensive, give it cheaper).",
+      "Spatial Directions: Seedhe (straight), Baaen (left), Daaen (right).",
+      "Obligation / Destination mapping: 'Mujhe [place] jaanaa hai' (To me, going to [place] is = I have to go to [place])."
+    ],
+    "conceptSummary": "Shifts focus from abstract grammar to highly functional rote paradigms, relying on previously established foundational matrices.",
+    "importantFacts": [
+      "In Hindi, to ask the price of something, you literally ask 'Of how much is it?' (Kitne kaa hai). It treats price as a form of possession or attribute."
+    ],
+    "checkpointAnswers": {
+      "q1": "Kitne kaa hai (कितने का है)",
+      "q2": "Mahangaa (महँगा)",
+      "q3": "Seedhe (सीधे)"
+    },
+    "expectedUnderstanding": "Learners will map spatial and monetary interactions using polite imperatives (aaiye, jaaiye) and interrogatives (kahaan, kitne)."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！旅行や買い物で必須の言葉をマスターしました。これでインドのマーケットやオートリキシャで価格交渉や道案内ができますね！",
+    "onFail": "一息つきましょう！覚える単語がたくさんありますが、まずは「Kitne kaa hai(いくら？)」と「Kahaan hai(どこ？)」の2つの質問フレーズから確実に暗記してください。",
+    "onPartial": "よく理解しています！左(Baaen/バーエン)と右(Daaen/ダーエン)は名前がとても似ていてインド人でも間違えることがあります。B＝左、D＝右、というアルファベットの頭文字で関連付けるのも手です。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b4/lesson/native_travel.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b4/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b4/lesson/slow_travel.mp3",
+    "normalAudio": "audio/ja_hi/m3/b4/lesson/native_travel.mp3",
+    "audioTranscript": "Yah kitne kaa hai? Bahut mahangaa hai. Station kahaan hai? Seedhe jaaiye, phir baaen muḍiye.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "vocabulary", "travel", "shopping", "practical", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b4/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「いくらか(Kitne)」の後に、Month 2で学んだ「Kaa(の)」をつけて「Kitne kaa(いくらの)？」と聞くのがヒンディー式です。",
+  "commonMistakes": [
+    "Asking 'Kitna hai?' which just means 'How much quantity is it?' instead of 'Kitne kaa hai?' (Of what price is it?)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "サバイバル・ヒンディー",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "買い物編（Shopping & Bargaining）",
+      "bodyText": "お店に入ったら、まずは値段を聞きます。高いと思ったら、安くしてとお願い（命令形）してみましょう。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "यह कितने का है?",
+          "transliteration": "Yah kitne kaa hai?",
+          "baseTranslation": "これはいくらですか？ [直訳：これはどのくらいの(Kitne)もの(kaa)ですか？]"
+        },
+        {
+          "targetText": "यह बहुत महँगा है। थोड़ा सस्ता दीजिए।",
+          "transliteration": "Yah bahut mahangaa hai. Thoḍaa sastaa deejiye.",
+          "baseTranslation": "これはとても高い(mahangaa)です。少し安くして(sastaa)ください(deejiye)。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "目的地を伝える（Destination）",
+      "bodyText": "「私は〇〇に行きたい/行かなければならない」と言う時は、自分(Main)ではなく、「Mujhe(私に)」から文を始める特殊な形を使います。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझे स्टेशन जाना है।",
+          "transliteration": "Mujhe station jaanaa hai.",
+          "baseTranslation": "私は駅に行きたい/行かなければならない。 [私に(Mujhe) 駅へ行くこと(jaanaa)が ある(hai)]"
+        },
+        {
+          "targetText": "ताजमहल कहाँ है?",
+          "transliteration": "Taajmahal kahaan hai?",
+          "baseTranslation": "タージマハルはどこ(kahaan)ですか？"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "方向を指示する（Directions）",
+      "bodyText": "オートの運転手や歩行者に道筋を伝える時は、丁寧な命令形「〜してください(Iye)」を使うのが一番安全で確実です。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "सीधे जाइए, फिर बाएँ मुड़िए।",
+          "transliteration": "Seedhe jaaiye, phir baaen muḍiye.",
+          "baseTranslation": "まっすぐ(Seedhe)行ってください(jaaiye)、それから(phir) 左に(baaen) 曲がってください(muḍiye)。"
+        },
+        {
+          "targetText": "दाएँ मुड़िए। यहाँ रुक जाइए।",
+          "transliteration": "Daaen muḍiye. Yahaan ruk jaaiye.",
+          "baseTranslation": "右に(Daaen)曲がってください。ここで止まって(ruk)ください(jaaiye)。"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will deploy target transactional vocabulary (kitne, mahangaa, sastaa, seedhe, baaen, daaen) within the syntactic boundaries of Dative-Infinitive obligations framing (Mujhe...jaanaa hai) and polite imperatives (-iye).",
+  "examples": [
+    {
+      "targetText": "भैया, मुझे एयरपोर्ट जाना है। यह कितने का है?",
+      "transliteration": "Bhaiyaa, mujhe aiyarporṭ jaanaa hai. Yah kitne kaa hai?",
+      "baseTranslation": "お兄さん(Bhaiyaa・店員や運転手への呼びかけ)、僕は空港に行きたいんだ。これは(料金は)いくら？",
+      "explanation": "Extremely natural street integration of dative obligation + pricing interrogative."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「いくら？」と聞く時は「Kitne kaa(キトネー カー)」と Kaa(の) をセットで発音すること。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "「私が行く」ではなく、「Mujhe jaanaa hai (私に行く用事がある)」という表現が、目的地を伝える時の最強のフレーズです。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドでは定価がない店やリキシャ（三輪タクシー）が多く、値段交渉は日常茶飯事です。最初に言われた値段の半分程度からスタートし「Bahut mahangaa hai! (高すぎる！)」と交渉するのが一つのコミュニケーションです。",
+    "dosList": ["Use 'Bhaiyaa' (brother) to politely but casually address drivers and shopkeepers."],
+    "dontsList": []
+  },
+  "summary": "【買い物】Kitne kaa hai? (いくら？) / Mahangaa hai! (高い！)\n【移動】Mujhe [場所] jaanaa hai (私に[場所]に行く用がある)\n【方向】Seedhe(真っ直ぐ) / Baaen(左) / Daaen(右)",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "値段を聞く時、Kitne (どのくらいの) の後ろにつける助詞は何ですか？",
+      "expectedAnswer": "Kaa / का"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「高い！」と文句を言うために使う単語は何ですか？",
+      "expectedAnswer": "Mahangaa (महँगा)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「真っ直ぐ(Straight)」を意味する単語は何ですか？",
+      "expectedAnswer": "Seedhe (सीधे)"
+    }
+  ]
+}

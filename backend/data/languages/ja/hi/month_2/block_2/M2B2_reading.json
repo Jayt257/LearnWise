@@ -1,0 +1,206 @@
+{
+  "activityId": "ja_hi_M2B2_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "昨日の出来事 (Yesterday's Events)",
+  "learningGoal": "The learner will decode Devanagari texts detailing past events, successfully identifying the 'Ne' particle and attributing verb gender to the grammatical object rather than the speaker.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B2_pronunciation_001"],
+  "instructions": "ラージ（男性）が、昨日アニタ（女性）と一緒に何をしたかを日記に書いています。ラージが書いているのに、動詞が「女性の形」になっていたり、その逆になっていたりする不思議な現象の謎（Neのルール）を解き明かしながら読んでください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "「Maine (私が)」とあれば、動詞は「その直後にあるモノ」の性別になっています！"
+    }
+  ],
+  "readingTitle": "कल का दिन (Yesterday)",
+  "readingText": "नमस्ते। कल अनीता मेरे घर आई। मैंने सेब खाया। अनीता ने चाय पी। फिर, मैंने एक किताब पढ़ी। उसने टीवी देखा। कल का दिन अच्छा था।",
+  "textInTargetLanguage": "नमस्ते। कल अनीता मेरे घर आई। मैंने सेब खाया। अनीता ने चाय पी। फिर, मैंने एक किताब पढ़ी। उसने टीवी देखा। कल का दिन अच्छा था。",
+  "baseLanguageSupportText": "こんにちは。昨日、アニタが私の家に来ました。私はりんごを食べました。アニタはお茶を飲みました。それから、私は一冊の本を読みました。彼女はテレビを見ました。昨日は良い一日でした。",
+  "glossary": [
+    {
+      "targetText": "कल",
+      "transliteration": "Kal",
+      "baseTranslation": "昨日 / 明日 (文脈で判断)",
+      "exampleSentence": {
+        "targetText": "कल अनीता मेरे घर आई।",
+        "transliteration": "Kal Aneeta mere ghar aaee.",
+        "baseTranslation": "昨日、アニタが私の家に来た。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "आई (आना)",
+      "transliteration": "Aaee (Aanaa)",
+      "baseTranslation": "来ました (女性形)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "खाया",
+      "transliteration": "Khaayaa",
+      "baseTranslation": "食べました (男性形)",
+      "exampleSentence": {
+        "targetText": "मैंने सेब खाया।",
+        "transliteration": "Maine seb khaayaa.",
+        "baseTranslation": "私はりんごを食べた。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पी (पीना)",
+      "transliteration": "Pee (Peenaa)",
+      "baseTranslation": "飲みました (女性形)",
+      "exampleSentence": {
+        "targetText": "अनीता ने चाय पी।",
+        "transliteration": "Aneeta ne chaay pee.",
+        "baseTranslation": "アニタはお茶を飲んだ。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "फिर",
+      "transliteration": "Phir",
+      "baseTranslation": "それから / 次に",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पढ़ी (पढ़ना)",
+      "transliteration": "Paḍhee (Paḍhnaa)",
+      "baseTranslation": "読みました (女性形)",
+      "exampleSentence": {
+        "targetText": "मैंने एक किताब पढ़ी।",
+        "transliteration": "Maine ek kitaab paḍhee.",
+        "baseTranslation": "私は一冊の本を読んだ。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "देखा (देखना)",
+      "transliteration": "Dekhaa (Dekhnaa)",
+      "baseTranslation": "見ました (男性形)",
+      "exampleSentence": {
+        "targetText": "उसने टीवी देखा।",
+        "transliteration": "Usne ṭeevee dekhaa.",
+        "baseTranslation": "彼女[彼]はテレビを見た。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "था",
+      "transliteration": "Thaa",
+      "baseTranslation": "〜だった (過去のTo be・男性形)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "अनीता ने चाय पी।",
+      "transliteration": "Aneeta ne chaay pee.",
+      "baseTranslation": "アニタはお茶を飲みました。（お茶が女性名詞なので pee）"
+    },
+    {
+      "targetText": "मैंने एक किताब पढ़ी।",
+      "transliteration": "Maine ek kitaab paḍhee.",
+      "baseTranslation": "私は本を読みました。（本が女性名詞なので paḍhee）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージは男性なのに「本を読んだ (paḍhee)」という『女性形』の動詞を使っています。なぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["Maineの「Ne」のせいで、読んだ対象（本）が女性名詞であることに動詞が引きずられたから。", "ラージ自身の性別を間違えて書いているから。"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタはお茶を「飲みました (pee)」。お茶(Chaay)は男性名詞ですか？女性名詞ですか？",
+      "questionType": "multiple_choice",
+      "options": ["男性名詞", "女性名詞"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「Usne ṭeevee dekhaa (彼女はテレビを見た)」。ここではアニタについて話していますが、動詞は「dekhaa (男性形)」になっています。それはテレビ(Teevee)が何名詞だからですか？",
+      "questionType": "multiple_choice",
+      "options": ["男性名詞", "女性名詞"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最初の文「アニタが家に来ました(aaee)」には、「ネ(ne)」がついていません。「行く(jaa)」「来る(aa)」「眠る(so)」のような動詞に「ネ」がつかないのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["『〜を』という対象物（りんご、本など）が存在しない動詞だから。", "アニタが女性だから。"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「昨日」を意味する単語は何ですか？ (ローマ字で入力)",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Maineの「Ne」のせいで、読んだ対象（本）が女性名詞であることに動詞が引きずられたから。",
+      "q2": "女性名詞",
+      "q3": "男性名詞",
+      "q4": "『〜を』という対象物（りんご、本など）が存在しない動詞だから。",
+      "q5": "Kal"
+    },
+    "acceptableParaphrases": {
+      "q5": ["Kal", "kal"]
+    },
+    "keywordScoringRules": {
+      "q5": ["kal"]
+    },
+    "expectedSummaryPoints": [
+      "The learner recognizes the object-verb agreement triggered by 'ne' (Kitaab -> Padhee, Teevee -> Dekhaa).",
+      "The learner recognizes that intransitive verbs (Aaee) do NOT take 'ne' and thus agree with the subject (Anita)."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語で最も不可解に思える「Neの逆転現象」を完璧に読み解いています。本＝女、テレビ＝男というルールに動詞が乗っ取られる感覚を掴みましたね。",
+    "onFail": "一息ついて！「Ne (ネ)」が見えたら、主語（私が/彼女が）は無視してください。その直後にある「りんご」や「お茶」が男か女かで、動詞の形が決まります！",
+    "onPartial": "よく読めて読めています。Q4の「来た(Aaee)」だけはNeがついていないことに気づけましたか？「〜を」という対象がない行動（来る、行く）の時は、本来の主語（アニタ＝女性）に動詞が合わさります。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b2/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b2/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m2/b2/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Kal Aneeta mere ghar aaee... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "grammar", "past_tense", "ergative", "ne", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pee や Paḍhee は女性形（イの音）。Khaayaa や Dekhaa は男性形（アの音）です。",
+  "commonMistakes": [
+    "Thinking 'Raj is using female verbs because he's talking to Anita' instead of realizing the Objects (book, tea) are grammatically feminine."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

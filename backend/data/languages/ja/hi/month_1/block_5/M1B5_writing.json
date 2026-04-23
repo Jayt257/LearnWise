@@ -1,0 +1,175 @@
+{
+  "activityId": "ja_hi_M1B5_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "動詞を組み立てよう (Assembling Verbs)",
+  "learningGoal": "The learner will successfully generate completely aligned S-O-V sentences by modifying verbal roots according to the subject's gender and terminating with the correct copula.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B5_reading_001"],
+  "instructions": "文法パズルに挑戦しましょう！今回は「アクション（動詞）」を組み立てます。主語（誰がするのか）に合わせて、動詞のパーツを正しく選んで合体させてください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "ルール（復習）：主語が男なら「ター (Taa)」。女なら「ティー (Tee)」。尊敬する相手なら「テー (Te)」。そして最後は To Be 動詞（Hoon か Hain）で締めます！"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. 私はりんごを食べます。(※あなたが男性だと仮定して書いてください)\n2. 私はりんごを食べます。(※あなたが女性だと仮定して書いてください)\n3. あなた（尊敬）は日本へ行きます。",
+  "promptGoal": "Force generative deployment of verbal root conjugation by speaker gender and pronoun type, completing the SOV structural loop.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた"
+    },
+    {
+      "targetText": "सेब",
+      "transliteration": "Seb",
+      "baseTranslation": "りんご"
+    },
+    {
+      "targetText": "जापान",
+      "transliteration": "Jaapaan",
+      "baseTranslation": "日本へ (方向の助詞は不要です)"
+    },
+    {
+      "targetText": "खा",
+      "transliteration": "Khaa",
+      "baseTranslation": "食べ (語幹)"
+    },
+    {
+      "targetText": "जा",
+      "transliteration": "Jaa",
+      "baseTranslation": "行き (語幹)"
+    },
+    {
+      "targetText": "ता",
+      "transliteration": "Taa",
+      "baseTranslation": "〜ます (男性用)"
+    },
+    {
+      "targetText": "ती",
+      "transliteration": "Tee",
+      "baseTranslation": "〜ます (女性用)"
+    },
+    {
+      "targetText": "ते",
+      "transliteration": "Te",
+      "baseTranslation": "〜ます (あなた／複数用)"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です (Mainの最後につける)"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "Hain",
+      "baseTranslation": "です (Aapの最後につける)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Male): I [Main] apple [seb] eat(khaa)-(male) [taa] am [hoon]. -> Khaataa hoon.",
+    "Sentence 2 (Female): I [Main] apple [seb] eat(khaa)-(female) [tee] am [hoon]. -> Khaatee hoon.",
+    "Sentence 3 (You): You [Aap] Japan [Jaapaan] go(jaa)-(polite) [te] are [hain]. -> Jaate hain."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं सेब खाता हूँ। मैं सेब खाती हूँ। आप जापान जाते हैं।",
+      "transliteration": "Main seb khaataa hoon. Main seb khaatee hoon. Aap Jaapaan jaate hain.",
+      "baseTranslation": "私はりんごを食べます(男)。私はりんごを食べます(女)。あなたは日本へ行きます。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner perfectly combined Root+Gender, and terminated with the correct Copula."
+    },
+    {
+      "targetText": "मैं सेब खा ता हूँ। मैं सेब खा ती हूँ। आप जापान जा ते हैं।",
+      "transliteration": "Main seb khaa taa hoon. Main seb khaa tee hoon. Aap Jaapaan jaa te hain.",
+      "baseTranslation": "スペースを開けすぎているが文法は理解している。",
+      "qualityLevel": "good",
+      "annotation": "Acceptable, though technically 'khaataa' is one word."
+    },
+    {
+      "targetText": "मैं खाता सेब है। मैं खाती सेब है। आप जाते जापान है।",
+      "transliteration": "Main khaataa seb hai. Main khaatee seb hai. Aap jaate Jaapaan hai.",
+      "baseTranslation": "S-V-O 英語の語順で崩壊。",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. Forgot SOV structure and used incorrect copula 'hai'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Masculine Verb Construction",
+      "weight": 33,
+      "description": "Did the user definitively construct 'Khaataa' and end with 'hoon'?"
+    },
+    {
+      "criterion": "Feminine Verb Construction",
+      "weight": 33,
+      "description": "Did the user definitively construct 'Khaatee' and end with 'hoon'?"
+    },
+    {
+      "criterion": "Polite Verb Construction",
+      "weight": 34,
+      "description": "Did the user definitively construct 'Jaate' and end with 'hain'?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 18,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं सेब खाता हूँ। मैं सेब खाती हूँ। आप जापान जाते हैं।",
+    "acceptableAlternates": [
+      "main seb khata hoon main seb khati hoon aap japan jate hain",
+      "मैं सेब खाता हूँ मैं सेब खाती हूँ आप जापान जाते हैं"
+    ],
+    "requiredKeywords": ["मैं", "सेब", "खाता", "खती", "हूँ", "आप", "जापान", "जाते", "हैं"],
+    "grammarBaseline": "Zero tolerance for gender mismatch or missing copula. 'Main khaatee hai' is an instant fail.",
+    "lengthExpectation": "Exactly 3 distinct sentences.",
+    "scoringRubric": {
+      "Conjugation Engine": "Must successfully piece together (Root) + (Gender Suffix) + (Copula)."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "あっぱれ！性別に合わせて動詞のブロックを見事に組み立てました！To Be 動詞（Hoon / Hain）での締めくくりも忘れずに行えましたね。",
+    "onFail": "もう一度ヒント(Reference Hints)を確認してください。「自分」が男か女かで、Khaa（食べる）の後ろにつくブロックが変わります。そして絶対に Hoon / Hain で文を終わらせてください！",
+    "onPartial": "文法が少し崩れています。「食べる」と「行く」が文の最後（Hoonの前）に来る日本語と同じ語順(SOV)を守っていますか？"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b5/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b5/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m1/b5/writing/prompt.mp3",
+    "audioTranscript": "Write 3 sentences applying present tense verbal logic.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "verbs", "gender", "sov", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Khaa (語幹) + Taa (性別) をくっつけると Khaataa (１つの単語) になります。",
+  "commonMistakes": [
+    "Writing 'Main seb khaata hai' applying the copula 'hai' universally."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

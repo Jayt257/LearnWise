@@ -1,0 +1,138 @@
+{
+  "activityId": "ja_hi_M2B3_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "明日何をするの？ (What will you do tomorrow?)",
+  "learningGoal": "The learner will spontaneously generate synthetic future tense phrases tailored to specific actors (1st person vs 3rd person) without hesitating or relying on present-tense copulas.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B3_vocabulary_001"],
+  "instructions": "明日の予定について質問されますので、ヒンディー語で答えてください！今回は、あなたが「女性」であると仮定して答える問題と、「彼」について答える問題が混ざっています。To be 動詞 (Hoon等) を使わずに、語尾の形でパシッと言い切る練習です。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ Hoon や Hai をつけると文法エラーになります！動詞の力だけで文を終わらせてください。"
+    }
+  ],
+  "speakingPrompt": "指定された主語に合わせて、正しい未来形の語尾（ウーンギー、エガーなど）で答えてください。",
+  "scenario": "Your friend is asking about your schedule for tomorrow.",
+  "role": "The Japanese Expat",
+  "conversationPartner": "The Friend",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "友達: 'तुम कल क्या करोगी?' (君[女]は明日何をするつもり？) 答え：「私[女性]は明日、仕事をします(Kar)。」",
+      "expectedSpeakingPoints": ["Main kal", "kaam", "karoongee"],
+      "sampleResponse": {
+        "targetText": "मैं कल काम करूँगी।",
+        "transliteration": "Main kal kaam karoongee.",
+        "baseTranslation": "私は明日、仕事をします。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "友達: 'क्या तुम जापान जाओगी?' (君[女]は日本へ行くの？) 答え：「はい、私は日本へ行きます(Jaa)。」",
+      "expectedSpeakingPoints": ["Haan", "main Jaapaan", "jaaoongee"],
+      "sampleResponse": {
+        "targetText": "हाँ, मैं जापान जाऊँगी।",
+        "transliteration": "Haan, main Jaapaan jaaoongee.",
+        "baseTranslation": "はい、私は日本へ行きます。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "友達: 'और तुम्हारा भाई क्या करेगा?' (そして君の弟は何をするの？) 答え：「彼(Vah)は、家で休みます(Aaraam kar)。」",
+      "expectedSpeakingPoints": ["Vah", "ghar mein", "aaraam karegaa"],
+      "sampleResponse": {
+        "targetText": "वह घर में आराम करेगा।",
+        "transliteration": "Vah ghar mein aaraam karegaa.",
+        "baseTranslation": "彼は家で休みます。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "कल का क्या प्लान है?",
+    "transliteration": "Kal kaa kyaa plaan hai?",
+    "baseTranslation": "明日の予定は何？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं कल काम करूँगी।",
+      "transliteration": "Main kal kaam karoongee.",
+      "baseTranslation": "私は明日仕事をします。(Female)"
+    },
+    {
+      "targetText": "हाँ, मैं जापान जाऊँगी।",
+      "transliteration": "Haan, main Jaapaan jaaoongee.",
+      "baseTranslation": "はい、私は日本へ行きます。(Female)"
+    },
+    {
+      "targetText": "वह घर में आराम करेगा।",
+      "transliteration": "Vah ghar mein aaraam karegaa.",
+      "baseTranslation": "彼は家で休みます。(Male)"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "karoongee",
+      "jaaoongee",
+      "karegaa"
+    ],
+    "requiredKeywords": [
+      "main", "kal", "kaam", "karoongee", "haan", "jaapaan", "jaaoongee", "vah", "ghar", "aaraam", "karegaa"
+    ],
+    "acceptableParaphrases": [
+      "main kal ghar mein aaraam karoongaa"
+    ],
+    "scoringRubric": {
+      "Copula Penalty": "Immediately penalize any user input that appends 'hoon/hai/hain/ho/thaa/thee' at the end of the future verb. The word must stand alone terminal.",
+      "Gender Agreement": "Check that the learner correctly shifted from '-oongee' for themselves to '-egaa' for their brother."
+    },
+    "sampleAnswer": "Main kal kaam karoongee. Haan, main Jaapaan jaaoongee. Vah ghar mein aaraam karegaa.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！私（女性＝ウーンギー）と、弟（彼＝エガー）の未来形を完璧に使い分けながら、余分な To be 動詞をつけずにスパッと言い切れました！",
+    "onFail": "もう一度練習しましょう。日本語のクセで、語尾に何かを足したくなって「Karoongee-Hoon」と言ってしまっていませんか？ H から始まる言葉は一切不要です！",
+    "onPartial": "よくお話しできています。第3文で「Vah aaraam karegee(エーギー)」と言ってませんでしたか？弟（男）について話しているので「Karegaa(エガー)」にする必要があります。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b3/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m2/b3/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b3/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m2/b3/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m2/b3/speaking/full_dialogue.mp3",
+    "audioTranscript": "Friend: Tum kal kyaa karogee?\nLearner: Main kal kaam karoongee...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "言い切る勇気を持って！最後の音は「キー」ではなく「ギー（濁音）」、「カー」ではなく「ガー（濁音）」です。",
+  "commonMistakes": [
+    "Retaining the Month 1 habitual marker and saying 'Karoongaa hoon'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

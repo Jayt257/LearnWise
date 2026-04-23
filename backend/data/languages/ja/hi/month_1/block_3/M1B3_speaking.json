@@ -1,0 +1,142 @@
+{
+  "activityId": "ja_hi_M1B3_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "speaking",
+  "title": "持ち物紹介 (Speaking of Belongings)",
+  "learningGoal": "The learner will successfully articulate sentences modifying possessive pronouns and adjectives in real-time to match the grammatical gender of the following noun, actively countering Japanese L1 static patterns.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B3_vocabulary_001"],
+  "instructions": "今度はあなたが話す番です！近所の人にあなたの「家」と「車」と「犬」を紹介してください。話す前に、対象のモノが「男性」か「女性」かを考え、「Mera / Meri」、「Bada / Badi」口の形をしっかりと変えましょう。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "マイクに向かってハッキリ発音してください。自分が男でも女でも関係ありません。次に言う「モノ」の性別に合わせるのです！"
+    }
+  ],
+  "speakingPrompt": "日本語のプロンプトに従って、ヒンディー語で近所の人に答えてください。",
+  "scenario": "Showing your new belongings to your neighbor.",
+  "role": "The Japanese Expat",
+  "conversationPartner": "The Indian Neighbor",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "近所の人: 'नमस्ते। क्या यह तुम्हारा घर है?' (こんにちは。これはあなたの家ですか？) 答え：「こんにちは。はい、私の家は大きいです。」",
+      "expectedSpeakingPoints": ["Namaste", "Haan", "mera ghar", "badaa hai"],
+      "sampleResponse": {
+        "targetText": "नमस्ते। हाँ, मेरा घर बड़ा है।",
+        "transliteration": "Namaste. Haan, mera ghar baḍaa hai.",
+        "baseTranslation": "こんにちは。はい、私の家は大きいです。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "近所の人: 'और यह गाड़ी?' (そしてこの車は？) 答え：「私の車は小さいです。」",
+      "expectedSpeakingPoints": ["Meri gaadee", "chhotee hai"],
+      "sampleResponse": {
+        "targetText": "मेरी गाड़ी छोटी है।",
+        "transliteration": "Meri gaaḍee chhoṭee hai.",
+        "baseTranslation": "私の車は小さいです。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "近所の人: 'और यह कुत्ता?' (そしてこの犬は？) 答え：「私の犬です。」",
+      "expectedSpeakingPoints": ["Mera kuttaa", "hai"],
+      "sampleResponse": {
+        "targetText": "मेरा कुत्ता है।",
+        "transliteration": "Mera kuttaa hai.",
+        "baseTranslation": "私の犬です。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते। क्या यह तुम्हारा घर है?",
+    "transliteration": "Namaste. Kyaa yah tumhaaraa ghar hai?",
+    "baseTranslation": "こんにちは。これはあなたの家ですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। हाँ, मेरा घर बड़ा है।",
+      "transliteration": "Namaste. Haan, mera ghar baḍaa hai.",
+      "baseTranslation": "こんにちは。はい、私の家は大きいです。"
+    },
+    {
+      "targetText": "मेरी गाड़ी छोटी है।",
+      "transliteration": "Meri gaaḍee chhoṭee hai.",
+      "baseTranslation": "私の車は小さいです。"
+    },
+    {
+      "targetText": "मेरा कुत्ता है।",
+      "transliteration": "Mera kuttaa hai.",
+      "baseTranslation": "私の犬です。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 25,
+    "contentWeight": 25,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Namaste",
+      "Haan",
+      "mera ghar",
+      "badaa",
+      "meri gaadee",
+      "chhotee",
+      "mera kuttaa"
+    ],
+    "requiredKeywords": [
+      "mera", "ghar", "badaa", "meri", "gaadee", "chhotee"
+    ],
+    "acceptableParaphrases": [
+      "yah mera ghar bada hai",
+      "yah meri gaadi chhoti hai"
+    ],
+    "scoringRubric": {
+      "Gender Consistency": "Fail if 'mera' is used with 'gaadee' or 'meri' is used with 'ghar'."
+    },
+    "sampleAnswer": "Namaste. Haan mera ghar badaa hai. Meri gaadee chhotee hai. Mera kuttaa hai.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！男性名詞の「家」や「犬」、女性名詞の「車」に合わせて、口の動きをアーとイーにスムーズに切り替えることができています！",
+    "onFail": "もう一度練習しましょう。日本語にはない性別の言葉遊びです。「車（Gaadee）」について話すときは、口を横に引いて「イー」の音（Meri, Chhotee）を徹底してください！",
+    "onPartial": "よくできました！どこかで性別を間違えました。「家」は男、「車」は女、「犬」は男です。もう一度整理して話してみましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b3/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m1/b3/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b3/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m1/b3/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m1/b3/speaking/full_dialogue.mp3",
+    "audioTranscript": "Neighbor: Namaste. Kyaa yah tumhaaraa ghar hai?\nLearner: Namaste. Haan, mera ghar baḍaa hai...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "gender", "adjectives", "possessives", "roleplay", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "話す前に、対象となるモノの最後の音（アーかイーか）を頭に思い浮かべてください。",
+  "commonMistakes": [
+    "Saying 'Mera gaadee' because the speaker is male, fundamentally misunderstanding grammatical gender versus biological gender."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

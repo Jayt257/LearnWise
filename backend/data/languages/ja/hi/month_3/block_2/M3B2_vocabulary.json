@@ -1,0 +1,244 @@
+{
+  "activityId": "ja_hi_M3B2_vocabulary_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "vocabulary",
+  "title": "複合しやすい単語たち (Compounding Words)",
+  "learningGoal": "The learner will acquire verbs that frequently act as V1 roots in Hindi compound structures, recognizing which directional V2 modifier organically pairs with each concept.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B2_listening_001"],
+  "instructions": "複合動詞の「前の部分(V1)」によく使われる単語を集めました！これらの単語は、Jaa(行っちゃう)・De(あげる)・Le(もらう) を強力に引き寄せる性質があります。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Samajh(理解する) は Jaanaa とくっついて「Samajh jaanaa(分かっちゃう/完全に理解する)」という形でよく使われます。"
+    }
+  ],
+  "vocabTheme": "Compound Partners & Communication",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "समझना",
+      "transliteration": "Samajhnaa",
+      "baseTranslation": "理解する / わかる (語幹: Samajh)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "बताना",
+      "transliteration": "Bataanaa",
+      "baseTranslation": "教える / 告げる (語幹: Bataa)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "रखना",
+      "transliteration": "Rakhnaa",
+      "baseTranslation": "置く (語幹: Rakh)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "सोना",
+      "transliteration": "Sonaa",
+      "baseTranslation": "眠る (語幹: So)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "फिल्म",
+      "transliteration": "Film",
+      "baseTranslation": "映画 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "वात",
+      "transliteration": "Baat",
+      "baseTranslation": "話 / 事柄 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "वापस",
+      "transliteration": "Vaapas",
+      "baseTranslation": "戻って / 返して",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし〜 (If)",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "तो",
+      "transliteration": "To",
+      "baseTranslation": "その時は〜 (Then)",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "सब",
+      "transliteration": "Sab",
+      "baseTranslation": "全部 / すべて",
+      "partOfSpeech": "Adjective/Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "理解する / わかる",
+    "教える / 告げる",
+    "置く",
+    "眠る",
+    "映画",
+    "話 / 事柄",
+    "戻って / 返して",
+    "もし〜 (If)",
+    "その時は〜 (Then)",
+    "全部 / すべて"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "मैं समझ गया।",
+      "transliteration": "Main samajh gayaa.",
+      "baseTranslation": "（完全に）理解しました。[Samajh + gaya(Jaanaaの過去形)]"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "मुझे बात बता दो।",
+      "transliteration": "Mujhe baat bataa do.",
+      "baseTranslation": "私に（その）話を教えてよ。[Bataa + do]"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "इसे वापस दे दो।",
+      "transliteration": "Ise vaapas de do.",
+      "baseTranslation": "これを返してよ。[Vaapas + de(あげる語幹) + do(あげる命令)]"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the verb to its meaning: Samajhnaa (समझना)",
+      "questionType": "matching",
+      "options": ["理解する/わかる", "教える"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the verb to its meaning: Bataanaa (बताना)",
+      "questionType": "matching",
+      "options": ["置く", "教える/告げる"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "What word is used to express 'To return / give back' when combined with Denaa?",
+      "questionType": "matching",
+      "options": ["Vaapas", "Sab"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its translation: Agar (अगर)",
+      "questionType": "matching",
+      "options": ["もし〜(If)", "話/事柄"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "If 'Agar' is 'If', what goes with it to mean 'Then'?",
+      "questionType": "matching",
+      "options": ["To", "Sab"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "理解する / わかる",
+      "w02": "教える / 告げる",
+      "w03": "置く",
+      "w04": "眠る",
+      "w05": "映画",
+      "w06": "話 / 事柄",
+      "w07": "戻って / 返して",
+      "w08": "もし〜 (If)",
+      "w09": "その時は〜 (Then)",
+      "w10": "全部 / すべて"
+    },
+    "acceptedTranslations": {
+      "w01": ["理解する", "わかる", "分かる"]
+    },
+    "matchingKey": {
+      "q1": "理解する/わかる",
+      "q2": "教える/告げる",
+      "q3": "Vaapas",
+      "q4": "もし〜(If)",
+      "q5": "To"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Bataanaa (教えちゃう・教えてあげる)」や「Samajhnaa (理解しちゃう)」など、複合動詞の土台となる超重要単語をマスターしました。",
+    "onFail": "もう一度！「Bataanaa(教える)」と「Samajhnaa(理解する)」。この2つはコミュニケーションを取る上で必須の言葉なので、まずはこのペアから暗記しましょう！",
+    "onPartial": "よくできました！Agar(もし) 〜 To(その時は)。この2つの単語は長い文章を作る時に常にペアで使われるので、セットで覚えておきましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b2/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b2/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b2/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b2/vocab/words_native.mp3",
+    "audioTranscript": "Samajhnaa. Bataanaa. Rakhnaa. Sonaa. Film. Baat. Vaapas. Agar. To. Sab.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "communication", "compounds", "conditionals", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「全部(Sab) 食べる(Khaa)」のように、Sab は量を強調する時によく使われます。",
+  "commonMistakes": [
+    "Thinking 'Bataanaa' means 'to ask' instead of 'to tell'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

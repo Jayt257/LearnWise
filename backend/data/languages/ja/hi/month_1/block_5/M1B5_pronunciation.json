@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M1B5_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "動詞の響き (Verb Endings)",
+  "learningGoal": "The learner will master the phonetics of verbal suffixes (-taa, -tee, -te), distinguishing masculine /a:/, feminine /i:/, and plural/polite /e:/ while carrying through to the nasalized post-verb copula.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B5_lesson_001"],
+  "instructions": "発音練習です！自分（主語）の性別によって変わる Taa（ター：男性）、Tee（ティー：女性）、Te（テー：あなたに）をハッキリと発音し分けましょう。語尾の母音を変えるだけで意味が変わってしまいます！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "最後の「フーン (hoon)」や「ハィン (hain)」は、Block 2で習った通り「鼻から息を抜く音（鼻音）」であることを忘れないでください。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "खाता हूँ",
+      "transliteration": "Khaataa hoon",
+      "baseTranslation": "食べます (男性用)",
+      "phoneticHint": "カーター・フーン。口を縦に大きく開ける「アー」の音が連続します。",
+      "syllableSplit": "Khaa-taa hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kata hun (Short A and hard N)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "खाती हूँ",
+      "transliteration": "Khaatee hoon",
+      "baseTranslation": "食べます (女性用)",
+      "phoneticHint": "カーティー・フーン。「ティー」の時に唇を横にしっかり引いて「イー」の音を出します。",
+      "syllableSplit": "Khaa-tee hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kati hun (Short I)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "जाता हूँ",
+      "transliteration": "Jaataa hoon",
+      "baseTranslation": "行きます (男性用)",
+      "phoneticHint": "ジャーター・フーン。日本人が言いやすい音ですが、タを短く切らず「ター」と伸ばします。",
+      "syllableSplit": "Jaa-taa hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jata hun."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "जाती हूँ",
+      "transliteration": "Jaatee hoon",
+      "baseTranslation": "行きます (女性用)",
+      "phoneticHint": "ジャーティー・フーン。ティーは日本語の「チー」にならないよう、Tの音でイを発音します。",
+      "syllableSplit": "Jaa-tee hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaachi hun (Changing T to Ch)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "खाते हैं",
+      "transliteration": "Khaate hain",
+      "baseTranslation": "（あなたは）食べます",
+      "phoneticHint": "カーテー・ハイン。「テー」の後に鼻音のハイン（ハィ〜）をつなげます。",
+      "syllableSplit": "Khaa-te hain",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kate hen."
+    },
+    {
+      "itemId": "p06",
+      "targetText": "जाते हैं",
+      "transliteration": "Jaate hain",
+      "baseTranslation": "（あなたは）行きます",
+      "phoneticHint": "ジャーテー・ハイン。「テー」と「ハイン」が滑らかに続くようにします。",
+      "syllableSplit": "Jaa-te hain",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jate hen."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Khaataa hoon Khaatee hoon Jaataa hoon Jaatee hoon Khaate hain Jaate hain",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "パーフェクト！男性の Taa、女性の Tee、あなたの Te、全てクリアに発音し分けられました。",
+    "onFail": "もう一度練習しましょう。日本語の話し方よりも「口を縦に開ける（アー）」「横に引く（イー）」を大げさにやってください。",
+    "onPartial": "よくできました！女性用（Tee）を発音する時、「チー」になってしまっていませんか？アルファベットの「ティー」と言うつもりでTの音を出してください。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "khaataa hoon khaatee hoon jaataa hoon jaatee hoon khaate hain jaate hain",
+    "acceptedVariants": [
+      "khata hoon khati hoon jata hoon jati hoon khate hain jate hain"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates sustained terminal vowels of the manipulated verb root (/a:/, /i:/, /e:/) and the retention of nasalized anusvara on the copulas.",
+    "nativeScriptReference": "खाता हूँ खाती हूँ जाता हूँ जाती हूँ खाते हैं जाते हैं",
+    "transliteration": "See item objects",
+    "strictnessLevel": "moderate"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b5/pronunciation/native_verbs.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b5/pronunciation/slow_verbs.mp3",
+    "normalAudio": "audio/ja_hi/m1/b5/pronunciation/native_verbs.mp3",
+    "audioTranscript": "Khaataa hoon. Khaatee hoon. Jaataa hoon. Jaatee hoon. Khaate hain. Jaate hain.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "verbs", "current_tense", "vowels", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後のフーン (Hoon) やハイン (Hain) を言う時、舌はどこにも触れません（鼻から抜く音です）。",
+  "commonMistakes": [
+    "Pronouncing 'Tee' as 'Chee' (Japanese affrication of /t/ before /i/)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,244 @@
+{
+  "activityId": "ja_hi_M2B6_vocabulary_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "vocabulary",
+  "title": "コミュニケーションの言葉 (Interaction & Time)",
+  "learningGoal": "The learner will master adverbs of frequency, weather conditions, and hospitable nouns, integrating them effectively into future tense and imperative structures.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B6_listening_001"],
+  "instructions": "誰かの家を訪問したり、会話を弾まませるためによく使う単語（時間・天気・挨拶）を学びます。単語を並べるだけで、Month 2 で学んだ文法が一気に豊かになります。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「Phir(再び/また)」は、別れ際や繰り返しの動作を伝える時に必須の単語です。Phir milenge！"
+    }
+  ],
+  "vocabTheme": "Interaction, Time, & Environment",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "फिर",
+      "transliteration": "Phir",
+      "baseTranslation": "再び / また (Again)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "अब",
+      "transliteration": "Ab",
+      "baseTranslation": "今 / もう (Now)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "आज",
+      "transliteration": "Aaj",
+      "baseTranslation": "今日",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "शाम",
+      "transliteration": "Shaam",
+      "baseTranslation": "夕方 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "गर्मी",
+      "transliteration": "Garmee",
+      "baseTranslation": "暑さ / 夏 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "ठंड",
+      "transliteration": "Ṭhanḍ",
+      "baseTranslation": "寒さ / 冬 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "स्वागत",
+      "transliteration": "Swaagat",
+      "baseTranslation": "歓迎 (Welcome)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "संकोच",
+      "transliteration": "Sankoch",
+      "baseTranslation": "遠慮 / 躊躇",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "आराम",
+      "transliteration": "Aaraam",
+      "baseTranslation": "休息 / リラックス",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "इसलिए",
+      "transliteration": "Isliye",
+      "baseTranslation": "だから / そのため",
+      "partOfSpeech": "Conjunction",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "再び / また",
+    "今 / もう",
+    "今日",
+    "夕方",
+    "暑さ",
+    "寒さ",
+    "歓迎",
+    "遠慮",
+    "休息 / リラックス",
+    "だから / そのため"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "हम फिर मिलेंगे।",
+      "transliteration": "Hum phir milenge.",
+      "baseTranslation": "私たちはまた会いましょう。"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "अब मैं जाऊँगा।",
+      "transliteration": "Ab main jaaoongaa.",
+      "baseTranslation": "（そろそろ時間が来たので）私はもう行きます。"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "बहार गर्मी है, इसलिए मत जाओ।",
+      "transliteration": "Baahar garmee hai, isliye mat jaao.",
+      "baseTranslation": "外は暑いです、だから行かないでください。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its translation: Phir (फिर)",
+      "questionType": "matching",
+      "options": ["再び/また", "だから"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its state/weather condition: Garmee (गर्मी)",
+      "questionType": "matching",
+      "options": ["暑さ", "寒さ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "If someone is hesitating to eat your food, what do you tell them not to do? (संकोच)",
+      "questionType": "matching",
+      "options": ["遠慮", "休息"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the conjunction to its meaning: Isliye (इसलिए)",
+      "questionType": "matching",
+      "options": ["だから(Therefore)", "今(Now)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Instead of saying goodbye, what is the 'Ab' in 'Ab main jaaoongaa' used for?",
+      "questionType": "matching",
+      "options": ["もう/今(そろそろ)", "夕方に"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "再び / また",
+      "w02": "今 / もう",
+      "w03": "今日",
+      "w04": "夕方",
+      "w05": "暑さ",
+      "w06": "寒さ",
+      "w07": "歓迎",
+      "w08": "遠慮",
+      "w09": "休息 / リラックス",
+      "w10": "だから / そのため"
+    },
+    "acceptedTranslations": {
+      "w01": ["また", "再び", "アゲイン"]
+    },
+    "matchingKey": {
+      "q1": "再び/また",
+      "q2": "暑さ",
+      "q3": "遠慮",
+      "q4": "だから(Therefore)",
+      "q5": "もう/今(そろそろ)"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Phr、Isliye、Sankoch など、単語と単語をつないで文脈を作るための「ノリ（接着剤）」のような語彙をしっかり記憶できました。",
+    "onFail": "もう一度復習しましょう！特に「Garmee（暑い：イーの音）」と「Ṭhanḍ（寒い：ダの音）」の天気に関する単語は、会話のきっかけ（スモールトーク）として超頻出です。",
+    "onPartial": "よくできました！「Ab (今・もう)」は、客人が帰る時に『Ab main jaaoongaa (もう帰りますね)』と言うお決まりのサインとして機能します。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b6/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b6/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b6/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b6/vocab/words_native.mp3",
+    "audioTranscript": "Phir. Ab. Aaj. Shaam. Garmee. Ṭhanḍ. Swaagat. Sankoch. Aaraam. Isliye.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "time", "adverbs", "interactions", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b6/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Garmee(暑さ) や Shaam(夕方) は女性名詞です。(例: Aaj shaam achchhee hai).",
+  "commonMistakes": [
+    "Thinking 'Ab' means 'Yes' due to similarly sounding particles in other languages."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

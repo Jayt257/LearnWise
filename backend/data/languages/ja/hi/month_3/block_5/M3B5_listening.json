@@ -1,0 +1,156 @@
+{
+  "activityId": "ja_hi_M3B5_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "SOSの聞き取り (Listening to Symptoms & Crises)",
+  "learningGoal": "The learner will rapidly decode auditory emergency cues, distinguishing between physical ailments (dard, bukhaar) and direct pleas for assistance (madad, bulaaiye) in high-stress dialogue.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M3B5_writing_001"],
+  "instructions": "パニック状態の会話を聞き取ります。「どこが痛いのか(Dard)」と「誰を呼んでほしいのか(Bulaaiye)」という情報を瞬時に引き出してください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "会話のスピードが速くても、「Sir(頭)」や「Pulis(警察)」などのキーワードに集中しましょう。"
+    }
+  ],
+  "listeningGoal": "Identify the specific injury/symptom and the requested authority/help from a panicked speaker.",
+  "audioScenario": "Raj calls his friend Anita because he is feeling extremely unwell on the street.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, मदद कीजिए! मेरी तबीयत बहुत ख़राब है।",
+      "transliteration": "Raaj: Aneeta, madad keejiye! Meree tabeeyat bahut kharaab hai.",
+      "baseTranslation": "ラージ：アニタ、助けて！僕の体調がすごく悪いんだ。"
+    },
+    {
+      "targetText": "अनीता: राज! क्या हुआ? तुम कहाँ हो?",
+      "transliteration": "Aneeta: Raaj! Kyaa huaa? Tum kahaan ho?",
+      "baseTranslation": "アニタ：ラージ！どうしたの？君はどこにいるの？"
+    },
+    {
+      "targetText": "राज: मैं स्टेशन पर हूँ। मुझे बहुत तेज़ बुख़ार है।",
+      "transliteration": "Raaj: Main station par hoon. Mujhe bahut tez bukhaar hai.",
+      "baseTranslation": "ラージ：僕は駅にいるんだ。僕にはすごく高い熱がある。"
+    },
+    {
+      "targetText": "अनीता: क्या तुम्हें दर्द है?",
+      "transliteration": "Aneeta: Kyaa tumhein dard hai?",
+      "baseTranslation": "アニタ：君に痛みはあるの？"
+    },
+    {
+      "targetText": "राज: हाँ, मुझे सिर में दर्द है। जल्दी डॉक्टर को बुलाइए!",
+      "transliteration": "Raaj: Haan, mujhe sir mein dard hai. Jaldee ḍaakṭar ko bulaaiye!",
+      "baseTranslation": "ラージ：ああ、僕には頭に痛みがある。早く(Jaldee)医者を呼んで！"
+    },
+    {
+      "targetText": "अनीता: घबराओ मत। मैं आ रही हूँ।",
+      "transliteration": "Aneeta: Ghabraao mat. Main aa rahee hoon.",
+      "baseTranslation": "アニタ：慌てないで。私が今行く(来ている)わ。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, madad keejiye! Meree tabeeyat bahut kharaab hai.\nAneeta: Raaj! Kyaa huaa? Tum kahaan ho?\nRaaj: Main station par hoon. Mujhe bahut tez bukhaar hai.\nAneeta: Kyaa tumhein dard hai?\nRaaj: Haan, mujhe sir mein dard hai. Jaldee ḍaakṭar ko bulaaiye!\nAneeta: Ghabraao mat. Main aa rahee hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージは最初に何と言ってアニタに助けを求めましたか？(〇〇 keejiye!)",
+      "questionType": "multiple_choice",
+      "options": ["Maaf (許し)", "Madad (助け)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタが「ここはどこ？」と聞いたあと、ラージは高熱(tez bukhaar)があると答えました。彼はどこにいますか？",
+      "questionType": "multiple_choice",
+      "options": ["ホテル (hoṭal)", "駅 (station)"],
+      "audioTimestamp": "00:07",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「どこか痛い？」と聞かれたラージは、自分のどこに痛み(dard)があると言いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["お腹 (peṭ)", "頭 (sir)"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ラージは最後に「Jaldee (早く) 〇〇を呼んで(Bulaaiye)！」と必死に頼みます。誰を呼んでほしいと言いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["警察 (Pulis)", "医者 (Ḍaakṭar)"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ラージの「頭(Sir)の中に痛み(Dard)がある」という発言から、痛みを意味する単語をローマ字で答えてください。",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Madad (助け)",
+      "q2": "駅 (station)",
+      "q3": "頭 (sir)",
+      "q4": "医者 (Ḍaakṭar)",
+      "q5": "dard"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["dard", "Dard", "DARD"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["dard"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしいリスニング力です！緊迫した状況でも、Sir(頭)やBukhaar(熱)といった症状、そして呼ぶべき対象(Daaktar)を正確に聞き分けられました。",
+    "onFail": "一息つきましょう！テンポが速いですが、まずは「Dard(痛み)」というキーワードに集中してください。その直前に言っている体の部位が、今痛い場所です。",
+    "onPartial": "よく聞き取れています！「Ghabraao mat(慌てないで)」は、インド人がパニックになった相手を落ち着かせる時によく使うフレーズです。これも覚えておくと役立ちますよ。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b5/listening/sos_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b5/listening/sos_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b5/listening/sos_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, madad keejiye! Meree tabeeyat bahut kharaab hai... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "health", "emergencies", "sos", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Jaldee (ジャルディー) は「早く急いで！」という意味で日常でも緊急時でも多用します。",
+  "commonMistakes": [
+    "Mishearing 'Sir' (Head) as the English title 'Sir', completely changing the meaning of the symptom."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

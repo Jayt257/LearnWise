@@ -1,0 +1,189 @@
+{
+  "activityId": "ja_hi_M1B6_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "Month 1 総合復習 (Month 1 Synthesis)",
+  "learningGoal": "The learner will synthesize all Month 1 grammatical and phonetic learnings, proving the ability to map complex L1 Japanese sentences directly to L2 Hindi structural equivalents with full gender/number agreement.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B5_test_001"],
+  "instructions": "Month 1 の集大成です！あなたはたった1ヶ月で、ヒンディー語の基礎的な骨組みをすべて手に入れました。日本語と同じ語順のまま、ヒンディー語を当てはめる「最強の翻訳回路」を完成させましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "「私は部屋の中でりんごを食べます。」この文を英語にすると順番がバラバラになりますが、ヒンディー語なら日本語と全く同じ順番で単語を置くだけで完成します！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "SOV is immutable: Subject + Location/Object + Verb + Copula.",
+      "Postpositions (mein, par, se) attach directly after nouns, identical to Japanese particles.",
+      "Copulas (hoon, hain, hai) MUST terminate every sentence.",
+      "Verbs mutate based on the speaker's gender (Taa/Tee)."
+    ],
+    "conceptSummary": "A capstone review demonstrating the 1:1 syntactical mapping between complex Japanese and Hindi sentences, solidifying the 'Zero Cognitive Load' architectural approach.",
+    "importantFacts": [
+      "The only major divergence from Japanese is Grammatical Gender. Everything else structurally maps 1:1."
+    ],
+    "checkpointAnswers": {
+      "q1": "部屋の中に (Kamre mein)",
+      "q2": "動詞の語幹とフーン等の間 (Khaa - taa - hoon)",
+      "q3": "日本語と同じく、名詞の後ろ"
+    },
+    "expectedUnderstanding": "Learners will recognize that they can conceptually 'think in Japanese' to generate accurate, fluent Hindi sentences up to a moderate complexity limit."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！1ヶ月の学びが全て繋がりましたね。日本語の回路をそのまま活かせるという最大のメリットを確信できたはずです！",
+    "onFail": "もう一度読み返しましょう。単語ごとのパズルです。難しく考えず、日本語で「私・部屋に・りんご・食べます」と並べるのと同じです。",
+    "onPartial": "よく理解しています！ただし「性別」による変化だけは日本語にないルールなので、話す前の一瞬だけ「ター/ティー」を考える癖をつけましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b6/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b6/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b6/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m1/b6/lesson/native_lesson.mp3",
+    "audioTranscript": "Main kamre mein seb khaataa hoon. Main kamre mein seb khaatee hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "review", "synthesis", "sov", "gender", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b6/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "英語に翻訳しようとせず、日本語の直訳（単語の置き換え）だけを意識してください。",
+  "commonMistakes": [
+    "Reverting to SVO English structures due to cognitive overload when sentences get longer.",
+    "Forgetting the terminal copula (hoon/hai)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B6_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "Month 1 魔法の数式 (The Month 1 Equation)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "完全一致の文構造 (The 1:1 Mapping)",
+      "bodyText": "この1ヶ月で学んだルールを使って、長文を作ってみましょう。英語では「I eat an apple in the room」と順番が変わりますが、ヒンディー語と日本語は奇跡的に完全に一致します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं",
+          "transliteration": "Main",
+          "baseTranslation": "私は"
+        },
+        {
+          "targetText": "कमरे में",
+          "transliteration": "Kamre mein",
+          "baseTranslation": "部屋の中に"
+        },
+        {
+          "targetText": "सेब",
+          "transliteration": "Seb",
+          "baseTranslation": "りんご(を)"
+        },
+        {
+          "targetText": "खाता हूँ।",
+          "transliteration": "Khaataa hoon.",
+          "baseTranslation": "食べます。(男性)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "唯一の違い：名詞の性別 (The Gender Exception)",
+      "bodyText": "日本語のルールでそのまま文を作れますが、『名詞の性別（Mera / Meri）』と『主語の性別（Taa / Tee）』の2箇所だけはヒンディー語独自のルールを思い出さなければなりません。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मेरा घर बड़ा है।",
+          "transliteration": "Mera ghar baḍaa hai.",
+          "baseTranslation": "私の家は大きいです。(家=男性名詞なので Mera, Badaa)"
+        },
+        {
+          "targetText": "मैं सेब खाती हूँ।",
+          "transliteration": "Main seb khaatee hoon.",
+          "baseTranslation": "私はりんごを食べます。(話者が女性なので Khaatee)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "助詞の魔法 (The Magic of Postpositions)",
+      "bodyText": "助詞（〜に、〜の上、〜から）は、日本語と全く同じように名詞の直後に置かれます。英語の前置詞（In, On）の厄介なルールを考える必要はありません。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "जापान से",
+          "transliteration": "Jaapaan se",
+          "baseTranslation": "日本から"
+        },
+        {
+          "targetText": "मेज़ पर",
+          "transliteration": "Mez par",
+          "baseTranslation": "机の上"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will confidently map complex Japanese thoughts directly to Hindi, knowing the exact structural locations of Gender modifiers and Copulas.",
+  "examples": [
+    {
+      "targetText": "मैं जापान से हूँ।",
+      "transliteration": "Main Jaapaan se hoon.",
+      "baseTranslation": "私は日本からです。",
+      "explanation": "Subject(Main) + Location(Jaapaan) + Postposition(se) + Verb(hoon). Exact Japanese match."
+    },
+    {
+      "targetText": "मेरा कुत्ता कमरे में है।",
+      "transliteration": "Mera kuttaa kamre mein hai.",
+      "baseTranslation": "私の犬は部屋にいます。",
+      "explanation": "Modified Subject(Mera kuttaa) + Location(kamre) + Postposition(mein) + Verb(hai)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "文が長くなってもパニックにならないでください。日本語の語順を守り続けるだけで正確な文になります。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "息継ぎをする（文を終わらせる）時は、必ずフーン(hoon)、ハイン(hain)、ハィ(hai)のどれかを口にしてください。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "Month 1 の素晴らしい成果です。語順は日本語と完全一致。助詞の場所も完全一致。気をつけるのは「性別による変化（アー / イー、ター / ティー）」と「結びのTo Be動詞」だけです！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「私は部屋の中にりんごを食べます」と言う時、「私 (Main)」の次に言うブロックは何ですか？",
+      "expectedAnswer": "部屋の中に (Kamre mein)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "男性が話していることを示す「ター (taa)」という音は、文のどこに現れますか？",
+      "expectedAnswer": "動詞の語幹とフーン等の間 (Khaa - taa - hoon)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "助詞の「セー (Se：から)」は、対象の国名の前につきますか？後ろにつきますか？",
+      "expectedAnswer": "日本語と同じく、名詞の後ろ"
+    }
+  ]
+}

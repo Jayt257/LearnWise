@@ -1,0 +1,156 @@
+{
+  "activityId": "ja_hi_M1B3_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "息子と娘と小さな犬 (Sons, Daughters, and Dogs)",
+  "learningGoal": "The learner will parse high-speed auditory input to detect terminal vowel shifts (Aa vs Ii) that signal grammatical gender in possessing pronouns and adjectives.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M1B3_writing_001"],
+  "instructions": "音声を聞いてみましょう！家族の写真を見ながら、二人のインド人が会話をしています。「Mera / Meri」、「Bada / Badi」の違いに耳を澄ませてください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "「アー」という音が聞こえたら男性名詞、「イー」という音が聞こえたら女性名詞です。"
+    }
+  ],
+  "listeningGoal": "Distinguish between masculine and feminine vocalic markers at conversational speed, mapping auditory input to specific object genders.",
+  "audioScenario": "Two neighbors discussing a family photo containing a boy, a girl, and a dog.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "रोहन: नमस्ते राहुल। यह कौन है?",
+      "transliteration": "Rohan: Namaste Raahul. Yah kaun hai?",
+      "baseTranslation": "ロハン：こんにちはラーフル。これは誰ですか？"
+    },
+    {
+      "targetText": "राहुल: यह मेरा बेटा है। वह बहुत बड़ा है।",
+      "transliteration": "Raahul: Yah mera beṭaa hai. Vah bahut baḍaa hai.",
+      "baseTranslation": "ラーフル：これは私の息子です。彼はとても大きいです。"
+    },
+    {
+      "targetText": "रोहन: और यह कौन है?",
+      "transliteration": "Rohan: Aur yah kaun hai?",
+      "baseTranslation": "ロハン：そしてこっちは誰ですか？"
+    },
+    {
+      "targetText": "राहुल: यह मेरी बेटी है। वह छोटी है।",
+      "transliteration": "Raahul: Yah meri beṭee hai. Vah chhoṭee hai.",
+      "baseTranslation": "ラーフル：これは私の娘です。彼女は小さいです。"
+    },
+    {
+      "targetText": "रोहन: क्या यह तुम्हारा कुत्ता है?",
+      "transliteration": "Rohan: Kyaa yah tumhaaraa kuttaa hai?",
+      "baseTranslation": "ロハン：これはあなたの犬（オス犬）ですか？"
+    },
+    {
+      "targetText": "राहुल: हाँ, यह मेरा कुत्ता है।",
+      "transliteration": "Raahul: Haan, yah mera kuttaa hai.",
+      "baseTranslation": "ラーフル：はい、これは私の犬です。"
+    }
+  ],
+  "audioTranscriptFull": "Rohan: Namaste Raahul. Yah kaun hai?\nRaahul: Yah mera beṭaa hai. Vah bahut baḍaa hai.\nRohan: Aur yah kaun hai?\nRaahul: Yah meri beṭee hai. Vah chhoṭee hai.\nRohan: Kyaa yah tumhaaraa kuttaa hai?\nRaahul: Haan, yah mera kuttaa hai.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラーフルが「息子 (beṭaa)」を紹介した時、直前に使った「私の」という単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["Meri (मेरी)", "Mera (मेरा)", "Mujhe (मुझे)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "息子の大きさについて、ラーフルは何と言っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["小さい (chhoṭaa)", "大きい (baḍaa)"],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラーフルが「娘 (beṭee)」を紹介した時、形容詞（大きさ）はどのように音を変えましたか？",
+      "questionType": "multiple_choice",
+      "options": ["chhoṭaa（チョーター）から chhootu（チョートゥ）へ", "chhoṭaa（チョーター）から chhoṭee（チョーティー）へ"],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "写真に写っている犬 (kuttaa) は、文法的に男性名詞ですか？女性名詞ですか？",
+      "questionType": "multiple_choice",
+      "options": ["男性名詞 (Mera kuttaa と言っているため)", "女性名詞 (Meri kuttaa と言っているため)"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "犬の性別が変わるとしたら、「Mera Kuttaa (私の犬)」はどのように変化すると予想されますか？(ローマ字で入力)",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Mera (मेरा)",
+      "q2": "大きい (baḍaa)",
+      "q3": "chhoṭaa（チョーター）から chhoṭee（チョーティー）へ",
+      "q4": "男性名詞 (Mera kuttaa と言っているため)",
+      "q5": "Meri Kuttee"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["meri kuttee", "Meri kuttee", "meri kutiyaa"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["meri"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の音声を聞き取り、男性（アー）と女性（イー）の母音の使い分けを完全に理解しました。",
+    "onFail": "もう一度ゆっくり聞いてみましょう。息子（ベーター）の時は「メーラー・ベーター」、娘（ベーティー）の時は「メーリー・ベーティー」とはっきり音が変わっています！",
+    "onPartial": "よくできました！犬（kuttaa）も「アー」で終わっているので男性名詞ですね。ヒンディー語ではこのように、ほとんどの名詞の性別を音から推測できます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b3/listening/family_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b3/listening/family_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b3/listening/family_native.mp3",
+    "audioTranscript": "Rohan: Namaste Raahul. Yah kaun hai?\n... (Matches exact transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 50,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "gender", "vowels", "adjectives", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "犬（Kuttaa）について話しているときに、Mera と言っているか Meri と言っているか集中して聞いてください。",
+  "commonMistakes": [
+    "Missing the subtle phonetic distinction between Mera and Meri at native speed."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,350 @@
+{
+  "activityId": "ja_hi_M3B2_test_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "test",
+  "title": "Block 2 確認テスト (Block 2 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of Hindi's compound verb architectures, demonstrating accurate selection between completion (jaanaa), outward direction (denaa), and inward direction (lenaa) modifiers.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B2_lesson_001",
+    "ja_hi_M3B2_pronunciation_001",
+    "ja_hi_M3B2_reading_001",
+    "ja_hi_M3B2_writing_001",
+    "ja_hi_M3B2_listening_001",
+    "ja_hi_M3B2_vocabulary_001",
+    "ja_hi_M3B2_speaking_001"
+  ],
+  "instructions": "Block 2 の確認テストです！「〜しちゃう(Jaanaa)」「〜してあげる(Denaa)」「〜しておく(Lenaa)」という、複合動詞の使い分けが完璧にできるか試されます。",
+  "testTitle": "Block 2 確認テスト (Compound Verbs)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 複合動詞のルール (Grammar Rules)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "複合動詞において、メインの意味を持つ一番最初の動詞(V1)はどの形で置かれますか？",
+          "questionType": "multiple_choice",
+          "options": ["naa のついた原形", "命令形", "naa を外した語幹(短い形)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "複合動詞において、「私は〜します(未来形)」のように、文の時制や性別を担当して変化するのはどの部分ですか？",
+          "questionType": "multiple_choice",
+          "options": ["前の動詞 (V1)", "後ろの動詞 (サポート動詞 V2)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "完全に終わらせる・行動が完了するという「〜してしまう」というニュアンスを足すサポート動詞は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaanaa (行く)", "Denaa (あげる)", "Lenaa (もらう)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "相手に向かってアクションを放つ「〜してあげる・言い放つ」というニュアンスを足すサポート動詞は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaanaa (行く)", "Denaa (あげる)", "Lenaa (もらう)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "自分のために行動を取り込む「〜しておく」というニュアンスを足すサポート動詞は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaanaa (行く)", "Denaa (あげる)", "Lenaa (もらう)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 意味と組み合わせ (Vocab)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「もし〜(If)」を意味する単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「Bataanaa (教える)」という動詞は、誰かに知識を伝えるため『外・相手』に向かいます。どのサポート動詞とペアになるのが自然ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Bataa + Lenaa", "Bataa + Denaa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「Samajhnaa (理解する)」という動詞が完了したことを表す「すっかり分かっちゃったよ」と言う場合、どのサポート動詞とペアになりますか？",
+          "questionType": "multiple_choice",
+          "options": ["Samajh jaanaa (行く)", "Samajh denaa (あげる)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「戻って・返して」という意味で「与える(Denaa)」と一緒に使われる、ローマ字6文字の単語は何ですか？",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「全部 / すべて」を意味する単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Sab", "Ab", "Agar"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 意味の識別 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Andar aa jaao.」の意味として最も適切なのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["中に入ってきてから、別の場所へ行け。", "中に入ってきちゃいなよ(促し・完了)。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Main sab khaa jaaoongaa.」と言っている人は男性ですか、女性ですか？",
+          "questionType": "multiple_choice",
+          "options": ["男性", "女性"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Mujhe bataa do.」の『do (あげる)』は、この文の中でどのような役割を果たしていますか？",
+          "questionType": "multiple_choice",
+          "options": ["私に「物をあげる」よう要求している。", "「（私に向かって）教えてあげる」という外向きのアクションであることを示している。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "True or False: 否定文(Nahin)を作る時は、複合動詞のままにするのが一般的である。（例: Main nahin bataa doongaa.）",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "文脈問題: ラージが「Kitaab paḍh lo.」と言いました。この『lo (もらう)』が使われているのはなぜですか？",
+          "questionType": "multiple_choice",
+          "options": ["ラージが本を返してもらうため。", "相手が自分のために本を読んで、自分の知識として取り込む(もらう)行為だから。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 英訳＆複合構造作成 (Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate using a compound verb: \"I will eat it all.\" (Male speaker)",
+          "questionType": "multiple_choice",
+          "options": ["Main sab khaaoongaa.", "Main sab khaa jaaoongaa.", "Main sab khaa doongaa."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate using a compound verb: \"Tell me.\" (Informal 'Tum' command to tell outward)",
+          "questionType": "multiple_choice",
+          "options": ["Mujhe bataao.", "Mujhe bataa do.", "Mujhe bataa lo."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate using a compound verb: \"Read the book (for yourself).\" (Informal 'Tum' command)",
+          "questionType": "multiple_choice",
+          "options": ["Kitaab paḍh lo.", "Kitaab paḍh do.", "Kitaab paḍho."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「教える(Tell)」の語幹(Root)をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "What does the action directional verb 'दो / do' translate to as a base infinitive concept?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 40,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "naa を外した語幹(短い形)",
+      "q002": "後ろの動詞 (サポート動詞 V2)",
+      "q003": "Jaanaa (行く)",
+      "q004": "Denaa (あげる)",
+      "q005": "Lenaa (もらう)",
+      "q006": "agar",
+      "q007": "Bataa + Denaa",
+      "q008": "Samajh jaanaa (行く)",
+      "q009": "vaapas",
+      "q010": "Sab",
+      "q011": "中に入ってきちゃいなよ(促し・完了)。",
+      "q012": "男性",
+      "q013": "「（私に向かって）教えてあげる」という外向きのアクションであることを示している。",
+      "q014": "False",
+      "q015": "相手が自分のために本を読んで、自分の知識として取り込む(もらう)行為だから。",
+      "q016": "Main sab khaa jaaoongaa.",
+      "q017": "Mujhe bataa do.",
+      "q018": "Kitaab paḍh lo.",
+      "q019": "bataa",
+      "q020": "give"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q006": ["agar", "Agar", "AGAR"],
+      "q009": ["vaapas", "Vaapas", "VAAPAS"],
+      "q019": ["bataa", "Bataa", "BATAA"],
+      "q020": ["give", "Give", "GIVE", "to give", "To give"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! ヒンディー語学習者の最も高い壁である「複合動詞（Jaanaa, Denaa, Lenaa）」のニュアンスの違いを完全に突破しました！これでもうネイティブの会話の70％の骨組みが理解できます。",
+    "onFail": "残念！もう一度復習が必要です。「Bataa do(教えてあげる)」や「Paḍh lo(読んでおく)」という時、V2(うしろの動詞)は「教える」「読む」という意味に、それぞれ「外向き」「内向き」のニュアンスだけを足していることを思い出してください！",
+    "onPartial": "惜しい！Jaanaa・Denaa・Lenaa の方向性の違いは理解できていますが、「前の動詞(V1)は変化させない」という語幹のルールや、否定文の時に複合動詞を解除するという部分で混乱が見られます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test verifies structural comprehension of Hindi's compound verb architectures.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "compounds", "directionality", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,178 @@
+{
+  "activityId": "ja_hi_M2B5_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "お願いと命令 (Imperatives & Requests)",
+  "learningGoal": "The learner will master verbal mood shifts, appending imperative affixes (-o, -iye) instead of tense markers to issue both informal commands and formal requests, while substituting standard negation (nahin) with prohibitive negation (mat).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M2B4_test_001"],
+  "instructions": "「食べて」「見てください」のような、相手に行動を促す形（命令形・依頼形）を学びます！話す相手が「友達(Tum)」なのか「目上の人(Aap)」なのかによって、動詞の語尾を変えるだけで丁寧さが劇的に変わります。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "英語の「Please」にあたる魔法の言葉はありません。「てください(Iye)」という語尾そのものが「Please」の役割を果たします。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Tum (Informal 'You') Imperative: Root + '-o'. Example: Jaa -> Jaao (Go/行く).",
+      "Aap (Formal 'You') Imperative: Root + '-iye'. Example: Jaa -> Jaaiye (Please go/行ってください).",
+      "Prohibitive Negation: Use 'Mat' instead of 'Nahin'. Example: Mat jaao (Don't go).",
+      "Irregular 'Aap' roots: Kar (Do) -> Keejiye (Please do), Pee (Drink) -> Peejiye, De (Give) -> Deejiye, Le (Take) -> Leejiye."
+    ],
+    "conceptSummary": "Introduces the imperative mood mapped to social hierarchies. Replaces declarative tense tracking with immediate conversational direction, training the Japanese 'kudasai' equivalent.",
+    "importantFacts": [
+      "'Aap' imperative is the absolute foundation of polite Indian society. Failing to use '-iye' with elders is considered highly disrespectful."
+    ],
+    "checkpointAnswers": {
+      "q1": "Jaaiye (जाइए)",
+      "q2": "Mat (मत)",
+      "q3": "Keejiye (कीजिए)"
+    },
+    "expectedUnderstanding": "Learners will seamlessly append -o or -iye to verb roots based on the social status of their interlocutor."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！Aap (あなた) に対してイェ(Iye)の音を使うことで、一気に洗練されたヒンディー語話者に近づきました。",
+    "onFail": "もう一度読み返しましょう。動詞の語尾をTaaやRaheeなどの形と混同していませんか？命令・お願いをする時は、O（友達用）か Iye（丁寧用）のどちらかを語幹にくっつけるだけで完結します！",
+    "onPartial": "よく理解しています！ただし、Karnaa（する）の丁寧語は「Kariye」ではなく「Keejiye (キージエ)」になるような、少し特殊な変化（不規則動詞）に気をつけてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b5/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b5/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m2/b5/lesson/native_lesson.mp3",
+    "audioTranscript": "Aap jaaiye. Tum jaao. Mat jaao. Kaam keejiye. Paanee peejiye.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "imperative", "politeness", "commands", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "親しい人には「〜オ」、目上の人には「〜イエ」です。",
+  "commonMistakes": [
+    "Using 'Nahin' for 'Don't' (e.g. Nahin jaao) instead of the correct prohibitive 'Mat jaao'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "願いを伝える語尾 (The Request Endings)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "親しい相手へのお願い：友達用 (-o)",
+      "bodyText": "家族や親しい友達（Tum）に対して「（〜して）ね」と言う時は、動詞の語幹に O（オ）をつけます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "तुम जापान जाओ।",
+          "transliteration": "Tum Jaapaan jaao.",
+          "baseTranslation": "君、日本へ行って。[Jaa + o] (行く=Jaanaa の語幹)"
+        },
+        {
+          "targetText": "किताब पढ़ो।",
+          "transliteration": "Kitaab paḍho.",
+          "baseTranslation": "本を読んで。[Paḍh + o]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "目上の人へのお願い：丁寧用 (-iye)",
+      "bodyText": "大人、店員さん、見知らぬ人（Aap）などに対して「〜してください」と言う時は、動詞の語幹に Iye（イェ）をつけます。これが最高に丁寧な表現になります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "आप जापान जाइए।",
+          "transliteration": "Aap Jaapaan jaaiye.",
+          "baseTranslation": "（あなた）日本へ行ってください。[Jaa + iye]"
+        },
+        {
+          "targetText": "चाय पीजिए।",
+          "transliteration": "Chaay peejiye.",
+          "baseTranslation": "お茶を飲んでください。[特殊変化！Pee + iye は Peejiye(ピージエ) になる]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "禁止する言葉「Mat」",
+      "bodyText": "「〜しないで」とお願いする時は、Month 1 で学んだ Nahin(ナイ) は使いません！代わりに「Mat(マト)」という禁止専用の言葉を動詞の直前に置きます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मत जाओ।",
+          "transliteration": "Mat jaao.",
+          "baseTranslation": "行かないで。(親しい相手へ)"
+        },
+        {
+          "targetText": "काम मत कीजिए।",
+          "transliteration": "Kaam mat keejiye.",
+          "baseTranslation": "仕事をしないでください。[特殊変化！Kar + iye は Keejiye(キージエ) になる]"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will construct socially appropriate command forms by synthesizing verb roots with politeness affixes (-o, -iye) while navigating the four extreme irregulars (kar, de, le, pee).",
+  "examples": [
+    {
+      "targetText": "यहाँ बैठिए।",
+      "transliteration": "Yahaan baiṭhiye.",
+      "baseTranslation": "ここに座ってください。",
+      "explanation": "Baiṭh (sit) + iye (polite suffix). 'Yahaan' means here."
+    },
+    {
+      "targetText": "टीवी मत देखो।",
+      "transliteration": "Ṭeevee mat dekho.",
+      "baseTranslation": "テレビを見ないでください(君)。",
+      "explanation": "Mat (Prohibitive 'Don't') placed before Dekh+o (Informal look/watch)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「Please（お願いします）」という言葉を無理に探す必要はありません。「〜Iye」で終わっていれば、それだけでとても丁寧な響きになります。",
+      "exceptionNotes": "Krpayaa (कृपया)という単語がありますが、駅のアナウンス等の非日常的な極度のフォーマル表現なので会話ではほとんど使いません。"
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "4つの超重要不規則動詞（Aap用）：Karnaa(する)->Keejiye. Peenaa(飲む)->Peejiye. Denaa(あげる)->Deejiye. Lenaa(もらう/取る)->Leejiye.",
+      "exceptionNotes": "これらは Kariye や Peeye のようにはならず、「ジエ（-jiye）」という形になります！"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インド社会では、年齢・立場による「目上・目下」の区別が日本語と同じくらい厳密です。見知らぬ人や年上の人に「〜o (Tum用)」を使ってしまうと、非常に失礼にあたる可能性があるので「〜iye (Aap用)」を初期設定にしましょう。",
+    "dosList": ["When in doubt, always use the '-iye' form to avoid offending anyone."],
+    "dontsList": []
+  },
+  "summary": "【命令・お願い】\n友達(Tum)へ: 動詞 ＋ O (〜して)\n目上(Aap)へ: 動詞 ＋ Iye (〜してください)\n否定: 直前に Mat を置く",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「行く(Jaa)」を目上の人(Aap)にお願いする時、どのような形になりますか？",
+      "expectedAnswer": "Jaaiye (जाइए)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「〜しないで」と止める時に使う単語は何ですか？ (Nahinではなく)",
+      "expectedAnswer": "Mat (मत)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「する／仕事をする」などの Karnaa を丁寧にお願いする時（〜してください）、かなり形が変わります。何になりますか？",
+      "expectedAnswer": "Keejiye (कीजिए)"
+    }
+  ]
+}

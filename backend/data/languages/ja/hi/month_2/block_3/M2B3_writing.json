@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M2B3_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "未来の形を組み立てる (Constructing the Future)",
+  "learningGoal": "The learner will reliably generate grammatically correct Hindi future tense structures by attaching appropriate synthetic suffixes (-oongaa, -egee, -enge) directly to verb roots and explicitly suppressing the urge to use present copulas.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B3_reading_001"],
+  "instructions": "未来への約束を書く時間です！Month 1 の習慣（Taa/Tee）は捨て、To be動詞（Hoon/Hai など）も捨てて、動詞の語幹と特別な語尾を合体させましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※あなたが「女性」であると仮定して、第1文を書いてください（Oongaa ではなく Oongee を使います）。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. 私は明日、仕事をします。(※あなたが女性であると仮定)\n2. 彼は本を読みます。\n3. あなた（Aap・尊敬）は日本へ行きますか？ (か？=Kyaa を前につける)",
+  "promptGoal": "Force the learner to actively attach future suffixes correctly mapping to different persons (1st female, 3rd male, 2nd formal) while strictly rejecting present-tense copula endings.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼 / 彼女"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた(方)"
+    },
+    {
+      "targetText": "कल",
+      "transliteration": "Kal",
+      "baseTranslation": "明日 / 昨日"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "Kaam",
+      "baseTranslation": "仕事"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "Kitaab",
+      "baseTranslation": "本"
+    },
+    {
+      "targetText": "जापान",
+      "transliteration": "Jaapaan",
+      "baseTranslation": "日本"
+    },
+    {
+      "targetText": "क्या",
+      "transliteration": "Kyaa",
+      "baseTranslation": "何 (文頭に置くと Yes/No の疑問文になる)"
+    },
+    {
+      "targetText": "करूँगी",
+      "transliteration": "Karoongee",
+      "baseTranslation": "します (する ＋ 私・女)"
+    },
+    {
+      "targetText": "पढ़ेगा",
+      "transliteration": "Paḍhegaa",
+      "baseTranslation": "読みます (読む ＋ 彼・男)"
+    },
+    {
+      "targetText": "जाएँगे",
+      "transliteration": "Jaaenge",
+      "baseTranslation": "行きます (行く + あなた)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Female): I [Main] tomorrow [kal] work am-going-to-do(female) [karoongaa/karoongee].",
+    "Sentence 2 (Male Subject): He [Vah] book [kitaab] is-going-to-read(male) [paḍhegaa/paḍhegee].",
+    "Sentence 3 (Polite Question): Question-marker [Kyaa] you [Aap] Japan [Jaapaan] are-going-to-go(polite) [jaaenge]?"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं कल काम करूँगी। वह किताब पढ़ेगा। क्या आप जापान जाएँगे?",
+      "transliteration": "Main kal kaam karoongee. Vah kitaab paḍhegaa. Kyaa aap Jaapaan jaaenge?",
+      "baseTranslation": "私は明日仕事をします。彼は本を読みます。あなたは日本へ行きますか？",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully matched the feminine 1st person, masculine 3rd person, and polite 2nd person future suffixes while omitting 'Hoon/Hai'."
+    },
+    {
+      "targetText": "मैं कल काम करूँगी हूँ। वह किताब पढ़ेगा है।",
+      "transliteration": "Main kal kaam karoongee hoon. Vah kitaab paḍhegaa hai.",
+      "baseTranslation": "This makes no sense in Hindi ('I will doing work am. He will reading book is').",
+      "qualityLevel": "bad",
+      "annotation": "Total failure. The learner appended present-tense copulas to synthetic future verbs."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Feminine First Person Suffix",
+      "weight": 33,
+      "description": "Did the user select 'karoongee' and explicitly leave out 'hoon'?"
+    },
+    {
+      "criterion": "Masculine Third Person Suffix",
+      "weight": 33,
+      "description": "Did the user select 'paḍhegaa' for 'Vah' and explicitly leave out 'hai'?"
+    },
+    {
+      "criterion": "Polite Second Person Question",
+      "weight": 34,
+      "description": "Did the user format the Yes/No question with 'Kyaa Aap' and conclude with 'jaaenge' (without 'hain')?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 18,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं कल काम करूँगी। वह किताब पढ़ेगा। क्या आप जापान जाएँगे?",
+    "acceptableAlternates": [
+      "main kal kaam karoongee vah kitaab padhegaa kyaa aap jaapaan jaaenge",
+      "मैं कल काम करूँगी वह किताब पढ़ेगा क्या आप जापान जाएँगे"
+    ],
+    "requiredKeywords": ["मैं", "कल", "काम", "करूँगी", "वह", "किताब", "पढ़ेगा", "क्या", "आप", "जापान", "जाएँगे"],
+    "grammarBaseline": "Copula rejection is the absolute strictest criteria here. 'Hoon', 'Hai', and 'Hain' must be completely absent.",
+    "lengthExpectation": "Exactly 3 concise synthetic sentences.",
+    "scoringRubric": {
+      "Copula presence": "Instant failure if any form of present/past habitual copula exists."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "見事です！「Karoongee」「Padhegaa」「Jaaenge」。日本語のように、動詞自身の「語尾の形」を変えることで未来を作り出し、無駄な To be 動詞を捨て去ることができています！",
+    "onFail": "ストップ！Month 1で学んだ「Hoon」「Hai」といったシッポを使っていませんか？未来形では動詞が自力で文を終わらせる力を持ちます。「Main kal kaam karoongee」でピリオドを打ってください！",
+    "onPartial": "惜しいところがあります。第1文の「Karoongee (私が女性の場合)」と、第2文の「Padhegaa (彼が男性の場合)」で、Oongaa 系と Egaa 系の違いを正しく使えていますか？誰が主語かによって形が少し違います。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b3/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b3/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m2/b3/writing/prompt.mp3",
+    "audioTranscript": "Write 3 future tense sentences applying differing synthetic conjugations based on the subject.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Yes / No で答えられる質問を作る場合、日本語で「明日〜しますか？」と最後に『か』をつける代わりに、文の一番最初に『Kyaa』を置きます。",
+  "commonMistakes": [
+    "Writing 'Aap kyaa Jaapaan jaaenge?' placing Kyaa in the middle, which changes the meaning to 'What Japan will you go to?' instead of 'Will you go to Japan?'"
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

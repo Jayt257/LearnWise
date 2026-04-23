@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M2B2_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "対象物を支配する (Object Control)",
+  "learningGoal": "The learner will synthetically construct past tense transitive sentences using the 'Ne' particle, actively decoupling the verb conjugation from the speaker's gender and locking it to the object's gender.",
+  "difficultyLevel": "hard",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B2_reading_001"],
+  "instructions": "究極の脳トレライティングです！過去のこと（〜した）を書く時、自分自身の性別は捨ててください。あなたが書く『動詞』は、直前にある『名詞（食べたモノ・見たモノ）』が何であるかによって決定されます。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "本(Kitaab)、お茶(Chaay) は女性名詞。りんご(Seb)、働き(Kaam) は男性名詞です。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. 私はりんごを食べました。(※あなたが女性であっても男性であっても関係ありません！)\n2. あなた（Aap・尊敬）はお茶を飲みました。\n3. 彼女は仕事をしました（※「仕事」はKaam、「した」はKiyaa を使います）",
+  "promptGoal": "Ensure the learner successfully applies ergative-absolutive alignment ('ne') and overwrites their L1/Month1 speaker-agreement habit with object-agreement.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैंने",
+      "transliteration": "Maine",
+      "baseTranslation": "私が (Main + ne)"
+    },
+    {
+      "targetText": "आपने",
+      "transliteration": "Aapne",
+      "baseTranslation": "あなたが (Aap + ne)"
+    },
+    {
+      "targetText": "उसने",
+      "transliteration": "Usne",
+      "baseTranslation": "彼[彼女]が (Vah + ne)"
+    },
+    {
+      "targetText": "सेब",
+      "transliteration": "Seb",
+      "baseTranslation": "りんご (男)"
+    },
+    {
+      "targetText": "चाय",
+      "transliteration": "Chaay",
+      "baseTranslation": "お茶 (女)"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "Kaam",
+      "baseTranslation": "仕事 (男)"
+    },
+    {
+      "targetText": "खाया",
+      "transliteration": "Khaayaa",
+      "baseTranslation": "食べた (男形)"
+    },
+    {
+      "targetText": "खाई",
+      "transliteration": "Khaaee",
+      "baseTranslation": "食べた (女形 - 今回は使いません)"
+    },
+    {
+      "targetText": "पी",
+      "transliteration": "Pee",
+      "baseTranslation": "飲んだ (女形)"
+    },
+    {
+      "targetText": "पिया",
+      "transliteration": "Piyaa",
+      "baseTranslation": "飲んだ (男形 - 今回は使いません)"
+    },
+    {
+      "targetText": "किया",
+      "transliteration": "Kiyaa",
+      "baseTranslation": "した (男形)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: I-ne [Maine] apple MASC [seb] ate MASC [khaayaa].",
+    "Sentence 2: You-ne [Aapne] tea FEM [chaay] drank FEM [pee].",
+    "Sentence 3: She-ne [Usne] work MASC [kaam] did MASC [kiyaa]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैंने सेब खाया। आपने चाय पी। उसने काम किया।",
+      "transliteration": "Maine seb khaayaa. Aapne chaay pee. Usne kaam kiyaa.",
+      "baseTranslation": "私はりんごを食べました。あなたはお茶を飲みました。彼女は仕事をしました。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner completely ignored their own identity and the subject's identity (Aap, Vah), locking the verbs solely to the gender of Seb(M), Chaay(F), and Kaam(M)."
+    },
+    {
+      "targetText": "मैं सेब खाया हूँ। आपने चाय पिया।",
+      "transliteration": "Main seb khaayaa hoon. Aapne chaay piyaa.",
+      "baseTranslation": "Forgot 'ne' on the first sentence. Matched 'tea' to the assumed male gender of 'You' instead of treating 'tea' as feminine.",
+      "qualityLevel": "bad",
+      "annotation": "Total failure of the ergative rule."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Ergative Subject Formation",
+      "weight": 33,
+      "description": "Did the user use the exact fused words 'Maine', 'Aapne', and 'Usne'?"
+    },
+    {
+      "criterion": "Object-Verb Agreement (Seb/Kaam)",
+      "weight": 33,
+      "description": "Did the user correctly apply masculine verbs ('khaayaa', 'kiyaa') because 'seb' and 'kaam' are masculine?"
+    },
+    {
+      "criterion": "Object-Verb Agreement (Chaay)",
+      "weight": 34,
+      "description": "Did the user correctly apply the feminine verb 'pee' because 'chaay' is feminine?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 15,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैंने सेब खाया। आपने चाय पी। उसने काम किया।",
+    "acceptableAlternates": [
+      "maine seb khaayaa aapne chaay pee usne kaam kiyaa"
+    ],
+    "requiredKeywords": ["मैंने", "सेब", "खाया", "आपने", "चाय", "पी", "उसने", "काम", "किया"],
+    "grammarBaseline": "Crucial requirement: 'Aapne chaay pee', NOT 'piyaa'. 'Usne kaam kiyaa', NOT 'kee' (despite subject being female, work is male).",
+    "lengthExpectation": "Exactly 3 distinct short sentences.",
+    "scoringRubric": {
+      "Pronoun Ne fusion": "Must check if they wrote 'Main ne' instead of 'Maine'.",
+      "Copula presence": "If they append 'hoon/hai' at the end (e.g. Maine seb khaayaa hoon), deduct points for bringing present tense rules into simple past."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "ヒンディー語最大の壁を越えました！！自分や相手の性別を無視し、「対象物」の性別に動詞を合わせるという超高度な脳の切り替えが完璧にできています。",
+    "onFail": "ストップ！過去形（〜した）を作るとき、「私は」は絶対に使いません。「Maine (私が)」からスタートします。そして、動詞の形は自分が決定するのではなく「りんご(男)」や「お茶(女)」が決定します！",
+    "onPartial": "惜しいところがあります。Aapne（あなたが）お茶を飲んだ時、「Aap が男だからPiyaaだ！」と考えませんでしたか？ここではAapは無視！お茶(Chaay)が女性名詞なので「Pee」が正解です！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b2/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b2/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m2/b2/writing/prompt.mp3",
+    "audioTranscript": "Write 3 sentences applying the ergative Ne rule forcing object-verb agreement.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "To Be動詞（フーン・ハィ等）は必要ありません。Maine seb khaayaa. でピリオドです。",
+  "commonMistakes": [
+    "Writing 'Usne kaam kee' assuming because the prompt said 'SHE', the verb must be female."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_hi_M3B2_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "方向性を持たせる (Applying Directional V2)",
+  "learningGoal": "The learner will actively synthesize compound verb structures, selecting the correct support verb (lenaa for inward, denaa for outward, jaanaa for completion) and properly shifting conjugational load exclusively to V2.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B2_reading_001"],
+  "instructions": "複合動詞の作文です！メインの動詞は「語幹(短い形)」で固定し、文の形（未来形や命令形）はすべて後ろのサポート動詞に担当させてください！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 「私は〜(未来)」の文は、自分が男性であると仮定して作ってください。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文を『複合動詞』を使ってヒンディー語で作成してください。\n1. (私=男が) 全部(Sab) 食べて『しまいます』。(食べる+行く)\n2. (友達=Tumに対して) 私に 教え『てよ(あげる)』。(教える+あげる)\n3. (友達=Tumに対して) 本を 読ん『でおいて』。(読む+もらう)",
+  "promptGoal": "Force practical application of the big three intensifiers: V1+jaanaa (completion), V1+denaa (outward), V1+lenaa (inward/self).",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私は"
+    },
+    {
+      "targetText": "सब",
+      "transliteration": "Sab",
+      "baseTranslation": "全部"
+    },
+    {
+      "targetText": "खा",
+      "transliteration": "Khaa",
+      "baseTranslation": "食べる (V1語幹)"
+    },
+    {
+      "targetText": "जाऊँगा",
+      "transliteration": "Jaaoongaa",
+      "baseTranslation": "行くの未来・男 (V2)"
+    },
+    {
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "私に"
+    },
+    {
+      "targetText": "बता",
+      "transliteration": "Bataa",
+      "baseTranslation": "教える (V1語幹)"
+    },
+    {
+      "targetText": "दो",
+      "transliteration": "Do",
+      "baseTranslation": "あげるのTum命令 (V2 外向き)"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "Kitaab",
+      "baseTranslation": "本を"
+    },
+    {
+      "targetText": "पढ़",
+      "transliteration": "Paḍh",
+      "baseTranslation": "読む (V1語幹)"
+    },
+    {
+      "targetText": "लो",
+      "transliteration": "Lo",
+      "baseTranslation": "もらうのTum命令 (V2 内向き)"
+    },
+    {
+      "targetText": "खाऊँगा",
+      "transliteration": "Khaaoongaa",
+      "baseTranslation": "※ひっかけ（複合動詞にならない普通の形）"
+    },
+    {
+      "targetText": "बताओ",
+      "transliteration": "Bataao",
+      "baseTranslation": "※ひっかけ"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (V1+Jaa): I [Main] all [sab] eat(root) [khaa] will-go [jaaoongaa].",
+    "Sentence 2 (V1+De): To me [Mujhe] tell(root) [bataa] give(informal command) [do].",
+    "Sentence 3 (V1+Le): Book [kitaab] read(root) [paḍh] take(informal command) [lo]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं सब खा जाऊँगा। मुझे बता दो। किताब पढ़ लो।",
+      "transliteration": "Main sab khaa jaaoongaa. Mujhe bataa do. Kitaab paḍh lo.",
+      "baseTranslation": "私は全部食べてしまいます。私に教えてよ。本を読んでおいて。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Successfully constructed three compound verbs: Khaa + jaaoongaa (completion), Bataa + do (outward action directed at speaker), Paḍh + lo (inward action directed at listener)."
+    },
+    {
+      "targetText": "मैं सब खाऊँगा। मुझे बताओ। किताब पढ़ो।",
+      "transliteration": "Main sab khaaoongaa. Mujhe bataao. Kitaab paḍho.",
+      "baseTranslation": "I will eat everything. Tell me. Read the book.",
+      "qualityLevel": "bad",
+      "annotation": "Failure. While grammatically correct in standard Hindi, this completely failed to fulfill the prompt's explicit requirement to use Compound Verbs. Uses standard conjugation instead of V1+V2 construction."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "V1+Jaanaa Completion",
+      "weight": 33,
+      "description": "Did the user use Khaa + jaaoongaa rather than khaaoongaa?"
+    },
+    {
+      "criterion": "V1+Denaa Outward",
+      "weight": 33,
+      "description": "Did the user use bataa + do for telling someone something?"
+    },
+    {
+      "criterion": "V1+Lenaa Inward",
+      "weight": 34,
+      "description": "Did the user use paḍh + lo for reading a book for oneself?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 14,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं सब खा जाऊँगा। मुझे बता दो। किताब पढ़ लो।",
+    "acceptableAlternates": [
+      "main sab khaa jaunga mujhe bataa do kitaab padh lo"
+    ],
+    "requiredKeywords": ["खा", "जाऊँगा", "बता", "दो", "पढ़", "लो"],
+    "grammarBaseline": "Must see explicit separation forming compounds: khaa followed by jaaoongaa. Bataa followed by do. padh followed by lo.",
+    "lengthExpectation": "3 sentences demonstrating compound morphology.",
+    "scoringRubric": {
+      "Standard Conjugation Penalty": "Instantly fail if they use 'khaaoongaa', 'bataao', or 'paḍho'. The activity is testing specifically for compound deployment."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！「Khaa jaaoongaa」「Bataa do」というネイティブの最もリアルな話し方（複合動詞）を自分の手で作り出せました！",
+    "onFail": "ストップ！問題の指示に注意してください。「Khaaoongaa(たべるつもり)」ではなく「Khaa jaaoongaa(食べてしまうつもり)」のように、動詞を２つくっつける練習をしています！",
+    "onPartial": "惜しいところがあります。第3文で「Paḍh do(読んであげる)」としていませんか？自分が本を読むことは自分の中に知識を取り入れる(もらう)行為なので、「Paḍh lo」が自然です！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b2/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b2/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m3/b2/writing/prompt.mp3",
+    "audioTranscript": "Construct three sentences using the core intensifiers: jaanaa, denaa, and lenaa.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "compounds", "directionality", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「教える（Bataanaa）」行為は常に相手に向かうので、セットになるのは「Denaa(Do)」です。",
+  "commonMistakes": [
+    "Writing 'Bataao do' inflecting V1 instead of keeping it as a bare root 'Bataa'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

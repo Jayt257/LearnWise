@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M3B3_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "条件の聞き取り (Listening to Conditions)",
+  "learningGoal": "The learner will accurately map aurally received conditions (agar, jab) to their consequences by listening specifically for the hinge words (to, tab) amidst natural conversational speed.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M3B3_writing_001"],
+  "instructions": "ラージとアニタが旅行の計画を立てています。「もし〜なら、その時は…」「〜の時、その時に…」という条件の会話を正しく聞き分けましょう。Agar/Jab が聞こえたら、脳内で To/Tab を待つ準備をしてください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "会話の途中でポツリと置かれる「Kyonki(なぜなら)」と「Isliye(だから)」にも注意してください。"
+    }
+  ],
+  "listeningGoal": "Identify the conditions, the timing, and the reasons given in a complex planning dialogue.",
+  "audioScenario": "Raj and Anita are planning a trip to the market.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, मुझे लगता है कि कल हमें बाज़ार जाना चाहिए।",
+      "transliteration": "Raaj: Aneeta, mujhe lagtaa hai ki kal hamein baazaar jaanaa chaahiye.",
+      "baseTranslation": "ラージ：アニタ、明日僕たちは市場へ行くべきだと(Ki)僕は思うよ。"
+    },
+    {
+      "targetText": "अनीता: कल नहीं राज। मुझे मालूम है कि कल बहुत बारिश होगी।",
+      "transliteration": "Aneeta: Kal nahin Raaj. Mujhe maaloom hai ki kal bahut baarish hogee.",
+      "baseTranslation": "アニタ：明日はダメよラージ。明日はたくさん雨が降るってこと(Ki)知っているわ。"
+    },
+    {
+      "targetText": "राज: अच्छा। अगर बारिश होगी, तो हम नहीं जाएँगे।",
+      "transliteration": "Raaj: Achchhaa. Agar baarish hogee, to hum nahin jaaenge.",
+      "baseTranslation": "ラージ：そうか。もし(Agar)雨が降るなら、その時(To)僕らは行かない。"
+    },
+    {
+      "targetText": "अनीता: हाँ, क्योंकि बाज़ार दूर है। इसलिए हमें आज जाना चाहिए।",
+      "transliteration": "Aneeta: Haan, kyonki baazaar door hai. Isliye hamein aaj jaanaa chaahiye.",
+      "baseTranslation": "アニタ：ええ、なぜなら(Kyonki)市場は遠いから。だから(Isliye)今日行くべきよ。"
+    },
+    {
+      "targetText": "राज: ठीक है। जब तुम तैयार हो जाओगी, तब मुझे बताना।",
+      "transliteration": "Raaj: Ṭheek hai. Jab tum taiyaar ho jaaogee, tab mujhe bataanaa.",
+      "baseTranslation": "ラージ：分かった。君の準備ができた時(Jab)、その時(Tab)僕に教えてね。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, mujhe lagtaa hai ki kal hamein baazaar jaanaa chaahiye.\nAneeta: Kal nahin Raaj. Mujhe maaloom hai ki kal bahut baarish hogee.\nRaaj: Achchhaa. Agar baarish hogee, to hum nahin jaaenge.\nAneeta: Haan, kyonki baazaar door hai. Isliye hamein aaj jaanaa chaahiye.\nRaaj: Ṭheek hai. Jab tum taiyaar ho jaaogee, tab mujhe bataanaa.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージは最初に「僕たちは市場に行くべきだ、と＿＿＿」と言いました。何を付け加えましたか？",
+      "questionType": "multiple_choice",
+      "options": ["私は知っている(Maaloom hai ki)", "私は思う(Lagtaa hai ki)"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタが明日行きたくない理由は「明日は〇〇になること(Ki)を知っている(Maaloom hai)から」です。〇〇とは何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["雨(Baarish)が降る", "準備(Taiyaar)ができる"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージは「Agar baarish hogee, _____ hum nahin jaaenge.」と返します。_____には何という短い接着剤(単語)が入っていましたか？",
+      "questionType": "multiple_choice",
+      "options": ["to (トー)", "tab (タブ)"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "アニタは市場に行くのを「今日」に変更したいと言います。その理由を説明する直前に発せられた「Kyonki」という単語の意味は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["だから(Therefore)", "なぜなら(Because)"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後にラージは「[A]君の準備ができた時、[B]僕に教えて」と言います。この[A]と[B]の直前に置かれていた2つの接着剤(ローマ字)を、聞こえた順番通りに2つ答えてください(例：agar to)。",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:23",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "私は思う(Lagtaa hai ki)",
+      "q2": "雨(Baarish)が降る",
+      "q3": "to (トー)",
+      "q4": "なぜなら(Because)",
+      "q5": "jab tab"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["jab tab", "Jab Tab", "jab, tab"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["jab", "tab"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Agarに対してTo、Jabに対してTabが置かれているのを、自然な会話スピードの中で正確に捉えられています。また、Lagtaa(思う)とMaaloom(知る)の違いも完璧です！",
+    "onFail": "一息つきましょう！ヒンディー語の長文は「接着剤」で繋がっています。Agar(もし)という音が聞こえたら、必ず途中にTo(なら)が来るはずだと予測しながら聞くのがネイティブの聞き方です。",
+    "onPartial": "よく聞き取れています！Kyonki(なぜなら) や Isliye(だから) は、自分の意見を主張するインドの日常会話で1日に100回は耳にする単語なので拾えるようにしておきましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b3/listening/plan_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b3/listening/plan_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b3/listening/plan_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, mujhe lagtaa hai ki... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "conjunctions", "conditions", "planning", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b3/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「準備」は Taiyaar。「準備ができる」は、Taiyaar の後ろに ho jaanaa(なる・完了)をくっつけて表現します。",
+  "commonMistakes": [
+    "Mixing up Kyonki (Reason/Because) with Isliye (Result/Therefore) which reverses the intended logic."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

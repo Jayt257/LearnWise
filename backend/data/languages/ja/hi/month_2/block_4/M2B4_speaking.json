@@ -1,0 +1,138 @@
+{
+  "activityId": "ja_hi_M2B4_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "speaking",
+  "title": "誰のモノ？ (Whose is this?)",
+  "learningGoal": "The learner will orally generate possessive concordances (Meraa/Meree/Tumhaaraa/Tumhaaree) dynamically in speech, proving anticipatory awareness of the upcoming noun's gender.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B4_vocabulary_001"],
+  "instructions": "自分の持ち物や家族について紹介してください！話す時、あなたが男性か女性かは完全に無視し、次に発音する「モノ・人」の性別を先読みして『メラー』と『メリー』を切り替える反射神経の訓練です。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 話のはじめにある「これは(Yah)」や「それは(Vah)」は性別を持ちません。大事なのは「私の(Meraa/Meree)」の変化です！"
+    }
+  ],
+  "speakingPrompt": "自分の性別を無視し、対象物の性別に合わせて所有代名詞（私の、君の）を変化させて話しなさい。",
+  "scenario": "You are showing off your house and introducing your family to a friend.",
+  "role": "The Japanese Expat (Gender doesn't matter)",
+  "conversationPartner": "The Friend",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "友達: 'यह क्या है?' (これは何？) 答え：「これは、私[の男]、家(男)です。」",
+      "expectedSpeakingPoints": ["Yah", "meraa", "ghar hai"],
+      "sampleResponse": {
+        "targetText": "यह मेरा घर है।",
+        "transliteration": "Yah meraa ghar hai.",
+        "baseTranslation": "これは私の家です。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "友達: 'क्या यह तुम्हारी किताब है?' (これは君[の女]本(女)なの？) 答え：「はい、これは私[の女]、本(女)です。」",
+      "expectedSpeakingPoints": ["Haan", "yah meree", "kitaab hai"],
+      "sampleResponse": {
+        "targetText": "हाँ, यह मेरी किताब है।",
+        "transliteration": "Haan, yah meree kitaab hai.",
+        "baseTranslation": "はい、これは私の本です。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "友達: 'और यह कौन है?' (この人は誰？) 答え：「これ(この人)は、私[の男(複数・尊敬)]、お父さんです。」",
+      "expectedSpeakingPoints": ["Yah", "mere", "pitaa jee hain"],
+      "sampleResponse": {
+        "targetText": "यह मेरे पिता जी हैं।",
+        "transliteration": "Yah mere pitaa jee hain.",
+        "baseTranslation": "この人は私のお父さんです。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "तुम्हारा घर बहुत अच्छा है।",
+    "transliteration": "Tumhaaraa ghar bahut achchhaa hai.",
+    "baseTranslation": "君の家はとても素敵だね。（家＝男 なので Tumhaaraa）"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "यह मेरा घर है।",
+      "transliteration": "Yah meraa ghar hai.",
+      "baseTranslation": "これは私の家です。"
+    },
+    {
+      "targetText": "हाँ, यह मेरी किताब है।",
+      "transliteration": "Haan, yah meree kitaab hai.",
+      "baseTranslation": "はい、これは私の本です。"
+    },
+    {
+      "targetText": "यह मेरे पिता जी हैं।",
+      "transliteration": "Yah mere pitaa jee hain.",
+      "baseTranslation": "この人は私のお父さんです。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "meraa ghar",
+      "meree kitaab",
+      "mere pitaa jee"
+    ],
+    "requiredKeywords": [
+      "yah", "meraa", "ghar", "haan", "meree", "kitaab", "mere", "pitaa", "jee", "hain"
+    ],
+    "acceptableParaphrases": [
+      "haan yah meree kitaab hai"
+    ],
+    "scoringRubric": {
+      "Pronoun Gender Alignment": "Meraa must exactly precede Ghar. Meree must exactly precede Kitaab. Mere must exactly precede Pitaa. Any mismatch is a structural failure.",
+      "Respect Marking": "The final sentence must end in the nasalized plural 'Hain' to match the respectful 'Mere pitaa jee'."
+    },
+    "sampleAnswer": "Yah meraa ghar hai. Haan, yah meree kitaab hai. Yah mere pitaa jee hain.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "凄い！Meraa、Meree、Mere の３種類の「私の〜」を、口に出す直前に頭の中で一瞬で計算して使い分けることができました！この感覚がヒンディー語の真髄です。",
+    "onFail": "ここは非常に重要です！「私（持ち主）」が女性であっても、家(Ghar)は男性なので「Meraa ghar」と言わなければなりません。「私の＝Meree」と一つの言葉で丸暗記してしまわないよう注意です！",
+    "onPartial": "よくお話しできています。動詞の最後の Hai と Hain（ン）の違いまで意識できましたか？お父さん（Pitaa jee）の時は、Mere(尊敬)になるのに加えて、最後の To be 動詞も Hain になります！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b4/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m2/b4/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b4/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m2/b4/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m2/b4/speaking/full_dialogue.mp3",
+    "audioTranscript": "Friend: Yah kyaa hai?\nLearner: Yah meraa ghar hai...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "possession", "pronouns", "declensions", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「メラー」と「メリー」の最後の母音を、少しだけ大げさに伸ばして発音すると上手くいきます。",
+  "commonMistakes": [
+    "Saying 'Meree ghar hai' because the speaker happens to be a woman."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

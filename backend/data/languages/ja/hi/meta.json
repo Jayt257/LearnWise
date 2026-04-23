@@ -2,70 +2,90 @@
   "pairId": "ja-hi",
   "_status": "active",
   "source": {
-    "id": "ja"
+    "id": "ja",
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "flag": "🇯🇵"
   },
   "target": {
-    "id": "hi"
+    "id": "hi",
+    "name": "Hindi",
+    "nativeName": "हिन्दी",
+    "flag": "🇮🇳"
   },
   "months": [
     {
       "month": 1,
-      "title": "Understand the Language",
-      "description": "Get comfortable with sound, script, and survival words",
-      "targetLevel": "A1",
+      "title": "Japanese Basics",
       "blocks": [
         {
           "block": 1,
           "blockCode": "M1B1",
-          "title": "Orientation",
+          "title": "Introduction",
           "activities": [
             {
               "id": 1,
               "type": "lesson",
+              "label": "Lesson",
               "file": "month_1/block_1/M1B1_lesson.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 2,
               "type": "pronunciation",
+              "label": "Pronunciation",
               "file": "month_1/block_1/M1B1_pronunciation.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 3,
-              "type": "reading",
-              "file": "month_1/block_1/M1B1_reading.json",
-              "xp": 50
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_1/block_1/M1B1_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 4,
-              "type": "writing",
-              "file": "month_1/block_1/M1B1_writing.json",
-              "xp": 50
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_1/block_1/M1B1_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 5,
-              "type": "listening",
-              "file": "month_1/block_1/M1B1_listening.json",
-              "xp": 50
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_1/block_1/M1B1_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 6,
-              "type": "vocabulary",
-              "file": "month_1/block_1/M1B1_vocabulary.json",
-              "xp": 50
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_1/block_1/M1B1_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 7,
               "type": "speaking",
+              "label": "Speaking",
               "file": "month_1/block_1/M1B1_speaking.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 8,
               "type": "test",
+              "label": "Test",
               "file": "month_1/block_1/M1B1_test.json",
-              "xp": 100
+              "xp": 100,
+              "scoreThreshold": 0.5
             }
           ]
         },
@@ -77,50 +97,137 @@
             {
               "id": 9,
               "type": "lesson",
+              "label": "Lesson",
               "file": "month_1/block_2/M1B2_lesson.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 10,
               "type": "pronunciation",
+              "label": "Pronunciation",
               "file": "month_1/block_2/M1B2_pronunciation.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 11,
-              "type": "reading",
-              "file": "month_1/block_2/M1B2_reading.json",
-              "xp": 50
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_1/block_2/M1B2_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 12,
-              "type": "writing",
-              "file": "month_1/block_2/M1B2_writing.json",
-              "xp": 50
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_1/block_2/M1B2_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 13,
-              "type": "listening",
-              "file": "month_1/block_2/M1B2_listening.json",
-              "xp": 50
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_1/block_2/M1B2_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 14,
-              "type": "vocabulary",
-              "file": "month_1/block_2/M1B2_vocabulary.json",
-              "xp": 50
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_1/block_2/M1B2_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 15,
               "type": "speaking",
+              "label": "Speaking",
               "file": "month_1/block_2/M1B2_speaking.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 16,
               "type": "test",
+              "label": "Test",
               "file": "month_1/block_2/M1B2_test.json",
-              "xp": 100
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 3,
+          "blockCode": "M1B3",
+          "title": "First Words",
+          "activities": [
+            {
+              "id": 17,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_1/block_3/M1B3_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 18,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_1/block_3/M1B3_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 19,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_1/block_3/M1B3_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 20,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_1/block_3/M1B3_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 21,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_1/block_3/M1B3_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 22,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_1/block_3/M1B3_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 23,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_1/block_3/M1B3_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 24,
+              "type": "test",
+              "label": "Test",
+              "file": "month_1/block_3/M1B3_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
             }
           ]
         },
@@ -132,50 +239,66 @@
             {
               "id": 25,
               "type": "lesson",
+              "label": "Lesson",
               "file": "month_1/block_4/M1B4_lesson.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 26,
               "type": "pronunciation",
+              "label": "Pronunciation",
               "file": "month_1/block_4/M1B4_pronunciation.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 27,
-              "type": "reading",
-              "file": "month_1/block_4/M1B4_reading.json",
-              "xp": 50
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_1/block_4/M1B4_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 28,
-              "type": "writing",
-              "file": "month_1/block_4/M1B4_writing.json",
-              "xp": 50
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_1/block_4/M1B4_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 29,
-              "type": "listening",
-              "file": "month_1/block_4/M1B4_listening.json",
-              "xp": 50
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_1/block_4/M1B4_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 30,
-              "type": "vocabulary",
-              "file": "month_1/block_4/M1B4_vocabulary.json",
-              "xp": 50
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_1/block_4/M1B4_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 31,
               "type": "speaking",
+              "label": "Speaking",
               "file": "month_1/block_4/M1B4_speaking.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 32,
               "type": "test",
+              "label": "Test",
               "file": "month_1/block_4/M1B4_test.json",
-              "xp": 100
+              "xp": 100,
+              "scoreThreshold": 0.5
             }
           ]
         },
@@ -187,50 +310,66 @@
             {
               "id": 33,
               "type": "lesson",
+              "label": "Lesson",
               "file": "month_1/block_5/M1B5_lesson.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 34,
               "type": "pronunciation",
+              "label": "Pronunciation",
               "file": "month_1/block_5/M1B5_pronunciation.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 35,
-              "type": "reading",
-              "file": "month_1/block_5/M1B5_reading.json",
-              "xp": 50
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_1/block_5/M1B5_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 36,
-              "type": "writing",
-              "file": "month_1/block_5/M1B5_writing.json",
-              "xp": 50
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_1/block_5/M1B5_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 37,
-              "type": "listening",
-              "file": "month_1/block_5/M1B5_listening.json",
-              "xp": 50
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_1/block_5/M1B5_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 38,
-              "type": "vocabulary",
-              "file": "month_1/block_5/M1B5_vocabulary.json",
-              "xp": 50
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_1/block_5/M1B5_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 39,
               "type": "speaking",
+              "label": "Speaking",
               "file": "month_1/block_5/M1B5_speaking.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 40,
               "type": "test",
+              "label": "Test",
               "file": "month_1/block_5/M1B5_test.json",
-              "xp": 100
+              "xp": 100,
+              "scoreThreshold": 0.5
             }
           ]
         },
@@ -242,110 +381,935 @@
             {
               "id": 41,
               "type": "lesson",
+              "label": "Lesson",
               "file": "month_1/block_6/M1B6_lesson.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 42,
               "type": "pronunciation",
+              "label": "Pronunciation",
               "file": "month_1/block_6/M1B6_pronunciation.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 43,
-              "type": "reading",
-              "file": "month_1/block_6/M1B6_reading.json",
-              "xp": 50
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_1/block_6/M1B6_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 44,
-              "type": "writing",
-              "file": "month_1/block_6/M1B6_writing.json",
-              "xp": 50
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_1/block_6/M1B6_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 45,
-              "type": "listening",
-              "file": "month_1/block_6/M1B6_listening.json",
-              "xp": 50
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_1/block_6/M1B6_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 46,
-              "type": "vocabulary",
-              "file": "month_1/block_6/M1B6_vocabulary.json",
-              "xp": 50
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_1/block_6/M1B6_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 47,
               "type": "speaking",
+              "label": "Speaking",
               "file": "month_1/block_6/M1B6_speaking.json",
-              "xp": 50
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 48,
               "type": "test",
+              "label": "Test",
               "file": "month_1/block_6/M1B6_test.json",
-              "xp": 100
+              "xp": 100,
+              "scoreThreshold": 0.5
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "title": "Building Blocks",
+      "blocks": [
         {
-          "block": 7,
-          "blockCode": "M1B7",
-          "title": "Block 7",
+          "block": 1,
+          "blockCode": "M2B1",
+          "title": "Introduction",
           "activities": [
             {
               "id": 49,
               "type": "lesson",
-              "file": "month_1/block_7/M1B7_lesson.json",
-              "xp": 50
+              "label": "Lesson",
+              "file": "month_2/block_1/M2B1_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 50,
               "type": "pronunciation",
-              "file": "month_1/block_7/M1B7_pronunciation.json",
-              "xp": 50
+              "label": "Pronunciation",
+              "file": "month_2/block_1/M2B1_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 51,
-              "type": "reading",
-              "file": "month_1/block_7/M1B7_reading.json",
-              "xp": 50
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_2/block_1/M2B1_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 52,
-              "type": "writing",
-              "file": "month_1/block_7/M1B7_writing.json",
-              "xp": 50
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_2/block_1/M2B1_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 53,
-              "type": "listening",
-              "file": "month_1/block_7/M1B7_listening.json",
-              "xp": 50
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_2/block_1/M2B1_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 54,
-              "type": "vocabulary",
-              "file": "month_1/block_7/M1B7_vocabulary.json",
-              "xp": 50
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_2/block_1/M2B1_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 55,
               "type": "speaking",
-              "file": "month_1/block_7/M1B7_speaking.json",
-              "xp": 50
+              "label": "Speaking",
+              "file": "month_2/block_1/M2B1_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
             },
             {
               "id": 56,
               "type": "test",
-              "file": "month_1/block_7/M1B7_test.json",
-              "xp": 100
+              "label": "Test",
+              "file": "month_2/block_1/M2B1_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "blockCode": "M2B2",
+          "title": "Sounds and Script",
+          "activities": [
+            {
+              "id": 57,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_2/block_2/M2B2_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 58,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_2/block_2/M2B2_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 59,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_2/block_2/M2B2_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 60,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_2/block_2/M2B2_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 61,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_2/block_2/M2B2_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 62,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_2/block_2/M2B2_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 63,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_2/block_2/M2B2_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 64,
+              "type": "test",
+              "label": "Test",
+              "file": "month_2/block_2/M2B2_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 3,
+          "blockCode": "M2B3",
+          "title": "First Words",
+          "activities": [
+            {
+              "id": 65,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_2/block_3/M2B3_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 66,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_2/block_3/M2B3_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 67,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_2/block_3/M2B3_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 68,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_2/block_3/M2B3_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 69,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_2/block_3/M2B3_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 70,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_2/block_3/M2B3_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 71,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_2/block_3/M2B3_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 72,
+              "type": "test",
+              "label": "Test",
+              "file": "month_2/block_3/M2B3_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 4,
+          "blockCode": "M2B4",
+          "title": "First Communication",
+          "activities": [
+            {
+              "id": 73,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_2/block_4/M2B4_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 74,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_2/block_4/M2B4_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 75,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_2/block_4/M2B4_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 76,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_2/block_4/M2B4_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 77,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_2/block_4/M2B4_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 78,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_2/block_4/M2B4_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 79,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_2/block_4/M2B4_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 80,
+              "type": "test",
+              "label": "Test",
+              "file": "month_2/block_4/M2B4_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 5,
+          "blockCode": "M2B5",
+          "title": "Culture Basics",
+          "activities": [
+            {
+              "id": 81,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_2/block_5/M2B5_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 82,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_2/block_5/M2B5_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 83,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_2/block_5/M2B5_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 84,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_2/block_5/M2B5_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 85,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_2/block_5/M2B5_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 86,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_2/block_5/M2B5_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 87,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_2/block_5/M2B5_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 88,
+              "type": "test",
+              "label": "Test",
+              "file": "month_2/block_5/M2B5_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 6,
+          "blockCode": "M2B6",
+          "title": "Review and Confidence Check",
+          "activities": [
+            {
+              "id": 89,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_2/block_6/M2B6_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 90,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_2/block_6/M2B6_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 91,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_2/block_6/M2B6_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 92,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_2/block_6/M2B6_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 93,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_2/block_6/M2B6_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 94,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_2/block_6/M2B6_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 95,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_2/block_6/M2B6_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 96,
+              "type": "test",
+              "label": "Test",
+              "file": "month_2/block_6/M2B6_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "title": "Everyday Japanese",
+      "blocks": [
+        {
+          "block": 1,
+          "blockCode": "M3B1",
+          "title": "Introduction",
+          "activities": [
+            {
+              "id": 97,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_3/block_1/M3B1_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 98,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_3/block_1/M3B1_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 99,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_3/block_1/M3B1_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 100,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_3/block_1/M3B1_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 101,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_3/block_1/M3B1_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 102,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_3/block_1/M3B1_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 103,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_3/block_1/M3B1_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 104,
+              "type": "test",
+              "label": "Test",
+              "file": "month_3/block_1/M3B1_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "blockCode": "M3B2",
+          "title": "Sounds and Script",
+          "activities": [
+            {
+              "id": 105,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_3/block_2/M3B2_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 106,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_3/block_2/M3B2_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 107,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_3/block_2/M3B2_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 108,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_3/block_2/M3B2_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 109,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_3/block_2/M3B2_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 110,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_3/block_2/M3B2_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 111,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_3/block_2/M3B2_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 112,
+              "type": "test",
+              "label": "Test",
+              "file": "month_3/block_2/M3B2_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 3,
+          "blockCode": "M3B3",
+          "title": "First Words",
+          "activities": [
+            {
+              "id": 113,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_3/block_3/M3B3_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 114,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_3/block_3/M3B3_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 115,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_3/block_3/M3B3_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 116,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_3/block_3/M3B3_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 117,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_3/block_3/M3B3_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 118,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_3/block_3/M3B3_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 119,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_3/block_3/M3B3_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 120,
+              "type": "test",
+              "label": "Test",
+              "file": "month_3/block_3/M3B3_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 4,
+          "blockCode": "M3B4",
+          "title": "First Communication",
+          "activities": [
+            {
+              "id": 121,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_3/block_4/M3B4_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 122,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_3/block_4/M3B4_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 123,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_3/block_4/M3B4_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 124,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_3/block_4/M3B4_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 125,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_3/block_4/M3B4_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 126,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_3/block_4/M3B4_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 127,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_3/block_4/M3B4_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 128,
+              "type": "test",
+              "label": "Test",
+              "file": "month_3/block_4/M3B4_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 5,
+          "blockCode": "M3B5",
+          "title": "Culture Basics",
+          "activities": [
+            {
+              "id": 129,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_3/block_5/M3B5_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 130,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_3/block_5/M3B5_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 131,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_3/block_5/M3B5_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 132,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_3/block_5/M3B5_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 133,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_3/block_5/M3B5_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 134,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_3/block_5/M3B5_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 135,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_3/block_5/M3B5_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 136,
+              "type": "test",
+              "label": "Test",
+              "file": "month_3/block_5/M3B5_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
+            }
+          ]
+        },
+        {
+          "block": 6,
+          "blockCode": "M3B6",
+          "title": "Review and Confidence Check",
+          "activities": [
+            {
+              "id": 137,
+              "type": "lesson",
+              "label": "Lesson",
+              "file": "month_3/block_6/M3B6_lesson.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 138,
+              "type": "pronunciation",
+              "label": "Pronunciation",
+              "file": "month_3/block_6/M3B6_pronunciation.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 139,
+              "type": "vocabulary",
+              "label": "Vocabulary",
+              "file": "month_3/block_6/M3B6_vocabulary.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 140,
+              "type": "reading",
+              "label": "Reading",
+              "file": "month_3/block_6/M3B6_reading.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 141,
+              "type": "writing",
+              "label": "Writing",
+              "file": "month_3/block_6/M3B6_writing.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 142,
+              "type": "listening",
+              "label": "Listening",
+              "file": "month_3/block_6/M3B6_listening.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 143,
+              "type": "speaking",
+              "label": "Speaking",
+              "file": "month_3/block_6/M3B6_speaking.json",
+              "xp": 50,
+              "scoreThreshold": 0.5
+            },
+            {
+              "id": 144,
+              "type": "test",
+              "label": "Test",
+              "file": "month_3/block_6/M3B6_test.json",
+              "xp": 100,
+              "scoreThreshold": 0.5
             }
           ]
         }
       ]
     }
   ],
-  "totalMonths": 1
+  "totalMonths": 3
 }

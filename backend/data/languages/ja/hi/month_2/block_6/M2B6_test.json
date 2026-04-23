@@ -1,0 +1,350 @@
+{
+  "activityId": "ja_hi_M2B6_test_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Month 2 最終確認テスト (Month 2 Final Assessment)",
+  "learningGoal": "The learner will verify their cumulative mastery of Month 2's grammatical concepts: synthetic future tenses, object-driven possessive declensions, polite/informal imperatives, and prohibitive negation.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M2B6_lesson_001",
+    "ja_hi_M2B6_pronunciation_001",
+    "ja_hi_M2B6_reading_001",
+    "ja_hi_M2B6_writing_001",
+    "ja_hi_M2B6_listening_001",
+    "ja_hi_M2B6_vocabulary_001",
+    "ja_hi_M2B6_speaking_001"
+  ],
+  "instructions": "Month 2 の最終テストです！「(私が)明日〜します(Oongaa)」「私の[女性のモノ](Meree)」「〜してください(Iye)」という、Month 2を支える３つの巨大な柱が全て出題されます。",
+  "testTitle": "Month 2 最終確認テスト (Synthesis & Capstone)",
+  "testScope": "month_test",
+  "coveredActivityTypes": ["lesson", "reading", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には85点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_future_vs_imperative",
+      "sectionTitle": "Section 1: 未来形か？命令・お願いか？",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "あなたが男性だとして「私はここに入ります(Aa)」と言う正しい形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main yahaan aaiye.", "Main yahaan aa.", "Main yahaan aaoongaa."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "相手(Aap)に対して「ここに入ってください(Aa)」と言う正しい形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Aap yahaan aaoongaa.", "Aap yahaan aaiye.", "Aap yahaan aao."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "友達(Tum)に対して「話して(Bolnaa)」と言う正しい形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Boliye", "Bol", "Bolo"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "「私たちは行きます(Jaanaa)」という未来の文で使われる Hum(私たち)の語尾はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaaoongaa", "Jaaenge", "Jaao"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "目上の人に「お茶を飲んでください」と言う時、Peenaa(飲む)はどう変化しますか？",
+          "questionType": "multiple_choice",
+          "options": ["Peeye", "Peeyo", "Peejiye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_possession",
+      "sectionTitle": "Section 2: 「の」の支配 (Possession Decoding)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "あなたが男性だとして「私の本 (Kitaab: 女性名詞)」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Meraa kitaab", "Meree kitaab"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "あなたが女性だとして「私の家 (Ghar: 男性名詞)」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Meraa ghar", "Meree ghar"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「ケンジ(男)の車(Gaadee: 女性名詞)」と言う時、ケンジと車を繋ぐ助詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Kenjee kaa gaadee", "Kenjee kee gaadee"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「私のお父さん」と言う時、Pitaa jeeに対する「尊敬」を表す所有代名詞は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Meraa pitaa jee", "Mere pitaa jee", "Meree pitaa jee"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "True or False: 『Meraa/Meree (私の)』や『Kaa/Kee (の)』は、それを「所有している人」が男か女かによって語尾が変化する。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_culture_vocab",
+      "sectionTitle": "Section 3: おもてなしの言葉",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「遠慮しないでください」と言う時、Karnaa(する)を否定してお願いする文脈になります。正しい組み合わせはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Sankoch nahin keejiye", "Sankoch mat keejiye", "Sankoch mat kariye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "インドの「Atithi Devo Bhava (おもてなしの心)」において、客人に対して「座ってください（Baiṭhnaa）」という時は、どの語尾を使うのが最も自然ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Baiṭhiye", "Baiṭho"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「もう(Ab)行きます」や「だから(Isliye)行かないで」などのように使われる単語「फिर (Phir)」の意味は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["再び / また", "今日"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「中(Inside)」を意味するヒンディー語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "「歓迎 (welcome)」を意味する単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: Month 2 総決算 (Full Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 「私の家(男)に入ってください(Aa)。」",
+          "questionType": "multiple_choice",
+          "options": ["Meraa ghar mein aaiye hai.", "Meraa ghar mein aaoongaa.", "Mere(Meraa) ghar mein aaiye."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 「仕事をしないでください(Aap用)。」",
+          "questionType": "multiple_choice",
+          "options": ["Kaam nahin keejiye.", "Kaam mat keejiye.", "Kaam mat kariye."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: 「私たちは明日(Kal)、再び(Phir)会うでしょう(Milnaa)。」",
+          "questionType": "multiple_choice",
+          "options": ["Hum kal phir milenge.", "Hum kal phir milte hain.", "Main kal phir milenge."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「あなた(Aap)の 名前(Naam:男)」と言う時の、正しい所有代名詞の形は何ですか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "「Denaa(あげる)」の丁寧な命令形「〜ください」は何ですか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 10,
+    "writing": 50,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 85,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Main yahaan aaoongaa.",
+      "q002": "Aap yahaan aaiye.",
+      "q003": "Bolo",
+      "q004": "Jaaenge",
+      "q005": "Peejiye",
+      "q006": "Meree kitaab",
+      "q007": "Meraa ghar",
+      "q008": "Kenjee kee gaadee",
+      "q009": "Mere pitaa jee",
+      "q010": "False",
+      "q011": "Sankoch mat keejiye",
+      "q012": "Baiṭhiye",
+      "q013": "再び / また",
+      "q014": "andar",
+      "q015": "swaagat",
+      "q016": "Mere(Meraa) ghar mein aaiye.",
+      "q017": "Kaam mat keejiye.",
+      "q018": "Hum kal phir milenge.",
+      "q019": "aapkaa",
+      "q020": "deejiye"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q014": ["andar", "Andar", "アンダル"],
+      "q015": ["swaagat", "Swaagat", "スワーガト"],
+      "q019": ["aapkaa", "Aapkaa", "アープカー"],
+      "q020": ["deejiye", "Deejiye"]
+    },
+    "sectionPassMarks": {
+      "sec_future_vs_imperative": 20,
+      "sec_possession": 20,
+      "sec_culture_vocab": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! Month 2 で扱った「未来形」「の(所有)」「お願い・命令」というヒンディー語の巨大な柱を全て突破しました！Aaiye(イエ:丁寧なお願い) と Aaoongaa(ガー:自分の未来) の違いも完璧に理解できています！",
+    "onFail": "残念！Month 2の全体を通じて、音の響き（ガーなのか、イーなのか、イェなのか）がどう意味を変えるかがまだ定着していません。「Kaa/Kee/Ke (の)」と「O/Iye (お願い)」をもう一度整理して復習しましょう！",
+    "onPartial": "惜しい！所有格のKaa/Kee(の)の変化は完璧でしたが、不規則動詞である「Keejiye(してください)」「Peejiye(飲んでください)」の変化や、禁止の Mat と Nahin の使い分けでミスが見られます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This is the final Capstone Assessment for Month 2 enforcing comprehension of future, possessive, and imperative matrices.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "capstone", "synthesis", "grammar", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

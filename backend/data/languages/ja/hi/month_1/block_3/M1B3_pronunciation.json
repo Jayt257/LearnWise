@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M1B3_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "母音で性別を分ける (Vowels Dictate Gender)",
+  "learningGoal": "The learner will master the clear vocalization of terminal open long vowels /a:/ vs /i:/, which dictate grammatical gender shifts in adjectives and possessives without Japanese L1 vocal reduction.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B3_lesson_001"],
+  "instructions": "発音の練習です！ヒンディー語では、語尾の母音が「アー (aa)」であるか「イー (ee)」であるかが文法上非常に重要です。この母音を聞き間違えるだけで、名詞の「性別」が変わってしまいます。大きく口を動かして発音しましょう！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "日本語は抑揚が少ないですが、ヒンディー語の単語の終わりの母音は、ハッキリと長く伸ばすように意識してください（長母音）。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मेरा",
+      "transliteration": "Meraa",
+      "baseTranslation": "私の (男性名詞用)",
+      "phoneticHint": "メーラー。最後の「ラ」をしっかり大きく口を開けて「アー」と伸ばしてください。",
+      "syllableSplit": "Me-raa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mera (short A, causing ambiguity)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "मेरी",
+      "transliteration": "Meree",
+      "baseTranslation": "私の (女性名詞用)",
+      "phoneticHint": "メーリー。最後の「リ」を「イー」と横に口を引いてしっかり伸ばします。",
+      "syllableSplit": "Me-ree",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Meri (short I)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "कमरा",
+      "transliteration": "Kamraa",
+      "baseTranslation": "部屋 (男性名詞)",
+      "phoneticHint": "カムラー。Mを発音した流れですぐRに行きます(Kamu-raにしない)。最後は「アー」と開きます。",
+      "syllableSplit": "Kam-raa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kamura (adding epenthetic U)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "गाड़ी",
+      "transliteration": "Gaaḍee",
+      "baseTranslation": "車 (女性名詞)",
+      "phoneticHint": "ガーディー。ḍ は舌を丸めて弾く反り舌音です。そして最後はハッキリと「イー」の音を出します。",
+      "syllableSplit": "Gaa-ḍee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Gaadi (Standard D, short I)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "बड़ा कमरा",
+      "transliteration": "Baḍaa kamraa",
+      "baseTranslation": "大きい部屋",
+      "phoneticHint": "バダー・カムラー。両方とも舌を丸める「ḍ」と「アー」の音が含まれています。「男・男」のリズムです。",
+      "syllableSplit": "Ba-ḍaa kam-raa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bada kamura."
+    },
+    {
+      "itemId": "p06",
+      "targetText": "बड़ी गाड़ी",
+      "transliteration": "Baḍee gaaḍee",
+      "baseTranslation": "大きな車",
+      "phoneticHint": "バディー・ガーディー。こちらは「女・女」のリズムです。両方とも舌を丸める「ḍ」と、ハッキリした「イー」を使います。",
+      "syllableSplit": "Ba-ḍee gaa-ḍee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Badi gaadi."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Meraa Meree Kamraa Gaaḍee Baḍaa kamraa Baḍee gaaḍee",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい発音です！アー（男性）とイー（女性）の母音の違いが非常にハッキリと出ています。これで相手に正しく性が伝わります。",
+    "onFail": "もう一度練習しましょう。日本語の話し方よりも、口を大きく動かして最後をしっかり伸ばしてください（Meraa / Meree）。",
+    "onPartial": "よく頑張りました！反り舌音の「D (ḍ)」が含まれている単語（Bada, Gaadee）の時に、日本語のダ行（歯に当たる音）にならないように気をつけてください。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "meraa meree kamraa gaadee badaa kamraa badee gaadee",
+    "acceptedVariants": [
+      "mera meri kamra gaadi bada kamra badi gaadi"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates sustained terminal vowels mapping to gender markers (long /a:/ vs long /i:/) and continued tracking of retroflex stops (ḍ).",
+    "nativeScriptReference": "मेरा मेरी कमरा गाड़ी बड़ा कमरा बड़ी गाड़ी",
+    "transliteration": "See item objects",
+    "strictnessLevel": "moderate"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b3/pronunciation/native_gender.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b3/pronunciation/slow_gender.mp3",
+    "normalAudio": "audio/ja_hi/m1/b3/pronunciation/native_gender.mp3",
+    "audioTranscript": "Meraa. Meree. Kamraa. Gaaḍee. Baḍaa kamraa. Baḍee gaaḍee.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "gender", "vowels", "adjectives", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「アー」は口を縦に大きく開き、「イー」は唇を横にしっかり引いて発音します。",
+  "commonMistakes": [
+    "Shortening the final vowel so it is grammatically ambiguous (e.g. saying 'mere' instead of 'meraa/meree')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

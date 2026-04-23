@@ -1,0 +1,161 @@
+{
+  "activityId": "ja_hi_M1B2_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "writing",
+  "title": "文末のパズル (The Verb Puzzle)",
+  "learningGoal": "The learner will successfully generate completely aligned S-O-V sentences, manually outputting the required subject verb agreement variation (hoon, hai, hain) that contradicts their Japanese L1 habit of a static 'desu'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B2_reading_001"],
+  "instructions": "文法パズルに挑戦しましょう！与えられたヒンディー語の単語を並べ替えて、正しい文を作ってください。一番のポイントは、主語に合った正しい「です（動詞）」を最後に置くことです！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "ルールを思い出してください。Main ＝ hoon。Aap ＝ hain。Vah ＝ hai。このルールを守って文を作ります。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. 私はケンです。\n2. あなたは友達です。\n3. 彼はインド人です。",
+  "promptGoal": "Force generative deployment of three distinct 'to be' variations tied strictly to their antecedent pronouns within fixed SOV framing.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私",
+      "partOfSpeech": "Pronoun"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた",
+      "partOfSpeech": "Pronoun"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼 / 彼女",
+      "partOfSpeech": "Pronoun"
+    },
+    {
+      "targetText": "दोस्त",
+      "transliteration": "Dost",
+      "baseTranslation": "友達",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "भारतीय",
+      "transliteration": "Bhaarateey",
+      "baseTranslation": "インド人",
+      "partOfSpeech": "Noun"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です (Main用)",
+      "partOfSpeech": "Verb"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "Hain",
+      "baseTranslation": "です (Aap用)",
+      "partOfSpeech": "Verb"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です (Vah用)",
+      "partOfSpeech": "Verb"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 starts with 'Main' and must end with 'hoon'.",
+    "Sentence 2 ends with 'hain'. Vocabulary for friend is 'Dost'.",
+    "Sentence 3 ends with 'hai'. Vocabulary for Indian is 'Bhaarateey'."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं केन हूँ। आप दोस्त हैं। वह भारतीय है।",
+      "transliteration": "Main Ken hoon. Aap dost hain. Vah Bhaarateey hai.",
+      "baseTranslation": "私はケンです。あなたは友達です。彼はインド人です。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner perfectly matched Main to hoon, Aap to hain, and Vah to hai, keeping SOV structure."
+    },
+    {
+      "targetText": "मैं केन है। आप दोस्त है। वह भारतीय है।",
+      "transliteration": "Main Ken hai. Aap dost hai. Vah Bhaarateey hai.",
+      "baseTranslation": "私はケン [エラー]。あなたは友達 [エラー]。彼はインド人です。",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. The learner applied 'hai' universally to all pronouns, reflecting the tendency of the Japanese 'desu' copula."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Main to Hoon Mapping",
+      "weight": 33,
+      "description": "Did the user definitively end the first sentence with 'hoon' for 'Main'?"
+    },
+    {
+      "criterion": "Aap to Hain Mapping",
+      "weight": 33,
+      "description": "Did the user definitively end the second sentence with 'hain' for 'Aap'?"
+    },
+    {
+      "criterion": "Vah to Hai Mapping",
+      "weight": 34,
+      "description": "Did the user definitively end the third sentence with 'hai' for 'Vah'?"
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 15,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं केन हूँ। आप दोस्त हैं। वह भारतीय है।",
+    "acceptableAlternates": [
+      "main ken hoon aap dost hain vah bhaarateey hai",
+      "मैं केन हूँ आप दोस्त हैं वह भारतीय है"
+    ],
+    "requiredKeywords": ["मैं", "हूँ", "आप", "हैं", "वह", "है"],
+    "grammarBaseline": "Absolute zero tolerance for verb mismatch. If 'Main' is used with 'hai', fail the specific clause. If 'Aap' is used with 'hai', fail the clause.",
+    "lengthExpectation": "Exactly 3 short sentences.",
+    "scoringRubric": {
+      "Subject-Verb Agreement": "Must be 100% accurate across all 3 sentences."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "あっぱれ！見事に3種類の「です（動詞）」を使い分けました。これであなたもヒンディー語の基本マスターです。",
+    "onFail": "もう一度単語帳（Word Bank）のヒントを見てください。日本語の「です」のように全部同じ単語（Hai）を使うことはできません。主語に合わせて動詞を変えてください！",
+    "onPartial": "惜しい！どこかの文で「です」の使い分けを間違えています。「Aap」には「Hain（点がついている方）」を使いましたか？確認してください。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b2/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b2/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m1/b2/writing/prompt.mp3",
+    "audioTranscript": "Write 3 sentences applying Hoon, Hain, and Hai correctly.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "subject_verb_agreement", "to_be", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の語順で並べて、最後だけ (Main=hoon, Aap=hain, Vah=hai) にすることだけを意識してください。",
+  "commonMistakes": [
+    "Writing 'Main Ken hai' because of Japanese grammatical inertia."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

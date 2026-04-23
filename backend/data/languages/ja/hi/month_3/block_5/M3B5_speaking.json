@@ -1,0 +1,140 @@
+{
+  "activityId": "ja_hi_M3B5_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "状態とSOSを声に出す (Expressing Urgent States)",
+  "learningGoal": "The learner will fluidly deploy survival matrices in real-time, executing Dative state assertions (Mujhe...hai) and authoritative imperatives (ko bulaaiye) under simulated pressure.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B5_vocabulary_001"],
+  "instructions": "実戦スピーキングタームです！あなたが実際にインドで体調を崩したつもりで、力強く、はっきりと症状を伝え、助けを要求してください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 「私『に』(Mujhe)」という形が口からスッと出るようになるのが目標です。"
+    }
+  ],
+  "speakingPrompt": "指定された緊急状況に合わせて、正しいヒンディー語のSOS・症状を声に出して話しなさい。",
+  "scenario": "You have fallen severely ill at your hotel and must secure help from the staff immediately.",
+  "role": "An Ill Traveler",
+  "conversationPartner": "Hotel Staff",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "状況: スタッフに助けを求めます。　指示：「助けてください(Madad keejiye)。私の体調が悪いです(Meree tabeeyat kharaab hai)。」",
+      "expectedSpeakingPoints": ["Madad keejiye", "Meree tabeeyat kharaab hai"],
+      "sampleResponse": {
+        "targetText": "मदद कीजिए। मेरी तबीयत ख़राब है।",
+        "transliteration": "Madad keejiye. Meree tabeeyat kharaab hai.",
+        "baseTranslation": "助けてください。私の体調が悪いです。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "状況: 具体的な症状を伝えます。　指示：「私(Mujhe)は強い熱があります(bahut tez bukhaar hai)。私(Mujhe)は頭に痛みがあります(sir mein dard hai)。」",
+      "expectedSpeakingPoints": ["Mujhe bahut tez bukhaar hai", "Mujhe sir mein dard hai"],
+      "sampleResponse": {
+        "targetText": "मुझे बहुत तेज़ बुख़ार है। मुझे सिर में दर्द है।",
+        "transliteration": "Mujhe bahut tez bukhaar hai. Mujhe sir mein dard hai.",
+        "baseTranslation": "私はとても高い熱があります。私は頭に痛みがあります。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "状況: 最終的な要求をします。　指示：「早く(Jaldee)医者を(ḍaakṭar ko)呼んでください(bulaaiye)！」",
+      "expectedSpeakingPoints": ["Jaldee", "ḍaakṭar ko bulaaiye"],
+      "sampleResponse": {
+        "targetText": "जल्दी डॉक्टर को बुलाइए!",
+        "transliteration": "Jaldee ḍaakṭar ko bulaaiye!",
+        "baseTranslation": "早く医者を呼んでください！"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "क्या हुआ सर/मैडम? आप ठीक हैं?",
+    "transliteration": "Kyaa huaa sar/maidaam? Aap ṭheek hain?",
+    "baseTranslation": "どうしましたかサー/マダム？あなたは大丈夫ですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मदद कीजिए। मेरी तबीयत ख़राब है।",
+      "transliteration": "Madad keejiye. Meree tabeeyat kharaab hai.",
+      "baseTranslation": "助けてください。私の体調が悪いです。"
+    },
+    {
+      "targetText": "मुझे बहुत तेज़ बुख़ार है। मुझे सिर में दर्द है।",
+      "transliteration": "Mujhe bahut tez bukhaar hai. Mujhe sir mein dard hai.",
+      "baseTranslation": "私はとても高い熱があります。私は頭に痛みがあります。"
+    },
+    {
+      "targetText": "जल्दी डॉक्टर को बुलाइए!",
+      "transliteration": "Jaldee ḍaakṭar ko bulaaiye!",
+      "baseTranslation": "早く医者を呼んでください！"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "madad keejiye",
+      "tabeeyat kharaab",
+      "mujhe",
+      "bukhaar",
+      "dard",
+      "ḍaakṭar ko"
+    ],
+    "requiredKeywords": [
+      "madad", "keejiye", "meree", "tabeeyat", "kharaab", "mujhe", "tez", "bukhaar", "sir", "mein", "dard", "jaldee", "ḍaakṭar", "ko", "bulaaiye"
+    ],
+    "acceptableParaphrases": [
+      "madad karo meri tabiyat kharab hai mujhe tej bukhar he or sar me dard he jaldi doctor ko bulao"
+    ],
+    "scoringRubric": {
+      "Emergency Integrity": "Must verify 'Mujhe' is present before citing Bukhaar or Dard. Must verify 'ko' is present after Daaktar."
+    },
+    "sampleAnswer": "Madad keejiye meree tabeeyat kharaab hai. Mujhe bahut tez bukhaar hai aur mujhe sir mein dard hai. Jaldee ḍaakṭar ko bulaaiye.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Mujhe (私に)」を使った身体病状の申告から、「ko (を)」を使った緊急の指示出しまで、完璧に文法構造を保って発話できています！",
+    "onFail": "ここは非常に重要です。「病気」や「症状」は Main(私) ではなく Mujhe(私に) を使わなければ通じません。「Main bukhaar hoon(＝熱という怪物だ)」は絶対に使わないでください！",
+    "onPartial": "よくお話しできています。「Ḍaakṭar ko bulaaiye(医者を呼んで)」の『ko』が抜けがちです。人に影響する行動を要求する時は、必ず誰『を(ko)』の部分が必要になります！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b5/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m3/b5/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b5/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m3/b5/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m3/b5/speaking/full_dialogue.mp3",
+    "audioTranscript": "Learner: Madad keejiye. Meree tabeeyat kharaab hai... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "survival", "emergencies", "health", "symptoms", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Dard(痛み) は頭の中(sir mein)、あるいはお腹の中(peṭ mein) と、必ず「中(mein)」とあわせて使われます。",
+  "commonMistakes": [
+    "Dropping 'Mujhe' entirely and just saying 'Bukhaar hai' which sounds detached (There is a fever somewhere)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

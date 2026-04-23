@@ -1,0 +1,147 @@
+{
+  "activityId": "ja_hi_M2B4_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "写真を見ながら (Looking at Photos)",
+  "learningGoal": "The learner will aurally parse rapid possessive declensions ('meraa', 'meree', 'ke') and accurately map them to the corresponding possessed noun (friend, sister, father) in conversational speech.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M2B4_writing_001"],
+  "instructions": "ラージとアニタがスマートフォンの写真を見せ合っています。「私の(Meraa/Meree)」や「〜の(Kaa/Kee/Ke)」という言葉が、誰の性別・尊敬に合わせて変化しているかを聞き取ってください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "誰が「Meree」と言っているかは重要ではありません。「Meree」と聞こえたら、直後に女性（または女性名詞）が来る合図です！"
+    }
+  ],
+  "listeningGoal": "Identify relationships by parsing the forward-looking gender agreement (e.g. hearing 'meree' and anticipating a feminine noun like 'bahan').",
+  "audioScenario": "Raj and Anita are looking at photos and asking who is in them.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, यह कौन है?",
+      "transliteration": "Raaj: Aneeta, yah kaun hai?",
+      "baseTranslation": "ラージ：アニタ、これは誰？"
+    },
+    {
+      "targetText": "अनीता: यह मेरी बहन है। इसका नाम रिया है।",
+      "transliteration": "Aneeta: Yah meree bahan hai. Iskaa naam Riyaa hai.",
+      "baseTranslation": "アニタ：これは私の妹よ(Meree bahan)。彼女の名前はリアよ(Iskaa naam)。"
+    },
+    {
+      "targetText": "राज: अच्छा। और ये? क्या ये तुम्हारे पिता जी हैं?",
+      "transliteration": "Raaj: Achchhaa. Aur ye? Kyaa ye tumhaare pitaa jee hain?",
+      "baseTranslation": "ラージ：なるほど。そしてこちらは？(尊敬Ye) あなたのお父さんですか？(Tumhaare pitaa jee)"
+    },
+    {
+      "targetText": "अनीता: नहीं, ये मेरे दोस्त के पिता जी हैं।",
+      "transliteration": "Aneeta: Nahin, ye mere dost ke pitaa jee hain.",
+      "baseTranslation": "アニタ：いいえ、私の友達のお父さんよ(Mere dost ke pitaa jee)。"
+    },
+    {
+      "targetText": "राज: तुम्हारे दोस्त का घर कहाँ है?",
+      "transliteration": "Raaj: Tumhaare dost kaa ghar kahaan hai?",
+      "baseTranslation": "ラージ：君の友達の家はどこなの？(Tumhaare dost kaa ghar)"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, yah kaun hai?\nAneeta: Yah meree bahan hai. Iskaa naam Riyaa hai.\nRaaj: Achchhaa. Aur ye? Kyaa ye tumhaare pitaa jee hain?\nAneeta: Nahin, ye mere dost ke pitaa jee hain.\nRaaj: Tumhaare dost kaa ghar kahaan hai?",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "アニタが最初に見せた写真に写っていたのは誰ですか？",
+      "questionType": "multiple_choice",
+      "options": ["友達", "妹 (Bahan)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ラージは「これ(彼)はあなたのお父さんですか？」と聞く時、「Tumhaaree」ではなく「Tumhaare」を使いました。なぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["お父さん（Pitaa jee）を尊敬表現(エの音)で扱うため", "アニタが女性だから"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "写真に写っていた大人の男性は誰でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["アニタの友達", "アニタの友達のお父さん"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最後の文で、ラージは友達の「何」がどこにあるかを聞きましたか？",
+      "questionType": "multiple_choice",
+      "options": ["学校", "家 (Ghar)"],
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "友達(Dost)の『家(Ghar)』と言う時、「〜の」にあたる助詞は何の音になっていましたか？",
+      "questionType": "multiple_choice",
+      "options": ["Kee (キー)", "Kaa (カー)"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "妹 (Bahan)",
+      "q2": "お父さん（Pitaa jee）を尊敬表現(エの音)で扱うため",
+      "q3": "アニタの友達のお父さん",
+      "q4": "家 (Ghar)",
+      "q5": "Kaa (カー)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Tumhaare や Kaa といった接続詞の変化に耳を傾けることで、「誰が誰について語っているのか」という複雑な関係性を会話のスピードで理解できました！",
+    "onFail": "一息つきましょう！Tumhaaree なのか Tumhaare なのか、最後の「アー・イー・エー」の音に集中します。その音の形は、必ず直後に来る名詞（お父さん、家など）のヒントになっています。",
+    "onPartial": "よく聞き取れています！ラージが「あなたのお父さんですか？」と聞く時に『Kyaa Yah』ではなく『Kyaa Ye(複数の彼ら＝尊敬)』という代名詞を使っていることにも気づけましたか？"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b4/listening/photo_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b4/listening/photo_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b4/listening/photo_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, yah kaun hai?...\n(Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 55,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "possession", "family", "pronouns", "particles", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Dost kaa ghar(友達の家): 家(Ghar)は男性名詞なので Kaa の音が続きます。",
+  "commonMistakes": [
+    "Thinking 'Tumhaare pitaa jee' implies Anita has multiple fathers."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

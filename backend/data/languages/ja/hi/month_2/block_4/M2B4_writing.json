@@ -1,0 +1,182 @@
+{
+  "activityId": "ja_hi_M2B4_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "対象物に支配される「の」 (Object-Driven Possession)",
+  "learningGoal": "The learner will accurately synthesize possessive phrases by mutating the pronoun (Meraa/Tumhaaraa) and particle (Kaa) based exclusively on the grammatical gender and respect requirements of the possessed noun.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B4_reading_001"],
+  "instructions": "ライティングです！ヒンディー語では「私」の性別はどうでもよく、「持っているモノ」の性別が全てを決めるというルール（過去形 Ne と同じ感覚）を使って文を作りましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "本(Kitaab)は女、お茶(Chaay)は女、家(Ghar)は男、お父さん(Pitaa jee)は男・尊敬です。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. これは私の本(女)です。(※あなたが男性だとしても！)\n2. あなたの家(男)はどこですか？\n3. アニタ(女)のお父さん(尊敬)は部屋にいます。",
+  "promptGoal": "Force the learner to actively select mutli-state declensions ('Meree kitaab', 'Aapkaa ghar', 'Aneeta ke pitaa jee') proving decoupling from speaker-biology.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "यह",
+      "transliteration": "Yah",
+      "baseTranslation": "これは"
+    },
+    {
+      "targetText": "मेरा",
+      "transliteration": "Meraa",
+      "baseTranslation": "私の (男)"
+    },
+    {
+      "targetText": "मेरी",
+      "transliteration": "Meree",
+      "baseTranslation": "私の (女)"
+    },
+    {
+      "targetText": "आपका",
+      "transliteration": "Aapkaa",
+      "baseTranslation": "あなたの (男)"
+    },
+    {
+      "targetText": "कमरे में",
+      "transliteration": "Kamre mein",
+      "baseTranslation": "部屋の中に"
+    },
+    {
+      "targetText": "किताब",
+      "transliteration": "Kitaab",
+      "baseTranslation": "本"
+    },
+    {
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "家"
+    },
+    {
+      "targetText": "पिता जी",
+      "transliteration": "Pitaa jee",
+      "baseTranslation": "お父さん"
+    },
+    {
+      "targetText": "का",
+      "transliteration": "Kaa",
+      "baseTranslation": "の (男)"
+    },
+    {
+      "targetText": "की",
+      "transliteration": "Kee",
+      "baseTranslation": "の (女)"
+    },
+    {
+      "targetText": "के",
+      "transliteration": "Ke",
+      "baseTranslation": "の (尊敬)"
+    },
+    {
+      "targetText": "कहाँ",
+      "transliteration": "Kahaan",
+      "baseTranslation": "どこ"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です (単数用)"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "Hain",
+      "baseTranslation": "です/います (複数・尊敬用)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Regardless of speaker gender): This [Yah] my-FEM [meree] book [kitaab] is [hai].",
+    "Sentence 2 (Regardless of owner's gender): Your-MASC [Aapkaa] house [ghar] where [kahaan] is [hai]?",
+    "Sentence 3: Anita [Aneeta] 's-RESPECT [ke] father [pitaa jee] room in [kamre mein] is-RESPECT [hain]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "यह मेरी किताब है। आपका घर कहाँ है? अनीता के पिता जी कमरे में हैं।",
+      "transliteration": "Yah meree kitaab hai. Aapkaa ghar kahaan hai? Aneeta ke pitaa jee kamre mein hain.",
+      "baseTranslation": "これは私の本です。あなたの家はどこですか？アニタのお父さんは部屋にいます。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully utilized 'Meree' (for feminine Kitaab), 'Aapkaa' (for masculine Ghar), and 'Ke...Hain' (for respectful Pitaa jee)."
+    },
+    {
+      "targetText": "यह मेरा किताब है। आपकी घर कहाँ है? अनीता की पिता जी कमरे में है।",
+      "transliteration": "Yah meraa kitaab hai. Aapkee ghar kahaan hai? Aneeta kee pitaa jee kamre mein hai.",
+      "baseTranslation": "This is my(male) book. Your(female) house where is? Anita's(female) father room in is.",
+      "qualityLevel": "bad",
+      "annotation": "Total failure. The learner mapped the possessives to the BIOLOGICAL gender of the owners (Speaker = male, Aap = female?, Anita = female) instead of the POSSESSED items."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Feminine Object First Person",
+      "weight": 33,
+      "description": "Did the user select 'meree' to match the feminine 'kitaab'?"
+    },
+    {
+      "criterion": "Masculine Object Second Person",
+      "weight": 33,
+      "description": "Did the user select 'Aapkaa' to match the masculine 'ghar'?"
+    },
+    {
+      "criterion": "Respectful Male Third Person Particle",
+      "weight": 34,
+      "description": "Did the user select 'Ke' for Anita's father (instead of Kee for Anita), AND end with the plural/respectful 'hain'?"
+    }
+  ],
+  "minimumWordCount": 13,
+  "maximumWordCount": 20,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "यह मेरी किताब है। आपका घर कहाँ है? अनीता के पिता जी कमरे में हैं।",
+    "acceptableAlternates": [
+      "yah meree kitaab hai aapkaa ghar kahaan hai aneeta ke pitaa jee kamre mein hain"
+    ],
+    "requiredKeywords": ["यह", "मेरी", "किताब", "है", "आपका", "घर", "कहाँ", "अनीता", "के", "पिता", "जी", "कमरे", "में", "हैं"],
+    "grammarBaseline": "Crucial requirement: 'Aneeta ke' (not kee). The father requires respect. The final verb must be 'Hain' (not Hai) for respect.",
+    "lengthExpectation": "Exactly 3 distinct sentences applying possessive declensions.",
+    "scoringRubric": {
+      "Owner vs Object Confusion": "Instant failure if they write 'Aneeta kee pitaa jee'. The gender of Anita does not matter."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！所有者（私、あなた、アニタ）の性別という罠に引っかからず、その後ろにある所有物（本、家、お父さん）の性別にピントを合わせて完璧に形を変化させられました！",
+    "onFail": "ストップ！アニタ(女)のお父さん、と書く時に「Aneeta kee」と書きませんでしたか？ヒンディー語の「の」である Kaa/Kee/Ke は、アニタには興味がありません。その後の「お父さん(敬意＝Ke)」にだけ合わせて変化します！",
+    "onPartial": "惜しいところがあります。第3文で、お父さんに対する尊敬の「Ke」は使えていましたが、文末の To be 動詞が「Hai」になっていませんか？お父さんは複数形扱いになるので、ンが入る「Hain」にする必要があります！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b4/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b4/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m2/b4/writing/prompt.mp3",
+    "audioTranscript": "Write 3 sentences demonstrating object-driven possessive declensions and respectful pluralization.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "possession", "declensions", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後の「Hain (ンがついた状態)」も立派な尊敬表現です。Pitaa jee とセットで使います。",
+  "commonMistakes": [
+    "Writing 'Aapkee ghar' assuming the person they are speaking to is a woman."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

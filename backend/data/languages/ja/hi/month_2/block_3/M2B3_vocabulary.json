@@ -1,0 +1,244 @@
+{
+  "activityId": "ja_hi_M2B3_vocabulary_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "vocabulary",
+  "title": "予定を作る言葉 (Planning the Future)",
+  "learningGoal": "The learner will build a functional vocabulary of time adverbs (next month, later) and location markers (here, there) to contextualize future tense actions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B3_listening_001"],
+  "instructions": "未来の話をするために欠かせない「時」と「場所」の単語をマスターしましょう！『来月(Agle maheene)』や『そこで(Vahaan)』などの言葉は、日本語と同じように使える便利なブロックです。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Kal(昨日/明日) は過去形と共に使えば『昨日』、未来形と共に使えば『明日』になります。英語のようにYesterdayとTomorrowを覚える手間が省けます！"
+    }
+  ],
+  "vocabTheme": "Future Context & Locations",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "अगले महीने",
+      "transliteration": "Agle maheene",
+      "baseTranslation": "来月 (Agle=次の + Maheene=月)",
+      "partOfSpeech": "Adverbial Phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "अगले हफ़्ते",
+      "transliteration": "Agle hafte",
+      "baseTranslation": "来週 (Agle=次の + Hafte=週)",
+      "partOfSpeech": "Adverbial Phrase",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "कल",
+      "transliteration": "Kal",
+      "baseTranslation": "明日 (未来形と使った場合)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "यहाँ",
+      "transliteration": "Yahaan",
+      "baseTranslation": "ここで (Here)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "वहाँ",
+      "transliteration": "Vahaan",
+      "baseTranslation": "そこで / あそこで (There)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "मिलना",
+      "transliteration": "Milnaa",
+      "baseTranslation": "会う (辞書形)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "हम",
+      "transliteration": "Hum",
+      "baseTranslation": "私たちは",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "वे",
+      "transliteration": "Ve",
+      "baseTranslation": "彼らは / 彼(尊敬) / あの人",
+      "partOfSpeech": "Pronoun (Vahの複数・尊敬形)",
+      "formalityLevel": "respectful",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "भारत",
+      "transliteration": "Bhaarat",
+      "baseTranslation": "インド (India)",
+      "partOfSpeech": "Noun (Proper)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "दोस्त",
+      "transliteration": "Dost",
+      "baseTranslation": "友達",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "来月",
+    "来週",
+    "明日 (未来文맥)",
+    "ここで",
+    "そこで",
+    "会う",
+    "私たちは",
+    "彼らは/あの人は",
+    "インド",
+    "友達"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "मैं अगले महीने भारत जाऊँगी।",
+      "transliteration": "Main agle maheene Bhaarat jaaoongee.",
+      "baseTranslation": "私は来月インドへ行きます(女)。"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "हम कल यहाँ मिलेंगे।",
+      "transliteration": "Hum kal yahaan milenge.",
+      "baseTranslation": "私たちは明日ここで会う予定です。"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "वे क्या करेंगे?",
+      "transliteration": "Ve kyaa karenge?",
+      "baseTranslation": "彼ら（またはあの方）は何をする予定ですか？"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its Japanese equivalent: Agle maheene (अगले महीने)",
+      "questionType": "matching",
+      "options": ["来週", "来月"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its meaning based on the sentence logic 'Main ___ jaaoongaa': Kal (कल)",
+      "questionType": "matching",
+      "options": ["昨日", "明日"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the location word to its meaning: Vahaan (वहाँ)",
+      "questionType": "matching",
+      "options": ["そこで", "ここで"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the Hindi pronoun to its Japanese equivalent: Hum (हम)",
+      "questionType": "matching",
+      "options": ["私たちは", "彼らは"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match the verb to its meaning: Milnaa (मिलना)",
+      "questionType": "matching",
+      "options": ["会う", "行く"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "来月",
+      "w02": "来週",
+      "w03": "明日 (未来文맥)",
+      "w04": "ここで",
+      "w05": "そこで",
+      "w06": "会う",
+      "w07": "私たちは",
+      "w08": "彼らは/あの人は",
+      "w09": "インド",
+      "w10": "友達"
+    },
+    "acceptedTranslations": {
+      "w08": ["あの人", "彼ら", "お父さん(などの尊敬)"]
+    },
+    "matchingKey": {
+      "q1": "来月",
+      "q2": "明日",
+      "q3": "そこで",
+      "q4": "私たちは",
+      "q5": "会う"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！Agle(次の)という言葉をMaheene(月)やHafte(週)と組み合わせることで、未来の予定を自在に語る準備が整いました。",
+    "onFail": "もう一度復習しましょう！特に「Vahaan(アソコ)」と「Yahaan(ココ)」の違いや、「Vah(彼一人)」と「Ve(彼ら・尊敬の彼)」の違いはとても重要です。",
+    "onPartial": "よくできました！Kal (昨日/明日) は日本人の感覚からすると不思議な単語ですが、『現在から1日離れた日』を表すため、未来形と共に使えば自動的に『明日』になることを覚えておきましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b3/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b3/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b3/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b3/vocab/words_native.mp3",
+    "audioTranscript": "Agle maheene. Agle hafte. Kal. Yahaan. Vahaan. Milnaa. Hum. Ve. Bhaarat. Dost.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "time", "locations", "future_tense", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Yahaan(ここで) は日本(Japan) の「ヤ行」に近い音。Vahaan(そこで)はV（ブとワの中間）の音です。",
+  "commonMistakes": [
+    "Confusing Yahaan (Here) and Vahaan (There)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M2B2_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "過去形とラスボス「ネ」 (Past Tense & The 'Ne' Monster)",
+  "learningGoal": "The learner will understand the ergative-absolutive alignment in Hindi past tense (transitive verbs), acknowledging that the 'Ne' particle on the subject shifts grammatical agreement from the subject to the object.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M2B1_test_001"],
+  "instructions": "ヒンディー語で最も有名で、最も面白い文法ルール「Ne（ネ）」の登場です！日本人にとって、ある意味では「〜が」の助詞に似ていますが、動詞のターゲットが完全に逆転するという魔法のルールです。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "「私はりんごを食べました。」過去形を作る時、ヒンディー語では主語(私)に「ネ」という助詞がつきます。すると不思議なことに、動詞の性別が「私」ではなく「りんご」の性別に支配されてしまいます！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "In the past tense, transitive verbs (verbs that take an object, like Eat, Read, Do) require the subject to take the particle 'Ne'.",
+      "'Main' + 'Ne' = 'Maine'.",
+      "Ergative Alignment: Once 'Ne' is attached, the subject is grammatically blocked. The verb MUST conjugate based on the gender of the OBJECT.",
+      "If the object is feminine (e.g. Kitaab/Book), the verb becomes feminine (-ee), EVEN IF the speaker is a massive bearded man."
+    ],
+    "conceptSummary": "Introducing Ergativity. This shatters the absolute rule from Month 1 (Verb agrees with Speaker). It rewires learner's brains to look forward to the object to determine the end of the sentence.",
+    "importantFacts": [
+      "Intransitive verbs (Go, Sleep, Come) do NOT take 'Ne'. They conjugate normally according to the speaker's gender (Main gayaa/gayee)."
+    ],
+    "checkpointAnswers": {
+      "q1": "Maine (मैंने)",
+      "q2": "対象となるモノ（対象物）の性別",
+      "q3": "Kitaab (本) が女性名詞だから"
+    },
+    "expectedUnderstanding": "Learners will recognize the 'Ne' particle as a subject-blocker that forces them to rely entirely on the grammatical gender of the object when conjugating past tense transitive verbs."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語最大の壁「Ne（ネ）」の概念をクリアしました。これこそがヒンディー語の醍醐味です！",
+    "onFail": "ここは最も難しいところです。ゆっくり理解しましょう。「ネ」がついたら、主語の性別は無視されます。その代わり、食べた『モノ』の性別に動詞を合わせるのです。",
+    "onPartial": "よく理解しています！ただし「行く(Jaa)」や「眠る(So)」のような『対象物を持たない動詞』には「ネ」はつかないことを思い出してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b2/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b2/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m2/b2/lesson/native_lesson.mp3",
+    "audioTranscript": "Maine seb khaayaa. Maine kitaab paḍhee. Main gayaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "past_tense", "ergative", "ne", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「私が...」ではなく「私が、りんごを...（男言葉だ！）」という先読みが必要になります。",
+  "commonMistakes": [
+    "Saying 'Maine seb khaayaa' and believing it's masculine because THEY are masculine, setting them up for failure when they say 'Maine kitaab paḍhaa' (wrong, it must be paḍhee)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "逆転の魔法「Ne (ネ)」",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "過去形と魔法の助詞「Ne」",
+      "bodyText": "「りんごを食べる」「本を読む」のように、『目的語（〜を）』が存在する動詞を過去形にするとき、主語に「Ne (ネ)」という助詞がつきます。「私 (Main)」に「Ne」がつくと「Maine (メンネ)」という言葉に合体します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने सेब खाया।",
+          "transliteration": "Maine seb khaayaa.",
+          "baseTranslation": "私はりんごを食べました。(Khaa ＋ yaa = 食べた・男)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "動詞の性別が「私」から離れる！",
+      "bodyText": "ここがヒンディー語最大のトリックです。「Maine (メンネ)」と言った瞬間、動詞は「私」の性別を無視します。その代わり、『食べたモノの性別』に合わせて動詞が変化します！りんご(Seb)は男なのでKhaayaaになり、本(Kitaab)は女なのでPaḍheeになります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने किताब पढ़ी।",
+          "transliteration": "Maine kitaab paḍhee.",
+          "baseTranslation": "私は本を読みました。(話者が男性でも女性でも、本が女性名詞なので Paḍhee になる)"
+        },
+        {
+          "targetText": "आपने पानी पिया।",
+          "transliteration": "Aapne paanee piyaa.",
+          "baseTranslation": "あなたは水を飲みました。(あなた Aap + ne = Aapne。水は男性名詞なので Piyaa)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "過去のTo be動詞（Thaa / Thee）",
+      "bodyText": "Month 1 で使っていた「Hoon / Hai」は現在形なので、過去形では使いません！過去完了を表す場合は「Thaa（男）」か「Thee（女）」を最後に置くか、To be動詞そのものを省略します（省略する方が一般的です）。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैंने चाय पी।",
+          "transliteration": "Maine chaay pee.",
+          "baseTranslation": "私はお茶を飲みました。（お茶が女性なのでPee。Hoon等は不要）"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will decouple their reflexive habit of equating verb conjugation to speaker gender, transferring that conjugational priority to the object when the 'Ne' particle is active.",
+  "examples": [
+    {
+      "targetText": "उसने काम किया।",
+      "transliteration": "Usne kaam kiyaa.",
+      "baseTranslation": "彼/彼女は仕事をしました。",
+      "explanation": "He/She (Vah) changes to 'Us' + 'ne' = 'Usne'. Work (Kaam) is masculine, so 'did' is masculine 'Kiyaa'."
+    },
+    {
+      "targetText": "मैंने गाड़ी देखी।",
+      "transliteration": "Maine gaaḍee dekhee.",
+      "baseTranslation": "私は車を見ました。",
+      "explanation": "Car (gaadee) is feminine. Therefore 'saw' (dekhaa) becomes feminine 'dekhee'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「Ne」がついたら、自分が男か女かは完全に忘れてください！動詞は直前の「モノ」の性別が決定します。",
+      "exceptionNotes": "対象物がない動詞（行く、眠る）については、Month 1と同じく自分の性別に依存します（Main gayaa = 私は行った）。"
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Main ＋ Ne ＝ Maine (メンネ)。 Tum + Ne ＝ Tumne (トゥムネ)。これらは合体して１つの単語のように発音されます。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インド人が英語を話す時、He と She を間違えることがよくあります。ヒンディー語の文法では『行動の対象物』に意識が集中しているため、話者自身の性別タグ付けが英語とは異なるアプローチになるからです。",
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【Ne の魔法】過去形（〜を〜した）の時、主語に「Ne」がつく。動詞の変化は「主語」ではなく「モノ」の性別に支配される！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「Main」に「Ne」が合体すると、どのような形になりますか？（ローマ字で）",
+      "expectedAnswer": "Maine (मैंने)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「Maine seb khaayaa.」の「Khaayaa（食べた・男性形）」を男性形に決定づけているのは誰の性別ですか？",
+      "expectedAnswer": "対象となるモノ（対象物）の性別"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "話している人が屈強な男性であっても「Maine kitaab paḍhee (女性形)」となるのはなぜですか？",
+      "expectedAnswer": "Kitaab (本) が女性名詞だから"
+    }
+  ]
+}

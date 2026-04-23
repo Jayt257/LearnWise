@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M2B5_vocabulary_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "vocabulary",
+  "title": "行動を促す動詞 (Action Verbs for Commands)",
+  "learningGoal": "The learner will acquire core action verbs, internalizing their stems to efficiently construct spontaneous imperative forms (both formal and informal).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B5_listening_001"],
+  "instructions": "誰かに何かをお願いする時、頻繁に使うアクション動詞を集めました。辞書にある「〜naa (すること)」という形から、語幹（前半分）だけを取り出して「〜o (Tum用)」や「〜iye (Aap用)」をつける準備をしましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ Karnaa(する)、Peenaa(飲む)、Denaa(あげる)、Lenaa(取る)の４つは、Aap用にする時に『キージエ』『ピージエ』のように形が変わる不規則動詞です！"
+    }
+  ],
+  "vocabTheme": "Action Verbs & Directions",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "आना",
+      "transliteration": "Aanaa",
+      "baseTranslation": "来る / 入る (Aaiye / Aao)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "जाना",
+      "transliteration": "Jaanaa",
+      "baseTranslation": "行く (Jaaiye / Jaao)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "बैठना",
+      "transliteration": "Baiṭhnaa",
+      "baseTranslation": "座る (Baiṭhiye / Baiṭho)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "देखना",
+      "transliteration": "Dekhnaa",
+      "baseTranslation": "見る (Dekhiye / Dekho)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "सुनना",
+      "transliteration": "Sunnaa",
+      "baseTranslation": "聞く (Suniye / Suno)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "बोलना",
+      "transliteration": "Bolnaa",
+      "baseTranslation": "話す (Boliye / Bolo)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "पीना",
+      "transliteration": "Peenaa",
+      "baseTranslation": "飲む (Peejiye / Piyo) *不規則",
+      "partOfSpeech": "Verb (Irregular)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "देना",
+      "transliteration": "Denaa",
+      "baseTranslation": "あげる/くれる (Deejiye / Do) *不規則",
+      "partOfSpeech": "Verb (Irregular)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "लेना",
+      "transliteration": "Lenaa",
+      "baseTranslation": "取る/もらう (Leejiye / Lo) *不規則",
+      "partOfSpeech": "Verb (Irregular)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "अंदर",
+      "transliteration": "Andar",
+      "baseTranslation": "中に (Inside)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "来る",
+    "行く",
+    "座る",
+    "見る",
+    "聞く",
+    "話す",
+    "飲む",
+    "あげる/くれる",
+    "取る/もらう",
+    "中に"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w04",
+      "targetText": "यहाँ देखिए।",
+      "transliteration": "Yahaan dekhiye.",
+      "baseTranslation": "ここを(ここに)見てください。"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "मेरी बात सुनो।",
+      "transliteration": "Meree baat suno.",
+      "baseTranslation": "私の話を聞いて(Tum用)。"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "मुझे पानी दीजिए।",
+      "transliteration": "Mujhe paanee deejiye.",
+      "baseTranslation": "私に水をください(敬語)。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the verb to its meaning: Dekhnaa (देखना)",
+      "questionType": "matching",
+      "options": ["座る", "見る"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the verb to its polite command form (Aap): Peenaa (पीना)",
+      "questionType": "matching",
+      "options": ["Peeye", "Peejiye"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the verb to its meaning: Sunnaa (सुनना)",
+      "questionType": "matching",
+      "options": ["聞く", "話す"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its Hindi translation: 中に (Inside)",
+      "questionType": "matching",
+      "options": ["Baahar", "Andar"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match 'Please give' (Denaa) to its correct irregular polite form:",
+      "questionType": "matching",
+      "options": ["Deejiye", "Deniye"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "来る",
+      "w02": "行く",
+      "w03": "座る",
+      "w04": "見る",
+      "w05": "聞く",
+      "w06": "話す",
+      "w07": "飲む",
+      "w08": "あげる/くれる",
+      "w09": "取る/もらう",
+      "w10": "中に"
+    },
+    "acceptedTranslations": {
+      "w01": ["来る", "入る"],
+      "w05": ["聞く", "聴く"]
+    },
+    "matchingKey": {
+      "q1": "見る",
+      "q2": "Peejiye",
+      "q3": "聞く",
+      "q4": "Andar",
+      "q5": "Deejiye"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！動詞の元の形を覚えたことで、「ナー(naa)」を外せばいつでも命令形を作れる準備が整いました。",
+    "onFail": "もう一度復習しましょう！特に不規則動詞である「Denaa(ディー・ジ・エになる)」と「Peenaa(ピー・ジ・エになる)」の変化には注意が必要です。",
+    "onPartial": "よくできました！Andar(中) や Baahar(外) 等の方向を示す単語は、Jaa(行く) や Aa(来る) とセットで非常によく使うので定型句として覚えましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b5/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b5/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b5/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b5/vocab/words_native.mp3",
+    "audioTranscript": "Aanaa. Jaanaa. Baiṭhnaa. Dekhnaa. Sunnaa. Bolnaa. Peenaa. Denaa. Lenaa. Andar.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "verbs", "action", "imperative", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "聞く(Sunnaa)と話す(Bolnaa)。Suno(聞いて)とBolo(話して)は、会話の中で頻繁に使われます。",
+  "commonMistakes": [
+    "Thinking 'Peenaa' becomes 'Peeniye' instead of 'Peejiye'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

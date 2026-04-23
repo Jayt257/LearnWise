@@ -1,0 +1,138 @@
+{
+  "activityId": "ja_hi_M2B5_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "speaking",
+  "title": "口頭でのお願い (Spoken Commands)",
+  "learningGoal": "The learner will orally generate accurate imperative structures in real-time, modifying the verb's stem based on the social hierarchy of the conversational partner (Tum vs Aap) and appropriately applying 'mat' for negations.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B5_vocabulary_001"],
+  "instructions": "画面に出る「相手の立場」に合わせて、日本語の指示をヒンディー語で声に出して伝えましょう！Hoon や Hai などの余計な To be 動詞を絶対にくっつけないことがポイントです。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 不規則動詞の Karnaa(する)と Peenaa(飲む)に気をつけてください！目上への言葉は Keejiye と Peejiye になります。"
+    }
+  ],
+  "speakingPrompt": "指定された相手に対して、正しい「命令・お願い」の文を声に出して言いなさい。",
+  "scenario": "You are giving instructions to various people (a friend, an elder, a child) in your house.",
+  "role": "The Host",
+  "conversationPartner": "Various Guests",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "相手: 友達(Tum)　指示：「そこに座って(Baiṭh)。」",
+      "expectedSpeakingPoints": ["Vahaan", "baiṭho"],
+      "sampleResponse": {
+        "targetText": "वहाँ बैठो।",
+        "transliteration": "Vahaan baiṭho.",
+        "baseTranslation": "そこに座って。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "相手: おじさん(Aap)　指示：「お茶(Chaay)を飲んでください(Pee)。」 ※不規則動詞",
+      "expectedSpeakingPoints": ["Chaay", "peejiye"],
+      "sampleResponse": {
+        "targetText": "चाय पीजिए।",
+        "transliteration": "Chaay peejiye.",
+        "baseTranslation": "お茶を飲んでください。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "相手: 目上の人(Aap)　指示：「仕事(Kaam)をしないでください(Kar)。」 ※禁止と不規則動詞",
+      "expectedSpeakingPoints": ["Kaam", "mat", "keejiye"],
+      "sampleResponse": {
+        "targetText": "काम मत कीजिए।",
+        "transliteration": "Kaam mat keejiye.",
+        "baseTranslation": "仕事をしないでください。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "कृपया मेरी बात सुनिए।",
+    "transliteration": "Krpayaa meree baat suniye.",
+    "baseTranslation": "（どうか）私の話を聞いてください。"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "वहाँ बैठो।",
+      "transliteration": "Vahaan baiṭho.",
+      "baseTranslation": "そこに座って。"
+    },
+    {
+      "targetText": "चाय पीजिए।",
+      "transliteration": "Chaay peejiye.",
+      "baseTranslation": "お茶を飲んでください。"
+    },
+    {
+      "targetText": "काम मत कीजिए।",
+      "transliteration": "Kaam mat keejiye.",
+      "baseTranslation": "仕事をしないでください。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "baiṭho",
+      "peejiye",
+      "mat keejiye"
+    ],
+    "requiredKeywords": [
+      "vahaan", "baiṭho", "chaay", "peejiye", "kaam", "mat", "keejiye"
+    ],
+    "acceptableParaphrases": [
+      "tum vahaan baiṭho"
+    ],
+    "scoringRubric": {
+      "Conjugation Match": "Must use 'baiṭho' for prompt 1, 'peejiye' (not peeiye) for prompt 2, 'mat keejiye' (not nahin kariye) for prompt 3.",
+      "Copula Penalty": "Immediately penalize any speech that adds 'hai/hain/hoon' to the end of these commands."
+    },
+    "sampleAnswer": "Vahaan baiṭho. Chaay peejiye. Kaam mat keejiye.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "素晴らしい！相手に合わせた オ(o) と イエ(iye) の滑らかな切り替えが完全に身についています。Mat keejiye のような難しい禁止表現も完璧でした！",
+    "onFail": "ここは非常に重要です！「Peeniye」や「Kariye」のように自分ルールで単語を作っていませんか？Peenaa と Karnaa はヒンディー語で最もよく使う不規則動詞なので、Peejiye、Keejiye という形を丸暗記してください。",
+    "onPartial": "よくお話しできています。第1文で「Baiṭho Hai」のように To be 動詞をつけていませんか？命令する時は、O や Iye で終わらせるだけで十分です！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b5/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m2/b5/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b5/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m2/b5/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m2/b5/speaking/full_dialogue.mp3",
+    "audioTranscript": "Learner: Vahaan baiṭho... Chaay peejiye... Kaam mat keejiye.",
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "commands", "imperative", "politeness", "negation", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Denaa(あげる)も Deejiye(ください)になる不規則動詞の仲間です。",
+  "commonMistakes": [
+    "Saying 'Nahin keejiye' instead of 'Mat keejiye'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

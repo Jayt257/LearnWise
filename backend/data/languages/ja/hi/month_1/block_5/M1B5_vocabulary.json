@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M1B5_vocabulary_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "vocabulary",
+  "title": "動詞の辞書形 (Dictionary Verbs)",
+  "learningGoal": "The learner will master 10 foundational verbs in their infinitive (-naa) form, establishing the base from which they can extract roots (e.g., Khaanaa -> Khaa) for conjugation mapping.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B5_listening_001"],
+  "instructions": "ヒンディー語の『動詞・無限形（辞書形）』を覚えましょう！辞書に載っている動詞はすべて「〜ナー (-naa)」で終わります。実際に使うときはこの「ナー」を切り捨てることを忘れないでください！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "単語を覚える時は、「Pee-naa（飲む）」のように「語幹＋ナー」のリズムで記憶すると、組み立ての際にスムーズです。"
+    }
+  ],
+  "vocabTheme": "Action Verbs (Infinitives)",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "खाना",
+      "transliteration": "Khaanaa",
+      "baseTranslation": "食べる",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "पीना",
+      "transliteration": "Peenaa",
+      "baseTranslation": "飲む",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "जाना",
+      "transliteration": "Jaanaa",
+      "baseTranslation": "行く",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "आना",
+      "transliteration": "Aanaa",
+      "baseTranslation": "来る",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "देखना",
+      "transliteration": "Dekhnaa",
+      "baseTranslation": "見る",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "करना",
+      "transliteration": "Karnaa",
+      "baseTranslation": "する (Do)",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "पढ़ना",
+      "transliteration": "Paḍhnaa",
+      "baseTranslation": "読む / 勉強する",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "सेब",
+      "transliteration": "Seb",
+      "baseTranslation": "りんご (名詞)",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "पानी",
+      "transliteration": "Paanee",
+      "baseTranslation": "水 (名詞)",
+      "partOfSpeech": "Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "रोज़",
+      "transliteration": "Roz",
+      "baseTranslation": "毎日 (副詞)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "食べる",
+    "飲む",
+    "行く",
+    "来る",
+    "見る",
+    "する",
+    "読む / 勉強する",
+    "りんご",
+    "水",
+    "毎日"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w02",
+      "targetText": "मैं पानी पीता हूँ।",
+      "transliteration": "Main paanee peetaa hoon.",
+      "baseTranslation": "私は水を飲みます。(Pee + taa)"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "आप क्या करते हैं?",
+      "transliteration": "Aap kyaa karte hain?",
+      "baseTranslation": "あなたは何をしますか？(Kar + te)"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "मैं किताब पढ़ती हूँ।",
+      "transliteration": "Main kitaab paḍhtee hoon.",
+      "baseTranslation": "私は本を読みます。(Paḍh + tee ※女性)"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its Japanese equivalent: Khaanaa",
+      "questionType": "matching",
+      "options": ["行く", "食べる"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its Japanese equivalent: Jaanaa",
+      "questionType": "matching",
+      "options": ["行く", "来る"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the word to its Japanese equivalent: Peenaa",
+      "questionType": "matching",
+      "options": ["読む", "飲む"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its Japanese equivalent: Karnaa",
+      "questionType": "matching",
+      "options": ["見る", "する (Do)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match the word to its Japanese equivalent: Paanee",
+      "questionType": "matching",
+      "options": ["毎日", "水"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "食べる",
+      "w02": "飲む",
+      "w03": "行く",
+      "w04": "来る",
+      "w05": "見る",
+      "w06": "する",
+      "w07": "読む / 勉強する",
+      "w08": "りんご",
+      "w09": "水",
+      "w10": "毎日"
+    },
+    "acceptedTranslations": {
+      "w06": ["する", "やる"],
+      "w07": ["読む", "勉強する", "学ぶ"]
+    },
+    "matchingKey": {
+      "q1": "食べる",
+      "q2": "行く",
+      "q3": "飲む",
+      "q4": "する (Do)",
+      "q5": "水"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！すべての動詞の基本形（〜ナー）をマスターしました。これで、語幹を切り出していくらでも文が作れます！",
+    "onFail": "もう一度復習しましょう！「Khaanaa（食べる）」「Jaanaa（行く）」「Peenaa（飲む）」などは、生活の中で一番使う言葉です。",
+    "onPartial": "よくできました！似ている音として「Jaanaa（行く）」と「Aanaa（来る）」がありますが、Aanaa が「来る」だと覚えておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b5/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b5/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b5/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b5/vocab/words_native.mp3",
+    "audioTranscript": "Khaanaa. Peenaa. Jaanaa. Aanaa. Dekhnaa. Karnaa. Paḍhnaa. Seb. Paanee. Roz.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "verbs", "infinitives", "actions", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "これらはすべて辞書に乗っている形です。「私が（Main）」と言う時は、最後の Naa を取って Taa / Tee に変えて使います！",
+  "commonMistakes": [
+    "Trying to conjugate by saying 'Main khaanaataa hoon' instead of removing the root."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

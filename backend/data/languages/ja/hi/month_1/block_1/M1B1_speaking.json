@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M1B1_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "ドライバーへの挨拶 (Greeting the Driver)",
+  "learningGoal": "The learner will successfully articulate basic Hindi greetings and self-identifying statements with appropriate aspiration and SOV structure, avoiding literal Japanese phonetic transfer.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B1_vocabulary_001"],
+  "instructions": "今度はあなたが話す番です！空港に到着し、迎えに来てくれたインド人のドライバーに挨拶をします。習ったフレーズを使って、自信を持って自己紹介をしましょう！",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "マイクに向かって、ハッキリと発音してください。日本語のアクセント（カタカナ発音）にならないように注意してください！"
+    }
+  ],
+  "speakingPrompt": "ドライバーの質問に対して、ヒンディー語の声で答えてください。",
+  "scenario": "A Japanese tourist meeting their Indian driver at the airport.",
+  "role": "Hiroshi (The Japanese Tourist)",
+  "conversationPartner": "Raaj (The Indian Driver)",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "ドライバー: 'नमस्ते! क्या आप हिरोशी हैं?' (こんにちは！あなたはヒロシですか？) 答え：「こんにちは。はい、私の名前はヒロシです。」",
+      "expectedSpeakingPoints": ["Namaste", "Haan", "mera naam Hiroshi hai"],
+      "sampleResponse": {
+        "targetText": "नमस्ते। हाँ, मेरा नाम हिरोशी है।",
+        "transliteration": "Namaste. Haan, mera naam Hiroshi hai.",
+        "baseTranslation": "こんにちは。はい、私の名前はヒロシです。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "ドライバー: 'आपका स्वागत है! मेरा नाम राज है।' (ようこそ！私の名前はラージです。) 答え：「ありがとう、ラージ。私は元気です。」",
+      "expectedSpeakingPoints": ["Dhanyavaad", "Main theek hoon"],
+      "sampleResponse": {
+        "targetText": "धन्यवाद राज। मैं ठीक हूँ।",
+        "transliteration": "Dhanyavaad Raaj. Main ṭheek hoon.",
+        "baseTranslation": "ありがとうラージ。私は元気です。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते! क्या आप हिरोशी हैं?",
+    "transliteration": "Namaste! Kyaa aap Hiroshi hain?",
+    "baseTranslation": "こんにちは！あなたはヒロシですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। हाँ, मेरा नाम हिरोशी है।",
+      "transliteration": "Namaste. Haan, mera naam Hiroshi hai.",
+      "baseTranslation": "こんにちは。はい、私の名前はヒロシです。"
+    },
+    {
+      "targetText": "धन्यवाद राज। मैं ठीक हूँ।",
+      "transliteration": "Dhanyavaad Raaj. Main ṭheek hoon.",
+      "baseTranslation": "ありがとうラージ。私は元気です。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 40,
+    "grammarWeight": 10,
+    "vocabularyWeight": 20
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Namaste",
+      "Haan",
+      "mera naam",
+      "hai",
+      "Dhanyavaad",
+      "Main theek hoon"
+    ],
+    "requiredKeywords": [
+      "namaste", "haan", "mera", "naam", "hai", "dhanyavaad", "main", "theek", "hoon"
+    ],
+    "acceptableParaphrases": [
+      "haan main hiroshi hoon",
+      "shukriya"
+    ],
+    "scoringRubric": {
+      "Aspiration Check": "Did the user pronounce 'ṭheek' with strong breath, or say 'chiiku'?",
+      "SOV Rule": "Did the user put 'hai' at the end of the sentence like 'desu'?"
+    },
+    "sampleAnswer": "Namaste. Haan mera naam Hiroshi hai. Dhanyavaad Raaj. Main theek hoon.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！見事にインド人のドライバーとコミュニケーションが取れました。ヒンディー語の話し方の基本が身についています！",
+    "onFail": "もう一度練習しましょう。日本語の「ウ」や「オ」の音を無理に入れようとしないでください。（例：Namasute, Dhanyavaado）。また、文の最後は Hai で終わることを忘れないでください。",
+    "onPartial": "惜しい！'Main ṭheek hoon'（私は元気です）の部分が少し不自然でした。Main の後は Hai ではなく Hoon を使うことに注意してください。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b1/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m1/b1/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b1/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m1/b1/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m1/b1/speaking/full_dialogue.mp3",
+    "audioTranscript": "Driver: Namaste! Kyaa aap Hiroshi hain...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "greetings", "airport", "introductions", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の「私の名前は〇〇です」と同じ語順で、「Mera naam (名前) hai」と発音すれば完璧です。",
+  "commonMistakes": [
+    "Pronouncing 'ṭheek' as 'chiiku'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

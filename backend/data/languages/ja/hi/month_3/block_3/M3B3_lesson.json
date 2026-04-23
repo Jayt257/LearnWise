@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_hi_M3B3_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "会話を繋ぐ接続詞 (Complex Conjunctions)",
+  "learningGoal": "The learner will master Hindi's correlative conjunction pairs (Agar... to, Jab... tab) and the subordinating conjunction 'Ki', allowing them to construct multi-clause complex sentences.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M3B2_test_001"],
+  "instructions": "Month 3 の醍醐味！「もし〜なら〜だ」「〜した時、〜だ」「〜だと思う」のように、2つの短い文を1つの長い文にくっつけるための魔法の言葉（接続詞）を覚えましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "ヒンディー語の接続詞の最大の特徴は「ペア（セット）で使う」ことです。前と後ろのタイミングを合わせる感覚を身に付けましょう。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The Subordinator 'Ki' (that): Used after verbs of cognition/speech like saying, thinking, knowing. (Main jaantaa hoon ki... = I know that...).",
+      "The Conditional Pair 'Agar ... to' (If ... then): agar always starts the condition clause, to always starts the consequence clause.",
+      "The Temporal Pair 'Jab ... tab' (When ... then): Sets up a specific timeframe relative to the action."
+    ],
+    "conceptSummary": "Shifts the learner from isolated simple sentences to multi-clause dependencies, heavily emphasizing the correlative nature of Indo-Aryan conjunctions.",
+    "importantFacts": [
+      "Unlike English 'If you come, I will go', Hindi demands the explicit 'Then' -> 'Agar tum aaoge, TO main jaaoongaa.' Skipping the 'to' or 'tab' sounds grammatically broken to native ears."
+    ],
+    "checkpointAnswers": {
+      "q1": "Ki (कि)",
+      "q2": "To (तो)",
+      "q3": "Tab (तब)"
+    },
+    "expectedUnderstanding": "Learners will predict the second half of a correlative pair the moment they deploy the first half."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の「セットで使う接続詞」の性質を完全に理解できました。「Agar」が出たら「To」を待つという、ネイティブの脳の仕組みが作られ始めています！",
+    "onFail": "一息つきましょう！ヒンディー語では「もし（Agar）〜」と条件を始めたら、必ず「その時は（To）〜」で受け止めなければ文章が崩壊してしまいます。ペアを意識してください。",
+    "onPartial": "惜しいところがあります！「〜だと思う」という時の「Ki (कि)」は非常に短い単語です。「Kee (की)」と伸ばしてしまうと「〜の(所有格)」という意味に変わってしまうので気をつけてください！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b3/lesson/native_conj.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b3/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b3/lesson/slow_conj.mp3",
+    "normalAudio": "audio/ja_hi/m3/b3/lesson/native_conj.mp3",
+    "audioTranscript": "Mujhe lagtaa hai ki... Agar tum aaoge to... Jab main jaaoongaa tab...",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "conjunctions", "complex_sentences", "fluency", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b3/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Agar(もし) と Jab(いつ) は文章の先頭に置かれます。",
+  "commonMistakes": [
+    "Translating English 'I know THAT' as Hindi 'Vah' instead of 'Ki'. 'Vah' is the pronoun that, 'Ki' is the conjunction that."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "文章をくっつける魔法の接着剤",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "「〜だと思う / 〜だと知っている」: Ki (कि)",
+      "bodyText": "「私は彼が来ると思う」のように、自分の考えや知識を説明する時に使います。英語の『that』に当たります。前の文言と後ろの事象を『キ(ki)』で接着します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझे लगता है कि वह अच्छा है।",
+          "transliteration": "Mujhe lagtaa hai ki vah achchhaa hai.",
+          "baseTranslation": "私は、彼は良い（ヤツ）だと思う。 [私に思える + ki(〜だと) + 彼は良い]"
+        },
+        {
+          "targetText": "मैं जानता हूँ कि तुम झूठ बोल रहे हो।",
+          "transliteration": "Main jaantaa hoon ki tum jhooṭh bol rahe ho.",
+          "baseTranslation": "私は、君が嘘をついていると知っている。 [私は知っている + ki + 君は嘘をついている]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "「もし〜なら、その時は…」: Agar ... To ...",
+      "bodyText": "ヒンディー語の条件文は「Agar (もし)」から始まり、文の後半を必ず「To (その時は)」で受け止めなければなりません。このペアは絶対のルールです。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "अगर बारिश होगी, तो मैं नहीं जाऊँगा।",
+          "transliteration": "Agar baarish hogee, to main nahin jaaoongaa.",
+          "baseTranslation": "もし(agar)雨が降るなら、その時は(to)私は行かない。"
+        },
+        {
+          "targetText": "अगर तुम आओगे, तो मैं खुश होऊँगा।",
+          "transliteration": "Agar tum aaoge, to main khush ho-oongaa.",
+          "baseTranslation": "もし君が来るなら、僕は嬉しいだろう。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "「〜の時、その時は…」: Jab ... Tab ...",
+      "bodyText": "「私が日本に行った時…」など、時間を指定する時は「Jab (〜の時)」を使います。そして Agar と同じように、後半の文を「Tab (その時に)」で受け止めます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "जब मैं भारत में था, तब मैंने हिंदी सीखी।",
+          "transliteration": "Jab main Bhaarat mein thaa, tab mainne hindee seekhee.",
+          "baseTranslation": "私(男)がインドにいた時(jab)、その時(tab)私はヒンディー語を勉強した。"
+        },
+        {
+          "targetText": "जब तुम फ्री होगे, तब मुझे फ़ोन करना।",
+          "transliteration": "Jab tum free hoge, tab mujhe phone karnaa.",
+          "baseTranslation": "君が暇な(フリーな)時、その時に私に電話して。"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will construct multi-clause dependencies, specifically mastering the mandatory correlative pairs (agar->to, jab->tab) and the mental-state boundary marker (ki).",
+  "examples": [
+    {
+      "targetText": "मुझे पता है कि अगर तुम जाओगे, तो वह भी जाएगी।",
+      "transliteration": "Mujhe pataa hai ki agar tum jaaoge, to vah bhee jaaegee.",
+      "baseTranslation": "私は［もし君が行くなら、彼女も行く］ということを(Ki)知っている。",
+      "explanation": "Master level phrasing combining 'ki' and the 'agar...to' pair into one sentence."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「もし〜」と始めたら「To」、「〜の時」と始めたら「Tab」を絶対に忘れないこと！",
+      "exceptionNotes": "ネイティブ同士の超カジュアルな会話では最初の Agar や Jab が省略されることはありますが、真ん中の To や Tab は絶対に省略されません。（例：Tum aaoge, TO main jaaoongaa）"
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "接続詞の Ki(〜ということ) と、所有格の Kee(〜の) を混同しないこと。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドでは「Mujhe lagtaa hai ki... (私は〜と思う・感じがする)」が非常によく使われます。直接的な断言を避け、自分の感覚(フィーリング)であることを伝える控えめで丁寧な表現です。",
+    "dosList": ["Use 'Mujhe lagtaa hai ki' to soften your opinions."],
+    "dontsList": []
+  },
+  "summary": "【英語のThat 】文 ＋ ki(〜ということ) ＋ 文\n【もし〜なら】Agar ＋ 条件文 ＋ to(その時は) ＋ 結果\n【〜の時】Jab ＋ 状況 ＋ tab(その時に) ＋ 結果",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「彼は来ると思う(私は〜と思う＋彼が来る)」という時、2つの文を繋ぐ短い接着剤(こと/That)は何ですか？",
+      "expectedAnswer": "Ki (कि)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "『Agar(もし)』で始まる条件文。後半を始めるために必ず置かなければならない接着剤は何ですか？",
+      "expectedAnswer": "To (तो)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "『Jab(〜の時)』で始まる時間文。後半を始めるために必ず置かなければならない接着剤は何ですか？",
+      "expectedAnswer": "Tab (तब)"
+    }
+  ]
+}

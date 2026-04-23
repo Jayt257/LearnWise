@@ -1,0 +1,152 @@
+{
+  "activityId": "ja_hi_M1B4_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "listening",
+  "title": "どこにある？ (Where is it?)",
+  "learningGoal": "The learner will parse conversational Hindi audio to identify the spatial postpositions (Mein, Par) attached to specific locations, successfully answering 'Where' (Kahaan) questions.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M1B4_writing_001"],
+  "instructions": "ラージが部屋の中で探し物をしています。彼の言葉を聞いて、本や犬が「どこに (Mein / Parなど)」あるのかを聞き取ってください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "「どこ（Kahaan）」という言葉の後に続く場所に注目してください。"
+    }
+  ],
+  "listeningGoal": "Identify the distinct locational postposition modifying the target noun within high-speed audio.",
+  "audioScenario": "Raj is looking for his book and checking on his dog.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: मेरी किताब कहाँ है?",
+      "transliteration": "Raaj: Meri kitaab kahaan hai?",
+      "baseTranslation": "ラージ：私の本はどこですか？"
+    },
+    {
+      "targetText": "अमित: किताब मेज़ पर है।",
+      "transliteration": "Amit: Kitaab mez par hai.",
+      "baseTranslation": "アミト：本は机の上です。"
+    },
+    {
+      "targetText": "राज: नहीं, मेज़ पर नहीं है।",
+      "transliteration": "Raaj: Nahin, mez par nahin hai.",
+      "baseTranslation": "ラージ：いいえ、机の上にはありません。"
+    },
+    {
+      "targetText": "अमित: ओहो। किताब कमरे में है।",
+      "transliteration": "Amit: Oho. Kitaab kamre mein hai.",
+      "baseTranslation": "アミト：おっと。本は部屋の中にあります。"
+    },
+    {
+      "targetText": "राज: ठीक है। और कुत्ता कहाँ है?",
+      "transliteration": "Raaj: Ṭheek hai. Aur kuttaa kahaan hai?",
+      "baseTranslation": "ラージ：わかりました。そして犬はどこですか？"
+    },
+    {
+      "targetText": "अमित: कुत्ता गाड़ी में है।",
+      "transliteration": "Amit: Kuttaa gaaḍee mein hai.",
+      "baseTranslation": "アミト：犬は車の中です。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Meri kitaab kahaan hai?\nAmit: Kitaab mez par hai.\nRaaj: Nahin, mez par nahin hai.\nAmit: Oho. Kitaab kamre mein hai.\nRaaj: Ṭheek hai. Aur kuttaa kahaan hai?\nAmit: Kuttaa gaaḍee mein hai.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージが最初に探していたものは何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["車 (Gaaḍee)", "本 (Kitaab)", "犬 (Kuttaa)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アミトは最初、本がどこにあると言いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["机の上 (Mez par)", "部屋の中 (Kamre mein)", "車の中 (Gaaḍee mein)"],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージが見た後、本は本当に「机の上」にありましたか？",
+      "questionType": "true_false",
+      "options": ["ない (Nahin と言っている)", "ある (Haan と言っている)"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最終的に、本はどこにありましたか？",
+      "questionType": "multiple_choice",
+      "options": ["机の上 (Mez par)", "部屋の中 (Kamre mein)"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "犬 (Kuttaa) はどこにいますか？(ヒント: 〜の中に＝mein を使って答えを見つけます)",
+      "questionType": "multiple_choice",
+      "options": ["家の中 (Ghar mein)", "車の中 (Gaaḍee mein)"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "本 (Kitaab)",
+      "q2": "机の上 (Mez par)",
+      "q3": "ない (Nahin と言っている)",
+      "q4": "部屋の中 (Kamre mein)",
+      "q5": "車の中 (Gaaḍee mein)"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "やりましたね！音声の中から「Par（上）」と「Mein（中）」を確実に聞き分けて、モノがどこにあるかを把握できました。",
+    "onFail": "もう一度聞いてみましょう。アミトが「Mez par (机の上)」と言った後、ラージが「Nahin (違うよ)」と否定しています。",
+    "onPartial": "よく聞いています！車（Gaaḍee）の後ろに「Mein（の中）」が付いていることに気付けましたか？この繋がりが日本語の「車の中」という構造とピッタリ同じです！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b4/listening/where_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b4/listening/where_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b4/listening/where_native.mp3",
+    "audioTranscript": "Raaj: Meri kitaab kahaan hai?...\n(Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 65,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "locations", "postpositions", "particles", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Kahaan (どこ) という質問がされた直後の返答に、場所（名詞）＋ 助詞（Par / Mein）がくっついて出てきます。",
+  "commonMistakes": [
+    "Thinking the book is on the table (mez par) and missing Raj's correction (nahin)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

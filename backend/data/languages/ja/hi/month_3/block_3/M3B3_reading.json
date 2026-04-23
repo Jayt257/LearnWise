@@ -1,0 +1,215 @@
+{
+  "activityId": "ja_hi_M3B3_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "未来の約束 (Promises & Conditions)",
+  "learningGoal": "The learner will parse complex multi-clause sentences, successfully identifying the pivot points (ki, to, tab) that link conditions to consequences and mental states to realities.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B3_pronunciation_001"],
+  "instructions": "ラージがケンにインド訪問についてメッセージを送っています。文が長くなっていますが、パニックにならないでください！「Ki(〜ということ)」や「To(その時は)」「Tab(その時に)」という接着剤を見つけることで、文章をブロックごとに分解して読むことができます。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 「Mujhe lagtaa hai ki...」は「私は、〜だと（Ki）思う」という定型表現として覚えましょう。"
+    }
+  ],
+  "readingTitle": "राज का निमंत्रण (Raj's Invitation)",
+  "readingText": "नमस्ते केन। मुझे लगता है कि तुम्हें भारत आना चाहिए। अगर तुम अगले साल आओगे, तो हम ताजमहल देखने जाएँगे। जब तुम यहाँ होगे, तब मैं तुम्हें अच्छा खाना खिलाऊँगा। मुझे मालूम है कि तुम मसालेदार खाना पसंद करते हो।",
+  "textInTargetLanguage": "नमस्ते केन। मुझे लगता है कि तुम्हें भारत आना चाहिए। अगर तुम अगले साल आओगे, तो हम ताजमहल देखने जाएँगे। जब तुम यहाँ होगे, तब मैं तुम्हें अच्छा खाना खिलाऊँगा। मुझे मालूम है कि तुम मसालेदार खाना पसंद करते हो।",
+  "baseLanguageSupportText": "やあケン。僕は、君はインドに来るべきだと思うよ。もし君が来年来るなら、その時は僕たちタージマハルを見に行こう。君がここにいる時、その時に僕が君に美味しいご飯を食べさせてあげる。君がスパイシーなご飯が好きだってこと、僕は知ってるよ。",
+  "glossary": [
+    {
+      "targetText": "मुझे लगता है",
+      "transliteration": "Mujhe lagtaa hai",
+      "baseTranslation": "私は〜と思う / 〜と感じる (直訳:私に〜のようについている)",
+      "exampleSentence": {
+        "targetText": "मुझे लगता है कि वह जाएगा।",
+        "transliteration": "Mujhe lagtaa hai ki vah jaaegaa.",
+        "baseTranslation": "私は彼が行くと思う。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "कि",
+      "transliteration": "Ki",
+      "baseTranslation": "〜ということ (That) ※前の文と思考の内容を繋ぐ",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "चाहिए",
+      "transliteration": "chaahiye",
+      "baseTranslation": "〜するべきだ / 〜が欲しい",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし〜 (If)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "तो",
+      "transliteration": "to",
+      "baseTranslation": "その時は (Then) ※Agarと必ずセット",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "देखने जाएँगे",
+      "transliteration": "dekhne jaaenge",
+      "baseTranslation": "見に行くつもりだ (見る為に[dekhne]行く[jaaenge])",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "जब",
+      "transliteration": "Jab",
+      "baseTranslation": "〜の時 (When) ※時間を示す",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "तब",
+      "transliteration": "tab",
+      "baseTranslation": "その時に (Then) ※Jabと必ずセット",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "खिलाऊँगा",
+      "transliteration": "khilaaoongaa",
+      "baseTranslation": "食べさせるよ (Khaanaa[食べる]の使役形+oongaa)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मुझे मालूम है",
+      "transliteration": "Mujhe maaloom hai",
+      "baseTranslation": "私は知っている (I know / I have knowledge)",
+      "exampleSentence": {
+        "targetText": "मुझे मालूम है कि तुम खुश हो।",
+        "transliteration": "Mujhe maaloom hai ki tum khush ho.",
+        "baseTranslation": "私は君が嬉しいということ(Ki)を知っている。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मसालेदार",
+      "transliteration": "masaaledaar",
+      "baseTranslation": "スパイシーな / 香辛料の効いた",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "अगर तुम अगले साल आओगे, तो हम ताजमहल देखने जाएँगे।",
+      "transliteration": "Agar tum agle saal aaoge, to hum taajmahal dekhne jaaenge.",
+      "baseTranslation": "もし(agar)君が来年来るなら、その時は(to)僕らはタージマハルを見に行くよ。[条件と結果のセット]"
+    },
+    {
+      "targetText": "मुझे मालूम है कि तुम मसालेदार खाना पसंद करते हो।",
+      "transliteration": "Mujhe maaloom hai ki tum masaaledaar khaanaa pasand karte ho.",
+      "baseTranslation": "私は知っているよ ＋ Ki(ということ) ＋ 君はスパイシーなご飯を好きだ。[メインの文と思考内容の接着]"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「Mujhe lagtaa hai (私は思う)」の後ろに置かれている、思考の内容を繋ぐ短い接着剤(こと/That)の単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["To", "Ki", "Tab"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ラージは「タージマハルを見に行こう」と提案していますが、何という『条件』が満たされたらそうすると言っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["ケンが来る時 (いつ来るかは決まっていない)", "もし(Agar)ケンが来年(来たら) (To)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージがケンに美味しいご飯を食べさせてあげるのは「いつ」だと約束していますか？",
+      "questionType": "multiple_choice",
+      "options": ["もし(Agar)お金があったら", "君がここにいる時 (Jab ... tab)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最後の文で「Mujhe maaloom hai (知っている)」の中身として、ラージはケンについて何を知っていると言っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["彼がタージマハルを好きだということ", "彼がスパイシーなご飯(masaaledaar khaanaa)を好きだということ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "文章を作るための接着剤である「もし(If)」と「時(When)」に当たる単語をそれぞれローマ字で答えてください(空白で区切る)。",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Ki",
+      "q2": "もし(Agar)ケンが来年(来たら) (To)",
+      "q3": "君がここにいる時 (Jab ... tab)",
+      "q4": "彼がスパイシーなご飯(masaaledaar khaanaa)を好きだということ",
+      "q5": "agar jab"
+    },
+    "acceptableParaphrases": {
+      "q5": ["agar jab", "Agar Jab", "agar, jab", "Agar, Jab"]
+    },
+    "keywordScoringRules": {
+      "q5": ["agar", "jab"]
+    },
+    "expectedSummaryPoints": [
+      "The learner identifies 'ki' as the hinge between the mental state 'Mujhe maaloom hai' and the factual reality clause.",
+      "The learner successfully parses the 'agar...to' clause sequence avoiding blending the condition with the consequence."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Ki / To / Tab という「文章の節目」になる記号を完璧に見つけています。これでどんなに長いヒンディー語の文章でも、ブロックごとに分けて理解できるようになります！",
+    "onFail": "一呼吸置いて、構造を分解しましょう。「Agar(もし)」で始まる文は「To(なら)」、「Jab(時)」で始まる文は「Tab(その時)」という印までが一つの塊になります。この印を探しながら読んでみてください。",
+    "onPartial": "よく読めて読めています！「Mujhe lagtaa hai ki... (〜だと思う)」「Mujhe maaloom hai ki... (〜だと知っている)」。この2つの表現はインド人の口癖レベルで毎日使うので、塊ごと覚えてください！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b3/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b3/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m3/b3/reading/native_reading.mp3",
+    "audioTranscript": "Namaste Ken. Mujhe lagtaa hai ki... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "conjunctions", "complex_sentences", "agar_to", "jab_tab", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b3/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「To（ト）」を見つけたら、そこで脳内の日本語訳を一区切りさせるとスムーズに読めます。",
+  "commonMistakes": [
+    "Reading straight through 'to' and 'tab' without recognizing them as the start of the main consequent clause."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

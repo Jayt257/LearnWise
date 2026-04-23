@@ -1,0 +1,199 @@
+{
+  "activityId": "ja_hi_M2B3_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "週末の予定 (Weekend Plans)",
+  "learningGoal": "The learner will decode a Devanagari text outlining future events, accurately assigning subjects based on their specific future conjugational affixes (-oongaa, -egee, -enge).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B3_pronunciation_001"],
+  "instructions": "ラージ（男性）が書いた、今週末の予定を読んでみましょう。誰が何をする予定なのか、文末にある特有の『ガー・ギー・ゲー』の音を頼りに読み解いてください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "未来形にはTo be動詞（Hoon・Hai）はつきません！Oongaa だけで「（私が）〜するつもりだ」が完成しています。"
+    }
+  ],
+  "readingTitle": "इस सप्ताहांत (This Weekend)",
+  "readingText": "नमस्ते। इस सप्ताहांत मैं काम नहीं करूँगा। मैं आराम करूँगा। मेरी दोस्त अनीता जापान जाएगी। वह वहाँ जापानी खाना खाएगी। हम अगले महीने मिलेंगे।",
+  "textInTargetLanguage": "नमस्ते। इस सप्ताहांत मैं काम नहीं करूँगा। मैं आराम करूँगा। मेरी दोस्त अनीता जापान जाएगी। वह वहाँ जापानी खाना खाएगी। हम अगले महीने मिलेंगे。",
+  "baseLanguageSupportText": "こんにちは。今週末、私は仕事をしません（するつもりはない）。私は休みます。私の友達のアニタは日本へ行きます。彼女はそこで日本食を食べるでしょう。私たちは来月会います。",
+  "glossary": [
+    {
+      "targetText": "इस सप्ताहांत",
+      "transliteration": "Is saptaahaant",
+      "baseTranslation": "今週末 (This weekend)",
+      "exampleSentence": {
+        "targetText": "इस सप्ताहांत मैं आराम करूँगा।",
+        "transliteration": "Is saptaahaant main aaraam karoongaa.",
+        "baseTranslation": "今週末、私は休みます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "करूँगा (करना)",
+      "transliteration": "Karoongaa (Karnaa)",
+      "baseTranslation": "〜するつもりだ (する・男の未来形)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "नहीं",
+      "transliteration": "Nahin",
+      "baseTranslation": "〜ない (否定)",
+      "exampleSentence": {
+        "targetText": "मैं काम नहीं करूँगा।",
+        "transliteration": "Main kaam nahin karoongaa.",
+        "baseTranslation": "私は仕事をしません。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "जाएगी (जाना)",
+      "transliteration": "Jaaeegee (Jaanaa)",
+      "baseTranslation": "行くでしょう (行く・彼/彼女(女性)の未来形)",
+      "exampleSentence": {
+        "targetText": "अनीता जापान जाएगी।",
+        "transliteration": "Aneeta Jaapaan jaaeegee.",
+        "baseTranslation": "アニタは日本へ行きます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "वहाँ",
+      "transliteration": "Vahaan",
+      "baseTranslation": "そこで / あそこに",
+      "exampleSentence": {
+        "targetText": "वह वहाँ खाएगी।",
+        "transliteration": "Vah vahaan khaaeegee.",
+        "baseTranslation": "彼女はそこで食べるでしょう。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "अगले महीने",
+      "transliteration": "Agle maheene",
+      "baseTranslation": "来月 (Next month)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मिलेंगे (मिलना)",
+      "transliteration": "Milenge (Milnaa)",
+      "baseTranslation": "会うでしょう (会う・私たちの未来形)",
+      "exampleSentence": {
+        "targetText": "हम मिलेंगे।",
+        "transliteration": "Hum milenge.",
+        "baseTranslation": "私たちは会います。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं काम नहीं करूँगा।",
+      "transliteration": "Main kaam nahin karoongaa.",
+      "baseTranslation": "私は仕事をしません。（Kar ＋ oongaa）"
+    },
+    {
+      "targetText": "वह वहाँ जापानी खाना खाएगी।",
+      "transliteration": "Vah vahaan Jaapaanee khaanaa khaaeegee.",
+      "baseTranslation": "彼女はそこで日本食を食べるでしょう。（Khaa ＋ eegee）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージ（この文章を書いている私）は、今週末何をしますか？",
+      "questionType": "multiple_choice",
+      "options": ["日本へ行く (Jaaoongaa)", "仕事を休んでリラックスする (Aaraam karoongaa)", "日本食を食べる (Khaaoongaa)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「アニタは日本へ行きます」という文で、行く(Jaa)の語幹の後ろについている未来形の音はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["oongaa (私男のルール)", "eegee (彼女のルール)", "egaa (彼のルール)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "アニタは日本に到着した後、「そこで (vahaan)」何をしますか？",
+      "questionType": "multiple_choice",
+      "options": ["仕事をする (Kaam karegee)", "日本食を食べる (Khaanaa khaaeegee)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「来月 (Agle maheene)会う予定だ」と言っている主語は誰ですか？動詞が Milenge (エの音) になっていることから推測してください。",
+      "questionType": "multiple_choice",
+      "options": ["私とアニタ (私たち：Hum)", "ラージ一人 (私：Main)", "アニタ一人 (彼女：Vah)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ラージは「私は仕事(Kaam)を『しません』」と否定しています。「〜ない」を表す短い単語は何ですか？（ローマ字）",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "仕事を休んでリラックスする (Aaraam karoongaa)",
+      "q2": "eegee (彼女のルール)",
+      "q3": "日本食を食べる (Khaanaa khaaeegee)",
+      "q4": "私とアニタ (私たち：Hum)",
+      "q5": "Nahin"
+    },
+    "acceptableParaphrases": {
+      "q5": ["Nahin", "nahin", "nahi", "Nahi", "ナヒーン"]
+    },
+    "keywordScoringRules": {
+      "q5": ["nahi", "nahin", "nahiin"]
+    },
+    "expectedSummaryPoints": [
+      "The learner successfully identifies the future suffixes '-oongaa' and '-eegee' tracking them to their respective subjects (Main and Aneeta).",
+      "Recognizes plural conjugation '-enge' attached to 'Hum' (We)."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Oongaa / Eegee / Enge という未来形の３パターンの音の変化を正確に読み取りました。「ガー、ギー、ゲー」が未来のサインだと直感的に理解できています。",
+    "onFail": "もう一度！「Main karoongaa」と「Vah khaaeegee」の違いに注目します。Raaj（私＝男）はウーンガーですが、Anita（彼女）はエーギーという音に変化させなければなりません！",
+    "onPartial": "よく読めて読めています！Q4の「Hum(私たち)」に対する「Enge」ですが、これはAap(あなた)の時にも使われる「丁寧に複数人を扱う」法則と同じです。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b3/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b3/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m2/b3/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Is saptaahaant main kaam nahin karoongaa... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "否定の言葉「Nahin（しない）」は、動詞の直前に置くのが自然です。",
+  "commonMistakes": [
+    "Thinking 'Milenge' means Raj is talking to Anita formally (Aap), instead of meaning 'We' (Hum)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,156 @@
+{
+  "activityId": "ja_hi_M3B6_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "ヒンディー語・実戦スピード会話 (The Final Listening Exam)",
+  "learningGoal": "The learner will aurally process a rapid, multifaceted natural conversation encompassing conditionals, prices, temporal locatives, and medical states without visual crutches.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M3B6_writing_001"],
+  "instructions": "最後のリスニングテストです。インド特有の超高速の会話が流れます。「時間(明日＝kal)」「条件(もし＝agar)」「値段」「症状」という全ての情報が一気に押し寄せてきますが、これまで鍛えた耳なら聞き取れます。集中してください！",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "会話の途中で話がどんどん変わりますが、パニックにならず、知っている単語を繋ぎ合わせてください。"
+    }
+  ],
+  "listeningGoal": "Track a conversation that rapidly shifts contexts from travel planning, to pricing, to health, pulling all M1-M3 grammatical parameters.",
+  "audioScenario": "Raj and Anita are finalizing complex plans for the weekend amidst various logistical and physical disruptions.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, कल तुम क्या करोगी?",
+      "transliteration": "Raaj: Aneeta, kal tum kyaa karogee?",
+      "baseTranslation": "ラージ：アニタ、明日君は何をするの？(未来形・女)"
+    },
+    {
+      "targetText": "अनीता: मुझे नई दिल्ली जाना है।",
+      "transliteration": "Aneeta: Mujhe naee Dillee jaanaa hai.",
+      "baseTranslation": "アニタ：私はニューデリーに行かなくちゃいけないの(Mujhe... jaanaa hai)。"
+    },
+    {
+      "targetText": "राज: ट्रेन का टिकट कितने का है?",
+      "transliteration": "Raaj: Ṭren kaa ṭikaṭ kitne kaa hai?",
+      "baseTranslation": "ラージ：電車のチケットはいくら？"
+    },
+    {
+      "targetText": "अनीता: टिकट पाँच सौ रुपये का है। लेकिन मुझे लगता है कि मैं नहीं जा पाऊँगी।",
+      "transliteration": "Aneeta: Ṭikaṭ paanch sau rupaye kaa hai. Lekin mujhe lagtaa hai ki main nahin jaa paaoongee.",
+      "baseTranslation": "アニタ：チケットは500(Paanch sau)ルピーよ。でも、私は行けないと思うわ(Mujhe lagtaa hai ki.../ -paaoongee(saknaaの同義語:できる))。"
+    },
+    {
+      "targetText": "राज: क्यों? क्या हुआ?",
+      "transliteration": "Raaj: Kyon? Kyaa huaa?",
+      "baseTranslation": "ラージ：なんで？どうしたの？"
+    },
+    {
+      "targetText": "अनीता: क्योंकि मुझे बुख़ार है। अगर कल बारिश होगी, तो मैं घर पर आराम करूँगी।",
+      "transliteration": "Aneeta: Kyonki mujhe bukhaar hai. Agar kal baarish hogee, to main ghar par aaraam karoongee.",
+      "baseTranslation": "アニタ：だって(Kyonki)私には熱があるの。もし明日雨が降るなら、私は家で休むわ(未来形・女)。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, kal tum kyaa karogee?\nAneeta: Mujhe naee Dillee jaanaa hai.\nRaaj: Ṭren kaa ṭikaṭ kitne kaa hai?\nAneeta: Ṭikaṭ paanch sau rupaye kaa hai. Lekin mujhe lagtaa hai ki main nahin jaa paaoongee.\nRaaj: Kyon? Kyaa huaa?\nAneeta: Kyonki mujhe bukhaar hai. Agar kal baarish hogee, to main ghar par aaraam karoongee.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "アニタは「明日、〜に行かないといけない(Mujhe _____ jaanaa hai)」と言っています。どこですか？",
+      "questionType": "multiple_choice",
+      "options": ["ニューデリー (Naee Dillee)", "駅 (Station)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ラージはチケットの値段を聞きました。アニタはいくら(数字＋sau)だと答えましたか？",
+      "questionType": "multiple_choice",
+      "options": ["100ルピー (Sau)", "500ルピー (Paanch sau)"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "アニタは「Lekin मुझे लगता है कि... (Lekin mujhe lagtaa hai ki...)」と言って、ある予測を伝えました。どうなると言っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["行けないと思う", "高すぎると思う"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "アニタが「なぜなら(Kyonki)」の後に語った、行けない理由は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["道が分からないから", "熱(bukhaar)があるから"],
+      "audioTimestamp": "00:22",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後にアニタが「もし(Agar)天気が〇〇なら〜」という条件を出しました。〇〇にあたる自然現象をヒンディー語で答えなさい(ローマ字)。",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:25",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "ニューデリー (Naee Dillee)",
+      "q2": "500ルピー (Paanch sau)",
+      "q3": "行けないと思う",
+      "q4": "熱(bukhaar)があるから",
+      "q5": "baarish"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["baarish", "Baarish", "BAARISH"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["baarish"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじいリスニング能力です！未来形、義務表現、値段、病気、条件文という、3ヶ月間で学んできた構造が目まぐるしく変化する会話を、完璧に聞き取って理解できました。ついにネイティブスピードの海を泳ぎ切りましたね！",
+    "onFail": "一息つきましょう！会話の展開が早すぎて置いていかれたかもしれません。まずは「Kitne kaa(いくら)」「Lagtaa hai ki(〜だと思う)」「Kyonki(なぜなら)」という「次の情報を予測するためのサイン」となる単語を聞き取ることに集中してください。",
+    "onPartial": "よく聞き取れています！「Agar kal baarish hogee (もし明日雨が降るなら)」のように、Agarの後は未来の話なので、動詞も「hogee(〜になるだろう/降るだろう)」と未来形に変化していることが分かれば完璧です。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b6/listening/review_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b6/listening/review_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b6/listening/review_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, kal tum kyaa karogee?... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "review", "comprehensive", "future", "conditionals", "symptoms", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b6/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Paanch! (5) という数字が新しく出てきています。Sau(100) とくっついて言っているので注意して聞いてください。",
+  "commonMistakes": [
+    "Thinking 'Kyaa karogee' means 'What happened' instead of 'What will you do', missing the future tense ending."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

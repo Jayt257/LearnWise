@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M1B1_pronunciation_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "長音と短音の区別 (Long vs Short Vowels)",
+  "learningGoal": "The learner will establish a phonetic baseline for Hindi by isolating and pronouncing the long vowels (-aa, -ee) critical for gender conjugation, alongside the foundational nasalized copula 'hoon'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B1_lesson_001"],
+  "instructions": "発音の基礎中の基礎です。「短い音」と「長く伸ばす音」をしっかり区別しないと、ヒンディー語では全く別の意味になってしまったり、性別が変わってしまいます。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 「Hoon (フーン)」を発音する時は、口を閉じて「ン」と言わず、鼻から息を抜くように響かせてください。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私",
+      "phoneticHint": "マェン。「マ」と「メ」の中間の音を出しながら、最後に鼻へ音を抜きます(鼻母音)。",
+      "syllableSplit": "Main",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Men (closing the mouth flatly instead of using the nasal cavity)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "〜です",
+      "phoneticHint": "フーン。これも鼻母音です。「フー」と伸ばしながら、口を丸めたまま鼻腔から息を抜いて響かせます。",
+      "syllableSplit": "Hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Hoon (with a hard N consonant mapping to the top of the mouth)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "जाता",
+      "transliteration": "Jaataa",
+      "baseTranslation": "行く(男性)",
+      "phoneticHint": "ジャーター。男言葉の証しである「アー」の長音です。ジャも「ジャー」と長く伸ばし、タも「ター」と長く伸ばします。",
+      "syllableSplit": "Jaa-taa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jata (flat Japanese rhythm, failing to hold the long vowel lengths)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "जाती",
+      "transliteration": "Jaatee",
+      "baseTranslation": "行く(女性)",
+      "phoneticHint": "ジャーティー。女言葉の証しである「イー」の長音です。最後の音を「ティ」と短く切らず、「ティー」と長く伸ばしてください。",
+      "syllableSplit": "Jaa-tee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jati (cutting the final ee sound short)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "〜です(三人称)",
+      "phoneticHint": "ハェ。ハとヘの中間の音です。「ハイ」とハッキリ2文字で発音するのではなく、1つの音として滑らかに出します。",
+      "syllableSplit": "Hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Hai (as two distinct syllables Ha-i)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Main Hoon Jaataa Jaatee Hai",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "完璧です！特に「長音(長く伸ばす音)」のコントロールが素晴らしいです。Jaataa と Jaatee の明確な区別は、インド人を驚かせるほど自然です。",
+    "onFail": "もう一度挑戦しましょう！日本語の感覚で文字を全部同じ長さで読んで(ジャタ)いませんか？ヒンディー語の『aa(アー)』や『ee(イー)』は、大げさなくらいしっかり長く伸ばしてください(ジャー・ター)。",
+    "onPartial": "よくお話しできています！「Main」と「Hoon」の鼻母音は、口を閉じて「ン」と言うのではなく、鼻風邪をひいた時のように鼻の奥を響かせる感覚を意識するとより良くなります。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "main hoon jata jati hai",
+    "acceptedVariants": [
+      "men hun jaataa jaatee hey",
+      "me hu jaataa jaatee hei"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the vowel elongation on jaataa/jaatee and the nasal resonance on main/hoon.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b1/pronunciation/native_pron.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b1/pronunciation/slow_pron.mp3",
+    "normalAudio": "audio/ja_hi/m1/b1/pronunciation/native_pron.mp3",
+    "audioTranscript": "Main. Hoon. Jaataa. Jaatee. Hai.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "vowels", "gender", "basics", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Main(私) や Hoon(〜です) は文の中で何百回も使う言葉です。今のうちに正確な響きをマスターしましょう。",
+  "commonMistakes": [
+    "Pronouncing 'Jaataa' as 'Jata', erasing the gender markers and making it incomprehensible."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

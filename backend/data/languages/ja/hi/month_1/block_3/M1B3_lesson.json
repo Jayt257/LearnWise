@@ -1,0 +1,201 @@
+{
+  "activityId": "ja_hi_M1B3_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "モノに性別がある！？ (Nouns Have Genders!)",
+  "learningGoal": "The learner will grasp the concept of inherent grammatical gender in Hindi (Masculine vs Feminine), understanding how it mutates possessive pronouns (Mera vs Meri) and adjectives (Bada vs Badi).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B2_test_001"],
+  "instructions": "ヒンディー語最大の壁にようこそ！実はヒンディー語では、生き物だけでなく「本」や「車」や「りんご」といった全てのモノに「男性」か「女性」の性別があります。このレッスンで性別のルールを学びましょう！",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "日本語には名詞の性別がありませんが、ヒンディー語では非常に重要です。なぜなら、名詞の性別によって「私の」などの言葉の形が変わってしまうからです！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Every Hindi noun is either Masculine or Feminine. There is no neutral gender.",
+      "Possessive pronouns mutate to match the noun's gender: Mera (Male) vs Meri (Female).",
+      "Adjectives mutate to match the noun's gender: Bada (Male) vs Badi (Female).",
+      "Generally, nouns ending in 'Aa' are masculine, and 'Ii' are feminine."
+    ],
+    "conceptSummary": "Introducing Grammatical Gender, a concept entirely absent in Japanese L1, requiring the learner to track forward dependencies (the noun changes the adjectives before it).",
+    "importantFacts": [
+      "The gender of an object changes the word 'My' (Mera/Meri).",
+      "It doesn't matter if the OWNER is male or female. It only matters what the OBJECT is."
+    ],
+    "checkpointAnswers": {
+      "q1": "Meri (मेरी)",
+      "q2": "後ろにある名詞の性別（本の性別）",
+      "q3": "Badi (बड़ी)"
+    },
+    "expectedUnderstanding": "Learners will decouple gender from biological sex and apply it syntactically to object agreement."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！日本語にはない「文法的な性別」の概念を理解できましたね。所有格（Mera / Meri）の切り替えも完璧です！",
+    "onFail": "もう一度復習しましょう。ヒンディー語では、あなたが男性でも女性でも関係ありません。「あなたが持っているモノ」が男性名詞か女性名詞かによって、Mera か Meri か決まります！",
+    "onPartial": "よくできました！ただし、形容詞の変化（Bada -> Badi）についてもう一度確認してみましょう。女性名詞には必ず「〜イー (ee)」の音を使います。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b3/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b3/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m1/b3/lesson/native_lesson.mp3",
+    "audioTranscript": "Mera beta. Meri beti. Yeh mera kamra hai. Yeh meri gaadi hai.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "gender", "adjectives", "possessives", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「アー (aa)」で終わる言葉はたいてい男性、「イー (ee)」で終わる言葉は女性名詞です。",
+  "commonMistakes": [
+    "A female speaker saying 'Meri naam' instead of 'Mera naam' because she thinks gender depends on the speaker."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "文法的な性別 (Grammatical Gender)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "男の子と女の子 (Boys and Girls)",
+      "bodyText": "人間に性別があるのは当然です。ヒンディー語では、「アー (aa)」で終わる単語は男性、「イー (ee)」で終わる単語は女性であることが多いです。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "बेटा",
+          "transliteration": "Betaa",
+          "baseTranslation": "息子 (男性名詞)"
+        },
+        {
+          "targetText": "बेटी",
+          "transliteration": "Beṭee",
+          "baseTranslation": "娘 (女性名詞)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "「モノ」の性別 (Gender of Objects)",
+      "bodyText": "ここからが驚きです。ヒンディー語では「部屋 (kamra)」は男性、「車 (gaadi)」は女性です！中性はありません。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "कमरा",
+          "transliteration": "Kamraa",
+          "baseTranslation": "部屋 (男性名詞)"
+        },
+        {
+          "targetText": "गाड़ी",
+          "transliteration": "Gaaḍee",
+          "baseTranslation": "車 (女性名詞)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "名詞が主役！「私の」が変化する (Mera vs Meri)",
+      "bodyText": "日本語の「私の」は一つですが、ヒンディー語では後ろに来る名詞の性別によって「Mera (男性向け)」か「Meri (女性向け)」に変化します。話している人が男か女かは関係ありません！「名前 (Naam)」は男性名詞なので、世界中の人々が「Mera naam...」と言います。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मेरा बेटा",
+          "transliteration": "Mera beṭaa",
+          "baseTranslation": "私の息子 (Meraを使用)"
+        },
+        {
+          "targetText": "मेरी बेटी",
+          "transliteration": "Meri beṭee",
+          "baseTranslation": "私の娘 (Meriを使用)"
+        },
+        {
+          "targetText": "मेरी गाड़ी",
+          "transliteration": "Meri gaaḍee",
+          "baseTranslation": "私の車 (車が女性なのでMeriを使用)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "形容詞も変化する (Bada vs Badi)",
+      "bodyText": "性別の魔法は形容詞（大きい、小さいなど）にもかかります。大きい（Bada）という単語は、後ろに女性名詞が来ると「Badi」に変化します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "बड़ा कमरा",
+          "transliteration": "Baḍaa kamraa",
+          "baseTranslation": "大きい部屋 (男性)"
+        },
+        {
+          "targetText": "बड़ी गाड़ी",
+          "transliteration": "Baḍee gaaḍee",
+          "baseTranslation": "大きな車 (女性)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will decouple gender from biological identity, correctly identifying grammatical gender and mutating modifiers (Mera/Meri, Aa/Ee) accordingly.",
+  "examples": [
+    {
+      "targetText": "यह मेरा कमरा है।",
+      "transliteration": "Yah mera kamraa hai.",
+      "baseTranslation": "これは私の部屋です。",
+      "explanation": "Kamraa is masculine, so 'my' becomes Mera."
+    },
+    {
+      "targetText": "यह मेरी किताब है।",
+      "transliteration": "Yah meri kitaab hai.",
+      "baseTranslation": "これは私の本です。",
+      "explanation": "Kitaab (book) is feminine, so 'my' becomes Meri."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「私の〜」と言うとき、話しているあなた自身の性別ではなく、「後ろのモノ（単語）」の性別で Mera か Meri が決まります。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "迷った時は最後の音を聞いてください。「アー音 (aa/a)」は男性、「イー音 (i/ee)」は女性の確率が非常に高いです。",
+      "exceptionNotes": "例外もあります（Aadmi = 男など）。"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドの言葉の多くにはこのように文法的な性別があります。これをマスターすると、自然なヒンディー語に聞こえます。",
+    "dosList": ["モノの単語を覚える時に「女性か男性か」をセットで覚える。"],
+    "dontsList": ["自分が女性だからといって「Meri naam」と言わない（名前は男性名詞です）。"]
+  },
+  "summary": "ヒンディー語への挑戦です！すべての名詞には男性か女性の「性別」があります。名詞が男性なら「Mera (私の)」「Bada (大きい)」、女性なら「Meri (私の)」「Badi (大きい)」というように、周りの言葉の形もそれに合わせて変化します！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「車 (Gaadee)」は女性名詞です。「私の車」と言うとき、正しいのは Mera gaadee ですか？それとも Meri gaadee ですか？",
+      "expectedAnswer": "Meri (मेरी)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "女性が「私の本 (kitaab)」と言う時、Mera と Meri どちらを使うかは、「話している人が女性かどうか」で決まりますか？それとも「後ろの名詞（本）の性別」で決まりますか？",
+      "expectedAnswer": "後ろにある名詞の性別（本の性別）"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "大きいという形容詞 Bada (बड़ा) を女性名詞に付ける場合、どのように変化しますか？",
+      "expectedAnswer": "Badi (बड़ी)"
+    }
+  ]
+}

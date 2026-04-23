@@ -1,0 +1,143 @@
+{
+  "activityId": "ja_hi_M3B6_speaking_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "speaking",
+  "title": "ヒンディー語・実戦スピーキング (The Final Speaking Trial)",
+  "learningGoal": "The learner will fluently execute a continuous interactive dialogue that transitions dynamically across Nominative action requests, Dative feeling states, and Multi-clause conditional logic.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B6_vocabulary_001"],
+  "instructions": "3ヶ月の集大成、最終スピーキングテストです！あなたはデリーの市場にいます。自己紹介、値段交渉、そして条件文まで、これまでに学んだ全ての技術を使って、現地の店員と渡り合ってください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 「私(Main)」と「私に(Mujhe)」の切り替えを、頭で考えるのではなく反射で発音できるように集中してください。"
+    }
+  ],
+  "speakingPrompt": "指定された状況に合わせて、正しいヒンディー語を声に出して話しなさい。",
+  "scenario": "You are touring a market in Delhi, introducing yourself, dealing with pricing, and explaining your plans.",
+  "role": "Ken, a Japanese Tourist",
+  "conversationPartner": "A Shopkeeper in Delhi",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "状況: 自己紹介と状況説明。　指示：「こんにちは。私はケンです(Main Ken hoon)。私は日本人です(Main Jaapaanee hoon)。」",
+      "expectedSpeakingPoints": ["Namaste", "Main Ken hoon", "Main Jaapaanee hoon"],
+      "sampleResponse": {
+        "targetText": "नमस्ते। मैं केन हूँ। मैं जापानी हूँ।",
+        "transliteration": "Namaste. Main Ken hoon. Main Jaapaanee hoon.",
+        "baseTranslation": "こんにちは。私はケンです。私は日本人です。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "状況: 買い物をし、値段に文句を言い、お願いをします。　指示：「これはいくらですか？(Yah kitne kaa hai?) それは大変高いです(Yah bahut mahangaa hai)。少し安くしてください(Thoḍaa sastaa deejiye)。」",
+      "expectedSpeakingPoints": ["Kitne kaa hai", "bahut mahangaa hai", "thoḍaa sastaa deejiye"],
+      "sampleResponse": {
+        "targetText": "यह कितने का है? यह बहुत महँगा है। थोड़ा सस्ता दीजिए।",
+        "transliteration": "Yah kitne kaa hai? Yah bahut mahangaa hai. Thoḍaa sastaa deejiye.",
+        "baseTranslation": "これはいくらですか？これはとても高いです。少し安くしてください。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "状況: 去り際、自分の体調から条件文での判断を伝えます。　指示：「私には熱があります(Mujhe bukhaar hai)。もし(Agar)雨が降るなら(baarish hogee)、その時(to)私は行きません(main nahin jaaoongaa - あなたが男性の場合)。」",
+      "expectedSpeakingPoints": ["Mujhe bukhaar hai", "Agar", "baarish hogee", "to", "main nahin jaaoongaa"],
+      "sampleResponse": {
+        "targetText": "मुझे बुख़ार है। अगर बारिश होगी तो मैं नहीं जाऊँगा।",
+        "transliteration": "Mujhe bukhaar hai. Agar baarish hogee to main nahin jaaoongaa.",
+        "baseTranslation": "私は熱があります。もし雨が降るなら私は行きません。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते! आप कहाँ से हैं? आपको क्या चाहिए?",
+    "transliteration": "Namaste! Aap kahaan se hain? Aapko kyaa chaahiye?",
+    "baseTranslation": "こんにちは！あなたはどこから来ましたか？あなたには何が欲しいですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। मैं केन हूँ। मैं जापानी हूँ।",
+      "transliteration": "Namaste. Main Ken hoon. Main Jaapaanee hoon.",
+      "baseTranslation": "こんにちは。私はケンです。私は日本人です。"
+    },
+    {
+      "targetText": "यह कितने का है? यह बहुत महँगा है। थोड़ा सस्ता दीजिए।",
+      "transliteration": "Yah kitne kaa hai? Yah bahut mahangaa hai. Thoḍaa sastaa deejiye.",
+      "baseTranslation": "これはいくらですか？これはとても高いです。少し安くしてください。"
+    },
+    {
+      "targetText": "मुझे बुख़ार है। अगर बारिश होगी तो मैं नहीं जाऊँगा।",
+      "transliteration": "Mujhe bukhaar hai. Agar baarish hogee to main nahin jaaoongaa.",
+      "baseTranslation": "私は熱があります。もし雨が降るなら私は行きません。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "main",
+      "hoon",
+      "kitne kaa",
+      "mahangaa",
+      "deejiye",
+      "mujhe bukhaar",
+      "agar",
+      "to",
+      "jaaoongaa"
+    ],
+    "requiredKeywords": [
+      "namaste", "main", "hoon", "jaapaanee", "yah", "kitne", "kaa", "hai", "bahut", "mahangaa", "thoḍaa", "sastaa", "deejiye", "mujhe", "bukhaar", "agar", "baarish", "hogee", "to", "nahin", "jaaoongaa"
+    ],
+    "acceptableParaphrases": [
+      "namaste me ken hu me japani hu ye kitne ka he bohot mahnga he sasta dijiye mujhe bukhar he agar barish hogi to me nai jaunga"
+    ],
+    "scoringRubric": {
+      "Case Integrity": "The learner MUST switch successfully from Nominative 'Main Ken hoon' to Genitive 'kitne kaa' to Dative 'Mujhe bukhaar hai'. If they blur these (e.g. Main bukhaar hoon), subtract heavily."
+    },
+    "sampleAnswer": "Namaste main Ken hoon. Main Jaapaanee hoon. Yah kitne kaa hai? Yah bahut mahangaa hai. Thoḍaa sastaa deejiye. Mujhe bukhaar hai. Agar baarish hogee to main nahin jaaoongaa.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "歴史的瞬間です！！あなたはヒンディー語の根本となる Main と Mujhe の壁を乗り越え、文と文を繋ぐ条件文まで完璧に声に出して操作できるようになりました！胸を張ってインドへ行ってください！",
+    "onFail": "ここは3ヶ月の集大成です！自己紹介では Main、熱がある時は Mujhe、未来には Jaaoongaa(男) / Jaaoongee(女)、と、これまでに学んだ全てのルールが稼働しています。一つ一つ整理して、もう一度挑戦しましょう！",
+    "onPartial": "惜しいところがあります！自己紹介や Mujhe への切り替えは完璧でした。最後の Agar (もし) と To (その時) のセットで、To を言い忘れていませんか？ヒンディー語では絶対にペアで使います！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b6/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m3/b6/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b6/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m3/b6/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m3/b6/speaking/full_dialogue.mp3",
+    "audioTranscript": "Learner: Namaste. Main Ken hoon. Main Jaapaanee hoon... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 90,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "review", "comprehensive", "grammar", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b6/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後の「私は行きません」は、あなたの性別に合わせて Jaaoongaa か Jaaoongee を切り替えることを忘れないでください！",
+  "commonMistakes": [
+    "Failing to transition out of the 'Main' mindset from the first sentence into the 'Mujhe' mindset for the third sentence."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

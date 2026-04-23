@@ -1,0 +1,195 @@
+{
+  "activityId": "ja_hi_M2B4_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "家族の紹介 (Family Introduction)",
+  "learningGoal": "The learner will decode a Devanagari text outlining family relationships, successfully resolving the reference paths established by gendered possessive pronouns and particles.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B4_pronunciation_001"],
+  "instructions": "ラージが自分の家族と、日本の友達の家族について書いています。「Meraa / Meree」や「Kaa / Kee / Ke」が誰と誰をつないでいるのか、名詞の性別と尊敬のルールに注意しながら読んでください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "「の」の前の言葉に引きずられないように！「私の（姉妹）」ではなく、「私（の姉妹）」というように後ろの名詞が主導権を握っています。"
+    }
+  ],
+  "readingTitle": "मेरा परिवार और मेरे दोस्त (My Family & My Friends)",
+  "readingText": "नमस्ते। यह मेरा परिवार है। मेरे पिता जी भारत में हैं। मेरी बहन जापान में है। मेरा दोस्त केंजी है। केंजी की बहन विद्यार्थी है। और केंजी के पिता जी काम कर रहे हैं।",
+  "textInTargetLanguage": "नमस्ते। यह मेरा परिवार है। मेरे पिता जी भारत में हैं। मेरी बहन जापान में है। मेरा दोस्त केंजी है। केंजी की बहन विद्यार्थी है। और केंजी के पिता जी काम कर रहे हैं。",
+  "baseLanguageSupportText": "こんにちは。これは私の家族です。私のお父さんはインドにいます。私の妹は日本にいます。私の友達はケンジです。ケンジの妹は学生です。そしてケンジのお父さんは仕事をしています（今）。",
+  "glossary": [
+    {
+      "targetText": "मेरा परिवार",
+      "transliteration": "Meraa parivaar",
+      "baseTranslation": "私の家族 (家族 Parivaar は男性名詞)",
+      "exampleSentence": {
+        "targetText": "यह मेरा परिवार है।",
+        "transliteration": "Yah meraa parivaar hai.",
+        "baseTranslation": "これは私の家族です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मेरे पिता जी",
+      "transliteration": "Mere pitaa jee",
+      "baseTranslation": "私のお父さん (尊敬の Mere)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "में हैं",
+      "transliteration": "mein hain",
+      "baseTranslation": "〜にいます (尊敬の複数形 To be動詞)",
+      "exampleSentence": {
+        "targetText": "मेरे पिता जी भारत में हैं।",
+        "transliteration": "Mere pitaa jee Bhaarat mein hain.",
+        "baseTranslation": "私のお父さんはインドにいます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मेरी बहन",
+      "transliteration": "Meree bahan",
+      "baseTranslation": "私の姉 / 妹 (女性の Meree)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "की",
+      "transliteration": "kee",
+      "baseTranslation": "〜の (対象物が女性の時)",
+      "exampleSentence": {
+        "targetText": "केंजी की बहन विद्यार्थी है।",
+        "transliteration": "Kenjee kee bahan vidyaarthee hai.",
+        "baseTranslation": "ケンジの妹は学生です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "के",
+      "transliteration": "ke",
+      "baseTranslation": "〜の (対象物が尊敬・複数の時)",
+      "exampleSentence": {
+        "targetText": "केंजी के पिता जी काम कर रहे हैं।",
+        "transliteration": "Kenjee ke pitaa jee kaam kar rahe hain.",
+        "baseTranslation": "ケンジのお父さんは仕事をしています。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "काम कर रहे हैं",
+      "transliteration": "kaam kar rahe hain",
+      "baseTranslation": "仕事をしています（進行形・尊敬の Rahe）",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "यह मेरा परिवार है।",
+      "transliteration": "Yah meraa parivaar hai.",
+      "baseTranslation": "これは私の家族です。（家族 Parivaar は一つまとまりなので男性単数）"
+    },
+    {
+      "targetText": "केंजी के पिता जी काम कर रहे हैं।",
+      "transliteration": "Kenjee ke pitaa jee kaam kar rahe hain.",
+      "baseTranslation": "ケンジのお父さんは仕事をしています。（父は尊敬なので Kaa ではなく Ke）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「私の妹(Meree bahan)」は今どこにいますか？",
+      "questionType": "multiple_choice",
+      "options": ["日本", "インド"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ケンジの「妹(Bahan)」について言及する時、ラージは「Kenjee ___ bahan」とどの助詞を使っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["Kaa (男用)", "Kee (女用)", "Ke (尊敬・複数)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ケンジの妹の職業は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["学生", "先生"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ラージのお父さんは「私のお父さん＝ Mere pitaa jee」と表記されています。「Meraa pitaa」とならない最大の理由は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["父親が２人以上いるから", "肉親の目上の男性には『敬意』を表すため、文法を複数形（エー）にする必要があるから"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "文の最後「ケンジのお父さんは仕事をしています」に使われている進行形(rahe hain)を見ると、お父さんに対して尊敬を表すために Month 2 Block 1のルールが適用されていることが分かります。働いている「お父さん」を意味する単語は何ですか？ (ローマ字2単語)",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "日本",
+      "q2": "Kee (女用)",
+      "q3": "学生",
+      "q4": "肉親の目上の男性には『敬意』を表すため、文法を複数形（エー）にする必要があるから",
+      "q5": "pitaa jee"
+    },
+    "acceptableParaphrases": {
+      "q5": ["pitaa jee", "Pitaa jee", "pita jee", "Pita ji"]
+    },
+    "keywordScoringRules": {
+      "q5": ["pitaa", "pita", "jee", "ji"]
+    },
+    "expectedSummaryPoints": [
+      "The learner recognizes 'Meree' and 'Kee' are dictated by the feminine noun 'Bahan'.",
+      "Recognizes 'Mere' and 'Ke' are dictated by the respectful status of 'Pitaa jee'."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Meraa/Meree/Mere や Kaa/Kee/Ke が、後ろに続く名詞に応じてカメレオンのように姿を変えているのを完全に理解して読み進められています！",
+    "onFail": "一息ついて！「Kenjee kee bahan」で、ケンジは男なのになぜ Kee なのか？と疑問に思いませんでしたか？ヒンディー語の「の」は、所有者（ケンジ）ではなく所有物（妹）の性別にひっぱられます！",
+    "onPartial": "よく読めて読めています！Q4の尊敬のルール（単数のお父さんを複数扱いする）は、ヒンディー語の非常に重要な人間関係の表現です。しっかり覚えておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b4/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b4/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m2/b4/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Yah meraa parivaar hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "possession", "pronouns", "particles", "family", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Pitaa jee に対する To be動詞が「Hai」ではなく「Hain(ンが入る)」になっているのも、尊敬（複数）の印です。",
+  "commonMistakes": [
+    "Translating 'Kenjee kee bahan' as 'Kenji is a sister' by confusing 'kee' with a copula."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

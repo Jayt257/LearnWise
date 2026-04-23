@@ -1,0 +1,156 @@
+{
+  "activityId": "ja_hi_M3B2_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "ニュアンスを聴き取る (Detecting Nuance)",
+  "learningGoal": "The learner will aurally intercept compound verb pairs inside rapid conversational Hindi, successfully shifting their semantic focus to the V1 root while mapping the grammatical constraints from the V2 suffix.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M3B2_writing_001"],
+  "instructions": "ラージのお母さんが、家族にいろいろな指示や会話をしています。流れるような早口の中で「2つくっついた動詞」を聞き取り、前の動詞が『メインの意味』、後ろの動詞が『ニュアンスと文型』であることを体感してください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "「教える（Bataa）」という動詞に注目してください。後ろに続くのが Do（あげる）なのか、Doongaa（私があげるつもり）なのかを聞き分けます。"
+    }
+  ],
+  "listeningGoal": "Identify compound verbs within context and extract meaning solely from the V1 root.",
+  "audioScenario": "Raj's mother is organizing the house and talking to Raj and his friend Ken.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज की माँ: केन बेटा, अंदर आ जाओ। यहाँ बैठ जाओ।",
+      "transliteration": "Raaj kee maan: Ken beṭaa, andar aa jaao. Yahaan baiṭh jaao.",
+      "baseTranslation": "ラージの母：ケンちゃん、中に入ってきなさい(Aa jaao)。ここに座りなさい(Baiṭh jaao)。"
+    },
+    {
+      "targetText": "केन: शुक्रिया आंटी।",
+      "transliteration": "Ken: Shukriyaa Aanṭee.",
+      "baseTranslation": "ケン：ありがとうおばさん。"
+    },
+    {
+      "targetText": "राज की माँ: राज, यह किताब पढ़ लो। बहुत अच्छी है।",
+      "transliteration": "Raaj kee maan: Raaj, yah kitaab paḍh lo. Bahut achchhee hai.",
+      "baseTranslation": "ラージの母：ラージ、この本を読んでおきなさい(Paḍh lo)。とても良いわよ。"
+    },
+    {
+      "targetText": "राज: ठीक है माँ। मैं कल पढ़ लूँगा।",
+      "transliteration": "Raaj: Ṭheek hai maan. Main kal paḍh loongaa.",
+      "baseTranslation": "ラージ：分かったよ母さん。明日読んでおくよ(Paḍh loongaa)。"
+    },
+    {
+      "targetText": "राज की माँ: और हाँ, अनीता को वह बात बता देना।",
+      "transliteration": "Raaj kee maan: Aur haan, Aneeta ko vah baat bataa denaa.",
+      "baseTranslation": "ラージの母：そうそう、アニタにあの話を教えてあげてね(Bataa denaa)。"
+    },
+    {
+      "targetText": "राज: मैं शाम को बता दूँगा।",
+      "transliteration": "Raaj: Main shaam ko bataa doongaa.",
+      "baseTranslation": "ラージ：夕方に教えてあげるよ(Bataa doongaa)。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj kee maan: Ken beṭaa, andar aa jaao. Yahaan baiṭh jaao.\nKen: Shukriyaa Aanṭee.\nRaaj kee maan: Raaj, yah kitaab paḍh lo. Bahut achchhee hai.\nRaaj: Ṭheek hai maan. Main kal paḍh loongaa.\nRaaj kee maan: Aur haan, Aneeta ko vah baat bataa denaa.\nRaaj: Main shaam ko bataa doongaa.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "お母さんがケンに「中へ入って」と促す時、Aa (来る) の後に聞こえたサポート動詞(V2)は何でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["jaao (行け ※完了のニュアンス)", "do (あげて)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "お母さんがラージに「本を読んで」と言う時、「Paḍh + 〇〇」と言います。〇〇は何の音でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["lo", "do"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージは「明日読むよ」と返します。自分が読むので最後は男性形未来(oongaa)になりますが、「Paḍh」と「oongaa」の間にはどのサポート動詞の根っこが挟まっていましたか？",
+      "questionType": "multiple_choice",
+      "options": ["l (lenaaから来て loongaa となる)", "j (jaanaaから来て jaaoongaa となる)"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "お母さんが「アニタにあの話を教えてあげてね」と言う時、Bataa (教える) の後ろに聞こえたのは、Denaa / Lenaa どちらのサポート動詞系の音でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["Denaa (デナー) 系", "Lenaa (レナー) 系"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ラージが「夕方に教えてあげるよ」と答える時の最後の語尾、「doongaa(ドゥーンガー)」とは『あげる(De)』の未来形ですが、これは女性用ですか？男性用ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "jaao (行け ※完了のニュアンス)",
+      "q2": "lo",
+      "q3": "l (lenaaから来て loongaa となる)",
+      "q4": "Denaa (デナー) 系",
+      "q5": "男性用"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["男性用", "男", "男性", "Male", "male"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["男", "Male", "male"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Bataa(V1)からDoongaa(V2)への滑らかな接続を、日常会話のスピードの中で完璧に分解し、意味を拾い上げることができています！",
+    "onFail": "一息つきましょう！Doongaa(ドゥーンガー) や Loongaa(ルーンガー) は見慣れない形ですが、Denaa と Lenaa の未来形です。後ろの動詞が「D(外向き)」なのか「L(内向き)」なのかに集中して聞き直してください。",
+    "onPartial": "よく聞き取れています！ラージがお母さんに対して「Paḍhoongaa(私が読む)」ではなく「Paḍh loongaa(僕のために読んでおくよ)」と言い返すところに、ネイティブの豊かな表現力が詰まっています。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b2/listening/dialogue_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b2/listening/dialogue_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b2/listening/dialogue_native.mp3",
+    "audioTranscript": "Raaj kee maan: Ken beṭaa, andar aa jaao. Yahaan baiṭh jaao... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "compounds", "directionality", "nuance", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Denaa＝デ(De) や ド(Do) の音なら「相手へ」。Lenaa＝レ(Le) や ロ(Lo) の音なら「自分へ」です。",
+  "commonMistakes": [
+    "Thinking 'doongaa' is a completely newly learned verb rather than the future tense of 'denaa'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

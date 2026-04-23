@@ -1,0 +1,348 @@
+{
+  "activityId": "ja_hi_M1B6_test_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "Month 1 最終試験 (Month 1 Final Exam)",
+  "learningGoal": "The learner will prove global mastery of all Month 1 foundational concepts: phonemic contrast, SOV structural mapping, Grammatical Gender assignment, Postpositions, and Present Habitual verb conjugation.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M1B6_lesson_001",
+    "ja_hi_M1B6_pronunciation_001",
+    "ja_hi_M1B6_reading_001",
+    "ja_hi_M1B6_writing_001",
+    "ja_hi_M1B6_listening_001",
+    "ja_hi_M1B6_vocabulary_001",
+    "ja_hi_M1B6_speaking_001"
+  ],
+  "instructions": "Month 1 の最終試験（Final Exam）です！この1ヶ月で学んだ全ての知識（語順、性別、助詞、動詞）を動員して、あなたの「ヒンディー語の基礎回路」が完成したことを証明してください。",
+  "testTitle": "Month 1 総合試験 (The Zero Cognitive Load Architecture)",
+  "testScope": "month_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "listening", "vocabulary", "speaking"],
+  "testInstructions": "全てのセクションに解答してください。このテストは他のブロックよりも問題数が多く難易度が高いです。80点以上で Month 2 へ進めます。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 構造とルール (Structure & Rules)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "ヒンディー語の語順（単語の並ぶ順番）は、次のうちどの言語と最も近いですか？",
+          "questionType": "multiple_choice",
+          "options": ["英語 (SVO)", "日本語 (SOV)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "「私は日本人です」という文を作る時、一番最後に置かなければならない単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["है (Hai)", "हूँ (Hoon)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「私の家 (Mera ghar)」と「私の車 (Meri gaadee)」。MeRA か MeRI かを決定しているのは誰の性別ですか？",
+          "questionType": "multiple_choice",
+          "options": ["話している人の性別", "対象となる名詞（家や車）の性別"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "「Main khaataa hoon（私は食べます）」と「Main khaatee hoon」。Taa か Tee かを決定しているのは誰の性別ですか？",
+          "questionType": "multiple_choice",
+          "options": ["話している人の性別", "食べているモノの性別"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: 助詞（〜に、〜から）は、日本語と同じく名詞の「後ろ」につく。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab_particles",
+      "sectionTitle": "Section 2: 単語と助詞 (Vocabulary & Postpositions)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Match the translation: '〜の上に'",
+          "questionType": "multiple_choice",
+          "options": ["में (Mein)", "पर (Par)", "से (Se)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "Match the translation: 'どこ'",
+          "questionType": "multiple_choice",
+          "options": ["यहाँ (Yahaan)", "कहाँ (Kahaan)", "वहाँ (Vahaan)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Match the translation: '机'",
+          "questionType": "multiple_choice",
+          "options": ["मेज़ (Mez)", "कुर्सी (Kursee)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「日本『から』」の正しい組み合わせはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Se Jaapaan", "Jaapaan se", "Jaapaan mein"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「部屋(Kamraa)」は男性名詞ですか？女性名詞ですか？",
+          "questionType": "multiple_choice",
+          "options": ["男性名詞", "女性名詞"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_verbs",
+      "sectionTitle": "Section 3: 動詞の組み立て (Verb Assembly)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「あなた(Aap)」に対して「行く」と言う時の正しい語尾はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaataa hai", "Jaatee hoon", "Jaate hain"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「飲む(Peenaa)」の語幹（辞書の形から『ナー』を取った部分）は何ですか？ (ローマ字)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "女性が「私は飲みます」と言うための正しい動詞の変化はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Peetaa hoon", "Peetee hoon"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「彼はします (Vah ___ hai)」の空白に入る動詞 Karnaa(する)の正しい変化はどれですか？(彼=男)",
+          "questionType": "multiple_choice",
+          "options": ["Karte", "Kartaa", "Kartee"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "True or False: 日本語の「私は本を読みます」の『ます』にあたる部分は、ヒンディー語では「Taa(性別)」と「Hoon(To be動詞)」の2つの単語で表現される。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 総合作文 (Full Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 「私の車は小さいです。」 (Mera? Meri? Badaa? Badi?)",
+          "questionType": "multiple_choice",
+          "options": ["Mera gaadee chhotaa hai.", "Meri gaadee chhotee hai.", "Meri ghar chhotee hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate (As a male speaker): 「私は毎日部屋の中で英語を読みます。」 (※英語＝Angrezee)",
+          "questionType": "multiple_choice",
+          "options": ["Main roz kamre mein Angrezee paḍhtaa hoon.", "Main roz kamre mein Angrezee paḍhtee hoon.", "Main roz Angrezee kamre mein paḍhtaa hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Fix the error: 'Main kamre par seb khaatee hai.' (私が女だとした場合)",
+          "questionType": "multiple_choice",
+          "options": ["Main kamre mein seb khaatee hoon.", "Main kamre mein seb khaatee hai.", "Main kamre par seb khaataa hoon."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「Main Jaapaan ____ hoon.」空白に入る助詞は何ですか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "True or False: 日本人がヒンディー語を話す際、文法的な順番（語順）よりも、名詞の性別や主語の性別による語尾の変化のほうが気をつけるべきポイントである。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 10,
+    "writing": 50,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "日本語 (SOV)",
+      "q002": "हूँ (Hoon)",
+      "q003": "対象となる名詞（家や車）の性別",
+      "q004": "話している人の性別",
+      "q005": "True",
+      "q006": "पर (Par)",
+      "q007": "कहाँ (Kahaan)",
+      "q008": "मेज़ (Mez)",
+      "q009": "Jaapaan se",
+      "q010": "男性名詞",
+      "q011": "Jaate hain",
+      "q012": "Pee",
+      "q013": "Peetee hoon",
+      "q014": "Kartaa",
+      "q015": "True",
+      "q016": "Meri gaadee chhotee hai.",
+      "q017": "Main roz kamre mein Angrezee paḍhtaa hoon.",
+      "q018": "Main kamre mein seb khaatee hoon.",
+      "q019": "se",
+      "q020": "True"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q012": ["pee", "Pee", "ピー"],
+      "q019": ["se", "Se", "セ"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab_particles": 20,
+      "sec_verbs": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "MONTH 1 修了おめでとうございます！あなたは『ヒンディー語の基礎文法は日本語と全く同じである』という絶大な武器を手に入れ、名詞と動詞の性別変化というハードルを越えました。Month 2への扉が開かれました！",
+    "onFail": "Month 1 の壁は厚いです。もう一度復習しましょう！特に「家（男言葉）と車（女言葉）」の違い、そして「自分が話す時の動詞 (Taa / Tee)」の違いを整理してください。",
+    "onPartial": "惜しいところがあります！文の最後に Hoon か Hai をつけ忘れたり、名詞の性別の思い違いがあったりしませんか？間違えた問題を見直して完璧にしましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This is the final capstone assessment for Month 1. It evaluates holistic understanding of L1 to L2 cognitive mapping against grammatical gender.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "final_exam", "month1", "capstone", "grammar", "synthesis", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

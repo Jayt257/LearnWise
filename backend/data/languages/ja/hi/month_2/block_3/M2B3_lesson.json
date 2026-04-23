@@ -1,0 +1,179 @@
+{
+  "activityId": "ja_hi_M2B3_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "lesson",
+  "title": "未来の予定を話す (Future Tense)",
+  "learningGoal": "The learner will master the Hindi future tense conjugations, shifting away from L1 Japanese ambiguity (where present and future often share the same form) to explicit future suffixes (-oongaa/oongee/egaa) based on pronoun and gender.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B2_test_001"],
+  "instructions": "Month 2 の Block 3 です！これまでは「習慣（毎日〜する）」「進行形（今〜している）」「過去（〜した）」を学びました。今回は「未来（明日〜するつもりだ）」の形を学びましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "日本語では「明日、学校へ行きます（現在・未来共通）」ですが、ヒンディー語では未来専用の「特別な語尾」が用意されています。To be動詞（Hoon・Hai）は不要になり、この語尾だけで文が完結します！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The Future Tense replaces both the habitual markers (-taa/-tee) and the copula (hoon/hai/hain/thaa).",
+      "Conjugation depends heavily on the Pronoun being used:",
+      "'Main' uses -oongaa (Male) / -oongee (Female)",
+      "'Vah' uses -egaa (Male) / -egee (Female)",
+      "'Aap' / 'Hum' uses -enge (Polite/Plural)"
+    ],
+    "conceptSummary": "Establishes the synthetic future tense. This requires the learner to memorize new pronoun-specific phonemic endings that fuse verb root, gender, and tense into a single terminal word.",
+    "importantFacts": [
+      "No copula is allowed. 'Main jaaoongaa hoon' is a critical grammatical failure. 'Main jaaoongaa' is the complete sentence."
+    ],
+    "checkpointAnswers": {
+      "q1": "Jaaoongaa (जाऊँगा)",
+      "q2": "Jaaoongee (जाऊँगी)",
+      "q3": "Jaaegaa (जाएगा)"
+    },
+    "expectedUnderstanding": "Learners will decouple from the Japanese habit of using present tense verbs for future events, actively attaching explicit phonetic future markers to Hindi roots."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！ヒンディー語の未来形は、Hoon や Hai のような To be動詞 を必要とせず、動詞そのものが強力なエンディング・パワーを持つことを理解できました。",
+    "onFail": "もう一度読み返しましょう。例えば Main (私) が主語の時、動詞の最後には必ず Oongaa か Oongee という音がくっつきます。Hoon は絶対につけてはいけません！",
+    "onPartial": "よく理解しています！ただし「私＝Oongaa」「彼＝Egaa」のように、誰について話しているかによって音が変わる点に注意してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b3/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b3/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b3/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m2/b3/lesson/native_lesson.mp3",
+    "audioTranscript": "Main jaaoongaa. Main jaaoongee. Vah jaaegaa. Aap jaaenge.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "future_tense", "conjugation", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の「〜するつもりだ」と同じ感覚で使います。",
+  "commonMistakes": [
+    "Attaching the present-tense copula at the end 'Main jaaoongaa hoon'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "未来の約束 (Promises of the Future)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "『私 (Main)』の未来",
+      "bodyText": "「私」が明日何かをする時、動詞の語幹に Oongaa（ウーンガー・男性）か Oongee（ウーンギー・女性）をつけます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं कल जापान जाऊँगा।",
+          "transliteration": "Main kal Jaapaan jaaoongaa.",
+          "baseTranslation": "私は明日、日本へ行きます。[Jaa ＋ oongaa] (話し手が男性)"
+        },
+        {
+          "targetText": "मैं क्या खाऊँगी?",
+          "transliteration": "Main kyaa khaaoongee?",
+          "baseTranslation": "私は何を食べようかしら？[Khaa + oongee] (話し手が女性)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "『彼 / 彼女 (Vah)』の未来",
+      "bodyText": "「彼」や「彼女」のような第三者が主語の時は、語幹に Egaa（エガー・男性）か Egee（エギー・女性）をつけます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "वह कल आएगा।",
+          "transliteration": "Vah kal aaegaa.",
+          "baseTranslation": "彼は明日、来ます。[Aa + egaa]"
+        },
+        {
+          "targetText": "वह पानी पिएगी।",
+          "transliteration": "Vah paanee piegee.",
+          "baseTranslation": "彼女は水を飲みます。[Pee(飲む)の未来女性形は少し変化して Piegee になる]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "『あなた (Aap / Tum)』の未来",
+      "bodyText": "Aap(あなた・尊敬) の場合は、Enge (エンゲー)をつけます。Tum(君) の場合は、Oge (オーゲー)を使います。性別による変化はなく、男女共通の音になります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "आप क्या करेंगे?",
+          "transliteration": "Aap kyaa karenge?",
+          "baseTranslation": "あなたは何をしますか？[Kar + enge]"
+        },
+        {
+          "targetText": "तुम क्या करोगे?",
+          "transliteration": "Tum kyaa karoge?",
+          "baseTranslation": "君は何をするの？[Kar + oge]"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map future events to pronoun-specific synthetic suffixes, avoiding the use of present/habitual copulas.",
+  "examples": [
+    {
+      "targetText": "मैं आराम करूँगा।",
+      "transliteration": "Main aaraam karoongaa.",
+      "baseTranslation": "私は(明日など)休むつもりだ、リラックスする。",
+      "explanation": "Kar(Do) + oongaa(Future Male 1st Person). Notice how 'Karnaa' drops the 'naa' to become 'kar', then attaches 'oongaa'."
+    },
+    {
+      "targetText": "आप कहाँ जाएँगे?",
+      "transliteration": "Aap kahaan jaaenge?",
+      "baseTranslation": "あなたはどこへ行きますか？",
+      "explanation": "Jaa(Go) + enge(Future Formal 2nd Person)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "未来形には「Hoon」「Hai」「Hain」は一切使いません！Jaaoongaa だけで「行きます」という意味が100%完成しています。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "日本語の「今日食べます（習慣）」「明日食べます（未来）」は同じ形ですが、ヒンディー語では絶対に分けてください。",
+      "exceptionNotes": "ヒンディー語でも近い未来なら現在進行形（明日パーティーに行くところだ = जा रहा हूँ/jaa rahaa hoon）を使うことはあります。"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【未来形まとめ】\n私(Main): 動詞 ＋ Oongaa / Oongee\n彼・彼女(Vah): 動詞 ＋ Egaa / Egee\nあなた(Aap): 動詞 ＋ Enge\n※To Be動詞は使わない！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Main (私：男性) が「行く(Jaa)」と言う時、正しい未来形はどうなりますか？",
+      "expectedAnswer": "Jaaoongaa (जाऊँगा)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Main (私：女性) が「行く(Jaa)」と言う時、どう変わりますか？",
+      "expectedAnswer": "Jaaoongee (जाऊँगी)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Vah (彼：男) が「行く(Jaa)」と言う時、どう変わりますか？",
+      "expectedAnswer": "Jaaegaa (जाएगा)"
+    }
+  ]
+}

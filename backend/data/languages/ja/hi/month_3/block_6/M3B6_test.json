@@ -1,0 +1,360 @@
+{
+  "activityId": "ja_hi_M3B6_test_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "test",
+  "title": "3ヶ月制覇・メガ修了試験 (The 3-Month Graduation Exam)",
+  "learningGoal": "The learner will validate their exhaustive mastery of the 3-month Hindi foundation, proving 100% architectural comprehension of gender morphology, postpositional logic, dative sovereignty, modal auxiliaries, temporal locatives, and conditional clause chaining.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": [
+    "ja_hi_M3B6_lesson_001",
+    "ja_hi_M3B6_pronunciation_001",
+    "ja_hi_M3B6_reading_001",
+    "ja_hi_M3B6_writing_001",
+    "ja_hi_M3B6_listening_001",
+    "ja_hi_M3B6_vocabulary_001",
+    "ja_hi_M3B6_speaking_001"
+  ],
+  "instructions": "ついに最終テストです！第1日目の『Main(私)・Hoon(です)』から始まり、動詞の性別変化、空間を表すMeinやSe、感情と義務を支配するMujhe、未来と『できる(Saknaa)』の助動詞、そして最終関門『もし〜なら』までの全ての扉を開く鍵があなたにあるかを確認します。",
+  "testTitle": "3ヶ月制覇・メガ修了試験 (The 3-Month Hindi Mastery Assessment)",
+  "testScope": "month_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "testInstructions": "これまでの全ての月(Month 1〜3)で学んだ知識が必要です。合格には85点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_m1_identity",
+      "sectionTitle": "Section 1: 属性と性別の掟 (Month 1: Identity & Gender)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "「私は行きます (Main ______ )」 という現在形の文を作る時、あなたが【女性】なら以下のどれを選びますか？",
+          "questionType": "multiple_choice",
+          "options": ["jaataa hoon", "jaatee hoon", "jaate hain"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "ヒンディー語における B動詞 (です/ある) は、主語に合わせて変化します。主語が「Main (私)」の時、必ず文末に来る単語は何ですか？",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「Kamraa (部屋)」などの -aa で終わる男性名詞に、後ろから Mein や Par などの『接着剤(後置詞)』がくっつくと、語尾はどう変化しますか？",
+          "questionType": "multiple_choice",
+          "options": ["-aa のまま変わらない", "-e に変化する (Kamre mein)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        }
+      ],
+      "sectionMarks": 15,
+      "sectionPassMarks": 10
+    },
+    {
+      "sectionId": "sec_m2_action",
+      "sectionTitle": "Section 2: 未来・接着剤・Dative (Month 2: Action & Extension)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q004",
+          "questionText": "「私はお茶が好きです (私にお茶が好ましい)」 という Dative の文の先頭はどれから始めますか？",
+          "questionType": "multiple_choice",
+          "options": ["Main", "Mujhe"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "「私は明日病院へ行くつもりです」 (男性) と未来の話をする時、正しい動詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["jaataa hoon", "jaaoongaa", "gayaa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        },
+        {
+          "questionId": "q006",
+          "questionText": "「行ってください (Jaanaaの尊敬命令)」 を示す、丁寧な語尾の命令形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaao", "Jaaiye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「Vah (彼)」 ＋ 「ko (〜に)」 が合体してできた単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_m3_complexity",
+      "sectionTitle": "Section 3: 助動詞と条件文 (Month 3: Modals & Conditionals)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q008",
+          "questionText": "「私は行く『ことができる』 (Main \u005f\u005f\u005f\u005f hoon)」と言う時、空欄に入る動詞のペアとして正しいものはどれですか？ (男性)",
+          "questionType": "multiple_choice",
+          "options": ["jaanaa saktaa", "jaa saktaa", "jaa chaahtaa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「彼が悪かった『ということ(That)』を私は知っている。」 この「〜だということ」を示す接続詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["aur", "ki", "par"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「もし (Agar)」 を使って文を始めた場合、結果の文（その時は/すると）の先頭に必ず置かなければいけない単語は何ですか？",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        },
+        {
+          "questionId": "q011",
+          "questionText": "病気について話す時、「私には熱(Bukhaar)がある」と正しい文法で表現しているものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main bukhaar hoon", "Mujhe bukhaar hai"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_vocab_synthesis",
+      "sectionTitle": "Section 4: 総合語彙とサバイバル (Vocabulary Synthesis)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q012",
+          "questionText": "サバイバル表現「これ(yah) は いくら(kitne) ですか？」に欠けている「の(〜の物)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["se", "kaa", "mein"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "緊急事態で「助けてください(〇〇 keejiye)」という場合のSOS単語は何ですか？",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「今日 (Today)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Kal", "Aaj"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "「水 (Water)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Paanee", "Chaay"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 20,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_final_translate",
+      "sectionTitle": "Section 5: 魂の英訳 (Ultimate Validation)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate [M1]: \"I am Japanese(Jaapaanee).\"",
+          "questionType": "multiple_choice",
+          "options": ["Main Jaapaanee hoon.", "Mujhe Jaapaanee hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate [M2]: \"I want to go to Delhi(Dillee). / (To me, going to Delhi is an obligation)\"",
+          "questionType": "multiple_choice",
+          "options": ["Main Dillee jaaoongaa.", "Mujhe Dillee jaanaa hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate [M3]: \"If you come(aaoge), then I will go(jaaoongaa).\"",
+          "questionType": "multiple_choice",
+          "options": ["Agar tum aaoge, mujhe jaanaa hai.", "Agar tum aaoge, to main jaaoongaa."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "Translate [Survival]: \"Please call(bulaaiye) the police(pulis).\"",
+          "questionType": "multiple_choice",
+          "options": ["Pulis bulaao.", "Pulis ko bulaaiye."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "最終問題: ヒンディー語では「主語の性別により動詞が変化」し、「状態や感情はMujheに行き着き」、「名詞は後置詞の前で変身」します。この法則を示す「真」か「偽」か？",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 30,
+    "pronunciation": 0,
+    "reading": 20,
+    "writing": 30,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 85,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "jaatee hoon",
+      "q002": "hoon",
+      "q003": "-e に変化する (Kamre mein)",
+      "q004": "Mujhe",
+      "q005": "jaaoongaa",
+      "q006": "Jaaiye",
+      "q007": "use",
+      "q008": "jaa saktaa",
+      "q009": "ki",
+      "q010": "to",
+      "q011": "Mujhe bukhaar hai",
+      "q012": "kaa",
+      "q013": "madad",
+      "q014": "Aaj",
+      "q015": "Paanee",
+      "q016": "Main Jaapaanee hoon.",
+      "q017": "Mujhe Dillee jaanaa hai.",
+      "q018": "Agar tum aaoge, to main jaaoongaa.",
+      "q019": "Pulis ko bulaaiye.",
+      "q020": "True"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q002": ["hoon", "Hoon", "HOON"],
+      "q007": ["use", "Use", "USE"],
+      "q010": ["to", "To", "TO", "toh"],
+      "q013": ["madad", "Madad", "MADAD"]
+    },
+    "sectionPassMarks": {
+      "sec_m1_identity": 10,
+      "sec_m2_action": 15,
+      "sec_m3_complexity": 15,
+      "sec_vocab_synthesis": 15,
+      "sec_final_translate": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 85,
+  "feedbackRules": {
+    "onPass": "【3ヶ月修了おめでとうございます！】あなたはヒンディー語の複雑な文法体系を完全に理解し、自らの意思で自由に文章を組み立てられる『ネイティブ思考回路』を手に入れました！これでもう、あなたの言葉の旅に限界はありません。インドの大地があなたを待っています！",
+    "onFail": "ここは最後の巨大な壁です！Month 1 の「性別とHoon」、Month 2 の「Mujheと未来形」、Month 3 の「条件文とSakna」。点数を落としたセクションをピンポイントで復習し、知識の鎖を繋ぎ直してください！",
+    "onPartial": "あと一歩、本当にあと一歩です！大きな文法は分かっていますが、Ki(ということ) や To(その時)といった、文をつなぐ『接着剤(接続詞)』の扱いでミスが見られます。パズルのピースを最後まで丁寧にはめ込みましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This is the ultimate 3-month validation testing gender, postpositions, dative mapping, and full multiclause syntax.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "review", "comprehensive", "exam", "month3", "block6", "graduation"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": [],
+  "attemptLimit": null,
+  "metadata": {}
+}

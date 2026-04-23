@@ -1,0 +1,137 @@
+{
+  "activityId": "ja_hi_M2B1_speaking_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "speaking",
+  "title": "今していることを話す (Speaking in the Continuous)",
+  "learningGoal": "The learner will fluidly generate present continuous assertions in speech by stripping the infinitive '-naa' and vocalizing the gender-locked auxiliary 'rahaa/rahee' immediately before the copula.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B1_vocabulary_001"],
+  "instructions": "あなたが今、まさにしている行動についてヒンディー語で答えてください！「動詞の語幹 ＋ ラハー/ラヒー ＋ フーン」のリズムで口を動かしましょう。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※この問題では、あなたが「男性」であると仮定して全ての文を話してください！進行形を表す言葉は全て「ラハー (Rahaa)」になります。"
+    }
+  ],
+  "speakingPrompt": "「男性である」と仮定して、いま何をしているかを答えてください。",
+  "scenario": "Your roommate walks in and asks what you are currently doing.",
+  "role": "The Japanese Male Expat",
+  "conversationPartner": "The Roommate",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "ルームメイト: 'तुम अभी क्या कर रहे हो?' (君は今、何をしているの？) 答え：「私は今、本を読んでいます(Paḍh)。」",
+      "expectedSpeakingPoints": ["Main abhee", "kitaab", "padh rahaa hoon"],
+      "sampleResponse": {
+        "targetText": "मैं अभी किताब पढ़ रहा हूँ।",
+        "transliteration": "Main abhee kitaab paḍh rahaa hoon.",
+        "baseTranslation": "私は今、本を読んでいます。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "ルームメイト: 'अच्छा। क्या तुम चाय पी रहे हो?' (なるほど。お茶は飲んでいる？) 答え：「いいえ、私は水を飲んでいます(Pee)。」",
+      "expectedSpeakingPoints": ["Nahin", "main paanee", "pee rahaa hoon"],
+      "sampleResponse": {
+        "targetText": "नहीं, मैं पानी पी रहा हूँ।",
+        "transliteration": "Nahin, main paanee pee rahaa hoon.",
+        "baseTranslation": "いいえ、私は水を飲んでいます。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "ルームメイト: 'क्या तुम बाहर जा रहे हो?' (君は外へ行くところなの？) 答え：「はい、私は仕事へ行っています[向かっています](Jaa)。」",
+      "expectedSpeakingPoints": ["Haan", "main kaam par", "jaa rahaa hoon"],
+      "sampleResponse": {
+        "targetText": "हाँ, मैं काम पर जा रहा हूँ।",
+        "transliteration": "Haan, main kaam par jaa rahaa hoon.",
+        "baseTranslation": "はい、私は仕事へ向かっています。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "तुम अभी क्या कर रहे हो?",
+    "transliteration": "Tum abhee kyaa kar rahe ho?",
+    "baseTranslation": "君は今、何をしているの？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "मैं अभी किताब पढ़ रहा हूँ।",
+      "transliteration": "Main abhee kitaab paḍh rahaa hoon.",
+      "baseTranslation": "私は今、本を読んでいます。"
+    },
+    {
+      "targetText": "नहीं, मैं पानी पी रहा हूँ।",
+      "transliteration": "Nahin, main paanee pee rahaa hoon.",
+      "baseTranslation": "いいえ、私は水を飲んでいます。"
+    },
+    {
+      "targetText": "हाँ, मैं काम पर जा रहा हूँ।",
+      "transliteration": "Haan, main kaam par jaa rahaa hoon.",
+      "baseTranslation": "はい、私は仕事へ向かっています。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 20,
+    "grammarWeight": 50,
+    "vocabularyWeight": 0
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "paḍh rahaa hoon",
+      "pee rahaa hoon",
+      "jaa rahaa hoon"
+    ],
+    "requiredKeywords": [
+      "main", "kitaab", "padh", "rahaa", "hoon", "paanee", "pee", "kaam", "jaa"
+    ],
+    "acceptableParaphrases": [
+      "main kitaab padh rahaa hoon"
+    ],
+    "scoringRubric": {
+      "Root Integrity Penalty": "Fail immediately if the user appends the Habitual market to the root (e.g. 'PadhTAA rahaa hoon'). The root must be unadulterated ('Padh')."
+    },
+    "sampleAnswer": "Main abhee kitaab paḍh rahaa hoon. Nahin, main paanee pee rahaa hoon. Haan, main kaam par jaa rahaa hoon.",
+    "minimumContentCoverage": 90
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "完璧です！動詞の語幹と To Be動詞 の間に「ラハー (Rahaa)」を違和感なく挟み込むことに成功しました！",
+    "onFail": "もう一度練習しましょう。Month 1 のクセで「Padhtaa（パルター）」と言ってから Rahaa を足していませんか？動詞の語幹「Padh（パル）」に直接 Rahaa をくっつけます（Padh-rahaa）。",
+    "onPartial": "よくお話しできています。少しRahaa の「R」の発音が日本語の「L(ラ)」に近づいています。舌を弾いてRを響かせるとよりネイティブに聞こえます！"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b1/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m2/b1/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b1/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m2/b1/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m2/b1/speaking/full_dialogue.mp3",
+    "audioTranscript": "Roommate: Tum abhee kyaa kar rahe ho?\nLearner: Main abhee kitaab paḍh rahaa hoon...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "verbs", "present_continuous", "roleplay", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の「〜して(動詞) ＋ いる(進行形) ＋ です(ToBe)」のリズム（タン・タン・タン）を守って発音しましょう。",
+  "commonMistakes": [
+    "Retaining the Month 1 habitual marker and saying 'PeeTAA rahaa hoon'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

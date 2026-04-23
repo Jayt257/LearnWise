@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M1B6_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "ネイティブの会話 (Native Dialogue Review)",
+  "learningGoal": "The learner will parse a multi-turn, native-speed Hindi dialogue incorporating postpositions, locative verbs, and gendered conjugation to accurately deduce the scenario.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M1B6_writing_001"],
+  "instructions": "ラージとアニタの長い会話を聴きます。これまで「単語」で区切って聞いていたものを、文脈や前後関係でスムーズに理解する Month 1 最後のリスニング・テストです。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "スピードは少し速いですが、日本語と同じ語順で言葉が飛んでくるので、聞こえた順に意味をブロックで置いていけば解けます！"
+    }
+  ],
+  "listeningGoal": "Synthesize auditory cues involving postpositions (mein) and gendered verb terminations (taa/tee) dynamically.",
+  "audioScenario": "Raj and Anita are figuring out where an item is before going out.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, मेरी किताब कहाँ है?",
+      "transliteration": "Raaj: Aneeta, meri kitaab kahaan hai?",
+      "baseTranslation": "ラージ：アニタ、僕の本はどこ？"
+    },
+    {
+      "targetText": "अनीता: तुम्हारी किताब कमरे में है। मेज़ पर।",
+      "transliteration": "Aneeta: Tumhaari kitaab kamre mein hai. Mez par.",
+      "baseTranslation": "アニタ：あなたの本は部屋の中よ。机の上。"
+    },
+    {
+      "targetText": "राज: धन्यवाद। क्या तुम अभी बाहर जाती हो?",
+      "transliteration": "Raaj: Dhanyavaad. Kyaa tum abhee baahar jaatee ho?",
+      "baseTranslation": "ラージ：ありがとう。君は今から外出(外へ行く)するの？"
+    },
+    {
+      "targetText": "अनीता: हाँ, मैं गाड़ी में जाती हूँ।",
+      "transliteration": "Aneeta: Haan, main gaaḍee mein jaatee hoon.",
+      "baseTranslation": "アニタ：ええ、私は車で行くわ。"
+    },
+    {
+      "targetText": "राज: ठीक है। मैं घर में किताब पढ़ता हूँ।",
+      "transliteration": "Raaj: Ṭheek hai. Main ghar mein kitaab paḍhtaa hoon.",
+      "baseTranslation": "ラージ：わかった。僕は家で本を読むよ。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, meri kitaab kahaan hai?\nAneeta: Tumhaari kitaab kamre mein hai. Mez par.\nRaaj: Dhanyavaad. Kyaa tum abhee baahar jaatee ho?\nAneeta: Haan, main gaaḍee mein jaatee hoon.\nRaaj: Ṭheek hai. Main ghar mein kitaab paḍhtaa hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージの「男」としての自己認識ではなく、「本(Kitaab)」が女性名詞であることは最初の文のどこに表れていますか？",
+      "questionType": "multiple_choice",
+      "options": ["Meri (メリー) になっている", "Kahaan (カハーン) になっている", "Hai (ハィ) になっている"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタによると、本はどこにありましたか？",
+      "questionType": "multiple_choice",
+      "options": ["車の中 (Gaaḍee mein)", "部屋の机の上 (Kamre mein. Mez par.)"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "アニタは何かの中に入って外出します。「〜の中に」に当たる助詞が使われている単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["Gaaḍee mein", "Baahar"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ラージが「本を読む (kitaab paḍhtaa hoon)」場所はどこですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:20",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ラージが文の最後で読む(paḍh)と言った時、アニタとの違い（ターかティーか）ははっきりと聞こえましたか？男性用の音はどちらですか？",
+      "questionType": "multiple_choice",
+      "options": ["Paḍhtee", "Paḍhtaa"],
+      "audioTimestamp": "00:21",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Meri (メリー) になっている",
+      "q2": "部屋の机の上 (Kamre mein. Mez par.)",
+      "q3": "Gaaḍee mein",
+      "q4": "家",
+      "q5": "Paḍhtaa"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["家", "Ghar", "ghar", "いえ", "家の中"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["家", "ghar"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしいリスニング力です！名詞の性別（Meri）、助詞（Mein/Par）、そして動詞の変化（Jaatee/Padhtaa）という全ての要素を耳だけで処理できました。",
+    "onFail": "ここは総復習です！早口に聞こえますが、分解すればこれまでにやったパーツの組み合わせです。「誰の話をしているか」「どこか」「何をするか」の順で聞いてください。",
+    "onPartial": "よく聞いています！「Meri (私の〜)」のように、対象物（本）が女性なら自分の性別に関係なく Meri になる、という最初のブロックの復習がキーでしたね。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b6/listening/review_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b6/listening/review_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b6/listening/review_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, meri kitaab kahaan hai?...\n(Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 65,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "review", "synthesis", "comprehensive", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b6/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語字幕を頭に浮かべながら（ラージ：アニタ、僕の本は、どこ？）聞こえる単語を当てはめていきます。",
+  "commonMistakes": [
+    "Thinking 'Meri kitaab' means the speaker is female instead of the book being grammatically feminine."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B6_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

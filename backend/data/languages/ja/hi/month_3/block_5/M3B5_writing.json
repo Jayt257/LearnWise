@@ -1,0 +1,163 @@
+{
+  "activityId": "ja_hi_M3B5_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "症状とSOSの英訳 (Prescribing the Pain)",
+  "learningGoal": "The learner will accurately map semantic intent to Hindi's unique structural constraints by writing sentences that use 'mujhe' for involuntary physical states (fever/pain) and 'keejiye/bulaaiye' for emergency imperatives.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B5_reading_001"],
+  "instructions": "サバイバル表現を自分で書き出しましょう！「私は熱がある」という文を作る時、ヒンディー語では「私に熱がある」という構造になることを絶対に忘れないでください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 人を呼ぶ時は、対象となる人(医者など)の後ろに『を(ko)』をつけます。"
+    }
+  ],
+  "writingPrompt": "以下の3つの緊急・体調不良の文をヒンディー語で作成してください。\n1. (私に) 熱(bukhaar) がある(hai)。 →「私には熱があります」\n2. 助け(madad) をしてください(keejiye)。 →「助けてください！」\n3. 医者(ḍaakṭar) を(ko) 呼んでください(bulaaiye)。 →「医者を呼んでください」",
+  "promptGoal": "Force the correct utilization of the Dative Subject (Mujhe) for illness, the noun-verb pairing for 'Madad keejiye', and the objective postposition 'ko' for calling authoritative help.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "私に (Dative Subject)"
+    },
+    {
+      "targetText": "बुख़ार",
+      "transliteration": "Bukhaar",
+      "baseTranslation": "熱"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "ある / です"
+    },
+    {
+      "targetText": "मदद",
+      "transliteration": "Madad",
+      "baseTranslation": "助け (Noun)"
+    },
+    {
+      "targetText": "कीजिए",
+      "transliteration": "Keejiye",
+      "baseTranslation": "してください (Polite imperative of Karnaa)"
+    },
+    {
+      "targetText": "डॉक्टर",
+      "transliteration": "Ḍaakṭar",
+      "baseTranslation": "医者"
+    },
+    {
+      "targetText": "को",
+      "transliteration": "Ko",
+      "baseTranslation": "を (Objective marker)"
+    },
+    {
+      "targetText": "बुलाइए",
+      "transliteration": "Bulaaiye",
+      "baseTranslation": "呼んでください (Polite imperative of Bulaanaa)"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私は (ここでは使いません！)"
+    },
+    {
+      "targetText": "बुलाओ",
+      "transliteration": "Bulaao",
+      "baseTranslation": "呼べ (カジュアルな命令)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: To me [Mujhe] fever [bukhaar] is [hai].",
+    "Sentence 2: Help [Madad] please-do [keejiye].",
+    "Sentence 3: Doctor [Ḍaakṭar] to [ko] please-call [bulaaiye]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मुझे बुख़ार है। मदद कीजिए। डॉक्टर को बुलाइए।",
+      "transliteration": "Mujhe bukhaar hai. Madad keejiye. Ḍaakṭar ko bulaaiye.",
+      "baseTranslation": "私は熱があります。助けてください。医者を呼んでください。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Successfully applied the Dative 'Mujhe' for the sickness, constructed the compound imperative 'madad keejiye', and inserted the critical 'ko' after the doctor."
+    },
+    {
+      "targetText": "मैं बुख़ार है। मदद करो। डॉक्टर बुलाओ।",
+      "transliteration": "Main bukhaar hai. Madad karo. Ḍaakṭar bulaao.",
+      "baseTranslation": "I am a fever. Do help. Call a doctor.",
+      "qualityLevel": "bad",
+      "annotation": "Failure. 'Main bukhaar hai' literally means 'I am a fever entity'. 'Madad karo' and 'Bulaao' are too informal/rude for emergency professional contexts. Dropped the 'ko' missing the direct object marker for the doctor."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Dative Illness (Mujhe)",
+      "weight": 33,
+      "description": "Did the user start sentence 1 with 'Mujhe' instead of 'Main', recognizing that illness requires a dative state?"
+    },
+    {
+      "criterion": "Compound Imperative SOS",
+      "weight": 33,
+      "description": "Did the user correctly pair the noun 'madad' with the highly polite imperative 'keejiye'?"
+    },
+    {
+      "criterion": "Objective Marker in Calls",
+      "weight": 34,
+      "description": "Did the user place 'ko' immediately after 'ḍaakṭar' before the polite verb 'bulaaiye'?"
+    }
+  ],
+  "minimumWordCount": 7,
+  "maximumWordCount": 12,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मुझे बुख़ार है। मदद कीजिए। डॉक्टर को बुलाइए।",
+    "acceptableAlternates": [
+      "mujhe bukhaar hai madad keejiye daktar ko bulaaiye",
+      "mujhe bukhar he madad kijiye doctor ko bulaiye"
+    ],
+    "requiredKeywords": ["मुझे", "बुख़ार", "मदद", "कीजिए", "डॉक्टर", "को", "बुलाइए"],
+    "grammarBaseline": "'Mujhe' must anchor the first sentence. 'Keejiye' and 'Bulaaiye' must be used for safety/politeness ratios in emergencies. 'Ko' is strictly required after Doctor.",
+    "lengthExpectation": "3 short emergency mandates.",
+    "scoringRubric": {
+      "Main penalty": "Heavily penalize if 'Main' is used instead of 'Mujhe' for sickness."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！これでもしもの時も安心です。病気を語る時の「Mujhe(私に)」や、丁寧にお願いする「-iye」の形を正確に使いこなせています！",
+    "onFail": "ストップ！病気の表現で英語につられて「Main(私は)」と書いていませんか？「Main bukhaar hoon」だと「私は熱というモンスターです」という意味になってしまいます！必ず Mujhe です！",
+    "onPartial": "惜しいところがあります。医者を呼んで！と言う時に「Ḍaakṭar ko (医者を)」の『ko』が抜けていませんか？人に対してアクションを起こす時は ko が必要になります。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b5/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b5/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m3/b5/writing/prompt.mp3",
+    "audioTranscript": "Translate emergency medical phrases requiring dative boundaries and imperative SOS calls.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "health", "emergencies", "sos", "imperatives", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「助けて」は Madad(助け)＋Keejiye(なさって下さい) の2単語で完成します。",
+  "commonMistakes": [
+    "Writing 'Madad hai' instead of 'Madad keejiye', which just means 'Help exists' rather than 'Do help'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

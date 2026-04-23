@@ -1,0 +1,152 @@
+{
+  "activityId": "ja_hi_M1B2_listening_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "誰が誰？ (Who is Who?)",
+  "learningGoal": "The learner will parse a three-way conversation, identifying third-person pronouns (Vah) and detecting the auditory shifts between copular verbs (hai, hain, hoon) to determine subject identity.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M1B2_writing_001"],
+  "instructions": "音声を聞いてみましょう！ケンがインドで新しい友達に自分ともう一人の日本人の友達を紹介しています。「Hai（です）」と「Hain（です：尊敬）」の違いをしっかり聞き分けてください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "鼻から抜ける音「Hain」と「Hoon」を耳で探してください。"
+    }
+  ],
+  "listeningGoal": "Identify the antecedent subject by tracing the dependent verbal copula at the end of the clause.",
+  "audioScenario": "Ken introduces his friend to an Indian local.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: नमस्ते केन! आप कैसे हैं?",
+      "transliteration": "Raaj: Namaste Ken! Aap kaise hain?",
+      "baseTranslation": "ラージ：こんにちは、ケン！お元気ですか？"
+    },
+    {
+      "targetText": "केन: नमस्ते राज। मैं ठीक हूँ।",
+      "transliteration": "Ken: Namaste Raaj. Main ṭheek hoon.",
+      "baseTranslation": "ケン：こんにちは、ラージ。私は元気です。"
+    },
+    {
+      "targetText": "केन: वह मेरा दोस्त है।",
+      "transliteration": "Ken: Vah mera dost hai.",
+      "baseTranslation": "ケン：彼は私の友達です。"
+    },
+    {
+      "targetText": "अमित: नमस्ते राज। मेरा नाम अमित है।",
+      "transliteration": "Amit: Namaste Raaj. Mera naam Amit hai.",
+      "baseTranslation": "アミト：こんにちはラージ。私の名前はアミトです。"
+    },
+    {
+      "targetText": "राज: आप जापानी हैं। क्या आप विद्यार्थी हैं?",
+      "transliteration": "Raaj: Aap Jaapaanee hain. Kyaa aap vidyaarthee hain?",
+      "baseTranslation": "ラージ：あなたは日本人ですね。あなたは学生ですか？"
+    },
+    {
+      "targetText": "अमित: हाँ, मैं विद्यार्थी हूँ।",
+      "transliteration": "Amit: Haan, main vidyaarthee hoon.",
+      "baseTranslation": "アミト：はい、私は学生です。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Namaste Ken! Aap kaise hain?\nKen: Namaste Raaj. Main ṭheek hoon.\nKen: Vah mera dost hai.\nAmit: Namaste Raaj. Mera naam Amit hai.\nRaaj: Aap Jaapaanee hain. Kyaa aap vidyaarthee hain?\nAmit: Haan, main vidyaarthee hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージがケンに挨拶したとき、動詞は何を使いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["hai (है)", "hoon (हूँ)", "hain (हैं)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ケンはアミトを紹介するとき、「彼は私の友達です（Vah mera dost...）」と言いました。最後に来る言葉は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["hoon", "hai", "hain"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージはアミトに何と尋ねましたか？",
+      "questionType": "multiple_choice",
+      "options": ["あなたはインド人ですか？", "あなたは学生ですか？", "あなたは元気ですか？"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "アミトは最後に「はい、私は学生です」と言います。この文の最後にある「Hoon」の発音はどうなっていましたか？",
+      "questionType": "multiple_choice",
+      "options": ["鼻から息が抜ける鼻音だった", "「ン」がハッキリと聞こえた"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "アミトの国籍は何ですか？(ヒント: ラージのセリフ)",
+      "questionType": "multiple_choice",
+      "options": ["インド人", "アメリカ人", "日本人"],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "hain (हैं)",
+      "q2": "hai",
+      "q3": "あなたは学生ですか？",
+      "q4": "鼻から息が抜ける鼻音だった",
+      "q5": "日本人"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "やりましたね！Hoon, Hain, Hai の音の違いを見事に聞き分けられました。鼻音（Nasalization）への耳が育っています！",
+    "onFail": "もう一度ゆっくり聞いてみてください。Aap（あなた）に対しては Hain（鼻音）、Vah（彼）に対しては Hai（鼻音なし）が使われていますよ！",
+    "onPartial": "惜しいところがあります。Hain は鼻音ですが、Hai には鼻音がありません。この2つの音の違いに注目してもう一度聞いてみてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b2/listening/friends_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b2/listening/friends_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b2/listening/friends_native.mp3",
+    "audioTranscript": "Raaj: Namaste Ken! Aap kaise hain?...",
+    "audioLanguage": "hi",
+    "audioDuration": 80,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "pronouns", "to_be", "nasal_sounds", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本人の耳には、Hain も Hai も「ハ」から始まる同じような音に聞こえがちですが、Hain の最後には鼻から抜ける音があります。",
+  "commonMistakes": [
+    "Failing to hear the nasal 'n' in 'Hain' due to its unarticulated auditory footprint compared to Japanese 'ん'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

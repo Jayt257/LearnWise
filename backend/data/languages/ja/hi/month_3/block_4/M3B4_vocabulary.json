@@ -1,0 +1,246 @@
+{
+  "activityId": "ja_hi_M3B4_vocabulary_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "vocabulary",
+  "title": "街歩きの必須単語 (Survival Locatives & Shopping)",
+  "learningGoal": "The learner will store high-frequency spatial locatives (seedhe, aage, daaen) and commercial vocabulary (sastaa, mahangaa, rupayaa) required to execute basic survival transactions in Hindi-speaking environments.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B4_listening_001"],
+  "instructions": "インドの街へ出かけましょう！「真っ直ぐ」「前」「右」「左」という方向を示す言葉と、「高い」「安い」という買い物の言葉の詰め合わせです。これを覚えないと買い物ができません！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Baaen(左) と Daaen(右) を間違えないように気を付けてください。"
+    }
+  ],
+  "vocabTheme": "Navigation and Commerce",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "सीधे",
+      "transliteration": "Seedhe",
+      "baseTranslation": "まっすぐ / 直進 (Adverb)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "आगे",
+      "transliteration": "Aage",
+      "baseTranslation": "前へ / 手前へ (Adverb)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "दाएँ",
+      "transliteration": "Daaen",
+      "baseTranslation": "右へ (Adverb)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "बाएँ",
+      "transliteration": "Baaen",
+      "baseTranslation": "左へ (Adverb)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "महँगा",
+      "transliteration": "Mahangaa",
+      "baseTranslation": "高い / 高価な (Adjective)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "सस्ता",
+      "transliteration": "Sastaa",
+      "baseTranslation": "安い / 廉価な (Adjective)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "कितने",
+      "transliteration": "Kitne",
+      "baseTranslation": "どのくらい / おいくつ (Interrogative Pronoun)",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "रुपया",
+      "transliteration": "Rupayaa",
+      "baseTranslation": "ルピー (通貨)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "सौ",
+      "transliteration": "Sau",
+      "baseTranslation": "百 (100)",
+      "partOfSpeech": "Number",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "कहाँ",
+      "transliteration": "Kahaan",
+      "baseTranslation": "どこ (Where)",
+      "partOfSpeech": "Interrogative",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "まっすぐ / 直進",
+    "前へ / 手前へ",
+    "右へ",
+    "左へ",
+    "高い / 高価な",
+    "安い",
+    "どのくらい / おいくつ",
+    "ルピー",
+    "百 (100)",
+    "どこ (Where)"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "सीधे जाइए।",
+      "transliteration": "Seedhe jaaiye.",
+      "baseTranslation": "まっすぐ行ってください。"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "यह बहुत महँगा है।",
+      "transliteration": "Yah bahut mahangaa hai.",
+      "baseTranslation": "これはとても高いです。"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "होटल कहाँ है?",
+      "transliteration": "Hoṭal kahaan hai?",
+      "baseTranslation": "ホテルはどこですか？"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the direction to its meaning: Daaen (दाएँ)",
+      "questionType": "matching",
+      "options": ["右へ", "前へ/手前へ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the direction to its meaning: Seedhe (सीधे)",
+      "questionType": "matching",
+      "options": ["左へ", "まっすぐ/直進"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the adjective to its translation: Mahangaa (महँगा)",
+      "questionType": "matching",
+      "options": ["高い/高価な", "安い"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "How do you ask 'Where' in Hindi?",
+      "questionType": "matching",
+      "options": ["Kahaan", "Kitne"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What number does 'Sau' represent?",
+      "questionType": "matching",
+      "options": ["百 (100)", "ルピー"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "まっすぐ / 直進",
+      "w02": "前へ / 手前へ",
+      "w03": "右へ",
+      "w04": "左へ",
+      "w05": "高い / 高価な",
+      "w06": "安い",
+      "w07": "どのくらい / おいくつ",
+      "w08": "ルピー",
+      "w09": "百 (100)",
+      "w10": "どこ (Where)"
+    },
+    "acceptedTranslations": {
+      "w01": ["直進", "まっすぐ"],
+      "w05": ["高い", "高価な"],
+      "w06": ["安い", "廉価な"]
+    },
+    "matchingKey": {
+      "q1": "右へ",
+      "q2": "まっすぐ/直進",
+      "q3": "高い/高価な",
+      "q4": "Kahaan",
+      "q5": "百 (100)"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー圏を旅する上で絶対に欠かせない、方向を示す単語と買い物で使う単語をマスターしました！",
+    "onFail": "もう一度！特に Daaen(右) と Baaen(左) はアルファベットの頭文字（D＝右、B＝左）で整理して覚えると混乱が少なくなります。",
+    "onPartial": "よくできました！「Sau(100)」は非常に頻出する数字です。Do sau(200)、Teen sau(300)というようにどんどん拡張して使えるようになります！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b4/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b4/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b4/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b4/vocab/words_native.mp3",
+    "audioTranscript": "Seedhe. Aage. Daaen. Baaen. Mahangaa. Sastaa. Kitne. Rupayaa. Sau. Kahaan.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "travel", "directions", "shopping", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b4/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Daaen の D は英語のD音よりも舌を後ろに下げて弾く音なので「ダ」より「ダァ」に近い響きになります。",
+  "commonMistakes": [
+    "Thinking 'Kitne' (How much) alone is enough to ask for the price, forgetting the required 'Kaa' in practical usage."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M2B5_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "「エ」で繋ぐ丁寧さ (Polite Glides: Iye)",
+  "learningGoal": "The learner will fluidly pronounce the polite imperative suffix '-iye', managing vowel glides without inserting hard consonantal breaks (like 'i-ye'), particularly through irregular forms ending in '-jeeye'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B5_lesson_001"],
+  "instructions": "誰かに丁寧なお願いをする時の「〜してください (Iye / Jiye)」の発音を練習しましょう。滑らかな繋がりが上品なヒンディー語の鍵です。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「ジエ」や「イエ」は、はっきりと切って発音するのではなく、ため息をつくようになめらかに音を落とします。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "जाइए",
+      "transliteration": "Jaaiye",
+      "baseTranslation": "行ってください",
+      "phoneticHint": "ジャー・イ・エ。「ジャー」と大きく口を開けた後、「イ」と「エ」を通るように滑らかに音を下げます。",
+      "syllableSplit": "Jaa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaa-EE-yee. (Over-emphasizing the ending)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "खाइए",
+      "transliteration": "Khaaiye",
+      "baseTranslation": "食べてください",
+      "phoneticHint": "カー・イ・エ。「カ」には微かに息を吐き出す音(H)が含まれています。",
+      "syllableSplit": "Khaa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kaya. (Collapsing the vowels)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "कीजिए",
+      "transliteration": "Keejiye",
+      "baseTranslation": "してください (する・Karnaaの丁寧形)",
+      "phoneticHint": "キー・ジ・エ。「ジエ」は日本語の『ジェ(Je)』よりも少し『イ』の音が強く入り、口の奥から息を出します。",
+      "syllableSplit": "Kee-ji-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kiji-ee. (Pulling the E too long)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "दीजिए",
+      "transliteration": "Deejiye",
+      "baseTranslation": "ください (あげる・Denaaの丁寧形)",
+      "phoneticHint": "ディー・ジ・エ。舌を少し歯の裏に当ててディーと言い、やはり滑らかにジエとつなげます。",
+      "syllableSplit": "Dee-ji-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Di-jee. (Missing the ye)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "मत जाइए",
+      "transliteration": "Mat jaaiye",
+      "baseTranslation": "行かないでください",
+      "phoneticHint": "マト・ジャー・イ・エ。MatのＴは強く発音しすぎず、舌の先で軽く弾くだけで十分です。",
+      "syllableSplit": "Mat jaa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mattu jaai-yee."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Jaaiye Khaaiye Keejiye Deejiye Mat jaaiye",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "パーフェクト！非常に洗練された「Iye / Jiye」の発音でした。インドの年配の方々にも心地よく響く素晴らしい丁寧語です。",
+    "onFail": "もう一度！「Keejiye(キージエ)」の「ジエ」が「ジee(Jee)」のように伸びてしまっていませんか？最後はエ(e)の音でやさしく終わります。",
+    "onPartial": "よくお話しできています。Mat(マト) の語尾の T を無意識に「マ・ト(To)」と日本語の母音を乗せてしまっています。口先だけでマトッ！と切るとネイティブに近づきます。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "jaaiye khaaiye keejiye deejiye mat jaaiye",
+    "acceptedVariants": [
+      "jaiye khaiye kijiye dijiye mat jaiye"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates soft execution of the 'iye' triphthong glide and the avoidance of harsh stop consonants during 'Mat'.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b5/pronunciation/native_imp.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b5/pronunciation/slow_imp.mp3",
+    "normalAudio": "audio/ja_hi/m2/b5/pronunciation/native_imp.mp3",
+    "audioTranscript": "Jaaiye. Khaaiye. Keejiye. Deejiye. Mat jaaiye.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "politeness", "imperative", "vowels", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Denaa（あげる）がDeejiye（ください）に変化するのは「（私に）あげる動作を『してください』」という直訳からです。",
+  "commonMistakes": [
+    "Pronouncing 'Mat' like 'Mutt' resulting in a heavier D or T sound."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

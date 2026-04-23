@@ -1,0 +1,349 @@
+{
+  "activityId": "ja_hi_M1B3_test_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 確認テスト (Block 3 Assessment)",
+  "learningGoal": "The learner will demonstrate mastery over Hindi grammatical gender by correctly pairing masculine/feminine nouns with their matching adjectives (bada/badi, chhota/chhoti) and possessives (mera/meri).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M1B3_lesson_001",
+    "ja_hi_M1B3_pronunciation_001",
+    "ja_hi_M1B3_reading_001",
+    "ja_hi_M1B3_writing_001",
+    "ja_hi_M1B3_listening_001",
+    "ja_hi_M1B3_vocabulary_001",
+    "ja_hi_M1B3_speaking_001"
+  ],
+  "instructions": "Block 3 の確認テストです！ヒンディー語で最も重要な「名詞の性別（男性名詞・女性名詞）」のルールを完璧に理解できているかをテストします。Mera か Meri か、しっかり判定しましょう！",
+  "testTitle": "Block 3 確認テスト (Grammatical Gender)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 単語の性別判別 (Gender Identification)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "「車 (Gaaḍee)」は男性名詞ですか？女性名詞ですか？",
+          "questionType": "multiple_choice",
+          "options": ["女性名詞 (Feminine)", "男性名詞 (Masculine)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "「部屋 (Kamraa)」は男性名詞ですか？女性名詞ですか？",
+          "questionType": "multiple_choice",
+          "options": ["男性名詞 (Masculine)", "女性名詞 (Feminine)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「本 (Kitaab)」は例外的な単語ですが、性別はどちらですか？",
+          "questionType": "multiple_choice",
+          "options": ["女性名詞 (Feminine)", "男性名詞 (Masculine)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "ヒンディー語の名詞で「アー (Aa)」の音で終わる単語は、通常どちらの性別であることが多いですか？",
+          "questionType": "multiple_choice",
+          "options": ["男性名詞 (Masculine)", "女性名詞 (Feminine)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: ヒンディー語には「男性」「女性」「中性」の3つの性別がある。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_agreement",
+      "sectionTitle": "Section 2: 私の〜 (Possessive Agreement)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "Fill in the blank: '____ कमरा' (____ kamraa - 私の部屋)",
+          "questionType": "multiple_choice",
+          "options": ["मेरी (Meri)", "मेरा (Mera)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "Fill in the blank: '____ गाड़ी' (____ gaaḍee - 私の車)",
+          "questionType": "multiple_choice",
+          "options": ["मेरा (Mera)", "मेरी (Meri)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "Fill in the blank: '____ बेटा' (____ beṭaa - 私の息子)",
+          "questionType": "multiple_choice",
+          "options": ["मेरा (Mera)", "मेरी (Meri)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "女性が「私の家」と言う時、どちらの単語を使いますか？(家＝Ghar は男性名詞です)",
+          "questionType": "multiple_choice",
+          "options": ["मेरा (Mera)", "मेरी (Meri)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「私の本」をヒンディー語で (ローマ字で入力。ヒント: Kitaab は女性)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_adjectives",
+      "sectionTitle": "Section 3: 形容詞の変化 (Adjective Mutation)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「大きい」という形容詞の男性形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["बड़ी (Baḍee)", "बड़ा (Baḍaa)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「小さい」という形容詞の女性形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["छोटा (Chhoṭaa)", "छोटी (Chhoṭee)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「大きい車」の正しい組み合わせはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Baḍaa gaaḍee", "Baḍee gaaḍee", "Gaaḍee baḍaa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「小さい犬」の正しい組み合わせはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Chhoṭaa kuttaa", "Chhoṭee kuttaa", "Kuttaa chhoṭee"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "「とても (very)」を意味する単語は何ですか？ (ローマ字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 総合作文 (Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'मेरी बेटी छोटी है।' (Meri beṭee chhoṭee hai.)",
+          "questionType": "multiple_choice",
+          "options": ["私の息子は大きいです。", "私の車は小さいです。", "私の娘は小さいです。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'मेरा घर बहुत बड़ा है।' (Mera ghar bahut baḍaa hai.)",
+          "questionType": "multiple_choice",
+          "options": ["私の家はとても大きいです。", "私の犬はとても大きいです。", "私の部屋は小さいです。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Fix the error: 'Mera gaaḍee bahut baḍaa hai.'",
+          "questionType": "multiple_choice",
+          "options": ["Meri gaaḍee bahut baḍee hai.", "Mera gaaḍee bahut baḍee hai.", "Meri gaaḍee bahut baḍaa hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "True or False: 日本語からヒンディー語を学ぶ際、一番気をつけなければいけないのは、話し手自身の性別ではなく「名詞（モノ）の性別」である。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "What does 'और (Aur)' mean in Japanese?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 20,
+    "writing": 40,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "女性名詞 (Feminine)",
+      "q002": "男性名詞 (Masculine)",
+      "q003": "女性名詞 (Feminine)",
+      "q004": "男性名詞 (Masculine)",
+      "q005": "False",
+      "q006": "मेरा (Mera)",
+      "q007": "मेरी (Meri)",
+      "q008": "मेरा (Mera)",
+      "q009": "मेरा (Mera)",
+      "q010": "Meri kitaab",
+      "q011": "बड़ा (Baḍaa)",
+      "q012": "छोटी (Chhoṭee)",
+      "q013": "Baḍee gaaḍee",
+      "q014": "Chhoṭaa kuttaa",
+      "q015": "bahut",
+      "q016": "私の娘は小さいです。",
+      "q017": "私の家はとても大きいです。",
+      "q018": "Meri gaaḍee bahut baḍee hai.",
+      "q019": "True",
+      "q020": "そして"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q010": ["meri kitaab", "Meri Kitaab", "मेरी किताब"],
+      "q015": ["Bahut", "bahut", "बहुत"],
+      "q020": ["そして", "と", "and"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_agreement": 20,
+      "sec_adjectives": 20,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! 文法的な性別というヒンディー語最大のハードルを見事にクリアしました！あなたはもう「名詞の性別」によって言葉を自由自在に着せ替えることができます！",
+    "onFail": "残念！合格点に届きませんでした。「Mera/Bada（男性用・アーの音）」と「Meri/Badi（女性用・イーの音）」の組み合わせを一度紙に書き出して整理してみてください。",
+    "onPartial": "よく頑張りました！あなたが女性であろうと男性であろうと、「家」について話す時は常に男性形、「車」について話すときは常に女性形を使うことに注意してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test measures Japanese SOV matching against Hindi Grammatical Gender shifting.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "grammar", "gender", "adjectives", "possessives", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

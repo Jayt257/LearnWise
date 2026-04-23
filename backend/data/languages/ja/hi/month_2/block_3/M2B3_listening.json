@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M2B3_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "listening",
+  "title": "来月の旅行計画 (Next Month's Travel Plans)",
+  "learningGoal": "The learner will aurally parse the synthetic future tense suffixes (-oongaa, -egee, -enge) integrated into verbs at native conversational speeds while identifying future-tense time markers.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M2B3_writing_001"],
+  "instructions": "ラージとアニタが旅行の計画について話しています。動詞の最後の音（ガー、ギー、ゲー）を聞き分けて、「誰が」その行動をする予定なのかをキャッチしてください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "会話の中で「To be 動詞 (Hoon / Hai)」が一切使われていないことにも注目して聞いてみましょう。"
+    }
+  ],
+  "listeningGoal": "Identify the actors of future events purely by analyzing the terminal phonetic suffix of the verbs (e.g. differentiating Jaa-ee-gee from Jaa-enge).",
+  "audioScenario": "Raj and Anita are discussing their upcoming vacations.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, तुम अगले महीने कहाँ जाओगी?",
+      "transliteration": "Raaj: Aneeta, tum agle maheene kahaan jaaogee?",
+      "baseTranslation": "ラージ：アニタ、君は来月どこへ行くつもり？(Jaa + ogee)"
+    },
+    {
+      "targetText": "अनीता: मैं अगले महीने भारत जाऊँगी।",
+      "transliteration": "Aneeta: Main agle maheene Bhaarat jaaoongee.",
+      "baseTranslation": "アニタ：私は来月、インドへ行くわ。(Jaa + oongee)"
+    },
+    {
+      "targetText": "राज: अच्छा! तुम्हारे पिता जी क्या करेंगे?",
+      "transliteration": "Raaj: Achchhaa! Tumhaare pitaa jee kyaa karenge?",
+      "baseTranslation": "ラージ：いいね！君のお父さんは何をする予定なんだい？(Kar + enge)"
+    },
+    {
+      "targetText": "अनीता: वे घर में आराम करेंगे। और तुम?",
+      "transliteration": "Aneeta: Ve ghar mein aaraam karenge. Aur tum?",
+      "baseTranslation": "アニタ：彼(お父さん)は家で休むわ。あなたは？"
+    },
+    {
+      "targetText": "राज: मैं जापान जाऊँगा। हम वहाँ मिलेंगे।",
+      "transliteration": "Raaj: Main Jaapaan jaaoongaa. Hum vahaan milenge.",
+      "baseTranslation": "ラージ：僕は日本へ行くよ(男)。僕たちはそこで会おう(複数)。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, tum agle maheene kahaan jaaogee?\nAneeta: Main agle maheene Bhaarat jaaoongee.\nRaaj: Achchhaa! Tumhaare pitaa jee kyaa karenge?\nAneeta: Ve ghar mein aaraam karenge. Aur tum?\nRaaj: Main Jaapaan jaaoongaa. Hum vahaan milenge.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "アニタは来月、どこに行く予定ですか？",
+      "questionType": "multiple_choice",
+      "options": ["日本 (Jaapaan)", "インド (Bhaarat)", "家 (Ghar)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタが「行く」と答えた時、動詞の語尾の音はどうなっていましたか？（女性の自分の動作）",
+      "questionType": "multiple_choice",
+      "options": ["Jaaoongaa", "Jaaoongee", "Jaaegaa"],
+      "audioTimestamp": "00:04",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "お父さん(Pitaa jee)の予定を聞かれたアニタは、Ve(彼)という言葉を使い「Aaraam karenge(休むでしょう)」と答えました。なぜEgaa(エガー)ではなくEnge(エンゲー)を使ったのですか？",
+      "questionType": "multiple_choice",
+      "options": ["お父さんが複数人いるから", "お父さんに対して尊敬を表すため(Aapと同じルール)"],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ラージは日本へ行きます。私(男性)について言っているので、最後はどの音で終わっていましたか？「jaaoong___」",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後の文で「私たちは『そこで(Vahaan)』会おう」と言っていました。このVahaanは会話の流れ上、どの国を指していますか？",
+      "questionType": "multiple_choice",
+      "options": ["インド", "日本"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "インド (Bhaarat)",
+      "q2": "Jaaoongee",
+      "q3": "お父さんに対して尊敬を表すため(Aapと同じルール)",
+      "q4": "aa",
+      "q5": "日本"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["aa", "gaa", "a", "ga", "ガー", "アー", "jaaoongaa", "Jaaoongaa"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["aa", "gaa"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Jaaoongee、Karenge、Jaaoongaa、Milenge という対象に応じた4種類もの未来形の語尾を、会話のスピードで正確に分類できました。",
+    "onFail": "一息つきましょう！聞き取るポイントは最後の音です。自分(男)なら『ガー』、自分(女)なら『ギー』、相手(尊敬)や複数なら『ゲー』の音が会話の締めくくりに入っています。",
+    "onPartial": "よく聞き取れています！お父さん(Pitaa jee)に対しては、Vah(彼)ではなく Ve(彼ら／尊敬の彼) を使い、動詞も Enge(複数形・アープ用) を使うという尊敬のルールが定着してきましたね。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b3/listening/travel_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b3/listening/travel_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b3/listening/travel_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, tum agle maheene kahaan jaaogee?...\n(Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "future_tense", "conjugation", "polite", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後の音（ガー/ギー/ゲー）と、その直前の鼻音（ン）のリズムに注目します。",
+  "commonMistakes": [
+    "Hearing 'Karenge' and assuming it means multiple people instead of one respected father."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

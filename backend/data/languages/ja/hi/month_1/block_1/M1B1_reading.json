@@ -1,0 +1,187 @@
+{
+  "activityId": "ja_hi_M1B1_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "インドの挨拶 (Greetings in India)",
+  "learningGoal": "The learner will decode a simple introductory passage in Devanagari, identifying the core greeting 'Namaste' and related simple vocabulary, while correlating it to basic Japanese social contexts.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B1_pronunciation_001"],
+  "instructions": "初めての読解（リーディング）に挑戦しましょう！ゆっくりで大丈夫です。インドの基本的な挨拶についての短い文章を読みます。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "文字の上に線（シローレーカー）があることに注目してください。単語ごとに線が引かれています。"
+    }
+  ],
+  "readingTitle": "नमस्ते भारत (Namaste India)",
+  "readingText": "नमस्ते। मेरा नाम राज है। मैं ठीक हूँ। भारत में हम नमस्ते कहते हैं। यह एक अच्छी परंपरा है। धन्यवाद।",
+  "textInTargetLanguage": "नमस्ते। मेरा नाम राज है। मैं ठीक हूँ। भारत में हम नमस्ते कहते हैं। यह एक अच्छी परंपरा है। धन्यवाद।",
+  "baseLanguageSupportText": "こんにちは。私の名前はラージです。私は元気です。インドでは私たちは『ナマステ』と言います。これは良い伝統です。ありがとう。",
+  "glossary": [
+    {
+      "targetText": "नमस्ते",
+      "transliteration": "Namaste",
+      "baseTranslation": "こんにちは",
+      "exampleSentence": {
+        "targetText": "राम, नमस्ते।",
+        "transliteration": "Raam, Namaste.",
+        "baseTranslation": "ラーム、こんにちは。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मेरा नाम",
+      "transliteration": "Mera naam",
+      "baseTranslation": "私の名前",
+      "exampleSentence": {
+        "targetText": "मेरा नाम राहुल है।",
+        "transliteration": "Mera naam Raahul hai.",
+        "baseTranslation": "私の名前はラーフルです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "भारत",
+      "transliteration": "Bhaarat",
+      "baseTranslation": "インド",
+      "exampleSentence": {
+        "targetText": "भारत एक देश है।",
+        "transliteration": "Bhaarat ek desh hai.",
+        "baseTranslation": "インドは国です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "धन्यवाद",
+      "transliteration": "Dhanyavaad",
+      "baseTranslation": "ありがとう",
+      "exampleSentence": {
+        "targetText": "आपका धन्यवाद।",
+        "transliteration": "Aapka dhanyavaad.",
+        "baseTranslation": "あなたに感謝します（ありがとうございます）。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मेरा नाम राज है।",
+      "transliteration": "Mera naam Raaj hai.",
+      "baseTranslation": "私の名前はラージです。"
+    },
+    {
+      "targetText": "मैं ठीक हूँ।",
+      "transliteration": "Main ṭheek hoon.",
+      "baseTranslation": "私は元気です（大丈夫です）。"
+    },
+    {
+      "targetText": "यह एक अच्छी परंपरा है।",
+      "transliteration": "Yah ek achchhee paramparaa hai.",
+      "baseTranslation": "これは良い伝統です。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "文章を書いている人の名前は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["राहुल (Rahul)", "राम (Ram)", "राज (Raj)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "インド（Bhaarat）では、挨拶として何と言いますか？",
+      "questionType": "multiple_choice",
+      "options": ["धन्यवाद (Dhanyavaad)", "नमस्ते (Namaste)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「ありがとう」を意味するヒンディー語の単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["परंपरा (Paramparaa)", "ठीक (Ṭheek)", "धन्यवाद (Dhanyavaad)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "文章の冒頭で「私は元気です」という意味の文章があります。その中の「元気」や「大丈夫」を意味する単語は何ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "True or False: インドの挨拶の言葉（ナマステ）は「良い伝統（achchhee paramparaa）」だと書かれている。",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "「私の名前」をヒンディー語で何と言いますか？",
+      "questionType": "multiple_choice",
+      "options": ["मेरा नाम (Mera naam)", "मैं ठीक (Main ṭheek)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "राज (Raj)",
+      "q2": "नमस्ते (Namaste)",
+      "q3": "धन्यवाद (Dhanyavaad)",
+      "q4": "ठीक",
+      "q5": "True",
+      "q6": "मेरा नाम (Mera naam)"
+    },
+    "acceptableParaphrases": {
+      "q4": ["ṭheek", "theek", "ठीक"]
+    },
+    "keywordScoringRules": {
+      "q4": ["theek", "ṭheek", "ठीक"]
+    },
+    "expectedSummaryPoints": [
+      "The learner can identify the core greeting 'Namaste' natively in Devanagari.",
+      "The learner recognizes basic self-introductory components ('मेरा नाम')."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の初めての文章を見事に読むことができました！デーヴァナーガリー文字にも少しずつ慣れてきましたね。",
+    "onFail": "もう一度ゆっくり読んでみましょう。ヒンディー語の文字（デーヴァナーガリー）は上部の線で繋がっているので、どこからどこまでが一つの単語かサポートテキスト（Romaji）と照らし合わせてください。",
+    "onPartial": "よくできました！しかし、いくつか間違いがあります。文章に出てくる「ठीक (ṭheek)」は「大丈夫／元気」という意味で、非常によく使う単語なので覚えておきましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b1/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b1/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m1/b1/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Mera naam Raaj hai... (matches full target text)",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "devanagari", "greetings", "introduction", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "サポートテキスト（ローマ字部分と日本語訳）をヒントに、どのヒンディー語の単語がどの意味に対応しているかを探すと簡単です。",
+  "commonMistakes": [
+    "Thinking 'ṭheek' means 'name' instead of 'naam'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M2B3_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "pronunciation",
+  "title": "鼻へ抜ける音 (Nasalized Future Vowels)",
+  "learningGoal": "The learner will master the nasalized vowels (Anunasika/Chandrabindu) inherent in Hindi future tense suffixes, projecting sound through the nasal cavity without forming an explicit consonant 'n'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B3_lesson_001"],
+  "instructions": "未来形の発音の鍵は「鼻歌（ハミング）」のような音です。Jaaoongaa (ジャウーンガー) の「ン」は、口を閉じて言う「ン」ではなく、あくびをするように口を開けたまま鼻から息を抜く音です。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "フランス語の「ボンジュール」の『ボ[ン]』の音にとても似ています。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "जाऊँगा",
+      "transliteration": "Jaaoongaa",
+      "baseTranslation": "行くつもりだ (男)",
+      "phoneticHint": "ジャー・ウ〜ン・ガー。「ウ」の時に鼻から息を抜き、そのまま滑らかに「ガー」につなげます。",
+      "syllableSplit": "Jaa-oon-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaa-UN-gaa (Hard N consonant)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "जाऊँगी",
+      "transliteration": "Jaaoongee",
+      "baseTranslation": "行くつもりだ (女)",
+      "phoneticHint": "ジャー・ウ〜ン・ギー。「ギー」は口を横に引きますが、直前の鼻音はそのまま残します。",
+      "syllableSplit": "Jaa-oon-gee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jaa-UN-gi."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "खाएगा",
+      "transliteration": "Khaaegaa",
+      "baseTranslation": "食べるだろう (彼)",
+      "phoneticHint": "カー・エ・ガー。この「彼」用の未来形には鼻音(ン)は入りません！フラットに発音します。",
+      "syllableSplit": "Khaa-e-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kha-en-ga. (Incorrectly adding a nasal)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "करेंगे",
+      "transliteration": "Karenge",
+      "baseTranslation": "する予定です (あなた用)",
+      "phoneticHint": "カ・レ〜ン・ゲー。Aap 用の未来形には鼻音(ン)が入ります。レの後に鼻から息を抜きます。",
+      "syllableSplit": "Ka-ren-ge",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Ka-ren-ge. (With a hard Japanese N)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "मैं कल काम करूँगा।",
+      "transliteration": "Main kal kaam karoongaa.",
+      "baseTranslation": "私は明日、仕事をします。",
+      "phoneticHint": "メン・カル・カーム・カル〜ン・ガー。文末には To be動詞 (Hoon等) を絶対につけずに、ガーで言い切ります。",
+      "syllableSplit": "Main kal kaam ka-roon-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Karoongaa hoon..."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Jaaoongaa Jaaoongee Khaaegaa Karenge Main kal kaam karoongaa",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Oongaa / Oongee の音の響きが完全にネイティブです。余計な Hoon などの音も入っていません。",
+    "onFail": "もう一度！「ウー[ン]ガー」の『ン』を強く発音しすぎです。舌をどこにもつけずに、風邪を引いた時のように鼻詰まり声で「ウ〜」と言いながら「ガー」に繋げてください。",
+    "onPartial": "よくお話しできています。Khaaegaa (彼が食べる) には鼻音が入らず、Jaaoongaa (私が食べる)には入るという音の違いをしっかり意識してください！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "jaaoongaa jaaoongee khaaegaa karenge main kal kaam karoongaa",
+    "acceptedVariants": [
+      "jaunga jaungi khaega karenge me kal kam karunga",
+      "jaaungaa jaaungee khaayegaa karenge main kal kaam karungaa"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates soft execution of the Chandrabindu nasalizations inside the -oon- and -en- affixes.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b3/pronunciation/native_future.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b3/pronunciation/slow_future.mp3",
+    "normalAudio": "audio/ja_hi/m2/b3/pronunciation/native_future.mp3",
+    "audioTranscript": "Jaaoongaa. Jaaoongee. Khaaegaa. Karenge. Main kal kaam karoongaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 180,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "future_tense", "nasalization", "phonetics", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b3/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "鼻をつまんで「ウーン」と言ってみてください。その響きがヒンディー語の鼻音です。",
+  "commonMistakes": [
+    "Pronouncing the nasal as a heavy consonant (Ng) instead of a vowel modification."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B3_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

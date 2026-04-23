@@ -1,0 +1,211 @@
+{
+  "activityId": "ja_hi_M3B4_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "reading",
+  "title": "オートリキシャの攻防 (Auto-rickshaw Ride)",
+  "learningGoal": "The learner will parse a survival scenario dialogue, correctly decoding dative destinations (mujhe...jaanaa hai), imperatives for pathfinding, and interrogatives for pricing within a continuous narrative.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B4_pronunciation_001"],
+  "instructions": "ケンがインド名物の三輪タクシー（オートリキシャ）に乗って目的地へ向かい、値段の交渉をしています。「〜へ行きたい」という『自分(Mujhe)』から始まる文の形や、値段を聞く時の表現に注目して読んでください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 「Bhaiyaa(兄さん)」は、店員や運転手へ親しみを込めて呼びかける時の超頻出単語です。"
+    }
+  ],
+  "readingTitle": "ऑटो में (In the Auto)",
+  "readingText": "ड्राइवर: भैया, आपको कहाँ जाना है?\nकेन: मुझे स्टेशन जाना है। सीधे जाइए, फिर दाएँ मुड़िए।\nड्राइवर: ठीक है। स्टेशन आ गया।\nकेन: यह कितने का है?\nड्राइवर: यह दो सौ रुपये का है।\nकेन: यह बहुत महँगा है! थोड़ा सस्ता दीजिए। सौ रुपये में चलेंगे?\nड्राइवर: ठीक है, आइए।",
+  "textInTargetLanguage": "ड्राइवर: भैया, आपको कहाँ जाना है?\nकेन: मुझे स्टेशन जाना है। सीधे जाइए, फिर दाएँ मुड़िए।\nड्राइवर: ठीक है। स्टेशन आ गया।\nकेन: यह कितने का है?\nड्राइवर: यह दो सौ रुपये का है।\nकेन: यह बहुत महँगा है! थोड़ा सस्ता दीजिए। सौ रुपये में चलेंगे?\nड्राइवर: ठीक है, आइए।",
+  "baseLanguageSupportText": "運転手：お兄さん、あなた(Aapko)はどこへ行きたいですか？\nケン：私(Mujhe)は駅へ行きたいです。まっすぐ行ってください、それから右へ曲がってください。\n運転手：分かった。駅が来ちゃったよ(到着した)。\nケン：これはいくら(Kitne kaa)ですか？\n運転手：これは200ルピー(Do sau rupaye kaa)だよ。\nケン：これ凄く高いよ！少し安くしてよ(Sastaa deejiye)。100ルピーで行きますか(歩みますか)？\n運転手：分かったよ、さぁ乗って(Aaiye)。",
+  "glossary": [
+    {
+      "targetText": "आपको कहाँ जाना है",
+      "transliteration": "Aapko kahaan jaanaa hai",
+      "baseTranslation": "あなたはどこへ行きますか？ (あなたに どこへ行く 用事がある か)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मुझे स्टेशन जाना है",
+      "transliteration": "Mujhe station jaanaa hai",
+      "baseTranslation": "私は駅に行きます (私に 駅へ行く 用事がある)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "सीधे",
+      "transliteration": "Seedhe",
+      "baseTranslation": "まっすぐ / 直進 (Straight)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "दाएँ",
+      "transliteration": "Daaen",
+      "baseTranslation": "右へ (To the right)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मुड़िए",
+      "transliteration": "muḍiye",
+      "baseTranslation": "曲がってください (Muḍnaaの尊敬命令)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "आ गया",
+      "transliteration": "aa gayaa",
+      "baseTranslation": "来ちゃった / 到着した (来る[Aa] ＋ 行く[Jaanaa]の過去形gayaa。完了を示す複合動詞)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "कितने का",
+      "transliteration": "kitne kaa",
+      "baseTranslation": "いくらの〜 (Of how much)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "दो सौ",
+      "transliteration": "do sau",
+      "baseTranslation": "200 (Do = 2, Sau = 100)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "महँगा",
+      "transliteration": "mahangaa",
+      "baseTranslation": "高い / 高価な",
+      "exampleSentence": {
+        "targetText": "यह बहुत महँगा है।",
+        "transliteration": "Yah bahut mahangaa hai.",
+        "baseTranslation": "これはとても高いです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "सस्ता दीजिए",
+      "transliteration": "sastaa deejiye",
+      "baseTranslation": "安く してください(与えてください)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "चलेंगे",
+      "transliteration": "chalenge",
+      "baseTranslation": "歩みますか？ / 行きますか？ (Chalnaaの未来形。乗り物での移動を提案する時によく使う)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "सीधे जाइए, फिर दाएँ मुड़िए।",
+      "transliteration": "Seedhe jaaiye, phir daaen muḍiye.",
+      "baseTranslation": "真っ直ぐ(Seedhe)行って(jaaiye)、それから(phir)右に(daaen)曲がって(muḍiye)。"
+    },
+    {
+      "targetText": "यह बहुत महँगा है! थोड़ा सस्ता दीजिए।",
+      "transliteration": "Yah bahut mahangaa hai! Thoḍaa sastaa deejiye.",
+      "baseTranslation": "これはとても高い(Mahangaa)! 少し(Thoḍaa) 安く(Sastaa) あげて(Deejiye)。 => 安くして"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ケンが「私は駅に行きたい」と言う時、「私に」を意味するどの言葉から文章を始めていますか？",
+      "questionType": "multiple_choice",
+      "options": ["Mujhe (私に)", "Main (私は)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ケンは運転手にどう道案内しましたか？",
+      "questionType": "multiple_choice",
+      "options": ["まっすぐ行って、左(Baaen)に曲がる", "まっすぐ行って、右(Daaen)に曲がる"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "値段を聞き、運転手は「〇〇 ルピーだよ(〜のものです)」と答えました。Do(2) ＋ Sau(100) で、いくらだと言いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["100ルピー", "200ルピー"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ケンは値段に対してどう反応しましたか？",
+      "questionType": "multiple_choice",
+      "options": ["高い(Mahangaa)と文句を言った", "安い(Sastaa)と喜んだ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "値段を聞く「いくら？」というフレーズをローマ字(Kitne ...)で答えてください。",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Mujhe (私に)",
+      "q2": "まっすぐ行って、右(Daaen)に曲がる",
+      "q3": "200ルピー",
+      "q4": "高い(Mahangaa)と文句を言った",
+      "q5": "kitne kaa"
+    },
+    "acceptableParaphrases": {
+      "q5": ["kitne kaa", "Kitne kaa", "Kitne kaa hai", "kitne kaa hai"]
+    },
+    "keywordScoringRules": {
+      "q5": ["kitne", "kaa"]
+    },
+    "expectedSummaryPoints": [
+      "The learner recognizes 'mujhe' starting the sentence translates conceptually to 'I want to/must go'.",
+      "The learner correlates 'daaen' with right and successfully frames 'kitne kaa'."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！インドでのサバイバルに不可欠な「Mujhe [場所] jaanaa hai (〜へ行きたい)」「Kitne kaa hai (いくら？)」「Mahangaa hai (高い！)」という黄金フレーズを完璧に読み解けました！",
+    "onFail": "一息ついて！まずは値段交渉の基本から。いくらか尋ねる時は「Kitne kaa (キトネーカー)」です。そして反論する時は「Mahangaa(高い)！」です。このリズムを掴んでください！",
+    "onPartial": "よく読めて読めています！方向の指示で「〜してください」と伝える時は、Iye の尊敬命令形（Jaaiye, Muḍiye）を使うと、トラブルを避けつつスムーズに道案内ができますよ。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b4/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b4/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m3/b4/reading/native_reading.mp3",
+    "audioTranscript": "Draivar: Bhaiyaa, aapko kahaan jaanaa hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "travel", "shopping", "bargaining", "directions", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b4/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Kitne kaa hai? の Kaa は「〇〇『の』もの」の『の』であるため、値段を聞く時の必須パーツになります。",
+  "commonMistakes": [
+    "Thinking 'Mujhe station jaanaa hai' means 'Give me to the station' because of the literal 'To me' translation."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

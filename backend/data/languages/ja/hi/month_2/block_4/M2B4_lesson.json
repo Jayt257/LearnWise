@@ -1,0 +1,180 @@
+{
+  "activityId": "ja_hi_M2B4_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "所有と「の」 (Possession & Relationships)",
+  "learningGoal": "The learner will understand that possessive particles (Kaa/Kee/Ke) and pronouns (Meraa/Meree/Mere) mutate strictly based on the grammatical gender of the possessed object, forcing the complete decoupling of the possessive pronoun from the speaker's own biological identity.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M2B3_test_001"],
+  "instructions": "日本語の「の（私の〜、彼の〜）」にあたる言葉を学びます。日本語の「の」は全く変化しませんが、ヒンディー語の「の」は、続く名詞が男性か女性か、敬意を払う必要があるかによってカメレオンのように姿を変えます！",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "「私の兄弟」と言う時、あなたが男性であっても女性であっても、使う言葉は同じになります。所有を表す言葉は『持ち主』ではなく『持たれているモノ・人』の性別で決まるからです。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The particle 'Kaa/Kee/Ke' maps directly to the Japanese particle 'no' (の).",
+      "However, it declines based on the POSSESSED noun's gender and number/respect.",
+      "Kaa (Masculine Singular Object)",
+      "Kee (Feminine Object - any number)",
+      "Ke (Masculine Plural OR Respectful Male Object)",
+      "Possessive pronouns follow the exact same rule: Meraa/Meree/Mere (My)."
+    ],
+    "conceptSummary": "Introduces possessive declensions. This heavily anchors the L1 concept of 'noun-driving-grammar' introduced during the Ergative block, now applying it to modifiers rather than verbs.",
+    "importantFacts": [
+      "'My father' translates to 'Mere pitaa jee'. Even though Father is singular, 'Mere' is used because Father demands respect (treat as plural)."
+    ],
+    "checkpointAnswers": {
+      "q1": "Meree (मेरी)",
+      "q2": "Meraa (मेरा)",
+      "q3": "Kee (की)"
+    },
+    "expectedUnderstanding": "Learners will predict the suffix of a possessive pronoun simply by scanning forward to the noun it modifies."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Meraa / Meree / Mere の変化ルールをマスターしました。この「後ろの名詞に引っ張られる」感覚は、過去形の「Ne」のルールにとても似ていますね。",
+    "onFail": "ここはフランス語などのヨーロッパ言語と同じルールです！「私（持ち主）」が男か女かはどうでもいいのです。大事なのは、持っているモノ（例えば、本＝女、犬＝男）の性別です。",
+    "onPartial": "よく理解しています！ただし「お父さん」に対する敬意の表現を忘れないでください。お父さんは男性１人ですが、「Meraa」ではなく「Mere（尊敬）」を使います。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b4/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b4/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m2/b4/lesson/native_lesson.mp3",
+    "audioTranscript": "Meraa bhaaii. Meree bahan. Mere pitaa jee. Raaj kaa kuttaa. Raaj kee kitaab.",
+    "audioLanguage": "hi",
+    "audioDuration": 250,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "possession", "pronouns", "particles", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「アー」で終われば男。「イー」で終われば女。「エー」で終われば尊敬・複数です。",
+  "commonMistakes": [
+    "A female speaker saying 'Meree bhaaii' believing that because she is female, all her belongings are female."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "カメレオンのような「の」",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "名詞をつなぐ助詞 (Kaa / Kee / Ke)",
+      "bodyText": "「ラージの車」「アニタの本」。名詞と名詞をつなぐ日本語の「の」は、ヒンディー語では Kaa(カー), Kee(キー), Ke(ケー) に相当します。どれを使うかは、所有している『前』の人ではなく、所有されている『後ろ』のモノの性別によって決定します！",
+      "targetLanguageExamples": [
+        {
+          "targetText": "राज की किताब",
+          "transliteration": "Raaj kee kitaab",
+          "baseTranslation": "ラージの本 (本が女性名詞なので、ラージが男でもKeeになる)"
+        },
+        {
+          "targetText": "अनीता का घर",
+          "transliteration": "Aneeta kaa ghar",
+          "baseTranslation": "アニタの家 (家が男性名詞なので、アニタが女でもKaaになる)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "『私の』を表す言葉 (Meraa / Meree / Mere)",
+      "bodyText": "「Main(私) ＋ Kaa(の)」は合体して「私の」という１つの単語になります。これも Kaa のルールと全く同じように、後ろの『持たれているモノ』に合わせて３変化します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मेरा भाई",
+          "transliteration": "Meraa bhaaii",
+          "baseTranslation": "私の兄弟 (兄弟は男性なので Meraa)"
+        },
+        {
+          "targetText": "मेरी बहन",
+          "transliteration": "Meree bahan",
+          "baseTranslation": "私の姉妹 (姉妹は女性なので Meree)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "最大の罠：尊敬の『エ』の音",
+      "bodyText": "お父さん(Pitaa jee) のような目上の男性について話す時、たとえ一人の男性であっても、複数形と同じ扱い（尊敬表現）をするのがヒンディー語の絶対ルールです。その時、「Kaa」や「Meraa」は「Ke」「Mere」に変化します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मेरे पिता जी",
+          "transliteration": "Mere pitaa jee",
+          "baseTranslation": "私のお父さん (Meraa ではなく尊敬の Mere に変化)"
+        },
+        {
+          "targetText": "राज के पिता जी",
+          "transliteration": "Raaj ke pitaa jee",
+          "baseTranslation": "ラージのお父さん (Kaa ではなく尊敬の Ke に変化)"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will apply forward-scanning noun-modifier declension, mutating possessive pronouns based on the upcoming noun's gender and respect status.",
+  "examples": [
+    {
+      "targetText": "तुम्हारा नाम क्या है?",
+      "transliteration": "Tumhaaraa naam kyaa hai?",
+      "baseTranslation": "君[Tum]の[haaraa]名前[naam]は何[kyaa]ですか[hai]？",
+      "explanation": "Naam (name) is masculine. Therefore, 'your' takes the masculine ending -aa (Tumhaaraa)."
+    },
+    {
+      "targetText": "आपकी गाड़ी कहाँ है?",
+      "transliteration": "Aapkee gaadee kahaan hai?",
+      "baseTranslation": "あなた[Aap]の[kee]車[gaadee]はどこ[kahaan]ですか[hai]？",
+      "explanation": "Gaadee (car) is feminine. Therefore, 'your' takes the feminine ending -ee (Aapkee)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "Meraa (私の) や Tumhaaraa (君の) を使う時、あなた自身が男か女かは全く関係ありません。話している『相手やモノ』が男か女かで決定します。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "「女性」が所有される場合（母、姉、本、お茶など）は、尊敬レベルに関係なく全て『イー(ee)』の音を持ちます（Meree, Aapkee）。",
+      "exceptionNotes": "したがって「Meree maataa jee (私のお母さん)」となります。"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドでは家族の結びつきが非常に強く、誰の親戚か、誰の家族か、という関係性が会話で頻繁に登場します。「〜のお父さん（Ke pitaa jee）」のような尊敬表現は日常的に使われます。",
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【所有のルール】\n後ろの言葉が男: Kaa / Meraa (〜アー)\n後ろの言葉が女: Kee / Meree (〜イー)\n後ろの言葉が尊敬(男): Ke / Mere (〜エー)",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "あなたが男性だとして、「（私の）姉妹」と言う時、Meraa / Meree / Mere のどれを使いますか？",
+      "expectedAnswer": "Meree (मेरी)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "あなたが女性だとして、「（私の）兄弟」と言う時、Meraa / Meree / Mere のどれを使いますか？",
+      "expectedAnswer": "Meraa (मेरा)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「アニタ(女)『の』本(女)」と言う時、「Aneeta ___ Kitaab」の空白に入る助詞は何ですか？",
+      "expectedAnswer": "Kee (की)"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "activityId": "ja_hi_M1B3_writing_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "形容詞を合わせよう (Matching Adjectives)",
+  "learningGoal": "The learner will successfully generate completely aligned S-O-V sentences, manually mutating possessives (Mera/Meri) and adjectives (Bada/Badi) based strictly upon noun gender.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B3_reading_001"],
+  "instructions": "文法パズルに挑戦しましょう！今回は「名詞の性別」というルールが加わります。与えられた「家（男性）」と「車（女性）」を正しく描写してください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "ルール：男性名詞（Ghar）には「Mera」や「Baḍaa」を組み合わせます。女性名詞（Gaaḍee）には「Meri」や「Baḍee」を組み合わせます。"
+    }
+  ],
+  "writingPrompt": "以下の2つの文をヒンディー語で作成してください。\n1. 私の家は大きいです。\n2. 私の車は大きいです。",
+  "promptGoal": "Force generative matching of adjective and possessive gender parity absent in L1 Japanese.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "家 (男性名詞)"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "Gaaḍee",
+      "baseTranslation": "車 (女性名詞)"
+    },
+    {
+      "targetText": "मेरा",
+      "transliteration": "Mera",
+      "baseTranslation": "私の (男性用)"
+    },
+    {
+      "targetText": "मेरी",
+      "transliteration": "Meri",
+      "baseTranslation": "私の (女性用)"
+    },
+    {
+      "targetText": "बड़ा",
+      "transliteration": "Baḍaa",
+      "baseTranslation": "大きい (男性用)"
+    },
+    {
+      "targetText": "बड़ी",
+      "transliteration": "Baḍee",
+      "baseTranslation": "大きい (女性用)"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です (To Be)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (House): Start with 'My'. Pick the male version. Then 'house'. Then 'big' (male version). Then 'is'.",
+    "Sentence 2 (Car): Start with 'My'. Pick the female version. Then 'car'. Then 'big' (female version). Then 'is'."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मेरा घर बड़ा है। मेरी गाड़ी बड़ी है।",
+      "transliteration": "Mera ghar baḍaa hai. Meri gaaḍee baḍee hai.",
+      "baseTranslation": "私の家は大きいです。私の車は大きいです。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner perfectly mutated both 'My' and 'Big' based on the gender of 'House' vs 'Car'."
+    },
+    {
+      "targetText": "मेरा घर बड़ा है। मेरा गाड़ी बड़ा है।",
+      "transliteration": "Mera ghar baḍaa hai. Mera gaaḍee baḍaa hai.",
+      "baseTranslation": "私の家は大きいです。私の家は大きいです。(文法崩壊)",
+      "qualityLevel": "bad",
+      "annotation": "Critical failure. The learner did not change the adjectives to feminine forms for 'Gaadee', treating gender flatly."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Male Noun Pairing Agreement",
+      "weight": 50,
+      "description": "Did the user definitively pair 'Ghar' with 'Mera' and 'Bada'?"
+    },
+    {
+      "criterion": "Female Noun Pairing Agreement",
+      "weight": 50,
+      "description": "Did the user definitively pair 'Gaadee' with 'Meri' and 'Badi'?"
+    }
+  ],
+  "minimumWordCount": 6,
+  "maximumWordCount": 12,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मेरा घर बड़ा है। मेरी गाड़ी बड़ी है।",
+    "acceptableAlternates": [
+      "mera ghar bada hai meri gaaḍee baḍee hai",
+      "मेरा घर बड़ा है मेरी गाड़ी बड़ी है"
+    ],
+    "requiredKeywords": ["मेरा", "घर", "बड़ा", "मेरी", "गाड़ी", "बड़ी", "है"],
+    "grammarBaseline": "Zero tolerance for mismatched gender parity. 'Mera gaadee' is an instant fail. 'Meri ghar' is an instant fail.",
+    "lengthExpectation": "Exactly 8 words (2 sentences).",
+    "scoringRubric": {
+      "Gender Parity": "Must be 100% accurate."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！日本語にはない「名詞の性別による形容詞の変化」を完璧にマスターしました！",
+    "onFail": "もう一度単語帳（Word Bank）のヒントを見てください。車（Gaadee）は女性名詞なので、「私の（Meri）」も「大きい（Badi）」もすべて女性専用の単語（イーの音で終わる）に合わせる必要があります！",
+    "onPartial": "文法が少し崩れています。「です（Hai）」の位置は合っていますが、Mera/Meri や Bada/Badi が名詞の性別と一致しているか確認してください。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b3/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b3/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m1/b3/writing/prompt.mp3",
+    "audioTranscript": "Write two sentences testing grammatical gender agreement.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "gender", "adjectives", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "すべてが同性になるように組み合わせます。［男］＋［男］＋［男］＋［です］。そして［女］＋［女］＋［女］＋［です］。",
+  "commonMistakes": [
+    "Writing 'Mera gaadee bada hai' ignoring the implicit gender."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

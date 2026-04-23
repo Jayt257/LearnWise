@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M2B1_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "電話での会話: 今何してる？ (Phone Call: What are you doing?)",
+  "learningGoal": "The learner will aurally parse the continuous auxiliary verb (rahaa/rahee) at native conversational speeds over the phone, identifying the current action occurring in real-time.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M2B1_writing_001"],
+  "instructions": "ラージがアニタに電話をかけています。彼らが『今まさに』何をしているのか、連続する「ラハー (Rahaa) / ラヒー (Rahee)」のリズムに耳を澄ませて聞き取ってください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "会話のテンポは少し速いですが、「Kar rahaa (している)」「Pee rahee (飲んでいる)」というブロックに集中しましょう。"
+    }
+  ],
+  "listeningGoal": "Distinguish between habitual and continuous actions via auditory perception of the isolated root verb followed by rahaa/rahee.",
+  "audioScenario": "Raj calls Anita to ask what she is doing right now.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: हेलो अनीता, तुम अभी क्या कर रही हो?",
+      "transliteration": "Raaj: Helo Aneeta, tum abhee kyaa kar rahee ho?",
+      "baseTranslation": "ラージ：ハロー、アニタ。君は今何をしているの？ (-rahee ho は 君(女性)に対する現在進行形)"
+    },
+    {
+      "targetText": "अनीता: मैं अभी टीवी देख रही हूँ।",
+      "transliteration": "Aneeta: Main abhee ṭeevee dekh rahee hoon.",
+      "baseTranslation": "アニタ：私は今、テレビを見ているわ。"
+    },
+    {
+      "targetText": "राज: क्या तुम चाय पी रही हो?",
+      "transliteration": "Raaj: Kyaa tum chaay pee rahee ho?",
+      "baseTranslation": "ラージ：お茶は飲んでる？"
+    },
+    {
+      "targetText": "अनीता: नहीं, मैं पानी पी रही हूँ। तुम क्या कर रहे हो?",
+      "transliteration": "Aneeta: Nahin, main paanee pee rahee hoon. Tum kyaa kar rahe ho?",
+      "baseTranslation": "アニタ：いいえ、水を飲んでいるわ。あなたは何をしているの？"
+    },
+    {
+      "targetText": "राज: मैं कुछ नहीं कर रहा हूँ। मैं बस आराम कर रहा हूँ।",
+      "transliteration": "Raaj: Main kuchh nahin kar rahaa hoon. Main bas aaraam kar rahaa hoon.",
+      "baseTranslation": "ラージ：僕は何もしていないよ。ただ休んでいるところだ。(男なので-rahaa)"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Helo Aneeta, tum abhee kyaa kar rahee ho?\nAneeta: Main abhee ṭeevee dekh rahee hoon.\nRaaj: Kyaa tum chaay pee rahee ho?\nAneeta: Nahin, main paanee pee rahee hoon. Tum kyaa kar rahe ho?\nRaaj: Main kuchh nahin kar rahaa hoon. Main bas aaraam kar rahaa hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "アニタは今、何を見て(Dekh rahee)いますか？",
+      "questionType": "multiple_choice",
+      "options": ["本 (Kitaab)", "テレビ (Ṭeevee)", "時計"],
+      "audioTimestamp": "00:05",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ラージは「お茶(chaay)を飲んでいる？」と聞きましたが、アニタは実際に何を飲んでいましたか？",
+      "questionType": "multiple_choice",
+      "options": ["お茶 (Chaay)", "水 (Paanee)"],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「Tum kyaa kar rahe ho? (あなたは何をしているの？)」とアニタが聞き返した相手（ラージ）は男性ですが、使われている音は rahaa/rahee/rahe のどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["rahe (Tumという少し丁寧な呼び方にはraheを使う)", "rahaa (男だからrahaaになるはず)"],
+      "audioTimestamp": "00:12",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ラージは今、「ただ◯◯しているところだ (bas aaraam kar rahaa hoon)」と言いました。何をしていますか？",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "ラージは自分が話す時（最後の文）に、Kar(する)に何をつけていましたか？（男性形）",
+      "questionType": "multiple_choice",
+      "options": ["rahee hoon", "rahaa hoon"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "テレビ (Ṭeevee)",
+      "q2": "水 (Paanee)",
+      "q3": "rahe (Tumという少し丁寧な呼び方にはraheを使う)",
+      "q4": "休んでいる",
+      "q5": "rahaa hoon"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["休んでいる", "リラックスしている", "休む", "休憩している", "aaraam", "Aaraam"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["休", "リラックス", "aaraam"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしいリスニング力です！Tum（君）に対する Rahe の使い方や、自分（Main）についてのRahaa / Rahee の変化を耳で追うことができています！",
+    "onFail": "ここは会話のスピードが速いですね！ゆっくり再生して、「Kar・rahee」「Pee・rahee」と単語が分かれて聞こえているか確認してください。英語のDoingのようにくっついていません！",
+    "onPartial": "よく聞き取れています！Tum (君) という言葉はAapよりはカジュアルですが、文法的には複数/尊敬として扱われるため、「Rahe」が使われることに注意してください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b1/listening/phone_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b1/listening/phone_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b1/listening/phone_native.mp3",
+    "audioTranscript": "Raaj: Helo Aneeta, tum abhee kyaa kar rahee ho?...\n(Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 65,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "verbs", "present_continuous", "phone_call", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Abhee (今) という言葉が聞こえた直後に、行動について説明しています。",
+  "commonMistakes": [
+    "Misinterpreting 'kyaa kar rahe ho' as plural instead of the polite/second-person continuous."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

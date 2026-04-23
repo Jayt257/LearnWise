@@ -1,0 +1,171 @@
+{
+  "activityId": "ja_hi_M3B1_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "能力と願望 (Ability & Desire Modal Verbs)",
+  "learningGoal": "The learner will successfully append modal auxiliary stems (sak-/chaah-) to verb roots, applying standard present habitual conjugations (-taa/tee hoon) to the auxiliary rather than the primary verb.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M2B6_test_001"],
+  "instructions": "Month 3 へようこそ！ここでは「〜できる(Can)」「〜したい(Want)」といった、気持ちや能力を表す表現を学びます。日本語の「食べ・られる」「行き・たい」のように、動詞の後ろにパーツをくっつける感覚で簡単に作れます。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "基本ルールは簡単です。メインの動詞は『根っこ（語幹）』だけにして、その後ろにつく「Sak(できる)」や「Chaah(したい)」を、Month 1で学んだ『Taa / Tee hoon』のルールで変化させます。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Ability (Can): Verb Root + Saktaa/Saktee/Sakte + Copula. (Main jaa saktaa hoon).",
+      "Desire (Want to): Verb Infinitive (-naa) + Chaahtaa/Chaahtee/Chaahte + Copula. (Main jaanaa chaahtaa hoon). NOTE the structural difference: Sak takes the root, Chaah takes the infinitive.",
+      "The gender/number tracking is completely handled by the modal auxiliary (Sak/Chaah), not the main verb."
+    ],
+    "conceptSummary": "Introduces modal composition. Cultivates morphological tracking: isolating roots for ability vs treating infinitives as objects of desire.",
+    "importantFacts": [
+      "Saknaa (can) ONLY attaches to the bare root. (khaa saktaa). Chaahnaa (want) requires the full -naa infinitive (khaanaa chaahtaa). This is a massive L1 interference point for Japanese speakers."
+    ],
+    "checkpointAnswers": {
+      "q1": "Saktee (सकती)",
+      "q2": "Jaanaa (जाना)",
+      "q3": "Chaahtaa (चाहता)"
+    },
+    "expectedUnderstanding": "Learners will map gender constraints purely to the auxiliary verb while manipulating the primary verb between root and infinitive states."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Saknaa(できる)は「語幹」に、Chaahnaa(したい)は「原形(naa)」につなげるという高度な構造の違いを理解できています！",
+    "onFail": "Month 1 の基本に立ち返りましょう！自分が男性なら「Taa hoon」、女性なら「Tee hoon」で終わるというルールが、ここでは「Saktaa / Saktee」として復活します。",
+    "onPartial": "惜しい！「私は行きたい」と言う時、「Main jaa chaahtaa hoon」としていませんか？したい事（Chaah）の前には、かならず「ナー(naa)」で終わる辞書形（jaanaa）を置く必要があります！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b1/lesson/native_modals.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b1/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b1/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b1/lesson/slow_modals.mp3",
+    "normalAudio": "audio/ja_hi/m3/b1/lesson/native_modals.mp3",
+    "audioTranscript": "Main jaa saktaa hoon. Main jaanaa chaahtee hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "modals", "ability", "desire", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b1/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「出来る（サク）」は根っこだけ。「したい（チャーハ）」はナーでつなぐ。",
+  "commonMistakes": [
+    "Saying 'Main jaanaa saktaa hoon' (I can 'to go') applying the infinitive rule incorrectly to ability modals."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "「できる」と「したい」の法則",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "「〜できる (Can)」: Saknaa",
+      "bodyText": "「ヒンディー語が（話）せる」「インドに（行け）る」のように能力や可能性を表すには、根っこだけの動詞の後ろに『Sak（サク）』をくっつけます。自分が男ならSaktaa、女ならSakteeに変化させます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं हिंदी बोल सकता हूँ।",
+          "transliteration": "Main hindee bol saktaa hoon.",
+          "baseTranslation": "私はヒンディー語が話せます(Can speak)。 [男の場合: Bol(語幹) + saktaa hoon]"
+        },
+        {
+          "targetText": "वह जा सकती है।",
+          "transliteration": "Vah jaa saktee hai.",
+          "baseTranslation": "彼女は行けます(Can go)。 [女の場合: Jaa(語幹) + saktee hai]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "「〜したい (Want to)」: Chaahnaa",
+      "bodyText": "「〜したい」と願望を表すには『Chaah（チャーハ）』を使いますが、超重要なルールがあります。Saknaaの時とは違い、メインの動詞は辞書に載っている形のまま（ナーを含んだ状態）で使わなければなりません。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं भारत जाना चाहता हूँ।",
+          "transliteration": "Main Bhaarat jaanaa chaahtaa hoon.",
+          "baseTranslation": "私はインドに行きたいです。 [男の場合: Jaanaa(原形) + chaahtaa hoon]"
+        },
+        {
+          "targetText": "हम खाना चाहते हैं।",
+          "transliteration": "Hum khaanaa chaahte hain.",
+          "baseTranslation": "私たちは食べたいです。 [私達の場合: Khaanaa(原形) + chaahte hain]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "否定の作り方",
+      "bodyText": "できない、したくない、という否定文を作る時は、Saktaa や Chaahtaa の直前に「Nahin(ナイ)」を置きます。Month 2 の命令形で使った Mat ではなく、普通の Nahin に戻ります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं नहीं जा सकता।",
+          "transliteration": "Main nahin jaa saktaa.",
+          "baseTranslation": "私は行けません。(Hoonが省略されることが多い)"
+        },
+        {
+          "targetText": "वह काम नहीं करना चाहती।",
+          "transliteration": "Vah kaam nahin karnaa chaahtee.",
+          "baseTranslation": "彼女は仕事をしたくありません。"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will construct complex verb phrases distinguishing between root attachment (for ability/saknaa) and infinitive attachment (for desire/chaahnaa).",
+  "examples": [
+    {
+      "targetText": "क्या आप जापानी बोल सकते हैं?",
+      "transliteration": "Kyaa aap jaapaanee bol sakte hain?",
+      "baseTranslation": "あなたは日本語を話すことができますか？(尊敬Aapなので Sakte)",
+      "explanation": "Bol (speak root) + sakte (can, respectful plural) + hain."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「Sak(できる)」の前は語幹(Ja, Khaa, Bol)！",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "「Chaah(したい)」の前は原形(Jaanaa, Khaanaa, Bolnaa)！",
+      "exceptionNotes": "英語の 'I want TO go' の TO が、ヒンディー語では 'Jaanaa' の Naa 部分だと考えると分かりやすいです。"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドでは「できるよ(Kar saktaa hoon)」と安易に答える人が多いですが、これは「You can rely on me（頼ってくれていいよ）」という文化的優しさから来ています（実際にできるかどうかは別として）。言葉の裏にある「I want to help you」を感じ取ってください。",
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【できる】動詞語幹(Jaa) ＋ Saktaa/Saktee ＋ To be動詞\n【したい】動詞原形(Jaanaa) ＋ Chaahtaa/Chaahtee ＋ To be動詞",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "女性が「私は行けます」と言う時「Main jaa _____ hoon」空白にはどの形が入りますか？",
+      "expectedAnswer": "Saktee (सकती)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "男性が「行きたい」と言う時「Main _____ chaahtaa hoon」空白に入る行く(Jaa)の形は何ですか？",
+      "expectedAnswer": "Jaanaa (जाना)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "男性が「食べたいです」と言う時、Khaanaa(食べる)の後ろに続く「Chaah〜」の形はどうなりますか？",
+      "expectedAnswer": "Chaahtaa (चाहता)"
+    }
+  ]
+}

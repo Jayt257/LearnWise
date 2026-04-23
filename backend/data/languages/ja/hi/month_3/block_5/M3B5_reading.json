@@ -1,0 +1,204 @@
+{
+  "activityId": "ja_hi_M3B5_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "薬局での診断 (Pharmacy Diagnosis)",
+  "learningGoal": "The learner will parse a narrative recounting a medical interaction, identifying Dative subjects (mujhe... hai) used for symptoms, and imperatives used for prescribing solutions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B5_pronunciation_001"],
+  "instructions": "ケンがインドの薬局で自分の体調を説明しています。「私に〜がある（Mujhe... hai）」の形を使って症状を伝えている部分と、薬剤師からの指示を読み解いてください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ インドの薬局(Medical store)では、軽い症状なら直接薬を買うことができます。"
+    }
+  ],
+  "readingTitle": "मेडिकल स्टोर पर (At the Medical Store)",
+  "readingText": "केन: मदद कीजिए। मेरी तबीयत ख़राब है। मुझे बहुत तेज़ बुख़ार है।\nकेमिस्ट: आपको क्या हुआ? क्या आपको दर्द है?\nकेन: हाँ, मुझे सिर में दर्द है और मुझे पेट में भी दर्द है।\nकेमिस्ट: ठीक है। आप यह दवा लीजिए। आराम कीजिए।\nकेन: धन्यवाद। क्या मुझे डॉक्टर को बुलाना चाहिए?",
+  "textInTargetLanguage": "केन: मदद कीजिए। मेरी तबीयत ख़राब है। मुझे बहुत तेज़ बुख़ार है।\nकेमिस्ट: आपको क्या हुआ? क्या आपको दर्द है?\nकेन: हाँ, मुझे सिर में दर्द है और मुझे पेट में भी दर्द है।\nकेमिस्ट: ठीक है। आप यह दवा लीजिए। आराम कीजिए।\nकेन: धन्यवाद। क्या मुझे डॉक्टर को बुलाना चाहिए?",
+  "baseLanguageSupportText": "ケン：助けてください(Madad keejiye)。私の体調(Tabeeyat)が悪いです。私にはとても強い熱があります。\n薬剤師：あなたに何が起きましたか？ あなたに痛みはありますか？\nケン：はい、私には頭の中に痛みがあります、そして私にはお腹の中にも痛みがあります。\n薬剤師：分かりました。あなたはこの薬(Davaa)を取って(飲んで)ください。休息(Aaraam)してください。\nケン：ありがとう。私は医者を呼ぶべきですか(Mujhe... chaahiye)？",
+  "glossary": [
+    {
+      "targetText": "तबीयत",
+      "transliteration": "Tabeeyat",
+      "baseTranslation": "体調 / 健康状態 (女性名詞)",
+      "exampleSentence": {
+        "targetText": "मेरी तबीयत ठीक है।",
+        "transliteration": "Meree tabeeyat ṭheek hai.",
+        "baseTranslation": "私の体調は良いです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "ख़राब",
+      "transliteration": "Kharaab",
+      "baseTranslation": "悪い / 壊れている",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "तेज़ बुख़ार",
+      "transliteration": "Tez bukhaar",
+      "baseTranslation": "強い(速い) 熱 ＝ 高熱",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "आपको क्या हुआ",
+      "transliteration": "Aapko kyaa huaa",
+      "baseTranslation": "あなたに 何が 起きた(過去形)？ ＝ どうしましたか？",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "दर्द",
+      "transliteration": "Dard",
+      "baseTranslation": "痛み",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "सिर में",
+      "transliteration": "Sir mein",
+      "baseTranslation": "頭の中 に (Sir = 頭)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पेट में",
+      "transliteration": "Peṭ mein",
+      "baseTranslation": "お腹の中 に (Peṭ = お腹)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "दवा",
+      "transliteration": "Davaa",
+      "baseTranslation": "薬 (Medicine)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "आराम",
+      "transliteration": "Aaraam",
+      "baseTranslation": "休息 / リラックス",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बुलाना चाहिए",
+      "transliteration": "bulaanaa chaahiye",
+      "baseTranslation": "呼ぶ(Bulaanaa) べきだ(chaahiye) ※主語はMujheになる",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मुझे सिर में दर्द है और मुझे पेट में भी दर्द है।",
+      "transliteration": "Mujhe sir mein dard hai aur mujhe peṭ mein bhee dard hai.",
+      "baseTranslation": "私に(Mujhe) 頭(sir)の中に(mein) 痛み(dard)が ある(hai)、そして(aur) 私に お腹(peṭ)の中にも(mein bhee) 痛みがある。"
+    },
+    {
+      "targetText": "आप यह दवा लीजिए।",
+      "transliteration": "Aap yah davaa leejiye.",
+      "baseTranslation": "あなた(Aap) これ(yah) 薬(davaa)を お取りください(leejiye: Lenaaの尊敬命令)。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ケンが自分の体調の「悪さ」を表現する時に使った形容詞(Kharaab)の意味として近いものはどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["熱い", "悪い / 壊れた"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「Mujhe bahut tez bukhaar hai.」 この文でケンが患っている一番の症状(Bukhaar)は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["咳 (せき)", "熱"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "薬剤師は「Aapko kyaa huaa? (あなたに何が起きましたか？)」と聞きました。Aap(あなた) という単語の後ろについている言葉(〜に)は何ですか？",
+      "questionType": "multiple_choice",
+      "options": ["ko", "mein"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "ケンは頭痛とお腹の「痛み」を訴えています。この「痛み」を意味するローマ字4文字の単語は何ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後にケンは「医者を呼ぶべきか」と尋ねました。誰かに何かを『してほしい(呼んでほしい)』とお願いする命令形ではなく、(私が)『〜するべきだ』という願望/義務の形を作る単語を使っています。それはどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["chaahiye (チャーヒエ)", "bulaaiye (ブラーイエ)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "悪い / 壊れた",
+      "q2": "熱",
+      "q3": "ko",
+      "q4": "dard",
+      "q5": "chaahiye (チャーヒエ)"
+    },
+    "acceptableParaphrases": {
+      "q4": ["dard", "Dard", "DARD"]
+    },
+    "keywordScoringRules": {
+      "q4": ["dard"]
+    },
+    "expectedSummaryPoints": [
+      "The learner successfully identifies 'dard' and 'bukhaar' as entities possessed by the dative subject (mujhe).",
+      "The learner differentiates between the imperative 'leejiye' (please take) and the modal 'chaahiye' (should/want)."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Mujhe...hai (私に◯◯という症状がある)」という特殊な文章構造を完璧に読み解くことができています！処方時の指示(Leejiye)も完璧です。",
+    "onFail": "一息ついて！病気を語る時は「私(Main)」ではなく「私に(Mujhe / Aapko)」という目線になります。また、痛み(Dard)や熱(Bukhaar)は名詞として扱われます。",
+    "onPartial": "よく読めて読めています！最後の「Mujhe ḍaakṭar ko bulaanaa chaahiye」は、Month 3の最初で学んだ Modals(願望・義務)の応用です。すべてが繋がってきていますね！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b5/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b5/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m3/b5/reading/native_reading.mp3",
+    "audioTranscript": "Ken: Madad keejiye. Meree tabeeyat kharaab hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "health", "emergencies", "symptoms", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Dard(痛み) は目に見えないモノです。だから「痛い」ではなく「痛みがある(dard hai)」と表現します。",
+  "commonMistakes": [
+    "Thinking 'sir mein dard hai' means 'Sir (the person/teacher) is in pain' instead of 'Sir' meaning 'Head'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

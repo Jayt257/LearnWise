@@ -1,0 +1,350 @@
+{
+  "activityId": "ja_hi_M3B3_test_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 確認テスト (Block 3 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of Hindi's complex sentence conjunctions, demonstrating the rigid correlative necessity of Agar-To and Jab-Tab, alongside the subordinating boundary marker 'ki'.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B3_lesson_001",
+    "ja_hi_M3B3_pronunciation_001",
+    "ja_hi_M3B3_reading_001",
+    "ja_hi_M3B3_writing_001",
+    "ja_hi_M3B3_listening_001",
+    "ja_hi_M3B3_vocabulary_001",
+    "ja_hi_M3B3_speaking_001"
+  ],
+  "instructions": "Block 3 の確認テストです！「もし〜なら」「〜の時」「〜と思う」「なぜなら」「だから」といった、文をつなぐ『接着剤』のルールが完璧に理解できているかが試されます。",
+  "testTitle": "Block 3 確認テスト (Complex Sentences)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 接続ルール (Conjunction Rules)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "「私は彼が来ると思う」と言いたい時、[私は思う]と[彼が来る]の間に入る言葉(英語のthatに相当)は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["To", "Ki", "Vah"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "「Agar (もし〜)」で始まる条件文の後半は、どの言葉で始めなければなりませんか？",
+          "questionType": "multiple_choice",
+          "options": ["To", "Tab"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「Jab (〜の時)」で始まる時間を示す条件文の後半は、どの言葉で始めなければなりませんか？",
+          "questionType": "multiple_choice",
+          "options": ["To", "Tab"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "「私は彼を知っている」という独立した文を作る場合と、「彼が来ることを知っている」と文を繋ぐ場合、後者の時だけ必要になる単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Ki", "Hai", "Main"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: ヒンディー語では、英語のように「If it rains, I won't go」と『to(then)』を省略して文を作っても文法的に正しい。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 論理の語彙 (Vocab)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「なぜなら (Because)」を意味する単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「だから / そのため (Therefore)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Isliye", "Kyonki"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「考える / 悩む (to think)」という動作自体を表す動詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Sochnaa", "Maaloom"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「私に〜と思われる・〜と感じる (It seems to me)」という表現を作る時に、Mujheの後に続く動詞は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Lagtaa hai", "Jaantaa hoon"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「知識として知っている(I know)」という意味で使われる単語「Maaloom」の綴りをローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 意味の識別 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Agar vah jaaegaa, to main nahin jaaoongaa.」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["もし彼が行くなら、私は行かない。", "彼が行く時に、私は行かない。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Jab tum aaoge, tab main soongaa.」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["もし君が来たら、僕は寝るよ。", "君が来た時(タイミング)に、僕は寝るよ。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Mujhe lagtaa hai ki vah achchhaa hai.」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["私は、彼が良い人であること(ki)を知っている。", "私は、彼は良い人だと思う(感じる)。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「Main kyonki bimaar hoon(病気), isliye main nahin jaaoongaa.」 この文で「Isliye(だから)」が导いているのは原因・結果のどちらですか？",
+          "questionType": "multiple_choice",
+          "options": ["結果 (だから行かない)", "原因 (なぜなら病気)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "文脈問題: 「Mujhe maaloom hai ki...」の後に続く文は、どのような内容であることが多いですか？",
+          "questionType": "multiple_choice",
+          "options": ["自分でも確かではない想像や感情", "自分の中に「知識」として存在している事実"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 構造作成 (Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "「もし雨が降るなら、その時は私は行かない」という時、正しい接着剤のペアはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Agar ... Tab", "Agar ... To", "Jab ... To"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "「君が来る時、その時に私に電話して」という時、正しい接着剤のペアはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jab ... Tab", "Agar ... Tab", "Jab ... To"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "「彼は良い人だ(Vah achchhaa hai)」と「私は思う(Mujhe lagtaa hai)」。この2つを繋ぐ最適な記号はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Kyonki", "Ki", "To"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「If (もし)」に当たる単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "「Because (なぜなら)」に当たる単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 40,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Ki",
+      "q002": "To",
+      "q003": "Tab",
+      "q004": "Ki",
+      "q005": "False",
+      "q006": "kyonki",
+      "q007": "Isliye",
+      "q008": "Sochnaa",
+      "q009": "Lagtaa hai",
+      "q010": "maaloom",
+      "q011": "もし彼が行くなら、私は行かない。",
+      "q012": "君が来た時(タイミング)に、僕は寝るよ。",
+      "q013": "私は、彼は良い人だと思う(感じる)。",
+      "q014": "結果 (だから行かない)",
+      "q015": "自分の中に「知識」として存在している事実",
+      "q016": "Agar ... To",
+      "q017": "Jab ... Tab",
+      "q018": "Ki",
+      "q019": "agar",
+      "q020": "kyonki"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q006": ["kyonki", "Kyonki"],
+      "q010": ["maaloom", "Maaloom", "malum"],
+      "q019": ["agar", "Agar"],
+      "q020": ["kyonki", "Kyonki"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! ヒンディー語の長文を作る上での「接着剤のペアリング(Agar-To, Jab-Tab)」の絶対的な法則を完璧に身に付けました！これでどんな複雑な思考も、論理的に説明することができます。",
+    "onFail": "残念！「Agar (もし)」の文を「Tab(その時)」で結んでいませんか？あるいは Ki (ということ) と Kyonki(なぜなら) を混同していませんか？接続詞は正しい組み合わせで使わないと全く違った意味になってしまいます。",
+    "onPartial": "惜しい！接続詞自体の意味は理解できていますが、「Lagtaa hai(感覚的に思う)」と「Maaloom hai(知識として知っている)」のようなネイティブの微細な表現の使い分けでミスが見られます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test validates your mastery of correlative conjunction pairs and subordinating thought-markers.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "conjunctions", "logic", "complex_sentences", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M3B6_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "ヒンディー特有の音・総集編 (Mastering Hindi Phonetics)",
+  "learningGoal": "The learner will demonstrate mastery over the phonetic cornerstones of Hindi that do not exist in Japanese: retroflex consonants (ṭ/ḍ), aspirated consonants (kh/bh/th/ch), and nasalized vowels (bindu/chandrabindu).",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B6_lesson_001"],
+  "instructions": "発音の総仕上げです！日本語には存在しない「舌を巻く音（反り舌音）」、「息を強く吐く音（有気音）」、「鼻に抜ける音（鼻母音）」の3種類を含んだ単語を、恐れずに発音しましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "カタカナの発音は卒業です。口の形と息の吐き方を意識してください。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "ठीक है",
+      "transliteration": "Ṭheek hai",
+      "baseTranslation": "大丈夫です / OK",
+      "phoneticHint": "ティーク・ハェ。Ṭhは反り舌音＋息を吐く音。舌を上顎の奥に丸めて当て、強烈に息を吐きながら弾き出します(Theek!)。",
+      "syllableSplit": "Ṭheek hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Teek hai (English T, no aspiration)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "खाना",
+      "transliteration": "Khaanaa",
+      "baseTranslation": "食べ物 / 食べる",
+      "phoneticHint": "カーナー。Khは息を吐く音。喉の奥から摩擦させるように息を強く吐きながら「カ」と言います。",
+      "syllableSplit": "Khaa-naa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Kaanaa (Simple K)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "बड़ा",
+      "transliteration": "Baḍaa",
+      "baseTranslation": "大きい",
+      "phoneticHint": "バラー。ḍは特殊な反り舌音（フラップ）。舌を丸めて上顎の奥に当て、前に滑らせるように「ラ」と「ダ」の中間の音を出します。",
+      "syllableSplit": "Ba-ḍaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bada (English D) or Bara (Japanese R)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "〜です (Mainのbe動詞)",
+      "phoneticHint": "フーン。鼻母音です。フの後に息を鼻から抜いて響かせます。口を閉じて「ン」と言ってはいけません。",
+      "syllableSplit": "Hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Hoon (with a hard N consonant closing the mouth)."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "अच्छा",
+      "transliteration": "Achchhaa",
+      "baseTranslation": "良い / なるほど",
+      "phoneticHint": "アッチャー。Chchhaa は息を吐く音です。「アッ」と一瞬ためを作った後、息を強く吐きながら「チャー」と言います。",
+      "syllableSplit": "Ach-chhaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Acha (no pause, no heavy air)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Ṭheek hai Khaanaa Baḍaa Hoon Achchhaa",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい上達です！日本語の枠組みを完全に突破し、ヒンディー語特有の「息」と「舌」の使い方をマスターしました。ネイティブにも100%通じます！",
+    "onFail": "ここはヒンディー語の壁です！まずは息を吐く音（Kh や Chh）から。口の前にティッシュを垂らし、発音した時にティッシュが大きく揺れるくらい息をぶつけてください！",
+    "onPartial": "惜しいところがあります！「Hoon(フーン)」の鼻母音は綺麗ですが、「Baḍaa(大きい)」の反り舌がまだ普通のダ行になっています。舌を口の中の天井の真ん中まで引き込んで弾いてみましょう。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "thik hai khana bada hoon achha",
+    "acceptedVariants": [
+      "theek hai khana bada hun acha",
+      "thik hey khaanaa baḍaa hoon achchhaa"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the execution of heavy aspiration (kh, chh, th), retroflex hits (ṭ, ḍ), and nasal resonance (hoon).",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b6/pronunciation/native_review_pron.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b6/pronunciation/slow_review_pron.mp3",
+    "normalAudio": "audio/ja_hi/m3/b6/pronunciation/native_review_pron.mp3",
+    "audioTranscript": "Ṭheek hai. Khaanaa. Baḍaa. Hoon. Achchhaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "retroflex", "aspiration", "nasal", "review", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b6/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語のように口先だけで発音するのではなく、肺の息とお腹の力をしっかり使って発音するのがコツです。",
+  "commonMistakes": [
+    "Treating retroflex ṭ/ḍ exactly the same as dental t/d or English t/d."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

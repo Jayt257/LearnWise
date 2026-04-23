@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M2B6_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "listening",
+  "title": "お別れの挨拶 (Farewells & Promises)",
+  "learningGoal": "The learner will aurally parse multi-clausal conversational conclusions, successfully distinguishing between polite imperatives (aaiye) and synthetic future declarations (aaoongaa/milenge) within the same dialogue.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M2B6_writing_001"],
+  "instructions": "ラージの家からケンが帰国する時の会話です。お母さんの「〜してください(Iye)」という言葉と、ケンの「明日〜する(Oongaa)」という言葉が交差しています。文末がどう終わっているかに全神経を集中させて聞いてください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Aaiye (来てください) と Aaoongaa (私が来る予定だ)。音は似ていますが、意味は全く違います！"
+    }
+  ],
+  "listeningGoal": "Distinguish between polite requests (Iye) from the host and future commitments (Oongaa) from the guest without visual aids.",
+  "audioScenario": "Ken is leaving Raj's house. Raj's mother bids him farewell.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "केन: आंटी जी, अब मैं जाऊँगा।",
+      "transliteration": "Ken: Aanṭee jee, ab main jaaoongaa.",
+      "baseTranslation": "ケン：おば様、私はもう行きます/帰ります。(Jaaoongaa)"
+    },
+    {
+      "targetText": "राज की माँ: ठीक है बेटा। संकोच मत कीजिए, फिर आइए।",
+      "transliteration": "Raaj kee maan: Ṭheek hai beṭaa. Sankoch mat keejiye, phir aaiye.",
+      "baseTranslation": "ラージの母：分かったわ。遠慮しないで、また来てくださいね。(Phir aaiye)"
+    },
+    {
+      "targetText": "केन: जी, मैं कल फिर आऊँगा।",
+      "transliteration": "Ken: Jee, main kal phir aaoongaa.",
+      "baseTranslation": "ケン：はい、明日また来ます。(Phir aaoongaa)"
+    },
+    {
+      "targetText": "राज की माँ: बहुत अच्छा। हम फिर मिलेंगे।",
+      "transliteration": "Raaj kee maan: Bahut achchhaa. Hum phir milenge.",
+      "baseTranslation": "ラージの母：とてもいいね。私たちはまた会いましょう。(Milenge)"
+    },
+    {
+      "targetText": "केन: नमस्ते।",
+      "transliteration": "Ken: Namaste.",
+      "baseTranslation": "ケン：さようなら(ナマステ)。"
+    }
+  ],
+  "audioTranscriptFull": "Ken: Aanṭee jee, ab main jaaoongaa.\nRaaj kee maan: Ṭheek hai beṭaa. Sankoch mat keejiye, phir aaiye.\nKen: Jee, main kal phir aaoongaa.\nRaaj kee maan: Bahut achchhaa. Hum phir milenge.\nKen: Namaste.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ケンが「もう行きます(帰ります)」と言った時、文末はどんな音でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["Jaaoongaa (ウーンガー)", "Jaaiye (イエ)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "お母さんがケンに「遠慮しないで」と伝えた時、Karnaa(する)の命令形としてどの音を使いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["Karo (カロ)", "Keejiye (キージエ)"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "お母さんは「また来てください」とお願いし、それに対してケンは「また来ます」と約束しました。ケンの「来ます（未来）」はどちらの音でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["Aaoongaa", "Aaiye"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "お母さんが言った「私たちはまた会うでしょう(Hum phir milenge)」の Milenge(ミレンゲー)は、誰の動作を表すルール(複数形/Aap用)の音ですか？",
+      "questionType": "multiple_choice",
+      "options": ["私(一人)", "私たち(複数)"],
+      "audioTimestamp": "00:17",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "会話の中で、ケンは「明日(Kal)」また来ると約束しました。「Kal」という単語はローマ字でどのように書きますか？",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Jaaoongaa (ウーンガー)",
+      "q2": "Keejiye (キージエ)",
+      "q3": "Aaoongaa",
+      "q4": "私たち(複数)",
+      "q5": "kal"
+    },
+    "acceptedShortAnswers": {
+      "q5": ["kal", "Kal", "KAL", "カル"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q5": ["kal"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Aaiye（来てください）と Aaoongaa（私が来るつもり）という、似ているようで全く違う構造の音声を、会話のスピードのまま完璧に仕分けできました！",
+    "onFail": "一息つきましょう！未来形の「ガー」や「ゲー」の音と、お願いの「イエ」の音。この２つが入り乱れています。最後の母音がどう落ちていくかに集中して聞き直してください。",
+    "onPartial": "よく聞き取れています！お母さんがケンに対して「Keejiye」と丁寧にお願いしているのは、お客様に対する最大限の敬意（おもてなし）を表しています。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b6/listening/farewell_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b6/listening/farewell_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b6/listening/farewell_native.mp3",
+    "audioTranscript": "Ken: Aanṭee jee, ab main jaaoongaa... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "synthesis", "future", "imperative", "hospitality", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b6/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Oongaa は鼻にかける音(ン)が入りますが、Iye は綺麗な滑り台のように音が落ちます。",
+  "commonMistakes": [
+    "Confusing 'aaiye' (please come) with 'aaoongaa' (I will come) due to the similar 'aa' root."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

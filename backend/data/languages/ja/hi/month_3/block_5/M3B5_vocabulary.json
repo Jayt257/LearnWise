@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M3B5_vocabulary_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "vocabulary",
+  "title": "命を守る言葉 (Emergency Vocabulary)",
+  "learningGoal": "The learner will rapidly internalize and recall paramount survival terminology, including physiological states (bukhaar, dard), anatomy (sir, peṭ), and emergency actions (madad, bachaao).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B5_listening_001"],
+  "instructions": "この単語帳の言葉は、いざという時に必ずあなたの助けになります。痛みや熱といった体の症状、そして助けを呼ぶための表現を体に染み込ませてください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 「Dard(ダとドの間にル)」の発音を声に出しながら覚えましょう。"
+    }
+  ],
+  "vocabTheme": "Health, Anatomy & Emergencies",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "मदद",
+      "transliteration": "Madad",
+      "baseTranslation": "助け / サポート (Noun)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "बचाओ",
+      "transliteration": "Bachaao",
+      "baseTranslation": "助けろ！ / 逃がして！ (Imperative Verb)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "casual/urgent",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "दर्द",
+      "transliteration": "Dard",
+      "baseTranslation": "痛み (Noun)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "बुख़ार",
+      "transliteration": "Bukhaar",
+      "baseTranslation": "熱 / 発熱 (Noun)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "तबीयत",
+      "transliteration": "Tabeeyat",
+      "baseTranslation": "体調 / 気分 (Noun)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "ख़राब",
+      "transliteration": "Kharaab",
+      "baseTranslation": "悪い / 壊れている (Adjective)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "सिर",
+      "transliteration": "Sir",
+      "baseTranslation": "頭 (Noun)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "पेट",
+      "transliteration": "Peṭ",
+      "baseTranslation": "お腹 / 胃 (Noun)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "दवा",
+      "transliteration": "Davaa",
+      "baseTranslation": "薬 (Noun)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "जल्दी",
+      "transliteration": "Jaldee",
+      "baseTranslation": "早く / 急いで (Adverb)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "助け / サポート",
+    "助けろ！ / 逃がして！",
+    "痛み",
+    "熱 / 発熱",
+    "体調 / 気分",
+    "悪い / 壊れている",
+    "頭",
+    "お腹 / 胃",
+    "薬",
+    "早く / 急いで"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w03",
+      "targetText": "मुझे दर्द है।",
+      "transliteration": "Mujhe dard hai.",
+      "baseTranslation": "私は痛いです。(私に痛みがある)"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "यह फ़ोन ख़राब है।",
+      "transliteration": "Yah phone kharaab hai.",
+      "baseTranslation": "この電話は壊れています。"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "जल्दी आइए।",
+      "transliteration": "Jaldee aaiye.",
+      "baseTranslation": "早く来てください。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its meaning: Dard (दर्द)",
+      "questionType": "matching",
+      "options": ["痛み", "熱/発熱"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its meaning: Bukhaar (बुख़ार)",
+      "questionType": "matching",
+      "options": ["熱/発熱", "薬"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Which word translates to 'Help/Support'?",
+      "questionType": "matching",
+      "options": ["Madad", "Jaldee"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Where is the 'Peṭ' (पेट) located?",
+      "questionType": "matching",
+      "options": ["お腹 / 胃", "頭"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Which word means 'Quickly / Hurry'?",
+      "questionType": "matching",
+      "options": ["Jaldee", "Kharaab"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "助け / サポート",
+      "w02": "助けろ！ / 逃がして！",
+      "w03": "痛み",
+      "w04": "熱 / 発熱",
+      "w05": "体調 / 気分",
+      "w06": "悪い / 壊れている",
+      "w07": "頭",
+      "w08": "お腹 / 胃",
+      "w09": "薬",
+      "w10": "早く / 急いで"
+    },
+    "acceptedTranslations": {
+      "w05": ["体調", "健康状態"],
+      "w06": ["悪い", "具合が悪い"]
+    },
+    "matchingKey": {
+      "q1": "痛み",
+      "q2": "熱/発熱",
+      "q3": "Madad",
+      "q4": "お腹 / 胃",
+      "q5": "Jaldee"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！命を守るためのサバイバル単語を完璧に記憶しました。これでもしもの時も、自分の状況を伝えられます。",
+    "onFail": "もう一度確認しましょう！特に Dard(痛み) と Bukhaar(熱) は医者に伝える際にもっとも重要な2大ワードです！",
+    "onPartial": "よくできました！Kharaab(悪い) は体の調子が悪い時以外にも、電化製品が壊れたと言う時にも使われる超万能ワードです！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b5/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b5/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b5/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b5/vocab/words_native.mp3",
+    "audioTranscript": "Madad. Bachaao. Dard. Bukhaar. Tabeeyat. Kharaab. Sir. Peṭ. Davaa. Jaldee.",
+    "audioLanguage": "hi",
+    "audioDuration": 130,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "health", "emergencies", "symptoms", "biology", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Sir (頭) を英語の「Sir(男性への敬称)」と間違えないように注意！",
+  "commonMistakes": [
+    "Thinking 'Sir' means a respected person, leading to confusion when saying 'Sir mein dard hai' (Pain in the head)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

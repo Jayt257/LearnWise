@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_hi_M3B6_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "3ヶ月の軌跡・総まとめ (The 3-Month Mega Review)",
+  "learningGoal": "The learner will synthesize the foundational grammar mechanisms of Hindi (Gender/Number, Postpositions, Verb conjugations, Imperatives, Future Tense, Modals, Compounds, and Conditionals) acquired over the 3-month intensive.",
+  "difficultyLevel": "advanced",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 90,
+  "prerequisites": ["ja_hi_M3B5_test_001"],
+  "instructions": "おめでとうございます！ヒンディー語の基礎を築く3ヶ月コースの最終ブロックです。これまでに学んだ「言葉の組み立て方」の総復習をしましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "この3ヶ月で、あなたは「名詞の性別」から始まり、複雑な「複合動詞」や「条件文」まで駆け抜けました。ここからは、それらの知識を全て繋ぎ合わせる段階です。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Month 1: Identity & Foundation (Gender, Noun cases, Copula 'hai', basic verbs).",
+      "Month 2: Action & Extension (Postpositions me/se/par, Imperatives, Future tense, Dative 'Mujhe').",
+      "Month 3: Complexity & Fluency (Modals Saknaa/Chaahnaa, Compound verbs Jaanaa/Denaa/Lenaa, Conjunctions Agar/To, Survival Phrases)."
+    ],
+    "conceptSummary": "A meta-structural recap that pulls the isolated grammatical blocks into a unified linguistic theory for the learner.",
+    "importantFacts": [
+      "The defining feature of Hindi syntax is that postpositions (ko, se, mein) change the shape of the nouns/pronouns they attach to (Main -> Mujh, Vah -> Us)."
+    ],
+    "checkpointAnswers": {
+      "q1": "Hai (है)",
+      "q2": "Ko (को)",
+      "q3": "Mujhe (मुझे)"
+    },
+    "expectedUnderstanding": "Learners will recognize how early concepts (like gender) influence late concepts (like future tense verb endings)."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！3ヶ月分の文法体系が頭の中で一つの線に繋がりましたね！もうあなたは、全く知らないヒンディー語の長文でも構造を分解して理解する力を持っています。",
+    "onFail": "一息つきましょう。情報量がとても多いので、まずは Month 1 の「性別と動詞の変化」という一番の基礎に立ち返ってみましょう。",
+    "onPartial": "よく理解しています！文法は数学の公式のようなものです。公式(ルール)を覚えたら、あとは単語という数字を入れ替えるだけで無限に文章が作れます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b6/lesson/native_review.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b6/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b6/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b6/lesson/slow_review.mp3",
+    "normalAudio": "audio/ja_hi/m3/b6/lesson/native_review.mp3",
+    "audioTranscript": "Main jaataa hoon. Mujhe jaanaa hai. Agar tum aaoge to main jaaoongaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "review", "summary", "month3", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b6/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "文章を読む時は、最後にある動詞(Hoon, Hai, Jaaegaa等)から逆算して意味を取ると分かりやすいです。",
+  "commonMistakes": [
+    "Forgetting that verbs must match the gender of the subject in present/future tenses."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "文法の黄金ルールまとめ",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "ルール1: 性別の支配 (Gender & Identity)",
+      "bodyText": "ヒンディー語で最も重要なルール。それは「話している人の性別（または主語の性別）」によって、動詞の形が変わることです。男は aa（アー）、女は ee（イー）です。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं जाता हूँ। / मैं जाती हूँ।",
+          "transliteration": "Main jaataa hoon. / Main jaatee hoon.",
+          "baseTranslation": "私は行く(男) / 私は行く(女) [Month 1]"
+        },
+        {
+          "targetText": "मैं जाऊँगा। / मैं जाऊँगी।",
+          "transliteration": "Main jaaoongaa. / Main jaaoongee.",
+          "baseTranslation": "私は行くつもりだ(未来形・男) / (女) [Month 2]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "ルール2: 接着剤と変身 (Postpositions)",
+      "bodyText": "英語の In, On, To にあたる「後置詞 (Mein, Se, Ko etc)」。これらが名詞や代名詞にくっつくと、前の単語が『変身（斜格に変化）』します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "कमरा -> कमरे में / भारत -> भारत से",
+          "transliteration": "Kamraa -> kamre mein / Bhaarat -> Bhaarat se",
+          "baseTranslation": "部屋(Kamraa) -> 部屋の中(Kamre mein) (変身) / インド -> インドから(変身なし)"
+        },
+        {
+          "targetText": "मैं + को = मुझे / वह + को = उसे",
+          "transliteration": "Main + ko = Mujhe / Vah + ko = Use",
+          "baseTranslation": "私＋に ＝ 私に(Mujhe) / 彼＋に ＝ 彼に(Use) [Month 2]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "ルール3: 魔法の型・Mujhe (The Dative State)",
+      "bodyText": "「好き・欲しい・行きたい(用事がある)・病気だ」など、自分の感情や体のコントロールを超えた状態を語る時は、すべて Mujhe(私に) を使います。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझे चाय पसंद है।",
+          "transliteration": "Mujhe chaay pasand hai.",
+          "baseTranslation": "私はお茶が好きだ。(私にお茶が好ましい) [Month 2]"
+        },
+        {
+          "targetText": "मुझे बुख़ार है।",
+          "transliteration": "Mujhe bukhaar hai.",
+          "baseTranslation": "私は熱がある。(私に熱がある) [Month 3]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "ルール4: つなぐ・強調する (Complexity)",
+      "bodyText": "文と文を繋ぐペア(Agar...To)や、動詞を2つ重ねてニュアンスを足す複合動詞(Khaa jaanaaなど)を使えば、ネイティブの会話力が手に入ります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "अगर तुम आओगे, तो मैं सब खा जाऊँगा।",
+          "transliteration": "Agar tum aaoge, to main sab khaa jaaoongaa.",
+          "baseTranslation": "もし君が来るなら、その時は僕が全部食べて『しまうよ』。 [Month 3]"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will comprehensively review and link all core grammar modules from M1 to M3, cementing the meta-cognitive framework of the Hindi language.",
+  "examples": [
+    {
+      "targetText": "अगर मुझे बुखार होगा, तो मैं अस्पताल जाऊँगा।",
+      "transliteration": "Agar mujhe bukhaar hogaa, to main aspataal jaaoongaa.",
+      "baseTranslation": "もし私に熱が[ある状態に]なるなら、その時は私は病院へ行くつもりだ。(男)",
+      "explanation": "Ultimate sentence combining Conditionals (Agar/to), Dative possession (Mujhe), Future tense of copula (hogaa), and standard Future action (jaaoongaa)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "主語がMain(私)の時、文の最後は絶対にHoon(フーン)で終わる。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "丁寧なお願いや指示をする時は、動詞の後ろを「〜iye(イエ)」にする。(Jaaiye, Keejiye, Bulaaiye)",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【性別】男はaa長音、女はee長音で動詞を変化\n【接着】Ko, Seなどの前で単語は変身する\n【特殊】感情・病気・義務は Mujhe(私に) でスタート\n【接続】Agar(もし) と To(なら) は絶対セット",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「これは〇〇です (Yah ... )」という文で、文の最後を締めくくるB動詞(is)にあたる言葉は何ですか？",
+      "expectedAnswer": "Hai (है)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "名詞の後ろにくっついて様々な意味を付加する「後置詞」。人を呼ぶ時や移動の目的地を表す『〜に・〜を』を意味する後置詞は何ですか？",
+      "expectedAnswer": "Ko (को)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "感情・好き嫌い・願望・病気を表現する「私に〜」の単語をローマ字で答えてください。",
+      "expectedAnswer": "Mujhe (मुझे)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "activityId": "ja_hi_M1B2_speaking_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "speaking",
+  "title": "誰ですか？ (Who are you?)",
+  "learningGoal": "The learner will accurately produce subject-verb agreement dynamically in conversation, accurately linking Main to hoon, Vah to hai, and Aap to hain, while deploying correct nasalization.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B2_vocabulary_001"],
+  "instructions": "今度はあなたが質問に答える番です！相手の質問に対して、「私は〜です」「彼は〜です」と的確に答えてください。文の最後の動詞（Hoon, Hai, Hain）を間違えないように集中しましょう！",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "マイクに向かって、「Hoon」と「Hain」の場合はしっかりと「鼻から息を抜く音（Nasalization）」を出してください。舌を「ン」の位置にくっつけてはいけません！"
+    }
+  ],
+  "speakingPrompt": "質問に対して、正しい主語と動詞を使って答えてください。",
+  "scenario": "Introducing yourself and a friend to a local teacher.",
+  "role": "The Japanese Tourist",
+  "conversationPartner": "The Indian Teacher",
+  "subTasks": [
+    {
+      "subTaskId": "t1",
+      "prompt": "先生: 'नमस्ते। आप कौन हैं?' (こんにちは。あなたは誰ですか？) 答え：「こんにちは。私は学生です。」",
+      "expectedSpeakingPoints": ["Namaste", "Main", "vidyaarthee", "hoon"],
+      "sampleResponse": {
+        "targetText": "नमस्ते। मैं विद्यार्थी हूँ।",
+        "transliteration": "Namaste. Main vidyaarthee hoon.",
+        "baseTranslation": "こんにちは。私は学生です。"
+      }
+    },
+    {
+      "subTaskId": "t2",
+      "prompt": "先生: 'वह कौन है?' (彼は誰ですか？) 答え：「彼は私の友達です。」",
+      "expectedSpeakingPoints": ["Vah", "mera dost", "hai"],
+      "sampleResponse": {
+        "targetText": "वह मेरा दोस्त है।",
+        "transliteration": "Vah mera dost hai.",
+        "baseTranslation": "彼は私の友達です。"
+      }
+    },
+    {
+      "subTaskId": "t3",
+      "prompt": "先生: 'क्या वह जापानी है?' (彼は日本人ですか？) 答え：「はい、彼は日本人です。」",
+      "expectedSpeakingPoints": ["Haan", "vah Jaapaanee hai"],
+      "sampleResponse": {
+        "targetText": "हाँ, वह जापानी है।",
+        "transliteration": "Haan, vah Jaapaanee hai.",
+        "baseTranslation": "はい、彼は日本人です。"
+      }
+    }
+  ],
+  "scenarioContext": {
+    "targetText": "नमस्ते। आप कौन हैं?",
+    "transliteration": "Namaste. Aap kaun hain?",
+    "baseTranslation": "こんにちは。あなたは誰ですか？"
+  },
+  "baselineTranscriptSentences": [
+    {
+      "targetText": "नमस्ते। मैं विद्यार्थी हूँ।",
+      "transliteration": "Namaste. Main vidyaarthee hoon.",
+      "baseTranslation": "こんにちは。私は学生です。"
+    },
+    {
+      "targetText": "वह मेरा दोस्त है।",
+      "transliteration": "Vah mera dost hai.",
+      "baseTranslation": "彼は私の友達です。"
+    },
+    {
+      "targetText": "हाँ, वह जापानी है।",
+      "transliteration": "Haan, vah Jaapaanee hai.",
+      "baseTranslation": "はい、彼は日本人です。"
+    }
+  ],
+  "scoringRules": {
+    "fluencyWeight": 30,
+    "contentWeight": 30,
+    "grammarWeight": 30,
+    "vocabularyWeight": 10
+  },
+  "adminCorrectAnswerSet": {
+    "expectedSpeakingPoints": [
+      "Namaste",
+      "Main",
+      "vidyaarthee",
+      "hoon",
+      "Vah",
+      "mera dost",
+      "hai",
+      "Haan",
+      "Jaapaanee"
+    ],
+    "requiredKeywords": [
+      "main", "hoon", "vah", "hai", "dost"
+    ],
+    "acceptableParaphrases": [
+      "haan vah jaapaanee hai",
+      "ji haan vah jaapaanee hai"
+    ],
+    "scoringRubric": {
+      "Subject-Verb Sync": "Checks if 'Main' correlates strictly with 'Hoon' and 'Vah' correlates with 'Hai'. Zero tolerance for L1 'desu' flat mapping.",
+      "Nasalization": "Verifies that 'Hoon/Hain' do not trigger hard alveolar /n/ stops."
+    },
+    "sampleAnswer": "Namaste. Main vidyaarthee hoon. Vah mera dost hai. Haan, vah Jaapaanee hai.",
+    "minimumContentCoverage": 80
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！会話の中で瞬時に「 Main = hoon 」と「 Vah = hai 」を使い分けることができました。鼻から抜ける音も自然です！",
+    "onFail": "もう一度練習しましょう。日本語のようになんでも「Hai」で終わらせないでください。「私 (Main)」の時は必ず「Hoon」です！舌の動き（ンを言う時に上あごにくっつけない）にも注意してください。",
+    "onPartial": "惜しいところがあります。「私は〜です」のときの「Hoon（フーン）」と、「彼は〜です」のときの「Hai（ハィ）」の使い分けに気をつけてもう一度発音してみましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m1/b2/speaking/prompts.mp3",
+    "nativeAudio": "audio/ja_hi/m1/b2/speaking/full_dialogue.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/speaking/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b2/speaking/sample_responses.mp3",
+    "slowAudio": "audio/ja_hi/m1/b2/speaking/slow_dialogue.mp3",
+    "normalAudio": "audio/ja_hi/m1/b2/speaking/full_dialogue.mp3",
+    "audioTranscript": "Teacher: Namaste. Aap kaun hain?\nLearner: Namaste. Main vidyaarthee hoon...\n(Matches full dialogue)",
+    "audioLanguage": "hi",
+    "audioDuration": 110,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["speaking", "roleplay", "grammar", "subject_verb_agreement", "nasalization", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/speak_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "主語が Main の時は Hoon、Vah の時は Hai を使うことに100%集中してください。",
+  "commonMistakes": [
+    "Replying 'Main vidyaarthee hai' due to Japanese static copula habitude."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_test_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

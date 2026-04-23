@@ -1,0 +1,209 @@
+{
+  "activityId": "ja_hi_M3B1_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "私の目標 (My Goals & Abilities)",
+  "learningGoal": "The learner will decode a first-person narrative, distinguishing between ability matrices (verb root + sak) and desire matrices (infinitive + chaah), while tracking the gender of the narrator.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B1_pronunciation_001"],
+  "instructions": "アニタが自分の能力と将来の夢について書いています。「できること（Sak）」と「したいこと（Chaah）」の違いに注意して読んでください。また、アニタが女性であるために文末がどう変化しているかにも着目しましょう。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "Sak の前は『動詞の語幹』、Chaah の前は『動詞の原形(〜naa)』になっていることを目で確認してください。"
+    }
+  ],
+  "readingTitle": "मेरे सपने (My Dreams)",
+  "readingText": "नमस्ते। मैं अनीता हूँ। मैं हिंदी और थोड़ी जापानी बोल सकती हूँ। मैं जापानी खाना बना सकती हूँ। लेकिन मैं जापान नहीं जा सकती, क्योंकि मेरे पास पैसे नहीं हैं। अगले साल मैं टोक्यो जाना चाहती हूँ। मैं वहाँ काम करना चाहती हूँ।",
+  "textInTargetLanguage": "नमस्ते। मैं अनीता हूँ। मैं हिंदी और थोड़ी जापानी बोल सकती हूँ। मैं जापानी खाना बना सकती हूँ। लेकिन मैं जापान नहीं जा सकती, क्योंकि मेरे पास पैसे नहीं हैं। अगले साल मैं टोक्यो जाना चाहती हूँ। मैं वहाँ काम करना चाहती हूँ。",
+  "baseLanguageSupportText": "こんにちは。私はアニタです。私はヒンディー語と少しの日本語を話すことができます。私は日本食を作ることができます。でも私は日本へ行くことができません、なぜなら（私の元には）お金がないからです。来年、私は東京へ行きたいです。私はあそこで仕事がしたいです。",
+  "glossary": [
+    {
+      "targetText": "थोड़ी",
+      "transliteration": "Thoḍee",
+      "baseTranslation": "少しの (Jaapaanee言語が女性名詞なのでThoḍeeとなっている)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बोल सकती हूँ",
+      "transliteration": "bol saktee hoon",
+      "baseTranslation": "話すことができます (話す語幹 + できる女性形)",
+      "exampleSentence": {
+        "targetText": "मैं हिंदी बोल सकती हूँ।",
+        "transliteration": "Main hindee bol saktee hoon.",
+        "baseTranslation": "私はヒンディー語を話すことができます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बना",
+      "transliteration": "banaa",
+      "baseTranslation": "作る / 料理する (Banaanaaの語幹)",
+      "exampleSentence": {
+        "targetText": "मैं खाना बना सकती हूँ।",
+        "transliteration": "Main khaanaa banaa saktee hoon.",
+        "baseTranslation": "私はご飯を作ることができます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "लेकिन",
+      "transliteration": "Lekin",
+      "baseTranslation": "しかし / でも",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "क्योंकि",
+      "transliteration": "Kyonki",
+      "baseTranslation": "なぜなら (Because)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मेरे पास",
+      "transliteration": "Mere paas",
+      "baseTranslation": "私の元には / 私は〜を持っている (Possession of objects)",
+      "exampleSentence": {
+        "targetText": "मेरे पास पैसे नहीं हैं।",
+        "transliteration": "Mere paas paise nahin hain.",
+        "baseTranslation": "私にはお金がありません。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "अगले साल",
+      "transliteration": "Agle saal",
+      "baseTranslation": "来年 (Next year)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "जाना चाहती हूँ",
+      "transliteration": "jaanaa chaahtee hoon",
+      "baseTranslation": "行きたいです (行く原形 + したい女性形)",
+      "exampleSentence": {
+        "targetText": "मैं टोक्यो जाना चाहती हूँ।",
+        "transliteration": "Main Tokyo jaanaa chaahtee hoon.",
+        "baseTranslation": "私は東京へ行きたいです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "वहाँ",
+      "transliteration": "Vahaan",
+      "baseTranslation": "そこで / あそこで (There)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं जापानी खाना बना सकती हूँ।",
+      "transliteration": "Main jaapaanee khaanaa banaa saktee hoon.",
+      "baseTranslation": "私は日本食を作ることができます。（banaa + saktee）"
+    },
+    {
+      "targetText": "मैं वहाँ काम करना चाहती हूँ।",
+      "transliteration": "Main vahaan kaam karnaa chaahtee hoon.",
+      "baseTranslation": "私はあそこで仕事をしたいです。（karnaa + chaahtee）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "アニタが日本語を話す「能力(できる)」について述べている時、自分自身を女性として表現するために、Saktaaの後半はどのように変化していますか？",
+      "questionType": "multiple_choice",
+      "options": ["Saktee (ティー)", "Sakte (テー)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「料理ができる(banaa saktee hoon)」という文で、banaanaa(作る)という動詞はどのような形で配置されていますか？",
+      "questionType": "multiple_choice",
+      "options": ["naa を残した原形のまま配置されている", "naa を外した語幹(banaa)の状態で配置されている"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "アニタは今すぐ日本に行けますか？行けない場合はその理由を教えてください。",
+      "questionType": "multiple_choice",
+      "options": ["行ける", "行けない。なぜなら(Kyonki)お金がないから。"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「来年、彼女は東京へ行き『たい』」。この願望を示す文では、Jaanaa(行く)という単語はどのように配置されていますか？",
+      "questionType": "multiple_choice",
+      "options": ["naa を残した原形のまま配置されている", "naa を外した語幹(jaa)の状態で配置されている"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「私は〇〇したいです」と望みを言う時に使う動詞（ローマ字で「Chaahtee」）の意味を日本語で答えてください。",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Saktee (ティー)",
+      "q2": "naa を外した語幹(banaa)の状態で配置されている",
+      "q3": "行けない。なぜなら(Kyonki)お金がないから。",
+      "q4": "naa を残した原形のまま配置されている",
+      "q5": "したい"
+    },
+    "acceptableParaphrases": {
+      "q5": ["したい", "〜したい", "望む", "want to"]
+    },
+    "keywordScoringRules": {
+      "q5": ["したい", "望む"]
+    },
+    "expectedSummaryPoints": [
+      "The learner recognizes the visual boundary between a bare root ('bol') followed by 'saktee' vs a full infinitive ('jaanaa') followed by 'chaahtee'.",
+      "The learner correlates 'Kyonki' with the provision of a reason."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Sak(できる) の前は語幹、Chaah(したい) の前は原形という、ヒンディー語で最も間違いやすい構造的ルールを文章の中で完璧に捉えられています！",
+    "onFail": "もう一度読み直しましょう！「Bol saktee (話せる)」と「Jaanaa chaahtee (行きたい)」の動詞の形を見比べてください。ボルとジャーナーで形が全く違います！",
+    "onPartial": "よく読めて読めています！Q3の「Kyonki(なぜなら)」は、理由を説明する時に一生使い続ける超重要単語なので、ここで覚えてしまいましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b1/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b1/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b1/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m3/b1/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Main Aneeta hoon... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "modals", "ability", "desire", "reasons", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b1/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Lekin(しかし) と Kyonki(なぜなら) は、文章を長くする最強の接着剤です。",
+  "commonMistakes": [
+    "Reading 'bol saktee' and thinking 'bol' is a separate word from the modal ability structure."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

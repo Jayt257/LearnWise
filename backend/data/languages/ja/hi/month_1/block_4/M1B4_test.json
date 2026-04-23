@@ -1,0 +1,349 @@
+{
+  "activityId": "ja_hi_M1B4_test_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 確認テスト (Block 4 Assessment)",
+  "learningGoal": "The learner will demonstrate mastery over Hindi postpositions (Mein, Par, Se), perfectly mapping them to Japanese particles and avoiding L2 English prepositional errors.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M1B4_lesson_001",
+    "ja_hi_M1B4_pronunciation_001",
+    "ja_hi_M1B4_reading_001",
+    "ja_hi_M1B4_writing_001",
+    "ja_hi_M1B4_listening_001",
+    "ja_hi_M1B4_vocabulary_001",
+    "ja_hi_M1B4_speaking_001"
+  ],
+  "instructions": "Block 4 の確認テストです！ヒンディー語の『助詞（Postpositions）』は日本語と同じ位置につく最高の武器です。Mein、Par、Se を正しく配置できるかテストしましょう！",
+  "testTitle": "Block 4 確認テスト (Postpositions / Particles)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 助詞の種類 (Mapping Postpositions)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "日本語の「〜の中に」に相当するヒンディー語の助詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["पर (Par)", "में (Mein)", "से (Se)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "日本語の「〜の上に」に相当するヒンディー語の助詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["पर (Par)", "में (Mein)", "से (Se)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "日本語の「〜から」に相当するヒンディー語の助詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["पर (Par)", "में (Mein)", "से (Se)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "「どこ」を意味する疑問詞は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["कहाँ (Kahaan)", "यहाँ (Yahaan)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: Mein, Par, Se などの助詞は、英語の 'in' や 'on' と同じように名詞の「前」に置かれる。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_syntax",
+      "sectionTitle": "Section 2: 語順の構築 (Syntactical Placement)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「机の上」の正しいヒンディー語の並びはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Par mez", "Mez par"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「部屋の中」の正しいヒンディー語の並びはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Mein kamraa", "Kamraa mein (Kamre mein)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「日本から」の正しいヒンディー語の並びはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaapaan se", "Se Jaapaan"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "Fill in the blank: 'Main Tokyo ____ hoon.' (私は東京にいます)",
+          "questionType": "multiple_choice",
+          "options": ["par", "mein", "se"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "Fill in the blank: 'Aap kahaan ____ hain?' (あなたはどこ『から』来ましたか？)",
+          "questionType": "multiple_choice",
+          "options": ["par", "mein", "se"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_pronunciation",
+      "sectionTitle": "Section 3: 発音 (Pronunciation of Postpositions)",
+      "activityTypeRef": "pronunciation",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Mein (में)」の「ん」の発音について正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["舌を上あごに押し付けてNを強く出す", "舌を空中に浮かせて鼻から息を抜く"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Par (पर)」を発音する時の注意点はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["『パルゥ』と最後に『ウ』を入れてはいけない", "『P』を『B』のように発音する"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Ghar mein」と発音する時、ネイティブはどのように読みますか？",
+          "questionType": "multiple_choice",
+          "options": ["Ghar と mein の間に明確な休みを入れる (Ghar...mein)", "Gharmein と一つの言葉のように滑らかに発音する"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「ここ」を意味する単語は何ですか？ (ローマ字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "「そこ / あそこ」を意味する単語は何ですか？ (ローマ字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 総合作文 (Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 'वह घर में है।' (Vah ghar mein hai.)",
+          "questionType": "multiple_choice",
+          "options": ["彼は東京にいます。", "彼は家の中にいます。", "家は大きいです。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 'किताब मेज़ पर है।' (Kitaab mez par hai.)",
+          "questionType": "multiple_choice",
+          "options": ["大きな机です。", "本は机の上にあります。", "本は机の中にあります。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Fix the error: 'Main mein Tokyo hoon.'",
+          "questionType": "multiple_choice",
+          "options": ["Main Tokyo mein hoon.", "Tokyo mein main hoon.", "Main Tokyo par hoon."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "True or False: 日本語の『私は日本から来ました』の『から』と、ヒンディー語の『Jaapaan se』の『se』は、文の中で全く同じ『名詞の直後』のポジションにいる。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "What does 'कुर्सी (Kursee)' mean in Japanese?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 20,
+    "writing": 40,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "में (Mein)",
+      "q002": "पर (Par)",
+      "q003": "से (Se)",
+      "q004": "कहाँ (Kahaan)",
+      "q005": "False",
+      "q006": "Mez par",
+      "q007": "Kamraa mein (Kamre mein)",
+      "q008": "Jaapaan se",
+      "q009": "mein",
+      "q010": "se",
+      "q011": "舌を空中に浮かせて鼻から息を抜く",
+      "q012": "『パルゥ』と最後に『ウ』を入れてはいけない",
+      "q013": "Gharmein と一つの言葉のように滑らかに発音する",
+      "q014": "Yahaan",
+      "q015": "Vahaan",
+      "q016": "彼は家の中にいます。",
+      "q017": "本は机の上にあります。",
+      "q018": "Main Tokyo mein hoon.",
+      "q019": "True",
+      "q020": "椅子"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q014": ["yahaan", "Yahaan"],
+      "q015": ["vahaan", "Vahaan", "wahaan"],
+      "q020": ["いす", "イス", "椅子"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_syntax": 20,
+      "sec_pronunciation": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! 日本人ならではの圧倒的アドバンテージ「助詞（Postpositions）」を完璧に活用できました！ヒンディー語で場所に関する会話はもう完璧です。",
+    "onFail": "残念！もう一度復習が必要です。英語の Preposition（前置詞）の癖が出て名詞の前に置いてしまっていませんか？日本語と同じ Postposition（後置詞）であることを再確認してください！",
+    "onPartial": "惜しいところがあります。Mein（中）と Par（上）と Se（から）の意味を正確にもう一度覚え直しましょう。日常会話で最も使う単語です。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test measures Japanese SOV particle placement against Hindi postpositions.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "grammar", "postpositions", "particles", "locations", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

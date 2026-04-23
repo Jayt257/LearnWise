@@ -1,0 +1,189 @@
+{
+  "activityId": "ja_hi_M1B5_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 5,
+  "activityType": "lesson",
+  "title": "動詞のルール: 食べる・行く (Action Verbs & Gender)",
+  "learningGoal": "The learner will conjugate basic Hindi verbs into the Present Habitual tense, synthesizing Subject-Verb agreement (hoon/hain) with subject-based grammatical gender mutations (taa/tee).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B4_test_001"],
+  "instructions": "ついに「食べる」「行く」といった動作を表す動詞が登場します！ヒンディー語の動詞の現在形を作るには、2つのブロック（あなたが男か女か ＋ 最後の仕上げ）を組み合わせるゲームのようなルールがあります。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "日本語では男性でも女性でも「私は食べます」ですが、ヒンディー語では『話している人が男性か女性か』によって動詞の形が変わります！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "All Hindi dictionary verbs end in '-naa' (e.g., Khaanaa, Jaanaa). This is the infinitive.",
+      "To conjugate, strip the '-naa' to get the root (Khaa-, Jaa-).",
+      "Add '-taa' if the subject is masculine singular. Add '-tee' if feminine. Add '-te' for plural/polite.",
+      "Cap the sentence with the correct 'To Be' verb learned in Block 2 (hoon, hain, hai)."
+    ],
+    "conceptSummary": "Synthesizing prior learnings (SOV, To Be verbs, Gender markers Aa/Ee) into full Present Habitual verbal conjugations.",
+    "importantFacts": [
+      "Unlike possessives where gender depends on the OBJECT (Mera ghar), in verbal conjugation, the gender depends on the SUBJECT (who is doing the action)."
+    ],
+    "checkpointAnswers": {
+      "q1": "Khaatee (खाती)",
+      "q2": "Te (ते)",
+      "q3": "Hoon (हूँ)"
+    },
+    "expectedUnderstanding": "Learners will recognize that verbal conjugation in Hindi bridges logical conditions: 'Root + Gender + To Be Verb'."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の動詞のパズルルール（語幹 ＋ ター/ティー ＋ フーン/ハイン）を完全に理解しました！",
+    "onFail": "もう一度確認しましょう。男性が話す時は動詞に「ター (taa)」を、女性が話す時は「ティー (tee)」をつなげた後、Block 2で習った「フーン (Hoon)」で文を終わらせます。",
+    "onPartial": "よく理解しています。「あなた (Aap)」に対して話すときは、男性でも女性でも尊敬を表す「てー (te)」の音を使うことに気をつけてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b5/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b5/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b5/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b5/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m1/b5/lesson/native_lesson.mp3",
+    "audioTranscript": "Main khaataa hoon. Main khaatee hoon. Aap jaate hain.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "present_tense", "gender", "month1", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b5/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「主語の性別（タ/ティ）」と「最後の言葉（フン/ハイン）」の2箇所で形を変える必要があります。",
+  "commonMistakes": [
+    "A female speaker saying 'Main khaataa hoon' because they forget verbs mutate based on the speaker's gender.",
+    "Forgetting the required 'To Be' copula at the end (e.g. saying just 'Main khaatee')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B5_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "動詞の組み立て (Verb Assembly)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "STEP 1: 辞書形と語幹 (Dictionary Form and Root)",
+      "bodyText": "ヒンディー語の動詞はすべて辞書に載っている時は「〜ナー (-naa)」で終わります（例：Khaanaa＝食べる、Jaanaa＝行く）。文を作る時は、この「ナー」を切り捨てて「語幹」だけにします。 (Khaanaa → Khaa)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "खाना",
+          "transliteration": "Khaanaa",
+          "baseTranslation": "食べる (辞書形)"
+        },
+        {
+          "targetText": "खा",
+          "transliteration": "Khaa-",
+          "baseTranslation": "食べ (語幹)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "STEP 2: 行う人の『性別』 (Adding the Gender Marker)",
+      "bodyText": "次に、切り取った部分に新しい音（ター・ティー・テー）をくっつけます。ここでは「誰がその動作をしているか（主語）」が重要です。\n男性がするなら：ター (-taa)\n女性がするなら：ティー (-tee)\nあなた（尊敬）なら：テー (-te)",
+      "targetLanguageExamples": [
+        {
+          "targetText": "खाता",
+          "transliteration": "Khaa + taa = Khaataa",
+          "baseTranslation": "男性が『食べる』時"
+        },
+        {
+          "targetText": "खाती",
+          "transliteration": "Khaa + tee = Khaatee",
+          "baseTranslation": "女性が『食べる』時"
+        },
+        {
+          "targetText": "जाते",
+          "transliteration": "Jaa + te = Jaate",
+          "baseTranslation": "あなた（Aap）が『行く』時"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "STEP 3: いつもの「です」で締める (The Final Copula)",
+      "bodyText": "ここが最も忘れやすいポイントです！ヒンディー語は必ず「To Be動詞（フーン・ハイン・ハィ）」で文を終わらせなければなりません（Block 2で習いましたね）。\nMain（私）なら hoon で終わる。\nAap（あなた）なら hain で終わる。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं खाता हूँ।",
+          "transliteration": "Main khaataa hoon.",
+          "baseTranslation": "私は食べます。(男性が話す場合)"
+        },
+        {
+          "targetText": "मैं खाती हूँ।",
+          "transliteration": "Main khaatee hoon.",
+          "baseTranslation": "私は食べます。(女性が話す場合)"
+        },
+        {
+          "targetText": "आप जाते हैं।",
+          "transliteration": "Aap jaate hain.",
+          "baseTranslation": "あなたは行きます。（Aap なので テー + hain）"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will successfully assemble Present Habitual verbs by modifying root morphemes (-taa, -tee, -te) and attaching required copular endings (hoon, hain, hai).",
+  "examples": [
+    {
+      "targetText": "मैं जापान जाता हूँ।",
+      "transliteration": "Main Jaapaan jaataa hoon.",
+      "baseTranslation": "私は日本へ行きます。(男性)",
+      "explanation": "To Japan requires no explicit particle for movement in Hindi; 'Jaa' + 'taa' (Male) + 'hoon' (because Main)."
+    },
+    {
+      "targetText": "क्या आप जापानी खाते हैं?",
+      "transliteration": "Kyaa aap Jaapaanee khaate hain?",
+      "baseTranslation": "あなたは日本食を食べますか？",
+      "explanation": "Aap triggers both '-te' on the verb root and 'hain' at the end of the sentence."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「私の家 (Mera ghar)」のように『モノの性別』に合わせるのではなく、動詞は『動いている主語の性別』に合わせます。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "Aap（あなた）に対しては、相手が男性でも女性でも、尊敬を表す「-te（テー）」を使います。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "【動詞のパズル】\n1.「〜ナー」を取る。\n2. 自分が男性なら「〜ター」、女性なら「〜ティー」を付ける。Aapなら「〜テー」。\n3. 文の最後は必ず「フーン (hoon)」「ハイン (hain)」などで締める！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "女性が「私は食べます」と言う時、「Khaa」の後ろには何が付きますか（Khaataa か Khaatee か）？",
+      "expectedAnswer": "Khaatee (खाती)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「Aap (あなた)」が動作をする時、尊敬を示すために動詞の終わりは Taa, Tee, Te のどれになりますか？",
+      "expectedAnswer": "Te (ते)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「Main khaataa...」のすぐ右側（文の最後）には、どの単語が必ず置かれますか？",
+      "expectedAnswer": "Hoon (हूँ)"
+    }
+  ]
+}

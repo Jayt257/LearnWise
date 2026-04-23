@@ -1,0 +1,185 @@
+{
+  "activityId": "ja_hi_M1B4_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 4,
+  "activityType": "lesson",
+  "title": "助詞の魔法: Postpositions (The Particle Advantage)",
+  "learningGoal": "The learner will leverage the identical structural usage between Japanese particles and Hindi postpositions (Suffixing to nouns: Noun + Postposition), mastering Mein ('in/at'), Par ('on'), and Se ('from').",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B3_test_001"],
+  "instructions": "日本人にとって最高のボーナスステージに到着しました！英語の「in」や「on」は言葉の「前」につきますが、ヒンディー語は日本語と全く同じで、言葉の「後ろ（助詞）」につきます。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "「部屋(kamraa) + に(mein)」。これがヒンディー語のPostposition（後置詞）です。日本語の「てにをは」と完全に一致するため、日本人には驚くほど簡単に作れます！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Hindi postpositions act exactly like Japanese particles, attaching after the noun.",
+      "'Mein' translates directly to the Japanese locative particle 'ni/de' (inside/in).",
+      "'Par' translates to 'no ue ni' (on top of).",
+      "'Se' translates directly to the Japanese particle 'kara' (from)."
+    ],
+    "conceptSummary": "Capitalizing on the 1:1 syntactical structural mapping between Japanese particles (nihongo de) and Hindi postpositions (hindi mein), allowing for rapid vocabulary plug-and-play.",
+    "importantFacts": [
+      "English puts prepositions FIRST: 'In Tokyo'. Both Japanese and Hindi put them LAST: 'Tokyo Ni' / 'Tokyo Mein'."
+    ],
+    "checkpointAnswers": {
+      "q1": "Mein (में)",
+      "q2": "Se (से)",
+      "q3": "名詞の後ろ（日本語と同じ）"
+    },
+    "expectedUnderstanding": "Learners will recognize that Japanese particle parsing handles the cognitive load of Hindi postpositional structures seamlessly, accelerating fluency."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の「助詞」は日本語の感覚そのままで使える強力な武器です。完全にマスターしましたね！",
+    "onFail": "もう一度確認しましょう。英語のように「Mein Ghar」と言ってはいけません。日本語と同じように「家（Ghar）＋ に（Mein）」の順番です！",
+    "onPartial": "よく理解しています！少し単語の区別が曖昧なようです。「中」は Mein、「上」は Par、「から」は Se です。意味をもう一度リンクさせましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b4/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b4/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b4/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b4/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m1/b4/lesson/native_lesson.mp3",
+    "audioTranscript": "Ghar mein. Mez par. Jaapaan se. Main Jaapaan se hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "postpositions", "particles", "locations", "month1", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b4/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の「〜に」や「〜から」を言う時と全く同じ場所に、ヒンディー語の単語を置くだけです。",
+  "commonMistakes": [
+    "Placing the postposition before the noun like an English preposition (e.g. 'Mein ghar' instead of 'Ghar mein')."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B4_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "助詞の魔法 (The Magic of Postpositions)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "英語よりずっと簡単！",
+      "bodyText": "英語では「In the house」のように、前置詞（In）が先にきます。でも日本語は違いますよね。「家（名詞）」＋「に（助詞）」です。ヒンディー語もこれと全く同じです！",
+      "targetLanguageExamples": [
+        {
+          "targetText": "घर में",
+          "transliteration": "Ghar mein",
+          "baseTranslation": "家 (Ghar) + に/の中 (mein)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "「〜の中/に」を意味する Mein",
+      "bodyText": "「Mein (メイン / 鼻音で終わる)」は、空間の中にあることを示します。日本語の「場所＋に/で」に相当します。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "कमरे में",
+          "transliteration": "Kamre mein",
+          "baseTranslation": "部屋(Kamre) + に(mein) ※Kamraaの形が少し変わっていますが基本は同じです"
+        },
+        {
+          "targetText": "टोक्यो में",
+          "transliteration": "Tokyo mein",
+          "baseTranslation": "東京 + に/で"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "「〜の上に」を意味する Par",
+      "bodyText": "「Par (パル)」は、何かの表面の上に乗っていることを示します。机の上、ベッドの上などです。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "गाड़ी पर",
+          "transliteration": "Gaaḍee par",
+          "baseTranslation": "車(Gaaḍee) + の上に(par) ※車の屋根などに乗っているイメージ"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "「〜から」を意味する Se",
+      "bodyText": "「Se (セー)」は、起点を示します。日本語の「〜から」と全く同じ使い方ができます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "जापान से",
+          "transliteration": "Jaapaan se",
+          "baseTranslation": "日本(Jaapaan) + から(se)"
+        },
+        {
+          "targetText": "मैं जापान से हूँ।",
+          "transliteration": "Main Jaapaan se hoon.",
+          "baseTranslation": "私(Main) + 日本(Jaapaan) + から(se) + です(hoon) ＝『私は日本出身です』"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map Japanese locational particles (De/Ni, Kara, No ue ni) perfectly to Hindi postpositions (Mein, Se, Par).",
+  "examples": [
+    {
+      "targetText": "वह टोक्यो में है।",
+      "transliteration": "Vah Tokyo mein hai.",
+      "baseTranslation": "彼は東京にいます。",
+      "explanation": "Pronoun (Vah) + Object/Location (Tokyo) + Postposition (mein) + Verb (hai)."
+    },
+    {
+      "targetText": "आप कहाँ से हैं?",
+      "transliteration": "Aap kahaan se hain?",
+      "baseTranslation": "あなたはどこから（来ているの）ですか？",
+      "explanation": "Kahaan (Where) + Se (from) behaves exactly like 'Doko (where) + kara (from)' in Japanese."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "助詞（Mein, Par, Se）は必ず対象となる言葉の「後ろ」に置きます。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "「私 (Main)」と、「〜に (Mein)」は発音がとても似ていますが違います。文脈で判断しましょう。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": false,
+    "contextText": null,
+    "dosList": [],
+    "dontsList": []
+  },
+  "summary": "日本語の「てにをは」のように、単語の後ろにくっつけるだけで意味が広がるヒンディー語のPostposition（後置詞）。「空間の中＝Mein」「表面の上＝Par」「〜から＝Se」。英語の In や From よりずっと簡単に使いこなせます！",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "日本語の「家『に』」と同じように使う『空間の中・場所』を表す後置詞は何ですか？",
+      "expectedAnswer": "Mein (में)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "日本語の「日本『から』」と同じように使う後置詞は何ですか？",
+      "expectedAnswer": "Se (से)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Mein や Se といった言葉は、対象となる名詞の「前」に置きますか？それとも「後ろ」に置きますか？",
+      "expectedAnswer": "名詞の後ろ（日本語と同じ）"
+    }
+  ]
+}

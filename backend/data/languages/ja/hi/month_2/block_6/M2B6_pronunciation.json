@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M2B6_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "pronunciation",
+  "title": "歓迎のフレーズ (Welcome Phrases)",
+  "learningGoal": "The learner will fluidly pronounce capstone phrases containing multiple grammatical constructs from Month 2 without pausing between clauses.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B6_lesson_001"],
+  "instructions": "客人をもてなす時の決まり文句の練習です。これまで個別に練習してきた「変化する音」を、一息でスムーズに発音できるようにしましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "「Hum phir milenge(またね)」は本当によく使うので、一つの英単語のように丸暗記してしまいましょう！"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "अंदर आइए।",
+      "transliteration": "Andar aaiye.",
+      "baseTranslation": "中へどうぞ。(Aap用命令)",
+      "phoneticHint": "アンダル・アー・イ・エ。AndarのDは弾く音ではなく、舌を上前歯の裏に当てて出す柔らかな音です。Aaiyeへの繋がりを滑らかに。",
+      "syllableSplit": "An-dar aa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Andaru aaiyee."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "मेरा घर आपका घर है।",
+      "transliteration": "Meraa ghar aapkaa ghar hai.",
+      "baseTranslation": "私の家はあなたの家です。(所有のMeraa/Aapkaa)",
+      "phoneticHint": "メラー・ガル・アープカー・ガル・ハイ。ガル(家)にはHの息の音が含まれます。MeraaとAapkaaのリズムを揃えます。",
+      "syllableSplit": "Me-raa ghar aap-kaa ghar hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mera gar apka gar he."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "संकोच मत कीजिए।",
+      "transliteration": "Sankoch mat keejiye.",
+      "baseTranslation": "遠慮しないでください。(禁止のMat + 丁寧のKeejiye)",
+      "phoneticHint": "サンコーチ・マト・キー・ジ・エ。Sankochのch(チ)は息を強く吐きます。Matは軽く短く「マトッ」。",
+      "syllableSplit": "San-koch mat kee-ji-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Sankoch matu kijiyee."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "हम फिर मिलेंगे।",
+      "transliteration": "Hum phir milenge.",
+      "baseTranslation": "またお会いしましょう。(未来のEnge)",
+      "phoneticHint": "フム・ピル(フィル)・ミレンゲー。HumのHをしっかり発音します。Phirのphは、pの後に強く息を出して「プヒ」に近い音で出します。",
+      "syllableSplit": "Hum phir mi-len-ge",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Ham fir mirengay."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "मैं कल आऊँगा।",
+      "transliteration": "Main kal aaoongaa.",
+      "baseTranslation": "私は明日来ます。(未来のOongaa ※男性の場合)",
+      "phoneticHint": "メン・カル・アウーンガー。「アウーン」の部分で鼻に音をかけ、最後はガーと濁音で終わります。",
+      "syllableSplit": "Main kal aa-oon-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Main kal aonga."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Andar aaiye Meraa ghar aapkaa ghar hai Sankoch mat keejiye Hum phir milenge Main kal aaoongaa",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Meraa(所有)、Iye(命令)、Oongaa(未来) という、Moth 2で学んだ語尾の変化を迷うことなく完璧に発音できました。これでインドの友人のお宅訪問はバッチリです！",
+    "onFail": "もう一度！「Hum phir milenge」の「Milenge」の最後の音が「ゲー」になるように意識してください。これが未来を表す大切なサインです。",
+    "onPartial": "よくお話しできています。Sankoch(遠慮)の後の「Mat(マト)」で区切らず、Mat keejiye を一つの塊のように滑らかに繋げてみてください！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "andar aaiye mera ghar aapka ghar hai sankoch mat kijiye hum phir milenge main kal aaunga",
+    "acceptedVariants": [
+      "andar aiye meraa ghar aapkaa ghari hai sankoch mat keejiye hum fir milenge me kal aaoongaa"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates fluid transitions between Month 2 modifiers: possessives (meraa), imperatives (aaiye), and future nasalizations (milenge).",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b6/pronunciation/native_capstone.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b6/pronunciation/slow_capstone.mp3",
+    "normalAudio": "audio/ja_hi/m2/b6/pronunciation/native_capstone.mp3",
+    "audioTranscript": "Andar aaiye. Meraa ghar aapkaa ghar hai. Sankoch mat keejiye. Hum phir milenge. Main kal aaoongaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "capstone", "synthesis", "fluency", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b6/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「Hum phir milenge」は、インド映画の別れのシーンでもよく使われる超・定番フレーズです。",
+  "commonMistakes": [
+    "Pronouncing the 'D' in 'Andar' hard like the English 'Under', instead of the soft dental Hindi 'd'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

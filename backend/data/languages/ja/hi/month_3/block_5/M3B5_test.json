@@ -1,0 +1,350 @@
+{
+  "activityId": "ja_hi_M3B5_test_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "test",
+  "title": "Block 5 確認テスト (Block 5 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of survival Hindi, demonstrating 100% accuracy in separating Nominative selves (Main) from Dative possessions of illness (Mujhe) and deploying authoritative emergency imperatives.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B5_lesson_001",
+    "ja_hi_M3B5_pronunciation_001",
+    "ja_hi_M3B5_reading_001",
+    "ja_hi_M3B5_writing_001",
+    "ja_hi_M3B5_listening_001",
+    "ja_hi_M3B5_vocabulary_001",
+    "ja_hi_M3B5_speaking_001"
+  ],
+  "instructions": "Block 5 の確認テストです！「病気や熱は、あなたがなるものではなく、あなた『に』あるもの」というヒンディー語の絶対原則(Mujhe...)が身に付いているかを試します。",
+  "testTitle": "Block 5 確認テスト (Health & Emergencies)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 身体状態文法 (Somatic Grammar)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "「私は熱がある」とヒンディー語で正しく伝えているのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main bukhaar hoon.", "Mujhe bukhaar hai.", "Meraa bukhaar hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "体の症状を語る時、なぜ Mujhe (私に) を使うのですか？",
+          "questionType": "multiple_choice",
+          "options": ["病気や痛みは、自分の意思ではなく「自分に付着している状態(〜にある)」と捉えるから", "Mujhe は「病気」専用の主語だから"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「医者を呼んでください」と周囲の人にお願いする時、正しい表現はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Ḍaakṭar ko bulaaiye", "Ḍaakṭar kaa bulaaiye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "医者を呼んで、と言う際になぜ「ko (を)」が必要なのですか？",
+          "questionType": "multiple_choice",
+          "options": ["誰(対象)に対して行動を起こすのかをハッキリ明示するため", "ko には「急いで」という意味があるため"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: ヒンディー語では「痛い(形容詞)」ではなく「痛み(名詞)がある」という文章構造を作る。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 救命の語彙 (Vocab)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「助け(Help)」を意味する名詞をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「痛み (Pain)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Kharaab", "Dard"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「熱 (Fever)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Bukhaar", "Jaldee", "Tabeeyat"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「体調 (Health condition)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Kharaab", "Tabeeyat"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「薬 (Medicine)」のスペルをローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 緊急事態の把握 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Meree tabeeyat kharaab hai.」 この文は何を伝えていますか？",
+          "questionType": "multiple_choice",
+          "options": ["私の体調が悪い(壊れている)。", "これは私の薬ではありません。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Mujhe sir mein dard hai.」 この人は体のどこに不調を感じていますか？",
+          "questionType": "multiple_choice",
+          "options": ["お腹 (Peṭ)", "頭 (Sir)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Bachaao!」 これはどんな時に使う単語ですか？",
+          "questionType": "multiple_choice",
+          "options": ["丁寧に物を頼む時", "身に危険が迫って必死に助けを求める時"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「Pulis ko bulaaiye.」 を日本語に正しく訳したものはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["警察を呼んでください(丁寧な命令)", "私が警察を呼びます"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "文脈問題: 『Mujhe tez bukhaar hai. (私には強い熱がある)』と言った人が、これに続けて言う行動として【文法的に間違っている】ものはどちらですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main dawaa loongaa. (私は薬を飲みます: 未来形)", "Mujhe dawaa loongaa. (私に薬を飲みます: 崩壊文)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: SOS英訳構成 (Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: \"I have a fever.\"",
+          "questionType": "multiple_choice",
+          "options": ["Main bukhaar hoon.", "Mujhe bukhaar hai.", "Meraa bukhaar hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: \"Please help!\" (Using Madad)",
+          "questionType": "multiple_choice",
+          "options": ["Madad deejiye.", "Madad keejiye.", "Madad hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: \"I have pain in my stomach.\"",
+          "questionType": "multiple_choice",
+          "options": ["Main peṭ mein dard hai.", "Mujhe sir mein dard hai.", "Mujhe peṭ mein dard hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "医者を(to the doctor)を示す『Doctor ___ 』の空欄に入るローマ字2文字は何ですか？",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "「早く(Quickly/Hurry)」を示す単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 40,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Mujhe bukhaar hai.",
+      "q002": "病気や痛みは、自分の意思ではなく「自分に付着している状態(〜にある)」と捉えるから",
+      "q003": "Ḍaakṭar ko bulaaiye",
+      "q004": "誰(対象)に対して行動を起こすのかをハッキリ明示するため",
+      "q005": "True",
+      "q006": "madad",
+      "q007": "Dard",
+      "q008": "Bukhaar",
+      "q009": "Tabeeyat",
+      "q010": "davaa",
+      "q011": "私の体調が悪い(壊れている)。",
+      "q012": "頭 (Sir)",
+      "q013": "身に危険が迫って必死に助けを求める時",
+      "q014": "警察を呼んでください(丁寧な命令)",
+      "q015": "Mujhe dawaa loongaa. (私に薬を飲みます: 崩壊文)",
+      "q016": "Mujhe bukhaar hai.",
+      "q017": "Madad keejiye.",
+      "q018": "Mujhe peṭ mein dard hai.",
+      "q019": "ko",
+      "q020": "jaldee"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q006": ["madad", "Madad", "MADAD"],
+      "q010": ["davaa", "Davaa", "dawa"],
+      "q019": ["ko", "Ko", "KO"],
+      "q020": ["jaldee", "Jaldee", "jaldi"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! 日本人が最も間違えやすい「病気の表現＝MainではなくMujheを使う」というルールを完璧に突破しました。あなたには自分の身を守るためのサバイバル語学力が備わっています！",
+    "onFail": "残念！もう一度復習が必要です。病気を語る時の「Mujhe(私に)」や、緊急の命令に不可欠な「ko(を)」が抜けていたり、誤った用法になってしまっています。",
+    "onPartial": "惜しい！「Mujhe(私に)」のルールは完璧ですが、「Dard(痛み)」という名詞と「Kharaab(悪い)」という形容詞の使い分けや、Peṭ/Sirなどの単語の記憶で少しミスが見られます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test verifies your mastery of Dative sickness cases and urgent SOS imperatives.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "survival", "health", "emergencies", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B6_test_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

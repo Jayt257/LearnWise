@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M2B5_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "listening",
+  "title": "おもてなしの言葉 (Words of Hospitality)",
+  "learningGoal": "The learner will aurally distinguish polite imperatives (-iye) from informal commands in a conversational setting, demonstrating the ability to parse irregular 'Aap' verb forms (like peejiye).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M2B5_writing_001"],
+  "instructions": "ラージのお母さんが、遊びに来たアニタをもてなしています。目上の人から客（または若者から大人）へ話しかける時の、流れるような「〜イエ・ジエ」の響きを聞き取ってください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "インドではお客様は神様です。親しくても、お客様をもてなす時は基本的に丁寧語（Aap）が使われます。"
+    }
+  ],
+  "listeningGoal": "Detect and interpret polite imperative suffixes embedded in rapid hospitable speech.",
+  "audioScenario": "Anita comes to visit Raj. Raj's mother welcomes her warmly.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज की माँ: नमस्ते अनीता, अंदर आइए।",
+      "transliteration": "Raaj kee maan: Namaste Aneeta, andar aaiye.",
+      "baseTranslation": "ラージの母：ナマステ、アニタ。中に入ってください。(Aaiye)"
+    },
+    {
+      "targetText": "अनीता: नमस्ते आंटी जी। कैसी हैं आप?",
+      "transliteration": "Aneeta: Namaste aanṭee jee. Kaisee hain aap?",
+      "baseTranslation": "アニタ：ナマステ、おば様(Ji)。お元気ですか？"
+    },
+    {
+      "targetText": "राज की माँ: मैं ठीक हूँ। बेटा, यहाँ बैठिए।",
+      "transliteration": "Raaj kee maan: Main ṭheek hoon. Beṭaa, yahaan baiṭhiye.",
+      "baseTranslation": "ラージの母：私は元気よ。子よ(親愛を込めて)、ここに座ってください。(Baiṭhiye)"
+    },
+    {
+      "targetText": "अनीता: शुक्रिया।",
+      "transliteration": "Aneeta: Shukriyaa.",
+      "baseTranslation": "アニタ：ありがとう。"
+    },
+    {
+      "targetText": "राज की माँ: गरम चाय पीजिए। और यह मिठाई खाइए। संकोच मत कीजिए।",
+      "transliteration": "Raaj kee maan: Garam chaay peejiye. Aur yah miṭhaaii khaaiye. Sankoch mat keejiye.",
+      "baseTranslation": "ラージの母：温かいお茶を飲んでください(Peejiye)。そしてこのお菓子を食べてください(Khaaiye)。遠慮しないでください(Mat keejiye)。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj kee maan: Namaste Aneeta, andar aaiye.\nAneeta: Namaste aanṭee jee. Kaisee hain aap?\nRaaj kee maan: Main ṭheek hoon. Beṭaa, yahaan baiṭhiye.\nAneeta: Shukriyaa.\nRaaj kee maan: Garam chaay peejiye. Aur yah miṭhaaii khaaiye. Sankoch mat keejiye.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "お母さんはアニタに「中へ入って」と言う時、どのような語尾を使いましたか？",
+      "questionType": "multiple_choice",
+      "options": ["Aaiye (入ってください)", "Aa (入れ)"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ソファーを指さして、お母さんは「Yahaan _____」と言いました。空白の動詞部分はどう聞こえましたか？",
+      "questionType": "multiple_choice",
+      "options": ["Baiṭhiye", "Baiṭho"],
+      "audioTimestamp": "00:08",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "お母さんがアニタに「お茶(Chaay)」を勧めた時の動詞はどれでしたか？",
+      "questionType": "multiple_choice",
+      "options": ["Keejiye (してください)", "Peejiye (飲んでください)"],
+      "audioTimestamp": "00:13",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「お菓子を食べてください」の「食べてください(Khaaiye)」の間に、小さな息の音が含まれている字がありました。それはどの子音ですか？「_ a a i y e」",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "お母さんの最後の言葉「遠慮しないでください（Sankoch mat keejiye）」。ここでもおもてなしの丁寧さが表れています。もしこれが友達同士の「遠慮しないで（Tum）」であった場合、Keejiye は何の音に変わるはずですか？",
+      "questionType": "multiple_choice",
+      "options": ["Karo (カロ)", "Kariyaa (カリヤー)"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Aaiye (入ってください)",
+      "q2": "Baiṭhiye",
+      "q3": "Peejiye (飲んでください)",
+      "q4": "kh",
+      "q5": "Karo (カロ)"
+    },
+    "acceptedShortAnswers": {
+      "q4": ["kh", "Kh", "KH", "k", "K"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q4": ["kh"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Aaiye、Baiṭhiye、Peejiye と、次々と繰り出される「イエ・ジエ」の滑らかな音を完全にキャッチしました。これがインドのおもてなしの響きです。",
+    "onFail": "一息つきましょう！動詞の最後の音に集中します。「アー・イエ」「ピー・ジエ」のように、音が優しく落ちていく感覚（Glide）を掴めれば大丈夫です。",
+    "onPartial": "よく聞き取れています！お母さんがアニタのような若者に対して「Tum(オ)」ではなく「Aap(イエ)」を使っているのは、客人への敬意と親愛の表れです。文化的な背景も一緒に感じ取ってみてください。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b5/listening/hosp_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b5/listening/hosp_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b5/listening/hosp_native.mp3",
+    "audioTranscript": "Raaj kee maan: Namaste Aneeta, andar aaiye... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "imperative", "politeness", "hospitality", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Peejiye(飲んでください) と Keejiye(してください) は、非常によく似た音が続くので、前の文脈（お茶なのか、遠慮なのか）から判断します。",
+  "commonMistakes": [
+    "Hearing 'Andar aaiye' (Come inside) as 'Aandar hai' (Is inside)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

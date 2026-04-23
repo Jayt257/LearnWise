@@ -1,0 +1,147 @@
+{
+  "activityId": "ja_hi_M3B1_listening_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "listening",
+  "title": "車を運転できますか？ (Can you drive?)",
+  "learningGoal": "The learner will aurally parse rapid dialogues containing modals of ability and desire, extracting the speaker's actual capability versus their intended actions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M3B1_writing_001"],
+  "instructions": "ラージとアニタが「できること」と「やりたいこと」について話しています。「Saktaa / Saktee」の音が出た瞬間に『能力』、「Chaahtaa / Chaahtee」の音が出た瞬間に『願望』であることを瞬時に聞き分けましょう。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "会話のスピードが上がると、Saktaa(できる)の前の動詞が、語幹(短い形)になっていることがよく分かります。"
+    }
+  ],
+  "listeningGoal": "Identify which actions the speakers can currently perform and which actions they desire to perform in the future.",
+  "audioScenario": "Raj and Anita are talking about driving a car.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "राज: अनीता, क्या तुम गाड़ी चला सकती हो?",
+      "transliteration": "Raaj: Aneeta, kyaa tum gaaḍee chalaa saktee ho?",
+      "baseTranslation": "ラージ：アニタ、君は車を運転できる(Saktee)？"
+    },
+    {
+      "targetText": "अनीता: नहीं राज, मैं गाड़ी नहीं चला सकती।",
+      "transliteration": "Aneeta: Nahin Raaj, main gaaḍee nahin chalaa saktee.",
+      "baseTranslation": "アニタ：ううん、ラージ。私は車を運転できないの(Nahin ... saktee)。"
+    },
+    {
+      "targetText": "राज: क्या तुम सीखना चाहती हो?",
+      "transliteration": "Raaj: Kyaa tum seekhnaa chaahtee ho?",
+      "baseTranslation": "ラージ：君は習い『たい(Chaahtee)』？"
+    },
+    {
+      "targetText": "अनीता: हाँ, मैं गाड़ी चलाना सीखना चाहती हूँ।",
+      "transliteration": "Aneeta: Haan, main gaaḍee chalaanaa seekhnaa chaahtee hoon.",
+      "baseTranslation": "アニタ：うん、私は車の運転を習いたいわ(Chaahtee)。"
+    },
+    {
+      "targetText": "राज: ठीक है, मैं तुम्हारी मदद कर सकता हूँ।",
+      "transliteration": "Raaj: Ṭheek hai, main tumhaaree madad kar saktaa hoon.",
+      "baseTranslation": "ラージ：分かった、僕は君の助けをする(手伝う)ことができるよ(Saktaa)。"
+    }
+  ],
+  "audioTranscriptFull": "Raaj: Aneeta, kyaa tum gaaḍee chalaa saktee ho?\nAneeta: Nahin Raaj, main gaaḍee nahin chalaa saktee.\nRaaj: Kyaa tum seekhnaa chaahtee ho?\nAneeta: Haan, main gaaḍee chalaanaa seekhnaa chaahtee hoon.\nRaaj: Ṭheek hai, main tumhaaree madad kar saktaa hoon.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージは最初にアニタに「君は能力的に＿＿＿ことができますか？」と質問しました。何を質問しましたか？",
+      "questionType": "multiple_choice",
+      "options": ["ヒンディー語を話す", "車を運転する"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "アニタが「運転できない」と答えた時、Chalaa(運転する語幹)の直後に続いた単語は何でしたか？",
+      "questionType": "multiple_choice",
+      "options": ["Saktee", "Chaahtee"],
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「君は習い(Seekhnaa)＿＿＿？」とラージが聞いた時の語尾の音はどう聞こえましたか？",
+      "questionType": "multiple_choice",
+      "options": ["Saktee ho (できる？)", "Chaahtee ho (したい？)"],
+      "audioTimestamp": "00:10",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "アニタは「車の運転を習いたい」と答えました。この文で Chaahtee(したい) の前に置かれている「習う」という動詞は、どのような形で置かれていますか？",
+      "questionType": "multiple_choice",
+      "options": ["naa が外された Seekh の形", "naa がついたSeekhnaa の形"],
+      "audioTimestamp": "00:14",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後にラージは「僕が君を助けられるよ」と言います。この場合、ラージ(男)が自分の能力をアピールしているので、最後は Saktaa(サクター) の音で終わっています。〇か✕か？",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "audioTimestamp": "00:18",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "車を運転する",
+      "q2": "Saktee",
+      "q3": "Chaahtee ho (したい？)",
+      "q4": "naa がついたSeekhnaa の形",
+      "q5": "True"
+    },
+    "acceptedShortAnswers": {},
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {},
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Saktaa と Chaahtee の意味の違いだけでなく、その前の動詞が Seekhnaa のように「naa」の音を含んで伸びている事まで正確に聞き取れています！",
+    "onFail": "一息つきましょう！Saktaa(できる)の時は、前の動詞が Chalaa や Jaa のように短くブツッと切れます。Chaahtaa(したい)の時は、前の動詞が 〜Naa のように少し間延びします。このリズムの違いに耳を傾けてください。",
+    "onPartial": "よく聞き取れています！アニタ(Tum)に話しかけているので Tum ... Saktee ho となっていますが、もしAap(尊敬)に話しかけていたら Aap ... Sakte hain と複数形扱いになることを思い出しておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b1/listening/drive_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b1/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b1/listening/drive_slow.mp3",
+    "normalAudio": "audio/ja_hi/m3/b1/listening/drive_native.mp3",
+    "audioTranscript": "Raaj: Aneeta, kyaa tum gaaḍee chalaa saktee ho... (Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "modals", "ability", "desire", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b1/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「車(gaaḍee)を走らせる(chalaanaa)」で「運転する」という意味になります。",
+  "commonMistakes": [
+    "Hearing 'Seekhnaa chaahtee' and thinking it's one long word, rather than recognizing 'to learn' + 'want'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

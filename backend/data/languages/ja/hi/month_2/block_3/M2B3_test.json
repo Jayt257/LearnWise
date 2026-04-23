@@ -1,0 +1,351 @@
+{
+  "activityId": "ja_hi_M2B3_test_001",
+  "monthNumber": 2,
+  "blockNumber": 3,
+  "activityType": "test",
+  "title": "Block 3 確認テスト (Block 3 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of the Hindi synthetic future tense, mapping appropriate affixes to pronouns and rejecting habitual/copular constructions representing L1 interference.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B3_lesson_001",
+    "ja_hi_M2B3_pronunciation_001",
+    "ja_hi_M2B3_reading_001",
+    "ja_hi_M2B3_writing_001",
+    "ja_hi_M2B3_listening_001",
+    "ja_hi_M2B3_vocabulary_001",
+    "ja_hi_M2B3_speaking_001"
+  ],
+  "instructions": "Block 3 の確認テストです！ヒンディー語の『未来形 (明日〜するつもりだ)』のルールは、動詞の語幹と魔法の語尾（ガー、ギー、ゲー）を合体させることでした。正しく組み立てられるか確認しましょう。",
+  "testTitle": "Block 3 確認テスト (Future Tense Construction)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 未来形の構造 (Future Structure)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "男性が「私は行きます（明日）」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main jaaoongaa.", "Main jaaoongee.", "Main jaaoongaa hoon."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "女性が「私は食べます（明日）」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main khaaeegee.", "Main khaaoongaa.", "Main khaaoongee."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「彼(Vah)」が「働きます(Kaam karnaa)」と言う時、動詞部分はどのように変化しますか？",
+          "questionType": "multiple_choice",
+          "options": ["Karoongaa", "Karegaa", "Karenge"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "あなたが相手（Aap: 尊敬）に対して「あなたは何をしますか？（未来）」と聞く時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Aap kyaa karenge?", "Aap kyaa karegaa?", "Aap kyaa karte hain?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: 未来形の文では、Month 1で学んだ「Hoon」「Hai」「Hain」などの単語を文末に付ける必要がある。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 予定の言葉 (Time & Planning)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「来月」を意味するフレーズはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["अगले महीने (Agle maheene)", "अगले हफ़्ते (Agle hafte)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「彼ら」や「あの方(尊敬)」を意味する単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["हम (Hum)", "वे (Ve)", "वह (Vah)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「そこで(アソコで)」を意味する単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["यहाँ (Yahaan)", "वहाँ (Vahaan)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "未来形と一緒に使った時の「कल (Kal)」の意味は何ですか？ (漢字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「मिलना (Milnaa)」の日本語の意味は何ですか？ (漢字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 意味の識別 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Ve Jaapaan jaaenge.」の意味として正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["彼（あの方たち）は日本へ行くつもりだ。", "私は日本へ行くつもりだ。"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Main abhee Jaapaan jaa rahee hoon.」と「Main kal Jaapaan jaaoongee.」の違いは何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["前者は（今行っている最中）、後者は（明日行くつもりだ）", "前者は（男が話している）、後者は（女が話している）"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Vah kyaa khaaegaa? (彼は何を食べる予定ですか？)」という文の、Khaaegaa(エガー) を女性形（彼女）用にする場合、どう変化しますか？",
+          "questionType": "multiple_choice",
+          "options": ["khaaenge", "khaaeegee"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「私たちは会います」は「Hum _____」となります。Milnaa(会う)の未来形（Aap用と同じ形）のローマ字を入力してください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "True or False: 日本語の未来形とヒンディー語の未来形は、文法的に全く同じ構造を持っているため、「〜します」という日本語をそのまま翻訳すれば良い。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 総合作文 (Full Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 「私は明日、仕事をします。」 (※話し手は男性)",
+          "questionType": "multiple_choice",
+          "options": ["Main kal kaam karoongaa.", "Main kal kaam kartaa hoon.", "Main kal kaam karoongaa hoon."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 「彼女(Vah)はインドへ行きます。」",
+          "questionType": "multiple_choice",
+          "options": ["Vah Bhaarat jaaegaa.", "Vah Bhaarat jaaeegee.", "Vah Bhaarat jaaenge."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Fix the error: 'Main Jaapaan jaaoongaa hoon.' (話し手は男性)",
+          "questionType": "multiple_choice",
+          "options": ["Main Jaapaan jaa rahaa hoon.", "Main Jaapaan jaaoongaa.", "Main Jaapaan jaataa hoon."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「Aap kyaa _____ ? (あなたは何をしますか？)」空白に入るKarnaa(する)の未来形の正しい形は何ですか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "What does 'यहाँ (Yahaan)' mean in Japanese?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 10,
+    "writing": 50,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Main jaaoongaa.",
+      "q002": "Main khaaoongee.",
+      "q003": "Karegaa",
+      "q004": "Aap kyaa karenge?",
+      "q005": "False",
+      "q006": "अगले महीने (Agle maheene)",
+      "q007": "वे (Ve)",
+      "q008": "वहाँ (Vahaan)",
+      "q009": "明日",
+      "q010": "会う",
+      "q011": "彼（あの方たち）は日本へ行くつもりだ。",
+      "q012": "前者は（今行っている最中）、後者は（明日行くつもりだ）",
+      "q013": "khaaeegee",
+      "q014": "milenge",
+      "q015": "False",
+      "q016": "Main kal kaam karoongaa.",
+      "q017": "Vah Bhaarat jaaeegee.",
+      "q018": "Main Jaapaan jaaoongaa.",
+      "q019": "karenge",
+      "q020": "ここで"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q009": ["明日", "あした", "みょうにち", "tomorrow"],
+      "q010": ["会う", "あう", "meet"],
+      "q014": ["milenge", "Milenge", "ミレンゲー"],
+      "q019": ["karenge", "Karenge", "カレンゲー"],
+      "q020": ["ここで", "ここ", "此処で", "here"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! ヒンディー語の『未来形 (Future Tense)』を見事にマスターしました。現在形用のTo be動詞（Hoon・Hai）を引きずることなく、動詞自体を完成形として使いこなせています！",
+    "onFail": "残念！もう一度復習が必要です。Month 1 の習慣（Taa/Tee）のような過去のルールと混同して、「Hoon」をつけてしまっていませんか？未来の話をする時、主語が「Main」なら「Oongaa/Oongee」で文を終わらせる勇気が必要です！",
+    "onPartial": "惜しいところがあります。動詞の語幹と特別な語尾を合体させることは理解できていますが、主語の形（Main, Vah, Aap）に合わせた変化（Oongaa / Egaa / Enge）で少し引っかかっています。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b3/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test measures understanding of Hindi synthetic future tense conjugation devoid of present copulas.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "grammar", "verbs", "future_tense", "month2", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

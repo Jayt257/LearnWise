@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M3B1_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "pronunciation",
+  "title": "助動詞の呼吸 (Modal Breaths)",
+  "learningGoal": "The learner will master the aspirated consonant /ch/ and the breathy release /h/ in 'chaahtaa' while maintaining crisp staccato rhythms for 'saktaa'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B1_lesson_001"],
+  "instructions": "「Saktaa(できる)」と「Chaahtaa(したい)」の発音練習です。特に「Chaahtaa」は、日本語にはない「強い息吐き(Ch)」と「ため息(h)」が混ざった難しい音なので、しっかり練習しましょう！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "Sak は「サクッ」と短く切り、Chaah は「チャーハッ」と深く息を吐き出します。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "सकता",
+      "transliteration": "Saktaa",
+      "baseTranslation": "できる (男性)",
+      "phoneticHint": "サク・ター。サクの K は音を出さず、喉で「ッ」と詰まらせてすぐにターと言います（サクター）。",
+      "syllableSplit": "Sak-taa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Saku-taa. (Adding a 'u' vowel to the K stop)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "सकती",
+      "transliteration": "Saktee",
+      "baseTranslation": "できる (女性)",
+      "phoneticHint": "サク・ティー。これもKで音を切り、後ろの「イー」の音を長く響かせます。",
+      "syllableSplit": "Sak-tee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Sakuti."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "चाहता",
+      "transliteration": "Chaahtaa",
+      "baseTranslation": "したい (男性)",
+      "phoneticHint": "チャー・ハ・ター。一番最初の「チャ」でマッチを擦るように強く息を吹き出します。真ん中の「ハ」は微かなため息です。",
+      "syllableSplit": "Chaah-taa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Cha-ta. (Ignoring the H breath in the middle)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "चाहती",
+      "transliteration": "Chaahtee",
+      "baseTranslation": "したい (女性)",
+      "phoneticHint": "チャー・ハ・ティー。最後のティーを長めに。最初の「チャ」の爆発は忘れずに。",
+      "syllableSplit": "Chaah-tee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Chyati."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "जाना चाहता हूँ",
+      "transliteration": "Jaanaa chaahtaa hoon",
+      "baseTranslation": "行きたいです",
+      "phoneticHint": "ジャーナー・チャーハター・フーン。前と後ろの韻（アー・アー）のリズムに気を取られず、チャの息をしっかり出します。",
+      "syllableSplit": "Jaa-naa chaah-taa hoon",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Jana chata hun."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Saktaa Saktee Chaahtaa Chaahtee Jaanaa chaahtaa hoon",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「Chaah」に含まれるインド特有の深いブレス（Hの音）も、「Sak」の鋭いキレも完璧に再現できています。これであなたの感情を100%ヒンディー語で伝えられます。",
+    "onFail": "もう一度！「Saktaa(サクター)」を「サ・ク・ター(Sakutaa)」と3文字で発音していませんか？Kの後にUという母音は存在しません。息を止めるだけです！",
+    "onPartial": "よくお話しできています。ですが、「Chaahtaa(チャーハター)」の真ん中の「H(ハ)」の息が弱く、「チャーター」と聞こえてしまいます。意識的にため息を混ぜてみてください。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "sakta sakti chahta chahti jaanaa chahtaa hoon",
+    "acceptedVariants": [
+      "saktaa saktee chaahtaa chaahtee jana chahta hu",
+      "sakta saktee chahta chahtee jaanaa chaahtaa hoon"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the execution of the voiceless unaspirated velar plosive /k/ before /t/ (saktaa) and the voiceless aspirated palatal affricate /tʃʰ/ (chaah).",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b1/pronunciation/native_modals.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b1/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b1/pronunciation/slow_modals.mp3",
+    "normalAudio": "audio/ja_hi/m3/b1/pronunciation/native_modals.mp3",
+    "audioTranscript": "Saktaa. Saktee. Chaahtaa. Chaahtee. Jaanaa chaahtaa hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "modals", "aspirations", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b1/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Chaah は『茶（チャ）』というよりも、くしゃみをする直前の「ハックション！」の『ハッチ』ぐらい息が強いです。",
+  "commonMistakes": [
+    "Pronouncing 'Chaahtaa' as 'Cha-tar' like an English speaker."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

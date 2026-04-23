@@ -1,0 +1,151 @@
+{
+  "activityId": "ja_hi_M2B2_listening_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "listening",
+  "title": "昨日の取り調べ (The Detective's Interrogation)",
+  "learningGoal": "The learner will accurately map auditory pronoun+ne fusions ('Tumne', 'Usne', 'Maine') to their corresponding subjects, extracting meaning from object-driven past tense verbs at conversational speed.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 40,
+  "prerequisites": ["ja_hi_M2B2_writing_001"],
+  "instructions": "警察の刑事が、事件のあった「昨日(Kal)」何をしたかについて尋問しています。「トゥムネ」「ウスネ」という音を正確に聞き分け、『誰が』『何を』したのかを整理してください。",
+  "contentItems": [
+    {
+      "type": "audio_player",
+      "text": "Tumne (君が)、Maine (私が)、Usne (彼が) の３つの主語が入り乱れます。早口の「ネ」の音を聞き逃さないように！"
+    }
+  ],
+  "listeningGoal": "Identify the logical actors in past-tense scenarios where the ergative 'Ne' creates phonetic clustering on the pronouns.",
+  "audioScenario": "A police detective questions Raj about his and Anita's actions yesterday.",
+  "audioTranscriptSentences": [
+    {
+      "targetText": "पुलिस: कल तुमने क्या किया?",
+      "transliteration": "Pulis: Kal tumne kyaa kiyaa?",
+      "baseTranslation": "警察：昨日、君は何をした？(Tumne = 君が)"
+    },
+    {
+      "targetText": "राज: मैंने घर में काम किया।",
+      "transliteration": "Raaj: Maine ghar mein kaam kiyaa.",
+      "baseTranslation": "ラージ：私は家で仕事をしました。(Maine = 私が)"
+    },
+    {
+      "targetText": "पुलिस: और अनीता? उसने क्या किया?",
+      "transliteration": "Pulis: Aur Aneeta? Usne kyaa kiyaa?",
+      "baseTranslation": "警察：そしてアニタは？彼女は何をした？(Usne = 彼[彼女]が)"
+    },
+    {
+      "targetText": "राज: मुझे नहीं पता। क्या उसने टीवी देखा?",
+      "transliteration": "Raaj: Mujhe nahin pataa. Kyaa usne ṭeevee dekhaa?",
+      "baseTranslation": "ラージ：私は知りません。彼女はテレビを見たのでは？"
+    },
+    {
+      "targetText": "पुलिस: नहीं। उसने कल टीवी नहीं देखा। उसने एक किताब पढ़ी।",
+      "transliteration": "Pulis: Nahin. Usne kal ṭeevee nahin dekhaa. Usne ek kitaab paḍhee.",
+      "baseTranslation": "警察：いいや。彼女は昨日テレビを見なかった。彼女は本を読んだ。(paḍhee=女性形の動詞)"
+    }
+  ],
+  "audioTranscriptFull": "Pulis: Kal tumne kyaa kiyaa?\nRaaj: Maine ghar mein kaam kiyaa.\nPulis: Aur Aneeta? Usne kyaa kiyaa?\nRaaj: Mujhe nahin pataa. Kyaa usne ṭeevee dekhaa?\nPulis: Nahin. Usne kal ṭeevee nahin dekhaa. Usne ek kitaab paḍhee.",
+  "questionSet": [
+    {
+      "questionId": "q1",
+      "questionText": "警察が最初にラージに投じた質問「Kal tumne kyaa kiyaa?」の文で、行動した『主語』になる単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["Kal", "Tumne", "kyaa"],
+      "audioTimestamp": "00:03",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "ラージは昨日「どこで(mein)」仕事をしましたか？",
+      "questionType": "short_answer",
+      "options": null,
+      "audioTimestamp": "00:06",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "警察がアニタについて「彼女は昨日何をした？」と尋ねる時に使った単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["Aaapne kyaa kiyaa", "Tumne kyaa kiyaa", "Usne kyaa kiyaa"],
+      "audioTimestamp": "00:09",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "警察によると、アニタは昨日「何」をしましたか？",
+      "questionType": "multiple_choice",
+      "options": ["テレビを見た (ṭeevee dekhaa)", "本を読んだ (kitaab paḍhee)"],
+      "audioTimestamp": "00:15",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "最後の文でアニタ(女性)が本を読んだことについて、警察は動詞を「Paḍhee (女性形)」で発音していました。なぜそう発音したのですか？",
+      "questionType": "multiple_choice",
+      "options": ["『本(Kitaab)』が女性名詞だったから", "アニタが女性だから"],
+      "audioTimestamp": "00:16",
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "replayAllowed": true,
+  "slowPlaybackAllowed": true,
+  "scoringRules": {
+    "pointsPerQuestion": 20,
+    "partialCreditAllowed": false,
+    "partialCreditRules": null
+  },
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Tumne",
+      "q2": "家",
+      "q3": "Usne kyaa kiyaa",
+      "q4": "本を読んだ (kitaab paḍhee)",
+      "q5": "『本(Kitaab)』が女性名詞だったから"
+    },
+    "acceptedShortAnswers": {
+      "q2": ["家", "家の中", "Ghar", "ghar", "いえ", "うち"]
+    },
+    "acceptedLongAnswers": {},
+    "scoringKeywords": {
+      "q2": ["家", "ghar"]
+    },
+    "partialCreditRules": {}
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじい聴解力です！Tumne, Maine, Usne という『合体したネの音』のラッシュを正確に聞き分け、誰の話をしているのかを見失わずに状況を把握できました！",
+    "onFail": "ここは何度も聞いていいセクションです。質問の「Tu・mne (君・が)」、答えの「Mai・ne (私・が)」というキャッチボールのリズムを掴んでください。",
+    "onPartial": "よく聞き取れています！最後の引っかけ問題にも騙されませんでしたか？アニタが女性だからPaḍheeになったのではなく、本が女性名詞だからPaḍheeになったのです。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b2/listening/detective_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/listening/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b2/listening/detective_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b2/listening/detective_native.mp3",
+    "audioTranscript": "Pulis: Kal tumne kyaa kiyaa?...\n(Matches full transcript)",
+    "audioLanguage": "hi",
+    "audioDuration": 60,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["listening", "past_tense", "ergative", "particles", "pronouns", "ne", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/list_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Tum（君） + ne ＝ Tumne。「君が」と言っています。Us（彼）+ ne ＝ Usne。「彼が」と言っています。",
+  "commonMistakes": [
+    "Hearing 'Tumne' and thinking it means 'To you' instead of 'You (subject)'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_vocabulary_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

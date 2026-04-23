@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_hi_M3B3_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 3,
+  "activityType": "writing",
+  "title": "条件と想いを繋ぐ (Bridging Thoughts)",
+  "learningGoal": "The learner will accurately synthesize complex sentences by mechanically deploying correlative pairs (agar...to) and subordinators (ki) to connect two distinct semantic clauses without altering their internal structures.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B3_reading_001"],
+  "instructions": "バラバラの2つの短い文章を、接続詞を使って「1つの長い文章」に合体させるミッションです！「もし(Agar) 〜 なら(To)」と「〜だと思う(〜hai ki ...)」の構造を使いこなしてください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 接続詞を足すだけで、動詞などの他の形を変える必要はありません。"
+    }
+  ],
+  "writingPrompt": "以下の日本語の意味になるように、ヒンディー語の文を完成させてください。\n1. (私は思う) ＋ (彼が行く) → 「私は彼が行くと思う(Ki使用)」\n2. (もし君が行く) ＋ (私も行く(男)) → 「もし君が行くなら(To使用)、私も行く」\n※ 使う単語は下のWord Bankに全て用意してあります。並べるだけです！",
+  "promptGoal": "Force the structural insertion of 'ki' as a thought-barrier, and 'agar...to' as a conditional wrapper around two fully formed future-tense clauses.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "私に"
+    },
+    {
+      "targetText": "लगता",
+      "transliteration": "Lagtaa",
+      "baseTranslation": "思える・付く"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です"
+    },
+    {
+      "targetText": "कि",
+      "transliteration": "Ki",
+      "baseTranslation": "〜ということ (That)"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼が / 彼女が"
+    },
+    {
+      "targetText": "जाएगा",
+      "transliteration": "Jaaegaa",
+      "baseTranslation": "行く(未来・男)"
+    },
+    {
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし(If)"
+    },
+    {
+      "targetText": "तुम",
+      "transliteration": "Tum",
+      "baseTranslation": "君が"
+    },
+    {
+      "targetText": "जाओगे",
+      "transliteration": "Jaaoge",
+      "baseTranslation": "行く(Tum未来)"
+    },
+    {
+      "targetText": "तो",
+      "transliteration": "To",
+      "baseTranslation": "その時は(Then)"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私が"
+    },
+    {
+      "targetText": "भी",
+      "transliteration": "Bhee",
+      "baseTranslation": "〜も (Also)"
+    },
+    {
+      "targetText": "जाऊँगा",
+      "transliteration": "Jaaoongaa",
+      "baseTranslation": "行く(私・未来・男)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: To me [Mujhe] seems [lagtaa] is [hai] that [ki] he [vah] will go [jaaegaa].",
+    "Sentence 2: If [Agar] you [tum] will go [jaaoge], then [to] I [main] also [bhee] will go [jaaoongaa]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मुझे लगता है कि वह जाएगा। अगर तुम जाओगे तो मैं भी जाऊँगा।",
+      "transliteration": "Mujhe lagtaa hai ki vah jaaegaa. Agar tum jaaoge to main bhee jaaoongaa.",
+      "baseTranslation": "私は彼が行くと思う。もし君が行くなら、私も行く。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Successfully placed 'ki' between the cognition clause and the action clause. Successfully wrapped the two conditional clauses with 'agar' and 'to'."
+    },
+    {
+      "targetText": "मैं सोचता है वह जाएगा। अगर तुम जाओगे मैं भी जाऊँगा।",
+      "transliteration": "Main sochtaa hai vah jaaegaa. Agar tum jaaoge main bhee jaaoongaa.",
+      "baseTranslation": "I think he will go. If you go I also will go.",
+      "qualityLevel": "bad",
+      "annotation": "Failure. Tried to literally translate English 'think' instead of using 'Mujhe lagtaa hai ki'. Crucially failed by omitting 'to' (then) in the second sentence. In Hindi, dropping 'to' is grammatically incorrect."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Cognition Bridging (Ki)",
+      "weight": 50,
+      "description": "Did the user correctly write 'Mujhe lagtaa hai ki' followed by the factual clause?"
+    },
+    {
+      "criterion": "Correlative Pairing (Agar + To)",
+      "weight": 50,
+      "description": "Did the user start the condition with 'Agar' and explicitly bridge to the consequence with 'To'?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 16,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मुझे लगता है कि वह जाएगा। अगर तुम जाओगे तो मैं भी जाऊँगा।",
+    "acceptableAlternates": [
+      "mujhe lagtaa hai ki vah jaaegaa agar tum jaaoge to main bhee jaaoongaa",
+      "mujhe lagta hai ki vah jayega agar tum jaoge to main bhi jaunga"
+    ],
+    "requiredKeywords": ["मुझे", "लगता", "है", "कि", "जाएगा", "अगर", "जाओगे", "तो", "भी", "जाऊँगा"],
+    "grammarBaseline": "'ki' must be present before 'vah'. 'agar' must be at the start of the second sentence, and 'to' MUST precede 'main bhee jaaoongaa'. Vah jaaegaa and Main jaaoongaa must remain structurally intact.",
+    "lengthExpectation": "2 distinct complex sentences.",
+    "scoringRubric": {
+      "Missing TO penalty": "Severely penalize if 'to' is missing from the conditional sentence."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！Ki(〜ということ) と Agar/To(もし〜なら) を使って、2つの文章を見事につなぎ合わることができました。もはやネイティブの文構造と同じものを出力できています！",
+    "onFail": "ストップ！英語の感覚で「If ... (カンマ) ...」としていませんか？ヒンディー語で Agar(もし) と言った場合、後半の出だしに必ず To(その時は) を置かなければ文章が崩壊してしまいます！",
+    "onPartial": "惜しいところがあります。第1文の「Ki」が抜けていませんか？「彼が行く」という事実と、「私はそう思う」という感情の間には、必ず接着剤の「Ki (〜ということ)」が必要です。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b3/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b3/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b3/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m3/b3/writing/prompt.mp3",
+    "audioTranscript": "Translate 'I think that he will go' and 'If you will go then I also will go'.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "conjunctions", "complex_sentences", "month3", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b3/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Bhee(〜も) は Main などの主語の「直後」に置きます(Main bhee...)。",
+  "commonMistakes": [
+    "Translating 'I think' as 'Main sochtaa hoon' instead of the more native indirect 'Mujhe lagtaa hai ki'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B3_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

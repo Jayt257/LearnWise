@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M3B4_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "writing",
+  "title": "道案内と価格の表現 (Practical Formatting)",
+  "learningGoal": "The learner will accurately map semantic intent to Hindi's unique structural constraints by writing sentences that use 'mujhe' for intended travel destinations, the possessive 'kaa' for pricing, and 'iye' imperatives for giving directions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B4_reading_001"],
+  "instructions": "実戦で使える文章を組み立てましょう！行き先を告げる「私は〜へ行きたい(私に)」の形と、値段を聞く時の「〜の(Kaa)」の使い方に注意してください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 「まっすぐ行って」のような指示は、丁寧な命令形「〜してください(ye/iye)」で作成してください。"
+    }
+  ],
+  "writingPrompt": "以下の3つのサバイバル文をヒンディー語で作成してください。\n1. (私に) 空港(Airporṭ)へ 行く用事がある(Jaanaa hai)。 →「私は空港に行きたい」\n2. （これ）は いくら[のもの](Kitne kaa) ですか？\n3. まっすぐ(Seedhe) 行ってください(Jaa-iye)。",
+  "promptGoal": "Force the correct utilization of the Dative Subject (Mujhe) for movement, the Genitive interrogative (Kitne kaa) for pricing, and the Polite Imperative (Jaaiye) for spatial routing.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मुझे",
+      "transliteration": "Mujhe",
+      "baseTranslation": "私に (Dative Subject)"
+    },
+    {
+      "targetText": "एयरपोर्ट",
+      "transliteration": "Airporṭ",
+      "baseTranslation": "空港へ"
+    },
+    {
+      "targetText": "जाना है",
+      "transliteration": "Jaanaa hai",
+      "baseTranslation": "行く(用事が)ある"
+    },
+    {
+      "targetText": "यह",
+      "transliteration": "Yah",
+      "baseTranslation": "これは"
+    },
+    {
+      "targetText": "कितने",
+      "transliteration": "Kitne",
+      "baseTranslation": "どのくらい / いくら"
+    },
+    {
+      "targetText": "का",
+      "transliteration": "Kaa",
+      "baseTranslation": "の (Genitive marker)"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "ですか・です"
+    },
+    {
+      "targetText": "सीधे",
+      "transliteration": "Seedhe",
+      "baseTranslation": "まっすぐ (Straight)"
+    },
+    {
+      "targetText": "जाइए",
+      "transliteration": "Jaaiye",
+      "baseTranslation": "行ってください (Polite imperative)"
+    },
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私は (ここでは使いません！)"
+    },
+    {
+      "targetText": "जाओ",
+      "transliteration": "Jaao",
+      "baseTranslation": "行け (カジュアルな命令)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: To me [Mujhe] airport go-is [jaanaa hai].",
+    "Sentence 2: This [Yah] how-much [kitne] of [kaa] is [hai]?",
+    "Sentence 3: Straight [Seedhe] please-go [jaaiye]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मुझे एयरपोर्ट जाना है। यह कितने का है? सीधे जाइए।",
+      "transliteration": "Mujhe airporṭ jaanaa hai. Yah kitne kaa hai? Seedhe jaaiye.",
+      "baseTranslation": "私は空港に行きたい。これはいくらですか？まっすぐ行ってください。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Successfully applied the Dative 'Mujhe' for destination mapping, successfully nested the Genitive 'kaa' inside the price interrogative, and used the polite '-iye' suffix for spatial commands."
+    },
+    {
+      "targetText": "मैं एयरपोर्ट जाना। यह कितने है? सीधे जाओ।",
+      "transliteration": "Main airporṭ jaanaa. Yah kitne hai? Seedhe jaao.",
+      "baseTranslation": "I airport to go. This how much is? Straight go.",
+      "qualityLevel": "bad",
+      "annotation": "Failure across the board. Used 'Main' instead of 'Mujhe' breaking the obligation grammar. Dropped 'kaa' completely from 'kitne kaa', altering the meaning. Used informal 'Jaao' instead of the requested polite 'Jaaiye'."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Dative Destination (Mujhe)",
+      "weight": 33,
+      "description": "Did the user start sentence 1 with 'Mujhe' instead of 'Main', followed by 'jaanaa hai'?"
+    },
+    {
+      "criterion": "Genitive Pricing (Kitne kaa)",
+      "weight": 33,
+      "description": "Did the user specify 'kitne kaa hai' and not just 'kitne hai'?"
+    },
+    {
+      "criterion": "Polite Imperative (Jaaiye)",
+      "weight": 34,
+      "description": "Did the user use 'jaaiye' for the direction command rather than 'jaao'?"
+    }
+  ],
+  "minimumWordCount": 8,
+  "maximumWordCount": 14,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मुझे एयरपोर्ट जाना है। यह कितने का है? सीधे जाइए।",
+    "acceptableAlternates": [
+      "mujhe airport jaanaa hai yah kitne kaa hai seedhe jaaiye",
+      "mujhe airpot jana hai ye kitne ka hai sidhe jaiye"
+    ],
+    "requiredKeywords": ["मुझे", "जाना", "कितने", "का", "सीधे", "जाइए"],
+    "grammarBaseline": "'Mujhe' must be used for sentence 1. 'Kaa' must immediately follow 'kitne'. 'Jaaiye' must be the verb resolving the spatial command.",
+    "lengthExpectation": "3 short survival sentences.",
+    "scoringRubric": {
+      "Missing Kaa penalty": "Penalize heavily if 'kaa' is missing from the pricing question."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！「Mujhe jaanaa hai(行きたい)」「Kitne kaa(いくらの)」「Jaaiye(行って下さい)」という、インドサバイバルのための3大文型を全て正確に書き出せました！",
+    "onFail": "ストップ！文章の始まりと終わりに注意してください。行きたい時は「Main(私)」ではなく「Mujhe(私に)」！いくらか聞く時は「Kitne hai」ではなく「Kitne KAA(の) hai」！です。",
+    "onPartial": "惜しいところがあります。第3文の指示で「Jaao(行け)」と友達に対する命令形を使っていませんか？運転手や見知らぬ人には必ず「Jaaiye(行ってください)」と丁寧に伝えましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b4/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b4/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m3/b4/writing/prompt.mp3",
+    "audioTranscript": "Translate sentences involving travel destinations, requesting prices, and conveying spatial directons.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "survival", "travel", "shopping", "imperatives", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b4/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「私は○○に行きたい」は、直訳すると「私に(Mujhe)○○へ行く(jaanaa)用事がある(hai)」という形になります。",
+  "commonMistakes": [
+    "Writing 'Main airport jaanaa hai' confusing the nominative and dative pronouns."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B4_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

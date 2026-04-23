@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M3B5_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 5,
+  "activityType": "pronunciation",
+  "title": "SOSを届ける発音 (Emergency Enunciation)",
+  "learningGoal": "The learner will master the forceful articulation required for survival imperatives (madad keejiye, bachaao) and carefully enunciate the aspirates (kh, dh) in medical vocabulary to avoid miscommunication.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B5_lesson_001"],
+  "instructions": "緊急時に「通じない」という事態を防ぐための特訓です！痛みを伝える時の重い響き(D)や、助けを求める時の鋭いアクセントを練習しましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "大声で叫んでも単語の原型が崩れないように、母音をはっきり言い切る事が重要です。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मदद कीजिए",
+      "transliteration": "Madad keejiye",
+      "baseTranslation": "助けてください",
+      "phoneticHint": "マダド・キージエ。Madadの最後のdは母音をつけずに「ドッ」と切り捨てます。キージエは最初の「キ」を強く伸ばします。",
+      "syllableSplit": "Ma-dad kee-ji-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Madada kijiye."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "दर्द है",
+      "transliteration": "Dard hai",
+      "baseTranslation": "痛いです",
+      "phoneticHint": "ダルド・ハェ。英語の「Darling」のようなRの響きはありません。ダとドの間に舌を少し弾くR(ル)が入ります。",
+      "syllableSplit": "Dard hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Daradu hai."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "मुझे बुख़ार है",
+      "transliteration": "Mujhe bukhaar hai",
+      "baseTranslation": "熱があります",
+      "phoneticHint": "ムジェ・ブカール・ハェ。Bukhaar の Kh は、喉の奥から息を強く摩擦させて吐き出す音です。「カ」と「ハ」が混ざったような音です。",
+      "syllableSplit": "Mu-jhe bu-khaar hai",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bukar (no breath/aspiration)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "पुलिस को बुलाइए",
+      "transliteration": "Pulis ko bulaaiye",
+      "baseTranslation": "警察を呼んでください",
+      "phoneticHint": "プリス・コ・ブラーイエ。警察(Police)は英語ですが、ヒンディー語発音では「プ」を強くし、短く「プリス」と言います。",
+      "syllableSplit": "Pu-lis ko bu-laa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Polees."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "बचाओ",
+      "transliteration": "Bachaao",
+      "baseTranslation": "助けろ！/ 逃がして！",
+      "phoneticHint": "バチャーオ！危機が迫っている時の叫びです。「チャー」に全ての力を込めます。",
+      "syllableSplit": "Ba-chaa-o",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bachao (flat voice)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Madad keejiye Dard hai Mujhe bukhaar hai Pulis ko bulaaiye Bachaao",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "完璧です！SOSの意図が確実に伝わる明瞭な発音になっています。特に Bukhaar(熱) のkh音が非常に綺麗に摩擦していてネイティブレベルです！",
+    "onFail": "もう一度！「Dard (ダルド＝痛み)」というかわりに、母音をつけて「Daradu」と発音していませんか？ヒンディー語の子音だけの音は、スパッと息を止めて切ることが重要です。",
+    "onPartial": "よくお話しできています！「Madad keejiye (助けて)」をもっと切羽詰まった声で、最初の Ma と Kee に力を入れると実践的な発音になります。"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "madad kijiye dard hai mujhe bukhar hai police ko bulaiye bachao",
+    "acceptedVariants": [
+      "madad keejiye dard hey mujhe bukhaar hai pulis ko bulaye bachaao"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the sharp truncation of the final 'd' in madad/dard and the aspiration in bukhaar.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b5/pronunciation/native_emerg_pron.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b5/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b5/pronunciation/slow_emerg_pron.mp3",
+    "normalAudio": "audio/ja_hi/m3/b5/pronunciation/native_emerg_pron.mp3",
+    "audioTranscript": "Madad keejiye. Dard hai. Mujhe bukhaar hai. Pulis ko bulaaiye. Bachaao!",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "emergencies", "health", "sos", "month3", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b5/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Bachaao! (バチャーオ) は火事やひったくりなど、物理的な危機が迫っている時に叫ぶ最強のSOS単語です。",
+  "commonMistakes": [
+    "Pronouncing the final 'D' in 'Madad' with a vowel sound (Ma-da-da), making it hard to understand in an emergency."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B5_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

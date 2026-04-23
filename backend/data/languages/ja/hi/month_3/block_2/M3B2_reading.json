@@ -1,0 +1,209 @@
+{
+  "activityId": "ja_hi_M3B2_reading_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "reading",
+  "title": "ラージのお願い (Raj's Requests)",
+  "learningGoal": "The learner will decode a text saturated with compound verbs, filtering out the literal meanings of V2 intensifiers (jaanaa, denaa, lenaa) to correctly identify the primary action and its directional nuance.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B2_pronunciation_001"],
+  "instructions": "ラージがケンにメッセージを送っています。動詞が2つ連続で並んでいる「複合動詞」を発見し、後ろの動詞(V2)が『行く・あげる・もらう』という元の意味を持たず、ただのニュアンス(飾りの言葉)になっている感覚を掴んでください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "※ 「O(Tum用)」や「Iye(Aap用)」などの文の形を決める役割は、すべて『後ろ』の動詞が担当しています。"
+    }
+  ],
+  "readingTitle": "राज का मैसेज (Message from Raj)",
+  "readingText": "नमस्ते केन! आज मेरे घर आ जाओ। हम फिल्म देखेंगे। यह किताब पढ़ लो। कल तुम मुझे वापस दे देना। अगर तुम्हें समझ नहीं आता, तो मैं बता दूँगा।",
+  "textInTargetLanguage": "नमस्ते केन! आज मेरे घर आ जाओ। हम फिल्म देखेंगे। यह किताब पढ़ लो। कल तुम मुझे वापस दे देना। अगर तुम्हें समझ नहीं आता, तो मैं बता दूँगा।",
+  "baseLanguageSupportText": "やあケン！今日僕の家に来ちゃってよ。僕たちは映画を見る予定だ。この本を読んでおいて(自分のために)。明日君は僕に返して(相手のために)。もし君が理解できなかったら、その時は僕が教えてあげるよ(相手のために)。",
+  "glossary": [
+    {
+      "targetText": "आ जाओ",
+      "transliteration": "Aa jaao",
+      "baseTranslation": "来ちゃってよ (来る[Aa]＋行くのTum命令[Jaao])",
+      "exampleSentence": {
+        "targetText": "अंदर आ जाओ।",
+        "transliteration": "Andar aa jaao.",
+        "baseTranslation": "中に入ってきなよ。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "फिल्म देखेंगे",
+      "transliteration": "Film dekhenge",
+      "baseTranslation": "映画を見るつもりだ (見る[Dekh]の未来形)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पढ़ लो",
+      "transliteration": "Paḍh lo",
+      "baseTranslation": "読んでおいて (読む[Paḍh]＋もらうのTum命令[lo]) : 自分のために〜しておく",
+      "exampleSentence": {
+        "targetText": "किताब पढ़ लो।",
+        "transliteration": "Kitaab paḍh lo.",
+        "baseTranslation": "本を読んでおいて。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "वापस",
+      "transliteration": "Vaapas",
+      "baseTranslation": "戻って / 返して",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "दे देना",
+      "transliteration": "De denaa",
+      "baseTranslation": "渡してね/返してね (あげる[De]＋あげる原形[Denaa=やや柔らかい命令]) : 相手のために〜する",
+      "exampleSentence": {
+        "targetText": "वापस दे देना।",
+        "transliteration": "Vaapas de denaa.",
+        "baseTranslation": "返してね。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "अगर",
+      "transliteration": "Agar",
+      "baseTranslation": "もし〜 (If)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "समझ",
+      "transliteration": "Samajh",
+      "baseTranslation": "理解 (Understanding)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "तो",
+      "transliteration": "To",
+      "baseTranslation": "その時は〜 (Then) ※Agarとセットで使う",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बता दूँगा",
+      "transliteration": "Bataa doongaa",
+      "baseTranslation": "教えてあげるよ (教える[Bataa]＋あげるの男未来[doongaa])",
+      "exampleSentence": {
+        "targetText": "मैं बता दूँगा।",
+        "transliteration": "Main bataa doongaa.",
+        "baseTranslation": "私が教えてあげるよ。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "आज मेरे घर आ जाओ।",
+      "transliteration": "Aaj mere ghar aa jaao.",
+      "baseTranslation": "今日私の家に来ちゃえ。(Aao単独よりも、行動の完了や勢いを表すjaaoが追加されている)"
+    },
+    {
+      "targetText": "यह किताब पढ़ लो।",
+      "transliteration": "Yah kitaab paḍh lo.",
+      "baseTranslation": "この本を読んでおきな。(自分の中に知識を取り込む方向性なので Lenaa を使う)"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージが「Aa jaao」と言った時、後ろについている「Jaao(行け)」は文字通り「行け」という意味を持っていますか？",
+      "questionType": "multiple_choice",
+      "options": ["持っていない (ただ完了や勢いのニュアンスを足している)", "持っている (来て、そして行けという意味)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「本を『読んでおいて』(Paḍh lo)」という文で、後ろのサポート動詞として「あげる(Denaa)」ではなく「もらう(Lenaa)」が使われているのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["本を読む行為が、読んだ本人の内的(自分自身)のためになる行動だから。", "本を読む行為が、外側(相手)へ影響を及ぼす行動だから。"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「明日私に『返して』(Vaapas de denaa)」という文で、最初の De は「渡す(あげる)」という意味の語幹です。では、後ろの Denaa(あげる) はどんなニュアンスを足していますか？",
+      "questionType": "multiple_choice",
+      "options": ["自分の内に取り込むニュアンス", "外側・他者へ向かって行動を放つニュアンス"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "最後の文でラージは「僕が教えて『あげる』(Bataa doongaa)」と言います。この文末の「doongaa」は、誰がその行動を行う未来形かを示す音ですか？",
+      "questionType": "multiple_choice",
+      "options": ["男性", "女性"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "英語の「If (もし〜)」に当たる単語をローマ字で答えてください。",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "持っていない (ただ完了や勢いのニュアンスを足している)",
+      "q2": "本を読む行為が、読んだ本人の内的(自分自身)のためになる行動だから。",
+      "q3": "外側・他者へ向かって行動を放つニュアンス",
+      "q4": "男性",
+      "q5": "agar"
+    },
+    "acceptableParaphrases": {
+      "q5": ["agar", "Agar", "AGAR", "アガル"]
+    },
+    "keywordScoringRules": {
+      "q5": ["agar"]
+    },
+    "expectedSummaryPoints": [
+      "The learner recognizes 'Aa jaao' conceptually as mere 'Come' rather than 'Come Go'.",
+      "The learner correlates 'Lenaa/Lo' with inward actions (reading for oneself) and 'Denaa/Do' with outward actions (telling someone)."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！複合動詞（Aa jaao, Paḍh lo, Bataa doongaa）が出てきても、それに騙されずに「メインの意味（V1）」と「方向性の機能（V2）」を正しく分解できています！",
+    "onFail": "一息ついて！「Bataa doongaa」を見た時、「Bataa＝教える」「Doongaa＝あげる（私の未来形）」という意味です。「（相手に向かって）教えてあげる」という美しい表現です！",
+    "onPartial": "よく読めて読めています！Q5の Agar (もし〜) と、To (その時は〜) は「Agar ... To ...」とセットで使われる超頻出構文なのでしっかり覚えておきましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b2/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b2/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m3/b2/reading/native_reading.mp3",
+    "audioTranscript": "Namaste Ken! ... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "compounds", "directionality", "nuance", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「Aa jaao（来て）」は日常会話で「Aao」の10倍くらいの頻度で使われます。",
+  "commonMistakes": [
+    "Thinking 'Aa jaao' is contradictory ('come go') and getting confused."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

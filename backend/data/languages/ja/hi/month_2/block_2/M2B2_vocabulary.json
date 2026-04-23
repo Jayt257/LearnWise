@@ -1,0 +1,242 @@
+{
+  "activityId": "ja_hi_M2B2_vocabulary_001",
+  "monthNumber": 2,
+  "blockNumber": 2,
+  "activityType": "vocabulary",
+  "title": "「ネ」がつく動詞、つかない動詞 (Transitive vs Intransitive Verbs)",
+  "learningGoal": "The learner will categorize high-frequency verbs into transitive (requiring 'ne' and object agreement in the past tense) and intransitive (refusing 'ne' and defaulting to speaker agreement).",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B2_listening_001"],
+  "instructions": "超重要単語リストです。ヒンディー語で過去形を使う時、動詞が「〜を (対象物)」を必要とする場合は『ネ(Ne)』がつきます。対象物が存在しない動詞には『ネ』がつきません。これを見分けましょう！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "見分け方は簡単です。「私は『りんごを』食べた」のように「〜を」ブロックがあれば、それはNeがつく動詞です。「私は行った」のように「〜を」が作れない行動はNeがつきません。"
+    }
+  ],
+  "vocabTheme": "Ergative (Ne) Verb Splits",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "किया",
+      "transliteration": "Kiyaa",
+      "baseTranslation": "した (する:Karnaaの過去形・男性形)",
+      "partOfSpeech": "Verb (Transitive - Takes Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "देखा",
+      "transliteration": "Dekhaa",
+      "baseTranslation": "見た (見る:Dekhnaaの過去形・男性形)",
+      "partOfSpeech": "Verb (Transitive - Takes Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "खाया",
+      "transliteration": "Khaayaa",
+      "baseTranslation": "食べた (食べる:Khaanaaの過去・男性)",
+      "partOfSpeech": "Verb (Transitive - Takes Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "पढ़ी",
+      "transliteration": "Paḍhee",
+      "baseTranslation": "読んだ (読む:Paḍhnaaの過去・女性形 Kitaab専用)",
+      "partOfSpeech": "Verb (Transitive - Takes Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "पी",
+      "transliteration": "Pee",
+      "baseTranslation": "飲んだ (飲む:Peenaaの過去・女性形 Chaay専用)",
+      "partOfSpeech": "Verb (Transitive - Takes Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "गया",
+      "transliteration": "Gayaa",
+      "baseTranslation": "行った (行く:Jaanaaの過去・男性形)",
+      "partOfSpeech": "Verb (Intransitive - NO Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "गई",
+      "transliteration": "Gayee",
+      "baseTranslation": "行った (行く:Jaanaaの過去・女性形)",
+      "partOfSpeech": "Verb (Intransitive - NO Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "सोया",
+      "transliteration": "Soyaa",
+      "baseTranslation": "眠った (眠る:Sonaaの過去・男性形)",
+      "partOfSpeech": "Verb (Intransitive - NO Ne)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "मैंने",
+      "transliteration": "Maine",
+      "baseTranslation": "私が",
+      "partOfSpeech": "Pronoun + Particle",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "उसने",
+      "transliteration": "Usne",
+      "baseTranslation": "彼[彼女]が",
+      "partOfSpeech": "Pronoun + Particle",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "した (対象物必要)",
+    "見た (対象物必要)",
+    "食べた (男用)",
+    "読んだ (女用)",
+    "飲んだ (女用)",
+    "行った (対象物なし・男)",
+    "行った (対象物なし・女)",
+    "眠った (対象物なし・男)",
+    "私が",
+    "彼 / 彼女が"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w03",
+      "targetText": "मैंने सेब खाया।",
+      "transliteration": "Maine seb khaayaa.",
+      "baseTranslation": "私が、りんごを、（男に合わせて）食べた。"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "मैं जापान गया।",
+      "transliteration": "Main Jaapaan gayaa.",
+      "baseTranslation": "私が、（私男に合わせて）、日本へ、行った。(Ne不要)"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "उसने किताब पढ़ी।",
+      "transliteration": "Usne kitaab paḍhee.",
+      "baseTranslation": "彼女が、本を、（本女に合わせて）、読んだ。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the Hindi past tense verb to its meaning: Kiyaa (किया)",
+      "questionType": "matching",
+      "options": ["見た", "した"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the Hindi pronoun to its Japanese equivalent: Maine (मैंने)",
+      "questionType": "matching",
+      "options": ["彼が", "私が"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Does the verb 'Gayaa / Gayee (行った)' require the 'Ne' particle?",
+      "questionType": "matching",
+      "options": ["Ne は必要ない (Intransitive)", "Ne が必要 (Transitive)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Does the action 'Dekhaa (見た)' require the 'Ne' particle?",
+      "questionType": "matching",
+      "options": ["Ne は必要ない", "Ne が必要 (テレビ『を』見る)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match the Hindi past tense verb to its meaning: Pee (पी)",
+      "questionType": "matching",
+      "options": ["飲んだ", "読んだ"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "した",
+      "w02": "見た",
+      "w03": "食べた (男用)",
+      "w04": "読んだ (女用)",
+      "w05": "飲んだ (女用)",
+      "w06": "行った (男用)",
+      "w07": "行った (女用)",
+      "w08": "眠った",
+      "w09": "私が",
+      "w10": "彼 / 彼女が"
+    },
+    "acceptedTranslations": {},
+    "matchingKey": {
+      "q1": "した",
+      "q2": "私が",
+      "q3": "Ne は必要ない (Intransitive)",
+      "q4": "Ne が必要 (テレビ『を』見る)",
+      "q5": "飲んだ"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「〜を」という対象物があるかどうかで、Ne をつけるか付けないかを分類するルールが完璧に内面化されています！",
+    "onFail": "もう一度！「Main Jaapaan gayaa(私は日本へ行った)」はOKです。でも「Main seb khaayaa」はダメです。りんご『を』食べる時なので、Maine(私が) + khaayaa になります！",
+    "onPartial": "よくできました！「眠る (So)」や「行く(Jaa)」のように対象物がない（Neを持たない）動詞が過去形になるときは、Month 1 と同じように『自分自身の性別』に合わさることを思い出してください（Main gayaa = 私男は行った）。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b2/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b2/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b2/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b2/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b2/vocab/words_native.mp3",
+    "audioTranscript": "Kiyaa. Dekhaa. Khaayaa. Paḍhee. Pee. Gayaa. Gayee. Soyaa. Maine. Usne.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "past_tense", "ergative", "transitive", "intransitive", "month2", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b2/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「〜を」を補える動詞には必ず Ne がつきます。",
+  "commonMistakes": [
+    "Attaching 'Ne' to the Intransitive 'Gayaa' resulting in the non-sensical 'Maine Gayaa' (I-ne went)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B2_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

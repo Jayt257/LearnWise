@@ -1,0 +1,183 @@
+{
+  "activityId": "ja_hi_M2B5_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "writing",
+  "title": "丁寧なお願いと禁止 (Polite Requests & Bans)",
+  "learningGoal": "The learner will accurately synthesize formal imperatives (-iye) and irregulars (-jiye) in written Hindi, strictly applying the prohibitive 'mat' in place of 'nahin'.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B5_reading_001"],
+  "instructions": "目上の人（Aap）に対する丁寧なお願いと、「〜しないでください」という禁止の文を作りましょう！「Karnaa(する)」は「Keejiye(キージエ)」になる特別な変化に気をつけてください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 命令形では、文の最後に To be 動詞 (Hoon/Hai など) はいりません。「Jaaiye.」だけで完結します。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. (あなた・尊敬) ここに座ってください。\n2. (あなた・尊敬) 家で仕事をしないでください。\n3. (相手は友達) お茶を飲んで(Piyo)。",
+  "promptGoal": "Force the learner to deploy formal imperatives (baiṭhiye), prohibitive formal irregulars (mat keejiye), and informal irregulars (piyo).",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた(方)"
+    },
+    {
+      "targetText": "तुम",
+      "transliteration": "Tum",
+      "baseTranslation": "君"
+    },
+    {
+      "targetText": "यहाँ",
+      "transliteration": "Yahaan",
+      "baseTranslation": "ここに"
+    },
+    {
+      "targetText": "घर में",
+      "transliteration": "Ghar mein",
+      "baseTranslation": "家で(の中に)"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "Kaam",
+      "baseTranslation": "仕事"
+    },
+    {
+      "targetText": "चाय",
+      "transliteration": "Chaay",
+      "baseTranslation": "お茶"
+    },
+    {
+      "targetText": "बैठिए",
+      "transliteration": "Baiṭhiye",
+      "baseTranslation": "座ってください (座るBaiṭhnaa + iye)"
+    },
+    {
+      "targetText": "बैठो",
+      "transliteration": "Baiṭho",
+      "baseTranslation": "座って (Tum用)"
+    },
+    {
+      "targetText": "कीजिए",
+      "transliteration": "Keejiye",
+      "baseTranslation": "してください (不規則: Kar + iye)"
+    },
+    {
+      "targetText": "करिए",
+      "transliteration": "Kariye",
+      "baseTranslation": "※間違い選択肢"
+    },
+    {
+      "targetText": "पियो",
+      "transliteration": "Piyo",
+      "baseTranslation": "飲んで (Tum用)"
+    },
+    {
+      "targetText": "पीजिए",
+      "transliteration": "Peejiye",
+      "baseTranslation": "飲んでください (Aap用)"
+    },
+    {
+      "targetText": "मत",
+      "transliteration": "Mat",
+      "baseTranslation": "〜しないで (命令形の否定)"
+    },
+    {
+      "targetText": "नहीं",
+      "transliteration": "Nahin",
+      "baseTranslation": "〜ない (通常の否定 - 今回は使わない)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Formal Request): You [Aap] here [yahaan] please-sit [baiṭhiye].",
+    "Sentence 2 (Formal Negative Request): You [Aap] house in [ghar mein] work [kaam] don't [mat] please-do [keejiye].",
+    "Sentence 3 (Informal Request): You [Tum] tea [chaay] drink(informal) [piyo]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "आप यहाँ बैठिए। आप घर में काम मत कीजिए। तुम चाय पियो।",
+      "transliteration": "Aap yahaan baiṭhiye. Aap ghar mein kaam mat keejiye. Tum chaay piyo.",
+      "baseTranslation": "あなた(Aap)はここに座ってください。あなた(Aap)は家で仕事をしないでください。君(Tum)はお茶を飲んで。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner successfully matched 'Aap' with '-iye'/-jiye' and 'Tum' with '-o', while perfectly placing 'mat' right before the verb."
+    },
+    {
+      "targetText": "आप यहाँ बैठो। घर में काम नहीं करिए। चाय पीजिए।",
+      "transliteration": "Aap yahaan baiṭho. Ghar mein kaam nahin kariye. Chaay peejiye.",
+      "baseTranslation": "Aap here sit(informal). House in work not do(wrong form). Tea please-drink.",
+      "qualityLevel": "bad",
+      "annotation": "Total failure. Mismatched polite 'Aap' with informal 'o'. Used 'nahin' instead of 'mat'. Used 'kariye' instead of the irregular 'keejiye'. Mismatched the prompt's request for an informal 3rd sentence."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Formal Affirmative Conjugation",
+      "weight": 33,
+      "description": "Did the user select 'Baiṭhiye' (not baiṭho) to match with Aap?"
+    },
+    {
+      "criterion": "Prohibitive Negation & Irregular Command",
+      "weight": 33,
+      "description": "Did the user select 'mat keejiye' for the prohibition, successfully avoiding 'nahin' and the incorrect 'kariye'?"
+    },
+    {
+      "criterion": "Informal Conjugation Switch",
+      "weight": 34,
+      "description": "Did the user successfully switch to the informal 'piyo' for the 'Tum' sentence?"
+    }
+  ],
+  "minimumWordCount": 9,
+  "maximumWordCount": 16,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "आप यहाँ बैठिए। आप घर में काम मत कीजिए। तुम चाय पियो।",
+    "acceptableAlternates": [
+      "aap yahaan baiṭhiye aap ghar mein kaam mat keejiye tum chaay piyo",
+      "yahaan baithiye ghar mein kaam mat kijiye tum chaay piyo"
+    ],
+    "requiredKeywords": ["यहाँ", "बैठिए", "घर", "में", "काम", "मत", "कीजिए", "तुम", "चाय", "पियो"],
+    "grammarBaseline": "Crucial requirement: 'mat keejiye' - using 'nahin' is a fail. 'Kariye' is a fail. Sentences must omit copulas.",
+    "lengthExpectation": "3 distinct imperative sentences.",
+    "scoringRubric": {
+      "Negation Error": "Instant failure if they write 'nahin keejiye'. It must be 'mat keejiye'."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！Aap 用の最高に丁寧な「イエ」「ジエ」と、Tum 用の親しい「オ」。この２つのテンションの切り替えこそが、インド社会で生き抜くために最も重要なスキルです！",
+    "onFail": "ストップ！仕事を「しないでください」とお願いする時、普通の否定の「Nahin」を使っていませんか？命令・お願いの否定には絶対に「Mat (マト)」を使います！",
+    "onPartial": "惜しいところがあります。第2文で「Kariye」を使っていませんか？Karnaa(する)の丁寧語は、少し形が崩れて「Keejiye(キージエ)」になります。Peenaa が Peejiye になるのと同じルールです。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b5/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b5/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m2/b5/writing/prompt.mp3",
+    "audioTranscript": "Write 3 imperative sentences alternating between formal requests, negative formal requests, and informal commands.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "imperative", "negation", "politeness", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "主語の Aap(あなた) や Tum(君) は、文脈で明らかなら省略しても構いません（日本語と同じです）。",
+  "commonMistakes": [
+    "Writing 'Nahin keejiye' matching the English 'Do not do'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

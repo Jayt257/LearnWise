@@ -1,0 +1,166 @@
+{
+  "activityId": "ja_hi_M2B6_lesson_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "lesson",
+  "title": "おもてなしの文化 (Indian Hospitality)",
+  "learningGoal": "The learner will synthesize the future tense, possessive declensions, and imperative moods acquired throughout Month 2 into the cultural framework of Indian hospitality ('Atithi Devo Bhava').",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M2B5_test_001"],
+  "instructions": "Month 2 の総仕上げです！これまで学んだ「未来形」「の(所有)」「丁寧なお願い」を全て組み合わせて、インドの強烈なおもてなし文化（アティティ・デーヴォー・バヴァ＝お客様は神様）を体現するフレーズを学びましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "インドの家を訪問すると、断っても無限にチャイ（お茶）とお菓子が出てきます。「遠慮しないで食べてください！」「私の家はあなたの家です」といった、直球の愛情表現がヒンディー語の魅力です。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Hospitality Synthesis: Combining polite imperatives (khaaiye) with possessives (meraa ghar) and future promises (phir aaoongaa).",
+      "Key Cultural Concept: 'Atithi Devo Bhava' (The guest is equivalent to God). Refusing food immediately is expected, and the host will insist multiple times.",
+      "The phrase 'Meraa ghar aapkaa ghar hai' (My house is your house) perfectly demonstrates possessive mapping to the masculine noun 'ghar'."
+    ],
+    "conceptSummary": "Acts as the Month 2 Capstone. Requires learners to rapidly switch between the cognitive paradigms built over the last 5 blocks (tense dropping for futures, biology dropping for possessives, polite glides for commands) within a real-world cultural scenario.",
+    "importantFacts": [
+      "In India, saying 'Thank you' (Shukriyaa) to close friends or family for standard acts of hospitality can actually be seen as creating offensive distance. It is often reserved for formalities."
+    ],
+    "checkpointAnswers": {
+      "q1": "Aapkaa (आपका)",
+      "q2": "Aaiye (आइए)",
+      "q3": "Milenge (मिलेंगे)"
+    },
+    "expectedUnderstanding": "Learners will confidently navigate an entire visit to an Indian household, from arrival (Aaiye) to departure (Phir milenge)."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！未来形、所有代名詞、丁寧な命令形という Month 2 の最重要文法を一つにまとめて、インド人のような温かいコミュニケーションができるようになりました！",
+    "onFail": "Month 2 の文法が混ざってしまっていますね。「の」の変化（Meraa/Meree）と、「〜してください」の語尾（Iye）のルールを一つずつ紐解きながら復習しましょう。",
+    "onPartial": "よく理解しています！インド文化では遠慮せずに相手の好意を受け取ることが友情の証になります。「Aapkaa ghar（あなたの家）」と堂々と言える関係性を目指しましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b6/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b6/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b6/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m2/b6/lesson/native_lesson.mp3",
+    "audioTranscript": "Swaagat hai. Meraa ghar aapkaa ghar hai. Andar aaiye اور khana khaaiye. Hum phir milenge.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["culture", "capstone", "hospitality", "synthesis", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b6/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「また会いましょう」は「私たちは(Hum)・再び(Phir)・会う(Milenge - 未来形)」で構成されます。",
+  "commonMistakes": [
+    "Saying 'Meraa ghar aapkee ghar hai' forgetting that Ghar is masculine when referring to the guest's ownership."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "インド流おもてなし (Atithi Devo Bhava)",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "到着と歓迎 (Arrival & Welcome)",
+      "bodyText": "客人が来たら、まずは丁寧な命令形「Iye」を使って最大限の敬意を払って家の中に招き入れます。「私の家(Meraa ghar)はあなたの家(Aapkaa ghar)」という表現は、所有代名詞の最高の練習になります。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "अंदर आइए!",
+          "transliteration": "Andar aaiye!",
+          "baseTranslation": "中に入ってください！ [命令形: Aa + iye]"
+        },
+        {
+          "targetText": "मेरा घर आपका घर है।",
+          "transliteration": "Meraa ghar aapkaa ghar hai.",
+          "baseTranslation": "私の家はあなたの家です。（くつろいでください） [所有: Gharは男なので Meraa / Aapkaa]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "怒涛の食事攻撃 (The Food Assault)",
+      "bodyText": "お茶や食事を熱心に勧めるのがインドの文化です。たとえ相手が「いらない」と言っても、最初は遠慮しているだけだと見なされ、「Khaaiye（食べてください）」と何度も勧められます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "गरम चाय पीजिए।",
+          "transliteration": "Garam chaay peejiye.",
+          "baseTranslation": "温かいお茶を飲んでくださいね。[不規則命令形: Peenaa -> Peejiye]"
+        },
+        {
+          "targetText": "संकोच मत कीजिए।",
+          "transliteration": "Sankoch mat keejiye.",
+          "baseTranslation": "遠慮しないでください。[禁止: Mat + 不規則命令形 Keejiye]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "別れの約束 (The Future Promise)",
+      "bodyText": "帰る時は、単なる「さようなら」ではなく、「また必ず会おう（来るよ）」という未来形の約束（〜nge / 〜oongaa）を交わして別れます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "हम फिर मिलेंगे।",
+          "transliteration": "Hum phir milenge.",
+          "baseTranslation": "私たちはまた（再び）会いましょう。[未来形: Hum用なので Mil + enge]"
+        },
+        {
+          "targetText": "मैं कल फिर आऊँगा।",
+          "transliteration": "Main kal phir aaoongaa.",
+          "baseTranslation": "私は明日また来ます（男）。[未来形: Main(男)用なので Aa + oongaa]"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will demonstrate the ability to parse and produce complex multi-clause sentences blending Month 2's grammatical vectors (future, possession, imperative) within a unified cultural narrative.",
+  "examples": [
+    {
+      "targetText": "आप बहुत अच्छे दोस्त हैं।",
+      "transliteration": "Aap bahut achchhe dost hain.",
+      "baseTranslation": "あなたはとても素晴らしい友達です。",
+      "explanation": "A statement of deep affiliation, treating the friend with high respect (Aap / hain)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "感謝を伝えすぎるのはNG：インドでは、家族や親友に「ありがとう(Shukriyaa/Dhanyavaad)」を言いすぎると「他人行儀だ」と怒られることがあります。代わりに「Aap bahut achchhe hain (あなたはとても良い人だ)」などと褒める文化があります。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "「Atithi Devo Bhava（アティティ・デーヴォー・バヴァ）」とはサンスクリット語で「客人は神様である」という意味です。インド人が自宅に客を招く時、この精神が今でも強く根付いており、自分の全てを差し出す勢いでおもてなしをしてくれます。",
+    "dosList": ["Accept the first cup of tea (Chaay) offered to you. It is a fundamental bond of trust."],
+    "dontsList": ["Don't overly thank a host for a meal if you are close friends; it creates an invisible wall."]
+  },
+  "summary": "【Month 2 の総括】\n所有：対象物の性別に合わせる (Meraa/Meree)\n命令：対象者の立場に合わせる (O/Iye)\n未来：自分の立場・数に合わせる (Oongaa/Enge)",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「私の家は『あなたの』家です」と言う時、家(Ghar)が男性名詞なので、Aap(あなた) に何をつなげますか？",
+      "expectedAnswer": "Aapkaa (आपका)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「入ってください」と目上の人(Aap)をもてなす時、Aa(来る)の語尾はどう展開させますか？",
+      "expectedAnswer": "Aaiye (आइए)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "帰る時に「私たちはまた会うでしょう(Hum phir ___)」と言う時、未来形はどうなりますか？",
+      "expectedAnswer": "Milenge (मिलेंगे)"
+    }
+  ]
+}

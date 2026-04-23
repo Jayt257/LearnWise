@@ -1,0 +1,222 @@
+{
+  "activityId": "ja_hi_M1B3_reading_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "reading",
+  "title": "家と車 (My House and My Car)",
+  "learningGoal": "The learner will decode Devanagari texts containing nouns of differing grammatical genders, correctly matching the modifying possessives (mera/meri) and adjectives (bada/badi) to the semantic meaning.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B3_pronunciation_001"],
+  "instructions": "ラージが自分の持ち物について話しています。登場する2つのモノ（家と車）の「性別」が何であるかを意識しながら、前の言葉がどう変化しているか（Mera -> Meriなど）を読み取ってください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "힌ディー語の形容詞は名詞の性別に一致します。男性名詞なら「アー（Aa）」、女性名詞なら「イー（Ee）」で終わっているか確認しましょう。"
+    }
+  ],
+  "readingTitle": "मेरा घर और मेरी गाड़ी (My House and My Car)",
+  "readingText": "नमस्ते। यह मेरा घर है। मेरा घर बहुत बड़ा है। और यह मेरी गाड़ी है। मेरी गाड़ी भी बहुत बड़ी है। मेरा नाम राज है।",
+  "textInTargetLanguage": "नमस्ते। यह मेरा घर है। मेरा घर बहुत बड़ा है। और यह मेरी गाड़ी है। मेरी गाड़ी भी बहुत बड़ी है। मेरा नाम राज है。",
+  "baseLanguageSupportText": "こんにちは。これは私の家です。私の家はとても大きいです。そしてこれは私の車です。私の車もとても大きいです。私の名前はラージです。",
+  "glossary": [
+    {
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "家 (男性名詞)",
+      "exampleSentence": {
+        "targetText": "यह मेरा घर है।",
+        "transliteration": "Yah mera ghar hai.",
+        "baseTranslation": "これは私の家です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "गाड़ी",
+      "transliteration": "Gaaḍee",
+      "baseTranslation": "車 (女性名詞)",
+      "exampleSentence": {
+        "targetText": "यह मेरी गाड़ी है।",
+        "transliteration": "Yah meri gaaḍee hai.",
+        "baseTranslation": "これは私の車です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बड़ा",
+      "transliteration": "Baḍaa",
+      "baseTranslation": "大きい (男性用)",
+      "exampleSentence": {
+        "targetText": "घर बड़ा है।",
+        "transliteration": "Ghar baḍaa hai.",
+        "baseTranslation": "家は大きいです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बड़ी",
+      "transliteration": "Baḍee",
+      "baseTranslation": "大きい (女性用)",
+      "exampleSentence": {
+        "targetText": "गाड़ी बड़ी है।",
+        "transliteration": "Gaaḍee baḍee hai.",
+        "baseTranslation": "車は大きいです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बहुत",
+      "transliteration": "Bahut",
+      "baseTranslation": "とても",
+      "exampleSentence": {
+        "targetText": "मेरा घर बहुत बड़ा है।",
+        "transliteration": "Mera ghar bahut baḍaa hai.",
+        "baseTranslation": "私の家はとても大きいです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "और",
+      "transliteration": "Aur",
+      "baseTranslation": "そして / と",
+      "exampleSentence": {
+        "targetText": "घर और गाड़ी",
+        "transliteration": "Ghar aur gaaḍee",
+        "baseTranslation": "家と車"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "भी",
+      "transliteration": "Bhee",
+      "baseTranslation": "〜も (also)",
+      "exampleSentence": {
+        "targetText": "गाड़ी भी बड़ी है।",
+        "transliteration": "Gaaḍee bhee baḍee hai.",
+        "baseTranslation": "車も大きいです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मेरा घर बहुत बड़ा है।",
+      "transliteration": "Mera ghar bahut baḍaa hai.",
+      "baseTranslation": "私の家はとても大きいです。"
+    },
+    {
+      "targetText": "और यह मेरी गाड़ी है।",
+      "transliteration": "Aur yah meri gaaḍee hai.",
+      "baseTranslation": "そしてこれは私の車です。"
+    },
+    {
+      "targetText": "मेरी गाड़ी भी बहुत बड़ी है।",
+      "transliteration": "Meri gaaḍee bhee baḍee hai.",
+      "baseTranslation": "私の車もとても大きいです。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "文章で「車 (Gaaḍee)」は男性名詞ですか？それとも女性名詞ですか？（ヒント：『私の〜』の部分に注目）",
+      "questionType": "multiple_choice",
+      "options": ["女性名詞 (Feminine)", "男性名詞 (Masculine)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「私の家 (Mera ghar)」と言うとき、家 (Ghar) が男性名詞であるため、「大きい」も男性形になっています。本文中の「私の一番大きい家」を表す形容詞はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["बड़ी (baḍee)", "बड़ा (baḍaa)", "बहुत (bahut)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "ラージは「車も大きい」と言っています。ヒンディー語で「〜も (also)」を意味する短い単語は何ですか？(ローマ字で入力)",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「とても (very)」を意味するヒンディー語の単語はどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["ठीक (ṭheek)", "बहुत (bahut)", "और (aur)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "True or False: 男性であるラージが「車」について話す場合、彼自身が男性なので「Mera (男性用)」を使わなければならない。",
+      "questionType": "true_false",
+      "options": ["True", "False"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "文章を繋ぐ「そして (and)」を意味する単語は何ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q6"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "女性名詞 (Feminine)",
+      "q2": "बड़ा (baḍaa)",
+      "q3": "bhee",
+      "q4": "बहुत (bahut)",
+      "q5": "False",
+      "q6": "aur"
+    },
+    "acceptableParaphrases": {
+      "q3": ["bhi", "bhee", "bī", "भी"],
+      "q6": ["aur", "Aur", "और"]
+    },
+    "keywordScoringRules": {
+      "q3": ["bhee", "भी"],
+      "q6": ["aur", "और"]
+    },
+    "expectedSummaryPoints": [
+      "The learner can trace the forward dependency of noun gender onto preceding possessives (meri) and adjectives (badi).",
+      "The learner recognizes basic connectors (aur, bhee, bahut)."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Mera と Meri、Bada と Badi が「名詞の性別（家か、車か）」に依存して変化していることを見事に読み取りました。",
+    "onFail": "もう一度ゆっくり読んでみましょう。「Mera / Bada」は「家（Ghar）」にかかっており、「Meri / Badi」は「車（Gaadee）」にかかっていることに注目してください。",
+    "onPartial": "よくできました！いくつか間違いがあります。文章で「〜も (also)」という意味で使われる「Bhee」という小さな単語も頻出なので覚えておきましょう。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b3/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m1/b3/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m1/b3/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Yah mera ghar hai... (matches full target text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "gender", "adjectives", "possessives", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "話している人（ラージ）の性別は関係ありません。重要なのは「モノ（家や車）」の性別です。",
+  "commonMistakes": [
+    "Thinking that 'Mera' refers to Raj's gender instead of the house."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

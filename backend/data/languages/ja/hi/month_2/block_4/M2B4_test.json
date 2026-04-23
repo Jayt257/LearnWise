@@ -1,0 +1,350 @@
+{
+  "activityId": "ja_hi_M2B4_test_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 確認テスト (Block 4 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of Hindi possessive declensions, proving their ability to mutate Kaa/Kee/Ke and Meraa/Meree/Mere based entirely on the target object's grammar.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M2B4_lesson_001",
+    "ja_hi_M2B4_pronunciation_001",
+    "ja_hi_M2B4_reading_001",
+    "ja_hi_M2B4_writing_001",
+    "ja_hi_M2B4_listening_001",
+    "ja_hi_M2B4_vocabulary_001",
+    "ja_hi_M2B4_speaking_001"
+  ],
+  "instructions": "Block 4 の確認テストです！ヒンディー語で「私の」や「〜の」と言う時、自分が男か女かは完全に忘れてください。あなたの後ろについてくる『名詞の性別』がすべてをコントロールします！",
+  "testTitle": "Block 4 確認テスト (Possession & Relationships)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: 「の」の変化ルール (Declension Mechanics)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "女性が「私の名前 (Naam)」と言う時、Naamが男性名詞であるため正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Meraa naam", "Meree naam", "Mere naam"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "「アニタ(女)『の』家(男)」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Aneeta kaa ghar", "Aneeta kee ghar"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「ラージ(男)『の』本(女)」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Raaj kaa kitaab", "Raaj kee kitaab"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "男性のお年寄りや父親(Pitaa jee)について「私のお父さん」と言う時、正しいのはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Meraa pitaa jee", "Mere pitaa jee", "Meree pitaa jee"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: 『Meree (私の)』や『Tumhaaree (君の)』などが使われるのは、それが修飾している対象（モノや人）が女性名詞の時だけである。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 家族と所有物の単語 (Family & Possessions Vocab)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「兄弟」を意味する男性名詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["बहन (Bahan)", "भाई (Bhaaii)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「友達」を意味する単語はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["दोस्त (Dost)", "परिवार (Parivaar)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「車(Gaadee)」と「本(Kitaab)」の共通点は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["両方とも男性名詞である", "両方とも女性名詞である"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「名前 (Naam)」は男性名詞ですか？女性名詞ですか？",
+          "questionType": "multiple_choice",
+          "options": ["男性名詞", "女性名詞"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "「家族」を意味する男性名詞は何ですか？ (ローマ字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 関係性の把握 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Tumhaaraa naam kyaa hai? (君の名前は何ですか？)」と聞きました。聞き手（あなた）が女性であってもTumhaareeとならない理由はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["名前(Naam)が男性名詞だから", "聞き手に対して敬意を払っているから"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Kenjee ke pitaa jee Bhaarat mein hain.」文末がなぜ Hai ではなく Hain(ンが入る) なのですか？",
+          "questionType": "multiple_choice",
+          "options": ["父親が複数いるから", "Kenjee ke(エー) の音に見られるように、目上の男性単数を複数形と同じ文法で尊敬として扱うため"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "私の女友達(Dost - 女)の犬(Kuttaa - 男)」と言う時、代名詞と助詞はどうなりますか？",
+          "questionType": "multiple_choice",
+          "options": ["Meree dost kaa kuttaa", "Meree dost kee kuttaa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "「あなた(尊敬 Aap) の 本(女 Kitaab)」と言いたい時、「Aap_____ Kitaab」の空白に入る形は何ですか？ (ローマ字で入力)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "True or False: 『お母さん(Maataa jee)』に対して話す時、敬意を表すために『Ee(イー)』の音を『E(エー)』に変えて「Mere maataa jee」とする必要がある。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: 総合作文 (Full Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: 「これは私の本(女)です。」",
+          "questionType": "multiple_choice",
+          "options": ["Yah meraa kitaab hai.", "Yah meree kitaab hai.", "Yah mere kitaab hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: 「彼(Vah)の家はどこですか？」 （彼の＝Vah+Kaa=Uska を使う）",
+          "questionType": "multiple_choice",
+          "options": ["Uskee ghar kahaan hai?", "Uskaa ghar kahaan hai?", "Uske ghar kahaan hai?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "あなたが男性だとして、「私の姉(Bahan)」はどう言いますか？",
+          "questionType": "multiple_choice",
+          "options": ["Meraa bahan", "Meree bahan", "Mere bahan"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「ラージ『の』お父さん」の『の』にあたる、尊敬を込めた助詞は何ですか？ (ローマ字で)",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "What does 'कुत्ता (Kuttaa)' mean?",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 20,
+    "pronunciation": 0,
+    "reading": 10,
+    "writing": 50,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Meraa naam",
+      "q002": "Aneeta kaa ghar",
+      "q003": "Raaj kee kitaab",
+      "q004": "Mere pitaa jee",
+      "q005": "True",
+      "q006": "भाई (Bhaaii)",
+      "q007": "दोस्त (Dost)",
+      "q008": "両方とも女性名詞である",
+      "q009": "男性名詞",
+      "q010": "Parivaar",
+      "q011": "名前(Naam)が男性名詞だから",
+      "q012": "Kenjee ke(エー) の音に見られるように、目上の男性単数を複数形と同じ文法で尊敬として扱うため",
+      "q013": "Meree dost kaa kuttaa",
+      "q014": "kee",
+      "q015": "False",
+      "q016": "Yah meree kitaab hai.",
+      "q017": "Uskaa ghar kahaan hai?",
+      "q018": "Meree bahan",
+      "q019": "ke",
+      "q020": "犬"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q010": ["parivaar", "Parivaar", "パリワール"],
+      "q014": ["kee", "Kee", "ki", "Ki"],
+      "q019": ["ke", "Ke"],
+      "q020": ["犬", "いぬ", "dog"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! ヒンディー語の『Kaa / Kee / Ke』の迷宮を完全に抜け出しました！所有者（私・彼・アニタ）に惑わされず、所有物（本・家）だけを見てカメレオンのように形を変えられています！",
+    "onFail": "残念！もう一度復習が必要です。「アニタ(女)の家(男)」で「Aneeta kee ghar」と答えてしまっていませんか？助詞の形は『アニタ(持ち主)』には関係ありません！後ろに続く『家(男)』の形に合わせて Kaa を選ぶのです！",
+    "onPartial": "惜しいところがあります。女性(イー)の法則と男性(アー)の法則は理解できていますが、目上の男性に対するエ(Ke, Mere)の変化、特に女性への尊敬(Meree のまま変わらない)ルールで少し引っかかっています。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test measures understanding of noun-modifier declensions mapping Kaa/Kee/Ke to object gender.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "grammar", "possession", "declensions", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

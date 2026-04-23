@@ -1,0 +1,127 @@
+{
+  "activityId": "ja_hi_M2B4_pronunciation_001",
+  "monthNumber": 2,
+  "blockNumber": 4,
+  "activityType": "pronunciation",
+  "title": "「の」の発音変化 (Pronouncing Possessives)",
+  "learningGoal": "The learner will master the fluid pronunciation of complex possessive pronouns (Tumhaaraa) and explicitly voice the trailing vowel shifts (aa, ee, e) that indicate gender and respect.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B4_lesson_001"],
+  "instructions": "誰のものかを表す言葉の発音練習です！特に「Tumhaaraa (君の)」は、真ん中にある「H (ハ)」の息の音を出すのが最初は少し難しく感じるかもしれません。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "語尾の母音（アー、イー、エー）を長めにしっかりと伸ばして発音することで、文法的な意味が相手に正確に伝わります。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "मेरा",
+      "transliteration": "Meraa",
+      "baseTranslation": "私の (男性名詞が続く時)",
+      "phoneticHint": "メ・ラー。「ラー」の『ア』の母音を少し長めに引きます。",
+      "syllableSplit": "Me-raa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mera. (Cutting the vowel too short)."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "मेरी",
+      "transliteration": "Meree",
+      "baseTranslation": "私の (女性名詞が続く時)",
+      "phoneticHint": "メ・リー。「リー」で口を横にしっかり引き、イの音を響かせます。",
+      "syllableSplit": "Me-ree",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Meri. (Short vowel)."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "तुम्हारा",
+      "transliteration": "Tumhaaraa",
+      "baseTranslation": "君の (男性名詞が続く時)",
+      "phoneticHint": "トゥム・ハー・ラー。トゥの後にM(唇を閉じる)を置き、息を吐きながら「ハー」と発音します。",
+      "syllableSplit": "Tum-haa-raa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Tumu-ha-raa. (Inserting U after M)."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "आपकी गाड़ी",
+      "transliteration": "Aapkee gaadee",
+      "baseTranslation": "あなたの車",
+      "phoneticHint": "アープ・キー・ガーディー。「プ」は小さく、すぐに「キー」に繋げます。ガーディーのＤは舌を丸めて弾きます。",
+      "syllableSplit": "Aap-kee gaa-dee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Aapu-key."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "मेरे पिता जी",
+      "transliteration": "Mere pitaa jee",
+      "baseTranslation": "私のお父さん (尊敬のMere)",
+      "phoneticHint": "メレー・ピター・ジー。「メ・レー」どちらも『エ』の音です。最後のジーも長めのイーの音です。",
+      "syllableSplit": "Me-re pi-taa jee",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Mera pita ji. (Forgetting the respect ending)."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Meraa Meree Tumhaaraa Aapkee gaadee Mere pitaa jee",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Tumhaaraa の「M(ム)」から「H(ハ)」への息の抜き方が非常にネイティブらしいです。母音の長さ（アー・イー・エー）も申し分ありません。",
+    "onFail": "もう一度！「Meraa」や「Meree」は、最後の母音をもう少し大げさに伸ばしてください。日本語の「メラ」や「メリ」のように短く切ると通じにくくなります。",
+    "onPartial": "よくお話しできています。Aapkee (あなたの) の P のあとに小さな『ゥ』が入って Aapukee と聞こえました。唇を弾かず、閉じた瞬間に K の音へ移ってください！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "meraa meree tumhaaraa aapkee gadi mere pita ji",
+    "acceptedVariants": [
+      "mera meri tumhara apki gadi mere pitaa jee",
+      "meraa meree tumhaaraa aapkee gaadee mere pitaa ji"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates the correct elongation of trailing vowels (aa, ee, e) handling declensions, and the aspirated 'h' within 'tumhaaraa'.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b4/pronunciation/native_possess.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b4/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b4/pronunciation/slow_possess.mp3",
+    "normalAudio": "audio/ja_hi/m2/b4/pronunciation/native_possess.mp3",
+    "audioTranscript": "Meraa. Meree. Tumhaaraa. Aapkee gaadee. Mere pitaa jee.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "possession", "vowels", "declensions", "month2", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b4/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "最後の音の長さを少しだけ強調すると、ヒンディー語らしさが一気にアップします。",
+  "commonMistakes": [
+    "Pronouncing 'Tumhaaraa' as 'Toom-haa-raa' instead of 'Toom' with a quick transition to 'H'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B4_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

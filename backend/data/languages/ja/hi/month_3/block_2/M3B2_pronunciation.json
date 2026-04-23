@@ -1,0 +1,126 @@
+{
+  "activityId": "ja_hi_M3B2_pronunciation_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "pronunciation",
+  "title": "2つの動詞を繋ぐ (Compound Rhythm)",
+  "learningGoal": "The learner will pronounce compound verbs (V1 root + V2) as a single rhythmic unit, eliminating any unnatural pauses between the two verbs to replicate native fluency.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B2_lesson_001"],
+  "instructions": "複合動詞の練習です。Khaa (食べる) と Jaao (行け) という別々の2語として発音するのではなく、Khaa-jaao と一つの単語のように滑らかに繋げてみましょう。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "母音が続くこと（例：Aa jaaiye の ア・ア、Pee leejiye の イ・イ）に注意してリズムよく読みます。"
+    }
+  ],
+  "targetPhrasesOrWords": [
+    {
+      "itemId": "p01",
+      "targetText": "आ जाइए",
+      "transliteration": "Aa jaaiye",
+      "baseTranslation": "来ちゃってください（入ってください）",
+      "phoneticHint": "アー・ジャーイエ。アーを真っ直ぐ伸ばして、息継ぎをせずにジャーイエと落とします。",
+      "syllableSplit": "Aa jaa-i-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Aa. (Pause). Jaaiye."
+    },
+    {
+      "itemId": "p02",
+      "targetText": "खा जाऊँगा",
+      "transliteration": "Khaa jaaoongaa",
+      "baseTranslation": "全部食べてしまいます(男)",
+      "phoneticHint": "カー・ジャウーンガー。カーのKは息を強く吐きます。ジャウーンで鼻にかけてください。",
+      "syllableSplit": "Khaa jaa-oon-gaa",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Ka jauga."
+    },
+    {
+      "itemId": "p03",
+      "targetText": "बता दो",
+      "transliteration": "Bataa do",
+      "baseTranslation": "（外へ向けて）教えてよ",
+      "phoneticHint": "バター・ドー。Bataa は バ と ター にアクセントの差をつけず平坦に、そのまま Do に繋げます。",
+      "syllableSplit": "Ba-taa do",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Bata (pause) duo."
+    },
+    {
+      "itemId": "p04",
+      "targetText": "पढ़ लीजिए",
+      "transliteration": "Paḍh leejiye",
+      "baseTranslation": "（自分のために）読んでください",
+      "phoneticHint": "パル・リージエ。Paḍh の D 反り舌で弾く音（パドゥとパルの中間）の直後、すぐに Lee の音につなげます。",
+      "syllableSplit": "Paḍh lee-ji-ye",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Padu lijiye."
+    },
+    {
+      "itemId": "p05",
+      "targetText": "दे दो",
+      "transliteration": "De do",
+      "baseTranslation": "（相手に）あげて・渡して",
+      "phoneticHint": "デー・ドー。「あげる(De)」＋「あげて(Do)」。非常に短いので単独の言葉のようにスナップをきかせて発音します。",
+      "syllableSplit": "De do",
+      "nativeAudioRef": "audioAssets.nativeAudio",
+      "slowAudioRef": "audioAssets.slowAudio",
+      "commonMispronunciation": "Day-duo."
+    }
+  ],
+  "userInputMode": "speech",
+  "sttTranscript": null,
+  "expectedPronunciationText": "Aa jaaiye Khaa jaaoongaa Bataa do Paḍh leejiye De do",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "完璧です！別々の2つの動詞の間に不自然な空白がなく、意味の塊（ニュアンス）として一つのメロディーに乗せて発音できています！",
+    "onFail": "もう一度！「Paḍh(読む)」と「Leejiye(ください)」の間で休んでいませんか？複合動詞は2つで1セットです！一息で言い切ってみましょう。",
+    "onPartial": "よくお話しできています。「De do(あげて)」や「Le lo(もらって)」は日常会話で毎分のように出てくるリズムです。少し速く発音するとさらにネイティブに近づきます！"
+  },
+  "adminCorrectAnswerSet": {
+    "exactCorrectTranscript": "aa jaiye khaa jaunga bataa do padh lijiye de do",
+    "acceptedVariants": [
+      "aa jaiye kha jaunga bata do pad lijiye de do"
+    ],
+    "syllableSplitReference": "See array objects",
+    "phoneticApproximation": "Evaluates fluid connection between V1 root and V2 conjugated form, eliminating robotic pauses.",
+    "nativeScriptReference": "See targetText",
+    "transliteration": "See item objects",
+    "strictnessLevel": "high"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b2/pronunciation/native_comp_pron.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/pronunciation/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m3/b2/pronunciation/slow_comp_pron.mp3",
+    "normalAudio": "audio/ja_hi/m3/b2/pronunciation/native_comp_pron.mp3",
+    "audioTranscript": "Aa jaaiye. Khaa jaaoongaa. Bataa do. Paḍh leejiye. De do.",
+    "audioLanguage": "hi",
+    "audioDuration": 150,
+    "audioRepeatAllowed": true
+  },
+  "evaluationMode": "groq_comparison",
+  "tags": ["pronunciation", "compounds", "rhythm", "fluency", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/pron_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「De do（あげて！）」は子供もよく使う最も短くリズミカルな複合動詞です。",
+  "commonMistakes": [
+    "Pronouncing the first verb heavily (with falling intonation) before starting the second verb."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_reading_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

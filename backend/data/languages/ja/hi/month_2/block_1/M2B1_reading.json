@@ -1,0 +1,202 @@
+{
+  "activityId": "ja_hi_M2B1_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "reading",
+  "title": "今、何をしているの？ (What are they doing now?)",
+  "learningGoal": "The learner will decode the present continuous tense in Devanagari texts, accurately distinguishing it from the present habitual tense based on the presence of the auxiliary marker (rahaa/rahee) following the verb root.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B1_pronunciation_001"],
+  "instructions": "ラージの家族が休日の朝にそれぞれ何をしているのか、彼の日記を読んでみましょう。「〜する（習慣）」と「〜している（今）」の違いに注目してください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "動詞の語幹のうしろに「Rahaa (रहा)」があれば進行形です。"
+    }
+  ],
+  "readingTitle": "रविवार की सुबह (Sunday Morning)",
+  "readingText": "नमस्ते। आज रविवार है। मैं आराम कर रहा हूँ। मेरा भाई किताब पढ़ रहा है। मेरी बहन चाय पी रही है। मेरे पिता जी अंग्रेज़ी में बात कर रहे हैं। हम घर में हैं।",
+  "textInTargetLanguage": "नमस्ते। आज रविवार है। मैं आराम कर रहा हूँ। मेरा भाई किताब पढ़ रहा है। मेरी बहन चाय पी रही है। मेरे पिता जी अंग्रेज़ी में बात कर रहे हैं। हम घर में हैं。",
+  "baseLanguageSupportText": "こんにちは。今日は日曜日です。私は（今）休んでいます。私の兄は（今）本を読んでいます。私の姉はお茶を飲んでいます。私の父は英語で話しています。私たちは家にいます。",
+  "glossary": [
+    {
+      "targetText": "आज",
+      "transliteration": "Aaj",
+      "baseTranslation": "今日",
+      "exampleSentence": {
+        "targetText": "आज रविवार है।",
+        "transliteration": "Aaj ravivaar hai.",
+        "baseTranslation": "今日は日曜日です。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "रविवार",
+      "transliteration": "Ravivaar",
+      "baseTranslation": "日曜日",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "आराम करना",
+      "transliteration": "Aaraam karnaa",
+      "baseTranslation": "休む / リラックスする",
+      "exampleSentence": {
+        "targetText": "मैं आराम कर रहा हूँ।",
+        "transliteration": "Main aaraam kar rahaa hoon.",
+        "baseTranslation": "私は休んでいます。(Aaraam + Kar + rahaa)"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बहन",
+      "transliteration": "Bahan",
+      "baseTranslation": "姉 / 妹 (女性)",
+      "exampleSentence": {
+        "targetText": "मेरी बहन चाय पी रही है।",
+        "transliteration": "Meri bahan chaay pee rahee hai.",
+        "baseTranslation": "私の姉はお茶を飲んでいます。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "चाय",
+      "transliteration": "Chaay",
+      "baseTranslation": "お茶 / チャイ",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पिता जी",
+      "transliteration": "Pitaa jee",
+      "baseTranslation": "お父さん (Jeeをつけて尊敬を表す)",
+      "exampleSentence": {
+        "targetText": "पिता जी बात कर रहे हैं।",
+        "transliteration": "Pitaa jee baat kar rahe hain.",
+        "baseTranslation": "お父さんが話しています。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बात करना",
+      "transliteration": "Baat karnaa",
+      "baseTranslation": "話す (Baat ＋ Kar で「話をする」)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "मैं आराम कर रहा हूँ।",
+      "transliteration": "Main aaraam kar rahaa hoon.",
+      "baseTranslation": "私は休んでいます。"
+    },
+    {
+      "targetText": "मेरा भाई किताब पढ़ रहा है।",
+      "transliteration": "Mera bhaaii kitaab paḍh rahaa hai.",
+      "baseTranslation": "私の兄は本を読んでいます。"
+    },
+    {
+      "targetText": "मेरे पिता जी अंग्रेज़ी में बात कर रहे हैं।",
+      "transliteration": "Mere pitaa jee Angrezee mein baat kar rahe hain.",
+      "baseTranslation": "私の父は英語で話しています。"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージ（私）は「今」何をしていますか？",
+      "questionType": "multiple_choice",
+      "options": ["休んでいる (Aaraam kar rahaa)", "本を読んでいる (Paḍh rahaa)", "話している (Baat kar rahaa)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「本を読んでいる (Kitaab paḍh rahaa hai)」のは誰ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "お姉さん（Bahan）がお茶を飲む時、「飲んでいる」という動詞はどうなっていますか（性別による変化に注目）？",
+      "questionType": "multiple_choice",
+      "options": ["pee rahaa hai", "pee rahee hai"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "お父さん（Pitaa jee）の動作の最後に「Rahe (ラヘー)」が使われているのはなぜですか？",
+      "questionType": "multiple_choice",
+      "options": ["お父さんが男性だから", "お父さんに対して尊敬(丁寧)のルールが適用されているから"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "お父さんは、「何語」で話していますか？(ヒント: 〜語で ＝ 〜 mein)",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "休んでいる (Aaraam kar rahaa)",
+      "q2": "兄",
+      "q3": "pee rahee hai",
+      "q4": "お父さんに対して尊敬(丁寧)のルールが適用されているから",
+      "q5": "英語"
+    },
+    "acceptableParaphrases": {
+      "q2": ["兄", "お兄さん", "Bhaaii", "bhaaii", "弟"],
+      "q5": ["英語", "えいご", "Angrezee", "angrezee"]
+    },
+    "keywordScoringRules": {
+      "q2": ["兄", "弟", "bhaaii"],
+      "q5": ["英語", "angrezee"]
+    },
+    "expectedSummaryPoints": [
+      "The learner successfully identifies the progressive auxiliary 'Rahaa' distinguishing it from Month 1's habitual 'Taa'.",
+      "The learner correctly analyzes the 'Rahe' plural mutation applied to the father for respect."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！「〜ター(習慣)」と「〜ラハー(進行形)」の違いを見事に掴み、文中の全員が『いま何をしているか』を正確に読み取りました。",
+    "onFail": "もう一度読んでみましょう。Padh(読む)のすぐ後ろにある単語に注目します。Padhtaa ではなく Padh rahaa（本を読んでいるところ）になっています。",
+    "onPartial": "よく読めています！Q4のお父さんへの尊敬ルールは思い出せましたか？Aap（あなた）の時にも「Rahe (ラヘー)」を使ったのと同じように、目上の人には複数形/丁寧形のルールを使います。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b1/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b1/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m2/b1/reading/native_reading.mp3",
+    "audioTranscript": "Namaste. Aaj ravivaar hai... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "verbs", "present_continuous", "family", "respect", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の直訳（私は・休むことを・して・いる・です）のまま解釈できます。",
+  "commonMistakes": [
+    "Thinking 'baat kar rahe' means talking to multiple people instead of a single respected figure (Pitaa/Father)."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

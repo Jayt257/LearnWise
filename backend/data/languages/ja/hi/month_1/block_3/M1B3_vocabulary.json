@@ -1,0 +1,242 @@
+{
+  "activityId": "ja_hi_M1B3_vocabulary_001",
+  "monthNumber": 1,
+  "blockNumber": 3,
+  "activityType": "vocabulary",
+  "title": "男と女と大小 (Genders and Sizes)",
+  "learningGoal": "The learner will memorize 10 highly utilized nouns and adjectives, mapping each noun to its specific gender class, and understanding the combinatorial logic of changing adjective endings (Aa/Ee) to match.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B3_listening_001"],
+  "instructions": "今回は「性別のある名詞」と「変化する形容詞」をセットで覚えます！名詞を覚える時は必ず「これは男性」「これは女性」と意識して記憶してください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "大ルール：男性名詞（アー）と女性名詞（イー）！形容詞もそれに合わせて形を変えましょう。"
+    }
+  ],
+  "vocabTheme": "Family, Possessions & Adjectives",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "बेटा",
+      "transliteration": "Beṭaa",
+      "baseTranslation": "息子 (男性)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "बेटी",
+      "transliteration": "Beṭee",
+      "baseTranslation": "娘 (女性)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "कमरा",
+      "transliteration": "Kamraa",
+      "baseTranslation": "部屋 (男性)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "गाड़ी",
+      "transliteration": "Gaaḍee",
+      "baseTranslation": "車 (女性)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "किताब",
+      "transliteration": "Kitaab",
+      "baseTranslation": "本 (女性 ※例外的に子音で終わるが女性)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "कुत्ता",
+      "transliteration": "Kuttaa",
+      "baseTranslation": "犬 (男性)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "बड़ा",
+      "transliteration": "Baḍaa",
+      "baseTranslation": "大きい (男性用)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "बड़ी",
+      "transliteration": "Baḍee",
+      "baseTranslation": "大きい (女性用)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "छोटा",
+      "transliteration": "Chhoṭaa",
+      "baseTranslation": "小さい (男性用)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "छोटी",
+      "transliteration": "Chhoṭee",
+      "baseTranslation": "小さい (女性用)",
+      "partOfSpeech": "Adjective",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "息子",
+    "娘",
+    "部屋 (男)",
+    "車 (女)",
+    "本 (女)",
+    "犬 (男)",
+    "大きい (男)",
+    "大きい (女)",
+    "小さい (男)",
+    "小さい (女)"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w03",
+      "targetText": "मेरा कमरा छोटा है।",
+      "transliteration": "Mera kamraa chhoṭaa hai.",
+      "baseTranslation": "私の部屋は小さいです。"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "मेरी किताब बड़ी है।",
+      "transliteration": "Meri kitaab baḍee hai.",
+      "baseTranslation": "私の本は大きいです。(本は女性なのでMeri/Badi)"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "मेरा कुत्ता बड़ा है।",
+      "transliteration": "Mera kuttaa baḍaa hai.",
+      "baseTranslation": "私の大きな犬です。"
+    }
+  ],
+  "quizType": "sorting",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "この単語は男性名詞ですか、女性名詞ですか？: Gaaḍee (車)",
+      "questionType": "multiple_choice",
+      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "この単語は男性名詞ですか、女性名詞ですか？: Kamraa (部屋)",
+      "questionType": "multiple_choice",
+      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「本 (Kitaab)」は例外的な単語です。これは男性ですか、女性ですか？",
+      "questionType": "multiple_choice",
+      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "「犬 (Kuttaa)」は『アー』で終わります。これは男性名詞ですか、女性名詞ですか？",
+      "questionType": "multiple_choice",
+      "options": ["男性 (Masculine)", "女性 (Feminine)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "「車 (Gaaḍee)」に「小さい」という形容詞を付けます。正しい組み合わせはどれですか？",
+      "questionType": "multiple_choice",
+      "options": ["Chhoṭaa gaaḍee", "Chhoṭee gaaḍee", "Chhoṭu gaaḍee"],
+      "correctAnswerRef": "adminCorrectAnswerSet.mcqAnswerKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "息子 (男性)",
+      "w02": "娘 (女性)",
+      "w03": "部屋 (男性)",
+      "w04": "車 (女性)",
+      "w05": "本 (女性 ※例外的に子音で終わるが女性)",
+      "w06": "犬 (男性)",
+      "w07": "大きい (男性用)",
+      "w08": "大きい (女性用)",
+      "w09": "小さい (男性用)",
+      "w10": "小さい (女性用)"
+    },
+    "acceptedTranslations": {},
+    "matchingKey": {},
+    "mcqAnswerKey": {
+      "q1": "女性 (Feminine)",
+      "q2": "男性 (Masculine)",
+      "q3": "女性 (Feminine)",
+      "q4": "男性 (Masculine)",
+      "q5": "Chhoṭee gaaḍee"
+    },
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！名詞が男性か女性かを見事に分類し、形容詞も正しく合わせることができました。これでヒンディー語の大きな壁を越えました！",
+    "onFail": "もう一度復習しましょう！アー（Aa）で終わる言葉は男性、イー（Ee）で終わる言葉は女性、それに合わせて形容詞も変化させます。",
+    "onPartial": "よくできました！「本 (Kitaab)」が女性名詞であることによく注意してください。子音で終わる例外的な単語ですが、頻繁に使われます。「Meri kitaab (私の本)」になります。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b3/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b3/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b3/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b3/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b3/vocab/words_native.mp3",
+    "audioTranscript": "Betaa. Beṭee. Kamraa. Gaaḍee. Kitaab. Kuttaa. Baḍaa. Baḍee. Chhoṭaa. Chhoṭee.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "gender", "adjectives", "nouns", "month1", "block3"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b3/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「本 (Kitaab)」は例外として覚えましょう。「私の本」は「Meri kitaab」です。",
+  "commonMistakes": [
+    "Applying masculine modifiers to 'kitaab' because it lacks a feminine 'ee' ending."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B3_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

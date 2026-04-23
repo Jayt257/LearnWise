@@ -1,0 +1,236 @@
+{
+  "activityId": "ja_hi_M1B6_vocabulary_001",
+  "monthNumber": 1,
+  "blockNumber": 6,
+  "activityType": "vocabulary",
+  "title": "Month 1 総合単語テスト (Month 1 Vocab Review)",
+  "learningGoal": "The learner will correctly identify the translations and apply the gender/conjugational properties of the 15 highest-frequency vocabulary items from Month 1.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B6_listening_001"],
+  "instructions": "Month 1 の総復習単語テストです！この1ヶ月で出てきた「最も重要な単語たち」の意味、性別、使い方を覚えているか確認します。新しい単語はありません。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "名詞の性別（男か女か）、助詞の意味、そして動詞のルールを総合的に思い出してください！"
+    }
+  ],
+  "vocabTheme": "Month 1 Capstone Review",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "家 (男性名詞)",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "गाड़ी",
+      "transliteration": "Gaaḍee",
+      "baseTranslation": "車 (女性名詞)",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "में",
+      "transliteration": "Mein",
+      "baseTranslation": "〜に / 〜の中に",
+      "partOfSpeech": "Postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "पर",
+      "transliteration": "Par",
+      "baseTranslation": "〜の上に",
+      "partOfSpeech": "Postposition",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私は",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなたは (尊敬)",
+      "partOfSpeech": "Pronoun",
+      "formalityLevel": "formal",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です (Main専用)",
+      "partOfSpeech": "Verb (Copula)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "हैं",
+      "transliteration": "Hain",
+      "baseTranslation": "です (Aap用)",
+      "partOfSpeech": "Verb (Copula)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "खाना",
+      "transliteration": "Khaanaa",
+      "baseTranslation": "食べる (辞書形)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "जाना",
+      "transliteration": "Jaanaa",
+      "baseTranslation": "行く (辞書形)",
+      "partOfSpeech": "Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "家",
+    "車",
+    "〜の中に",
+    "〜の上に",
+    "私は",
+    "あなたは",
+    "です(Main)",
+    "です(Aap)",
+    "食べる",
+    "行く"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "मेरा घर बड़ा है।",
+      "transliteration": "Mera ghar baḍaa hai.",
+      "baseTranslation": "私の家は大きいです。"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "मैं सेब खाती हूँ।",
+      "transliteration": "Main seb khaatee hoon.",
+      "baseTranslation": "私はりんごを食べます(女)。"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the Hindi Postposition to its meaning: Mein (में)",
+      "questionType": "matching",
+      "options": ["〜の上に", "〜の中に"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Choose the correct ending for 'Main (私は)':",
+      "questionType": "matching",
+      "options": ["Hain (हैं)", "Hoon (हूँ)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Indicate the Grammatical Gender: Ghar (家)",
+      "questionType": "matching",
+      "options": ["女性名詞", "男性名詞"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Indicate the Grammatical Gender: Gaaḍee (車)",
+      "questionType": "matching",
+      "options": ["男性名詞", "女性名詞"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "What does 'Jaanaa (जाना)' mean?",
+      "questionType": "matching",
+      "options": ["行く", "食べる"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "家",
+      "w02": "車",
+      "w03": "〜の中に",
+      "w04": "〜の上に",
+      "w05": "私は",
+      "w06": "あなたは",
+      "w07": "です(Main)",
+      "w08": "です(Aap)",
+      "w09": "食べる",
+      "w10": "行く"
+    },
+    "acceptedTranslations": {},
+    "matchingKey": {
+      "q1": "〜の中に",
+      "q2": "Hoon (हूँ)",
+      "q3": "男性名詞",
+      "q4": "女性名詞",
+      "q5": "行く"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！名詞、助詞、代名詞、動詞。全て完璧に暗記・理解できています。翻訳回路を作るための『部品』は揃いました！",
+    "onFail": "もう一度復習しましょう。これらの10個の単語は、これからの勉強で息をするように使います。必ず意味と性別を覚えてください。",
+    "onPartial": "よくできました！Main は Hoon。Aap は Hain。そして名詞の性別。この組み合わせを反射的に出せるようにしましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b6/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b6/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b6/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b6/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m1/b6/vocab/words_native.mp3",
+    "audioTranscript": "Ghar. Gaaḍee. Mein. Par. Main. Aap. Hoon. Hain. Khaanaa. Jaanaa.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "review", "synthesis", "capstone", "month1", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b6/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Main と Mein の違い。Hoon と Hain の違い。これらを明確に区別することがカギです！",
+  "commonMistakes": [
+    "Confusing the postposition 'Mein' with the pronoun 'Main'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B6_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

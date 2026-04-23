@@ -1,0 +1,245 @@
+{
+  "activityId": "ja_hi_M2B1_vocabulary_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "vocabulary",
+  "title": "時の言葉と新しい動詞 (Time Words & New Verbs)",
+  "learningGoal": "The learner will master 10 foundational words including primary temporal adverbs (aaj, abhee) and a new set of common verbs to deploy with the present continuous tense.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B1_listening_001"],
+  "instructions": "現在形や進行形をさらに豊かに表現するための新しい単語を覚えましょう！「今日(Aaj)」や「今すぐ(Abhee)」といった時間を表す言葉は、いつでも文の初めの方に置けます。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ Karnaa (する) は最高の動詞です！名詞とくっつけるだけで「Aaraam(休息) ＋ Karnaa(する)」のように、無限に新しい動詞を生み出せます。"
+    }
+  ],
+  "vocabTheme": "Time Adverbs & Activities",
+  "wordList": [
+    {
+      "wordId": "w01",
+      "targetText": "आज",
+      "transliteration": "Aaj",
+      "baseTranslation": "今日",
+      "partOfSpeech": "Adverb / Noun",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "अभी",
+      "transliteration": "Abhee",
+      "baseTranslation": "今 / たった今",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w03",
+      "targetText": "बस",
+      "transliteration": "Bas",
+      "baseTranslation": "ただ〜だけ / 十分だ (Just / Enough)",
+      "partOfSpeech": "Adverb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w04",
+      "targetText": "सोना",
+      "transliteration": "Sonaa",
+      "baseTranslation": "眠る (辞書形)",
+      "partOfSpeech": "Verb (Infinitive)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w05",
+      "targetText": "काम करना",
+      "transliteration": "Kaam karnaa",
+      "baseTranslation": "仕事をする (Kaam=仕事 + Karnaa)",
+      "partOfSpeech": "Compound Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "आराम करना",
+      "transliteration": "Aaraam karnaa",
+      "baseTranslation": "休む / リラックスする (Aaraam=休息)",
+      "partOfSpeech": "Compound Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w07",
+      "targetText": "बात करना",
+      "transliteration": "Baat karnaa",
+      "baseTranslation": "話をする (Baat=話)",
+      "partOfSpeech": "Compound Verb",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w08",
+      "targetText": "पिता जी",
+      "transliteration": "Pitaa jee",
+      "baseTranslation": "お父さん",
+      "partOfSpeech": "Noun (Masculine, Honorific)",
+      "formalityLevel": "respectful",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w09",
+      "targetText": "बहन",
+      "transliteration": "Bahan",
+      "baseTranslation": "姉 / 妹",
+      "partOfSpeech": "Noun (Feminine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "wordId": "w10",
+      "targetText": "भाई",
+      "transliteration": "Bhaaii",
+      "baseTranslation": "兄 / 弟",
+      "partOfSpeech": "Noun (Masculine)",
+      "formalityLevel": "neutral",
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "meaningList": [
+    "今日",
+    "今",
+    "ただ〜だけ",
+    "眠る",
+    "仕事をする",
+    "休む",
+    "話す",
+    "お父さん",
+    "姉 / 妹",
+    "兄 / 弟"
+  ],
+  "exampleSentences": [
+    {
+      "wordId": "w01",
+      "targetText": "आज मैं काम कर रहा हूँ।",
+      "transliteration": "Aaj main kaam kar rahaa hoon.",
+      "baseTranslation": "今日、私は仕事をしています。"
+    },
+    {
+      "wordId": "w02",
+      "targetText": "मैं अभी सो रहा हूँ।",
+      "transliteration": "Main abhee so rahaa hoon.",
+      "baseTranslation": "私は今、寝ています。"
+    },
+    {
+      "wordId": "w06",
+      "targetText": "पिता जी आराम कर रहे हैं।",
+      "transliteration": "Pitaa jee aaraam kar rahe hain.",
+      "baseTranslation": "お父さんは（いま）休んでいます。(尊称なのでRahe/Hain)"
+    }
+  ],
+  "quizType": "matching",
+  "quizQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "Match the word to its Japanese equivalent: Abhee (अभी)",
+      "questionType": "matching",
+      "options": ["今日", "今"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "Match the word to its Japanese equivalent: Aaj (आज)",
+      "questionType": "matching",
+      "options": ["今日", "毎日 (Roz)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "Match the word to its Japanese equivalent: Karnaa (करना)",
+      "questionType": "matching",
+      "options": ["する", "眠る"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "Match the word to its Japanese equivalent: Sonaa (सोना)",
+      "questionType": "matching",
+      "options": ["休む", "眠る"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Match the word to its Japanese equivalent: Bhaaii (भाई)",
+      "questionType": "matching",
+      "options": ["姉/妹", "兄/弟"],
+      "correctAnswerRef": "adminCorrectAnswerSet.matchingKey.q5"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "correctMeanings": {
+      "w01": "今日",
+      "w02": "今",
+      "w03": "ただ〜だけ",
+      "w04": "眠る",
+      "w05": "仕事をする",
+      "w06": "休む",
+      "w07": "話す",
+      "w08": "お父さん",
+      "w09": "姉 / 妹",
+      "w10": "兄 / 弟"
+    },
+    "acceptedTranslations": {
+      "w05": ["仕事する", "働く"],
+      "w06": ["休息する", "休む", "リラックスする"]
+    },
+    "matchingKey": {
+      "q1": "今",
+      "q2": "今日",
+      "q3": "する",
+      "q4": "眠る",
+      "q5": "兄/弟"
+    },
+    "mcqAnswerKey": {},
+    "pronunciationReference": {}
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Karnaa（する）を使った複合動詞（Kaam karnaa, Aaraam karnaa）は、名詞を知っていれば無限に言葉を作れる最高のツールです！",
+    "onFail": "もう一度復習しましょう！「Karnaa（する）」は英語の「Do」のように何にでも使えます。これを覚えるだけで表現力が何倍にも跳ね上がります。",
+    "onPartial": "よくできました！「Abhee（今）」と「Aaj（今日）」は、話の最初に持ってくるととても自然なヒンディー語になりますよ。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b1/vocab/words_native.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/vocab/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b1/vocab/examples.mp3",
+    "slowAudio": "audio/ja_hi/m2/b1/vocab/words_slow.mp3",
+    "normalAudio": "audio/ja_hi/m2/b1/vocab/words_native.mp3",
+    "audioTranscript": "Aaj. Abhee. Bas. Sonaa. Kaam karnaa. Aaraam karnaa. Baat karnaa. Pitaa jee. Bahan. Bhaaii.",
+    "audioLanguage": "hi",
+    "audioDuration": 120,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["vocabulary", "time", "family", "compound_verbs", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/vocab_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "ヒンディー語の家族名詞は、目上の人には Jee(ジー) をつけて敬意を表します（例：Pitaa jee）。",
+  "commonMistakes": [
+    "Thinking 'Aaraam karnaa' is two separate conjugated verbs, instead of treating 'Aaraam' as a noun and conjugating only 'Karnaa'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_speaking_001"],
+  "attemptLimit": 10,
+  "metadata": {}
+}

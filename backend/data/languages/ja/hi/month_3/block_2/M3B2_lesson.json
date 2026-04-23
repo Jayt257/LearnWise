@@ -1,0 +1,172 @@
+{
+  "activityId": "ja_hi_M3B2_lesson_001",
+  "monthNumber": 3,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "表現を深める複合動詞 (Compound Verbs)",
+  "learningGoal": "The learner will master the structural logic of Hindi compound verbs (V1 Root + V2 conjugated), understanding how verbs like jaanaa, denaa, and lenaa act as semantic intensifiers rather than literal actions.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": ["ja_hi_M3B1_test_001"],
+  "instructions": "ヒンディー語をネイティブのように魅せる最大の鍵「複合動詞」を学びます！「食べる(Khaa)」を「食べ『ちゃう』(Khaa jaa)」にするように、動詞を2つ並べてニュアンスを加える高等テクニックです。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "作り方は簡単。メインの動詞は『語幹(根っこ)』にして、その後ろに適当なサポート動詞を置くだけです。文末の変化(未来形や命令など)は、全て後ろのサポート動詞が引き受けます！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Structure: V1 (Root) + V2 (Conjugated for tense/gender/number).",
+      "Jaanaa as Intensifier: Indicates completion. Khaanaa (to eat) -> Khaa jaanaa (to eat entirely / eat up).",
+      "Denaa as Intensifier: Indicates outward action / doing for others. Bolnaa (to speak) -> Bol denaa (to speak out / tell someone).",
+      "Lenaa as Intensifier: Indicates inward action / doing for self. Paḍhnaa (to read) -> Paḍh lenaa (to read for oneself)."
+    ],
+    "conceptSummary": "Introduces compound verbs, a foundational trait of Indo-Aryan languages. Forces learners to strip semantic meaning from V2 and interpret it purely as an aspectual marker (completion, directionality).",
+    "importantFacts": [
+      "Beginners often translate 'Aa jaaiye' literally as 'Come go please', which makes no sense. The 'Jaa' here has completely lost its dictionary meaning of 'go' and simply means 'completion of the coming'."
+    ],
+    "checkpointAnswers": {
+      "q1": "Jaao (जाओ)",
+      "q2": "Denaa (देना - 外向きのアクション)",
+      "q3": "Le lo (ले लो)"
+    },
+    "expectedUnderstanding": "Learners will recognize that in pairs like 'Bol doongaa', the action is 'speaking' while the tense and directionality are carried by 'doongaa' (will give)."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の最難関である「動詞の2個繋ぎ」の仕組みを見事に理解しました。文字通りの意味を捨てて、ニュアンスだけを拾う感覚が身についています！",
+    "onFail": "一息つきましょう！たとえば『Khaa jaao』は「食べて行く」という意味ではありません！後ろの Jaa(行く) は意味を失い、「食べて『しまえ』」という完了のニュアンスに変化します。",
+    "onPartial": "よく理解しています！『Denaa(あげる)』は外・相手に向かうエネルギー、『Lenaa(もらう)』は内・自分に向かうエネルギー、という方向性のイメージを持つと完璧です！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m3/b2/lesson/native_compounds.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b2/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b2/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m3/b2/lesson/slow_compounds.mp3",
+    "normalAudio": "audio/ja_hi/m3/b2/lesson/native_compounds.mp3",
+    "audioTranscript": "Aa jaaiye. Main khaa jaaoongaa. Mujhe bol do. Kitaab paḍh lo.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "verbs", "compounds", "fluency", "month3", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b2/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "後ろの動詞（V2）は、日本語の「〜ちゃう」「〜おく」「〜してみる」のような飾りにすぎません。",
+  "commonMistakes": [
+    "Translating 'Khaa jaao' as 'Eat and then go' instead of 'Eat it all up'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B2_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "ネイティブの秘密兵器「複合動詞」",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "「〜してしまう / すっかり〜する」: V1 + Jaanaa(行く)",
+      "bodyText": "後ろに Jaanaa をつけると、行動が完全に終わったこと（完了）や、状態の変化を表します。この時、Jaanaa に「行く」という意味はありません！",
+      "targetLanguageExamples": [
+        {
+          "targetText": "अंदर आ जाइए।",
+          "transliteration": "Andar aa jaaiye.",
+          "baseTranslation": "中に入ってきてください(来ちゃってください)。 [Aa(来る) + jaaiye(行くの命令) = 完全に入場する]"
+        },
+        {
+          "targetText": "मैं सब खा जाऊँगा।",
+          "transliteration": "Main sab khaa jaaoongaa.",
+          "baseTranslation": "私が全部食べてしまいます。 [khaa(食べる) + jaaoongaa(男の未来) = 食べ尽くす]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "「外・相手に向かって放つ」: V1 + Denaa(あげる)",
+      "bodyText": "Denaa をサポート動詞として使うと、アクションが「自分から相手へ」向かっているニュアンスが出ます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मुझे बता दो।",
+          "transliteration": "Mujhe bataa do.",
+          "baseTranslation": "私に教えてよ。 [bataa(教える) + do(あげるのTum命令形)]"
+        },
+        {
+          "targetText": "वह बोल देगी।",
+          "transliteration": "Vah bol degee.",
+          "baseTranslation": "彼女は（相手に向かって）言ってしまうでしょう。[bol(話す) + degee(女の未来) = 言い放つ]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "「内・自分のために取り込む」: V1 + Lenaa(もらう)",
+      "bodyText": "Lenaa をサポート動詞として使うと、そのアクションの結果が「自分のため」になるニュアンスを含みます。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "किताब पढ़ लो।",
+          "transliteration": "Kitaab paḍh lo.",
+          "baseTranslation": "本を読んでおいて(自分のために)。 [paḍh(読む) + lo(もらうのTum命令形)]"
+        },
+        {
+          "targetText": "चाय पी लीजिए।",
+          "transliteration": "Chaay pee leejiye.",
+          "baseTranslation": "お茶を飲んでください。 [pee(飲む) + leejiye(もらうのAap命令形) = 飲み干してしまう]"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will decode and synthesize verb sequences where V2 acts as a vector of modality (completion, outward direction, inward direction) rather than a literal action.",
+  "examples": [
+    {
+      "targetText": "यहाँ बैठ जाओ।",
+      "transliteration": "Yahaan baiṭh jaao.",
+      "baseTranslation": "ここに座っちゃいなよ(Tum)。",
+      "explanation": "Baiṭh (sit) + jaao (jaanaa imperative). It conveys 'settle down' rather than just 'sit'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "文の形（未来形や命令形など）を決めるのは、常に後ろの動詞(V2)！",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "否定文(Nahin/Mat) にする時は、複合動詞を解除して単発の動詞に戻すのが普通です。",
+      "exceptionNotes": "例: 「食べて(Khaa jaao)」-> 「食べないで(Mat khaao)」。✖ Mat khaa jaao とはあまり言いません。"
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インド人は日常会話で単体の動詞（Aao）よりも複合動詞（Aa jaao）を圧倒的に好んで使います。複合動詞を使うだけで、言葉に色がつき、一気にネイティブの響きに近づきます。",
+    "dosList": ["Use 'Aa jaaiye' instead of just 'Aaiye' when welcoming guests. It sounds much warmer."],
+    "dontsList": []
+  },
+  "summary": "【複合動詞＝語幹＋サポート動詞】\n＋ Jaanaa ＝ 〜しちゃう・完了\n＋ Denaa ＝ （外へ向かって）〜する\n＋ Lenaa ＝ （自分の為に）〜する",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "客を家に招く時、ただ「Aao」と言うより「Aa ____(来るのTum命令形)」と言う方がネイティブらしい響きになります。空白に入るのは？",
+      "expectedAnswer": "Jaao (जाओ)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「(自分から相手へ)言ってしまう・言い放つ」というニュアンスを作りたい時、Bol(話す)の後ろには Denaa(あげる) と Lenaa(もらう) どちらのサポート動詞をつければいいですか？",
+      "expectedAnswer": "Denaa (देना)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「それを取って(もらう/Lenaa)」を、友達(Tum)へ複合動詞で命令すると「Le ____」と重なります。何になりますか？",
+      "expectedAnswer": "Le lo (ले लो)"
+    }
+  ]
+}

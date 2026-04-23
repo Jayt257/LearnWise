@@ -1,0 +1,350 @@
+{
+  "activityId": "ja_hi_M3B4_test_001",
+  "monthNumber": 3,
+  "blockNumber": 4,
+  "activityType": "test",
+  "title": "Block 4 確認テスト (Block 4 Assessment)",
+  "learningGoal": "The learner will verify their structural comprehension of survival Hindi, demonstrating 100% accuracy in Dative destination framing, Genitive price questioning, and Polite spatial commands.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [
+    "ja_hi_M3B4_lesson_001",
+    "ja_hi_M3B4_pronunciation_001",
+    "ja_hi_M3B4_reading_001",
+    "ja_hi_M3B4_writing_001",
+    "ja_hi_M3B4_listening_001",
+    "ja_hi_M3B4_vocabulary_001",
+    "ja_hi_M3B4_speaking_001"
+  ],
+  "instructions": "Block 4 の確認テストです！買い物で絶対に使う「〜はいくらですか？(Kaaの法則)」「高い・安い」と、移動で必須の「〜に行きたい(Mujhe)」「方向の命令形(Iye)」が完璧になっているかを試します。",
+  "testTitle": "Block 4 確認テスト (Travel & Shopping)",
+  "testScope": "block_test",
+  "coveredActivityTypes": ["lesson", "pronunciation", "reading", "writing", "vocabulary"],
+  "testInstructions": "すべてのセクションに解答してください。合格には80点以上が必要です。",
+  "questionSections": [
+    {
+      "sectionId": "sec_grammar",
+      "sectionTitle": "Section 1: サバイバル文法 (Survival Grammar)",
+      "activityTypeRef": "lesson",
+      "questions": [
+        {
+          "questionId": "q001",
+          "questionText": "「これはいくらですか？」と正しく聞いている文章はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Yah kitne hai?", "Yah kitne kaa hai?", "Yah kitne mein hai?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q001"
+        },
+        {
+          "questionId": "q002",
+          "questionText": "値段を聞く時、なぜ「Kaa (の)」がくっついているのですか？",
+          "questionType": "multiple_choice",
+          "options": ["『いくら の もの』と、『の(所有格)』の形を使って表現するため", "『Kaa』自体が『お金』という意味だから"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q002"
+        },
+        {
+          "questionId": "q003",
+          "questionText": "「私はホテルに行きたい(行く用がある)」という時、文の正しいスタートはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Main (私は)", "Mujhe (私に)"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q003"
+        },
+        {
+          "questionId": "q004",
+          "questionText": "初対面の運転手に対して「まっすぐ行って」と丁寧にお願いする時、正しい動詞の形はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Jaanaa", "Jaao", "Jaaiye"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q004"
+        },
+        {
+          "questionId": "q005",
+          "questionText": "True or False: オートリキシャに乗る時「右に曲がって(曲がる: Muḍnaa)」と丁寧にお願いする時は「Muḍiye」を使う。",
+          "questionType": "true_false",
+          "options": ["True", "False"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q005"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_vocab",
+      "sectionTitle": "Section 2: 実践の語彙 (Vocab)",
+      "activityTypeRef": "vocabulary",
+      "questions": [
+        {
+          "questionId": "q006",
+          "questionText": "「高い (Expensive)」を意味する単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q006"
+        },
+        {
+          "questionId": "q007",
+          "questionText": "「安い (Cheap)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Mahangaa", "Sastaa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q007"
+        },
+        {
+          "questionId": "q008",
+          "questionText": "「前へ (Ahead)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Aage", "Peechhe", "Seedhe"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q008"
+        },
+        {
+          "questionId": "q009",
+          "questionText": "「まっすぐ (Straight)」を意味する単語は何ですか？",
+          "questionType": "multiple_choice",
+          "options": ["Seedhe", "Aage"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q009"
+        },
+        {
+          "questionId": "q010",
+          "questionText": "数字の「百 (100)」のスペルをローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q010"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    },
+    {
+      "sectionId": "sec_comprehension",
+      "sectionTitle": "Section 3: 意味と状況の識別 (Comprehension)",
+      "activityTypeRef": "reading",
+      "questions": [
+        {
+          "questionId": "q011",
+          "questionText": "「Bhaiyaa, mujhe station jaanaa hai.」 これを言っている人は何を伝えていますか？",
+          "questionType": "multiple_choice",
+          "options": ["自分が今駅にいること", "自分が(これから)駅に行きたいということ"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q011"
+        },
+        {
+          "questionId": "q012",
+          "questionText": "「Yah baig do sau rupaye kaa hai.」 バッグの値段はいくらだと言っていますか？",
+          "questionType": "multiple_choice",
+          "options": ["200ルピー", "100ルピー"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q012"
+        },
+        {
+          "questionId": "q013",
+          "questionText": "「Aage jaaiye, phir baaen muḍiye.」 と指示されました。どう進みますか？",
+          "questionType": "multiple_choice",
+          "options": ["前に進み、右に曲がる", "前に進み、左に曲がる"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q013"
+        },
+        {
+          "questionId": "q014",
+          "questionText": "値段を言われて「Bahut mahangaa hai!」と叫びました。この後、続けて言うべき自然なフレーズはどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Aage jaaiye.", "Thoḍaa sastaa deejiye."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q014"
+        },
+        {
+          "questionId": "q015",
+          "questionText": "文脈問題: 日本語の「私『は』」につられて、移動したい時に「Main...」と始めてしまうと文法がおかしくなります。なぜなら移動目的を語る時は『ーーーに用事がある』という形を取るからです。この仕組みで使われる代名詞はどれですか？",
+          "questionType": "multiple_choice",
+          "options": ["Mujhe", "Meraa"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q015"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 15
+    },
+    {
+      "sectionId": "sec_synthesis",
+      "sectionTitle": "Section 4: サバイバル英訳構成 (Synthesis)",
+      "activityTypeRef": "writing",
+      "questions": [
+        {
+          "questionId": "q016",
+          "questionText": "Translate: \"How much is this?\"",
+          "questionType": "multiple_choice",
+          "options": ["Yah kitne hai?", "Yah kitne kaa hai?", "Yah kahaan hai?"],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q016"
+        },
+        {
+          "questionId": "q017",
+          "questionText": "Translate: \"I want to go to the station.\"",
+          "questionType": "multiple_choice",
+          "options": ["Main station jaaoongaa.", "Mujhe station jaanaa hai.", "Main station jaanaa hai."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q017"
+        },
+        {
+          "questionId": "q018",
+          "questionText": "Translate: \"Please go straight.\"",
+          "questionType": "multiple_choice",
+          "options": ["Sastaa jaaiye.", "Seedhe jaaiye.", "Seedhe jaao."],
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q018"
+        },
+        {
+          "questionId": "q019",
+          "questionText": "「右 (Right)」を示す単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q019"
+        },
+        {
+          "questionId": "q020",
+          "questionText": "「安い (Cheap)」を示す単語をローマ字で答えてください。",
+          "questionType": "short_answer",
+          "options": null,
+          "marks": 5,
+          "audioRef": null,
+          "questionHints": null,
+          "correctAnswerRef": "adminCorrectAnswerSet.answerKey.q020"
+        }
+      ],
+      "sectionMarks": 25,
+      "sectionPassMarks": 20
+    }
+  ],
+  "scoreWeights": {
+    "lesson": 25,
+    "pronunciation": 0,
+    "reading": 15,
+    "writing": 40,
+    "listening": 0,
+    "vocabulary": 20,
+    "speaking": 0
+  },
+  "totalMarks": 100,
+  "passMarks": 80,
+  "userResponses": {},
+  "finalScore": null,
+  "sectionScores": {},
+  "resultSummary": null,
+  "adminCorrectAnswerSet": {
+    "answerKey": {
+      "q001": "Yah kitne kaa hai?",
+      "q002": "『いくら の もの』と、『の(所有格)』の形を使って表現するため",
+      "q003": "Mujhe (私に)",
+      "q004": "Jaaiye",
+      "q005": "True",
+      "q006": "mahangaa",
+      "q007": "Sastaa",
+      "q008": "Aage",
+      "q009": "Seedhe",
+      "q010": "sau",
+      "q011": "自分が(これから)駅に行きたいということ",
+      "q012": "200ルピー",
+      "q013": "前に進み、左に曲がる",
+      "q014": "Thoḍaa sastaa deejiye.",
+      "q015": "Mujhe",
+      "q016": "Yah kitne kaa hai?",
+      "q017": "Mujhe station jaanaa hai.",
+      "q018": "Seedhe jaaiye.",
+      "q019": "daaen",
+      "q020": "sastaa"
+    },
+    "scoringRubric": {},
+    "partialCreditRules": {},
+    "alternateValidAnswers": {
+      "q006": ["mahangaa", "Mahangaa", "mahanga"],
+      "q010": ["sau", "Sau", "SAU"],
+      "q019": ["daaen", "Daaen", "dayen"],
+      "q020": ["sastaa", "Sastaa"]
+    },
+    "sectionPassMarks": {
+      "sec_grammar": 20,
+      "sec_vocab": 20,
+      "sec_comprehension": 15,
+      "sec_synthesis": 20
+    }
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "CONGRATULATIONS! インドへ旅立つ準備が完全に整いました！「Mujhe... jaanaa hai」「Kitne kaa hai」「Jaaiye」等、文法的に正しくかつ実生活ですぐに使える最強の武器を手に入れました！",
+    "onFail": "残念！もう一度復習が必要です。値段を聞く時の「Kaa」や、行き先を伝える時の「Mujhe(私に)」という、これまでの月で学んできたルールの集大成が欠けてしまっています。",
+    "onPartial": "惜しい！旅行で使うフレーズの意味は理解できていますが、「Daaen(右)」と「Baaen(左)」の暗記や、丁寧な命令形「Iye」への変換でミスが見られます。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b4/test/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": null,
+    "normalAudio": null,
+    "audioTranscript": "This test validates your mastery of survival Hindi: pricing, destination logic, and polite directional imperatives.",
+    "audioLanguage": "ja",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["test", "survival", "travel", "shopping", "month3", "block4"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": null,
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": null,
+  "commonMistakes": [],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_lesson_001"],
+  "attemptLimit": null,
+  "metadata": {}
+}

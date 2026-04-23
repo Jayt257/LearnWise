@@ -1,0 +1,168 @@
+{
+  "activityId": "ja_hi_M1B1_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 1,
+  "activityType": "lesson",
+  "title": "ヒンディー語の絶対ルール: 性別 (The Absolute Rule: Gender)",
+  "learningGoal": "The learner will master the fundamental Hindi 'Main... hoon' (I am) framework and correctly map verb endings (-aa for male, -ee for female) to their own gender identity.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 60,
+  "prerequisites": [],
+  "instructions": "ヒンディー語の世界へようこそ！ヒンディー語で最も重要なルールは「話している人の性別によって動詞の形が変わる」ことです。まずは「私は〜です」という基本構造と、自分の性別に合わせた動詞の変化を学びましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "日本語では男性も女性も「行きます」と同じ言葉を使いますが、ヒンディー語では男性は「行く(男)」、女性は「行く(女)」というように語尾を変化させる必要があります。"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "The First Person Framework: 'Main [verb] hoon' (I [verb] am). The copula 'hoon' must always close a sentence starting with 'Main'.",
+      "Masculine marker: Verbs ending in long '-aa' (e.g., jaataa).",
+      "Feminine marker: Verbs ending in long '-ee' (e.g., jaatee).",
+      "Hindi verbs are placed at the end of the sentence, immediately before the copula (Hoon/Hai/Hain), identical to Japanese SOV order."
+    ],
+    "conceptSummary": "Introduces the foundational Subject-Object-Verb syntax and the inescapable gender agreements required for first-person sentences.",
+    "importantFacts": [
+      "Failing to match the verb gender to the speaker's gender is the most common and jarring error for non-native speakers."
+    ],
+    "checkpointAnswers": {
+      "q1": "Hoon (हूँ)",
+      "q2": "Jaataa (जाता)",
+      "q3": "Jaatee (जाती)"
+    },
+    "expectedUnderstanding": "Learners should reflexively tie 'Main' to 'hoon' and automatically apply the correct gendered verb ending for their sex."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語の要である「主語(Main) - 動詞 - 締めの言葉(Hoon)」の骨格と、最重要ルールの性別変化を理解できましたね！",
+    "onFail": "ここはヒンディー語の土台です。「私 (Main)」から始まった文章は、絶対に「です (Hoon)」で終わる必要があります。また、自分が男性か女性かで動詞の最後の母音(長音アーと長音イー)を切り替えることを忘れないでください。",
+    "onPartial": "よく理解しています！もう一つ覚えるべきことは、日本語と同じで動詞は『文章の最後(Hoonの直前)』に来るということです。英語のように Subject-Verb ではなく Subject-Object-Verb の語順になります。"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b1/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b1/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b1/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b1/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m1/b1/lesson/native_lesson.mp3",
+    "audioTranscript": "Main jaataa hoon. Main jaatee hoon. Main khaataa hoon. Main khaatee hoon.",
+    "audioLanguage": "hi",
+    "audioDuration": 240,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "gender", "verbs", "basics", "month1", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b1/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "男は「アー」、女は「イー」と口の形を変えましょう！",
+  "commonMistakes": [
+    "Translating 'I go' as 'Main jaataa' and completely forgetting the required copula 'hoon' at the end.",
+    "Females using the male '-aa' ending because it is often presented first in dictionaries."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B1_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "最初の壁：私は〇〇です",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "「私は〜です」の基本構造",
+      "bodyText": "ヒンディー語は日本語と同じ語順(SOV)を使います。(私 ＋ 本を ＋ 読む ＋ です)。\nそして、「私（Main）」から文を書き始めたら、最後は絶対に『Hoon（〜です）』で締めくくらなければなりません。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं ... हूँ।",
+          "transliteration": "Main ... hoon.",
+          "baseTranslation": "私は ... です。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "動詞の性別変化：男性の場合",
+      "bodyText": "ここからが本番です。もし話しているあなた自身が【男性】の場合、動詞の最後を長音の「-aa (アー)」にします。\n例）行く ＝ jaataa (ジャーター) / 食べる ＝ khaataa (カーター)。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं जाता हूँ।",
+          "transliteration": "Main jaataa hoon.",
+          "baseTranslation": "私は 行きます。 [私(Main) 行く:男(jaataa) です(hoon)]"
+        },
+        {
+          "targetText": "मैं खाता हूँ।",
+          "transliteration": "Main khaataa hoon.",
+          "baseTranslation": "私は 食べます。 [私(Main) 食べる:男(khaataa) です(hoon)]"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "動詞の性別変化：女性の場合",
+      "bodyText": "もし話しているあなた自身が【女性】の場合、動詞の最後を長音の「-ee (イー)」にします。\n例）行く ＝ jaatee (ジャーティー) / 食べる ＝ khaatee (カーティー)。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं जाती हूँ।",
+          "transliteration": "Main jaatee hoon.",
+          "baseTranslation": "私は 行きます。 [私(Main) 行く:女(jaatee) です(hoon)]"
+        },
+        {
+          "targetText": "मैं खाती हूँ।",
+          "transliteration": "Main khaatee hoon.",
+          "baseTranslation": "私は 食べます。 [私(Main) 食べる:女(khaatee) です(hoon)]"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map first-person identity to the mandatory copula (Hoon) and execute binary verb conjugations according to speaker gender (-aa for male, -ee for female).",
+  "examples": [
+    {
+      "targetText": "मैं जापान जाता हूँ।",
+      "transliteration": "Main Jaapaan jaataa hoon.",
+      "baseTranslation": "私は日本に行きます(男性の話者)。",
+      "explanation": "Japanese SOV order applies. Subject (Main) + Object/Location (Jaapaan) + Verb with male ending (jaataa) + Mandatory first-person copula (hoon)."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "「Main(私は)」から始めた文は、絶対に「Hoon(です)」で終わらせる！",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "動詞は、男性が話す時は -aa(アー)、女性が話す時は -ee(イー) で終わる！",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドでは、電話相手の性別が分からない時に、相手の動詞の語尾（-aa か -ee か）を聞いて男性か女性かを判断することがよくあります。",
+    "dosList": ["Always modify the verb based on YOUR gender in the first person."],
+    "dontsList": []
+  },
+  "summary": "【文の骨組み】 Main (私) ...... Hoon (です)\n【男性の動詞】 ...-aa (例: jaataa ＝行く等)\n【女性の動詞】 ...-ee (例: jaatee ＝行く等)",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「私は (Main)」から始まった文章の、一番最後を締めくくる単語をローマ字で答えてください。",
+      "expectedAnswer": "Hoon (हूँ)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "あなたが男性の場合、「行く」という動詞はヒンディー語でどちらになりますか？",
+      "expectedAnswer": "Jaataa (जाता)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "あなたが女性の場合、「行く」という動詞はヒンディー語でどちらになりますか？",
+      "expectedAnswer": "Jaatee (जाती)"
+    }
+  ]
+}

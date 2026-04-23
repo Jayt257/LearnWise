@@ -1,0 +1,180 @@
+{
+  "activityId": "ja_hi_M2B6_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 6,
+  "activityType": "writing",
+  "title": "Month 2 総括作文 (Month 2 Synthesis)",
+  "learningGoal": "The learner will actively synthesize formal requests, object-driven possessives, and subjective future tense constructions across multi-clause responses without relying on Month 1 copulas.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B6_reading_001"],
+  "instructions": "Month 2 の総仕上げの作文です！「私の〜(Meraa/Meree)」「〜しないでください(Mat〜iye)」「私たちは〜でしょう(Hum〜enge)」という３つの異なる文法パズルを、To be動詞の助けを借りずに組み立ててください。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "家(Ghar)は男性名詞です。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. (あなた・尊敬に対して) 私の家(男)に入ってください(Aanaa)。\n2. (あなた・尊敬に対して) 遠慮(Sankoch)をしないでください (Karnaa)。\n3. 私たちは明日、再び(Phir)会うでしょう(Milnaa)。",
+  "promptGoal": "Force the synthesis of possessive declension (meraa ghar), respectful imperative (aaiye, mat keejiye), and future tense (milenge).",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मेरा",
+      "transliteration": "Meraa",
+      "baseTranslation": "私の (男)"
+    },
+    {
+      "targetText": "घर",
+      "transliteration": "Ghar",
+      "baseTranslation": "家"
+    },
+    {
+      "targetText": "में",
+      "transliteration": "Mein",
+      "baseTranslation": "〜に / 〜の中に"
+    },
+    {
+      "targetText": "आइए",
+      "transliteration": "Aaiye",
+      "baseTranslation": "来てください / 入ってください"
+    },
+    {
+      "targetText": "संकोच",
+      "transliteration": "Sankoch",
+      "baseTranslation": "遠慮"
+    },
+    {
+      "targetText": "मत",
+      "transliteration": "Mat",
+      "baseTranslation": "〜しないで"
+    },
+    {
+      "targetText": "कीजिए",
+      "transliteration": "Keejiye",
+      "baseTranslation": "してください"
+    },
+    {
+      "targetText": "हम",
+      "transliteration": "Hum",
+      "baseTranslation": "私たちは"
+    },
+    {
+      "targetText": "कल",
+      "transliteration": "Kal",
+      "baseTranslation": "明日"
+    },
+    {
+      "targetText": "फिर",
+      "transliteration": "Phir",
+      "baseTranslation": "再び / また"
+    },
+    {
+      "targetText": "मिलेंगे",
+      "transliteration": "Milenge",
+      "baseTranslation": "会うでしょう (Hum用)"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "※ひっかけ用の To be 動詞 (絶対に使わないこと)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: My [meraa] house in [ghar mein] please-come [aaiye]. (To be動詞不要)",
+    "Sentence 2: Hesitation [sankoch] don't [mat] please-do [keejiye].",
+    "Sentence 3: We [Hum] tomorrow [kal] again [phir] will-meet [milenge]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मेरे घर में आइए। संकोच मत कीजिए। हम कल फिर मिलेंगे।",
+      "transliteration": "Mere ghar mein aaiye. Sankoch mat keejiye. Hum kal phir milenge.",
+      "baseTranslation": "私の家に入ってください。遠慮をしないでください。私たちは明日また会いましょう。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. 'Mere ghar mein' properly declines the possessive because it's followed by a postposition 'mein'. 'Aaiye', 'keejiye', and 'milenge' stand alone without copulas."
+    },
+    {
+      "targetText": "मेरा घर में आइए।",
+      "transliteration": "Meraa ghar mein aaiye. Sankoch mat keejiye. Hum kal phir milenge.",
+      "baseTranslation": "Meraa (without oblique) ghar mein.",
+      "qualityLevel": "good",
+      "annotation": "Will pass the M2 baseline which accepts 'Meraa ghar mein' as beginner friendly before oblique cases are introduced in M3."
+    },
+    {
+      "targetText": "मेरा घर में आइए है। संकोच नहीं करिए। हम कल मिलेंगे हैं।",
+      "transliteration": "Meraa ghar mein aaiye hai. Sankoch nahin kariye. Hum kal milenge hain.",
+      "baseTranslation": "My house in come-please is. Hesitation not do-please(wrong). We tomorrow will-meet are.",
+      "qualityLevel": "bad",
+      "annotation": "Total failure. Placed 'hai/hain' copulas on imperatives and futures. Used 'nahin' and 'kariye' for polite prohibitive."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Possessive & Imperative 1",
+      "weight": 33,
+      "description": "Did the user use Meraa/Mere + ghar + aaiye without a trailing hai?"
+    },
+    {
+      "criterion": "Negative Polite Command 2",
+      "weight": 33,
+      "description": "Did the user use 'mat keejiye' correctly?"
+    },
+    {
+      "criterion": "Target Future Conjugation",
+      "weight": 34,
+      "description": "Did the user use Hum ... milenge without a trailing hain?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 16,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मेरा घर में आइए। संकोच मत कीजिए। हम कल फिर मिलेंगे।",
+    "acceptableAlternates": [
+      "mere ghar mein aaiye sankoch mat keejiye hum kal phir milenge",
+      "meraa ghar mein aaiye sankoch mat kijiye hum kal fir milenge"
+    ],
+    "requiredKeywords": ["घर", "में", "आइए", "संकोच", "मत", "कीजिए", "हम", "कल", "फिर", "मिलेंगे"],
+    "grammarBaseline": "Accept 'Meraa' or 'Mere' before 'ghar mein' (oblique case not strictly graded yet). The verb endings 'aaiye', 'keejiye', and 'milenge' MUST NOT be followed by 'hai' or 'hain' under any circumstance.",
+    "lengthExpectation": "Exactly 3 sentences.",
+    "scoringRubric": {
+      "Copula Penalty": "Instant failure if 'hai/hoon/hain' appears anywhere in any sentence."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "凄まじいです！Month 2 で学んだ「未来形」「お願い」の文法を完全に使いこなし、To be動詞に依存しない本物のヒンディー語の文章をゼロから組み立てられました！",
+    "onFail": "Month 2 の最大の罠に引っかかっています！「Aaiye」「Keejiye」「Milenge」などの後ろに、Month 1で使っていた「Hai」や「Hain」をくっつけてしまっていませんか？動詞自身の力だけで文を終わらせてください！",
+    "onPartial": "惜しいところがあります。第3文で「Hum...Milenge」となるところが「Milengaa」等になっていませんか？私たちは複数人なので、Aap用と同じく『エー(Enge)』の音に変化します。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b6/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b6/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b6/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m2/b6/writing/prompt.mp3",
+    "audioTranscript": "Translate three sentences applying possessive, imperative, and future frameworks.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "capstone", "synthesis", "grammar", "month2", "block6"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b6/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「Hum phir milenge(またね)」は本当にそのまま使える魔法のフレーズです。",
+  "commonMistakes": [
+    "Writing 'Hum kal phir milenge hain' habitually attaching copulas to all sentences."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B6_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

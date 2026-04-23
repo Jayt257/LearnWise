@@ -1,0 +1,206 @@
+{
+  "activityId": "ja_hi_M2B5_reading_001",
+  "monthNumber": 2,
+  "blockNumber": 5,
+  "activityType": "reading",
+  "title": "家でのルール (House Rules & Requests)",
+  "learningGoal": "The learner will decode a Devanagari text containing multiple command structures, distinguishing between polite requests (-iye), informal commands (-o), and prohibitive negations (mat).",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B5_pronunciation_001"],
+  "instructions": "ラージが、日本から来たばかりの友達(Tum)に向けて、インドの家でのくつろぎ方を説明しています。誰に対して話しているかによって「〜してね（ア・オ）」と「〜してください（イ・エ）」がどう混ざっているかを読み解いてください。",
+  "contentItems": [
+    {
+      "type": "instruction",
+      "text": "「Mat（〜しないで）」という言葉が来たら、次にくる動詞の行動が禁止されている合図です。"
+    }
+  ],
+  "readingTitle": "मेरे घर में (In My House)",
+  "readingText": "केन, तुम यहाँ बैठो। चाय पियो। बाहर बहुत गर्मी है, इसलिए आज बाहर मत जाओ। मेरे पिता जी कमरे में सो रहे हैं। काम मत करो, बस आराम करो।",
+  "textInTargetLanguage": "केन, तुम यहाँ बैठो। चाय पियो। बाहर बहुत गर्मी है, इसलिए आज बाहर मत जाओ। मेरे पिता जी कमरे में सो रहे हैं। काम मत करो, बस आराम करो。",
+  "baseLanguageSupportText": "ケン、君はここに座って。お茶を飲んで。外はとても暑いから、今日は外に行かないで。私のお父さんは部屋で寝ているんだ。仕事はしないで、ただ休んで。",
+  "glossary": [
+    {
+      "targetText": "यहाँ",
+      "transliteration": "Yahaan",
+      "baseTranslation": "ここで / こっちに",
+      "exampleSentence": {
+        "targetText": "तुम यहाँ बैठो।",
+        "transliteration": "Tum yahaan baiṭho.",
+        "baseTranslation": "君はここに座って。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बैठो (बैठना)",
+      "transliteration": "Baiṭho (Baiṭhnaa)",
+      "baseTranslation": "座って (座る+o 友達用)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "पियो (पीना)",
+      "transliteration": "Piyo (Peenaa)",
+      "baseTranslation": "飲んで (飲む+o 友達用)",
+      "exampleSentence": {
+        "targetText": "चाय पियो।",
+        "transliteration": "Chaay piyo.",
+        "baseTranslation": "お茶を飲んで。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "बाहर",
+      "transliteration": "Baahar",
+      "baseTranslation": "外 (Outside)",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "गर्मी",
+      "transliteration": "Garmee",
+      "baseTranslation": "暑さ / 夏 (女性名詞)",
+      "exampleSentence": {
+        "targetText": "बाहर बहुत गर्मी है।",
+        "transliteration": "Baahar bahut garmee hai.",
+        "baseTranslation": "外はとても暑いです。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "इसलिए",
+      "transliteration": "Isliye",
+      "baseTranslation": "だから / そのため",
+      "exampleSentence": null,
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मत जाओ",
+      "transliteration": "mat jaao",
+      "baseTranslation": "行かないで (禁止 + 行くのTum形)",
+      "exampleSentence": {
+        "targetText": "आज बाहर मत जाओ।",
+        "transliteration": "Aaj baahar mat jaao.",
+        "baseTranslation": "今日は外に行かないで。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    },
+    {
+      "targetText": "मत करो",
+      "transliteration": "mat karo",
+      "baseTranslation": "しないで (禁止 + するのTum形)",
+      "exampleSentence": {
+        "targetText": "काम मत करो।",
+        "transliteration": "Kaam mat karo.",
+        "baseTranslation": "仕事をしないで。"
+      },
+      "audioRef": "audioAssets.nativeAudio"
+    }
+  ],
+  "sentenceSupportPairs": [
+    {
+      "targetText": "तुम यहाँ बैठो।",
+      "transliteration": "Tum yahaan baiṭho.",
+      "baseTranslation": "君はここに座って。（友達のケンに対するOの命令形）"
+    },
+    {
+      "targetText": "बाहर बहुत गर्मी है, इसलिए आज बाहर मत जाओ।",
+      "transliteration": "Baahar bahut garmee hai, isliye aaj baahar mat jaao.",
+      "baseTranslation": "外はとても暑い、だから今日は外に行かないで。（Mat + Jaao）"
+    }
+  ],
+  "comprehensionQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "ラージは友達のケン(Tum)に対して全体的にどのような語尾で話しかけていますか？",
+      "questionType": "multiple_choice",
+      "options": ["Oの音（Jaao, Karo, Baiṭho）", "Iyeの音（Jaaiye, Keejiye）"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q1"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「Baahar bahut garmee hai (外はとても暑い)」。このため、ラージはケンに何を『しないように(mat)』お願いしましたか？",
+      "questionType": "multiple_choice",
+      "options": ["外に行くこと", "お茶を飲むこと"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q2"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "「Kaam mat karo (仕事はしないで)」。ここでも否定にNahinは使われていません。「〜な/〜しないで」を意味するローマ字3文字の単語は何ですか？",
+      "questionType": "short_answer",
+      "options": null,
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q3"
+    },
+    {
+      "questionId": "q4",
+      "questionText": "もしケンではなく、目上の人(Aap)に「座ってください」とお願いする場合、Baiṭho ではなく何になるはずですか？",
+      "questionType": "multiple_choice",
+      "options": ["Baiṭhiye", "Baiṭh"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q4"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "文中で現在進行形（〜している）が使われているのは誰の行動についてですか？",
+      "questionType": "multiple_choice",
+      "options": ["お父さん (Pitaa jee)", "ケン (Ken)"],
+      "correctAnswerRef": "adminCorrectAnswerSet.correctAnswers.q5"
+    }
+  ],
+  "readAloudMode": true,
+  "adminCorrectAnswerSet": {
+    "correctAnswers": {
+      "q1": "Oの音（Jaao, Karo, Baiṭho）",
+      "q2": "外に行くこと",
+      "q3": "mat",
+      "q4": "Baiṭhiye",
+      "q5": "お父さん (Pitaa jee)"
+    },
+    "acceptableParaphrases": {
+      "q3": ["mat", "Mat", "MAT", "マト"]
+    },
+    "keywordScoringRules": {
+      "q3": ["mat"]
+    },
+    "expectedSummaryPoints": [
+      "The learner recognizes '-o' suffixes as informal imperatives directed at a peer ('Tum').",
+      "The learner identifies 'mat' as the prohibitive override for imperatives instead of 'nahin'."
+    ]
+  },
+  "evaluationMode": "keyword_match",
+  "scoreThreshold": 75,
+  "feedbackRules": {
+    "onPass": "素晴らしい！Oの音（友達への語りかけ）や Mat の意味を完璧に読み取っています。また、途中でお父さんの『現在進行形 (so rahe hain)』が混ざっても混乱しませんでしたね！",
+    "onFail": "もう一度！「Baiṭho」「Piyo」「Jaao」など、オの段で終わる動詞の嵐に気づきましたか？これは「〜して(Tum)」という軽いお願いの形です。",
+    "onPartial": "よく読めて読めています！Q4の「Baiṭhiye（イエの音）」は、目上の人への言葉遣いです。現実世界で目上の人に「Baiṭho（座って）」と言うと失礼になるので注意しましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m2/b5/reading/native_reading.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b5/reading/instructions.mp3",
+    "sampleAudio": null,
+    "slowAudio": "audio/ja_hi/m2/b5/reading/slow_reading.mp3",
+    "normalAudio": "audio/ja_hi/m2/b5/reading/native_reading.mp3",
+    "audioTranscript": "Ken, tum yahaan baiṭho... (matches full reading text)",
+    "audioLanguage": "hi",
+    "audioDuration": 210,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["reading", "imperative", "commands", "negation", "month2", "block5"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b5/read_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "「だから/そのため（isliye）」は頻出接続詞です。",
+  "commonMistakes": [
+    "Translating 'Mat jaao' as 'Wait and go'."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B5_writing_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

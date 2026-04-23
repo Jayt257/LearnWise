@@ -1,0 +1,184 @@
+{
+  "activityId": "ja_hi_M3B1_writing_001",
+  "monthNumber": 3,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "「できる」と「したい」の書き分け",
+  "learningGoal": "The learner will actively synthesize sentences using modal auxiliary verbs, proving the ability to pair roots with 'saknaa' and infinitives with 'chaahnaa' while successfully establishing subject-gender agreement on the auxiliary.",
+  "difficultyLevel": "intermediate",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M3B1_reading_001"],
+  "instructions": "あなたが「男性」であると仮定して、自分の能力(できる)と願望(したい)についてヒンディー語で書いてみましょう。メインの動詞の形（根っこにするか、ナーをつけるか）を間違えないように注意してください！",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "※ 問題は全て男性の口調（Taa hoon）で作ってください。"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。（※自分は男性であると仮定）\n1. 私はヒンディー語を話す(Bolnaa)ことができます。\n2. 私はインドに行く(Jaanaa)ことができません。\n3. 私は仕事をしたい(Karnaa)です。",
+  "promptGoal": "Force structural variation: Affirmative root capability, negative root capability, and affirmative infinitive desire.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私は"
+    },
+    {
+      "targetText": "हिंदी",
+      "transliteration": "Hindee",
+      "baseTranslation": "ヒンディー語を"
+    },
+    {
+      "targetText": "बोल",
+      "transliteration": "Bol",
+      "baseTranslation": "話す (語幹)"
+    },
+    {
+      "targetText": "बोलना",
+      "transliteration": "Bolnaa",
+      "baseTranslation": "話す (原形)"
+    },
+    {
+      "targetText": "भारत",
+      "transliteration": "Bhaarat",
+      "baseTranslation": "インドに"
+    },
+    {
+      "targetText": "जा",
+      "transliteration": "Jaa",
+      "baseTranslation": "行く (語幹)"
+    },
+    {
+      "targetText": "जाना",
+      "transliteration": "Jaanaa",
+      "baseTranslation": "行く (原形)"
+    },
+    {
+      "targetText": "काम",
+      "transliteration": "Kaam",
+      "baseTranslation": "仕事を"
+    },
+    {
+      "targetText": "कर",
+      "transliteration": "Kar",
+      "baseTranslation": "する (語幹)"
+    },
+    {
+      "targetText": "करना",
+      "transliteration": "Karnaa",
+      "baseTranslation": "する (原形)"
+    },
+    {
+      "targetText": "सकता",
+      "transliteration": "Saktaa",
+      "baseTranslation": "〜できる (男)"
+    },
+    {
+      "targetText": "चाहता",
+      "transliteration": "Chaahtaa",
+      "baseTranslation": "〜したい (男)"
+    },
+    {
+      "targetText": "नहीं",
+      "transliteration": "Nahin",
+      "baseTranslation": "〜ない (否定)"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "〜です (MainのTo be動詞)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1: I [Main] hindi speak(root) [bol] can(male) [saktaa] am [hoon].",
+    "Sentence 2: I [Main] india go(root) [jaa] not [nahin] can(male) [saktaa] (hoon is optional in negative).",
+    "Sentence 3: I [Main] work [kaam] do(infinitive) [karnaa] want(male) [chaahtaa] am [hoon]."
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं हिंदी बोल सकता हूँ। मैं भारत जा नहीं सकता हूँ। मैं काम करना चाहता हूँ।",
+      "transliteration": "Main hindee bol saktaa hoon. Main Bhaarat jaa nahin saktaa (hoon). Main kaam karnaa chaahtaa hoon.",
+      "baseTranslation": "私はヒンディー語を話すことができます。私はインドに行くことができません。私は仕事をしたいです。",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. Successfully paired 'bol' and 'jaa' (roots) with 'saktaa'. Successfully paired 'karnaa' (infinitive) with 'chaahtaa'. Handled the negation placement properly."
+    },
+    {
+      "targetText": "मैं हिंदी बोलना सकता हूँ। मैं भारत जाना चाहता हूँ।",
+      "transliteration": "Main hindee bolnaa saktaa hoon. Main Bhaarat jaanaa chaahtaa hoon.",
+      "baseTranslation": "I hindi to-speak can. I india to-go want.",
+      "qualityLevel": "bad",
+      "annotation": "Failure on rule 1. They attached the infinitive 'bolnaa' to the ability modal 'saktaa'. This is grammatically illegal in Hindi."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Ability Construction (Bol)",
+      "weight": 33,
+      "description": "Did the user use the root 'bol' before 'saktaa'?"
+    },
+    {
+      "criterion": "Negative Ability Construction (Jaa)",
+      "weight": 33,
+      "description": "Did the user use the root 'jaa' before 'saktaa' and place 'nahin' before 'saktaa'?"
+    },
+    {
+      "criterion": "Desire Construction (Karnaa)",
+      "weight": 34,
+      "description": "Did the user use the FULL INFINITIVE 'karnaa' before 'chaahtaa'?"
+    }
+  ],
+  "minimumWordCount": 10,
+  "maximumWordCount": 16,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं हिंदी बोल सकता हूँ। मैं भारत नहीं जा सकता। मैं काम करना चाहता हूँ।",
+    "acceptableAlternates": [
+      "main hindee bol saktaa hoon main bhaarat jaa nahin saktaa main kaam karnaa chaahtaa hoon",
+      "main hindi bol sakta hu main bharat nahi ja sakta hu main kaam karna chahta hu"
+    ],
+    "requiredKeywords": ["बोल", "सकता", "जा", "नहीं", "करना", "चाहता"],
+    "grammarBaseline": "Crucial exact-matches: 'bol saktaa' (not bolnaa saktaa), 'jaa saktaa' (not jaanaa saktaa), and 'karnaa chaahtaa' (not kar chaahtaa). Affirmative sentences must end in 'hoon'. Negative sentence can end in 'saktaa' or 'saktaa hoon'.",
+    "lengthExpectation": "3 distinct sentences.",
+    "scoringRubric": {
+      "Root Failure": "Penalty if infinitive is used with saktaa.",
+      "Infinitive Failure": "Penalty if root is used with chaahtaa."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "パーフェクト！「Bol saktaa (語幹＋できる)」と「Karnaa chaahtaa (原形＋したい)」の書き分けが完璧にできています。これでもうヒンディー文法の上級者の入り口に立っています！",
+    "onFail": "ストップ！Sak(できる) の前と Chaah(したい) の前の動詞の形をもう一度確認してください。できる能力を示す時は「ナー(naa)」を外した短い形！自分の願望を示す時は「ナー(naa)」をつけたままの形です！",
+    "onPartial": "惜しいところがあります。第2文の否定文で「Nahin」を入れる位置ですが、動詞の塊（Jaa saktaa）を崩さずに、その直前に置くのが一番自然です(Nahin jaa saktaa)。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m3/b1/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m3/b1/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m3/b1/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m3/b1/writing/prompt.mp3",
+    "audioTranscript": "Translate three sentences outlining ability and desire using appropriate roots and infinitives.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "modals", "ability", "desire", "month3", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m3/b1/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "否定の「〜できない」は、Main hindi nahin bol saktaa hoon. のように、動詞の直前に nahih を置くのが標準的です。",
+  "commonMistakes": [
+    "Writing 'Main kaam kar chaahtaa hoon' dropping the necessary '-naa' for the desire modal."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M3B1_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

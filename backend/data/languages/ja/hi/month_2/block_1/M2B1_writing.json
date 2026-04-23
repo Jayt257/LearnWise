@@ -1,0 +1,188 @@
+{
+  "activityId": "ja_hi_M2B1_writing_001",
+  "monthNumber": 2,
+  "blockNumber": 1,
+  "activityType": "writing",
+  "title": "「している」を組み立てる (Constructing the Continuous)",
+  "learningGoal": "The learner will synthetically construct present continuous sentences by dropping the auxiliary 'rahaa/rahee' immediately after an unmodified verb root, honoring subject gender.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M2B1_reading_001"],
+  "instructions": "文法パズルです！Month 1 で学んだ「〜ター (Taa)」の代わりに、今回は「〜ている (Rahaa/Rahee)」を使って文を作ります。",
+  "contentItems": [
+    {
+      "type": "note",
+      "text": "ルール：語幹（例：Ja:行き）＋ 進行形の単語（Rahee:ている）＋ To Be 動詞（Hoon:です）。日本語の語順と１００％同じです！"
+    }
+  ],
+  "writingPrompt": "以下の3つの文をヒンディー語で作成してください。\n1. 私はりんごを食べています。(あなたが男性であると仮定して)\n2. 彼女は東京へ行っています [向かっています]。 (※彼女＝Vah)\n3. あなた方は何をしていますか？",
+  "promptGoal": "Ensure generative deployment of the present continuous auxiliary, confirming the learner isolates the root verb from the gender marker.",
+  "expectedWritingType": "short_answer",
+  "wordBank": [
+    {
+      "targetText": "मैं",
+      "transliteration": "Main",
+      "baseTranslation": "私"
+    },
+    {
+      "targetText": "वह",
+      "transliteration": "Vah",
+      "baseTranslation": "彼女 / 彼"
+    },
+    {
+      "targetText": "आप",
+      "transliteration": "Aap",
+      "baseTranslation": "あなた(方)"
+    },
+    {
+      "targetText": "सेब",
+      "transliteration": "Seb",
+      "baseTranslation": "りんご"
+    },
+    {
+      "targetText": "टोक्यो",
+      "transliteration": "Tokyo",
+      "baseTranslation": "東京"
+    },
+    {
+      "targetText": "क्या",
+      "transliteration": "Kyaa",
+      "baseTranslation": "何を (What)"
+    },
+    {
+      "targetText": "खा",
+      "transliteration": "Khaa",
+      "baseTranslation": "食べ"
+    },
+    {
+      "targetText": "जा",
+      "transliteration": "Jaa",
+      "baseTranslation": "行き"
+    },
+    {
+      "targetText": "कर",
+      "transliteration": "Kar",
+      "baseTranslation": "し (Do)"
+    },
+    {
+      "targetText": "रहा",
+      "transliteration": "Rahaa",
+      "baseTranslation": "〜ている (男性)"
+    },
+    {
+      "targetText": "रही",
+      "transliteration": "Rahee",
+      "baseTranslation": "〜ている (女性)"
+    },
+    {
+      "targetText": "रहे",
+      "transliteration": "Rahe",
+      "baseTranslation": "〜ている (複数/尊敬)"
+    },
+    {
+      "targetText": "हूँ",
+      "transliteration": "Hoon",
+      "baseTranslation": "です (Main用)"
+    },
+    {
+      "targetText": "है",
+      "transliteration": "Hai",
+      "baseTranslation": "です (Vah用)"
+    },
+    {
+      "targetText": "हैं",
+      "transliteration": "Hain",
+      "baseTranslation": "です (Aap用)"
+    }
+  ],
+  "referenceHints": [
+    "Sentence 1 (Male): I [Main] apple [seb] eat [khaa] am-doing(male) [rahaa] am [hoon].",
+    "Sentence 2 (Female subject): She [Vah] Tokyo [Tokyo] go [jaa] am-doing(female) [rahee] is [hai].",
+    "Sentence 3 (Polite 'What'): You [Aap] what [kyaa] do [kar] are-doing(polite) [rahe] are [hain]?"
+  ],
+  "modelExampleOutputs": [
+    {
+      "targetText": "मैं सेब खा रहा हूँ। वह टोक्यो जा रही है। आप क्या कर रहे हैं?",
+      "transliteration": "Main seb khaa rahaa hoon. Vah Tokyo jaa rahee hai. Aap kyaa kar rahe hain?",
+      "baseTranslation": "私はりんごを食べています(男)。彼女は東京へ行っています。あなた[方]は何をしていますか？",
+      "qualityLevel": "excellent",
+      "annotation": "Perfect score. The learner completely separated verb roots from continuous auxiliaries, mapping 'te-iru' cleanly into the SOV chain."
+    },
+    {
+      "targetText": "मैं सेब खाता रहा हूँ। वह टोक्यो जाती रही है।",
+      "transliteration": "Main seb khaataa rahaa hoon. Vah Tokyo jaatee rahee hai.",
+      "baseTranslation": "Month 1 のクセが抜けず、「食べる」＋「ている」ではなく、「食べます」＋「ている」にしてしまっているエラー。",
+      "qualityLevel": "bad",
+      "annotation": "Grammmatical violation. Appended auxiliary to an already conjugated present habitual verb."
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "criterion": "Root Isolation",
+      "weight": 33,
+      "description": "Did the user use pure verb roots ('Khaa', 'Jaa', 'Kar') without Month 1's '-taa/-tee' suffixes?"
+    },
+    {
+      "criterion": "Continuous Auxiliary Agreement",
+      "weight": 33,
+      "description": "Did the user align 'Rahaa/Rahee/Rahe' correctly to the biological gender or politeness of the subject?"
+    },
+    {
+      "criterion": "Copula Termination",
+      "weight": 34,
+      "description": "Did every sentence terminate in a correctly matched 'To Be' verb (hoon/hai/hain)?"
+    }
+  ],
+  "minimumWordCount": 12,
+  "maximumWordCount": 20,
+  "adminCorrectAnswerSet": {
+    "sampleAnswer": "मैं सेब खा रहा हूँ। वह टोक्यो जा रही है। आप क्या कर रहे हैं?",
+    "acceptableAlternates": [
+      "main seb khaa raha hoon vah tokyo ja rahi hai aap kya kar rahe hain",
+      "मैं सेब खा रहा हूँ वह टोक्यो जा रही है आप क्या कर रहे हैं"
+    ],
+    "requiredKeywords": ["मैं", "सेब", "खा", "रहा", "हूँ", "वह", "टोक्यो", "जा", "रही", "है", "आप", "क्या", "कर", "रहे", "हैं"],
+    "grammarBaseline": "Crucial requirement: 'Khaa rahaa' not 'Khaataa rahaa'. The root must stand alone.",
+    "lengthExpectation": "Exactly 3 distinct sentences.",
+    "scoringRubric": {
+      "Root + Rahaa Lock": "The user must realize that unlike Month 1, they do not merge the gender with the root (Khaataa), but put it on the auxiliary (Rahaa)."
+    }
+  },
+  "evaluationMode": "rubric",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "やりましたね！「食べ＋ている（Khaa＋Rahaa）」。日本語の文法とヒンディー語の文法が、パズルのように完璧に一致していることに気づきましたね！",
+    "onFail": "「KhaaTAA Rahaa」としてしまっていませんか？英語の 'EatING' で Eat が形を変えないように、ヒンディー語でも語幹（Khaa）は変化させず、そのまま後ろに Rahaa をドロップします！",
+    "onPartial": "惜しいところがあります。第3文の Aap の対応を忘れていませんか？Aap の時は尊敬の「Rahe（テーに対応）」と「Hain（ハイン）」を使います。"
+  },
+  "audioAssets": {
+    "promptAudio": "audio/ja_hi/m2/b1/writing/prompt.mp3",
+    "nativeAudio": null,
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m2/b1/writing/instructions.mp3",
+    "sampleAudio": "audio/ja_hi/m2/b1/writing/sample_output.mp3",
+    "slowAudio": null,
+    "normalAudio": "audio/ja_hi/m2/b1/writing/prompt.mp3",
+    "audioTranscript": "Write 3 sentences applying present continuous grammatical logic.",
+    "audioLanguage": "en",
+    "audioDuration": 25,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["writing", "grammar", "verbs", "present_continuous", "sov", "month2", "block1"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m2/b1/write_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "Khaa (語幹) ＋ Rahaa (ている) ＋ Hoon (です)。この3ブロックを並べるだけです。",
+  "commonMistakes": [
+    "Writing 'Khaataa rahaa' instead of isolating the root."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M2B1_listening_001"],
+  "attemptLimit": 5,
+  "metadata": {}
+}

@@ -1,0 +1,190 @@
+{
+  "activityId": "ja_hi_M1B2_lesson_001",
+  "monthNumber": 1,
+  "blockNumber": 2,
+  "activityType": "lesson",
+  "title": "ヒンディー語の「です・ます」: SOVの魔法 (The Magic of SOV)",
+  "learningGoal": "The learner will seamlessly map the Japanese S-O-V grammar structure and 'desu' copula to the Hindi equivalent, utilizing the primary pronouns Main, Aap, and Vah with appropriate 'To Be' verbs.",
+  "difficultyLevel": "beginner",
+  "baseLanguage": "ja",
+  "targetLanguage": "hi",
+  "estimatedTime": 45,
+  "prerequisites": ["ja_hi_M1B1_test_001"],
+  "instructions": "日本人にとって、ヒンディー語の文法は世界一簡単です！なぜなら、日本語とヒンディー語の語順（主語・目的語・動詞）は全く同じだからです。このレッスンで、その「魔法」を体験しましょう。",
+  "contentItems": [
+    {
+      "type": "introduction",
+      "text": "英語では「I am Ken」のように動詞が真ん中に来ますが、ヒンディー語は日本語と同じです。[私(Main)] [ケン(Ken)] [です(hoon)]。そのまま当てはめるだけです！"
+    }
+  ],
+  "adminCorrectAnswerSet": {
+    "keyTakeaways": [
+      "Hindi follows an S-O-V structural order identical to Japanese.",
+      "The 'to be' verb changes based on the subject (Main -> hoon, Vah -> hai, Aap -> hain).",
+      "The nasal dot (bindu) creates sounds like the Japanese ん/N but without the tongue touching the roof of the mouth.",
+      "Plural/Polite subjects take a nasalized verb ('hain' instead of 'hai')."
+    ],
+    "conceptSummary": "Leveraging L1 Japanese SOV architecture to bypass syntactical restructuring, while introducing basic subject-verb agreement (Hoon, Hai, Hain) which Japanese lacks.",
+    "importantFacts": [
+      "Japanese verbs don't change based on who is speaking (I am = desu, You are = desu). Hindi verbs DO change (I am = hoon, You are = hain)."
+    ],
+    "checkpointAnswers": {
+      "q1": "Hoon (हूँ)",
+      "q2": "Hain (हैं)",
+      "q3": "一番最後 (At the end)"
+    },
+    "expectedUnderstanding": "Learners will understand that while the SOV structure is a 1:1 match, Hindi introduces a new complexity: verbs must agree with the subject pronoun."
+  },
+  "evaluationMode": "exact_match",
+  "scoreThreshold": 80,
+  "feedbackRules": {
+    "onPass": "素晴らしい！ヒンディー語と日本語の構造が同じだという強力な「武器」を手に入れましたね！",
+    "onFail": "もう一度復習しましょう。「私（Main）」の時は「hoon」、「あなた（Aap）」の時は「hain」を使うというルールを忘れないでください！日本語のように全部「desu」で終わるわけではありません。",
+    "onPartial": "よくできました！動詞を文の最後に置くルールはバッチリです。あとは主語によって動詞が変わるルール（Hoon, Hai, Hain）を覚えましょう！"
+  },
+  "audioAssets": {
+    "promptAudio": null,
+    "nativeAudio": "audio/ja_hi/m1/b2/lesson/native_lesson.mp3",
+    "referenceAudio": null,
+    "instructionAudio": "audio/ja_hi/m1/b2/lesson/instruction.mp3",
+    "sampleAudio": "audio/ja_hi/m1/b2/lesson/examples.mp3",
+    "slowAudio": "audio/ja_hi/m1/b2/lesson/slow_lesson.mp3",
+    "normalAudio": "audio/ja_hi/m1/b2/lesson/native_lesson.mp3",
+    "audioTranscript": "Main Ken hoon. Aap kaun hain? Vah Rahul hai.",
+    "audioLanguage": "hi",
+    "audioDuration": 300,
+    "audioRepeatAllowed": true
+  },
+  "tags": ["grammar", "sov", "pronouns", "to_be_verbs", "month1", "block2"],
+  "status": "published",
+  "createdAt": "2026-04-18T00:00:00Z",
+  "version": "1.0.0",
+  "thumbnail": "images/ja_hi/m1/b2/lesson_thumb.jpg",
+  "imageAssets": [],
+  "videoAssets": [],
+  "hintText": "日本語の「です」にあたる言葉が、主語によって3種類（Hoon, Hai, Hain）に変わることに注意してください。",
+  "commonMistakes": [
+    "Using 'Main... hai' because 'desu' never changes in Japanese."
+  ],
+  "reviewLinks": [],
+  "nextActivityIds": ["ja_hi_M1B2_pronunciation_001"],
+  "attemptLimit": null,
+  "metadata": {},
+  "conceptTitle": "SOVの魔法と「です」の変化",
+  "lessonContent": [
+    {
+      "sectionId": "sec1",
+      "sectionTitle": "語順の完全一致 (The SOV Match)",
+      "bodyText": "「私はケンです。」これをヒンディー語にするには、そのまま単語を置き換えるだけです。私＝Main、ケン＝Ken、です＝hoon。→ Main Ken hoon.",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं विद्यार्थी हूँ।",
+          "transliteration": "Main vidyaarthee hoon.",
+          "baseTranslation": "私は学生です。"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec2",
+      "sectionTitle": "「あなた」と「彼/彼女」 (You and He/She)",
+      "bodyText": "「私 (Main)」以外の主語を見てみましょう。丁寧な「あなた」は「Aap」、「彼・彼女・それ」は「Vah」です。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "आप",
+          "transliteration": "Aap",
+          "baseTranslation": "あなた（丁寧）"
+        },
+        {
+          "targetText": "वह",
+          "transliteration": "Vah",
+          "baseTranslation": "彼 / 彼女 / それ"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec3",
+      "sectionTitle": "動詞の七変化 (Verbs Change!)",
+      "bodyText": "ここが日本語と違う唯一のポイントです！日本語は誰が主語でも「〜です」ですが、ヒンディー語では主語によって「です」が変わります。「私」は hoon。「彼/彼女」は hai。「あなた」のような丁寧な言葉や複数の時は hain を使います。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "मैं हिरोशी हूँ।",
+          "transliteration": "Main Hiroshi hoon.",
+          "baseTranslation": "私はヒロシです。(hoon を使用)"
+        },
+        {
+          "targetText": "वह राहुल है।",
+          "transliteration": "Vah Raahul hai.",
+          "baseTranslation": "彼はラージです。(hai を使用)"
+        },
+        {
+          "targetText": "आप टीचर हैं।",
+          "transliteration": "Aap teacher hain.",
+          "baseTranslation": "あなたは先生です。(hain を使用)"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec4",
+      "sectionTitle": "鼻音の秘密（Nasalization）",
+      "bodyText": "Hain（ハイン）と Hoon（フーン）の終わりの「n」は、日本語の「ん」のように舌を上にくっつけません。ただ鼻から息を抜くだけです。文字の上に付いている「点（ビンドゥ）」がその印です。",
+      "targetLanguageExamples": [
+        {
+          "targetText": "हैं",
+          "transliteration": "Hain",
+          "baseTranslation": "です（複数・尊敬）※鼻から抜く音"
+        }
+      ]
+    }
+  ],
+  "learningObjective": "Learners will map Japanese SOV sentence structure to Hindi while adopting Subject-Verb agreement rules absent in Japanese grammar.",
+  "examples": [
+    {
+      "targetText": "मैं जापानी हूँ।",
+      "transliteration": "Main Jaapaanee hoon.",
+      "baseTranslation": "私は日本人です。",
+      "explanation": "Perfect 1:1 mapping of Japanese vocabulary placement."
+    },
+    {
+      "targetText": "वह भारतीय है।",
+      "transliteration": "Vah Bhaarateey hai.",
+      "baseTranslation": "彼はインド人です。",
+      "explanation": "Vah uses 'hai', not 'hoon'."
+    }
+  ],
+  "importantRules": [
+    {
+      "ruleNumber": 1,
+      "ruleText": "主語が「Main（私）」の時、文の最後は絶対に「Hoon」になります。",
+      "exceptionNotes": null
+    },
+    {
+      "ruleNumber": 2,
+      "ruleText": "主語が「Aap（あなた）」の時は、尊敬を表すために「Hai」に鼻音の点が付いた「Hain」になります。",
+      "exceptionNotes": null
+    }
+  ],
+  "cultureContext": {
+    "isApplicable": true,
+    "contextText": "インドでは目上の人や初めて会う人には必ず「Aap（あなた）」を使います。",
+    "dosList": ["旅行中に出会う人には「Aap」を使う。"],
+    "dontsList": ["初対面の人に友達言葉を使わない（後のレッスンで学びます）。"]
+  },
+  "summary": "日本語の強力な武器「S-O-V（主語・目的語・動詞）」の語順をそのまま使えます！ただし、日本語の「です」にあたる言葉は、「Main」なら「hoon」、「Vah」なら「hai」、「Aap」なら「hain」に変わることを覚えてください。",
+  "checkpointQuestions": [
+    {
+      "questionId": "q1",
+      "questionText": "「Main（私）」を使うとき、文の最後にくる単語（動詞）は何ですか？",
+      "expectedAnswer": "Hoon (हूँ)"
+    },
+    {
+      "questionId": "q2",
+      "questionText": "「Aap（あなた）」を使うとき、文の最後にくる単語（動詞）は何ですか？",
+      "expectedAnswer": "Hain (हैं)"
+    },
+    {
+      "questionId": "q3",
+      "questionText": "日本語でもヒンディー語でも、動詞（To Be）は文のどこに置かれますか？",
+      "expectedAnswer": "一番最後 (At the end)"
+    }
+  ]
+}
