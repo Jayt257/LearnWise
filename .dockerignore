@@ -1,0 +1,36 @@
+# Files excluded from the FRONTEND Docker build context
+# Keeps the build fast and prevents leaking backend secrets into the Node build stage
+
+# Dependencies (reinstalled fresh inside the container)
+node_modules/
+
+# Built output (rebuilt inside the container)
+dist/
+
+# Backend — not needed for frontend build
+backend/
+
+# Git history
+.git/
+.gitignore
+
+# Docs
+*.md
+ui_update.md
+implementation_plan.md
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Test outputs
+qa_reports/
+coverage/
+playwright-report/

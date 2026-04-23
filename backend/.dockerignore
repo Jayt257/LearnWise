@@ -1,0 +1,49 @@
+# Files/dirs excluded from the backend Docker build context
+# Keeps the image lean and ensures no secrets or dev artifacts leak in
+
+# Python artifacts
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test & QA
+.pytest_cache/
+tests/
+test_*.py
+*_test.py
+htmlcov/
+.coverage
+coverage.xml
+pytest_output.txt
+mutants/
+mutation_tests/
+mutmut_output.log
+locustfile.py
+locust_results.txt
+
+# Dev scripts
+scripts/
+script_test_groq.py
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Secrets — NEVER bake into the image
+.env
+.env.*
+
+# Runtime-generated directories (mounted as volumes on Render)
+uploads/
+
+# Logs
+*.log
+router_err.txt
+
+# Editor
+.vscode/
+.idea/
