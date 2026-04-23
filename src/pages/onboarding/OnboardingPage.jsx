@@ -99,7 +99,7 @@ export default function OnboardingPage() {
   const allLangs = Object.values(langMap);
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--color-bg)', padding: '1rem' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)', padding: '1rem' }}>
       <div style={{ position: 'fixed', inset: 0, background: 'radial-gradient(ellipse at 30% 50%, rgba(99,102,241,0.12) 0%, transparent 60%)', pointerEvents: 'none' }} />
 
       <div style={{ width: '100%', maxWidth: 680 }} className="animate-fade-in">
@@ -108,7 +108,7 @@ export default function OnboardingPage() {
           <h1 className="heading-xl">
             <span className="gradient-text">Choose Your Language Path</span>
           </h1>
-          <p style={{ color: 'var(--color-text-muted)', marginTop: '0.75rem' }}>
+          <p style={{ color: 'var(--text-muted)', marginTop: '0.75rem' }}>
             Hi {user?.display_name || user?.username}! What would you like to learn today?
           </p>
         </div>
@@ -140,7 +140,7 @@ export default function OnboardingPage() {
           {loading && allLangs.length === 0 ? (
             <div className="spinner" style={{ margin: '2rem auto' }} />
           ) : allLangs.length === 0 ? (
-            <p style={{ textAlign: 'center', color: 'var(--color-text-muted)' }}>No language pairs available yet. Please contact admin.</p>
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)' }}>No language pairs available yet. Please contact admin.</p>
           ) : (
             <>
               {/* Source language */}
@@ -150,10 +150,10 @@ export default function OnboardingPage() {
                   {allLangs.map(info => (
                     <button key={info.id} type="button"
                       onClick={() => { setSource(info.id); setTarget(''); }}
-                      style={{ flex: '1 1 120px', padding: '1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${source === info.id ? 'var(--color-primary)' : 'var(--color-border)'}`, background: source === info.id ? 'var(--color-primary-glow)' : 'var(--color-surface-2)', cursor: 'pointer', transition: 'all 0.2s', textAlign: 'center' }}>
+                      style={{ flex: '1 1 120px', padding: '1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${source === info.id ? 'var(--primary)' : 'var(--border)'}`, background: source === info.id ? 'var(--primary-glow)' : 'var(--surface-2)', cursor: 'pointer', transition: 'all 0.2s', textAlign: 'center' }}>
                       <div style={{ fontSize: '1.75rem' }}>{info.flag}</div>
                       <div style={{ fontWeight: 600, marginTop: '0.375rem', fontSize: '0.875rem' }}>{info.name}</div>
-                      <div style={{ fontSize: '0.7rem', color: 'var(--color-text-dim)', marginTop: '0.25rem' }}>{info.desc}</div>
+                      <div style={{ fontSize: '0.7rem', color: 'var(--text-dim)', marginTop: '0.25rem' }}>{info.desc}</div>
                     </button>
                   ))}
                 </div>
@@ -164,7 +164,7 @@ export default function OnboardingPage() {
                 <div style={{ marginBottom: '2rem' }}>
                   <label className="form-label" style={{ marginBottom: '0.75rem', display: 'block' }}>I want to learn</label>
                   {availableTargetIds.length === 0 ? (
-                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>No target languages available for this source. Ask admin to add more pairs.</p>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>No target languages available for this source. Ask admin to add more pairs.</p>
                   ) : (
                     <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
                       {availableTargetIds.map(id => {
@@ -172,10 +172,10 @@ export default function OnboardingPage() {
                         return (
                           <button key={id} type="button"
                             onClick={() => setTarget(id)}
-                            style={{ flex: '1 1 120px', padding: '1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${target === id ? 'var(--color-secondary)' : 'var(--color-border)'}`, background: target === id ? 'var(--color-secondary-glow)' : 'var(--color-surface-2)', cursor: 'pointer', transition: 'all 0.2s', textAlign: 'center' }}>
+                            style={{ flex: '1 1 120px', padding: '1rem', borderRadius: 'var(--radius-md)', border: `2px solid ${target === id ? 'var(--amber)' : 'var(--border)'}`, background: target === id ? 'var(--amber-glow)' : 'var(--surface-2)', cursor: 'pointer', transition: 'all 0.2s', textAlign: 'center' }}>
                             <div style={{ fontSize: '1.75rem' }}>{info.flag}</div>
                             <div style={{ fontWeight: 600, marginTop: '0.375rem', fontSize: '0.875rem' }}>{info.name}</div>
-                            <div style={{ fontSize: '0.7rem', color: 'var(--color-text-dim)', marginTop: '0.25rem' }}>{info.desc}</div>
+                            <div style={{ fontSize: '0.7rem', color: 'var(--text-dim)', marginTop: '0.25rem' }}>{info.desc}</div>
                           </button>
                         );
                       })}
@@ -186,11 +186,11 @@ export default function OnboardingPage() {
 
               {/* Summary */}
               {source && target && langMap[source] && langMap[target] && (
-                <div style={{ textAlign: 'center', padding: '1rem', background: 'var(--color-surface-2)', borderRadius: 'var(--radius-md)', marginBottom: '1.5rem' }}>
+                <div style={{ textAlign: 'center', padding: '1rem', background: 'var(--surface-2)', borderRadius: 'var(--radius-md)', marginBottom: '1.5rem' }}>
                   <span style={{ fontSize: '1.5rem' }}>{langMap[source].flag}</span>
-                  <span style={{ margin: '0 0.75rem', color: 'var(--color-text-muted)' }}>→</span>
+                  <span style={{ margin: '0 0.75rem', color: 'var(--text-muted)' }}>→</span>
                   <span style={{ fontSize: '1.5rem' }}>{langMap[target].flag}</span>
-                  <p style={{ marginTop: '0.5rem', fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>
+                  <p style={{ marginTop: '0.5rem', fontSize: '0.875rem', color: 'var(--text-muted)' }}>
                     {langMap[source].name} → {langMap[target].name} • 6-month roadmap • 8 activity types
                   </p>
                 </div>
