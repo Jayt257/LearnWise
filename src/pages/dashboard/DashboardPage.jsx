@@ -17,9 +17,15 @@ const ACTIVITY_ICONS = {
   speaking: '🎙', pronunciation: '🗣', test: '📋',
 };
 const ACTIVITY_COLORS = {
-  lesson: '#6366f1', vocabulary: '#8b5cf6', vocab: '#8b5cf6',
-  reading: '#06b6d4', writing: '#10b981', listening: '#f59e0b',
-  speaking: '#f97316', pronunciation: '#ec4899', test: '#ef4444',
+  lesson:        { base: '#f43841', glow: 'rgba(244,56,65,0.22)'   },
+  vocabulary:    { base: '#73c936', glow: 'rgba(115,201,54,0.22)'  },
+  vocab:         { base: '#73c936', glow: 'rgba(115,201,54,0.22)'  },
+  reading:       { base: '#ffdd33', glow: 'rgba(255,221,51,0.22)'  },
+  writing:       { base: '#cc8c3c', glow: 'rgba(204,140,60,0.22)'  },
+  listening:     { base: '#96a6c8', glow: 'rgba(150,166,200,0.22)' },
+  speaking:      { base: '#9e95c7', glow: 'rgba(158,149,199,0.22)' },
+  pronunciation: { base: '#95a99f', glow: 'rgba(149,169,159,0.22)' },
+  test:          { base: '#ff4f58', glow: 'rgba(255,79,88,0.22)'   },
 };
 
 export default function DashboardPage() {
@@ -194,7 +200,8 @@ export default function DashboardPage() {
                           const unlocked = isUnlocked(activity.id);
                           const completed = isCompleted(activity.id);
                           const isCurrent = activity.id === currentActivityId;
-                          const color = ACTIVITY_COLORS[activity.type] || '#6366f1';
+          const color = (ACTIVITY_COLORS[activity.type] || { base: '#888', glow: 'rgba(136,136,136,0.2)' }).base;
+          const glow  = (ACTIVITY_COLORS[activity.type] || { base: '#888', glow: 'rgba(136,136,136,0.2)' }).glow;
                           const icon = ACTIVITY_ICONS[activity.type] || '📋';
                           const lbl = activity.label || (activity.type.charAt(0).toUpperCase() + activity.type.slice(1));
 
@@ -204,10 +211,17 @@ export default function DashboardPage() {
                               title={unlocked ? lbl : 'Complete previous activities first'}
                               style={{
                                 padding: '0.75rem', borderRadius: 'var(--radius-md)', textAlign: 'center',
-                                border: `1px solid ${isCurrent ? color : completed ? `${color}55` : 'var(--color-border)'}`,
-                                background: completed ? `${color}18` : isCurrent ? `${color}25` : 'var(--color-surface-2)',
+                                border: `1px solid ${isCurrent ? color : completed ? `${color}77` : 'var(--border)'}`,
+                                background: completed
+                                  ? `${color}20`
+                                  : isCurrent
+                                    ? 'var(--glass-bg)'
+                                    : 'var(--glass-bg)',
+                                backdropFilter: 'blur(12px)',
+                                WebkitBackdropFilter: 'blur(12px)',
+                                boxShadow: isCurrent ? `0 0 14px ${glow}` : completed ? `0 0 8px ${glow}` : 'none',
                                 cursor: unlocked ? 'pointer' : 'not-allowed',
-                                opacity: unlocked ? 1 : 0.45,
+                                opacity: unlocked ? 1 : 0.38,
                                 transition: 'all 0.2s', position: 'relative',
                               }}
                               className={unlocked ? 'card-interactive' : ''}>
@@ -217,8 +231,8 @@ export default function DashboardPage() {
                               {isCurrent && !completed && <div style={{ position: 'absolute', top: 5, right: 7, width: 6, height: 6, borderRadius: '50%', background: color, boxShadow: `0 0 6px ${color}` }} />}
 
                               <div style={{ fontSize: '1.4rem', marginBottom: '0.375rem' }}>{icon}</div>
-                              <div style={{ fontSize: '0.72rem', fontWeight: 600, color: unlocked ? 'var(--color-text)' : 'var(--color-text-dim)' }}>{lbl}</div>
-                              <div style={{ fontSize: '0.65rem', color, marginTop: '0.25rem', fontWeight: 600 }}>+{activity.xp} XP</div>
+                              <div style={{ fontSize: '0.72rem', fontWeight: 600, color: unlocked ? 'var(--text)' : 'var(--text-dim)' }}>{lbl}</div>
+                              <div style={{ fontSize: '0.65rem', color, marginTop: '0.25rem', fontWeight: 700 }}>+{activity.xp} XP</div>
                             </div>
                           );
                         })}
