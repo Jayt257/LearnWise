@@ -1,19 +1,20 @@
 # docker-compose.yml
-# Local full-stack testing — runs backend + frontend + postgres in containers.
-# Use this to verify your Docker images work correctly before deploying to Render.
+# Local full-stack testing — runs backend + frontend + postgres together.
 #
-# Usage:
-#   export GROQ_API_KEY=your_key_here
-#   docker compose up --build
+# ── HOW TO RUN ────────────────────────────────────────────────
+#   Windows: double-click start_windows.bat
+#   Linux/Mac: docker compose --env-file test.env up --build
 #
-# Then open: http://localhost:3000  (frontend)
-#            http://localhost:8000/api/health  (backend health check)
+# ── WHAT OPENS ────────────────────────────────────────────────
+#   Frontend:  http://localhost:3000
+#   Backend:   http://localhost:8000/api/health
+#   API Docs:  http://localhost:8000/docs
 
 version: '3.9'
 
 services:
 
-  # ── PostgreSQL (local only, Render provides managed DB in production) ──
+  # ── PostgreSQL ─────────────────────────────────────────────
   db:
     image: postgres:15-alpine
     environment:
@@ -21,7 +22,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: localpass123
     ports:
-      - "5433:5432"   # 5433 on host to avoid conflict with local postgres
+      - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
@@ -30,38 +31,26 @@ services:
       timeout: 5s
       retries: 5
 
-  # ── Backend (FastAPI + Uvicorn) ────────────────────────────────────────
+  # ── Backend (FastAPI + Uvicorn) ─────────────────────────────
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
     environment:
-      # Database — points to the local postgres service above
+      # ── Fixed for local docker network ──
       DATABASE_URL: postgresql://postgres:localpass123@db:5432/learnwise
-
-      # JWT — use a real secret in production (never commit this)
-      SECRET_KEY: local-dev-secret-replace-in-production-64chars
-
-      # Groq AI — read from shell env so it never touches this file
-      GROQ_API_KEY: ${GROQ_API_KEY}
-      GROQ_MODEL: llama-3.1-8b-instant
-
-      # CORS — allow the local frontend container
+      SECRET_KEY: local-test-secret-notforproduction-changeme
       ALLOWED_ORIGINS: http://localhost:3000
-
-      # Admin seed account
-      ADMIN_EMAIL: admin@learnwise.app
-      ADMIN_PASSWORD: Admin@Local2026
-      ADMIN_USERNAME: admin
-
-      # Use small Whisper model locally (faster, less RAM)
-      WHISPER_MODEL: small
-
-      # Threshold override disabled
-      SCORE_THRESHOLD_OVERRIDE: "-1"
-
-      # Data directory inside container
       DATA_DIR: data
+
+      # ── From test.env (user-provided secrets) ──
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.1-8b-instant}
+      WHISPER_MODEL: ${WHISPER_MODEL:-small}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@learnwise.app}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-Admin@Test2026}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      SCORE_THRESHOLD_OVERRIDE: ${SCORE_THRESHOLD_OVERRIDE:--1}
 
     ports:
       - "8000:8000"
@@ -69,16 +58,16 @@ services:
       db:
         condition: service_healthy
     volumes:
-      # Mount local data dir so admin changes during testing survive container restarts
+      # Mount data dir so admin changes persist across restarts during testing
       - ./backend/data:/app/data
 
-  # ── Frontend (Nginx + React) ───────────────────────────────────────────
+  # ── Frontend (Nginx + React SPA) ────────────────────────────
   frontend:
     build:
       context: .
       dockerfile: Dockerfile.frontend
       args:
-        # Point the built JS bundle at the local backend
+        # Backend URL as seen from the BROWSER (not from inside Docker network)
         VITE_API_BASE_URL: http://localhost:8000
     ports:
       - "3000:80"
