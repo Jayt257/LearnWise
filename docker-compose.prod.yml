@@ -1,0 +1,85 @@
+# docker-compose.prod.yml
+# Production deployment on a VPS (Hostinger KVM2 or similar).
+#
+# ── HOW TO RUN ─────────────────────────────────────────────────
+#   1. Copy backend/.env.example to backend/.env and fill in real values.
+#   2. docker compose -f docker-compose.prod.yml up -d --build
+#
+# ── WHAT OPENS ON THE SERVER ──────────────────────────────────
+#   Frontend:  http://your-domain.com  (port 80 / 443 via Nginx)
+#   Backend:   http://your-domain.com/api/
+#   API Docs:  http://your-domain.com/api/docs
+
+version: '3.9'
+
+services:
+
+  # ── PostgreSQL ─────────────────────────────────────────────
+  db:
+    image: postgres:15-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-learnwise}
+      POSTGRES_USER: ${POSTGRES_USER:-learnwise_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-learnwise_user}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    # NOT exposed to outside world — only accessible inside Docker network
+    expose:
+      - "5432"
+
+  # ── Backend (FastAPI + Uvicorn) ─────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-learnwise_user}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-learnwise}
+      SECRET_KEY: ${SECRET_KEY}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS}
+      DATA_DIR: data
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.1-8b-instant}
+      WHISPER_MODEL: ${WHISPER_MODEL:-small}
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      SCORE_THRESHOLD_OVERRIDE: ${SCORE_THRESHOLD_OVERRIDE:--1}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend/data:/app/data
+    # NOT exposed to outside world — Nginx proxies to it
+    expose:
+      - "8000"
+
+  # ── Frontend + Reverse Proxy (Nginx) ───────────────────────
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+      args:
+        # The browser always talks to the domain directly
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL}
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      # Mount custom Nginx with SSL/API proxy support
+      - ./nginx.prod.conf:/etc/nginx/conf.d/default.conf:ro
+      # Mount SSL certificates from Certbot
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
