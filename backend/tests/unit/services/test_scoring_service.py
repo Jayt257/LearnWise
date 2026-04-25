@@ -11,7 +11,7 @@ def test_calculate_score_raw_score_not_number():
     qs = [QuestionSubmission(question_id="1", block_type="lesson", user_answer="a", correct_answer="b")]
     res = calculate_score(qs, 100, [{"question_id": "1", "score": "ABC"}]) 
     assert res["total_score"] == 0
-    assert res["passed"] is True
+    assert res["passed"] is False
 
 def test_calculate_score_normal():
     qs = [QuestionSubmission(question_id="1", block_type="lesson", user_answer="a", correct_answer="b")]
@@ -34,4 +34,4 @@ def test_score_mcq_locally_incorrect():
     qs = [QuestionSubmission(question_id="1", block_type="lesson", user_answer="B", correct_answer="A")]
     res = score_mcq_locally(qs, 100)
     assert res["total_score"] == 0
-    assert res["passed"] is True
+    assert res["passed"] is False

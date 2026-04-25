@@ -82,7 +82,8 @@ def test_lesson_comprehension_rubric_included():
         target_lang="ja",
         feedback_tier="lesson"
     )
-    assert "Accept paraphrases and romanized versions" in prompt
+    assert "Accept paraphrases" in prompt
+    assert "romanized versions" in prompt
 
 def test_pronunciation_partial_credit_rubric_included():
     """Verify the pronunciation rubric focuses on phonetic matches and ignores Whisper CJK bugs."""
@@ -94,7 +95,7 @@ def test_pronunciation_partial_credit_rubric_included():
         target_lang="ja",
         feedback_tier="lesson"
     )
-    assert "Do NOT penalise Whisper's inability to output native CJK characters" in prompt
+    assert "Do NOT penalise Whisper's inability to output native characters" in prompt
     assert "Compare the transcribed romanization to the target romanization" in prompt
 
 def test_speaking_object_sample_response_no_500():

@@ -16,9 +16,9 @@ from app.services import groq_service, scoring_service
 router = APIRouter(prefix="/validate", tags=["Validation"])
 
 # Activity types that use local MCQ scoring (fast, no Groq needed)
-MCQ_TYPES = set()
+MCQ_TYPES = {"test"}
 # Activity types that use Groq AI evaluation
-GROQ_TYPES = {"writing", "speaking", "pronunciation", "listening", "reading", "vocabulary", "vocab", "lesson", "test"}
+GROQ_TYPES = {"writing", "speaking", "pronunciation", "listening", "reading", "vocabulary", "vocab", "lesson"}
 
 
 @router.post("", response_model=ValidateResponse)
